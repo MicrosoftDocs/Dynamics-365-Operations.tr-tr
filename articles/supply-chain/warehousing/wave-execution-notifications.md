@@ -1,6 +1,6 @@
 ---
 title: Dalga yürütme bildirimleri
-description: Bu konu, dalga yürütme bildirimlerini ve bunları nasıl ayarlayabileceğinizi açıklamaktadır.
+description: Bu makale, dalga yürütme bildirimlerini ve bunları nasıl ayarlayabileceğinizi açıklamaktadır.
 author: Mirzaab
 ms.date: 04/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: b6218610b673963f5d43e1b29c6fc356ea977935
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6f8f43bcdaae9a14350c66039d204caf38d33768
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906985"
 ---
 # <a name="wave-execution-notifications"></a>Dalga yürütme bildirimleri
 

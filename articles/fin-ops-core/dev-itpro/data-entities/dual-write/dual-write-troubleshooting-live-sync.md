@@ -1,6 +1,6 @@
 ---
 title: Canlı eşitleme sorunlarını giderme
-description: Bu konu,canlı eşitlemeyle ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlar.
+description: Bu makalede,canlı eşitlemeyle ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 08/19/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: df184decdfa900ccb5c2070575e55052b9dfc547
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 9d27331b940a95168810c2f1ec4ae240a9df93a8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062375"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896719"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Canlı eşitleme sorunlarını giderme
 
@@ -22,10 +22,10 @@ ms.locfileid: "8062375"
 
 
 
-Bu konu, Finans ve Operasyon uygulamaları ile Microsoft Dataverse arasında çift yazma tümleştirmesi hakkında sorun giderme bilgileri sağlar. Bu konu,canlı eşitlemeyle ilgili sorunları çözmenize yardımcı olabilecek bilgileri sağlar.
+Bu makalede, Finans ve Operasyon uygulamaları ile Microsoft Dataverse arasında çift yazma tümleştirmesi hakkında sorun giderme bilgileri sağlanmaktadır. Bu konu,canlı eşitlemeyle ilgili sorunları çözmenize yardımcı olabilecek bilgileri sağlar.
 
 > [!IMPORTANT]
-> Bu konunun ele aldığı sorunlardan bazıları sistem yöneticisi rolü veya Azure Active Directory (Azure AD) kiracısı yönetici kimlik bilgileri gerektirebilir. Her bölümde, belirli bir rol veya belirli kimlik bilgilerinin gerekli olup olmadığı açıklanmaktadır.
+> Bu makalenin ele aldığı sorunlardan bazıları sistem yöneticisi rolü veya Azure Active Directory (Azure AD) kiracısı yönetici kimlik bilgileri gerektirebilir. Her bölümde, belirli bir rol veya belirli kimlik bilgilerinin gerekli olup olmadığı açıklanmaktadır.
 
 ## <a name="live-synchronization-shows-an-error-when-you-create-a-row"></a>Canlı eşitleme, bir satır oluşturduğunuzda hata gösteriyor
 

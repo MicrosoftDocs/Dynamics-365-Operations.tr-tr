@@ -1,6 +1,6 @@
 ---
 title: RCS'de ER yapılandırmaları oluşturma ve bunları Genel depoya yükleme
-description: Bu konuda, Microsoft Regulatory Configuration Services (RCS) içinde Elektronik raporlama (ER) yapılandırmasının nasıl oluşturulacağı ve Genel depoya nasıl yükleneceği açıklanmaktadır.
+description: Bu makalede, Microsoft Regulatory Configuration Services'da (RCS) Elektronik raporlama (ER) yapılandırmasının nasıl oluşturulacağı ve Genel depoya nasıl yükleneceği açıklanmaktadır.
 author: JaneA07
 ms.date: 01/11/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: eb04362d6d7261af56d2940b085fbc8d43c9d662
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 8cfbcfea3c6056d87eb600c9a2f9e0d1727c30ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7965101"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894757"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>Regulatory Configuration Services (RCS) içinde ER yapılandırmaları oluşturma ve bunları Genel depoya yükleme
 

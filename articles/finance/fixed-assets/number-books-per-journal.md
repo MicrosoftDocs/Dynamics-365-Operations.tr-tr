@@ -1,6 +1,6 @@
 ---
 title: Günlük başına defter sayısı
-description: Bu konu, bir toplu iş aracılığıyla sabit varlık alımı veya amortisman teklifi oluşturduğunuzda günlükler ve varlık defterleri arasındaki ilişkiyi açıklar. Her bir alım ve amortisman için dahil edilen maksimum defter sayısını tanımlayabilirsiniz.
+description: Bu makalede, bir toplu iş aracılığıyla sabit varlık alımı veya amortisman teklifi oluşturduğunuzda günlükler ve varlık defterleri arasındaki ilişki açıklanmaktadır. Her bir alım ve amortisman için dahil edilen maksimum defter sayısını tanımlayabilirsiniz.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1e37d40c30d784eea5ba097447f2b2e69920830a
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 2dbd50963cf13f00e09b82e884cd8ebc0b67d424
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722394"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883343"
 ---
 # <a name="number-of-books-per-journal"></a>Günlük başına defter sayısı
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, bir toplu iş aracılığıyla sabit varlık alımı veya amortisman teklifi oluşturduğunuzda günlükler ve varlık defterleri arasındaki ilişkiyi açıklar. Her bir alım ve amortisman için dahil edilen maksimum kitap sayısını **Sabit varlıklar parametreleri** sayfasındaki (**Sabit varlıklar \> Kurulum \> Sabit varlıklar parametreleri**) **Genel** sekmesinde yer alan **Günlük başına defter sayısı**'ndaki alanları kullanaraktanımlayabilirsiniz. Bu alanlar, her bir alım günlüğü ve amortisman günlüğü başına varlık defteri sayısını dağıtmanıza olanak sağlar.
+Bu makalede, bir toplu iş aracılığıyla sabit varlık alımı veya amortisman teklifi oluşturduğunuzda günlükler ve varlık defterleri arasındaki ilişki açıklanmaktadır. Her bir alım ve amortisman için dahil edilen maksimum kitap sayısını **Sabit varlıklar parametreleri** sayfasındaki (**Sabit varlıklar \> Kurulum \> Sabit varlıklar parametreleri**) **Genel** sekmesinde yer alan **Günlük başına defter sayısı**'ndaki alanları kullanaraktanımlayabilirsiniz. Bu alanlar, her bir alım günlüğü ve amortisman günlüğü başına varlık defteri sayısını dağıtmanıza olanak sağlar.
 
 Bir alım teklifi için varsayılan değer en az 10.000 defterdir. Bir amortisman teklifi için varsayılan değer en az 2.000 defterdir.
 

@@ -1,6 +1,6 @@
 ---
 title: POWER ER işlevi
-description: Bu konu, POWER Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
+description: Bu makalede, POWER Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlanmaktadır.
 author: NickSelin
 ms.date: 12/17/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6955d2787b2a9be6d38fe10165a9d5ef8310b108e3a9772709d9d1ff51712424
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da3ae988b57cb5588de1e2fd8ee962b77b5534ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767156"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864702"
 ---
 # <a name="power-er-function"></a>POWER ER işlevi
 

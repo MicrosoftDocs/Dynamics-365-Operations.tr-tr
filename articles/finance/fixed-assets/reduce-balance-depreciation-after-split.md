@@ -1,6 +1,6 @@
 ---
 title: Bölmeden sonra azalan bakiyeli amortisman
-description: Bu konu, Sabit varlıklarda bir varlık bölündükten sonra amortismanı hesaplamak için azalan bakiye yönteminin kullanılmasını açıklamaktadır.
+description: Bu makale, Sabit varlıklarda bir varlık bölündükten sonra amortismanı hesaplamak için azalan bakiye yönteminin kullanılmasını açıklamaktadır.
 author: moaamer
 ms.date: 11/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 35637ac1484121232c3571d1a26132a86d69e366
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 539967a9a73da91f6b49c1bb89f404267ae0a804
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726767"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883314"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Bölmeden sonra azalan bakiyeli amortisman
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Sabit varlıklarda varlık başka bir varlığa bölündükten sonra amortismanı hesaplamak için azalan bakiye yönteminin kullanılmasını açıklamaktadır. Varlık defterinde yapılandırılan amortisman yılı mali yıldır. Daha fazla bilgi için bkz. [Azalan bakiyeli amortisman](reduce-balance-depreciation.md) ve [Sabit varlığı bölme](tasks/split-fixed-asset.md).
+Bu makale, Sabit varlıklarda varlık başka bir varlığa bölündükten sonra amortismanı hesaplamak için azalan bakiye yönteminin kullanılmasını açıklamaktadır. Varlık defterinde yapılandırılan amortisman yılı mali yıldır. Daha fazla bilgi için bkz. [Azalan bakiyeli amortisman](reduce-balance-depreciation.md) ve [Sabit varlığı bölme](tasks/split-fixed-asset.md).
 
 Sabit bir varlığı, varlığın elde edildiği dönemden sonraki mali dönemde bölerseniz, varlığın önceki yıl için net defter değeri (NDD) azalan bakiyeli amortisman ile hesaplanır. Ayrıca, varlığı bölecek hareketten oluşturulan alım ve amortisman düzeltme hareketlerini de hesaplar. Bu davranış, varlığın bir mali yılda edinildiği ve sonraki bir mali yılda bölündüğü varsayılır. Bölünmeden sonra özgün varlık için amorti edilmesi gereken tutar, varlık bölünmeden önce varlığın NDD'sini ve bölünme için deftere nakledilen alım ve amortisman düzeltme hareketini yansıtır.
 

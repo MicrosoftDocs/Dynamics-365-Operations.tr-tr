@@ -1,6 +1,6 @@
 ---
 title: Seçilen dosyalardan verileri toplu iş modunda el ile içeri aktarma
-description: Bu konuda, seçilen dosyalardan verilerin toplu iş modunda el ile nasıl içeri aktarılacağı açıklanmaktadır.
+description: Bu makalede, seçilen dosyalardan verilerin toplu iş modunda el ile nasıl içeri aktarılacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 01/07/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-01-01
 ms.dyn365.ops.version: Release 10.0.25
-ms.openlocfilehash: 8615b5a0623fd696c64f4ec03e481a2bcb16c0ac
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 2dec838439876fd8e57ea4a7078d97267e5ea1a2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075631"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890197"
 ---
 # <a name="import-data-from-manually-selected-files-in-batch-mode"></a>Seçilen dosyalardan verileri toplu iş modunda el ile içeri aktarma
 
@@ -31,11 +31,11 @@ ms.locfileid: "8075631"
 
 Toplu iş modunda veri içeri aktarmayı destekleyen yeni ER özelliği, bu işlemin katılımsız olarak yapılandırılmasını sağlar. ER kullanıcı arabiriminden (UI) yeni bir toplu işlem planlayarak veri içeri aktarma işlemini gerçekleştirmek için ER yapılandırmalarını kullanabilirsiniz.
 
-Bu konuda, el ile seçilen bir dosyadan toplu iş modunda veri içeri aktarma işleminin nasıl tamamlandığı açıklanmaktadır. Örneklerde iş verisi olarak satıcı hareketleri kullanılmaktadır. Bu örneklerin adımları **USMF** şirketinde tamamlanabilir. Kodlama gerekmez.
+Bu makalede, el ile seçilen bir dosyadan toplu iş modunda veri içeri aktarma işleminin nasıl tamamlandığı açıklanmaktadır. Örneklerde iş verisi olarak satıcı hareketleri kullanılmaktadır. Bu örneklerin adımları **USMF** şirketinde tamamlanabilir. Kodlama gerekmez.
 
-## <a name="prerequisites"></a>Önkoşullar
+## <a name="prerequisites"></a>Ön Koşullar
 
-Bu konudaki örnekleri tamamlamak için şu erişimlere sahip olmanız gerekir:
+Bu makaledeki örnekleri tamamlamak için şu erişimlere sahip olmanız gerekir:
 
 - Aşağıdaki rollerden biri:
 
@@ -61,7 +61,7 @@ Gerekli ER yapılandırmalarını oluşturmak ve diğer önkoşulları karşıla
     | **1099 Ödemeleri modeli** ER veri modeli yapılandırması | [1099model.xml](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml) |
     | **Satıcıların hareketlerini içeri aktarmak için (Excel)** ER biçimi yapılandırması | [1099format-import-from-excel.xml](https://download.microsoft.com/download/b/3/8/b38faf0a-fbaf-4e9e-84c2-dedae7464880/1099format-import-from-excel.xml) |
 
-2. İndirilen ER yapılandırmalarını aşağıdaki sırayla Dynamics 365 Finance örneğinize içeri aktarmak için [XML dosyasından yükle](er-defer-sequence-element.md#import-the-sample-er-configurations) seçeneğini kullanın:
+2. İndirilen ER yapılandırmalarını aşağıdaki sırayla Dynamics 365 Finance örneğinize içeri aktarmak için [XML dosyasından yükle](er-defer-sequence-element.md#import-the-sample-er-configurations) ER seçeneğini kullanın:
 
     1. ER data model configuration
     2. ER format configuration

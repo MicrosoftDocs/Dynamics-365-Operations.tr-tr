@@ -1,6 +1,6 @@
 ---
-title: Oluşturulan belgeler için özel depolama konumu belirtin
-description: Bu konu, Elektronik raporlama (ER) biçimlerinin oluşturduğu belgeler için depolama konumlarının listesini genişletmeyi açıklar.
+title: Oluşturulan belgeler için özel depolama konumu belirtme
+description: Bu makalede, Elektronik raporlama (ER) biçimlerinin oluşturduğu belgeler için depolama konumlarının listesinin nasıl genişletileceği açıklanmaktadır.
 author: NickSelin
 ms.date: 02/22/2019
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 61a1e46497d650e2c063a5fe7537d17cf7aa1828a5a4504bb781e84aeb88f04a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 70d9ccfac18b4cdf1ea19b3def87fc10ba9ddcb4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864760"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Oluşturulan belgeler için özel depolama konumu belirtin
 
 [!include[banner](../includes/banner.md)]
 
-Elektronik raporlama (ER) çerçevesinin Uygulama programlama arabirimi (API), ER biçimlerinin oluşturduğu depolama konumlarını genişletmenize olanak sağlar. Bu konu, özel bir depolama konumu eklemek için tamamlamanız gereken ana görevlerin genel bakışını içerir.
+Elektronik raporlama (ER) çerçevesinin Uygulama programlama arabirimi (API), ER biçimlerinin oluşturduğu depolama konumlarını genişletmenize olanak sağlar. Bu makalede, özel bir depolama konumu eklemek için tamamlamanız gereken ana görevlere dair genel bir bakış sunulmaktadır.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
@@ -118,7 +118,7 @@ public DocuRef insertFile(
 ## <a name="configure-an-er-destination"></a>Bir ER hedefini yapılandırma
 
 1. Oluşturduğunuz veya içe aktardığınız ER biçiminin önceden belirtilen öğelerden biri için (dosya, klasörü, birleştirme veya ek) arşivlenen hedefleri yapılandırın. Yönergeler için bkz. [ER Yapılandır hedefler](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
-2. Yapılandırılan hedef için daha önce eklediğiniz belge türünü kullanın. (Bu konudaki örnek için, belge türü **FileX**'tir.)
+2. Yapılandırılan hedef için daha önce eklediğiniz belge türünü kullanın. (Bu makaledeki örnek için, belge türü **FileX**'tir.)
 
 ![Hedef ayarları iletişim kutusu.](media/er-extend-file-storages-destination.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Satıcı fatura ilkelerini ayarlama
-description: Bu konuda, satıcı fatura ilkelerinin nasıl ayarlanacağını açıklanmaktadır.
+title: Satıcı fatura ilkelerini ayarla
+description: Bu makalede, satıcı faturası ilkelerinin nasıl ayarlanacağı açıklanmaktadır.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 049b38b6feba5f4369d79b89b4c81a8195dd7758
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109768"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904744"
 ---
-# <a name="set-up-vendor-invoice-policies"></a>Satıcı fatura ilkelerini ayarlama
+# <a name="set-up-vendor-invoice-policies"></a>Satıcı fatura ilkelerini ayarla
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, satıcı fatura ilkelerinin nasıl ayarlanacağını açıklanmaktadır. **Satıcı faturası** sayfasından bir satıcı faturası naklettiğiniz zaman ve satıcı faturası **İlke ihlalleri** sayfasını açtığınız zaman satıcı faturası ilkeleri çalıştırılır. Ayrıca, satıcı faturası iş akışını yapılandırarak, iş akışına her fatura gönderişinizde satıcı faturası ilkelerinin çalıştırılmasını sağlayabilirsiniz. 
+Bu makalede, satıcı faturası ilkelerinin nasıl ayarlanacağı açıklanmaktadır. **Satıcı faturası** sayfasından bir satıcı faturası naklettiğiniz zaman ve satıcı faturası **İlke ihlalleri** sayfasını açtığınız zaman satıcı faturası ilkeleri çalıştırılır. Ayrıca, satıcı faturası iş akışını yapılandırarak, iş akışına her fatura gönderişinizde satıcı faturası ilkelerinin çalıştırılmasını sağlayabilirsiniz. 
 
 - Fatura kaydında veya fatura günlüğünde oluşturulmuş faturalara satıcı faturası ilkeleri uygulanmaz.  
 - Fatura eşleştirme doğrulaması satıcı faturası ilkeleri kullanmaz, bunun yerine **Borç hesapları parametreleri** sayfasında ayarlanır.  

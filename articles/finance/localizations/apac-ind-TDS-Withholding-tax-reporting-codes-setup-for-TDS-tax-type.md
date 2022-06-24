@@ -1,6 +1,6 @@
 ---
 title: TDS vergi türü için stopaj vergisi raporlama kodlarını ayarlama
-description: Stopaj vergisi raporlama kodları, Kaynakta Kesilen Vergi (TDS) için Form 26Q ve Form 27Q raporlarını oluşturmak üzere kullanılır. Bu konu, TDS raporlama kodlarını ayarlamak için stopaj vergisi raporlama kodları adımlarının nasıl ayarlanacağını açıklar.
+description: Stopaj vergisi raporlama kodları, Kaynakta Kesilen Vergi (TDS) için Form 26Q ve Form 27Q raporlarını oluşturmak üzere kullanılır. Bu makalede, TDS raporlama kodlarını ayarlamak için stopaj vergisi raporlama kodları adımlarının nasıl ayarlanacağı açıklanmaktadır.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 769159fc10c3edfba8c2f626e7bff702e3e5cd7f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: bdd2e89d29807dc31d8f2d4684ee413470b1dbde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726002"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907812"
 ---
 # <a name="set-up-withholding-tax-reporting-codes-for-the-tds-tax-type"></a>TDS vergi türü için stopaj vergisi raporlama kodlarını ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Stopaj vergisi raporlama kodları, Kaynakta Kesilen Vergi (TDS) için Form 26Q ve Form 27Q raporlarını oluşturmak üzere kullanılır. Bu konu, TDS raporlama kodlarını ayarlamak için stopaj vergisi raporlama kodları adımlarının nasıl ayarlanacağını açıklar.
+Stopaj vergisi raporlama kodları, Kaynakta Kesilen Vergi (TDS) için Form 26Q ve Form 27Q raporlarını oluşturmak üzere kullanılır. Bu makalede, TDS raporlama kodlarını ayarlamak için stopaj vergisi raporlama kodları adımlarının nasıl ayarlanacağı açıklanmaktadır.
 
 1. **Vergi \> Kurulum \> Stopaj vergisi \> Stopaj vergisi raporlama kodları**'na gidin.
 

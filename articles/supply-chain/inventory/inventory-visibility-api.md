@@ -1,6 +1,6 @@
 ---
-title: Stok Görünürlüğü genel API'si
-description: Bu konuda, Stok Görünürlüğü tarafından sağlanan genel API'ler açıklanmaktadır.
+title: Inventory Visibility genel API'leri
+description: Bu makalede, Stok Görünürlüğü tarafından sağlanan genel API'ler açıklanmaktadır.
 author: yufeihuang
 ms.date: 12/09/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 25f6539616d4567249e1d1eb4297090176526fde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902038"
 ---
-# <a name="inventory-visibility-public-apis"></a>Stok Görünürlüğü genel API'si
+# <a name="inventory-visibility-public-apis"></a>Inventory Visibility genel API'leri
 
 [!include [banner](../includes/banner.md)]
 
 
-Bu konuda, Stok Görünürlüğü tarafından sağlanan genel API'ler açıklanmaktadır.
+Bu makalede, Stok Görünürlüğü tarafından sağlanan genel API'ler açıklanmaktadır.
 
 Stok Görünürlüğü Eklentisi'nin genel REST API'si, birkaç özel tümleştirme uç noktası sunar. Dört ana etkileşim türünü destekler:
 
@@ -160,7 +160,7 @@ Güvenlik hizmeti belirteci almak için aşağıdaki adımları izleyin.
    ```
 
 > [!IMPORTANT]
-> Stok Görünürlüğü genel API'lerini çağırmak için *Postman* istek koleksiyonunu kullandığınızda her istek için bir taşıyıcı belirteci eklemelisiniz. Taşıyıcı belirtecinizi bulmak için istek URL'sinin altındaki **Yetkilendirme** sekmesini seçin, **Taşıyıcı Belirteci** türünü seçin ve son adımda getirilen erişim belirtecini kopyalayın. Bu konunun sonraki bölümlerinde son adımda getirilen belirteci temsil etmek için `$access_token` kullanılacaktır.
+> Stok Görünürlüğü genel API'lerini çağırmak için *Postman* istek koleksiyonunu kullandığınızda her istek için bir taşıyıcı belirteci eklemelisiniz. Taşıyıcı belirtecinizi bulmak için istek URL'sinin altındaki **Yetkilendirme** sekmesini seçin, **Taşıyıcı Belirteci** türünü seçin ve son adımda getirilen erişim belirtecini kopyalayın. Bu makalenin sonraki bölümlerinde son adımda getirilen belirteci temsil etmek için `$access_token` kullanılacaktır.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Eldeki değişiklik olayları oluşturma
 
@@ -359,7 +359,7 @@ Body:
     ]
 ```
 
-Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir. Bu API'nin davranışı, bu konuda daha önce [Eldeki değişiklik olayları oluşturma](#create-onhand-change-event) bölümünde açıklanan API'lerin davranışından farklıdır. Bu örnekte, *Tişört* ürünü miktarı 1 olarak ayarlanır.
+Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir. Bu API'nin davranışı, bu makalede daha önce [Eldeki değişiklik olayları oluşturma](#create-onhand-change-event) bölümünde açıklanan API'lerin davranışından farklıdır. Bu örnekte, *Tişört* ürünü miktarı 1 olarak ayarlanır.
 
 ```json
 [

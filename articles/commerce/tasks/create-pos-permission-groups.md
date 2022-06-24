@@ -1,6 +1,6 @@
 ---
 title: POS izin grupları oluşturma
-description: Bu konu POS izin grubunun nasıl oluşturulacağını açıklar.
+description: Bu makale POS izin grubunun nasıl oluşturulacağını açıklar.
 author: scott-tucker
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 362fbfb5f0cae7cc8583754b53a198eae90bc67f24a871523374c4b7997826eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 009f311dd00f48edb8c0f6622f0a5107881ab2ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762308"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905436"
 ---
 # <a name="create-pos-permission-groups"></a>POS izin grupları oluşturma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu POS izin grubunun nasıl oluşturulacağını açıklar. Bu görevi oluşturmak için kullanılan demo verisi şirketi USRT'dir. Bu görev, Commerce operasyonları yöneticisi rolü için hazırlanmıştır.
+Bu makale POS izin grubunun nasıl oluşturulacağını açıklar. Bu görevi oluşturmak için kullanılan demo verisi şirketi USRT'dir. Bu görev, Commerce operasyonları yöneticisi rolü için hazırlanmıştır.
 
 1. Gezinti bölmesinde **Modüller > Retail and Commerce > Personel > İzin grupları**'na gidin.
 2. **Yeni**'yi seçin.

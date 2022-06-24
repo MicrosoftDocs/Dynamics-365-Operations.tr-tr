@@ -1,6 +1,6 @@
 ---
 title: Ödeme tutarı türleri ekle
-description: Bu konuda Varlık kiralamada ödeme tutarı ayarlama açıklanmaktadır.
+description: Bu makalede, Varlık kiralamada ödeme tutarı türlerinin nasıl ayarlanacağı açıklanmaktadır.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 037afa458277a3a07bcb937c6ec4d961d0dd5ca9
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 03fc903e6cfe78ef2fed7e3a0744a8f809f6892d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968331"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891623"
 ---
 # <a name="add-payment-amount-types"></a>Ödeme tutarı türleri ekle
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda Varlık kiralamada ödeme tutarı ayarlama açıklanır. Bu şekilde, ödeme planı satırlarına peşin ödeme tutarını eklemek yerine, kira ödemesi tutarını silebilirsiniz.
+Bu makalede, Varlık kiralamada ödeme tutarı türlerinin nasıl ayarlanacağı açıklanmaktadır. Bu şekilde, ödeme planı satırlarına peşin ödeme tutarını eklemek yerine, kira ödemesi tutarını silebilirsiniz.
 
 Ödeme tutarı türleri eklemek için bu adımları izleyin.
 

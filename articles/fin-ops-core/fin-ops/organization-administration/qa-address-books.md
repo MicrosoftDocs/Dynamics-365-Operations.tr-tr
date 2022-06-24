@@ -1,6 +1,6 @@
 ---
 title: Adres defterleri SSS
-description: Bu konu, adres defterleri hakkında sık sorulan sorulara yanıt sağlar.
+description: Bu makale, adres defterleri hakkında sık sorulan sorulara yanıt sağlar.
 author: msftbrking
 ms.date: 02/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d429639f52c745a737567419b6012884ab20d43d
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 0b7262bc0be5330ac239fbceff96108477e2a796
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463646"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881036"
 ---
 # <a name="address-books-faq"></a>Adres defterleriyle ilgili SSS
 

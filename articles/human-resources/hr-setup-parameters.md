@@ -1,6 +1,6 @@
 ---
 title: Human Resources parametrelerini yapılandırma
-description: Bu konuda, Dynamics 365 Human Resources'da şirkete özel parametrelerin nasıl ayarlanacağı açıklanmaktadır.
+description: Bu makalede, Dynamics 365 Human Resources'da şirkete özgü İK parametrelerinin nasıl ayarlanacağı açıklanmaktadır.
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1fc8ba3f69f216d66850485b6ba33cd324a57156
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: dd645dcc79672e7f69afe47b803b90a04c22305d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689424"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856294"
 ---
 # <a name="configure-human-resources-parameters"></a>Human Resources parametrelerini yapılandırma
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Human Resources parametrelerinin ayarları şirketler arasında paylaşılır ancak diğer parametrelerin ayarları şirkete özeldir. Bu konu başlığında, şirkete özgü Human Resources parametrelerinin nasıl ayarlanacağı açıklanmaktadır.
+Human Resources parametrelerinin ayarları şirketler arasında paylaşılır ancak diğer parametrelerin ayarları şirkete özeldir. Bu makalede, şirkete özgü Human Resources parametrelerinin nasıl ayarlanacağı açıklanmaktadır.
 
 İki sayfa Human Resources parametrelerini ayarlamak için kullanılır. Şirketler arasında paylaşılan parametreler için **İnsan Kaynakları paylaşılan parametreleri** sayfasını kullanırsınız. Şirkete özgü parametreler için (diğer bir deyişle, tek bir şirket için uygulanan ayarlar) **İnsan Kaynakları parametreleri** sayfasını kullanırsınız.
 

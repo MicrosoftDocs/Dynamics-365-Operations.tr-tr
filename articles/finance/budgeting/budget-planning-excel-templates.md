@@ -1,6 +1,6 @@
 ---
 title: Excel için bütçe planlama şablonları
-description: Bu konu bütçe planlamalarında kullanılabilecek Microsoft Excel şablonlarının nasıl oluşturulacağını açıklar.
+description: Bu makalede, bütçe planlamalarında kullanılabilecek Microsoft Excel şablonlarının nasıl oluşturulacağı açıklanmaktadır.
 author: panolte
 ms.date: 01/12/2018
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 90691aec0ffad8d33a19a09e7bc521cd6d6a09a9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711990"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872513"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Excel için bütçe planlama şablonları
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu bütçe planlamalarında kullanılabilecek Microsoft Excel şablonlarının nasıl oluşturulacağını açıklar.
+Bu makalede, bütçe planlamalarında kullanılabilecek Microsoft Excel şablonlarının nasıl oluşturulacağı açıklanmaktadır.
 
-Bu konu, standart demo veri kümesi ve Yönetici kullanıcı oturum açma kullanarak bütçe planlamalarında kullanılacak Excel şablonlarının nasıl oluşturulacağını gösterir. Bütçe planlama hakkında daha fazla bilgi için bkz: [Bütçe planlamaya genel bakış](budget-planning-overview-configuration.md). Temel modül yapılandırmasını ve kullanım prensiplerini öğrenmek için [Bütçe planlama](budget-plan.md) eğitimini de takip edebilirsiniz.
+Bu makalede, standart demo veri kümesi ve Yönetici kullanıcı oturum açma bilgileriyle bütçe planlamalarında kullanılacak Excel şablonlarının nasıl oluşturulacağı gösterilmektedir. Bütçe planlama hakkında daha fazla bilgi için bkz: [Bütçe planlamaya genel bakış](budget-planning-overview-configuration.md). Temel modül yapılandırmasını ve kullanım prensiplerini öğrenmek için [Bütçe planlama](budget-plan.md) eğitimini de takip edebilirsiniz.
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Bütçe planlama belge şablonu kullanarak bir çalışma sayfası oluşturun
 
-Bütçe planlama belgeleri bir veya daha fazla düzen kullanılarak görüntülenebilir ve düzenlenebilir. Her düzen, bir Excel çalışma sayfasında bütçe planını görüntülemek ve düzenlemek için ilişkili bir bütçe planlama belgesi şablonuna sahip olabilir. Bu konuda, bir bütçe plan belgesi şablonu, varsayılan düzen yapılandırması kullanılarak oluşturulacaktır. 
+Bütçe planlama belgeleri bir veya daha fazla düzen kullanılarak görüntülenebilir ve düzenlenebilir. Her düzen, bir Excel çalışma sayfasında bütçe planını görüntülemek ve düzenlemek için ilişkili bir bütçe planlama belgesi şablonuna sahip olabilir. Bu makalede, varsayılan düzen yapılandırması kullanılarak bir bütçe plan belgesi şablonu oluşturulacaktır. 
 
 1. **Bütçe planları listesini** (**Bütçeleme** &gt; **Bütçe planları**) açın. 
 2. Yeni bir bütçe plan belgesi oluşturmak için **Yeni** üzerine tıklayın. 

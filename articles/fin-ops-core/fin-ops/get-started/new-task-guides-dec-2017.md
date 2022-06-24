@@ -1,6 +1,6 @@
 ---
 title: Yeni veya güncelleştirilmiş görev kılavuzları (Aralık 2017)
-description: Bu başlık, Microsoft Dynamics 365 for Operations için Microsoft (Aralık 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır.
+description: Bu makalede, Microsoft Dynamics 365 for Operations için Microsoft (Aralık 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları listelenmektedir. Başlangıç Kitaplığı yayımlanmamıştır.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 42bf8e4a1264b67ff11dad7417d16b6273e6feb36294596014faf562a4a0ef3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b111b686bc7fd06508878261e959a8dad92aacc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723067"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855563"
 ---
 # <a name="new-or-updated-task-guides-december-2017"></a>Yeni veya güncelleştirilmiş görev kılavuzları (Aralık 2017)
 
 [!include [banner](../includes/banner.md)]
 
-Bu başlık, Microsoft Dynamics 365 for Operations için Microsoft (Aralık 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler.
+Bu makalede, Microsoft Dynamics 365 for Operations için Microsoft (Aralık 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları listelenmektedir.
 
 ## <a name="new-task-guides"></a>Yeni görev kılavuzları
 

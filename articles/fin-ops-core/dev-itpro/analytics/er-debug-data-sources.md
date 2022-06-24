@@ -1,6 +1,6 @@
 ---
 title: Veri akışı ve dönüşümünü analiz etmek için yürütülen bir ER biçiminin veri kaynaklarında hata ayıklama
-description: Bu konu, yapılandırılmış veri akışını ve dönüştürmeyi daha iyi anlamak için yürütülen bir ER biçiminin veri kaynaklarında nasıl hata ayıklayabileceğinizi açıklamaktadır.
+description: Bu makalede, yapılandırılmış veri akışını ve dönüştürmeyi daha iyi anlamak için yürütülen bir ER biçiminin veri kaynaklarında nasıl hata ayıklayabileceğiniz açıklanmaktadır.
 author: NickSelin
 ms.date: 04/22/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 02aee8c6ec3b2720c2fcbb17f15791d88d688a34
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 6fca177093caf42ad27b58eaa97e3f6997289eeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323790"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884242"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Veri akışı ve dönüşümünü analiz etmek için yürütülen bir ER biçiminin veri kaynaklarında hata ayıklama
 
@@ -34,7 +34,7 @@ Bazı durumlarda, oluşturulan çıktının verileri uygulama veritabanındaki a
 
 Veri kaynağı hata ayıklama özelliğini etkinleştirmek için, **Biçim çalıştırmada veri hata ayıklamasını etkinleştir** seçeneğini ER kullanıcı parametrelerinde **Evet** olarak ayarlayın. Böylece, giden belgeler oluşturmak üzere bir ER biçimi çalıştırırken veri kaynağı hata ayıklaması başlatabilirsiniz. Ayrıca, [ER İşlem tasarımcısında](./tasks/er-format-configuration-2016-11.md#design-the-format-of-an-electronic-document) yapılandırılan bir ER biçimi için veri kaynağı hata ayıklamasını başlatmak için **Hata ayıklamayı başlat** seçeneğini kullanabilirsiniz.
 
-Bu konu, yürütülen ER biçimlerinde veri kaynağı hata ayıklamasını başlatmak için yönergeler sağlar. Veri akışını ve veri dönüştürme işlemlerini anlamanıza yardımcı olabilecek bilgiler açıklanır. Bu konudaki örnekler, satıcı ödemelerini işlemede kullanılan iş sürecini kullanır.
+Bu makalede, yürütülen ER biçimlerinde veri kaynağı hata ayıklamasını başlatmak için yönergeler sağlanmaktadır. Veri akışını ve veri dönüştürme işlemlerini anlamanıza yardımcı olabilecek bilgiler açıklanır. Bu makaledeki örnekler, satıcı ödemelerini işlemede kullanılan iş sürecini kullanır.
 
 ## <a name="limitations"></a>Sınırlamalar
 
@@ -47,9 +47,9 @@ Aşağıdaki ER biçimi ayarlarına şu anda veri kaynağı hata ayıklama için
 - İfadeleri etkinleştirme
 - Bellek içi veri toplama ayrıntıları
 
-## <a name="prerequisites"></a>Önkoşullar
+## <a name="prerequisites"></a>Ön Koşullar
 
-- Bu konudaki örnekleri tamamlamak için aşağıdaki [rollerden](../sysadmin/tasks/assign-users-security-roles.md) birine erişiminiz olmalıdır:
+- Bu makaledeki örnekleri tamamlamak için aşağıdaki [rollerden](../sysadmin/tasks/assign-users-security-roles.md) birine erişiminiz olmalıdır:
 
     - Elektronik raporlama geliştirici
     - Elektronik raporlama işlev danışmanı
@@ -57,12 +57,12 @@ Aşağıdaki ER biçimi ayarlarına şu anda veri kaynağı hata ayıklama için
 
 - Şirketin **DEMF** olarak ayarlanması gerekir.
 
-- Bu konunun [Ek 1](#appendix1) bölümündeki adımları izleyerek satıcı ödemelerini işlemek için gerekli olan Microsoft ER çözümü bileşenlerini indirin.
-- İndireceğiniz ER çözümünü kullanarak satıcı ödemesi işleme için Borç hesaplarını hazırlamak üzere bu konunun [Ek 2](#appendix2) bölümündeki konuları izleyin.
+- Bu makalenin [Ek 1](#appendix1) bölümündeki adımları izleyerek satıcı ödemelerini işlemek için gerekli olan Microsoft ER çözümü bileşenlerini indirin.
+- İndireceğiniz ER çözümünü kullanarak satıcı ödemesi işleme için Borç hesaplarını hazırlamak üzere bu makalenin [Ek 2](#appendix2) bölümündeki konuları izleyin.
 
 ## <a name="process-a-vendor-payment-to-get-a-payment-file"></a>Ödeme dosyasını almak için satıcı ödemesini işleme
 
-1. Satıcı ödemelerini işlemek için bu konudaki [Ek 3](#appendix3) bölümünde yer alan adımları izleyin.
+1. Satıcı ödemelerini işlemek için bu makaledeki [Ek 3](#appendix3) bölümünde yer alan adımları izleyin.
 
     ![Satıcı ödeme işlemi devam ediyor.](./media/er-data-debugger-process-payment.png)
 
@@ -89,7 +89,7 @@ Aşağıdaki ER biçimi ayarlarına şu anda veri kaynağı hata ayıklama için
 
 ## <a name="process-a-vendor-payment-for-debugging"></a>Hata ayıklama için satıcı ödemesini işleme
 
-1. Satıcı ödemelerini işlemek için bu konudaki [Ek 3](#appendix3) bölümünde yer alan adımları izleyin.
+1. Satıcı ödemelerini işlemek için bu makaledeki [Ek 3](#appendix3) bölümünde yer alan adımları izleyin.
 2. İleti kutusunda, satıcı ödeme işlemini kesintiye uğratmak istediğinizi doğrulamak için **Evet**'i seçin ve bunun yerine **Veri Kaynaklarında Hata Ayıkla** sayfasında veri kaynağı hata ayıklama işlemini başlatın.
 
     ![Onay iletisi kutusu.](./media/er-data-debugger-start-debugging.png)
@@ -188,7 +188,7 @@ Düzenlenmekte olan ER eşlemesinin model eşleme bileşeni hata ayıklama için
 
 ![Yapılandırma deposu sayfasındaki ER ödeme biçimini içe aktarma.](./media/er-data-debugger-import-from-repo.png)
 
-Seçili ER biçimine ek olarak, aşağıdaki [yapılandırmalar](general-electronic-reporting.md#Configuration) Microsoft Dynamics 365 Finance kurulumunuza **ISO20022 Alacak transferi** ER çözümünüzün bir parçası olarak otomatik olarak aktarılmalıdır:
+Seçili ER biçimine ek olarak, aşağıdaki [yapılandırmalar](general-electronic-reporting.md#Configuration) Microsoft Dynamics 365 Finance örneğinize **ISO20022 Alacak transferi** ER çözümünüzün bir parçası olarak otomatik olarak aktarılmalıdır:
 
 - **Ödeme modeli** ER veri modeli yapılandırması
 - **ISO20022 Alacak transferi** ER biçimi yapılandırması

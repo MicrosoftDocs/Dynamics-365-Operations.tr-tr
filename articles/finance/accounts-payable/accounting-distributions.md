@@ -1,6 +1,6 @@
 ---
 title: Muhasebe dağılımları
-description: Bu konuda, muhasebe dağılımları hakkında bilgiler verilmekte ve muhasebe dağılımlarını işlemek için kullanılabilir seçenekler açıklanmaktadır.
+description: Bu makalede, muhasebe dağılımları hakkında bilgiler verilmekte ve muhasebe dağılımlarını işlemek için kullanılabilir seçenekler açıklanmaktadır.
 author: sunfzam
 ms.date: 09/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8178836318600fd6e702d097062d30b91e6c1a
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6aa3dce4bfda7f3c9243387cd398f08e7b990b2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894214"
 ---
 # <a name="accounting-distributions"></a>Muhasebe dağıtımları
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, muhasebe dağılımları hakkında bilgiler verilmekte ve muhasebe dağılımlarını işlemek için kullanılabilecek seçenekler açıklanmaktadır. Muhasebe dağılımları, bir kaynak belgenin parasal tutarlarını belirli genel muhasebe hesaplarına tahsis etmek için kullanılır. 
+Bu makalede, muhasebe dağılımları hakkında bilgiler verilmekte ve muhasebe dağılımlarını işlemek için kullanılabilecek seçenekler açıklanmaktadır. Muhasebe dağılımları, bir kaynak belgenin parasal tutarlarını belirli genel muhasebe hesaplarına tahsis etmek için kullanılır. 
 
 Muhasebe dağılımları, örneğin satın alma emri, satıcı faturası, gider raporu ve serbest metin faturası gibi her bir kaynak belge tarafından kullanılan ve genişletilen, program genelinde geçerli bir özelliktir. Varsayılan olarak, her bir kaynak belge satırı ve parasal tutar için bir varsayılan muhasebe dağılımı üretilir ve bu dağılım, değişikler için koşullu olarak etkinleştirilir. 
 

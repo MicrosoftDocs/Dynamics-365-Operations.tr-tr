@@ -1,6 +1,6 @@
 ---
 title: ER Biçim yapılandırmayı kullanarak ödemeler için elektronik belgeler oluşturma
-description: Bu konuda, ödemeleri işlemek üzere elektronik belgeler oluşturmak için yeni bir Elektronik raporlama (ER) biçimi yapılandırmasının nasıl kullanılacağı açıklanmaktadır.
+description: Bu makalede, ödemeleri işlemek üzere elektronik belgeler oluşturmak için yeni bir Elektronik raporlama (ER) biçimi yapılandırmasının nasıl kullanılacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 05295ff36ffd194b3f50fcdd9d7528c787c80f39104f46f9c51890a75a852735
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a79c32372402fcd49f20c855cbfa8d9bcd8ba524
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712676"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864615"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>ER Biçim yapılandırmayı kullanarak ödemeler için elektronik belgeler oluşturma
 

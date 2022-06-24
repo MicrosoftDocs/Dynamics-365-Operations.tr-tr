@@ -1,6 +1,6 @@
 ---
 title: İtalya için yazarkasa tümleştirme örneği
-description: Bu konu, Microsoft Dynamics 365 Commerce'taki İtalya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
+description: Bu makale, Microsoft Dynamics 365 Commerce'taki İtalya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
-ms.openlocfilehash: 02226fd9f2c92db2518ca48baefb680a3d2f0ac1
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 2aa1851fe5fe447ba2dd4640be9881b37e54216e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076915"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909402"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>İtalya için yazarkasa tümleştirme örneği
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce'taki İtalya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
+Bu makale, Microsoft Dynamics 365 Commerce'taki İtalya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
 
 İtalya için Commerce işlevi, satış noktasının (POS) mali bir yazıcıyla örnek tümleştirmesini içerir. Örnek, [mali tümleştirme işlevini](fiscal-integration-for-retail-channel.md) Epson'un [Epson FP-90III Serisi](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) yazıcılarıyla çalışacak şekilde genişletir ve Fiscal ePOS-Print API'yı kullanarak EpsonFPMate web hizmeti aracılığıyla web sunucusu modunda mali bir yazıcıyla iletişimi sağlar. Örnek yalnızca Registratore Telematico (RT) modunu destekler. Örnek, kaynak kodu biçiminde sağlanır ve Commerce yazılım geliştirme setinin (SDK) bir parçasıdır.
 

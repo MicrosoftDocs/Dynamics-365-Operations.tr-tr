@@ -1,6 +1,6 @@
 ---
 title: Vergi Hesaplamayı kullanmaya başlama
-description: Bu konuda, Vergi Hesaplamasının nasıl ayarlanacağı açıklanmaktadır.
+description: Bu makalede, Vergi Hesaplamasının nasıl ayarlanacağı açıklanmaktadır.
 author: wangchen
 ms.date: 03/25/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ab9c0cf974114c4fa9b673e5601e138acef534d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c2293102057ac055f0958c1c6b1de2a19cb331d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855297"
 ---
 # <a name="get-started-with-tax-calculation"></a>Vergi Hesaplamayı kullanmaya başlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Vergi Hesaplama'yı kullanmaya başlama hakkında bilgi sağlar. Bu konudaki bölümler, Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS) ve Dynamics 365 Finance ile Dynamics 365 Supply Chain Management içindeki yüksek düzey tasarım ve yapılandırma adımlarını izlemeniz konusunda yol gösterir. 
+Bu makalede, Vergi Hesaplama'yı kullanmaya başlama hakkında bilgiler sağlanmaktadır. Bu makaledeki bölümler, Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance ve Dynamics 365 Supply Chain Management'taki üst düzey tasarım ve yapılandırma adımlarını izlemeniz konusunda yol gösterir. 
 
 Ayarlama üç ana adımdan oluşur.
 
@@ -77,11 +77,11 @@ Bu adımlar tamamlandıktan sonra, aşağıdaki ayarlar otomatik olarak RCS'den 
 - Satış vergisi grupları
 - Madde satış vergisi grupları
 
-Bu konudaki kalan bölümler, daha ayrıntılı yapılandırma adımları sağlar.
+Bu makalenin diğer bölümleri, daha ayrıntılı yapılandırma adımları sağlar.
 
-## <a name="prerequisites"></a>Önkoşullar
+## <a name="prerequisites"></a>Ön Koşullar
 
-Bu konudaki kalan prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerine getirilmesi gerekir:<!--TO HERE-->
+Bu makaledeki kalan prosedürleri tamamlamadan önce, aşağıdaki ön koşulların karşılanması gerekir:<!--TO HERE-->
 
 - LCS hesabınıza erişiminizin ve Dynamics 365 sürüm 10.0.21 veya sonrasını çalıştıran bir Katman 2 ya da üstü ortam bulunan dağıtılmış bir LCS projenizin olması gerekir.
 - Kuruluşunuz için bir RCS ortamı oluşturmanız ve hesabınıza erişebilmeniz gerekir. RCS ortamı oluşturma hakkında daha fazla bilgi için bkz. [Regulatory Configuration Service'e Genel Bakış](rcs-overview.md).
@@ -212,7 +212,7 @@ Bu bölümdeki adımlar belirli bir tüzel kişilikle ilişkili değildir. Bu yo
     | Satış            | BEL       | FRA     | BEL_EU       |
     
     > [!NOTE]
-    > Vergilendirilebilir belge satırlarınızın varsayılan satış vergisi grubu doğruysa, bu matrisi boş bırakın. Daha fazla bilgi için bu konunun [Çalışma zamanı tasarımı](#runtime) bölümüne bakın.
+    > Vergilendirilebilir belge satırlarınızın varsayılan satış vergisi grubu doğruysa, bu matrisi boş bırakın. Daha fazla bilgi için bu makalenin [Çalışma zamanı tasarımı](#runtime) bölümüne bakın.
 
 22. **Madde vergisi grubu uygulanabilirliği** sekmesinde, doğru vergi kodunu belirlemek için gereken sütunları seçin ve ardından **Ekle** seçeneğini belirleyin. Her bir sütun için değerleri girin veya seçin. **Madde vergisi grubu** alanı, bu matrisin çıkışı olacaktır. Bu sekme yapılandırılmadıysa hareket satırındaki madde satış vergisi grubu kullanılır.
 
@@ -224,7 +224,7 @@ Bu bölümdeki adımlar belirli bir tüzel kişilikle ilişkili değildir. Bu yo
     | D0003     | Düşürüldü        |
 
     > [!NOTE]
-    > Vergilendirilebilir belge satırlarınızın varsayılan madde satış vergisi grubu doğruysa, bu matrisi boş bırakın. Daha fazla bilgi için bu konunun [Çalışma zamanı tasarımı](#runtime) bölümüne bakın.
+    > Vergilendirilebilir belge satırlarınızın varsayılan madde satış vergisi grubu doğruysa, bu matrisi boş bırakın. Daha fazla bilgi için bu makalenin [Çalışma zamanı tasarımı](#runtime) bölümüne bakın.
 
     Vergi kodlarının Vergi Hesaplama'da nasıl belirlendiği hakkında daha fazla bilgi için bkz. [Satış vergisi grubu ve madde satış vergisi grubu belirleme mantığı](global-sales-tax-group-determination.md).
 
@@ -243,7 +243,7 @@ Bu bölümdeki ayarlama tüzel kişilik tarafından gerçekleştirilir. Finance'
 2. **Genel** sekmesinde, aşağıdaki alanları ayarlayın:
 
     - **Vergi Hesaplama Hizmetini Etkinleştir**: Tüzel kişilik için Vergi Hesaplama'yı etkinleştirmek üzere bu onay kutusunu işaretleyin. Geçerli tüzel kişilik için etkinleştirilmemişse, tüzel kişilik vergiyi belirlemek ve hesaplamak için mevcut vergi altyapısını kullanmaya devam eder.
-    - **Özellik ayarı**: Tüzel kişilik için yayınlanmış bir vergi özelliği ayarı ve sürümü seçin. Yayınlanmış bir vergi özelliğini ayarlama ve tamamlama hakkında daha fazla bilgi için, bu konunun önceki bölümüne bakın.
+    - **Özellik ayarı**: Tüzel kişilik için yayınlanmış bir vergi özelliği ayarı ve sürümü seçin. Yayınlanmış bir vergi özelliğini ayarlama ve tamamlama hakkında daha fazla bilgi için, bu makalenin önceki bölümüne bakın.
     - **İş Süreci** – Etkinleştirilecek iş süreçlerini seçin.
 
 3. **Hesaplama** sekmesinde, tüzel kişilik için beklenen yuvarlama kuralını tanımlayın. Yuvarlama mantığı hakkında daha fazla bilgi için bkz. [Vergi hesaplama yuvarlama kuralları](https://go.microsoft.com/fwlink/?linkid=2166988).

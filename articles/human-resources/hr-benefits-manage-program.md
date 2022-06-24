@@ -1,6 +1,6 @@
 ---
 title: Bir kazançlar programı tanımlama ve yönetme
-description: İnsan kaynakları bir organizasyonun sunduğu veya çalışanları için yürürlüğe koyduğu kazançları, kesintileri ve çalışanların tazminat planlarını oluşturmak ve bunları yönetmek için kullanılabilecek bir takım araçlar sağlar. Bu konuda kazançların nasıl kurulacağı ve yönetileceği hakkında bilgiler verilmiştir.
+description: İnsan kaynakları bir organizasyonun sunduğu veya çalışanları için yürürlüğe koyduğu kazançları, kesintileri ve çalışanların tazminat planlarını oluşturmak ve bunları yönetmek için kullanılabilecek bir takım araçlar sağlar. Bu makalede bir kazanç yönetiminin nasıl kurulacağı hakkında bilgiler verilmiştir.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 54500cad7fe2b48aa4e3b2057f4edcfcf244959e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 08b80f4f90ce6b4a286120cd6329a45a4ebd3f71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877815"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Kazanç programı tanımlama ve yönetme
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694949"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Human Resources bir kuruluşun sunduğu veya çalışanları için yürürlüğe koyduğu kazançları, kesintileri ve çalışanların tazminat planlarını oluşturmak ve bunları yönetmek için kullanılabilecek bir takım araçlar sağlar. Bu konuda kazançların nasıl kurulacağı ve yönetileceği hakkında bilgiler verilmiştir.
+Human Resources bir kuruluşun sunduğu veya çalışanları için yürürlüğe koyduğu kazançları, kesintileri ve çalışanların tazminat planlarını oluşturmak ve bunları yönetmek için kullanılabilecek bir takım araçlar sağlar. Bu makalede bir kazanç yönetiminin nasıl kurulacağı hakkında bilgiler verilmiştir.
 
 ## <a name="benefit-setup"></a>Kazanç kurulumu
 

@@ -1,6 +1,6 @@
 ---
 title: ZPL etiketleri yazdırmak için yeni bir ER çözümü tasarlama
-description: Bu konu, Zebra Programlama Dili (ZPL) etiketleri yazdırmak için yeni bir Elektronik raporlama (ER) çözümünün nasıl tasarlanacağını açıklamaktadır.
+description: Bu makalede, Zebra Programlama Dili (ZPL) etiketleri yazdırmak için yeni bir Elektronik raporlama (ER) çözümünün nasıl tasarlanacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: f861fe63c6d7d00d0a9f84d33c0d1b1b23735b61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612370"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845729"
 ---
 # <a name="design-a-new-er-solution-to-print-zpl-labels"></a>ZPL etiketleri yazdırmak için yeni bir ER çözümü tasarlama
 
 [!include [banner](../includes/banner.md)]
 
 
-Bu konuda Sistem Yöneticisi, Elektronik Raporlama Geliştiricisi veya Elektronik Raporlama İşlevsel Danışmanı rolüne sahip bir kullanıcının [Elektronik raporlama (ER)](general-electronic-reporting.md) çerçevesinin parametrelerini nasıl yapılandırabileceği, Ambar yönetimi sistemi verilerine erişmek için yeni bir ER çözümünün gerekli ER [yapılandırmalarını](general-electronic-reporting.md#Configuration) nasıl tasarlayabileceği ve nasıl Zebra Programlama Dili (ZPL) II biçiminde özel ambar konumu etiketleri oluşturabileceği açıklanmaktadır. Bu adımlar **USRT** şirketinde gerçekleştirilebilir.
+Bu makalede Sistem Yöneticisi, Elektronik Raporlama Geliştiricisi veya Elektronik Raporlama İşlevsel Danışmanı rolüne sahip bir kullanıcının [Elektronik raporlama (ER)](general-electronic-reporting.md) çerçevesinin parametrelerini nasıl yapılandırabileceği, Ambar yönetimi sistemi verilerine erişmek için yeni bir ER çözümünün gerekli ER [yapılandırmalarını](general-electronic-reporting.md#Configuration) nasıl tasarlayabileceği ve nasıl Zebra Programlama Dili (ZPL) II biçiminde özel ambar konumu etiketleri oluşturabileceği açıklanmaktadır. Bu adımlar **USRT** şirketinde gerçekleştirilebilir.
 
 ## <a name="business-scenario"></a>İş senaryosu
 

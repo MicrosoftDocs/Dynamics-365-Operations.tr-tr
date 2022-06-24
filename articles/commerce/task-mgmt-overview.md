@@ -1,6 +1,6 @@
 ---
 title: Görev yönetimine genel bakış
-description: Bu konu, Microsoft Dynamics 365 Commerce'un yöneticiler ve çalışanlar için görev yönetimine genel bir bakış sağlar.
+description: Bu makale, Microsoft Dynamics 365 Commerce'un yöneticiler ve çalışanlar için görev yönetimine genel bir bakış sağlar.
 author: gvrmohanreddy
 ms.date: 02/10/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7cdcc0ba6a9f5a3d9dd4ea781adc9e81c45e3d02
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1a814b76985b9bb7ee47ee287967acbf41ddd0e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985405"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900346"
 ---
 # <a name="task-management-overview"></a>Görev yönetimine genel bakış
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce'un yöneticiler ve çalışanlar için görev yönetimine genel bir bakış sağlar.
+Bu makale, Microsoft Dynamics 365 Commerce'un yöneticiler ve çalışanlar için görev yönetimine genel bir bakış sağlar.
 
 Bir perakende ortamında, görevlerin doğru kişi tarafından sağ zamanında gerçekleştirilmesini sağlamak her zaman zordur. Perakendeciler, yaklaşan görevlerle ilgili çalışanları bilgilendirmek ve görevlerin doğru ve zamanında tamamlanabilmesi için ilgili iş bağlamı sağlayabilmelidir.
 

@@ -1,6 +1,6 @@
 ---
 title: Onay günlüğü kullanarak fatura verilerini borç hesaplarına girme
-description: Bu konu, fatura kaydını fatura oluşturmak için nasıl kullanacağınızı ve bunun ardından, onay günlüğünü gider hesaplarını güncelleştirmek için nasıl kullanacağınızı açıklar.
+description: Bu makalede, fatura kaydını fatura oluşturmak için nasıl kullanacağınız ve bunun ardından, onay günlüğünü gider hesaplarını güncelleştirmek için nasıl kullanacağınız açıklanmaktadır.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ce66a4b92f26bcec0849accad3878aef2b2f658
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: afe1471949bbf892f4e28ed3bea830ee491a517f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109670"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909228"
 ---
 # <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>Onay günlüğü kullanarak fatura verilerini borç hesaplarına girme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, fatura kaydını fatura oluşturmak için nasıl kullanacağınızı ve bunun ardından, onay günlüğünü gider hesaplarını güncelleştirmek için nasıl kullanacağınızı açıklar.
+Bu makalede, fatura kaydını fatura oluşturmak için nasıl kullanacağınız ve bunun ardından, onay günlüğünü gider hesaplarını güncelleştirmek için nasıl kullanacağınız açıklanmaktadır.
 
 ## <a name="create-and-post-and-invoice"></a>Fatura oluşturun ve nakledin
 1. Gezinti bölmesinde **Modüller > Borç hesapları > Faturalar > Fatura kaydı**'na gidin.

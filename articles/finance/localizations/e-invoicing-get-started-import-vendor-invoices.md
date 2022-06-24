@@ -1,6 +1,6 @@
 ---
-title: Satıcı faturalarını içeri aktarmak için elektronik faturalama hizmetini kullanma
-description: Bu konuda, Elektronik Faturalama hizmetini kullanarak satıcı faturalarını içeri aktarma hakkında bilgi sağlanmaktadır.
+title: Satıcı faturalarını içeri aktarmak için elektronik faturalama servisini kullanma
+description: Bu makalede, Elektronik Faturalama hizmetini kullanarak satıcı faturalarını içeri aktarma hakkında bilgi sağlanmaktadır.
 author: gionoder
 ms.date: 09/03/2021
 ms.topic: article
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c28adbfe532e77a52cab7625b9539d1e8e528bea
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 2d239bbafad9292ba6cef5534e778a2824a9cc5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "7983835"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865598"
 ---
-# <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Satıcı faturalarını içeri aktarmak için elektronik faturalama hizmetini kullanma
+# <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Satıcı faturalarını içeri aktarmak için elektronik faturalama servisini kullanma
 
 [!include [banner](../includes/banner.md)]
 
 [!include [banner](../includes/preview-banner.md)]
 
-Bu konuda, Elektronik Faturalama hizmetini kullanarak satıcı faturalarını içeri aktarmaya başlamanıza yardımcı olacak bilgiler sağlanmaktadır. Bu, satıcılardan elektronik satıcı faturaları almak için izlemeniz gereken Regulatory Configuration Services (RCS), Dynamics 365 Finance ve Dynamics 365 Supply Chain Management'taki yapılandırma adımları üzerinden size yol gösterir.
+Bu makalede, Elektronik Faturalama hizmetini kullanarak satıcı faturalarını içeri aktarmaya başlamanıza yardımcı olacak bilgiler sağlanmaktadır. Makale, satıcılardan elektronik satıcı faturaları almak için izlemeniz gereken Regulatory Configuration Services (RCS), Dynamics 365 Finance ve Dynamics 365 Supply Chain Management'taki yapılandırma adımları konusunda size yol gösterir.
 
 ## <a name="set-up-vendor-invoice-import-in-rcs"></a>RCS'de satıcı faturasını içeri aktarmayı ayarlama
 RCS'de satıcı faturasını içeri aktarmayı ayarlamak için şu adımları izleyin:
@@ -57,7 +57,7 @@ Oluşturduğunuz Elektronik faturalama özelliği e-posta ile alınan ekli dosya
     - İşlenme başarıyla tamamlandıktan sonra kaydedildi: **Arşiv klasörü**
     - İşlenme başarıyla tamamlanamadıktan sonra kaydedildi: **Hata klasörü** Bu klasörleri posta kutusunda oluşturmanız gerekmez. Klasörler, ilk e-faturanın içeri aktarılması ve işlenmesinden sonra otomatik olarak oluşturulur. 
    
-10. **Ekler filtresi** alan grubuna, dosya filtreleme bilgilerini ekleyin. Yalnızca tanımlanan filtreye uyan ekler işlenir. Örneğin, xml uzantılı ekler için filtreyi "\*.xml" olarak ayarlayabilirsiniz. Ekin adı, kurulum sırasında Dynamics 365 Finance veya Dynamics 365 Supply Chain Management uygulamasında kullanılır. 
+10. **Ekler filtresi** alan grubuna, dosya filtreleme bilgilerini ekleyin. Yalnızca tanımlanan filtreye uyan ekler işlenir. Örneğin, xml uzantılı ekler için filtreyi "\*.xml" olarak ayarlayabilirsiniz. Ekin adı, kurulum sırasında Dynamics 365 Finance veya Dynamics 365 Supply Chain Management'ta kullanılır. 
 11. **Uygulanabilirlik kuralları** sekmesinde, ölçütleri gerektiği şekilde inceleyin ve güncelleştirin. **Kanal** alanı, daha önce sağlanan **Veri kanalı** ile aynı olmalıdır. Daha fazla bilgi için bkz. [Uygulanabilirlik kuralları](e-invoicing-configuration-rcs.md#applicability-rules).
 12. **Kaydet**'i seçip sayfayı kapatın.
 

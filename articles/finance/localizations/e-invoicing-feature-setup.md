@@ -1,6 +1,6 @@
 ---
 title: Özellik kurulumları ile çalışma
-description: Bu konu, Elektronik faturalama özelliklerinin nasıl ayarlanacağını açıklamaktadır.
+description: Bu makalede, Elektronik faturalama özelliklerinin nasıl ayarlanacağı açıklanmaktadır.
 author: dkalyuzh
 ms.date: 12/15/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 41ffc9c7009291a55392e50c5e490d3288d122bc
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 23466a53bb8ba597503aaa12d41395fc82b9f14e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904339"
 ---
 # <a name="work-with-feature-setups"></a>Özellik kurulumları ile çalışma
 
@@ -46,7 +46,7 @@ Elektronik dosyaları oluşturmak, işlemek ve almak için farklı senaryolar ta
 6. Son adımda **Özel kurulum** seçeneğini belirlediyseniz, özellik kurulum maddesi için bir ad ve açıklama girin ve **Kurulum türü** alan grubunda aşağıdaki seçeneklerden birini belirleyin:
 
     - **İşleme ardışık düzeni** – Giden elektronik belgeleri oluşturmak ve işlemek için bu seçeneği belirleyin. Bu kurulum türü için, sistem boş bir işlem kanalı listesi, uygulanabilirlik kuralları için boş bir bölüm ve varsayılan değişkenler kümesi oluşturur. Gelen elektronik belgelerin kanallarıyla çalışamazsınız.
-    - **Veri kanalı** – Tanımlı kanalların birinden gelen elektronik belgeleri teslim alma sürecini ayarlamak ve bunları doğrudan Microsoft Dynamics 365 Finance veya Dynamics 365 Supply Chain Management'a ek eylemler olmadan geçirmek için bu seçeneği belirleyin. Bu kurulum türü için sistem, veri kanalları için önceden belirlenmiş parametre listesi, geçerlilik kuralları için boş bir bölüm ve varsayılan değişkenler kümesi oluşturur. İşlem ardışık düzenine herhangi bir eylem ekleyemezsiniz.
+    - **Veri kanalı**: Tanımlı kanalların birinden gelen elektronik belgeleri alma ve bunları doğrudan Microsoft Dynamics 365 Finance veya Dynamics 365 Supply Chain Management'a ek eylemler olmadan aktarma sürecini ayarlamak için bu seçeneği belirleyin. Bu kurulum türü için sistem, veri kanalları için önceden belirlenmiş parametre listesi, geçerlilik kuralları için boş bir bölüm ve varsayılan değişkenler kümesi oluşturur. İşlem ardışık düzenine herhangi bir eylem ekleyemezsiniz.
     - **Veri kanalı ve işlem ardışık düzeni** – Bu kurulum türü **Veri kanalı** kurulum türüne benzer. Ancak, Finance veya Supply Chain Management'a gelen elektronik belge geçirilmeden önce, işlem kanalında ek eylemler ayarlayabilirsiniz.
 
 7. Son adımda **Veri kanalı** veya **Veri kanalı ve işlem ardışık düzen** seçeneğini belirlediyseniz, **Veri kanalı seç** alanında, tümleştirilecek kanalı seçmeniz gerekir.

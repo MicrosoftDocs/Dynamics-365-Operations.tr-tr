@@ -1,6 +1,6 @@
 ---
-title: Baskı yönetimi kaydına özel ER hedeflerini yapılandırma
-description: Bu konuda, giden belgeler oluşturmak üzere yapılandırılan bir Elektronik raporlama (ER) biçimi için yazdırma yönetimi kaydına özel hedeflerin nasıl yapılandırılacağı açıklanmaktadır.
+title: Yazdırma yönetimi kaydına özel ER hedeflerini yapılandırma
+description: Bu makalede, giden belgeler oluşturmak üzere yapılandırılan bir Elektronik raporlama (ER) biçimi için yazdırma yönetimi kaydına özel hedeflerin nasıl yapılandırılacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4cd99b1d2c0dbbf48e7eee7e1233e3b078d14ba3
-ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
+ms.openlocfilehash: 2972dc6a0b373cbc63b811c01ef7a5538810edbb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "8603068"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872727"
 ---
-# <a name="configure-print-management-record-specific-er-destinations"></a>Baskı yönetimi kaydına özel ER hedeflerini yapılandırma
+# <a name="configure-print-management-record-specific-er-destinations"></a>Yazdırma yönetimi kaydına özel ER hedeflerini yapılandırma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Sistem Yöneticisi veya Alacak Hesapları Görevlisi rolüne sahip bir kullanıcının aşağıdaki görevleri nasıl gerçekleştirebileceği açıklanmaktadır:
+Bu makalede, Sistem Yöneticisi veya Alacak Hesapları Görevlisi rolüne sahip bir kullanıcının aşağıdaki görevleri nasıl gerçekleştirebileceği açıklanmaktadır:
 
 - Serbest metin faturaları oluşturan bir ER çözümü için adlandırılmış [Elektronik raporlama (ER)](general-electronic-reporting.md) hedeflerini yapılandırın.
 - Tek bir [baskı yönetimi](document-reporting-services.md) kaydına bir ER hedefi atayın.

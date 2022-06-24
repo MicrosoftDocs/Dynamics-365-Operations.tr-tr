@@ -1,6 +1,6 @@
 ---
 title: Satıcı faturalarını içe aktardığınızda fatura satırları oluşturun
-description: Bu konu, faturalar içe aktarıldığında satıcı faturalarındaki fatura satırlarının otomatik olarak oluşturma işlevini açıklar.
+description: Bu makalede, faturalar içeri aktarıldığında satıcı faturalarındaki fatura satırlarını otomatik olarak oluşturma işlevi açıklanmaktadır.
 author: sunfzam
 ms.date: 09/10/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e452bda02c814b78c4bb48140b07f0113ab4a571
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: e745ab1fb39edf69fabd147e46e1da8cc98ba6e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358326"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903521"
 ---
 # <a name="generate-invoice-lines-when-you-import-vendor-invoices"></a>Satıcı faturalarını içe aktardığınızda fatura satırları oluşturun
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Bu konu, faturalar içe aktarıldığında satıcı faturalarındaki fatura satırlarının otomatik olarak oluşturma işlevini açıklar.
+Bu makalede, faturalar içeri aktarıldığında satıcı faturalarındaki fatura satırlarını otomatik olarak oluşturma işlevi açıklanmaktadır.
 
 Bazen, satıcı faturaları alıcı bilgileri ve alt toplamlar gibi sınırlı bilgiler içerir. Ancak, bunlar satır maddeleri ile ilgili hiçbir bilgi içermezler. Faturaları içe aktardığınızda, ilgili satınalma siparişindeki bilgileri temel alarak fatura satırları otomatik olarak oluşturulur.
 
@@ -42,7 +42,7 @@ Fatura satırlarının otomatik olarak oluşturulmasını etkinleştirmek için 
 
 ## <a name="data-entity-changes"></a>Veri varlığı değişiklikleri
 
-Bu konuda açıklanan işlevleri desteklemek için, **Satıcı fatura başlığı** veri varlığı geliştirilmiştir. Üç alan eklendi:
+Bu makalede açıklanan işlevleri desteklemek için, **Satıcı faturası başlığı** veri varlığı geliştirilmiştir. Üç alan eklendi:
 
 - **HeaderOnlyImport** – Fatura başlıkları için satır oluşturulması için bu alan **Evet** olarak ayarlanmalıdır.
 - **PurchIdRange** – Satınalma siparişi numaralarının listesi. Fatura numaraları, **INV0001..INV0009** (iki nokta, aralığın başlangıcını ve sonunu ayırır) gibi bir aralık veya **INV0001, INV0003, INV0006** gibi ayrık değerler olabilir. Tüm satınalma siparişleri, fatura başlığındaki aynı satıcı hesabına ait olmalıdır. Aksi takdirde, şu hata iletisini alırsınız: "Fatura satırları oluşturulamadı. Satınalma siparişlerinde farklı satıcı hesapları var."

@@ -1,6 +1,6 @@
 ---
 title: Nakit akışı tahminini etkinleştirme
-description: Bu konuda, Mali İçgörüler'de Nakit akışı tahminleri özelliğinin nasıl açılacağı açıklanmaktadır.
+description: Bu makalede, Finance Insights'taki Nakit akışı tahminleri özelliğinin nasıl etkinleştirileceği açıklanmaktadır.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8dba56af53090d5d78632da4d414143b136f8a8d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 253e3ea9c1c44573b37503f167b4cb3860683c10
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713768"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859891"
 ---
 # <a name="enable-cash-flow-forecasting"></a>Nakit akışı tahminini etkinleştirme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Finance Insights'da Nakit akışı tahminleri özelliğinin nasıl açılacağı açıklanmaktadır.
+Bu makalede, Finance Insights'taki Nakit akışı tahminleri özelliğinin nasıl etkinleştirileceği açıklanmaktadır.
 
 > [!NOTE]
 > Nakit akışında ödeme tahminlerini kullanmak için [Müşteri ödeme tahminlerini etkinleştirme](enable-cust-paymnt-prediction.md) konusunda anlatılan şekilde Müşteri ödeme tahminleri özelliğini ayarlamanız gerekir.

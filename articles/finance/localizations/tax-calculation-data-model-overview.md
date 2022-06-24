@@ -1,6 +1,6 @@
 ---
 title: Vergi hesaplama veri modeli
-description: Bu konuda, vergi veri modeli ve her bir veri modelinin alan değerlerinin vergi hesaplama hareketleri bağlamında nasıl belirlendiği hakkında bilgi sağlanmaktadır.
+description: Bu makalede, vergi veri modeli ve her bir veri modelinin alan değerlerinin vergi hesaplama hareketleri bağlamında nasıl belirlendiği hakkında bilgi sağlanmaktadır.
 author: kailiang
 ms.date: 10/15/2021
 ms.topic: overview
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 759803767111c27cba76b68430e09a0d9dd6110f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694270"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859709"
 ---
 # <a name="tax-calculation-data-model"></a>Vergi hesaplama veri modeli
 
-Bu konuda, vergi veri modelinde alan değerlerinin vergi hesaplama hareketlerinde nasıl belirlendiği hakkında bilgi sağlanmaktadır.
+Bu makalede, vergi veri modelinde alan değerlerinin vergi hesaplama hareketlerinde nasıl belirlendiği hakkında bilgi sağlanmaktadır.
 
 *Vergi veri modeli*, vergi hesaplamaları için gerekli alanlardan oluşur. Microsoft, *vergi hesaplama veri modeli* sağlar ve bu, Finans ve Operasyon uygulamalarında hareket belgelerinin üst bilgi alanlarını ve satır alanlarını içerir. Vergi hesaplama veri modelinde tanımlanan alanlar, vergi hesaplama özelliği yapılandırmasında uygulanabilirlik kural tablolarının kullanılabilir sütunlarıdır.
 
@@ -99,7 +99,7 @@ Otuz iki adet veri modeli, hareketin üst bilgisindeki alanlar olarak dahil edil
 | İl/eyalete sevk          | <ul><li>**Satış siparişi:**<ol><li>Üst bilgi &gt; Teslimat adresi &gt; Eyalet</li></ol></li><li>**Satın alma siparişi:**<ol><li>Üst bilgi &gt; Teslimat adresi &gt; Eyalet</li></ol></li><li>**Transfer emri - Sevk:**<ol><li>Üst bilgi &gt; Hedef ambar &gt; Birincil adres &gt; Eyalet</li><li>Üst bilgi &gt; Hedef tesis &gt; Birincil adres &gt; Eyalet</li></ol></li><li>**Transfer emri - Teslim alma:**<ol><li>Üst bilgi &gt; Hedef ambar &gt; Birincil adres &gt; Eyalet</li><li>Üst bilgi &gt; Hedef tesis &gt; Birincil adres &gt; Eyalet</li></ol></li><li>**Teklif talebi:**<ol><li>Üst bilgi &gt; Teslimat adresi &gt; Eyalet</li></ol></li><li>**Satış teklifi:**<ol><li>Üst bilgi &gt; Teslimat adresi &gt; eyalet</li></ol></li><li>**Serbest metin faturası:**<ol><li>Üst bilgi &gt; Müşteri hesabı &gt; Varsayılan teslimat adresi &gt; Eyalet</li><li>Üst bilgi &gt; Müşteri hesabı &gt; Birincil adres &gt; Eyalet</li></ol></li><li>**Günlük (müşteri):**<ol><li>Müşteri hesabı &gt; Varsayılan teslimat adresi &gt; Eyalet</li><li>Müşteri hesabı &gt; Birincil adres &gt; Eyalet</li></ol></li><li>**Günlük (satıcı):**<ol><li>Tüzel kişilik &gt; Varsayılan teslimat adresi &gt; Eyalet</li><li>Tüzel kişilik &gt; Birincil adres &gt; Eyalet</li></ol></li></ul> |
 | Posta koduna sevk                 | <ul><li>**Satış siparişi:**<ol><li>Üst bilgi &gt; Teslimat adresi &gt; Posta kodu</li></ol></li><li>**Satın alma siparişi:**<ol><li>Üst bilgi &gt; Teslimat adresi &gt; Posta kodu</li></ol></li><li>**Transfer emri - Sevk:**<ol><li>Üst bilgi &gt; Hedef ambar &gt; Birincil adres &gt; Posta kodu</li><li>Üst bilgi &gt; Hedef tesis &gt; Birincil adres &gt; Posta kodu</li></ol></li><li>**Transfer emri - Teslim alma:**<ol><li>Üst bilgi &gt; Hedef ambar &gt; Birincil adres &gt; Posta kodu</li><li>Üst bilgi &gt; Hedef tesis &gt; Birincil adres &gt; Posta kodu</li></ol></li><li>**Teklif talebi:**<ol><li>Üst bilgi &gt; Teslimat adresi &gt; Posta kodu</li></ol></li><li>**Satış teklifi:**<ol><li>Üst bilgi &gt; Teslimat adresi &gt; Posta kodu</li></ol></li><li>**Serbest metin faturası:**<ol><li>Üst bilgi &gt; Müşteri hesabı &gt; Varsayılan teslimat adresi &gt; Posta kodu</li><li>Üst bilgi &gt; Müşteri hesabı &gt; Birincil adres &gt; Posta kodu</li></ol></li><li>**Günlük (müşteri):**<ol><li>Müşteri hesabı &gt; Varsayılan teslimat adresi &gt; Posta kodu</li><li>Müşteri hesabı &gt; Birincil adres &gt; Posta kodu</li></ol></li><li>**Günlük (satıcı):**<ol><li>Tüzel kişilik &gt; Varsayılan teslimat adresi &gt; Posta kodu</li><li>Tüzel kişilik &gt; Birincil adres &gt; Posta kodu</li></ol></li></ul> |
 | Site                             | <ul><li>**Satış siparişi:** Tesis</li><li>**Satın alma siparişi:** Tesis</li><li>**Transfer emri - Sevk:** Kaynak ambarın tesisi</li><li>**Transfer emri - Teslim alma:** Hedef ambarın tesisi</li><li>**Teklif talebi:** Tesis</li><li>**Satış teklifi:** Tesis</li></ul> |
-| Vergi yönü                    | <ul><li>**Satış siparişi:** Çıkış</li><li>**Satın alma siparişi:** Giriş</li><li>**Transfer emri - Sevk:** Çıkış</li><li>**Transfer emri - Teslim alma:** Giriş</li><li>**Satın alma talebi:** Çıkış</li><li>**Teklif talebi:** Giriş</li><li>**Satış teklifi:** Çıkış</li><li>**Serbest metin faturası:** Çıktı</li></ul> |
+| Vergi yönü                    | <ul><li>**Satış siparişi:** Çıkış</li><li>**Satın alma siparişi:** Giriş</li><li>**Transfer emri - Sevk:** Çıkış</li><li>**Transfer emri - Teslim alma:** Giriş</li><li>**Satın alma talebi:** Çıkış</li><li>**Teklif talebi:** Giriş</li><li>**Satış teklifi:** Çıkış</li><li>**Serbest metin faturası:** Çıktı</li><li>**Günlük:** Çıktı</li></ul> |
 | Satıcı hesabı                   | <ul><li>**Satın alma siparişi:** Satıcı hesabı</li><li>**Günlük (satıcı):** Satıcı hesabı</li></ul> |
 | Satıcı fatura hesabı           | <ul><li>**Satın alma siparişi:** Fatura hesabı</li><li>**Günlük (satıcı):**<ol><li>Satıcı ana &gt; Fatura hesabı</li><li>Satıcı hesabı</li></ol></li></ul> |
 | Ambar                        | <ul><li>**Satış siparişi:** Ambar</li><li>**Satın alma siparişi:** Ambar</li><li>**Transfer emri - Sevk:** Kaynak ambar</li><li>**Transfer emri - Teslim alma:** Hedef ambar</li><li>**Teklif talebi:** Ambar</li><li>**Satış teklifi:** Ambar</li></ul> |

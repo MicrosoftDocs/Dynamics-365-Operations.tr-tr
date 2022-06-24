@@ -1,6 +1,6 @@
 ---
-title: Ürün önerileri SSS
-description: Bu konu, ürün önerilerle veya sonuçları ile ilgili sorunları gidermek için kullanabileceğiniz işlemler ve araçlar hakkında bilgi sağlar.
+title: Ürün önerileriyle ilgili SSS
+description: Bu makale, ürün önerilerle veya sonuçları ile ilgili sorunları gidermek için kullanabileceğiniz işlemler ve araçlar hakkında bilgi sağlar.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 88ad0efd8f678c3082c31b1c3162b8288e14fc9edb69e8756f1641461b808e07
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77a5532ab1ae3b630bb335aa7cff6dc747184994
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900459"
 ---
-# <a name="product-recommendations-faq"></a>Ürün önerileri SSS
+# <a name="product-recommendations-faq"></a>Ürün önerileriyle ilgili SSS
 
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, [ürün önerilerle](product-recommendations.md) veya sonuçları ile ilgili sorunları gidermek için kullanabileceğiniz işlemler ve araçlar hakkında bilgi sağlar.
+Bu makale, [ürün önerilerle](product-recommendations.md) veya sonuçları ile ilgili sorunları gidermek için kullanabileceğiniz işlemler ve araçlar hakkında bilgi sağlar.
 
 ## <a name="best-practices"></a>En iyi uygulamalar
 Ürün yöneticileri ve türevleri kavramı kullanmak çok önemlidir. Değişkenlerin ana ürün yöneticisine makul gruplandırması, liste algoritmalarına ve servise daha iyi modeller oluşturmasına yardımcı olur. Ek olarak, hizmet tüm yakından ilgili varyantları bir listeye koymak yerine yalnızca bir ürünün bir örneğine hizmet edebilir. Yakından ilgili tüm varyantlar bir listeye koyulur, hatalı veya tekrarlanan sonuçlar oluşabilir.

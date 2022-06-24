@@ -1,6 +1,6 @@
 ---
 title: çapraz sevk için sevkiyatı otomatik serbest bırakma
-description: Bu konuda, talep miktarını sağlayan üretim emri tamamlandı olarak bildirildiğinde ambara otomatik olarak bir talep emri serbest bırakmanızı sağlayan çapraz sevk stratejisi açıklanır. Bu durumda, miktar doğrudan üretim çıkış konumundan giden konumuna taşınır.
+description: Bu makalede, talep miktarını sağlayan üretim emri tamamlandı olarak bildirildiğinde ambara otomatik olarak bir talep emri serbest bırakmanızı sağlayan çapraz sevk stratejisi açıklanır. Bu durumda, miktar doğrudan üretim çıkış konumundan giden konumuna taşınır.
 author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 1315bda1fd284eb326d4f08bf36bfea59074fde3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 34283422bafaeabef9ac454957b60db84eb5a9c7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903796"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>çapraz sevk için sevkiyatı otomatik serbest bırakma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, talep miktarını sağlayan üretim emri tamamlandı olarak bildirildiğinde ambara otomatik olarak bir talep emri serbest bırakmanızı sağlayan çapraz sevk stratejisi açıklanır. Bu şekilde, talep emrinin karşılanması için gerekli olan miktar doğrudan üretim çıkış konumundan giden yerleşime taşınır.
+Bu makalede, talep miktarını sağlayan üretim emri tamamlandı olarak bildirildiğinde ambara otomatik olarak bir talep emri serbest bırakmanızı sağlayan çapraz sevk stratejisi açıklanır. Bu şekilde, talep emrinin karşılanması için gerekli olan miktar doğrudan üretim çıkış konumundan giden yerleşime taşınır.
 
 Çapraz sevk, bir giden siparişi yerine getirmek için gereken miktarın gelen siparişin alındığı yerleşimden siparişin çıkış noktasına veya hazırlanma alanına yönlendirildiği ambar işleme akışıdır. (Gelen sipariş bir satınalma siparişi, transfer emri veya üretim emri olabilir.) Gelişmiş çapraz sevk özelliği tüm tedarik ve talep emirlerini desteklese ve çapraz sevk fırsatı tanımlanmadan önce giden talebin serbest bırakılmasını gerektirse de, Sevkiyatı otomatik serbest bırakma özelliğinin aşağıdaki özelliklere sahiptir:
 

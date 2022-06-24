@@ -1,6 +1,6 @@
 ---
 title: Kiralama grubu oluşturma
-description: Bu konuda, kiralama gruplarının nasıl ayarlanacağı açıklanmaktadır. Yeni kiralamalar oluşturmak için kiralama grupları gereklidir.
+description: Bu makalede, kiralama gruplarının nasıl ayarlanacağı açıklanmaktadır. Yeni kiralamalar oluşturmak için kiralama grupları gereklidir.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 49a905e9f27f01898628e88c7af781aed1f25ec7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: cd1a6f61346233bf205657917c65fccd82167f7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714159"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895036"
 ---
 # <a name="create-a-lease-group"></a>Kiralama grubu oluşturma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, kiralama gruplarının nasıl ayarlanacağı açıklanmaktadır. Yeni kiralamalar oluşturmak için kiralama grupları gereklidir. Kiralama defterleri her bir kiralama grubuyla ilişkilidir. Kiralama defterleri, her kiralama için oluşturulması gereken varsayılan defterleri belirler. **Kiralamayı deftere nakletme parametreleri** sayfasında bir kiralama grubuna belirli hesaplar atayabilirsiniz.
+Bu makalede, kiralama gruplarının nasıl ayarlanacağı açıklanmaktadır. Yeni kiralamalar oluşturmak için kiralama grupları gereklidir. Kiralama defterleri her bir kiralama grubuyla ilişkilidir. Kiralama defterleri, her kiralama için oluşturulması gereken varsayılan defterleri belirler. **Kiralamayı deftere nakletme parametreleri** sayfasında bir kiralama grubuna belirli hesaplar atayabilirsiniz.
 
 ## <a name="create-a-lease-book-and-add-a-lease-group"></a>Kiralama defteri oluşturma ve kiralama grubu ekleme
 

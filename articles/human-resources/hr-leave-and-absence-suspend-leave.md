@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7cda14f35969b8a29ddc47d0c19990d9cc3eeb74
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 93b530aeef6fd14b56ac846e3bb0ad4080d67587
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693794"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895916"
 ---
 # <a name="suspend-leave"></a>İzni askıya al
 
 >[!Important]
->Bu konuda belirtilen işlevler şu anda bağımsız Dynamics 365 Human Resources uygulamasını kullanan müşteriler için kullanıma sunulmaktadır. İşlevlerin bazıları veya tümü, Finance 10.0.26 sürümünden sonra Finance altyapısında ileride yayınlanacak bir sürümünün parçası olarak kullanılabilir.
+>Bu makalede belirtilen işlevler şu anda tek başına Dynamics 365 Human Resources uygulamasını kullanan müşteriler için kullanıma sunulmaktadır. İşlevlerin bazıları veya tümü, Finance 10.0.26 sürümünden sonra Finance altyapısında ileride yayınlanacak bir sürümünün parçası olarak kullanılabilir.
 
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]

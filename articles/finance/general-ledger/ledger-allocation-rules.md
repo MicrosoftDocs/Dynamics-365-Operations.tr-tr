@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fa58a7b072b75fe5a58f6d04bd6426f2958f1f8
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f5fbcee713625c597080d1d63ba0ffc70f088799
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722227"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901298"
 ---
 # <a name="ledger-allocation-rules"></a>Genel muhasebe tahsisat kuralları
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda genel muhasebe atama kuralları hakkında bilgiler sağlanmıştır. Bu atama kurallarının çeşitli bileşenleri ve bunlar için kullanılabilecek atama yöntemleri açıklanmıştır.
+Bu makalede genel muhasebe atama kuralları hakkında bilgiler sağlanmıştır. Bu atama kurallarının çeşitli bileşenleri ve bunlar için kullanılabilecek atama yöntemleri açıklanmıştır.
 
 Genel muhasebe tahsisat kuralları, otomatik olarak hesaplama yapmak ve sabit tutarların veya genel muhasebe bakiyelerinin tahsisatı için tahsisat günlükleri ve hesap girişleri oluşturmak için kullanılır. Tahsisat yöntemleri, değişken veya sabit olabilir. Aşağıdaki tahsisat yöntemleri genel muhasebe tahsisat kuralları için kullanılabilir:
 

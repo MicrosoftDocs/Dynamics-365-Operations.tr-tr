@@ -1,6 +1,6 @@
 ---
 title: Dayforce ile tümleştirmeyi yapılandırma
-description: Bu konuda, Microsoft Dynamics 365 Human Resources ile Ceridian Dayforce arasındaki tümleştirme için gereken yapılandırma adımları açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Human Resources ile Ceridian Dayforce arasındaki tümleştirme için gereken yapılandırma adımları açıklanmaktadır.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a4e95a78364fcee2c03614e110f9b5983abfde37
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5a5d296dd4c1b09065fc47673dd540d8c122c482
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691346"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896148"
 ---
 # <a name="configure-integration-with-dayforce"></a>Dayforce ile tümleştirmeyi yapılandırma
 
@@ -28,7 +28,7 @@ ms.locfileid: "8691346"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Microsoft Dynamics 365 Human Resources ile Ceridian Dayforce arasındaki tümleştirme, bu konuda açıklanan çeşitli yapılandırma adımlarına dayanır. Ödeme işlemini işlemeden önce tümleştirmeyi hem Human Resources'ta hem de Dayforce'ta yapılandırmanız gerekir.
+Microsoft Dynamics 365 Human Resources ile Ceridian Dayforce arasındaki tümleştirme, bu makalede açıklanan çeşitli yapılandırma adımlarına dayanır. Ödeme işlemini işlemeden önce tümleştirmeyi hem Human Resources'ta hem de Dayforce'ta yapılandırmanız gerekir.
 
 Ödeme işlemlerini tamamlamak için Dayforce gibi bir hizmet kullandığınızda tümleştirmeyi Human Resources'ta etkinleştirmeniz gerekir. Tümleştirme için Human Resources'tan özel veriler gerekir. Bu nedenle, Dayforce ile eşlenmiş verilerin Human Resources'ta tümleştirmeyi destekleyecek şekilde yapılandırıldığını doğrulamanız gerekir. Tümleştirme, aşağıdaki geniş veri kategorilerini kullanır:
 
@@ -37,7 +37,7 @@ Microsoft Dynamics 365 Human Resources ile Ceridian Dayforce arasındaki tümle�
 - Ödeme döngüleri, ödeme dönemleri ve kazanç kodları gibi bordro verileri
 - Çalışan verileri
 
-Bu konuda, tümleştirmeyi etkinleştirmek için izlemeniz gereken adımlar ve tümleştirmenin gerektirdiği veri türleri ve yapılandırma ayrıntıları açıklanmaktadır.
+Bu makalede, tümleştirmeyi etkinleştirmek için izlemeniz gereken adımlar ve tümleştirmenin gerektirdiği veri türleri ve yapılandırma ayrıntıları açıklanmaktadır.
 
 ## <a name="enable-the-integration"></a>Tümleştirmeyi etkinleştirme
 

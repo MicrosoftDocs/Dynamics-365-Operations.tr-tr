@@ -1,6 +1,6 @@
 ---
 title: Uyarı kuralları oluşturma
-description: Bu konu uyarılar hakkında bilgi sağlar ve bir uyarı kuralının nasıl oluşturulacağını açıklar.
+description: Bu makalede, uyarılar hakkında bilgi sağlanmakta ve bir uyarı kuralının nasıl oluşturulacağı açıklanmaktadır.
 author: RichdiMSFT
 ms.date: 10/08/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 597785e65f127794ca84fe3053a664f717b056bd7374e0396732d4bcf59a743c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f523680f3d71ffd75c6cd2df284d2fd3610cef96
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736210"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853631"
 ---
 # <a name="create-alert-rules"></a>Uyarı kuralları oluşturma
 
@@ -75,7 +75,7 @@ Daha sonra, hangi satınalma siparişleri hakkında uyarı almak istediğinize k
 
 ## <a name="alerts-as-business-events"></a>İş olayları olarak uyarılar
 
-İş olayları çerçevesini kullanarak uyarıları harici olarak gönderebilirsiniz. Bir uyarı oluştururken, **Organizasyon genelinde** **Hayır**'ı ayarlayın ve **harici gönder**'i **Evet** olarak ayarlayın. Uyarıyı iş olayını harekete geçirdikten sonra, bir iş olayı ile Finance and Operations bağlayıcı üzerindeki **Bir iş etkinliği olurken** tetikleyicisini kullanrak Power Automate'de yerleşik bir akışı tetikleyebilirsiniz veya iş olayları son noktasına **İş etkinlikleri kataloğu** aracılığıyla olayı açıkça gönderebilirsiniz.
+İş olayları çerçevesini kullanarak uyarıları harici olarak gönderebilirsiniz. Bir uyarı oluştururken, **Organizasyon genelinde** **Hayır**'ı ayarlayın ve **harici gönder**'i **Evet** olarak ayarlayın. Uyarı iş olayını tetikledikten sonra, Finance and Operations bağlayıcısındaki **Bir iş olayı gerçekleştiğinde** tetikleyicisini kullanarak Power Automate'teki yerleşik bir akışı tetikleyebilir veya **İş olayları kataloğu** aracılığıyla olayı iş olayları uç noktasına açıkça gönderebilirsiniz.
 
 ## <a name="create-an-alert-rule"></a>Uyarı kuralı oluşturma
 

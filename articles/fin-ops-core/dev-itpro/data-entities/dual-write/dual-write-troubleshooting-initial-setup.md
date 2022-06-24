@@ -1,6 +1,6 @@
 ---
 title: Başlangıç kurulumu sırasında sorunları giderme
-description: Bu konuda, çift yazma tümleştirmesinin ilk kurulumu sırasında oluşabilecek sorunları gidermenize yardımcı olabilecek bilgiler sağlanmaktadır.
+description: Bu makalede, çift yazma tümleştirmesinin ilk kurulumu sırasında oluşabilecek sorunları gidermenize yardımcı olabilecek bilgiler sağlanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9a70de253eff2a3273be4a31ab32757bb014328f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 5ebb14dad723fad5b17b4dfca153bf153e77bbd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061479"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882098"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Başlangıç kurulumu sırasında sorunları giderme
 
@@ -22,10 +22,10 @@ ms.locfileid: "8061479"
 
 
 
-Bu konu, Finans ve Operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında sorun giderme bilgileri sağlar. Bu konu, çift-yazma tümleştirmesinin ilk kurulumu sırasında oluşabilecek sorunları gidermenize yardımcı olabilecek bilgileri sağlar.
+Bu makalede, Finans ve Operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında sorun giderme bilgileri sağlanmaktadır. Bu konu, çift-yazma tümleştirmesinin ilk kurulumu sırasında oluşabilecek sorunları gidermenize yardımcı olabilecek bilgileri sağlar.
 
 > [!IMPORTANT]
-> Bu konu adresiyle ilgili bazı sorunların sistem yöneticisi rolü veya Microsoft Azure Active Directory (Azure AD) kiracı yöneticisi kimlik bilgileri gerekebilir. Her konunun bölümünde belirli bir rol veya kimlik bilgilerinin gerekli olup olmadığı açıklanmaktadır.
+> Bu makalede ele alınan bazı sorunlar için sistem yöneticisi rolü veya Microsoft Azure Active Directory (Azure AD) kiracı yöneticisi kimlik bilgileri gerekebilir. Her konunun bölümünde belirli bir rol veya kimlik bilgilerinin gerekli olup olmadığı açıklanmaktadır.
 
 ## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Bir Finans ve Operasyon uygulamasını Dataverse'e bağlayamazsınız
 

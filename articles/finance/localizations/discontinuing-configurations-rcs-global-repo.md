@@ -1,6 +1,6 @@
 ---
 title: RCS genel deposunda yapılandırmaları sona erdirme
-description: Bu konuda, RCS genel deposundaki yapılandırmaların nasıl sona erdirileceği açıklanmaktadır.
+description: Bu makalede, RCS genel deposundaki yapılandırmalara nasıl son verileceği açıklanmaktadır.
 author: JaneA07
 ms.date: 02/17/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 340fc96e7dfe56da9ee8d4831a5980e3e96ec3ee0f2f5a8fb2ab72f713de9737
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4121f45a95e1712f21390c317af532662846a0fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712182"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894825"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>RCS genel deposunda yapılandırmaları sona erdirme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, RCS genel deposundaki yapılandırmanın nasıl sona erdirileceği açıklanmaktadır. Daha önce, gerekli olmayan yapılandırmalar yalnızca silinebiliyordu. Ancak şimdi, sunulan bir yapılandırmayı RCS genel deposunda **Sona erdirildi** olarak işaretleyebilirsiniz. Bu işlevle şunları da yapabilirsiniz: 
+Bu makalede, RCS genel deposundaki yapılandırmaya nasıl son verileceği açıklanmaktadır. Daha önce, gerekli olmayan yapılandırmalar yalnızca silinebiliyordu. Ancak şimdi, sunulan bir yapılandırmayı RCS genel deposunda **Sona erdirildi** olarak işaretleyebilirsiniz. Bu işlevle şunları da yapabilirsiniz: 
  
  - Bir yapılandırmanın sona erdirilmesi planlanıyorsa ön bildirim sağlama.
  - Eskisiyle değiştirilen yapılandırmayla ilgili ayrıntılar ekleme.
@@ -56,7 +56,7 @@ Yapılandırmanın sona erdirilmesinden önce, planlı bir sona erdirme hakkınd
 
 ## <a name="finance-supports-displaying-this-information-starting-in-version-10014"></a>Finance, 10.0.14 sürümünden itibaren bu bilgilerin görüntülenmesini destekler
 
-Dynamics 365 Finance, 10.0.14 sürümünden itibaren sona erdirme bilgilerinin görüntülenmesini destekler. **Genel depo** sayfasında, sona erdirmeyle ilgili güncel bilgileri görüntüleyebilirsiniz. Varsayılan olarak, sona erdirilen yapılandırmalar filtrelenir.
+Dynamics 365 Finance, 10.0.14 sürümünden itibaren son verme bilgilerinin görüntülenmesini destekler. **Genel depo** sayfasında, sona erdirmeyle ilgili güncel bilgileri görüntüleyebilirsiniz. Varsayılan olarak, sona erdirilen yapılandırmalar filtrelenir.
   
 **İçe aktarılan yapılandırmalar** (ERSolutionTable) sayfası, içe aktarıldıklarında zaten sona erdirilmiş olan yapılandırmaları gösterir. İçe aktarma işleminden sonra sona erdirilen yapılandırmalar için **içe aktarma yapılandırmaları güncelleştirmeleri** işi çalıştırılarak sona erdirme bilgileri eşitlenebilir.
 

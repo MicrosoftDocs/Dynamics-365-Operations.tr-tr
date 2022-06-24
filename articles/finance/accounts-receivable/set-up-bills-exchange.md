@@ -1,6 +1,6 @@
 ---
 title: Kambiyo senetlerini ayarlama
-description: Bu konuda, kambiyo senetlerini ayarlama adımları açıklar.
+description: Bu makalede, kambiyo senetlerini ayarlama adımları açıklanmaktadır.
 author: ShivamPandey-msft
 ms.date: 09/17/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6a9d04500ffe5b93c7a95c5cac9b4270e208dde9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 91821b10afe7cdbabd0a58b61219ce29d686c5c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726823"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874739"
 ---
 # <a name="set-up-bills-of-exchange"></a>Kambiyo senetlerini ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, kambiyo senetlerini ayarlama adımları açıklar.
+Bu makalede, kambiyo senetlerini ayarlama adımları açıklanmaktadır.
 
 Kambiyo senedi bir müşteriden gelen ve belirtilen bir tutarı, genelde bir banka olan, başka bir tarafın şirkete ödemesi gerektiğini belirten yazılı veya elektronik bir sipariştir. Bir satış siparişi faturası veya serbest metin faturası için ödeme olarak kambiyo senedi kullandığınızda müşteri hesabını alacaklandırırsınız. Müşteri kambiyo senedini bankaya ödeyene kadar bu alacak tutarı kambiyo senedi tarafından teminat altına alınır. Genelde faturayı vade tarihinde kambiyo senediyle kapatırsınız. Bankanızdan kambiyo senedinin karşılığının ödendiğine ilişkin bir bildirim aldığınızda kambiyo senedini kapatabilirsiniz. Kambiyo senedini aşağıdaki zamanlardan birinde bankanız üzerinden düzenleyebilirsiniz:
 

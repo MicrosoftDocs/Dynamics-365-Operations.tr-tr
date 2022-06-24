@@ -1,6 +1,6 @@
 ---
 title: Hareket olayları için e-posta şablonları oluşturma
-description: Bu konuda, Microsoft Dynamics 365 Commerce uygulamasındaki hareket olayları için e-posta şablonlarının nasıl oluşturulacağı, yükleneceği ve yapılandırılacağı açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce uygulamasındaki hareket olayları için e-posta şablonlarının nasıl oluşturulacağı, yükleneceği ve yapılandırılacağı açıklanmaktadır.
 author: bicyclingfool
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722531"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910562"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Hareket olayları için e-posta şablonları oluşturma
 
 [!include [banner](includes/banner.md)]
 
 
-Bu konuda, Microsoft Dynamics 365 Commerce uygulamasındaki hareket olayları için e-posta şablonlarının nasıl oluşturulacağı, yükleneceği ve yapılandırılacağı açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce uygulamasındaki hareket olayları için e-posta şablonlarının nasıl oluşturulacağı, yükleneceği ve yapılandırılacağı açıklanmaktadır.
 
-Dynamics 365 Commerce, müşterilere hareketsel olaylar hakkında uyarı veren bir e-posta göndermek için kullanıma hazır bir çözüm sağlar. Örneğin, bir sipariş yerleştirildiğinde e-postalar, malzeme çekme için hazır veya sevk edilmiş olduğunda gönderilebilir. Bu konuda, hareket e-postaları göndermek için kullanılan e-posta şablonlarını oluşturma, yükleme ve yapılandırma adımları açıklanmaktadır.
+Dynamics 365 Commerce, müşterilere hareketsel olaylar hakkında uyarı veren bir e-posta göndermek için kullanıma hazır bir çözüm sağlar. Örneğin, bir sipariş yerleştirildiğinde e-postalar, malzeme çekme için hazır veya sevk edilmiş olduğunda gönderilebilir. Bu makalede, hareket e-postaları göndermek için kullanılan e-posta şablonlarını oluşturma, yükleme ve yapılandırma adımları açıklanmaktadır.
 
 ## <a name="notification-types"></a>Bildirim türleri
 

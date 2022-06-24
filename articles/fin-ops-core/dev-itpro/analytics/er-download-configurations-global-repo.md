@@ -1,6 +1,6 @@
 ---
 title: Yapılandırma hizmeti genel deposundan ER yapılandırmalarını indir
-description: Bu konu, genel amaçlı yapılandırma havuzundan elektronik raporlama (ER) yapılandırmalarının nasıl indirileceğini açıklamaktadır.
+description: Bu makalede, Yapılandırma hizmeti Genel deposundan Elektronik raporlama (ER) yapılandırmalarının nasıl indirileceği açıklanmaktadır.
 author: NickSelin
 ms.date: 06/02/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 4386e8fdbb2856d14d5b47ee5ab416c8d58b8d63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605343"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891918"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Yapılandırma hizmeti genel deposundan ER yapılandırmalarını indir
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, genel amaçlı yapılandırma havuzundan [elektronik raporlama (ER) yapılandırmalarının](general-electronic-reporting.md#Configuration) nasıl indirileceğini açıklamaktadır. Daha fazla bilgi için, bkz [Microsoft Dynamics 365 for Finance and Operations - Regulatory services yapılandırma hizmeti](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Bu makalede, Yapılandırma hizmeti Genel deposundan [Elektronik raporlama (ER) yapılandırmalarının](general-electronic-reporting.md#Configuration) nasıl indirileceği açıklanmaktadır. Daha fazla bilgi için, bkz [Microsoft Dynamics 365 for Finance and Operations - Regulatory services yapılandırma hizmeti](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="open-configurations-repository"></a>Yapılandırmaların havuzu açın
 
-1. Aşağıdaki rollerden birini kullanarak Dynamics 365 Finance uygulamada oturum açın:
+1. Aşağıdaki rollerden birini kullanarak Dynamics 365 Finance uygulamasında oturum açın:
 
     - Elektronik raporlama geliştirici
     - Elektronik raporlama işlev danışmanı
@@ -80,7 +80,7 @@ Bu konu, genel amaçlı yapılandırma havuzundan [elektronik raporlama (ER) yap
     ![Konfigürasyon havuzu sayfası, sürümler hızlı sekmesi, Içe aktar düğmesi.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
-> ER ayarlarına bağlı olarak yapılandırmalar içeri aktarıldıktan sonra doğrulanır. Bulunan tutarsızlık sorunları hakkında haberdar edileceksiniz. İçe aktarılmış yapılandırma sürümünü kullanmadan önce bu sorunları çözümlemeniz gerekir. Daha fazla bilgi için bu konunun ilgili kaynaklar listesine göz atın.
+> ER ayarlarına bağlı olarak yapılandırmalar içeri aktarıldıktan sonra doğrulanır. Bulunan tutarsızlık sorunları hakkında haberdar edileceksiniz. İçe aktarılmış yapılandırma sürümünü kullanmadan önce bu sorunları çözümlemeniz gerekir. Daha fazla bilgi için bu makalenin ilgili kaynaklar listesine göz atın.
 
 > [!NOTE]
 > ER konfigürasyonları diğer konfigürasyonlara bağlı olarak konfigüre edilebilir. Bu nedenle, seçili konfigürasyonla birlikte, diğer yapılandırmalar otomatik olarak içe aktarılabilir. Konfigürasyon bağımlılıkları hakkında daha fazla bilgi için, [diğer bileşenlerde ER yapılandırmalarının bağımlılığını tanımlama konusuna](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md) bakın.

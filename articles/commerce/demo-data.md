@@ -1,6 +1,6 @@
 ---
 title: Modern POS (MPOS) ve Bulut POS'taki tanıtım verileri ekran düzenleri
-description: Bu konu, Dynamics 365 Commerce'deki satış noktası (POS) deneyimleriyle ilgili tanıtım verileri kümesiyle dahil edilen ekran düzenlerine ilişkin bilgiler sağlar.
+description: Bu makale, Dynamics 365 Commerce'deki satış noktası (POS) deneyimleriyle ilgili tanıtım verileri kümesiyle dahil edilen ekran düzenlerine ilişkin bilgiler sağlar.
 author: josaw1
 ms.date: 10/05/2017
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb7a288b61e8b467dd8ad6a8f7dc42b7fca0d943
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761674"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897237"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Modern POS (MPOS) ve Bulut POS'taki tanıtım verileri ekran düzenleri
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Dynamics 365 Commerce'deki satış noktası (POS) deneyimleriyle ilgili tanıtım verileri kümesiyle dahil edilen ekran düzenlerine ilişkin bilgiler sağlar.
+Bu makale, Dynamics 365 Commerce'deki satış noktası (POS) deneyimleriyle ilgili tanıtım verileri kümesiyle dahil edilen ekran düzenlerine ilişkin bilgiler sağlar.
 
 ## <a name="overview"></a>Genel Bakış
 
-Commerce tanıtım verileriyle birlikte gelen örnek ekran düzenleri çeşitli perakende segmentleri, mağaza çalışanı rolleri ve cihazlar için optimize edilmiş içerikler sağlar. Mağaza çalışanları cihazlar ve çözümler arasında geçiş yaparken kapsamın sağlanmasına yardımcı olmak amacıyla tek bir düzen çeşitli düzen boyutları ve kombinasyonları içerebilir. Bu konu bu düzenler, sağladıkları işlemler ve sundukları genel deneyimler arasındaki farklılıkları açıklar.
+Commerce tanıtım verileriyle birlikte gelen örnek ekran düzenleri çeşitli perakende segmentleri, mağaza çalışanı rolleri ve cihazlar için optimize edilmiş içerikler sağlar. Mağaza çalışanları cihazlar ve çözümler arasında geçiş yaparken kapsamın sağlanmasına yardımcı olmak amacıyla tek bir düzen çeşitli düzen boyutları ve kombinasyonları içerebilir. Bu makale bu düzenler, sağladıkları işlemler ve sundukları genel deneyimler arasındaki farklılıkları açıklar.
 
 ![Cihazlar arası tanıtım verileri düzenleri.](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
@@ -52,8 +52,8 @@ Ekran düzeni kodları en çok 10 karaktere sahip olabilir. Kod, üç bilgi par�
 | Mektup | Şirket         |
 |--------|-----------------|
 | A      | Adventure Works |
-| C      | Fabrikam        |
-| A      | Contoso         |
+| F      | Fabrikam        |
+| Ş      | Contoso         |
 
 ### <a name="layout-version"></a>Düzen sürümü
 
@@ -141,7 +141,7 @@ Aşağıdaki örneklerde üç hayali şirket için karşılama sayfası ve işle
 
 ### <a name="contoso"></a>Contoso
 
-![Contoso için tanıtım verileri düzenleri.](../commerce/media/demo-screen-layouts-fig-4-3.png)
+![Contoso için tanıtım verisi düzenleri.](../commerce/media/demo-screen-layouts-fig-4-3.png)
 
 ## <a name="user-sign-in-matrix"></a>Kullanıcı oturum açma matrisi
 
@@ -157,7 +157,7 @@ Kullanıcılara çeşitli ekran düzenleri sağlanmıştır. Aşağıdaki tabloy
 | Fabrikam        | F3STK            | Stok Memuru   | 000164, 000112, 000123 |
 | Contoso         | C3MGR            | Mağaza Yöneticisi | 000100, 000111         |
 | Contoso         | C3CSH            | Kasiyer       | 000110, 000120         |
-| Contoso         | Geçerli değil   | Stok Memuru   | Geçerli değil         |
+| Contoso         | Uygulanamaz   | Stok Memuru   | Uygulanamaz         |
 
 > [!TIP]
 > En iyi sonuçları elde etmek için, ilgili mağaza konumundaki karşılık gelen bir kaydı etkinleştirin ve şirketi oturum açarken kullanmayı planladığınız kişinin şirketine ayarlayın. Bu şekilde, görsel profilin ve marka resimlerinin deneyim süresince uyumlu olmasını sağlamaya yardımcı olursunuz. Örneğin, bir kasiyer için Fabrikam düzenini görmek istiyorsanız, Houston mağazasındaki bir kaydı etkinleştirmeniz gerekir.

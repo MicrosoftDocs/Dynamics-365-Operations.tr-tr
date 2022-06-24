@@ -1,6 +1,6 @@
 ---
 title: E-posta ER hedef türü
-description: Bu konuda, Elektronik raporlama (ER) biçiminin her KLASÖR veya DOSYA bileşeni için e-posta hedefinin nasıl yapılandırılacağı açıklanmaktadır.
+description: Bu makalede, Elektronik raporlama (ER) biçiminin her KLASÖR veya DOSYA bileşeni için e-posta hedefinin nasıl yapılandırılacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 08d64b0f21e4957727de1e8f5f13f9067c0fbc7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324020"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845671"
 ---
 # <a name="email-er-destination-type"></a>E-posta ER hedef türü
 
@@ -120,7 +120,7 @@ Alternatif olarak, giden belge oluşturduğunuz tarafın ilgili kişi ayrıntıl
 
 ![Bir e-posta kaynağı hesabını yapılandırma.](./media/er_destinations-emaildefineaddresssource.gif)
 
-Yapılandırılan rolün hesap numaraları Microsoft Dynamics 365 Finance'in tüm kurulumu için benzersiz ise **E-posta gönderilecek adres** iletişim kutusundaki **E-posta kaynağının şirketi** alanı boş kalabilir.
+Yapılandırılan rolün hesap numaraları Microsoft Dynamics 365 Finance'in tüm örneği için benzersiz ise **E-posta gönderilecek adres** iletişim kutusundaki **E-posta kaynağının şirketi** alanı boş kalabilir.
 
 Bunun yerine, [Genel adres defteri](../../fin-ops/organization-administration/overview-global-address-book.md)'ndeki farklı tarafların yapılandırılan rolü doldurmak için hepsinin aynı hesap numarasını kullanacağı şekilde farklı şirketlerde ([tüzel kişilikler](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) kaydedildiği bir durumla karşılaşabilirsiniz. Bu durumda, yapılandırılan rolün hesap numaraları tüm Finance kurulumu için benzersiz değildir. Bu nedenle, bir tarafı açıkça seçmek için yalnızca hesap numarası belirtmeniz yeterli değildir. Ayrıca yapılandırılan rolü doldurmak için tarafın kaydedilği şirketi de belirtmeniz gerekir. [Formül tasarımcısı](general-electronic-reporting-formula-designer.md) sayfasını açmak için **E-posta gönderilecek adres** iletişim kutusundaki **E-posta kaynağının şirketi** alanının yanındaki **Bağla** düğmesini (zincir simgesi) seçin. Ardından, kapsamında istenen kaynağın bulunması gereken şirket kodunu çalışma zamanında döndüren formülü yapılandırmak için bu sayfayı kullanabilirsiniz.
 
@@ -162,7 +162,7 @@ Aşağıdaki çizimde, PDF biçiminde tahsilat mektubunu ve uygun müşteri fatu
 
 [![Giden belgeler oluşturan bir ER biçiminin yapısı.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
-Aşağıdaki çizimde, bu konu başlığında anlatılan şekilde ayrı bileşenleri gruplandırma ve yeni grup için **E-posta** hedefinin etkinleştirilmesi gösterilmektedir. Böylece uygun müşteri faturaları ile birlikte tahsilat mektubunun e-posta ekleri olarak gönderilir.
+Aşağıdaki çizimde, bu makalede anlatılan şekilde ayrı bileşenleri gruplandırma ve yeni grup için **E-posta** hedefinin etkinleştirilmesi gösterilmektedir. Böylece uygun müşteri faturaları ile birlikte tahsilat mektubunun e-posta ekleri olarak gönderilir.
 
 [![Ayrı bileşenleri gruplandırma ve E-posta hedefini etkinleştirme.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 

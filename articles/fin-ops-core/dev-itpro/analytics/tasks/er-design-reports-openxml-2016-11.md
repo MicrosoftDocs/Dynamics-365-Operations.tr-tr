@@ -1,6 +1,6 @@
 ---
 title: ER OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama (Kasım 2016)
-description: Bu konuda, OPENXML biçiminde elektronik belgeler oluşturmak için bir şablon içeren yeni bir Elektronik raporlama yapılandırmasının nasıl oluşturulacağı açıklanmaktadır.
+description: Bu makalede, OPENXML biçiminde elektronik belgeler oluşturmak için bir şablon içeren yeni bir Elektronik raporlama yapılandırmasının nasıl oluşturulacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c3dfe6ce9c918b5fccbd7097096fa359facdf41bbf6fd0fab6c61153171484cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b2325a5389e0bfe1efff17e5cd117ad8dbcd65d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753040"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908427"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama (Kasım 2016)
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda Sistem Yöneticisi veya Elektronik Raporlama Geliştiricisi rolündeki bir kullanıcının OPENXML biçiminde elektronik belgeler oluşturmak için bir şablon içeren, yeni bir Elektronik Raporlama (ER) yapılandırmasını nasıl oluşturabileceği açıklanmaktadır. Bu yapılandırma, satıcı ödemelerini işlemek için kullanılacaktır.
+Bu makalede Sistem Yöneticisi veya Elektronik Raporlama Geliştiricisi rolündeki bir kullanıcının OPENXML biçiminde elektronik belgeler oluşturmak için bir şablon içeren, yeni bir Elektronik Raporlama (ER) yapılandırmasını nasıl oluşturabileceği açıklanmaktadır. Bu yapılandırma, satıcı ödemelerini işlemek için kullanılacaktır.
 
 Bu örnekte Litware, Inc. örnek şirketi için bir yapılandırma oluşturacaksınız. Bu adımlar, herhangi bir GBSI şirketinde gerçekleştirilebilir.
 

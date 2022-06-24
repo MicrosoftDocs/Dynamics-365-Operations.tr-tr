@@ -1,6 +1,6 @@
 ---
 title: Çift para birimi
-description: Bu konu, raporlama para biriminin Microsoft Dynamics 365 Finance için muhasebe para birimi olarak kullanıldığı çift para birimi hakkında bilgi sağlar.
+description: Bu makalede, raporlama para biriminin Microsoft Dynamics 365 Finance için muhasebe para birimi olarak kullanıldığı çift para birimi hakkında bilgi sağlanmaktadır.
 author: kweekley
 ms.date: 04/17/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 04738d2fe88fef5c0e96a39febfec86fab3bee7d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 8db8faefaec4afe208344492ec91375531cb9cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713599"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906369"
 ---
 # <a name="dual-currency"></a>Çift para birimi
 
@@ -36,7 +36,7 @@ Ayrıca çeşitli modüller, farklı süreçlerde raporlama para birimini izleme
 - Sabit kıymetler 
 - Konsolidasyonlar
 
-Yükseltme işleminden sonra Nakit para ve banka yönetimi ile sabit kıymetler için belirli adımları tamamlamalısınız. Bu nedenle, bu konunun ilgili bölümlerini dikkatlice okuduğunuzdan ve anladığınızdan emin olun.
+Yükseltme işleminden sonra Nakit para ve banka yönetimi ile sabit kıymetler için belirli adımları tamamlamalısınız. Bu nedenle, bu makalenin ilgili bölümlerini dikkatlice okuduğunuzdan ve anladığınızdan emin olun.
 
 ## <a name="posting-process"></a>Nakil süreci
 
@@ -93,7 +93,7 @@ Aşağıdaki ek değişiklikler **Genel muhasebe** modülünde yapılmıştır:
 - Raporlama para birimi için ayrı bir döviz kuru türü genel muhasebe üzerinde tanımlanabilir. Bir organizasyon farklı bir döviz kuru türü kullanmak istemezse raporlama para birimi için döviz kuru türü alanını boş bırakabilirsiniz. Alternatif olarak, muhasebe para birimi için kullanılan aynı döviz kuru türünü seçebilirsiniz. Alanı boş bırakırsanız, sistem muhasebe para birimi için döviz kuru türünü kullanır.
 - Yeni bir günlük olan Raporlama para birimi ayarlama günlüğü, genel muhasebe hesaplarına nakledilecek ayarlamaları yalnızca raporlama para biriminde etkinleştirir. Bu günlük yalnızca genel muhasebe hesaplarına nakli etkinleştirir. Şirketlerarasını desteklemez ve para birimi, günlüğün nakledildiği tüzel kişilik raporlama para birimi olmalıdır. Günlük deftere nakledildiğinde, hareketin para birimi ve muhasebe para birimi tutarları 0 (sıfır) olur ve raporlama para birimi tutarı, hareket için girilen tutarla deftere nakledilir. Raporlama para biriminin **Borç hesapları**, **Alacak hesapları**, ve **Sabit kıymetler** modüllerinde kullanım şekli değiştiği için, bu günlük bir yükseltmeden sonra ayarlamalar için kullanılabilir. Örneğin, bu günlüğün nasıl kullanılabileceğini gösterir, söz konusu modüller için bölümlere bakın.
 - Hareket, muhasebe ve raporlama para birimi cinsindeki tutarların ayırması için dönem tahsisat işlemi güncelleştirildi. Daha önce tutarlar hareket ve muhasebe para biriminde ayrılırdı ve ardından muhasebe para birimi tutarı, raporlama para birimine çevrilirdi. Bu davranış, genel muhasebe hesabının bakiyesinin raporlama para biriminde kalmasına neden olabilir. Artık tutarlar muhasebe girişinde hesaplanır ve kullanılır, çevrilme hatası olmaz.
-- yabancı para birimi yeniden değerleme işlemi raporlama para biriminde tutarlara yeniden değer sağladı. Bununla birlikte, raporlama para birimi tutarı şimdi hareket para birimi tutarında hesaplanır; bu bölümdeki daha önceki [Deftere nakil işlemi](#posting-process) konusunda açıklandığı gibi.
+- yabancı para birimi yeniden değerleme işlemi raporlama para biriminde tutarlara yeniden değer sağladı. Bununla birlikte, raporlama para birimi tutarı artık hareket para birimi tutarında hesaplanır. Bu durum, bu makalenin önceki kısımlarında yer alan [Deftere nakil işlemi](#posting-process) bölümünde açıklanmıştır.
 - Genel muhasebedeki birçok rapor ve sorgu, raporlama para birimine zaten sahip, ancak birkaçı değil. Bir örnek **Mizan** liste sayfasıdır. Bu liste sayfası, şimdi hem muhasebe para birimi hem de raporlama para birimi için sütunlar içeriyor. Muhasebe para birimi ve raporlama para birimi aynıysa ya da herhangi bir raporlama para birimi genel muhasebede tanımlanmamışsa raporlama para birimi için sütunların gizli olacağını unutmayın.
 
 ### <a name="financial-reporting"></a>Mali raporlama

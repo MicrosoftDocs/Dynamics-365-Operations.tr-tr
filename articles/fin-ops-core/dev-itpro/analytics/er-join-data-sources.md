@@ -1,6 +1,6 @@
 ---
 title: Birden çok uygulama tablosundan veri almak için ER model eşlemelerinde BİRLEŞTİRME veri kaynaklarını kullanma
-description: Bu konu, Elektronik raporlamada (ER) BİRLEŞTİRME türü veri kaynaklarını nasıl kullanabileceğinizi açıklamaktadır.
+description: Bu makalede, Elektronik raporlamada (ER) JOIN türü veri kaynaklarını nasıl kullanabileceğiniz açıklanmaktadır.
 author: NickSelin
 ms.date: 04/26/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: c9a06c048e98676e30a6652cad6634c2e13531d4ebc6d35f325f4c7153cd82ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0994c19ad79a3e73dc787ef8d82716db637f9ab0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723225"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845555"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Birden çok uygulama tablosundan veri almak için Elektronik raporlama (ER model) eşlemelerinde BİRLEŞTİRME veri kaynaklarını kullanma
 
@@ -40,15 +40,15 @@ Yapılandırılan **Birleştir** veri kaynağında, tüm veri kaynakları **Tabl
 > [!NOTE]
 > Birleştir türünün veri kaynaklarındak kayıtları birleştirmek için koşulları belirten ER ifadelerinde **VALUEIN** işlevinin kullanılması henüz desteklenmemektedir. Bu işlev hakkında daha fazla ayrıntı için [Elektronik raporlamada formül tasarımcısı](general-electronic-reporting-formula-designer.md) sayfasını ziyaret edin.
 
-Bu özellik hakkında daha fazla bilgi edinmek için bu konudaki örneği tamamlayın.
+Bu özellik hakkında daha fazla bilgi edinmek için bu makaledeki örneği tamamlayın.
 
 ## <a name="example-use-join-data-sources-in-er-model-mappings"></a>Örnek: ER model eşlemelerinde BIRLEŞTIRME veri kaynaklarını kullanma
 
 Aşağıdaki adımlarda, veri erişimi performansını geliştirmek üzere Sistem Yöneticisi veya Elektronik raporlama geliştiricisinin **Birleştirme** türü veri kaynaklarını kullanarak bir seferde çoklu uygulama tablolarından veri almak üzere nasıl Elektronik raporlama (ER) model eşlemesi yapılandırabileceği anlatılmaktadır. Bu adımlar herhangi bir Dynamics 365 Finance şirketi veya Regulatory Configuration Services (RCS) için gerçekleştirilebilir.
 
-### <a name="prerequisites"></a>Önkoşullar
+### <a name="prerequisites"></a>Ön Koşullar
 
-Bu konudaki örnekleri tamamlamak için, bu adımları tamamlamak amacıyla hangi hizmetin kullanıldığına bağlı olarak aşağıdakilerden birine erişiminizin olması gerekir:
+Bu makaledeki örnekleri tamamlamak için, bu adımları tamamlamak amacıyla hangi hizmetin kullanıldığına bağlı olarak aşağıdakilerden birine erişiminizin olması gerekir:
 
 **Aşağıdaki rollerden biri için Finance'a erişim:**
 
@@ -257,9 +257,9 @@ ER model eşleme bileşeninin ayarlarını inceleyin. Bileşen, **Birleştirme**
 
 ## <a name="limitations"></a>Sınırlamalar
 
-Bu konudaki örnekte görebileceğiniz gibi, **BİRLEŞTİR** veri kaynağı, birleştirilmesi gereken kayıtların ayrı veri kümelerini açıklayan birçok veri kaynağından oluşturulabilir. Bu veri kaynaklarını, yerleşik ER [FİLTRESİ](er-functions-list-filter.md) işlevini kullanarak yapılandırabilirsiniz. Veri kaynağını **BİRLEŞTİR** veri kaynağının dışında çağrılacak şekilde yapılandırdığınızda, şirket aralıklarını veri seçimi koşulunun parçası olarak kullanabilirsiniz. **BİRLEŞTİR** veri kaynağının başlangıç uygulaması bu türdeki veri kaynaklarını desteklemez. Örneğin, [FİLTRE](er-functions-list-filter.md) tabanlı bir veri kaynağını **BİRLEŞTİR** veri kaynağının yürütme kapsamı içinde çağırdığınızda, çağrılan veri kaynağı veri seçimi koşulunun bir parçası olarak şirket aralıklarını içeriyorsa, özel durum oluşur.
+Bu makaledeki örnekte görebileceğiniz gibi, **JOIN** veri kaynağı, birleştirilmesi gereken kayıtların ayrı veri kümelerini açıklayan birçok veri kaynağından oluşturulabilir. Bu veri kaynaklarını, yerleşik ER [FİLTRESİ](er-functions-list-filter.md) işlevini kullanarak yapılandırabilirsiniz. Veri kaynağını **BİRLEŞTİR** veri kaynağının dışında çağrılacak şekilde yapılandırdığınızda, şirket aralıklarını veri seçimi koşulunun parçası olarak kullanabilirsiniz. **BİRLEŞTİR** veri kaynağının başlangıç uygulaması bu türdeki veri kaynaklarını desteklemez. Örneğin, [FİLTRE](er-functions-list-filter.md) tabanlı bir veri kaynağını **BİRLEŞTİR** veri kaynağının yürütme kapsamı içinde çağırdığınızda, çağrılan veri kaynağı veri seçimi koşulunun bir parçası olarak şirket aralıklarını içeriyorsa, özel durum oluşur.
 
-Microsoft Dynamics 365 Finance 10.0.12 sürümümde (2020 Ağustos) şirket aralıklarını, **BİRLEŞTİR** veri kaynağı yürütme kapsamında çağrılan [FİLTRE](er-functions-list-filter.md) tabanlı birleştirme veri kaynağında veri seçimi koşulunun bir parçası olarak kullanabilirsiniz. Uygulama [sorgu](../dev-ref/xpp-library-objects.md#query-object-model)oluşturucusunun sınırlamaları nedeniyle, şirket aralıkları **BİRLEŞTİR** veri kaynağının yalnızca ilk veri kaynağı için desteklenir.
+Microsoft Dynamics 365 Finance 10.0.12 sürümünde (2020 Ağustos) şirket aralıklarını, **JOIN** veri kaynağı yürütme kapsamında çağrılan [FILTER](er-functions-list-filter.md) tabanlı birleştirme veri kaynağında veri seçimi koşulunun bir parçası olarak kullanabilirsiniz. Uygulama [sorgu](../dev-ref/xpp-library-objects.md#query-object-model)oluşturucusunun sınırlamaları nedeniyle, şirket aralıkları **BİRLEŞTİR** veri kaynağının yalnızca ilk veri kaynağı için desteklenir.
 
 ### <a name="example"></a>Örnek
 

@@ -1,6 +1,6 @@
 ---
 title: Belgeleri ve fişleri kronolojik olarak numaralandırma
-description: Bu konu, uygulanabilir belgeler ve ilgili fişler için kronolojik numaraların nasıl ayarlanacağını ve kullanılacağını açıklamaktadır.
+description: Bu makalede, geçerli belgeler ve ilgili fişler için kronolojik numaraların nasıl ayarlanacağı ve kullanılacağı açıklanmaktadır.
 author: ikond
 ms.date: 02/01/2021
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0ce1afdbd31a78611e6b51dd93f7159d684c97cb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6baf307406982e8f72acc0d02f047dbc7c63a5ed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692687"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876397"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Belgeleri ve fişleri kronolojik olarak numaralandırma
 
 [!include [banner](../includes/banner.md)]
 
 
-Bazı ülke/bölgelerde, belgeleri ve ilgili fişleri kronolojik sırada numaralandırmak için yasal bir gereksinim vardır. Kronoloji, dönemler tarafından desteklenmelidir. Önceki dönemlere ait tüm numaralar sonraki dönemlere ait olan numaralardan küçük olmalıdır. Bu gereksinimi karşılamak için kronolojik numaralandırma işlevi uygulanmıştır. Bu konu, uygulanabilir belgeler ve ilgili fişler için kronolojik numaraların nasıl yapılandırılacağı ve kullanılacağını açıklamaktadır.
+Bazı ülke/bölgelerde, belgeleri ve ilgili fişleri kronolojik sırada numaralandırmak için yasal bir gereksinim vardır. Kronoloji, dönemler tarafından desteklenmelidir. Önceki dönemlere ait tüm numaralar sonraki dönemlere ait olan numaralardan küçük olmalıdır. Bu gereksinimi karşılamak için kronolojik numaralandırma işlevi uygulanmıştır. Bu makalede, geçerli belgeler ve ilgili fişler için kronolojik numaraların nasıl yapılandırılacağı ve kullanılacağı açıklanmaktadır.
 
 ## <a name="prerequisites"></a>Önkoşullar
 

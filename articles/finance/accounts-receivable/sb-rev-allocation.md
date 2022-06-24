@@ -1,6 +1,6 @@
 ---
 title: Gelir tahsisatı
-description: Bu konuda, Abonelik faturalamasında gelir tahsisini kullanma işlemi açıklanmaktadır.
+description: Bu makalede, Abonelik faturalamasında gelir tahsisini kullanma işlemi açıklanmaktadır.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 09d3e9295f1fb753156aa603b00372316173721e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 18739e0871592bc9eefcdf00f67dd4dd18f5d6f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695260"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864382"
 ---
 # <a name="revenue-allocation"></a>Gelir tahsisatı
 
-Bu konuda, faturalama zamanlamasında gelir tahsisat parametrelerini ayarlama işlemi açıklanmaktadır. Ödeme planı oluştururken, gelir tahsisatını ayarlayabilir veya düzenleyebilirsiniz. Etkin veya sonlandırılmış bir faturalama planı için **Gelir tahsisatı** sayfasını açtığınızda, alanlar salt okunurdur.
+Bu makalede, faturalama zamanlamasında gelir tahsisat parametrelerini ayarlama işlemi açıklanmaktadır. Ödeme planı oluştururken, gelir tahsisatını ayarlayabilir veya düzenleyebilirsiniz. Etkin veya sonlandırılmış bir faturalama planı için **Gelir tahsisatı** sayfasını açtığınızda, alanlar salt okunurdur.
 
 ## <a name="specify-the-revenue-allocation-for-a-billing-schedule"></a>Fatura planı için gelir tahsisatını belirtin
 

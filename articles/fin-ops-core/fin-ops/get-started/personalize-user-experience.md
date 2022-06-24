@@ -1,8 +1,8 @@
 ---
 title: Kullanıcı deneyimini kişiselleştirme
-description: Bu konuda uygulamayı nasıl kişiselleştirebileceğiniz açıklanmaktadır.
+description: Bu makalede, uygulamayı nasıl kişiselleştirebileceğiniz açıklanmaktadır.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b922d68fcf3e83be57140cf8c54c4bacd2b75f56
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: c326e51dc127d8b82ccef28146ec223ca5169c5e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8603004"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845456"
 ---
 # <a name="personalize-the-user-experience"></a>Kullanıcı deneyimini kişiselleştirme
 
@@ -28,7 +28,7 @@ ms.locfileid: "8603004"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Bu konu, uygulamayı nasıl kişiselleştirebileceğinizi açıklamakta ve aşağıdaki konuları nasıl ele almaktadır: 
+Bu makalede, uygulamayı nasıl kişiselleştirebileceğiniz açıklanmakta ve aşağıdaki konular ele alınmaktadır: 
 
 - **Sistem genelindeki seçenekler** – Bu kişiselleştirme seçenekleri bir kurulum sayfasında yapılır ve tüm kullanıcılar tarafından kullanılabilir. Örneğin renk teması ve saat dilimi. 
 - **Kısıtlı kişiselleştirme erişimi** – Bu erişim düzeyinde, normal sayfa kullanımıyla ilişkili kullanıcı eylemleri uygulama tarafından otomatik olarak kaydedilir ve sayfayı bir sonraki ziyaretindeki geri yüklenir. Örneğin uygulama, ayarladığınız takdirde kılavuz sütunlarının genişliğini ve hızlı sekmelerin genişletme/daraltma durumunu kaydeder. 
@@ -58,7 +58,7 @@ Tipik sayfa kullanımında yer alan ve kısıtlı kişiselleştirme erişimi kap
 
 - **Izgara sütun genişlikleri** – Izgaradaki bir sütunun genişliğini, sütun başlığının solundaki veya sağındaki boyutlandırma çubuğunu seçerek ve bunu sütun istediğiniz genişliğe gelene kadar sola veya sağa kaydırarak ayarlayabilirsiniz. Uygulama, sütun için ayarladığınız genişlik bilgisini depolar. Daha sonra, ilgili sayfayı tekrar açtığınızda sütunu o genişliğe ayarlanır.
 - **Kılavuz alt bilgi sütun toplamları** - *(Yalnızca yeni kılavuz kontrolü etkin olduğunda mevcuttur)* Kılavuzda bir sayısal sütunun altında bir toplam gösterilip gösterilmeyeceğini ve kılavuz altbilginin görünür olup olmayacağını belirleyebilirsiniz. Uygulama bu tercihleri depolar ve sayfayı bir sonraki açışınızda hatırlanır olmasını sağlayabilirsiniz. Daha fazla bilgi için [Kılavuz özellikleri](grid-capabilities.md) bölümüne bakın. 
-- **Hızlı Sekmeler** – Bazı sayfaların *Hızlı Sekmeler* olarak bilinen genişletilebilir bölümleri vardır. Uygulama, genişlettiğiniz veya daralttığınız hızlı sekmeler hakkındaki bilgileri depolar. Sayfayı sonraki açışınızda o hızlı sekmeler, sayfayla son etkileşiminize göre genişletilir veya daraltılır. Bazı durumlarda, uygulamanın bir hızlı sekme genişletilene kadar o hızlı sekmeye ilişkin bilgilere ulaşmasına gerek olmadığından, hızlı sekmeyi daraltarak sistem performansının artırılmasına yardımcı olabilirsiniz. Bu konuda daha ileride açıklanacağı üzere, bir sayfadaki hızlı sekmelerin sırasını da değiştirebilirsiniz.
+- **Hızlı Sekmeler** – Bazı sayfaların *Hızlı Sekmeler* olarak bilinen genişletilebilir bölümleri vardır. Uygulama, genişlettiğiniz veya daralttığınız hızlı sekmeler hakkındaki bilgileri depolar. Sayfayı sonraki açışınızda o hızlı sekmeler, sayfayla son etkileşiminize göre genişletilir veya daraltılır. Bazı durumlarda, uygulamanın bir hızlı sekme genişletilene kadar o hızlı sekmeye ilişkin bilgilere ulaşmasına gerek olmadığından, hızlı sekmeyi daraltarak sistem performansının artırılmasına yardımcı olabilirsiniz. Bu makalenin ilerleyen bölümlerinde açıklanacağı üzere, bir sayfadaki hızlı sekmelerin sırasını da değiştirebilirsiniz.
 - **Bilgi Kutuları** – Bazı sayfalarda, sayfanın geçerli konusuyla ilgili salt okunur bilgileri gösteren **İlgili bilgi** bölmesi bulunur. **İlgili bilgi** bölmesindeki her bölüm *Bilgi Kutusu* olarak adlandırılır. **İlgili bilgi** bölmesini genişletebilir veya daraltabilir ve ayrıca, Bilgi Kutularını tek tek genişletebilir veya daraltabilirsiniz. Uygulama, bu tercihleri depolar. Sayfaya bir sonraki açışınızda sayfayla son etkileşiminize göre, **İlgili bilgi** bölmesi ve tek tek Bilgi Kutuları genişletilir veya daraltılır. Bazı durumlarda, uygulamanın bir Bilgi Kutusu genişletilene kadar o Bilgi Kutusuna ilişkin bilgilere ulaşmasına gerek olmadığından, **İlgili bilgi** Bölmesini veya Bilgi Kutusunu daraltarak sistem performansının artırılmasına yardımcı olabilirsiniz.
 - **Eylem Bölmeleri** – Bir *Eylem Bölmesi* çoğu sayfanın en üst kısmında görünür. Eylem Bölmesi, geçerli sayfada gerçekleştirebildiğiniz eylemlerin birçoğu için düğmeler içerir. Bu düğmeler genellikle sekmeler halinde düzenlenir. Eylem Bölmesini açık haliyle *sabitleyebilir* veya varsayılan olarak daraltabilirsiniz. Sayfayı sonraki açışınızda Eylem bölmesi sayfayla son etkileşiminize göre açık veya daraltılmış olur. Eylem bölmesini açık olarak sabitlediğiniz takdirde, kullandığınız son sekme gösterilir.
 - **Hızlı Filtreler** – Bir *Hızlı Filtre* birçok kılavuzun üst kısmında görünür. Hızlı Filtre, seçtiğiniz tek bir sütuna göre kılavuza filtrelemenize olanak sağlar. Uygulama, filtre uyguladığınız sütunu depolar. Daha sonra, o sayfayı sonraki açışınızda kılavuz varsayılan olarak filtreleme için aynı sütunu kullanır. Bununla birlikte, kılavuzu filtrelemek için farklı bir sütun da seçebilirsiniz.
@@ -173,14 +173,14 @@ Bazı çalışma alanları sayı kutucukları (yani üzerinde sayılar bulunan k
 
 ### <a name="personalizing-your-dashboard"></a>Panonuzu kişiselleştirme
 
-Pano, çoğunlukla uygulamayı açtığınızda gördüğünüz ilk sayfadır. Bu konunun önceki bölümlerinde açıklanan mekanizmaları kullanarak, sistemdeki diğer tüm sayfalar gibi kişiselleştirilebilir. 
+Pano, çoğunlukla uygulamayı açtığınızda gördüğünüz ilk sayfadır. Bu makalenin önceki bölümlerinde açıklanan mekanizmalar kullanılarak sistemdeki diğer tüm sayfalar gibi kişiselleştirilebilir. 
 
 > [!WARNING]
 > Şu anda, panodaki içeriği gizlediğinizde, etrafındaki boşluğu değil, doğrudan bir kutucuğu hedeflemeniz önemlidir. Grubu bir kutucuğun etrafında gizlerseniz, daha sonra daha fazla kutucuk eklenirse veya sistem farklı bir dile geçerse beklenmedik sonuçlar ortaya çıkabilir.
 
 Panoda bulunan benzersiz bir kişiselleştirme özelliği kutucuk ekleyebilme özelliğidir. 
 
-- **Tam sayfa uygulamaları** özelliği kapalıysa, panoda bir öğeye sağ tıklayıp sonra da **Çalışma alanı ekle**'yi seçerek yeni bir kutucuk eklersiniz. Panonun alt kısmında yeni bir çalışma alanı kutucuğu oluşturulur. Bu yeni çalışma alanı kutucuğunu istediğiniz gibi yeniden adlandırabilirsiniz. Bu konunun [Çalışma alanına liste, kutucuk ve bağlantı ekleme](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) bölümünde açıklandığı gibi, çalışma alanına listeler, kutucuklar ve bağlantılar da ekleyebilirsiniz.
+- **Tam sayfa uygulamaları** özelliği kapalıysa, panoda bir öğeye sağ tıklayıp sonra da **Çalışma alanı ekle**'yi seçerek yeni bir kutucuk eklersiniz. Panonun alt kısmında yeni bir çalışma alanı kutucuğu oluşturulur. Bu yeni çalışma alanı kutucuğunu istediğiniz gibi yeniden adlandırabilirsiniz. Bu makalenin [Çalışma alanına liste, kutucuk ve bağlantı ekleme](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) bölümünde açıklandığı gibi, çalışma alanına listeler, kutucuklar ve bağlantılar da ekleyebilirsiniz.
 - **Tam sayfa uygulamaları** özelliği kapalıysa, panoda bir öğeye sağ tıklayıp sonra da **Uygulama ekle**'yi seçerek yeni bir kutucuk eklersiniz. İletişim kutusunda, yeni bir çalışma alanına bir kutucuk veya Power Apps ya da bir web sitesinden içerik içeren bir kutucuk eklemeyi seçin. Sonra belirlediğiniz seçeneği yapılandırmak için ilgili adımları izleyin. Panonun alt kısmında yeni bir kutucuk oluşturulur. Bu katıştırılmış uygulamaları ekleme, düzenleme, silme ve paylaşma hakkında daha fazla bilgi için bkz. [Power Apps'teki tuval uygulamalarını katıştırma](embed-power-apps.md) ve [Üçüncü taraf uygulamaları katıştırma](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Kişiselleştirmeler paylaşma
@@ -236,7 +236,7 @@ Kişiselleştirmeleri paylaşmanın başka bir yolu da dışa ve içe aktarmadı
 
 #### <a name="export"></a>Dışarı aktar
 
-Genel olarak, kendi görünümlerinizi veya kişiselleştirmelerinizi, uygun sayfayı açıp **Kişiselleştirme** araç çubuğunu açıp **Dışa aktar**'ı seçerek verebilirsiniz. Araç çubuğu hakkında daha fazla bilgi için bu konunun önceki bölümlerinde yer alan [Kişiselleştirme araç çubuğu](#personalization-toolbar) kısmını inceleyin. Alternatif olarak, [kaydedilmiş görünümler](saved-views.md)etkinse, sistem içindeki tüm kişiselleştirmeler listesini görüntülemek için **Ayarlar \> Kullanıcı seçenekleri \> Kişiselleştirme**'ye gidebilirsiniz. Daha sonra dışa aktarılacak görünümleri ya da kişiselleştirmeleri seçebilir ve **Dışa aktar**'ı seçebilirsiniz.
+Genel olarak, kendi görünümlerinizi veya kişiselleştirmelerinizi, uygun sayfayı açıp **Kişiselleştirme** araç çubuğunu açıp **Dışa aktar**'ı seçerek verebilirsiniz. Araç çubuğu hakkında daha fazla bilgi için bu makalenin önceki bölümlerinde yer alan [Kişiselleştirme araç çubuğu](#personalization-toolbar) kısmını inceleyin. Alternatif olarak, [kaydedilmiş görünümler](saved-views.md)etkinse, sistem içindeki tüm kişiselleştirmeler listesini görüntülemek için **Ayarlar \> Kullanıcı seçenekleri \> Kişiselleştirme**'ye gidebilirsiniz. Daha sonra dışa aktarılacak görünümleri ya da kişiselleştirmeleri seçebilir ve **Dışa aktar**'ı seçebilirsiniz.
 
 Ek olarak, yöneticiler aşağıdaki adımları izleyerek diğer kullanıcıların kişiselleştirmelerini dışa aktarabilir.
 
@@ -277,7 +277,7 @@ Kaydedilmiş görünümler etkin değilse, aşağıdaki adımları izleyin.
 
 **Kişiselleştirme** sayfası, bir organizasyon düzeyinde kişiselleştirmeleri yönetmek için Merkez hub 'ın bulunduğu yerdir. Bu sayfadaki içerikler ve yetenekler **kaydedilmiş görünümler** özelliğinin açılmış olmasına bağlıdır.
 
-**Kaydedilmiş görünümler** özelliğini açmış olan müşteriler için [kaydedilmiş görünümler](saved-views.md) konusunun "görünümleri genel olarak yönetme" bölümüne bakın.
+**Kaydedilmiş görünümler** özelliğini açmış olan müşteriler için [kaydedilmiş görünümler](saved-views.md) makalesinin "Görünümleri genel olarak yönetme" bölümüne bakın.
 
 [Kaydedilmiş görünümler](saved-views.md) özelliğini henüz etkinleştirmemiş olan müşteriler için bu sayfanın dört sekmesi vardır:
 
@@ -285,6 +285,9 @@ Kaydedilmiş görünümler etkin değilse, aşağıdaki adımları izleyin.
 - **Temizle** – Bir sayfanın veya çalışma alanının tüm kişiselleştirmelerini bir veya birden fazla kullanıcı için temizleyebilirsiniz. Önce bir sayfayı veya çalışma alanını özelleştiren kullanıcıların listesini görmek için o sayfayı veya çalışma alanını seçin. Ardından, o sayfa veya çalışma alanı için kişiselleştirmelere sahip olması gereken kullanıcıları seçin ve **Temizle**'yi seçin. Seçili kullanıcıların seçili sayfaya veya çalışma alanına uyguladığı tüm kişiselleştirmeler silinir. Bu eylem geri alınamaz. Ancak, sayfa veya çalışma alanı için kaydedilmiş bir kişiselleştirme varsa, kişiselleştirme yeniden içe aktarılabilir.
 - **Kullanıcılar** – Bir kullanıcı seçerek, kullanıcının kişiselleştirdiği sayfaların listesini görün. Bunun ardından, seçili kullanıcıların belirli sayfalar veya tüm sistem için kişiselleştirme kullanma yeteneklerini etkinleştirebilir veya devre dışı bırakabilirsiniz. Ayrıca, kullanıcı için bir kişiselleştirmeyi içe veya dışa aktarabilir ya da temizleyebilirsiniz. Ek olarak, kullanıcı için özellik açıklamalarını sıfırlayabilirsiniz. Bu durumda, kullanıcı yeni özellikler içeren açılır pencereleri önceden devre dışı bırakmışsa, bu özellikler kullanıcının bir sonraki karşılaştığı sefer yeniden görünürler.
 - **Sistem:** Tüm kullanıcılar için kişiselleştirmeleri geçici olarak devre dışı bırakabilirsiniz. Bu durumda, tüm kullanıcılar için tüm kişiselleştirmeler silinir ve tüm sayfalar varsayılan durumlarına sıfırlanır. Kişiselleştirmeyi daha sonra yeniden etkinleştirirseniz, tüm kişiselleştirmeler yeniden uygulanır. Ayrıca sistemdeki tüm kullanıcılar için tüm kişiselleştirmeleri kalıcı olarak silebilirsiniz. Silinmiş kişiselleştirmeler kurtarılamaz. Bu nedenle, bu görevi uygulamadan önce, daha sonra içeri aktarmak isteyebileceğiniz kişiselleştirmeleri dışa aktardığınızdan emin olun.
+
+### <a name="service-updates-and-personalization"></a>Hizmet güncelleştirmeleri ve kişiselleştirme
+Ürünün yeni bir sürümüne geçiş yapılırken, kişiselleştirme verilerinin temizlenmesi veya sıfırlanması gerekmez. Kişiselleştirmeler ve kaydedilmiş görünüm verileri, tüm güncelleştirmelerde çalışmaya devam eder. Buna istisna olarak kişiselleştirmeyi geçersiz kılan form değişiklikleri (ör. kaldırılan denetim) veya formun temel sorgusunda veri kaynağı alt ağacını değiştirerek bu ağacın görünüm sorgusuyla ilişkili veri kaynağı alt ağacıyla eşleşmesini engelleyen değişiklikler sayılabilir.
 
 ## <a name="personalizing-inventory-dimensions"></a>Stok boyutlarının kişiselleştirilmesi
 

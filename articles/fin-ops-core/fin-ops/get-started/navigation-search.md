@@ -1,6 +1,6 @@
 ---
 title: Gezinti araması
-description: Bu konuda, sayfalarda gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır.
+description: Bu makalede, sayfalarda gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır.
 author: aneesmsft
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e689bef43930dbe364baefaa9f4d0231394ff4f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d45ad1d2a85efa561380912e82d38689fabbe119
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069996"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872692"
 ---
 # <a name="navigation-search"></a>Gezinti araması
 
@@ -28,7 +28,7 @@ ms.locfileid: "8069996"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Bu konuda, sayfalarda gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır.
+Bu makalede, sayfalarda gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır.
 
 Uygulama, çeşitli görevleri gerçekleştirmenize yardımcı olmak için çok sayıda alan ve sayfa içerir. Görevlerinizi tamamlamak için ihtiyaç duyduğunuz sayfaları hızlı bir şekilde bulmak için gezinti araması özelliğini kullanın.
 

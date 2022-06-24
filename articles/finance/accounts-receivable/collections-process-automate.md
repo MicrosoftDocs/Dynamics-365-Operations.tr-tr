@@ -1,6 +1,6 @@
 ---
 title: Tahsilat işlemi otomasyonu
-description: Bu konuda, e-posta anımsatıcısı, tahsilat faaliyeti veya müşteriye gönderilecek bir tahsilat mektubu gerektiren müşteri faturalarını otomatik olarak tanımlayan tahsilat işlem stratejilerinin ayarlanma işlemi açıklanmaktadır.
+description: Bu makalede, e-posta anımsatıcısı, tahsilat faaliyeti veya müşteriye gönderilecek bir tahsilat mektubu gerektiren müşteri faturalarını otomatik olarak tanımlayan tahsilat işlemi stratejilerini ayarlama işlemi açıklanmaktadır.
 author: JodiChristiansen
 ms.date: 03/12/2021
 ms.topic: article
@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 59db852024faf457db7ac145b67619b31555aaf2
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 9ec749db197b4d04ee2e99ac7a16f4f2120c6707
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486881"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946195"
 ---
 # <a name="collections-process-automation"></a>Tahsilat işlemi otomasyonu
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, e-posta anımsatıcısı, tahsilat faaliyeti (telefon görüşmesi gibi) veya müşteriye gönderilecek bir tahsilat mektubu gerektiren müşteri faturalarını otomatik olarak tanımlayan tahsilat işlem stratejilerinin ayarlanma işlemi açıklanmaktadır. 
+Bu makalede, e-posta anımsatıcısı, tahsilat faaliyeti (telefon görüşmesi gibi) veya müşteriye gönderilecek bir tahsilat mektubu gerektiren müşteri faturalarını otomatik olarak tanımlayan tahsilat işlemi stratejilerini ayarlama işlemi açıklanmaktadır. 
 
 Kuruluşlar, açık olan bir fatura veya hesap bakiyesi hakkında hangi müşterilerle bağlantı kurulması gerektiğini öğrenmek amacıyla, eski bakiye raporlarını, müşteri hesaplarını ve açık faturaları araştırmak için genellikle önemli miktarda zaman harcar. Bu araştırma, vadesi geçmiş bakiyeleri toplamak için müşterilerle iletişim kurmak veya fatura anlaşmazlıklarını çözmek için tahsilat görevlisi tarafından harcanan zamanı ortadan kaldırır. Tahsilat işlem otomasyonu, tahsilat işleminiz için strateji tabanlı bir yaklaşım ayarlamanıza olanak sağlar. Bu, özelleştirilmiş e-posta anımsatıcıları veya tahsilat mektuplarını göndermek için programlanmış işlem sağlayarak, tahsilat etkinliklerini sürekli olarak uygulamanıza yardımcı olur. 
 

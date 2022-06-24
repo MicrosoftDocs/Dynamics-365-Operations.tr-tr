@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler 19 Kasım 2021
-description: Bu konuda, 19 Kasım 2021 için bağımsız Microsoft Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, 19 Kasım 2021 için tek başına çalışan Microsoft Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır.
 author: marcelbf
 ms.date: 12/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f28057c370b27dbdad4bfe1104e9289f7df65621
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d3e08432a4ce4d73cd67ad839191abe9f6e691a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886087"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-november-19-2021"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler 19 Kasım 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, Microsoft Dynamics 365 Human Resources uygulamasındaki yeni, değişen veya gelecek özellikler açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Human Resources'daki yeni, değişen veya yakında sunulacak özellikler açıklanmaktadır.
 
 Güncelleştirme işlemi ve planı hakkında daha fazla bilgi için bkz. [Güncelleştirme işlemi](hr-admin-setup-update-process.md).
 
@@ -40,9 +40,9 @@ Bu sürüm aşağıdaki hata düzeltmelerini içerir. Değişiklikler derleme nu
 Bu sürümde aşağıdaki hata çözümleri bulunmaktadır.
 
 > [!NOTE]
-> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu konu ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmelerini eklemek için bu konuya güncelleştirmeler uygulayabiliriz.
+> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu makale, ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmeleri eklenerek güncelleştirilebilir.
 
-| Sorun numarası | Sorun | Tanım |
+| Sorun numarası | Sorun | Açıklama |
 |---|---|---|
 | 626178 | **Yönetici self servisinde**, çalışan kutucuğunda gezinti eksik | Bu sorun artık düzeltildi. **Yönetici self servisinde** rapor ayrıntılarını görmek için navigasyon mevcuttur. |
 | 632573 | **Kurs** kaydedilirken doğrulama hatası yok | Bu sorun artık düzeltildi. **Minimum katılımcı sayısı** 0'ın üzerinde olan bir kurs oluştururken, **Maksimum katılımcı sayısı** 0 olsa bile kaydedilmesine izin verilir. |

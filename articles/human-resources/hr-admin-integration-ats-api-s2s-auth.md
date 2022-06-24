@@ -1,6 +1,6 @@
 ---
 title: ATS tümleştirme API'sı için sunucudan sunucuya kimlik doğrulaması
-description: Bu konuda, Dynamics 365 Human Resources Başvuran İzleme Sistemi (ATS) tümleştirme API'sına karşı tümleştirmeler için sunucudan sunucuya kimlik doğrulamasının nasıl ayarlanacağı açıklanmaktadır.
+description: Bu makalede, Dynamics 365 Human Resources Başvuran İzleme Sistemi (ATS) tümleştirme API'si kullanılarak tümleştirmeler için sunucudan sunucuya kimlik doğrulamasının nasıl ayarlanacağı açıklanmaktadır.
 author: jaredha
 ms.date: 06/30/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: de3dc29c5366996276c02576eba27f7e831e4ccf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743555"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879380"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>ATS tümleştirme API'sı için sunucudan sunucuya kimlik doğrulaması
 
@@ -27,7 +27,7 @@ ms.locfileid: "8743555"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, Dynamics 365 Human Resources Başvuran İzleme Sistemi (ATS) tümleştirme API'sına karşı uygulama tümleştirmeleri için sunucudan sunucuya kimlik doğrulamasının nasıl ayarlanacağı açıklanmaktadır. Microsoft Dataverse sanal tablosuna ve ilişkili verilere erişebilmek için, hizmet sorumlusu için yönetilmesi gereken birkaç güvenlik katmanı vardır. Kullanıcıya Microsoft Power Platform'da Dataverse sanal tablosuna erişim izni ve Dynamics 365 Human Resources'daki verilere erişim hakkı verilmesi gerekir.
+Bu makalede, Dynamics 365 Human Resources Başvuran İzleme Sistemi (ATS) tümleştirme API'si kullanılarak uygulama tümleştirmeleri için sunucudan sunucuya kimlik doğrulamasının nasıl ayarlanacağı açıklanmaktadır. Microsoft Dataverse sanal tablosuna ve ilişkili verilere erişebilmek için, hizmet sorumlusu için yönetilmesi gereken birkaç güvenlik katmanı vardır. Kullanıcıya Microsoft Power Platform'da Dataverse sanal tablosuna erişim izni ve Dynamics 365 Human Resources'daki verilere erişim hakkı verilmesi gerekir.
 
 ## <a name="enable-access-to-dataverse-virtual-tables-in-power-platform"></a>Power Platform'daki Dataverse sanal tablolarına erişim verme
 

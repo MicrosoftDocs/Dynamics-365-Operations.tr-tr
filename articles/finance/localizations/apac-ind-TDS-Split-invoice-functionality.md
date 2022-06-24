@@ -1,6 +1,6 @@
 ---
-title: Fatura bölme işlevi
-description: Bu konu, faturaları teslimat adresine ve vergi hesap numarasına (TAN) göre bölmeye yönelik kurulum ve işlevleri açıklamaktadır.
+title: Faturayı ayırma işlevi
+description: Bu makalede, faturaları teslimat adresine ve vergi hesap numarasına (TAN) göre bölmeye yönelik ayarlar ve işlevler açıklanmaktadır.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f1dac8d51c24009dcf0c4acbc49f06f32abf0dec
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7bbeb94429c2c69b7b8ea3089390db676a021b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724683"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874446"
 ---
-# <a name="split-invoice-functionality"></a>Fatura bölme işlevi
+# <a name="split-invoice-functionality"></a>Faturayı ayırma işlevi
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, faturaları teslimat adresine ve vergi hesap numarasına (TAN) göre bölmeye yönelik kurulum ve işlevleri açıklamaktadır.
+Bu makalede, faturaları teslimat adresine ve vergi hesap numarasına (TAN) göre bölmeye yönelik ayarlar ve işlevler açıklanmaktadır.
 
 **Satınalma siparişi** sayfasında farklı teslimat adresleri ve TAN'ları olan bir ürün girişini veya faturasını deftere nakletmek ve bölmek için **Borç hesapları parametreleri** sayfasında **Genel** sekmesinde **Ürün girişi** veya **Fatura** onay kutusunu seçin. Deftere nakledilen fatura, teslimat adresine ve TAN'a göre bölünür.
 

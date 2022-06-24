@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08ab90d6f53dbb9eabeea3c2cf020792e8957c7b71ed27fc491008fcad114c72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a75b268f2d8341c1a6dd0d3f1bd9dcb31d9084ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727497"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884155"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içeri aktarma
 
@@ -25,7 +25,7 @@ ms.locfileid: "6727497"
 
 Bu yordamdaki adımları tamamlamak için öncelikle "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamını tamamlamanız gerekir.
 
-Bu yordamdaki adımlar bir Elektronik raporlama (ER) yapılandırmasının, bir elektronik belge oluşturmak için nasıl kullanılacağını açıklar. Bu yordamda, örnek şirket Litware, Inc. için oluşturulmuş ER yapılandırmalarını içe aktaracak ve bunları elektronik belgeler oluşturmak için kullanacaksınız. Bu yordam, sistem yöneticisi veya elektronik raporlama geliştiricisi rolüne atanmış kullanıcılar için oluşturulmuştur. Bu adımlar DEMF veri kümesi kullanılarak tamamlanabilir. Başlamadan önce "Elektronik belgeler oluşturma ve uygulama verisini ER aracı ile güncelleştirme" Yardım başlığında belirtilen dosyaları indirin ve kaydedin (generate-electronic-documents-update-application-data/). Dosyalar Intrastat (model).xml, Intrastat (eşleme).xml ve Intrastat (biçim).xml.
+Bu yordamdaki adımlar bir Elektronik raporlama (ER) yapılandırmasının, bir elektronik belge oluşturmak için nasıl kullanılacağını açıklar. Bu yordamda, örnek şirket Litware, Inc. için oluşturulmuş ER yapılandırmalarını içe aktaracak ve bunları elektronik belgeler oluşturmak için kullanacaksınız. Bu yordam, sistem yöneticisi veya elektronik raporlama geliştiricisi rolüne atanmış kullanıcılar için oluşturulmuştur. Bu adımlar DEMF veri kümesi kullanılarak tamamlanabilir. Başlamadan önce "Elektronik belgeler oluşturma ve uygulama verisini ER aracı ile güncelleştirme" başlıklı Yardım makalesinde belirtilen dosyaları indirin ve kaydedin (generate-electronic-documents-update-application-data/). Dosyalar Intrastat (model).xml, Intrastat (eşleme).xml ve Intrastat (biçim).xml.
 
 1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.
     * Örnek şirket ‘Litware, Inc.’ için yapılandırma sağlayıcısının kullanılabilir olduğunu ve etkin olarak işaretlemiş olduğundan emin olun. Bu yapılandırma sağlayıcısını göremiyorsanız "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlayın.  

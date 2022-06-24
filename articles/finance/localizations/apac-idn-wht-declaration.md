@@ -1,6 +1,6 @@
 ---
 title: Endonezya için stopaj vergisi raporu
-description: Bu konuda, Endonezya için stopaj vergisi raporunun nasıl yapılandırılacağı ve oluşturulacağı açıklanmaktadır.
+description: Bu makalede, Endonezya için stopaj vergisi raporunun nasıl yapılandırılacağı ve oluşturulacağı açıklanmaktadır.
 author: sndray
 ms.date: 12/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2021-12-02
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6cf2f9240ea747054578c52343af34b15c250f38
-ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
+ms.openlocfilehash: 8acd9442ff4f0b7c19e3b4fcf211acce002e43d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943668"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883195"
 ---
 # <a name="withholding-tax-report-for-indonesia-id-00005"></a>Endonezya için stopaj vergisi raporu (ID-00005)
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Endonezya içindeki tüzel kişiliklerin e-Bupot uygulamasındaki stopaj hareketlerini raporlamak için kullandığı PPH stopaj vergisi dosyasının nasıl ayarlanacağı ve oluşturulacağı açıklanmaktadır.
+Bu makalede, Endonezya'daki tüzel kişiliklerin e-Bupot uygulamasında stopaj hareketlerini raporlamak için kullandığı PPH stopaj vergisi dosyasının nasıl ayarlanacağı ve oluşturulacağı açıklanmaktadır.
 
 Endonezya vergi dairesi (DGT), gelir vergisi (PPh) kanununun 23. ve/veya 26. maddesi kapsamında stopaj vergisini düşen veya tahsil eden ve KPP Pratama'ya kayıtlı olan vergiye tabi girişimcilerin (PKP), e-Bupot uygulamasını kullanarak 23. ve 26. madde kapsamındaki Gelir Vergisi Beyannamesini elektronik olarak raporlaması gerektiğini belirlemiştir. 
 

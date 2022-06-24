@@ -1,6 +1,6 @@
 ---
-title: Masraf kodlarını oluşturma
-description: Bu konu; hem Borç hesapları hem de Alacak hesapları için masraf kodlarının nasıl konfigüre edileceğini açıklar.
+title: Masraf kodları oluşturma
+description: Bu makalede; hem Borç hesapları hem de Alacak hesapları için masraf kodlarının nasıl yapılandırılacağı açıklanmaktadır.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8526fa0f3c6e3d1b545703f6e6ef72f558b57bd
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d65952cb989672e4eac2dd6101ee9c7c9424daed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735041"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866097"
 ---
-# <a name="create-charges-codes"></a>Masraf kodlarını oluşturma
+# <a name="create-charges-codes"></a>Masraf kodları oluşturma
 
-Bu konu; hem Borç hesapları hem de Alacak hesapları için masraf kodlarının nasıl konfigüre edileceğini açıklar. Organizasyonunuz, satış siparişindeki veya satınalma siparişindeki satır maddelerine ek olarak satış miktarları veya satınalma tutarlarının izlenmesini gerektiriyorsa, bu amaç için masraf kodlarını kullanabilirsiniz. Örneğin, bir satınalma siparişindeki navlun ve sigorta ödemesini yaptığınızda, bu tutarlar satınalma siparişinde ayrı olarak da listelenir. Bu durumda, tutarların gider hesaplarına nakledilip nakledilmeyeceğini veya maddelerin maliyetine eklenip eklenmeyeceğini belirtebilirsiniz.
+Bu makalede; hem Borç hesapları hem de Alacak hesapları için masraf kodlarının nasıl yapılandırılacağı açıklanmaktadır. Organizasyonunuz, satış siparişindeki veya satınalma siparişindeki satır maddelerine ek olarak satış miktarları veya satınalma tutarlarının izlenmesini gerektiriyorsa, bu amaç için masraf kodlarını kullanabilirsiniz. Örneğin, bir satınalma siparişindeki navlun ve sigorta ödemesini yaptığınızda, bu tutarlar satınalma siparişinde ayrı olarak da listelenir. Bu durumda, tutarların gider hesaplarına nakledilip nakledilmeyeceğini veya maddelerin maliyetine eklenip eklenmeyeceğini belirtebilirsiniz.
 
 ## <a name="set-up-charges-codes-for-accounts-receivable"></a>Alacak hesapları için masraf kodlarını ayarlama
 

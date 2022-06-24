@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4036378ca70089a9978a9bf5fb48c058a2064cdc
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5fe8ecd368bc63eed43c86053084ca67ef9beac6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689508"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859531"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Power Apps ve Power Automate ile genişletme
 
@@ -33,7 +33,7 @@ ms.locfileid: "8689508"
 Bu konu, Microsoft Power Apps ve Microsoft Power Automate kullanan Microsoft Dynamics 365 Human Resources için bazı örnek genişletilebilirlik senaryolarını açıklar. Her bir örnek ile ilişkilendirilmiş çözüm paketini Power Apps ortamınıza içe aktarabilirsiniz. Daha sonra paketleri kılavuz veya başlangıç noktası olarak kullanarak, kuruluşunuza uygun olan senaryoları gerçekleştirmek için kullanabilirsiniz.
 
 > [!IMPORTANT]
-> Bu konuda açıklanan şablonları ve uygulamayı "olduğu gibi" kullanmak istiyorsanız, uygulamanıza spesifik olan tüm senaryoları kapsadıklarından emin olmak için test ettiğinizden emin olun.
+> Bu makalede açıklanan şablonları ve uygulamaları "olduğu gibi" kullanmak istiyorsanız, uygulamanıza özgü olan tüm senaryoları kapsadıklarından emin olmak için bunları test ettiğinizden emin olun.
 
 ## <a name="prerequisites"></a>Önkoşullar
 

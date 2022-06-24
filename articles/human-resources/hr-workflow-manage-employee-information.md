@@ -1,6 +1,6 @@
 ---
 title: Personel bilgilerini yönetmek için iş akışları kullanma
-description: Bu konu, personel bilgisini yönetmek için iş akışlarını nasıl kullanabileceğinizi açıklar.
+description: Bu makalede, personel bilgisini yönetmek için iş akışlarını nasıl kullanabileceğiniz açıklanmaktadır.
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7c416a82976bc39464006325f02f1af4d2f32ea4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2fcbacc3cb891043560fabf28487bfeb12d1b77b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691540"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908815"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Personel bilgilerini yönetmek için iş akışları kullanma
 

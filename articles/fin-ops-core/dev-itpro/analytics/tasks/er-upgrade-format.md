@@ -1,6 +1,6 @@
 ---
 title: ER Biçiminizi, o biçimin yeni bir temel sürümünü benimseyerek yükseltin.
-description: Bu konuda, Elektronik raporlama (ER) biçim yapılandırmasının nasıl korunacağı açıklanmaktadır.
+description: Bu makalede, Elektronik raporlama (ER) biçim yapılandırmasının nasıl korunacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfcb85d964234063fd3c6a8e5ea29f7b222e966124b48e46b72b04f457c91e6c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5dbf8ab2ea875e902709215e249871474b17230f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720820"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883523"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Biçiminizi, o biçimin yeni bir temel sürümünü benimseyerek yükseltin.
 
@@ -119,7 +119,7 @@ Bunu yapmak için Proseware, Inc'nin Litware, Inc. yapılandırması BACS'yi (Bi
     Oluşturulan yapılandırmanın tamamlanmış sürüm 1.1.1 olarak kaydedildiğini unutmayın. Bu, BACS (Birleşik Krallık, hayali özel) biçiminin, Ödemeler (basitleştirilmiş model) veri modelinin 1. sürümüne dayalı olan BACS (Birleşik Krallık hayali) biçiminin 1. sürümüne dayalı olduğu anlamına gelmektedir.  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>Ödeme dosyaları oluşturmak için özelleştirilmiş biçimi test et
-Paralel Finance and Operations oturumunda "Ödemeler için elektronik belgeleri oluşturmak için oluşturulan biçimi kullan" yordamındaki adımları tamamlayın. Elektronik Ödeme yöntemi parametrelerinde BACS (UK hayali özel) biçimi seçin. Oluşturulan ödeme dosyasında son sunulan XML düğümünün, bölgesel gereksinimleri uygun IBAN kodu sunma içerdiğinden emin olun.  
+Paralel bir Finance and Operations oturumunda "Ödemeler için elektronik belgeleri oluşturmak için oluşturulan biçimi kullan" yordamındaki adımları tamamlayın. Elektronik Ödeme yöntemi parametrelerinde BACS (UK hayali özel) biçimi seçin. Oluşturulan ödeme dosyasında son sunulan XML düğümünün, bölgesel gereksinimleri uygun IBAN kodu sunma içerdiğinden emin olun.  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>Ülkeye özgü varolan yapılandırmayı güncelleştirmek
 Litware, Inc. BACS (UK hayali) yapılandırmasını güncelleştirmek ve elektronik belge biçimini yönetmek için yeni ülke gereksinimleri benimsemesi gerekir. Daha sonra, bu yeni sürümünde Proseware, Inc. dahil olmak üzere hizmet aboneleri için sunulan bu yapılandırma içine alınacaktır.  
@@ -239,7 +239,7 @@ Proseware, Inc'nin bunu yapmak için temel yapılandırma sürümünü, BACS (UK
     Oluşturulan yapılandırmanın tamamlanmış sürüm 1.2.2: taban BACS (UK hayali özel) biçiminin 2. sürümü, yani temel BACS (UK hayali) biçiminin 2. sürümüne dayalı, bu da Ödemeler (basitleştirilmiş model) veri modelinin 1. sürümüne dayalı olan sürüm olduğunu unutmayın.  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Ödeme dosyaları oluşturması için özelleştirilmiş biçimi test et
-Paralel Finance and Operations oturumunda "Ödemeler için elektronik belgeleri oluşturmak için oluşturulan biçimi kullan" yordamındaki adımları tamamlayın. Elektronik Ödeme yöntemi parametrelerinde oluşturulan 'BACS (UK hayali özel)' biçimi seçin. Oluşturulan ödeme dosyasında Proseware, Inc. tarafından son sunulan XML düğümünün, bölgesel gereksinimleri uygun IBAN hesap kodu sunma içerdiğinden emin olun. Dosya ayrıca Litware, Inc. tarafından yakın zaman önce sunulan XML düğüm sunum SWIFT banka kodunu ülke gereksinimlerine göre içermelidir.  
+Paralel bir Finance and Operations oturumunda "Ödemeler için elektronik belgeleri oluşturmak için oluşturulan biçimi kullan" yordamındaki adımları tamamlayın. Elektronik Ödeme yöntemi parametrelerinde oluşturulan 'BACS (UK hayali özel)' biçimi seçin. Oluşturulan ödeme dosyasında Proseware, Inc. tarafından son sunulan XML düğümünün, bölgesel gereksinimleri uygun IBAN hesap kodu sunma içerdiğinden emin olun. Dosya ayrıca Litware, Inc. tarafından yakın zaman önce sunulan XML düğüm sunum SWIFT banka kodunu ülke gereksinimlerine göre içermelidir.  
 
 
 

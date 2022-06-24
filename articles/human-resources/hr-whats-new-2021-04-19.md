@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources'daki yenilikler veya değişiklikler 19 Nisan 2021
-description: Bu konuda, 19 Nisan 2021 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, 19 Nisan 2021 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
 author: marcelbf
 ms.date: 04/19/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6734069b1448999c62a8c538f97d786fc10995e5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e46c5721853ebfe3b9d5955ca5f4e7a4ead570c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685756"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846314"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-19-2021"></a>Dynamics 365 Human Resources'daki yenilikler veya değişiklikler 19 Nisan 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, Dynamics 365 Human Resources'daki yeni, değişen veya gelecek özellikler açıklanmaktadır.
+Bu makalede, Dynamics 365 Human Resources'da yeni, değişen veya yakında sunulacak özellikler açıklanmaktadır.
 
 Güncelleştirme işlemi ve planı hakkında daha fazla bilgi için bkz. [Güncelleştirme işlemi](hr-admin-setup-update-process.md).
 
@@ -49,9 +49,9 @@ Aşağıdaki özellikler genel olarak bu sürümde mevcuttur.
 Bu sürümde aşağıdaki hata çözümleri bulunmaktadır.
 
 > [!NOTE]
-> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu konu ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmelerini eklemek için bu konuya güncelleştirmeler uygulayabiliriz.
+> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu makale, ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmeleri eklenerek güncelleştirilebilir.
 
-| Sorun numarası | Çıkış |  Tanım |
+| Sorun numarası | Sorun |  Açıklama |
 | --- | --- | --- |
 | 552164 | **Çalışan self servis > Kursları aç**'ta **Kaydedilen görünüm**, ajandası olan kurslar için çalışmıyor | Açık kurslarda (ESS) Kaydedilmiş bir görünüm kullanılıyorsa ve kursların birine iliştirilmiş bir Ajanda varsa, görünüm artık o Kurs için birden çok satır göstermez |
 | 560614 | **Kazançlar > Ömür olayı seçenekleri**, araç ipucu belgelerinde ve kod davranışlarında tutarsızlıkları gösterir. | Doğru davranışı göstermek için **Ömür olayı seçenekleri**'nde araç ipuçları güncelleştirildi. |

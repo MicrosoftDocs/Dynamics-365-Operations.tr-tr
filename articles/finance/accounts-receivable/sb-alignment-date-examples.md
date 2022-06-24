@@ -1,6 +1,6 @@
 ---
-title: Hizalama tarihi senaryoları
-description: Bu konu, bir hizalama tarihinin Abonelik faturalamasında nasıl çalıştığını gösteren örnekler içermektedir.
+title: Sıralama tarihi senaryoları
+description: Bu makale, uyumlu hale getirme tarihlerinin Abonelik faturalamasında işleyiş şeklini gösteren örnekler içermektedir.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 91480fecd16cf8417722df73c28bbd81d029fb07
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 102e3a104be5be287f914172160e95aff65d0b18
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690487"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872629"
 ---
-# <a name="alignment-date-scenarios"></a>Hizalama tarihi senaryoları
+# <a name="alignment-date-scenarios"></a>Sıralama tarihi senaryoları
 
-Bu konu, bir hizalama tarihinin Abonelik faturalamasında nasıl çalıştığını gösteren örnekler içermektedir.
+Bu makale, uyumlu hale getirme tarihlerinin Abonelik faturalamasında işleyiş şeklini gösteren örnekler içermektedir.
 
 Bu örnekler için, faturalama zamanlamasıyla ilgili faturalama ayrıntısı 31 Ekim 2019 hizalama tarihine sahiptir. Satırın ilk faturalama ayrıntısı 31 Ekim 2019 tarihinde sona erer ve buna göre eşit olarak alınır. Satır otomatik olarak Kasım 11'in yenileme başlangıç tarihi kullanılarak yenilenir.
 

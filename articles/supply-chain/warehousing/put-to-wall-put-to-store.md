@@ -1,6 +1,6 @@
 ---
 title: Duvara yerleştirme - mağazaya yerleştirme
-description: Bu konu, Duvara yerleştirme - Mağazaya yerleştirme işlevi hakkında bilgi sağlar. Bu işlev, bir ürünü, yapılandırılabilir ölçütlere göre bir ön paketleme hazırlık alanıyla birleştirmeniz gereken senaryoları işlemenize olanak tanır. Tek bir hedef plakaya malzeme çekme ve küme malzeme çekmeye göre daha fazla yerine koyma konumu kullanma olanağı sağladığından, malzeme çekme süresinin azalmasına yardımcı olur.
+description: Bu makale, Duvara yerleştirme - Mağazaya yerleştirme işlevi hakkında bilgi sağlar. Bu işlev, bir ürünü, yapılandırılabilir ölçütlere göre bir ön paketleme hazırlık alanıyla birleştirmeniz gereken senaryoları işlemenize olanak tanır. Tek bir hedef plakaya malzeme çekme ve küme malzeme çekmeye göre daha fazla yerine koyma konumu kullanma olanağı sağladığından, malzeme çekme süresinin azalmasına yardımcı olur.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 372bb556ec1207096a8ff3c7df8bac9b7011b5c4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e020bd3973b8b56dd1e6f3e5bdc8cba32600f7f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574149"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909657"
 ---
 # <a name="put-to-wall---put-to-store"></a>Duvara yerleştirme - mağazaya yerleştirme
 

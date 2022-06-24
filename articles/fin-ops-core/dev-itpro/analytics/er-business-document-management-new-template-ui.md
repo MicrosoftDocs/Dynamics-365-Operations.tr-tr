@@ -1,6 +1,6 @@
 ---
 title: İş belgesi yönetiminde Microsoft Office stili kullanıcı arabirimi (video içerir)
-description: Bu konu, Elektronik raporlama (ER) çerçevesinin İş belgesi yönetimi özelliğindeki yeni kullanıcı arabiriminin nasıl kullanılacağı hakkında bilgi vermektedir.
+description: Bu makalede, Elektronik raporlama (ER) çerçevesinin İş belgesi yönetimi özelliğindeki yeni kullanıcı arabiriminin nasıl kullanılacağı açıklanmaktadır.
 author: v-anamir
 ms.date: 01/05/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e33830e2147d92ad5ee53ad11da55a50613b8ef9
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: bcc464a17e27393c5904c59b8439de6ca000d57a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074753"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892239"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>İş belgesi yönetiminde Microsoft Office stili kullanıcı arabirimi
 
@@ -32,7 +32,7 @@ Yeni kullanıcı arabirimi (UI) daha net ve kullanımı daha rahat. **İşletme 
 
 **İşletme belgesi yönetimi** çalışma alanındaki **Yeni belge** düğmesini, başka bir sağlayıcı tarafından sağlanan ve geçerli Finance örneğinde bulunan [Elektronik raporlama (ER)](general-electronic-reporting.md) biçim [yapılandırmasında](general-electronic-reporting.md#Configuration) şablon oluşturmak ve düzenlemek veya Excel çalışma kitabından yeni bir şablon yüklemek için kullanabilirsiniz. Ayrıca, sürüm 10.0.25 ve sonraki sürümlerde, [Genel depoda](general-electronic-reporting.md#Repository) depolanan ER biçimli yapılandırmada şablon oluşturmak ve düzenlemek için **Yeni belge** düğmesini kullanabilirsiniz.
 
-Bu konudaki örneklerde, etkin sağlayıcı Contoso'dur ve bunu Microsoft tarafından sağlanan bir şablonu temel alan bir şablon oluşturmak için kullanırsınız. Alternatif olarak, kendi şablonunuzu Excel biçiminde karşıya yükleyerek bir şablon oluşturabilirsiniz.
+Bu makaledeki örneklerde, etkin sağlayıcı Contoso'dur ve bunu Microsoft tarafından sağlanan bir şablonu temel alan bir şablon oluşturmak için kullanırsınız. Alternatif olarak, kendi şablonunuzu Excel biçiminde karşıya yükleyerek bir şablon oluşturabilirsiniz.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAVQg]
 

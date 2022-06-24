@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources'deki yenilikler veya değişiklikler (20 Ağustos 2020)
-description: Bu konuda, 20 Ağustos 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, 20 Ağustos 2020 için Microsoft Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır.
 author: andreabichsel
 ms.date: 08/20/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b6a3953c0c8474ae67667176c21d065c6b94c6ab
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3c71a742022afba36c417092d5a9b75c78600357
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688417"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902183"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>Dynamics 365 Human Resources'deki yenilikler veya değişiklikler (20 Ağustos 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8688417"
 
 
 
-Bu konuda, Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır. Değişiklikler derleme numarası 8.1.3478 uygulanır. Bazı başlıklardaki parantez içindeki numaralar  Lifecycle Services (LCS) destek numaralarına referans verir.
+Bu makalede Dynamics 365 Human Resources'te yeni veya değişen özellikler açıklanmaktadır. Değişiklikler derleme numarası 8.1.3478 uygulanır. Bazı başlıklardaki parantez içindeki numaralar  Lifecycle Services (LCS) destek numaralarına referans verir.
 
 ## <a name="show-upcoming-and-pending-leave-of-absence-information-to-cards-in-people-workspace"></a>Kişi çalışma alanındaki kartlarda yaklaşan ve bekleyen izin bilgilerini gösterme
 

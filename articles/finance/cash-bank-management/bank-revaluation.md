@@ -1,6 +1,6 @@
 ---
 title: Banka yabancı para birimi yeniden değerleme işlemi
-description: Bu konu, banka yabancı para birimi yeniden değerleme işlemine bir genel bakış sağlar. Kurulum, işlemi yürütme, işlem için hesaplama ve değerleme hareketlerinin tersine çevrilmesi hakkında bilgi içerir.
+description: Bu makalede, banka yabancı para birimi yeniden değerleme işlemine dair genel bir bakış sunulmaktadır. Kurulum, işlemi yürütme, işlem için hesaplama ve değerleme hareketlerinin tersine çevrilmesi hakkında bilgi içerir.
 author: kweekley
 ms.date: 05/16/2019
 ms.topic: article
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a8ce792fdc0c6b441deaead32db04ee0246becc9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d68232af3e87cef2f86213211e6c87f7d654df33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711217"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863115"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Banka yabancı para birimi yeniden değerleme işlemi
 
 [!include [banner](../includes/banner.md)]
 
 
-Bu konu, banka yabancı para birimi yeniden değerleme işlemine bir genel bakış sağlar. İşlemi ayarlamayı ve yürütmeyi açıklar ve işlem için hesaplama hakkında bilgi sağlar. Tersine yeniden değerlendirme hareketlerini de açıklar, eğer tersine çevirme gerekliyse.
+Bu makalede, banka yabancı para birimi yeniden değerleme işlemine dair genel bir bakış sunulmaktadır. İşlemi ayarlamayı ve yürütmeyi açıklar ve işlem için hesaplama hakkında bilgi sağlar. Tersine yeniden değerlendirme hareketlerini de açıklar, eğer tersine çevirme gerekliyse.
 
 Dönem sonunun bir parçası olarak muhasebe uygulamaları farklı döviz kuru türleri (cari, geçmiş, ortalama vb.) kullanılarak yeniden değerlenen yabancı para birimlerinde banka hesabı bakiyelerini gerektirir. Banka yabancı para birimi yeniden değerleme özelliği, bir veya birden fazla banka hesabını yeniden değerlemede kullanılabilir. Bu özellik de bir genel özelliktir. Bu nedenle, tek bir sayfadan erişiminizin olduğu tüm tüzel varlıklardaki bankaları yeniden değerleyebilirsiniz.
 

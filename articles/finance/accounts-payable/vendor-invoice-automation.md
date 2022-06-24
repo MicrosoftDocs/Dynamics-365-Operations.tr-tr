@@ -1,6 +1,6 @@
 ---
 title: Taranan belgeler için fatura otomasyonu
-description: Bu konu ekler içeren faturalar da dahil olmak üzere satıcı faturalarının uçtan uca otomasyonu için kullanılabilir olan özellikleri açıklar.
+description: Bu makale, ekler içeren faturalar da dahil olmak üzere satıcı faturalarının uçtan uca otomasyonu için kullanılabilir özellikleri açıklar.
 author: abruer
 ms.date: 03/24/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02fcb6ce49156c32f23bfb37478a1076f62aa868
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716423"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883430"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Taranan belgeler için fatura otomasyonu
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu ekler içeren faturalar da dahil olmak üzere satıcı faturalarının uçtan uca otomasyonu için kullanılabilir olan veri varlıklarını açıklar.
+Bu makale, ekler içeren faturalar da dahil olmak üzere satıcı faturalarının uçtan uca otomasyonu için kullanılabilir veri varlıklarını açıklar.
 
 Borç hesapları (AP) işlemlerini daha verimli kullanmak isteyen kuruluşlar genellikle fatura işlemlerini daha etkin olması gereken işlem alanları içinde ne üst sıralardan birine koyar. Çoğu durumda, bu kuruluşlar kağıt fatura işlemlerini üçüncü taraf bir optik karakter tanıma (OCR) servis sağlayıcısına aktarırlar. Daha sonra her faturanın taranan görüntüsüyle birlikte makine tarafından okunabilir fatura meta verilerini alırlar. Otomasyona yardımcı olmak için "son mil" çözümü faturalama sisteminde bu yapıların kullanımını etkinleştirmek için oluşturulmuştur. Şimdi bu "son mil" otomasyonu, bir fatura otomasyon çözümüyle kullanıma hazır hale getirilmektedir.
 
@@ -46,7 +46,7 @@ Fatura tümleştirme gerektiğinde önceki senaryonun çeşitli kullanımları m
 + Faturalar için özel durum işleme
 + Faturalarda yan yana ek görüntüleyici
 
-Bu konunun kalan kısmında bu çözüm bileşenlerinin ayrıntılı açıklamaları verilmektedir.
+Bu makalenin kalan kısmında bu çözüm bileşenlerinin ayrıntılı açıklamaları verilmektedir.
 
 ## <a name="data-entities"></a>Veri varlıkları
 

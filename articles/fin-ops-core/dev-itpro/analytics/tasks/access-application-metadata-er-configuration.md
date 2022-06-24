@@ -1,6 +1,6 @@
 ---
 title: ER yapılandırma kullanarak uygulama meta verilerine erişim
-description: Bu konuda, Regulatory configuration service kullanıcısının, meta verileri kullanarak nasıl yeni bir Elektronik raporlama modeli eşlemesi tasarlayabileceği açıklanmaktadır.
+description: Bu makalede, Regulatory Configuration Service kullanıcısının, meta verileri kullanarak nasıl yeni bir Elektronik raporlama modeli eşlemesi tasarlayabileceği açıklanmaktadır.
 author: NickSelin
 ms.date: 06/28/2019
 ms.topic: business-process
@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6ad175f81edcf6b21927d85927c42a3398a0286b4a766e06c88a61952384f75e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 76e31e08cafb06cb2e8508c29f6e03d2559ebeb6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754354"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883668"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>ER yapılandırma kullanarak uygulama meta verilerine erişim
 
 [!include [banner](../../includes/banner.md)]
 
-Aşağıdaki adımlar, Sistem Yöneticisi veya Elektronik Raporlama rolüne sahip Regulatory Configuration Service (RCS) kullanıcısının uygulama meta verilerini kullanarak nasıl yeni bir Elektronik raporlama (ER) modeli eşlemesi tasarlayabildiğini açıklar. Uygulama meta verilerine, dış ticari hareketlere erişmek için örnek bir meta veri kümesi içeren ER meta veri yapılandırması kullanılarak erişilir. RCS'de bu adımları tamamlamak için ilk olarak, [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](er-configuration-provider-mark-it-active-2016-11.md) konusundaki adımları tamamlamanız gerekir. Daha sonra [RCS'de kullanılacak uygulama meta verileri hazırlama](prepare-application-metadata-rcs.md) konusundaki adımları tamamlayın.
+Aşağıdaki adımlar, Sistem Yöneticisi veya Elektronik Raporlama rolüne sahip Regulatory Configuration Service (RCS) kullanıcısının uygulama meta verilerini kullanarak nasıl yeni bir Elektronik raporlama (ER) modeli eşlemesi tasarlayabildiğini açıklar. Uygulama meta verilerine, dış ticari hareketlere erişmek için örnek bir meta veri kümesi içeren ER meta veri yapılandırması kullanılarak erişilir. RCS'de bu adımları tamamlamak için ilk olarak, [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](er-configuration-provider-mark-it-active-2016-11.md) makalesindeki adımları tamamlamanız gerekir. Daha sonra [RCS'de kullanılacak uygulama meta verileri hazırlama](prepare-application-metadata-rcs.md) makalesindeki adımları tamamlayın.
 
-## <a name="prerequisites"></a>Önkoşullar
+## <a name="prerequisites"></a>Ön Koşullar
 1. **Tüm çalışma alanları** > **Elektronik raporlama**'ya gidin. 
 2. Örnek şirket ‘Litware, Inc.’ için yapılandırma sağlayıcısının kullanılabilir olduğunu ve **Etkin** olarak işaretlemiş olduğundan emin olun. Bu yapılandırma sağlayıcısını göremiyorsanız[Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](er-configuration-provider-mark-it-active-2016-11.md). prosedüründeki adımları tamamlayın. 
 

@@ -1,6 +1,6 @@
 ---
 title: Mali boyutlar
-description: Bu konu, çeşitli mali boyut türlerini ve nasıl ayarlandıklarını açıklar.
+description: Bu makalede, çeşitli mali boyut türleri ve nasıl ayarlandıkları açıklanmaktadır.
 author: aprilolson
 ms.date: 03/07/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1360139a06909c1df922570f6e577d1d310b1c48
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3ad92e006351adbf2494a1b32325d2d4a83b76a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722339"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850003"
 ---
 # <a name="financial-dimensions"></a>Mali boyutlar
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, çeşitli mali boyut türlerini ve nasıl ayarlandıklarını açıklar.
+Bu makalede, çeşitli mali boyut türleri ve nasıl ayarlandıkları açıklanmaktadır.
 
 Hesap planları içim hesap segmentleri olarak kullanabileceğiniz mali boyutlar oluşturmak için **Mali boyutlar** sayfasını kullanın. İki tür mali boyut vardır: özel boyutlar ve varlığa dayalı boyutlar. Özel boyutlar tüzel kişilikler tarafından paylaşılır ve değerler kullanıcılar tarafından girilir ve korunur. Varlığa dayalı boyutlar için sistemin herhangi başka bir bölümünde tanımlanan değerler, örneğin Müşteriler veya Mağaza varlıkları. Bazı varlığa dayalı boyutlar tüzel kişilikler tarafından paylaşılırken, diğer varlıklar şirkete özel boyutlar olur.
 

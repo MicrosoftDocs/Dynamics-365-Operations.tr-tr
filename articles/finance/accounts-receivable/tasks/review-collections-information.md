@@ -1,6 +1,6 @@
 ---
 title: Tahsilat bilgilerini gözden geçirme
-description: Bu konu, tahsilat bilgilerini gözden geçirmenin yanı sıra çeşitli seçenekleri ve tahsilat hareketlerini ayarlamayı adım adım açıklar.
+description: Bu makale, tahsilat bilgilerini gözden geçirmenin yanı sıra çeşitli seçenekleri ve tahsilat hareketlerini ayarlamayı adım adım açıklar.
 author: ShivamPandey-msft
 ms.date: 08/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4d0cb09eb6ac455d72e9dd051065625475581416
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6a6916690b9571fcfe103506960032e19fe724df
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725051"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876225"
 ---
 # <a name="review-collections-information"></a>Tahsilat bilgilerini gözden geçirme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, tahsilat bilgilerini gözden geçirmenin yanı sıra çeşitli seçenekleri ve tahsilat hareketlerini ayarlamayı adım adım açıklar. Bu yordam, USMF demo şirketini kullanır.
+Bu makale, tahsilat bilgilerini gözden geçirmenin yanı sıra çeşitli seçenekleri ve tahsilat hareketlerini ayarlamayı adım adım açıklar. Bu yordam, USMF demo şirketini kullanır.
 
 ## <a name="create-customer-pools"></a>Müşteri havuzları oluşturma
 1. Gezinti bölmesinde **Modüller > Alacak ve tahsilatlar > Kurulum > Müşteri havuzları**'na gidin.

@@ -1,6 +1,6 @@
 ---
-title: Siteniz için arama motoru optimizasyonu (SEO) konuları
-description: Bu konu, gelişmede sizin sitenizin üretime yönelik arama motoru iyileştirme (SEO) konularını kapsamaktadır.
+title: Siteniz için arama motoru optimizasyonuyla (SEO) ilgili konular
+description: Bu makale, gelişmede sizin sitenizin üretime yönelik arama motoru iyileştirme (SEO) konularını kapsamaktadır.
 author: psimolin
 ms.date: 05/25/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
-ms.openlocfilehash: 2f90581766dba3d3a671df52ec08339a1a0fd7dc
-ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
+ms.openlocfilehash: 6747df3c56fb05248210f78ebf2176a56ce78329
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "8806417"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896913"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Siteniz için arama motoru optimizasyonuyla (SEO) ilgili konular
 
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, gelişmede sizin sitenizin üretime yönelik arama motoru iyileştirme (SEO) konularını kapsamaktadır.
+Bu makale, gelişmede sizin sitenizin üretime yönelik arama motoru iyileştirme (SEO) konularını kapsamaktadır.
 
 ## <a name="a-site-that-is-under-development"></a>Geliştirilme aşamasında olan bir site
 

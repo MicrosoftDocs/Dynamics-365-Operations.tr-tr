@@ -1,6 +1,6 @@
 ---
 title: TDS parametrelerini ayarlama
-description: Bu konu, belirtilen hareketlerdeki Kaynakta Kesilen Vergi (TDS) işlevini etkinleştirecek şekilde parametrelerin nasıl ayarlanabileceğini açıklar. Bu, Kaynakta Kesilen Vergi TDS özelliğini kullanmak için zorunlu bir adımdır.
+description: Bu makalede, parametrelerin belirtilen hareketlerde Kaynakta Kesilen Vergi (TDS) işlevini etkinleştirecek şekilde nasıl ayarlanabileceği açıklanmaktadır. Bu, Kaynakta Kesilen Vergi TDS özelliğini kullanmak için zorunlu bir adımdır.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f7c8802d10a065c60894e80c8ff3cb19163d5ffe
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3390cad6979858fbff73769d0d25132ba18a2157
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865627"
 ---
 # <a name="set-the-tds-parameters"></a>TDS parametrelerini ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, belirtilen hareketlerdeki Kaynakta Kesilen Vergi (TDS) işlevini etkinleştirecek şekilde parametrelerin nasıl ayarlanabileceğini açıklar. Bu, Kaynakta Kesilen Vergi TDS özelliğini kullanmak için zorunlu bir adımdır.
+Bu makalede, parametrelerin belirtilen hareketlerde Kaynakta Kesilen Vergi (TDS) işlevini etkinleştirecek şekilde nasıl ayarlanabileceği açıklanmaktadır. Bu, Kaynakta Kesilen Vergi TDS özelliğini kullanmak için zorunlu bir adımdır.
 
 1. **Genel muhasebe\> Genel muhasebe ayarı \> Genel muhasebe parametreleri**'ne gidin.
 2. **Doğrudan vergiler** sekmesinde, **Kaynakta Kesilen Vergi** bölümünde **TDS'yi etkinleştir** seçeneğini **Evet** olarak ayarlayarak TDS işlevini ve bunun için kullanılan sayfa ve alanları etkinleştirin.

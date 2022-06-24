@@ -1,6 +1,6 @@
 ---
 title: Oluşturulan dosyalardaki BOM karakterlerini gizlemek için ER yapılandırmaları tasarlama
-description: Bu konuda, bayt sırası işaretlerini (BOM) gizleyen raporlar oluşturmak için Elektronik raporlama (ER) biçiminin nasıl yapılandırılacağı açıklanmaktadır.
+description: Bu makalede, bayt sırası işaretlerini (BOM) gizleyen raporlar oluşturmak için Elektronik raporlama (ER) biçiminin nasıl yapılandırılacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b9265578deaff4100eb5987eb6090eaa12876044
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: d54ed105e4ff44ac2c48e2d1a4b8e12fbf6f9591
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847473"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Oluşturulan dosyalardaki BOM karakterlerini gizlemek için ER yapılandırmaları tasarlama
 
@@ -38,7 +38,7 @@ Kodlama olarak **UTF-8**, **UTF-16** veya **UTF-32** kodlamalarını belirtirsen
 
 ![Biçim tasarımcısı sayfasında BOM karakterlerini gizle seçeneğini ayarlama.](./media/er-suppress-bom-characters-image2.gif)
 
-Çalışma zamanında işlevi incelemek için uygun yordamı tamamlayın. Örneğin, [ER biçimindeki XML öğelerinin yürütülmesini erteleme](er-defer-xml-element.md) konusundaki adımları tamamlayın. Konunun [Hesaplamada, oluşturulan çıktının temel alınması için biçimi değiştirme](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) bölümündeki adımları tamamladıktan sonra aşağıdaki ek adımları da izleyin.
+Çalışma zamanında işlevi incelemek için uygun yordamı tamamlayın. Örneğin, [ER biçimindeki XML öğelerinin yürütülmesini erteleme](er-defer-xml-element.md) makalesindeki adımları tamamlayın. Makalenin [Hesaplamada, oluşturulan çıktının temel alınması için biçimi değiştirme](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) bölümündeki adımları tamamladıktan sonra aşağıdaki ek adımları da izleyin.
 
 1. UTF kodlamasını belirtin:
 
@@ -48,12 +48,12 @@ Kodlama olarak **UTF-8**, **UTF-16** veya **UTF-32** kodlamalarını belirtirsen
 2. BOM karakteri içeren bir XML dosyası oluşturun:
 
     1. Oluşturulan XML dosyalarına BOM karakterlerini eklemek için **BOM karakterlerini gizle** seçeneğini **Hayır** olarak ayarlayın.
-    2. [ER biçimindeki XML öğelerinin yürütülmesini erteleme](er-defer-xml-element.md) konusunun [Hesaplanan toplamın kullanılmasını sağlamak için özet XML öğesinin yürütülmesini erteleme](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) bölümündeki adımları tamamlayın ve oluşturulan dosyayı **SampleXmlReport.xml** olarak kaydedin.
+    2. [ER biçimindeki XML öğelerinin yürütülmesini erteleme](er-defer-xml-element.md) makalesinin [Hesaplanan toplamın kullanılmasını sağlamak için özet XML öğesinin yürütülmesini erteleme](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) bölümündeki adımları tamamlayın ve oluşturulan dosyayı **SampleXmlReport.xml** olarak kaydedin.
 
 3. BOM karakteri içermeyen bir XML dosyası oluşturun:
 
     1. Oluşturulan XML dosyalarında BOM karakterlerini gizlemek için **BOM karakterlerini gizle** seçeneğini **Evet** olarak ayarlayın.
-    2. [ER biçimindeki XML öğelerinin yürütülmesini erteleme](er-defer-xml-element.md) konusunun [Hesaplanan toplamın kullanılmasını sağlamak için özet XML öğesinin yürütülmesini erteleme](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) bölümündeki adımları tamamlayın ve oluşturulan dosyayı **SampleXmlReport (1).xml** olarak kaydedin.
+    2. [ER biçimindeki XML öğelerinin yürütülmesini erteleme](er-defer-xml-element.md) makalesinin [Hesaplanan toplamın kullanılmasını sağlamak için özet XML öğesinin yürütülmesini erteleme](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) bölümündeki adımları tamamlayın ve oluşturulan dosyayı **SampleXmlReport (1).xml** olarak kaydedin.
 
 4. Dosya karşılaştırma yardımcı programında, oluşturulan dosyaları karşılaştırın.
 

@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikler
-description: Bu konu Dynamics 365 Finance'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
+title: Dynamics 365 Finance'te kaldırılan veya kullanım dışı bırakılan özellikler
+description: Bu makale, Dynamics 365 Finance'ten kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: kfend
 ms.date: 03/21/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
-ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
+ms.openlocfilehash: 0278b57ccfa2da9dba6b5ea77821fdc47ad2d078
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8466848"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846668"
 ---
-# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikler
+# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'te kaldırılan veya kullanım dışı bırakılan özellikler
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu Dynamics 365 Finance'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
+Bu makale, Dynamics 365 Finance'ten kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 
 - *Kaldırılan* özellik artık üründe bulunmaz.
 - *Kullanımına son verilen* özellik etkin geliştirmede değildir ve sonraki güncellemede kaldırılabilir.

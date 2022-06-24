@@ -1,6 +1,6 @@
 ---
-title: Satış vergisi kodları için Tam tutar ve Aralık hesaplama seçenekleri
-description: Bu konuda satış vergisi kodları için Hesaplama yöntemi alanının seçenekleri ve satış vergisinin aralıklar ve tüm tutarlar için nasıl hesaplanacağı açıklanmıştır.
+title: Satış vergisi kodları için tüm tutar ve Aralık hesaplaması seçenekleri
+description: Bu makalede satış vergisi kodları için Hesaplama yöntemi alanının seçenekleri ve satış vergisinin aralıklar ve tüm tutarlar için nasıl hesaplanacağı açıklanmıştır.
 author: kailiang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f06c92f2151f54a7d9b684b9687b786d1e4cd7a
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5b02a0ced8b556cfc5a984d24ceaf982629fd69c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727468"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874475"
 ---
-# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Satış vergisi kodları için Tam tutar ve Aralık hesaplama seçenekleri
+# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Satış vergisi kodları için tüm tutar ve Aralık hesaplaması seçenekleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda satış vergisi kodları için **Hesaplama yöntemi** alanının seçenekleri ve satış vergisinin aralıklar ve tüm tutarlar için nasıl hesaplanacağı açıklanmıştır.
+Bu makalede, satış vergisi kodları için **Hesaplama yöntemi** alanının seçenekleri ve satış vergisinin aralıklar ve tüm tutarlar için nasıl hesaplanacağı açıklanmaktadır.
 
 Tam tutar veya bir aralık tutarına dayalı olarak hesaplanacak bir satış vergisi kodu ayarlayabilirsiniz. **Satış vergisi kodları** sayfasında, **Hesaplama** hızlı sekmesindeki **Hesaplama yöntemi** alanını kullanarak satış vergisi kodunun nasıl hesaplanacağını seçin.
 - Tüm tutar – Vergi oranı tüm vergilendirilebilir tutara uygulanır.

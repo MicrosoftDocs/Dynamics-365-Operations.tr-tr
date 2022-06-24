@@ -1,6 +1,6 @@
 ---
-title: Bireysel olarak numara serileri ayarlama
-description: Bu konuda bireysel olarak numara serileri ayarlama işlemi açıklanmaktadır.
+title: Bireysel olarak numara sıraları ayarlama
+description: Bu makalede, numara serilerini ayrı ayrı ayarlama işlemi açıklanmaktadır.
 author: SunilGarg
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b95a639c593c0f126a9aa1dd50434838d09ef746
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 7be72d348957c5c6494958276b2baa9c67d63c58
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905002"
 ---
-# <a name="set-up-number-sequences-on-an-individual-basis"></a>Bireysel olarak numara serileri ayarlama
+# <a name="set-up-number-sequences-on-an-individual-basis"></a>Bireysel olarak numara sıraları ayarlama
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda bireysel olarak numara serileri ayarlama işlemi açıklanmaktadır. Numara serileri, ana veri kayıtları ve bunları gerektiren işlem kayıtları için okunabilir ve benzersiz tanımlayıcılarını oluşturmada kullanılır. Tanımlayıcı gerektiren bir ana veri veya hareket kaydı, referans olarak adlandırılır. Bir referans için yeni kayıtlar oluşturmadan önce, bir numara serisi oluşturmalı ve bunu referans ile ilişkilendirmelisiniz. Tüm gerekli numara serilerini aynı zamanda, **Numara serileri ayarla** sihirbazını kullanarak ayarlayabilir veya **Numara serileri** sayfasından tek tek numara serilerini oluşturabilir ya da değiştirebilirsiniz.
+Bu makalede, numara serilerini ayrı ayrı ayarlama işlemi açıklanmaktadır. Numara serileri, ana veri kayıtları ve bunları gerektiren işlem kayıtları için okunabilir ve benzersiz tanımlayıcılarını oluşturmada kullanılır. Tanımlayıcı gerektiren bir ana veri veya hareket kaydı, referans olarak adlandırılır. Bir referans için yeni kayıtlar oluşturmadan önce, bir numara serisi oluşturmalı ve bunu referans ile ilişkilendirmelisiniz. Tüm gerekli numara serilerini aynı zamanda, **Numara serileri ayarla** sihirbazını kullanarak ayarlayabilir veya **Numara serileri** sayfasından tek tek numara serilerini oluşturabilir ya da değiştirebilirsiniz.
 
 1. **Gezinti bölmesi > Modüller > Kuruluş yönetimi > Numara serileri > Numara serileri**'ne gidin.
 2. **Numara serisi**'ni seçin.

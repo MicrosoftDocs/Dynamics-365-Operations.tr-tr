@@ -1,6 +1,6 @@
 ---
 title: Erişilebilirlik özellikleri
-description: Bu konu, çeşitli engelleri bulunan kullanıcılara yardımcı olmak üzere tasarlanan işlevleri açıklar.
+description: Bu makale, çeşitli engelleri bulunan kullanıcılara yardımcı olmak üzere tasarlanan işlevleri açıklar.
 author: TLeforMicrosoft
 ms.date: 12/02/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: af17b7933aed2a40d81fbc4e7b79e4e716aaf59b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071070"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881065"
 ---
 # <a name="accessibility-features"></a>Erişilebilirlik özellikleri
 
@@ -26,7 +26,7 @@ ms.locfileid: "8071070"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Bu konu, çeşitli engelleri bulunan kullanıcıların bu uygulamayı kullanmalarına yardımcı olacak işlevleri açıklar. Örneğin, Microsoft Windows Ekran Okuyucusu gibi yardımcı görme teknolojileri kullanan kişilere yönelik özellikler vardır.
+Bu makale, çeşitli engelleri bulunan kullanıcıların bu uygulamayı kullanmalarına yardımcı olacak işlevleri açıklar. Örneğin, Microsoft Windows Ekran Okuyucusu gibi yardımcı görme teknolojileri kullanan kişilere yönelik özellikler vardır.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows Ekran Okuyucusu ve yalnızca klavye erişimi
 
@@ -49,7 +49,7 @@ Daha fazla bilgi için bkz. [Gezinti araması](navigation-search.md).
 
 ## <a name="action-search-for-keyboard-only-users-or-for-heads-down-data-entry"></a>Yalnızca klavye kullanıcıları ve baş aşağıda veri girişi için eylem arama
 
-Bir sayfada yer alan her eyleme seklem sırası aracılığıyla klavyeden erişilebilir. Bu konunun ilerleyen bölümlerinde sekme sırası hakkında bilgi verilmektedir. Eylemleri daha doğrudan çalıştırmak için eylem arama işlevini kullanabilirsiniz.
+Bir sayfada yer alan her eyleme seklem sırası aracılığıyla klavyeden erişilebilir. Bu makalenin ilerleyen bölümlerinde sekme sırası hakkında bilgi verilmektedir. Eylemleri daha doğrudan çalıştırmak için eylem arama işlevini kullanabilirsiniz.
 
 ### <a name="example"></a>Örnek
 

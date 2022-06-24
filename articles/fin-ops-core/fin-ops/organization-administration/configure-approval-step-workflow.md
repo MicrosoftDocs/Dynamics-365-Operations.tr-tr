@@ -1,6 +1,6 @@
 ---
 title: İş akışında onay adımlarını yapılandırma
-description: Bu konu, bir onay adımının özelliklerini yapılandırmayı açıklar.
+description: Bu makalede, bir onay adımının özelliklerinin nasıl yapılandırılacağı açıklanmaktadır.
 author: ChrisGarty
 ms.date: 08/23/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84ff82dcb9f4ce930b4f1122790f7989c56fac35
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 5d7491c690cce7014f1aca0fb30ff6c3f21f45f9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070789"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848707"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>İş akışında onay adımlarını yapılandırma
 
@@ -28,7 +28,7 @@ ms.locfileid: "8070789"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Bu konu, bir onay adımının özelliklerini yapılandırmayı açıklar.
+Bu makalede, bir onay adımının özelliklerinin nasıl yapılandırılacağı açıklanmaktadır.
 
 Bir onay adımını iş akışı düzenleyicisinde yapılandırmak için onay adımına sağ tıklatın ve sonra **Özellikler**'i açmak için **Özellikler** sayfanı tıklayın. Ardından onay adımının özelliklerini yapılandırmak için aşağıdaki yordamları kullanın.
 

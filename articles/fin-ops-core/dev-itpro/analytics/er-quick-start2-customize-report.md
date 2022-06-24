@@ -1,6 +1,6 @@
 ---
 title: Özel elektronik belge oluşturmak için ER biçimini ayarlama
-description: Bu konu, Microsoft tarafından sağlanan elektronik raporlama (ER) biçiminin özel elektronik belge oluşturması için nasıl ayarlanacağını açıklamaktadır.
+description: Bu makalede, Microsoft tarafından sağlanan elektronik raporlama (ER) biçiminin özel elektronik belge oluşturması için nasıl ayarlanacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 06/22/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 14976aab474b6571c2a25907f04fd4d7ae053e74
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323829"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886805"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Özel elektronik belge oluşturmak için ER biçimini ayarlama
 
 [!include[banner](../includes/banner.md)]
 
-Bu konudaki yordamlarda, Sistem Yöneticisi veya elektronik raporlama işlevi aracılığıyla çalışan bir kullanıcının bu görevleri nasıl gerçekleştirebileceği açıklanmaktadır:
+Bu makaledeki yordamlarda, Sistem Yöneticisi veya Elektronik Raporlama İşlev Danışmanı rolündeki bir kullanıcının bu görevleri nasıl gerçekleştireceği açıklanmaktadır:
 
 - [Elektronik raporlama (ER) altyapısını](general-electronic-reporting.md) parametrelerini yapılandırın.
 - Microsoft tarafından sağlanan ve bir [satıcı ödemesi](../../../finance/cash-bank-management/tasks/vendor-payment-overview.md) işlenirken bir ödeme dosyası oluşturmak için kullanılan ER konfigürasyonlarını içe aktar.
@@ -135,7 +135,7 @@ ER yapılandırma sağlayıcıları hakkında daha fazla bilgi için bkz. [Yapı
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat1"></a>Standart ER yapılandırmalarını içe aktarın
 
-Microsoft Dynamics 365 Finance'un geçerli örneğine standart ER yapılandırmalarını eklemek için onları o örnek için yapılandırılmış olan ER [deposundan](general-electronic-reporting.md#Repository) içe aktarmanız gerekir.
+Geçerli Microsoft Dynamics 365 Finance örneğinize standart ER yapılandırmalarını eklemek için bu yapılandırmaları söz konusu örnek için yapılandırılmış olan ER [deposundan](general-electronic-reporting.md#Repository) içeri aktarmanız gerekir.
 
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 2. **Yerelleştirme yapılandırmaları** sayfasında, **Yapılandırma Sağlayıcıları** bölümünde **Microsoft** kutucuğunu seçin ve Microsoft sağlayıcısı için depolar listesini görüntülemek için **Depolar**'ı seçin.

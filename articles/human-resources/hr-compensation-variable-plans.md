@@ -1,6 +1,6 @@
 ---
 title: Değişken ücret planları oluşturma
-description: Bu konuda, değişken ücret kullanabilmeniz ve çalışanları bir değişken ücret planına kaydedebilmeniz için ayarlanması gereken bileşenler açıklanmaktadır.
+description: Bu makalede, değişken ücret kullanabilmeniz ve çalışanları bir değişken ücret planına kaydedebilmeniz için ayarlanması gereken bileşenler açıklanmaktadır.
 author: twheeloc
 ms.date: 08/24/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 589990c48d115266b57589f905de20572e76a040
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 22788dff1ee29b6920426d8ff00d412c3d5564e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853088"
 ---
 # <a name="create-variable-compensation-plans"></a>Değişken ücret planları oluşturma
 
@@ -28,7 +28,7 @@ ms.locfileid: "8688671"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Değişken ücret, çalışanın düzenli almadığı, prim, hisse senedi ikramiyesi gibi ödemeleri ifade eder. Bu konuda, değişken ücret için gerekli bileşenlerin nasıl ayarlanacağı ve çalışanların bir değişken ücret planına nasıl kaydedileceği açıklanmaktadır.
+Değişken ücret, çalışanın düzenli almadığı, prim, hisse senedi ikramiyesi gibi ödemeleri ifade eder. Bu makalede, değişken ücret için gerekli bileşenlerin nasıl ayarlanacağı ve çalışanların bir değişken ücret planına nasıl kaydedileceği açıklanmaktadır.
 
 Çalışanlarınız için değişken ücret tutarlarının hesaplanması çalışanın performansı, çalışanın ücret düzeyi ve departmanın performansı gibi çok sayıda faktöre dayalı olabilir.
 

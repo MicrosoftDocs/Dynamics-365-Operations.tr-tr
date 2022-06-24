@@ -1,6 +1,6 @@
 ---
 title: Mali raporlamaya genel bakış
-description: Bu konu, Microsoft Dynamics 365 Finance içerisinden mali raporlara nereden erişileceğini ve finansal raporlama yeteneklerinin nasıl kullanılacağını açıklar.
+description: Bu makalede, Microsoft Dynamics 365 Finance'te mali raporlara nereden erişileceği ve finansal raporlama özelliklerinin nasıl kullanılacağı açıklanmaktadır.
 author: aprilolson
 ms.date: 03/31/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a209390a8424e2ec3d6654b54b36e36fcd349b3
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3b09adc738ac36625436e5cc3197e79603fff9b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721913"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853423"
 ---
 # <a name="get-started-with-financial-reporting"></a>Mali raporlamayı kullanmaya başlama 
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Mali raporlamalara nereden erişileceği ve mali raporlama yeteneklerinin nasıl kullanılacağı açıklanmaktadır. Ayrıca, sağlanan varsayılan mali raporların bir açıklamasını da içerir.
+Bu makalede, Mali raporlamalara nereden erişileceği ve mali raporlama özelliklerinin nasıl kullanılacağı açıklanmaktadır. Ayrıca, sağlanan varsayılan mali raporların bir açıklamasını da içerir.
 
 ## <a name="accessing-financial-reporting"></a>Mali raporlamaya erişmek
 

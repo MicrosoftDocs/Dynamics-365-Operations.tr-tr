@@ -1,6 +1,6 @@
 ---
-title: Satıcı çekleri örnek elektronik raporlama
-description: Bu konu, Elektronik raporlama örnek çek biçimlerinin nasıl kullanılacağı hakkında genel bilgi sağlar.
+title: Satıcı çekleri için elektronik raporlama örneği
+description: Bu makalede, Elektronik raporlama örnek çek biçimlerinin nasıl kullanılacağı hakkında genel bilgiler sağlanmaktadır.
 author: sunfzam
 ms.date: 06/14/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 38a037903a994f6212f4ccce10e10c795eb7364d
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d2b26a083540924d2368a298632aea90ecf95e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734558"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908197"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>Satıcı çekleri örnek elektronik raporlama
 
@@ -28,7 +28,7 @@ Satıcı çeklerinizi biçimlendirmek için Elektronik raporlama (ER) kullanabil
 
 ## <a name="what-check-formats-are-currently-supported"></a>Hangi çek biçimleri şu anda desteklenmektedir?
 
-Sürekli olarak Microsoft Dynamics Lifecycle Services'daki (LCS) Paylaşılan varlık kitaplığına gidip varlık türü **GER yapılandırması** olan mevcut dosyaların geçerli listesini görüntülemeniz gerekir. Sonraki "Neyi ayarlamam gerekiyor?" bölümünde, mevcut yapılandırmaları incelemek ve seçili yapılandırmaları içe aktarmak için bir LCS havuzunun nasıl oluşturulacağının açıklandığını açıklayan konuya bağlantı verilmektedir.
+Sürekli olarak Microsoft Dynamics Lifecycle Services'daki (LCS) Paylaşılan varlık kitaplığına gidip varlık türü **GER yapılandırması** olan mevcut dosyaların geçerli listesini görüntülemeniz gerekir. Sonraki "Neyi ayarlamam gerekiyor?" bölümünde, mevcut yapılandırmaları incelemek ve seçili yapılandırmaları içeri aktarmak için bir LCS deposunun nasıl oluşturulacağını açıklayan makalenin bağlantısı verilmektedir.
 
  Microsoft Dynamics 365 Finance ayrıca, çekin üstte olduğu ve bunu iki havale bölümünün izlediği örnek bir biçim içermektedir. Ayrıca, çekin ortada, iki havale bölümü arasında bulunduğu bir örnek biçim de içermektedir. Bu örnek biçimleri, Deluxe iş çek biçimlerine karşılık gelir.
 

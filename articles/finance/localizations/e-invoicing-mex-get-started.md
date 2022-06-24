@@ -1,6 +1,6 @@
 ---
 title: Meksika için Elektronik faturalamayı kullanmaya başlama
-description: Bu konu, Meksika için Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler içerir.
+description: Bu makalede, Meksika için Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler yer almaktadır.
 author: gionoder
 ms.date: 12/01/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6fc8a9eaf6c6e4c82719e7c1ebccd4272548e73f
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 540b6e6f9b4b669957cc3310e473ad59b9210594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566013"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855343"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Meksika için Elektronik faturalamayı kullanmaya başlama
 
@@ -31,11 +31,11 @@ ms.locfileid: "8566013"
 > [!IMPORTANT]
 > Meksika için elektronik faturalama şu anda Comprobante Fiscal Digital por Internet (CFDI) belgesinde kullanılabilir olan ve Microsoft Dynamics 365 Finance ile Dynamics 365 Supply Chain Management üzerinde oluşturulan ilgili tümleştirmelerde tüm işlevleri desteklemeyebilir.
 
-Bu konu, Meksika için Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler içerir. Regulatory Configuration Services (RCS) ve Finance için ülkeye bağlı olan yapılandırma adımlarında size kılavuzluk eder. Ayrıca, servis üzerinden CFDI faturalarını göndermek için Finance'de izlemeniz gereken adımlarda size yol gösterir ve işlem sonuçlarının nasıl gözden geçirileceğini ve CFDI faturalarının durumunu açıklamaktadır.
+Bu makalede, Meksika için Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler yer almaktadır. Regulatory Configuration Services (RCS) ve Finance için ülkeye bağlı olan yapılandırma adımlarında size kılavuzluk eder. Ayrıca, servis üzerinden CFDI faturalarını göndermek için Finance'de izlemeniz gereken adımlarda size yol gösterir ve işlem sonuçlarının nasıl gözden geçirileceğini ve CFDI faturalarının durumunu açıklamaktadır.
 
-## <a name="prerequisites"></a>Önkoşullar
+## <a name="prerequisites"></a>Ön Koşullar
 
-Bu konudaki adımları tamamlamadan önce, [Elektronik faturalama hizmeti yönetimine başlama](e-invoicing-get-started-service-administration.md) ve [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) konusundaki adımları tamamlamanız gerekir.
+Bu makaledeki adımları tamamlamadan önce, [Elektronik faturalama hizmeti yönetimine başlama](e-invoicing-get-started-service-administration.md) ve [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) makalelerindeki adımları tamamlamanız gerekir.
 
 ## <a name="set-up-the-cadena-xslt"></a>Cadena XSLT'yi ayarlama
 

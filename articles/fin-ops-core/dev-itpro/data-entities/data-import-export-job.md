@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1407c6def22b9759723e49fb2fa6d4d68f180891
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644475"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860178"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Veri içe ve dışa aktarma işlerine genel bakış
 
@@ -29,7 +29,7 @@ ms.locfileid: "8644475"
 Veri içe ve dışa aktarma işlerini oluşturmak ve yönetmek için **Veri yönetimi** çalışma alanını kullanabilirsiniz. Varsayılan olarak, veri içe ve dışa aktarma işlemi, hedef veritabanındaki her bir varlık için bir hazırlama tablosu oluşturur. Hazırlama tabloları, taşımadan önce verileri doğrulamanızı, temizlemenizi ve dönüştürmenizi sağlar.
 
 > [!NOTE]
-> Bu konu, [veri varlıkları](data-entities.md) hakkında bilgi sahibi olduğunuzu varsayar.
+> Bu makalede, [veri varlıkları](data-entities.md) hakkında bilgi sahibi olduğunuz varsayılır.
 
 ## <a name="data-importexport-process"></a>Ver içe/dışa aktarma işlemi
 Veri içe ve dışa aktarmak için adımlar buradadır.
@@ -48,7 +48,7 @@ Veri içe ve dışa aktarmak için adımlar buradadır.
 5. İş geçmişini gözden geçirerek işin beklendiği gibi çalıştığını doğrulayın.
 6. Hazırlama tablolarını temizleyin.
 
-Bu konunun kalan bölümleri işlemin her bir adımı hakkında bilgi veri.
+Bu makalenin kalan bölümleri işlemin her bir adımı hakkında ayrıntılı bilgi vermektedir.
 
 > [!NOTE]
 > En son ilerlemeyi görmek üzere Veri içe aktarma/dışa aktarma formunu yenilemek için form yenileme simgesini kullanın. Toplu iş modunda çalıştırılmayan herhangi bir içe aktarma/dışa aktarma işini yarıda keseceği için tarayıcı düzeyinde yenileme önerilmez.

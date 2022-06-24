@@ -1,6 +1,6 @@
 ---
 title: Lifecycle Services'tan bir yapılandırmayı içe aktarma
-description: Bu konuda, Microsoft Dynamics Lifecycle Services (LCS) portalından Elektronik raporlama (ER) yapılandırmasının yeni sürümünün nasıl içeri aktarılacağı açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics Lifecycle Services (LCS) portalından Elektronik raporlama (ER) yapılandırmasının yeni sürümünün nasıl içeri aktarılacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 05a8ad127df177c54e67ff1f2ddcd8b3a3f51ea12b6e11d087105bd74b6bdb3f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2aae59334828a5636f35051d50cf2ea392074b71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712604"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886686"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Lifecycle Services'tan bir yapılandırmayı içe aktarma
 
 [!include [banner](../../includes/banner.md)]
 
-Aşağıdaki konuda, Sistem yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının [Elektronik Raporlama (ER) yapılandırmasına](../general-electronic-reporting.md#Configuration) ait yeni bir sürümü Microsoft Dynamics Lifecycle Services (LCS)'de [proje düzeyi Varlık kitaplığı'ndan](../../lifecycle-services/asset-library.md) içe aktarması açıklanmaktadır.
+Aşağıdaki makalede, Sistem yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının [Elektronik Raporlama (ER) yapılandırmasına](../general-electronic-reporting.md#Configuration) ait yeni bir sürümü Microsoft Dynamics Lifecycle Services (LCS)'de [proje düzeyi Varlık kitaplığı'ndan](../../lifecycle-services/asset-library.md) içe aktarması açıklanmaktadır.
 
 > [!IMPORTANT]
 > LCS'nin, ER yapılandırmaları için saklama deposu olarak kullanılma özelliği [kullanım dışı bırakılıyor](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Daha fazla bilgi için bkz. [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) depolamasının kullanım dışı bırakılması](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
@@ -41,7 +41,7 @@ Bu örnekte bir ER yapılandırmasının istenilen sürümünü seçecek ve Litw
 
 <a name="accessconditions"></a>
 > [!NOTE]
-> Geçerli Dynamics 365 Finance kullanıcısının, ER konfigürasyonlarını içe aktarmak için [erişmek](../../lifecycle-services/asset-library.md#asset-library-support) istediği Varlık kitaplığı'nı içeren LCS projesine üye olduğundan emin olun.
+> Geçerli Dynamics 365 Finance kullanıcısının, ER yapılandırmalarını içe aktarmak için [erişmek](../../lifecycle-services/asset-library.md#asset-library-support) istediği Varlık kitaplığı'nı içeren LCS projesine üye olduğundan emin olun.
 >
 > Bir LCS projesine Finance içinde kullanılan etki alanından farklı bir etki alanını temsil eden bir ER havuzundan erişemezsiniz. Denediğinizde, boş bir LCS proje listesi görüntülenir ve bu yapılandırmaları LCS'de proje düzeyi Varlık kitaplığı'ndan içe aktarmanız mümkün olmayacaktır. ER yapılandırmalarını içe aktarmak için kullanılan bir ER havuzundan proje düzeyi Varlık kitaplıkları'na erişmek için, geçerli Finance örneğinin sağlandığı kiracıya (etki alanı) ait bir kullanıcının kimlik bilgilerini kullanarak Finance uygulamasında oturum açın.
 
@@ -49,7 +49,7 @@ Bu örnekte bir ER yapılandırmasının istenilen sürümünü seçecek ve Litw
 
 1. **Yapılandırmalar** sayfasında, yapılandırmalar ağacında, **Örnek model yapılandırması** seçeneğini belirleyin.
 
-    Örnek veri modeli yapılandırmasının ilk sürümünü oluşturdunuz ve [Bir yapılandırmayı Lifecycle Services'e yüklemek](er-upload-configuration-into-lifecycle-services.md) yordamındaki adımlar tamamlandığında yayımladınız. Bu yordamda, ER yapılandırmasının bu sürümünü sileceksiniz. Bu konuda daha sonra LCS'den bu sürümü içe aktaracaksınız.
+    Örnek veri modeli yapılandırmasının ilk sürümünü oluşturdunuz ve [Bir yapılandırmayı Lifecycle Services'e yüklemek](er-upload-configuration-into-lifecycle-services.md) yordamındaki adımlar tamamlandığında yayımladınız. Bu yordamda, ER yapılandırmasının bu sürümünü sileceksiniz. Bu makalede daha sonra LCS'den bu sürümü içe aktaracaksınız.
 
 2. Listede, istenen kaydı bulun ve seçin.
 

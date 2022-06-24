@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 364117133cb7a868e613088b14a33869fd9fedb1
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 15b1796367338bf40b434cfab9368ed3386aed99
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735360"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876516"
 ---
 # <a name="develop-and-open-job-requisition"></a>İş talebi geliştir ve yönet
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> Bu konudaki işe alma işlevi İşe Alma projeleri olarak adlandırılacaktır ve başvuranlar, uygulamalar ve işe alma projelerine odaklanır.  
+> Bu makalede işe alma işlevi, İşe Alma projeleri olarak belirtilir ve makalede başvuranlar, başvurular ve işe alma projelerine odaklanılmaktadır.  
 
 
 İşe alma projeleri, işe alma işleminin yönetilmesine yardımcı olur. Her işe alma projesi için işe alınacak iş, işe alanın adı, projenin durumu ve işin bulunduğu departman gibi bilgileri ayarlayabilirsiniz. İşe alma projesini oluşturduktan sonra proje için bir iş ilanını yazabilir, ilanı **Çalışan self-servis** sayfasında yayımlayabilir, başvuruları projeyle ilişkilendirebilir ve bu projeyle ilgili etkinlikleri izleyebilirsiniz. Bu yordamı oluşturmak için **USMF** demo verileri şirketi kullanılmıştır.

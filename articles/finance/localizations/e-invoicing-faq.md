@@ -1,6 +1,6 @@
 ---
 title: Elektronik faturalama SSS
-description: Bu konu, elektronik faturalamayla ilgili sık sorulan sorular hakkında bilgi sağlar.
+description: Bu makalede, Elektronik faturalamayla ilgili sık sorulan sorular hakkında bilgi sağlanmaktadır.
 author: gionoder
 ms.date: 04/21/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 2d4e7c79c83b9d60469c2b87a7b9120e0d4c13a695badfb2254a85cee629c933
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbb43438a9da567460eb744afb64dae5274f04a9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904368"
 ---
 # <a name="electronic-invoicing-faq"></a>Elektronik Faturalama ile ilgili SSS
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Elektronik Faturalama hizmetiyle ilgili sık sorulan soruların yanıtlarını sağlar. Elektronik faturalama, Dynamics 365 Finance, Dynamics 365 Supply Chain Management ve Dynamics 365 Project Operations'da varolan elektronik faturalama yeteneklerini genişletir. 
+Bu makalede, Elektronik Faturalama hizmetiyle ilgili sık sorulan soruların yanıtları yer almaktadır. Elektronik faturalama; Dynamics 365 Finance, Dynamics 365 Supply Chain Management ve Dynamics 365 Project Operations'daki mevcut elektronik faturalama özelliklerini genişletir. 
 
 ## <a name="what-is-important-about-electronic-invoicing-and-why-should-it-matter-to-my-organization"></a>Elektronik faturalama ile ilgili önemli olan nedir ve neden Kuruluşum için önemlidir?
 

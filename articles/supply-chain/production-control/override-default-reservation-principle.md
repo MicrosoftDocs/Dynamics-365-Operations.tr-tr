@@ -1,6 +1,6 @@
 ---
 title: Üretimdeki malzemeler için varsayılan rezervasyon ilkesini geçersiz kılma
-description: Bu konuda, her madde modeli grubu için varsayılan bir rezervasyon ilkesinin nasıl ayarlanacağını açıklanmaktadır. Böylece farklı rezervasyon ilkeleri, üretim ürün reçetesi (BOM) veya toplu iş emri formülünün parçası olan her bir maddeye otomatik olarak uygulanabilir.
+description: Bu makalede, her madde modeli grubu için varsayılan bir rezervasyon ilkesinin nasıl ayarlanacağını açıklanmaktadır. Böylece farklı rezervasyon ilkeleri, üretim ürün reçetesi (BOM) veya toplu iş emri formülünün parçası olan her bir maddeye otomatik olarak uygulanabilir.
 author: johanhoffmann
 ms.date: 12/10/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 11fd2c08c8730d50553b1fc6493908940a022c05
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 381b7fa5046df8f2734e4b242058eb9a673388cf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689045"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907246"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Üretimdeki malzemeler için varsayılan rezervasyon ilkesini geçersiz kılma
 

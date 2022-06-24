@@ -1,6 +1,6 @@
 ---
 title: Human Resources'ı sağla
-description: Bu konuda, Microsoft Dynamics 365 Human Resources için yeni bir üretim ortamı hazırlama işlemi açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Human Resources için yeni bir üretim ortamı hazırlama işlemi açıklanmaktadır.
 author: twheeloc
 ms.date: 01/07/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79747d0c5c4265315d1757352dfecef09c469dd8
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 341b14d493c85a1e94666fa7e07b80704645e5f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710877"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858257"
 ---
 # <a name="provision-human-resources"></a>Human Resources'ı sağla
 
@@ -27,13 +27,13 @@ ms.locfileid: "8710877"
 
 
 
-Bu konuda, Microsoft Dynamics 365 Human Resources için yeni bir üretim ortamı hazırlama işlemi açıklanmaktadır. 
+Bu makalede, Microsoft Dynamics 365 Human Resources için yeni bir üretim ortamı hazırlama işlemi açıklanmaktadır. 
 
 ## <a name="prerequisites"></a>Önkoşullar
 
 Yeni bir üretim ortamını hazırlamaya başlayabilmeniz için aşağıdaki önkoşulların yerine getirilmiş olması gerekir:
 
-- Human Resources'ı bir Bulut Çözümü Sağlayıcısı (CSP) veya kurumsal mimari (EA) sözleşmesi aracılığıyla satın almış olmalısınız. Zaten İnsan Kaynakları hizmet planını içeren mevcut bir Microsoft Dynamics 365 lisansınız varsa ve bu konudaki adımları tamamlayamıyorsanız Destek birimine başvurun.
+- Human Resources'ı bir Bulut Çözümü Sağlayıcısı (CSP) veya kurumsal mimari (EA) sözleşmesi aracılığıyla satın almış olmalısınız. Zaten insan kaynakları hizmet planını içeren mevcut bir Microsoft Dynamics 365 lisansınız varsa ve bu konudaki adımları tamamlayamıyorsanız Destek birimine başvurun.
 
 - Genel yönetici, [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) hizmetinde oturum açmış ve yeni bir Human Resources projesi oluşturmuş olmalıdır. 
 

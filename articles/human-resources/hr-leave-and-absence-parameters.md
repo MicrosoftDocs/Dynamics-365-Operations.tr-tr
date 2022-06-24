@@ -1,6 +1,6 @@
 ---
 title: Bırakma ve devamsızlık parametrelerini konfigüre et
-description: Bu konu, Dynamics 365 Human Resources'ta giriş ve devamsızlık için insan kaynakları parametrelerinin nasıl tanımlanacağını açıklamaktadır.
+description: Bu makalede, Dynamics 365 Human Resources'da izin ve devamsızlık için insan kaynakları parametrelerinin nasıl tanımlanacağı açıklanmaktadır.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79052c550783dee1ba4091ad10bde4d79d7b905e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3a39c74eef3865c03ccb9dd5aa2fece7f25e639a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690708"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891393"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Bırakma ve devamsızlık parametrelerini konfigüre et
 
 >[!Important]
->Bu konuda belirtilen işlevler şu anda bağımsız Dynamics 365 Human Resources uygulamasını kullanan müşteriler için kullanıma sunulmaktadır. İşlevlerin bazıları veya tümü, Finance 10.0.26 sürümünden sonra Finance altyapısında ileride yayınlanacak bir sürümünün parçası olarak kullanılabilir.
+>Bu makalede belirtilen işlevler şu anda tek başına Dynamics 365 Human Resources uygulamasını kullanan müşteriler için kullanıma sunulmaktadır. İşlevlerin bazıları veya tümü, Finance 10.0.26 sürümünden sonra Finance altyapısında ileride yayınlanacak bir sürümünün parçası olarak kullanılabilir.
 
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]

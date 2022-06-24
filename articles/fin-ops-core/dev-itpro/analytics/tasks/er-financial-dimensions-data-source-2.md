@@ -1,6 +1,6 @@
 ---
 title: ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 2 - Model eşleme)
-description: Bu konuda, ER raporları için veri kaynağı olarak mali boyutları kullanmak üzere Elektronik raporlama (ER) modelinin nasıl yapılandırılacağı açıklanmaktadır. (2. Bölüm)
+description: Bu makalede, ER raporları için veri kaynağı olarak mali boyutları kullanmak üzere Elektronik raporlama (ER) modelinin nasıl yapılandırılacağı açıklanmaktadır. (2. Bölüm)
 author: NickSelin
 ms.date: 05/27/2020
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc7c6bc299dd0af83db3b09b06276a210ecfada5
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: d228ee9d393cab1c5c1592ca6570cdc91992c38c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605417"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878356"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 2 - Model eşleme)
 
@@ -94,7 +94,7 @@ Bu adımları tamamlamak için öncelikle "ER Mali boyutları veri kaynağı ola
 25. Ağaçta, 'LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Ana hesap ve boyutlar' öğesini seçin.
 26. Ağaçta, 'Günlük\Hareket\Boyut verileri' öğesini seçin.
 27. Bağla'yı tıklatın.
-!Model eşleme Tasarımcısı sayfası, eşleme sekmesi, veri kaynakları ağacı.](../media/er-financial-dimensions-guides-model-mapping3.png)
+[Model eşleme tasarımcı sayfası, Eşleme sekmesi, Veri kaynakları ağacı.](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. Ağaçta, 'LedgerJournal\<Relations\LedgerJournalTrans\Debit(AmountCurDebit)' öğesini seçin.
 29. Ağaçta, 'Günlük\Hareket\Borç' öğesini seçin.
 30. Bağla'ya tıklayın.

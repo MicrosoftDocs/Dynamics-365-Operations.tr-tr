@@ -1,6 +1,6 @@
 ---
 title: TDS imtiyaz sertifikası numaralarını kaydetme
-description: Bu konu, satıcılara verilen Kaynakta Kesilen Vergi (TDS) imtiyaz sertifikası numaralarının nasıl kaydedileceğini açıklar.
+description: Bu makalede, satıcılara verilen Kaynakta Kesilen Vergi (TDS) imtiyaz sertifikası numaralarının nasıl kaydedileceği açıklanmaktadır.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 994ddbb4666c326d237d53d529ba126f42d48595
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 116bc5c4b4f5f0b95d05dc73f2a012fbbc065bf2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727159"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846627"
 ---
 # <a name="record-tds-concession-certificate-numbers"></a>TDS imtiyaz sertifikası numaralarını kaydetme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, satıcılara verilen Kaynakta Kesilen Vergi (TDS) imtiyaz sertifikası numaralarının nasıl kaydedileceğini açıklar.
+Bu makalede, satıcılara verilen Kaynakta Kesilen Vergi (TDS) imtiyaz sertifikası numaralarının nasıl kaydedileceği açıklanmaktadır.
 
 1. **Vergi \> Dolaylı vergiler \> Stopaj vergisi \> Stopaj vergisi imtiyazları**'na gidin.
 2. **Vergi türü** alanında, TDS vergi türü için imtiyaz sertifikalarını kaydetmek üzere **TDS**'yi seçin.

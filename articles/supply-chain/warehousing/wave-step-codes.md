@@ -1,6 +1,6 @@
 ---
 title: Dalga adım kodları
-description: Bu konu altında, dalga adımı kodları hakkında genel bilgi ve bu kodların nasıl kullanıldığı açıklanmaktadır.
+description: Bu makale altında, dalga adımı kodları hakkında genel bilgi ve bu kodların nasıl kullanıldığı açıklanmaktadır.
 author: Mirzaab
 ms.date: 09/06/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c32e795fcb12be02d9c9324051101fa378935303
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4d25f1211db949b38232f945f69f197d5eda9a11
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572253"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900491"
 ---
 # <a name="wave-step-codes"></a>Dalga adım kodları
 

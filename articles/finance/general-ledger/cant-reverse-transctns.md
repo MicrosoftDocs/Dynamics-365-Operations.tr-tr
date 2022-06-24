@@ -1,6 +1,6 @@
 ---
 title: Bu hareketi neden tersine çeviremiyorum?
-description: Bu konuda, hareketlerin tersine çevrilememesinin farklı nedenleri açıklanmaktadır. Ayrıca bu soruna yönelik çözümler listelenmektedir.
+description: Bu makalede, hareketlerin tersine çevrilememesinin farklı nedenleri açıklanmaktadır. Ayrıca bu soruna yönelik çözümler listelenmektedir.
 author: kweekley
 ms.date: 07/21/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-07-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e18caf1dbdf8191713c17b1793f5da44cf2f182b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9a8b26584b1a9b82440583db693cd14daa580e22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724543"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876196"
 ---
 # <a name="why-cant-i-reverse-this-transaction"></a>Bu hareketi neden tersine çeviremiyorum?
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, hareketlerin tersine çevrilememesinin farklı nedenleri açıklanmaktadır. Ayrıca bu soruna yönelik çözümler listelenmektedir.
+Bu makalede, hareketlerin tersine çevrilememesinin farklı nedenleri açıklanmaktadır. Ayrıca bu soruna yönelik çözümler listelenmektedir.
 
 ## <a name="symptom"></a>Belirti
 
@@ -35,14 +35,14 @@ Kuruluşlar, deftere naklettikleri bir hareketi tersine çevirmeleri gereken dur
 
 ## <a name="resolution"></a>Çözüm
 
-Hareketler, tersine çevrilebilmeleri için belirli ölçütleri karşılamalıdır. Bu konunun geri kalan bölümleri her modül için doğrulama sağlar. Bu konu, Microsoft Dynamics 365 Finance uygulamasındaki hareketlere odaklansa da bazı kavramlar ve doğrulama yöntemleri, Dynamics 365 Supply Chain Management gibi diğer uygulamalara da uygulanabilir.
+Hareketler, tersine çevrilebilmeleri için belirli ölçütleri karşılamalıdır. Bu makalenin kalan bölümlerinde her modül için doğrulama sağlanmaktadır. Bu makalede, Microsoft Dynamics 365 Finance'teki hareketlere odaklanılmasına rağmen bazı kavramlar ve doğrulama yöntemleri, Dynamics 365 Supply Chain Management gibi diğer uygulamalara da uygulanabilir.
 
 Ek olarak, bir hareketin tersine çevrildiği yer, tersine çevrilip çevrilemeyeceğini etkileyebilir. Örneğin, çek olarak deftere nakledilen bir satıcı ödemesi yalnızca banka hesapları için hareket sayfasındaki **Çekler** bölümünden tersine çevrilebilir. Genel muhasebedeki **Fiş hareketleri** sayfasından tersine çevrilemez.
 
 **Özellik yönetimi** çalışma alanındaki **Birden çok belgeyi toplu tersine çevirme** (Toplu ters işlem özelliği olarak da bilinir) özelliğinin açılması kaç hareketin tersine çevrilebileceğini ve nerede tersine çevrilebileceklerini etkiler. Bu özelliğin açılması iki avantaj sağlar:
 
 - Bazı hareket türlerinde aynı anda birden fazla hareket, deftere nakledildikleri günlükten veya **Fiş hareketleri** sayfasından seçilerek tersine çevrilebilir. Ancak özellik etkinleştirilmeden önce hareketlerin hepsinin tersine çevrilebilir olması gerekir. Bu özellik kullanılmaya başlamadan önce hareketlerin tek tek tersine çevrilmesi gerekiyordu.
-- *Bazı* yardımcı defter hareketleri, günlükten (yevmiye defteri) veya **Fiş hareketleri** sayfasından tersine çevrilebilir. Yardımcı defter sayfasından tersine çevrilmeleri gerekmez. Örneğin, bir satıcı faturası günlüğü önceden yalnızca **Satıcı hareketleri** sayfasından tersine çevrilebilirdi. Ancak artık Genel muhasebe tarafındaki günlükten veya **Fiş hareketleri** sayfasından da tersine çevrilebilir. Bu konudaki her bir bölüm bu avantajın geçerli olmadığı hareket türlerini açıklamaktadır.
+- *Bazı* yardımcı defter hareketleri, günlükten (yevmiye defteri) veya **Fiş hareketleri** sayfasından tersine çevrilebilir. Yardımcı defter sayfasından tersine çevrilmeleri gerekmez. Örneğin, bir satıcı faturası günlüğü önceden yalnızca **Satıcı hareketleri** sayfasından tersine çevrilebilirdi. Ancak artık Genel muhasebe tarafındaki günlükten veya **Fiş hareketleri** sayfasından da tersine çevrilebilir. Bu makaledeki her bir bölüm, bu avantajın geçerli olmadığı hareket türlerini açıklamaktadır.
 
 Toplu ters işlem özelliği, tersine çevrilecek daha fazla türdeki hareketin tersine çevrilmesine olanak **sağlamaz**. Hareket türü, özellik açılmadan önce tersine çevrilemiyorsa özellik açıldıktan sonra da tersine çevrilemez. Örneğin, satınalma siparişi satıcı faturaları, Toplu ters işlem özelliğinin açık olup olmadığından bağımsız olarak tersine çevrilemez.
 
@@ -189,7 +189,7 @@ Aşağıdaki hareket türleri tersine çevrilemez:
 
 Birkaç hareket türü Alacak hesapları yardımcı defterlerini güncelleştirir. Satış siparişlerinden gelen müşteri faturaları, yevmiye defteri üzerinden girilen müşteri faturaları, serbest metin faturaları, müşteri ödemeleri ve gider yazmalar örnek olarak verilebilir.
 
-Toplu ters işlem özelliği kapatılırsa faturalar için **Müşteri hareketleri** sayfasından veya havaleler için **Banka hesapları** sayfasından hareketler tek tek tersine çevrilebilir. Ödemenin nasıl tersine çevrileceği hakkında bilgi için bu konunun ilerleyen kısımlarındaki [Nakit ve banka yönetimi](cant-reverse-transctns.md#cash-and-bank-management) bölümüne bakın.
+Toplu ters işlem özelliği kapatılırsa faturalar için **Müşteri hareketleri** sayfasından veya havaleler için **Banka hesapları** sayfasından hareketler tek tek tersine çevrilebilir. Ödemenin nasıl tersine çevrileceği hakkında bilgi için bu makalenin ilerleyen kısımlarındaki [Nakit ve banka yönetimi](cant-reverse-transctns.md#cash-and-bank-management) bölümüne bakın.
 
 Toplu ters işlem özelliği açılırsa bir veya daha fazla Alacak hesabı hareketi, **Fiş hareketleri** sayfasından ve kaydedildikleri günlükten de tersine çevrilebilir. Ancak havaleler yine de yalnızca banka hesabından tersine çevrilebilir ve serbest metin faturaları yalnızca kaynak sayfadan tersine çevrilebilir (düzeltmelere izin veren özellik açıksa). Ek olarak müşteri hareketleri, kayıt defterinin **\<main account\> hareketleri** sayfasından yine de tersine çevrilemez. Ancak **Fiş hareketleri** sayfasından tersine çevrilebilirler.
 

@@ -1,6 +1,6 @@
 ---
 title: İtalyan FatturaPA'yı doğrudan SDI ile tümleştirmeyi ayarlama
-description: Bu konu, İtalya için elektronik faturalamayı kullanmaya başlamanıza ve İtalyan FatturaPA'yı Exchange sistemi (SDI) ile doğrudan tümleştirmeyi ayarlamanıza yardımcı olacak bilgiler içerir.
+description: Bu makalede, İtalya için Elektronik faturalamayı kullanmaya başlamanıza ve İtalyan FatturaPA'yı Exchange sistemi (SDI) ile doğrudan tümleştirmeyi ayarlamanıza yardımcı olacak bilgiler yer alır.
 author: abaryshnikov
 ms.date: 01/15/2022
 ms.topic: article
@@ -10,37 +10,37 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 73cb08c880d7b3459201acfc7aeaa8d0dee1674f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 510cf05e7bbc925478f9a1a4ea2ea27fe397c570
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984815"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853206"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>İtalyan FatturaPA'yı doğrudan SDI ile tümleştirmeyi ayarlama
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> İtalya için Elektronik faturalama Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management içinden elektronik fatura için kullanılabilen tüm işlevleri şimdilik desteklemeyebilir.
+> İtalya için Elektronik faturalama, şu anda Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management'te Elektronik fatura için kullanılabilen tüm işlevleri desteklemeyebilir.
 
-Bu konu, Finance ve Supply Chain Management'ta İtalya için elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler içerir. Regulatory Configuration Services (RCS) için ülkeye/bölgeye bağlı olan yapılandırma adımlarında size kılavuzluk eder. Bu adımlar, [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) konusunda açıklanan adımları tamamlar.
+Bu makalede, Finance ve Supply Chain Management'ta İtalya için Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler yer almaktadır. Regulatory Configuration Services (RCS) için ülkeye/bölgeye bağlı olan yapılandırma adımlarında size kılavuzluk eder. Bu adımlar, [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) konusunda açıklanan adımları tamamlar.
 
-## <a name="prerequisites"></a>Önkoşullar
+## <a name="prerequisites"></a>Ön Koşullar
 
-Bu konudaki adımları tamamlayabilmek için önce aşağıdaki önkoşulları karşılamanız gerekir:
+Bu makaledeki adımları tamamlayabilmek için önce aşağıdaki ön koşulları karşılamanız gerekir:
 
 - [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) konusundaki adımları tamamlayın.
-- **İtalyan FatturaPA (IT)** elektronik faturalama özelliğini genel depodan RCS'ye aktarın. Daha fazla bilgi için daha önce belirtilen "Elektronik faturalamayı kullanmaya başlama" konusunun [Microsoft yapılandırma sağlayıcısından elektronik faturalama özelliğini içe aktarma](e-invoicing-get-started.md#import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider) bölümüne bakın.
-- Gerekli sertifikalardaki bağlantıları hizmet ortamına ekleyin. Gerekli sertifikalara Dijital imza sertifikası, Sertifika yetkilisi (CA) sertifikası ve İstemciler sertifikası dahildir. Daha fazla bilgi için "Elektronik faturalama hizmeti yönetimini kullanmaya başlama" konusunun [Dijital sertifika gizli dizisi oluşturma](e-invoicing-get-started-service-administration.md#create-a-digital-certificate-secret) bölümüne bakın.
+- **İtalyan FatturaPA (IT)** elektronik faturalama özelliğini genel depodan RCS'ye aktarın. Daha fazla bilgi için daha önce belirtilen "Elektronik faturalamayı kullanmaya başlama" makalesinin [Microsoft yapılandırma sağlayıcısından elektronik faturalama özelliğini içeri aktarma](e-invoicing-get-started.md#import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider) bölümüne bakın.
+- Gerekli sertifikalardaki bağlantıları hizmet ortamına ekleyin. Gerekli sertifikalara Dijital imza sertifikası, Sertifika yetkilisi (CA) sertifikası ve İstemciler sertifikası dahildir. Daha fazla bilgi için "Elektronik faturalama hizmeti yönetimini kullanmaya başlama" makalesinin [Dijital sertifika gizli dizisi oluşturma](e-invoicing-get-started-service-administration.md#create-a-digital-certificate-secret) bölümüne bakın.
 
 ## <a name="country-specific-configuration-for-the-italian-fatturapa-it-electronic-invoicing-feature"></a>İtalyan FatturaPA (IT) elektronik faturalama özelliği için ülkeye özel yapılandırma
 
 Uygulama kurulumunu bağlı Finance veya Supply Chain Management uygulamanıza dağıtmadan önce aşağıdaki yordamları tamamlayın.
 
-Bu bölüm, "Elektronik faturalamayı kullanmaya başlama" konusunun [Uygulama kurulumunun ülkeye özel yapılandırması](e-invoicing-get-started.md#country-specific-configuration-of-application-setup) bölümünü tamamlayıcı niteliktedir.
+Bu bölüm, "Elektronik faturalamayı kullanmaya başlama" makalesinin [Uygulama kurulumunun ülkeye özel yapılandırması](e-invoicing-get-started.md#country-specific-configuration-of-application-setup) bölümünü tamamlayıcı niteliktedir.
 
-### <a name="create-a-new-feature"></a>Yeni özellik oluşturma
+### <a name="create-a-new-feature"></a>Yeni özellik oluştur
 
 1. RCS'de oturum açın
 2. **Elektronik raporlama** çalışma alanındaki **Yapılandırma sağlayıcıları** bölümünde, şirketinizin yapılandırma sağlayıcısını etkin olarak işaretleyin.
@@ -87,8 +87,8 @@ Bu bölüm, "Elektronik faturalamayı kullanmaya başlama" konusunun [Uygulama k
 
 ### <a name="deploy-the-feature"></a>Özelliği dağıtma
 
-1. Özelliği tamamlayın, yayımlayın ve hizmet ortamında dağıtın. Daha fazla bilgi için "Elektronik faturalamayı kullanmaya başlama" konusunun [Elektronik faturalama özelliğini hizmet ortamında dağıtma](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment) bölümüne bakın.
-2. Özelliği bağlı uygulamada dağıtın. Daha fazla bilgi için "Elektronik faturalamayı kullanmaya başlama" konusunun [Elektronik faturalama özelliğini bağlı uygulamada dağıtma](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-connected-application) bölümüne bakın.
+1. Özelliği tamamlayın, yayımlayın ve hizmet ortamında dağıtın. Daha fazla bilgi için "Elektronik faturalamayı kullanmaya başlama" makalesinin [Elektronik faturalama özelliğini Servis ortamına dağıtma](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment) bölümüne bakın.
+2. Özelliği bağlı uygulamada dağıtın. Daha fazla bilgi için "Elektronik faturalamayı kullanmaya başlama" makalesinin [Elektronik faturalama özelliğini bağlı uygulamaya dağıtma](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-connected-application) bölümüne bakın.
 
 ### <a name="set-up-finance"></a>Finance'i ayarlama
 

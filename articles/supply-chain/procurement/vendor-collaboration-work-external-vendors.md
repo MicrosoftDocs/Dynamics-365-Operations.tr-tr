@@ -1,6 +1,6 @@
 ---
 title: Harici satıcılarla satıcı iş birliği
-description: Bu konu, satınalma aracılarının satınalma siparişleri ve konsinye stok hakkında bilgileri paylaşmak için harici satıcılarla nasıl iş birliği yapabileceğini açıklar.
+description: Bu makale, satınalma aracılarının satınalma siparişleri ve konsinye stok hakkında bilgileri paylaşmak için harici satıcılarla nasıl iş birliği yapabileceğini açıklar.
 author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05a2ecc82306c013912b3ee824d63d7d39c4258f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907304"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Harici satıcılarla satıcı iş birliği
 
 [!include [banner](../includes/banner.md)]
 
-**Satıcı iş birliği** modülü Microsoft Dynamics 365 Supply Chain Management ile elektronik veri alışverişi (EDI) tümleştirmesi olmayan satıcılar için tasarlanmıştır. Satıcıların satınalma siparişleri (PO'lar), faturalar, konsinye stok bilgileri ve teklif talepleri (RFQ'lar) ile çalışmasına ve satıcı ana verilerinin bir bölümüne erişebilmelerine olanak tanır. Bu konuda PO'lar, RFQ'lar ve konsinye stokla çalışmak için satıcı iş birliği arabirimini kullanan harici satıcılarla nasıl iş birliği yapabileceğiniz açıklanmaktadır. Ayrıca belirli bir satıcının satıcı iş birliğini kullanmak üzere nasıl etkinleştirileceği ve tüm satıcıların bir PO'ya yanıt verdiklerinde görecekleri bilgilerin nasıl tanımlanacağı da açıklanır.
+**Satıcı iş birliği** modülü Microsoft Dynamics 365 Supply Chain Management ile elektronik veri alışverişi (EDI) tümleştirmesi olmayan satıcılar için tasarlanmıştır. Satıcıların satınalma siparişleri (PO'lar), faturalar, konsinye stok bilgileri ve teklif talepleri (RFQ'lar) ile çalışmasına ve satıcı ana verilerinin bir bölümüne erişebilmelerine olanak tanır. Bu makalede PO'lar, RFQ'lar ve konsinye stokla çalışmak için satıcı iş birliği arabirimini kullanan harici satıcılarla nasıl iş birliği yapabileceğiniz açıklanmaktadır. Ayrıca belirli bir satıcının satıcı iş birliğini kullanmak üzere nasıl etkinleştirileceği ve tüm satıcıların bir PO'ya yanıt verdiklerinde görecekleri bilgilerin nasıl tanımlanacağı da açıklanır.
 
 Satıcıların harici satıcı iş birliği arabiriminde yapabilecekleri hakkında daha fazla bilgi için bkz. [Müşterilerle satıcı iş birliği](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> Bu konudaki satıcı iş birliğiyle ilgili bilgiler, yalnızca Supply Chain Management'ın geçerli sürümü için geçerlidir. Microsoft Dynamics AX 7.0 (Şubat 2016) ve Microsoft Dynamics AX uygulaması 7.0.1 (Mayıs 2016) sürümünde, **Satıcı portalı** modülünü kullanarak satıcılarla iş birliği yapabilirsiniz. **Satıcı portalı** modülü hakkında bilgi için bkz. [Satıcılarla Satıcı portalını kullanarak iş birliği yapma](collaborate-vendors-vendor-portal.md).
+> Bu makaledeki satıcı iş birliğiyle ilgili bilgiler, yalnızca Supply Chain Management'ın geçerli sürümü için geçerlidir. Microsoft Dynamics AX 7.0 (Şubat 2016) ve Microsoft Dynamics AX uygulaması 7.0.1 (Mayıs 2016) sürümünde, **Satıcı portalı** modülünü kullanarak satıcılarla iş birliği yapabilirsiniz. **Satıcı portalı** modülü hakkında bilgi için bkz. [Satıcılarla Satıcı portalını kullanarak iş birliği yapma](collaborate-vendors-vendor-portal.md).
 
 Satıcıların faturalama işlemlerinde satıcı iş birliğini nasıl kullanacakları hakkında daha fazla bilgi için bkz. [Satıcı iş birliği faturalama çalışma alanı](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Yeni satıcı iş birliği kullanıcılarını hazırlama hakkında daha fazla bilgi için bkz. [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md).
 
@@ -112,7 +112,7 @@ Satıcıya gönderilen ve <strong>Harici İnceleme</strong> durumunda olan PO sa
 <li>Bir maddenin yerine ikame ürün önerebilirsiniz.</li>
 </ul>
 Satıcı fiyat bilgilerini ve giderleri değiştiremez. Bununla birlikte, satıcı notları kullanarak bu değişiklikleri önerebilir.</td>
-<td>Satıcı yanıtı <strong>Değişikliklerle kabul edildi</strong> olarak kaydedilir ve PO'nun durumu <strong>Harici İncelemede</strong> olarak kalır. Durumlar satıcının hangi türde değişiklikler önerdiğini gösterir. Değişikliklerdeki otomatik tüketim hakkında bilgi için, bu konunun ilerleyen bölümündeki &quot;Satıcı değişiklikler önerdiğinde satın alma siparişini güncelleştirme&quot; bölümüne bakın. </td>
+<td>Satıcı yanıtı <strong>Değişikliklerle kabul edildi</strong> olarak kaydedilir ve PO'nun durumu <strong>Harici İncelemede</strong> olarak kalır. Durumlar satıcının hangi türde değişiklikler önerdiğini gösterir. Değişikliklerdeki otomatik tüketim hakkında bilgi için, bu makalenin ilerleyen bölümündeki &quot;Satıcı değişiklikler önerdiğinde satın alma siparişini güncelleştirme&quot; bölümüne bakın. </td>
 </tr>
 </tbody>
 </table>

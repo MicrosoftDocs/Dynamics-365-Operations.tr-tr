@@ -1,6 +1,6 @@
 ---
 title: Tahsisatları işleme
-description: Bu konuda tahsisatlar, Microsoft Dynamics 365 Finance'te tahsisatları işleme seçenekleri ve bütçe planlamasında tahsisatların nasıl kullanılabileceği hakkında bilgi verilmektedir. Tahsisatlar, tutarları birden fazla genel muhasebe hesabı birleşimleri arasında dağıtmak için kullanılır. Gelir ve giderlerin muhasebede doğru nesneye yazılmasını sağlamaya yardımcı olurlar.
+description: Bu makalede tahsisatlar, Microsoft Dynamics 365 Finance'te tahsisatları işleme seçenekleri ve bütçe planlamasında tahsisatların nasıl kullanılabileceği hakkında bilgi verilmektedir. Tahsisatlar, tutarları birden fazla genel muhasebe hesabı birleşimleri arasında dağıtmak için kullanılır. Gelir ve giderlerin muhasebede doğru nesneye yazılmasını sağlamaya yardımcı olurlar.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d300654269ef0ad52140f160f918707397c843ad
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 0629b32d39f4d74ec37eebe92b92e0b186b5fce2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721968"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877997"
 ---
 # <a name="process-allocations"></a>Tahsisatları işleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda tahsisatlar, tahsisatları işleme seçenekleri ve bütçe planlamasında tahsisatların nasıl kullanılabileceği hakkında bilgi verilmektedir. Tahsisatlar, tutarları birden fazla genel muhasebe hesabı birleşimleri arasında dağıtmak için kullanılır. Gelir ve giderlerin muhasebede doğru nesneye yazılmasını sağlamaya yardımcı olurlar.
+Bu makalede tahsisatlar, tahsisatları işleme seçenekleri ve bütçe planlamasında tahsisatların nasıl kullanılabileceği hakkında bilgi verilmektedir. Tahsisatlar, tutarları birden fazla genel muhasebe hesabı birleşimleri arasında dağıtmak için kullanılır. Gelir ve giderlerin muhasebede doğru nesneye yazılmasını sağlamaya yardımcı olurlar.
 
 Aşağıdaki özellikler bu işlemi destekler:
 

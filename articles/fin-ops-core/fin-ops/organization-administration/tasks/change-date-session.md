@@ -1,6 +1,6 @@
 ---
 title: Oturumun tarihini değiştirme
-description: Bu konu bir oturum tarihinin nasıl değiştirileceğini açıklamaktadır.
+description: Bu makalede, bir oturum tarihinin nasıl değiştirileceği açıklanmaktadır.
 author: pvillads
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fb8f896645df7c7c9a8afa3d9dc9106a7162959d
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 22d014cdcf384253250590cf2c229da16b327495
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065642"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880975"
 ---
 # <a name="change-the-date-for-a-session"></a>Oturumun tarihini değiştirme
 
@@ -27,7 +27,7 @@ ms.locfileid: "8065642"
 
 [!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
-Bu konu bir oturum tarihinin nasıl değiştirileceğini açıklamaktadır. Varsayılan olarak, günlük girişlerini veya kaynak belgelerini girerken ya da deftere naklederken geçerli tarih kullanılır. Geçerli oturumunuzda kullanılan tarihi değiştirebilirsiniz. Gerektiğinde günlük girişlerini veya kaynak belgelerini geri tarihli işlemek için bu özelliği kullanın.
+Bu makalede, bir oturum tarihinin nasıl değiştirileceği açıklanmaktadır. Varsayılan olarak, günlük girişlerini veya kaynak belgelerini girerken ya da deftere naklederken geçerli tarih kullanılır. Geçerli oturumunuzda kullanılan tarihi değiştirebilirsiniz. Gerektiğinde günlük girişlerini veya kaynak belgelerini geri tarihli işlemek için bu özelliği kullanın.
 
 1. Gezinti bölmesinde **Modüller > Ortak > Ortak > Oturum tarihi ve saati**'ne gidin.
 2. **Tarih** alanına bir tarih girin.

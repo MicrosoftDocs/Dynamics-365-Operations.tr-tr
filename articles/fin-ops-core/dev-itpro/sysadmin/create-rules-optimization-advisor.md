@@ -1,6 +1,6 @@
 ---
 title: En iyi duruma getirme danışmanı için kurallar oluşturma
-description: Bu konu En iyi duruma getirme danışmanına nasıl yeni kurallar ekleneceğini açıklar.
+description: Bu makalede, İyileştirme danışmanı'na nasıl yeni kurallar ekleneceğini açıklanmaktadır.
 author: roxanadiaconu
 ms.date: 02/04/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a65a71da066d70cafc641aafe21538830a9ebe56b607316570ea2435398cda1c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b1d9b14cb67b1dd0a961f6f8618de37147a2c52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734676"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850919"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>En iyi duruma getirme danışmanı için kurallar oluşturma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu **En iyi duruma getirme danışmanı** için nasıl yeni kurallar oluşturulacağını açıklar. Örneğin, hangi Teklif Talebi (RFQ) servis taleplerinin boş bir başlığı olacağını tanımlayan yeni bir kural oluşturabilirsiniz. Servis taleplerinde başlıklar kullanmak bunların kolayca tanımlanabilmesini ve aranabilmesini sağlar. Bu örnek son derece basit olmakla birlikte en iyi durumu getirme kuralları ile nelerin elde edilebileceğini gösterir. 
+Bu konu **İyileştirme danışmanı** için nasıl yeni kurallar oluşturulacağı açıklanmaktadır. Örneğin, hangi Teklif Talebi (RFQ) servis taleplerinin boş bir başlığı olacağını tanımlayan yeni bir kural oluşturabilirsiniz. Servis taleplerinde başlıklar kullanmak bunların kolayca tanımlanabilmesini ve aranabilmesini sağlar. Bu örnek son derece basit olmakla birlikte en iyi durumu getirme kuralları ile nelerin elde edilebileceğini gösterir. 
 
 *Kural* uygulama verilerindeki bir denetimdir. Kuralın değerlendirdiği durum karşılanırsa, süreçleri en iyi duruma veya verileri iyileştirme fırsatları oluşur. Fırsatlar üzerinde harekete geçilebilir ve isteğe bağlı olarak eylemlerin etkisi ölçülebilir. 
 

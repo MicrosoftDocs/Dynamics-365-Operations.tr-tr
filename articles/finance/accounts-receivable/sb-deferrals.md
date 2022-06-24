@@ -1,6 +1,6 @@
 ---
 title: Abonelik faturalamasında gelir ve gider ertelemeleri
-description: Bu konuda, Abonelik faturalamasında gelir ve gider ertelemelerini ayarlama işlemi açıklanmaktadır.
+description: Bu makalede, Abonelik faturalamasında gelir ve gider ertelemelerini ayarlama işlemi açıklanmaktadır.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9a12cf52d904db0396aa9914b8e324060289710f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 209afd08c0c7e3cbd63ed95613b1d1dec94856f5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690962"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908110"
 ---
 # <a name="revenue-and-expense-deferrals-in-subscription-billing"></a>Abonelik faturalamasında gelir ve gider ertelemeleri
 
-Bu konuda, Abonelik faturalamasında gelir ve gider ertelemelerinin nasıl ayarlanacağı ve kullanılacağı açıklanmaktadır. Erteleme planları her zaman temeldeki kaynak belgeye veya faturalama planına dayanır ve bağlıdır. Bunlar varsayılan değerler temelinde oluşturuldukları için ayrı olarak girilemez veya oluşturulamaz.
+Bu makalede, Abonelik faturalamasında gelir ve gider ertelemelerinin nasıl ayarlanacağı ve kullanılacağı açıklanmaktadır. Erteleme planları her zaman temeldeki kaynak belgeye veya faturalama planına dayanır ve bağlıdır. Bunlar varsayılan değerler temelinde oluşturuldukları için ayrı olarak girilemez veya oluşturulamaz.
 
 Gelir ve gider ertelemelerinin ayarlanması ve kullanılması süreci birden fazla sayfada gerçekleşir:
 

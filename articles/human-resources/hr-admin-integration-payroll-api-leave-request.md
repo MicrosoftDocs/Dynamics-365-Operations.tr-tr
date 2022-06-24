@@ -1,6 +1,6 @@
 ---
 title: İzin isteği
-description: Bu konu, Dynamics 365 Human Resources'taki izin isteği varlığıyla ilgili ayrıntılı bilgi ve örnek bir sorgu sağlar.
+description: Bu makalede, Dynamics 365 Human Resources'daki izin isteği varlığıyla ilgili ayrıntılı bilgi ve örnek bir sorgu sağlanmaktadır.
 author: marcelbf
 ms.date: 06/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0f14c143a59553786fe85284c128cec80905810b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 47a652d9b7dec15124fc8b62d3c7d0402f88e093
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067691"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899686"
 ---
 # <a name="leave-request"></a>İzin isteği
 
@@ -27,9 +27,9 @@ ms.locfileid: "8067691"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konu, Dynamics 365 Human Resources için izin isteği varlığını açıklar.
+Bu makalede, Dynamics 365 Human Resources için izin isteği varlığı açıklanmaktadır.
 
-### <a name="description"></a>Tanım
+### <a name="description"></a>Açıklama
 
 Bu varlık bir izin isteği hakkında bilgi sağlar.
 

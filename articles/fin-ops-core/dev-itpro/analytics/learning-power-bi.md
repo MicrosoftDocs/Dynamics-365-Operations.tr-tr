@@ -1,6 +1,6 @@
 ---
 title: Öğrenme Power BI içeriği
-description: Bu konu, Öğrenme Power BI içeriğini açıklar.
+description: Bu makalede, Öğrenme Power BI içeriği açıklanmaktadır.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6236868dca26be8cf54ad3cf73e846f2e689af8635e212c493b65a5d1aaa62ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 05146eef92fa0ef973df832aa3431ec32ea0c297
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742350"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847325"
 ---
 # <a name="learning-power-bi-content"></a>Öğrenme Power BI içeriği
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, **Öğrenme** Microsoft Power BI içeriğini açıklar.
+Bu makalede, **Öğrenme** Microsoft Power BI içeriği açıklanmaktadır.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI içerik paketinde bulunan raporlar
 

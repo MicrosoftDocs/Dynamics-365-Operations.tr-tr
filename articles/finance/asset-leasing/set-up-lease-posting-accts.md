@@ -1,6 +1,6 @@
 ---
 title: Kira deftere nakil hesaplarını ayarlama
-description: Bu konu, Varlık kiralama hareketleri için gerekli olan deftere nakil hesaplarını listeler ve Kira deftere nakil parametreleri sayfasında deftere nakil hesaplarının nasıl tanımlanacağını açıklar.
+description: Bu makale, Varlık kiralama hareketleri için gerekli olan deftere nakil hesaplarını listeler ve Kira deftere nakil parametreleri sayfasında deftere nakil hesaplarının nasıl tanımlanacağını açıklar.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 147d8cd93f9664039b2004b878dcaff96c8b6ce6
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6e3a0d8dd3bb3e58ca10b2efce0cc88a2f48d2de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726392"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859928"
 ---
 # <a name="set-up-lease-posting-accounts"></a>Kira deftere nakil hesaplarını ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Varlık kiralama hareketleri için gerekli olan deftere nakil hesaplarını listeler ve **Kira deftere nakil parametreleri** sayfasında deftere nakil hesaplarının nasıl tanımlanacağını açıklar.
+Bu makale, Varlık kiralama hareketleri için gerekli olan deftere nakil hesaplarını listeler ve **Kira deftere nakil parametreleri** sayfasında deftere nakil hesaplarının nasıl tanımlanacağını açıklar.
 
 Muhasabe Standartları Kodlaması Konu 842 (ASC 842) ve Uluslararası Mali Raporlama Standardı 16 (IFRS 16) gerekliliklerine uymak için hesap planınızda hesap oluşturmanız gerekebilir. Ancak, ASC ve IFRS standartlarına uymak için oluşturduğunuz hesaplar sabit varlık hesapları değildir. ASC 842 kapsamında, kullanım hakkı (ROU) valrığı hem finansal kiralamalar hem de işletme kiralamalarına kaydedilir. Bu kiralamalar sabit varlıklardan ayrıdır. (Yine de bir ROU varlığını Sabit varlıkları kullanarak koruyabilirsiniz.)
 

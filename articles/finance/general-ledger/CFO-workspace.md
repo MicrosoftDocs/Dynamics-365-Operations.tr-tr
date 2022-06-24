@@ -1,6 +1,6 @@
 ---
 title: CFO çalışma alanına mali boyutlar ekleme
-description: Bu konu, genel muhasebe ve bütçe raporları için kullanılabilmeleri amacıyla CFO çalışma alanına mali boyutların nasıl ekleneceğini açıklar.
+description: Bu makalede, genel muhasebe ve bütçe raporları için kullanılabilmeleri amacıyla CFO çalışma alanına mali boyutların nasıl ekleneceği açıklanmaktadır.
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fb558fbe25bd8977b712101df15cce7a76556dda
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: ea453eed826dec2e97371ec559e91b94933bdce6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853394"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>CFO çalışma alanına mali boyutlar ekleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, genel muhasebe ve bütçe raporları için kullanılabilmeleri amacıyla Mali İşler Müdürü (CFO) çalışma alanına mali boyutların nasıl ekleneceğini açıklar. CFO çalışma alanı bir **Genel bakış** sekmesine ve bir **Mali** sekmesine sahiptir. Bu iki sekmedeki raporlar iki ölçüt tarafından desteklenir: LedgerActivityMeasure ve BudgetActivityMeasure. Bu iki ölçü ve DimensionCombinationEntity varlığı arasında ilişki vardır. Bu nedenle, boyutları seçebilirsiniz.
+Bu makalede, genel muhasebe ve bütçe raporları için kullanılabilmeleri amacıyla Mali İşler Müdürü (CFO) çalışma alanına mali boyutların nasıl ekleneceği açıklanmaktadır. CFO çalışma alanı bir **Genel bakış** sekmesine ve bir **Mali** sekmesine sahiptir. Bu iki sekmedeki raporlar iki ölçüt tarafından desteklenir: LedgerActivityMeasure ve BudgetActivityMeasure. Bu iki ölçü ve DimensionCombinationEntity varlığı arasında ilişki vardır. Bu nedenle, boyutları seçebilirsiniz.
 
 1. Finance'da **Varlık Deposu** sayfasında, **LedgerActivityMeasure** ve **BudgetActivityMeasure** ölçülerini güncelleştirin.
 2. Microsoft Visual Studio'da, Uygulama Gezgini'ni açın ve **LedgerCFO** aratın.

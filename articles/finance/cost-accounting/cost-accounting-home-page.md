@@ -1,6 +1,6 @@
 ---
 title: Maliyet muhasebesi ana sayfası
-description: Bu konuda, Maliyet muhasebesi için kullanılabilecek yardım konularının ve diğer kaynakların bir listesi verilmektedir.
+description: Bu makalede, Maliyet muhasebesi için kullanılabilecek yardım konularının ve diğer kaynakların bir listesi verilmektedir.
 author: aprilolson
 ms.date: 04/25/2018
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7ab46736ed40b78afa6596e418999e24ea6e46cd
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 06cd3929fd93861c3e2dfd73913be5dc33111263
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712467"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853539"
 ---
 # <a name="cost-accounting-home-page"></a>Maliyet muhasebesi ana sayfası
 

@@ -1,6 +1,6 @@
 ---
 title: Transfer emirleri için vergi özelliği desteği
-description: Bu konu, vergi hesaplama servisi kullanılarak transfer emirleri için yeni vergi özelliği desteğini açıklamaktadır.
+description: Bu makale, vergi hesaplama hizmeti kullanılarak transfer emirleri için yeni vergi özelliği desteğini açıklamaktadır.
 author: Kai-Cloud
 ms.date: 10/13/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d95ea6795dc5777bfd37f8fbb3ebc47f2db337a0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 281ee90b7cae2d24d37d0684ad9975118560bb3e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689228"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869995"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Transfer emirleri için vergi özelliği desteği
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, transfer emirlerinde vergi hesaplaması ve deftere nakil tümleştirmesi hakkında bilgi sağlar. Bu işlevsellik, stok transferleri için vergi hesaplamasını ayarlamanıza ve transfer emirlerine nakil yapmanıza olanak tanır. Avrupa Birliği (AB) katma değer vergisi (KDV) düzenlemeleri altında, stok transferleri topluluk içi tedarik ve topluluk içi alım olarak kabul edilir.
+Bu makale, transfer emirlerinde vergi hesaplaması ve deftere nakil tümleştirmesi hakkında bilgi sağlar. Bu işlevsellik, stok transferleri için vergi hesaplamasını ayarlamanıza ve transfer emirlerine nakil yapmanıza olanak tanır. Avrupa Birliği (AB) katma değer vergisi (KDV) düzenlemeleri altında, stok transferleri topluluk içi tedarik ve topluluk içi alım olarak kabul edilir.
 
 Bu işlevi yapılandırmak ve kullanmak için, üç ana adımı tamamlamanız gerekir:
 

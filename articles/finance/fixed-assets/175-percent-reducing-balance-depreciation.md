@@ -1,6 +1,6 @@
 ---
 title: Yüzde 175 azalan bakiyeli amortisman
-description: Bu konu, amortismanın yüzde 175 azalan bakiye yöntemi hakkında genel bir bakış sunar.
+description: Bu makale, amortismanın yüzde 175 azalan bakiye yöntemi hakkında genel bir bakış sunar.
 author: moaamer
 ms.date: 10/30/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b9424741fa50034a97e9971dcd2d7416968c964
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 68c10a1fe221731f7304fc0da92ed314b66dc13f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870205"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>Yüzde 175 azalan bakiyeli amortisman
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, amortismanın yüzde 175 azalan bakiye yöntemi hakkında genel bir bakış sunar.
+Bu makale, amortismanın yüzde 175 azalan bakiye yöntemi hakkında genel bir bakış sunar.
 
 Bir sabit kıymet amortisman profili ayarlayıp **Amortisman profilleri** sayfasındaki **Yöntem** alanında **%175 azalan bakiye** seçeneğini belirlediğinizde, amortisman profiline atanan sabit kıymetlerin amortismanı her amortisman döneminde aynı yüzdeyi içerir. 
 
@@ -41,7 +41,7 @@ Seçiminiz, **Dönem sıklığı** alanında bulunan seçenekleri belirler. Bu a
 
 **Amortisman yılı** alanında varsayılan değer olan **Takvim** seçeneğini bırakabilirsiniz. 
 
-**Takvim** seçeneği, amortisman tabanını her yılın Ocak 1 tarihinde günceller. Tipik olarak, amortisman tabanı, net defter değeri eksi ıskarta değeridir. Bu konunun devamındaki örneklerde, amortisman tabanı hesaplamalar sütunundaki yer alan ilk ifadedeki pay olur. 
+**Takvim** seçeneği, amortisman tabanını her yılın Ocak 1 tarihinde günceller. Tipik olarak, amortisman tabanı, net defter değeri eksi ıskarta değeridir. Bu makalenin devamındaki örneklerde, amortisman tabanı hesaplamalar sütununda yer alan ilk ifadedeki pay olur. 
 
 Amortisman yılı olarak **Takvim** seçerseniz, **Dönem sıklığı** alanında şu seçenekler kullanılabilir :
 

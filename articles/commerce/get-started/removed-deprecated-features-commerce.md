@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Commerce'ta kaldırılan veya artık kullanılmayan özellikler
-description: Bu konu Dynamics 365 Commerce'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
+title: Dynamics 365 Commerce'te kaldırılan veya kullanım dışı bırakılan özellikler
+description: Bu makale Dynamics 365 Commerce'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: josaw
 ms.date: 04/27/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 213ed2091b1f2359f2481b162cba07812b3ffe90
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 2725ff2b8bfbaadbca1bc070e32cee7c5d2754be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649087"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910536"
 ---
-# <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce'ta kaldırılan veya artık kullanılmayan özellikler
+# <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce'te kaldırılan veya kullanım dışı bırakılan özellikler
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu Dynamics 365 Commerce'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
+Bu makale Dynamics 365 Commerce'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 
 - *Kaldırılan* özellik artık üründe bulunmaz.
 - *Kullanımına son verilen* özellik etkin geliştirmede değildir ve sonraki güncellemede kaldırılabilir.

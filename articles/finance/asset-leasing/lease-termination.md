@@ -1,6 +1,6 @@
 ---
 title: Kiralama sonlandırma teklifi
-description: Bu konu, sonlandırma için bir kiralama önermeyi açıklamaktadır.
+description: Bu makalede, bir kiralamanın sonlandırma için nasıl önerileceği açıklanmaktadır.
 author: moaamer
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2f6990177251418bece8c99a0f9befa333d6549f
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: a5939f165943ff76ba453fb49d8c0c376c8ce4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720516"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879667"
 ---
 # <a name="propose-a-lease-for-termination"></a>Sonlandırma için kiralama önerme
 
 [!include [banner](../includes/banner.md)]
 
-Bir kiralama erken sonlandırıldıysa, Varlık kiralama, kiralama yükümlülüğünü, varlık kullanım hakkını (ROU) ve birikmiş amortismanı silebilir ve kazanç ya da kaybı deftere nakledebilir. Erken sonlandırma işlemi, bir kiralamayı ve onunla ilişkili kiralama rehberlerini sonlandırır. Kiralama rehberlerini tek tek sonlandırmaz. Bu konu, sonlandırma için kiralama önermeyi ve kiralama sonlandırma günlük girişini işlemeyi açıklamaktadır.
+Bir kiralama erken sonlandırıldıysa, Varlık kiralama, kiralama yükümlülüğünü, varlık kullanım hakkını (ROU) ve birikmiş amortismanı silebilir ve kazanç ya da kaybı deftere nakledebilir. Erken sonlandırma işlemi, bir kiralamayı ve onunla ilişkili kiralama rehberlerini sonlandırır. Kiralama rehberlerini tek tek sonlandırmaz. Bu makalede, bir kiralamayı sonlandırma için önerme ve kiralama sonlandırma günlük girişini işleme açıklamaktadır.
 
 Kiralama, ertelenmiş kira tipi kiralama olarak sınıflandırılmamış ve bir sabit kıymetle ilişkili değilse Varlık kiralama aşağıdaki sonlandırma günlüğü girişini oluşturur.
 
@@ -121,7 +121,7 @@ Aşağıdaki tablolarda, bu örnekte kullanılan kiralama için **Genel** ve **�
 
 ### <a name="steps-for-terminating-the-lease"></a>Kiralamayı sona erdirme adımları
 
-1. Bu konuda daha önce açıklandığı gibi kiralamayı oluşturduktan sonra, kiralama defterine gidin ve ödeme planını onaylayın. Ardından, ilk kabul günlüğü girişini deftere nakledin. İlk ROU varlığı 71.235,81 ABD dolarıdır ve kira yükümlülüğü 70.235,81 ABD doları olmalıdır. Bu örnekte kiralama, Muhasebe Standartları Kodlama Konusu 842 (ASC 842) kapsamında bir işletme kirası olarak sınıflandırılmıştır.
+1. Bu makalenin önceki bölümlerinde açıklandığı gibi kiralamayı oluşturduktan sonra, kiralama defterine gidin ve ödeme planını onaylayın. Ardından, ilk kabul günlüğü girişini deftere nakledin. İlk ROU varlığı 71.235,81 ABD dolarıdır ve kira yükümlülüğü 70.235,81 ABD doları olmalıdır. Bu örnekte kiralama, Muhasebe Standartları Kodlama Konusu 842 (ASC 842) kapsamında bir işletme kirası olarak sınıflandırılmıştır.
 2. Kira ödemeleri, faiz giderleri ve amortisman giderleri için üç yılın geçtiği simülasyonunu oluşturmak için toplu iş günlük işlemeyi üç kez çalıştırın.
 3. Üç toplu işin hepsini çalıştırdıktan sonra, kiralama defterine geri dönün ve ROU varlığı ile kiralama yükümlülüğünün geçerli defter değerini görüntülemek için Yükümlülük ve Varlık hareketleri tablolarını açın. Üç yıldan sonra, yükümlülüğün değeri yaklaşık -53.893,00 ABD doları, varlığın değeri yaklaşık 54.593,00 ABD doları olmalıdır.
 

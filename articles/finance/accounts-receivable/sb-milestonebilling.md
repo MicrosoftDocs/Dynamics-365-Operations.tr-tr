@@ -1,6 +1,6 @@
 ---
 title: Kilometre taşı şablonları
-description: Bu konuda Abonelik faturalamasında aşama bazında faturalama işlevini ayarlama açıklanmaktadır.
+description: Bu makalede Abonelik faturalamasında aşama bazında faturalama işlevini ayarlama açıklanmaktadır.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: ecc4ddbb4d22eefac36f8cf8205d3b6084bd7d9d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d3c2cf751e4998c73bc3816e5b81e8d5963c8e53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686505"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856784"
 ---
 # <a name="milestone-billing"></a>Aşama bazında faturalama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda Abonelik faturalamasındaki aşama bazında faturalama işlevi için şablonlar tanımlama açıklanmaktadır. Kilometre taşı şablonundaki her satır için tahsisat yüzdesini veya miktarını tanımlayabilirsiniz. Ardından kilometre taşı şablonunu aşama bazında faturalama işlevini kullanan faturalama zamanlaması maddelerine atayabilirsiniz.
+Bu makale Abonelik faturalamasındaki aşama bazında faturalama işlevi için şablonlar tanımlama açıklanmaktadır. Kilometre taşı şablonundaki her satır için tahsisat yüzdesini veya miktarını tanımlayabilirsiniz. Ardından kilometre taşı şablonunu aşama bazında faturalama işlevini kullanan faturalama zamanlaması maddelerine atayabilirsiniz.
 
 ## <a name="add-a-template"></a>Şablon ekle
 

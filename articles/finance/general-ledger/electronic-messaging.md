@@ -1,8 +1,8 @@
 ---
 title: Elektronik mesajlaşma
-description: Bu konu, Microsoft Dynamics 365 Finance içinde elektronik mesajlaşma için kurulum bilgisi ve genel bakış sağlar.
+description: Bu makalede, Microsoft Dynamics 365 Finance'te elektronik mesajlaşma ile ilgili kurulum bilgileri ve sürece genel bir bakış sağlanmaktadır.
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf9ee77b2588283f0b34f2099d6f8d78e15a5af5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768351"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934693"
 ---
 # <a name="electronic-messaging"></a>Elektronik mesajlaşma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, **Elektronik iletiler** (EM) işlevine genel bakış ve kurulum bilgileri sağlar.
+Bu makalede, **Elektronik iletiler** (EM) işlevine genel bir bakış ve kurulum bilgileri sağlanmaktadır.
 
 Yakın zamanda çeşitli ülkelerin ve bölgelerin hükümetleri ve mevzuatları, bu ülkelerde ve bölgelerde kayıtlı olan şirketler için raporlama gereksinimleri belirlemiştir. Gereksinimlerin amacı, bu şirketlerden verilerin elektronik biçimde, doğrudan tutuldukları, işlendikleri ve hesaplandıkları sistemlerden alınabilmesidir.
 
-Microsoft Dynamics 365 Finance'taki EM işlevi, Finance ile hükümetler ve yasama otoritelerinin resmi bilgiyi raporlama, gönderme ve alma sistemleri arasında birlikte çalışabilirliği desteklemektedir.
+Microsoft Dynamics 365 Finance'teki EM işlevi, Finance ile hükümetler ve yasama otoritelerinin resmi bilgiyi raporlama, gönderme ve alma sistemleri arasında elektronik birlikte çalışabilirliği desteklemektedir.
 
 EM işlevi, **Elektronik Raporlama** (ER) modülüne tümleşiktir. Elektronik iletiler için ER biçimlerini ayarlayabilirsiniz. Daha fazla bilgi için bkz: [Elektronik raporlamaya (ER) genel bakış](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
 
@@ -58,6 +58,16 @@ EM işlevi, aşağıdaki senaryoları destekler:
 - Bir mesaj veya mesaj öğesi için çalıştırılmış olan eylemlere ilişkin tüm kayıt bilgisini depola ve gözden geçir.
 - Çeşitli mesaj durumları ve mesaj öğesi durumları ile işlemeyi kontrol et.
 
+## <a name="security-privileges"></a>Güvenlik ayrıcalıkları
+
+Aşağıdaki güvenlik ayrıcalıkları elektronik iletilerde kullanılabilir.
+
+| Güvenlik ayrıcalığı           | Erişim düzeyi | İlişki |
+|------------------------------|--------------|-------------|
+| Elektronik iletileri yönet | Bu ayrıcalık, EM işlevine tam erişim sağlar. Bu ayrıcalığınız varsa elektronik ileti ayarlayabilir ve tüm işlemleri çalıştırabilirsiniz. | Bu ayrıcalık, **Satış vergisi hareketlerini koru** güvenlik görevine dahildir. Bu görev de **Muhasebeci** güvenlik rolüne dahildir. |
+| Elektronik iletileri görüntüle     | Bu ayrıcalık, EM işlevine salt okunur erişim sağlar. Bu ayrıcalığa sahipseniz elektronik ileti ayarlarını ve iletileri görüntüleyebilirsiniz. Ancak herhangi bir şey ayarlayamaz ya da çalıştıramazsınız. | Bu ayrıcalık, **Satış vergisi hareket durumunu sorgula** güvenlik görevine dahildir. Bu görev de aşağıdaki güvenlik rollerine dahildir:<ul><li>Tahsilat yöneticisi</li><li>Alacak hesapları memuru</li><li>Alacak hesapları yöneticisi</li><li>Vergi muhasebecisi</li><li>Muhasebeci</li><li>Muhasebe müdürü</li><li>Muhasebe gözetmeni</li><li>Satış yöneticisi</li><li>Borç hesapları memuru</li></ul> |
+| Elektronik iletileri işle  | Bu ayrıcalık yalnızca **Elektronik iletiler** ve **Elektronik ileti maddeleri** sayfalarına erişim sağlar. Bu ayrıcalığa sahipseniz o sayfalardan çağrılan tüm işlemleri çalıştırabilirsiniz. | Bu ayrıcalık, **Elektronik iletileri çalıştır** güvenlik görevine dahildir. Bu görev de **Elektronik iletileri çalıştır** güvenlik rolüne dahildir. |
+
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>EM işlevi tarafından desteklenen ülkeye özel mevzuat özellikleri
 
 Aşağıdaki tablo, EM işlevi tarafından desteklenen ülkeye özel bazı mevzuat özellikleri hakkında bilgi sağlar.
@@ -66,7 +76,7 @@ Aşağıdaki tablo, EM işlevi tarafından desteklenen ülkeye özel bazı mevzu
 |-------------|--------------|------------------------|
 | İspanya       | [KDV'de Anında Bilgi Sağlama (Suministro Inmediato de Información del IVA, SII)](../localizations/emea-esp-sii.md) | |
 | Macaristan     | [Çevrimiçi faturalama sistemi](../localizations/emea-hun-online-invoicing.md) | |
-| Birleşik Krallık | [Vergiyi Dijital Hale Getirme (MTD) - KDV beyannamesi gönderme](../localizations/emea-gbr-mtd-vat-integration.md) | [Finance and Operations: UK Dijital Vergi - Dynamics 365'te KDV Beyannamesi](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
+| Birleşik Krallık | [Vergiyi Dijital Hale Getirme (MTD) - KDV beyannamesi gönderme](../localizations/emea-gbr-mtd-vat-integration.md) | [Finance and Operations: Birleşik Krallık Dijital Vergi - Dynamics 365'te KDV Beyanı](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
 | Litvanya   | [i.SAF raporlama](../localizations/emea-ltu-isaf.md) | |
 | Polonya      | [Kayıtlarla KDV beyannamesi (JPK_V7M, VDEK)](../localizations/emea-pol-vdek.md) | [Dynamics 365 Finance: SAF/JPK KDV Denetim Kayıtları](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-saf-jpk-vat-audit-registers-june-4-2020) |
 | Hollanda | [Hollanda için KDV beyannamesi](../localizations/emea-nl-vat-declaration-netherlands.md) | |
@@ -78,7 +88,13 @@ Aşağıdaki tablo, EM işlevi tarafından desteklenen ülkeye özel bazı mevzu
 | Rusya      | [Değerlendirilmiş vergi beyannamesi](../localizations/rus-assessed-tax-declaration.md) | |
 | Rusya      | [Taşıma vergisi beyannamesi](../localizations/rus-transport-tax-declaration.md) | |
 | Rusya      | [Arazi vergisi beyannamesi](../localizations/rus-land-tax-declaration.md) | |
-
+| Norveç      | [Altinn'a doğrudan gönderimle KDV iadesi](../localizations/emea-nor-vat-return.md) | [Dynamics 365 Finance'te Altinn'e doğrudan gönderimle yeni KDV iadesi](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/new-vat-return-with-direct-submission-to-altinn-in-dynamics-365-finance-december-1-2021) |
+| Fransa      | [KDV beyannamesi (Fransa)](../localizations/emea-fra-VAT-declaration-preview-France.md) | |
+| Avusturya     | [KDV beyannamesi (Avusturya)](../localizations/emea-aut-vat-declaration-austria.md) | |
+| Almanya     | [KDV Beyannamesi (Almanya)](../localizations/emea-deu-vat-declaration-germany.md) | |
+| Hollanda | [Hollanda için KDV beyannamesi](../localizations/emea-nl-vat-declaration-netherlands.md) | |
+| İsveç      | [KDV beyannamesi (İsveç)](../localizations/emea-swe-VAT-declaration-Sweden.md) | |
+| İsviçre | [KDV beyannamesi (İsviçre)](../localizations/emea-che-vat-declaration-switzerland.md) | |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

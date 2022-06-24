@@ -1,6 +1,6 @@
 ---
-title: Satış vergisi kapatma dönemlerini ayarlama
-description: Bu konuda, Dynamics 365 Finance'te satış vergisi kapatma dönemlerinin nasıl ayarlanacağı açıklanmaktadır.
+title: Satış vergisi kapatma dönemlerini ayarla
+description: Bu makalede, Dynamics 365 Finance'te satış vergisi kapatma dönemlerinin nasıl ayarlanacağı açıklanmaktadır.
 author: twheeloc
 ms.date: 08/05/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 197b85fb88f966b0a13fc061e2e780dd84e74acb
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 3f8514494b5d3534fc236def817df0d58fe80d70
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846697"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Satış vergisi kapatma dönemlerini ayarla
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, satış vergisi kapatma dönemlerinin nasıl ayarlanacağı açıklanmaktadır. Satış vergisi kapatma dönemleri, satış vergisinin bildirilip ödenmesi gereken dönem aralıkları hakkında bilgiler içerir. Belirli bir tarih aralığında bir kapatma dönemi için bir kapatma işlemi yapılabilir. Kapatma dönemiyle ilişkili tüm vergi kodları kapatılır. İlgili satış vergisi dairesinin ayarlarına bağlı olarak, vergi borcu ya bir satıcıya veya bir Genel muhasebe hesabına nakledilir.
+Bu makalede, satış vergisi kapatma dönemlerinin nasıl ayarlanacağı açıklanmaktadır. Satış vergisi kapatma dönemleri, satış vergisinin bildirilip ödenmesi gereken dönem aralıkları hakkında bilgiler içerir. Belirli bir tarih aralığında bir kapatma dönemi için bir kapatma işlemi yapılabilir. Kapatma dönemiyle ilişkili tüm vergi kodları kapatılır. İlgili satış vergisi dairesinin ayarlarına bağlı olarak, vergi borcu ya bir satıcıya veya bir Genel muhasebe hesabına nakledilir.
 
 Bu görevde USMF demo şirketi kullanılmaktadır.
 

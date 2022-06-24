@@ -1,6 +1,6 @@
 ---
-title: Serileştirilen maddelerle çalışma
-description: Bu konuda, satış işlemi sırasında sevk irsaliyeleri veya faturalar üzerine seri numaralarını nasıl kaydedeceğiniz açıklanmaktadır. Bu işlev, bir şirket servis veya garanti amaçlı olarak seri numaralarını tutmak istediğinde ancak seri numaralarını girişten çıkışa stokta tutması gerekmediğinde kullanışlıdır.
+title: Seri hale getirilmiş maddelerle çalışma
+description: Bu makalede, satış işlemi sırasında sevk irsaliyeleri veya faturalar üzerine seri numaralarını nasıl kaydedeceğiniz açıklanmaktadır. Bu işlev, bir şirket servis veya garanti amaçlı olarak seri numaralarını tutmak istediğinde ancak seri numaralarını girişten çıkışa stokta tutması gerekmediğinde kullanışlıdır.
 author: Henrikan
 ms.date: 10/31/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62e53ec57a8d5c5c922f580219e4bde5338d0707
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b89e9ab547d13e68ead88d76f9922d14fde4beb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571701"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901864"
 ---
-# <a name="working-with-serialized-items"></a>Serileştirilen maddelerle çalışma
+# <a name="working-with-serialized-items"></a>Seri hale getirilmiş maddelerle çalışma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, satış işlemi sırasında sevk irsaliyeleri veya faturalar üzerine seri numaralarını nasıl kaydedeceğiniz açıklanmaktadır. Bu işlev, bir şirket servis veya garanti amaçlı olarak seri numaralarını tutmak istediğinde ancak seri numaralarını girişten çıkışa stokta tutması gerekmediğinde kullanışlıdır.
+Bu makalede, satış işlemi sırasında sevk irsaliyeleri veya faturalar üzerine seri numaralarını nasıl kaydedeceğiniz açıklanmaktadır. Bu işlev, bir şirket servis veya garanti amaçlı olarak seri numaralarını tutmak istediğinde ancak seri numaralarını girişten çıkışa stokta tutması gerekmediğinde kullanışlıdır.
 
 Birçok şirket servis ve garanti amacıyla seri numaraları tutmak ister ancak alımdan çıkışa kadar seri numaraları stokta koruması gerekmez. Bu gibi durumlarda, ürünler satıldığında seri numaralarını sevk irsaliyelerine veya faturalara kaydedebilirsiniz. Ürünler daha sonra iade edilirse, ürünü satıp satmadığınızı ve servis ya da garanti koşullarının geçerli olup olmadığını belirlemek için her ürünü faturadan izleyebilirsiniz.
 

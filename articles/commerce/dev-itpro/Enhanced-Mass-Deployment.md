@@ -1,6 +1,6 @@
 ---
 title: Mühürlü Commerce self servis bileşenlerinin toplu dağıtımı
-description: Bu konu, dağıtımların sessizce yüklenmesi ve dağıtımlara hizmet sunulması için self servis bileşen yükleyicileri altyapısının nasıl kullanıldığını açıklamaktadır.
+description: Bu makale, dağıtımların sessizce yüklenmesi ve dağıtımlara hizmet sunulması için self servis bileşen yükleyicileri altyapısının nasıl kullanıldığını açıklamaktadır.
 author: jashanno
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 5cb27fd0ea366d12c8bd6ee1cdb0c6d584375862
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: a679d78db3ad5bd9cccbd4ab6a7026bd07890f55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8741564"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898591"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Mühürlü Commerce self servis bileşenlerinin toplu dağıtımı
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, mühürlü altyapı, 10.0.18 sürümünden başlayarak her ay yayınlanan bileşen yükleyicileri ve Microsoft Dynamics Lifecycle Services'taki (LCS) paylaşılan varlık kitaplığında kullanılabilir hale getirilen bileşen yükleyicileri için geçerlidir. Bu yeni yükleyicilerin ilk birkaç sürümünün **(Önizleme)** olarak tanımlandığını unutmayın. Ancak bu tanımlamanın tek amacı, Microsoft yeni yükleyicileri kullanmak için ek işlevsel gereksinimler olup olmadığını belirlerken bu yükleyicilerin ayırt edilmesini sağlamaktır. Bu, yükleyicilerin üretim için geçerli olmadığı anlamına gelmez. Microsoft, bu yeni yükleyicilerin yayınlanmasıyla ilgili olarak, Ekim 2023'te veya bu tarih civarında eski yükleyicileri kullanımdan kaldırmayı planlamaktadır. 
+Bu makale, mühürlü altyapı, 10.0.18 sürümünden başlayarak her ay yayınlanan bileşen yükleyicileri ve Microsoft Dynamics Lifecycle Services'taki (LCS) paylaşılan varlık kitaplığında kullanılabilir hale getirilen bileşen yükleyicileri için geçerlidir. Bu yeni yükleyicilerin ilk birkaç sürümünün **(Önizleme)** olarak tanımlandığını unutmayın. Ancak bu tanımlamanın tek amacı, Microsoft yeni yükleyicileri kullanmak için ek işlevsel gereksinimler olup olmadığını belirlerken bu yükleyicilerin ayırt edilmesini sağlamaktır. Bu, yükleyicilerin üretim için geçerli olmadığı anlamına gelmez. Microsoft, bu yeni yükleyicilerin yayınlanmasıyla ilgili olarak, Ekim 2023'te veya bu tarih civarında eski yükleyicileri kullanımdan kaldırmayı planlamaktadır. 
 
-Bu konu, komut satırı bağımsız değişkenleriyle sessiz yükleme ve hizmet sunma güncelleştirmeleri gerçekleştirmek için yeni yükleyicilerin nasıl kullanılacağını açıklamaktadır. Bu bağımsız değişkenler, birçok farklı yolla toplu dağıtım yapmanızı sağlar.
+Bu makale, komut satırı bağımsız değişkenleriyle sessiz yükleme ve hizmet sunma güncelleştirmeleri gerçekleştirmek için yeni yükleyicilerin nasıl kullanılacağını açıklamaktadır. Bu bağımsız değişkenler, birçok farklı yolla toplu dağıtım yapmanızı sağlar.
 
 > [!NOTE]
 > Yeni self servis, mühürlü yükleyiciler Headquarters'dan edinilemeyecek ve yalnızca LCS aracılığıyla indirilebilir
@@ -108,7 +108,7 @@ Eski self-servis çerçeve bileşeni yükleyicilerinden yeni çerçeve bileşeni
 
 ### <a name="before-you-begin"></a>Başlamadan önce
 
-Eski, self-servis Modern POS bileşenini kaldırmanız kritik önem taşır. Daha fazla bilgi için bu konunun önceki kısımlarında yer alan geçiş adımlarına bakın.
+Eski, self-servis Modern POS bileşenini kaldırmanız kritik önem taşır. Daha fazla bilgi için bu makalenin önceki kısımlarında yer alan geçiş adımlarına bakın.
 
 ### <a name="examples-of-silent-deployment"></a>Sessiz dağıtım örnekleri
 
@@ -125,7 +125,7 @@ CommerceModernPOS.exe --help install
 ```
 
 > [!NOTE]
-> Modern POS için bir yapılandırma dosyası gerekli değildir. Cihaz etkinleştirme sırasında kullanılan çeşitli değerler için yükleyici artık bu bölümde gösterilen parametrelere (bu konuda daha önce gösterilmiştir) sahiptir.
+> Modern POS için bir yapılandırma dosyası gerekli değildir. Cihaz etkinleştirme sırasında kullanılan çeşitli değerler için yükleyici artık bu bölümde gösterilen parametrelere (bu makalede daha önce gösterilmiştir) sahiptir.
 
 Aşağıdaki komut, Modern POS uygulaması yüklendikten sonra cihaz etkinleştirme sırasında kullanılması gereken tüm parametreleri belirtir. Bu örnekte, Dynamics 365 Commerce demo verilerinde yaygın olarak kullanılan bir değer olan **Houston-3** kaydı kullanılır.
 
@@ -145,7 +145,7 @@ CommerceModernPOS.exe install --InstallOffline --SQLServerName "SQLExpress" --Co
 
 ### <a name="before-you-begin"></a>Başlamadan önce
 
-Eski, self-servis hardware station bileşenini kaldırmanız kritik önem taşır. Daha fazla bilgi için bu konunun önceki kısımlarında yer alan geçiş adımlarına bakın. Artık bir Satıcı Hesap Bilgileri Aracı yok. Bunun yerine, satıcı hesap bilgileri, bir POS terminali hardware station ile eşlendiğinde yüklenir. Bu yükleyiciyi ilk kez sınarken aşağıdaki komutu çalıştırmanız önemle tavsiye edilir:
+Eski, self-servis hardware station bileşenini kaldırmanız kritik önem taşır. Daha fazla bilgi için bu makalenin önceki kısımlarında yer alan geçiş adımlarına bakın. Artık bir Satıcı Hesap Bilgileri Aracı yok. Bunun yerine, satıcı hesap bilgileri, bir POS terminali hardware station ile eşlendiğinde yüklenir. Bu yükleyiciyi ilk kez sınarken aşağıdaki komutu çalıştırmanız önemle tavsiye edilir:
 
 ```Console
 CommerceHardwareStation.exe --help install
@@ -166,7 +166,7 @@ HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics36
 ```
 
 > [!NOTE]
-> Hardware station için bir yapılandırma dosyası gerekli değildir. Gerekli çeşitli değerler için yükleyici artık bu bölümde gösterilen parametrelere (bu konuda daha önce gösterilmiştir) sahiptir.
+> Hardware station için bir yapılandırma dosyası gerekli değildir. Gerekli çeşitli değerler için yükleyici artık bu bölümde gösterilen parametrelere (bu makalede daha önce gösterilmiştir) sahiptir.
 
 Aşağıdaki komut, standart yükleme sırasında önkoşul denetimlerini atlamak için gerekli tüm parametreleri belirtir. 
 
@@ -189,7 +189,7 @@ CommerceStoreScaleUnitSetup.exe --help install
 
 ### <a name="before-you-begin"></a>Başlamadan önce
 
-Eski, self-servis CSU (şirket içinde barındırılan) bileşenini kaldırmanız kritik önem taşır. Daha fazla bilgi için bu konunun önceki kısımlarında yer alan geçiş adımlarına bakın.
+Eski, self-servis CSU (şirket içinde barındırılan) bileşenini kaldırmanız kritik önem taşır. Daha fazla bilgi için bu makalenin önceki kısımlarında yer alan geçiş adımlarına bakın.
 
 ### <a name="examples-of-silent-deployment"></a>Sessiz dağıtım örnekleri
 

@@ -1,6 +1,6 @@
 ---
 title: Elektronik raporlama (ER) yapılandırması yaşam döngüsünü yönetme
-description: Bu konu, Dynamics 365 Finance için Elektronik raporlama (ER) yapılandırmalarının yaşam döngüsünün nasıl yönetileceğini açıklar.
+description: Bu makalede, Dynamics 365 Finance çözümü için Elektronik raporlama (ER) yapılandırmalarının yaşam döngüsünün nasıl yönetileceği açıklanmaktadır.
 author: NickSelin
 ms.date: 07/23/2021
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8b61082cf17707c952b6e07613769a671c349bb8fa92c21e3fe8524ef62dcb2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0220fa03283119471b3d1f78a23a04ed4036264e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767791"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906811"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektronik raporlama (ER) yapılandırması yaşam döngüsünü yönetme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Dynamics 365 Finance için Elektronik raporlama (ER) yapılandırmalarının yaşam döngüsünün nasıl yönetileceğini açıklar.
+Bu makalede, Dynamics 365 Finance çözümü için Elektronik raporlama (ER) yapılandırmalarının yaşam döngüsünün nasıl yönetileceği açıklanmaktadır.
 
-## <a name="overview"></a>Genel bakış
+## <a name="overview"></a>Genel Bakış
 
 Elektronik raporlama (ER), gerekli yasal ve ülkeye özel elektronik belgeleri destekleyen bir motorudur. Genel olarak, ER tek bir elektronik belge için bir yeteneğin aşağıdaki görevleri gerçekleştirdiğini varsayar. Daha fazla bilgi için bkz. [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md).
 
@@ -73,7 +73,7 @@ Aşağıdaki roller ve ilgili etkinlikler ER yapılandırma yaşam döngüsü il
 | Borç hesapları ödeme memuru            | ER yapılarını belirli bir iş sürecinde kullanın.                | Örneğin, belirli bir ödeme yöntemi için yapılandırılan ER biçimine göre faturaların işlenmesi için elektronik ödeme iletileri oluşturulmasına izin veren **Borç hesapları ödeme memuru** rolü. |
 
 ## <a name="er-configuration-development-lifecycle"></a>ER yapılandırması geliştirme yaşam döngüsü
-Aşağıdaki ER ile ilgili nedenlerden dolayı, ER yapılandırmalarını geliştirme ortamında ayrı Finance and Operations kurulumları olarak tasarlamanızı öneririz:
+Aşağıdaki ER İle ilgili nedenlerden dolayı, geliştirme ortamı'ndaki ER yapılandırmalarını ayrı Finance and Operations örnekleri olarak tasarlamanızı öneririz:
 
 - **Elektronik raporlama geliştirici** rolü veya **Elektronik raporlama işlev danışmanı** rolündeki kullanıcılar yapılandırmaları düzenleyebilir ve sınama amacıyla bunları çalıştırabilir. Bu senaryo iş verilerine ve örneğin performansına zararı olabilecek sınıflar ve tabloların çağrı yöntemlerine neden olabilir.
 - ER yapılandırmasının ER veri kaynağı olarak sınıflar ve tabloların çağrı yöntemleri giriş noktaları ve oturum açan şirket içeriği ile sınırlı değildir. Bu nedenle, **Elektronik raporlama geliştirici** rolü veya **Elektronik raporlama işlev danışmanı** rolündeki kullanıcılar iş açısından hassas verilere erişebilir.

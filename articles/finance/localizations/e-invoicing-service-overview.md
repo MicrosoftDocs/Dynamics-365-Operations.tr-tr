@@ -1,6 +1,6 @@
 ---
 title: Elektronik faturalamaya genel bakış
-description: Bu konu, Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management uygulamalarında elektronik faturalama hakkında genel bakış sağlar.
+description: Bu makalede, Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management uygulamalarındaki Elektronik faturalama hakkında genel bakış sağlanmaktadır.
 author: gionoder
 ms.date: 01/21/2022
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23a98706bc2ab0abc2c72e9f20d8e8fbff56b2b9
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 4ce5776216855fc664b9beba68036d41920ae602
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371466"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861310"
 ---
 # <a name="electronic-invoicing-overview"></a>Elektronik faturalamaya genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management için Elektronik faturalama elektronik faturalarının yapılandırılabilir şekilde işlenmesini ve yapılandırılabilir elektronik belge alış verişi sağlayan aşırı ölçeklenebilir bir çoklu kiracı hizmetidir. İşlem ve tümleştirme kuralları tümüyle yapılandırılabilir ve bu mantık Finance ve Supply Chain Management dışında çalıştırılır. Servis esas olarak işletmeler arası senaryolarda elektronik fatura belgelerinin işlenmesini hedeflemektedir. Ancak, farklı türlerde belgeler için işletmeler arası senaryolar gibi diğer amaçlar için özel konfigüre edilebilir.
+Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management için Elektronik faturalama, elektronik faturaların yapılandırılabilir şekilde işlenmesini ve yapılandırılabilir elektronik belge alışverişini sağlayan ileri düzeyde ölçeklenebilir bir çoklu kiracı hizmetidir. İşlem ve tümleştirme kuralları tümüyle yapılandırılabilir ve bu mantık Finance ve Supply Chain Management dışında çalıştırılır. Servis esas olarak işletmeler arası senaryolarda elektronik fatura belgelerinin işlenmesini hedeflemektedir. Ancak, farklı türlerde belgeler için işletmeler arası senaryolar gibi diğer amaçlar için özel konfigüre edilebilir.
 
 Elektronik faturalama aşağıdaki hedeflere ulaşmanıza yardımcı olabilir:
 

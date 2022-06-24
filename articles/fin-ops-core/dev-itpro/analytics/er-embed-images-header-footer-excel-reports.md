@@ -1,6 +1,6 @@
 ---
 title: Sayfa üst bilgilerinde veya alt bilgilerinde katıştırılmış görüntülerle Excel biçiminde bir rapor oluşturmak için bir ER biçimi tasarlama
-description: Bu konuda, sayfa üst bilgilerine veya alt bilgilerine eklenmiş resim ve şekillere sahip iş belgeleri oluşturmak için Elektronik raporlamanın (ER) nasıl kullanılacağı açıklanmaktadır.
+description: Bu makalede, sayfa üst bilgilerine veya alt bilgilerine eklenmiş resim ve şekillere sahip iş belgeleri oluşturmak için Elektronik raporlamanın (ER) nasıl kullanılacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323798"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854857"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Sayfa üst bilgilerinde veya alt bilgilerinde katıştırılmış görüntülerle Excel biçiminde bir rapor oluşturmak için bir ER biçimi tasarlama
 
 [!include[banner](../includes/banner.md)]
 
-Bu konuda, Sistem Yöneticisi veya Elektronik Raporlama İşlev Danışmanı rolüne sahip bir kullanıcının bu görevleri nasıl gerçekleştirebileceği açıklanmaktadır:
+Bu makalede, Sistem Yöneticisi veya Elektronik Raporlama İşlev Danışmanı rolüne sahip bir kullanıcının bu görevleri nasıl gerçekleştirebileceği açıklanmaktadır:
 
 - [Elektronik raporlama (ER)](general-electronic-reporting.md) altyapısının parametrelerini yapılandırın.
 - Microsoft tarafından [sağlanan](general-electronic-reporting.md#Provider) ve Microsoft Excel biçimdeki bir [şablona](er-fillable-excel.md#excel-file-component) göre [serbest metin faturaları](../../../finance/accounts-receivable/create-free-text-invoice-new.md) oluşturmak için kullanılan ER [yapılandırmalarını](general-electronic-reporting.md#Configuration) içeri aktarın.
 - Microsoft tarafından sağlanan standart bir ER biçimi yapılandırmasının [özel (türetilmiş)](general-electronic-reporting.md#building-a-format-selecting-another-format-as-a-base-customization) sürümünü oluşturun.
 - Özel ER biçimi yapılandırmasını, alt bilgide şirket logosu resmi olan bir serbest metin faturası raporu oluşturacak şekilde değiştirin.
 
-Bu konudaki yordamlar **USMF** şirketinde tamamlanabilir. Kodlama gerekmez. Başlamadan önce aşağıdaki dosyayı da indirip kaydetmelisiniz:
+Bu makaledeki yordamlar **USMF** şirketinde tamamlanabilir. Kodlama gerekmez. Başlamadan önce aşağıdaki dosyayı da indirip kaydetmelisiniz:
 
 | Tanım        | Dosya adı |
 |--------------------|-----------|
@@ -132,7 +132,7 @@ ER yapılandırma sağlayıcıları hakkında daha fazla bilgi için bkz. [Yapı
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat"></a>Standart ER yapılandırmalarını içe aktarın
 
-Dynamics 365 Finance'un geçerli örneğine standart ER yapılandırmalarını eklemek için onları o örnek için yapılandırılmış olan ER [deposundan](general-electronic-reporting.md#Repository) içe aktarmanız gerekir.
+Geçerli Dynamics 365 Finance örneğinize standart ER yapılandırmalarını eklemek için bu yapılandırmaları söz konusu örnek için yapılandırılmış olan ER [deposundan](general-electronic-reporting.md#Repository) içe aktarmanız gerekir.
 
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 2. **Yerelleştirme yapılandırmaları** sayfasında, **Yapılandırma Sağlayıcıları** bölümünde **Microsoft** kutucuğunu seçin ve **Microsoft** sağlayıcısı için depolar listesini görüntülemek için **Depolar**'ı seçin.

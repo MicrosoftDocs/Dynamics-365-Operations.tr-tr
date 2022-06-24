@@ -1,6 +1,6 @@
 ---
 title: Talep tahmini kurulumu
-description: Bu konu başlığı, talep tahmini için hazırlamak üzere gerçekleştirmeniz gereken kurulum görevlerini açıklar.
+description: Bu makale, talep tahmini için hazırlamak üzere gerçekleştirmeniz gereken kurulum görevlerini açıklar.
 author: t-benebo
 ms.date: 11/23/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3b52b970a8040dcba5a1fc59d297dc9ce1a3c53
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 10a211e0e20f22dfbfdb4923841808750b6ed71b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470023"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901016"
 ---
 # <a name="demand-forecasting-setup"></a>Talep tahmini kurulumu
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, talep tahmininin nasıl ayarlanacağı açıklanmaktadır.  
+Bu makalede, talep tahmininin nasıl ayarlanacağı açıklanmaktadır.  
 
 ## <a name="item-allocation-keys"></a>Madde dağıtım anahtarları
 
@@ -61,7 +61,7 @@ Talep tahmini, şirketler arası tahminler oluşturabilir. Dynamics 365 Supply C
     - **Ad**: Planlama grubu için benzersiz bir ad girin.
     - **Açıklama**: Planlama grubu için kısa açıklama girin.
 
-1.  **Şirketlerarası planlama grubu üyeleri** Hızlı Sekmesinde, grubun parçası olması gereken her şirket (tüzel kişilik) için bir satır eklemek üzere araç çubuğundaki düğmeleri kullanın. Her satır için aşağıdaki alanları ayarlayın:
+1. **Şirketlerarası planlama grubu üyeleri** Hızlı Sekmesinde, grubun parçası olması gereken her şirket (tüzel kişilik) için bir satır eklemek üzere araç çubuğundaki düğmeleri kullanın. Her satır için aşağıdaki alanları ayarlayın:
 
     - **Tüzel kişilik** – Seçili grubun üyesi olan bir şirketin (tüzel kişilik) adını seçin.
     - **Planlama sırası** – Şirketin diğer şirketlere göre işlenmesi gereken sırayı atayın. Önce düşük değerler işlenir. Bir şirkete olan talep diğer şirketleri etkilediğinde bu sıra önemli olabilir. Bu durumlarda, talebi sağlayan şirket en son işlenmelidir.
@@ -108,7 +108,7 @@ Madde tahsisat anahtarları sekmesini kullanarak bir veya daha fazla belirli **M
 - *Azure Machine Learning Hizmeti* – Azure Machine Learning Hizmeti'ni kullanan bir tahmin modeli kullanın. Azure Machine Learning Hizmeti, Azure için geçerli makine öğrenimi çözümüdür. Bu nedenle, bir tahmin modeli kullanmak istiyorsanız bunu kullanmanızı öneririz.
 - *Azure Machine Learning* – Azure Machine Learning Studio (klasik) kullanan bir tahmin modeli kullanın. Azure Machine Learning Studio (klasik) kullanım dışı bırakıldı ve yakında Azure'dan kaldırılacak. Bu nedenle, talep tahminini ilk kez ayarlıyorsanız *Azure Machine Learning Hizmeti*'ni seçmenizi öneririz. Şu anda Azure Machine Learning Studio (klasik) kullanıyorsanız en kısa sürede Azure Machine Learning Hizmeti'ne geçmeyi planlamalısınız.
 
- **Madde tahsisat anahtarları** sekmesini kullanarak bir veya daha fazla belirli madde tahsisat anahtarı için tahmin oluşturma yöntemini geçersiz kılabilirsiniz. Bu sekme benzer alanlar sağlar.
+**Madde tahsisat anahtarları** sekmesini kullanarak bir veya daha fazla belirli madde tahsisat anahtarı için tahmin oluşturma yöntemini geçersiz kılabilirsiniz. Bu sekme benzer alanlar sağlar.
 
 #### <a name="override-default-forecast-algorithm-parameters-globally"></a>Varsayılan tahmin algoritması parametrelerini genel olarak geçersiz kılma
 
@@ -167,7 +167,7 @@ Talep tahmin modelleri için kullanılan varsayılan parametreleri ve değerleri
 Aşağıdaki parametreler varsayılan olarak sağlanır. (Bu standart listeye geri dönmeniz gerekiyorsa Eylem Bölmesi'nde **Geri Yükle**'yi seçin.)
 
 - **Güven düzeyi yüzdesi**: Güven aralığı, talep tahmini için iyi tahminler görevi gören bir değer aralığıdır. Yüzde 95'lik bir güven düzeyi yüzdesi, gelecekteki talep tahmininin güven aralığı sınırlarının dışına çıkma konusunda yüzde 5'lik bir risk bulunduğunu gösterir.
-- **Mevsimliği zorla** –  Modelin belirli bir mevsimsellik türü kullanması için zorlanıp zorlanmayacağını belirtir. Bu parametre, yalnızca ARIMA ve ETS için geçerlidir. Seçenekler: *OTOMATİK (varsayılan)*, *YOK*, *TOPLAMSAL*, *ÇARPIMSAL*.
+- **Mevsimliği zorla** – Modelin belirli bir mevsimsellik türü kullanması için zorlanıp zorlanmayacağını belirtir. Bu parametre, yalnızca ARIMA ve ETS için geçerlidir. Seçenekler: *OTOMATİK (varsayılan)*, *YOK*, *TOPLAMSAL*, *ÇARPIMSAL*.
 - **Tahmin modeli** – Hangi tahmin modelinin kullanılacağını belirtir. Seçenekler: *ARIMA*, *ETS*, *STL*, *ETS+ARIMA*, *ETS+STL*, *TÜMÜ*. En uygun modeli seçmek için *TÜMÜ* seçeneğini kullanın.
 - **Maksimum tahmin edilen değer**: Tahminler için kullanılacak maksimum değeri belirtir. Biçim: +1E[n] veya sayısal sabit değer.
 - **Minimum tahmin edilen değer**: Tahminler için kullanılacak minimum değeri belirtir. Biçim: -1E[n] veya sayısal sabit değer.
@@ -245,7 +245,7 @@ Yeni bir Machine Learning çalışma alanı oluşturmak için aşağıdaki yorda
 1. Ekrandaki yönergeleri izleyerek sihirbazı tamamlayın. Çalışırken aşağıdaki noktaları aklınızda bulundurun:
 
     - Bu listedeki diğer noktalar farklı ayarlar önermediği sürece varsayılan ayarları kullanın.
-    - Supply Chain Management örneğinizin dağıtıldığı bölgeyle eşleşen coğrafi bölgeyi seçtiğinizden emin olun. Aksi takdirde, verilerinizin bir kısmı bölge sınırlarından geçebilir. Daha fazla bilgi için bu konunun sonraki kısımlarında yer alan [gizlilik bildirimi](#privacy) bölümüne bakın.
+    - Supply Chain Management örneğinizin dağıtıldığı bölgeyle eşleşen coğrafi bölgeyi seçtiğinizden emin olun. Aksi takdirde, verilerinizin bir kısmı bölge sınırlarından geçebilir. Daha fazla bilgi için bu makalenin sonraki kısımlarında yer alan [gizlilik bildirimi](#privacy) bölümüne bakın.
     - Kaynak grupları, depolama hesapları, kapsayıcı kayıtları, Azure anahtar kasaları ve ağ kaynakları gibi ayrılmış kaynakları kullanın.
     - Sihirbazın **Azure Machine Learning Hizmeti bağlantı parametrelerini ayarlama** sayfasında, bir depolama hesabı adı sağlamanız gerekir. Talep tahminine ayrılmış bir hesap kullanın. Talep tahmini giriş ve çıkış verileri bu depolama hesabında depolanır.
 
@@ -319,7 +319,7 @@ Supply Chain Management ortamınızı Azure'da yeni ayarladığınız Machine Le
 
 1. Supply Chain Management'ta oturun açın.
 1. **Master planlama \> Kurulum \> Talep tahmini \> Talep tahmini parametreleri**'ne gidin.
-1.  **Genel** sekmesinde, **Tahmin oluşturma stratejisi** alanının *Azure Machine Learning Hizmeti* olarak ayarlı olduğundan emin olun.
+1. **Genel** sekmesinde, **Tahmin oluşturma stratejisi** alanının *Azure Machine Learning Hizmeti* olarak ayarlı olduğundan emin olun.
 1. **Madde tahsisat anahtarları** sekmesinde, **Talep tahmini** için *Azure Machine Learning Hizmeti*'ni kullanması gereken her tahsisat anahtarı için Tahmin oluşturma stratejisi alanının Azure Machine Learning Hizmeti olarak ayarlı olduğundan emin olun.
 1. **Azure Machine Learning Hizmeti** sekmesinde, aşağıdaki alanları ayarlayın:
 
@@ -333,7 +333,7 @@ Supply Chain Management ortamınızı Azure'da yeni ayarladığınız Machine Le
 
 ## <a name="privacy-notice"></a><a name="privacy"></a>Gizlilik bildirimi
 
-Tahmin oluşturma stratejiniz olarak *Azure Machine Learning Hizmeti*'ni seçtiğinizde, Supply Chain Management toplanan miktarlar, ürün adları ve bunların ürün boyutları, sevkiyat ve teslim alma konumları, müşteri tanımlayıcıları ve ayrıca tahmin parametreleri gibi müşteri verilerinizi geçmiş talep için gelecekteki talepleri tahmin etmek amacıyla Machine Learning çalışma alanınızın ve bağlı depolama hesabının bulunduğu coğrafi bölgeye otomatik olarak gönderir. Azure Machine Learning Hizmeti, Supply Chain Management'ın dağıtıldığı coğrafi bölgeden farklı bir coğrafi bölgede olabilir. Bazı kullanıcılar, **Talep tahmini parametreleri** sayfasında tahmin oluşturma stratejisini seçerek bu işlevselliğin etkinleştirilip etkinleştirilmediğini denetleyebilir. 
+Tahmin oluşturma stratejiniz olarak *Azure Machine Learning Hizmeti*'ni seçtiğinizde, Supply Chain Management toplanan miktarlar, ürün adları ve bunların ürün boyutları, sevkiyat ve teslim alma konumları, müşteri tanımlayıcıları ve ayrıca tahmin parametreleri gibi müşteri verilerinizi geçmiş talep için gelecekteki talepleri tahmin etmek amacıyla Machine Learning çalışma alanınızın ve bağlı depolama hesabının bulunduğu coğrafi bölgeye otomatik olarak gönderir. Azure Machine Learning Hizmeti, Supply Chain Management'ın dağıtıldığı coğrafi bölgeden farklı bir coğrafi bölgede olabilir. Bazı kullanıcılar, **Talep tahmini parametreleri** sayfasında tahmin oluşturma stratejisini seçerek bu işlevselliğin etkinleştirilip etkinleştirilmediğini denetleyebilir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

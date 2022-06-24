@@ -1,6 +1,6 @@
 ---
 title: Tahsilat işlemi otomasyonu için parametreleri yapılandırma
-description: Bu konuda, otomatik tahsilat işlemlerini etkileyen parametreler açıklanmakta ve otomatik işlemin amaçlarınızı ve beklentilerinizi yansıtması için parametreleri ayarlamak üzere rehberlik sağlanmaktadır.
+description: Bu makalede, otomatik tahsilat işlemlerini etkileyen parametreler açıklanmakta ve otomatik işlemin amaçlarınızı ve beklentilerinizi yansıtması için parametreleri ayarlamak üzere rehberlik sağlanmaktadır.
 author: JodiChristiansen
 ms.date: 08/05/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e7a7e048a371fc90456368206b91c29c4b1264d5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c5d0f801c47ef2d98d8ba410dc593bd7640839c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734410"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900056"
 ---
 # <a name="configure-parameters-for-collection-process-automation"></a>Tahsilat işlemi otomasyonu için parametreleri yapılandırma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, otomatik tahsilat işlemlerini etkileyen parametreler açıklanmakta ve otomatik işlemin amaçlarınızı ve beklentilerinizi yansıtması için parametreleri ayarlamak üzere rehberlik sağlanmaktadır. Otomatik tahsilat işlemleri hakkında bilgi için bkz. [Tahsilat işlemi otomasyonu](collections-process-automate.md).
+Bu makalede, otomatik tahsilat işlemlerini etkileyen parametreler açıklanmakta ve otomatik işlemin amaçlarınızı ve beklentilerinizi yansıtması için parametreleri ayarlamak üzere rehberlik sağlanmaktadır. Otomatik tahsilat işlemleri hakkında bilgi için bkz. [Tahsilat işlemi otomasyonu](collections-process-automate.md).
 
 ## <a name="general"></a>Genel
 Otomatik işlem başına toplu iş görevi sayısını belirlemek için **Toplu iş görevi başına müşteri yüzdesi**'nde bir sayı girin. Tahsilat mektubu eylem türü otomasyon sırasında mektubu deftere nakledecek şekilde **Tahsilat mektuplarını otomatik olarak deftere naklet** seçeneğini **Evet** olarak ayarlayın. Bir hesapta alınan tüm otomatik adımları görüntülemek için etkinlik dışı eylem türlerine ait etkinlikler oluşturmak ve kapatmak üzere **Otomasyonlar için faaliyetler oluştur** seçeneğini **Evet** olarak ayarlayın. **Tahsilat işlemi otomasyon geçmişinin tutulacağı gün sayısı**'nda saklanan tahsilat geçmişi gün sayısını tanımlayın. Fatura, tahsilat işleminin son adımına ulaştığında **Son işlem adımını etkinleştirdikten sonra faturayı hariç tut** seçeneği **Evet** olarak ayarlanırsa gelecekteki işlem otomasyonu eylem türlerini oluşturmak için kullanılmaz. Sonraki en eski fatura, tahsilat işlemi otomasyon eylemlerinin devam etmesini sağlamak için sonraki işlem otomasyonu adımını belirler. 

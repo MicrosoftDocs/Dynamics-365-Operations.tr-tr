@@ -1,6 +1,6 @@
 ---
 title: Kira onayı iş akışları kullanma
-description: Bu konu, varlık kiralamalarını onaylamak için iş akışlarının nasıl kullanılacağını ve iş akışlarının durumunu ve geçmişini nasıl izleyeceğinizi açıklamaktadır.
+description: Bu makale, varlık kiralamalarını onaylamak için iş akışlarının nasıl kullanılacağını ve iş akışlarının durumunu ve geçmişini nasıl izleyeceğinizi açıklamaktadır.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0b35dfa599895cb39cdd6a0a95fdcdcc54c45044
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 4205b83919f0b3c30a4b5d8e3290af230f538f39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724939"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906456"
 ---
 # <a name="use-lease-approval-workflows"></a>Kira onayı iş akışları kullanma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, varlık kiralamalarını onaylamak için iş akışlarının nasıl kullanılacağını ve iş akışlarının durumunu ve geçmişini nasıl izleyeceğinizi açıklamaktadır. İş akışları, standart bir onay adımları kümesi sağlayarak ve sürecin her adımını onaylayan belirli kullanıcıları atayarak kiralama onayları yönetiminin tutarlı olmasına yardımcı olur. Onaylayan kullanıcı, bir kiralamayı onaylayabilir, reddedebilir, bir değişiklik isteyebilir veya bunu onay için başka bir kullanıcıya atayabilir. İş akışları, durum ve geçmişlerini izlemenize olanak tanıyarak onay işlemine dair daha fazla görünürlük de sunar. Ek olarak, belirli onaylayanlara atanan görevleri ve onayları listeleyen merkezi bir çalışma listesi görebilirsiniz.
+Bu makale, varlık kiralamalarını onaylamak için iş akışlarının nasıl kullanılacağını ve iş akışlarının durumunu ve geçmişini nasıl izleyeceğinizi açıklamaktadır. İş akışları, standart bir onay adımları kümesi sağlayarak ve sürecin her adımını onaylayan belirli kullanıcıları atayarak kiralama onayları yönetiminin tutarlı olmasına yardımcı olur. Onaylayan kullanıcı, bir kiralamayı onaylayabilir, reddedebilir, bir değişiklik isteyebilir veya bunu onay için başka bir kullanıcıya atayabilir. İş akışları, durum ve geçmişlerini izlemenize olanak tanıyarak onay işlemine dair daha fazla görünürlük de sunar. Ek olarak, belirli onaylayanlara atanan görevleri ve onayları listeleyen merkezi bir çalışma listesi görebilirsiniz.
 
 Bu yordamı kullanmadan önce, en azından bir kiralama onayı iş akışının oluşturulduğundan emin olun. İş akışı yoksa oluşturun. İş akışının nasıl ayarlanacağı hakkında bilgi için bkz. [Kiralama onayı iş akışlarını ayarlama](set-up-lease-wrkflw.md).
 

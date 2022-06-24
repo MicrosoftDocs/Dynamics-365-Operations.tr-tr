@@ -1,6 +1,6 @@
 ---
 title: Konum yönergeleriyle çalışma
-description: Bu konu, konum yönergeleriyle nasıl çalışılacağını açıklamaktadır. Yerleşim yönergeleri stok hareketi için çekme ve yerine koyma yerleşimlerini belirlemeye yardımcı olan kullanıcı tanımlı kurallardır.
+description: Bu makale, konum yönergeleriyle nasıl çalışılacağını açıklamaktadır. Yerleşim yönergeleri stok hareketi için çekme ve yerine koyma yerleşimlerini belirlemeye yardımcı olan kullanıcı tanımlı kurallardır.
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 84ff0a466c037db05aecaff14aa2e17990ce8799
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103150"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903709"
 ---
 # <a name="work-with-location-directives"></a>Konum yönergeleriyle çalışma
 
@@ -27,7 +27,7 @@ ms.locfileid: "8103150"
 Konum yönergeleri stok hareketi için çekme ve indirme konumlarını belirlemeye yardımcı olan kurallardır. Örneğin, bir satış siparişi hareketinde, öğelerin nereden çekileceğini ve nereye indirileceğini bir konum yönergesi belirler. Konum yönergeleri bir başlıktan ve ilişkili satırlardan oluşur. Belirli *iş emri türleri* için oluşturulurlar.
 
 > [!NOTE]
-> Bu konu, **Ambar yönetimi** modülündeki özellikler için geçerlidir. [Stok yönetimi](../inventory/inventory-home-page.md) modülündeki özellikler için geçerli değildir.
+> Bu makale, **Ambar yönetimi** modülündeki özellikler için geçerlidir. [Stok yönetimi](../inventory/inventory-home-page.md) modülündeki özellikler için geçerli değildir.
 
 Yerleşim yönergelerini şu görevleri gerçekleştirmek için kullanabilirsiniz:
 
@@ -109,7 +109,7 @@ Aşağıdaki tabloda, iş emri türlerine özgü olan alanlar listelenmiştir.
 
 **Konum yönergeleri** sayfasını açmak için **Ambar yönetimi \> Kurulum \> Yerleşim yönergeleri**'ne gidin.
 
-Buradan, Eylem bölmesindeki komutları kullanarak konum yönergelerinizi görüntüleyebilir, oluşturabilir ve düzenleyebilirsiniz. Sayfada bulunan tüm alanların nasıl kullanılacağı hakkında bilgi için bu konunun geri kalan bölümlerine bakın.
+Buradan, Eylem bölmesindeki komutları kullanarak konum yönergelerinizi görüntüleyebilir, oluşturabilir ve düzenleyebilirsiniz. Sayfada bulunan tüm alanların nasıl kullanılacağı hakkında bilgi için bu makalenin geri kalan bölümlerine bakın.
 
 ## <a name="action-pane"></a>Eylem Bölmesi
 
@@ -162,7 +162,7 @@ Konum yönergesi başlığı, sıra numarası ve konum yönergesinin tanımlayı
 - **Geçerli değerlendirme kodu**: Yerleşim yönergesi değerlendirme kodunun, ürün teslim almada uygulanan değerlendirme koduyla eşleşmesi gerekip gerekmediğini veya yerleşim yönergesinin herhangi bir değerlendirme kodu temel alınarak seçilip seçilemeyeceğini belirtin. *Tam eşleşmeyi* seçerseniz ve **Değerlendirme kodu** alanı boşsa, bu yerleşim yönergesi için yalnızca boş değerlendirme kodları dikkate alınır.
 
     > [!NOTE]
-    > Bu alan yalnızca stok yenilemeye izin verilen seçili iş emri türleri için kullanılabilir. Listenin tamamı için bu konunun önceki bölümlerindeki [İş emri türlerine özel olan alanlar](#fields-specific-types) kısmına bakın.
+    > Bu alan yalnızca stok yenilemeye izin verilen seçili iş emri türleri için kullanılabilir. Listenin tamamı için bu makalenin önceki bölümlerindeki [İş emri türlerine özel olan alanlar](#fields-specific-types) kısmına bakın.
 
 - **Bulma ölçütü**: Yerine koyma miktarının plakadaki miktarın tamamı mı yoksa maddeye göre mi olacağını belirtin. Bir plakadaki tüm içeriğin bir konuma yerleştirilmesini ve sistemin içeriği **ANS** (plaka teslim alma), **Karma plaka** teslim alma ve **Küme** teslim alma işlemleri için çeşitli konumlara bölmenizi önermemesini sağlamak için bu alanı kullanın. (Bu **Küme** teslim alma işlemi, [Küme yerine koyma özelliği](putaway-clusters.md)'nin açık olmasını gerektiriyor.) Konum yönergesi sorgusunun, satırların ve konum yönergesi eylemlerinin davranışı seçtiğiniz değere göre değişir. **Satırlar** hızlı sekmesi yalnızca, **Bulma ölçütü** *Madde* olarak ayarlandığında kullanılır.
 
@@ -254,7 +254,7 @@ Yerleşim yönergeleri oluşturduktan sonra, her yönerge kodunu iş oluşturma 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - Video: [Ambar yönetimi yapılandırmasının ayrıntıları](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Yardım konusu: [İş şablonları ve konum yönergeleri ile ambar işini denetleme](control-warehouse-location-directives.md)
+- Yardım makalesi: [İş şablonları ve konum yönergeleri ile ambar işini denetleme](control-warehouse-location-directives.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

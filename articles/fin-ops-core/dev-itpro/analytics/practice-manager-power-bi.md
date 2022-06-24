@@ -1,6 +1,6 @@
 ---
 title: Uygulama yöneticisi Power BI içeriği
-description: Bu konu, Power BI Uygulama yöneticisi nelerin bulunduğunu açıklar.
+description: Bu makalede, Uygulama yöneticisi Power BI içeriğinde nelerin bulunduğu açıklanmaktadır.
 author: kfend
 ms.date: 12/18/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4acef3c595f25fa0be16945a9f41611832cfcea9
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 31ca2841983d972194b55d91a6789fd84d62d890
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500233"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899001"
 ---
 # <a name="practice-manager-power-bi-content"></a>Uygulama yöneticisi Power BI içeriği
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, **Uygulama yöneticisi** Microsoft Power BI içeriğinde nelerin bulunduğunu açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
+Bu makalede, **Uygulama yöneticisi** Microsoft Power BI içeriğinde nelerin bulunduğu açıklanmaktadır. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
 ## <a name="overview"></a>Genel bakış
 

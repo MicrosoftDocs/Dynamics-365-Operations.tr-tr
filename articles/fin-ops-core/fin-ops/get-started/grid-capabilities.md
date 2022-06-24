@@ -1,6 +1,6 @@
 ---
 title: Kılavuz yetenekleri
-description: Bu konu, kılavuz denetiminin çeşitli güçlü özelliklerini açıklamaktadır. Bu özelliklere erişebilmek için yeni ızgara özelliğini etkinleştirmeniz gerekir.
+description: Bu makalede, kılavuz denetiminin çeşitli güçlü özellikleri açıklanmaktadır. Bu özelliklere erişebilmek için yeni ızgara özelliğini etkinleştirmeniz gerekir.
 author: jasongre
 ms.date: 04/25/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 57133a853d1700b2d8ebb938f93af475410b82cb
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 5259e1d7d6c95074337164d8427d7f035e00dbd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644428"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890072"
 ---
 # <a name="grid-capabilities"></a>Kılavuz yetenekleri
 

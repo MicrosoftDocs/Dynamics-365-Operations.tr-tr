@@ -1,6 +1,6 @@
 ---
-title: Power Apps uygulamasından tuval uygulamalarını ekleme
-description: Bu konu ürün işlevselliğini artırmak için Microsoft Power Apps uygulamasından tuval uygulamalarının istemciye nasıl katıştırılacağını açıklar.
+title: Power Apps'teki tuval uygulamalarını ekleme
+description: Bu makalede, ürün işlevselliğini artırmak için Microsoft Power Apps'ten tuval uygulamalarının istemciye nasıl ekleneceği açıklamaktadır.
 author: jasongre
 ms.date: 09/13/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: c2f7b660d364be6e62d484e67908201027190a8a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fb81aa058e749df346ee87bbe83427b20b234b72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065131"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898412"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Power Apps uygulamasından tuval uygulamalarını ekleme
 
@@ -33,7 +33,7 @@ Katıştırılmış tuval uygulamaları hakkında daha fazla bilgi için [Tuval 
 
 ## <a name="adding-an-embedded-canvas-app-from-power-apps-to-a-page"></a>Power Apps'ten bir sayfaya katıştırılmış bir tuval uygulaması ekleme
 
-İstemciye Power Apps'ten bir tuval uygulaması katıştırmadan önce, istediğiniz görsellere ve/veya işleve sahip bir uygulama bulmanız veya oluşturmanız gerekir. Bu konu, uygulama oluşturma işleminin ayrıntılı açıklamasını içermez. Power Apps uygulamasında yeni iseniz, [Power Apps belgelere](/powerapps/) bakın.
+İstemciye Power Apps'ten bir tuval uygulaması katıştırmadan önce, istediğiniz görsellere ve/veya işleve sahip bir uygulama bulmanız veya oluşturmanız gerekir. Bu makale, uygulama oluşturma işleminin ayrıntılı açıklamasını içermez. Power Apps uygulamasında yeni iseniz, [Power Apps belgelere](/powerapps/) bakın.
 
 Bir tuval uygulamasını Finans ve Operasyon uygulamasına katıştırmanın üç yolu vardır. Senaryonuza en uygun yaklaşımı kullanabilirsiniz. 
 
@@ -60,7 +60,7 @@ Aşağıdaki yordamda, tuval uygulamasının Power Apps'ten mevcut bir sayfaya n
 
     - Uygulamaya **Power Apps** menü düğmesi kullanılarak erişilecekse standart Eylem Bölmesi'nde **Power Apps** menü düğmesini ve ardından **Uygulama ekle**'yi seçebilirsiniz.
 
-3. Katıştırılmış uygulamayı yapılandırın. Daha fazla bilgi için bu konu başlığının ilerleyen bölümlerinde yer alan [Tuval uygulamasını yapılandırma](#configuring-a-canvas-app) bölümüne bakın.
+3. Katıştırılmış uygulamayı yapılandırın. Daha fazla bilgi için bu makalenin ilerleyen bölümlerinde yer alan [Tuval uygulamasını yapılandırma](#configuring-a-canvas-app) bölümüne bakın.
 4. Yapılandırmanın doğru olduğunu onayladıktan sonra **Ekle**'yi seçin.
 
     - **Kayıtlı görünümler** özelliği kapalıysa katıştırılmış uygulamayı görmek için tarayıcıyı yenilemeniz istenir.
@@ -76,7 +76,7 @@ Uygulama mevcut bir sayfayla ilgili değilse veya uygulamayı Finans ve Operasyo
 1. Panoyu açın.
 2. Sayfayı seçin ve basılı tutun (veya sağ tıklayın), **Kişiselleştir**'i seçin ve ardından **Sayfa ekle**'yi seçin.
 3. **Sayfa ekle** bölmesinde, **Power Apps**'i seçin.
-4. Katıştırılmış uygulamayı yapılandırın. Daha fazla bilgi için bu konu başlığının ilerleyen bölümlerinde yer alan [Tuval uygulamasını yapılandırma](#configuring-a-canvas-app) bölümüne bakın.
+4. Katıştırılmış uygulamayı yapılandırın. Daha fazla bilgi için bu makalenin ilerleyen bölümlerinde yer alan [Tuval uygulamasını yapılandırma](#configuring-a-canvas-app) bölümüne bakın.
 5. Uygulamayı panoya yeni bir kutucuk olarak eklemek için **Kaydet**'i seçin.
 6. Panodaki yeni kutucuğu seçin ve tuval uygulamasının beklendiği gibi görüntülendiğini onaylayın.
 
@@ -86,7 +86,7 @@ Tuval uygulamasını katıştırdığınızda, aşağıdaki parametreleri ayarla
 
 - **Ad**: Katıştırılmış uygulamayı içeren düğme veya sekme için gösterilmesi gereken metni girin. Genellikle, bu alanda uygulamanın adını tekrar etmek isteyebilirsiniz.
 - **Uygulama kodu**: Katıştırmak istediğiniz tuval uygulaması için genel benzersiz tanımlayıcıyı (GUID) belirtin. Bu değeri almak için [make.powerapps.com](https://make.powerapps.com) adresinde uygulamayı bulun ve **Ayrıntılar** altından **Uygulama Kimliği** alanını bulun.
-- **Uygulama için giriş bilgisi**: İsteğe bağlı olarak uygulamaya geçirmek istediğiniz verileri içeren alanı seçebilirsiniz. Uygulamanın Finans ve Operasyon uygulamalarından gönderilen verilere nasıl erişebileceği hakkında bilgi için bu konunun sonraki bölümlerinde yer alan [Finans ve Operasyon uygulamalarından gönderilen verilerden yararlanan bir uygulama oluşturma](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) bölümüne bakın.
+- **Uygulama için giriş bilgisi**: İsteğe bağlı olarak uygulamaya geçirmek istediğiniz verileri içeren alanı seçebilirsiniz. Uygulamanın Finans ve Operasyon uygulamalarından gönderilen verilere nasıl erişebileceği hakkında bilgi için bu makalenin sonraki bölümlerinde yer alan [Finans ve Operasyon uygulamalarından gönderilen verilerden yararlanan bir uygulama oluşturma](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) bölümüne bakın.
 
     Sürüm 10.0.19 itibarıyla, geçerli tüzel kişilik aynı zamanda **cmp** URL parametresi aracılığıyla tuval uygulamasına bağlam olarak geçirilir. Bu davranış, söz konusu uygulama bu bilgileri kullanana kadar hedef tuval uygulamasını etkilemez.
 
@@ -145,7 +145,7 @@ Katıştırılmış bir uygulama yapılandırmasını düzenlemek için şu adı
 
 Uygulama bir sayfaya katıştırıldıktan sonra gerektiğinde kaldırmanın birkaç yolu vardır:
 
-- Bu konunun önceki kısmında yer alan [Katıştırılmış bir uygulamayı düzenleme](#editing-an-embedded-app) bölümündeki yönergeleri kullanarak **Uygulama düzenle** bölmesine gidin. Bölmenin kaldırmak istediğiniz katıştırılmış uygulama ile ilgili bilgileri görüntülendiğini doğrulayın ve ardından **Sil** düğmesine tıklayın.
+- Bu makalenin önceki kısmında yer alan [Katıştırılmış bir uygulamayı düzenleme](#editing-an-embedded-app) bölümündeki yönergeleri kullanarak **Uygulama düzenle** bölmesine gidin. Bölmenin kaldırmak istediğiniz katıştırılmış uygulama ile ilgili bilgileri görüntülendiğini doğrulayın ve ardından **Sil** düğmesine tıklayın.
 - Katıştırılmış uygulama panodan eklendiyse panoyu açın, tuval uygulamasıyla ilişkili kutucuğu seçip basılı tutun (veya sağ tıklayın), **Kişiselleştir**'i ve ardından **Sayfayı kaldır**'ı seçin. 
 - Katıştırılmış uygulama, kişiselleştirme verisi olarak kaydedildiğinden, sayfanın kişiselleştirmesini temizlemek bu sayfadaki tüm katıştırılmış uygulamaları da kaldırır. Sayfanın kişiselleştirmesini temizlemek kalıcı bir işlemdir ve geri alınamaz. Bir sayfadaki kişiselleştirmelerinizi kaldırmak için **Seçenekler**'i ve ardından **Bu sayfayı kişiselleştir**'i ve son olarak **Temizle** düğmesini seçin. Tarayıcınızı yenilendikten sonra, bu sayfadaki önceki tüm özelleştirmeler kaldırılır. Kişiselleştirme kullanarak sayfaları en iyi duruma getirme hakkında daha fazla bilgi için bkz. [Kullanıcı deneyimini kişiselleştirme](personalize-user-experience.md).
 
@@ -153,7 +153,7 @@ Uygulama bir sayfaya katıştırıldıktan sonra gerektiğinde kaldırmanın bir
 
 ### <a name="developer-modeling-a-canvas-app-on-a-form"></a>[Geliştirici] Form üzerinde bir tuval uygulaması modelleme
 
-Bu konu kişiselleştirme üzerinden tuval uygulamalara odaklanırken, geliştiricilerin Visual Studio geliştirme deneyimini kullanarak formlara tuval uygulama ekleme seçeneği de vardır. Bunu yapmak için forma bir PowerAppsHostControl eklemeniz yeterlidir. Denetimdeki mevcut meta veri özellikleri, kişiselleştirme deneyimle aynı özelliklere sahiptir.
+Bu makalede kişiselleştirme üzerinden tuval uygulamaları eklemeye odaklanılır ancak geliştiriciler, formlara tuval uygulaması eklemek için Visual Studio geliştirme deneyimini de kullanabilir. Bunu yapmak için forma bir PowerAppsHostControl eklemeniz yeterlidir. Denetimdeki mevcut meta veri özellikleri, kişiselleştirme deneyimle aynı özelliklere sahiptir.
 
 ### <a name="developer-specifying-where-an-app-can-be-embedded"></a>[Geliştirici tarafından] Uygulamanın katıştırıldığı yeri belirtme
 

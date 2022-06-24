@@ -1,6 +1,6 @@
 ---
 title: Elektronik faturalama kurulumu
-description: Bu konu, Elektronik faturalama kurulumu ve konfigüre etme işlemine genel bakış sağlar.
+description: Bu makalede, Elektronik faturalama kurulumu ve yapılandırma işlemine dair genel bir bakış sağlanmaktadır.
 author: dkalyuzh
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 42e617e26e7658fae9ee54cb8a4dee45314fddaa
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 8e2aa89119530a0ba00a8561d94006285d67a71b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661706"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883133"
 ---
 # <a name="electronic-invoicing-setup"></a>Elektronik faturalama kurulumu
 
 [!include [banner](../includes/banner.md)]
 
-Konu, Elektronik faturalama kurulumu ve konfigüre etme işlemine genel bakış sağlar. Kurulum adımlarını burada belirtilen sırayla tamamlamanız gerekir. Bir adım zorunluysa ancak bunu atlarsanız, işlevler doğru çalışmaz ve sonraki adımlar sırasında veya işlevselliği kullandığınızda birden çok hata oluşacaktır. 
+Makalede, Elektronik faturalama kurulumu ve yapılandırma işlemine dair genel bir bakış sağlanmaktadır. Kurulum adımlarını burada belirtilen sırayla tamamlamanız gerekir. Bir adım zorunluysa ancak bunu atlarsanız, işlevler doğru çalışmaz ve sonraki adımlar sırasında veya işlevselliği kullandığınızda birden çok hata oluşacaktır. 
 
 Başlamadan önce tüm ana bileşenlerin doğru şekilde kurulduğundan, Regulatory Configuration Service'e (RCS) kayıt olduğunuzdan ve bir RCS örneğiniz olduğundan, ve Elektronik faturalama eklentinizin Microsoft Dynamics 365 Finance veya Dynamics 365 Supply Chain Management ortamınızda kurulu olduğundan emin olun. Daha fazla bilgi için bkz. [Elektronik faturalamaya kaydolma ve kurma](e-invoicing-install-add-in-microservices-lcs.md).
 

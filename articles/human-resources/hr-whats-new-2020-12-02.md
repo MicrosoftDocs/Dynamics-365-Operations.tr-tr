@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources'daki yenilikler veya değişiklikler (2 Aralık 2020)
-description: Bu konuda, 2 Aralık 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, 2 Aralık 2020 için Microsoft Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır.
 author: marcelbf
 ms.date: 12/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6e02586ad3e6b4428f2ba826851db6ebc3172bdf1760b483032f5159e7864a81
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cecef6d2e73b42126b1be100dca52ebd8d9270fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848121"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Dynamics 365 Human Resources'daki yenilikler veya değişiklikler (2 Aralık 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, Dynamics 365 Human Resources'daki yeni, değişen veya gelecek özellikler açıklanmaktadır.
+Bu makalede, Dynamics 365 Human Resources'da yeni, değişen veya yakında sunulacak özellikler açıklanmaktadır.
 
 Güncelleştirme işlemi ve planı hakkında daha fazla bilgi için bkz. [Güncelleştirme işlemi](hr-admin-setup-update-process.md).
 
@@ -52,9 +52,9 @@ Aşağıdaki özellikler genel olarak bu sürümde mevcuttur.
 Bu sürümde aşağıdaki hata çözümleri bulunmaktadır.
 
 > [!NOTE]
-> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu konu ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmelerini eklemek için bu konuya güncelleştirmeler uygulayabiliriz.
+> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu makale, ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmeleri eklenerek güncelleştirilebilir.
 
-| Sorun numarası | Çıkış | Tanım |
+| Sorun numarası | Sorun | Açıklama |
 | --- | --- | --- |
 | 514087 | BenefitEligibilityProcessResult, işlemde kullanılan tarih/saati içermelidir. | BenefitEligibity işleme sonucu şimdi eksik olan son işleme için DateTimeStamp 'ı içeriyor. |
 | 526903 | **İnsan kaynakları paylaşılan parametrelerinde** **Görevlileri otomatik olarak seç** açık olduğunda bağımlıları olan planlar için kazanç kaydı başarısız olur . | **Görevlileri otomatik olarak seç** seçeneği varsayılan olarak etkinleştirilmiş durumdayken, ayrıcalık kaydının bağımlı tehlikeleri için başarısız olduğu sorun düzeltildi. |

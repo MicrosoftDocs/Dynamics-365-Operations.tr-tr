@@ -1,6 +1,6 @@
 ---
 title: NUMBERFORMAT ER işlevi
-description: Bu konu, NUMBERFORMAT Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
+description: Bu makalede, NUMBERFORMAT Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlanmaktadır.
 author: NickSelin
 ms.date: 12/10/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0208796382bd6564539ebbe3d902cc41dedce235adafefe1126961774cdb2076
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e6fa4cbdfb2509418a40980aa29894b5e531bbb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862204"
 ---
 # <a name="numberformat-er-function"></a>NUMBERFORMAT ER işlevi
 

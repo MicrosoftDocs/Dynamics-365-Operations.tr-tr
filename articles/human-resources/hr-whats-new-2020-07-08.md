@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (08 Temmuz 2020)
-description: Bu konuda, 8 Temmuz 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, 8 Temmuz 2020 için Microsoft Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır.
 author: andreabichsel
 ms.date: 07/08/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 37e22dcfb89349186526cf87d5f2a82bb86c48b1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c07646b70d07fbcd6f5aac897f79df7d159266af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848150"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (8 Temmuz 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8693571"
 
 
 
-Bu konuda, Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır. Değişiklikler derleme numarası 8.1.3382 uygulanır. Bazı başlıklardaki parantez içindeki numaralar referans için LCS destek numaralarına referans verir.
+Bu makalede Dynamics 365 Human Resources'te yeni veya değişen özellikler açıklanmaktadır. Değişiklikler derleme numarası 8.1.3382 uygulanır. Bazı başlıklardaki parantez içindeki numaralar referans için LCS destek numaralarına referans verir.
 
 ## <a name="database-logging"></a>Veritabanı günlüklerine kaydetme
 

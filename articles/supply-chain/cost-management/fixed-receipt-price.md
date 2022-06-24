@@ -1,6 +1,6 @@
 ---
 title: Sabit giriş fiyatı
-description: Bu konuda, Microsoft Dynamics 365 Supply Chain Management'ta sabit giriş fiyatlarını nasıl yapılandırabileceğiniz ve kullanabileceğiniz açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Supply Chain Management'ta sabit giriş fiyatlarını nasıl yapılandırabileceğiniz ve kullanabileceğiniz açıklanmaktadır.
 author: raprofit
 ms.date: 04/25/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-04-25
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 8e26d84ddc309249d8bd6e54987ad3ae8eed68f0
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 2630952f395d1a18202698b4d73b67ef4b760194
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770310"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907594"
 ---
 # <a name="fixed-receipt-price"></a>Sabit giriş fiyatı
 
 [!include [banner](../includes/banner.md)]
 
-**Sabit giriş fiyatı**, *Standart maliyet* veya *Hareketli ağırlıklı ortalama* dışında bir stok modeli kullandığınızda madde model grubunda sunulan bir seçenektir. Microsoft Dynamics AX'in önceki sürümlerinde, bu seçenek **Standart maliyet** olarak adlandırılmıştır. Yeni standart maliyet stok modeli Dynamics AX 2012'de kullanıma sunulduğunda bu seçenek **Sabit giriş fiyatı** olarak yeniden adlandırılmıştır. Bu konuda, Dynamics 365 Supply Chain Management'ta sabit giriş fiyatlarını nasıl yapılandırabileceğiniz ve kullanabileceğiniz açıklanmaktadır.
+**Sabit giriş fiyatı**, *Standart maliyet* veya *Hareketli ağırlıklı ortalama* dışında bir stok modeli kullandığınızda madde model grubunda sunulan bir seçenektir. Microsoft Dynamics AX'in önceki sürümlerinde, bu seçenek **Standart maliyet** olarak adlandırılmıştır. Yeni standart maliyet stok modeli Dynamics AX 2012'de kullanıma sunulduğunda bu seçenek **Sabit giriş fiyatı** olarak yeniden adlandırılmıştır. Bu makalede, Dynamics 365 Supply Chain Management'ta sabit giriş fiyatlarını nasıl yapılandırabileceğiniz ve kullanabileceğiniz açıklanmaktadır.
 
 ## <a name="about-fixed-receipt-prices"></a>Sabit giriş fiyatları hakkında
 

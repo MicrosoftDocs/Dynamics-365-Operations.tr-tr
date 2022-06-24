@@ -1,6 +1,6 @@
 ---
 title: Elektronik bir belge oluşturmak için elektronik raporlama yapılandırmalarını özelleştirme
-description: Bu konu, Microsoft tarafından sağlanan ve özel elektronik belge oluşturmak için kullanılan elektronik raporlama (ER) yapılandırmalarının nasıl özelleştirileceğini açıklamaktadır.
+description: Bu makalede, Microsoft tarafından sağlanan ve özel elektronik belge oluşturmak için kullanılan elektronik raporlama (ER) yapılandırmalarının nasıl özelleştirileceği açıklanmaktadır.
 author: NickSelin
 ms.date: 10/21/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7353d7d8149ff1316fbc0adc55b7e1050f443a8
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 30ef9a0fa9b61b1e2016f85407ec0ec8fb70a6c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661672"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854712"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Elektronik bir belge oluşturmak için elektronik raporlama yapılandırmalarını özelleştirme
 
@@ -30,11 +30,11 @@ ms.locfileid: "8661672"
 
 [Elektronik raporlama (ER) çerçevesi](general-electronic-reporting.md) Microsoft'un Microsoft Dynamics 365 Finance kurulumunuza sağladığı ER [yapılandırmalarını](general-electronic-reporting.md#Configuration) karşıya yüklemenize olanak tanır. Bu şekilde, Microsoft tarafından sağlanan yapılandırmalar elektronik müşteri faturaları (e-faturalar) oluşturmak için kullanılan ER çözümü olarak hizmet verebilir. Özel veritabanı alanlarınıza erişmek ve kaynak kodu düzenlemeye gerek kalmadan belirli gereksinimleriniz ile uyumlu olan e-faturaları oluşturmak için özel ER çözümünüzü yapılandırmak amacıyla bu ER çözümünü kullanabilirsiniz.
 
-## <a name="overview"></a>Genel bakış
+## <a name="overview"></a>Genel Bakış
 
-Bu konudaki örnek için, elektronik olarak faturalamak istediğiniz her müşterinin yeni özel özniteliği olarak bir federal vergi kimlik kodu belirtmeniz gerekir. Bu nedenle, oluşturulan her e-faturada vergi koduyla doldurulması gereken yeni bir madde ekleyerek geçerli olarak kullanılmakta olan faturanın yapısını özelleştirmeniz gerekir.
+Bu makaledeki örnek için, elektronik olarak faturalamak istediğiniz her müşterinin yeni özel özniteliği olarak bir federal vergi kimlik kodu belirtmeniz gerekir. Bu nedenle, oluşturulan her e-faturada vergi koduyla doldurulması gereken yeni bir madde ekleyerek geçerli olarak kullanılmakta olan faturanın yapısını özelleştirmeniz gerekir.
 
-Bu konudaki yordamlarda, Sistem Yöneticisi, Elektronik Raporlama Geliştiricisi veya elektronik raporlama işlevsel danışmanı rolündeki bir kullanıcının bu görevleri Finans kurulumunuzda nasıl gerçekleştirebileceği açıklanmaktadır:
+Bu makaledeki yordamlarda, Sistem Yöneticisi, Elektronik Raporlama Geliştiricisi veya Elektronik Raporlama İşlev Danışmanı rolündeki bir kullanıcının bu görevleri Finance örneğinizde nasıl gerçekleştirebileceği açıklanmaktadır:
 
 - [ER çerçevesini kullanmaya başlamak için gereken en az ER parametre kümesini yapılandırın](#ConfigureER).
 - [E-faturalar oluşturmak için sağlanan standart ER konfigürasyonların başlangıç sürümlerini içe aktarın](#ImportERConfigurations1).

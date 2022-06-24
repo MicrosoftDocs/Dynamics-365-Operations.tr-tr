@@ -1,6 +1,6 @@
 ---
 title: Bağlama
-description: Bu konuda, bağlamanın nasıl etkinleştirileceği ve kullanılacağı açıklanmaktadır.
+description: Bu makalede, bağlamanın nasıl etkinleştirileceği ve kullanılacağı açıklanmaktadır.
 author: GalynaFedorova
 ms.date: 07/29/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-07-29
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 26a7bf60912ff1e8a23305e9331d520fe8d65727
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8a0fa849f07f0cc0a41a663fc97b5aba927700b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676509"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903825"
 ---
 # <a name="anchoring"></a>Bağlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, bağlama işlemi hakkında ayrıntılı bilgi sağlanmaktadır. Gerekli yapılandırmayı ve bir ambar çalışanı hazırlama konumunu veya yükleme konumunu değiştirdiğinde kullanılan mantığı açıklamaktadır.
+Bu makalede, bağlama işlemi hakkında ayrıntılı bilgi sağlanmaktadır. Gerekli yapılandırmayı ve bir ambar çalışanı hazırlama konumunu veya yükleme konumunu değiştirdiğinde kullanılan mantığı açıklamaktadır.
 
 Bağlama özelliği, hazırlama veya yükleme konumunu geçersiz kılmanıza olanak tanır. Tüm açık yerleştirmeler daha sonra belirttiğiniz yeni hazırlama veya yükleme konumuna yönlendirilir.
 
@@ -36,11 +36,11 @@ Bu özellik, çalışanların malları sevk ederken daha etkili olmalarına yard
 > [!IMPORTANT]
 > Sonraki açık yerleştirmelerin konumu yalnızca aynı iş şablonu satırından oluşturulan iş satırlarında değiştirilecektir. Başka bir deyişle, sistem aynı iş şablonu satırından kaynaklanan yerine koyma satırlarını bağlayacaktır.
 
-Bu konuda, bağlamanın nasıl çalıştığını gösteren bir senaryo sağlanmaktadır. Senaryo sırasında, satış siparişleri kümesi oluşturacak ve bunları ambara serbest bırakacaksınız. Ardından, önerilen hazırlama konumunu geçersiz kılacak ve kalan tüm yerine koyma işlerinin yeni konuma yönlendirildiğini doğrulayacaksınız.
+Bu makalede, bağlamanın nasıl çalıştığını gösteren bir senaryo sağlanmaktadır. Senaryo sırasında, satış siparişleri kümesi oluşturacak ve bunları ambara serbest bırakacaksınız. Ardından, önerilen hazırlama konumunu geçersiz kılacak ve kalan tüm yerine koyma işlerinin yeni konuma yönlendirildiğini doğrulayacaksınız.
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>Senaryo önkoşulu: Tanıtım verilerini kullanılabilir hale getirme
 
-Bu konudaki senaryo, Microsoft Dynamics 365 Supply Chain Management için sağlanan standart tanıtım verilerinde bulunan değerlere ve kayıtlara başvurur. Alıştırmaları yaparken burada sağlanan değerleri kullanmak isterseniz tanıtım verisinin yüklü olduğu bir ortamda çalıştığınızdan ve başlamadan önce tüzel kişiliği *USMF* olarak ayarladığınızdan emin olun.
+Bu makaledeki senaryo, Microsoft Dynamics 365 Supply Chain Management için sağlanan standart tanıtım verilerinde bulunan değerlere ve kayıtlara başvurur. Alıştırmaları yaparken burada sağlanan değerleri kullanmak isterseniz tanıtım verisinin yüklü olduğu bir ortamda çalıştığınızdan ve başlamadan önce tüzel kişiliği *USMF* olarak ayarladığınızdan emin olun.
 
 ## <a name="scenario-setup"></a>Senaryo kurulumu
 

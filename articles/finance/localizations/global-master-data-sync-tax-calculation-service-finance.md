@@ -1,6 +1,6 @@
 ---
 title: Vergi Hesaplama Hizmetindeki vergi ayarını Dynamics 365 Finance ile eşitleme
-description: Bu konu, vergi kurulumu ana verilerinin Vergi Hesaplama Hizmetinden Microsoft Dynamics 365 Finance'e nasıl eşitleneceğini açıklamaktadır.
+description: Bu makalede, vergi kurulumu ana verilerinin Vergi Hesaplama Hizmetinden Microsoft Dynamics 365 Finance'e nasıl eşitleneceği açıklanmaktadır.
 author: wangchen
 ms.date: 01/05/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3a9c11a6f5946d56b9e58a02c37f18adec155661
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b017a19834998e1c493b0a38c1b50accd8c7e630
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687800"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853171"
 ---
 # <a name="sync-the-tax-setup-from-the-tax-calculation-service-to-dynamics-365-finance"></a>Vergi Hesaplama Hizmetindeki vergi ayarını Dynamics 365 Finance ile eşitleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, vergi kurulumu ana verilerinin Vergi Hesaplama Hizmetinden Microsoft Dynamics 365 Finance'e nasıl eşitleneceğini açıklamaktadır.
+Bu makalede, vergi kurulumu ana verilerinin Vergi Hesaplama Hizmetinden Microsoft Dynamics 365 Finance'e nasıl eşitleneceği açıklanmaktadır.
 
 [Vergi Hesaplamasına Başlarken](global-get-started-with-tax-calculation-service.md) konusundaki gerekli kurulum adımlarını tamamladıktan sonra, aşağıdaki vergi kurulum verileri otomatik olarak Vergi Hesaplama Hizmetinden Finance'e eşitlenir.
 

@@ -1,6 +1,6 @@
 ---
-title: Ön ödeme faturaları ve ön ödemeler karşılaştırması
-description: Bu konuda kuruluşların peşin ödemeler (ön ödemeler) için kullanabileceği iki yöntem açıklanmış ve karşılaştırılmıştır.
+title: Peşinat faturaları ve ön ödemeler karşılaştırması
+description: Bu makalede, kuruluşların peşin ödemeler (ön ödemeler) için kullanabileceği iki yöntem açıklanmış ve karşılaştırılmıştır.
 author: abruer
 ms.date: 10/26/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f05f1d8d2a1fb454f3f227d2cc8138f2b779ff87
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: a420a0a366e454df14d5fe994691829bc7950306
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716339"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895210"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Peşinat faturaları ve ön ödemeler karşılaştırması
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda kuruluşların peşin ödemeler (ön ödemeler) için kullanabileceği iki yöntem açıklanmış ve karşılaştırılmıştır. Bir yöntemde bir satın alma emriyle ilişkilendirilmiş bir ön ödeme faturası oluşturulur. Diğer yöntemde ise günlük girişleri oluşturup ön ödeme günlüğü fişleri olarak işaretleyerek ön ödeme günlüğü fişleri oluşturulur.
+Bu makalede, kuruluşların peşin ödemeler (ön ödemeler) için kullanabileceği iki yöntem açıklanmış ve karşılaştırılmıştır. Bir yöntemde bir satın alma emriyle ilişkilendirilmiş bir ön ödeme faturası oluşturulur. Diğer yöntemde ise günlük girişleri oluşturup ön ödeme günlüğü fişleri olarak işaretleyerek ön ödeme günlüğü fişleri oluşturulur.
 
 Kuruluşlar, satıcılara mal veya hizmetleri için bu mal veya hizmetler karşılanmadan önce ön ödeme (avans ödeme) yapabilirler. Satıcılara ön ödeme yapmak için iki yöntem kullanılabilir. Riski en aza indirmek için, bir satınalma emrine ön ödeme tanımlayarak ön ödemeleri izleyebilirsiniz. Bu yöntem için satınalma emriyle ilişkilendirilmiş bir ön ödeme faturası oluşturmanız gerekir. Bu yöntem ön ödeme faturalandırması olarak adlandırılır. Ön ödemeleri yakında takip etmek istemeyen veya satıcılarından ön ödeme faturası almayan kuruluşlar, ön ödeme faturalandırması yöntemi yerine ön ödeme günlüğü fişleri kullanabilirler. Günlük girişleri oluşturup ön ödeme günlüğü fişleri olarak işaretleyerek ön ödeme günlüğü fişleri oluşturabilirsiniz. Bu yöntemde, bir satıcıya hangi ön ödemelerin hangi satınalma emirlerine karşı yapıldığını takip edemezsiniz. Ancak, deftere nakledilen bir ön ödemeyi bir satınalma emrine karşı kapatma olarak işaretleyebilirsiniz.
 

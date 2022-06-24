@@ -1,6 +1,6 @@
 ---
 title: Sabit kıymet grupları için yenileme maliyetlerini ve sigortalı değerleri yeniden hesaplama
-description: Bu konuda, sabit kıymetlerin yenileme maliyetlerini ve sigortalanan değerlerini güncelleştirme işlemi açıklanmaktadır.
+description: Bu makalede, sabit kıymetlerin yenileme maliyetlerini ve sigortalanan değerlerini güncelleştirme işlemi açıklanmaktadır.
 author: moaamer
 ms.date: 01/12/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e01e0241117dc69cafb67aeb3f1d10249fe143a0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3b461438ca3fef36e69100379e84f4c0d402e53e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853481"
 ---
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Sabit kıymet grupları için yenileme maliyetlerini ve sigortalı değerleri yeniden hesaplama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, sabit kıymetlerin yenileme maliyetlerini ve sigortalanan değerlerini güncelleştirme işlemi açıklanmaktadır.
+Bu makalede, sabit kıymetlerin yenileme maliyetlerini ve sigortalanan değerlerini güncelleştirme işlemi açıklanmaktadır.
 
 Düzenli aralıklarla, değiştirme maliyeti veya sigortaya özel sabit kıymetlerin değiştiği size bildirilebilir. Örneğin, yöneticiniz enflasyonun bir önceki yıl yüzde 3 olduğunu, bu nedenle tüm sabit kıymetlerin değiştirme maliyetini yüzde 3 ile arttırmanız gerektiği konusunda sizi bilgilendirebilir. 
 

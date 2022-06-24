@@ -1,6 +1,6 @@
 ---
 title: Özgün bir bütçe oluştur ve sonra kamu sektörü için ön bütçe girişlerini geri al
-description: Bu konu, bütçe modelini ve ön bütçe tutarları içeren boyut değerlerini kullanarak orijinal bütçe girişinin nasıl oluşturulacağı ve tersine çevrileceği hakkında bilgi sağlar.
+description: Bu makalede, bütçe modelini ve ön bütçe tutarlarını içeren boyut değerlerini kullanarak orijinal bütçe girişinin nasıl oluşturulacağı ve tersine çevrileceği hakkında bilgi sağlanmaktadır.
 author: twheeloc
 ms.date: 02/14/2022
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7758a1c9edfa129ba8b63a146b38ed3f119fd051
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 1efb6363be881b0a35f356c2cb2334e5a37e43ae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119439"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848418"
 ---
 # <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a>Özgün bir bütçe oluştur ve sonra kamu sektörü için ön bütçe girişlerini geri al
 

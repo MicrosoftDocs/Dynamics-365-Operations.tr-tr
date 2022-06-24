@@ -1,6 +1,6 @@
 ---
-title: Para birimi döviz kurlarını içe aktarma
-description: Bu konu, döviz kuru sağlayıcıları tarafından yayımlanan yabancı döviz referans oranlarını içe aktarma gereksinimleri hakkında bilgi sağlar.
+title: Para birimi döviz kurlarını içeri aktarma
+description: Bu makalede, döviz kuru sağlayıcıları tarafından yayımlanan başvuru amaçlı yabancı döviz kurlarını içeri aktarma gereksinimleri hakkında bilgiler sağlanmaktadır.
 author: EvgenyPopovMBS
 ms.date: 03/17/2020
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f96622132be3c8a404f3f4e9c34f3ac5085a4fdc007ecb627d06a95d7c80932b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 27f9b06646d9ce948a6b4528c38c5df9784b24b2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894949"
 ---
 # <a name="import-currency-exchange-rates"></a>Para birimi döviz kurlarını içe aktarma
 
 [!include [banner](../includes/banner.md)]
 
-Bir tüzel kişilik, yabancı para birimlerinde faturalar almışsa, yabancı para birimini yerel para birimine dönüştürmek gereklidir. Başka bir deyişle, farklı para birimlerinin döviz kurlarının güncel olması gereklidir. Bu konu, Avrupa Merkez Bankası ve Rusya Merkez Bankası gibi döviz kuru sağlayıcıları tarafından İnternet üzerinden yayınlanan önemli yabancı referans döviz kurlarını içe aktarmak için gerekli ayarlar ve işlemler hakkında genel bir bakış sağlar.
+Bir tüzel kişilik, yabancı para birimlerinde faturalar almışsa, yabancı para birimini yerel para birimine dönüştürmek gereklidir. Başka bir deyişle, farklı para birimlerinin döviz kurlarının güncel olması gereklidir. Bu makalede, Avrupa Merkez Bankası ve Rusya Merkez Bankası gibi döviz kuru sağlayıcıları tarafından internet üzerinden yayınlanan önemli başvuru amaçlı yabancı döviz kurlarını içeri aktarmak için gerekli ayarlar ve işlemler hakkında genel bir bakış sağlanmaktadır.
 
 Aşağıdaki bölümler, yabancı döviz kurlarının içe aktarılmasında kullanılan bilgi akışının ayarlanması ve işlenmesini açıklar.
 
 ## <a name="configure-an-exchange-rate-provider"></a>Bir döviz kuru sağlayıcısı yapılandırma
-Döviz kurlarını almadan önce, döviz kurlarını sunan sağlayıcılar tarafından gerek duyulan bilgileri ayarlamanız gerekir. **Döviz kuru sağlayıcılarını yapılandır** sayfasını kullanarak döviz kuru sağlayıcılarını seçin. Bazı döviz kuru sağlayıcıları Dynamics 365 Finance içerisindeki örnek veride bulunmaktadır. Aşağıdaki tabloda bu sayfadaki kontrollerle ilgili açıklamalar bulunur.
+Döviz kurlarını almadan önce, döviz kurlarını sunan sağlayıcılar tarafından gerek duyulan bilgileri ayarlamanız gerekir. **Döviz kuru sağlayıcılarını yapılandır** sayfasını kullanarak döviz kuru sağlayıcılarını seçin. Bazı döviz kuru sağlayıcıları Dynamics 365 Finance'teki örnek verilere dahildir. Aşağıdaki tabloda bu sayfadaki kontrollerle ilgili açıklamalar bulunur.
 
 | Alan | Tanım                   |
 |-----------|-----------------------------------|

@@ -1,6 +1,6 @@
 ---
 title: Tahsisat temelleri
-description: Bu konu, tahsisat tabanları hakkında bilgiler sağlar. Tahsisat tabanları, Maliyet muhasebesindeki kilit bileşenlerdendir ve genellikle genel giderleri tahsis etmekte kullanılır.
+description: Bu makalede, tahsisat tabanları hakkında bilgiler verilmektedir. Tahsisat tabanları, Maliyet muhasebesindeki kilit bileşenlerdendir ve genellikle genel giderleri tahsis etmekte kullanılır.
 author: AndersGirke
 ms.date: 05/24/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bb50fe7d258bdd56529bc5d0ef55dae309d3edec
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 138a1a101610fc0f18ef3d8d2d3d336e5a48a1da
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894098"
 ---
 # <a name="allocation-bases"></a>Tahsisat temelleri 
 
@@ -174,11 +174,11 @@ Maliyet muhasebesi, aşağıdaki veri bağlantılarını kullanarak bir dizi ist
 - Veri yönetimi içeri/dışarı aktarma aracı
 - İstatistiksel ölçüler
 
-Sistemden istatistiksel ölçümleri çekmek için bir istatistiksel ölçüm sağlayıcısı şablonu gereklidir. Daha fazla bilgi için, İstatistiksel ölçüm sağlayıcı şablonu'na bakın. (Bu konu yazıldıktan sonra bir bağlantı eklenecektir.)
+Sistemden istatistiksel ölçümleri çekmek için bir istatistiksel ölçüm sağlayıcısı şablonu gereklidir. Daha fazla bilgi için, İstatistiksel ölçüm sağlayıcı şablonu'na bakın. (Bu makale yazıldıktan sonra bir bağlantı eklenecektir.)
 
 **İstatistiksel ölçü sağlayıcısı şablonları**
 
-| Dosya Adı  | İşlev | Kaynak tablosu  | Toplam alanı      | Tarih alanı     |
+| Adı  | İşlev | Kaynak tablosu  | Toplam alanı      | Tarih alanı     |
 |-------|----------|---------------|----------------|----------------|
 | FTE’ler | Say    | HcmEmployment | Uygulanamaz | Uygulanamaz |
 

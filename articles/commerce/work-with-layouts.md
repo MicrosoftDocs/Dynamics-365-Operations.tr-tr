@@ -1,6 +1,6 @@
 ---
 title: Önceden ayarlanmış düzenlerle çalışma
-description: Bu konuda, Microsoft Dynamics 365 Commerce'ta önceden belirlenmiş düzenlerle nasıl çalışılacağı açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce'ta önceden belirlenmiş düzenlerle nasıl çalışılacağı açıklanmaktadır.
 author: phinneyridge
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 56ad992b6a9fd6fce09cadad70b8098acdc74ac0
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 34b9cb15dd77e6317208e6468fbfb60e804f5e8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090857"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896858"
 ---
 # <a name="work-with-preset-layouts"></a>Önceden ayarlanmış düzenlerle çalışma
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce'ta önceden belirlenmiş düzenlerle nasıl çalışılacağı açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce'ta önceden belirlenmiş düzenlerle nasıl çalışılacağı açıklanmaktadır.
 
-Bu konudaki yordamları gerçekleştirmeden önce, [hazır ayar ve özel düzenleri](templates-layouts-overview.md#preset-and-custom-layouts) okuduğunuzdan emin olun. Genel genel bakış için, bkz. [Şablonlar ve düzenler genel bakış](templates-layouts-overview.md).
+Bu makaledeki yordamları gerçekleştirmeden önce, [hazır ayar ve özel düzenleri](templates-layouts-overview.md#preset-and-custom-layouts) okuduğunuzdan emin olun. Genel genel bakış için, bkz. [Şablonlar ve düzenler genel bakış](templates-layouts-overview.md).
 
 ## <a name="create-a-new-preset-layout"></a>Yeni önceden ayarlanmış düzeni oluşturma
 

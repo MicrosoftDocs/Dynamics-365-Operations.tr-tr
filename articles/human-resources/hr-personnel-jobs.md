@@ -14,12 +14,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: de828bc1ab764a8a1bd084a508f38ff19a3947d5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: afe100879a4f83e4ef16048bc4b1acace19b679b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693598"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877728"
 ---
 # <a name="set-up-the-components-of-a-job"></a>İşin bileşenlerini ayarlama
 

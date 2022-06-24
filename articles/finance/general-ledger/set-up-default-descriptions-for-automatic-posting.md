@@ -1,6 +1,6 @@
 ---
-title: Otomatik deftere nakil için varsayılan açıklamalar ayarlama
-description: Bu konu, otomatik olarak genel muhasebeye nakledilen muhasebe girişlerini açıklamak için kullanılan varsayılan metnin nasıl ayarlanacağını açıklar. Serbest biçimli metni kullanarak veya sabit değişkenleri seçerek, varsayılan açıklama metnini ayarlayabilirsiniz.
+title: Otomatik deftere nakil için varsayılan açıklamaları ayarlama
+description: Bu makale, otomatik olarak genel muhasebeye nakledilen muhasebe girişlerini açıklamak için kullanılan varsayılan metnin nasıl ayarlanacağını açıklar. Serbest biçimli metni kullanarak veya sabit değişkenleri seçerek, varsayılan açıklama metnini ayarlayabilirsiniz.
 author: aprilolson
 ms.date: 07/23/2019
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 772c754e9980e693daf7542de273cbe278ca7038
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 71982a7d5b1bb08d3e238646ea0b15f17260bdcc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722450"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904513"
 ---
-# <a name="set-up-default-descriptions-for-automatic-posting"></a>Otomatik deftere nakil için varsayılan açıklamalar ayarlama
+# <a name="set-up-default-descriptions-for-automatic-posting"></a>Otomatik deftere nakil için varsayılan açıklamaları ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, otomatik olarak genel muhasebeye nakledilen muhasebe girişlerini açıklamak için kullanılan varsayılan metnin nasıl ayarlanacağını açıklar. Serbest biçimli metni kullanarak veya sabit değişkenleri seçerek, varsayılan açıklama metnini ayarlayabilirsiniz.
+Bu makale, otomatik olarak genel muhasebeye nakledilen muhasebe girişlerini açıklamak için kullanılan varsayılan metnin nasıl ayarlanacağını açıklar. Serbest biçimli metni kullanarak veya sabit değişkenleri seçerek, varsayılan açıklama metnini ayarlayabilirsiniz.
 
 > [!NOTE]
-> Bazı ülke veya bölgelerdeki bazı hareket türleri için, söz konusu hareket türleriyle ilişkili olan alanlardaki metinleri de ekleyebilirsiniz. Hareket türlerinin ve ülkeler ile bölgelerin listesi için bu konunun ilerleyen kısımlarında bulunan [İsteğe bağlı: Varsayılan açıklamalara başka metin ekleme](#optional-add-other-text-to-default-descriptions) konusuna bakın.
+> Bazı ülke veya bölgelerdeki bazı hareket türleri için, söz konusu hareket türleriyle ilişkili olan alanlardaki metinleri de ekleyebilirsiniz. Hareket türleri ile ülkeler ve bölgeler listesi için bu makalenin ilerleyen kısımlarında bulunan [İsteğe bağlı: Varsayılan açıklamalara başka metin ekleme](#optional-add-other-text-to-default-descriptions) konusuna bakın.
 
 ## <a name="set-up-default-descriptions"></a>Varsayılan tanımlar oluşturma
 
@@ -78,7 +78,7 @@ Bu seçenek aşağıdaki ülkeler ve bölgeler için kullanılabilir:
 
 ### <a name="add-text-to-default-descriptions"></a>Varsayılan açıklamalara metin ekleme
 
-Bu konunun önceki kısımlarındaki [Varsayılan açıklamalar ayarlama](#set-up-default-descriptions) bölümünde bulunan adımları tamamladıktan sonra, başka metni varsayılan açıklamalara eklemek için aşağıdaki adımları izleyin.
+Bu makalenin önceki kısımlarındaki [Varsayılan açıklamaları ayarlama](#set-up-default-descriptions) bölümünde bulunan adımları tamamladıktan sonra, varsayılan açıklamalara başka metin eklemek için aşağıdaki adımları izleyin.
 
 1. **Parametreler** hızlı sekmesinde, **Ekle**'yi seçin.
 2. **Referans tablosu** alanında, açıklamaya parametre verilerinin ekleneceği veritabanı tablosunu seçin.

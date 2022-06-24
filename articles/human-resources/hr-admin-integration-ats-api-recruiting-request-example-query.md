@@ -1,6 +1,6 @@
 ---
 title: Işe alma isteği için sorgu örneği
-description: Bu konu, Dynamics 365 Human Resources'taki İşe alma isteği varlığı için örnek bir sorgu sağlar.
+description: Bu makalede, Dynamics 365 Human Resources'daki İşe alma isteği varlığı için örnek bir sorgu sağlanmaktadır.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1cc7389403f0362cc005be1df320e63824a3ec3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 55dae805cf9bd1fc641cf6d0e8eb2cc4b6af5d00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066255"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858228"
 ---
 # <a name="example-query-for-recruiting-request"></a>Işe alma isteği için sorgu örneği
 
@@ -27,7 +27,7 @@ ms.locfileid: "8066255"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konu, Dynamics 365 Human Resources'taki İşe alma isteği varlığı için örnek bir sorgu sağlar.
+Bu makalede, Dynamics 365 Human Resources'daki İşe alma isteği varlığı için örnek bir sorgu sağlanmaktadır.
 
 Aşağıdaki sorgu, belirli bir işe alma isteği kaydı ve belirtilen istekle ilgili tüm ilişkili pozisyonlar, gerekli yetenekler ve Eğitim gereksinimlerini almak için $expand sorgu seçeneğini bir alma işlemi içinde nasıl kullanabileceğinizi gösterir. Örnek yanıt, iki pozisyon için işe alma isteğini ve istenen pozisyonlar için gerekli becerileri ve eğitim bilgilerini gösterir.
 

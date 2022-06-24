@@ -1,6 +1,6 @@
 ---
-title: Dataverse'da şirket kavramı
-description: Bu konu Finans ve Operasyon ile Dataverse arasında şirket verisi tümleştirmesini açıklar.
+title: Dataverse'ta şirket kavramı
+description: Bu makalede, Finance and Operations ve Dataverse arasında şirket verisi tümleştirmesi açıklanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 3657e41363ca6c1ce8eabfeaf3ba6da9b93f5e2a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 11355031714b7e046f70bd5840297d66aa7d32e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061038"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873192"
 ---
 # <a name="company-concept-in-dataverse"></a>Dataverse'da şirket kavramı
 
@@ -49,7 +49,7 @@ Bu yapılandırma nedeniyle, USMF şirketiyle ilgili herhangi bir satır, Datave
 
 Önceki örnekte gösterildiği gibi iş birimi, şirket ve ekip arasındaki bu 1:1 eşleme yalnızca bir başlangıç noktasıdır. Bu örnekte, yeni bir "Avrupa" iş birimi hem DEMF hem de ESMF için üst öğe olarak Dataverse'ta el ile ayarlanır. Bu yeni kök iş birimi çift yazma ile ilgili değildir. Ancak, "EUR Satış" ekibinin üyelerine, ilgili güvenlik rolündeki **Üst/Alt İş Birimi** veri görünürlüğünü ayarlayarak hem DEMF hem de ESMF'deki hesap verilerine erişim vermek için kullanılabilir.
 
-Tartışılması gereken son bir konu da çift yazmanın satırları hangi sahip takıma atayacağını belirleme yöntemidir. Bu davranış, cdm\_Company satırındaki **Varsayılan sahibi olan takım** sütunu tarafından denetlenir. Bir cdm\_Company satırı çift yazma için etkinleştirildiğinde, bir eklenti otomatik olarak ilişkili iş birimi ve sahibi olan takımı (zaten yoksa) oluşturur ve **Varsayılan sahibi olan takım** sütununu ayarlar. Yönetici bu sütunu farklı bir değere değiştirebilir. Ancak, tablo çift yazma için etkinleştirildiği sürece yönetici sütunu temizleyemez.
+Tartışılması gereken son bir madde de çift yazmanın satırları hangi sahip takıma atayacağını belirleme yöntemidir. Bu davranış, cdm\_Company satırındaki **Varsayılan sahibi olan takım** sütunu tarafından denetlenir. Bir cdm\_Company satırı çift yazma için etkinleştirildiğinde, bir eklenti otomatik olarak ilişkili iş birimi ve sahibi olan takımı (zaten yoksa) oluşturur ve **Varsayılan sahibi olan takım** sütununu ayarlar. Yönetici bu sütunu farklı bir değere değiştirebilir. Ancak, tablo çift yazma için etkinleştirildiği sürece yönetici sütunu temizleyemez.
 
 > [!div class="mx-imgBorder"]
 ![Varsayılan sahibi olan takım sütunu.](media/dual-write-default-owning-team.jpg)

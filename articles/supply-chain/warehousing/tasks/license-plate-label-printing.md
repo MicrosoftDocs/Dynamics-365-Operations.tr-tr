@@ -1,6 +1,6 @@
 ---
 title: Plaka etiketi yazdırmayı etkinleştirme
-description: Bu konu, satış malzeme çekme işinde stoktan son madde çekildikten sonra Seri sevkiyat konteyner kodu (SSCC) etiketini otomatik olarak yazdırma konusunda açıklama sağlar.
+description: Bu makale, satış malzeme çekme işinde stoktan son madde çekildikten sonra Seri sevkiyat konteyner kodu (SSCC) etiketini otomatik olarak yazdırma konusunda açıklama sağlar.
 author: perlynne
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b3895961f1f682a3fd06800a83a497afaf2fa65
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dec552cac505b3fdc24dd453dbf723fa1d009ced
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565126"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903680"
 ---
 # <a name="enable-license-plate-label-printing"></a>Plaka etiketi yazdırmayı etkinleştirme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, satış malzeme çekme işinde stoktan son madde çekildikten sonra Seri sevkiyat konteyner kodu (SSCC) etiketini otomatik olarak yazdırma konusunda açıklama sağlar. Bu yordamı USMF demo veri şirketinde çalıştırabilirsiniz. Kendi verilerinizi kullanarak çalıştırırsanız, lisans plakaları için ayarlanmış bir numara seriniz olması gerekir. Bu göreve başlamadan önce bir etiket yazdırıcı kurulumu yapmanız gerekir. Organizasyon yönetimi > Kurulum > Ağ yazıcıları öğesine gidin. Eylem Bölmesi'nde, Seçenekler'e ve ardından Belge rota aracısı yükleyicisini indir düğmesine tıklayın. Yükleyiciyi çalıştırın ve yordama devam etmeden önce Etkin olarak ayarlanmış çalışır durumda bir ağ yazıcınız olduğundan emin olun.
+Bu makale, satış malzeme çekme işinde stoktan son madde çekildikten sonra Seri sevkiyat konteyner kodu (SSCC) etiketini otomatik olarak yazdırma konusunda açıklama sağlar. Bu yordamı USMF demo veri şirketinde çalıştırabilirsiniz. Kendi verilerinizi kullanarak çalıştırırsanız, lisans plakaları için ayarlanmış bir numara seriniz olması gerekir. Bu göreve başlamadan önce bir etiket yazdırıcı kurulumu yapmanız gerekir. Organizasyon yönetimi > Kurulum > Ağ yazıcıları öğesine gidin. Eylem Bölmesi'nde, Seçenekler'e ve ardından Belge rota aracısı yükleyicisini indir düğmesine tıklayın. Yükleyiciyi çalıştırın ve yordama devam etmeden önce Etkin olarak ayarlanmış çalışır durumda bir ağ yazıcınız olduğundan emin olun.
 
 
 ## <a name="set-up-the-gs1-company-prefix"></a>GS1 şirket önekini ayarlayın

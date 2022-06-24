@@ -1,6 +1,6 @@
 ---
 title: Gelen ÖSB'leri V3 veri varlığı üzerinden içe aktarma
-description: Bu konu, gelen önceden sevkiyat bildirimlerinin (ÖSB'ler) Gelen ÖSB veri varlığı aracılığıyla içe aktarma işleminin nasıl yönetildiğini açıklar.
+description: Bu makale, gelen önceden sevkiyat bildirimlerinin (ÖSB'ler) Gelen ÖSB veri varlığı aracılığıyla içe aktarma işleminin nasıl yönetildiğini açıklar.
 author: GalynaFedorova
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-04
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 44ec0230236451a413d483b3e9f3ddc58b49a0b0
-ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
+ms.openlocfilehash: 0ac45e070d0473547c48da1380377de3d4bf60bd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740147"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907130"
 ---
 # <a name="import-inbound-asns-through-the-v3-data-entity"></a>Gelen ÖSB'leri V3 veri varlığı üzerinden içe aktarma
 
@@ -26,7 +26,7 @@ ms.locfileid: "8740147"
 
 ÖSB'ler ambar çalışanlarının nelerin ne zaman geldiğini öğrenmesine yardımcı olabilir. Bu şekilde hazırlık yapabilirler. Ayrıca, ambar çalışanları önceden oluşturulmuş ilgili satınalma siparişiyle bir sevkiyatın ayrıntılarını eşleştirmek için ÖSB'leri kullanabilirler.
 
-Bu konu, örnekler aracılığıyla, ÖSB dosyalarının nasıl kullanılacağını gösteren bir dizi senaryoyu göstermektedir.
+Bu makale, örnekler aracılığıyla, ÖSB dosyalarının nasıl kullanılacağını gösteren bir dizi senaryoyu göstermektedir.
 
 > [!IMPORTANT]
 > *Gelen ÖSB*'yi içe aktarma, yalnızca Gelişmiş ambar yönetimi (WMS) için etkinleştirilen maddelere uygulanır. Bir ÖSB almadan önce, bir satınalma siparişinin söz konusu ÖSB'yi gönderen satıcıya karşı sisteme kaydedilmiş olması gerekir.

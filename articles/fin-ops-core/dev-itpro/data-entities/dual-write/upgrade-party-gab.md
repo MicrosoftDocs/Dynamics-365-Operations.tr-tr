@@ -1,6 +1,6 @@
 ---
 title: Taraf ve genel adres defteri modeline yükseltme
-description: Bu konuda, çift yazma verilerinin taraf ve genel adres defteri modeline nasıl yükseltileceği açıklanmaktadır.
+description: Bu makalede, çift yazma verilerinin taraf ve genel adres defteri modeline nasıl yükseltileceği açıklanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 03/10/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 22b31b46b247ca5f2d6b8b93f58c090b03a2b38c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 10c5d9eb3f98887be976c2331f4d34530628702c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688389"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895290"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Taraf ve genel adres defteri modeline yükseltme
 
@@ -40,7 +40,7 @@ Aşağıdaki üç Data Factory şablonu sağlanır. Finans ve Operasyon uygulama
 | ImportFONewPostalAddress.csv | Bu dosya, Finance and Operations uygulamasında yeni **Posta Adresi** kayıtlarının oluşturulmasına yardımcı olur. |
 | ImportFONewElectronicAddress.csv | Bu dosya, Finance and Operations uygulamasında yeni **Elektronik Adres** kayıtlarının oluşturulmasına yardımcı olur. |
 
-Bu konu, Data Factory şablonlarını kullanma ve verilerinizi yükseltmeyi açıklar. Herhangi bir özelleştirmeleriniz yoksa, şablonları oldukları gibi kullanabilirsiniz. Ancak, **Hesap**, **İlgili Kişi** ve **Satıcı** verileri için özelleştirmeleriniz varsa, şablonları bu konuda açıklandığı şekilde değiştirmeniz gerekir.
+Bu makale, Data Factory şablonlarının nasıl kullanılacağını ve verilerinizin nasıl yükseltileceğini açıklar. Herhangi bir özelleştirmeleriniz yoksa, şablonları oldukları gibi kullanabilirsiniz. Ancak, **Hesap**, **İlgili Kişi** ve **Satıcı** verileri için özelleştirmeleriniz varsa, şablonları bu makalede açıklandığı şekilde değiştirmeniz gerekir.
 
 > [!IMPORTANT]
 > Taraf posta adresi ve Taraf elektronik adres şablonlarını çalıştırmak için özel yönergeler vardır. Önce Taraf şablonunu, sonra Taraf posta adresi şablonunu ve Taraf elektronik adres şablonunu çalıştırmalısınız. Her şablon ayrı bir veri fabrikası içinde alınmak üzere tasarlanmıştır.

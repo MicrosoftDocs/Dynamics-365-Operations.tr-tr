@@ -1,6 +1,6 @@
 ---
 title: Elektronik raporlama ile testi otomatikleştirme
-description: Bu konu, işlevsellik testini otomatikleştirmek için Elektronik raporlama (ER) çerçevesinin temel özelliğini nasıl kullanabileceğinizi açıklar.
+description: Bu makalede, işlevsellik testini otomatikleştirmek için Elektronik raporlama (ER) çerçevesinin temel özelliğini nasıl kullanabileceğiniz açıklanmaktadır.
 author: NickSelin
 ms.date: 07/02/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: da69cc903197dbfae536c8494f126074c51aa77f9522d57f2673c97b1e682d9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: df2baa988bb634db11d819dd84ef73eaa560bab9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749812"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892783"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Elektronik raporlama ile testi otomatikleştirme
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, işlevsellik testini otomatikleştirmek için Elektronik raporlama (ER) çerçevesini nasıl kullanabileceğinizi açıklar. Bu konudaki örnekte, satıcı ödeme işlemi testinin nasıl otomatikleştirildiği gösterilmektedir.
+Bu makalede, işlevsellik testini otomatikleştirmek için Elektronik raporlama (ER) çerçevesini nasıl kullanabileceğiniz açıklanmaktadır. Bu makaledeki örnekte, satıcı ödeme işlemi testinin nasıl otomatikleştirildiği gösterilmektedir.
 
 Uygulama, satıcı ödeme işlemi sırasında ödeme dosyaları ve ilgili belgeler oluşturmak için ER çerçevesini kullanır. ER çerçevesi, farklı ödeme tipleri ve farklı biçimlerdeki belgelerin oluşturulması için ödeme işlemeyi destekleyen bir veri modeli, model eşleme ve biçim bileşenlerini içerir. Bu bileşenler Microsoft Dynamics Lifecycle Services (LCS)'den yüklenebilir ve örneğe aktarılabilir.
 
@@ -52,17 +52,17 @@ Bir yapılandırma sağlayıcısından aldığınız biçime göre bir biçimin 
 - İstenen test paketinin test çalışmalarını çalıştırmak için Regression Suite Automation Tool (RSAT)'u kullanın.
 - Testin sonuçlarını Azure DevOps'a rapor edin ve bu sonuçları araştırmak için bu hizmeti kullanın.
 
-## <a name="prerequisites"></a>Önkoşullar
+## <a name="prerequisites"></a>Ön Koşullar
 
-Bu konudaki görevleri tamamlayabilmek için önce aşağıdaki ön koşulları tamamlamanız gerekir:
+Bu makaledeki görevleri tamamlayabilmek için önce aşağıdaki ön koşulları tamamlamanız gerekir:
 
 - Test otomasyonunu destekleyen bir topoloji dağıtın. **Sistem Yöneticisi** rolü Için bu topolojinin örneğine erişiminizin olması gerekir. Bu topoloji, bu örnekte kullanılacak demo verilerini içermelidir. Daha fazla bilgi için bkz. [Sürekli oluşturma ve test otomasyonunu destekleyen bir ortam dağıtma ve kullanma](../perf-test/continuous-build-test-automation.md).
-- Kullanıcı kabul ve tümleştirme testlerini otomatik olarak çalıştırmak için RSAT'ı kullandığınız topolojiye yüklemeli ve uygun şekilde yapılandırmalısınız. RSAT'ı yükleme ve Finance and Operations uygulamaları ve Azure DevOps ile birlikte çalışacak şekilde yapılandırma hakkında daha fazla bilgi için bkz. [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Aracı kullanma ile ilgili ön koşullara dikkat edin. Aşağıdaki çizim, RSAT ayarları örneğini gösterir. Mavi dikdörtgen, Azure DevOps'a erişimi belirleyen parametreleri barındırır. Yeşil dikdörtgen, örneğe erişimi belirten parametreleri barındırır.
+- Kullanıcı kabul ve tümleştirme testlerini otomatik olarak çalıştırmak için RSAT'ı kullandığınız topolojiye yüklemeli ve uygun şekilde yapılandırmalısınız. RSAT'yi nasıl yükleyip yapılandırcağınız ve Finance and Operations uygulamaları ve Azure DevOps ile çalıştırmak için nasıl yapılandıracağınız hakkında daha fazla bilgi için bkz. [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Aracı kullanma ile ilgili ön koşullara dikkat edin. Aşağıdaki çizim, RSAT ayarları örneğini gösterir. Mavi dikdörtgen, Azure DevOps'a erişimi belirleyen parametreleri barındırır. Yeşil dikdörtgen, örneğe erişimi belirten parametreleri barındırır.
 
     ![RSAT ayarları.](media/GER-Configure.png "RSAT Ayarları iletişim kutusunun ekran görüntüsü")
 
 - Daha fazla raporlama ve inceleme için test olaylarının günlüklerini toplayabilmek amacıyla, paketlerdeki test yürütmelerini, doğru yürütme sırasının sağlanmasına yardımcı olmak için organize etmek amacıyla, topolojiden dağıtılmış Azure DevOps'a erişiminiz olmalıdır.
-- Bu konudaki örneği tamamlamak için [RSAT testleri için ER kullanımı](https://go.microsoft.com/fwlink/?linkid=874684)'nı indirmenizi öneririz. Bu zip dosyası aşağıdaki görev kılavuzlarını içerir:
+- Bu makaledeki örneği tamamlamak için [RSAT testleri için ER kullanımı](https://go.microsoft.com/fwlink/?linkid=874684)'nı indirmenizi öneririz. Bu zip dosyası aşağıdaki görev kılavuzlarını içerir:
 
     | İçerik                                           | Dosya adı ve yer |
     |---------------------------------------------------|------------------------|

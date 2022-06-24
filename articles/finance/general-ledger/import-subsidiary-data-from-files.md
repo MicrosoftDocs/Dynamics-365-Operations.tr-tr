@@ -1,6 +1,6 @@
 ---
 title: Bağlı şirket verilerini dosyalardan içeri aktarma
-description: Bu konu, Microsoft Dynamics 365 Finance'e içeri aktarılabilmesi için harici sistemlerden veri hazırlamayı açıklamaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Finance'e içeri aktarılabilmesi için harici sistemlerdeki verilerin nasıl hazırlanacağı açıklamaktadır.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 045ecd6dfb95ccf38773293d44834531668ac1ff
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6886e2ee79ee9e4ccc067dc4f661c1eea646cfa6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733833"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846784"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Bağlı şirket verilerini dosyalardan içeri aktarma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Finance'e içeri aktarılabilmesi için harici sistemlerden veri hazırlamayı açıklamaktadır. Harici sistemlerden bağlı şirket verilerinin aktarımını hazırlamak için **İçeri aktarma ile konsolide et** sayfasını (**Konsolidasyonlar \> İçeri aktarma ile konsolide et**) kullanın.
+Bu makalede, Microsoft Dynamics 365 Finance'e içeri aktarılabilmesi için harici sistemlerdeki verilerin nasıl hazırlanacağı açıklamaktadır. Harici sistemlerden bağlı şirket verilerinin aktarımını hazırlamak için **İçeri aktarma ile konsolide et** sayfasını (**Konsolidasyonlar \> İçeri aktarma ile konsolide et**) kullanın.
 
 1. Konsolidasyon için bağlı şirket tüzel kişiliği oluşturun. Tüzel kişilik oluşturma hakkında bilgi için bkz. [Tüzel kişilik oluşturma](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md). Daha fazla bilgi için bkz [Konsolidasyon işleminde kullanılacak tüzel kişilik hazırlama](prepare-company-for-consolidation.md) ve [Konsolidasyon için bir alt şirket tüzel kişiliği ayarlama](set-up-subsidiary-company-for-consolidation.md).
 

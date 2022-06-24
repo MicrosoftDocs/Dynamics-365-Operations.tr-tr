@@ -1,6 +1,6 @@
 ---
-title: Borç hesapları fatura eşleştirme doğrulaması ayarlama
-description: Bu konu, doğrulama ile ilgili borç hesapları fatura eşleştirmesinin nasıl ayarlanacağı konusunda bilgi sağlar.
+title: Borç hesapları için fatura eşleştirme doğrulaması ayarlama
+description: Bu makale, doğrulama ile ilgili borç hesapları fatura eşleştirmesinin nasıl ayarlanacağı konusunda bilgi sağlar.
 author: abruer
 ms.date: 02/14/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 86cc5cf688e3b66cf976fc7f507bd8f8df757612
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182567"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904973"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Borç hesapları fatura eşleştirme doğrulaması ayarlama
 
@@ -44,7 +44,7 @@ Dört farklı eşleşen doğrulama türü vardır.
 5. Gerçek fatura toplamlarını beklenen toplamlarla eşleştirmek için, **Fatura toplamlarını eşleştir** onay kutusunu seçin veya kutunun işaretini kaldırın.
     * Fatura eşleştirmesindeki bir uyuşmazlık toleransı aştığı zaman simge görüntülenip görüntülenmeyeceğini belirtin. Toleransı aşan uyuşmazlık pozitif olduğunda veya pozitif ya da negatif olduğunda simge görüntülenmesini seçebilirsiniz.  
     * Örneğin, tolerans yüzde 5 ve satınalma siparişindeki toplam fatura tutarı 100,00 olsun. Bu nedenle, faturadaki toplam fatura tutarı 105,00'i aştığı takdirde bir fiyat eşleşme simgesi görüntülenir. **Büyükse veya düşükse toleransı**'nı seçerseniz, simge, fatura tutarının 95,00'ten az olması durumunda da görüntülenir.  
-6. **Fatura toplamları tolerans yüzdesi** alanına kabul edilebilir yüzde farkını girin. Bu değer şirketin varsayılan değeridir. Bu değer, **Fatura Toplamları Toleransları** sayfası kullanılarak belirli satıcılar için geçersiz kılınabilir. Belirli bir satıcı için fatura toplamları tolerans yüzdesini geçersiz kılma hakkında bilgi için bu konunun ilerleyen bölümlerindeki "satıcılar için fatura toplamları eşleştirme toleransını ayarlama" bölümüne bakın.
+6. **Fatura toplamları tolerans yüzdesi** alanına kabul edilebilir yüzde farkını girin. Bu değer şirketin varsayılan değeridir. Bu değer, **Fatura Toplamları Toleransları** sayfası kullanılarak belirli satıcılar için geçersiz kılınabilir. Belirli bir satıcı için fatura toplamları tolerans yüzdesini geçersiz kılma hakkında bilgi için bu makalenin ilerleyen bölümlerindeki "Satıcılar için fatura toplamları eşleştirme toleransını ayarlama" bölümüne bakın.
 7. **Fiyat ve miktar eşleştirme**'yi ayarlayın.
 8. **Satır eşleştirme ilkesi** alanında birlikte çalıştığınız tüzel kişilik için varsayılan ilke olarak kullanılacak değeri seçin. **Gerekli değil**, tekil fatura satırı fiyatlarının satınalma siparişi fiyatıyla veya fatura miktarlarının sevk irsaliyesi miktarlarıyla eşleştirilmesinde doğrulama yapmak gerekmediği anlamına gelir. **İki Yönlü Eşleştirme** fatura satırlarının doğrulanması gerekmediği, ancak satınalma siparişi ve tedarikçi fatura belgelerinin doğrulamaya dahil edileceği anlamına gelir. Ürün girişi, eşleştirme doğrulamalarında dikkate alınmaz. **Üç Yönlü Eşleştirme** fatura net birim fiyatının satınalma siparişi net birim fiyatıyla karşılaştırılacağı ve eşleşen ürün girişi miktarının fatura miktarıyla karşılaştırılacağı anlamına gelir.
 9. Bir madde, satıcı, satıcı ve madde birleşimi veya satınalma siparişi satırı için uygulanacak eşleştirmede farklı bir düzeye izin vermek için alanında **Eşleştirme ilkesini geçersiz kılmaya izin ver** alanında bir değer seçin. **Eşleştirme ilkesi** sayfasında belirli bir satıcı, madde veya satıcı ve madde birleşimi için tüzel kişilik satır Eşleştirme ilkesinin üzerine yazılabilir.

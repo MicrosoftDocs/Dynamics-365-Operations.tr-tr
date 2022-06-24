@@ -1,6 +1,6 @@
 ---
 title: Yardım sistemi (video içerir)
-description: Bu konuda, Finance ve Operations uygulamaları için Yardım sistemine bir genel bakış sunulmaktadır.
+description: Bu makalede, Finans ve Operasyon uygulamaları için Yardım sistemine dair bir genel bakış sunulmaktadır.
 author: edupont04
 ms.date: 07/20/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898383"
 ---
 # <a name="help-system"></a>Yardım sistemi
 
@@ -70,7 +70,7 @@ Alternatif olarak, uygulamaya göre bir RSS akışına da abone olabilirsiniz:
 
 ### <a name="leave-us-feedback"></a>Geri bildirim bırakın
 
-Bir konuyla ilgili geri bildiriminiz veya sorunuz varsa, sayfanın alt kısmından bize yorum bırakın.
+Bir makaleyle ilgili geri bildiriminiz veya sorunuz varsa, sayfanın alt kısmından bize yorum bırakın.
 
 1. Sayfanın altındaki yorumlara ulaşmak için **Geribildirim**'i seçin. Ardından, **Ürün geribildirimi**'ni veya **Belge geri bildirimi bırakmak için oturum açın**'ı seçin.
 
@@ -83,7 +83,7 @@ Bir konuyla ilgili geri bildiriminiz veya sorunuz varsa, sayfanın alt kısmınd
 
 ## <a name="contribute-to-the-documentation"></a>Belgelere katkıda bulunma
 
-Belgelere katkıda bulunabilir ve düzenlemeler yapabilirsiniz. Başlamak için bir konudaki **Düzenle** düğmesini (kalem simgesi) seçin. Aşağıdaki video, belgelerimize nasıl katkıda bulunabileceğinizi gösterir.
+Belgelere katkıda bulunabilir ve düzenlemeler yapabilirsiniz. Başlamak için bir makaledeki **Düzenle** düğmesini (kalem simgesi) seçin. Aşağıdaki video, belgelerimize nasıl katkıda bulunabileceğinizi gösterir.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
@@ -98,7 +98,7 @@ Daha fazla bilgi için, docs.microsoft.com sitesini oluşturan ekip tarafından 
 
 Bir görev kılavuzu size bir görevin veya iş işlemin adımları boyunca yol gösteren denetimli, destekli, etkileşimli bir deneyimdir. **Yardım** bölmesinden bir görev kılavuzunu açabilirsiniz (oynatabilirsiniz). Görev kılavuzunu ilk defa seçtiğinizde **Yardım** bölmesi görev için talimatları adım adım gösterecektir. Yerelleştirilmiş görev kılavuzları hazır.
 
-Microsoft, Dynamics 365 for Finance and Operations uygulamasının Aralık 2017 sürümünden itibaren ürün sürümleri için görev kılavuzu kitaplıkları yayımladı. Bu konunun [Yardım bölmesinden görev kılavuzlarına erişme](#accessing-task-guides-from-the-help-pane) bölümü, ürününüz için doğru görev kılavuzlarını nasıl bulacağınızı açıklar.
+Microsoft, Dynamics 365 for Finance and Operations uygulamasının Aralık 2017 sürümünden itibaren ürün sürümleri için görev kılavuzu kitaplıkları yayımladı. Bu makalenin [Yardım bölmesinden görev kılavuzlarına erişme](#accessing-task-guides-from-the-help-pane) bölümünde, ürününüz için doğru görev kılavuzlarını nasıl bulacağınız açıklanmaktadır.
 
 ![Görev kılavuzu okuma görünümü.](./media/task-guide-ops.png)
 
@@ -121,7 +121,7 @@ Yardım içeriğine erişmek için **Yardım** düğmesini (**?**) ve ardından 
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Yardım bölmesinden yardım konularına erişme
 
-**Yardım** bölmesinden, istemciyle ilgili konulara erişebilirsiniz. **Yardım** bölmesini ilk kez açtığınızda **Yardım** sekmesi, tıkladığınızda o sırada bulunduğunuz sayfaya uygun konuları gösterir. Konu bulunamadıysa anahtar sözcükler girerek aramanızı daraltabilirsiniz. **Yardım** bölmesinde bir konu seçtiğinizde konu tarayıcınızda yeni bir sekmede açılır.
+**Yardım** bölmesinden, istemciyle ilgili konulara erişebilirsiniz. **Yardım** bölmesini ilk kez açtığınızda **Yardım** sekmesi, tıkladığınızda o sırada bulunduğunuz sayfaya uygun konuları gösterir. Konu bulunamadıysa anahtar sözcükler girerek aramanızı daraltabilirsiniz. **Yardım** bölmesinde bir makale seçtiğinizde söz konusu makale, tarayıcınızda yeni bir sekmede açılır.
 
 > [!IMPORTANT]
 > Bu konu Dynamics 365 Human Resources için geçerli değildir. Human Resources için Yardım sistemi otomatik olarak ürün görev kılavuzlarına bağlanır. Ayrıca, Human Resources için özel görev kılavuzları oluşturamazsınız.

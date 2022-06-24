@@ -1,6 +1,6 @@
 ---
 title: Pozisyonları ayarlama
-description: Bu konu, pozisyonların organizasyon hiyerarşisinin alt düzeylerinin nasıl önemli bir öğesi olduğunu açıklar.
+description: Bu makalede, pozisyonların organizasyon hiyerarşisinin alt düzeylerinin önemli bir öğesi olduğu açıklanmaktadır.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9121df9571b037478fb901cb6ac9f3298177548a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e0c6664166c531bd4c445cc1bb5f0297ce7cff4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694809"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899628"
 ---
 # <a name="set-up-positions"></a>Pozisyonları ayarlama
 

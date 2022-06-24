@@ -1,6 +1,6 @@
 ---
-title: Ekibim mobil çalışma alanı
-description: Bu konu, yöneticilerin astlarını ve genişletilmiş ekiplerini görüntülemelerini sağlayan Ekibim mobil çalışma alanı hakkında bilgi sağlar.
+title: Takımım mobil çalışma alanı
+description: Bu makalede, yöneticilerin astlarını ve genişletilmiş ekiplerini görüntülemelerini sağlayan Ekibim mobil çalışma alanı hakkında bilgi sağlanmaktadır.
 author: ShielaSogge
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7793bd6bb1c2dfb5f6840430914393e837242fb5
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: f15ac24e5c32a42863cac8a9c9754c95aa4ff734
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811071"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868712"
 ---
 # <a name="my-team-mobile-workspace"></a>Takımım mobil çalışma alanı
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Bu konu, **Ekibim** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, yöneticilerin dorudan rapor verenlerini ve genişletilmiş personellerini görüntülemelerine olanak sağlar. Raporlama zincirlerindeki bireylere övgü de gönderebilirler.
+Bu makalede, **Ekibim** mobil çalışma alanı hakkında bilgi sağlanmaktadır. Bu çalışma alanı, yöneticilerin dorudan rapor verenlerini ve genişletilmiş personellerini görüntülemelerine olanak sağlar. Raporlama zincirlerindeki bireylere övgü de gönderebilirler.
 
 Bu mobil çalışma alanı, Finance and Operations mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
 

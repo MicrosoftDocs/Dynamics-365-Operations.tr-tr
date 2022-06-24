@@ -1,6 +1,6 @@
 ---
 title: Lifecycle Services'dan Elektronik raporlama yapılandırmalarını karşıdan yükle
-description: Bu konu, Elektronik raporlama (ER) yapılandırmalarını Microsoft Dynamics Lifecycle Services'dan (LCS) indirmeyi açıklar.
+description: Bu makalede, Elektronik raporlama (ER) yapılandırmalarının Microsoft Dynamics Lifecycle Services'dan (LCS) indirilmesi açıklanmaktadır.
 author: NickSelin
 ms.date: 08/27/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ea603d01d05e98ac69d5a0d12802b5f23ee34793bf4c9b4f885f0e4303f77d2b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ba720f997981e85ea08d532f23341a838533ac4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762284"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885308"
 ---
-# <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Lifecycle Services'dan Elektronik raporlama yapılandırmalarını indirme
+# <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Lifecycle Services'dan Elektronik raporlama yapılandırmalarını karşıdan yükle
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, en yeni [Elektronik raporlama (ER) yapılandırmaları sürümünün](general-electronic-reporting.md#Configuration) Microsoft Dynamics Lifecycle Services'deki (LCS) [Paylaşılan varlık kitaplığı'ndan](../lifecycle-services/asset-library.md) nasıl indirileceğini açıklamaktadır.
+Bu makalede, yeni [Elektronik raporlama (ER) yapılandırmalarının](general-electronic-reporting.md#Configuration) en yeni sürümünün Microsoft Dynamics Lifecycle Services'daki (LCS) [Paylaşılan varlık kitaplığı](../lifecycle-services/asset-library.md)'ndan nasıl indirileceği açıklanmaktadır.
 
 > [!IMPORTANT]
 > LCS'nin, ER yapılandırmaları için saklama deposu olarak kullanılma özelliği [kullanım dışı bırakılıyor](../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Daha fazla bilgi için bkz. [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) depolamasının kullanım dışı bırakılması](../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
@@ -70,7 +70,7 @@ Bu konu, en yeni [Elektronik raporlama (ER) yapılandırmaları sürümünün](g
     [![Yapılandırma deposu sayfası.](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 > [!NOTE]
-> ER ayarlarına bağlı olarak yapılandırmalar içeri aktarıldıktan sonra doğrulanır. Bulunan tutarsızlık sorunları hakkında haberdar edileceksiniz. İçe aktarılmış yapılandırma sürümünü kullanmadan önce bu sorunları çözümlemeniz gerekir. Daha fazla bilgi için bu konunun ilgili konu listesine göz atın.
+> ER ayarlarına bağlı olarak yapılandırmalar içeri aktarıldıktan sonra doğrulanır. Bulunan tutarsızlık sorunları hakkında haberdar edileceksiniz. İçe aktarılmış yapılandırma sürümünü kullanmadan önce bu sorunları çözümlemeniz gerekir. Daha fazla bilgi için bu makalenin ilgili makaleler listesine göz atın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

@@ -1,6 +1,6 @@
 ---
 title: Parametreli HESAPLANAN ALAN veri kaynakları ekleyerek ER çözümleri performansını iyileştirme
-description: Bu konuda, parametreli HESAPLANAN ALAN veri kaynaklarını ekleyerek, Elektronik raporlama (ER) çözümlerinin performansını artırmaya nasıl yardımcı olabileceğiniz açıklanmaktadır.
+description: Bu makalede, parametreli hale getirilmiş HESAPLANAN ALAN veri kaynaklarını ekleyerek, Elektronik raporlama (ER) çözümlerinin performansını artırmaya nasıl yardımcı olabileceğiniz açıklanmaktadır.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -14,32 +14,32 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fada2fc0b35e22da18f5d6a0505df077d5ada4e0221031d63c316d8c705bc79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c2c0499ac3d41c9bb6026cc05f971087799c28f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753682"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850128"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Parametreli HESAPLANAN ALAN veri kaynakları ekleyerek ER çözümleri performansını iyileştirme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda çalıştırılan [Elektronik raporlama (ER)](general-electronic-reporting.md) biçimlerinin [performans izlemelerini](trace-execution-er-troubleshoot-perf.md) nasıl alabileceğinizi açıklanır ve sonra da bu izlemelerden alınan bilgileri kullanarak parametreli **Hesaplanan alan** veri kaynağı yapılandırarak nasıl performansı artırabileceğiniz açıklanır.
+Bu makalede, çalıştırılan [Elektronik raporlama (ER)](general-electronic-reporting.md) biçimlerinin [performans izlemelerini](trace-execution-er-troubleshoot-perf.md) nasıl alabileceğiniz ve ardından bu izlemelerden alınan bilgileri kullanarak parametreli hale getirilmiş **Hesaplanan alan** veri kaynağını yapılandırarak nasıl performansı artırabileceğiniz açıklanmaktadır.
 
 ER yapılandırmalarının iş belgeleri oluşturmak amacıyla tasarlanması işleminin bir parçası olarak, uygulamadan veri getirmek ve oluşturulan çıktıya girmek için kullanılan yöntemi tanımlayın. **Hesaplanmış alan** türünde bir parametreli ER veri kaynağı tasarlayarak, veritabanı çağrılarının sayısını azaltabilir ve ER ile yapılan biçimlendirme çalışmasının ayrıntılarını toplamada yer alan zaman ve maliyeti önemli ölçüde azaltabilirsiniz.
 
-## <a name="prerequisites"></a>Önkoşullar
+## <a name="prerequisites"></a>Ön Koşullar
 
-- Bu konudaki örnekleri tamamlamak için aşağıdaki [rollerden](../sysadmin/tasks/assign-users-security-roles.md) birine erişiminiz olmalıdır:
+- Bu makaledeki örnekleri tamamlamak için aşağıdaki [rollerden](../sysadmin/tasks/assign-users-security-roles.md) birine erişiminiz olmalıdır:
 
     - Elektronik raporlama geliştirici
     - Elektronik raporlama işlev danışmanı
     - Sistem yöneticisi
 
 - Şirketin **DEMF** olarak ayarlanması gerekir.
-- Bu konunun [Ek 1](#appendix1) bölümündeki adımları izleyerek konudaki örnekleri tamamlamak için gerekli olan Microsoft ER çözümü bileşenlerini indirin.
-- Örnek Microsoft er çözümünün performansını artırmaya yardımcı olmak amacıyla ER altyapısını kullanmak için gereken en az ER parametre kümesini yapılandırmak için bu konunun [Ek 2](#appendix2) bölümündeki adımları izleyin.
+- Bu makalenin [Ek 1](#appendix1) bölümündeki adımları izleyerek makaledeki örnekleri tamamlamak için gerekli olan Microsoft ER çözümü bileşenlerini indirin.
+- Örnek Microsoft ER çözümünün performansını artırmaya yardımcı olmak amacıyla ER altyapısını kullanmak için gereken minimum ER parametre kümesini yapılandırmak için bu makalenin [Ek 2](#appendix2) bölümündeki adımları izleyin.
 
 ## <a name="import-the-sample-er-solution"></a>Örnek ER çözümünü içe aktarma
 
@@ -48,7 +48,7 @@ Satıcı hareketleri sunan yeni bir rapor oluşturmak üzere yeni bir ER çözü
 İlk adım, satıcı hareketleri raporu oluşturmak için örnek ER çözümünü içe aktarmaktır.
 
 1. Şirketiniz için sağlanan Microsoft Dynamics 365 Finance örneğinde oturum açın.
-2. Bu konuda, **Litware, Inc.** örnek şirket için yapılandırmalar oluşturacak ve değiştireceksiniz. Bu yapılandırma sağlayıcısının Finance'e eklenmiş olduğundan ve etkin olarak seçildiğinden emin olun. Daha fazla bilgi için bkz. [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Bu makalede, **Litware, Inc.** örnek şirketi için yapılandırmalar oluşturacak ve değiştireceksiniz. Bu yapılandırma sağlayıcısının Finance'e eklenmiş olduğundan ve etkin olarak seçildiğinden emin olun. Daha fazla bilgi için bkz. [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. **Elektronik raporlama** çalışma alanında **Raporlama yapılandırmaları** kutucuğunu seçin.
 4. **Yapılandırmalar** sayfasında, önkoşul olarak karşıdan yüklediğiniz ER yapılandırmalarını aşağıdaki sırada Finance içine aktarın: veri modeli, model eşleme, biçim. Her bir yapılandırma için şu adımları izleyin:
 
@@ -220,7 +220,7 @@ Veritabanında çoğaltılan çağrıların engellenmesine yardımcı olmak amac
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Çalışmayı izlemek için değiştirilmiş ER çözümünü çalıştırın
 
-Yeni bir performans izleme oluşturmak için bu konuda daha önce işlenen [ER biçimini çalıştır](#run-format) bölümündeki adımları tekrar edin.
+Yeni bir performans izleme oluşturmak için bu makalenin önceki kısımlarında yer alan [ER biçimini çalıştırma](#run-format) bölümündeki adımları tekrar edin.
 
 ## <a name="use-the-performance-trace-to-analyze-adjustments-to-the-model-mapping"></a>Model eşlemede ayarlamaları çözümlemek için performans izlemesini kullanma 
 

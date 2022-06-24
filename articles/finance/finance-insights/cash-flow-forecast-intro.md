@@ -1,6 +1,6 @@
 ---
 title: Nakit tahmini
-description: Bu konuda, Nakit akışı tahmini özelliği açıklanmaktadır.
+description: Bu makalede, Nakit akışı tahmini özelliği açıklanmaktadır.
 author: ShivamPandey-msft
 ms.date: 12/21/2021
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2ed6795073b4a013df7a6a8a7a61df2c11525c51
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: dde0ba43b4878aff0bf2d3e77411a9d615c8c8b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711016"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901445"
 ---
 # <a name="cash-forecast"></a>Nakit tahmini
 

@@ -1,6 +1,6 @@
 ---
 title: Yerleşik master planlama ile Planlama Optimizasyonu arasındaki farklar
-description: Bu konuda, Planlama Optimizasyonu'nun henüz desteklemediği ve Planlama Optimizasyonu uygunluk analizi sayfasında listelenmeyen özellikler listelenmektedir.
+description: Bu makalede, Planlama Optimizasyonu'nun henüz desteklemediği ve Planlama Optimizasyonu uygunluk analizi sayfasında listelenmeyen özellikler listelenmektedir.
 author: t-benebo
 ms.date: 07/30/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c73587015d6714c409819ab19ad68685aaa71cf7
-ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
+ms.openlocfilehash: cf39166dce860dbd796cb4749175628252ed96ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "8618274"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897588"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Yerleşik master planlama ile Planlama Optimizasyonu arasındaki farklar
 
 [!include [banner](../../includes/banner.md)]
 
-Planlama Optimizasyonu sonuçları, yerleşik master planlama motorundan alınan sonuçlardan farklı olabilir. Farklılıkların nedeni beklemedeki özellikler olabilir. Bu konuda, Planlama Optimizasyonu'nun henüz desteklemediği ve **[Planlama Optimizasyonu uygunluk analizi](planning-optimization-fit-analysis.md)** sayfası'nda listelenmeyen özellikler listelenmektedir].
+Planlama Optimizasyonu sonuçları, yerleşik master planlama motorundan alınan sonuçlardan farklı olabilir. Farklılıkların nedeni beklemedeki özellikler olabilir. Bu makalede, Planlama Optimizasyonu'nun henüz desteklemediği ve **[Planlama Optimizasyonu uygunluk analizi](planning-optimization-fit-analysis.md)** sayfası'nda listelenmeyen özellikler listelenmektedir].
 
 | Özellik | Planlama Optimizasyonu'nun geçerli davranışı |
 |---|---|

@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Service (RCS) - Lifecycle Services (LCS) depolama kullanımdan kalkma
-description: Bu konu, Regulatory Configuration Service'in (RCS) kullanıma sunulmasının bir parçası olarak Microsoft Dynamics Lifecycle Services'ın (LCS) kullanımdan kaldırılmasıyla ilgili bilgiler sağlar.
+description: Bu makalede, Regulatory Configuration Service'ın (RCS) kullanıma sunulmasının bir parçası olarak Microsoft Dynamics Lifecycle Services'ın (LCS) kullanımdan kaldırılmasıyla ilgili bilgiler sağlanmaktadır.
 author: JaneA07
 ms.date: 10/27/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 8862f42f3ceaed7e1413c49cf9b91f0449fab67b
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 4a35941d1521d26f95bacf29213fee42daeb42ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547996"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849745"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) depolama kullanımdan kalkma
 
@@ -85,7 +85,7 @@ RCS, *bağlı uygulama* kavramını kullanır. Bağlı uygulama, RCS ve tüm Fin
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Kurulum ve yönetimi gösteren örnekler var mı?
 
-Örnek yoktur, ancak yapılandırmalarınızı RCS Genel depoya geçirmek için bu konudaki önceki adımları tamamlayabilirsiniz.
+Örnek yoktur, ancak yapılandırmalarınızı RCS Genel deposuna geçirmek için bu makaledeki önceki adımları tamamlayabilirsiniz.
 
 ### <a name="is-rcs-a-prerequisite-to-configure-electronic-reporting"></a>RCS, Elektronik raporlama konfigüre etmek için ön koşul mudur?
 

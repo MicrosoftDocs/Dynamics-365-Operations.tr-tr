@@ -1,6 +1,6 @@
 ---
 title: Yazdırılabilir FTI formları oluşturma
-description: Bu konuda, yazdırılabilir serbest metin faturası (FTI) formlarını Microsoft Office belgeleri olarak oluşturmak için Elektronik raporlama (ER) altyapısının nasıl kullanılacağı açıklanmaktadır.
+description: Bu makalede, yazdırılabilir serbest metin faturası (FTI) formlarını Microsoft Office belgeleri olarak oluşturmak için Elektronik raporlama (ER) altyapısının nasıl kullanılacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 07/24/2018
 ms.topic: article
@@ -14,25 +14,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: be5e3ef0f6ecb3d8f911b5be5f8bc9102d201fd299425e847a2df233d9b4edf4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d4efbb46bbba2b139bbcf9b07c480a7e8669fd7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758228"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868843"
 ---
 # <a name="generate-printable-fti-forms"></a>Yazdırılabilir FTI formları oluşturma
 
 [!include[banner](../includes/banner.md)]
 
-Elektronik raporlama (ER) altyapısı, yazdırılabilir serbest metin faturası (FTI) formlarını Microsoft Office belgeleri olarak oluşturmanızı sağlar. Bu konuda, kendi yapılandırmalarınızı oluşturma ve kullanılabilir yapılandırma şablonlarının ayrıntıları hakkında bilgiler sağlanmaktadır.
+Elektronik raporlama (ER) altyapısı, yazdırılabilir serbest metin faturası (FTI) formlarını Microsoft Office belgeleri olarak oluşturmanızı sağlar. Bu makalede, kendi yapılandırmalarınızı oluşturma ve kullanılabilir yapılandırma şablonlarının ayrıntıları hakkında bilgiler sağlanmaktadır.
 
 ## <a name="overview"></a>Genel bakış
 
 Microsoft SQL Server Reporting Services (SSRS) kullanılarak yazdırılabilir FTI formları oluşturma özelliğinin yanı sıra artık ER altyapısını da kullanabilirsiniz. Microsoft Office Excel ve Word'de yazdırılabilir FTI formlarını yönetebilirsiniz. Ayrıca özel gereksinimleri karşılamak için kod değişikliği yapmadan düzeni, veri akışını ve biçimlendirmeyi de değiştirebilirsiniz.
 
 > [!NOTE]
-> Yazdırılabilir FTI formları çözümünün bu örneği için mevcut ER yapılandırmalarına genel bakış ile başlamak isterseniz doğrudan bu konunun ilerleyen bölümlerinde açıklanan **Yazdırılabilir FTI formları oluşturmak için örnek ER yapılandırmalarını indirme** bölümüne gidebilirsiniz.
+> Yazdırılabilir FTI formları çözümünün bu örneği için mevcut ER yapılandırmalarına genel bakış ile başlamak isterseniz doğrudan bu makalenin ilerleyen bölümlerinde açıklanan **Yazdırılabilir FTI formları oluşturmak için örnek ER yapılandırmalarını indirme** bölümüne gidebilirsiniz.
 
 ## <a name="create-customized-configurations-for-fti-printable-forms"></a>Yazdırılabilir FTI formları için özelleştirilmiş yapılandırmalar oluşturma
 Yazdırılabilir FTI formları için özelleştirilmiş çözümünüzün bir parçası olarak bir dizi ER yapılandırması oluşturmanız gerekir.
@@ -108,7 +108,7 @@ FTI formlarını bu şekilde yazdırmak için ER biçimlerini kullandığınızd
 ER altyapısı şu anda oluşturulan belgeler için aşağıdaki hedefleri destekler:
 
 - **İndirilen dosya**: Oluşturulan formlar, tarayıcıyı kullanarak kaydedebileceğiniz indirmeler şeklinde sunulur.
-- **Ekran**: Microsoft 365 Excel, Excel biçiminde oluşturulan FTI formlarını önizlemek için kullanılır.
+- **Ekran** - Microsoft 365 Excel, Excel biçiminde oluşturulan FTI formlarını önizlemek için kullanılır.
 - **SharePoint klasörü** - Oluşturulan formlar, Belge yönetimi altyapısının ayarlarına göre depolanır.
 - **Uygulama arşivi** - Oluşturulan formlar Microsoft Azure Depolama'da yürütme günlüğü kayıtlarının ekleri olarak depolanır.
 - **E-posta**: Oluşturulan formlar e-posta ekleri şeklinde gönderilir.

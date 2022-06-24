@@ -1,6 +1,6 @@
 ---
 title: İş muafiyet durumu
-description: Bu konu, Dynamics 365 Human Resources için İş Muafiyeti durumu seçenek kümesini açıklar.
+description: Bu makalede, Dynamics 365 Human Resources için İş muafiyet durumu seçenek kümesi açıklanmaktadır.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 29d3c4fd37a219b520172c6866c5fec488c698f7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e59a71264d50cecce4d31dfa26ad7f05ef3f34e4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065003"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894686"
 ---
 # <a name="job-exempt-status"></a>İş muafiyet durumu
 
@@ -27,7 +27,7 @@ ms.locfileid: "8065003"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konu, Dynamics 365 Human Resources için İş Muafiyeti durumu seçenek kümesini açıklar.
+Bu makalede, Dynamics 365 Human Resources için İş muafiyet durumu seçenek kümesi açıklanmaktadır.
 
 Fiziksel ad: cdm_jobexemptstatus
 

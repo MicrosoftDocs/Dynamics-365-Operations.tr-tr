@@ -1,6 +1,6 @@
 ---
 title: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
-description: Bu konuda, kaldırılmış olan veya Dynamics 365 for Finance and Operations'dan kaldırılması planlanan özellikler açıklanmaktadır.
+description: Bu makalede, kaldırılmış olan veya Dynamics 365 for Finance and Operations'dan kaldırılması planlanan özellikler açıklanmaktadır.
 author: sericks007
 ms.date: 02/16/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6dfe1cf9d3d67c6b65f64248d48a2e7420a47c93
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2d8c79057c157f9f0244ea11ad5c3563dcdb21a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063249"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866199"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
 
@@ -28,9 +28,9 @@ ms.locfileid: "8063249"
 
 
 > [!IMPORTANT]
-> Bu konu artık güncelleştirilmeyecektir. Finans ve Operasyon uygulamalarından kaldırılmış veya kullanımı sonlandırılmış özelliklerin geçerli listesini görmek için, kullanmakta olduğunuz uygulamayla ilgili **"Kaldırılan veya kullanım dışı bırakılan özellikler"** içeriğini arayın.
+> Bu makale artık güncelleştirilmeyecektir. Finans ve Operasyon uygulamalarından kaldırılmış veya kullanımı sonlandırılmış özelliklerin geçerli listesini görmek için, kullanmakta olduğunuz uygulamayla ilgili **"Kaldırılan veya kullanım dışı bırakılan özellikler"** içeriğini arayın.
 
-Bu konu, Dynamics 365 for Finance and Operations'dan ve bu ürünün önceki sürümlerinden kaldırılan veya kullanımı sonlandırılan özellikleri açıklar.
+Bu makalede, Dynamics 365 for Finance and Operations'dan ve bu ürünün önceki sürümlerinden kaldırılan veya kullanımı sonlandırılan özellikler açıklanmaktadır.
 
 - *Kaldırılan* özellik artık üründe bulunmaz.
 - *Kullanımına son verilen* özellik etkin geliştirmede değildir ve sonraki güncellemede kaldırılabilir.

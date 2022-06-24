@@ -1,6 +1,6 @@
 ---
 title: Ambar işi için mobil cihazları ayarlama
-description: Bu konuda, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek için kullandığı menü öğelerinin nasıl konfigüre edileceği açıklanmaktadır.
+description: Bu makalede, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek için kullandığı menü öğelerinin nasıl konfigüre edileceği açıklanmaktadır.
 author: Mirzaab
 ms.date: 03/23/2020
 ms.topic: article
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9e0f27839d9e6330cc8a11874a5cb1786daf8dc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: efbf9072c3bbcb20f38e144f9a15d8178d96d708
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902208"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905587"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Ambar işi için mobil cihazları ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek için kullandığı menü öğelerinin nasıl konfigüre edileceği açıklanmaktadır.
+Bu makalede, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek için kullandığı menü öğelerinin nasıl konfigüre edileceği açıklanmaktadır.
 
 > [!NOTE]
-> Bu konu, Ambar yönetimindeki özellikler için geçerlidir. Stok yönetimindeki özellikler için geçerli değildir. Bir ambar mobil cihazında görülen menü öğeleri, **Mobil cihaz menü öğeleri** sayfasında yapılandırılır. Menü öğeleri farklı menülere konabileceğinden, menü yapılarını yalnızca belirli iş türleri belirli kurallara maruz kalacak şekilde yapılandırmak kolaydır. Menü öğelerini aşağıdaki görevleri gerçekleştirecek şekilde yapılandırabilirsiniz:
+> Bu makale, Ambar yönetimindeki özellikler için geçerlidir. Stok yönetimindeki özellikler için geçerli değildir. Bir ambar mobil cihazında görülen menü öğeleri, **Mobil cihaz menü öğeleri** sayfasında yapılandırılır. Menü öğeleri farklı menülere konabileceğinden, menü yapılarını yalnızca belirli iş türleri belirli kurallara maruz kalacak şekilde yapılandırmak kolaydır. Menü öğelerini aşağıdaki görevleri gerçekleştirecek şekilde yapılandırabilirsiniz:
 
 - Bir sorgu işleyin veya etiket yazdırma, plaka numarası oluşturma, üretim emrini başlatma ya da bir konumdaki maddeler hakkındaki bilgilere hızlıca bakma gibi bir etkinlik gerçekleştirin.
 - Başka bir süreç üzerinden gerçekleştirilecek bir iş oluşturun. Örneğin, bir satınalma emrine yönelik bir madde almak, başka bir çalışan için yerine koyma işi oluşturabilir.
@@ -38,7 +38,7 @@ Bu konuda, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek iç
 Bir etkinlik veya sorgulama için bir menü öğesi oluşturmak için, **Mod** alanını **Dolaylı** olarak ayarlayın. **Etkinlik kodu** seçeneklerinin listesi etkin hale gelir, böylece menü öğesinin hangi sorgu ve etkinlik türünü seçebilirsiniz. Ambarlama işi oluşturma için bir menü öğesi oluşturabilmek için **Mod** alanını **İş** olarak ayarlayın. **İş oluşturma işlemi** seçeneklerinin bir listesi kullanılabilir hale gelir. Mevcut ambar işini işlemek üzere bir menü öğesi oluşturmak için, **Mod** alanını **İş** olarak ayarlayın ve ardından **Mevcut işi kullan** seçeneğini **Evet** olarak ayarlayın. 
 
 > [!NOTE]
-> Ek alanlar, menü öğesi için seçtiğiniz moda ve menü öğesinin var olan işi gerçekleştirmek için kullanılıp kullanılmayacağına bağlı olarak menü öğeleri için kullanılabilir olabilir. Ek alan seçimleri hakkında daha fazla bilgi için, bu konunun ilerleyen noktalarındaki "Ek menü maddesi seçenekleri" bölümüne bakınız.
+> Ek alanlar, menü öğesi için seçtiğiniz moda ve menü öğesinin var olan işi gerçekleştirmek için kullanılıp kullanılmayacağına bağlı olarak menü öğeleri için kullanılabilir olabilir. Ek alan seçimleri hakkında daha fazla bilgi için, bu makalenin ilerleyen noktalarındaki "Ek menü maddesi seçenekleri" bölümüne bakınız.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Etkinlik ve sorgular için menü öğeleri yapılandırma
 

@@ -1,6 +1,6 @@
 ---
 title: Eleme kuralları
-description: Bu konuda, eleme kuralları ve elemeler hakkında raporlama için çeşitli seçenekler ile ilgili bilgiler verilmektedir.
+description: Bu makalede, eleme kuralları ve elemeler hakkında raporlama için çeşitli seçenekler ile ilgili bilgiler verilmektedir.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e062e7541871d77803cbed475d715621b19537f1
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3eb3ea117959dbc51eb5666aad60299210ff3ac5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722647"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864324"
 ---
 # <a name="elimination-rules"></a>Eleme kuralları
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, eleme kuralları ve elemeler hakkında raporlama için çeşitli seçenekler ile ilgili bilgiler verilmektedir.
+Bu makalede, eleme kuralları ve elemeler hakkında raporlama için çeşitli seçenekler ile ilgili bilgiler verilmektedir.
 
 Bir ana tüzel kişilik bir veya daha fazla tüzel kişilikle iş yapıyor ve konsolide finansal raporlama kullanıyorsa eleme hareketleri gerekir. Konsolide mali tablolar yalnızca konsolide kuruluş ve bu kuruluşların dışındaki diğer varlıklar arasındaki hareketleri içerebilir. Bu nedenle, aynı kuruluşun parçası olan tüzel kişilikler arasındaki hareketler genel muhasebeden kaldırılarak veya elenerek mali raporlarda görünmemesi sağlanmalıdır. Elemeler hakkında rapor hazırlamanın birden çok yolu vardır:
 
@@ -34,7 +34,7 @@ Bir ana tüzel kişilik bir veya daha fazla tüzel kişilikle iş yapıyor ve ko
 -   Elemeler hesaplarını ve boyutlarını belirli satır veya sütunda göstermek için mali raporlama kullanılabilir.
 -   Elemeleri izlemek üzere el ile hareket girişlerini nakletmek için ayrı bir tüzel kişilik kullanılabilir.
 
-Bu konuda, konsolidasyon veya eleme şirketinde işlenen eleme kurallarına odaklanılmaktadır. Elemeler için hedef tüzel kişilik olarak belirtilen bir tüzel kişilikte eleme hareketleri oluşturmak için eleme kuralları ayarlayabilirsiniz. Bu hedef tüzel kişilik, eleme tüzel kişiliği olarak bilinir. Eleme günlükleri konsolidasyon işlemi sırasında veya bir eleme günlüğü teklifi kullanılarak oluşturulabilir. Eliminasyon günlükleri ayarlamadan önce aşağıdaki terimler hakkında bilginiz olmalı:
+Bu makalede, konsolidasyon veya eleme şirketinde işlenen eleme kurallarına odaklanılmaktadır. Elemeler için hedef tüzel kişilik olarak belirtilen bir tüzel kişilikte eleme hareketleri oluşturmak için eleme kuralları ayarlayabilirsiniz. Bu hedef tüzel kişilik, eleme tüzel kişiliği olarak bilinir. Eleme günlükleri konsolidasyon işlemi sırasında veya bir eleme günlüğü teklifi kullanılarak oluşturulabilir. Eliminasyon günlükleri ayarlamadan önce aşağıdaki terimler hakkında bilginiz olmalı:
 
 -   **Kaynak tüzel kişilik** – Elenmekte olan tutarların nakledildiği tüzel kişilik.
 -   **Hedef tüzel kişilik** – Eleme kurallarının çıkarıldığı tüzel kişilik.

@@ -1,6 +1,6 @@
 ---
 title: Formüllerdeki ve içeriklerindeki değişiklikleri yönetme
-description: Bu konuda, formül yönetiminin nasıl yapılması ve üretim ana verilerinin işlenmesine yapılan değişikliklerin nasıl yönetileceği açıklanmaktadır.
+description: Bu makalede, formül yönetiminin nasıl yapılması ve üretim ana verilerinin işlenmesine yapılan değişikliklerin nasıl yönetileceği açıklanmaktadır.
 author: t-benebo
 ms.date: 05/19/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 31953fd29c471e52bd63dbb02c20f5f224c3cae2
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 8105ebc7f3698a6baaa04b6548dac18a7bf81a47
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103056"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904086"
 ---
 # <a name="manage-changes-in-formulas-and-their-ingredients"></a>Formüllerdeki ve içeriklerindeki değişiklikleri yönetme
 
@@ -29,7 +29,7 @@ Microsoft Dynamics 365 Supply Chain Management'un işlem üretme yeteneklerini k
 
 ## <a name="turn-this-feature-on-or-off"></a>Bu özelliği açma veya kapatma
 
-Bu konuda açıklanan işlev, sisteminiz için hem *Mühendislik Değişiklik Yönetimi* hem de *Formüllerdeki ve formül içeriklerindeki değişiklikleri yönet* özelliğinin açık olmasını gerektirir. Bu özelliklerin nasıl açılacağı veya kapatılacağı hakkında ayrıntılar için bkz. [Mühendislik değişiklik yönetimine genel bakış](product-engineering-overview.md).
+Bu makalede açıklanan işlev, sisteminiz için hem *Mühendislik Değişiklik Yönetimi* hem de *Formüllerdeki ve formül içeriklerindeki değişiklikleri yönet* özelliğinin açık olmasını gerektirir. Bu özelliklerin nasıl açılacağı veya kapatılacağı hakkında ayrıntılar için bkz. [Mühendislik değişiklik yönetimine genel bakış](product-engineering-overview.md).
 
 ## <a name="feature-naming-conventions"></a>Özellik adlandırma kuralları
 
@@ -46,7 +46,7 @@ Aşağıdaki listede, mühendislik değişikliği yönetimi özelliklerinin form
 - **Hazır olma denetimi** – Tüm gerekli ürün verilerinin ürün bırakılmadan önce tam olarak girildiğinden emin olmak için sistem denetimlerini ve kullanıcı kılavuzunu (soru formları ve denetim listeleri) kullanın. Daha fazla bilgi için bkz. [Ürün hazırlığı](product-readiness.md).
 - **Geliştirilmiş ürün sürüm işlevselliği** – Bir ürünün tam olarak tanımlanan sürümlerini ve bir kuruluştan (yasal tüzel kişiliği) diğer hukuk varlıklarına yayınlayın. Ürün bilgilerinin yayınlanmadan önce incelenmesi veya düzenlenmesi gerekip gerekmediğine bile karar verebilirsiniz. Daha fazla bilgi için bkz. [Ürün yapılarını serbest bırakma](release-product-structure.md).
 
-Önceki listede bağlanan konuların çoğunun ürün reçetelerini (BOM) temel alan örnekler sağlamasını unutmayın. Ancak, formüller benzer şekilde çalışır. Formülleri ve ürün reçetelerini yönetmek için değişiklik yönetimini (veya yalnızca formül değişikliği yönetimi) kullandığınızda bilmeniz faydalı olan bazı ek kavramlar şunlardır:
+Önceki listede bağlanan makalelerin çoğunun ürün reçetelerini (BOM) temel alan örnekler sağlamasını unutmayın. Ancak, formüller benzer şekilde çalışır. Formülleri ve ürün reçetelerini yönetmek için değişiklik yönetimini (veya yalnızca formül değişikliği yönetimi) kullandığınızda bilmeniz faydalı olan bazı ek kavramlar şunlardır:
 
 - Her bir [ürün mühendisliği kategorisi](engineering-versions-product-category.md) için, üretim tipini (ürün reçetesi, formül veya planlama maddesi) belirtebilirsiniz. Ayrıca, bu kategoriyi kullanan ürünler için fiili ağırlık desteğinin gerekli olup olmadığını da belirtebilirsiniz.
 - Ortak ürünler ve yan ürünler, mühendislik ürünleri değildir. Bu nedenle, bunlar sürümlenmiş değildir. Bunları değiştirmeniz gerekiyorsa, yeni bir ürün oluşturmanız yeterlidir. Bu yaklaşım bakımın daha kolay olmasını sağlar.

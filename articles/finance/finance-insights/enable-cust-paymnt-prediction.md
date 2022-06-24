@@ -1,6 +1,6 @@
 ---
 title: Müşteri ödeme tahminlerini etkinleştirme
-description: Bu konuda, Mali içgörülerde Müşteri ödeme tahminleri özelliğinin nasıl açılacağı ve yapılandırılacağı açıklanmaktadır.
+description: Bu makalede, Finance Insights'taki Müşteri ödeme tahminleri özelliğinin nasıl etkinleştirileceği ve yapılandırılacağı açıklanmaktadır.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a52d38e8fb842c7fbc8adf60a6daaef6cdc9d5ec
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f04ee9db5efe3595dea30d641c5097d6b90c0d77
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713374"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898221"
 ---
 # <a name="enable-customer-payment-predictions"></a>Müşteri ödeme tahminlerini etkinleştirme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Mali içgörülerde Müşteri ödeme tahminleri özelliğinin nasıl açılacağı ve yapılandırılacağı açıklanmaktadır. Özelliği **Özellik yönetimi** çalışma alanında açabilir ve yapılandırma ayarlarını **Finance Insights yapılandırması** sayfasında girebilirsiniz. Bu konu ayrıca özelliği etkili şekilde kullanmanıza yardımcı olabilecek bilgiler de içerir.
+Bu makalede, Finance Insights'taki Müşteri ödeme tahminleri özelliğinin nasıl etkinleştirileceği ve yapılandırılacağı açıklanmaktadır. Özelliği **Özellik yönetimi** çalışma alanında açabilir ve yapılandırma ayarlarını **Finance Insights yapılandırması** sayfasında girebilirsiniz. Bu makalede, özelliği etkili şekilde kullanmanıza yardımcı olabilecek bilgiler de yer almaktadır.
 
 > [!NOTE]
-> Aşağıdaki adımları tamamlamadan önce, [Mali içgörüler için yapılandırma](configure-for-fin-insites.md) konusundaki ön koşul adımlarını tamamladığınızdan emin olun.
+> Aşağıdaki adımları tamamlamadan önce, [Finance Insights için yapılandırma](configure-for-fin-insites.md) makalesindeki ön koşul adımlarını tamamladığınızdan emin olun.
 
 1. Müşteri ödeme tahminleri özelliğini açın:
 

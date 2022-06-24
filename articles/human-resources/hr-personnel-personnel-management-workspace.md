@@ -1,6 +1,6 @@
 ---
 title: Personel yönetimi çalışma alanı
-description: Bu konu, Personel yönetimi çalışma alanının kavramsal öğelerini açıklar.
+description: Bu makalede, Personel yönetimi çalışma alanının kavramsal öğeleri açıklanmaktadır.
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8b7493aa2df65b42d0da8a451c40cccafbc1cda8
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: fc424905bc9311662859b900636a68de2f7ee3cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689480"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888773"
 ---
 # <a name="personnel-management-workspace"></a>Personel yönetimi çalışma alanı
 
@@ -29,7 +29,7 @@ ms.locfileid: "8689480"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-**Personel yönetimi** çalışma alanı çok büyük miktarda içerik içerir. Personel hareketlerini içerir, personel değişikliklerini, açık pozisyonları, adres değişikliklerini, tarihi sona eren kayıtları ve analizi izler ve belirli bilgilere bağlantılar sağlar. Bu konu çalışma alanının her bölümü hakkında ayrıntılı bilgiler sağlar.
+**Personel yönetimi** çalışma alanı çok büyük miktarda içerik içerir. Personel hareketlerini içerir, personel değişikliklerini, açık pozisyonları, adres değişikliklerini, tarihi sona eren kayıtları ve analizi izler ve belirli bilgilere bağlantılar sağlar. Bu makalede çalışma alanının her bölümü hakkında ayrıntılı bilgiler sağlanmaktadır.
 
 ## <a name="activity-tab"></a>Faaliyet sekmesi
 

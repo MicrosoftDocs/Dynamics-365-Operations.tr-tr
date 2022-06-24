@@ -1,6 +1,6 @@
 ---
 title: Yapılandırmalarla çalışma
-description: Bu konu, Genelleştirme özellikleri çalışma alanındaki Elektronik raporlama (ER) konfigürasyonlarıyla çalışmaya yönelik ana senaryonun genel görünümünü sağlar.
+description: Bu makalede, Genelleştirme özellikleri çalışma alanındaki Elektronik raporlama (ER) yapılandırmalarıyla çalışmaya yönelik ana senaryona dair genel bir bakış sağlanmaktadır.
 author: dkalyuzh
 ms.date: 01/26/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4318399ee58ed54b29f8d360345b8930238ea9f2
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 359f00336811efd5f21463a325627df0e01a5f3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371835"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875956"
 ---
 # <a name="work-with-configurations"></a>Yapılandırmalarla çalışma
 

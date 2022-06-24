@@ -1,6 +1,6 @@
 ---
 title: Takılmış toplu işleri sıfırlama
-description: Bu konu, takılan toplu işlerle ilgili sorunların nasıl giderileceğini açıklamaktadır.
+description: Bu makalede, takılan toplu işlerle ilgili sorunların nasıl giderileceği açıklanmaktadır.
 author: twheeloc
 ms.date: 03/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: Platform update 42
-ms.openlocfilehash: 2602bd954daac563cbc50810c6fe0d79dc71a62b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b56a16257a45dd093d10b7550b13d6a4a1ceb1f7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695005"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896032"
 ---
 # <a name="reset-stuck-batch-jobs"></a>Takılmış toplu işleri sıfırlama
 

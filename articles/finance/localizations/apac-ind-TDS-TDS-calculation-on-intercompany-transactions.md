@@ -1,6 +1,6 @@
 ---
 title: Şirketlerarası hareketlerde TDS hesaplaması
-description: Bu konu, şirketlerarası hareketlerdeki aşamalardaki Kaynakta Kesilen Vergiyi (TDS) hesaplamak için kullanılan işlemi açıklamaktadır.
+description: Bu makalede, şirketlerarası hareketlerde Kaynakta Kesilen Vergiyi (TDS) hesaplamak için kullanılan işlem aşamalı olarak açıklanmaktadır.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 381b00c64e3e3a09a245c82cbe1f1599986a49aa
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: c27bea997804f2c5eff6be2b20064b272ccd062f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726991"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888987"
 ---
 # <a name="tds-calculation-on-intercompany-transactions"></a>Şirketlerarası hareketlerde TDS hesaplaması
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, şirketlerarası hareketlerdeki aşamalardaki Kaynakta Kesilen Vergiyi (TDS) hesaplamak için kullanılan işlemi açıklamaktadır.
+Bu makalede, şirketlerarası hareketlerde Kaynakta Kesilen Vergiyi (TDS) hesaplamak için kullanılan işlem aşamalı olarak açıklanmaktadır.
 
 Bir şirketlerarası satınalma siparişi veya satış siparişi oluşturulduğunda, TDS tutarını hesaplamak için müşteri veya satıcı için tanımlanan varsayılan TDS grubu kullanılır. TDS tutarı, fatura deftere nakledildikten sonra kurtarılabilir veya borç hesaplarına nakledilir.
 

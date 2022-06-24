@@ -1,6 +1,6 @@
 ---
 title: KDV Beyannamesi (Almanya)
-description: Bu konuda, resmi XML biçiminde Almanya'ya ilişkin ön katma değer vergisi (KDV) bildiriminin nasıl ayarlanacağı ve oluşturulacağı açıklanmaktadır.
+description: Bu makalede, resmi XML biçiminde Almanya'ya ilişkin ön katma değer vergisi (KDV) bildiriminin nasıl ayarlanacağı ve oluşturulacağı açıklanmaktadır.
 author: anasyash
 ms.date: 03/10/2022
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: a761a145a876584728098a92b3f3e93ac718a164
-ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
+ms.openlocfilehash: ff52963c03ec2eb662eb0c20ef2a960e3b999167
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "8402815"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879546"
 ---
 # <a name="vat-declaration-germany"></a>KDV Beyannamesi (Almanya)
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, resmi XML biçiminde Almanya'ya ilişkin ön katma değer vergisi (KDV) bildiriminin nasıl ayarlanacağı ve oluşturulacağı açıklanmaktadır. Bu konu aynı zamanda KDV beyannamesinin Microsoft Excel'de nasıl önizlenebileceğini açıklar.
+Bu makalede, resmi XML biçiminde Almanya'ya ilişkin ön katma değer vergisi (KDV) bildiriminin nasıl ayarlanacağı ve oluşturulacağı açıklanmaktadır. Bu makalede, KDV beyannamesinin Microsoft Excel'de nasıl önizlenebileceğini de açıklanmaktadır.
 
 Raporu otomatik olarak oluşturmak için, ön KDV beyannamesindeki her kutu için ayrı bir KDV hesabı tutacak yeterli satış vergisi kodu oluşturun. Ek olarak, ön KDV beyannamesi için Elektronik raporlama (ER) biçiminin uygulamaya özel parametrelerinde, satış vergisi kodlarını, KDV beyannamesindeki kutuların aramalarının arama sonucuyla ilişkilendirin.
 
-Almanya için **Rapor alanı aramasını** konfigüre etmelisiniz. Uygulamaya özel parametrelerin nasıl ayarlanacağı hakkında daha fazla bilgi için, bu konunun ilerleyen kısımlarındaki [KDV beyannamesi alanları için uygulamaya özel parametreler ayarlama](#set-up-application-specific-parameters-for-vat-declaration-fields) bölümüne bakın.
+Almanya için **Rapor alanı aramasını** konfigüre etmelisiniz. Uygulamaya özel parametrelerin nasıl ayarlanacağı hakkında daha fazla bilgi için, bu makalenin ilerleyen kısımlarındaki [KDV beyannamesi alanları için uygulamaya özel parametreler ayarlama](#set-up-application-specific-parameters-for-vat-declaration-fields) bölümüne bakın.
 
 Aşağıdaki tabloda, "Arama sonucu" sütunu, KDV beyanname biçimindeki belirli bir KDV Beyanname satırı için önceden konfigüre edilmiş arama sonucunu gösterir. Satış vergisi kodlarını arama sonucu ve daha sonra KDV beyannamesi satırı ile ilişkilendirmek için bu bilgileri kullanın.
 
@@ -176,7 +176,7 @@ KDV beyannamesindeki kutuları hangi satış vergisi kodlarının oluşturacağ�
 
     | Alan                  | Tanım                                                                                                                                                                                                                                                                                                          |
     |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Arama sonucu          | Rapor alanının değerini seçin. Değerler ve bunların KDV beyanname satırlarına atanması hakkında daha fazla bilgi için, bu konunun önceki kısımlarında yer alan [KDV beyanname genel bakış](#vat-declaration-overview) bölümüne bakın.                                                                                               |
+    | Arama sonucu          | Rapor alanının değerini seçin. Değerler ve bunların KDV beyanname satırlarına atanması hakkında daha fazla bilgi için, bu makalenin önceki kısımlarında yer alan [KDV beyannamesine genel bakış](#vat-declaration-overview) bölümüne bakın.                                                                                               |
     | Vergi kodu.               | Rapor alanıyla ilişkilendirilecek satış vergisi kodunu seçin. Seçili satış vergisi kodunu kullanan deftere nakledilen vergi hareketleri ilgili bildirim kutusunda toplanır. Satış vergisi kodlarını, tek bir bildirim kutusunda tutarlar oluşturacak şekilde ayırmanızı öneririz. |
     | Hareket sınıflandırıcı | Bir bildirim kutusunu belirlemek için yeterli satış vergisi kodu oluşturduysanız, **\*Boş değil\*** seçeneğini belirleyin. Bir satış vergisi kodunun yalnızca bir bildirim kutusunda tutarlar oluşturması için yeterli satış vergisi kodu oluşturmadıysanız, bir hareket sınıflandırıcısı ayarlayabilirsiniz. Aşağıdaki hareket sınıflandırıcıları kullanılabilir:</br>-   **Satınalma**</br>-   **PurchaseExempt** (vergiden muaf satın alma)</br>-   **PurchaseReverseCharge** (bir satın alma ters masrafından elde edilen vergi alacağı)</br>-   **Satışlar**</br>-   **SalesExempt** (vergiden muaf satış)</br>-   **SalesReverseCharge** (bir satın alma ters masrafı veya satış ters masrafına ait vergi borcu)</br>-   **Kullanım vergisini kullanır**. </br>Her bir hareket sınıflandırıcısı için, alacak dekontuyla ilgili bir sınıflandırıcı da mevcuttur. Örneğin, bu sınıflandırıcılardan biri **PurchaseCreditNote**'tır (satın alma alacak dekontu).</br>Her satış vergisi kodu için iki satır oluşturmayı unutmayın: hareket sınıflandırıcı değerine sahip olan bir tane ve alacak dekontu değeri için hareket sınıflandırıcılarına sahip olan bir tane. |
 
@@ -212,7 +212,7 @@ KDV beyanını, [birden çok KDV kaydına](emea-reporting-for-multiple-vat-regis
 Veri paketi, KDV beyanını XML biçiminde oluşturmak ve daha sonra Excel'de önizlemek için kullanılan elektronik ileti ayarları içerir. Bu ayarları genişletebilir veya kendi kendinize oluşturabilirsiniz. Elektronik mesajlarla nasıl çalışılacağı ve kendi ayarlarınızı nasıl oluşturacağınız hakkında daha fazla bilgi için, bkz. [Elektronik mesajlaşma](../general-ledger/electronic-messaging.md).
 
 1. [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/v2) içinde, Paylaşılan varlık kitaplığında, varlık türü olarak **Veri paketi**'ni seçin ve **DE KDV beyannamesi EM paketini** indirin. İndirilen dosya adı **EM paketinde DE KDV beyanname.zip**'dir.
-2. Dynamics 365 Finance'te, **Veri yönetimi** çalışma alanında **İçe aktar**'ı seçin.
+2. Dynamics 365 Finance'te, **Veri yönetimi** çalışma alanında **İçeri aktar**'ı seçin.
 3. **İçe aktar** hızlı sekmesinde, **Grup adı** alanına iş için bir ad girin.
 4. **Seçili varlıklar** hızlı sekmesinde **Dosya ekle**'yi seçin.
 5. **Dosya ekle** iletişim kutusunda, **Kaynak veri biçimi** alanının **Paket** olarak ayarlandığını doğrulayın, **Yükle ve ekle**'yi seçin ve daha önce yüklediğiniz ZIP dosyasını seçin.
@@ -265,7 +265,7 @@ Veri paketi, KDV beyanını XML biçiminde oluşturmak ve daha sonra Excel'de ö
 
 ## <a name="generate-a-vat-declaration-from-electronic-messages"></a>Elektronik iletilerden KDV beyannamesi oluşturma
 
-Raporu oluşturmak için elektronik iletiler kullandığınızda, birden çok yasal varlıklardan vergi verileri toplayabilirsiniz. Daha fazla bilgi için, bu konunun ilerleyen kısımlarında yer alan [Bir çok tüzel kişilik için KDV beyannamesi çalıştır](#run-a-vat-declaration-for-multiple-legal-entities) bölümüne bakın.
+Raporu oluşturmak için elektronik iletiler kullandığınızda, birden çok yasal varlıklardan vergi verileri toplayabilirsiniz. Daha fazla bilgi için, bu makalenin ilerleyen kısımlarında yer alan [Birden fazla tüzel kişilik için KDV beyannamesi çalıştırma](#run-a-vat-declaration-for-multiple-legal-entities) bölümüne bakın.
 
 Aşağıdaki yordam, LCS Paylaşılan varlık kitaplığından içe aktardığınız elektronik ileti işleme örneği için geçerlidir.
 
@@ -277,7 +277,7 @@ Aşağıdaki yordam, LCS Paylaşılan varlık kitaplığından içe aktardığı
     > [!NOTE]
     > 5 ile 7 arasındaki adımlar isteğe bağlıdır.
 
-5. İsteğe bağlı: **İletiler** hızlı sekmesinde, **Veri topla**'yı seçin ve **Tamam**'ı seçin. Daha önce oluşturulan satış vergisi ödemeleri iletiye eklenir. Daha fazla bilgi için bu konunun önceki kısımlarında yer alan [Satış vergisini kapat ve deftere naklet](#settle-and-post-sales-tax) bölümüne bakın. Bu adımı atlarsanız, **Beyanname** iletişim kutusundaki **Vergi beyanı sürümü** alanını kullanarak yine de bir KDV beyannamesi oluşturabilirsiniz.
+5. İsteğe bağlı: **İletiler** hızlı sekmesinde, **Veri topla**'yı seçin ve **Tamam**'ı seçin. Daha önce oluşturulan satış vergisi ödemeleri iletiye eklenir. Daha fazla bilgi için bu makalenin önceki kısımlarında yer alan [Satış vergisini kapatma ve deftere nakletme](#settle-and-post-sales-tax) bölümüne bakın. Bu adımı atlarsanız, **Beyanname** iletişim kutusundaki **Vergi beyanı sürümü** alanını kullanarak yine de bir KDV beyannamesi oluşturabilirsiniz.
 6. İsteğe bağlı: **İleti maddeleri** hızlı sekmesinde, işlenmek üzere aktarılan satış vergisi ödemelerini gözden geçirin. Varsayılan olarak, aynı işleme ait başka bir iletiye dahil edilmemiş olan seçili döneme ait tüm satış vergisi ödemeleri dahil edilir.
 7. İsteğe bağlı: Satış vergisi ödemelerini incelemek için **Orijinal belge**'yi seçin veya işlemeden satış vergisi ödemelerini hariç tutmak için **Sil**'i seçin. Bu adımı atlarsanız, **Beyanname** iletişim kutusundaki **Vergi beyanı sürümü** alanını kullanarak yine de bir KDV beyannamesi oluşturabilirsiniz.
 8. **İletiler** hızlı sekmesinde, **Durumu güncelleştir**'i seçin. **Güncelleştirme durumu** iletişim kutusunda, **Oluşturmak için hazırla**'yı seçin ve **Tamam**'ı seçin. İleti durumunun, **Üretmeye hazır** olarak değiştiğini doğrulayın.

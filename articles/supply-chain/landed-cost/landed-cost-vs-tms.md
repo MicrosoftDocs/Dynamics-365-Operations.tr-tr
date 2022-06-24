@@ -1,6 +1,6 @@
 ---
 title: Varış yeri maliyeti ve Taşıma yönetimi karşılaştırması
-description: Microsoft Dynamics 365 Supply Chain Management, taşıma ile çalışmak için Taşıma yönetimi (TMS) ve Varış yeri maliyeti olmak üzere iki farklı modül sağlar. Bu konu, iki modülün ortak işlevselliğini özetler ve aralarındaki farkları vurgular.
+description: Microsoft Dynamics 365 Supply Chain Management, taşıma ile çalışmak için Taşıma yönetimi (TMS) ve Varış yeri maliyeti olmak üzere iki farklı modül sağlar. Bu makale, iki modülün ortak işlevselliğini özetler ve aralarındaki farkları vurgular.
 author: Weijiesa
 ms.date: 12/04/2020
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8c59d7d1887986d308cb591ece077cff9f4648a5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 40489ff8d8683d19a5f726546cc4c43cc3e7a05d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690400"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905935"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Varış yeri maliyeti ve Taşıma yönetimi karşılaştırması
 
 [!include [banner](../../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management, taşıma ile çalışmak için iki farklı modül sağlar: **Taşıma yönetimi** (TMS) ve **Varış yeri maliyeti**. Bu konu, iki modülün ortak işlevselliğini özetler ve aralarındaki farkları vurgular. Hangi modülün iş uygulamalarınıza en uygun olduğuna karar vermek için bu bilgileri kullanabilirsiniz. Bazı iş uygulamalarının TMS ile daha iyi çalıştığını, diğerlerinin ise Varış yeri maliyetiyle en iyi şekilde çalıştığını görebilirsiniz. Ardından, iş gereksinimlerinize bağlı olarak yalnızca bir modül kullanmayı seçebilir veya iki modülü birleştirebilirsiniz.
+Microsoft Dynamics 365 Supply Chain Management, taşıma ile çalışmak için iki farklı modül sağlar: **Taşıma yönetimi** (TMS) ve **Varış yeri maliyeti**. Bu makale, iki modülün ortak işlevselliğini özetler ve aralarındaki farkları vurgular. Hangi modülün iş uygulamalarınıza en uygun olduğuna karar vermek için bu bilgileri kullanabilirsiniz. Bazı iş uygulamalarının TMS ile daha iyi çalıştığını, diğerlerinin ise Varış yeri maliyetiyle en iyi şekilde çalıştığını görebilirsiniz. Ardından, iş gereksinimlerinize bağlı olarak yalnızca bir modül kullanmayı seçebilir veya iki modülü birleştirebilirsiniz.
 
-Bu konu, her iki modülün tüm özelliklerinin kapsamlı bir incelemesi değildir. Bunun yerine, malların satıcıdan tüketilebileceği yer olan işletmenizin ambarına taşınmasıyla ilgili olarak kullanılabilir işlevselliği vurgular.
+Bu makale, her iki modülün tüm özelliklerinin kapsamlı bir incelemesi değildir. Bunun yerine, malların satıcıdan tüketilebileceği yer olan işletmenizin ambarına taşınmasıyla ilgili olarak kullanılabilir işlevselliği vurgular.
 
 ## <a name="terminology-reference-data-and-reporting-differences"></a>Terminoloji, referans veriler ve raporlama farklılıkları
 

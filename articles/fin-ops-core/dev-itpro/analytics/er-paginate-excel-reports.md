@@ -1,6 +1,6 @@
 ---
 title: Excel'de oluşturulan belgeleri sayfalandırmak için ER biçimi tasarlama
-description: Bu konuda, Microsoft Excel'de oluşturulan bir belgeyi sayfalandıran Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı açıklanmaktadır.
+description: Bu makalede, Microsoft Excel'de oluşturulan bir belgeyi sayfalandıran Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 09/14/2021
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: Version 10.0.22
-ms.openlocfilehash: ce29225c4bce24adc2abefc3d3d6f20774852af4
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e8edc8bba62f74b4f81d423cf75b5fb87c01e43f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488351"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909292"
 ---
 # <a name="design-an-er-format-to-paginate-generated-documents-in-excel"></a>Excel'de oluşturulan belgeleri sayfalandırmak için ER biçimi tasarlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Sistem Yöneticisi veya Elektronik Raporlama İşlevsel Danışmanı rolünde bir kullanıcının Microsoft Excel'de giden belgeler oluşturmak ve belge sayfalandırmasını yönetmek için [Elektronik raporlama (ER)](general-electronic-reporting.md) biçimini nasıl yapılandırabileceği açıklanmaktadır.
+Bu makalede, Sistem Yöneticisi veya Elektronik Raporlama İşlev Danışmanı rolünde bir kullanıcının Microsoft Excel'de giden belgeler oluşturmak ve belge sayfalandırmasını yönetmek için [Elektronik raporlama (ER)](general-electronic-reporting.md) biçimini nasıl yapılandırabileceği açıklanmaktadır.
 
 Bu örnekte, Intrastat beyannamesi [oluşturulduğunda](../../../finance/localizations/tasks/eur-00002-eu-intrastat-declaration.md) denetim raporunu yazdırmak için kullanılan ve Microsoft tarafından sağlanan ER biçimini değiştireceksiniz. Bu rapor, bildirilen Intrastat hareketlerini gözlemlemenize olanak tanır. Değişiklikleriniz, oluşturulan denetim raporlarının sayfalandırmasını yönetmenizi sağlar.
 
-Bu konudaki yordamlar **DEMF** şirketinde tamamlanabilir. Kodlama gerekmez. Başlamadan önce aşağıdaki dosyaları indirip kaydedin.
+Bu makaledeki yordamlar **DEMF** şirketinde tamamlanabilir. Kodlama gerekmez. Başlamadan önce aşağıdaki dosyaları indirip kaydedin.
 
 | Tanım       | Dosya adı |
 |-------------------|-----------| 
@@ -165,7 +165,7 @@ Ardından Intrastat beyannamesinin denetim raporunu oluşturmak için özel ER b
 
 ### <a name="repeat-the-replacement-of-the-current-excel-template-in-the-custom-er-format"></a>Geçerli Excel şablonunu özel ER biçiminde değiştirmeyi yineleme
 
-1. Bu konunun [Geçerli Excel şablonunu özel ER biçiminde değiştirme](#replace-template) bölümündeki adımları izleyin. Ancak 7. adımda **ERIntrastatReportDemo2.xlsx** dosyasını seçin.
+1. Bu makalenin [Geçerli Excel şablonunu özel ER biçiminde değiştirme](#replace-template) bölümündeki adımları izleyin. Ancak 7. adımda **ERIntrastatReportDemo2.xlsx** dosyasını seçin.
 2. **Biçim tasarımcısı** sayfasında, **Intrastat**'ı genişletin.
 3. Yapıyı uygulanan Excel şablonunun yapısıyla eşitlemek için düzenlenebilir ER biçimine eklenen [Aralık](er-fillable-excel.md#range-component) biçim bileşenlerini adlandırın:
 
@@ -406,7 +406,7 @@ Görünürlüğü değiştirmek için **Rapor sayfası üst bilgisi** ve **Rapor
 
 ## <a name="generate-an-intrastat-declaration-control-report-updated"></a>Intrastat beyannamesi denetim raporu oluşturma (güncelleştirildi)
 
-1. **Intrastat** sayfasında 24 harekete sahip olduğunuzdan emin olun. Denetim raporu oluşturup gözden geçirmek için bu konunun [Intrastat beyannamesi denetim raporu oluşturma](#generate-intrastat-control-report) bölümündeki adımları yineleyin.
+1. **Intrastat** sayfasında 24 harekete sahip olduğunuzdan emin olun. Denetim raporu oluşturup gözden geçirmek için bu makalenin [Intrastat beyannamesi denetim raporu oluşturma](#generate-intrastat-control-report) bölümündeki adımları yineleyin.
 
     Tüm hareketler ilk sayfada sunulur. Sayfa toplamları ve sayaçları, rapor toplamlarına ve sayaçlarına eşittir. Rapor üst bilgisi zaten sütun başlıkları içerdiğinden ilk sayfadaki sayfa üst bilgisi aralığı gizlenir. Bu sayfa hiç hareket içermediğinden ikinci sayfada sayfa üst bilgisi ve alt bilgisi gizlenir.
 

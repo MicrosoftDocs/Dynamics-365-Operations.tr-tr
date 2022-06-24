@@ -1,6 +1,6 @@
 ---
 title: Word biçiminde raporlar oluşturmak için Excel şablonlarıyla ER yapılandırmalarını yeniden kullanma
-description: Bu konuda, Excel çalışma kitapları olarak rapor oluşturmak üzere tasarlanmış rapor biçimlerinin, Word belgeleri olarak rapor oluşturmak üzere nasıl yapılandırılabileceği açıklanmaktadır.
+description: Bu makalede, Excel çalışma kitapları olarak rapor oluşturmak üzere tasarlanmış rapor biçimlerinin, Word belgeleri olarak rapor oluşturmak üzere nasıl yapılandırılabileceği açıklanmaktadır.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de8286c7612cd588b28cf4667340374906962dde
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1e0fe9ba55be435fb214c9d0885dd4ef942f5081
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324074"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910400"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Word biçiminde raporlar oluşturmak için Excel şablonlarıyla ER yapılandırmalarını yeniden kullanma
 
@@ -43,7 +43,7 @@ Bu yordamlar, Dynamics 365 for Operations 1611 sürümüne (Kasım 2016) eklenmi
 
 ## <a name="select-the-existing-er-report-configuration"></a>Mevcut ER rapor yapılandırmasını seçme
 
-1. Dynamics 365 Finance'te **Kuruluş yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
+1. Dynamics 365 Finance'te, **Kuruluş yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama** bölümüne gidin.
 2. **Litware, Inc.** yapılandırma sağlayıcısının **Etkin** olarak seçildiğinden emin olun. Böyle değilse, [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](er-configuration-provider-mark-it-active-2016-11.md) görev kılavuzundaki adımları izleyin.
 3. **Raporlama yapılandırmaları**'nı seçin. Rapor çıktısını OPENXML biçiminde oluşturmak için tasarlanmış olan mevcut ER yapılandırmasını yeniden kullanacaksınız.
 4. **Yapılandırmalar** sayfasında sol bölmedeki yapılandırma ağacında, **Ödeme modeli**'ni genişletin ve **Örnek çalışma sayfası raporu**'nu seçin.

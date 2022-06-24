@@ -1,6 +1,6 @@
 ---
 title: Bordro değişken ücret planı
-description: Bu konu, Dynamics 365 Human Resources'taki Bordro değişken ücret planı varlığıyla ilgili ayrıntılı bilgi ve örnek bir sorgu sağlar.
+description: Bu makalede, Dynamics 365 Human Resources'daki Bordro değişken ücret planı varlığıyla ilgili ayrıntılı bilgiler ve örnek bir sorgu sağlanmaktadır.
 author: twheeloc
 ms.date: 06/15/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-06-15
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c5cc9e02ff2dd49e2eb0c8131fcff2eca4b9c3b1
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 5c6190084c3f1ce15d6a4ab8f13843a5da801dd3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533661"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868144"
 ---
 # <a name="payroll-variable-compensation-plan"></a>Bordro değişken ücret planı
 
@@ -27,7 +27,7 @@ ms.locfileid: "8533661"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, Dynamics 365 Human Resources için bordro değişken ücret planı varlığı açıklanmaktadır.
+Bu makalede, Dynamics 365 Human Resources için Bordro değişken ücret planı varlığı açıklanmaktadır.
 
 ### <a name="description"></a>Tanım
 

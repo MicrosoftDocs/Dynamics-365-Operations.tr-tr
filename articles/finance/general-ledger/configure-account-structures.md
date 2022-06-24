@@ -1,6 +1,6 @@
 ---
 title: Hesap yapıları yapılandır
-description: Bu konu, hesap yapıları ve mali boyutlar hakkında bilgi sağlamaktadır.
+description: Bu makalede, hesap yapıları ve mali boyutlar hakkında bilgi sağlanmaktadır.
 author: aprilolson
 ms.date: 06/03/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c775703047f4d2ccf2b1c35e2810c015ee1c1506
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f0a3febf8d269caec847ad879f60ac042e5fec9e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722618"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907994"
 ---
 # <a name="configure-account-structures"></a>Hesap yapıları yapılandır
 

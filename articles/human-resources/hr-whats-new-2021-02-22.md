@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler 22 Şubat 2021
-description: Bu konuda, 22 Şubat 2021 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, 22 Şubat 2021 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
 author: marcelbf
 ms.date: 02/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c0f854908f4c4bb76604665701c97724351b0120
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d07e73ccd922e9d52a9de9260577087a50ef1da4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686897"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897849"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-22-2021"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler 22 Şubat 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, Dynamics 365 Human Resources'daki yeni, değişen veya gelecek özellikler açıklanmaktadır.
+Bu makalede, Dynamics 365 Human Resources'da yeni, değişen veya yakında sunulacak özellikler açıklanmaktadır.
 
 Güncelleştirme işlemi ve planı hakkında daha fazla bilgi için bkz. [Güncelleştirme işlemi](hr-admin-setup-update-process.md).
 
@@ -48,9 +48,9 @@ Aşağıdaki özellikler genel olarak bu sürümde mevcuttur.
 Bu sürümde aşağıdaki hata çözümleri bulunmaktadır.
 
 > [!NOTE]
-> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu konu ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmelerini eklemek için bu konuya güncelleştirmeler uygulayabiliriz.
+> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu makale, ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmeleri eklenerek güncelleştirilebilir.
 
-| Sorun numarası | Çıkış |  Tanım |
+| Sorun numarası | Sorun |  Açıklama |
 | --- | --- | --- |
 | 529994 | **Çalışan** formunda **Bilinen** alanını değiştirmek, bir Dataverse güncelleştirmesini tetiklemez | **Çalışan** formunda **Bilinen** alanı güncelleştirildiğinde Dataverse'ün güncelleştirilmediği bir sorun giderildi. |
 | 532651 | Ücret analizi PBI raporu, tüm şirket için ölçümleri hesaplarken para birimi dönüştürmeyi kullanmıyor | Ücret analizi PBI raporunun para birimi dönüşümlerini doğru şekilde yapmadığı bir sorun giderildi. |

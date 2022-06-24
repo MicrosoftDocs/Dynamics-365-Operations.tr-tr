@@ -1,6 +1,6 @@
 ---
 title: Mali konsolidasyonlar ve para birimi dönüştürmeye genel bakış
-description: Bu konuda, genel muhasebede mali konsolidasyonlar ve para birimi çevirme açıklanır.
+description: Bu makalede, genel muhasebede mali konsolidasyonlar ve para birimi çevirme açıklanmaktadır.
 author: jinniew
 ms.date: 10/07/2021
 ms.topic: overview
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: f6f0094ac3307164e1c715a71e16b0766247e275
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 56e445dcf471fd20695824d5e47cd15f39c022ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713882"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846871"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Mali konsolidasyonlar ve para birimi dönüştürmeye genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, hem Microsoft Dynamics 365 Finance hem de Finansal raporlamada birleştirmeler için kullanılan yaklaşımı size açıklar. Birden fazla şirket raporlamasını, toplamasını, eliminasyonunu ve azınlık hissesini içeren senaryoları tanımlar. Ayrıca tüzel kişiliklerin farklı mali dönemlere veya hesap planlarına sahip olduğu senaryolar gibi özel durumların nasıl yönetileceğini açıklar.
+Bu makalede, hem Microsoft Dynamics 365 Finance hem de Finansal raporlamada birleştirmeler için kullanılan yaklaşım açıklanmaktadır. Birden fazla şirket raporlamasını, toplamasını, eliminasyonunu ve azınlık hissesini içeren senaryoları tanımlar. Ayrıca tüzel kişiliklerin farklı mali dönemlere veya hesap planlarına sahip olduğu senaryolar gibi özel durumların nasıl yönetileceğini açıklar.
 
-Bu konu, kullanıcılar ve işlev danışmaları için yazılmıştır. Okuyucuların Finance ve Mali raporlama hakkında genel bilgi sahibi olduklarını varsayar. Temel kurulum açıklanmaz.
+Bu makale, kullanıcılar ve işlev danışmaları için yazılmıştır. Okuyucuların Finance ve Mali raporlama hakkında genel bilgi sahibi olduğu varsayılır. Temel kurulum açıklanmaz.
 
 > [!NOTE]
-> *Tüzel kişilik* terimi, Finance'ta kullanılır ve *şirket* terimi Mali raporlamada kullanılır. Bu konuda her iki terim de kullanılır. Ancak bu konunun amaçları açısından anlamları aynıdır.
+> *Tüzel kişilik* terimi, Finance'ta kullanılır ve *şirket* terimi Mali raporlamada kullanılır. Bu makalede her iki terim de kullanılır. Ancak bu makalenin amaçları açısından anlamları aynıdır.
 
-## <a name="audience"></a>Hedef Kitle
-Bu konu birden fazla şirket ve birden fazla para birimi verilerini konsolide etmek için Finance and Reporting ve Mali raporlamayı kullanmak isteyen finans ve muhasebe kullanıcıları ve uygulama danışmanları içindir.
+## <a name="audience"></a>Hedef kitle
+Bu makale, birden fazla şirket ve birden fazla para birimi verilerini konsolide etmek için Finans ve Raporlama ve Mali raporlamayı kullanmak isteyen finans ve muhasebe kullanıcıları ve uygulama danışmanları içindir.
 
 ## <a name="approach"></a>Yaklaşım
 Finance konsolidasyon işlemi için ayrı bir tüzel kişilik kullanır. Tek örnek konsolidasyona olanak tanır ama diğer kaynaklardaki verileri getirmek için bir seçenek sunar. Konsolidasyon işlemi, kaynak tüzel kişilikte değişikliklerin yapıldığı tüm zamanlarda çalıştırılmalıdır.

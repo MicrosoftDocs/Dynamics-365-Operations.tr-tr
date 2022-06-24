@@ -1,6 +1,6 @@
 ---
 title: ER biçimindeki sıra öğelerinin yürütülmesini erteleme
-description: Bu konu, bir Elektronik raporlama (ER) biçimindeki bir sıra öğesinin yürütülmesinin nasıl erteleneceğini açıklamaktadır.
+description: Bu makalede, bir Elektronik raporlama (ER) biçimindeki bir sıra öğesinin yürütülmesinin nasıl erteleneceği açıklanmaktadır.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 19d1cf0aa6e9b40a0e72a3a74acda6e2579d6ee2
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 5d4c5395c87c7bdc874f277a691e84081f68742d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323702"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880259"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>ER biçimindeki sıra öğelerinin yürütülmesini erteleme
 
@@ -32,7 +32,7 @@ Metin biçiminde giden belgeleri oluşturmak amacıyla kullanılan bir ER çöz�
 
 Yapılandırılan biçimdeki bir sıra biçimi öğesi için <a name="DeferredSequenceExecution"></a>**Ertelenmiş yürütme** seçeneğini etkinleştirerek, o öğenin yürütülmesini erteleyebilirsiniz. Bu durumda, öğenin üst öğesinin tüm diğer öğeleri çalıştırılıncaya kadar öğe çalıştırılmaz.
 
-Bu özellik hakkında daha fazla bilgi edinmek için bu konudaki örneği tamamlayın.
+Bu özellik hakkında daha fazla bilgi edinmek için bu makaledeki örneği tamamlayın.
 
 ## <a name="limitations"></a>Sınırlamalar
 
@@ -46,14 +46,14 @@ Aşağıdaki adımlarda, Sistem Yöneticisi veya Elektronik raporlama işlev dan
 
 Bu adımlar Microsoft Dynamics 365 Finance'teki **USMF** şirketinde gerçekleştirilebilir.
 
-### <a name="prerequisites"></a>Önkoşullar
+### <a name="prerequisites"></a>Ön Koşullar
 
 Bu örneği tamamlamak üzere aşağıdaki rollerden biri için Finance'teki **USMF** şirketine erişiminiz olmalıdır:
 
 - Elektronik raporlama işlev danışmanı
 - Sistem yöneticisi
 
-[ER biçimindeki sıra öğelerinin yürütülmesini erteleme](er-defer-xml-element.md#Example) konusundaki örneği henüz tamamlamadıysanız, örnek ER çözümünün aşağıdaki [yapılandırmalarını](general-electronic-reporting.md#Configuration) indirin.
+[ER biçimindeki sıra öğelerinin yürütülmesini erteleme](er-defer-xml-element.md#Example) makalesindeki örneği henüz tamamlamadıysanız, örnek ER çözümünün aşağıdaki [yapılandırmalarını](general-electronic-reporting.md#Configuration) indirin.
 
 | İçerik açıklaması            | Dosya adı |
 |--------------------------------|-----------|
@@ -93,7 +93,7 @@ Başlamadan önce, örnek ER çözümünün de aşağıdaki yapılandırmasını
 ### <a name="activate-a-configurations-provider"></a>Bir yapılandırma sağlayıcısını etkinleştirme
 
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
-2. **Yerelleştirme yapılandırmaları** sayfasındaki **Yapılandırma sağlayıcıları** bölümünde, Litware, Inc. (`http://www.litware.com`) örnek şirketine ait [yapılandırma sağlayıcısının](general-electronic-reporting.md#Provider) listelendiğinden ve Etkin olarak işaretlendiğinden emin olun. Bu yapılandırma sağlayıcısı listede yoksa veya etkin olarak işaretli değilse [Bir yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](./tasks/er-configuration-provider-mark-it-active-2016-11.md) konusundaki adımları izleyin.
+2. **Yerelleştirme yapılandırmaları** sayfasındaki **Yapılandırma sağlayıcıları** bölümünde, Litware, Inc. (`http://www.litware.com`) örnek şirketine ait [yapılandırma sağlayıcısının](general-electronic-reporting.md#Provider) listelendiğinden ve Etkin olarak işaretlendiğinden emin olun. Bu yapılandırma sağlayıcısı listede yoksa veya etkin olarak işaretli değilse [Bir yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](./tasks/er-configuration-provider-mark-it-active-2016-11.md) makalesindeki adımları izleyin.
 
     ![Yerelleştirme yapılandırmaları sayfasındaki Litware, Inc. örnek şirketi.](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Yerleşim kapasitesine göre stok yenileme
-description: Bu konu, Konum kapasitesine göre stok yenileme özelliği hakkında bilgi sağlar. Bu özellik, gün için gerekli olacak tüm stok yenileme işini etkinleştirir ve malzeme çekme konumunun stok dışında veya kapasitenin üzerine geçmediğinden emin olmak amacıyla bu stok yenileme çalışmasının kullanılabilirliğini yönetir.
+title: Konum kapasitesine göre stok yenileme
+description: Bu makale, Konum kapasitesine göre stok yenileme özelliği hakkında bilgi sağlar. Bu özellik, gün için gerekli olacak tüm stok yenileme işini etkinleştirir ve malzeme çekme konumunun stok dışında veya kapasitenin üzerine geçmediğinden emin olmak amacıyla bu stok yenileme çalışmasının kullanılabilirliğini yönetir.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 0c3dedc47558e98f63fb5883e4731bf021b9602b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 72cda7608d55414ee62bc7dcc1e02e28f6212aff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899251"
 ---
 # <a name="replenishment-over-location-capacity"></a>Yerleşim kapasitesine göre stok yenileme
 
@@ -37,7 +37,7 @@ Bu özelliği kullanılabilir hale getirmek için [özellik yönetiminde](../../
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Örnek senaryo için özelliği ayarlama
 
-Bu bölümde, bu özelliğin nasıl ayarlanacağı ve bu konunun ilerleyen kısımlarında sağlanan örnek senaryo için örnek verilerin nasıl hazırlanacağı gösterilmektedir.
+Bu bölümde, bu özelliğin nasıl ayarlanacağı ve bu makalenin ilerleyen kısımlarında sağlanan örnek senaryo için örnek verilerin nasıl hazırlanacağı gösterilmektedir.
 
 ### <a name="enable-sample-data"></a>Örnek verileri etkinleştirme
 
@@ -145,7 +145,7 @@ Stok yenileme şablonları, bir konumda stokun ne zaman ve nasıl yenileneceğin
 
 ## <a name="example-scenario"></a>Örnek senaryo
 
-Daha önce açıklanan örnek verilerin tümünü kullanılabilir hale getirip ayarladıktan sonra, bu senaryoda, *Konum kapasitesine göre stok yenileme* özelliğini deneyebilirsiniz. Bu senaryoda gösterilen değerler, standart demo verileriyle çalıştığınızı, **USMF** tüzel kişiliğini seçmiş olduğunuzu ve bu konunun önceki bölümlerinde açıklanan örnek kayıtları hazırladığınızı varsayar. Bu senaryo aynı zamanda özelliğin bir üretim ayarında nasıl kullanılabileceğini gösteren bir örnek işlevi de görür.
+Daha önce açıklanan örnek verilerin tümünü kullanılabilir hale getirip ayarladıktan sonra, bu senaryoda, *Konum kapasitesine göre stok yenileme* özelliğini deneyebilirsiniz. Bu senaryoda gösterilen değerler, standart demo verileriyle çalıştığınızı, **USMF** tüzel kişiliğini seçmiş olduğunuzu ve bu makalenin önceki bölümlerinde açıklanan örnek kayıtları hazırladığınızı varsayar. Bu senaryo aynı zamanda özelliğin bir üretim ayarında nasıl kullanılabileceğini gösteren bir örnek işlevi de görür.
 
 ### <a name="create-replenishment-work"></a>Stok yenileme işi oluştur
 

@@ -1,6 +1,6 @@
 ---
 title: Finans ve Operasyon uygulamaları ve Dataverse'teki çift yazma yapılandırmasını doğrulama
-description: Bu konu, Çift yazma'nın Finans ve Operasyon uygulamalarında ve Dataverse'te yapılandırılıp yapılandırılmadığını nasıl belirleyebileceğinizi açıklamaktadır.
+description: Bu makalede, çift yazmanın Finans ve Operasyon uygulamalarında ve Dataverse'te yapılandırılıp yapılandırılmadığını nasıl belirleyebileceğiniz açıklanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 3fa16a450032464e445ae166f0699fe0dc388071
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 7131e6c2c4ca4d9c6bb84ad74bf425faf28bd92c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062812"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884473"
 ---
 # <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Finans ve Operasyon uygulamaları ve Dataverse'teki çift yazma yapılandırmasını doğrulama
 
@@ -24,7 +24,7 @@ ms.locfileid: "8062812"
 
 
 
-Bu konu, Finans ve Operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında sorun giderme bilgileri sağlar. Bu konu, Çift yazma'nın Finans ve Operasyon uygulamalarında ve Dataverse'te yapılandırılıp yapılandırılmadığını nasıl belirleyebileceğinizi açıklamaktadır.
+Bu makalede, Finans ve Operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında sorun giderme bilgileri sağlanmaktadır. Bu konu, Çift yazma'nın Finans ve Operasyon uygulamalarında ve Dataverse'te yapılandırılıp yapılandırılmadığını nasıl belirleyebileceğinizi açıklamaktadır.
 
 ## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Finans ve Operasyon uygulamasında çift yazma özelliğinin yapılandırıldığını doğrulama
 

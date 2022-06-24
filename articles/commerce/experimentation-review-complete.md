@@ -1,30 +1,24 @@
 ---
 title: Varyasyon yükseltme ve deneme tamamlama
-description: Bu konu, Dynamics 365 Commerce'ta başarılı bir varyasyonun nasıl yükseltileceğini ve denemenin nasıl tamamlanacağını açıklar.
+description: Bu makale, Dynamics 365 Commerce'ta başarılı bir varyasyonun nasıl yükseltileceğini ve denemenin nasıl tamamlanacağını açıklar.
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/07/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 48d66e84ce52e77e83843853e3d528f9394a7676cadc4a4be5198065696dd10e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e9a978551622bbb14d9213f607d9dfabe42672a
+ms.sourcegitcommit: ddcb62bb5fbf26a1178c2bb1aec45a3d2362339e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738758"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8942755"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Varyasyon yükseltme ve deneme tamamlama
 
-Bu konu, denemede en iyi sonuçları üreten değişimin nasıl yükseltileceğini ve denemenin nasıl tamamlanacağını açıklamaktadır. Aşağıdaki diyagramda, Dynamics 365 Commerce'taki bir e-Ticaret web sitesinde deneme ayarlama ve çalıştırmayla ilgili tüm adımlar gösterilmektedir. Ek adımlar ayrı konularda ele alınmıştır.
+Bu makale, denemede en iyi sonuçları üreten değişimin nasıl yükseltileceğini ve denemenin nasıl tamamlanacağını açıklamaktadır. Aşağıdaki diyagramda, Dynamics 365 Commerce'taki bir e-Ticaret web sitesinde deneme ayarlama ve çalıştırmayla ilgili tüm adımlar gösterilmektedir. Ek adımlar ayrı makalelerde ele alınmıştır.
 
 [ ![Deneme kullanıcı yolculuğu - İnceleme ve Tamamlama.](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
 
@@ -48,7 +42,7 @@ Kazanan varyasyonu yükseltmek için, aşağıdaki adımları izleyin.
 ## <a name="delete-your-experiment"></a>Denemenizi silme
 Commerce'ta tamamlanmış bir denemeyi silmeniz gerekli olmasa da alan kazanmak veya çalışma alanınızı temizlemek için denemeyi silmeyi tercih edebilirsiniz. 
 
-Commerce site oluşturucuda deneme silmek için aşağıdaki adımları izleyin.
+Commerce site oluşturucuda tamamlanan bir denemeyi silmek için aşağıdaki adımları izleyin.
 
 1. Sol gezinti bölmesinde **Denemeler**'i seçin ve ardından denemeyi seçin. 
     > [!NOTE]

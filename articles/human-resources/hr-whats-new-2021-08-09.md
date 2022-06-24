@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources uygulamasındaki yenilikler veya değişiklikler (9 Ağustos 2021)
-description: Bu konuda, 9 Ağustos 2021 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, 9 Ağustos 2021 için Microsoft Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır.
 author: marcelbf
 ms.date: 08/09/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5c43ed654a07834ce31a1425762f29c53aa2a020
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ad1397084dd3eb210065fe6d8c20c5b8253cd206
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689284"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882880"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-9-2021"></a>Dynamics 365 Human Resources uygulamasındaki yenilikler veya değişiklikler (9 Ağustos 2021)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, Microsoft Dynamics 365 Human Resources uygulamasındaki yeni, değişen veya gelecek özellikler açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Human Resources'daki yeni, değişen veya yakında sunulacak özellikler açıklanmaktadır.
 
 Güncelleştirme işlemi ve planı hakkında daha fazla bilgi için bkz. [Güncelleştirme işlemi](hr-admin-setup-update-process.md).
 
@@ -40,9 +40,9 @@ Bu sürüm aşağıdaki yeni özellikleri ve hata düzeltmelerini içerir. Deği
 Bu sürümde aşağıdaki hata çözümleri bulunmaktadır.
 
 > [!NOTE]
-> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu konu ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmelerini eklemek için bu konuya güncelleştirmeler uygulayabiliriz.
+> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu makale, ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmeleri eklenerek güncelleştirilebilir.
 
-| Sorun numarası | Sorun | Tanım |
+| Sorun numarası | Sorun | Açıklama |
 | --- | --- | --- |
 | 558385 | Varsayılan görevli için **Görevlileri otomatik olarak seç** seçeneği etkinleştirildiğinde varsayılan görevli seçilmiyor. | Bu sorun artık düzeltildi. **Human Resources paylaşılan parametreleri** sayfasındaki **Görevlileri otomatik olarak seç** seçeneği etkinleştirildiğinde birden çok varsayılan görevli uygun planlarda otomatik olarak seçilir. |
 | 589617 | Erişim belirli bir şirketle sınırlandırıldığında **İzin süresi** sayfasındaki **Satın alınabilir** ve **Satılabilir** bakiyeleri boş oluyor. | Bu sorun artık düzeltildi. Kullanıcı, belirli bir şirketle sınırlandırıldığında **İzin süresi** sayfası, doğru **Satın alınabilir** ve **Satılabilir** bakiyelerini gösterir. |

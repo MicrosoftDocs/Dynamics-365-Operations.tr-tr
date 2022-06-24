@@ -1,6 +1,6 @@
 ---
 title: Barkod görüntüleri oluşturmak için Barkod veri kaynaklarını kullanma
-description: Bu konu Barkod veri kaynaklarının barkod görüntülerini oluşturmak için nasıl kullanılacağını açıklamaktadır.
+description: Bu makalede Barkod veri kaynaklarının barkod görüntülerini oluşturmak için nasıl kullanılacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: a5a396080d8b5dd4c2ed9a0eb15c1286e8799ebf
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: c8e755b664656a1a10672a990dc581969f6a7b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323964"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880326"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Barkod görüntüleri oluşturmak için Barkod veri kaynaklarını kullanma
 
@@ -77,7 +77,7 @@ Aşağıdaki yer tutucular rapor şablonlarında barkod görüntüleri girmek i�
 >
 > Bir **Barkod** veri kaynağını bir biçimdeki bir hücre öğesine bağladığınızda ve hücre öğesi bir Word içerik denetimini veya Excel resmini temsil ettiğinde, veri kaynağı bu bağlamada **Dize** türünde tek bir parametresi olan bir işlev olarak sunulur. Bir barkod görüntüsüne dönüştürülmesi gereken metni belirtmek ve oluşturulan bir bar kod tarandığında bunu okumak için bu parametreyi kullanmalısınız.
 
-Bu özellik hakkında daha fazla bilgi için bu konudaki örnekleri tamamlayın.
+Bu özellik hakkında daha fazla bilgi için bu makaledeki örnekleri tamamlayın.
 
 ## <a name="example-generate-a-payment-check-that-contains-a-bar-code-that-encodes-the-payable-amount"></a>Örnek: Ödenecek tutarı kodlayan bir barkod içeren bir ödeme denetimi oluşturma
 
@@ -103,7 +103,7 @@ Bu örnek, **Sistem Yöneticisi** veya **Elektronik raporlama işlev danışman�
 
 Bu örnekte, ödeme çekleri oluşturmak için yapılandırılmış sağlanan ER çözümünü kullanacaksınız. Bu çözüm, ödeme tutarının hem sayı hem de metin olarak yazıldığı bir ödeme çeki oluşturur. Bu ER çözümünü çek, ödenecek tutarının kodlandığı ve bir barkod tarayıcısı kullanılarak okunabileceği şekilde oluşturulmuş bir barkod içerecek şekilde değiştireceksiniz.
 
-Bu adımlar Microsoft Dynamics 365 Finance'taki **USMF** şirketinde gerçekleştirilir.
+Bu adımlar Microsoft Dynamics 365 Finance'teki **USMF** şirketinde gerçekleştirilir.
 
 ### <a name="complete-the-prerequisites"></a><a name="ExamplePrerequisites"></a>Önkoşulları tamamlayın
 
@@ -112,7 +112,7 @@ Bu örneği tamamlamak üzere aşağıdaki rollerden biri için Finance'teki USM
 - Elektronik raporlama işlev danışmanı
 - Sistem yöneticisi
 
-[ER kullanarak oluşturduğunuz belgelere görüntüler ve şekiller ekleme](electronic-reporting-embed-images-shapes.md) konusundaki örneği henüz tamamlamadıysanız, örnek ER çözümünün aşağıdaki yapılandırmalarını indirin.
+[ER kullanarak oluşturduğunuz belgelere görüntüler ve şekiller ekleme](electronic-reporting-embed-images-shapes.md) makalesindeki örneği henüz tamamlamadıysanız, örnek ER çözümünün aşağıdaki yapılandırmalarını indirin.
 
 | İçerik açıklaması         | Dosya adı                   |
 |-----------------------------|-----------------------------|
@@ -128,7 +128,7 @@ Ek olarak, sağlanan ER çözümü için değiştirilmiş şablonu içeren aşa�
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Bir yapılandırma sağlayıcısını etkinleştirme
 
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
-2. **Yerelleştirme yapılandırmaları** sayfasındaki **Yapılandırma sağlayıcıları** bölümünde, **Litware, Inc.** örnek şirketine ait [yapılandırma sağlayıcısının](general-electronic-reporting.md#Provider) listelendiğinden ve etkin olarak işaretlendiğinden emin olun. Listede yoksa veya etkin olarak işaretli değilse [Bir yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) konusundaki adımları izleyin.
+2. **Yerelleştirme yapılandırmaları** sayfasındaki **Yapılandırma sağlayıcıları** bölümünde, **Litware, Inc.** örnek şirketine ait [yapılandırma sağlayıcısının](general-electronic-reporting.md#Provider) listelendiğinden ve etkin olarak işaretlendiğinden emin olun. Listede yoksa veya etkin olarak işaretli değilse [Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) makalesindeki adımları izleyin.
 
 ![Yerelleştirme yapılandırmaları sayfasında örnek şirketi etkin olarak ayarlama.](./media/er-barcode-data-source-active-provider.png)
 
@@ -284,7 +284,7 @@ Seçilen biçimin taslak sürümü, seçilen biçim çalıştırıldığında ku
 
 ### <a name="convert-the-generated-check-to-a-pdf"></a><a name="ExampleConvertToPDF"></a>Oluşturulan çeki PDF'ye dönüştürme
 
-[Yazdırılabilir FTI formları oluşturma](er-generate-printable-fti-forms.md#finland) konusunda açıklandığı gibi, oluşturulan belgede barkodlar oluşturmak için özel bir yazı tipi kullanabilirsiniz. Bu durumda, oluşturulan belgedeki ek dönüştürme işlemleri bu yazı tipinin dönüştürme ortamındaki kullanılabilirliğine bağlı olabilir. Örneğin, bir belgeyi PDF formatına dönüştürmeye veya yazı tipinin bulunmadığı bir ortamda önizlemeye çalışırsanız, barkodlar doğru işlenmez.
+[Yazdırılabilir FTI formları oluşturma](er-generate-printable-fti-forms.md#finland) makalesinde açıklandığı gibi, oluşturulan belgede barkodlar oluşturmak için özel bir yazı tipi kullanabilirsiniz. Bu durumda, oluşturulan belgedeki ek dönüştürme işlemleri bu yazı tipinin dönüştürme ortamındaki kullanılabilirliğine bağlı olabilir. Örneğin, bir belgeyi PDF formatına dönüştürmeye veya yazı tipinin bulunmadığı bir ortamda önizlemeye çalışırsanız, barkodlar doğru işlenmez.
 
 Ancak **Barkod** veri kaynağını, barkodları oluşturmak için kullandığınızda, bu barkodların işlenmesi herhangi bir yazı tipine bağlı değildir. Bu nedenle, barkodların bulunduğu belgeleri PDF formatına kolayca dönüştürebilirsiniz. Aşağıdaki şekilde, yapılandırılan ER [hedefinin](electronic-reporting-destinations.md) ayarına bağlı olarak PDF'ye [dönüştürülmüş](electronic-reporting-destinations.md#OutputConversionToPDF) bir ödeme çekinin önizlemesi gösterilir.
 

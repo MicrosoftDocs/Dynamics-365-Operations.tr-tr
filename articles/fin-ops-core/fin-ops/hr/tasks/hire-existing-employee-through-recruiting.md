@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07dae424f32281a39c3887437ac7976fb3beb8d3
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 3fdbdfc7a1a642bae2e693d1f6de0af3c08a8a6e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734937"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876487"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Mevcut personeli işe alma yoluyla istihdam etme
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> Bu konudaki işe alma işlevi İşe Alma projeleri olarak adlandırılacaktır ve başvuranlar, uygulamalar ve işe alma projelerine odaklanır.  
+> Bu makalede işe alma işlevi, İşe Alma projeleri olarak belirtilir ve makalede başvuranlar, başvurular ve işe alma projelerine odaklanılmaktadır.  
 
 
 Bazen açık pozisyonlar, kuruluşunuzda halihazırda personel konumunda olan olan adaylar tarafından doldurulabilir. Bu yordam, mevcut bir personelin işe alma süreciyle işe alınması adımlarını gösterecektir. Bu yordamda, bir işe alma projesi zaten ayarlanmıştır ve mevcut bir personel zaten bu işe alma projesine bir başvuru göndermiştir. Bu yordamı oluşturmak için **USMF** demo verileri şirketi kullanılmıştır.

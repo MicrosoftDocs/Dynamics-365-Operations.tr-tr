@@ -1,6 +1,6 @@
 ---
-title: Varlık sayaçlarını el ile güncelleştirme
-description: Bu konuda, Varlık Yönetiminde varlık sayaçlarının el ile güncelleştirilmesi açıklanmaktadır.
+title: Kıymet sayaçlarını el ile güncelleme
+description: Bu makalede, Varlık Yönetiminde varlık sayaçlarının el ile güncelleştirilmesi açıklanmaktadır.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 74d840cbb064018560a6abc2823f520c2f3179ac42b149c0507c9421a4e73391
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f3a9ee0a96e6a9097608b4c7cd1f65085e95b8ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776446"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897733"
 ---
 # <a name="manual-update-of-asset-counters"></a>Kıymet sayaçlarını el ile güncelleştirme
 

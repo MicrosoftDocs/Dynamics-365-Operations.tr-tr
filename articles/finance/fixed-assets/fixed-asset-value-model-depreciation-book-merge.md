@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e9d937211c049b2ec4ac06ac6eddce7fd9bcb5b0
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f4f06b7916fb2eeed802b2dce95edfce448dcd97
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720013"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880859"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Sabit kıymet değer modeli ve amortisman defteri birleştirme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, sabit kıymetlerdeki geçerli defter işlevini açıklamaktadır. Bu özellik, önceki sürümlerde kullanılabilir olan değer modeli işlevselliğini temel alır ancak önceden yalnızca amortisman defterlerinde sunulan tüm işlevsellikleri de içerir.
+Bu makalede, Sabit kıymetlerdeki geçerli defter işlevi açıklanmaktadır. Bu özellik, önceki sürümlerde kullanılabilir olan değer modeli işlevselliğini temel alır ancak önceden yalnızca amortisman defterlerinde sunulan tüm işlevsellikleri de içerir.
 
-Defter işlevi, tüm organizasyonunuzun sabit kıymet süreçleri için tek bir sayfa, sorgu ve rapor kümesi kullanmanızı sağlar. Bu konudaki tablolar amortisman defterlerinin ve değer modellerinin daha önceki işlevselliklerini, defterler için geçerli işlevsellikle birlikte açıklar.
+Defter işlevi, tüm organizasyonunuzun sabit kıymet süreçleri için tek bir sayfa, sorgu ve rapor kümesi kullanmanızı sağlar. Bu makaledeki tablolar amortisman defterlerinin ve değer modellerinin daha önceki işlevselliklerini, defterler için geçerli işlevsellikle birlikte açıklar.
 
 ## <a name="setup"></a>Kurulum
 Varsayılan olarak, defterler genel muhasebe (GL) ve sabit kıymet yardımcı defterine nakleder. Defterler Genel muhasebeye nakletmeyi devre dışı bırakıp yalnızca Sabit kıymet yardımcı defterine nakletmenize izin veren yeni bir **Genel muhasebeye naklet** seçeneğine sahiptir. Bu işlevsellik amortisman defterlerinin önceki nakil davranışını andırır. Günlük adları kurulumu Yok adlı yeni bir deftere nakil katmanına sahiptir. Bu deftere nakil katmanı sabit kıymet hareketleri için özellikle eklenmiştir. Genel muhasebeye nakil yapmayan defterlerin hareketlerini deftere nakletmek için deftere nakil katmanı **Yok** olarak ayarlanmış bir günlük adı kullanmanız gerekir.

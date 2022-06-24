@@ -1,6 +1,6 @@
 ---
-title: Mısır için stopaj vergisi beyanı
-description: Bu konu, Mısır için stopaj vergisi beyanının nasıl yapılandırılacağını ve oluşturulacağını açıklar.
+title: Mısır için stopaj vergisi beyannamesi
+description: Bu makalede, Mısır için stopaj vergisi beyanının nasıl yapılandırılacağı ve oluşturulacağı açıklanmaktadır.
 author: sndray
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8d78af13e0b3879afd0b6dae7b1a9ece651c3fd2
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 505eb8a907ec8cc74b897695ddd90eee3abb0ed6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403903"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907701"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Mısır için stopaj vergisi beyanı (EG-00005)
 
 [!include[banner](../includes/banner.md)]
 [!include[banner](../includes/preview-banner.md)]
 
-## <a name="overview"></a>Genel bakış
-Bu konu, Mısır'da yasal varlıklar için stopaj vergisi beyanı ve stopaj vergisi beyanı formları Form 41 ve Form 11'in nasıl ayarlanacağını ve oluşturulacağını açıklamaktadır. 
+## <a name="overview"></a>Genel Bakış
+Bu makalede, Mısır'daki tüzel kişilikler için stopaj vergisi beyanı ve stopaj vergisi beyanı formları Form 41 ve Form 11'in nasıl ayarlanacağı ve oluşturulacağı açıklanmaktadır 
 
 Tüm Mısırlı varlıklar yerel tedarikçiler ve servis sağlayıcılarından alınan tüm vergileri özetleyen Form 41'i hazırlamalıdır. Form 41'in yanı sıra, yabancı sağlayıcılardan alınan tüm vergilerin ayrıntılarını belirtmek için form 11'i oluşturulmalıdır. 
 
-Dynamics 365 Finance'deki **stopaj vergisi beyan** raporu aşağıdaki raporları içerir:
+Dynamics 365 Finance'teki **Stopaj vergisi beyanı** raporu aşağıdaki raporları içerir:
 
 - Beyan formu No. 41
 - Beyan formu No. 11
@@ -58,7 +58,7 @@ Elektronik raporlama yapılandırmalarını içe aktarma hakkında daha fazla bi
 
 Mısır için WHT beyan formunun uygulanması, elektronik raporlama (ER) yapılandırmalarına dayanır. Yapılandırılabilir raporlamanın özellikleri ve kavramları hakkında daha fazla bilgi için [Elektronik raporlama](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md) konusuna bakın.
 
-Üretim ve Kullanıcı kabul sınamaları (UAT) ortamları için, [Elektronik raporlama yapılandırmalarını Lifecycle Services'den indirme](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md) konusundaki yönergeleri izleyin.
+Üretim ve kullanıcı kabul sınamaları (UAT) ortamları için, [Elektronik raporlama yapılandırmalarını Lifecycle Services'den indirme](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md) makalesindeki yönergeleri izleyin.
 
 Bir Mısır yasal varlığında stopaj beyanları oluşturmak için, aşağıdaki yapılandırmaları yüklemeniz gerekir:
 

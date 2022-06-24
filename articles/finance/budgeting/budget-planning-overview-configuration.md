@@ -1,6 +1,6 @@
 ---
 title: Bütçe planlamaya genel bakış
-description: Bu konu bütçe planlamasını açıklamaktadır. Bütçe planlamayı yapılandırmanıza ve bütçe planlama süreçlerini ayarlamanıza yardımcı olabilecek bilgiler içerir.
+description: Bu makalede, bütçe planlaması açıklanmaktadır. Bütçe planlamayı yapılandırmanıza ve bütçe planlama süreçlerini ayarlamanıza yardımcı olabilecek bilgiler içerir.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d69d3d1620616bd7a136645d6f28f638e8bcf199
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 1f1ecf830953362636c8b0369586d8b76499ebb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711757"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853568"
 ---
 # <a name="budget-planning-overview"></a>Bütçe planlamaya genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu bütçe planlamasını açıklamaktadır. Bütçe planlamayı yapılandırmanıza ve bütçe planlama süreçlerini ayarlamanıza yardımcı olabilecek bilgiler içerir.
+Bu makalede, bütçe planlaması açıklanmaktadır. Bütçe planlamayı yapılandırmanıza ve bütçe planlama süreçlerini ayarlamanıza yardımcı olabilecek bilgiler içerir.
 
 ## <a name="overview-of-budget-planning"></a>Bütçe planlamaya genel bakış
 
@@ -91,7 +91,7 @@ Bir bütçe planlama iş akışı bir bütçe planının geçtiği, belirlenen b
 
 **Bütçe planlama yapılandırması** sayfasının **İş akışı aşamaları** bölümünde bütçe planlama iş akışı oluşturursunuz. Burada, kullanılacak aşamaları ve bütçeleme iş akışını seçebilir ve ek ayarları yapılandırabilirsiniz.
 
-Bir bütçeleme hiyerarşisinin her bir düzeyi için bir bütçe planlama iş akışının oluşturulması iyi bir uygulamadır. Ardından, bütçe planlama iş akışındaki aşamalara karşılık gelen öğeleri içeren bir bütçeleme iş akışı atarsınız. Bu konunun başında verilen örnek şemada, Satış departmanları için bir bütçe planlama iş akışı ve genel merkezler için başka bir bütçe planlama iş akışı oluşturulacaktır. Bir bütçeleme iş akışı, bütçe planlarını aşamalardan geçirir.
+Bir bütçeleme hiyerarşisinin her bir düzeyi için bir bütçe planlama iş akışının oluşturulması iyi bir uygulamadır. Ardından, bütçe planlama iş akışındaki aşamalara karşılık gelen öğeleri içeren bir bütçeleme iş akışı atarsınız. Bu makalenin başında verilen örnek şemada, Satış departmanları için bir bütçe planlama iş akışı ve genel merkezler için başka bir bütçe planlama iş akışı oluşturulacaktır. Bir bütçeleme iş akışı, bütçe planlarını aşamalardan geçirir.
 
 **Bütçeleme iş akışları** sayfasında bütçe planlama için bütçeleme iş akışı oluşturursunuz. Bu süreç, diğer iş akışlarının oluşturulması için kullanılan sürece benzerdir. Aşağıdaki şekilde Genel merkez için bir iş akışı örneği gösterilmiştir.
 
@@ -141,7 +141,7 @@ Aşama tahsisatları, iş akışının işlenmesi sırasında bütçe planı sat
 
 Bir aşama tahsisatı kurduğunuzda, bütçe planlama iş akışını ve aşamasını tahsisat programıyla ilişkilendirirsiniz. Bütçe planlama iş akışı mutlaka **Bütçe planlama aşama tahsisatı** otomatik iş akışı görevini kullanan bir bütçeleme iş akışıyla ilişkilendirilmelidir. İş akışı, belirtilen aşamaya ulaştığında tahsisat otomatik olarak gerçekleşir. Bu otomatik görev yeni bir senaryoda bütçe planı oluşturulması için kullanılabilir.
 
-Bu konunun başında verilen örnek şemada, bir bütçe planındaki tutarların ve genel merkez "Temel" aşamasındaki senaryoların başka bütçe planına ve Satış departmanlarının "Tahmin" aşamasındaki senaryolara aktarılması için bir tahsisat gerçekleştirilmektedir. Aşağıdaki şekilde örnek şemanın ilgili bölümü gösterilmiştir.
+Bu makalenin başında verilen örnek şemada, bir bütçe planındaki tutarların ve genel merkez "Temel" aşamasındaki senaryoların başka bütçe planına ve Satış departmanlarının "Tahmin" aşamasındaki senaryolarına aktarılması için bir tahsisat gerçekleştirilmektedir. Aşağıdaki şekilde örnek şemanın ilgili bölümü gösterilmiştir.
 
 [![Aşama tahsisatı.](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 

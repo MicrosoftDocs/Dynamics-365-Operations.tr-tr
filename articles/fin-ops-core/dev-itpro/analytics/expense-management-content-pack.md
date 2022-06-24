@@ -1,6 +1,6 @@
 ---
 title: Gider yönetimi Power BI içeriği
-description: Bu konu, Power BI Gider Yönetimi içerik paketinde nelerin bulunduğunu açıklar.
+description: Bu makalede, Gider yönetimi Power BI içerik paketinde nelerin bulunduğu açıklanmaktadır.
 author: panolte
 ms.date: 03/18/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 178a65c44abd0c9c068d4da1f2684a60062da595247560de4cb81d97ab7b6521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 78ae444c1c9803ed3708d71da7a359667df0252f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769910"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878327"
 ---
 # <a name="expense-management-power-bi-content"></a>Gider yönetimi Power BI içeriği
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Power BI Gider Yönetimi'nde içeriğinde nelerin bulunduğunu açıklar. 
+Bu makalede, Gider yönetimi Power BI içeriğinde nelerin bulunduğu açıklanmaktadır. 
 
 ## <a name="overview"></a>Genel bakış
 İki Power BI içerik paketi Gider yönetiminde kullanılmak üzere sürüm 8.1 ve sonrasında mevcuttur. 

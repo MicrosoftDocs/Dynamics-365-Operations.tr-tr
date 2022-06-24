@@ -1,6 +1,6 @@
 ---
 title: Microsoft Power Apps portallarını Taraf veri modeliyle kullanma
-description: Bu konuda, çift yazmadaki taraf veri modeli nedeniyle Microsoft Power Apps portalları için web rollerinde yapılan değişiklikler açıklanmaktadır.
+description: Bu makalede, çift yazmadaki taraf veri modeli nedeniyle Microsoft Power Apps portalları için web rollerinde yapılan değişiklikler açıklanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 8242a74b8b2251a8489b772f5c4746b113fe2987
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: c2e9d0f47ef90167bf84bb5b20e6a7ad2d58ffd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898960"
 ---
 # <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Microsoft Power Apps portallarını Taraf veri modeliyle kullanma
 
@@ -24,7 +24,7 @@ ms.locfileid: "8060932"
 
 Çift yazma uygulama düzenleme çözümü sürüm 2.0.999.0 ve sonraki sürümleri, Hesap ve İlgili kişi tabloları için tarafta ve genel adres defterindeki veri modeli değişikliklerini içerir. Değişiklikler, gelişmiş iş senaryolarını destekleyen çok-çok ilişkisi sağlar. Bu değişiklikler, müşteri portalı dahil, kullanıma hazır veya çift yazma yüklenmeden önce ortamınızda varolan portal web rolleri tarafından desteklenmez. Web rollerinin beklendiği gibi çalışması için yeni veri modelini kullanarak yeni web rolleri oluşturmanız gerekir. 
 
-Özetle, tabloların etkileşim şekli değişti, ancak müşteri portalındaki tablo izinleri değişmedi. Bu konu, yeni gelişmiş veri modeliyle çalışan yeni Web rollerinin nasıl oluşturulacağını açıklamaktadır.
+Özetle, tabloların etkileşim şekli değişti, ancak müşteri portalındaki tablo izinleri değişmedi. Bu makalede, yeni gelişmiş veri modeliyle çalışan yeni web rollerinin nasıl oluşturulacağı açıklanmaktadır.
 
 Bu diyagram, taraf ve genel adres defteri veri modeli **olmadan** tablo ilişkisini gösterir:
 

@@ -1,6 +1,6 @@
 ---
 title: PayPal için hızlı ödemeleri yapılandırma
-description: Bu konuda, Microsoft Dynamics 365 Commerce'te daha hızlı ödeme özelliklerini etkinleştirmek üzere PayPal için hızlı ödemeleri yapılandırma yöntemi açıklanmıştır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce'te daha hızlı ödeme özelliklerini etkinleştirmek üzere PayPal için hızlı ödemeleri yapılandırma yöntemi açıklanmıştır.
 author: BrianShook
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 5fff17959e7ed9299df169c68b2ed07f6b7c7d2c
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: b69b7384992fb86370ff6881824a7d2c9a77d2c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905294"
 ---
 # <a name="configure-express-payments-for-paypal"></a>PayPal için hızlı ödemeleri yapılandırma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce'te daha hızlı ödeme özelliklerini etkinleştirmek üzere PayPal için hızlı ödemeleri yapılandırma yöntemi açıklanmıştır.
+Bu makalede, Microsoft Dynamics 365 Commerce'te daha hızlı ödeme özelliklerini etkinleştirmek üzere PayPal için hızlı ödemeleri yapılandırma yöntemi açıklanmıştır.
 
 ## <a name="key-terms"></a>Önemli terimler
 
@@ -28,7 +28,7 @@ Bu konuda, Microsoft Dynamics 365 Commerce'te daha hızlı ödeme özelliklerini
 |---|---|
 | PayPal Cüzdanı | PayPal bağlayıcısı tarafından desteklenen müşteri deneyimi ve tümleştirme. PayPal düğmesi olarak da bilinir. |
 | Cüzdan | Kredi ve ATM kartı tiplerini ayırt etmek için kullanılan banka kimlik numarası (BIN) aralığı ve son kullanma tarihi gibi geleneksel ödeme özellikleri içermeyen bir ödeme türü. |
-| Hızlı ödeme | Desteklenen ödeme yöntemleri kullanıldığında daha hızlı ödeme davranışını destekleyen bir Commerce modülü. Bu konu, PayPal ile ödeme hızlı modülü kullanımını kapsamaktadır. |
+| Hızlı ödeme | Desteklenen ödeme yöntemleri kullanıldığında daha hızlı ödeme davranışını destekleyen bir Commerce modülü. Bu makale, PayPal ile ödeme hızlı modülü kullanımını kapsamaktadır. |
 
 Dynamics 365 Commerce, PayPal Cüzdanı için kullanıma hazır bir tümleştirme sunar. PayPal için Dynamics 365 Ödeme Bağlayıcısı yapılandırıldığında, bir çevrimiçi sipariş ödemesi sırasında PayPal düğmesi seçilebilir bir ödeme yöntemi olarak görünür. Kullanıcılar PayPal'ı seçtiklerinde, doğrudan PayPal aracılığıyla ödemeyi tamamlamaya yönlendirilir ve daha sonra siparişlerini tamamlamak için çevrimiçi mağazaya geri gönderilir. PayPal sepeti ödemesi, müşterilerin ödeme işlemini daha çabuk tamamlayabilmeleri için ödeme hesabı bilgilerini kullanarak ödeme formunu önceden doldurmalarını sağlar.
 

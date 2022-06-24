@@ -1,6 +1,6 @@
 ---
 title: Bordro çalışan kazanç planı
-description: Bu konuda, Dynamics 365 Human Resources'taki Bordro çalışan kazanç planı varlığıyla ilgili ayrıntılı bilgiler ve örnek bir sorgu sağlanmaktadır.
+description: Bu makalede, Dynamics 365 Human Resources'daki Bordrolu çalışan kazanç planı varlığıyla ilgili ayrıntılı bilgiler ve örnek bir sorgu sağlanmaktadır.
 author: twheeloc
 ms.date: 07/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ade1c789716ea5f559a73c8551b7c1adf030b806
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: ef45855d9e60131ac065ae6e2769b71ae3f69537
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902299"
 ---
 # <a name="payroll-worker-benefit-plan"></a>Bordro çalışan kazanç planı
 
@@ -27,7 +27,7 @@ ms.locfileid: "8533810"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, Dynamics 365 Human Resources için Bordro çalışan kazanç planı varlığı açıklanmaktadır.
+Bu makalede, Dynamics 365 Human Resources için Bordrolu çalışan kazanç planı varlığı açıklanmaktadır.
 
 Fiziksel ad: mshr_payrollworkerbenefitplanentities.
 

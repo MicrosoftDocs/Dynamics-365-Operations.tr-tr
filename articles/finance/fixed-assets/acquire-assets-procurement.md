@@ -1,6 +1,6 @@
 ---
 title: Kıymetleri tedarik yoluyla alma
-description: Bu konuda, satınalma emirlerinden veya satıcı faturalarından otomatik olarak sabit kıymetler oluşturmak veya sabit kıymetler için alım ve alım ayar hareketlerini otomatik olarak deftere nakletmek için Sabit kıymetler ile Borç hesapları arasında nasıl entegrasyon kurulacağı açıklanmaktadır.
+description: Bu makalede, satınalma siparişlerinden veya satıcı faturalarından otomatik olarak sabit kıymetler oluşturmak veya sabit kıymetler için alım ve alım düzeltme hareketlerini otomatik olarak deftere nakletmek için Sabit kıymetler ile Borç hesapları arasında nasıl tümleştirme oluşturacağı açıklanmaktadır.
 author: moaamer
 ms.date: 03/05/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b654dbf97f8d91e0a3233803ee182b1383ad317d
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ac25114fe8036a474d637e9ad9ede5e46b50d92e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712104"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891594"
 ---
 # <a name="acquire-assets-through-procurement"></a>Kıymetleri tedarik yoluyla alma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, satınalma emirlerinden veya satıcı faturalarından otomatik olarak sabit kıymetler oluşturmak veya sabit kıymetler için alım ve alım ayar hareketlerini otomatik olarak deftere nakletmek için Sabit kıymetler ile Borç hesapları arasında nasıl entegrasyon kurulacağı açıklanmaktadır. Bir satınalma satırı bir varlık oluşturacaktır, satınalma satırının miktarı ne olursa olsun. Birden fazla sabit varlık oluşturmanız gerekirse, birden fazla satınalma satırı oluşturmanız gerekir.
+Bu makalede, satınalma siparişlerinden veya satıcı faturalarından otomatik olarak sabit kıymetler oluşturmak veya sabit kıymetler için alım ve alım düzeltme hareketlerini otomatik olarak deftere nakletmek için Sabit kıymetler ile Borç hesapları arasında nasıl tümleştirme oluşturacağı açıklanmaktadır. Bir satınalma satırı bir varlık oluşturacaktır, satınalma satırının miktarı ne olursa olsun. Birden fazla sabit varlık oluşturmanız gerekirse, birden fazla satınalma satırı oluşturmanız gerekir.
 
  Sabit kıymetlerle ve Borç hesaplarını tümleştirmek için aşağıdaki yöntemler kullanılabilir ve tüm sabit kıymetler için aynı yöntemi kullanmanız gerekir:
 -   Satın alma siparişindeki veya satıcı faturadaki satıra sabit kıymet numarası eklemeden önce el ile bir sabit kıymet oluşturmanız gerekir. Satıcı faturasını naklettiğinizde kıymet için deftere otomatik olarak bir alım hareketi nakledilir. Bu, varsayılan yöntemdir.
@@ -38,7 +38,7 @@ Sabit kıymetleri el ile oluşturmayı tercih ediyorsanız ilk iki yöntemden bi
 
 Sabit kıymetleri el ile oluştursanız da, daha esnek bir yaklaşım kullansanız da, bir alım hareketinin yalnızca Sabit kıymetlere mi nakledilebileceği yoksa bir satıcı faturası naklettiğinizde de nakledilip nakledilemeyeceğine karar vermeniz gerekir. Bazı organizasyonlar kullanıcıların, el ile günlük girişleri veya teklifleri kullanarak Sabit kıymetlerde alım ve alım hareketlerini el ile oluşturmasını tercih eder. 
 
-Bu konuda her yöntem ayrıntılarıyla ele alınmaktadır.
+Bu makalede her yöntem ayrıntılarıyla ele alınmaktadır.
 
 ## <a name="methods-for-manually-creating-fixed-assets"></a> El ile oluşturulan sabit kıymetler için yöntemler
 Bu satırlara bir sabit kıymet numarası girilmiş bir satıcı faturasını naklederken, Sabit kıymetler parametreleri sayfasından Satın alma seçeneğinden kıymet alınımına izin ver seçimi yapılırsa alım otomatik olarak nakledilir ve kıymet durumu Açık olarak değişir. 

@@ -1,6 +1,6 @@
 ---
 title: Finance Insights için Yapılandırma
-description: Bu konuda, sisteminizin Mali içgörülerde sunulan özellikleri kullanabilmesini sağlayacak yapılandırma adımları açıklanmaktadır.
+description: Bu makalede, sisteminizin Finance Insights'ta sunulan özellikleri kullanabilmesini sağlayacak yapılandırma adımları açıklanmaktadır.
 author: ShivamPandey-msft
 ms.date: 01/27/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6ec7e6a7e616e239128281ba669c8bbbfc5e3c7a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ac0f0cb078b6e202540fadbff337a01379febc8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710644"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861430"
 ---
 # <a name="configuration-for-finance-insights"></a>Finance Insights için Yapılandırma
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Finance Insights, kuruluşunuza güçlü tahmin araçları sunmak için Microsoft Dynamics 365 Finance işlevlerini Dataverse, Azure ve AI Builder işlevleriyle bir araya getirir. Bu konuda, sisteminizin Mali içgörülerde sunulan özellikleri kullanabilmesini sağlayacak yapılandırma adımları açıklanmaktadır. Bu konudaki yordamları başarıyla tamamlamak için, [Power Portal yönetim merkezinde](https://admin.powerplatform.microsoft.com/) Sistem yöneticisi ve Sistem Özelleştirici erişimine, Dynamics 365 Finance'te Sistem Yöneticisi erişimine ve Microsoft Dynamics Lifecycle Services'ta (LCS) ortam oluşturma erişimine sahip olmanız gerekir.
+Finance Insights, kuruluşunuza güçlü tahmin araçları sunmak için Microsoft Dynamics 365 Finance işlevlerini Dataverse, Azure ve AI Builder işlevleriyle bir araya getirir. Bu makalede, sisteminizin Finance Insights'ta sunulan özellikleri kullanabilmesini sağlayacak yapılandırma adımları açıklanmaktadır. Bu makaledeki yordamları başarıyla tamamlamak için, [Power Portal yönetim merkezinde](https://admin.powerplatform.microsoft.com/) Sistem yöneticisi ve Sistem Özelleştirici erişimine, Dynamics 365 Finance'te Sistem Yöneticisi erişimine ve Microsoft Dynamics Lifecycle Services'te (LCS) ortam oluşturma erişimine sahip olmanız gerekir.
 
 > [!NOTE]
 > Finance Insights'ı ayarlamak için aşağıdaki yordamlar, 10.0.21 ve üzeri Microsoft Dynamics 365 Finance sürümleri için geçerlidir.

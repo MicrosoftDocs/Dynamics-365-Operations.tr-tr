@@ -1,6 +1,6 @@
 ---
 title: Seyahatleri yönetme
-description: Bu konu, seyahatlerle nasıl çalışılacağını açıklamaktadır. Bir seyahat genellikle bir gemiyi temsil eder. Ancak uygulamalarınıza ve prosedürlerinize bağlı olarak bir satıcıyı, satın alma siparişini veya kuruluşunuz için anlamlı olan başka bir maddeyi temsil edebilir.
+description: Bu makale, seyahatlerle nasıl çalışılacağını açıklamaktadır. Bir seyahat genellikle bir gemiyi temsil eder. Ancak uygulamalarınıza ve prosedürlerinize bağlı olarak bir satıcıyı, satın alma siparişini veya kuruluşunuz için anlamlı olan başka bir maddeyi temsil edebilir.
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7d85ef86351f5d6ac662bb72c88d464fba82f561
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696180"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905877"
 ---
 # <a name="manage-voyages"></a>Seyahatleri yönetme
 
@@ -96,7 +96,7 @@ Aşağıdaki tabloda, doğrudan Eylem Bölmesinde bulunan **Genel** sekmesinde a
 
 ### <a name="information-on-the-voyage-header-fasttab"></a>Seyahat başlığı hızlı sekmesi hakkında bilgi
 
-Bir **Satırlar** görünümündeki **Seyahat başlığı** hızlı sekmesi, seyahati açıklayan temel bilgileri içerir. Bu hızlı sekmede görünen alanların çoğu, bu konuda daha sonra açıklandığı gibi **Başlık** görünümünde de görünür.
+Bir **Satırlar** görünümündeki **Seyahat başlığı** hızlı sekmesi, seyahati açıklayan temel bilgileri içerir. Bu hızlı sekmede görünen alanların çoğu, bu makalede daha sonra açıklandığı gibi **Başlık** görünümünde de görünür.
 
 ### <a name="information-on-the-voyage-lines-fasttab"></a>Seyahat satırları hızlı sekmesi hakkında bilgi
 

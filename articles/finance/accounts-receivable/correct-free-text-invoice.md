@@ -1,6 +1,6 @@
 ---
 title: Bir serbest metin faturasını düzeltmek
-description: Bu konuda, deftere nakledilmiş bir metin faturasının nasıl düzeltileceği ve düzeltilmiş fatura olarak yeniden nasıl yayınlanacağı açıklanmaktadır.
+description: Bu makalede, deftere nakledilmiş bir metin faturasının nasıl düzeltileceği ve düzeltilmiş fatura olarak yeniden nasıl yayınlanacağı açıklanmaktadır.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fb535b14f4c270f914a427d09027c37b3be7b72
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 9fccd6dbb33efd1556c56a6d92ad191ecfd317fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716230"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878203"
 ---
 # <a name="correct-a-free-text-invoice"></a>Bir serbest metin faturasını düzeltmek
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, deftere nakledilmiş bir metin faturasının nasıl düzeltileceği ve düzeltilmiş fatura olarak yeniden nasıl yayınlanacağı açıklanmaktadır.
+Bu makalede, deftere nakledilmiş bir metin faturasının nasıl düzeltileceği ve düzeltilmiş fatura olarak yeniden nasıl yayınlanacağı açıklanmaktadır.
 
 Deftere nakledilmiş bir Dekont/Serbest metin faturasını düzeltmek için deftere nakledilen serbest metinli faturayı açın. **Fatura** sayfası üzerinde, **İptal** seçeneğini tıklatın ve daha sonra **Doğru fatura**'yı seçin. Bir neden kodu seçin, yorumlar ekleyin ve yeni düzeltilmiş fatura için tarih seçin. Düzeltilmiş faturayı değiştirebilir ve nakledebilirsiniz. 
 
@@ -44,7 +44,7 @@ Düzeltilmiş Fatura'yı deftere naklettikten sonra üç faturanız olacaktır:
 -   Dekont/Serbest metin faturası başlığı **İptal Faturası '\[fatura numarası\]'** veya **Düzeltilmiş Fatura '\[fatura numarası\]'** durumunu gösterir.
 
 > [!NOTE]
-> Bu özellik sadece **Serbest metin fatura düzeltmesi** konfigürasyon anahtarı seçiliyse kullanılabilir. Yapılandırma anahtarlarının nasıl etkinleştirileceği hakkında daha fazla bilgi için [Bakım modu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) konusundaki YApılandırma anahtarlarını Etkinleştir (veya Devre Dışı Bırak) bölümüne bakın. 
+> Bu özellik sadece **Serbest metin fatura düzeltmesi** konfigürasyon anahtarı seçiliyse kullanılabilir. Yapılandırma anahtarlarının nasıl etkinleştirileceği hakkında daha fazla bilgi için [Bakım modu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) makalesindeki Yapılandırma anahtarlarını etkinleştirme (veya devre dışı bırakma) bölümüne bakın. 
 
 
 

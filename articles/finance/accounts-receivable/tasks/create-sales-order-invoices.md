@@ -1,6 +1,6 @@
 ---
 title: Satış siparişi faturaları oluşturma
-description: Bu konuda, fatura birleştirme ve toplu işleme dahil bir satış siparişinin nasıl faturalandırılacağı açıklanmaktadır.
+description: Bu makalede, fatura birleştirme ve toplu işleme dahil bir satış siparişinin nasıl faturalandırılacağı açıklanmaktadır.
 author: ShivamPandey-msft
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7976d310e9c80dfe683359f1157b85e46c758c48
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: ceda837cae563dab68969cb9f05de113079d4495
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713458"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910272"
 ---
 # <a name="create-sales-order-invoices"></a>Satış siparişi faturaları oluşturma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, fatura birleştirme ve toplu işleme dahil bir satış siparişinin nasıl faturalandırılacağı açıklanmaktadır. Bu yordam, USMF demo şirketini kullanır.
+Bu makalede, fatura birleştirme ve toplu işleme dahil bir satış siparişinin nasıl faturalandırılacağı açıklanmaktadır. Bu yordam, USMF demo şirketini kullanır.
 
 
 ## <a name="create-an-invoice-from-a-sales-order"></a>Satış siparişinden fatura oluşturma

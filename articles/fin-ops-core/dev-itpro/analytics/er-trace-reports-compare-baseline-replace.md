@@ -1,6 +1,6 @@
 ---
 title: Oluşturulan ER raporları sonuçlarının izlenmesini temel değerlerle karşılaştırmak için iyileştirme
-description: Bu konuda, Microsoft Dynamics 365 for Finance and Operations 10.0.3 sürümündeki (Haziran 2019) ER temel özelliğiyle ilgili iyileştirmeler açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 for Finance and Operations 10.0.3 sürümündeki (Haziran 2019) ER temel özelliğiyle ilgili iyileştirmeler açıklanmaktadır.
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: b6e8299dd57730486c731cd38578bd5ff6b8a1754f145432e300c1217c6dd640
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760762"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847415"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Oluşturulan ER raporları sonuçlarının izlenmesini temel değerlerle karşılaştırmak için iyileştirme
 
 [!include[banner](../includes/banner.md)]
 
-Bu konuda, Elektronik raporlama (ER) çerçevesinin temel özelliğinde yapılan ilk iyileştirmeler kümesi açıklanmaktadır. Bu iyileştirmeler Microsoft Dynamics 365 for Finance and Operations 10.0.3 (Haziran 2019) sürümünde ve sonrasında kullanılabilir.
+Bu makalede, Elektronik raporlama (ER) çerçevesinin temel özelliğinde yapılan ilk iyileştirmeler kümesi açıklanmaktadır. Bu iyileştirmeler Microsoft Dynamics 365 for Finance and Operations 10.0.3 (Haziran 2019) sürümünde ve sonrasında kullanılabilir.
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>Temel kuralları ayarını otomatikleştirme
 
-[Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma](er-trace-reports-compare-baseline.md) konusu ER formatındaki uygulamalar hakkında bilgi toplamak için ER çerçevesini nasıl yapılandıracağınızı ve bu uygulamaların sonuçlarını nasıl değerlendireceğinizi açıklar. Bu konudaki örnekte, tamamlanması gereken adımlar gösterilmektedir.
+[Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma](er-trace-reports-compare-baseline.md) makalesi, ER biçimindeki yürütmeler hakkında bilgi toplamak için ER çerçevesini nasıl yapılandıracağınızı ve bu yürütmelerin sonuçlarını nasıl değerlendireceğinizi açıklar. Bu makaledeki örnekte, tamamlanması gereken adımlar gösterilmektedir.
 
 Adımlara bir kaç örnek:
 
@@ -45,7 +45,7 @@ Adımlara bir kaç örnek:
 
 ## <a name="example-automate-the-setting-of-baseline-rules"></a>Örnek: Temel kurallar ayarını otomatikleştirme
 
-Bu örnekteki adımları tamamlamak için ilk önce [Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma](er-trace-reports-compare-baseline.md) yukardaki "Add a new baseline for a designed ER format" bölümünün adımlarını tamamlamalısınız.
+Bu örnekteki adımları tamamlamak için ilk önce [Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma](er-trace-reports-compare-baseline.md) makalesindeki "Tasarlanan bir ER biçimi için yeni bir temel dosyası ekleme" bölümüne kadar olan örnek adımlarını tamamlamalısınız.
 
 ### <a name="review-added-baseline"></a>Eklenen temeli inceleme
 
@@ -80,7 +80,7 @@ Temel, seçilmiş **ER temellerini öğrenme biçimi** formatında eklendi ancak
 
 ### <a name="run-the-format"></a>Biçimi çalıştır
 
-Artık [Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma](er-trace-reports-compare-baseline.md) konusunun örneğindeki kalan adımları, "Tasarlanan ER biçimini çalıştırma ve sonuçları analiz etmek için günlüğü gözden geçirme" bölümünden başlayarak tamamlamaya hazırsınız.
+Artık [Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma](er-trace-reports-compare-baseline.md) makalesinin örneğindeki kalan adımları, "Tasarlanan ER biçimini çalıştırma ve sonuçları analiz etmek için günlüğü gözden geçirme" bölümünden başlayarak tamamlamaya hazırsınız.
 
 > [!NOTE]
 > **Temel** hızlı sekmesinde otomatik olarak eklenen temel kurallarını sildiğinizde başvurulan ek otomatik olarak silinmez.
@@ -91,7 +91,7 @@ Bir ER biçimi, biçim çalıştırıldığında değiştirilen bilgileri içere
 
 ## <a name="example-configure-the-baseline-so-that-it-ignores-constantly-changing-parts-of-the-er-output"></a>Örnek: Temeli, ER çıktısının sürekli değişen kısımlarını yoksayacak şekilde yapılandırma
 
-Bu örnekteki adımları tamamlamak için ilk önce [Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma](er-trace-reports-compare-baseline.md) konusunun örneklerinin adımlarını tamamlamalısınız.
+Bu örnekteki adımları tamamlamak için ilk önce [Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma](er-trace-reports-compare-baseline.md) makalesindeki örneğin adımlarını tamamlamalısınız.
 
 ### <a name="modify-a-configured-er-format"></a>Yapılandırılmış ER biçimini değiştirme
 
@@ -142,7 +142,7 @@ Seçilen ER biçim bileşeni, **Değişiklikler** hızlı sekmesindeki bileşenl
 
 ### <a name="make-a-new-baseline-rule"></a>Yeni temel kuralı oluştur
 
-Bu konunun yukarısındaki "Örnek": temel kurallar ayarını otomatikleştirme" bölümündek adımları takip edin. Bir bildirim, giden dosyanın temel ayarları kullanılarak üretildiğini ve biçim bağlamalarının zorlanmış bir şekilde değiştirilmesini size bildirir.
+Bu makalenin önceki kısımlarında yer alan "Örnek: Temel kurallar ayarını otomatikleştirme" bölümündeki adımları takip edin. Bir bildirim, giden dosyanın temel ayarları kullanılarak üretildiğini ve biçim bağlamalarının zorlanmış bir şekilde değiştirilmesini size bildirir.
 
 ![Yapılandırmalara ilişkin bildirim sayfası.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Yapılandırmalara ilişkin bildirim sayfasının ekran görüntüsü")
 

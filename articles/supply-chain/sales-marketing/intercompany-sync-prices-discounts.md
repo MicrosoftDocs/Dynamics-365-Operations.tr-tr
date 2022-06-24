@@ -1,6 +1,6 @@
 ---
 title: Şirketlerarası fiyatları ve iskontoları eşitleme
-description: Bu konuda, şirketlerarası satış siparişleri ve satın alma siparişleri için fiyatların ve iskontoların eşitlenmesi açıklanmaktadır
+description: Bu makalede, şirketlerarası satış siparişleri ve satın alma siparişleri için fiyatların ve iskontoların eşitlenmesi açıklanmaktadır
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 90fa2244b5947c37b8498d1c70cddf894979f931
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 64130c400212a819f931cc36459667e4d7c83f32
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673648"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905703"
 ---
 # <a name="synchronize-intercompany-prices-and-discounts"></a>Şirketlerarası fiyatları ve iskontoları eşitleme
 

@@ -1,6 +1,6 @@
 ---
-title: Birleştirilmiş ürün deneyimi
-description: Bu konu Finans ve Operasyon uygulamaları ile Dataverse arasında ürün verileri tümleştirmesini açıklar.
+title: Birleşik ürün deneyimi
+description: Bu makale, Finans ve Operasyon uygulamaları ile Dataverse arasında ürün verileri tümleştirmesini açıklar.
 author: t-benebo
 ms.date: 12/12/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1b3dc1d16fc34992df0c9478b8b4d163c310b67b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a8071887678f16a0b8ee075d2aa24a07e4df5319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062610"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885012"
 ---
 # <a name="unified-product-experience"></a>Birleştirilmiş ürün deneyimi
 
@@ -126,7 +126,7 @@ Finans ve Operasyon uygulamaları | Müşteri etkileşimi uygulamaları |
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Varsayılan sipariş ayarları ve ürüne özgü varsayılan sipariş ayarları
 
-Varsayılan sipariş ayarları maddelerin bulunduğu veya depolandığı tesisi ve ambarı, ticari veya stok yönetimi için kullanılacak minimum, maksimum, birden fazla ve standart miktarları, sağlama sürelerini, durdurma bayrağını ve sipariş taahhüt hesabını tanımlar. Bu bilgiler varsayılan sipariş ayarları ve ürüne özel varsayılan sipariş ayarları varlığı kullanılarak Dataverse'te kullanılabilir. İşlev hakkında daha fazla bilgiye [Varsayılan sipariş ayarları konusu](../../../../supply-chain/production-control/default-order-settings.md)'ndan ulaşabilirsiniz.
+Varsayılan sipariş ayarları maddelerin bulunduğu veya depolandığı tesisi ve ambarı, ticari veya stok yönetimi için kullanılacak minimum, maksimum, birden fazla ve standart miktarları, sağlama sürelerini, durdurma bayrağını ve sipariş taahhüt hesabını tanımlar. Bu bilgiler varsayılan sipariş ayarları ve ürüne özel varsayılan sipariş ayarları varlığı kullanılarak Dataverse'te kullanılabilir. İşlev hakkında daha fazla bilgiye [Varsayılan sipariş ayarları makalesinden](../../../../supply-chain/production-control/default-order-settings.md) ulaşabilirsiniz.
 
 Finans ve Operasyon uygulamaları | Müşteri etkileşimi uygulamaları |
 ---|---

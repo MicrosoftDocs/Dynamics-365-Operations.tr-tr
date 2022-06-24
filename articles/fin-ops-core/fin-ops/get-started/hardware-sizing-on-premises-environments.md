@@ -1,6 +1,6 @@
 ---
 title: Şirket içi ortamlar için donanım boyutlandırma gereksinimleri
-description: Şirket içi ortamlar için donanım boyutlandırma gereksinimleri
+description: Bu makalede, şirket içi ortamlar için donanım boyutlandırma gereksinimleri listelenmektedir.
 author: sericks007
 ms.date: 06/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 520be2ebc9d90711c89b842fd9f365b2dff06935
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 88b677eab6a691003e26356acf7bb8de666bb55d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565704"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890043"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Şirket içi ortamlar için donanım boyutlandırma gereksinimleri
 

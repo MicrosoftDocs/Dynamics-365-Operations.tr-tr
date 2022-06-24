@@ -1,6 +1,6 @@
 ---
 title: Bakım planları
-description: Bu konuda Varlık Yönetimi'ndeki bakım planları açıklanmaktadır.
+description: Bu makalede Varlık Yönetimi'ndeki bakım planları açıklanmaktadır.
 author: johanhoffmann
 ms.date: 01/20/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7c74505c1771354aba42ddd9df2b7eaff8f5bc4653675244be99c4ef8afa73f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f8a6de85f68a924a8d285d8cdd306ab774661fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740755"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897820"
 ---
 # <a name="maintenance-plans"></a>Bakım planları
 
@@ -135,7 +135,7 @@ Bu bölümde bakım planı satırlarının nasıl ayarlanacağı açıklanmakta 
 | **Aralık türü: Alt sınıra ulaşıldı** Bu aralık türü yalnızca sayaçlarla ilgilidir ve bakım planı satırında ayarlanan alt sınırı göstermek için kullanılır. Bakım zamanlaması girişleri sayaç kaydının beklenen başlangıç tarihi ve saatine sahip olur. Bu, bu girişlerin sistem tarihine eşit veya daha erken bir beklenen başlangıç tarihiyle oluşturulacağı anlamına gelir. | Geçerli değil | Sayaç aralığı alt sınırı belirtir. Bu sınır sayaç kaydı oluşturduğunuzda geçilirse bakım zamanlaması satırı, önleyici bakım zamanladığınızda oluşturulur. |
 | **Aralık türü: Başlangıç tarihinden itibaren bağlantılı** Bu aralık türü, yalnızca bir kez bir bakım zamanlaması satırı oluşturur. Bakım planı, bu aralık türünü kullanarak daha fazla bakım planı satırı içerebilir ve bu satırlar bağlantılıdır. Genellikle, yalnızca bu aralık türündeki satırları içeren bir bakım planı oluşturursunuz. Bakım zamanlaması satırları, ilk beklenen başlangıç tarihi ve saatine sahip bakım planı satırını tanımlayarak oluşturulur. | Yukarıdaki "Başlangıç tarihinden itibaren bir kez" türünün açıklamasına bakın. Örnek: Bir araçtaki servis işi için bakım planında iki satır oluşturursunuz: 1 yıllık döneme sahip zaman temelli satır ve 25.000 km. sınıra sahip sayaç temelli satır. Bakım zamanlaması satırı, ilk olarak ulaşılan sınır için oluşturulur. Bu satır türü için 1 yıllık döneme sahip satırı oluşturursunuz. | Yukarıdaki "Başlangıç tarihinden itibaren bir kez" türünün açıklamasına bakın. Örnek: Bir araçtaki servis işi için bakım planında iki satır oluşturursunuz: 1 yıllık döneme sahip zaman temelli satır ve 25.000 km. sınıra sahip sayaç temelli satır. Bakım zamanlaması satırı, ilk olarak ulaşılan sınır için oluşturulur. Bu satır türü için 25.000 km. sınıra sahip satırı oluşturursunuz. İki sayaç satırı oluşturma örneği: Ayrıca ilk satırda 10.000 madde miktarı üretim sınırı olan ve ikinci satırı 3.000 saat çalışmanın ardından servis gerektiren makine veya iş merkezi ile ilgili iki bağlantılı ve sayaç temelli satıra sahip bakım planı da ayarlayabilirsiniz. |
 | **Aralık türü: Son iş emrinden itibaren bağlantılı** Bu aralık türü, her tamamlanan iş emrinden sonra yeni bakım zamanlaması satırı oluşturur. Bakım planı, bu aralık türünü kullanarak daha fazla satır içerebilir ve bu satırlar bağlantılıdır. Normal şartlarda, yalnızca bu aralık türündeki bakım planı satırlarını içeren bir bakım planı oluşturursunuz. Bakım zamanlaması satırları, ilk beklenen başlangıç tarihi ve saatine sahip bakım planı satırını tanımlayarak oluşturulur. | Bu aralık türü temelde yukarıda açıklanan "Başlangıç tarihinden bağlantılı" olarak çalışır. Tek fark, aralık türünün temel alındığı tarihtir. Kullanılan tarih, varlık *ve* bakım işi türü / bakım işi türü çeşidi / ticaret birleşiminde tamamlanan en son iş emrinin fiili tarihi ve saatidir. | Bu aralık türü temelde yukarıda açıklanan "Başlangıç tarihinden bağlantılı" olarak çalışır. Tek fark, aralık türünün temel alındığı tarihtir. Kullanılan tarih, varlık *ve* bakım işi türü / bakım işi türü çeşidi / ticaret birleşiminde tamamlanan en son iş emrinin fiili tarihi ve saatidir. |
-| **Aralık türü: Toplam değerde tekrarlama (Yalnızca sayaç)** Bakım planı çalıştırıldığında, bir kıymet sayacının birikmiş değeri dönem sıklığına veya dönem sıklığının katlarına ulaştığı her seferinde bir zamanlanmış bakım satırı oluşturulur. (Dönem sıklığı bakım planı satırında tanımlanır.)<p>Bu işlevi etkinleştirme ve kullanma hakkında daha fazla bilgi için bu konunun ilerleyen kısımlarındaki [Sayaç tabanlı bakım geliştirmeleri](#counter-based-maintenance) bölümünü inceleyin. | Geçerli değil | **Örnek:** AK-101 kıymeti için bir saat sayacı ayarlanmıştır. Kıymet için bir kıymet planı satırı da ayarlanır. Bu satırın aralık türü, *Toplam değerde tekrarlanma (Yalnızca sayaç)* seçeneğidir ve dönem sıklığı *1000* olarak ayarlanmıştır. Bakım planı çalıştırıldığında, sayacın toplam değeri 1000 saati aştığında bir zamanlanmış bakım satırı oluşturulur. Daha sonra, sayacın toplam değeri 2000 saati aştığında, bir zamanlanmış bakım satırı daha oluşturulur ve her ek 1000 saat için bu işlem tekrarlanır. |
+| **Aralık türü: Toplam değerde tekrarlama (Yalnızca sayaç)** Bakım planı çalıştırıldığında, bir kıymet sayacının birikmiş değeri dönem sıklığına veya dönem sıklığının katlarına ulaştığı her seferinde bir zamanlanmış bakım satırı oluşturulur. (Dönem sıklığı bakım planı satırında tanımlanır.)<p>Bu işlevi etkinleştirme ve kullanma hakkında daha fazla bilgi için bu makalenin ilerleyen kısımlarındaki [Sayaç tabanlı bakım geliştirmeleri](#counter-based-maintenance) bölümünü inceleyin. | Uygulanamaz | **Örnek:** AK-101 kıymeti için bir saat sayacı ayarlanmıştır. Kıymet için bir kıymet planı satırı da ayarlanır. Bu satırın aralık türü, *Toplam değerde tekrarlanma (Yalnızca sayaç)* seçeneğidir ve dönem sıklığı *1000* olarak ayarlanmıştır. Bakım planı çalıştırıldığında, sayacın toplam değeri 1000 saati aştığında bir zamanlanmış bakım satırı oluşturulur. Daha sonra, sayacın toplam değeri 2000 saati aştığında, bir zamanlanmış bakım satırı daha oluşturulur ve her ek 1000 saat için bu işlem tekrarlanır. |
 | **Aralık türü: Toplam değerde bir kere (Yalnızca sayaç)** Bakım planı çalıştırıldığında, bir kıymet sayacının toplam değeri bakım planı satırında tanımlanan dönem sıklığına her ulaştığında zamanlanmış bakım satırı oluşturulur.<p>Bu işlevi etkinleştirme ve kullanma hakkında daha fazla bilgi için [Sayaç tabanlı bakım geliştirmeleri](#counter-based-maintenance) bölümünü inceleyin. | Geçerli değil | **Örnek:** AK-101 kıymeti için bir saat sayacı ayarlanmıştır. Kıymet için bir kıymet planı satırı da ayarlanır. Bu satırın aralık türü, *Toplam değerde bir kez (Yalnızca sayaç)* seçeneğidir ve dönem sıklığı *1000* olarak ayarlanmıştır. Bakım planı çalıştırıldığında, sayacın toplam değeri 1000 saati aştığında bir zamanlanmış bakım satırı oluşturulur. |
 
 >[!NOTE]
@@ -197,7 +197,7 @@ Aşağıdaki çizimde **Tüm varlıklar** sayfasında bulunan bir varlıktaki ba
 
 - Bir kıymet oluşturulduğunda, değeri *0* (sıfır) olan bir sayacı otomatik olarak ekleme seçeneği. Bu seçenek, sayaçları temel alan tahmine dayalı bakımı kullandığınızda yararlı olabilir. *Sayaç tabanlı bakım geliştirmeleri* özelliği kullanılmazsa, değeri *0* (sıfır) olan sayaçlar el ile eklenmelidir.
 - Bir sayacı, bir iş emri tamamlandığında otomatik olarak sıfırlanacak şekilde yapılandırabilme. Bu işlev, son iş emri tamamlandığından bu yana toplam değere dayalı olarak bakım zamanlamak istediğinizde yararlıdır.
-- *Toplam değerde tekrarlama (Yalnızca sayaç)* adlı yeni bir bakım planı aralığı türü. Bu tür, sayacın toplam değeri belirli bir değerin katlarına her ulaştığında bakımı tetikler. Örneğin, bakım her 10.000 saatte bir tetiklenebilir. Daha fazla bilgi için bu konunun önceki kısımlarında yer alan [Aralık türlerine genel bakış](#interval-types) bölümüne bakın.
+- *Toplam değerde tekrarlama (Yalnızca sayaç)* adlı yeni bir bakım planı aralığı türü. Bu tür, sayacın toplam değeri belirli bir değerin katlarına her ulaştığında bakımı tetikler. Örneğin, bakım her 10.000 saatte bir tetiklenebilir. Daha fazla bilgi için bu makalenin önceki kısımlarında yer alan [Aralık türlerine genel bakış](#interval-types) bölümüne bakın.
 - *Toplam değerde bir kez (Yalnızca sayaç)* adlı başka bir yeni bakım planı aralığı türü. Bu tür, sayacın toplam değeri belirli bir değere ulaştığında (ör. 8000 saat) bakımı tetikler. Daha fazla bilgi için [Aralık türlerine genel bakış](#interval-types) bölümüne bakın.
 
 ### <a name="turn-on-the-counter-based-maintenance-enhancements-feature"></a>Sayaç tabanlı bakım geliştirmeleri özelliğini açma

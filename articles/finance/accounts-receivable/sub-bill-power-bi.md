@@ -1,6 +1,6 @@
 ---
-title: Abonelik faturalaması Power BI içeriği
-description: Bu konu, Abonelik faturalaması Microsoft Power BI içeriğinde nelerin bulunduğunu açıklar.
+title: Abonelik Faturalaması Power BI içerikleri
+description: Bu makale, Abonelik faturalaması Microsoft Power BI içeriğinde nelerin bulunduğunu açıklar.
 author: JodiChristiansen
 ms.date: 04/13/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-04-13
-ms.openlocfilehash: fad96bdaf60e7772e9ea1ff937435b0274303505
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 6cee01eb5b8bb8296b6e7f638b565c999ccc023e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645448"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849974"
 ---
-# <a name="subscription-billing-power-bi-content"></a>Abonelik faturalaması Power BI içeriği
+# <a name="subscription-billing-power-bi-content"></a>Abonelik Faturalaması Power BI içerikleri
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, Abonelik faturalaması Microsoft Power BI içeriğinde nelerin bulunduğunu açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar. 
+Bu makale, Abonelik faturalaması Microsoft Power BI içeriğinde nelerin bulunduğunu açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar. 
 
 ## <a name="overview"></a>Genel Bakış
 

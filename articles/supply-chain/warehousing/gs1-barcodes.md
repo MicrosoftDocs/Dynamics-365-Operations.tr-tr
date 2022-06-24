@@ -1,6 +1,6 @@
 ---
 title: GS1 barkodları
-description: Bu konuda, etiketlerin bir ambarda taranabilmesi için GS1 barkodlarının ve QR kodlarının nasıl ayarlanacağı açıklanmaktadır.
+description: Bu makalede, etiketlerin bir ambarda taranabilmesi için GS1 barkodlarının ve QR kodlarının nasıl ayarlanacağı açıklanmaktadır.
 author: Mirzaab
 ms.date: 03/21/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: ea928bc8a020035adb36ae2e7873c656e8c3985d
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 67c54f344ff7091f4a25198fdafa745c6c84d5d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625292"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907159"
 ---
 # <a name="gs1-bar-codes"></a>GS1 barkodları
 
@@ -30,11 +30,11 @@ Supply Chain Management'taki GS1 desteği, paletlerin ve konteynerlerin GS1 biç
 
 Lojistik yöneticilerinin, gerekli uygulama tanımlayıcıları listesini ayarlaması ve tanımlayıcıların her birini uygun mobil cihaz menü öğeleriyle ilişkilendirmesi gerekir. Ardından uygulama tanımlayıcıları, taşıma ve paketleme amacıyla genel bir ayar olarak ambarlar genelinde kullanılabilir. Böylece tüm gönderim etiketleri, birleşik bir form alır.
 
-Aksi belirtilmedikçe, bu konuda doğrusal (1D) barkodlara ve 2D barkodlara atıfta bulunmak için *barkod* terimi kullanılmaktadır.
+Aksi belirtilmedikçe, bu makalede doğrusal (1D) barkodlara ve 2D barkodlara atıfta bulunmak için *barkod* terimi kullanılmaktadır.
 
 ## <a name="the-gs1-bar-code-format"></a>GS1 barkod biçimi
 
-GS1 Genel Şartnamesi, GS1 barkodları için hangi sembolojilerin kullanılabileceğini ve barkoddaki verilerin nasıl kodlanacağını belirtir. Bu bölüm konuya kısa bir giriş yapar. Ayrıntılı bilgi için GS1 tarafından yayımlanan [GS1 Genel Şartnamesi](https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf) belgesine bakın. GS1 şartname belgesi düzenli olarak güncelleştirilir ve sağladığı bilgiler GS1 Genel Şartnamesi sürüm 22.0 ile günceldir.
+GS1 Genel Şartnamesi, GS1 barkodları için hangi sembolojilerin kullanılabileceğini ve barkoddaki verilerin nasıl kodlanacağını belirtir. Bu bölüm makaleye kısa bir giriş yapar. Ayrıntılı bilgi için GS1 tarafından yayımlanan [GS1 Genel Şartnamesi](https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf) belgesine bakın. GS1 şartname belgesi düzenli olarak güncelleştirilir ve sağladığı bilgiler GS1 Genel Şartnamesi sürüm 22.0 ile günceldir.
 
 GS1 barkodları şu sembolojileri kullanır:
 

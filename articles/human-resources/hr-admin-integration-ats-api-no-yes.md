@@ -1,6 +1,6 @@
 ---
 title: Hayır Evet
-description: Bu konu, Dynamics 365 Human Resources için Hayır Evet seçeneği kümesini açıklar.
+description: Bu makalede, Dynamics 365 Human Resources için Hayır Evet seçenek kümesi açıklanmaktadır.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 62e707cf954f90c8bb571417fb08d01452110568
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 5e1dfc456a5931299f762efab6fb123abd32f565
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069208"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909918"
 ---
 # <a name="no-yes"></a>Hayır Evet
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069208"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konu, Dynamics 365 Human Resources için Hayır Evet seçeneği kümesini açıklar.
+Bu makalede, Dynamics 365 Human Resources için Hayır Evet seçenek kümesi açıklanmaktadır.
 
 ## <a name="option-set-no-yes"></a>Seçenek kümesi: Hayır Evet
 

@@ -1,6 +1,6 @@
 ---
 title: Yarı yıl amortisman yöntemi
-description: Bu konu, sabit kıymetlerin, bir kıymetin ilk ve son yılı sırasında altı aylık amortismanı hesaplayan yarı yıl kuralını kullanarak amortismanı hesaplamak için kullandığı yöntemi açıklamaktadır.
+description: Bu makale, bir kıymetin ilk ve son yılı sırasında altı aylık amortismanı hesaplayan yarı yıl kuralını kullanarak amortismanı hesaplamak üzere sabit kıymetlerde kullanılan yöntemi açıklamaktadır.
 author: moaamer
 ms.date: 08/17/2019
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: fb15a293bb8cec1b4faba7bcbd29eb4df7916786
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: fac20f7a31eca7922ed079f9554437f28448620d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879609"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Yarı yıl amortisman yöntemi
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Bu konu, yarı yıl kuralını kullanarak amortismanı hesaplamak üzere sabit kıymetlerde kullanılan yöntemi açıklamaktadır. Yarım yıl kuralı, bir kıymetin ilk ve son yılındaki hizmeti için altı aylık amortismanı hesaplar. Amortisman kuralları hakkında daha fazla bilgi için bkz. [Amortisman yöntemleri ve kuralları](Fixed-asset-depreciation-conventions.md). 
+Bu makale, yarı yıl kuralını kullanarak amortismanı hesaplamak üzere sabit kıymetlerde kullanılan yöntemi açıklamaktadır. Yarım yıl kuralı, bir kıymetin ilk ve son yılındaki hizmeti için altı aylık amortismanı hesaplar. Amortisman kuralları hakkında daha fazla bilgi için bkz. [Amortisman yöntemleri ve kuralları](Fixed-asset-depreciation-conventions.md). 
 
 Altı aylık amortisman kuralını kullandığınızda, sistem kıymetin satın alındığı yılı veya servise verildiği yılı kullanır, sonra bu yıldan beş yıllık amortismanı hesaplar ve sonra altı ay ekler. Bu süreci görmek için, 50.000'lik bir fiyata alınmış ve 2020 Nisan ayında servise sokulmuş bir varlık düşünün. Ayrıca, kıymetin beş yıllık servis ömrüne sahip olduğunu varsayın.
 

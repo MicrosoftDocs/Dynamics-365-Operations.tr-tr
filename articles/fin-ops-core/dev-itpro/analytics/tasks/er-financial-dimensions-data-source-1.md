@@ -1,6 +1,6 @@
 ---
 title: ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 1 - Veri modeli tasarlama)
-description: Bu konuda, ER raporları için veri kaynağı olarak mali boyutları kullanmak üzere Elektronik raporlama (ER) modelinin nasıl yapılandırılacağı açıklanmaktadır. (1. Bölüm)
+description: Bu makalede, ER raporları için veri kaynağı olarak mali boyutları kullanmak üzere Elektronik raporlama (ER) modelinin nasıl yapılandırılacağı açıklanmaktadır. (1. Bölüm)
 author: NickSelin
 ms.date: 05/27/2020
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6e165901fdbaf723ea0122f00f79c2ab2050e33db2fcad8e6d6a8d0ba53e41b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2661babc3443a44755eca5a43ac5dddea98840bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734708"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898667"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-1---design-data-model"></a>ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 1 - Veri modeli tasarlama)
 

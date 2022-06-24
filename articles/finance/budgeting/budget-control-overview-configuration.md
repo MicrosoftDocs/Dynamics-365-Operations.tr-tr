@@ -1,6 +1,6 @@
 ---
 title: Bütçe kontrolüne genel bakış
-description: Bu konu bütçe denetimi özelliğini tanıtır ve kuruluşunuzun mali kaynaklarının yönetimini en iyi duruma getirmek için bütçe denetimini yapılandırmanıza yardımcı olacak bilgiler sağlar.
+description: Bu makalede, bütçe denetimi özelliği tanıtılmaktadır ve kuruluşunuzun mali kaynaklarının yönetimini iyileştirmek için bütçe denetimini yapılandırmanıza yardımcı olacak bilgiler sağlanmaktadır.
 author: panolte
 ms.date: 03/28/2022
 ms.topic: overview
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e36ecacc621b4ecb8cc71e42b7a306c4494f625a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 27eb31919937e7f43a785616b547e3d6952eaaf2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711285"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898312"
 ---
 # <a name="budget-control-overview"></a>Bütçe kontrolüne genel bakış
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Bu konu bütçe denetimi özelliğini tanıtır ve kuruluşunuzun mali kaynaklarının yönetimini en iyi duruma getirmek için bütçe denetimini yapılandırmanıza yardımcı olacak bilgiler sağlar.
+Bu makalede, bütçe denetimi özelliği tanıtılmaktadır ve kuruluşunuzun mali kaynaklarının yönetimini iyileştirmek için bütçe denetimini yapılandırmanıza yardımcı olacak bilgiler sağlanmaktadır.
 
 Bütçe kontrolü bir kuruluşun mali kaynaklarının hesap planları, iş akışları, kullanıcı grupları, kaynak belgeleri ve günlükleri, kullanılabilir fonların yapılandırılabilir hesabı, bütçe döngüleri ve eşikler üzerinden yönetimini desteklemektedir. Denetimler oluşturulduktan sonra bir organizasyon mali yıl boyunca mali kaynaklarını planlayabilir, ölçebilir, yönetebilir ve kestirebilir. 
 

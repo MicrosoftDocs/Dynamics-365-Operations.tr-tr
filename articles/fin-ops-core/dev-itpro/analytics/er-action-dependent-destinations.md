@@ -1,6 +1,6 @@
 ---
 title: Eyleme bağlı ER hedeflerini yapılandırma
-description: Bu konuda, giden belgeler oluşturmak üzere yapılandırılan bir Elektronik raporlama (ER) biçimi için eyleme bağlı hedeflerin nasıl yapılandırılacağı açıklanmaktadır.
+description: Bu makalede, giden belgeler oluşturmak üzere yapılandırılan bir Elektronik raporlama (ER) biçimi için eyleme bağlı hedeflerin nasıl yapılandırılacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 02/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e0c836d4a0be47b753d74dc9d6d40ea7d9197176
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: b7dfd92fd9e256298c13dcbde4b6da3f07d250d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323991"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876848"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Eyleme bağlı ER hedeflerini yapılandırma
 
@@ -28,7 +28,7 @@ ms.locfileid: "8323991"
 
 Giden belge oluşturmak üzere kullanılan [Elektronik raporlama (ER)](general-electronic-reporting.md) biçimi [yapılandırmasının](general-electronic-reporting.md#Configuration) her çıkış bileşeni (klasör veya dosya) için [hedefleri](electronic-reporting-destinations.md) yapılandırabilirsiniz. Bu türde bir ER biçimi çalıştıran ve uygun erişim haklarına sahip olan kullanıcılar, yapılandırılmış hedef ayarlarını çalışma zamanında da değiştirebilir.
 
-Microsoft Dynamics 365 Finance **10.0.17 sürümünde ve sonraki sürümlerde** bir ER biçimi, kullanıcının söz konusu ER biçimini çalıştırarak gerçekleştirdiği eylem kodunu [hazırlayarak](er-apis-app10-0-17.md) çalıştırılabilir. Örneğin, **Alacak hesapları** modülündeki Yazdırma ayönetimi ayarlarında, serbest metin faturası gibi belirli iş belgelerini oluşturan bir ER biçimi seçebilirsiniz. Daha sonra, faturanın önizlemesini görmek için **Görüntüle**'yi veya faturayı yazıcıya göndermek için **Yazdır**'ı seçebilirsiniz. Çalışma zamanında çalışan ER biçimi için bir kullanıcı eylemi geçirilirse farklı kullanıcı eylemleri için farklı ER hedefleri yapılandırabilirsiniz. Bu konuda, bu ER biçimi türü için ER hedeflerinin nasıl yapılandırılacağı açıklanmaktadır.
+Microsoft Dynamics 365 Finance **10.0.17 sürümünde ve sonraki sürümlerde** bir ER biçimi, kullanıcının söz konusu ER biçimini çalıştırarak gerçekleştirdiği eylem kodunu [hazırlayarak](er-apis-app10-0-17.md) çalıştırılabilir. Örneğin, **Alacak hesapları** modülündeki Yazdırma ayönetimi ayarlarında, serbest metin faturası gibi belirli iş belgelerini oluşturan bir ER biçimi seçebilirsiniz. Daha sonra, faturanın önizlemesini görmek için **Görüntüle**'yi veya faturayı yazıcıya göndermek için **Yazdır**'ı seçebilirsiniz. Çalışma zamanında çalışan ER biçimi için bir kullanıcı eylemi geçirilirse farklı kullanıcı eylemleri için farklı ER hedefleri yapılandırabilirsiniz. Bu makalede, bu ER biçimi türü için ER hedeflerinin nasıl yapılandırılacağı açıklanmaktadır.
 
 ## <a name="make-action-dependent-er-destinations-available"></a>Eyleme bağlı ER hedeflerini kullanılabilir hale getirme
 
@@ -82,7 +82,7 @@ Aşağıdaki çizimde, tek bir hedef için her kayıt yapılandırma işleminde 
 
 Bir ER biçimi çalıştırıldığında, çalışma zamanında yapılandırılan hedef ayarlarını değiştirmek için uygun [izinlere](electronic-reporting-destinations.md#security-considerations) sahip kullanıcılar tarafından kullanıcı eylemleri sağlanırsa, yapılandırılan hedef ayarlarını değiştirme seçeneği sunan bir iletişim kutusu gösterilir. Bu iletişim kutusu isteğe bağlıdır ve görünümü, ER çerçevesinin ER biçimini çalıştırmak için yaptığı çağrının nasıl uygulandığına bağlıdır. Bu iletişim kutusu görüntülenirse içindeki ER hedefleri sağlanan kullanıcı eylemine göre etkinleştirilir.
 
-Aşağıdaki çizimde, serbest metin faturası [deftere nakledildiğinde](../../../finance/accounts-receivable/create-free-text-invoice-new.md) görüntülenen **Elektronik raporlama biçimi hedefleri** iletişim kutusunun bir örneği gösterilir. **Yazıcı** eylemi sağlanmışsa ve bu konunun önceki kısımlarında belirtilen şekilde bu biçim için ER hedefleri yapılandırılmışsa bu belgeyi oluşturmak için **Serbest metin faturası (Excel)** ER biçimi çalıştırılır.
+Aşağıdaki çizimde, serbest metin faturası [deftere nakledildiğinde](../../../finance/accounts-receivable/create-free-text-invoice-new.md) görüntülenen **Elektronik raporlama biçimi hedefleri** iletişim kutusunun bir örneği gösterilir. **Yazıcı** eylemi sağlanmışsa ve bu makalenin önceki kısımlarında belirtilen şekilde bu biçim için ER hedefleri yapılandırılmışsa bu belgeyi oluşturmak için **Serbest metin faturası (Excel)** ER biçimi çalıştırılır.
 
 ![Çalıştırılan ER biçimi için başlangıçta yapılandırılmış ER hedeflerini değiştirme seçeneği sunan iletişim kutusu.](./media/er-destination-action-dependent-02.gif)
 

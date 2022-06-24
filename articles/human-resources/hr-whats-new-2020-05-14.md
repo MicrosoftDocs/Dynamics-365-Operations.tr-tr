@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (14 Mayız 2020)
-description: Bu konuda, 14 Mayıs 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, 14 Mayıs 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
 author: andreabichsel
 ms.date: 05/14/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 891301a979fd6823528d9b6034066a038ba17315
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 308dd4fc75ab656359e80b518cec00fc74d42ea6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692072"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852970"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (14 Mayız 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8692072"
 
 
 
-Bu konuda, Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır. Değişiklikler derleme numarası 8.1.3244 uygulanır. Bazı başlıklardaki parantez içindeki numaralar Lifecycle Services (LCS) destek numaralarına referans verir.
+Bu makalede Dynamics 365 Human Resources'te yeni veya değişen özellikler açıklanmaktadır. Değişiklikler derleme numarası 8.1.3244 uygulanır. Bazı başlıklardaki parantez içindeki numaralar Lifecycle Services (LCS) destek numaralarına referans verir.
 
 ## <a name="platform-changes"></a>Platform değişiklikleri
 

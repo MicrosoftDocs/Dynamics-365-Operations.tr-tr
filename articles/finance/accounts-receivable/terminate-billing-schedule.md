@@ -1,6 +1,6 @@
 ---
 title: Faturalama zamanlamaları sonlandırma
-description: Bu konuda, Abonelik faturalamasında faturalama zamanlamalarının ve faturalama zamanlama satırlarının nasıl sonlandırılacağı açıklanmaktadır.
+description: Bu makalede, Abonelik faturalamasında faturalama zamanlamalarının ve faturalama zamanlama satırlarının nasıl sonlandırılacağı açıklanmaktadır.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: e823ce950d6a4687dc7cda14e06bffdbb4f37f7e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4fce23f3cf35ef8c388ce13fc422f268a2bd8e32
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690990"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872571"
 ---
 # <a name="terminate-billing-schedules"></a>Faturalama zamanlamaları sonlandırma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Abonelik faturalamasında faturalama zamanlamalarının ve faturalama zamanlama satırlarının nasıl sonlandırılacağı açıklanmaktadır. Faturalama zamanlamasını sonlandırabilmeniz için durumunun **Etkin** olması gerekir. Durumu **Beklemede** olmamalıdır. Benzer şekilde, bir faturalama zamanlama satırını sonlandırabilmeniz için durumunun **Etkin** olması gerekir. Bir faturalama zamanlama satırını sonlandırdığınızda faturalama zamanlamasının başlık bölümü etkilenmez.
+Bu makalede, Abonelik faturalamasında faturalama zamanlamalarının ve faturalama zamanlama satırlarının nasıl sonlandırılacağı açıklanmaktadır. Faturalama zamanlamasını sonlandırabilmeniz için durumunun **Etkin** olması gerekir. Durumu **Beklemede** olmamalıdır. Benzer şekilde, bir faturalama zamanlama satırını sonlandırabilmeniz için durumunun **Etkin** olması gerekir. Bir faturalama zamanlama satırını sonlandırdığınızda faturalama zamanlamasının başlık bölümü etkilenmez.
 
 Faturama zamanlamasını veya faturalama zamanlama satırını sonlandırmak için aşağıdaki konumlardan birine gidin:
 

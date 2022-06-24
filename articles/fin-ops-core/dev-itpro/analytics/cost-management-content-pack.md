@@ -1,6 +1,6 @@
 ---
 title: Maliyet yönetimi Power BI içeriği
-description: Bu konu, Power BI Maliyet Yönetimi'nde nelerin bulunduğunu açıklar.
+description: Bu makalede, Maliyet yönetimi Power BI içeriğinde nelerin bulunduğu açıklanmaktadır.
 author: ShylaThompson
 ms.date: 03/16/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 98c0097c2df25bafc842c9828d8ff282f5f683a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752652"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876877"
 ---
 # <a name="cost-management-power-bi-content"></a>Maliyet yönetimi Power BI içeriği
 

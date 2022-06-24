@@ -1,6 +1,6 @@
 ---
 title: Endeks oranına bağlı kira ödemelerini yeniden değerleme
-description: Bu konu, endeks oranındaki bir değişiklik nedeniyle değişken kira ödemeleri değiştiğinde, kullanım hakkı (ROU) varlığı için kiralama yükümlülüğünde yapılan düzeltmeyi açıklamaktadır.
+description: Bu makale, endeks oranındaki bir değişiklik nedeniyle değişken kira ödemeleri değiştiğinde, kullanım hakkı (ROU) varlığı için kiralama yükümlülüğünde yapılan düzeltmeyi açıklamaktadır.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 8dc2325e9f0651bea0d70d9f66e5d88b741009f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968068"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903261"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Endeks oranına bağlı kira ödemelerini yeniden değerleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, endeks oranındaki bir değişiklik nedeniyle değişken kira ödemeleri değiştiğinde kullanım hakkı (ROU) varlığı için kiralama yükümlülüğünde yapılan düzeltmeyi açıklamaktadır. Kiralama yükümlülüğü ve ROU varlığı yeni ödeme tutarlarına göre düzeltilecektir. ABD'de Genel Kabul Görmüş Muhasebe İlkeleri'nde (ABD GAAP) standart olan Muhasebe Standartları Kodlaması Konu 842 (ACS 842) kapsamında, nakit akışlarında ek değişiklikler olmadıkça, endeks oranındaki değişiklik nedeniyle ödemeler arttığında veya azaldığında yalnızca değişken ödemeler değişir. Bu ek değişiklikler, faiz oranlarıyla ilgili kiralama koşullarında değişiklik içerebilir. Daha fazla bilgi için, ASC 842-10-55-225 ile Uluslararası Mali Raporlama Standardı 16 (IFRS 16) belgesinin 42(b) paragrafına bakın.
+Bu makale, endeks oranındaki bir değişiklik nedeniyle değişken kira ödemeleri değiştiğinde, kullanım hakkı (ROU) varlığı için kiralama yükümlülüğünde yapılan düzeltmeyi açıklamaktadır. Kiralama yükümlülüğü ve ROU varlığı yeni ödeme tutarlarına göre düzeltilecektir. ABD'de Genel Kabul Görmüş Muhasebe İlkeleri'nde (ABD GAAP) standart olan Muhasebe Standartları Kodlaması Konu 842 (ACS 842) kapsamında, nakit akışlarında ek değişiklikler olmadıkça, endeks oranındaki değişiklik nedeniyle ödemeler arttığında veya azaldığında yalnızca değişken ödemeler değişir. Bu ek değişiklikler, faiz oranlarıyla ilgili kiralama koşullarında değişiklik içerebilir. Daha fazla bilgi için, ASC 842-10-55-225 ile Uluslararası Mali Raporlama Standardı 16 (IFRS 16) belgesinin 42(b) paragrafına bakın.
 
 ## <a name="adjust-lease-payments"></a>Kira ödemelerini düzeltme
 

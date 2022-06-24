@@ -1,6 +1,6 @@
 ---
 title: Kullanım hakkı varlığı amortismanı kaydetme (Önizleme)
-description: Bu konu, bir kuruluşun bilanço tablosunda kabul edilen kiralamalar için gerekli olan amortisman için günlük girişinin nasıl oluşturulacağını açıklar.
+description: Bu makalede, bir kuruluşun bilanço tablosunda kabul edilen kiralamalar için gerekli olan amortismanın günlük girişinin nasıl oluşturulacağı açıklanmaktadır.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ebac6c8d008babec93061071414579eec3a73223
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 93e521cf409af4c01d625f27bdd7a7564e471bd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727720"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903290"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Kullanım hakkı varlığı amortismanı kaydetme (Önizleme)
 
@@ -28,13 +28,13 @@ ms.locfileid: "8727720"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-Bir kuruluşun bilanço tablosunda kabul edilen kiralamalar için, kullanım hakkı (ROU) varlığına aylık amortisman uygulanır. Bu konu, amortisman için günlük girişinin nasıl oluşturulacağını açıklamaktadır. Deftere nakil profilinize ve kiralama türünüze bağlı olarak, amortisman gider genel muhasebe hesabını borçlandırı ve birikmiş amortisman genel muhasebe hesabını alacaklandırır. Bu girişler her kiralama için ayrı ayrı oluşturulabilir veya toplu iş günlük işlevleri kullanılarak birden fazla kiralama için oluşturulabilir.
+Bir kuruluşun bilanço tablosunda kabul edilen kiralamalar için, kullanım hakkı (ROU) varlığına aylık amortisman uygulanır. Bu makalede, amortisman için günlük girişin nasıl oluşturulacağı açıklanmaktadır. Deftere nakil profilinize ve kiralama türünüze bağlı olarak, amortisman gider genel muhasebe hesabını borçlandırı ve birikmiş amortisman genel muhasebe hesabını alacaklandırır. Bu girişler her kiralama için ayrı ayrı oluşturulabilir veya toplu iş günlük işlevleri kullanılarak birden fazla kiralama için oluşturulabilir.
 
 ## <a name="asset-depreciation-schedule"></a>Kıymet amortismanı zamanlaması
 
 1. **Kiralama özeti** sayfasında bir kiralama seçin. Ardından, **Varlık amortisman planı** sayfasını açmak için **Defterler \> Varlık amortisman planı**'nı seçin.
 
-    ROU varlığı amortisman gideri günlük girişi, **Amortisman Gideri** sütunundaki tutara dayanır. Muhasebe standardına uyum kılavuzu örneği için bu konunun ilerleyen kısımlarındaki [Finansal kiralamalar için ROU varlığı amortisman giderinin hesaplanması](#calculation-of-rou-asset-amortization-expense-for-finance-leases) bölümüne bakın.
+    ROU varlığı amortisman gideri günlük girişi, **Amortisman Gideri** sütunundaki tutara dayanır. Muhasebe standardına uyum kılavuzu örneği için bu makalenin ilerleyen kısımlarındaki [Finansal kiralamalar için ROU varlığı amortisman giderinin hesaplanması](#calculation-of-rou-asset-amortization-expense-for-finance-leases) bölümüne bakın.
     
 2. Amortisman dönemini seçin ve **Günlük oluştur**'u seçin. Amortismanı kaydetmek için kullanılacak günlüğün oluşturulduğunu bildiren bir ileti alırsınız.
 3. **Varlık kiralama günlüğü** sayfasını açmak için **Günlükler \> Varlık kiralama günlükleri**'ni seçin. Burada, oluşturulan amortisman gideri günlük girişini görüntüleyebilirsiniz.

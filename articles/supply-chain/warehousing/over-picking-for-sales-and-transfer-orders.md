@@ -1,6 +1,6 @@
 ---
 title: Satış siparişleri ve transfer emirleri için fazla malzeme çekme
-description: Bu konuda, satış siparişleri ve transfer emirleri için fazla malzeme çekmenin nasıl etkinleştirileceği açıklanmaktadır.
+description: Bu makalede, satış siparişleri ve transfer emirleri için fazla malzeme çekmenin nasıl etkinleştirileceği açıklanmaktadır.
 author: GalynaFedorova
 ms.date: 07/06/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-07-06
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 52a4225efa88a7b9303dd611d5652f59da1612a4
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b8bbc7d532f910edfb442831d6c906f253dee06c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678422"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897298"
 ---
 # <a name="over-picking-for-sales-orders-and-transfer-orders"></a>Satış siparişleri ve transfer emirleri için fazla malzeme çekme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, belirli bir çalışanın veya tüm çalışanların fazla malzeme çekmeyi nasıl etkinleştirileceğini gösteren bir senaryo sunulmaktadır. Fazla malzeme çekme işlemi, malzeme çekme işi sırasında denetimli fazla malzeme çekmeye olanak sağlar.
+Bu makalede, belirli bir çalışanın veya tüm çalışanların fazla malzeme çekmeyi nasıl etkinleştirileceğini gösteren bir senaryo sunulmaktadır. Fazla malzeme çekme işlemi, malzeme çekme işi sırasında denetimli fazla malzeme çekmeye olanak sağlar.
 
 Ambara fazla malzeme çekme, basit bir kavramdır. Sistem, çalışanların sipariş için belirtilenden daha fazla malzeme çekmesine olanak tanır. Ancak transfer emri veya satış siparişi için satır düzeyinde ayarlanan fazla teslimat sınırı yine de dikkate alınır. Bu sınır aşılırsa Warehouse Management uygulaması, çalışanlara fazla teslimat sınırını aştıklarını bildirir.
 
@@ -41,11 +41,11 @@ Fazla malzeme çekme özelliği, çalışanların malzemeleri çektiklerinde ve 
 > [!IMPORTANT]
 > Fazla malzeme çekme özelliği yalnızca satış siparişi ve transfer emrinde malzeme çekme ve işleme için geçerlidir. Stok yenileme, fazla malzeme çekmeyi desteklemez. Stok yenileme işi çalıştırıldığında sistem, kullanıcıların fazla malzeme çekmesine izin vermez.
 
-Bu konudaki bu senaryoda, fazla malzeme çekme özelliğinin nasıl ayarlanacağı ve kullanılacağı gösterilmektedir.
+Bu makaledeki bu senaryoda, fazla malzeme çekme özelliğinin nasıl ayarlanacağı ve kullanılacağı gösterilmektedir.
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>Senaryo önkoşulu: Tanıtım verilerini kullanılabilir hale getirme
 
-Bu konudaki senaryo, Microsoft Dynamics 365 Supply Chain Management için sağlanan standart tanıtım verilerinde bulunan değerlere ve kayıtlara başvurur. Alıştırmaları yaparken burada sağlanan değerleri kullanmak isterseniz tanıtım verisinin yüklü olduğu bir ortamda çalıştığınızdan ve başlamadan önce tüzel kişiliği *USMF* olarak ayarladığınızdan emin olun.
+Bu makaledeki senaryo, Microsoft Dynamics 365 Supply Chain Management için sağlanan standart tanıtım verilerinde bulunan değerlere ve kayıtlara başvurur. Alıştırmaları yaparken burada sağlanan değerleri kullanmak isterseniz tanıtım verisinin yüklü olduğu bir ortamda çalıştığınızdan ve başlamadan önce tüzel kişiliği *USMF* olarak ayarladığınızdan emin olun.
 
 ## <a name="scenario-setup"></a>Senaryo kurulumu
 

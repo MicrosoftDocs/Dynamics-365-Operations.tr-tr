@@ -1,6 +1,6 @@
 ---
 title: Serbest metin faturası oluşturma
-description: Bu konuda, serbest metin faturalarının nasıl oluşturulacağı açıklanmaktadır.
+description: Bu makalede, serbest metin faturalarının nasıl oluşturulacağı açıklanmaktadır.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 6e9578d9b2d61f241ab5e92fc9740b88b80969f6
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 87dc6334baa83ace23b77d94da4d1e464cb0b574
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392897"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878174"
 ---
 # <a name="create-a-free-text-invoice"></a>Serbest metin faturası oluşturma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, serbest metin faturalarının nasıl oluşturulacağı açıklanmaktadır. Prosedür için **USMF** demo şirketini kullanın.
+Bu makalede, serbest metin faturalarının nasıl oluşturulacağı açıklanmaktadır. Prosedür için **USMF** demo şirketini kullanın.
 
 ## <a name="create-a-free-text-invoice"></a>Serbest metin faturası oluşturma
 
@@ -37,7 +37,7 @@ Bu konuda, serbest metin faturalarının nasıl oluşturulacağı açıklanmakta
     * Tek Euro Ödemeleri Alanı (SEPA) yönergelerini kullanıyorsanız otomatik ödeme yönergesi müşteri hesabını seçtiğinizde otomatik olarak girilir.
 
 4. **Açıklama** alanında bir değer girin.
-5. **Ana hesap** alanında, boyutları olmayan bir hesap numarası belirtin. Boyutları bu konunun ilerleyen bölümlerinde gireceksiniz.
+5. **Ana hesap** alanında, boyutları olmayan bir hesap numarası belirtin. Boyutları bu makalenin ilerleyen bölümlerinde gireceksiniz.
 
     Ayrıca ana hesap için bir veya daha fazla karakter girebilir ve hesabı bulmak için arama özelliğini kullanabilirsiniz.
 

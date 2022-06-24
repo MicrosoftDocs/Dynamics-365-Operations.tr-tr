@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3ab325189812289390740e31fd673ee9892f9759
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: deee7c35cfc4293480fda74665429121b71bbfab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898531"
 ---
 # <a name="interactive-feature-module"></a>Etkileşimli özellik modülü
 

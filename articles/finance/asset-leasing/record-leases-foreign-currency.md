@@ -1,6 +1,6 @@
 ---
 title: Kiraları yabancı para birimlerinde kaydetme
-description: Bu konu, kiraların muhasebe veya raporlama para birimi dışındaki para birimlerinde nasıl oluşturulacağını açıklamaktadır.
+description: Bu makalede, kiraların muhasebe veya raporlama para birimi dışındaki para birimlerinde nasıl oluşturulacağı açıklanmaktadır.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7da4ddb5939d4f950eb7f8c39a9c56edb2ec4db9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 56c15e648d6aa515192a6f41ba06df6405ca79f2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878116"
 ---
 # <a name="record-leases-in-foreign-currencies"></a>Kiraları yabancı para birimlerinde kaydetme
 
 [!include [banner](../includes/banner.md)]
 
-Muhasebe para birimi veya raporlama para birimi dışındaki para birimlerinde olan kiralamalar için varlık kiralama hesapları, **Genel muhasebe kurulumu** sayfasında oluşturulur. Tüm kiralamalar hareket para birimi cinsinden girilmelidir. Diğer bir ifadeyle, bunlar kiralama sözleşmesinde belirtilen para biriminde girilmelidir. Bu konu, kiraların muhasebe veya raporlama para birimi dışındaki para birimlerinde nasıl oluşturulacağını açıklamaktadır.
+Muhasebe para birimi veya raporlama para birimi dışındaki para birimlerinde olan kiralamalar için varlık kiralama hesapları, **Genel muhasebe kurulumu** sayfasında oluşturulur. Tüm kiralamalar hareket para birimi cinsinden girilmelidir. Diğer bir ifadeyle, bunlar kiralama sözleşmesinde belirtilen para biriminde girilmelidir. Bu makalede, kiraların muhasebe veya raporlama para birimi dışındaki para birimlerinde nasıl oluşturulacağı açıklanmaktadır.
 
 Kirayı yabancı bir para biriminde girerseniz kullanım hakkı (ROU) varlığına hem muhasebe para biriminde hem de raporlama para biriminde amortisman uygulanır. Bu para birimleri, **Genel muhasebe kurulumu** sayfasında yapılandırılabilir. Bu davranış Sabit varlıklarda da kullanılır. Yabancı bir para biriminde kiralama oluşturduğunuzda **Para birimi** alanında hareket para birimini seçin.
 

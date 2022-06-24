@@ -1,6 +1,6 @@
 ---
 title: Şirket içi dağıtımlar için SQL Server Reporting Services'ı yapılandırma
-description: Bu konu, SQL Server Raporlama Servislerinin (SSRS) bir şirket içi dağıtım için yapılandırılması hakkında bilgi sağlar.
+description: Bu makalede, bir şirket içi dağıtım için SQL Server Reporting Services (SSRS) yapılandırması hakkında bilgi sağlanmaktadır.
 author: PeterRFriis
 ms.date: 06/23/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: peterfriis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 16a35a8dae50cc1bc949f33de87b2beab8b528b3
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: ae1e78a268d6c61cc4ab6afd9e3f6d6b1bd1561a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565931"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876935"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>Şirket içi dağıtımlar için SQL Server Reporting Services'ı yapılandırma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konudaki adımları kullanarak SQL Server Reporting Services'ı (SSRS) Microsoft Dynamics 365 Finance + Operations (on-premises) dağıtımınız için yapılandırabilirsiniz.
+Bu makaledeki adımları kullanarak SQL Server Reporting Services'ı (SSRS) Microsoft Dynamics 365 Finance + Operations (on-premises) dağıtımınız için yapılandırabilirsiniz.
 
 1. Raporlama Servisleri Yapılandırma Yöneticisi uygulamasını açın.
 2. Geçerli makinenin adı olması gereken varsayılan **Sunucu adı**'nı ve **Sunucu Örneğini Raporla**, **MSSQLSERVER** bırakın.

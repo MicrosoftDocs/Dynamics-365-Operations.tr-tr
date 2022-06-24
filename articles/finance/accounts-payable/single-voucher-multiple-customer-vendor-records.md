@@ -1,6 +1,6 @@
 ---
 title: Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş
-description: Bu konu, birden fazla müşteri veya satıcı kaydı içeren tek bir fişi deftere naklettiğinizde olacaklara ilişkin genel bir bakış sağlar. Bu işlevsellik, Microsoft Dynamics 365 Finance'in gelecekteki sürümlerinde durdurulacaktır. Sonuç olarak, kapatma işlemine hesap etkisi nedeniyle bu deftere nakletme yöntemini önermiyoruz.
+description: Bu makale, birden fazla müşteri veya satıcı kaydı içeren tek bir fişi deftere naklettiğinizde olacaklara ilişkin genel bir bakış sağlar. Microsoft Dynamics 365 Finance'ın gelecekteki sürümlerinde bu işleve son verilecektir. Sonuç olarak, kapatma işlemine muhasebe etkisi nedeniyle bu deftere nakletme yöntemini önermiyoruz.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8677eba2c38c6273555e1189c0153272a8ff9e005655f3846c0d7605b872ff94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb94d582020484d8f37eb139c037fb108894c9ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889105"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, birden fazla müşteri veya satıcı kaydı içeren tek bir fişi deftere naklettiğinizde olacaklara ilişkin genel bir bakış sağlar. Bu işlevsellik, gelecek sürümlerde durdurulacaktır. Sonuç olarak, kapatma işlemine hesap etkisi nedeniyle bu deftere nakletme yöntemini önermiyoruz. 
+Bu makale, birden fazla müşteri veya satıcı kaydı içeren tek bir fişi deftere naklettiğinizde olacaklara ilişkin genel bir bakış sağlar. Bu işlevsellik, gelecek sürümlerde durdurulacaktır. Sonuç olarak, kapatma işlemine hesap etkisi nedeniyle bu deftere nakletme yöntemini önermiyoruz. 
 
 Tek bir fişin birden fazla müşteri veya satıcı için kullanıldığı bazı yaygın örnekler, müşteriler arasındaki bakiye transferlerini ve aynı kuruluştaki müşteriler ve satıcılar arasındaki mahsuplaşma bakiyelerini içerir. 
 
@@ -35,7 +35,7 @@ Birden fazla müşteri veya satıcı içeren bir fiş aşağıdaki yöntemlerden
 -   Birden çok müşteri veya satıcı ile mahsup genel muhasebe hesabı olmayan birden çok satırlı bir fiş kullanılarak.
 -   Hesapla ve satıcı/satıcı, müşteri/müşteri, satıcı/müşteri veya müşteri/satıcı olan mahsup hesabıyla bir fiş girerek.
 
-Bu konu, birden fazla müşteri veya satıcı kaydı ile bir fiş deftere nakledildiğinde kapatmanın nasıl işleneceğini gösterir. Bu konu ayrıca, bir fişi birden fazla müşteri veya satıcıyla kullanmaktan nasıl kaçınacağınızı anlamanıza yardımcı olmak için geçici çözümler de sağlar. Özellikle bir fişin birden fazla müşteri veya satıcı ile kullanılmasından etkilenen iki genel kapatma senaryosunu gösteren örnekler bulunur.
+Bu makale, birden fazla müşteri veya satıcı kaydı içeren bir fiş deftere nakledildiğinde kapatmanın nasıl işleneceğini gösterir. Bu makale, bir fişi birden fazla müşteri veya satıcıyla kullanmaktan nasıl kaçınacağınızı anlamanıza yardımcı olmak için geçici çözümler de sağlar. Özellikle bir fişin birden fazla müşteri veya satıcı ile kullanılmasından etkilenen iki genel kapatma senaryosunu gösteren örnekler bulunur.
 
 -   Nakit iskontosu muhasebesi
 -   Yeniden değerleme muhasebesi

@@ -1,6 +1,6 @@
 ---
 title: Genel muhasebe günlük türleri
-description: Bu konu, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır.
+description: Bu makalede, mali günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır.
 author: kweekley
 ms.date: 10/10/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e49d101bbbe576e0fcf2e9b243f4f29124fbd85
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 883c54b84ed31384a28c31c8b814c75d340d020e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722283"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901327"
 ---
 # <a name="ledger-journal-types"></a>Genel muhasebe günlük türleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Dynamics 365 Finance'te kullanabileceğiniz günlükleri ayarlamak için **Günlük adları** sayfasını kullanın.
+Bu makalede, mali günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Dynamics 365 Finance'te kullanabileceğiniz günlükleri ayarlamak için **Günlük adları** sayfasını kullanın.
 
 | Günlük türü                      | Amaç                       | Bu sayfada hareketleri girin                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|

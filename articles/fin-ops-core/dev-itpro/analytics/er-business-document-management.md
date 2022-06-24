@@ -1,6 +1,6 @@
 ---
 title: İş belgesi yönetimine genel bakış
-description: Bu konu, ER çerçevesinin iş belge yönetimi özelliğinin nasıl kullanılacağı hakkında bilgi sağlar.
+description: Bu makalede, ER çerçevesinin iş belge yönetimi özelliğinin nasıl kullanılacağı hakkında bilgi sağlanmaktadır.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9147a2e81329d5bf9103b6bfe067d166c1471835
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986263"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903631"
 ---
 # <a name="business-document-management-overview"></a>İş belgesi yönetimine genel bakış
 
@@ -50,7 +50,7 @@ Microsoft 365 uygulamalarını kullanarak şablonları Excel veya Word biçimler
 
 Gelecekteki sürümlerde daha fazla rapor kullanılabilir olacak. Ek raporlarla ilgili özel bildirimler ayrı olarak gönderilecektir. Şu anda kullanılabilir raporların listesini nasıl inceleyebileceğinizi öğrenmek için aşağıdaki [Yapılandırılabilir iş belgelerini desteklemek için Finance'te yayınlanan ER yapılandırmalarının listesi](#list-of-configurations-cbd) bölümüne bakın.
 
-Bu özellik hakkında daha fazla bilgi edinmek için bu konudaki örneği tamamlayın.
+Bu özellik hakkında daha fazla bilgi edinmek için bu makaledeki örneği tamamlayın.
 
 ## <a name="configure-er-parameters"></a>ER parametrelerini yapılandırma
 
@@ -231,7 +231,7 @@ Aşağıdaki grafik, **Alacak hesapları memuru** rolüne atanan kullanıcılar 
 - **Sistem Yöneticisi** rolüne atanan kullanıcılar.
 - Vergi gerçekleştirmek üzere konfigüre edilen herhangi bir role atanan kullanıcılar **Iş belgesi yönetimi şablonlarını yönet** (AOT adı **ERBDManageTemplates**).
 
-İş belge yönetimi çalışma alanındaki serbest metin faturası şablonlarını düzenlemek için aşağıdaki yordamı kullanın. Bu yordamı gerçekleştirmeden önce, bu konudaki önceki yordamların tümünü tamamlamış olmalısınız.
+İş belge yönetimi çalışma alanındaki serbest metin faturası şablonlarını düzenlemek için aşağıdaki yordamı kullanın. Bu yordamı gerçekleştirmeden önce, bu makaledeki önceki yordamların tümünü tamamlamış olmalısınız.
 
 1. İş belgesi yönetimi çalışma alanına erişimi olan bir kullanıcı olarak oturum açın.
 2. İş belgesi yönetimi çalışma alanı sayfasını açın.

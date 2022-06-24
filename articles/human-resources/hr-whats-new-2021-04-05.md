@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources'daki yenilikler veya değişiklikler 5 Nisan 2021
-description: Bu konuda, 5 Nisan 2021 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, 5 Nisan 2021 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
 author: marcelbf
 ms.date: 04/05/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 19ac856de0fed9253bf79cb4c06d4347e5a19c77
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1b8074877b8d2b2c05596406cbf2d98febd2e8cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693486"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899541"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-5-2021"></a>Dynamics 365 Human Resources'daki yenilikler veya değişiklikler 5 Nisan 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, Dynamics 365 Human Resources'daki yeni, değişen veya gelecek özellikler açıklanmaktadır.
+Bu makalede, Dynamics 365 Human Resources'da yeni, değişen veya yakında sunulacak özellikler açıklanmaktadır.
 
 Güncelleştirme işlemi ve planı hakkında daha fazla bilgi için bkz. [Güncelleştirme işlemi](hr-admin-setup-update-process.md).
 
@@ -48,9 +48,9 @@ Aşağıdaki özellikler genel olarak bu sürümde mevcuttur.
 Bu sürümde aşağıdaki hata çözümleri bulunmaktadır.
 
 > [!NOTE]
-> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu konu ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmelerini eklemek için bu konuya güncelleştirmeler uygulayabiliriz.
+> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu makale, ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmeleri eklenerek güncelleştirilebilir.
 
-| Sorun numarası | Çıkış |  Tanım |
+| Sorun numarası | Sorun |  Açıklama |
 | --- | --- | --- |
 | 550852 | **Onay** düğmesi, **İnceleme** formunda ayarlanmış zorunlu alanlar ile doğrulama yapmıyor. | **İnceleme** formunda bir alanı zorunlu olarak ayarlayıp değişiklikleri Yönetici rolü için yayımladığınızda, form beklendiği gibi doğrulama yapmıyor. |
 | 559564 | Sabit maaş değişikliğiyle ilgili geçmişe ait çalışan eylemleri, işten çıkarılan kullanıcılar için hata veriyor. | Çıkarılan çalışanın maaşına ait çalışan eylemi hata veriyor. Bir çalışanın işine son verildikten sonra, işten çıkarılmadan önceki çalışan promosyon eylemi bir hata veriyor. |

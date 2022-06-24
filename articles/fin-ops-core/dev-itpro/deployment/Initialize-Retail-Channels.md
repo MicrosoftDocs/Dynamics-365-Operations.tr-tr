@@ -1,8 +1,8 @@
 ---
 title: Commerce Scale Unit'i (bulut) başlatma
-description: Bu konuda, Microsoft Dynamics 365 Commerce'te Commerce Scale Unit'in (bulut) nasıl başlatılacağı açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce'te Commerce Scale Unit'in (bulut) nasıl başlatılacağı açıklanmaktadır.
 author: AamirAllaq
-ms.date: 02/04/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,18 +11,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2018-4-30
-ms.openlocfilehash: 84e70515accde161e7efa36755edec68d26be952
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: 969dd220a7b73a676b9cf5ac26223ebd9b3f2296
+ms.sourcegitcommit: ddcb62bb5fbf26a1178c2bb1aec45a3d2362339e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092219"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8942866"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Commerce Scale Unit'i (bulut) başlatma
 
 [!include[banner](../includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce'te Commerce Scale Unit'in (bulut) nasıl başlatılacağı açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce'te Commerce Scale Unit'in (bulut) nasıl başlatılacağı açıklanmaktadır.
 
 8.1.2.x veya sonraki bir uygulama sürümüne sahip bir Katman 2 korumalı alanı veya üretim ortamı kullanıyorsanız satış noktası (POS) işlemleri veya bulutta Retail Server kullanan e-ticaret işlemleri için perakende kanalı işlevselliğini kullanabilmeniz için önce Commerce Scale Unit'i (bulut) başlatmanız gerekir. Başlatma işlemi, bir Commerce Scale Unit (bulut) dağıtacaktır.
 
@@ -49,32 +49,34 @@ Bu konuda, Microsoft Dynamics 365 Commerce'te Commerce Scale Unit'in (bulut) nas
 ## <a name="region-availability"></a>Bölgeşere göre kullanılabilirlik
 Commerce Scale Unit aşağıdaki bölgelerde dağıtım için kullanılabilir.
 
-| Global konum | Bölge              | Kullanılabilirlik        |
-|-----------------|---------------------|---------------------|
-| AMERİKA KITASI        | Doğu ABD             | Genel kullanılabilir |
-| AMERİKA KITASI        | Doğu ABD 2           | Genel kullanılabilir |
-| AMERİKA KITASI        | Kuzey Orta ABD    | Genel kullanılabilir |
-| AMERİKA KITASI        | Güney Orta ABD    | Genel kullanılabilir |
-| AMERİKA KITASI        | Orta ABD          | Genel kullanılabilir |
-| AMERİKA KITASI        | Batı ABD             | Genel kullanılabilir |
-| AMERİKA KITASI        | Batı ABD 2           | Genel kullanılabilir |
-| AMERİKA KITASI        | Orta Kanada      | Sınırlı kapasite    |
-| AMERİKA KITASI        | Doğu Kanada         | Sınırlı kapasite    |
-| AMERİKA KITASI        | Batı Orta ABD     | Sınırlı kapasite    |
-| APAC            | Doğu Avustralya      | Genel kullanılabilir |
-| APAC            | Güneydoğu Asya      | Genel kullanılabilir |
-| APAC            | Doğu Japonya          | Genel kullanılabilir |
-| APAC            | Batı Japonya          | Genel kullanılabilir |
-| APAC            | Güneydoğu Avustralya | Sınırlı kapasite    |
-| APAC            | Doğu Asya           | Sınırlı kapasite    |
-| APAC            | Güney Hindistan         | Sınırlı kapasite    |
-| APAC            | Hindistan Orta       | Sınırlı kapasite    |
-| EMEA            | Batı Avrupa         | Genel kullanılabilir |
-| EMEA            | Kuzey Avrupa        | Genel kullanılabilir |
-| EMEA            | Birleşik Krallık Güney            | Sınırlı kapasite    |
-| EMEA            | Batı Birleşik Krallık             | Sınırlı kapasite    |
+| Global konum | Bölge              | Kullanılabilirlik        | Açıklamalar                  |
+|-----------------|---------------------|---------------------|---------------------------|
+| AMERİKA KITASI        | Doğu ABD             | Genel kullanılabilir |                           |
+| AMERİKA KITASI        | Doğu ABD 2           | Genel kullanılabilir |                           |
+| AMERİKA KITASI        | Kuzey Orta ABD    | Sınırlı kapasite    |                           |
+| AMERİKA KITASI        | Güney Orta ABD    | Sınırlı kapasite    |                           |
+| AMERİKA KITASI        | Orta ABD          | Genel kullanılabilir |                           |
+| AMERİKA KITASI        | Batı ABD             | Genel kullanılabilir |                           |
+| AMERİKA KITASI        | Batı ABD 2           | Genel kullanılabilir |                           |
+| AMERİKA KITASI        | Orta Kanada      | Sınırlı kapasite    |                           |
+| AMERİKA KITASI        | Doğu Kanada         | Sınırlı kapasite    |                           |
+| AMERİKA KITASI        | Batı Orta ABD     | Sınırlı kapasite    |                           |
+| APAC            | Doğu Avustralya      | Genel kullanılabilir |                           |
+| APAC            | Güneydoğu Asya      | Sınırlı kapasite | Dağıtıma izin verilmiyor    |
+| APAC            | Doğu Japonya          | Genel kullanılabilir |                           |
+| APAC            | Batı Japonya          | Genel kullanılabilir |                           |
+| APAC            | Güneydoğu Avustralya | Genel kullanılabilir |                           |
+| APAC            | Doğu Asya           | Sınırlı kapasite    |                           |
+| APAC            | Güney Hindistan         | Sınırlı kapasite | Dağıtıma izin verilmiyor    |
+| APAC            | Hindistan Orta       | Sınırlı kapasite    | Onay süreci gerekiyor |
+| EMEA            | Batı Avrupa         | Genel kullanılabilir |                           |
+| EMEA            | Kuzey Avrupa        | Genel kullanılabilir |                           |
+| EMEA            | Birleşik Krallık Güney            | Sınırlı kapasite    |                           |
+| EMEA            | Batı Birleşik Krallık             | Sınırlı kapasite    |                           |
+| İsviçre     | Kuzey İsviçre   | Sınırlı kapasite    | Onay süreci gerekiyor |
+| BAE             | Kuzey BAE           | Sınırlı kapasite    | Onay süreci gerekiyor |
 
-Sınırlı kapasite bölgelerinde dağıtım kapasitesi son derece kısıtlanmıştır. Dağıtım istekleri duruma göre değerlendirilir. Sınırlı kapasite bölgelerinde dağıtım için zorlayıcı bir iş gereksiniminiz varsa, bekleme listesine eklenecek bir destek isteğinde bulunabilirsiniz.
+Sınırlı kapasite bölgelerinde dağıtım kapasitesi son derece kısıtlanmıştır. Dağıtım istekleri duruma göre değerlendirilir. Sınırlı kapasite bölgelerinde dağıtım için yeterli bir ticari gerekçeniz varsa bekleme listesine eklenecek bir destek isteğinde bulunabilirsiniz. Kapasitenin sınırlandığı alanlar, şu anda Commerce Scale Unit dağıtımına izin vermiyor. 
 
 ![Bölge kullanılabilirliğini gösteren harita.](media/Commerce-Scale-Unit-Region-Availability.png "Bölge kullanılabilirliğini gösteren harita")
 

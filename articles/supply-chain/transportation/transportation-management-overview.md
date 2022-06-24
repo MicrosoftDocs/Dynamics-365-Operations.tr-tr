@@ -1,6 +1,6 @@
 ---
 title: Taşıma yönetimine genel bakış
-description: Bu konuda, Supply Chain Management'taki taşıma yönetimi işlevine genel bir bakış sunulmaktadır.
+description: Bu makalede, Supply Chain Management'taki taşıma yönetimi işlevine genel bir bakış sunulmaktadır.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6181d63c9ab447c4892948fe1f3ee41d2680b78d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 12f870c95f28e752c3c3b3dd4161d82815b9954a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671660"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897472"
 ---
 # <a name="transportation-management-overview"></a>Taşıma yönetimine genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Supply Chain Management'taki taşıma yönetimi işlevine genel bir bakış sunulmaktadır.
+Bu makalede, Supply Chain Management'taki taşıma yönetimi işlevine genel bir bakış sunulmaktadır.
 
 Taşıma yönetimi, şirketinizin taşımalarını kullanmanıza olanak tanır ve satıcı ile gelen ve giden siparişler için yönlendirme çözümlerini belirlemenizi sağlar. Örneğin bir sevkiyat için en hızlı yolu veya en ucuz oranı tanımlayabilirsiniz. Aşağıdaki tabloda, Taşıma yönetiminin kullanılmasına ilişkin ana senaryolar açıklanmaktadır.
 

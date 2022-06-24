@@ -1,6 +1,6 @@
 ---
 title: Müşteri yaşlandırma anlık görüntüleri
-description: Bu konu müşteri yaşlandırma anlık görüntüleriyle ilgili bilgiler sağlar. Bir yaşlandırma anlık görüntüsü, bir müşteri grubunun bir zamandaki yaşlandırılmış bakiyesini hesaplar.
+description: Bu makalede, müşteri yaşlandırma anlık görüntüleriyle ilgili bilgiler sağlanmaktadır. Bir yaşlandırma anlık görüntüsü, bir müşteri grubunun bir zamandaki yaşlandırılmış bakiyesini hesaplar.
 author: JodiChristiansen
 ms.date: 05/05/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 54db3e53cd31936ce80f0cdf1147535216d0d4b4
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: c1a83f2648b52e436d19a11862e58dc33313f341
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723009"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902587"
 ---
 # <a name="customer-aging-snapshots"></a>Müşteri yaşlandırma anlık görüntüleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu müşteri yaşlandırma anlık görüntüleriyle ilgili bilgiler sağlar. Bir yaşlandırma anlık görüntüsü, bir müşteri grubunun bir zamandaki yaşlandırılmış bakiyesini hesaplar. Tüm müşteriler veya bir müşteri havuzundaki müşteriler için yaşlandırma anlık görüntüsü oluşturabilirsiniz.
+Bu makalede, müşteri yaşlandırma anlık görüntüleriyle ilgili bilgiler sağlanmaktadır. Bir yaşlandırma anlık görüntüsü, bir müşteri grubunun bir zamandaki yaşlandırılmış bakiyesini hesaplar. Tüm müşteriler veya bir müşteri havuzundaki müşteriler için yaşlandırma anlık görüntüsü oluşturabilirsiniz.
 
 Yaşlandırma anlık görüntüsü bilgileri,**Yaşlandırılmış bakiyeler** listesi sayfası ve **Tahsilatlar** sayfasında görüntülenir. **Yaşlandırılmış bakiyeler** listesini kullanmadan önce bir yaşlandırma anlık görüntüsünü oluşturmanız gerekir. Liste sayfası, sadece yaşlandırma anlık görüntüsü oluşturulan müşterileri listeler.
 

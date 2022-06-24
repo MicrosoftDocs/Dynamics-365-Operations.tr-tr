@@ -1,6 +1,6 @@
 ---
-title: Ürün girişi ve satınalma siparişleri karşılaştırması
-description: Bu konuda ürünleri teslim alınmış olarak kaydetmeye yönelik çeşitli seçenekler açıklanmıştır.
+title: Ürün girişi ve satın alma siparişleri karşılaştırması
+description: Bu makalede ürünleri teslim alınmış olarak kaydetmeye yönelik çeşitli seçenekler açıklanmıştır.
 author: GalynaFedorova
 ms.date: 11/15/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ea22357b4d966f50ef2021ba7534ae633859455
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 53925426b5df6000617b0d8cee757a551fb89c95
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904057"
 ---
-# <a name="product-receipt-against-purchase-orders"></a>Ürün girişi ve satınalma siparişleri karşılaştırması
+# <a name="product-receipt-against-purchase-orders"></a>Ürün girişi ve satın alma siparişleri karşılaştırması
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda ürünleri teslim alınmış olarak kaydetmeye yönelik çeşitli seçenekler açıklanmıştır.
+Bu makalede ürünleri teslim alınmış olarak kaydetmeye yönelik çeşitli seçenekler açıklanmıştır.
 
 Ürün girişi satınalma siparişi (PO) satırlarının daha sonra faturalama için işlem görmesi amacıyla sipariş edilen ürünlerin alındığını kaydetme işlemidir. Bazı durumlarda, ürünler alınmadan ek bilgilerin tedarikçilerden alındığı ön kayıt işleminden geçen ürünler kaydedilir. Ürünler geldiğinde ilk olarak **Kayıtlı** şeklinde işaretlenir. Ürünler son olarak **Alındı** şeklinde işaretlenmeden önce kalite yönetimi gibi ek işlemlerden geçebilirler.
 

@@ -1,6 +1,6 @@
 ---
-title: Warehouse Management mobil uygulamasındaki yenilikler veya değiştirmeler
-description: Bu konu, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni ve değiştirilmiş özellikleri listeler.
+title: Warehouse Management mobil uygulamasındaki yenilikler veya değişiklikler
+description: Bu makale, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni ve değiştirilmiş özellikleri listeler.
 author: Mirzaab
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c79b18d24c8b9cb90a570496882fdfe91dc6ba51
-ms.sourcegitcommit: a4dc7d170f1504631127c3e92af0c6b03468d375
+ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
+ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/02/2022
-ms.locfileid: "8661839"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945737"
 ---
-# <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasındaki yenilikler veya değiştirmeler
+# <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasındaki yenilikler veya değişiklikler
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni özellikleri, iyileştirmeleri ve bilinen sorunları listeler.
+Bu makale, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni özellikleri, iyileştirmeleri ve bilinen sorunları listeler.
+
+## <a name="version-20240"></a>Sürüm 2.0.24.0
+
+Bu sürüm aşağıdaki yeni özellikleri, düzeltmeleri ve iyileştirmeleri içerir.
+
+- **Ayrıntılar** sayfasında tarama seçeneğini etkinleştirmek için tarayıcı sayfaları geliştirildi.
+- Dokunmatik/ekrana dokunma gibi hareketler geliştirildi.
+- Android ile ilgili performans sorunları için iyileştirmeler yapıldı.
+- **Sorgu** sayfasında daha fazla sayıda kart görüntülenmesine olanak vermak için birden fazla üstbilgi yerleşimi düzeltildi.
+- Sayfalandırma işlemi için daha az kaydırma mesafesini etkinleştirmek üzere kaydırma özelliği geliştirildi.
+- **Sorgu** sayfasında ek metin görüntülemek için uzun basma özelliği eklendi.
+- Android için eksik cihaz kimliği bilgileri düzeltildi.
+- Kararlılık iyileştirildi.
+- Oturum açma düzeni iyileştirildi.
+- Sayısal tuş takımı, **Ayrıntılar** sayfası ve giriş sayfalarında iletişim kutusu açılan sayfalarını kapatmak için sağa kaydırma hareketi eklendi.
 
 ## <a name="version-20220"></a>Sürüm 2.0.22.0
 

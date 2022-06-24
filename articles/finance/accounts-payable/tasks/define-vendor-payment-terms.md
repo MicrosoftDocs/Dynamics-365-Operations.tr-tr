@@ -1,6 +1,6 @@
 ---
 title: Satıcı ödeme koşullarını tanımlama
-description: Bu konu, satıcı faturaları için ödeme koşullarının nasıl ayarlanacağını açıklar.
+description: Bu makalede, satıcı faturaları için ödeme koşullarının nasıl ayarlanacağı açıklanmaktadır.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2199c12e92d631d3eb058637c48b53335d779f2d
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: a676856ed43bf1b78684eac0682e0fdef9c84083
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906485"
 ---
 # <a name="define-vendor-payment-terms"></a>Satıcı ödeme koşullarını tanımlama
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, satıcı faturaları için ödeme koşullarının nasıl ayarlanacağını açıklar. Bu görevde USMF demo şirketi kullanılmaktadır.
+Bu makalede, satıcı faturaları için ödeme koşullarının nasıl ayarlanacağı açıklanmaktadır. Bu görevde USMF demo şirketi kullanılmaktadır.
 
 1. **Gezinti bölmesi > Modüller > Ödeme tutarı > Ödeme kurulumu > Ödeme şartları**'na gidin.
 2. **Yeni**'yi seçin. **Ödeme şartları** sayfası, vade tarihinin nasıl hesaplanacağını tanımlamak için kullanılır. Sayfa, nakit iskontosu tarihinin nasıl hesaplanacağını tanımlamak için kullanılmaz.  

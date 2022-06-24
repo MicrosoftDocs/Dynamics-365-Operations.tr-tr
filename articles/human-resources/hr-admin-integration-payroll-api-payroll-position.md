@@ -1,6 +1,6 @@
 ---
 title: Pozisyonlar için bordro ayrıntıları
-description: Bu konu, Dynamics 365 Human Resources'taki Pozisyonlar varlığı Bordro ayrıntılarına ilişkin bilgi ve örnek bir sorgu sağlar.
+description: Bu makalede, Dynamics 365 Human Resources'taki Pozisyonlar varlığı için Bordro ayrıntılarına ilişkin bilgiler ve örnek bir sorgu sağlanmaktadır.
 author: jcart
 ms.date: 04/07/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bbb234d2f51391ea65e3d6153d6cee250f3c6dc
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ac36b0386312e1631528b8ab5976db2cb3924caf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069819"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904144"
 ---
 # <a name="payroll-position"></a>Bordrolu pozisyon
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069819"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, Dynamics 365 Human Resources Bordro Pozisyonları varlığı açıklanmaktadır.
+Bu makalede, Dynamics 365 Human Resources'daki Bordro Pozisyonları varlığı açıklanmaktadır.
 
 Fiziksel ad: mshr_payrollpositionentity.
 

@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Service (RCS) - Küreselleşme özellikleri
-description: Bu konuda, Küreselleşme özellikleri oluşturmak ve kullanmak için Microsoft Regulatory Configuration Services (RCS) ve Genel depoyu nasıl kullanacağınız açıklanmaktadır.
+description: Bu makalede, Genelleştirme özellikleri oluşturmak ve kullanmak için Microsoft Regulatory Configuration Services'ı (RCS) ve Genel depoyu nasıl kullanacağınız açıklanmaktadır.
 author: JaneA07
 ms.date: 06/04/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: e8df8a56d493e58f28699a87dd9dab1f87540a4ee327450384f89e6d426ba1a7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf08f25f7d092e0f93284a4019096378543adb9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760643"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888908"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Service (RCS) - Küreselleşme özellikleri
 
@@ -40,7 +40,7 @@ Yordamları gerçekleştirmeden önce, aşağıdaki görevlerle ilgili adımlar�
 - RCS örneğine erişme.
 - Bir konfigürasyon sağlayıcısı oluşturma ve etkinleştirme. Daha fazla bilgi için bkz. [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Finance and Operations uygulamaları örneğiniz için aşağıdaki adımları izleyin.
+Finans ve Operasyon uygulamaları örneğinizde aşağıdaki adımları izleyin.
 
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 2. Şirketiniz için hiçbir RCS ortamı sağlanmamışsa **Regulatory services -Yapılandırma**'yı seçin ve ardından bir ortam sağlamak için yönergeleri izleyin.
@@ -64,7 +64,7 @@ Genelleştirme özelliğini kullanmak için, onu Global depodan içe aktarmanız
 
 ## <a name="access-globalization-features"></a>Globalizasyonu özelliklerine erişme
 
-1. Bu konuda daha önce anlatıldığı gibi, özellik yönetiminde **Genelleştirme özellikleri** özelliğinin açık olduğundan emin olun.
+1. Bu makalede daha önce anlatıldığı gibi, özellik yönetiminde **Genelleştirme özellikleri** özelliğinin açık olduğundan emin olun.
 2. Yeni **Genelleştirme özellikleri** çalışma alanını açın ve sonra **Özellikler** altında **e-faturalama** döşemesini seçin.
 
     ![Genel Özellikler çalışma alanı.](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
@@ -161,7 +161,7 @@ Yapılandırmalar için şu eylemler mevcuttur:
 - **Görüntüle** – herhangi bir güncelleştirme gerektirmeyen temel özellik konfigürasyonlarını görüntüleyin.
 - **Düzenle** – Biçim tasarımcısında biçim veya biçim eşleştirmesini düzenleyebilmeniz için seçili konfigürasyonun taslak sürümünü oluşturun.
 - **Sil** – Seçili konfigürasyonu özellikten silin.
-- **Yeniden temellendirme** – özelliği yeniden temellendir. Daha fazla bilgi için, Bu konunun ilerleyen kısımlarında [türetilen Genelleştirme özellikleri](#rebase) bölümüne bakın.
+- **Yeniden temellendirme** – özelliği yeniden temellendir. Daha fazla bilgi için bu makalenin ilerleyen kısımlarında [Türetilmiş Genelleştirme özelliklerini yeniden temellendirme](#rebase) bölümüne bakın.
 
 ### <a name="setups"></a>Kurulumlar
 
@@ -182,7 +182,7 @@ Yapılandırmalar için şu eylemler mevcuttur:
 
 Ortamlar için şu eylemler mevcuttur:
 
-- **Etkinleştir** – Seçili bir özellik sürümü için, yayımlanmış bir ortam seçin ve kullanılabilir olması gereken **başlangıç tarihini** seçin. Daha fazla bilgi için, Bu konunun ilerleyen kısımlarında [Etkinleştirme için ortamları yapılandırma](#configureenvironment) bölümüne bakın.
+- **Etkinleştir** – Seçili bir özellik sürümü için, yayımlanmış bir ortam seçin ve kullanılabilir olması gereken **başlangıç tarihini** seçin. Daha fazla bilgi için bu makalenin ilerleyen kısımlarında [Etkinleştirme için ortamları yapılandırma](#configureenvironment) bölümüne bakın.
 - **İptal** – bir özellik kurulumu için ortamı kaldırır.
 
 ### <a name="organizations"></a>Kuruluşlar
@@ -195,7 +195,7 @@ Bir Genelleştirme özelliğini harici bir kuruluşla paylaşmak için bu adıml
 
     ![Bir kuruluşla özelliği paylaşma.](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
 
-Özellik, seçili kuruluşla paylaşılır ve Genel depodaki bu kuruluş tarafından kullanılabilir. Buradan, özellik kuruluşun RCS örneğine veya Dynamics 365 Finance'e kullanılabilmesi için içe aktarılabilir.
+Özellik, seçili kuruluşla paylaşılır ve Genel depodaki bu kuruluş tarafından kullanılabilir. Buradan özellik, kullanılabilmesi için kuruluşun RCS örneğine veya Dynamics 365 Finance'e içeri aktarılabilir.
 
 ## <a name="rebase-derived-globalization-features"></a><a name="rebase"></a>Türetilmiş Genelleştirme özelliklerini yeniden temellendirme
 

@@ -1,6 +1,6 @@
 ---
 title: Elektronik raporlama (ER) hedefleri
-description: Bu konuda, elektronik raporlama hedeflerinin yönetimi, desteklenen hedef türleri ve güvenlik konuları hakkında bilgi verilmektedir.
+description: Bu makalede, Elektronik raporlama hedeflerinin yönetimi, desteklenen hedef türleri ve güvenlik konuları hakkında bilgi verilmektedir.
 author: nselin
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e3154cb62531bf956365b420b454c98ead7f7335
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: bc8ef4a5299e6daba79702fadd37284f752a54a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780474"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851091"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektronik raporlama (ER) hedefleri
 
 [!include [banner](../includes/banner.md)]
 
-Her bir Elektronik raporlama (ER) biçimi yapılandırması ve bunun çıkış bileşeni (bir klasör veya bir dosya) için bir hedef yapılandırabilirsiniz. Uygun erişim haklarına sahip kullanıcılar çalışma zamanında hedef ayarlarını da değiştirebilir. Bu konu, ER hedef yönetimini, desteklenen hedeflerin türlerini ve güvenlik konularını açıklamaktadır.
+Her bir Elektronik raporlama (ER) biçimi yapılandırması ve bunun çıkış bileşeni (bir klasör veya bir dosya) için bir hedef yapılandırabilirsiniz. Uygun erişim haklarına sahip kullanıcılar çalışma zamanında hedef ayarlarını da değiştirebilir. Bu makalede, ER hedef yönetimi, desteklenen hedeflerin türleri ve güvenlik ile ilgili hususlar açıklanır.
 
 ER biçim yapılandırmaları genellikle en az bir çıkış bileşeni içerir: dosya. Genelde yapılandırmalar tek veya birden fazla klasörde gruplanan farklı türlerde birden fazla dosya çıkış bileşeni içerir (örneğin, XML, TXT, XLSX, DOCX, PDF). ER hedef yönetimi her bir bileşen çalıştırıldığında ne olduğunu önceden yapılandırmanızı sağlar. Bir yapılandırma çalıştırıldığında, varsayılan olarak, bir dosyayı açmanıza veya kaydetmenize olanak sağlayan bir iletişim kutusu gösterilir. Aynı çalışma davranışı bir ER yapılandırmasını içe aktardığınızda ve bunun için belli bir hedef yapılandırmadığınızda da oluşur. Ana çıkış bileşeni için bir hedef oluşturulduktan sonra bu hedef varsayılan davranışı geçersiz kılar ve klasör veya dosya hedef ayarlarına göre gönderilir.
 

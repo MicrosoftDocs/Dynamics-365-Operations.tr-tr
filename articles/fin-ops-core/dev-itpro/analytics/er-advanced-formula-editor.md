@@ -1,6 +1,6 @@
 ---
 title: Elektronik raporlama gelişmiş formül düzenleyicisi
-description: Bu konu, Elektronik raporlama (ER) model eşlemesi ve biçim bileşenlerinde ifade yapılandırmak için, gelişmiş formül düzenleyicinin nasıl kullanılabileceğini açıklamaktadır.
+description: Bu makalede, Elektronik raporlama (ER) model eşlemesi ve biçim bileşenlerinde ifade yapılandırmak için, gelişmiş formül düzenleyicinin nasıl kullanılabileceği açıklanmaktadır.
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 58d7a936f94e1cd453c904ef6404e0db65083c54235c8420b9cfa561bcde1584
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f54ab248e38d87b0a9fb7a73143f56fa704a3f67
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869113"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Elektronik raporlama gelişmiş formül düzenleyicisi
 
 [!include [banner](../includes/banner.md)]
 
-[Elektronik raporlama](general-electronic-reporting.md) [formül düzenleyicisine](general-electronic-reporting-formula-designer.md) ek olarak, Elektronik raporlama (ER) ifadelerini yapılandırma deneyimini geliştirmek için gelişmiş Elektronik raporlama formül düzenleyicisini de kullanabilirsiniz. Gelişmiş düzenleyici, [Monaco editor](https://microsoft.github.io/monaco-editor) tarafından sunulan, tarayıcı tabanlı ve güçlü bir düzenleyicidir. En sık kullanılan gelişmiş düzenleyici özellikleri bu konuda açıklanmaktadır:
+[Elektronik raporlama](general-electronic-reporting.md) [formül düzenleyicisine](general-electronic-reporting-formula-designer.md) ek olarak, Elektronik raporlama (ER) ifadelerini yapılandırma deneyimini geliştirmek için gelişmiş Elektronik raporlama formül düzenleyicisini de kullanabilirsiniz. Gelişmiş düzenleyici, [Monaco editor](https://microsoft.github.io/monaco-editor) tarafından sunulan, tarayıcı tabanlı ve güçlü bir düzenleyicidir. En sık kullanılan gelişmiş düzenleyici özellikleri bu makalede açıklanmaktadır:
 
 - [Kodu otomatik biçimlendirme](#Autoformatting)
 - [IntelliSense](#IntelliSense)
@@ -39,7 +39,7 @@ ms.locfileid: "6714671"
 
 ## <a name=""></a><a name="ActivateAdvEditor">Gelişmiş formül düzenleyicisini etkinleştirme</a>
 
-Microsoft Dynamics 365 Finance kurulumunuzda gelişmiş formül düzenleyicisini kullanmaya başlamak için aşağıdaki adımları tamamlayın.
+Microsoft Dynamics 365 Finance örneğinizde gelişmiş formül düzenleyicisini kullanmaya başlamak için aşağıdaki adımları tamamlayın.
 
 1.  **Kuruluş yönetimi** \> **Elektronik raporlama** \> **Yapılandırmalar**'a gidin.
 2.  **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
@@ -50,7 +50,7 @@ Microsoft Dynamics 365 Finance kurulumunuzda gelişmiş formül düzenleyicisini
 > [!NOTE]
 > Bu parametrenin kullanıcıya özel ve şirkete özel olduğuna dikkat edin.
 
-Microsoft Dynamics 365 Finance sürüm 10.0.19'u kullanmaya başlayarak hangi ER formül düzenleyicisinin varsayılan olarak sunulacağını kontrol edebilirsiniz. Geçerli Finance kurulumunun tüm kullanıcıları ve şirketleri için Gelişmiş Formül Düzenleyicisini etkinleştirmek üzere aşağıdaki adımları tamamlayın.
+Microsoft Dynamics 365 Finance 10.0.19 sürümünde ve sonraki sürümlerde, hangi ER formülü düzenleyicisinin varsayılan olarak sunulacağını kontrol edebilirsiniz. Geçerli Finance kurulumunun tüm kullanıcıları ve şirketleri için Gelişmiş Formül Düzenleyicisini etkinleştirmek üzere aşağıdaki adımları tamamlayın.
 
 1.  **Özellik yönetimi** çalışma alanını açın.
 2.  Listede **ER gelişmiş formül düzenleyicisini tüm kullanıcılar için varsayılan olarak ayarla** özelliğini bulup seçin ve ardından **Şimdi etkinleştir** 'i seçin.

@@ -1,6 +1,6 @@
 ---
 title: İşlem türü
-description: Bu konu, Dynamics 365 Human Resources için İşleme türü seçenek kümesini açıklar.
+description: Bu makalede, Dynamics 365 Human Resources için İşleme türü seçenek kümesi açıklanmaktadır.
 author: twheeloc
 ms.date: 06/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9f30b50e6ec24b44f7832905a43c9fd979986065
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 51be840b3af41e1ae32e9eae87ef62f4f4f15a09
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533696"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865367"
 ---
 # <a name="process-type"></a>İşlem türü
 
@@ -27,7 +27,7 @@ ms.locfileid: "8533696"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konu, Dynamics 365 Human Resources için Hayır Evet seçeneği kümesini açıklar.
+Bu makalede, Dynamics 365 Human Resources için Hayır Evet seçenek kümesi açıklanmaktadır.
 
 ## <a name="option-set-process-type"></a>Seçenek kümesi: İşlem türü
 

@@ -1,6 +1,6 @@
 ---
 title: Kazanç planı türü kapsamı
-description: Bu konuda, Dynamics 365 Human Resources için Kazanç planı türü kapsamı seçenek kümesi açıklanmaktadır.
+description: Bu makalede, Dynamics 365 Human Resources için Kazanç planı türü kapsamı seçenek kümesi açıklanmaktadır.
 author: marcelbf
 ms.date: 07/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 31ed22a56c0f15c7df3d372faf871cf3c3d9fdeb
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 57e7de7e9893430abc92b2814623baba718301b9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068546"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859590"
 ---
 # <a name="benefit-plan-type-cover"></a>Kazanç planı türü kapsamı
 
@@ -27,7 +27,7 @@ ms.locfileid: "8068546"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, Dynamics 365 Human Resources için Kazanç Planı Türü Kapsamı seçenek kümesi açıklanmaktadır.
+Bu makalede, Dynamics 365 Human Resources için Kazanç Planı Türü Kapsamı seçenek kümesi açıklanmaktadır.
 
 ## <a name="option-set-process-type"></a>Seçenek kümesi: İşlem türü
 

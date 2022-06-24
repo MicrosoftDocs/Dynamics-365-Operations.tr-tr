@@ -1,6 +1,6 @@
 ---
 title: Mali performans PowerBI.com çözümü
-description: Bu konu, Mali performans PowerBI.com çözümünü açıklamaktadır.
+description: Bu makalede, Mali performans PowerBI.com çözümü açıklanmaktadır.
 author: kweekley
 ms.date: 05/09/2018
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ca8338473b2efd91b6570e140ee1def3fa93df14dcf57273f601efb7f548d08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fcbe41d113ee41734020546388851afb7fc27bbf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767815"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910429"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Mali performans PowerBI.com çözümü
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Bu PowerBI.com çözümü [Finance and Operations için kaldırılan veya kullanım dışı bırakılan özellikler](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource) başlıklı konuda belirtildiği üzere kullanım dışı bırakılmıştır.
+> Bu PowerBI.com çözümü [Finance and Operations için kaldırılan veya kullanımına son verilen özellikler](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource) başlıklı konuda belirtildiği üzere kullanım dışı bırakılmıştır.
 
-Bu konu, **Mali performans** PowerBI.com çözümünü açıklamaktadır. Panoyu ve içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve çözümü oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
+Bu makalede, **Mali performans** PowerBI.com çözümü açıklanmaktadır. Panoyu ve içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve çözümü oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
 ## <a name="main-account-setup"></a>Ana hesap kurulumu
 Kuruluşlar borçlar ve gelirlerin raporlarda pozitif tutarlarda görünmesini istedikleri için ana hesapların kurulumu önemlidir. Bu ana hesapların pozitif tutarlarda görünmesi için, ana hesap türü **Pasif** veya **Gelir** olarak ayarlanmalıdır. Bu hesap türleri kullanıldığında, Power BI aracılığıyla gerçekleştirilen raporlama işaretleri ters çevirir ve tutarları pozitif gösterir.

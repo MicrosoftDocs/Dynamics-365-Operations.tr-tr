@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (6 Ekim 2020)
-description: Bu konuda, 6 Ekim 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, 6 Ekim 2020 için Microsoft Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır.
 author: jcart1106
 ms.date: 10/06/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ac64218e48d2713b91af1541f94083aef3f815a2
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4eb3e893c3243d3b2c169cb5a47001d4e0771a20
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062991"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887732"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (6 Ekim 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8062991"
 
 
 
-Bu konuda, Dynamics 365 Human Resources'daki yeni, değişen veya gelecek özellikler açıklanmaktadır. Güncelleştirme işlemi ve planı hakkında daha fazla bilgi için bkz. [Güncelleştirme işlemi](hr-admin-setup-update-process.md).
+Bu makalede, Dynamics 365 Human Resources'da yeni, değişen veya yakında sunulacak özellikler açıklanmaktadır. Güncelleştirme işlemi ve planı hakkında daha fazla bilgi için bkz. [Güncelleştirme işlemi](hr-admin-setup-update-process.md).
 
 Yeni özellikler ve bunların beklenen genel kullanılabilirlik tarihleri hakkında daha fazla bilgi için, [Dynamics 365 Human Resources 2020 sürümü 2. Dalga'ya bakın](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -48,9 +48,9 @@ Aşağıdaki özellik genel olarak bu sürümde mevcuttur.
 Bu sürümde aşağıdaki hata çözümleri bulunmaktadır.
 
 >[!NOTE]
-> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu konu ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmelerini eklemek için bu konuya güncelleştirmeler uygulanabilir.
+> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu makale, ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmeleri eklenerek güncelleştirilebilir.
 
-| Sorun numarası | Çıkış | Tanım |
+| Sorun numarası | Sorun | Açıklama |
 | --- | --- | --- |
 | 448806 | **Varsayılan tanımlama türü**, HCM parametrelerine **RecId** olarak dışa aktarılır | Human Resources parameteleri varlığındaki bu değişiklik, **varsayılan tanımlama türünü** görüntüleyen ek bir sütun ekler. |
 | 492923 | Görev kayıtları Lifecycle Services'de (LCS) kaydedilmiyor | Görev kayıtları artık LCS'ye kaydedilebilir. |

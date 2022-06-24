@@ -1,6 +1,6 @@
 ---
 title: Genel muhasebe defterlerini yapılandırma
-description: Bu konuda, her tüzel kişilik için genel muhasebe defterlerinin nasıl yapılandırılacağı hakkında bilgi sağlanmaktadır. Her tüzel kişiyle kullanılacak para birimlerinin, mali takvimlerin, hesap planlarının ve hesap yapılarının nasıl seçileceği hakkında bilgiler sunulur.
+description: Bu makalede, her tüzel kişilik için genel muhasebe defterlerinin nasıl yapılandırılacağı hakkında bilgi sağlanmaktadır. Her tüzel kişiyle kullanılacak para birimlerinin, mali takvimlerin, hesap planlarının ve hesap yapılarının nasıl seçileceği hakkında bilgiler sunulur.
 author: kweekley
 ms.date: 09/24/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 38c4364c47915cc0019cb6b3d471d3e60d413bf0
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d15980b05cfac68f2e2441c86b4506c13b38b4d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711562"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864353"
 ---
 # <a name="configure-ledgers"></a>Genel muhasebe defterlerini yapılandırma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, her tüzel kişilik için genel muhasebe defterlerinin nasıl yapılandırılacağı hakkında bilgi sağlanmaktadır. Her tüzel kişiyle kullanılacak para birimlerinin, mali takvimlerin, hesap planlarının ve hesap yapılarının nasıl seçileceği hakkında bilgiler sunulur.
+Bu makalede, her tüzel kişilik için genel muhasebe defterlerinin nasıl yapılandırılacağı hakkında bilgi sağlanmaktadır. Her tüzel kişiyle kullanılacak para birimlerinin, mali takvimlerin, hesap planlarının ve hesap yapılarının nasıl seçileceği hakkında bilgiler sunulur.
 
 ## <a name="selecting-the-chart-of-accounts"></a>Hesap planını seçme
 

@@ -1,6 +1,6 @@
 ---
 title: Tüketici fiyat endeksi planı
-description: Bu konu, abonelik faturalamasındaki artış masrafının belirlenmesine yardımcı olmak amacıyla, internetten elde ettiğiniz tüketici fiyat endeksi (TÜFE) planlarının listesinin nasıl oluşturulacağını açıklamaktadır.
+description: Bu makalede, Abonelik faturalamasındaki artış masrafının belirlenmesine yardımcı olmak amacıyla, internetten elde ettiğiniz tüketici fiyat endeksi (TÜFE) planlarının listesinin nasıl oluşturulacağı açıklanmaktadır.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 54114fae25565ed1aae7056ef9be5a4a159291e9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f08b79ee00baab3713d9ccc24a7595b1de7a7768
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686533"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904887"
 ---
 # <a name="consumer-price-index-schedule"></a>Tüketici fiyat endeksi planı
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, tüketici fiyat endeksi (TÜFE) planlarının nasıl oluşturulacağını, silineceğini, gözden geçirileceğini ve işleneceğini açıklamaktadır. TÜFE planı, faturalama planı satırları olarak eklediğiniz tüketici mal ve hizmetlerinin fiyatlarını belirlemek için kullanılabilir. TÜFE planı daha sonra bir faturalama planında artış ve indirim fiyatlandırmasıyla kullanılabilir veya faturalama planlarındaki faturalama tutarlarını güncelleştirmek için el ile işlenebilir. TÜFE planlarını el ile girebilir veya TÜFE planı bileşik varlığını kullanarak içe aktarabilirsiniz.
+Bu makalede, tüketici fiyat endeksi (TÜFE) planlarının nasıl oluşturulacağı, silineceği, gözden geçirileceği ve işleneceği açıklanmaktadır. TÜFE planı, faturalama planı satırları olarak eklediğiniz tüketici mal ve hizmetlerinin fiyatlarını belirlemek için kullanılabilir. TÜFE planı daha sonra bir faturalama planında artış ve indirim fiyatlandırmasıyla kullanılabilir veya faturalama planlarındaki faturalama tutarlarını güncelleştirmek için el ile işlenebilir. TÜFE planlarını el ile girebilir veya TÜFE planı bileşik varlığını kullanarak içe aktarabilirsiniz.
 
 TÜFE planı eklemek için şu adımları izleyin.
 

@@ -12,12 +12,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a353b97be70dd385703dd3eeb9db4921cf45f1d614dab3a5b138fdca5e4877a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a769fefaae3bb567d7b41d86ab5d88c34140d5d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906247"
 ---
 # <a name="tax-directives-for-europe"></a>Avrupa için vergi yönergeleri
 

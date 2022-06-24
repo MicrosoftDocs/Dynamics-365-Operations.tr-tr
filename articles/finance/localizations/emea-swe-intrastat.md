@@ -1,6 +1,6 @@
 ---
 title: İsveççe İntrastat
-description: Bu konu, İsveç'teki İntrastat raporlaması hakkında bilgi içerir.
+description: Bu makalede, İsveç'teki İntrastat raporlaması hakkında bilgiler yer almaktadır.
 author: anasyash
 ms.date: 8/24/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 1031b93950e44fe3b1b6254bf1503b4c09d6fd10
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a81f0c19923d1a4747c2ecb8ab03dd86b45497ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727412"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886274"
 ---
 # <a name="swedish-intrastat"></a>İsveççe İntrastat
 

@@ -1,6 +1,6 @@
 ---
-title: İş akışı geçmişini görüntüleme
-description: Bu konuda işlenmesi ve onaylanması için iş akışı sistemine gönderilen bir belgenin durumunu görüntüleme adımları açıklanmaktadır.
+title: İş akışı geçmişini görüntüle
+description: Bu makalede, işlenmesi ve onaylanması için iş akışı sistemine gönderilen bir belgenin durumunu görüntüleme adımları açıklanmaktadır.
 author: jasongre
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ca9a8bff246cc878a0703947a7f8c1c4fc01963
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8a5810eaed5d2ff6cb5c98e1b21c098c70f24485
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069971"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868593"
 ---
-# <a name="view-workflow-history"></a>İş akışı geçmişini görüntüleme
+# <a name="view-workflow-history"></a>İş akışı geçmişini görüntüle
 
 [!include [banner](../../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
-Bu konuda işlenmesi ve onaylanması için iş akışı sistemine gönderilen bir belgenin durumunu görüntüleme adımları açıklanmaktadır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
+Bu makalede, işlenmesi ve onaylanması için iş akışı sistemine gönderilen bir belgenin durumunu görüntüleme adımları açıklanmaktadır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 
 1. **Gezinti bölmesi > Modüller > Ortak > Sorgular > İş akışı > İş akışı geçmişi**'ne gidin.
     - İşlenmek ve onaylanmak üzere iş akışı sistemine gönderilen bir belgenin durumunu görüntülemek için bu formu kullanın.  

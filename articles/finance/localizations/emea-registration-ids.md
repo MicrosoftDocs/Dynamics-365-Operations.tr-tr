@@ -1,6 +1,6 @@
 ---
 title: Kayıt kodları
-description: Bu konu, kayıt kimliklerini ayarlama kullanma hakkında bilgi sağlar.
+description: Bu makalede, kayıt kimliklerini ayarlama ve kullanma hakkında bilgiler sağlanmaktadır.
 author: ShylaThompson
 ms.date: 11/08/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 544e994a18811995afc64c052a3f97e622529162b8a14b17206c370026b78ac4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 379cf78ece388f738fad8121d5b0adb4434d7905
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883089"
 ---
 # <a name="registration-ids"></a>Kayıt kodları
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, kayıt kimliklerini ayarlama kullanma hakkında bilgi sağlar.
+Bu makalede, kayıt kimliklerini ayarlama ve kullanma hakkında bilgiler sağlanmaktadır.
 
-Birçok ülke ve bölgenin farklı düzenlemeleri ve kayıt numaralarını veya kimliklerini kaydetmek için gereksinimleri vardır. Bu konu, farklı Avrupa ülkeleri/bölgeleri için gerekli ayarların ve desteklenen kayıt türlerinin genel bir bakışını sağlamaktadır. Farklı devlet dairelerinden sağlanan kayıt numaralarıyla ilgili ülkeye özgü işlevsellikleri desteklemek için tüm ülkelerin/bölgelerin kendilerine ait gereksinimleri vardır. Örnekler arasında Sosyal Güvenlik numarası (SSK), vergi kimlik numarası (TIN) ve Avrupa KDV kimlik AB KDV kayıt numaraları bulunmaktadır. Bu özellik, bazı Avrupa ülkelerinin gereksinimlerini göz önünde bulundurarak, bir bölgedeki tüm ülkeleri birleştiren bir çerçeve sağlar. Aşağıdaki bölümler kayıt kimliklerini ayarlamak ve işlemek için genel akış hakkında bilgi sağlar.
+Birçok ülke ve bölgenin farklı düzenlemeleri ve kayıt numaralarını veya kimliklerini kaydetmek için gereksinimleri vardır. Bu makale, farklı Avrupa ülkeleri/bölgeleri için gerekli ayarlara ve desteklenen kayıt türlerine dair genel bir bakış sağlamaktadır. Farklı devlet dairelerinden sağlanan kayıt numaralarıyla ilgili ülkeye özgü işlevsellikleri desteklemek için tüm ülkelerin/bölgelerin kendilerine ait gereksinimleri vardır. Örnekler arasında Sosyal Güvenlik numarası (SSK), vergi kimlik numarası (TIN) ve Avrupa KDV kimlik AB KDV kayıt numaraları bulunmaktadır. Bu özellik, bazı Avrupa ülkelerinin gereksinimlerini göz önünde bulundurarak, bir bölgedeki tüm ülkeleri birleştiren bir çerçeve sağlar. Aşağıdaki bölümler kayıt kimliklerini ayarlamak ve işlemek için genel akış hakkında bilgi sağlar.
 
 ## <a name="registration-type-creation"></a>Kayıt türü oluşturma
 Kayıt kimlikleri girebilmeden önce, her tarafın tabi olduğu kayıt numaraları için kayıt türleri ayarlamak zorundasınız. Farklı ülkeler/bölgelerdeki satıcılar, müşteriler, çalışanlar ve tüzel kişilikler için kayıt türleri oluşturmak ve yönetmek için **Kuruluş yönetimi** &gt; **Genel adres defteri** &gt; **Kayıt türleri** &gt; **Kayıt türleri**  sayfasına gidin.
@@ -51,7 +51,7 @@ Kayıt kategorisi ülke/bölge kayıt tanımlayıcısıdır, belirli bir ülke/b
 |-----------------------|----------------|
 | Kayıt türü     | Belirli ülke/bölgedeki kayıt türü.|
 | Sınırlama:         | Vergi kayıt türüne uygulanan sınırlama türü: Hiçbiri, Kişi, Kuruluş.|
-| Kayıt kategorisi | Ülkede kullanılan benzersiz kayıt kimlik tanımlayıcısı. Desteklenen kategorilerin tam listesi bu konunun ilerleyen kısımlarında gösterilmektedir. |
+| Kayıt kategorisi | Ülkede kullanılan benzersiz kayıt kimlik tanımlayıcısı. Desteklenen kategorilerin tam listesi bu makalenin ilerleyen kısımlarında gösterilmektedir. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Genel adres defteri kayıtları için kayıt kimlikleri girin
 
@@ -76,7 +76,7 @@ Genel adres defteri (GAB) müşteriler, satıcılar, bağlantılar, iş ilişkil
 Kayıt kimliklerine dayalı taraf kaydı arama taraf, tüzel kişilik, satıcı, müşteriler ve çalışan için formlarda arama yapın. **Kayıt kimlik arama kriteri sayfasını açmak için** **Kayıt kimlik aramasına** tıklayın. Kriteri belirtin ve **Bul** üzerine tıklayın. Sistem seçili kayıtları, ilişkili türdeki taraf kayıtlarını genel adres defterinden görüntüler.
 
 ## <a name="supported-registration-categories"></a>Desteklenen kayıt kategorileri
-Aşağıdaki tabloda, desteklenen kayıt türleri listelenmiştir. Kayıt kimlikleri için Microsoft Dynamics AX 2012 alanlarına aşinaysanız, bu tablo bu alanları da Dynamics 365 Finance kayıt kategorilerine eşleştirir.
+Aşağıdaki tabloda, desteklenen kayıt türleri listelenmiştir. Kayıt kimlikleri için Microsoft Dynamics AX 2012 alanlarını biliyorsanız bu tablo bu alanları da Dynamics 365 Finance kayıt kategorilerine eşleştirir.
 
 | Finance Kayıt kategorisi         |Ülke/Bölge  | Dynamics AX 2012 terim/alan|
 |---------------------------------------------------------------|---------------------|---------------------------------|

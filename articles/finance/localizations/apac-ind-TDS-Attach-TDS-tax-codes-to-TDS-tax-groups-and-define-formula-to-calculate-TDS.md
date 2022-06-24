@@ -1,6 +1,6 @@
 ---
-title: TDS vergi kodlarını, TDS vergi gruplarına ekle ve TDS hesaplama formülünü belirle
-description: Bu konu, Kaynakta Kesilen Vergi (TDS) gruplarının nasıl kurulduğunu ve TDS vergi kodlarını TDS vergi gruplarına ilişkilendirmeyi açıklamaktadır. Bir TDS vergi grubu için TDS'yi hesaplamak için, gruba iliştirilen TDS vergi kodlarının formülünü belirlemeniz gerekir.
+title: TDS vergi kodlarını TDS vergi gruplarına ekleme ve TDS hesaplamak için formülü tanımlama
+description: Bu makalede, Kaynakta Kesilen Vergi (TDS) gruplarının nasıl ayarlanacağı ve TDS vergi kodlarının TDS vergi gruplarına nasıl iliştirileceği açıklamaktadır. Bir TDS vergi grubu için TDS'yi hesaplamak için, gruba iliştirilen TDS vergi kodlarının formülünü belirlemeniz gerekir.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f1326f95c297887213ecfb572a2437867d964925
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 3607e44bdcf7a32b156e6b4639ef907aa923cadc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711250"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853328"
 ---
-# <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>TDS vergi kodlarını, TDS vergi gruplarına ekle ve TDS hesaplama formülünü belirle
+# <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>TDS vergi kodlarını TDS vergi gruplarına ekleme ve TDS hesaplamak için formülü tanımlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Kaynakta Kesilen Vergi (TDS) gruplarının nasıl kurulduğunu ve TDS vergi kodlarını TDS vergi gruplarına ilişkilendirmeyi açıklamaktadır. Bir TDS vergi grubu için TDS'yi hesaplamak için, gruba iliştirilen TDS vergi kodlarının formülünü belirlemeniz gerekir.
+Bu makalede, Kaynakta Kesilen Vergi (TDS) gruplarının nasıl ayarlanacağı ve TDS vergi kodlarının TDS vergi gruplarına nasıl iliştirileceği açıklamaktadır. Bir TDS vergi grubu için TDS'yi hesaplamak için, gruba iliştirilen TDS vergi kodlarının formülünü belirlemeniz gerekir.
 
 TDS vergi grubunu ayarlamak, TDS vergi kodlarını gruba iliştirmek ve TDS'yi hesaplama formülünü belirlemek için aşağıdaki adımları izleyin.
 

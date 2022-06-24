@@ -1,6 +1,6 @@
 ---
 title: Veri tümleştirme projesi oluşturma
-description: Bu konuda, veri tümleştirme projesinin nasıl oluşturulacağı açıklanmaktadır.
+description: Bu makalede, veri tümleştirme projesinin nasıl oluşturulacağı açıklanmaktadır.
 author: ShivamPandey-msft
 ms.date: 05/06/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4d69ffcb6ccfcc7bae2891f2539941f7b6bbf86e
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 4ff4f88c6c5d55d853aebd7d437bfb107292fb2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876254"
 ---
 # <a name="create-a-data-integration-project"></a>Veri tümleştirme projesi oluşturma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, veri tümleştirme projesinin nasıl oluşturulacağı açıklanmaktadır.
+Bu makalede, veri tümleştirme projesinin nasıl oluşturulacağı açıklanmaktadır.
 
 1. Microsoft Dynamics 365 Finance'te oturum açın.
 2. **Çalışma alanları \> Veri yönetimi** bölümüne gidin ve **Veri varlıkları**'nı seçin. Bir sonraki adıma geçmeden önce tüm veri varlıkları yenilenene kadar bekleyin.

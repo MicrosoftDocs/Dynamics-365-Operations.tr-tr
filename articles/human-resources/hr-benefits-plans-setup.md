@@ -1,6 +1,6 @@
 ---
 title: Bir kazanç planı oluştur
-description: Bu konuda, Dynamics 365 Human Resources uygulamasında kazanç planlarının nasıl ayarlanacağı gösterilmektedir.
+description: Bu makalede, Dynamics 365 Human Resources'da kazanç planlarının nasıl ayarlanacağı gösterilmektedir.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 90d4399cce227cfec09a12e02f2e56618a656473
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7815657c4bf3f79d1a04333027cc51b496fe1820
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694578"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909831"
 ---
 # <a name="create-a-benefit-plan"></a>Kazanç planı oluşturma
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694578"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, Dynamics 365 Human Resources uygulamasında kazanç planlarının nasıl ayarlanacağı gösterilmektedir.
+Bu makalede, Dynamics 365 Human Resources'da kazanç planlarının nasıl ayarlanacağı gösterilmektedir.
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **Planlar** altında, **kazanç planları**'nı seçin.
 

@@ -1,6 +1,6 @@
 ---
 title: İşe alınacak aday için sorgu örneği
-description: Bu konu, Dynamics 365 Human Resources'taki İşe alınacak aday için örnek bir sorgu sağlar.
+description: Bu makalede, Dynamics 365 Human Resources'daki İşe alınacak aday varlığı için örnek bir sorgu sağlanmaktadır.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: edb8687b9dae0afc1bc15a3a5c197e14e7e8cf1e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2dd744665d4f0b6c64f4ee45a01c237081018514
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069233"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848357"
 ---
 # <a name="example-query-for-candidate-to-hire"></a>İşe alınacak aday için sorgu örneği
 
@@ -27,9 +27,9 @@ ms.locfileid: "8069233"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konu, Dynamics 365 Human Resources'taki İşe alınacak aday için örnek bir sorgu sağlar.
+Bu makalede, Dynamics 365 Human Resources'daki İşe alınacak aday varlığı için örnek bir sorgu sağlanmaktadır.
 
-Bu konuda, tek bir API işleminde yeni bir aday kaydının tüm ayrıntısını oluşturmak için *derin eklemeleri* nasıl kullanabileceğinizi gösteren bir örnek sağlanır. Derin eklemeler hakkında daha fazla bilgi için bkz. [Bir işlemde ilgili varlık kayıtlarını oluşturma](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
+Bu makalede, tek bir API işleminde yeni bir aday kaydının tüm ayrıntısını oluşturmak için *derin eklemeleri* nasıl kullanabileceğinizi gösteren bir örnek sağlanmaktadır. Derin eklemeler hakkında daha fazla bilgi için bkz. [Bir işlemde ilgili varlık kayıtlarını oluşturma](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
 
 **mshr_hcmcandidatetohireentity** varlığı, **mshr_dirpersonentity** varlığıyla olan ilişkisi nedeniyle benzersizdir. **mshr_hcmcandidatetohireentity** varlığındaki birçok özellik (örneğin, **mshr_firstname**, **mshr_lastname** ve **mshr_birthdate**) **mshr_dirpersonentity** kaydından türetilir. Derin eklemeler kullanmadan **mshr_hcmcandidatetohireentity** varlığına yeni bir aday kaydı naklederseniz, bu özellikler için değerleri doğrudan **mshr_hcmcandidatetohireentity** kaydında tanımlayabilirsiniz. İlişkili **mshr_dirpersonentity** kaydı, özellikler için tanımlanan değerlerle örtülü olarak oluşturulur. Daha sonra ayrı API çağrıları olarak diğer ilgili varlık kayıtlarını (yetenekler veya eğitim gibi) oluşturabilirsiniz.
 

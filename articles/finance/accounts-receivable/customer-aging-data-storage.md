@@ -1,6 +1,6 @@
 ---
 title: Müşteri yaşlandırma veri depolaması
-description: Bu konu, müşteri yaşlandırma verileri için harici depolama kullanma sürecini açıklamaktadır. Çıktıyı, harici bir sisteme dışa aktarmak üzere kullanılabilir hale getirmek için Müşteri yaşlandırma verileri depolama sürecini çalıştırabilirsiniz.
+description: Bu makalede, müşteri yaşlandırma verileri için harici depolama kullanma süreci açıklanmaktadır. Çıktıyı, harici bir sisteme dışa aktarmak üzere kullanılabilir hale getirmek için Müşteri yaşlandırma verileri depolama sürecini çalıştırabilirsiniz.
 author: JodiChristiansen
 ms.date: 10/27/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1af4b4cbf503369565ee64ad8889ee9e59a92b3f
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d7a66485cc9a538f5c3999009b6dbe295d7a5b9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735535"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894156"
 ---
 # <a name="customer-aging-data-storage"></a>Müşteri yaşlandırma veri depolaması
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, müşteri yaşlandırma verileri için harici depolama kullanma sürecini açıklamaktadır. Microsoft Dynamics 365 Finance'te çıktıyı, harici bir sisteme dışa aktarmak üzere kullanılabilir hale getirmek için **Müşteri yaşlandırma verileri depolama** sürecini çalıştırabilirsiniz. İşlemi çalıştırdığınızda, sistemde kullanılabilen aynı yaşlandırma raporu seçenekleri harici sistemler tarafından kullanılabilir. Ayrıntılar her zaman dışa aktarılan verilere dahil edilir.
+Bu makalede, müşteri yaşlandırma verileri için harici depolama kullanma süreci açıklanmaktadır. Microsoft Dynamics 365 Finance'te çıktıyı, harici bir sisteme dışa aktarmak üzere kullanılabilir hale getirmek için **Müşteri yaşlandırma verileri depolama** sürecini çalıştırabilirsiniz. İşlemi çalıştırdığınızda, sistemde kullanılabilen aynı yaşlandırma raporu seçenekleri harici sistemler tarafından kullanılabilir. Ayrıntılar her zaman dışa aktarılan verilere dahil edilir.
 
 Çıktıda birçok müşteri ve/veya birçok hareket bulunduğu durumlarda, Müşteri yaşlandırma verilerinin bir harici sistem tarafından kullanılabilmesini sağlamak yararlı olabilir. Varolan **Müşteri yaşlandırma** raporu, yazdırılmak üzere çok fazla veri içerdiği için zaman aşımına uğrar; bu özellik aynı verileri elde etmek için alternatif bir yol sağlar.
 

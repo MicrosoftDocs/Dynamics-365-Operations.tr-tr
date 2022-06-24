@@ -1,6 +1,6 @@
 ---
 title: Uygulama sınıfı yöntemlerini çağırmak için ER ifadeleri tasarlama
-description: Bu konuda, gerekli uygulama sınıfları yöntemlerini çağırarak Elektronik raporlama yapılandırmalarında mevcut uygulama mantığının nasıl yeniden kullanılabileceği açıklanmaktadır.
+description: Bu makalede, gerekli uygulama sınıfları yöntemlerini çağırarak Elektronik raporlama yapılandırmalarında mevcut uygulama mantığının nasıl yeniden kullanılabileceği açıklanmaktadır.
 author: NickSelin
 ms.date: 11/02/2021
 ms.topic: business-process
@@ -12,30 +12,30 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 81fae8d3603677afd7dd4b09b9073805f73582b4
-ms.sourcegitcommit: e6b4844a71fbb9faa826852196197c65c5a0396f
+ms.openlocfilehash: 0fb0a9725d882fdc330d7adbb49bd3dcadf7805f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7751718"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883639"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Uygulama sınıfı yöntemlerini çağırmak için ER ifadeleri tasarlama
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, ER ifadelerinde gerekli uygulama sınıfları yöntemlerini çağırarak [Elektronik raporlama (ER)](../general-electronic-reporting.md) yapılandırmalarında mevcut uygulama mantığının nasıl yeniden kullanılabileceğiyle ilgili bilgiler sağlar. Çağırma sınıfları için bağımsız değişken değerleri çalışma zamanında dinamik olarak tanımlanabilir. Örneğin, değerler ayrıştırılmasını sağlamak için, ayrıştırma belgesindeki bilgileri temel alabilir.
+Bu makalede, ER ifadelerinde gerekli uygulama sınıfları yöntemlerini çağırarak [Elektronik raporlama (ER)](../general-electronic-reporting.md) yapılandırmalarında mevcut uygulama mantığının nasıl yeniden kullanılabileceğiyle ilgili bilgiler sağlanmaktadır. Çağırma sınıfları için bağımsız değişken değerleri çalışma zamanında dinamik olarak tanımlanabilir. Örneğin, değerler ayrıştırılmasını sağlamak için, ayrıştırma belgesindeki bilgileri temel alabilir.
 
-Örneğin bu konuda, bir uygulamanın veri güncelleştirmesi için gelen banka ekstrelerini ayrıştırmak üzere bir işlem tasarlayacaksınız. Gelen banka ekstrelerini, Uluslararası Banka Hesabı Numarası (IBAN) kodlarını içeren metin (.txt) dosyaları olarak alacaksınız. Banka ekstrelerini içe aktarma işleminin bir parçası olarak, halihazırda bulunan mantığı kullanarak bu IBAN kodlarının doğru olduğunu doğrulamanız gerekir.
+Örneğin bu makalede, bir uygulamanın veri güncelleştirmesi için gelen banka ekstrelerini ayrıştırmak üzere bir işlem tasarlayacaksınız. Gelen banka ekstrelerini, Uluslararası Banka Hesabı Numarası (IBAN) kodlarını içeren metin (.txt) dosyaları olarak alacaksınız. Banka ekstrelerini içe aktarma işleminin bir parçası olarak, halihazırda bulunan mantığı kullanarak bu IBAN kodlarının doğru olduğunu doğrulamanız gerekir.
 
-## <a name="prerequisites"></a>Önkoşullar
+## <a name="prerequisites"></a>Ön Koşullar
 
-Bu konudaki prosedürler, **Sistem yöneticisi** veya **Elektronik raporlama geliştiricisi** rolüne atanmış kullanıcılar içindir.
+Bu makaledeki prosedürler, **Sistem yöneticisi** veya **Elektronik raporlama geliştiricisi** rolüne atanmış kullanıcılar içindir.
 
 Bu prosedürler herhangi bir veri kümesi kullanılarak tamamlanabilir.
 
 Bunları tamamlamak için şu dosyayı indirmeniz ve yerel olarak kaydetmeniz gerekir: [SampleIncomingMessage.txt](https://download.microsoft.com/download/8/0/a/80adbc89-f23c-46d9-9241-e0f19125c04b/SampleIncomingMessage.txt).
 
-Bu konuda, örnek şirket için gerekli ER yapılandırmalarını oluşturacaksınız. Bu nedenle bu konudaki yordamları tamamlayabilmek için önce aşağıdaki adımları tamamlamanız gerekir.
+Bu makalede, Litware, Inc. örnek şirketi için gerekli ER yapılandırmalarını oluşturacaksınız. Bu nedenle bu makaledeki yordamları tamamlayabilmek için önce aşağıdaki adımları tamamlamanız gerekir.
 
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 2. **Yerelleştirme yapılandırmaları** sayfasında, **Litware, Inc.** örnek şirketine ait yapılandırma sağlayıcısının kullanılabildiğinden ve etkin olarak işaretlendiğinden emin olun. Bu yapılandırma sağlayıcısını göremiyorsanız öncelikle [Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](er-configuration-provider-mark-it-active-2016-11.md) yordamındaki adımları tamamlamanız gerekir.

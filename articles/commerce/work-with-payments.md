@@ -1,6 +1,6 @@
 ---
 title: Çağrı merkezlerinde ödeme yöntemleri
-description: Bu konu Dynamics 365 Commerce'de bir çağrı merkezinde kullanabileceğiniz farklı ödeme yöntemlerini ele alır.
+description: Bu makale Dynamics 365 Commerce'de bir çağrı merkezinde kullanabileceğiniz farklı ödeme yöntemlerini ele alır.
 author: josaw1
 ms.date: 03/28/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b89daf41c8a14f5e03dc2a67c95e9d1fed2d5cab891ae65e20655c285b1f6ac2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7f47b6865f408a1dc833dcf15fc254ef8b802bcc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762584"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902723"
 ---
 # <a name="payment-methods-in-call-centers"></a>Çağrı merkezlerinde ödeme yöntemleri
 

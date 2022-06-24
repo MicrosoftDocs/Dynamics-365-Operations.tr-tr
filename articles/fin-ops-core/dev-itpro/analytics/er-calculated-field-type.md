@@ -1,8 +1,8 @@
 ---
 title: Hesaplanan alan türünün ER veri kaynaklarının parametreleştirilmiş çağrılarını destekleme
-description: Bu konu, ER veri kaynakları için Hesaplanan alan türünün nasıl kullanılacağı hakkında bilgi sağlar.
+description: Bu makalede, ER veri kaynakları için Hesaplanan alan türünün nasıl kullanılacağı hakkında bilgi sağlanmaktadır.
 author: NickSelin
-ms.date: 08/06/2020
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349172"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934714"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Hesaplanan alan türünün ER veri kaynaklarının parametreleştirilmiş çağrılarını destekleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu **Hesaplanan alan** türünü kullanarak Elektronik raporlama (ER) veri kaynağını nasıl tasarlayabileceğinizi açıklamaktadır. Bu veri kaynağı, yürütüldüğünde bu veri kaynağını çağıran bir bağlamada yapılandırılmış olan parametre bağımsız değişkenlerinin değerleriyle denetlenebilecek bir ER ifadesi içerebilir. Bu tür bir veri kaynağının parametreleştirilmiş çağrılarını yapılandırarak, birçok bağlamada tek bir veri kaynağını yeniden kullanabilirsiniz ve böylece, ER model eşlemeleri veya ER biçimlerinde yapılandırılması gereken veri kaynaklarının toplam sayısı azalır. Ayrıca, bakım maliyetlerini ve diğer tüketicilerin kullanım maliyetini azaltan yapılandırılmış ER bileşenini de basitleştirir.
+Bu makalede, **Hesaplanan alan** türünü kullanarak Elektronik raporlama (ER) veri kaynağını nasıl tasarlayabileceğiniz açıklanmaktadır. Bu veri kaynağı, yürütüldüğünde bu veri kaynağını çağıran bir bağlamada yapılandırılmış olan parametre bağımsız değişkenlerinin değerleriyle denetlenebilecek bir ER ifadesi içerebilir. Bu tür bir veri kaynağının parametreleştirilmiş çağrılarını yapılandırarak, birçok bağlamada tek bir veri kaynağını yeniden kullanabilirsiniz ve böylece, ER model eşlemeleri veya ER biçimlerinde yapılandırılması gereken veri kaynaklarının toplam sayısı azalır. Ayrıca, bakım maliyetlerini ve diğer tüketicilerin kullanım maliyetini azaltan yapılandırılmış ER bileşenini de basitleştirir.
 
-## <a name="prerequisites"></a>Önkoşullar
-Bu konudaki örnekleri tamamlamak için şu erişimlere sahip olmanız gerekir:
+## <a name="prerequisites"></a>Ön Koşullar
+Bu makaledeki örnekleri tamamlamak için şu erişimlere sahip olmanız gerekir:
 
 - Aşağıdaki rollerden birine erişim:
 
@@ -46,10 +46,10 @@ Ayrıca, aşağıdaki dosyaları da indirip yerel olarak depolamalısınız.
 
 | **İçerik**                           | **Dosya adı**                                        |
 |---------------------------------------|------------------------------------------------------|
-| Örnek ER verisi modeli yapılandırması    | [Parametreleştirilmiş calls.version.1.xml öğrenme modeli](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
-| Örnek ER meta verisi yapılandırması      | [Parametreleştirilmiş calls.version.1.xml öğrenmek için meta veri](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
-| Örnek ER model eşleme yapılandırması | [Parametreleştirilmiş calls.version.1.xml öğrenmek için eşleme](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Örnek ER biçimi yapılandırması        | [Parametreleştirilmiş calls.version.1.xml öğrenmek için biçimlendirme](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| Örnek ER verisi modeli yapılandırması    | [Parametreleştirilmiş calls.version.1.xml öğrenme modeli](https://download.microsoft.com/download/e/5/c/e5c0d3f9-1818-47c7-ae75-46efcbb1314f/Modeltolearnparameterizedcallsversion.1.xml)     |
+| Örnek ER meta verisi yapılandırması      | [Parametreleştirilmiş calls.version.1.xml öğrenmek için meta veri](https://download.microsoft.com/download/8/3/a/83a910a5-bf65-4509-bec4-6737a81ecc45/Metadatatolearnparameterizedcalls.version.1.xml)  |
+| Örnek ER model eşleme yapılandırması | [Parametreleştirilmiş calls.version.1.xml öğrenmek için eşleme](https://download.microsoft.com/download/b/f/d/bfd8cbd8-0370-44d1-a1b1-66d021c580ca/Mappingtolearnparameterizedcalls.version.1.1.xml) |
+| Örnek ER biçimi yapılandırması        | [Parametreleştirilmiş calls.version.1.xml öğrenmek için biçimlendirme](https://download.microsoft.com/download/8/1/d/81deb6d8-a768-4fcf-bbbe-8f84d2dac3eb/Formattolearnparameterizedcalls.version.1.1.xml)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>RCS kurulumunuzda oturum açın
 Bu örnekte, Litware, Inc. adlı örnek şirket için bir yapılandırma oluşturacaksınız. Öncelikle, RCS'de [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) prosedüründeki adımları tamamlamanız gerekir:
@@ -306,7 +306,7 @@ Parametreli hesaplanan alan bir kayıt döndürdüğünde, öğeleri biçimlendi
 Yapılandırılmış parametreli hesaplanan alanların doğru çalıştığından emin olmak için başlangıç ve geliştirilmiş ER biçimlerini çalıştırabilirsiniz.
 
 ### <a name="import-er-configurations"></a>ER yapılandırmaları içe aktarın
-**RCS** türünün ER deposunu kullanarak RCS'den gözden geçirilmiş yapılandırmaları içe aktarabilirsiniz. [Düzenleyici Yapılandırma Hizmetleri'nden (RCS) Elektronik raporlama (ER) yapılandırmalarını içe aktarma](rcs-download-configurations.md) konusundaki adımları zaten biliyorsanız yapılandırmaları ortamınıza aktarmak için bu konuda daha önce açıklanan yapılandırılmış ER deposunu kullanın. Aksi halde, şu adımları izleyin:
+**RCS** türünün ER deposunu kullanarak RCS'den gözden geçirilmiş yapılandırmaları içe aktarabilirsiniz. [Regulatory Configuration Services'dan (RCS) Elektronik raporlama (ER) yapılandırmalarını içeri aktarma](rcs-download-configurations.md) makalesindeki adımları zaten gerçekleştirdiyseniz yapılandırmaları ortamınıza aktarmak için bu makalede daha önce açıklanan yapılandırılmış ER deposunu kullanın. Aksi halde, şu adımları izleyin:
 
 1. **DEMF** şirketini seçin ve varsayılan panoda **Elektronik raporlama**'yı seçin.
 2. **Raporlama yapılandırmaları**'nı seçin.

@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler 26 Eylül 2020
-description: Bu konuda, 26 Eylül 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, 26 Eylül 2020 için Microsoft Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır.
 author: jcart1106
 ms.date: 09/26/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8b0260c4d1bafe271a08336ceed7dc3742f1d590
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 1b7a89ae8a2132c8548d9451aa235d1bccb88809
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061396"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874260"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler 26 Eylül 2020
 
@@ -27,7 +27,7 @@ ms.locfileid: "8061396"
 
 
 
-Bu konuda, Dynamics 365 Human Resources'daki yeni, değişen veya gelecek özellikler açıklanmaktadır. Güncelleştirme işlemi ve planı hakkında daha fazla bilgi için bkz. [Güncelleştirme işlemi](hr-admin-setup-update-process.md).
+Bu makalede, Dynamics 365 Human Resources'da yeni, değişen veya yakında sunulacak özellikler açıklanmaktadır. Güncelleştirme işlemi ve planı hakkında daha fazla bilgi için bkz. [Güncelleştirme işlemi](hr-admin-setup-update-process.md).
 
 Yeni özellikler ve bunların beklenen genel kullanılabilirlik tarihleri hakkında daha fazla bilgi için, [Dynamics 365 Human Resources 2020 sürümü 2. Dalga'ya bakın](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -46,9 +46,9 @@ Aşağıdaki özellik genellikle bu sürümde mevcuttur:
 Bu sürümde aşağıdaki hata çözümleri bulunmaktadır.
 
 > [!NOTE]
-> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu konu ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmelerini eklemek için bu konuya güncelleştirmeler uygulanabilir.
+> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu makale, ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmeleri eklenerek güncelleştirilebilir.
 
-| Sorun numarası | Çıkış | Tanım |
+| Sorun numarası | Sorun | Açıklama |
 | --- | --- | --- |
 | 469495 | Varsayılan mali boyutlar kılavuz ve iletişim kutusunu Güncelleştir | Human Resources uygulamasının tamamında mali boyutlar kılavuz ve iletişim kutusu güncelleştirildi. |
 | 474887 | İstek bırak iş öğesi, el ile yapılan bir kararda yanlış bağlantı açıyor | Bir iş akışı konfigürasyonu el ile girilen bir karar içerdiğinde, **Bana atanan çalışma öğelerinden** çıkış isteğine gitmek yanlış bağlantıyı açar ve boş bir form gösterir veya el ile karar vermek üzere kendisine atanan çıkış isteği yerine geçerli kullanıcının oluşturduğu çıkış isteği gösterilir. |

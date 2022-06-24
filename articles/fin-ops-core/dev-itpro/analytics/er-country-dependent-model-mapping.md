@@ -1,6 +1,6 @@
 ---
 title: Ülke bağlamına bağımlı ER model eşlemelerini yapılandırma
-description: Bu konuda, ER model eşlemelerini kullanımlarını, denetleyen tüzel kişiliğin ülke/bölge bağlamına bağımlı olacak şekilde nasıl ayarlayabileceğiniz açıklanmaktadır.
+description: Bu makalede, ER model eşlemelerini kullanımlarını, denetleyen tüzel kişiliğin ülke/bölge bağlamına bağlı olacak şekilde nasıl ayarlayabileceğiniz açıklanmaktadır.
 author: NickSelin
 ms.date: 11/11/2019
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 5b26c605bd64b8d8e5a90f4389261e8e56825111
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 771b14662638838ac1f39d85b19ac58a47352c79
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605383"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883889"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Ülke bağlamına bağımlı ER model eşlemelerini yapılandırma
 
 [!include[banner](../includes/banner.md)]
 
-Elektronik raporlama (ER model) eşlemelerini Dynamics 365 Finance'e özgü genel bir ER veri modeli uygulayacak şekilde yapılandırabilirsiniz. Bu konuda, bir ER veri modelinin birden çok ER model eşlemesini farklı ülke/bölge bağlamlarına sahip şirketlerde çalıştıran ilgili ER biçimleri tarafından nasıl kullanıldıkları denetlenerek tasarlama açıklanmaktadır.
+Elektronik raporlama (ER model) eşlemelerini Dynamics 365 Finance'e özgü genel bir ER veri modeli uygulayacak şekilde yapılandırabilirsiniz. Bu makalede, bir ER veri modelinin birden çok ER model eşlemesini farklı ülke/bölge bağlamlarına sahip şirketlerde çalıştıran ilgili ER biçimleri tarafından nasıl kullanıldıkları denetlenerek tasarlama açıklanmaktadır.
 
-## <a name="prerequisites"></a>Önkoşullar
+## <a name="prerequisites"></a>Ön Koşullar
 
-Bu konudaki örnekleri tamamlamak için şu erişimlere sahip olmanız gerekir:
+Bu makaledeki örnekleri tamamlamak için şu erişimlere sahip olmanız gerekir:
 
 - Aşağıdaki rollerden biri için Finance'a erişim:
     - Elektronik raporlama geliştirici
@@ -42,11 +42,11 @@ Bu konudaki örnekleri tamamlamak için şu erişimlere sahip olmanız gerekir:
     - Elektronik raporlama işlev danışmanı
     - Sistem yöneticisi
 
-Bu konudaki bazı adımlarda bir ER biçiminin yürütülmesi gerekir. Bazı durumlarda, ER biçiminin yürütülmesi oturum açtığınız şirketin ülke/bölge bağlamından etkilenir. Gereken ülke/bölge bağlamına sahip şirket RCS'de mevcutsa geçerli RCS örneğinde bir ER biçimi çalıştırabilirsiniz. Aksi takdirde, ER veri modelini kullanan ER model eşlemesinin ve ER biçimi yapılandırmalarının tamamlanmış bir sürümünü Finance kurulumunuza yüklemeniz ve ardından bu Finance kurulumunda ER biçimini çalıştırmanız gerekir. RCS'de yer alan yapılandırmaları bir Finance kurulumuna içe aktarma hakkında bilgi için bkz. [Yapılandırmaları RCS'den içe aktarma](rcs-download-configurations.md).
+Bu makaledeki bazı adımlarda bir ER biçiminin yürütülmesi gerekir. Bazı durumlarda, ER biçiminin yürütülmesi oturum açtığınız şirketin ülke/bölge bağlamından etkilenir. Gereken ülke/bölge bağlamına sahip şirket RCS'de mevcutsa geçerli RCS örneğinde bir ER biçimi çalıştırabilirsiniz. Aksi takdirde, ER veri modelini kullanan ER model eşlemesinin ve ER biçimi yapılandırmalarının tamamlanmış bir sürümünü Finance kurulumunuza yüklemeniz ve ardından bu Finance kurulumunda ER biçimini çalıştırmanız gerekir. RCS'de yer alan yapılandırmaları bir Finance kurulumuna içe aktarma hakkında bilgi için bkz. [Yapılandırmaları RCS'den içe aktarma](rcs-download-configurations.md).
 
 ## <a name="single-model-mapping-case"></a>Tek model eşleme durumu
 
-Gereken ER bileşenlerini tasarlamak için bu konunun [Ek 1](#appendix1) bölümündeki adımları izleyin. Artık **Giriş noktası 1** tanımı için model eşlemeyi içeren **Eşleme (Genel)** model eşleme yapılandırmasına sahipsiniz.
+Gereken ER bileşenlerini tasarlamak için bu makalenin [Ek 1](#appendix1) bölümündeki adımları izleyin. Artık **Giriş noktası 1** tanımı için model eşlemeyi içeren **Eşleme (Genel)** model eşleme yapılandırmasına sahipsiniz.
 
 ![ER yapılandırmalar sayfası, biçim eşleme konfigürasyonu.](./media/RCS-Context-specific-mapping-Tree.PNG)
 
@@ -59,7 +59,7 @@ Web tarayıcısının, yürütülen ER biçimi tarafından oluşturulan metin do
 
 ## <a name="multiple-shared-model-mappings-case"></a>Birden çok paylaşılan model eşleme durumu
 
-Gereken ER bileşenlerini tasarlamak için bu konunun [Ek 2](#appendix2) bölümündeki adımları izleyin. Artık her biri **Giriş noktası 1** tanımı için model eşlemeyi içeren **Eşleme (Genel)** ve **Eşleme (Genel) özel** model eşleme yapılandırmalarına sahipsiniz.
+Gereken ER bileşenlerini tasarlamak için bu makalenin [Ek 2](#appendix2) bölümündeki adımları izleyin. Artık her biri **Giriş noktası 1** tanımı için model eşlemeyi içeren **Eşleme (Genel)** ve **Eşleme (Genel) özel** model eşleme yapılandırmalarına sahipsiniz.
 
 ![ER yapılandırmalar sayfası, genel özel konfigürasyonu eşleştirme.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
@@ -97,7 +97,7 @@ Seçili ER biçiminin yürütülmesinin başarılı olduğunu unutmayın. Web ta
 
 ## <a name="multiple-mixed-model-mappings-case"></a>Birden çok karışık model eşleme durumu
 
-Gereken ER bileşenlerini tasarlamak için bu konunun [Ek 3](#appendix3) bölümündeki adımları izleyin. Artık **Giriş noktası 1** tanımı için model eşlemeyi içeren **Eşleme (Genel)**, **Eşleme (Genel) özel** ve **Eşleme (FR) model eşleme** yapılandırmalarına sahipsiniz.
+Gereken ER bileşenlerini tasarlamak için bu makalenin [Ek 3](#appendix3) bölümündeki adımları izleyin. Artık **Giriş noktası 1** tanımı için model eşlemeyi içeren **Eşleme (Genel)**, **Eşleme (Genel) özel** ve **Eşleme (FR) model eşleme** yapılandırmalarına sahipsiniz.
 
 **Eşleme (FR)** model eşleme yapılandırması sürüm 1'in yalnızca Fransızca ülke/bölge bağlamına sahip Finance şirketlerinde çalıştırılan **Eşlemeleri öğrenme modeli** modelinin ER biçimleri için geçerli olacak şekilde yapılandırıldığını unutmayın.
 
@@ -138,10 +138,10 @@ Seçili ER biçiminin yürütülmesinin başarılı olduğunu unutmayın. Web ta
 
 Gördüğünüz gibi, ER biçimini yürütmek üzere bir model eşlemenin seçilmesi aşağıdaki şekilde çalışır:
 
-- ER biçiminin kullandığı model eşleme tanımı (bu konudaki örneklerde **Giriş noktası 1**) belirtilir.
-- Belirtilen tanıma sahip ve yapılandırılan ülke/bölge bağlamı kısıtlamalarını karşılayan bir eşleme içeren tüm eşleme yapılandırmaları, ER biçimini (bu konudaki örneklerde **Eşleme (Genel)**, **Eşleme (Genel) özel** ve **Eşleme (FR)**) çalıştırmak için kullanılabilir.
-- Ülke/bölge bağlamı kısıtlamalarının bulunduğu varsayılan model eşlemeleri seçim yaparken yüksek önceliğe sahiptir (bu konudaki örneklerde **Eşleme (FR)**).
-- Ülke/bölge bağlamı kısıtlamalarının bulunmadığı varsayılan model eşlemeleri seçim yaparken bir sonraki yüksek önceliğe sahiptir (bu konudaki örneklerde **Eşleme (Genel) özel**).
+- ER biçiminin kullandığı model eşleme tanımı (bu makaledeki örneklerde **Giriş noktası 1**) belirtilir.
+- Belirtilen tanıma sahip ve yapılandırılan ülke/bölge bağlamı kısıtlamalarını karşılayan bir eşleme içeren tüm eşleme yapılandırmaları, ER biçimini (bu makaledeki örneklerde **Eşleme (Genel)**, **Eşleme (Genel) özel** ve **Eşleme (FR)**) çalıştırmak için kullanılabilir.
+- Ülke/bölge bağlamı kısıtlamalarının bulunduğu varsayılan model eşlemeleri seçim yaparken yüksek önceliğe sahiptir (bu makaledeki örneklerde **Eşleme (FR)**).
+- Ülke/bölge bağlamı kısıtlamalarının bulunmadığı varsayılan model eşlemeleri seçim yaparken bir sonraki yüksek önceliğe sahiptir (bu makaledeki örneklerde **Eşleme (Genel) özel**).
 - Ülke/bölge bağlamı kısıtlamalarının bulunduğu model eşlemeleri, seçim yaparken ülke/bölge bağlamı kısıtlamalarının bulunmadığı bir model eşlemeye göre daha yüksek önceliğe sahiptir.
 
 Aşağıdaki tabloda model eşleme ayarları için tüm olası durumlardaki model eşleme seçimi sonuçları hakkında bilgi sağlanmaktadır:

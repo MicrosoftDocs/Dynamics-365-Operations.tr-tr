@@ -1,6 +1,6 @@
 ---
 title: Tahmin modelini geliştirme
-description: Bu konu, tahmin modellerinin performansını artırmak için kullanabileceğiniz özellikleri açıklamaktadır.
+description: Bu makalede, tahmin modellerinin performansını artırmak için kullanabileceğiniz özellikler açıklanmaktadır.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 96ba1653ea1f9a5ac1037e9ecc7e85c86a6f31c7
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: cb725f4e8f7b9dd81077f5c85059a024f3146092
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719985"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846900"
 ---
 # <a name="improve-the-prediction-model"></a>Tahmin modelini geliştirme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, tahmin modellerinin performansını artırmak için kullanabileceğiniz özellikleri açıklamaktadır. Modelinizi Microsoft Dynamics 365 Finance'teki **Müşteri ödeme tahminleri** çalışma alanında geliştirmeye başlarsınız. Ardından geliştirme adımları AI Builder'da tamamlanır.
+Bu makalede, tahmin modellerinin performansını artırmak için kullanabileceğiniz özellikler açıklanmaktadır. Modelinizi Microsoft Dynamics 365 Finance'teki **Müşteri ödeme tahminleri** çalışma alanında geliştirmeye başlarsınız. Ardından geliştirme adımları AI Builder'da tamamlanır.
 
 ## <a name="select-historical-outcomes"></a>Geçmiş sonuçları seçme
 

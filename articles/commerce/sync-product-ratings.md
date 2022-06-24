@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce'de ürün derecelendirmelerini eşitleme
-description: Bu konu, Microsoft Dynamics 365 Commerce ürün derecelendirmelerinin nasıl eşitleneceğini açıklamaktadır.
+description: Bu makale, Microsoft Dynamics 365 Commerce ürün derecelendirmelerinin nasıl eşitleneceğini açıklamaktadır.
 author: gvrmohanreddy
 ms.date: 02/06/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: ac94a8b4505aba509f0a71ed36d32adac864aedf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967962"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909347"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Dynamics 365 Commerce'de ürün derecelendirmelerini eşitleme
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce ürün derecelendirmelerinin nasıl eşitleneceğini açıklamaktadır.
+Bu makale, Microsoft Dynamics 365 Commerce ürün derecelendirmelerinin nasıl eşitleneceğini açıklamaktadır.
 
 Bir satış noktasında (POS) ve çağrı merkezlerindeki gibi, çok yönlü kanallar içindeki ürün derecelendirmelerini kullanmak için, derecelendirmeler ve İncelemeler hizmetindeki ürün derecelendirmeleri Commerce kanal veritabanına alınmalıdır. Çok yönlü kanallarda ürün derecelendirmeleri sunulduklarında, müşterilerin satış ilişkileri ile etkileşimleri sırasında dolaylı olarak müşterilere yardımcı olabilirler.
 
-Bu konuda şu görevler açıklanmıştır:
+Bu makalede şu görevler açıklanmıştır:
 
 1. Ürün derecelendirmelerini **derecelendirmeler ve İncelemeler hizmetinden** eşitlemek için **ürün derecelendirmeleri eşitleme işini** bir toplu iş olarak konfigüre edin.
 1. Ürün değerlendirme eşitlemesiyle ilgili toplu işin başarılı olduğunu doğrulayın.

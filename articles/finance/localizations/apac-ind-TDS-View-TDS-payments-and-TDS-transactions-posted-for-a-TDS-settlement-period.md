@@ -1,6 +1,6 @@
 ---
-title: Deftere nakledilen TDS ödemelerini ve TDS kapatma dönemine ilişkin hareketleri görüntüleme
-description: Bu konu, bir kapanış dönemi için deftere nakledilen Kaynaktan Kesilen Vergi (TDS) ödemeleri ve hareketlerini görüntülemeyi açıklar.
+title: TDS kapatma dönemi için deftere nakledilen TDS ödemelerini ve işlemleri görüntüleme
+description: Bu makalede, bir kapanış dönemi için deftere nakledilen Kaynaktan Kesilen Vergi (TDS) ödemeleri ve hareketlerinin nasıl görüntüleneceği açıklanmaktadır.
 author: kailiang
 ms.date: 03/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6f8c97d1f42af6c073e45c88237d59699a32fc7a
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: c441b6f26636ef1f18e3910a201d02feb4350f33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726907"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898073"
 ---
-# <a name="view-posted-tds-payments-and-transactions-for-a-tds-settlement-period"></a>Deftere nakledilen TDS ödemelerini ve TDS kapatma dönemine ilişkin hareketleri görüntüleme
+# <a name="view-posted-tds-payments-and-transactions-for-a-tds-settlement-period"></a>TDS kapatma dönemi için deftere nakledilen TDS ödemelerini ve işlemleri görüntüleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, bir kapanış dönemi için deftere nakledilen Kaynaktan Kesilen Vergi (TDS) ödemeleri ve hareketlerini görüntülemeyi açıklar.
+Bu makalede, bir kapanış dönemi için deftere nakledilen Kaynaktan Kesilen Vergi (TDS) ödemeleri ve hareketlerinin nasıl görüntüleneceği açıklanmaktadır.
 
 1. **Vergi \> Dolaylı vergiler \> Stopaj vergisi \> Stopaj vergisi kapatma dönemleri**'ne gidin.
 

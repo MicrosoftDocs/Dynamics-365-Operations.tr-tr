@@ -1,6 +1,6 @@
 ---
 title: Uluslararası Banka Hesap Numarası (IBAN) hesap doğrulamasını yönetme
-description: Bu konuda, Uluslararası Banka Hesap Numarası (IBAN) hesap doğrulamasını yönetme işlemi açıklanmaktadır.
+description: Bu makalede, Uluslararası Banka Hesap Numarası (IBAN) hesap doğrulamasını yönetme işlemi açıklanmaktadır.
 author: twheeloc
 ms.date: 08/24/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 89d6c38088e43f0f24fa41accecaa262a64006cf
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 3d825e8699fbe10e080cd85f15d3d86f8c780f15
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462778"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880913"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>Uluslararası Banka Hesap Numarası (IBAN) hesap doğrulamasını yönetme
 
@@ -25,7 +25,7 @@ ms.locfileid: "8462778"
 
 Uluslararası Banka Hesap Numarası (IBAN) doğrulaması bir banka hesabına IBAN eklediğinizde gerçekleştirilen doğrulamanın miktarını artırır.
 
-IBAN yapısıyla ilgili bilgiler Microsoft Dynamics 365 Finance'de depolanır ve IBAN'ı banka hesaplarında ilk kez kullandığınızda otomatik olarak yüklenir. IBAN uzunluğu, banka hesap numarasının başlangıç konun ve rota numarası, banka hesap numarası uzunluğu ve rota numarasını içerir.
+IBAN yapısıyla ilgili bilgiler Microsoft Dynamics 365 Finance'te depolanır ve IBAN'ı banka hesaplarında ilk kez kullandığınızda otomatik olarak yüklenir. IBAN uzunluğu, banka hesap numarasının başlangıç konun ve rota numarası, banka hesap numarası uzunluğu ve rota numarasını içerir.
 
 ## <a name="set-up-iban-structures"></a>IBAN yapılarını ayarlama
 

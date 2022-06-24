@@ -1,6 +1,6 @@
 ---
 title: Amortisman defteri yükseltmeye genel bakış
-description: Bu konu, sabit kıymetlerdeki geçerli defter işlevini açıklamaktadır. Bu özellik, önceki sürümlerde kullanılabilir olan değer modeli işlevselliğini temel alır ancak önceden yalnızca amortisman defterlerinde sunulan tüm işlevsellikleri de içerir.
+description: Bu makalede, Sabit kıymetlerdeki geçerli defter işlevi açıklanmaktadır. Bu özellik, önceki sürümlerde kullanılabilir olan değer modeli işlevselliğini temel alır ancak önceden yalnızca amortisman defterlerinde sunulan tüm işlevsellikleri de içerir.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: overview
@@ -16,18 +16,18 @@ ms.search.region: global
 ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b43c499928988e98cae63b85f528b8a71e042cc7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 784ec32ae886ef7ea9342b085f893eeeec761961
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713656"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855505"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Amortisman defteri yükseltmeye genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, sabit kıymetlerdeki geçerli defter işlevini açıklamaktadır. Bu özellik, önceki sürümlerde kullanılabilir olan değer modeli işlevselliğini temel alır ancak önceden yalnızca amortisman defterlerinde sunulan tüm işlevsellikleri de içerir. Değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir. Defter işlevi, tüm organizasyonunuzun sabit kıymet süreçleri için tek bir sayfa, sorgu ve rapor kümesi kullanmanızı sağlar. Bu konu, yükseltme öncesinde dikkate almanız gereken bazı şeyler sağlar. 
+Bu makalede, Sabit kıymetlerdeki geçerli defter işlevi açıklanmaktadır. Bu özellik, önceki sürümlerde kullanılabilir olan değer modeli işlevselliğini temel alır ancak önceden yalnızca amortisman defterlerinde sunulan tüm işlevsellikleri de içerir. Değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir. Defter işlevi, tüm organizasyonunuzun sabit kıymet süreçleri için tek bir sayfa, sorgu ve rapor kümesi kullanmanızı sağlar. Bu makalede, yükseltme öncesinde dikkate almanız gereken bazı bilgiler sağlanmaktadır. 
 
 Yükseltme işlemi var olan kurulumunuzu ve var olan tüm hareketlerinizi yeni defter yapısına taşır. Değer modelleri oldukları gibi genel muhasebeye nakleden defterler olarak kalır. Amortisman defterleri Genel muhasebeye naklet seçeneği Hayır olarak ayarlanmış bir deftere taşınır. Amortisman defteri günlük adları deftere nakil katmanı Yok ile ayarlanmış bir genel muhasebe günlük adına taşınır. Amortisman defteri hareketleri, Sabit kıymet hareketlerine taşınacaktır.
 

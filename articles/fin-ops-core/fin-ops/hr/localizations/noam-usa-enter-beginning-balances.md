@@ -1,6 +1,6 @@
 ---
-title: Bordro başlangıç bakiyelerini girin
-description: Bu konu kazanç kodları, kesintiler, kazançlar ve vergiler girmek için gerekli adımları anlatır.
+title: Bordro başlangıç bakiyelerini girme
+description: Bu makalede kazanç kodları, kesintiler, kazançlar ve vergiler için başlangıç bakiyelerini girmekle ilgili gerekli adımları açıklanmaktadır.
 author: andreabichsel
 ms.date: 11/20/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a5529e3268727dce022daebb853e50710e5bde84811014febe30e80afee9ed6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d14e7e0772c5b365818d3a8a230abe9f674a077e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721888"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850032"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Bordro başlangıç bakiyelerini girme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu kazanç kodları, kesintiler, kazançlar ve vergiler girmek için gerekli adımları anlatır. Bu bilgiler, veriyi bir sistemden yeni bir Bordro uygulama sistemine taşıması veya aktaran ortaklar için kullanışlıdır. Bordro bakiyelerini girmeye hazırlanmak için aşağıdaki bilgileri doğrularız:
+Bu makalede kazanç kodları, kesintiler, kazançlar ve vergiler için başlangıç bakiyelerini girmekle ilgili gerekli adımları açıklanmaktadır. Bu bilgiler, veriyi bir sistemden yeni bir Bordro uygulama sistemine taşıması veya aktaran ortaklar için kullanışlıdır. Bordro bakiyelerini girmeye hazırlanmak için aşağıdaki bilgileri doğrularız:
 
 - Personel kayıtlarının sisteme girilmiş ve kullanılabilir olması
 - Aşağıdaki verinin personele ayarlanmış ve atanmış olması:

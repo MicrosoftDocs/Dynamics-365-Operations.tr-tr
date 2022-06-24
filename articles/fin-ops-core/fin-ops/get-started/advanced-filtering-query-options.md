@@ -1,6 +1,6 @@
 ---
-title: Gelişmiş filtreleme ve sorgu sözdizimi
-description: Bu konuda, Gelişmiş filtreleme/sıralama iletişim kutusu ve Filtre bölmesindeki eşleşmeler işleci ya da ızgara sütun başlığı filtreleri için filtreleme ve sorgu seçenekleri açıklanmaktadır.
+title: Gelişmiş filtreleme ve sorgu söz dizimi
+description: Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusu ve Filtre bölmesindeki eşleşmeler işleci ya da ızgara sütun başlığı filtreleri için filtreleme ve sorgu seçenekleri açıklanmaktadır.
 author: jasongre
 ms.date: 03/09/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 520c8b32099024e9a9619a6ecdcd3ba7b97c7ecf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070021"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856932"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Gelişmiş filtreleme ve sorgu sözdizimi
 
@@ -29,7 +29,7 @@ ms.locfileid: "8070021"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Bu konuda, Gelişmiş filtreleme/sıralama iletişim kutusunu veya Filtre bölmesindeki **eşleşmeler** işlecini ya da ızgara sütun başlığı filtrelerini kullanırken yararlanabileceğiniz filtreleme ve sorgu seçenekleri açıklanmaktadır.
+Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusunu veya Filtre bölmesindeki **eşleşmeler** işlecini ya da ızgara sütun başlığı filtrelerini kullanırken yararlanabileceğiniz filtreleme ve sorgu seçenekleri açıklanmaktadır.
 
 ## <a name="advanced-query-syntax"></a>Gelişmiş sorgu söz dizimi
 

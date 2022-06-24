@@ -1,6 +1,6 @@
 ---
 title: Elektronik iletileri ayarlama
-description: Bu konu, Elektronik iletiler (EM) işlevinin nasıl ayarlanacağı hakkında bilgi sağlar.
+description: Bu makalede, Elektronik iletiler (EM) işlevinin nasıl ayarlanacağı hakkında bilgiler sağlanmaktadır.
 author: liza-golub
 ms.date: 11/18/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 652d8684473d1c1505a80eb1d860c57a214b9488
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6ac6e4fbc37165a3126de3b1f937a43c980410b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734233"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874594"
 ---
 # <a name="set-up-electronic-messages"></a>Elektronik iletileri ayarlama
 
@@ -66,7 +66,7 @@ Aşağıdaki tablo **İleti durumları** sayfasındaki alanları açıklar.
 |---------------------|-------------|
 | İleti durumu      | İleti durumu için benzersiz bir ad girin. İleti durumları, herhangi bir anda elektronik iletinin durumunu karakterize etmekte kullanılır. Girdiğiniz ad **Elektronik iletiler** sayfasında ve elektronik iletilerle ilişkili bir kayıtta gösterilir. |
 | Tanım         | İleti durumunun bir açıklamasını girin |
-| Yanıt türü       | İleti durumu için yanıt türünü seçin. Bir işlemedeki bazı eylemler birden fazla yanıt türü üretebilir. Örnek olarak, yürütme sonucuna bağlı olarak **Web hizmeti** eylemi türü **Başarıyla tamamlandı** veya **Teknik hata** türünde yanıtlar üretebilir. Bu durumda, her iki yanıt türü için de ileti durumunu tanımlayın. Eylem türleri ve bunlarla ilişkili yanıtlar hakkında daha fazla bilgi için bu konunun ilerleyen bölümlerindeki [İleti işleme eylem türleri](#action-types) konusuna bakın. |
+| Yanıt türü       | İleti durumu için yanıt türünü seçin. Bir işlemedeki bazı eylemler birden fazla yanıt türü üretebilir. Örnek olarak, yürütme sonucuna bağlı olarak **Web hizmeti** eylemi türü **Başarıyla tamamlandı** veya **Teknik hata** türünde yanıtlar üretebilir. Bu durumda, her iki yanıt türü için de ileti durumunu tanımlayın. Eylem türleri ve bunlarla ilişkili yanıtlar hakkında daha fazla bilgi için bu makalenin ilerleyen bölümlerindeki [İleti işleme eylem türleri](#action-types) bölümüne bakın. |
 | İleti maddesi durumu | Bazı durumlarda, bir elektronik iletinin durumu, ilgili iletilerin durumunu etkilemesi gerekir. İleti durumuyla ilişkilendirmek için bu alanda bir ileti öğe durumu seçin. |
 | Silmeye izin ver        | Kullanıcıların bu duruma sahip iletileri **Elektronik iletiler** sayfasında silebilmelerine olanak sağlamak için bu iletişim kutusunu işaretleyin. |
 
@@ -240,7 +240,7 @@ Aşağıdaki tablo, **Mesaj işleme eylemleri** sayfasındaki alanları açıkla
 
 | Alan                                     | Tanım |
 |-------------------------------------------|-------------|
-| Eylem türü                               | Eylem türünü seçin. Kullanılabilir seçenekler hakkında bilgi için bu konunun ilerleyen kısmında yer alan [Mesaj işleme eylem türleri](#action-types) bölümüne bakın. |
+| Eylem türü                               | Eylem türünü seçin. Kullanılabilir seçenekler hakkında bilgi için bu makalenin ilerleyen kısmında yer alan [Mesaj işleme eylem türleri](#action-types) bölümüne bakın. |
 | Biçim eşleme                            | Eylem için çağrılması gereken ER biçimini seçin. Bu alan yalnızca **Elektronik raporlama dışa aktarma**, **Elektronik raporlama içe aktarma** ve **Elektronik raporlama dışa aktarma mesajı** türleri için kullanılabilirdir. |
 | URL yolu için biçim eşlemesi               | Eylem için çağrılması gereken ER biçimini seçin. Bu biçim, seçilen web sunucusu için belirtilen temel internet adresine eklenecek URL adresinin yolunu oluşturmak için kullanılır. Bu alan yalnızca **Web servisi** türünün eylemleri için kullanılabilirdir. |
 | İleti maddesi türü                         | Eylemin değerlendirileceği kayıt türlerini seçin. Bu alan **Mesaj öğesi yürütme seviyesi**, **Elektronik raporlama dışa aktarma** ve **Elektronik raporlama içe aktarma** türleri, **Web servisi** ve diğer türler için kullanılabilirdir. Bu alanı boş bırakırsanız, mesaj işleme için tanımlanan tüm mesaj öğesi türleri değerlendirilir. |

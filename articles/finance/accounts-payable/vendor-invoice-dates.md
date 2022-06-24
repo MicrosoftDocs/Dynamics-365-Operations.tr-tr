@@ -1,6 +1,6 @@
 ---
 title: Satıcı fatura tarihleri
-description: Bu konu, satıcı faturalarında görünen tarihleri açıklar. Ayrıca sistemin deftere nakil tarihini otomatik olarak ayarlaması amacıyla nasıl ayarlanacağını da açıklar.
+description: Bu makale, satıcı faturalarında görünen tarihleri açıklar. Ayrıca sistemin deftere nakil tarihini otomatik olarak ayarlaması amacıyla nasıl ayarlanacağını da açıklar.
 author: sunfzam
 ms.date: 2/09/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 064a125d448ebb3511db2d9b1f4228380805dc44
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: 943a84407d022c2c05bc534a35a2b5d44a94653e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105476"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876426"
 ---
 # <a name="vendor-invoice-dates"></a>Satıcı fatura tarihleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, satıcı faturalarında görünen tarihleri açıklar. Ayrıca sistemin deftere nakil tarihini otomatik olarak ayarlaması amacıyla nasıl ayarlanacağını da açıklar.
+Bu makale, satıcı faturalarında görünen tarihleri açıklar. Ayrıca sistemin deftere nakil tarihini otomatik olarak ayarlaması amacıyla nasıl ayarlanacağını da açıklar.
 
 **Bekleyen satıcı faturası ayrıntılı** sayfasında, fatura başlığı dört tarih gösterir: Fatura alma tarihi, fatura tarihi, deftere nakil tarihi ve vade tarihi. Bir satıcı faturası oluşturulduğunda, varsayılan olarak aşağıdaki tarihler girilir:
 
@@ -37,7 +37,7 @@ Bu konu, satıcı faturalarında görünen tarihleri açıklar. Ayrıca sistemin
 
 Bazen, satıcı faturası dönem kapanışıyla uzun bir süredir bekleme durumunda olabilir. Deftere nakil için hazır olduğunda, geçmiş deftere nakil döneminin eski deftere nakil tarihi kullanılmaya devam eder. Ancak bu dönem şimdi kapatıldı. Bu nedenle, Borç hesapları (AP) memuru, önceden oluşturulmuş tüm bekleyen faturalar için deftere nakil tarihlerini el ile yeni deftere nakil dönemiyle değiştirmek zorundadır.
 
-Bu konuda açıklanan özellik, sistemi, deftere nakil tarihini iş gereksinimlerine göre otomatik olarak ayarlayan şekilde ayarlamanıza olanak sağlar.
+Bu makalede açıklanan özellik, sistemi deftere nakil tarihini iş gereksinimlerine göre otomatik olarak ayarlayacak şekilde ayarlamanıza olanak sağlar.
 
 ## <a name="parameter-for-automatically-adjusting-the-vendor-invoice-posting-date"></a>Satıcı faturası deftere nakil tarihini otomatik olarak ayarlamak için parametre
 

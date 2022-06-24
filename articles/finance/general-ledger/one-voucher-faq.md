@@ -1,6 +1,6 @@
 ---
 title: Bir fişle ilgili SSS
-description: Bu konuda, Bir fiş işleviyle hakkında sık sorulan soruların yanıtlarını verilmektedir. Mali günlükler için Bir fiş (yevmiye fişi, sabit kıymet günlüğü, satıcı ödeme günlüğü vb.), tek bir fiş bağlamında birden fazla yardımcı defter hareketi girmenizi sağlar.
+description: Bu makalede, Bir fiş işlevi hakkında sık sorulan soruların yanıtları verilmiştir. Mali günlükler için Bir fiş (yevmiye fişi, sabit kıymet günlüğü, satıcı ödeme günlüğü vb.), tek bir fiş bağlamında birden fazla yardımcı defter hareketi girmenizi sağlar.
 author: kweekley
 ms.date: 11/05/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: beab87ad569a6009fb4a42fd19681b64dcb0bb1e
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: e7eedfd4b2914000e8fd85d977b071f44545a058
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723120"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859812"
 ---
 # <a name="one-voucher-faq"></a>Bir fişle ilgili SSS
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Bir fiş işleviyle hakkında sık sorulan soruların yanıtlarını verilmektedir. Mali günlükler için bir fiş, tek bir fiş bağlamında birden çok alt genel muhasebe hareketi girmenizi sağlar. Bu fişe dahil edebileceğiniz günlükler genel yevmiye defterleri, sabit kıymet günlükleri ve satıcı ödeme günlükleri olabilir.
+Bu makalede, Bir fiş işlevi hakkında sık sorulan soruların yanıtları verilmiştir. Mali günlükler için bir fiş, tek bir fiş bağlamında birden çok alt genel muhasebe hareketi girmenizi sağlar. Bu fişe dahil edebileceğiniz günlükler genel yevmiye defterleri, sabit kıymet günlükleri ve satıcı ödeme günlükleri olabilir.
 
 ## <a name="when-will-the-one-voucher-functionality-be-deprecated"></a>Bir fiş işlevi ne zaman kullanımdan kaldırılacak?
 

@@ -1,6 +1,6 @@
 ---
 title: Servis anlaşmaları oluşturma
-description: Bu başlık, Servis yönetimi ve Proje yönetimi ile muhasebe modüllerinde servis sözleşmeleri oluşturmak için özelliklerin nasıl kullanılacağını açıklar.
+description: Bu makale, Servis yönetimi ve Proje yönetimi ile muhasebe modüllerinde servis sözleşmeleri oluşturmak için özelliklerin nasıl kullanılacağını açıklar.
 author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8a139d1a11cca036ace2540cba59bf2cace0db
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d18d279cd437e98cad6495def953978cb78e723e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677268"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901777"
 ---
 # <a name="create-service-agreements"></a>Servis anlaşmaları oluşturma
 
 [!include [banner](../includes/banner.md)]
 
-Bu başlık, Servis yönetimi ve Proje yönetimi ile muhasebe modüllerinde servis sözleşmeleri oluşturmak için özelliklerin nasıl kullanılacağını açıklar.
+Bu makale, Servis yönetimi ve Proje yönetimi ile muhasebe modüllerinde servis sözleşmeleri oluşturmak için özelliklerin nasıl kullanılacağını açıklar.
 
 ## <a name="create-a-service-agreement-from-service-management"></a>Servis yönetiminden servis sözleşmesi oluşturma
 
@@ -51,10 +51,10 @@ Bu başlık, Servis yönetimi ve Proje yönetimi ile muhasebe modüllerinde serv
 2. **Tüm projeler**'i seçin.
 3. Listeden projeyi seçin.
 4. **Eylem Bölmesinde**, **Yönet**'i seçin. **Yeni** Eylem grubunda **Servis**'i ve **Servis sözleşmesi**'ni seçin.
-5. Proje referansını girmek için bu konuda daha önce açıklandığı gibi **Servis sözleşmesi oluşturma** başlıklı bölümdeki adımları izleyin.
+5. Proje referansını girmek için bu makalede daha önce açıklandığı gibi **Servis sözleşmesi oluşturma** başlıklı bölümdeki adımları izleyin.
 
 
-## <a name="related-topics"></a>İlgili konular
+## <a name="related-articles"></a>İlgili makaleler
 
 [Servis sözleşmeleri geliştirme ve oluşturmaya genel bakış](service-agreements.md)
 

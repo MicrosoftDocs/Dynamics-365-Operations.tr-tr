@@ -1,7 +1,7 @@
 ---
 title: Master planlama performansını iyileştirme
-description: Bu konu, ana planlama veya sorun giderme sorunlarının performansını artırmanıza yardımcı olabilecek çeşitli seçenekleri açıklamaktadır.
-author: ChristianRytt
+description: Bu makale, ana planlama veya sorun giderme sorunlarının performansını artırmanıza yardımcı olabilecek çeşitli seçenekleri açıklamaktadır.
+author: t-benebo
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fcbc732fce4120268acd774cc4d42193ba95787d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2c4b7e2197d312d22f9851121a9e6d4d4d03ba3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570933"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897617"
 ---
 # <a name="improve-master-planning-performance"></a>Master planlama performansını iyileştirme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, ana planlama veya sorun giderme sorunlarının performansını artırmanıza yardımcı olabilecek çeşitli seçenekleri açıklamaktadır. Parametreler ve ayarlar hakkında bilgiler ve önerilen yapılandırmalar ve eylemler hakkında bilgi içerir. Ayrıca, uzun süre çalışan master planlama işleriniz olduğunda dikkate almanız gereken tüm önemli parametrelerin özeti de bulunur.
+Bu makale, ana planlama veya sorun giderme sorunlarının performansını artırmanıza yardımcı olabilecek çeşitli seçenekleri açıklamaktadır. Parametreler ve ayarlar hakkında bilgiler ve önerilen yapılandırmalar ve eylemler hakkında bilgi içerir. Ayrıca, uzun süre çalışan master planlama işleriniz olduğunda dikkate almanız gereken tüm önemli parametrelerin özeti de bulunur.
 
-Bu konu, sorun giderme yeteneğine sahip olan sistem yöneticileri veya BT kullanıcıları içindir. İşletme planlama gereksinimiyle ilgili parametreler hakkında bilgiler içerdiğinden, üretim veya tedarik planlayıcıları için de hazırlanmıştır. 
+Bu makale, sorun giderme yeteneğine sahip olan sistem yöneticileri veya BT kullanıcıları içindir. İşletme planlama gereksinimiyle ilgili parametreler hakkında bilgiler içerdiğinden, üretim veya tedarik planlayıcıları için de hazırlanmıştır. 
 
 ## <a name="parameters-related-to-master-planning-performance"></a>Master planlama performansı ile ilgili parametreler
 
@@ -151,9 +151,9 @@ Karşılama adımı başlatılmadan önce, **ürün reçetesi sürüm gereksinim
 ## <a name="performance-checklist-summary"></a>Performans yapılacaklar listesi özeti
 
 - **İş parçacığı sayısı**'nı **0**'dan (sıfır) büyük bir değere ayarlayın.
-- **Yardımcı görev ürün demetindeki görev sayısı**'nı **0**'dan (sıfır) büyük bir değere ayarlayın. (Bu konunun önceki bölümlerinde verilen formülleri kullanın.)
+- **Yardımcı görev ürün demetindeki görev sayısı**'nı **0**'dan (sıfır) büyük bir değere ayarlayın. (Bu makalenin önceki bölümlerinde verilen formülleri kullanın.)
 - **Önbellek kullanımı**, sisteminizin belleği azalmadıkça **Maksimum** olarak ayarlanır.
-- **Kesinleşen ürün demetindeki siparişlerin sayısı**'nı **0**'dan (sıfır) büyük bir değere ayarlayın. (Bu konunun önceki bölümlerinde verilen formülü kullanın.)
+- **Kesinleşen ürün demetindeki siparişlerin sayısı**'nı **0**'dan (sıfır) büyük bir değere ayarlayın. (Bu makalenin önceki bölümlerinde verilen formülü kullanın.)
 - **Zaman dilimleri** – İş gereksinimlerinize göre ayarlayın.
 - **Eylemler ve vadeli işlemler** – Eylemleri ve vadeli işlemleri kullanmıyorsanız devre dışı bırakın.
 - **Bir seferde tek bir yordam** – Master planlamayı başka herhangi bir yordamla birlikte çalıştırmayın.

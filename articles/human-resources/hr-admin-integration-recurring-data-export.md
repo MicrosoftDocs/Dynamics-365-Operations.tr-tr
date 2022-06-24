@@ -1,6 +1,6 @@
 ---
 title: Yinelenen veri dışarı aktarma uygulaması oluşturma
-description: Bu konuda, verileri Microsoft Dynamics 365 Human Resources uygulamasından yinelenen bir zamanlamaya göre dışarı aktaran bir Microsoft Azure mantıksal uygulamasının nasıl oluşturulacağı açıklanmaktadır.
+description: Bu makalede, verileri Microsoft Dynamics 365 Human Resources'dan yinelenen bir zamanlamaya göre dışarı aktaran bir Microsoft Azure mantıksal uygulamasının nasıl oluşturulacağı açıklanmaktadır.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c53adc56c19acae05904edcf4109a134566d30b7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9c840dbf4f717da3359640ee5c8231ccd129ebb2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688785"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875843"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Yinelenen veri dışarı aktarma uygulaması oluşturma
 
@@ -28,7 +28,7 @@ ms.locfileid: "8688785"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, verileri Microsoft Dynamics 365 Human Resources uygulamasından yinelenen bir zamanlamaya göre dışarı aktaran bir Microsoft Azure mantıksal uygulamasının nasıl oluşturulacağı açıklanmaktadır. Öğretici, verileri dışa aktarmak için İnsan Kaynakları'nın DMF Paket REST uygulama programlama arabirimini (API) kullanmaktadır. Veriler dışa aktarıldıktan sonra, mantık uygulaması, dışa aktarılan veri paketini bir Microsoft OneDrive İş klasörüne kaydeder.
+Bu makalede, verileri Microsoft Dynamics 365 Human Resources'dan yinelenen bir zamanlamaya göre dışarı aktaran bir Microsoft Azure mantıksal uygulamasının nasıl oluşturulacağı açıklanmaktadır. Öğretici, verileri dışa aktarmak için İnsan Kaynakları'nın DMF Paket REST uygulama programlama arabirimini (API) kullanmaktadır. Veriler dışa aktarıldıktan sonra, mantık uygulaması, dışa aktarılan veri paketini bir Microsoft OneDrive İş klasörüne kaydeder.
 
 ## <a name="business-scenario"></a>İş senaryosu
 

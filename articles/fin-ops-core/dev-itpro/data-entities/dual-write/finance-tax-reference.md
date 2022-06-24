@@ -1,6 +1,6 @@
 ---
-title: Finans ve vergi referans verilerine erişim
-description: Bu konu, finans ve vergi referans verilerine erişim hakkında bilgi sağlar.
+title: Finans ve vergi başvuru verilerine erişim
+description: Bu makalede, finans ve vergi başvuru verilerine erişim hakkında bilgi sağlanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 01/27/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: c24f3cb6bdc9dc6e287bf2ff06792cb1c643f474
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2762008e205f85d03bc0b675a079a073b98aa27d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858665"
 ---
 # <a name="access-to-finance-and-tax-reference-data"></a>Finans ve vergi referans verilerine erişim
 

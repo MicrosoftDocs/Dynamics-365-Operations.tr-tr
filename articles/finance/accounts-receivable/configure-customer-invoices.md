@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 069ada071fe6a7d3e22ad6aa45e3c2f06a9f4b31
-ms.sourcegitcommit: 5a4b8ce4a7ae82c0ef22d2223c11c6b55f048cdd
+ms.openlocfilehash: 93d25a260cfc94e898ef50c618b2cbc640c963bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/14/2022
-ms.locfileid: "8756977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876339"
 ---
 # <a name="create-a-customer-invoice"></a>Müşteri faturası oluşturma
 
@@ -32,12 +32,9 @@ ms.locfileid: "8756977"
 
 Daha fazla bilgi için bkz:
 
-[Serbest metin faturaları oluştur](../accounts-receivable/create-free-text-invoice-new.md)
-
+[Serbest metin faturaları oluşturma](../accounts-receivable/create-free-text-invoice-new.md)
 [Serbest metin faturası şablonu oluşturma](../accounts-receivable/create-free-text-invoice-template-new.md)
-
-[Bir müşteriye serbest metin faturası şablonu atayın](tasks/assign-free-text-invoice-template-customer.md)
-
+[Bir müşteriye serbest metin faturası şablonu atama](tasks/assign-free-text-invoice-template-customer.md)
 [Yinelenen serbest metin faturaları oluşturma ve deftere nakletme](tasks/post-recurring-free-text-invoices.md)
 
 
@@ -91,8 +88,8 @@ Satış siparişi müşteri faturalarını tesise göre veya teslimat adresine g
  - Nakil sırasında her tesis için bir fatura oluşturmak üzere **Fatura tesisine göre ayır** seçeneğini belirleyin. 
  - Nakil sırasında her bir satış siparişi satırı teslimat adresi için bir fatura oluşturmak üzere **Fatura teslimat bilgilerine göre ayır** seçeneğini seçin. 
 
-## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Fiyatı olmayan satış siparişi fatura satırları için Gelir hesabına naklet
-Fiyat içermeyen satış siparişi satırları için **Genel muhasebe**'deki **Gelir** hesabını güncelleştirme seçeneğiniz olacaktır. Bu bilgileri ayarlamak veya görüntülemek için, **Alacak hesapları parametreleri** sayfasının **Genel muhasebe ve satış vergisi** sekmesindeki **Sıfır fiyatlı satış siparişi fatura satırları için Gelir hesabına naklet** bölümüne gidin. (**Alacak hesapları > Kurulum > Alacak hesapları parametreleri**). Fiyat içermeyen satış siparişi faturası satırları için **Gelir** hesabını güncelleştirmek üzere **Evet**'i seçin. Bir gelir hesabı, **Satış siparişi** hesabı tanımı sekmesindeki **Stok deftere nakil** parametresi sayfasında tanımlanır. Bu seçenek belirlenmezse, Fiyat bilgisi içermeyen satırlar **Gelir** hesabına deftere nakletmez.
+## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Fiyatı ve masrafı olmayan satış siparişi fatura satırları için Gelir hesabına nakletme
+Fiyat ve masraf içermeyen satış siparişi satırları için **Genel muhasebe**'deki **Gelir** hesabını güncelleştirme seçeneğiniz olacaktır. Bu bilgileri ayarlamak veya görüntülemek için, **Alacak hesapları parametreleri** sayfasının **Genel muhasebe ve satış vergisi** sekmesindeki **Sıfır fiyatlı ve sıfır masraflı satış siparişi fatura satırları için Gelir hesabına naklet** parametresine gidin. (**Alacak hesapları > Kurulum > Alacak hesapları parametreleri**). Fiyat ve masraf içermeyen satış siparişi faturası satırları için **Gelir** hesabını güncelleştirmek üzere **Evet**'i seçin. Bu seçenek işaretliyse fiş, **Müşteri bakiyesi** ve **Gelir** deftere nakil türleri için 0,00 girişlerini içerir. Bir gelir hesabı, **Satış siparişi** hesabı tanımı sekmesindeki **Stok deftere nakil** parametresi sayfasında tanımlanır. Bu seçenek belirlenmezse, fiyat veya masraf bilgisi içermeyen satırlar **Gelir** nakledilmez. Bunun yerine fiş, **Müşteri bakiyesi** deftere nakil türü için 0,00 girişi içerir.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Deftere nakil davranışını değiştiren ek ayarlar
 Aşağıdaki alanlar deftere nakil işleminin davranışını değiştirir.

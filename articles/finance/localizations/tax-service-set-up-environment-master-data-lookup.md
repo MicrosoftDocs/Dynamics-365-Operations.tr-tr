@@ -1,6 +1,6 @@
 ---
 title: Vergi hesaplama konfigürasyonu için master veri aramasını etkinleştir
-description: Bu konu, vergi hesaplama ana veri arama işlevini nasıl etkinleştirebileceğinizi ve kurabileceğinizi açıklamaktadır.
+description: Bu makale, vergi hesaplama ana veri arama işlevini nasıl etkinleştirebileceğinizi ve ayarlayabileceğinizi açıklamaktadır.
 author: kai-cloud
 ms.date: 11/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7640144b1687fc64e55f659d49cdb0817c17294a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d9c234781e55fbf7f29eec14666c939d5d60e2fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686725"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879423"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Vergi hesaplama konfigürasyonu için master veri aramasını etkinleştir 
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, vergi hesaplama ana veri arama işlevini nasıl etkinleştirebileceğinizi ve kurabileceğinizi açıklamaktadır. **Tüzel kişilik**, **Satıcı hesabı**, **Madde kodu** ve **Teslim koşulu** gibi alanlar için vergi hesaplama yapılandırmasındaki değerleri seçmek üzere bir açılan liste kullanılabilir. Bu değerler, bağlantılı Microsoft Dynamics 365 Finance ortamından Microsoft Dataverse veri kaynağı kullanılarak alınır.
+Bu makale, vergi hesaplama ana veri arama işlevini nasıl etkinleştirebileceğinizi ve ayarlayabileceğinizi açıklamaktadır. **Tüzel kişilik**, **Satıcı hesabı**, **Madde kodu** ve **Teslim koşulu** gibi alanlar için vergi hesaplama yapılandırmasındaki değerleri seçmek üzere bir açılan liste kullanılabilir. Bu değerler, bağlantılı Microsoft Dynamics 365 Finance ortamından Microsoft Dataverse veri kaynağı kullanılarak alınır.
 
 > [!NOTE] 
 > Vergi hesaplama yöneticisi veri arama işlevi isteğe bağlı işlevselliktir. Regulatory Configuration Service'teki (RCS) **Vergi Hizmeti Dataverse veri kaynağı desteği** özelliğini devre dışı bırakırsanız aşağıdaki adımları atlayabilirsiniz. Ancak, bu durumda, açılan liste vergi hesaplama yapılandırmasında kullanılamaz.

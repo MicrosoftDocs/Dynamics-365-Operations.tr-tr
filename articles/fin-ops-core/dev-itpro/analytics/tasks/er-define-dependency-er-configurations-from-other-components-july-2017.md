@@ -1,6 +1,6 @@
 ---
 title: ER yapılandırmalarının diğer bileşenlere bağımlılığını tanımlama
-description: Bu konuda, Elektronik raporlama (ER) yapılandırmasını tasarlama ve bağımlılığını diğer yazılım bileşenlerinden ayırma açıklanmaktadır.
+description: Bu makalede, Elektronik raporlama (ER) yapılandırmasını tasarlama ve bağımlılığını diğer yazılım bileşenlerinden ayırma açıklanmaktadır.
 author: NickSelin
 ms.date: 07/23/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 525e9be1655bdf0c0328ec53509ab1966abd7bde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717606"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883582"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER yapılandırmalarının diğer bileşenlere bağımlılığını tanımlama
 
@@ -25,7 +25,7 @@ ms.locfileid: "6717606"
 
 Bu adımları tamamlamak için önce ER Model eşleme yapılandırmalarını yönet görev kılavuzundaki adımları tamamlamalı ve Microsoft Dynamics Lifecycle Services (LCS) üzerinde erişim sahibi olmanız gerekir.
 
-Bu yordam, bir Elektronik raporlama (ER) yapılandırmasının nasıl tasarlanacağını ve diğer yazılım bileşenlerine olan bağımlılıklarını nasıl belirtileceğini gösterir; bu sayede yapılandırmanı belirli bir Finance and Operations sürümüne doğru şekilde indirildiğinden emin olmaya yardımcı olabilirsiniz. Bu örnekte, Litware, Inc. adlı örnek şirket için gerekli ER yapılandırmalarını oluşturacaksınız. 
+Bu yordam, bir Elektronik raporlama (ER) yapılandırmasının nasıl tasarlanacağını ve diğer yazılım bileşenlerine olan bağımlılıklarını nasıl belirtileceğini gösterir; bu sayede yapılandırmanın belirli bir Finance and Operations sürümüne doğru şekilde indirildiğinden emin olmaya yardımcı olabilirsiniz. Bu örnekte, Litware, Inc. adlı örnek şirket için gerekli ER yapılandırmalarını oluşturacaksınız. 
 
 Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne atanmış kullanıcılar içindir. Adımlar, ER yapılandırmaları şirketler arasında paylaşıldığı için herhangi bir şirkette gerçekleştirilebilir. 
 
@@ -46,7 +46,7 @@ Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne at
 7. Microsoft Dynamics 365 for Operations (1611) seçin.
 8. Sürüm alanına '[7.1.1541.3036,8)' yazın.
     * (7.1.1541.3036,8)  
-    * Girdiğiniz bağımlılıklar bu yapılandırma herhangi bir ER havuzundan indirildiğinde değerlendirilecektir. Bu yapılandırma sürümü ER havuzundan, 'Örnek veri modeli' yapılandırmasının 1. sürümü halihazırda yerinde olduğunda veya önceden indirildiğinde indirilecektir. Önceden indirilirse, Finance and Operations 7.1.1541.3036 veya ileri (ancak sürüm 8'i geçmeyen) bir sürümünde tamamlanması gerekir.   
+    * Girdiğiniz bağımlılıklar bu yapılandırma herhangi bir ER havuzundan indirildiğinde değerlendirilecektir. Bu yapılandırma sürümü ER havuzundan, 'Örnek veri modeli' yapılandırmasının 1. sürümü halihazırda yerinde olduğunda veya önceden indirildiğinde indirilecektir. Önceden indirilirse işlemin, Finance and Operations 7.1.1541.3036 veya sonraki sürümlerinde tamamlanması gerekir. Ancak uygulamanın ana sürümü 8'i aşmamalıdır.   
 9. Kaydet'e tıklayın.
 10. Sayfayı kapatın.
 11. Durumu değiştir öğesine tıklayın.

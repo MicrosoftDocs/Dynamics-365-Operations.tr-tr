@@ -1,6 +1,6 @@
 ---
-title: Lifecycle Services'de mikro hizmetler için eklentiyi yükleme
-description: Bu konu, Microsoft Dynamics Lifecycle Services (LCS) içindeki Elektronik Faturalama eklentisinin nasıl yükleneceğini açıklamaktadır.
+title: Lifecycle Services'te mikro hizmetler eklentisini yükleme
+description: Bu makalede, Microsoft Dynamics Lifecycle Services'daki (LCS) Elektronik Faturalama eklentisinin nasıl yükleneceği açıklanmaktadır.
 author: dkalyuzh
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a575f3e26489607dc2143ba05c941240969a0feb
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 26f92262eff07ded3e894ee5513dd8dbaa6f94a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371847"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849819"
 ---
 # <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Lifecycle Services'de mikro hizmetler için eklentiyi yükleme
 
 [!include [banner](../includes/banner.md)]
 
-Elektronik Faturalama hizmetindeki kimlik doğrulaması, Microsoft Dynamics Lifecycle Services (LCS) ortamınıza yönelik eklentiyi yükleyerek Microsoft Dynamics 365 Finance veya Dynamics 365 Supply Chain Management'ın ortamınızı hizmetler platformuna kaydetmenizi gerektirir.
+Elektronik Faturalama hizmetindeki kimlik doğrulaması, Microsoft Dynamics Lifecycle Services (LCS) ortamınıza yönelik eklentiyi yükleyerek Microsoft Dynamics 365 Finance veya Dynamics 365 Supply Chain Management ortamınızı hizmetler platformuna kaydetmenizi gerektirir.
 
 Ortamı kaydetmek için şu adımları izleyin.
 

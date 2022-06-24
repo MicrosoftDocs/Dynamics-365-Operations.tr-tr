@@ -1,6 +1,6 @@
 ---
-title: Kaynak belgeler için denetim ilkeleri tanımlama
-description: Bu konu, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını açıklar.
+title: Kaynak belgeler için denetim ilkelerini tanımla
+description: Bu makalede, denetim ilkesi kurallarının nasıl belirlenip uygulanacağı açıklanmaktadır.
 author: panolte
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8698dd2c14321498d23efe1d01be274c56d5721
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: b8aa106cd5a5596f6b9a6663390e03ebc3f91a7b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713797"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872542"
 ---
-# <a name="define-audit-policies-for-source-documents"></a>Kaynak belgeler için denetim ilkeleri tanımlama
+# <a name="define-audit-policies-for-source-documents"></a>Kaynak belgeler için denetim ilkelerini tanımla
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını açıklar. Örnekte, otel gideri türünde gider raporları kullanılmaktadır. Bu yordam, USMF demo şirketini kullanır. Denetçi rolü bu görevleri gerçekleştirmek için uygun izinleri içerir.
+Bu makalede, denetim ilkesi kurallarının nasıl belirlenip uygulanacağı açıklanmaktadır. Örnekte, otel gideri türünde gider raporları kullanılmaktadır. Bu yordam, USMF demo şirketini kullanır. Denetçi rolü bu görevleri gerçekleştirmek için uygun izinleri içerir.
 
 1. Gezinti bölmesinde, **Modüller > Denetim çalışma ekranı > Kurulum > İlke kuralı türü**'ne gidin.
 2. **Yeni**'yi seçin.

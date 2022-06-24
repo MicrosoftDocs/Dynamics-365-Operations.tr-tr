@@ -1,6 +1,6 @@
 ---
 title: Kiralamaları düzeltme
-description: Bu konuda, kiralamaların nasıl düzeltileceği açıklanmaktadır. Kiralama süreleri değiştirilirse, kiralama süresi uzatılırsa veya başka koşullar değişirse düzeltme gerekebilir.
+description: Bu makalede, kiralamaların nasıl düzeltileceği açıklanmaktadır. Kiralama süreleri değiştirilirse, kiralama süresi uzatılırsa veya başka koşullar değişirse düzeltme gerekebilir.
 author: moaamer
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 89ec876c9bd967107635eb2955209a4dcb95cde5
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 48d1a261a43d6e3a68dfc0aae6f06c0d7d6b82db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712188"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898341"
 ---
 # <a name="adjust-leases"></a>Kiralamaları düzeltme
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Bu konuda, kiralamaların nasıl düzeltileceği açıklanmaktadır. Kiralama süreleri değiştirilirse, kiralama süresi uzatılırsa veya başka koşullar değişirse düzeltme gerekebilir. Varlık kiralama, Muhasabe Standartları Kodlaması Konu 842 (ASC) ve Uluslararası Mali Raporlama Standardı 16 (IFRS 16) belgelerinde kiralama değişiklikleriyle ilgili olarak sağlanan kılavuza uyar. ASC 842-20-15-1, kiralama değişikliğini kiralamanın kapsamında veya değerlendirilmesinde değişikliğe neden olan sözleşme hüküm ve koşullarındaki herhangi bir değişiklik olarak tanımlar. IFRS 16'nın 39. paragrafında, kiracının kiralama yükümlülüğünü kira ödemelerini yansıtacak şekilde değiştirmesi gerektiği belirtilir.
+Bu makalede, kiralamaların nasıl düzeltileceği açıklanmaktadır. Kiralama süreleri değiştirilirse, kiralama süresi uzatılırsa veya başka koşullar değişirse düzeltme gerekebilir. Varlık kiralama, Muhasabe Standartları Kodlaması Konu 842 (ASC) ve Uluslararası Mali Raporlama Standardı 16 (IFRS 16) belgelerinde kiralama değişiklikleriyle ilgili olarak sağlanan kılavuza uyar. ASC 842-20-15-1, kiralama değişikliğini kiralamanın kapsamında veya değerlendirilmesinde değişikliğe neden olan sözleşme hüküm ve koşullarındaki herhangi bir değişiklik olarak tanımlar. IFRS 16'nın 39. paragrafında, kiracının kiralama yükümlülüğünü kira ödemelerini yansıtacak şekilde değiştirmesi gerektiği belirtilir.
 
 ASC 842 veya IFRS 16'ya bağlı olan kuruluşlar için kiralama, gelecekteki en düşük kira ödemelerinin (PVFMLP) şimdiki değerindeki değişikliği yansıtacak şekilde yeniden ölçülür. PVFMLP arttıkça oluşturulan günlük girişi yeni PVFMLP ile eski PVFMLP arsındaki fark için kullanım hakkı varlığı (ROU) hesabı açısından borç ve kiralama yükümlüğü hesabı açısından alacak olacaktır. PVFMLP azaldıkça günlük girişi fark için kiralama yükümlüğü hesabı açısından borç ve ROU varlığı hesabı açısından alacak olacaktır.
 

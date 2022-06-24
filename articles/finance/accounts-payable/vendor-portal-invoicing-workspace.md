@@ -1,6 +1,6 @@
 ---
-title: Satıcı iş birliği faturalama çalışma alanı
-description: Bu konuda, satıcı faturalarını görüntüleme ve satıcı iş birliği faturalama çalışma alanından faturaları gönderme açıklanmaktadır.
+title: Satıcı işbirliği faturalama çalışma alanı
+description: Bu makalede, satıcı faturalarını görüntüleme ve satıcı iş birliği faturalama çalışma alanından faturaları gönderme açıklanmaktadır.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1d9415b7118efb06099b775f68ce7ca9fb6673ed
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 9ef4204e0be437b50af047704e07600653c877c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182641"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896564"
 ---
-# <a name="vendor-collaboration-invoicing-workspace"></a>Satıcı iş birliği faturalama çalışma alanı
+# <a name="vendor-collaboration-invoicing-workspace"></a>Satıcı işbirliği faturalama çalışma alanı
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, satıcı faturalarını görüntüleme ve **Satıcı iş birliği faturalama** çalışma alanından faturaları gönderme açıklanmaktadır.
+Bu makalede, satıcı faturalarını görüntüleme ve **Satıcı iş birliği faturalama** çalışma alanından faturaları gönderme açıklanmaktadır.
 
 **Satıcı işbirliği faturalama** çalışma alanı, satıcı faturası bilgilerini görüntülemek ve iş akışı özelliklerini kullanarak sisteme fatura göndermek için kullanılabilir.
 

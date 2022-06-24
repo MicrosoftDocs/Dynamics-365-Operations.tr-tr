@@ -1,6 +1,6 @@
 ---
 title: Tehlikeli malzemelere genel bakış
-description: Bu konuda, ürün bilgileri yönetimi ve ambar yönetimi sırasında tehlikeli malzemelerin işlenmesi ve belgelenmesi ile ilgili özelliklere genel bir bakış sağlanır.
+description: Bu makalede, ürün bilgileri yönetimi ve ambar yönetimi sırasında tehlikeli malzemelerin işlenmesi ve belgelenmesi ile ilgili özelliklere genel bir bakış sağlanır.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: overview
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: cfea2cd6a2699bdf2a14de72a8bdeb3e8cd32a17
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c2cae4cb65dd163e9fbf1d24cff5a0a040e3ce3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986288"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905819"
 ---
 # <a name="hazardous-materials-overview"></a>Tehlikeli malzemelere genel bakış
 
@@ -50,7 +50,7 @@ Bu işlevin geliştirilmesi sırasında aşağıdaki ortak yönetmeliklere başv
 
 Her yönetmelik kümesi, tehlikeli malların ve referans kodlarının standart listelerini sağlar. Bu nedenle, Supply Chain Management bu listelerdeki ortak kodlar için bir başvuru tablosu sunar. Her listede, tanımlayabileceğiniz bazı benzersiz kodlar da vardır.
 
-Tehlikeli malzemelerle ilgili yönetmeliklerin ve değerlerin nasıl ayarlanacağı ve değerlerin ilgili ürünlere nasıl atanacağı hakkında daha fazla bilgi için aşağıdaki konulara bakın:
+Tehlikeli malzemelerle ilgili yönetmeliklerin ve değerlerin nasıl ayarlanacağı ve değerlerin ilgili ürünlere nasıl atanacağı hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
 
 - [Tehlikeli malzemeleri ayarlama](hazmat-setup.md)
 - [Ürün, sipariş, sevkiyat ve yüklerdeki tehlikeli malzemeler](hazmat-items.md)

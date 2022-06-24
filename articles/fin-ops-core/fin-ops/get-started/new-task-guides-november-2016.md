@@ -1,6 +1,6 @@
 ---
 title: Yeni veya güncelleştirilmiş görev kılavuzları (Kasım 2016)
-description: Bu başlık, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır.
+description: Bu makalede, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları listelenmektedir. Başlangıç Kitaplığı yayımlanmamıştır.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f36ceb535919991c1be0501daabd94e966723fa875cf8765439212d235e82a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3836456f8d4ba8aba95e90563f8bdb27fc547e09
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728139"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886599"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Yeni veya güncelleştirilmiş görev kılavuzları (Kasım 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Bu başlık, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır.
+Bu makalede, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları listelenmektedir. Başlangıç Kitaplığı yayımlanmamıştır.
 
 (Kasım 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı, Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations platformu güncelleştirmesi 3, Dynamics AX Mayıs 2016 uygulama güncelleştirmesi ve Microsoft Dynamics AX Platform güncelleştirmesi 2 ve Microsoft Dynamics AX Şubat 2016 sürümünün Yardım'ı için kullanılması planlanan görev kılavuzlarını içerir. Bu sürümler hakkında daha fazla bilgi için bkz. [Finance and Operations giriş sayfasındaki yenilikler veya değişiklikler](whats-new-changed.md). Görev kılavuzlarının yerelleştirilmiş sürümleri bu kitaplıkta mevcuttur. Yardım sistemini bir Görev kılavuzu kitaplığına bağlama hakkında daha fazla bilgi için bkz. [Yardım sistemi](help-overview.md).
 

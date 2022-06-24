@@ -1,6 +1,6 @@
 ---
 title: Anketler oluşturma
-description: Bu konu bir anket oluşturma işlemini açıklar.
+description: Bu makale bir anket oluşturma işlemini açıklar.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7b2e1316768dc6207c82f08cef4c268ae70648ad
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ef14dfe35e6cffc5ae2351045141d99b2fb53c16
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899657"
 ---
 # <a name="create-questionnaires"></a>Anketler oluşturma
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694865"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konu bir anket oluşturma işlemini açıklar. İlk adım anketi tasarlamaktır. Bir anket tasarladığınızda, yalnızca soru ve yanıtları yazmayın, aynı zamanda yanıtların kaydedilip tablolar oluşturulmasını sağlayan yapıyı oluşturun. 
+Bu makale bir anket oluşturma işlemini açıklar. İlk adım anketi tasarlamaktır. Bir anket tasarladığınızda, yalnızca soru ve yanıtları yazmayın, aynı zamanda yanıtların kaydedilip tablolar oluşturulmasını sağlayan yapıyı oluşturun. 
 
 Dikkatli şekilde tasarlanmış bir anket, topladığınız verilerin kalitesini artırabilir. Dikkatli tasarım ile bir anket için uygun zamanda uygun seçenekleri daha iyi seçebilirsiniz. Aşağıdaki noktalar etkili bir anket planlamanıza yardımcı olabilir:
 

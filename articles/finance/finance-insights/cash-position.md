@@ -1,6 +1,6 @@
 ---
 title: Nakit pozisyonu
-description: Bu konuda, Nakit akışı tahmini özelliğinin belirli bir dönem için bir kuruluşun nakit pozisyonunu nasıl tahmin ettiği açıklanmaktadır. Ayrıca, farklı dönemlerin tahminlerini göstermek için kullanılabilen seçenekler de açıklanmıştır.
+description: Bu makalede, Nakit akışı tahmini özelliğinin belirli bir dönem için bir kuruluşun nakit pozisyonunu nasıl tahmin ettiği açıklanmaktadır. Ayrıca, farklı dönemlerin tahminlerini göstermek için kullanılabilen seçenekler de açıklanmıştır.
 author: ShivamPandey-msft
 ms.date: 12/21/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 1c6d394cb192a88316beb2e8746b558eb8dd184b
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 7581142348d91b3a37cc75cf801e7bfc098cd604
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711673"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870263"
 ---
 # <a name="cash-position"></a>Nakit pozisyonu
 

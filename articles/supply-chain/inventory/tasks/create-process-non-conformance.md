@@ -1,6 +1,6 @@
 ---
 title: Uygunsuzluk oluşturma ve işleme
-description: Bu konu, uygunsuzluk yönetimini var olan bir kalite emrine göre gerçekleştirmeyi açıklar.
+description: Bu makale, uygunsuzluk yönetimini var olan bir kalite emrine göre gerçekleştirmeyi açıklar.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 032f5b712c2be5312524129cd25e655e778f5f44
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dd8a10e88ab4d1be24a11739dddd7619b3fa6bbc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580876"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901980"
 ---
 # <a name="create-and-process-nonconformances"></a>Uygunsuzluk oluşturma ve işleme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, uygunsuzluk yönetimini var olan bir kalite emrine göre gerçekleştirmeyi açıklar. Genel olarak, uygunsuzluk yönetimi bir kalite görevlisi tarafından gerçekleştirilir. Önkoşul olarak, kullanılabilir bir kalite emrinizin olması gerekir. (Kalite emri oluşturma hakkında bilgi edinmek için bkz. [ Malların kalitesini denetleme](inspect-quality-goods.md) .)
+Bu makale, uygunsuzluk yönetimini var olan bir kalite emrine göre gerçekleştirmeyi açıklar. Genel olarak, uygunsuzluk yönetimi bir kalite görevlisi tarafından gerçekleştirilir. Önkoşul olarak, kullanılabilir bir kalite emrinizin olması gerekir. (Kalite emri oluşturma hakkında bilgi edinmek için bkz. [ Malların kalitesini denetleme](inspect-quality-goods.md) .)
 
 Bir kullanıcı uygunsuzluk onayını işlemeden önce  **Kullanıcılar** sayfasındaki **Kişi** alanında bir çalışanın atanması gerekir. Ek olarak, kullanıcının belge notlarını kullanabilmesi için önce **Belge işlemeyi etkinleştir** seçeneğinin kullanıcı seçeneklerinde *Evet* olarak ayarlanmış olması gerekir.
 

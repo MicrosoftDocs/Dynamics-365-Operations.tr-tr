@@ -1,6 +1,6 @@
 ---
 title: Geriye dönük maliyetlendirme
-description: Bu konu, Yalın imalat için geriye dönük maliyetlendirme kavramını tanıtmaktadır.
+description: Bu makale, Yalın imalat için geriye dönük maliyetlendirme kavramını tanıtmaktadır.
 author: JennySong-SH
 ms.date: 04/10/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: a5b0ac26a1f6b209be7c9d52aaad9bb689a8a656
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 33cb7bf70d8867ccd067144e661c3bdf1c0b778d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674040"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906109"
 ---
 # <a name="backflush-costing"></a>Geriye dönük maliyetlendirme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Yalın imalat için geriye dönük maliyetlendirme kavramını tanıtmaktadır. 
+Bu makale, Yalın imalat için geriye dönük maliyetlendirme kavramını tanıtmaktadır. 
 
 Yalın üretim için maliyetlendirme, üretim akışının geriye dönük maliyetlendirme olarak bilinen maliyet biriktirme yöntemini kullanmasına olanak sağlar. Geriye dönük maliyetlendirme yönteminde, doğrudan malzemeler üretim akışının süren iş işlemi (WIP) maliyet hesabında toplanır ve tüketilir. Standart maliyet stok model grubu kullanılır. Üretim akışından alınan ürünler, başlangıç maliyetlerinde WIP'den çıkartılır. Standart maliyet ve geriye dönük maliyetlendirme arasındaki fark, geriye dönük maliyetlendirme için farkların kanban veya tamamlanmış ürün başına hesaplanmamasıdır. Bunun yerine, farklar üretim akışı başına bir dönem üzerinden hesaplanır. Bu yöntem, malzeme tüketimini raporlamak için gerçekten yalın bir kavramı tanıtır. Adanmış çekilen malzeme miktarları bir kanban veya üretim siparişine raporlanmaz. Bunun yerine, tüm toplu işler veya birimler, üretim akışına hazırlanır. Toplu işler veya işleme birimleri boş olarak kaydedildikten sonra, tüketilmiş olarak bildirilirler. Gelişmiş tüketim, [üretim akışının yapılandırmasına](../production-control/lean-manufacturing-modeling-lean-organization.md) bağlı olarak kullanılabilir. Gelişmiş tüketimin kullanılabilmesi kuruluşların için önce kendilerine üretim akışının süren işi içerisinden malzeme kaybolmasına izin vermeleri gerekir. Periyodik geriye dönük maliyetlendirme, süren işin etkin değerini, dönemin sonunda belirler. Bu belirleme, kanban işleme birimlerini ve kanban iş durumunu temel alır. Maliyet grubu ve madde başına etkin değerler ve gerçek süren iş değerleri arasındaki farklılıklar hesaplanır ve farklar olarak gösterilir.
 

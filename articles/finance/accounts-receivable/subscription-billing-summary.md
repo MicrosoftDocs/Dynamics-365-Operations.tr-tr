@@ -1,6 +1,6 @@
 ---
 title: Abonelik faturalamasına genel bakış
-description: Bu konuda Microsoft Dynamics 365 Finance'te abonelik faturalaması açıklanmaktadır.
+description: Bu makalede Microsoft Dynamics 365 Finance'te abonelik faturalaması açıklanmaktadır.
 author: JodiChristiansen
 ms.date: 04/13/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 9d46492cca3cc435048fa497f6b1f3a28b77140a
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 10302e9ae7dff3d018897b666caaf4d4289b4866
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644541"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856755"
 ---
 # <a name="subscription-billing-overview"></a>Abonelik faturalamasına genel bakış
 

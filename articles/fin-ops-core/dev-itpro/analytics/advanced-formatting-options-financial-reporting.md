@@ -1,6 +1,6 @@
 ---
 title: Finansal raporlamada gelişmiş biçimlendirme seçenekleri
-description: Bu konuda filtreler, sınırlamalar, yazdırılmayan satırlar ve hesaplamalarda koşullu deyimler dahil olmak üzere gelişmiş biçimlendirme işlevleri açıklanmaktadır.
+description: Bu makalede filtreler, sınırlamalar, yazdırılmayan satırlar ve hesaplamalarda koşullu deyimler dahil olmak üzere gelişmiş biçimlendirme işlevleri açıklanmaktadır.
 author: panolte
 ms.date: 04/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e15869fdd598aeec7ef616f6d54593c7551cb906ab53763a64f4202473bcd926
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ede95ff196abab450a478fef9e024490d22e00f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760138"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906682"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Finansal raporlamada gelişmiş biçimlendirme seçenekleri
 

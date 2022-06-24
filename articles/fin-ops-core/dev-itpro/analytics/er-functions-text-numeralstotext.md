@@ -1,6 +1,6 @@
 ---
 title: NUMERALSTOTEXT ER işlev işlevi
-description: Bu konu, NUMERALSTOTEXT Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
+description: Bu makalede, NUMERALSTOTEXT Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlanmaktadır.
 author: NickSelin
 ms.date: 12/10/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76431642a6d6961c5c9a2bf15534ad58f83d312dfb3723e75c94fa844717930b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a19c0aa9d8db9b1a6dae55208b866c3dd5858a03
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719429"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892936"
 ---
 # <a name="numeralstotext-er-function"></a>NUMERALSTOTEXT ER işlev işlevi
 

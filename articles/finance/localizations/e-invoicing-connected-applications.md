@@ -1,6 +1,6 @@
 ---
 title: Bağlı uygulamalar
-description: Bu konu, Elektronik faturalamada bağlı uygulamaları kurmayı açıklamaktadır.
+description: Bu makalede, Elektronik faturalamada bağlı uygulamaların nasıl ayarlanacağı açıklanmaktadır.
 author: dkalyuzh
 ms.date: 02/07/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 59b67589139c0ce332716acf998825c6a024bded
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 7a0a9c19009c49b80ca8c182c31592c1a713a2aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906301"
 ---
 # <a name="connected-applications"></a>Bağlı uygulamalar
 
@@ -39,7 +39,7 @@ RCS'de Finance veya Supply Chain Management parametrelerinin kullanılabilirliğ
 3. **Ortam kurulumu** sayfasındaki Eylem Bölmesi'nde **Bağlı uygulamalar**'ı seçin.
 4. Yeni bir bağlı uygulama oluşturmak için **Yeni**'yi seçin.
 5. **Ad** alanına bağlanacak uygulamanın adını girin.
-6. **Tür** alanında, **Dynamics 365 Finance**'ü seçin.
+6. **Tür** alanında **Dynamics 365 Finance**'i seçin.
 7. **Uygulama** alanına, bağlanacak ortamın URL'sini girin.
 8. **Kiracı** alanında, ortamın kiracısını girin.
 9. **Kaydet**'i seçin.

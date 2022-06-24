@@ -1,6 +1,6 @@
 ---
 title: TDS vergi türü için stopaj vergisi yetkililerini ayarlama
-description: Bu konu, Kaynakta Kesilen Vergi (TDS) yetkililerinin nasıl ayarlanacağını açıklar.
+description: Bu makalede, Kaynakta Kesilen Vergi (TDS) yetkililerinin nasıl ayarlanacağı açıklanmaktadır.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: a6c802079153911f74a217eb67ff6743aebdcd33
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 43562381bab93d2f143788b8dc61f2b13d05db3b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724592"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864227"
 ---
 # <a name="set-up-withholding-tax-authorities-for-the-tds-tax-type"></a>TDS vergi türü için stopaj vergisi yetkililerini ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Kaynakta Kesilen Vergi (TDS) yetkililerinin nasıl ayarlanacağını açıklar.
+Bu makalede, Kaynakta Kesilen Vergi (TDS) yetkililerinin nasıl ayarlanacağı açıklanmaktadır.
 
 1. **Vergi \> Dolaylı vergiler \> Stopaj vergisi yetkililieri**'ne gidin.
 

@@ -1,6 +1,6 @@
 ---
 title: E-ticaret sitesine genel bakış
-description: Bu konu, Microsoft Dynamics 365 Commerce ile e-ticaret siteleri desteğinin genel görünümünü sağlar .
+description: Bu makale, Microsoft Dynamics 365 Commerce ile e-ticaret siteleri desteğinin genel görünümünü sağlar .
 author: bicyclingfool
 ms.date: 11/05/2020
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 90f0f01115b00f231af8d4ae11be1d18d379399b
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 9b7e4d09eaa4f91478d27cbca5eaea48af86e676
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487780"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899133"
 ---
 # <a name="e-commerce-site-overview"></a>E-ticaret sitesine genel bakış
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce ile e-ticaret siteleri desteğinin genel görünümünü sağlar . E-ticaret çevrimiçi mağazaların Dynamics 365 Commerce uygulamasında nasıl başlatıldığı ve yönetildiği hakkında bilgi içerir . Ayrıca, çevrimiçi mağazalar ve e-ticaret sitesinin nasıl ayarlanacağı ve yapılandırılacağı hakkında bilgi sağlayan bir bağlantı da sağlar. Bu konu, temel bilgilerin çoğunu kapsasa da, üretim e-ticaret sitesini ayarlamak için gereken her şeyi kapsamaz. Dynamics 365 Commerce Belgelerde daha gelişmiş konular bulunabilir .
+Bu makale, Microsoft Dynamics 365 Commerce ile e-ticaret siteleri desteğinin genel görünümünü sağlar . E-ticaret çevrimiçi mağazaların Dynamics 365 Commerce uygulamasında nasıl başlatıldığı ve yönetildiği hakkında bilgi içerir . Ayrıca, çevrimiçi mağazalar ve e-ticaret sitesinin nasıl ayarlanacağı ve yapılandırılacağı hakkında bilgi sağlayan bir bağlantı da sağlar. Bu makale, temel bilgilerin çoğunu kapsasa da, üretim e-ticaret sitesini ayarlamak için gereken her şeyi kapsamaz. Dynamics 365 Commerce belgelerinde daha fazla gelişmiş makale bulunabilir .
 
 ## <a name="online-store-channel"></a>Çevrimiçi mağaza kanalı
 
@@ -74,7 +74,7 @@ Dynamics 365 Commerce, kullanıcı kimlik bilgileri ve kimlik doğrulama akışl
 
 ## <a name="overview-of-the-default-site-pages"></a>Varsayılan site sayfalarına genel bakış
 
-**Varsayılan** ve **fabrikam** siteleri, başlamanıza yardımcı olacak önceden yapılandırılmış şablonları, parçaları ve sayfaları içerir. Daha fazla bilgi edinmek için aşağıdaki konulara bakın:
+**Varsayılan** ve **fabrikam** siteleri, başlamanıza yardımcı olacak önceden yapılandırılmış şablonları, parçaları ve sayfaları içerir. Daha fazla bilgi edinmek için aşağıdaki makalelere bakın:
 
 - [Giriş sayfasına genel bakış](quick-tour-home-page.md)
 - [Ürün ayrıntıları sayfalarına genel bakış](quick-tour-pdp.md)
@@ -83,7 +83,7 @@ Dynamics 365 Commerce, kullanıcı kimlik bilgileri ve kimlik doğrulama akışl
 
 ## <a name="manage-site-settings"></a>Site ayarlarını yönetme
 
-Site ayarlarınızı yönetme hakkında daha fazla bilgi için aşağıdaki konulara bakın:
+Site ayarlarınızı yönetme hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
 
 - [e-Ticaret kullanıcıları ve rolleri yönetme](manage-ecommerce-users-roles.md)
 - [Siteniz için arama alt yapısını en iyi duruma getirmeyle (SEO) ilgili konular](search-engine-optimization-considerations.md)
@@ -92,7 +92,7 @@ Site ayarlarınızı yönetme hakkında daha fazla bilgi için aşağıdaki konu
 
 ## <a name="manage-site-content"></a>Site içeriğini yönetme
 
-Site içeriğini yönetme hakkında daha fazla bilgi için aşağıdaki konulara bakın:
+Site içeriğini yönetme hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
 
 - [Sayfa modeli sözlüğü](page-elements-overview.md)
 - [Belge durumları ve yaşam döngüsü](document-states-overview.md)

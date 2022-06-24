@@ -1,6 +1,6 @@
 ---
 title: Bakım taleplerinden iş istekleri oluşturma
-description: Bu konuda Kıymet Yönetimi'nde bakım taleplerinden iş istekleri oluşturma işlemi açıklanmaktadır.
+description: Bu makalede Kıymet Yönetimi'nde bakım taleplerinden iş istekleri oluşturma işlemi açıklanmaktadır.
 author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c69ad91e931475dd4c8e5a126190e867bd193f881ad58525c1d2ac8997c972a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0c73f019951460dc7cb6395d616a0f0a22fd0b91
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726933"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909715"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Bakım taleplerinden iş istekleri oluşturma
 
@@ -29,7 +29,7 @@ ms.locfileid: "6726933"
  
 
 
-Bakım talepleri oluşturduktan sonra, bunları iş emirlerine kolayca dönüştürebilirsiniz. Bu konu, bakım talepleriyle çalışmak, aynı anda birkaç bakım talebi güncelleştirmek ve aynı anda birkaç bakım talebi için bir iş emri oluşturmak için en hızlı yolu açıklar. **Etkin bakım talepleri** veya **İşlem yapılacak yerleşim bakım talepleri** sayfasında, aynı anda bir bakım talebiyle çalışabilir ve bir bakım talebini bir iş emrine dönüştürebilirsiniz.
+Bakım talepleri oluşturduktan sonra, bunları iş emirlerine kolayca dönüştürebilirsiniz. Bu makale, bakım talepleriyle çalışmak, aynı anda birkaç bakım talebi güncelleştirmek ve aynı anda birkaç bakım talebi için bir iş emri oluşturmak için en hızlı yolu açıklar. **Etkin bakım talepleri** veya **İşlem yapılacak yerleşim bakım talepleri** sayfasında, aynı anda bir bakım talebiyle çalışabilir ve bir bakım talebini bir iş emrine dönüştürebilirsiniz.
 
 > [!NOTE]
 > Her bakım talebi yalnızca bir iş emri ile ilgili olabilir. Ancak, bakım taleplerini farklı varlıklar olsa bile birden çok bakım talebi bir iş emrine dahil edilebilir.

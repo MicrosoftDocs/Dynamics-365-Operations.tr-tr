@@ -1,6 +1,6 @@
 ---
 title: Genel günlük varlığını kullanarak fişleri içeri aktarma
-description: Bu konuda, Yevmiye defteri varlığı kullanılarak Yevmiye defterine veri aktarmak için ipuçları verilmektedir.
+description: Bu makalede, Genel muhasebe varlığı kullanılarak Genel muhasebe defterine veri aktarmayla ilgili ipuçları sağlanmıştır.
 author: rcarlson
 ms.date: 04/20/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42bc804393d050e5ff722c46c9ce50ece54c5a0b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 056bb860e3133bb8389410e29d20f32447799399
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065082"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867625"
 ---
 # <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Genel günlük varlığını kullanarak fişleri içeri aktarma
 
@@ -28,7 +28,7 @@ ms.locfileid: "8065082"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Bu konuda, Yevmiye defteri varlığı kullanılarak Yevmiye defterine veri aktarmak için ipuçları verilmektedir.
+Bu makalede, Genel muhasebe varlığı kullanılarak Genel muhasebe defterine veri aktarmayla ilgili ipuçları sağlanmıştır.
 
 **Genel Muhasebe**, **Müşteri**, **Satıcı** veya **Banka** türünde hesabı veya mahsup hesabı olan fişleri içe aktarmak için Genel muhasebe günlüğü varlığını kullanabilirsiniz. Fiş **Hesap** alanı ve **Mahsup hesap** alanı birlikte kullanılarak tek satır halinde girilebileceği gibi, yalnızca **Hesap** alanı kullanılarak (ve **Mahsup hesap** alanı her satırda boş bırakılarak) çok satırlı fiş halinde girilebilir. Yevmiye defteri varlığı her hesap türünü desteklemez. Bunun yerine, hesap türlerinin farklı birleşimlerini gerektiren senaryolar için diğer varlıklar mevcuttur. Örneğin, bir proje hareketini içe aktarmak için Proje gider günlüğü varlığını kullanın. Her varlık belirli senaryoları destekleyecek şekilde tasarlanmıştır. Bu, bu senaryolar için varlıklarda ek alanların kullanılabileceği anlamına gelir. Ancak, farklı senaryolar için varlıklarda ek alanlar kullanılamayabilir.
 

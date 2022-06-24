@@ -1,6 +1,6 @@
 ---
 title: Tümleşik genel muhasebe
-description: Bu konu Finans ve Operasyon ile Dataverse'i kullanan Finans ve Operasyon ve diğer Dynamics 365 uygulamaları arasında genel muhasebe verileri tümleştirmesini açıklar.
+description: Bu makalede, Finance and Operations ile Dataverse'ü kullanan diğer Dynamics 365 uygulamaları arasında genel muhasebe verilerinin tümleştirilmesi açıklanmaktadır.
 author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 0deb4198acb59b90bf06e4050889d028df2223e3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e83d66f3f8c8927b9baaf99838a4e242e7e011dc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063659"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847203"
 ---
 # <a name="integrated-ledger"></a>Tümleşik genel muhasebe
 
@@ -22,7 +22,7 @@ ms.locfileid: "8063659"
 
 
 
-Bir iş uygulamasında, genel muhasebe verileri bir şirketin iş yapma şekliyle ilgili temel ayarı tanımlar. Örneğin, genel muhasebe verileri şirketin izlediği mali yılı, işlemlerinin para birimlerini ve kullandığı hesapları tanımlar. Bu konuda, bu temel mali verilerin tümleştirilmesi açıklanmaktadır.
+Bir iş uygulamasında, genel muhasebe verileri bir şirketin iş yapma şekliyle ilgili temel ayarı tanımlar. Örneğin, genel muhasebe verileri şirketin izlediği mali yılı, işlemlerinin para birimlerini ve kullandığı hesapları tanımlar. Bu makalede, bu temel mali verilerin tümleştirilmesi açıklanmaktadır.
 
 ## <a name="templates"></a>Şablonlar
 

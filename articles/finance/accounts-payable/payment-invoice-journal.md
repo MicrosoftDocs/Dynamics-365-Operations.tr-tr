@@ -1,6 +1,6 @@
 ---
-title: Fatura günlüğüne ödeme planı uygulama
-description: Bu konuda, satıcı fatura günlüğüne ödemenin nasıl ekleneceği açıklanmaktadır.
+title: Fatura günlüğüne bir ödeme planını uygulama
+description: Bu makalede, satıcı fatura günlüğüne ödemenin nasıl ekleneceği açıklanmaktadır.
 author: sunfzam
 ms.date: 01/31/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: f6481c3fc033acf4bb563bf1716789216646b60b
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: f3ae08ea46be66dd8bf26f7f91bd73f6c5b9192f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358351"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863144"
 ---
-# <a name="apply-a-payment-schedule-to-the-invoice-journal"></a>Fatura günlüğüne ödeme planı uygulama
+# <a name="apply-a-payment-schedule-to-the-invoice-journal"></a>Fatura günlüğüne bir ödeme planını uygulama
 
 [!include [banner](../includes/preview-banner.md)]
 
-Microsoft Dynamics 365 Finance sürüm 10.0.25'te, **Satıcı fatura günlüğünde** artık bir ödeme planı desteklenmektedir.
+Microsoft Dynamics 365 Finance 10.0.25 sürümünde, **Satıcı fatura günlüğü**'nde artık bir ödeme planı desteklenmektedir.
 
 Bu işlevi kullanmak için Özellik yönetiminde **Fatura günlüğüne ödeme planı uygula** özelliğini etkinleştirmeniz gerekir.
 

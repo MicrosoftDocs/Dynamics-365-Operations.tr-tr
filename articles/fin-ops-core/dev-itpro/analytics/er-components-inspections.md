@@ -1,6 +1,6 @@
 ---
 title: Çalışma zamanı sorunlarını önlemek için yapılandırılmış ER bileşenini denetleme
-description: Bu konuda, oluşabilecek çalışma zamanı sorunlarını önlemek için yapılandırılmış elektronik raporlama (ER) bileşenlerinin nasıl denetleneceği açıklamaktadır.
+description: Bu makalede, oluşabilecek çalışma zamanı sorunlarını önlemek için yapılandırılmış elektronik raporlama (ER) bileşenlerinin nasıl denetleneceği açıklamaktadır.
 author: NickSelin
 ms.date: 01/03/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074803"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864850"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Çalışma zamanı sorunlarını önlemek için yapılandırılmış ER bileşenini denetleme
 
@@ -30,7 +30,7 @@ Her yapılandırılmış [Elektronik raporlama (ER)](general-electronic-reportin
 
 Varsayılan olarak, aşağıdaki durumlarda yukarıda belirtilen ER bileşenlerini içeren bir ER yapılandırması için doğrulama otomatik olarak uygulanır:
 
-- Microsoft Dynamics 365 Finance kurulumunuza yeni bir ER yapılandırması [sürümü](general-electronic-reporting.md#component-versioning) [içeri aktardığınızda](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally).
+- Microsoft Dynamics 365 Finance örneğinize yeni bir ER yapılandırması [sürümü](general-electronic-reporting.md#component-versioning) [içeri aktardığınızda](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally).
 - Düzenlenebilir ER yapılandırmasının [durumunu](general-electronic-reporting.md#component-versioning) **Taslak**'tan **Tamamlandı** olarak değiştirdiğinizde.
 - Yeni bir taban sürümü uygulayarak düzenlenebilir bir ER yapılandırmasını [yeniden temellendirdiğinizde](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase).
 
@@ -80,7 +80,7 @@ ER tutarlılık denetimi denetlemelerini gruplandırmak için aşağıdaki kateg
 
 ## <a name="list-of-inspections"></a>Denetlemeler listesi
 
-Aşağıdaki tabloda, ER tarafından sağlanan denetlemeler hakkında genel bilgiler sağlanmıştır. Bu denetlemeler hakkında daha fazla bilgi edinmek için, ilk sütundaki bağlantıları bu konunun ilgili kısımlarına gitmek üzere kullanın. Bu bölümler, ER'nin denetleme sağladığı bileşen türlerini ve sorunları önlemek için ER bileşenlerini nasıl yeniden yapılandıracağınızı açıklamaktadır.
+Aşağıdaki tabloda, ER tarafından sağlanan denetlemeler hakkında genel bilgiler sağlanmıştır. Bu denetlemeler hakkında daha fazla bilgi edinmek için, ilk sütundaki bağlantıları bu makalenin ilgili kısımlarına gitmek üzere kullanın. Bu bölümler, ER'nin denetleme sağladığı bileşen türlerini ve sorunları önlemek için ER bileşenlerini nasıl yeniden yapılandıracağınızı açıklamaktadır.
 
 <table>
 <thead>

@@ -1,6 +1,6 @@
 ---
 title: Fransızca İntrastat
-description: Bu konu, Fransa'daki İntrastat bildirimi hakkında bilgi içerir.
+description: Bu makalede, Fransa'daki İntrastat bildirimi hakkında bilgiler yer almaktadır.
 author: anasyash
 ms.date: 07/9/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 4d38576e1c6b40242d5c6313fb06f08e170b4466
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e86d7c8f28b1b3df0066a588d380965c21dc98a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487912"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887867"
 ---
 # <a name="french-intrastat"></a>Fransızca İntrastat
 
@@ -97,7 +97,7 @@ Tablo ayrıca alanın rapor düzeyini de gösterir. Alan **4** (basitleştirilmi
     3. **Emtia kodu hiyerarşisi** hızlı sekmesinde, **Kategori hiyerarşisi** alanında **İntrastat**'ı seçin.
     4. **Genel** hızlı sekmesinde, **Hareket kodu** alanında, malların transferleri için kullanılan kodu seçin.
     5. **Alacak dekontu** alanında, malların iadeleri için kullanılan kodu seçin.
-    6. **İhracat için yükümlülük düzeyi** alanına, ihracat raporunun ayrıntı düzeyini girin. Seçtiğiniz düzey raporda gösterilen satırları etkiler. Daha fazla bilgi için bu konunun başındaki tablolara bakın.
+    6. **İhracat için yükümlülük düzeyi** alanına, ihracat raporunun ayrıntı düzeyini girin. Seçtiğiniz düzey raporda gösterilen satırları etkiler. Daha fazla bilgi için bu makalenin başındaki tablolara bakın.
 
 3. **Kuruluş yönetimi** > **Kuruluşlar** > **Tüzel kişilikler**'e gidin, şirketinizi seçin ve ardından şu adımları izleyin:
 

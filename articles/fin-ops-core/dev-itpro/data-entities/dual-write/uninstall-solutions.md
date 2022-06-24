@@ -1,6 +1,6 @@
 ---
 title: Çift yazma uygulama düzenleme çözümlerini kaldırma
-description: Bu konu, çift yazma uygulama düzenleme çözümlerini kaldırmayı açıklar.
+description: Bu makale, çift yazma uygulaması düzenleme çözümlerinin nasıl kaldırılacağını açıklar.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2022-01-21
-ms.openlocfilehash: 781b2cb19a563d5712fa65718c93bfdc242f0c4a
-ms.sourcegitcommit: abfaef124c8747827d6f297821f01f1f6fbca6b7
+ms.openlocfilehash: 676802ddabac69db4947cf806e9103f67cece3de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "8455331"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870388"
 ---
 # <a name="uninstall-dual-write-application-orchestration-solutions"></a>Çift yazma uygulama düzenleme çözümlerini kaldırma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, çift yazma uygulama düzenleme çözümlerini kaldırmayı açıklar.
+Bu makale, çift yazma uygulaması düzenleme çözümlerinin nasıl kaldırılacağını açıklar.
 
 Bazı müşteriler, çift yazmalı uygulama düzenleme paketini kendi Microsoft Dataverse ortamlarında birden çok çözüme farkında olmadan yükler. Paketteki fazlalık çözümlerin yüklenmesi, beklenmeyen ve istenmeyen sorunlara yol açabilir.
 

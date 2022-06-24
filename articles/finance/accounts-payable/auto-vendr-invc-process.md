@@ -1,6 +1,6 @@
 ---
 title: Otomatik satıcı faturalama işlemlerine genel bakış
-description: Bu konu, otomatik bir işlem kullanmanın yararlarını ve satıcı fatura işlemeyi otomatikleştirme yeteneğini açıklamaktadır.
+description: Bu makalede, satıcı faturası işlemeyi otomatikleştirme özelliği ve otomatik bir işlem kullanmanın avantajları açıklanmaktadır.
 author: abruer
 ms.date: 02/12/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f21b76bb0d30370e4ea4fdd718999d537e9ce925
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: d2c629ed2d064a3350ec8ffe53940098d12ab0b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358443"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883459"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Otomatik satıcı faturalama işlemlerine genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, otomatik bir işlem kullanmanın yararlarını ve satıcı fatura işlemeyi otomatikleştirme yeteneğini açıklamaktadır. Bu yetenek, Özellik yönetiminde etkinleştirilmiş olan özelliklerden oluşur. Bu özellikler, **Fatura günlüğü** veya **Fatura kayıt günlüğü** sayfasını kullanarak işlenen faturalara değil, yalnızca satıcı faturalarına uygulanır.
+Bu makalede, satıcı faturası işlemeyi otomatikleştirme özelliği ve otomatik bir işlem kullanmanın avantajları açıklanmaktadır. Bu yetenek, Özellik yönetiminde etkinleştirilmiş olan özelliklerden oluşur. Bu özellikler, **Fatura günlüğü** veya **Fatura kayıt günlüğü** sayfasını kullanarak işlenen faturalara değil, yalnızca satıcı faturalarına uygulanır.
 
 Çoğu durumda, kuruluşlar kağıt faturaların optik karakter tanıma (OCR) servis sağlayıcısı kullanılarak işlenmesi için üçüncü taraflarla birlikte çalışırlar. Servis sağlayıcı makine tarafından okunabilen fatura meta verilerini döndürür. Otomasyona yardımcı olmak amacıyla Borç hesapları otomasyon özellikleri, bu yapıları Borç hesaplarından kullanmanıza olanak tanır.
 

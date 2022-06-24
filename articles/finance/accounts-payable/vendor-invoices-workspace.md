@@ -1,6 +1,6 @@
 ---
 title: Satıcı fatura otomasyonu çalışma alanı
-description: Bu konu, satıcı faturalarıyla ilgili çalışma alanının nasıl ayarlanacağını ve Microsoft Power BI üzerinden kullanılabilen bilgileri gösterir.
+description: Bu makale, satıcı faturalarıyla ilgili çalışma alanının nasıl ayarlanacağını ve Microsoft Power BI aracılığıyla kullanılabilen bilgileri gösterir.
 author: abruer
 ms.date: 02/14/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f28cc5f63df2f0d8a4c8cae407f7166aa4fa03db
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 2b74731a3283badad941e567e85f8a1644f6ad18
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865815"
 ---
 # <a name="vendor-invoice-automation-workspace"></a>Satıcı fatura otomasyonu çalışma alanı
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Bu konu, satıcı faturalarıyla ilgili çalışma alanının nasıl ayarlanacağını ve Microsoft Power BI üzerinden kullanılabilen bilgileri gösterir. Bu çalışma alanındaki satıcı faturası bilgileri belirli kullanıcılar için filtrelenmiştir ve grafik biçiminde görüntülenir.
+Bu makale, satıcı faturalarıyla ilgili çalışma alanının nasıl ayarlanacağını ve Microsoft Power BI aracılığıyla kullanılabilen bilgileri gösterir. Bu çalışma alanındaki satıcı faturası bilgileri belirli kullanıcılar için filtrelenmiştir ve grafik biçiminde görüntülenir.
 
 ## <a name="overview"></a>Genel bakış
 

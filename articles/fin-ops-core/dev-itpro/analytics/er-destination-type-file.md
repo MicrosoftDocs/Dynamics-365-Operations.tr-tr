@@ -1,6 +1,6 @@
 ---
 title: Dosya ER hedef türü
-description: Bu konu, bir ER biçimi için dosya hedefi yapılandırma hakkında bilgi sağlamaktadır.
+description: Bu makalede, bir ER biçimi için dosya hedefi yapılandırma hakkında bilgi sağlanmaktadır.
 author: NickSelin
 ms.date: 01/27/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: adb32efd3849c94294d9fe9e706f39d209116d259e0d964d1558cc0e49009a5a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba81bbccb7a84f793b69c279266e5aa5ac1801d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845642"
 ---
 # <a name="file-destination"></a>Dosya hedefi
 

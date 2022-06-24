@@ -1,6 +1,6 @@
 ---
 title: Genel muhasebe için yabancı para birimi yeniden değerleme
-description: Bu konu, kurulum, işlemi çalıştırma, işlem için hesaplama ve gerekirse yeniden değerleme işlemi hareketlerinin nasıl tersine çevrildiği de dahil olmak üzere genel muhasebe yabancı para birimi yeniden değerleme işlemine genel bir bakış sunar.
+description: Bu makalede, kurulum, işlemi çalıştırma, işlem için hesaplama ve gerekirse yeniden değerleme işlemi hareketlerini tersine çevirme de dahil olmak üzere genel muhasebe yabancı para birimi yeniden değerleme işlemine dair genel bir bakış sunulmaktadır.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4a138a26a23c804f5fd358d335b04aee3897dce
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720352"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904542"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Genel muhasebe için yabancı para birimi yeniden değerleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, kurulum, işlemi çalıştırma, işlem için hesaplama ve gerekirse yeniden değerleme işlemi hareketlerinin nasıl tersine çevrildiği de dahil olmak üzere genel muhasebe yabancı para birimi yeniden değerleme işlemine genel bir bakış sunar. 
+Bu makalede, kurulum, işlemi çalıştırma, işlem için hesaplama ve gerekirse yeniden değerleme işlemi hareketlerini tersine çevirme de dahil olmak üzere genel muhasebe yabancı para birimi yeniden değerleme işlemine dair genel bir bakış sunulmaktadır. 
 
 Dönem sonunun bir parçası olarak muhasebe uygulamaları farklı döviz kuru türleri (cari, geçmiş, ortalama vb.) kullanılarak yeniden değerlenen yabancı para birimlerinde genel muhasebe hesabı bakiyelerini gerektirir. Örneğin, bir muhasebe uygulaması cari döviz kurunda yeniden değerlenecek aktifler ve pasiflere, geçmiş döviz kurundaki sabit kıymetlere ve aylık ortalama kar ve zarar hesaplarına gerek duyar. Yevmiye defteri yabancı para birimi yeniden değerleme işlemi, bilanço ile kar ve zarar hesaplarını yeniden değerlemek için kullanılabilir. 
 

@@ -1,6 +1,6 @@
 ---
 title: Müşteriler için kredi yönetimi bilgileri ekleme
-description: Bu konu, müşteri için kredi yönetimi bilgilerinin nasıl eklendiğini açıklamaktadır.
+description: Bu makalede, müşteri için kredi yönetimi bilgilerinin nasıl eklendiği açıklanmaktadır.
 author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d5ced2f2bc419f18431663273236d21546c5541b
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 5cdbae5e1fae8cb1922e165d30dd555a4ef375d9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734471"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861603"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Müşteriler için kredi yönetimi bilgileri ekleme
 

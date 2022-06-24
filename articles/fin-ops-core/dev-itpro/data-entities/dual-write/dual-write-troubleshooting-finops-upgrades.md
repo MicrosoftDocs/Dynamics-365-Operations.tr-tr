@@ -1,6 +1,6 @@
 ---
 title: Finans ve Operasyon uygulamalarının yükseltmeleriyle ilgili sorunları giderme
-description: Bu konu, Finans ve Operasyon uygulamalarındaki yükseltmelerle ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlar.
+description: Bu makalede, Finans ve Operasyon uygulamalarındaki yükseltmelerle ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c7c036ef44b0470c9b3f8087e7b5b1e16dde1b34
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 954268b03be2be90f67dc9b7756f33215856864a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062837"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882156"
 ---
 # <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Finans ve Operasyon uygulamalarının yükseltmeleriyle ilgili sorunları giderme
 
@@ -24,10 +24,10 @@ ms.locfileid: "8062837"
 
 
 
-Bu konu, Finans ve Operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında sorun giderme bilgileri sağlar. Bu konu, Finans ve Operasyon uygulamalarındaki yükseltmelerle ilgili sorunları çözmenize yardımcı olabilecek bilgileri sağlar.
+Bu makalede, Finans ve Operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında sorun giderme bilgileri sağlanmaktadır. Bu konu, Finans ve Operasyon uygulamalarındaki yükseltmelerle ilgili sorunları çözmenize yardımcı olabilecek bilgileri sağlar.
 
 > [!IMPORTANT]
-> Bu konu adresiyle ilgili bazı sorunların sistem yöneticisi rolü veya Microsoft Azure Active Directory (Azure AD) kiracı yöneticisi kimlik bilgileri gerekebilir. Her konunun bölümünde belirli bir rol veya kimlik bilgilerinin gerekli olup olmadığı açıklanmaktadır.
+> Bu makalede ele alınan bazı sorunlar için sistem yöneticisi rolü veya Microsoft Azure Active Directory (Azure AD) kiracı yöneticisi kimlik bilgileri gerekebilir. Her konunun bölümünde belirli bir rol veya kimlik bilgilerinin gerekli olup olmadığı açıklanmaktadır.
 
 ## <a name="database-synchronization-errors"></a>Veritabanı eşitleme hataları
 

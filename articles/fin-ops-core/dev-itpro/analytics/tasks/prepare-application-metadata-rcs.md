@@ -1,6 +1,6 @@
 ---
 title: RCS'de kullanılacak uygulama meta verileri hazırlama
-description: Bu konuda, uygulama meta verilerini içeren yeni bir raporlama yapılandırmasının nasıl oluşturulacağı açıklanmaktadır.
+description: Bu makalede, uygulama meta verilerini içeren yeni bir raporlama yapılandırmasının nasıl oluşturulacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 06/28/2019
 ms.topic: business-process
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 71a33a69796b31c456bfcc5abbb3b18bcb1064be65c1c58b36656a9cebfbf47d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b5e7f69653381e16b4a8a8def56845a41bb14b0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750586"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868811"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>RCS'de kullanılacak uygulama meta verileri hazırlama
 [!include [banner](../../includes/banner.md)]
 
-Aşağıdaki adımlarda Sistem Yöneticisi veya Elektronik Raporlama Geliştiricisi rolündeki bir kullanıcının Regulatory Configuration Service'ta (RCS) ER model eşleme yapılandırmaları tasarlamaya yönelik uygulama meta verilerini içeren yeni Elektronik Raporlama (ER) yapılandırmasını nasıl oluşturabileceği açıklanmaktadır. Bu yapılandırma dış ticaret işlemlerine erişmek için örnek bir ER modeli eşlemesi yapılandırması tasarlamak için kullanılacaktır. Bu örnekte Litware, Inc. örnek şirketi için bir yapılandırma oluşturacaksınız. Bu adımlar, herhangi bir şirkette gerçekleştirilebilir. Bu adımları tamamlamak için öncelikle [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](er-configuration-provider-mark-it-active-2016-11.md). adımlarını tamamlamanız gerekir.
+Aşağıdaki adımlarda Sistem Yöneticisi veya Elektronik Raporlama Geliştiricisi rolündeki bir kullanıcının Regulatory Configuration Service'ta (RCS) ER model eşleme yapılandırmaları tasarlamaya yönelik uygulama meta verilerini içeren yeni Elektronik Raporlama (ER) yapılandırmasını nasıl oluşturabileceği açıklanmaktadır. Bu yapılandırma dış ticaret işlemlerine erişmek için örnek bir ER modeli eşlemesi yapılandırması tasarlamak için kullanılacaktır. Bu örnekte Litware, Inc. örnek şirketi için bir yapılandırma oluşturacaksınız. Bu adımlar, herhangi bir şirkette gerçekleştirilebilir. Bu adımları tamamlamak için öncelikle [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](er-configuration-provider-mark-it-active-2016-11.md) makalesindeki adımları tamamlamanız gerekir.
 
-## <a name="prerequisites"></a>Önkoşullar
+## <a name="prerequisites"></a>Ön Koşullar
 1.    **Organizasyon yönetimi** > **Çalışma alanları** > **Elektronik raporlama**'ya gidin. 
 2.    Örnek şirket ‘Litware, Inc.’ için yapılandırma sağlayıcısının kullanılabilir olduğunu ve **Etkin** olarak işaretlemiş olduğundan emin olun. Bu yapılandırma sağlayıcısını göremiyorsanız[Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](er-configuration-provider-mark-it-active-2016-11.md). prosedüründeki adımları tamamlayın. 
 3.    **Meta veri yapılandırması**'na tıklayın. 

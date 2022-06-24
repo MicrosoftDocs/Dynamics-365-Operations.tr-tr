@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 3e1eb7b8673f3af682204b65b33a1d8b61742721
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c928435a4e66832b09dbc805664934cfb1236be
+ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675051"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945769"
 ---
 # <a name="set-up-vendors-customers-and-items-for-intercompany-trade"></a>Şirketlerarası ticaret için satıcıları, müşterileri ve maddeleri ayarlama
 
@@ -34,12 +34,13 @@ Kuruluşunuzu şirketlerarası ticarete hazırlamak için ticaret yapacağınız
 1. Şirketlerarası müşteri olarak tanımlanacak müşteriyi seçin.
 1. Eylem Bölmesi'ndeki **Genel** sekmesinde, **Şirketlerarası**'nı seçin.
 1. Müşteri hesabı için şirketlerarası ayarlama parametrelerini belirtin. Bu parametreler, satıcı tüzel kişiliği ve hesabı, satın alma siparişi ilkeleri, satış siparişi ilkeleri, değer eşleme ve satış sözleşmesi ve satın alma sözleşmesi ilkelerini içerir. Ayrıca müşteri hesabındaki veya diğer tüzel kişilikte satıcı hesabındaki temel veri değerlerinin kullanılıp kullanılmayacağını da belirtirsiniz.
-1. **Müşteriler** sayfasında, **Fatura ve teslimat** hızlı sekmesinde **Şirketlerarası siparişler oluştur** onay kutusunu seçin. Siparişlerin doğrudan müşterilere teslim edilmesini istiyorsanız **Doğrudan teslimat** onay kutusunu seçin.
+1. Şirketlerarası parametreleri ayarlamayı bitirdiğinizde, seçilen müşteri ayrıntılarına dönmek için **Şirketlerarası** sayfasını kapatın.
+1. **Çeşitli ayrıntılar** hızlı sekmesini genişletin ve **Şirketlerarası siparişleri oluştur**'u *Evet* olarak ayarlayın. Siparişlerin doğrudan müşterilere teslim edilmesini istiyorsanız **Doğrudan teslimat** onay kutusunu da *Evet* olarak ayarlayın.
 
     > [!NOTE]
-    > Kuruluşunuzun stokladığı ve müşterilere teslim ettiği bazı maddeler varsa ürün stokta olsa bile şirketlerarası siparişleri otomatik olarak oluşturmak istemeyebilirsiniz. Bazen stokta bulunabilecek maddeler için otomatik sipariş oluşturmayı devre dışı bırakmak üzere **Şirketlerarası siparişler oluştur** onay kutusunun işaretini kaldırın.
+    > Kuruluşunuzun stokladığı ve müşterilere teslim ettiği bazı maddeler varsa ürün stokta olsa bile şirketlerarası siparişleri otomatik olarak oluşturmak istemeyebilirsiniz. Bazen stokta bulunabilecek maddeler için otomatik sipariş oluşturmayı devre dışı bırakmak üzere **Şirketlerarası siparişler oluştur** onay kutusunun *Hayır* olarak ayarlayın.
 
-1. Satış siparişinde dolaylı olarak fazladan satır oluşturulmasına izin vermek istiyorsanız **Dolaylı sipariş satırları oluştur** onay kutusunu seçin. Kullanıcı daha sonra şirketlerarası satış siparişinden özgün satış siparişine satırlar ekleyebilir.
+1. Satış siparişinde dolaylı olarak fazladan satır oluşturulmasına izin vermek istiyorsanız **Dolaylı sipariş satırları oluştur** onay kutusunu *Evet* olarak ayarlayın. Kullanıcı daha sonra şirketlerarası satış siparişinden özgün satış siparişine satırlar ekleyebilir.
 
 > [!WARNING]
 > Sipariş satırlarının dolaylı olarak oluşturulmasına izin verirseniz şirketlerarası satış siparişinden özgün satış siparişine yapılan tüm eklemelere izin vermiş olursunuz. Her ekleme daha sonra müşteriye işlenir ve siparişe ve faturaya eklenir. Ayrıca, satışa dahil olan her belge otomatik olarak yazdırılır ve deftere nakledilir. Kullanıcılar, ekleme hakkında uyarılmaz.

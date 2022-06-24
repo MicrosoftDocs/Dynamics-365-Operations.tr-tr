@@ -13,14 +13,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 0782f686c9c91d434214724e2f621225a9e268b3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8882fd00c68dc3cafcb4ecf1b2fe351a9e7f5741
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692156"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874321"
 ---
-# <a name="personnel-actions-faq"></a>Personel eylemleriyle ilgili SSS
+# <a name="personnel-actions-faq"></a>Personel eylemleri ile ilgili SSS
 
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]

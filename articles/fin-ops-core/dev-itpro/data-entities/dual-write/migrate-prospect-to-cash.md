@@ -1,6 +1,6 @@
 ---
 title: Aday müşteriden nakde verilerini Veri Tümleştiriciden çift yazmaya geçirme
-description: Bu konuda, Aday müşteriden nakde verilerinin Veri Tümleştiriciden çift yazmaya nasıl geçirileceği açıklanmaktadır.
+description: Bu makalede, Aday müşteriden nakde verilerinin Veri Tümleştiriciden çift yazmaya nasıl geçirileceği açıklanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 02/01/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-26
-ms.openlocfilehash: 82bfb768b0ecac04184f4b806527346d39584d64
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 8e5c11e535bd61e9955a4abf1491e88991ee40f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087280"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894280"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Aday müşteriden nakde verilerini Veri Tümleştiriciden çift yazmaya geçirme
 
 [!include [banner](../../includes/banner.md)]
 
-Veri tümleştiricisi için kullanılabilen Müşteri adayınden nakde çözümü çift yazma ile uyumlu değil. Bunun nedeni, Müşteri adayından nakde çözümünün bir parçası olarak gelen hesap tablosundaki msdynce_AccountNumber dizinidir. Bu dizin varsa aynı müşteri hesabı numarasını iki farklı tüzel kişilik için oluşturamazsınız. Müşteri adayından nakde verilerini Ceri Tümleştiricisi'nden çift yazmaya taşıyarak çift yazmaya sıfırdan başlangıç yapmayı seçebilir veya Müşteri adayından nakde çözümünün son sürümünü yükleyebilirsiniz. Bu konu, iki yaklaşımın her ikisini kapsamaktadır.
+Veri tümleştiricisi için kullanılabilen Müşteri adayınden nakde çözümü çift yazma ile uyumlu değil. Bunun nedeni, Müşteri adayından nakde çözümünün bir parçası olarak gelen hesap tablosundaki msdynce_AccountNumber dizinidir. Bu dizin varsa aynı müşteri hesabı numarasını iki farklı tüzel kişilik için oluşturamazsınız. Müşteri adayından nakde verilerini Ceri Tümleştiricisi'nden çift yazmaya taşıyarak çift yazmaya sıfırdan başlangıç yapmayı seçebilir veya Müşteri adayından nakde çözümünün son sürümünü yükleyebilirsiniz. Bu makale, her iki yaklaşımı da kapsamaktadır.
 
 ## <a name="install-the-last-dorman-version-of-the-data-integrator-prospect-to-cash-solution"></a>Veri Tümleştirici Müşteri adayından nakde çözümünün son sürümünü yükleme
 
@@ -50,7 +50,7 @@ Aday müşteriden nakde verilerinizi Veri Tümleştiriciden çift yazmaya geçir
 5. Bir veya daha fazla tüzel kişilik için Finans ve Operasyon uygulamasıyla müşteri etkileşimi uygulaması arasında çift yazma bağlantısı oluşturun.
 6. Çift yazma tablo eşlemelerini etkinleştirin ve gerekli başvuru verileri için başlangıç eşitlemesini çalıştırın. (Daha fazla bilgi için bkz. [İlk eşitleme için dikkat edilecek hususlar](initial-sync-guidance.md).) Gerekli verilere örnek olarak müşteri grupları, ödeme koşulları ve ödeme zamanlamaları verilebilir. Hesap, teklif, teklif satırı, sipariş ve sipariş satırı tabloları gibi başlatma gerektiren tablolar için çift yazma eşlemelerini etkinleştirmeyin.
 7. Müşteri etkileşimi uygulamasında **Gelişmiş Ayarlar \> Sistem Ayarları \> Veri Yönetimi \> Yinelemeleri algılama kuralları**'na gidin ve tüm kuralları devre dışı bırakın.
-8. 2. adımda listelenen tabloları başlatın. Yönergeler için, bu konunun geri kalan bölümlerine bakın.
+8. 2. adımda listelenen tabloları başlatın. Yönergeler için, bu makalenin geri kalan bölümlerine bakın.
 9. Finans ve Operasyon uygulamasını açın ve hesap, teklif, teklif satırı, sipariş ve sipariş satırı tablo eşlemeleri gibi tablo eşlemelerini etkinleştirin. Ardından ilk eşitlemeyi çalıştırın. (Daha fazla bilgi için bkz. [İlk eşitleme için dikkat edilecek hususlar](initial-sync-guidance.md).) Bu işlem; Finans ve Operasyon uygulamasından işleme durumu, sevkiyat ve fatura adresleri, sahalar ve ambarlar gibi ek bilgileri eşitler.
 
 ## <a name="account-table"></a>Hesap tablosu
@@ -98,7 +98,7 @@ Aday müşteriden nakde verilerinizi Veri Tümleştiriciden çift yazmaya geçir
 
 ## <a name="quote-and-quote-product-tables"></a>Teklif ve Teklif ürünü tabloları
 
-**Teklif** tablosu için bu konunun önceki kısımlarında yer alan [Sipariş tablosu](#order-table) bölümündeki talimatları izleyin. **Teklif ürünü** tablosu için [Sipariş ürünleri tablosu](#order-products-table) bölümündeki talimatları izleyin.
+**Teklif** tablosu için bu makalenin önceki kısımlarında yer alan [Sipariş tablosu](#order-table) bölümündeki talimatları izleyin. **Teklif ürünü** tablosu için [Sipariş ürünleri tablosu](#order-products-table) bölümündeki talimatları izleyin.
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

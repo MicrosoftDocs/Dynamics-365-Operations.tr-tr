@@ -1,6 +1,6 @@
 ---
 title: Kullanılabilen bütçe fonları
-description: Bu konu, kullanılabilir bütçe fonları özelliğini tanıtır ve kuruluşunuzun mali kaynaklarının yönetimini en iyi duruma getirmek için bütçe denetimini yapılandırmanıza yardımcı olabilecek bilgiler sağlar.
+description: Bu makalede, kullanılabilir bütçe fonları özelliği tanıtılmaktadır ve kuruluşunuzun mali kaynaklarının yönetimini iyileştirmek için bütçe denetimini yapılandırmanıza yardımcı olabilecek bilgiler sağlanmaktadır.
 author: RyanCCarlson2
 ms.date: 11/22/2021
 ms.topic: article
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2021-11-28
 ms.dyn365.ops.version: AX 10.0.24
-ms.openlocfilehash: 1e7b2bf7ef7bd1bca6db27371f87dfddcdceef89
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b6f94931ba3514c1c66d80b64846d882861d555c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710263"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898254"
 ---
 # <a name="budget-funds-available"></a>Kullanılabilen bütçe fonları
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Bu konu, kullanılabilir bütçe fonları özelliğini tanıtır ve kuruluşunuzun mali kaynaklarının yönetimini en iyi duruma getirmek için bütçe denetimini yapılandırmanıza yardımcı olabilecek bilgiler sağlar.
+Bu makalede, kullanılabilir bütçe fonları özelliği tanıtılmaktadır ve kuruluşunuzun mali kaynaklarının yönetimini iyileştirmek için bütçe denetimini yapılandırmanıza yardımcı olabilecek bilgiler sağlanmaktadır.
 
 ## <a name="enhanced-calculation-feature-for-budget-funds-available"></a>Kullanılabilir bütçe fonları için geliştirilmiş hesaplama özelliği
 

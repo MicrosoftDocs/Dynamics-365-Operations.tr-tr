@@ -1,6 +1,6 @@
 ---
 title: Satırları aynı Excel sayfasında birlikte tutmak için ER biçimi tasarlama
-description: Bu konuda, aynı Microsoft Excel sayfasında satırları bir arada tutan Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı açıklanmaktadır.
+description: Bu makalede, aynı Microsoft Excel sayfasında satırları bir arada tutan Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-03-01
 ms.dyn365.ops.version: Version 10.0.26
-ms.openlocfilehash: 06782a4933fb5c3e86ad436b853f207fd3d5cddb
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: 98e6dd4f926908f65239f3e4f3608f9c9408f9d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612384"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854683"
 ---
 # <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>Satırları aynı Excel sayfasında birlikte tutmak için ER biçimi tasarlama
 
 [!include [banner](../includes/banner.md)]
 
 
-Bu konuda, Sistem Yöneticisi veya Elektronik Raporlama İşlevsel Danışmanı rolündeki kullanıcıların nasıl Microsoft Excel'de giden belgeler oluşturan ve oluşturulan satırların aynı sayfada kalmasını sağlayan belge sayfalandırma yönetimini sağlayan [Elektronik Raporlama (ER)](general-electronic-reporting.md) [biçimi](er-overview-components.md#format-component) oluşturulabileceği açıklanmaktadır.
+Bu makalede, Sistem Yöneticisi veya Elektronik Raporlama İşlevsel Danışmanı rolündeki kullanıcıların Microsoft Excel'de giden belgeler oluşturan ve oluşturulan satırların aynı sayfada kalmasını sağlayan belge sayfalandırma yönetimini sunan [Elektronik Raporlama (ER)](general-electronic-reporting.md) [biçiminin](er-overview-components.md#format-component) nasıl oluşturulabileceği açıklanmaktadır.
 
 Bu örnekte, Excel'de serbest metin faturalarını yazdırmak için kullanılan Microsoft tarafından sağlanan ER biçimini değiştirirsiniz. Değişiklikleriniz, oluşturulan serbest metin faturası raporunun sayfalandırmasını yönetmenizi sağlayacak ve böylece tek bir fatura satırının tüm satırları mümkün olduğunda aynı sayfada depolamasına imkan tanıyacak.
 
-Bu konudaki yordamlar **USMF** şirketinde tamamlanabilir. Kodlama gerekmez.
+Bu makaledeki yordamlar **USMF** şirketinde tamamlanabilir. Kodlama gerekmez.
 
 Bu örnekte, **Litware, Inc.** örnek şirketi için gerekli ER [yapılandırmalarını](general-electronic-reporting.md#Configuration) oluşturacaksınız. **Litware, Inc.** (`http://www.litware.com`) örnek şirketinin yapılandırma sağlayıcısının ER çerçevesinde listelendiğinden ve **Etkin** olarak işaretlendiğinden emin olun. Bu yapılandırma sağlayıcısı listede yoksa veya **Etkin** olarak işaretli değilse [Bir yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) konusundaki adımları izleyin.
 
@@ -73,7 +73,7 @@ Oluşturulan raporların PDF biçimine dönüştürülmesi ve yeni tarayıcı se
 
     ![Oluşturulan serbest metin faturasının sayfalandırmasını, Excel masaüstü uygulamasında gözden geçirme.](./media/er-keep-excel-rows-together-invoice1.gif)
 
-Bu konudaki geri kalan yordamlar, aynı sayfadaki tek bir fatura satırı için tüm içeriği saklayarak, fatura raporunun görünümünü ve okunabilirliğini iyileştirmek için standart ER biçimini nasıl ayarlayabileceğinizi gösterir.
+Bu makaledeki geri kalan yordamlar, aynı sayfadaki tek bir fatura satırı için tüm içeriği saklayarak, fatura raporunun görünümünü ve okunabilirliğini iyileştirmek için standart ER biçimini nasıl ayarlayabileceğinizi gösterir.
 
 ## <a name="create-a-custom-format"></a>Özel biçim oluşturma
 

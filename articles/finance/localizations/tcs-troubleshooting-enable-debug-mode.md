@@ -1,6 +1,6 @@
 ---
-title: Vergi hesaplama servisinde hata ayıklama modunu etkinleştir
-description: Bu konu, vergi hesaplama hizmetindeki hata ayıklama modunun sorunları araştırmak amacıyla nasıl etkinleştirileceğini açıklar.
+title: Vergi hesaplama servisinde hata ayıklama modunu etkinleştirme
+description: Bu makale, Vergi Hesaplama hizmetindeki hata ayıklama modunun sorunları araştırmak amacıyla nasıl etkinleştirileceğini açıklar.
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 2f526a2341c7ef682209ed979fe686e31ad62a37
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 2bb381939ebe32cb51caf730cdd441557d83a4c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645451"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887804"
 ---
-# <a name="enable-debug-mode-in-the-tax-calculation-service"></a>Vergi hesaplama servisinde hata ayıklama modunu etkinleştir
+# <a name="enable-debug-mode-in-the-tax-calculation-service"></a>Vergi hesaplama servisinde hata ayıklama modunu etkinleştirme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, vergi hesaplama hizmetindeki hata ayıklama modunun sorunları araştırmak amacıyla nasıl etkinleştirileceğini açıklar.
+Bu makale, Vergi Hesaplama hizmetindeki hata ayıklama modunun sorunları araştırmak amacıyla nasıl etkinleştirileceğini açıklar.
 
 1. Uygulama Nesne Sunucusunun (AOS) URL'sine **&debug=vs%2CconfirmExit&** ekleyin ve sayfayı yenileyin.
 2. Satış vergisini hesaplarken, **Satış vergisini** seçtiğinizde **TaxServiceTroubleshootingLog.txt** adlı bir metin dosyası açılır. **TaxServiceTroubleshootingLog.txt** dosyası, **TaxableDocument** ve hesaplama parametresini içerir. Bu sonuçlar, arıza çözüm için vergi servisi ve özel durum bilgileri tarafından döndürülür.

@@ -1,6 +1,6 @@
 ---
 title: Şirketlerarası muhasebeyi ayarlama
-description: Bu konu, defter tahsisatları ve mali günlükleri, örneğin günlük günlükler, satıcı faturası günlükleri ve ödeme günlükleri gibi şirketlerarası günlükleri kullanabilmeniz için şirketlerarası muhasebeyi ayarlamayı açıklar.
+description: Bu makalede, defter tahsisatları ve mali günlükler (ör. günlük günlükler, satıcı faturası günlükleri ve ödeme günlükleri) için şirketlerarası günlükleri kullanabilmek üzere şirketlerarası muhasebenin nasıl ayarlanacağı açıklanmaktadır.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c9914d9fff3407d8d469fe2ed27a9bfd6b26a50
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 309c121c1ef4b3814d676cad6f3c2b6826b59843
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720379"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871231"
 ---
 # <a name="intercompany-accounting-setup"></a>Şirketlerarası muhasebeyi ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, defter tahsisatları ve mali günlükleri, örneğin günlük günlükler, satıcı faturası günlükleri ve ödeme günlükleri gibi şirketlerarası günlükleri kullanabilmeniz için şirketlerarası muhasebeyi ayarlamayı açıklar.
+Bu makalede, defter tahsisatları ve mali günlükler (ör. günlük günlükler, satıcı faturası günlükleri ve ödeme günlükleri) için şirketlerarası günlükleri kullanabilmek üzere şirketlerarası muhasebenin nasıl ayarlanacağı açıklanmaktadır.
 
 Şirketler arası günlükler günlük günlükler, satıcı faturası günlükleri, genel muhasebe tahsisatları ve merkezi ödemeler vb. gibi çeşitli senaryolarda oluşturulabilir. Bu senaryoları etkinleştirmek için şirketler arası muhasebeyi kurmanız gerekir.
 

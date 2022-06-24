@@ -1,6 +1,6 @@
 ---
 title: Not tümleştirmesi
-description: Bu konu çift yazmada not verisinin tümleştirmesini açıklar.
+description: Bu makalede, not verilerinin çift yazmada tümleştirilmesi açıklanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 02/22/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c73da804d724ea75ae6ccd479d1b7f3cf02d48c4
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8e1444aa311bb2dc74705a3791e58c3187ecd8ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062787"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876729"
 ---
 # <a name="note-integration"></a>Not tümleştirmesi
 
@@ -22,7 +22,7 @@ ms.locfileid: "8062787"
 
 
 
-İş süreçleri sırasında, Microsoft Dynamics 365 kullanıcıları genellikle müşterileri hakkında bilgi toplar. Bu bilgiler aktiviteler ve notlar olarak kaydedilir. Bu konu çift yazmada not verisinin tümleştirmesini açıklar.
+İş süreçleri sırasında, Microsoft Dynamics 365 kullanıcıları genellikle müşterileri hakkında bilgi toplar. Bu bilgiler aktiviteler ve notlar olarak kaydedilir. Bu makalede, not verilerinin çift yazmada tümleştirilmesi açıklanmaktadır.
 
 Müşteri bilgileri aşağıdaki yollarla sınıflandırılabilir:
 

@@ -1,6 +1,6 @@
 ---
 title: Uzantıları kullanarak vergi tümleştirmesine veri alanları ekleme
-description: Bu konu, vergi tümleştirmesinde veri alanları eklemek için X++ uzantılarının nasıl kullanılacağını açıklar.
+description: Bu makale, vergi tümleştirmesinde veri alanları eklemek için X++ uzantılarının nasıl kullanılacağını açıklar.
 author: qire
 ms.date: 04/27/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 184012dcc0b68e017bb28d8d73caa9e8415bdbfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695402"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871063"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Uzantı kullanarak vergi tümleştirmesine veri alanları ekleme
 
 [!include [banner](../includes/banner.md)]
 
 
-Bu konu, vergi tümleştirmesinde veri alanları eklemek için X++ uzantılarının nasıl kullanılacağını açıklar. Bu alanlar vergi hizmetinin vergi veri modeline genişletilebilir ve vergi kodlarını belirlemek için kullanılabilir. Daha fazla bilgi için, bkz. [Vergi yapılandırmalarında veri alanları ekleme](tax-service-add-data-fields-tax-configurations.md).
+Bu makale, vergi tümleştirmesinde veri alanları eklemek için X++ uzantılarının nasıl kullanılacağını açıklar. Bu alanlar vergi hizmetinin vergi veri modeline genişletilebilir ve vergi kodlarını belirlemek için kullanılabilir. Daha fazla bilgi için, bkz. [Vergi yapılandırmalarında veri alanları ekleme](tax-service-add-data-fields-tax-configurations.md).
 
 ## <a name="data-model"></a>Veri modeli
 
@@ -359,7 +359,7 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 Bu kodda, `_destination` isteğini oluşturmak için kullanılan sarmalayıcı nesnedir ve `_source` `TaxIntegrationLineObject` nesnesidir.
 
 > [!NOTE]
-> Talepte kullanılan alan adını **private const str** olarak tanımlayın. Dize tam olarak konuda eklenen düğüm (etiket değil) aynı olmalıdır, [Vergi yapılandırmalarına veri alanları ekleme](tax-service-add-data-fields-tax-configurations.md).
+> Talepte kullanılan alan adını **private const str** olarak tanımlayın. Dize tam olarak [Vergi yapılandırmalarına veri alanları ekleme](tax-service-add-data-fields-tax-configurations.md) makalesinde eklenen düğüm adı (etiket değil) ile aynı olmalıdır.
 > 
 > **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** yönetimdeki alanı **SetField** yöntemi kullanarak ayarlayın. İkinci parametrenin veri türü **string** olmalıdır. Veri türü **string** değilse dizeye dönüştürün.
 > Veri türü X++ **sabit liste türünde** ise, sabit liste değerini bir dizeye dönüştürmek için **enum2Symbol** yöntemini kullanmanızı öneririz. Vergi yapılandırmasına eklenen sabit liste değeri tam olarak numaralandırma adı ile aynı olmalıdır. Aşağıda, sabit liste değeri, etiketi ve adı arasındaki farklılıkların bir listesi verilmiştir.

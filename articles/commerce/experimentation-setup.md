@@ -1,30 +1,24 @@
 ---
 title: Deneme ayarlama
-description: Bu konuda, üçüncü taraf bir hizmette deneme ayarlamanın nasıl yapılacağı anlatılmaktadır.
+description: Bu makalede, üçüncü taraf bir hizmette deneme ayarlamanın nasıl yapılacağı anlatılmaktadır.
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/08/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 870bcb9cc63fd4dbf6d7b40d730edfad7783540d5d943896e0129d29572fa875
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1073cdc509622279ce7388b8b406079a4e6e9e09
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769407"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946210"
 ---
 # <a name="set-up-an-experiment"></a>Deneme ayarlama
 
-[Bir varsayım tanımladıktan ve hangi başarı ölçümlerini kullanmak istediğinizi belirledikten](experimentation-identify.md) sonra üçüncü taraf hizmette denemenizi ayarlamanız gerekir. Aşağıdaki diyagramda, Dynamics 365 Commerce'taki bir e-Ticaret web sitesinde deneme ayarlama ve çalıştırmayla ilgili tüm adımlar gösterilmektedir. Ek adımlar ayrı konularda ele alınmıştır.
+[Bir varsayım tanımladıktan ve hangi başarı ölçümlerini kullanmak istediğinizi belirledikten](experimentation-identify.md) sonra üçüncü taraf hizmette denemenizi ayarlamanız gerekir. Aşağıdaki diyagramda, Dynamics 365 Commerce'taki bir e-Ticaret web sitesinde deneme ayarlama ve çalıştırmayla ilgili tüm adımlar gösterilmektedir. Ek adımlar ayrı makalelerde ele alınmıştır.
 
 [ ![Deneme kullanıcı yolculuğu - Ayarlama.](./media/experimentation_setup.svg) ](./media/experimentation_setup.svg#lightbox)
 
@@ -37,13 +31,55 @@ Artık denemenizi çalıştırmak ve izlemek için üçüncü taraf hizmetinizi 
 ## <a name="set-up-your-success-metrics"></a>Başarı ölçümlerinizi ayarlama
 Her deneme varyasyonların etkisini ölçmek ve varsayımı doğrulamak için ölçümlere gereksinim duyar. Dynamics 365 Commerce'taki canlı telemetri olaylarını kullanarak üçüncü taraf hizmetindeki ölçümlerin hesaplanmasını sağlamak için aşağıdaki adımları izleyin.
 
-Başarı ölçümlerinizi ayarlamak için aşağıdaki adımları takip edin.
+Kullanıma hazır modüllerin başarı ölçümlerini ayarlamak için aşağıdaki adımları izleyin.
 
 1. Commerce site oluşturucuda sol gezinti bölmesinde **Sayfalar** sekmesini seçin ve sonra ölçümleri toplamak istediğiniz sayfayı seçin. 
 1. İzlemek istediğiniz sayfanın veya modülün sağ özellik bölmesindeki **İzlenecek olay kimlikleri** bölümüne gidin.
-1. **Görüntüle**'yi seçin. Tüm olay kimliklerinin listesi görüntülenir. İzlemek istediğiniz olayı kopyalayın ve olay anahtarını üçüncü taraf hizmetinde belirtilen konuma yapıştırın. Birden fazla olaya gereksinim duyarsanız, anahtarları tek tek kopyalayın. 
-    - Sayfa görünümleri ve gelir izleme dahil tüm kullanılabilir olay ve özniteliklerin nasıl görüntüleneceğini öğrenmek için bkz. [Tanılama ve sorun giderme için Commerce bileşeni olayları](dev-itpro/retail-component-events-diagnostics-troubleshooting.md).
+1. **Görüntüle**'yi seçin. Tüm tıklama olayı kimliklerinin listesi görüntülenir. İzlemek istediğiniz olayı kopyalayın ve ardından olay anahtarını üçüncü taraf hizmetinde belirtilen konuma yapıştırın. Birden fazla olaya gereksinim duyarsanız, anahtarları tek tek kopyalayın. 
+1. Sayfa görüntülemeler için site oluşturucuda `.PageView` ifadesinin ekli olduğu sayfa adının SHA-256 karma değerini kullanın. Örneğin, `Homepage.PageView` için olay kimliği  `e217eb66c7808ecc43b0f5c517c6a83b39d72b91412fbd54a485da9d8e186a9` olur.
 1. Üçüncü taraf hizmetinde, ölçümleri izlemek için diğer adımları uygulayın.
+
+Özel modül tıklamaları için tıklama olaylarını eklemek üzere aşağıdaki adımları izleyin:
+
+1. Aşağıdaki işlevi kullanarak modül için bir **TelemetryContent** nesnesi hazırlayın. Bu işlev sayfa adı, modül adı ve SDK tarafından sağlanan varsayılan telemetri nesnesini giriş olarak alır.
+
+    ```TypeScript
+    getTelemetryObject(pageName: string, moduleName: string, telemetry: ITelemetry): ITelemetryContent
+    ```
+    
+    Aşağıda bir örnek verilmiştir: 
+    
+    ```TypeScript
+    private readonly telemetryContent: ITelemetryContent = getTelemetryObject(this.props.context.request.telemetryPageName!, this.props.friendlyName, this.props.telemetry);
+    ```
+    
+1. Yakalanması gereken bilgiler içeren yük verilerini oluşturun. Düğmeler ve diğer statik denetimler için "Hemen alışveriş yapın" veya "Arama yapın" gibi **etext** dahil edebilirsiniz. Ürün kartına tıklama gibi, tıklamalar içeren bileşenler için ürünün kayıt kimliği olan **recid** değerini veya ürün kimliğini gönderebilirsiniz.
+
+    ```TypeScript
+    getPayloadObject(eventType: string, telemetryContent: ITelemetryContent, etext: string, recid?: string): IPayLoad
+    ```
+    Statik denetimlere örnek olarak, düğme metin dizesini aşağıda gösterildiği gibi aktarın:
+
+    ```TypeScript
+    const payLoad = getPayloadObject('click', this.props.telemetryContent, 'Shop Now', '');
+    ```
+    Ürün tıklamalarına örnek olarak, aşağıda gösterildiği gibi ürün RecordID değerini aktarın:
+
+    ```TypeScript
+    const payLoad = getPayloadObject('click', telemetryContent!, '', product.RecordId.toString());
+    ```
+    
+1. Olayı kaydetmek için **OnClick** işlevini çağırın.
+
+    ```TypeScript
+    onTelemetryClick = (telemetryContent: ITelemetryContent, payLoad: IPayLoad, linkText: string) => () =>
+    ```
+
+    Aşağıda bir örnek verilmiştir:
+
+    ```TypeScript
+    onClick: onTelemetryClick(this.props.telemetryContent, payLoad, linkText)
+    ```
 
 ## <a name="previous-step"></a>Önceki adım
 [Varsayım tanımlama ve deneme için ölçümleri belirleme](experimentation-identify.md) 

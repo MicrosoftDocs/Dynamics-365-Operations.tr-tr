@@ -1,6 +1,6 @@
 ---
 title: Norveç için yazar kasalara ilişkin dağıtım kılavuzları
-description: Bu konu, Norveç için Microsoft Dynamics 365 Commerce yerelleştirmesine yönelik yazar kasa işlevini etkinleştirme ile ilgili yönergeler sağlar.
+description: Bu makale, Norveç için Microsoft Dynamics 365 Commerce yerelleştirmesine yönelik yazar kasa işlevini etkinleştirme ile ilgili yönergeler sağlar.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: f0744b18ed59c692ae336c92e488d339ae158368
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 1f2226432237662e28b9e26017020ab81bb6026b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077152"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899079"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>Norveç için yazar kasalara ilişkin dağıtım kılavuzları
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, Norveç için Microsoft Dynamics 365 Commerce yerelleştirmesine yönelik yazar kasa işlevini etkinleştirme ile ilgili yönergeler sağlar. Yerelleştirme, çeşitli bileşen uzantılarından oluşur. Bu uzantılar; makbuzlara özel alanlar yazdırma, satış noktasına (POS) ek denetim olayları, satış hareketleri ve ödeme hareketleri kaydetme, satış hareketlerini dijital olarak imzalama ve raporları yerel biçimlerde yazdırma gibi eylemleri gerçekleştirmenize olanak sağlar. Norveç yerelleştirmesi hakkında daha fazla bilgi için bkz. [Norveç için yazar kasa işlevi](./emea-nor-cash-registers.md). Norveç için Commerce'ı ayarlama hakkında daha fazla bilgi için bkz. [Norveç için Commerce'ı ayarlama](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
+Bu makale, Norveç için Microsoft Dynamics 365 Commerce yerelleştirmesine yönelik yazar kasa işlevini etkinleştirme ile ilgili yönergeler sağlar. Yerelleştirme, çeşitli bileşen uzantılarından oluşur. Bu uzantılar; makbuzlara özel alanlar yazdırma, satış noktasına (POS) ek denetim olayları, satış hareketleri ve ödeme hareketleri kaydetme, satış hareketlerini dijital olarak imzalama ve raporları yerel biçimlerde yazdırma gibi eylemleri gerçekleştirmenize olanak sağlar. Norveç yerelleştirmesi hakkında daha fazla bilgi için bkz. [Norveç için yazar kasa işlevi](./emea-nor-cash-registers.md). Norveç için Commerce'ı ayarlama hakkında daha fazla bilgi için bkz. [Norveç için Commerce'ı ayarlama](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
 
 > [!WARNING]
 > [Yeni bağımsız paketleme ve uzantı modelinin](../dev-itpro/build-pipeline.md) sınırlamaları nedeniyle bu yerelleştirme örneği için şu anda kullanılamaz. Norveç için dijital imzalama örneği sürümünü, Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) bulunan Retail yazılım geliştirme setinin (SDK) önceki sürümünde kullanmanız gerekir. Daha fazla bilgi için bkz. [Norveç için yazar kasalara ilişkin dağıtım kılavuzları (eski)](./emea-nor-loc-deployment-guidelines.md).

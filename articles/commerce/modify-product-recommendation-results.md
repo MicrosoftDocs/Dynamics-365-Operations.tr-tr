@@ -1,6 +1,6 @@
 ---
 title: AI-ML tabanlı ürün önerisi sonuçlarını ayarlama
-description: Bu konu, yapay zeka makine öğrenme (AI-ML) tabanlı ürün öneri sonuçlarının işletmenize nasıl uyarlanacağını açıklamaktadır.
+description: Bu makale, yapay zeka makine öğrenme (AI-ML) tabanlı ürün öneri sonuçlarının işletmenize nasıl uyarlanacağını açıklamaktadır.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5374b2ce559134bd26036b06ac6d96a9f5510ab847544707fc9885506aaab547
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d74fa013d44e0f113bdf0ce0ca9efeb943926e9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748534"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901714"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>AI-ML tabanlı ürün önerisi sonuçlarını ayarlama
 
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, yapay zeka makine öğrenme (AI-ML) tabanlı ürün öneri sonuçlarının işletmeniz için nasıl ayarlanacağını açıklamaktadır. 
+Bu makale, yapay zeka makine öğrenme (AI-ML) tabanlı ürün öneri sonuçlarının işletmeniz için nasıl ayarlanacağını açıklamaktadır. 
 
 Ürün önerilerini etkinleştirdikten sonra, varsayılan ayarlar etkili olur; Bu parametreler birçok gereksinim için çalışır. Sonuçların satış hareketi ile uyumlu olup olmadıklarını değerlendirmek için bir zaman harcamaya plan yapmak en iyisidir. Yeniden test etmeden önce parametreleri değiştirmeden önce, birkaç gün için sonuçları değerlendirme öneriyoruz. 
 

@@ -1,6 +1,6 @@
 ---
 title: Kapatmaya genel bakış
-description: Bu konuda kapatma süreci hakkında genel bilgiler verilmiştir. Hangi hareket türlerinin kapatılabileceğini, bunları kapatmaya yönelik zamanlamayı ve işlemi açıklar. Ayrıca, kapatma işleminin sonuçlarını da açıklar.
+description: Bu makalede kapatma süreci hakkında genel bilgiler verilmiştir. Hangi hareket türlerinin kapatılabileceğini, bunları kapatmaya yönelik zamanlamayı ve işlemi açıklar. Ayrıca, kapatma işleminin sonuçlarını da açıklar.
 author: panolte
 ms.date: 07/30/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e1992019570129461f3ecdd5479a87bafd8aeacb
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a495a71a95032a0022cbab2783f356db48ee349d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724911"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887962"
 ---
 # <a name="settlement-overview"></a>Kapatmaya genel bakış
 
@@ -30,7 +30,7 @@ ms.locfileid: "8724911"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-Bu konuda kapatma süreci hakkında genel bilgiler verilmiştir. Hangi hareket türlerinin kapatılabileceğini, bunları kapatmaya yönelik zamanlamayı ve işlemi açıklar. Ayrıca, kapatma işleminin sonuçlarını da açıklar.
+Bu makalede kapatma süreci hakkında genel bilgiler verilmiştir. Hangi hareket türlerinin kapatılabileceğini, bunları kapatmaya yönelik zamanlamayı ve işlemi açıklar. Ayrıca, kapatma işleminin sonuçlarını da açıklar.
 
 Kapatma sırasında, her bir belgenin bakiyesini artırmak veya azaltmak için bir belgedeki hareketler diğer belgelerdeki hareketlere uygulanır. Örneğin, bir faturaya bir ödeme uygulanabilir. Çeşitli hareket türleri farklı zamanlarda ve farklı yöntemlerle kapatılabilir. Kapatma işlemi yeni hareketler de oluşturabilir.
 

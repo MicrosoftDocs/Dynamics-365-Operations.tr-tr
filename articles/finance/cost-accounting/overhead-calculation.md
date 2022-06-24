@@ -1,6 +1,6 @@
 ---
 title: Genel gider hesaplaması
-description: Bu konu, genel gider maliyetlerinin hesaplanması için tipik işlemleri açıklar.
+description: Bu makalede, genel gider maliyetlerinin hesaplanması için tipik işlemler açıklanmaktadır.
 author: AndersGirke
 ms.date: 10/04/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9d704268f481fdf377033740f727e5d581a8c510
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 9322fb5237afdbf73147bb549eb3f70929c46ce2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882005"
 ---
 # <a name="overhead-calculation"></a>Genel gider hesaplaması
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, genel gider maliyetlerinin hesaplanması için tipik işlemleri açıklar.
+Bu makalede, genel gider maliyetlerinin hesaplanması için tipik işlemler açıklanmaktadır.
 
 ## <a name="term-definition"></a>Terim tanımı
 
@@ -1336,7 +1336,7 @@ Sabit maliyet | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |  |  | 776.36 | 223.64 | 1,000
 Değişken maliyet | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30.00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
 
 > [!NOTE]
-> Bu konu, birincil maliyet öğesi, 10001 Elektrik'in maliyet nesneleri arasında nasıl aktığını gösterir. Bu nedenle, bu genel gider maliyeti kuruluşun en düşük seviyesine tahsis edilir. Başka bir deyişle, maliyet en alt düzeydeki maliyet nesnelerine aittir. Maliyetin, maliyet nesneleri arasında görsel bir akışına ihtiyacınız varsa, maliyetin akışını görselleştirmek için maliyet toplamı ilke kurallarını kullanabilirsiniz. Daha fazla bilgi için bkz. [Maliyet yuvarlama ilkesi ve genel gider hesaplaması](cost-rollup.md).
+> Bu makalede, birincil maliyet öğesi, 10001 Elektrik'in maliyet nesneleri arasında nasıl aktığı gösterilmektedir. Bu nedenle, bu genel gider maliyeti kuruluşun en düşük seviyesine tahsis edilir. Başka bir deyişle, maliyet en alt düzeydeki maliyet nesnelerine aittir. Maliyetin, maliyet nesneleri arasında görsel bir akışına ihtiyacınız varsa, maliyetin akışını görselleştirmek için maliyet toplamı ilke kurallarını kullanabilirsiniz. Daha fazla bilgi için bkz. [Maliyet yuvarlama ilkesi ve genel gider hesaplaması](cost-rollup.md).
 
 
 

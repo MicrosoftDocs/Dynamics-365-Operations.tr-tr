@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e3476f1f25ac01d8740cce0442ac48ef25101a0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f7f15c0f15302c271fac7199b21b7bcd3dcfe88a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574317"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903883"
 ---
 # <a name="credit-limits-for-customers"></a>Müşteriler için kredi limitleri
 
@@ -126,7 +126,7 @@ Bu formda değişiklikler yapmak için Sistem yöneticisi (-SYSADMIN-) güvenlik
 4.  Gerekirse, bir lisans numarası veya diğer resmi kurum tarafından verilmiş kimliği **Resmi kimlik** alanına girin.
 
 > [!NOTE]
-> **Alacak hesapları parametreleri** formunda, kredi limiti türü genellikle seçilmiştir. Ancak, kredi limiti türü **Hiçbir** olarak ayarlanmışsa, müşterinin kredi limitini, müşterinin bakiyesiyle kıyaslamak için **Zorunlu kredi limiti** onay kutusunu **Müşteriler** formunda seçmelisiniz. Kredi limiti türleri hakkında daha fazla bilgi için bkz: "Hangi belgeler ve işlemler için kredi limitini denetleyebilirim?" bu konuda 
+> **Alacak hesapları parametreleri** formunda, kredi limiti türü genellikle seçilmiştir. Ancak, kredi limiti türü **Hiçbir** olarak ayarlanmışsa, müşterinin kredi limitini, müşterinin bakiyesiyle kıyaslamak için **Zorunlu kredi limiti** onay kutusunu **Müşteriler** formunda seçmelisiniz. Kredi limiti türleri hakkında daha fazla bilgi için bu makaledeki "Hangi belgeler ve işlemler için kredi limitini denetleyebilirim?" bölümüne bakın. 
 
 **Satış siparişlerinde kredi limitlerini el ile nasıl kontrol ederim?**
 

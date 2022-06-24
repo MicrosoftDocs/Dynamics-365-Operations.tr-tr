@@ -1,6 +1,6 @@
 ---
-title: Hindistan Kaynakta Kesilen Vergi'ye (TDS) genel bakış
-description: Bu konu, Hindistan Kaynakta Kesilen Vergi (TDS) hakkında ayrıntılı bilgiler sağlar. TDS belgeleri, bu özelliğin işlevselliğini kapsamaktadır.
+title: Hindistan için Kaynakta Kesilen Vergiye (TDS) genel bakış
+description: Bu makalede, Hindistan'da Kaynakta Kesilen Vergi (TDS) hakkında ayrıntılı bilgiler sağlanmaktadır. TDS belgeleri, bu özelliğin işlevselliğini kapsamaktadır.
 author: kailiang
 ms.date: 03/19/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 0947481f27323a53d5ef9c7295d8dda078fb4254
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 7ddcf11013921b5d5e242c9026d332d319ed8169
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720210"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896297"
 ---
-# <a name="indian-tax-deducted-at-source-tds-overview"></a>Hindistan Kaynakta Kesilen Vergi'ye (TDS) genel bakış
+# <a name="indian-tax-deducted-at-source-tds-overview"></a>Hindistan için Kaynakta Kesilen Vergiye (TDS) genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Hindistan Kaynakta Kesilen Vergi (TDS) hakkında ayrıntılı bilgiler sağlar.
+Bu makalede, Hindistan'da Kaynakta Kesilen Vergi (TDS) hakkında ayrıntılı bilgiler sağlanmaktadır.
 
 TDS belgeleri, bu özelliğin işlevselliğini kapsamaktadır. Ayrıca, TDS için temel kurulum yapma, hareketlerde TDS hesaplama, TDS kapatma işlecini tamamlama, TDS sertifika numaralarını kaydetme ve TDS sorguları, TDS deyimleri ve TDS sertifikaları oluşturma gibi konuları açıklar. Belgeler, aşağıdaki konuları içerir:
 

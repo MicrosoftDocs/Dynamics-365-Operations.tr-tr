@@ -1,6 +1,6 @@
 ---
 title: Otomatik olarak ön ödemeleri satıcı faturalarına uygula
-description: Bu konu, satıcı faturalarına ön ödemelerin otomatik olarak uygulanması yeteneğini açıklamaktadır.
+description: Bu makalede, satıcı faturalarına ön ödemelerin otomatik olarak uygulanması özelliği açıklanmaktadır.
 author: sunfzam
 ms.date: 10/19/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8583962c41a7ac5e27463f325ddc2ccd367331cc
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: 547573d187460a900df7f4927ac062bd9d456729
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358231"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900085"
 ---
 # <a name="automatically-apply-to-vendor-invoices"></a>Otomatik olarak satıcı faturalarına uygula
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, satıcı faturalarına ön ödemelerin otomatik olarak uygulanması yeteneğini açıklamaktadır. Bir ön ödeme, satınalma sözleşmesinin bir parçası olarak bir satınalma siparişi için oluşturulabilir. Bir satıcı faturası alındıktan sonra, borç hesaplarını kapatmak için satıcı faturasından kullanılabilir. Yeni özellik, satıcı faturası içe aktarıldığında sistemin ilgili peşinatlar aramak için bir satıcı faturasında satınalma siparişi numaralarının otomatik olarak kullanılmasına olanak tanır.
+Bu makalede, satıcı faturalarına ön ödemelerin otomatik olarak uygulanması özelliği açıklanmaktadır. Bir ön ödeme, satınalma sözleşmesinin bir parçası olarak bir satınalma siparişi için oluşturulabilir. Bir satıcı faturası alındıktan sonra, borç hesaplarını kapatmak için satıcı faturasından kullanılabilir. Yeni özellik, satıcı faturası içe aktarıldığında sistemin ilgili peşinatlar aramak için bir satıcı faturasında satınalma siparişi numaralarının otomatik olarak kullanılmasına olanak tanır.
 
 Ön ödemeler bulunursa ve uygulanabiliyorsa, ön ödemeleri uygulamak için satırlar mevcut fatura satırlarına eklenir. Peşinat satırları fatura eşleştirme sürecinde hiçbir zaman dikkate alınmazlar.
 

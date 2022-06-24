@@ -1,6 +1,6 @@
 ---
 title: Günlüklerde ertelenen vergi hesaplamasını etkinleştirme
-description: Bu konu, günlük satırlarının sayısı çok fazla olduğunda vergi hesaplama performansını artırmaya yardımcı olmak için Ertlenen vergi hesaplaması özelliğinin nasıl etkinleştirileceğini açıklamaktadır.
+description: Bu makalede, günlük satırlarının sayısı çok fazla olduğunda vergi hesaplama performansını artırmaya yardımcı olmak için Ertelenen vergi hesaplaması özelliğinin nasıl etkinleştirileceği açıklanmaktadır.
 author: EricWang
 ms.date: 09/18/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: fddb6d3a9850b8f2f88f813f9591006637c7e535
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 02a038318d4c0fb44b6fcc4bb159ea87c2e9368a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713148"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887933"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Günlüklerde ertelenen vergi hesaplamasını etkinleştirme
 [!include [banner](../includes/banner.md)]
 
 
-Bu konu, günlüklerde satış vergisi hesaplamasını nasıl erteleyebileceğinizi açıklamaktadır. Bu özellik, birçok günlük satırı olduğunda vergi hesaplamalarında performansın artırılmasına yardımcı olur.
+Bu makalede, günlüklerde satış vergisi hesaplamasını nasıl erteleyebileceğiniz açıklanmaktadır. Bu özellik, birçok günlük satırı olduğunda vergi hesaplamalarında performansın artırılmasına yardımcı olur.
 
 Varsayılan olarak, vergiyle ilgili alanlar her güncelleştirildiğinde, günlük satırlarındaki satış vergisi tutarları hesaplanır. Bu alanlar, satış vergisi grupları ve madde satış vergisi grupları için alanlar içerir. Günlük satırındaki her güncelleştirme vergi tutarlarının tüm günlük satırlarında yeniden hesaplanmasını sağlar. Bu davranış kullanıcının gerçek zamanlı olarak hesaplanan vergi tutarlarının görebilmesine yardımcı olmakla birlikte, günlük satırlarının sayısı çok büyükse performansı da etkileyebilir.
 

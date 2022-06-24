@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Service (RCS) - RCS ortamını silme
-description: Bu konu, Regulatory Configuration Service (RCS) sistem yöneticisinin bir RCS ortamını ve ilgili verileri nasıl silebileceğini açıklamaktadır.
+description: Bu makalede, Regulatory Configuration Service (RCS) sistem yöneticisinin bir RCS ortamını ve ilgili verileri nasıl silebileceği açıklanmaktadır.
 author: JaneA07
 ms.date: 06/14/2021
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: f9073a14143423676f23f9bf8dc9c17dbae18a6c3ad0d2f6d1e33919fd9162bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21e7ee546bb2b712d9424c6bd95e9f9227831bd1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759831"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908904"
 ---
 # <a name="regulatory-configuration-service-rcs---delete-an-rcs-environment"></a>Regulatory Configuration Service (RCS) - RCS ortamını silme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Regulatory Configuration Service (RCS) sistem yöneticisinin bir RCS ortamını ve ilgili verileri nasıl silebileceğini açıklamaktadır.
+Bu makalede, Regulatory Configuration Service (RCS) sistem yöneticisinin bir RCS ortamını ve ilgili verileri nasıl silebileceği açıklanmaktadır.
 
-Bu konudaki yordamı tamamlamadan önce, aşağıdaki önkoşulların yerine getirilmesi gerekir:
+Bu makaledeki yordamı tamamlamadan önce, aşağıdaki ön koşulların yerine getirilmesi gerekir:
 
 - RCS ortamı için size **Sistem yöneticisi** rolü atanmış olması gerekir.
 - **Sistem Yöneticisi** rolüne **RCSDeleteEnvironmentDuty** rolü atanmış olmalıdır.

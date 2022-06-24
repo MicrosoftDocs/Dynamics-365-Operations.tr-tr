@@ -1,6 +1,6 @@
 ---
 title: Makine öğrenimi modellerinin sonuçları
-description: Bu konuda, makine öğrenimi (ML) modellerindeki karışıklık matrisleri, sınıflandırma problemleri ve doğruluk konuları ele alınmaktadır. Amaç, ML tahmin sonuçlarındaki doğruluğu daha iyi anlamanıza yardımcı olmaktır.
+description: Bu makalede, makine öğrenimi (ML) modellerindeki karışıklık matrisleri, sınıflandırma problemleri ve doğruluk konuları ele alınmaktadır. Amaç, ML tahmin sonuçlarındaki doğruluğu daha iyi anlamanıza yardımcı olmaktır.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c57a023995e0bb58d4fba0a4fd2f147d07e51348
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 23df5979231fbd6908b6f1e7c3aca5dd3e0e733d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725974"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910185"
 ---
 # <a name="results-of-machine-learning-models"></a>Makine öğrenimi modellerinin sonuçları
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, makine öğrenimi (ML) modellerindeki karışıklık matrisleri, sınıflandırma problemleri ve doğruluk konuları ele alınmaktadır. Amaç, ML tahmin sonuçlarındaki doğruluğu daha iyi anlamanıza yardımcı olmaktır. Hedef kitle, veri bilimi alanında bilgi ve becerilerini geliştirmek isteyen mühendisleri, analistleri ve yöneticileri kapsar.
+Bu makalede, makine öğrenimi (ML) modellerindeki karışıklık matrisleri, sınıflandırma problemleri ve doğruluk konuları ele alınmaktadır. Amaç, ML tahmin sonuçlarındaki doğruluğu daha iyi anlamanıza yardımcı olmaktır. Hedef kitle, veri bilimi alanında bilgi ve becerilerini geliştirmek isteyen mühendisleri, analistleri ve yöneticileri kapsar.
 
 ## <a name="confusion-matrix"></a>Karışıklık matrisi
 Denetlenen bir ML problemi belirli bir geçmiş veriler kümesinde eğitildikten sonra eğitim sürecinde kullanılmayan verilerle test edilir. Bu şekilde, eğitilen modellerdeki tahminleri gerçek değerlerle karşılaştırabilirsiniz. Karışıklık matrisi, bir sınıflandırma probleminin başarısını ve hata yaptığı yerleri ("karışıklık" oluşan yerleri) değerlendirme yöntemi sunar.
@@ -73,7 +73,7 @@ Doğruluk, istatistiklere aşina olmayan etki alanı uzmanlarıyla iletişim kur
 
 Ödeme tahmini senaryosu için, farklı ödeme davranışlarıyla ilgili faktörleri içeren bir ML modeli hedefi belirleyebilirsinzi. Hedef, modelin yanlış sayısını en az yüzde 50 azaltarak basit bir tahmini geliştirmesidir. Diğer bir ifadeyle, basit bir tahminin doğruluğuyla yüzde 100 arasındaki farkı yarıya bölen bri hedef doğruluğu istiyorsunuz.
 
-Aşağıdaki tabloda bu konudaki karışıklık matrisleri için bu ilke özetlenmiştir.
+Aşağıdaki tabloda bu makaledeki karışıklık matrisleri için bu ilke özetlenmiştir.
 
 | Model   | Basit tahmin | Hedef | Model doğruluğu | Hedefe ulaşıldı mı?                                          |
 |---------|-------------|--------|----------------|-----------------------------------------------------------|
@@ -82,7 +82,7 @@ Aşağıdaki tabloda bu konudaki karışıklık matrisleri için bu ilke özetle
 
 ## <a name="classification-f1-accuracy"></a>Sınıflandırma F1 doğruluğu
 
-Bu konuda dikkate alınması gereken en son husus, sınıflandırma ML performansının daha gelişmiş bir ölçümü olan F1 doğruluğudur.
+Bu makalede dikkate alınması gereken en son husus, sınıflandırma ML performansının daha gelişmiş bir ölçümü olan F1 doğruluğudur.
 
 F1 doğruluğunu tanımlamadan önce iki ek ölçüm açıklanmalıdır: duyarlık ve yakalama. Duyarlık, pozitif olarak belirtilen toplam tahmin sayısından kaç tanesinin doğru atandığını gösterir. Bu ölçüm pozitif tahmine dayalı değer olarak da bilinir. Yakalama, doğru şekilde öngörülen gerçek pozitif durumların toplam sayısıdır. Bu ölçüm aynı zamanda hassasiyet olarak da bilinir.
 
@@ -97,7 +97,7 @@ F1 ölçümü, duyarlık ile yakalamayı birleştirir. Sonuçta iki değerin har
 
 - F1 = 2 × (Duyarlık × Yakalama) ÷ (Duyarlık + Yakalama)
 
-Daha somut bir örneği inceleyelim. Bu konun ilk kısmında bir hayvanın köpek mi kedi mi olduğunu tahmin eden bir modeli incelemiştik. Çizimi burada tekrar inceleyelim.
+Daha somut bir örneği inceleyelim. Bu makalenin ilk kısmında bir hayvanın köpek mi kedi mi olduğunu tahmin eden bir modeli incelemiştik. Çizimi burada tekrar inceleyelim.
 
 [![Tür tahmini örneği (tekrarlı).](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
@@ -111,7 +111,7 @@ Gördüğünüz gibi, F1 değeri duyarlık ve yakalama değerlerinin arasındad�
 
 F1 doğruluğu kolay anlaşılır olmasa da temel doğruluk numarasının yanında ince ayrıntıları da gösterir. Ayrıca, aşağıda ele alındığı üzere dengesiz veri kümelerinde de faydalı olur.
 
-Bu konunun [Model doğruluğu](#model-accuracy) bölümünde aşağıdaki iki karışıklık matrisi karşılaştırılmıştır. İlk modelin doğruluk değeri daha düşük olsa da varsayılan zamanında ödeme tahmininden daha fazla iyileşme gösterdiği için daha kullanışlı bir model olduğu kabul edilmiştir.
+Bu makalenin [Model doğruluğu](#model-accuracy) bölümünde aşağıdaki iki karışıklık matrisi karşılaştırılmıştır. İlk modelin doğruluk değeri daha düşük olsa da varsayılan zamanında ödeme tahmininden daha fazla iyileşme gösterdiği için daha kullanışlı bir model olduğu kabul edilmiştir.
 
 ![Ödeme tahmini ile fiili değerler örneği karşılaştırması.](media/payment-prediction-matrix.png)
 

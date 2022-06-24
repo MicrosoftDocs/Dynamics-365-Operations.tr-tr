@@ -1,6 +1,6 @@
 ---
 title: Stil ön ayarlarıyla çalışma
-description: Bu konuda, Microsoft Dynamics 365 Commerce site oluşturucuda önceden belirlenmiş düzenlerle nasıl çalışılacağı açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce site oluşturucuda önceden belirlenmiş düzenlerle nasıl çalışılacağı açıklanmaktadır.
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 63e11b718a2b5221c722a11de3a8df6d9d0e3d6b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 0a06052ab29502c57a2ad5a25e5bec870585ef4a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900372"
 ---
 # <a name="work-with-style-presets"></a>Stil ön ayarlarıyla çalışma
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce site oluşturucuda önceden belirlenmiş düzenlerle nasıl çalışılacağı açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce site oluşturucuda önceden belirlenmiş düzenlerle nasıl çalışılacağı açıklanmaktadır.
 
 Stil hazır ayarı, bir sitenin teması içinde bulunan tüm depolama uyumlu stil değerleri kümesidir. Site oluşturucudan sitenin görünümünü hemen değiştirmek için kullanılabilir. Stil hazır ayarları, Commerce Site Builder yazarlarının, basamaklı stil sayfaları (CSS) veya temaları kullanmak zorunda kalmadan bir dizi stil değerini kendi siteleri üzerinde hızla değiştirmesini, önizlemenizi ve etkinleştirmesini sağlar. Yazı tipi stilleri, düğme stilleri ve site renkleri, stil hazır ayarları aracılığıyla yönetilebilen stil değişkenlerinin tipik örnekleridir.
 

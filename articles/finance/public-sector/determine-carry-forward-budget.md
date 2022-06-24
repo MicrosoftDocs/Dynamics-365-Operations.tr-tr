@@ -1,6 +1,6 @@
 ---
 title: Satınalma siparişleri ve faturalarda azalmalardan sonra devrolan bütçeyi güncelleştirme
-description: Bu konu, satınalma siparişleri iptal edildiğinde veya azaltıldığında ve faturalar azaltıldığında devrolan bütçedeki değişikliklerin nasıl denetleneceğini açıklar.
+description: Bu makalede, satınalma siparişleri iptal edildiğinde veya azaltıldığında ve faturalar azaltıldığında devrolan bütçedeki değişikliklerin nasıl denetleneceği açıklanmaktadır.
 author: TaylorVH
 ms.date: 02/11/2022
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2022-02-01
-ms.openlocfilehash: 3b0f06b8d5a38252fc8ff6662f3d454adffffe60
-ms.sourcegitcommit: 5b55f2913e736d12e40c227bf3ce3a9abec815bd
+ms.openlocfilehash: 7f0ef0ffdf697609e811f754b4378b1f7a81c494
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8803013"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897972"
 ---
 # <a name="update-the-carry-forward-budget-after-reductions-in-purchase-orders-and-invoices"></a>Satınalma siparişleri ve faturalarda azalmalardan sonra devrolan bütçeyi güncelleştirme
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Bu konu, satınalma siparişleri iptal edildiğinde veya azaltıldığında ve faturalar azaltıldığında devrolan bütçedeki değişikliklerin nasıl denetleneceğini açıklar.
+Bu makalede, satınalma siparişleri iptal edildiğinde veya azaltıldığında ve faturalar azaltıldığında devrolan bütçedeki değişikliklerin nasıl denetleneceği açıklanmaktadır.
 
 Satınalma siparişlerinin yıl sonunda nasıl işlendiği hakkında bilgi için bkz. [Yıl sonunda satın alma siparişlerini işleme](/dynamicsax-2012/appuser-itpro/process-purchase-orders-at-year-end).
 

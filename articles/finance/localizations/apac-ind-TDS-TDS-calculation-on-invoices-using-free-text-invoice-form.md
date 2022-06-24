@@ -1,6 +1,6 @@
 ---
-title: Serbest metin faturası sayfasındaki faturalarda TDS hesaplaması
-description: Bu konu, faturalardaki Kaynakta Kesilen Verginin (TDS) serbest metin faturası sayfasını kullanarak nasıl hesaplanacağını açıklamaktadır.
+title: Faturalarda Serbest metin faturası sayfasından TDS hesaplaması
+description: Bu makalede, faturalarda Kaynakta Kesilen Verginin (TDS) Serbest metin faturası sayfası kullanılarak nasıl hesaplanacağı açıklanmaktadır.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5a1960974dff90ef5f0cc8eab018351a9e412858
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: b1cf0f5366315884e75a6fee25b88a3aac7d62de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725191"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856625"
 ---
-# <a name="tds-calculation-on-invoices-from-the-free-text-invoice-page"></a>Serbest metin faturası sayfasındaki faturalarda TDS hesaplaması
+# <a name="tds-calculation-on-invoices-from-the-free-text-invoice-page"></a>Faturalarda Serbest metin faturası sayfasından TDS hesaplaması
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, faturalardaki Kaynakta Kesilen Verginin (TDS) **Serbest metin faturası** sayfasını kullanarak nasıl hesaplanacağını açıklamaktadır.
+Bu makalede, faturalarda Kaynakta Kesilen Verginin (TDS) **Serbest metin faturası** sayfası kullanılarak nasıl hesaplanacağı açıklanmaktadır.
 
 1. **Alacak hesapları \> Faturalar \> Tüm serbest metin faturaları**'na gidin.
 

@@ -1,6 +1,6 @@
 ---
-title: Kazanç çalışan planı durumu
-description: Bu konuda, Dynamics 365 Human Resources için Kazanç çalışan planı durumu seçenek kümesi açıklanmaktadır.
+title: Personel kazanç planı durumu
+description: Bu makalede, Dynamics 365 Human Resources için Personel kazanç planı durumu seçenek kümesi açıklanmaktadır.
 author: marcelbf
 ms.date: 07/25/2021
 ms.topic: article
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e038eebcb3c703ebf56c781a332edcd6a5badf1a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 82536210b1c7688e4841e8e4ef1fb43c29768dec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066180"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848298"
 ---
-# <a name="benefit-employee-plan-status"></a>Kazanç çalışan planı durumu
+# <a name="benefit-employee-plan-status"></a>Personel kazanç planı durumu
 
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, Dynamics 365 Human Resources için Kazanç Çalışan Planı Durumu seçenek kümesi açıklanmaktadır.
+Bu makalede, Dynamics 365 Human Resources için Personel Kazanç Planı Durumu seçenek kümesi açıklanmaktadır.
 
 ## <a name="option-set-process-type"></a>Seçenek kümesi: İşlem türü
 

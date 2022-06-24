@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 508723752ec7ae5f48e52c728b6ef526ec49e4e2
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f1e6932740c33ae418ac633623680eda6af7a592
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723037"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858538"
 ---
 # <a name="collections-management-key-concepts"></a>Tahsilat yönetimi temel kavramları
 
@@ -34,7 +34,7 @@ Tahsilatları ayarlamaya veya bunlar üzerinde çalışmaya başlamadan önce a�
 - Silme hareketleri tek bir adımda oluşturulabilir.
 - Yetersiz fon (NSF) ödemeleri tek adımda işlenebilir.
 
-Bu konuda her kavram açıklanmaktadır.
+Bu makalede her kavram açıklanmaktadır.
 
 ## <a name="customer-aging-snapshots"></a>Müşteri yaşlandırma anlık görüntüleri
 
@@ -86,7 +86,7 @@ Eylem Bölmesi, seçili müşteri, vaka, hareket veya etkinlik için ilgili bilg
 
 Vade farkı dekontlarından veya vade farkı notlarının bir parçası olan ücretler ve hareket faizinden feragat edebilir, bunları eski durumuna getirebilir veya tersine çevirebilirsiniz. **Tüm müşteriler** liste sayfasının eylem bölmesindeki **Tahsil et** sekmesinde **Vade farkı dekontu**, **Hareket vade farkı** veya **Ücret**'i seçebilirsiniz.
 
-Bu ayarlamalar yalnızca vade farkı dekontlarını ve bunların içerdiği faiz ile ücretleri etkiler. Müşterinin borçlu olduğu tüm ücretlerin nasıl silineceği hakkında bilgi için, bu konunun [Silme hareketleri oluşturma](#creating-write-off-transactions) bölümüne bakın.
+Bu ayarlamalar yalnızca vade farkı dekontlarını ve bunların içerdiği faiz ile ücretleri etkiler. Müşterinin borçlu olduğu tüm ücretlerin nasıl silineceği hakkında bilgi için bu makalenin [Silme hareketleri oluşturma](#creating-write-off-transactions) bölümüne bakın.
 
 Daha fazla bilgi için bkz. Bir aralık ile bir faiz kodu oluştur ve Faizi işle.
 

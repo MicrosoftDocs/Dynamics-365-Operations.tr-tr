@@ -1,6 +1,6 @@
 ---
 title: Kanalları e-ticaret siteleriyle eşleme
-description: Bu konuda, diğer iş gereksinimlerinin birçoğu için çıkarım yapılabilecek, Microsoft Dynamics 365 Commerce'teki daha yaygın kanal eşleme senaryoları açıklanmaktadır.
+description: Bu makalede, diğer iş gereksinimlerinin birçoğu için çıkarım yapılabilecek, Microsoft Dynamics 365 Commerce'teki daha yaygın kanal eşleme senaryoları açıklanmaktadır.
 author: samjarawan
 ms.date: 05/11/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8ce272d63b4a37f99661333a02434708205ea19a
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: 94c43df26e8d6e55a5b6d459b65066d5873e1063
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743592"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902775"
 ---
 # <a name="map-channels-to-e-commerce-sites"></a>Kanalları e-ticaret siteleriyle eşleme
 
-Bu konuda, diğer iş gereksinimlerinin birçoğu için çıkarım yapılabilecek, Microsoft Dynamics 365 Commerce'teki daha yaygın kanal eşleme senaryoları açıklanmaktadır.
+Bu makalede, diğer iş gereksinimlerinin birçoğu için çıkarım yapılabilecek, Microsoft Dynamics 365 Commerce'teki daha yaygın kanal eşleme senaryoları açıklanmaktadır.
 
 Dynamics 365 Commerce, müşterilere yönelik [e-ticaret sitesi](#e-commerce-sites) deneyimleri için yapılandırılmış bir ürün, fiyat ve indirim grubuna sahip olan [çevrimiçi kanalları](#channels) eşlemek için birçok iş senaryosunu destekler.
 
-Bu konu, aşağıdaki senaryoları destekler:
+Bu makale, aşağıdaki senaryoları destekler:
 
 - **Tek bir e-ticaret sitesi deneyimi sunan tek dilli kanal.** Örneğin, bu senaryoda ABD İngilizcesi pazarında yapılandırılmış tek bir marka sitesi bulunabilir.
 - **Tek bir yerelleştirilmiş e-ticaret sitesi deneyimi sunan çok dilli kanal.** Örneğin, bu senaryoda Fransızca ve İngilizce dil desteği ile Kanada için yapılandırılmış tek bir marka sitesi bulunabilir. Bu senaryoda, farklı dilleri seçen kullanıcılar aynı site deneyimine sahip olur, ancak deneyim her kullanıcının seçili diliyle yerelleştirilir.
@@ -63,7 +63,7 @@ Aşağıdaki örnek çizimde, Commerce headquarters'da bir kanal yapılandırmas
 
 ![Commerce Headquarters'da vurgulanan Adventure Works çevrimiçi mağazasının tüzel kişilik, para birimi ve dil değerleri.](media/channel-mapping-3.png)
 
-Tek bir çevrimiçi kanal, site oluşturucuda tek bir e-ticaret sitesiyle eşleştirilebilir. Yeni bir sitenin nasıl oluşturulacağı ve bir kanala nasıl eşleneceğini öğrenmek için bu konunun [Site oluşturucuda bir kanalı bir siteye eşleme](#map-a-channel-to-a-site-in-site-builder) bölümüne bakın.
+Tek bir çevrimiçi kanal, site oluşturucuda tek bir e-ticaret sitesiyle eşleştirilebilir. Yeni bir sitenin nasıl oluşturulacağı ve bir kanala nasıl eşleneceğini öğrenmek için bu makalenin [Site oluşturucuda bir kanalı bir siteye eşleme](#map-a-channel-to-a-site-in-site-builder) bölümüne bakın.
 
 ### <a name="multi-language-channel-that-has-a-single-localized-site-experience"></a>Tek bir yerelleştirilmiş e-ticaret sitesi deneyimi sunan çok dilli kanal
 
@@ -73,7 +73,7 @@ Bu senaryonun sınırlaması, tek bir kanalın yalnızca bir para birimi, bir t�
 
 Bir kanaldaki her dil kendi etki alanı adıyla yapılandırılabilir. Örneğin, `www.adventure-works.ca` etki alanı Kanada İngilizcesi sürümü için yapılandırılabilir ve `www.adventure-works-fr.ca` etki alanı Kanada Fransızcası sürümü için yapılandırılabilir. Alternatif olarak, bir kanaldaki farklı diller tek bir etki alanında yapılandırılabileceği gibi, her dil için farklı bir yol da kullanılabilir. Örneğin, `www.adventure-works.ca` etki alanı Kanada İngilizcesi sürümü için yapılandırılabilir ve ardından `www.adventure-works.ca/fr` yolu Kanada Fransızcası sürümü için yapılandırılabilir. [Coğrafi algılama](geo-detection-redirection.md), kullanıcının konumuna göre kullanıcıyı doğru siteye yeniden yönlendirmek üzere de etkinleştirilebilir.
 
-Müşterilerin diller arasında el ile geçiş yapmasının nasıl sağlanacağı hakkında bilgi için bu konunun [Site seçici modülünü ekleme ve yapılandırma](#add-and-configure-the-site-picker-module) bölümüne bakın. Yerelleştirilmiş sayfaların ve parçaların özelleştirilmesi hakkında bilgi için [Birden çok kanal ve dil içeren site içeriğini yönetme](#manage-site-content-that-has-multiple-channels-and-languages) bölümüne bakın.
+Müşterilerin diller arasında el ile geçiş yapmasının nasıl sağlanacağı hakkında bilgi için bu makalenin [Site seçici modülünü ekleme ve yapılandırma](#add-and-configure-the-site-picker-module) bölümüne bakın. Yerelleştirilmiş sayfaların ve parçaların özelleştirilmesi hakkında bilgi için [Birden çok kanal ve dil içeren site içeriğini yönetme](#manage-site-content-that-has-multiple-channels-and-languages) bölümüne bakın.
 
 ### <a name="multi-language-channel-that-has-a-different-site-experience-per-language"></a>Dil başına farklı bir site deneyimi sunan çok dilli kanal
 
@@ -87,7 +87,7 @@ Markalı bir site, tek bir sitedeki her kanal için farklı bir para birimini, �
 
 Bu senaryoda, her piyasa kendi etki alanı adlarıyla yapılandırılabilir. Örneğin, `www.adventure-works.com` etki alanı ABD piyasası için yapılandırılabilir ve `www.adventure-works.de` etki alanı Alman piyasası için yapılandırılabilir. Alternatif olarak, her pazar farklı bir yol kullanacak şekilde yapılandırılabilir. Örneğin, `www.adventure-works.com` etki alanı ABD piyasası için yapılandırılabilir ve sonra `www.adventure-works.com/de` yolu Alman piyasası için kullanılabilir. [Coğrafi algılama](geo-detection-redirection.md), kullanıcıların konumuna göre kullanıcıları doğru siteye yeniden yönlendirmek üzere de etkinleştirilebilir.
 
-Ayrıca sitenizin, kullanıcıların el ile belirli bir pazara geçmelerini sağlayan bir açılan liste sağlamasını da isteyebilirsiniz. Daha fazla bilgi için, bu konunun [Site seçici modülü ekleme ve yapılandırma](#add-and-configure-the-site-picker-module) bölümüne bakın.
+Ayrıca sitenizin, kullanıcıların el ile belirli bir pazara geçmelerini sağlayan bir açılan liste sağlamasını da isteyebilirsiniz. Daha fazla bilgi için, bu makalenin [Site seçici modülü ekleme ve yapılandırma](#add-and-configure-the-site-picker-module) bölümüne bakın.
 
 Birden çok kanalı tek bir sitede yapılandırma hakkında bilgi için [Bir e-ticaret sitesinde birden çok kanalı yapılandırma](#configure-multiple-channels-on-an-e-commerce-site) bölümüne bakın.
 
@@ -180,7 +180,7 @@ Her bir sayfa ve parçayı el ile oluşturmak yerine her sayfayı ve parçayı, 
 
 Birden çok kanal ve/veya dil içeren bir site, her bir kanal ve dil kombinasyonu için her bir sayfa ve parçanın benzersiz bir varyantını depolar. Bu davranış, sayfa varyantlarının yerelleştirilmiş veriler içermesini sağlar, ancak belirli bir varyant için bir sayfanın görünümünü değiştirme esnekliği de sağlar.
 
-Sayfa varyantlarıyla nasıl çalışılacağı hakkında bilgi için bu konunun [Her bir dil için sayfa varyantlarını uygulama](#implement-page-variants-for-each-language) bölümüne bakın.
+Sayfa varyantlarıyla nasıl çalışılacağı hakkında bilgi için bu makalenin [Her bir dil için sayfa varyantlarını uygulama](#implement-page-variants-for-each-language) bölümüne bakın.
 
 ## <a name="configure-multiple-channels-on-an-e-commerce-site"></a>Bir e-ticaret sitesinde birden çok kanal yapılandırma
 

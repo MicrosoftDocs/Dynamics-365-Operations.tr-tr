@@ -1,6 +1,6 @@
 ---
 title: Müşteri ödeme yöntemi oluşturma
-description: Bu konu, müşteri ödemeleri için bir ödeme yönteminin nasıl oluşturulacağını açıklamaktadır.
+description: Bu makalede, müşteri ödemeleri için bir ödeme yönteminin nasıl oluşturulacağı açıklanmaktadır.
 author: ShivamPandey-msft
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9e8974ea20497124e24e95b3761317daf126839
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f3843ce596d054263b69ccc577f3885970fe49d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713910"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861516"
 ---
 # <a name="establish-customer-method-of-payment"></a>Müşteri ödeme yöntemi oluşturma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, müşteri ödemeleri için bir ödeme yönteminin nasıl oluşturulacağını açıklamaktadır. Bu görevde USMF demo şirketi kullanılmaktadır.
+Bu makalede, müşteri ödemeleri için bir ödeme yönteminin nasıl oluşturulacağı açıklanmaktadır. Bu görevde USMF demo şirketi kullanılmaktadır.
 
 1. Gezinti bölmesinde, **Modüller > Alacak hesapları > Ödeme ayarı > Ödeme yöntemleri**'ne gidin.
 2. **Yeni**'yi seçin.

@@ -1,6 +1,6 @@
 ---
 title: Kalite ve uygunsuzluk yönetimine genel bakış
-description: Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta kalite ve uyumsuzluk yönetimi özelliklerini tanıtır ve bunların tedarik zincirindeki ürün kalitesini geliştirmeye nasıl yardımcı olacağını açıklamaktadır.
+description: Bu makale, Microsoft Dynamics 365 Supply Chain Management'ta kalite ve uyumsuzluk yönetimi özelliklerini tanıtır ve bunların tedarik zincirindeki ürün kalitesini geliştirmeye nasıl yardımcı olacağını açıklamaktadır.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bb4bcb7f554c22b4e1ab1b41867bd2d3dcca4d4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 510dee78f6fed02e6511aedad00fcb1b15195470
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985532"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907507"
 ---
 # <a name="quality-and-nonconformance-management-overview"></a>Kalite ve uygunsuzluk yönetimine genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta kalite ve uyumsuzluk yönetimi özelliklerini tanıtır ve bunların tedarik zincirindeki ürün kalitesini geliştirmeye nasıl yardımcı olacağını açıklamaktadır.
+Bu makale, Microsoft Dynamics 365 Supply Chain Management'ta kalite ve uyumsuzluk yönetimi özelliklerini tanıtır ve bunların tedarik zincirindeki ürün kalitesini geliştirmeye nasıl yardımcı olacağını açıklamaktadır.
 
 Kalite güvencesi, ürün testlerini ve uyumsuz malzemelerin yönetimini kapsar. Kalite yönetimi işlemleri, tedarik zinciri içinde yüksek düzeyde ürün kalitesi sağlanmasına yardımcı olur. Bu işlemler ayrıca tedarik zinciri süreçlerini en iyi duruma getirme ve müşteri memnuniyetini artırmaya yardımcı olur. Kalite yönetimi, uyumsuz ürünler ile ilgilenirken , bu ürünlerin kendi başlangıç noktalarını dikkate almadan işleyecek döngü sürelerini yönetmenize yardımcı olabilir. Tanılama sonuçlarını düzeltme görevlerine bağlayabilirsiniz. Sistem sorunları düzeltmek için görevler planlayabilir ve böylece bu sorunların gelecekte yinelenmesini önlemeye yardımcı olur. Kalite yönetimi ayrıca sorunları (dahili problemler dahil) sorun türüne göre izlemenize ve hem kısa vadeli hem de uzun vadeli çözümler belirlemenize olanak sağlar. Anahtar performans göstergeleri (APG) ile ilgili istatistikler, daha önceden oluşan uygunsuzluk sorunları ve bunları düzeltmek için kullanılan çözümler hakkında bir anlayış sağlar. Daha önceden alınan kalite ölçülerinin etkilerini incelemek ve ileride kullanılmaya uygun önlemleri belirlemek için geçmişe dönük verileri kullanabilirsiniz.
 

@@ -1,6 +1,6 @@
 ---
 title: Supply Chain Management fiyatlandırma altyapısıyla istek üzerine eşitleme
-description: Bu konuda, Microsoft Dynamics 365 Sales'ın Microsoft Dynamics 365 Supply Chain Management'ta fiyatlandırma motorunun nasıl kullanılacağı açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Sales'daki Microsoft Dynamics 365 Supply Chain Management'ta fiyatlandırma altyapısının nasıl kullanılacağı açıklanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 03/10/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 6b0cc8f403be866ff00b89a33f6c59089c987bb0
-ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
+ms.openlocfilehash: 259bdd5f868945c3857b045fbd3cbd4fceb26951
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "8402842"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862233"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Supply Chain Management fiyatlandırma altyapısıyla istek üzerine eşitleme
 

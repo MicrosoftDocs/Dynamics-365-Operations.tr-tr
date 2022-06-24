@@ -1,6 +1,6 @@
 ---
 title: ER Biçim yapılandırması oluşturma (Kasım 2016)
-description: Bu konuda, Elektronik raporlama (ER) için biçim yapılandırmasının nasıl oluşturulacağı açıklanmaktadır.
+description: Bu makalede, Elektronik raporlama (ER) için biçim yapılandırmasının nasıl oluşturulacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d59f0f7c914cc6d59ae441e6f6b8ff249a3e9c03c6ee4b4a75421d875f826a0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2617f33293c38b7f1aaa61fda7d8de06711c6727
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728225"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902668"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER Biçim yapılandırması oluşturma (Kasım 2016)
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının nasıl Elektronik Raporlama (ER) için bir format yapılandırması oluşturabileceğini açıklar. Bu format yapılandırması, ödemelerin işlenmesi için kullanılan elektronik belgelerin formatını tanımlar. Bu örnekte, Litware, Inc. örnek şirketi için bir format yapılandırması oluşturacaksınız. Bu adımları tamamlamak için öncelikle "Modeli seçilen veri kaynaklarına eşleştir" prosedürü altındaki adımları tamamlamanız gerekir.
+Bu makalede, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının nasıl Elektronik Raporlama (ER) için bir format yapılandırması oluşturabileceği açıklanmaktadır. Bu format yapılandırması, ödemelerin işlenmesi için kullanılan elektronik belgelerin formatını tanımlar. Bu örnekte, Litware, Inc. örnek şirketi için bir format yapılandırması oluşturacaksınız. Bu adımları tamamlamak için öncelikle "Modeli seçilen veri kaynaklarına eşleştir" prosedürü altındaki adımları tamamlamanız gerekir.
 
 
 ## <a name="create-a-new-format-configuration"></a>Yeni bir biçim yapılandırması oluşturma

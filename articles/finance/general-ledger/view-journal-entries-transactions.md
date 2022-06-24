@@ -1,6 +1,6 @@
 ---
-title: Yevmiye defteri girişlerini ve hareketlerini görüntüleme
-description: Bu konuda, günlük girişlerini ve hareketleri görüntüleyebileceğiniz çeşitli yollar açıklanmaktadır.
+title: Günlük girişlerini veya hareketlerini görüntüleme
+description: Bu makalede, günlük girişlerini ve hareketleri görüntüleyebileceğiniz çeşitli yollar açıklanmaktadır.
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4e33b1516e780c55f753b32ac5ddd50b6f9560c
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 8549df3fcf65769768e3f7dd41c4d7275a1911b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717572"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907877"
 ---
-# <a name="view-journal-entries-and-transactions"></a>Yevmiye defteri girişlerini ve hareketlerini görüntüleme
+# <a name="view-journal-entries-and-transactions"></a>Günlük girişlerini veya hareketlerini görüntüleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, günlük girişlerini ve hareketleri görüntüleyebileceğiniz çeşitli yollar açıklanmaktadır. 
+Bu makalede, günlük girişlerini ve hareketleri görüntüleyebileceğiniz çeşitli yollar açıklanmaktadır. 
 
 Günlükleri ve hareketleri görüntülemek isteyen kullanıcıların verilere erişmek için birkaç yolu vardır. Ayrıntıya inme olanağı sağlayan sorgulama sayfalarından yararlanabilir veya genel muhasebedeki çeşitli rapor seçeneklerini kullanabilirler.
 

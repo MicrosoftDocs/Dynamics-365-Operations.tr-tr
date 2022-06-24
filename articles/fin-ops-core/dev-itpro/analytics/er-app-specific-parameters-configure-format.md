@@ -1,6 +1,6 @@
 ---
-title: Her tüzel kişilik için belirtilen parametreleri kullanmak için ER biçimlerini yapılandırma
-description: Bu konu, Elektronik raporlama (ER) biçimlerini her tüzel kişilik için belirtilen parametreleri kullanacak şekilde nasıl yapılandıracağınızı açıklar.
+title: ER biçimlerini her tüzel kişilik için belirtilen parametreleri kullanmak üzere yapılandırma
+description: Bu makalede, Elektronik raporlama (ER) biçimlerini her tüzel kişilik için belirtilen parametreleri kullanacak şekilde nasıl yapılandıracağınız açıklanmaktadır.
 author: NickSelin
 ms.date: 04/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2bf4d1ecad3e25299df7c87ffa2236736ddcac300a5ded779616b25920745d7e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb44422c4cdcc87989cdfb28dcd7d5cfea9002eb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765844"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858842"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Her tüzel kişilik için belirtilen parametreleri kullanmak için ER biçimlerini yapılandırma
 
@@ -33,17 +33,17 @@ Tasarlayacağınız Elektronik raporlama (ER) biçimlerinin çoğunda, kurulumun
 -   Ne kadar çok tüzel kişilik varsa o kadar çok ER biçim yapılandırması korunmalıdır.
 -   ER yapılandırmalarının bakımı, iş kullanıcılarının ER bilgisine sahip olmasını gerektirir.
 
-ER uygulamasına özgü parametreler özelliği, yetkili kullanıcıların veri filtrelemelerini bir dizi soyut kurala göre ER biçiminde yapılandırmasına olanak tanır. Bu kurallar kümesi, bir ER biçiminde mevcut olan veri kaynaklarını kullanmak için yapılandırılabilir. İş kullanıcıları daha sonra, karşılık gelen ER biçimi ayarlarına ve ER biçiminin veri kaynakları tarafından erişilecek olan mevcut tüzel kişilik verilerine dayanarak otomatik olarak oluşturulan kullanıcı arabirimini (UI) kullanarak ER çerçevesinin ötesinde gerçek kurallar belirleyebilirler. ER biçimi için belirtilen kurallar kümesi Dynamics 365 Finance (Finance) kurulumunun geçerli tüzel kişiliğinden dışa aktarılabilir. Bu daha sonra, aynı Finance kurulumunun ya da aynı ER biçiminin bir kurallar kümesi olarak farklı bir kurulumun başka bir tüzel kişiliğine içe aktarılabilir.
+ER uygulamasına özgü parametreler özelliği, yetkili kullanıcıların veri filtrelemelerini bir dizi soyut kurala göre ER biçiminde yapılandırmasına olanak tanır. Bu kurallar kümesi, bir ER biçiminde mevcut olan veri kaynaklarını kullanmak için yapılandırılabilir. İş kullanıcıları daha sonra, karşılık gelen ER biçimi ayarlarına ve ER biçiminin veri kaynakları tarafından erişilecek olan mevcut tüzel kişilik verilerine dayanarak otomatik olarak oluşturulan kullanıcı arabirimini (UI) kullanarak ER çerçevesinin ötesinde gerçek kurallar belirleyebilirler. ER biçimi için belirtilen kurallar kümesi Dynamics 365 Finance (Finance) örneğinin geçerli tüzel kişiliğinden dışarı aktarılabilir. Bu daha sonra, aynı Finance kurulumunun ya da aynı ER biçiminin bir kurallar kümesi olarak farklı bir kurulumun başka bir tüzel kişiliğine içe aktarılabilir.
 
-## <a name="prerequisites"></a>Önkoşullar
+## <a name="prerequisites"></a>Ön Koşullar
 
-Bu konudaki örnekleri tamamlamak üzere aşağıdaki rollerden biri için Finance ile aynı kiracıya sağlanan Regulatory Configuration Services (RCS) kurulumuna erişiminiz olmalıdır:
+Bu makaledeki örnekleri tamamlamak üzere aşağıdaki rollerden biri için Finance ile aynı kiracıya sağlanan Regulatory Configuration Services (RCS) örneğine erişiminiz olmalıdır:
 
 - Elektronik raporlama geliştirici
 - Elektronik raporlama işlev danışmanı
 - Sistem yöneticisi
 
-[HESAPLANAN ALAN türüne göre ER veri kaynaklarının parametreli çağrılarını destekleme](er-calculated-field-type.md) konusundaki adımları tamamlamanızı öneririz. Bu adımları zaten tamamladıysanız takip eden **ER yapılandırmalarını RCS'ye içe aktarma** bölümündeki adımları atlayabilirsiniz.
+[HESAPLANAN ALAN türündeki ER veri kaynaklarının parametreli hale getirilmiş çağrılarını destekleme](er-calculated-field-type.md) makalesindeki adımları tamamlamanızı öneririz. Bu adımları zaten tamamladıysanız takip eden **ER yapılandırmalarını RCS'ye içe aktarma** bölümündeki adımları atlayabilirsiniz.
 
 ## <a name="import-er-configurations-into-rcs"></a>ER yapılandırmalarını RCS'ye içe aktarma
 
@@ -58,7 +58,7 @@ Aşağıdaki ER yapılandırmalarını indirin ve yerel olarak depolayın.
 
 Ardından, RCS kurulumunuzda oturum açın.
 
-Bu örnekte, Litware, Inc. örnek şirketi için bir yapılandırma oluşturacaksınız. Bu prosedürü tamamlamadan önce RCS'deki [Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) konusundaki adımları tamamlamanız gerekir.
+Bu örnekte, Litware, Inc. örnek şirketi için bir yapılandırma oluşturacaksınız. Bu yordamı tamamlamadan önce RCS'deki [Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) makalesindeki adımları tamamlamanız gerekir.
 
 1.  Varsayılan panoda **Elektronik raporlama**'yı seçin.
 2.  **Raporlama yapılandırmaları**'nı seçin.
@@ -300,7 +300,7 @@ Ardından var olan hesaplanan alanı, vergi koduna bağlı olarak doğru vergile
 -   Parametreli çağrıları öğrenmek için eşleme.xml
 -   Parametreli çağrıları öğrenme modeli.xml
 
-Vergi hareketlerini farklı vergilendirme düzeylerine göre filtrelemek üzere tüzel kişiliğe bağlı vergi kodları kümeleri oluşturmak üzere yapılandırılmış **LE verilerinin nasıl aranacağını öğrenmek için biçimlendirme** ER biçimini nasıl kullanacağınızı öğrenmek için [Her tüzel kişilik için ER biçiminin parametrelerini ayarlama](er-app-specific-parameters-set-up.md) konusundaki adımları tamamlayın.
+Vergi hareketlerini farklı vergilendirme düzeylerine göre filtrelemek üzere tüzel kişiliğe bağlı vergi kodları kümeleri oluşturmak amacıyla yapılandırılmış **LE verilerinin nasıl aranacağını öğrenmek için biçimlendirme** ER biçimini nasıl kullanacağınızı öğrenmek için [Her tüzel kişilik için ER biçiminin parametrelerini ayarlama](er-app-specific-parameters-set-up.md) makalesindeki adımları tamamlayın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

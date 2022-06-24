@@ -1,6 +1,6 @@
 ---
 title: Kullanım hakkı varlıklarının değerini düşürme
-description: Bu konu, değer düşüşünü kaydeden ve Muhasabe Standartları Kodlaması Konu 842 (ACS 842) işletme kiralamasının varlık amortisman planlamasını düzelten bir işlevi açıklamaktadır.
+description: Bu makalede, değer düşüşünü kaydeden ve Muhasabe Standartları Kodlaması Konu 842 (ACS 842) işletme kiralamasının varlık amortisman planlamasını düzelten bir işlev açıklanmaktadır.
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 497739e56c6ce0f4fe0bd4aec889f0782d08fc4a
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f953b3a351859c6becba10a129bbb17b49be6290
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720181"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894127"
 ---
 # <a name="impair-right-of-use-assets"></a>Kullanım hakkı varlıklarının değerini düşürme
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Kullanım hakkı (ROU) varlığının defter tutarı düşürülebilir değilse varlığın değerinin düşüp düşmediğini test etmeniz gerekebilir. Varlığın değerinin düştüğünü belirlerseniz Varlık kiralama değer düşüşünü kaydedebilir ve amortisman planlamasını buna göre düzeltebilir. Bu konu, bir değer düşüşünü kaydeden ve Muhasabe Standartları Kodlaması Konu 842 (ACS 842) işletme kiralamasının amortisman planlamasını düzelten bir işlevi açıklamaktadır. Aynı yöntem, Uluslararası Mali Raporlama Standardı 16 (IFRS 16) kiralamaları için de geçerlidir.
+Kullanım hakkı (ROU) varlığının defter tutarı düşürülebilir değilse varlığın değerinin düşüp düşmediğini test etmeniz gerekebilir. Varlığın değerinin düştüğünü belirlerseniz Varlık kiralama değer düşüşünü kaydedebilir ve amortisman planlamasını buna göre düzeltebilir. Bu makalede, bir değer düşüşünü kaydeden ve Muhasabe Standartları Kodlaması Konu 842 (ACS 842) işletme kiralamasının amortisman planlamasını düzelten bir işlev açıklanmaktadır. Aynı yöntem, Uluslararası Mali Raporlama Standardı 16 (IFRS 16) kiralamaları için de geçerlidir.
 
 Kiralamanın IFRS 16 kapsamında finansal kiralama veya ASC 842 kapsamında işletme kiralaması olarak sınıflandırılmasına bakılmaksızın, ROU varlığının kalan bakiyesi kalan dönem sayısı için sabit esasa göre amorti edilir.
 
@@ -83,7 +83,7 @@ Aşağıdaki tablolarda, bu örnekte kullanılan kiralama için **Genel** ve **�
 
 ### <a name="steps"></a>Adımlar
 
-1. Bu konuda daha önce açıklandığı gibi kiralamayı oluşturduktan sonra, kiralama defterine gidin ve ödeme planını onaylayın. Ardından, ilk kabul günlüğü girişini deftere nakledin. İlk ROU varlığı ve kira yükümlülüğü 70.235,81 ABD doları olmalıdır. Bu örnekte kiralama, ASC 842 kapsamında bir işletme kirası olarak sınıflandırılmıştır.
+1. Bu makalenin önceki bölümlerinde açıklandığı gibi kiralamayı oluşturduktan sonra, kiralama defterine gidin ve ödeme planını onaylayın. Ardından, ilk kabul günlüğü girişini deftere nakledin. İlk ROU varlığı ve kira yükümlülüğü 70.235,81 ABD doları olmalıdır. Bu örnekte kiralama, ASC 842 kapsamında bir işletme kirası olarak sınıflandırılmıştır.
 2. Kira ödemeleri, faiz giderleri ve amortisman giderleri için üç yılın geçtiği simülasyonunu oluşturmak için toplu iş günlük işlemeyi üç kez çalıştırın.
 3. Üç toplu işin hepsini çalıştırdıktan sonra, kiralama defterine geri dönün ve ROU varlığı ile kiralama yükümlülüğünün geçerli defter değerini görüntülemek için yükümlülük ve varlık hareketleri tablolarını açın. Üç yıldan sonra, yükümlülüğün değeri yaklaşık -53.893,00 ABD doları, varlığın değeri yaklaşık 53.893,00 ABD doları olmalıdır. 
 

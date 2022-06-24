@@ -1,6 +1,6 @@
 ---
 title: Üçüncü taraf uygulamaları katıştırma
-description: Bu konu, ürün işlevselliğini artırmak için üçüncü taraf uygulamaların istemciye nasıl katıştırılacağını açıklar.
+description: Bu makalede, ürün işlevselliğini artırmak için üçüncü taraf uygulamaların istemciye nasıl ekleneceği açıklanmaktadır.
 author: jasongre
 ms.date: 09/13/2021
 ms.topic: article
@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 3c07befc7150ff0a121fd3aaa0b5233df9f431e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488246"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868622"
 ---
 # <a name="embed-third-party-apps"></a>Üçüncü taraf uygulamaları katıştırma
 
 [!include [banner](../includes/banner.md)]
 
-Birçok müşteri, işlerini yürütmek için bir dizi uygulama kullanır. Bu uygulamalardan bazıları, Finance and Operations uygulamalarla birlikte çalışan üçüncü taraf web uygulamalardır. Daha kusursuz bir kullanıcı deneyimi sağlamak için bu üçüncü taraf uygulamaları doğrudan Finance and Operations uygulamalarınıza katıştırmak için **Tam sayfa uygulamalar** özelliğini kullanabilirsiniz (üçüncü taraf uygulamaların katıştırmaya izin veriyorsa). Böylece, kullanıcılar sekmeler veya pencereler arasında geçiş yapmak zorunda kalmadan gereksinim duydukları web sitelerine ve uygulamalara erişebilirler.
+Birçok müşteri, işlerini yürütmek için bir dizi uygulama kullanır. Bu uygulamalardan bazıları, Finans ve Operasyon uygulamalarıyla birlikte çalışan üçüncü taraf web uygulamalarıdır. Daha kusursuz bir kullanıcı deneyimi sağlamak için, bu üçüncü taraf uygulamaları doğrudan Finans ve Operasyon uygulamalarınıza eklemek için **Tam sayfa uygulamalar** özelliğini kullanabilirsiniz (üçüncü taraf uygulamaların eklemeye izin verdikleri varsayılır). Böylece, kullanıcılar sekmeler veya pencereler arasında geçiş yapmak zorunda kalmadan gereksinim duydukları web sitelerine ve uygulamalara erişebilirler.
 
-Ürüne üçüncü taraf uygulamaları katıştırabilmeniz için Özellik yönetiminde **Tam sayfa uygulamalar** özelliğini açmanız gerekir. Ardından bir üçüncü taraf uygulamasını veya web sitesini katıştırmak için aşağıdaki yöntemlerden birini kullanabilirsiniz. Bu yöntemler, tuval uygulamalarını Microsoft Power Apps'ten Finance and Operations uygulamalarına katıştırmak için kullanılan yöntemlere benzer.
+Ürüne üçüncü taraf uygulamaları katıştırabilmeniz için Özellik yönetiminde **Tam sayfa uygulamalar** özelliğini açmanız gerekir. Ardından bir üçüncü taraf uygulamasını veya web sitesini katıştırmak için aşağıdaki yöntemlerden birini kullanabilirsiniz. Bu yöntemler, tuval uygulamalarını Microsoft Power Apps'ten Finans ve Operasyon uygulamalarına eklemek için kullanılan yöntemlere benzer.
 
 - Varolan bir sayfada uygulamayı veya web sitesini yeni bir sekme sayfası olarak katıştırma (pivot sekmesi, hızlı sekme, dikey pencere veya çalışma alanı bölümü).
 - Panodan uygulama veya web sitesi için yeni bir tam sayfa deneyimi oluşturun.
@@ -53,14 +53,14 @@ Sistemdeki varolan bir sayfaya katıştırılmış bir uygulama eklemek istiyors
     > - Uygulama veya web sitesinin katıştırmaya izin verecek şekilde yapılandırılması gerekir.
 
 6. Uygulamayı sayfaya katıştırmak için **Kaydet**'i seçin. Uygulama, gruba son sekme veya bölüm olarak eklenir.
-7. Uygulamanın beklendiği gibi göründüğünü onaylayın. Uygulama görüntülenmiyorsa, bu konunun ilerleyen bölümlerinde yer alan [Sorun giderme](#troubleshooting) bölümüne bakın.
+7. Uygulamanın beklendiği gibi göründüğünü onaylayın. Uygulama görüntülenmiyorsa bu makalenin ilerleyen bölümlerinde yer alan [Sorun giderme](#troubleshooting) bölümüne bakın.
 8. Görünüm seçiciyi açın ve **Kaydet**'i (uygulama, geçerli görünümle ilişkilendirilmeliyse) veya **Farklı kaydet**'i (uygulamayı farklı bir görünüme kaydetmek için) seçin.
 
     Sayfanın görünüm seçicisi yoksa (örneğin, sayfa bir iletişim kutusu veya çalışma alanı ise) bu adımı atlayabilirsiniz.
 
 ## <a name="embed-a-website-as-a-full-page-experience-from-the-dashboard"></a>Web sitesini panodan tam sayfa deneyimi olarak katıştırma
 
-Katıştırmak istediğiniz uygulama varolan bir sayfayla ilişkili değilse veya Finance and Operations uygulaması içinde uygulama için tam sayfa bir deneyim istiyorsanız bu prosedürü kullanın.
+Eklemek istediğiniz uygulama mevcut bir sayfayla ilişkili değilse veya Finans ve Operasyon uygulaması içinde uygulama için tam sayfa bir deneyim istiyorsanız bu yordamı kullanın.
 
 1. Panoyu açın.
 2. Panoyu seçin ve basılı tutun (veya sağ tıklayın), **Kişiselleştir** seçeneğini belirleyin ve ardından **Sayfa ekle**'yi seçin.
@@ -75,7 +75,7 @@ Katıştırmak istediğiniz uygulama varolan bir sayfayla ilişkili değilse vey
     > - Uygulama veya web sitesinin katıştırmaya izin verecek şekilde yapılandırılması gerekir.
 
 5. Uygulamayı panoya yeni bir kutucuk olarak eklemek için **Kaydet**'i seçin.
-6. Panoda yeni kutucuğu seçin ve uygulamanın beklendiği gibi göründüğünü onaylayın. Uygulama görüntülenmiyorsa bu konunun ilerleyen bölümlerinde yer alan [Sorun Giderme](#troubleshooting) bölümüne bakın.
+6. Panoda yeni kutucuğu seçin ve uygulamanın beklendiği gibi göründüğünü onaylayın. Uygulama görüntülenmiyorsa bu makalenin ilerleyen bölümlerinde yer alan [Sorun Giderme](#troubleshooting) bölümüne bakın.
 
 ## <a name="sharing-embedded-apps"></a>Katıştırılmış uygulamaları paylaşma
 
@@ -89,7 +89,7 @@ Katıştırmak istediğiniz uygulama varolan bir sayfayla ilişkili değilse vey
 
 ## <a name="viewing-embedded-apps"></a>Katıştırılmış uygulamaları görüntüleme
 
-Katıştırılmış bir uygulamayı Finance and Operations uygulamalarındaki bir sayfada görüntülemek için, katıştırılmış uygulamanın bulunduğu sayfayı açın. Bazı sayfalarda katıştırılmış uygulamalara, standart Eylem Bölmesi'ndeki **Power Apps** düğmesi kullanılarak erişilebildiğini unutmayın. Alternatif olarak, bir sayfada yeni bir sekme, hızlı sekme, dikey pencere veya bir çalışma alanındaki yeni bir bölüm olarak doğrudan görüntülenebilir.
+Katıştırılmış bir uygulamayı Finans ve Operasyon uygulamalarındaki bir sayfada görüntülemek için, eklenmiş uygulamanın bulunduğu sayfayı açın. Bazı sayfalarda katıştırılmış uygulamalara, standart Eylem Bölmesi'ndeki **Power Apps** düğmesi kullanılarak erişilebildiğini unutmayın. Alternatif olarak, bir sayfada yeni bir sekme, hızlı sekme, dikey pencere veya bir çalışma alanındaki yeni bir bölüm olarak doğrudan görüntülenebilir.
 
 ## <a name="editing-or-removing-embedded-apps"></a>Katıştırılmış uygulamaları düzenleme veya kaldırma
 
@@ -126,6 +126,6 @@ Web sitesi, Finance ve Operation uygulamasına katıştırıldığında doğru g
 
 ### <a name="developer-modeling-a-website-on-a-form"></a>[Geliştirici] Form üzerinde websitesi modelleme
 
-Bu konu, kişiselleştirme yoluyla üçüncü taraf uygulama veya web sitelerini katıştırmaya odaklanıyor olsa da geliştiriciler Visual Studio geliştirme deneyimini kullanarak bunları bir forma katıştırabilir. Forma bir **WebsiteHostControl** denetimi eklemeniz yeterli olacaktır. Denetimdeki mevcut meta veri özellikleri, kişiselleştirme deneyimle aynı özelliklere sahiptir.
+Bu makalede kişiselleştirme yoluyla üçüncü taraf uygulama veya web siteleri ekleme yöntemine odaklanılmaktadır ancak geliştiriciler, bunları bir forma eklemek için Visual Studio geliştirme deneyimini de kullanabilir. Forma bir **WebsiteHostControl** denetimi eklemeniz yeterli olacaktır. Denetimdeki mevcut meta veri özellikleri, kişiselleştirme deneyimle aynı özelliklere sahiptir.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

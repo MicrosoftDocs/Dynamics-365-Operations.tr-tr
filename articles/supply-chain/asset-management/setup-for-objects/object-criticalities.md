@@ -1,6 +1,6 @@
 ---
 title: Varlık kritiklik türleri
-description: Bu konuda Varlık Yönetiminde varlık kritiklik türleri açıklanmaktadır.
+description: Bu makalede Varlık Yönetiminde varlık kritiklik türleri açıklanmaktadır.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9edf55c22375a66fda04ae7ff76d7a0a191140e5ffb3a377b9ac1a7ba604a8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cfde9a9bc681c0d758491fc5c361b5b046e20d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899512"
 ---
 # <a name="asset-criticality-types"></a>Varlık kritiklik türleri
 
@@ -28,7 +28,7 @@ ms.locfileid: "6776932"
 
  
 
-Bu konuda Varlık Yönetiminde varlık kritiklik türleri açıklanmaktadır. Varlık kritikliği varlıklarla ilişkilidir ve iş emirlerine aktarılır. İş emri üzerinde değiştirilemez. Varlık kritikliği iş emri planlaması sırasında iş emri kritikliğini hesaplamak için kullanılır. Başka bir deyişle, bir varlıktaki bakım işinin şirketinizin üretim zamanlamasını ve üretkenliğini nasıl etkilediğini hesaplamak için kullanılır. İş emri planlaması için derecelendirme puanlarının hesaplanmasıyla ilgili kurulum hakkında daha fazla bilgi için bkz. [Varlık Yönetimi parametreleri](../setup-for-objects/enterprise-asset-management-parameters.md).
+Bu makalede Varlık Yönetiminde varlık kritiklik türleri açıklanmaktadır. Varlık kritikliği varlıklarla ilişkilidir ve iş emirlerine aktarılır. İş emri üzerinde değiştirilemez. Varlık kritikliği iş emri planlaması sırasında iş emri kritikliğini hesaplamak için kullanılır. Başka bir deyişle, bir varlıktaki bakım işinin şirketinizin üretim zamanlamasını ve üretkenliğini nasıl etkilediğini hesaplamak için kullanılır. İş emri planlaması için derecelendirme puanlarının hesaplanmasıyla ilgili kurulum hakkında daha fazla bilgi için bkz. [Varlık Yönetimi parametreleri](../setup-for-objects/enterprise-asset-management-parameters.md).
 
 Kritikliği ayarlamak için önce varlık kurulumunda kullanılması gereken kritiklik türlerini oluşturun. Daha sonra varlık kritikliklerini ayarlayın.
 

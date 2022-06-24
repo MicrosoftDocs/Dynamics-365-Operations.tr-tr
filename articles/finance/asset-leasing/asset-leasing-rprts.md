@@ -1,6 +1,6 @@
 ---
 title: Varlık kiralama raporları
-description: Bu konuda, Varlık kiralamaları için kullanılabilen raporlar listelenmekte ve kısaca açıklanmaktadır.
+description: Bu makalede, Varlık kiralama için kullanılabilen raporlar listelenmekte ve kısaca açıklanmaktadır.
 author: moaamer
 ms.date: 04/05/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cb1c994fee6efff82dd1cba1e71c6af49b384208
-ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.openlocfilehash: a6e6eb851b9b2dce7259a5355326dd594a940b8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8550053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856726"
 ---
 # <a name="asset-leasing-reports"></a>Varlık kiralama raporları
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Varlık kiralamaları için kullanılabilen raporlar listelenmekte ve kısaca açıklanmaktadır. Çoğu rapor, belirtildiği gibi bu adımları veya bunlara çok benzer adımları tamamlayarak görüntülenir. 
+Bu makalede, Varlık kiralama için kullanılabilen raporlar listelenmekte ve kısaca açıklanmaktadır. Çoğu rapor, belirtildiği gibi bu adımları veya bunlara çok benzer adımları tamamlayarak görüntülenir. 
 
 - Çoğu varlık kiralama raporunu görüntülemek için **Varlık Kiralama > Sorgular ve raporlar > Kiralama raporları**'na gidin ve ardından görüntülenecek bir rapor seçin. Farklı seçim yolu gerektiren raporlarda, raporu açma adımları raporun açıklamasına eklenir. 
 - Yazdırılacak raporu seçtiğinizde, rapora dahil edilen bilgileri filtrelemenizi sağlayan bir parametreler sayfası açılır. Filtre ölçütlerini girin ve raporu oluşturmak için **Tamam**'ı seçin. Oluşturulan rapor, belirttiğiniz filtreler kapsamındaki bilgileri gösterir.

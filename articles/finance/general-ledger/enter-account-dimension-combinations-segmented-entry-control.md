@@ -1,6 +1,6 @@
 ---
 title: Hesap ve boyut kombinasyonları (segmentlere ayrılmış giriş kontrolü) girme
-description: Bu konuda, hesap ve boyut kombinasyonlarının veya genel muhasebe hesaplarının nasıl girileceği açıklanmaktadır. Giriş deneyimine sıklıkla bölümlenmiş giriş denetimi denir.
+description: Bu makalede, hesap ve boyut birleşimlerinin veya genel muhasebe hesaplarının nasıl girileceği açıklanmaktadır. Giriş deneyimine sıklıkla bölümlenmiş giriş denetimi denir.
 author: aprilolson
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 779c455cb842fda941ce716eb644b9e3020f5e90
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 8bbe36bc42ca501cf3ff48aa4951a3959ea8056a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717516"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861372"
 ---
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Hesap ve boyut kombinasyonları (segmentlere ayrılmış giriş kontrolü) girme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, hesap ve boyut kombinasyonlarının veya genel muhasebe hesaplarının nasıl girileceği açıklanmaktadır. Giriş deneyimine sıklıkla bölümlenmiş giriş denetimi denir.
+Bu makalede, hesap ve boyut birleşimlerinin veya genel muhasebe hesaplarının nasıl girileceği açıklanmaktadır. Giriş deneyimine sıklıkla bölümlenmiş giriş denetimi denir.
 
 Kullanıcılar çeşitli sayfalarda, örneğin genel günlük, bütçeleme ve nakil tanımları sayfalarında hesap ve boyut kombinasyonları girebilirler. Geçerli hesap ve boyut kombinasyonları, deftere atanan hesap yapılarına ve hesap yapılarına atanan gelişmiş kurallara bağlıdır. Kullanıcılar bir kombinasyon girdiğinde değerleri el ile yazabilir veya zengin, arama deneyiminin avantajlarından yararlanabilirler. Alana girdiğinizde, yazmaya başlayabilirsiniz ve alan değeri ve açıklamayı arar. Örneğin, 180 yazarsanız, bu sayı bileşimi ile başlayan herhangi bir değeri arar. Veya nakit yazabilirsiniz ve nakit ile başlayan bir açıklamaya sahip olan herhangi bir değeri arar. Değer veya açıklamanın arama kriterini içerip içermediğini aramak için \*Nakit veya \*180 gibi bir joker de kullanabilirsiniz. 
 

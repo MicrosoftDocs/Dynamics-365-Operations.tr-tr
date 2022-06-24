@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a61e501d843e220259f9e26aac4309e6902d7a22
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a9ff9cb71b08d94e45e82c2b8f81550c9f8aba64
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897762"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Dynamics 365 Supply Chain Management yöneticileri için öğrenme kataloğu
 
@@ -42,7 +42,7 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | [Verileri taşıma ve Finans ve Operasyon uygulamalarını kullanıma alma](/learn/paths/migrate-data-go-live-finance-operations/) | İşlevsel bir danışman olarak, Finans ve Operasyon uygulamalarını kullanmaya başlamak için müşterinizin verilerini geçiş işlemi için hazırlamayı, veri yönetimi konusunda çalışmayı ve kullanıcı kabulü testlerini gerçekleştirmeyi bilmeniz gerekir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 4 saat |
 | [Finance and Operations'da analiz ve raporlarla çalışma](/learn/modules/work-with-analytics-reporting-in-dynamics-365-finance-ops/) | İş liderleri, temel finansal ve operasyonel veriler hakkında doğru içgörülere sahip oldukları takdirde kendi şirketlerinde önemli kararlar alabilirler. İş liderleri, veri görünürlüğü olmadan neredeyse imkansız bir görevle karşı karşıya kalırlar. Finans ve Operasyon uygulamalarındaki analiz ve raporları kullanarak, tüm iş kullanıcılarını önemli kararlar vermek üzere ihtiyaç duydukları içgörüleri elde etmek için güvenlik haklarına bağlı olarak destekleyebilirsiniz. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 1.5 saat |
 | [Finance and Operations için uygulama projesini yönetme](/learn/paths/implement-finance-operations/) | Başarılı bir Finance and Operations uygulama projesi yönetmek için en iyi yöntemleri ve en önemli öğeleri öğrenin. Proje metodolojinizi, FastTrack hizmetleri kullanımını, geliştirme stratejisiniz, veri yönetimini vb. planladığınız ve tasarladığınız ilk adımdan, Yayınladıktan sonra işlemlerinizi yönetme ve izlemeye ilişkin en iyi yöntemlere kadar. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 11.5 saat |
-| [Sistem yönetimi giriş sayfası](/dynamics365/unified-operations/dev-itpro/sysadmin/system-administration-home-page) | Bu konuda Microsoft Dynamics 365 for Finance and Operations sistem yöneticilerine yönelik içerikler anlatılmaktadır. Bu içerikler, sistemi kuruluşunuz için sorunsuz ve etkili çalışacak şekilde yapılandırmanıza yardımcı olacaktır. | Belgeler | |
+| [Sistem yönetimi giriş sayfası](/dynamics365/unified-operations/dev-itpro/sysadmin/system-administration-home-page) | Bu makalede Microsoft Dynamics 365 for Finance and Operations sistem yöneticilerine yönelik içerikler anlatılmaktadır. Bu içerikler, sistemi kuruluşunuz için sorunsuz ve etkili çalışacak şekilde yapılandırmanıza yardımcı olacaktır. | Belgeler | |
 | [Finance and Operations: Dynamics 365'e katılım (DYN542PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-onboarding-to-dynamics-365-1-10-19) | FastTrack, her Dynamics 365 for Finance and Operations projesi için bir Katılım hizmeti sunar. Bu Teknik Sohbet'te Katılım sürecini açıklayacak, Katılım oturumunun içeriğini sizinle birlikte inceleyecek ve Katılım sürecini yakın gelecekte nasıl daha etkili ve kolay hale getirebileceğimizi keşfedeceğiz. Bu oturum, özellikle lisans sözleşmesinin kapanışı ile uygulama projesinin başlangıcı arasında, bir projenin erken aşamalarında müşterilerle çalışan herkes için uygundur. | Bir web konferansını ücretsiz olarak kaydetme | 62 dakika |
 | [Şirket İçi (Yerel İşletme Verileri) Dağıtım (DYN382PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | Dynamics 365 for Finance and Operations, Enterprise Edition'a yönelik şirket içi dağıtım seçeneğine genel bakış için lütfen bu teknik sohbete katılın. Bu oturumda şirket içi dağıtım çözüm mimarisini, ALM özelliklerini, sistem gereksinimlerini ve Life Cycle Services projesinin nasıl sağlanacağını inceleyeceğiz. | Bir web konferansını ücretsiz olarak kaydetme | 48 dakika |
 | [Tüzel Kişiliğe Kopyalama (DYN383PAL) ](https://community.dynamics.com/365/b/techtalks/posts/copy-into-legal-entity-october-24-2017) | Bu oturumda, veri yönetim çerçevesindeki yeni bir özellik olan Tüzel kişiliğe kopyalama'dan bahsedeceğiz. İlk olarak, çalışma alanı, şablonlar ve veri projeleri için platform 8'de veri yönetim çerçevesine eklenen yeni özellikleri kısaca inceledikten sonra Tüzel kişiliğe kopyalama için eklenen ilave işlevi ele alacağız. | Bir web konferansını ücretsiz olarak kaydetme | 54 dakika |

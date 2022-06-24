@@ -1,6 +1,6 @@
 ---
 title: Üretim katı yürütme arabirimini yapılandırma
-description: Bu konu, üretim katı yürütme arabirimi için bir veya daha fazla konfigürasyon oluşturmayı açıklamaktadır. Üretim katı yürütme arabirimini açtığınızda, seçilen bir konfigürasyon ve tarayıcıya ve cihaza özel iş filtresini otomatik olarak yükler. Konfigürasyonda, belirli bir kullanım için geçerli olması gereken ilkeleri ayarlayabilirsiniz.
+description: Bu makale, üretim katı yürütme arabirimi için bir veya daha fazla konfigürasyon oluşturmayı açıklamaktadır. Üretim katı yürütme arabirimini açtığınızda, seçilen bir konfigürasyon ve tarayıcıya ve cihaza özel iş filtresini otomatik olarak yükler. Konfigürasyonda, belirli bir kullanım için geçerli olması gereken ilkeleri ayarlayabilirsiniz.
 author: johanhoffmann
 ms.date: 10/05/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 083f5a30323cdc813116af7462563c3b8dd5e4f5
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644411"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899425"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimini yapılandırma
 
@@ -31,15 +31,15 @@ Atölye çalışanları işlerin başlatılması, işlere ilişkin geri bildirim
 - Şirket salonundaki bir cihazda, çalışanlar ofise geldiği sırada girişleri ve çıkarken çıkışları kaydedilir.
 - Atölye katındaki bir cihazda, makine operatörleri işleri başlatıp bitirdikleri saati kaydeder. Ayrıca, molalar ve dolaylı faaliyetleri de kaydederler.
 
-Bu konu, tesisinizde kullanımda olan her cihaz için bir üretim katı yürütme arabirimi yapılandırmaya yönelik çeşitli seçenekleri açıklamaktadır.
+Bu makale, tesisinizde kullanımda olan her cihaz için bir üretim katı yürütme arabirimi yapılandırmaya yönelik çeşitli seçenekleri açıklamaktadır.
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Üretim katı yürütme arabirimini ve ilgili isteğe bağlı özellikleri açma
 
-Üretim katı yürütme arabirimi ve bu konuda açıklanan isteğe bağlı ayarlardan birkaçı, bunları kullanabilmeniz için sisteminizden açılmalıdır. Aşağıdaki alt bölümlerde açıklanan özellikleri gerektiği gibi açmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sayfasını kullanın.
+Üretim katı yürütme arabirimi ve bu makalede açıklanan isteğe bağlı ayarlardan birkaçı, bunları kullanabilmeniz için sisteminizden açılmalıdır. Aşağıdaki alt bölümlerde açıklanan özellikleri gerektiği gibi açmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sayfasını kullanın.
 
 ### <a name="the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimi
 
-Bu konu, bu konuda açıklanan birincil özelliktir ve bu bölümde sözü edilen tüm diğer özellikler için bir önkoşuldur. Supply Chain Management 10.0.25 itibarıyla zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Üretim katı yürütme* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
+Bu makale, bu makalede açıklanan birincil özelliktir ve bu bölümde sözü edilen tüm diğer özellikler için bir önkoşuldur. Supply Chain Management 10.0.25 itibarıyla zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Üretim katı yürütme* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ### <a name="generate-license-plates"></a>Plaka oluşturma
 
@@ -146,7 +146,7 @@ Bu özellik, **Üretim taban yürütmesini konfigüre et** sayfasına aşağıda
 - **Rapor ilerleme durumu** iletişim kutusundan materyal tüketimi düzeltmelerini etkinleştirin. (Bu işlev aynı zamanda *Malzeme tüketimini üretim katı yürütme arabirimi (WMS olmayan)* özelliğini gerektirir.)
 - Proje kimliğine göre aramaları etkinleştir.
 
-Ayarların nasıl kullanılacağı hakkında bilgi bu konunun ilerleyen bölümlerinde verilmiştir.
+Ayarların nasıl kullanılacağı hakkında bilgi bu makalenin ilerleyen bölümlerinde verilmiştir.
 
 Bu işlevi kullanmak getirmek için, [Özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin:
 

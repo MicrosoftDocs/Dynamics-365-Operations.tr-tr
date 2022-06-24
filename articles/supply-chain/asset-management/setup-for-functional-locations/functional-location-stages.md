@@ -1,6 +1,6 @@
 ---
 title: İşlem yapılacak yerleşim yaşam döngüsü durumları
-description: Bu konuda Kıymet Yönetimi'nde işlem yapılacak yerleşim durumlarının ve yaşam döngüsü modellerinin nasıl ayarlanacağı açıklanmaktadır.
+description: Bu makalede Kıymet Yönetimi'nde işlem yapılacak yerleşim durumlarının ve yaşam döngüsü modellerinin nasıl ayarlanacağı açıklanmaktadır.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ae56c2b734339343b134be95abe0ce40b70c8a0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360982"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934672"
 ---
 # <a name="functional-location-lifecycle-states"></a>İşlem yapılacak yerleşim yaşam döngüsü durumları
 
@@ -28,7 +28,7 @@ ms.locfileid: "6360982"
 
  
 
-Bu konuda Kıymet Yönetimi'nde işlem yapılacak yerleşim yaşam döngüsü durumlarının ve yaşam döngüsü modellerinin nasıl ayarlanacağı açıklanmaktadır. İşlem yapılacak yerleşim yaşam döngüsü durumları, bir işlem yapılacak yerleşimin geçebileceği oluşturuldu, etkin ve bitti gibi durumları tanımlar. Yaşam döngüsü durumlarından bağımsız olarak tüm işlem yapılacak yerleşimleri **Tüm işlem yapılacak yerleşimler** listesi sayfasından görüntüleyebilirsiniz. İşlem yapılacak yerleşimin durumunu değiştirmek için **Tüm işlem yapılacak yerleşimler** listesi sayfasından yerleşimi ve **İşlem yapılacak yerleşim durumunu güncelleştir**'i seçin.
+Bu makalede Kıymet Yönetimi'nde işlem yapılacak yerleşim yaşam döngüsü durumlarının ve yaşam döngüsü modellerinin nasıl ayarlanacağı açıklanmaktadır. İşlem yapılacak yerleşim yaşam döngüsü durumları, bir işlem yapılacak yerleşimin geçebileceği oluşturuldu, etkin ve bitti gibi durumları tanımlar. Yaşam döngüsü durumlarından bağımsız olarak tüm işlem yapılacak yerleşimleri **Tüm işlem yapılacak yerleşimler** listesi sayfasından görüntüleyebilirsiniz. İşlem yapılacak yerleşimin durumunu değiştirmek için **Tüm işlem yapılacak yerleşimler** listesi sayfasından yerleşimi ve **İşlem yapılacak yerleşim durumunu güncelleştir**'i seçin.
 
 ## <a name="set-up-functional-location-lifecycle-states"></a>İşlem yapılacak yerleşim yaşam döngüsü durumlarını ayarla
 
@@ -39,6 +39,7 @@ Bu konuda Kıymet Yönetimi'nde işlem yapılacak yerleşim yaşam döngüsü du
 5. İşlem yapılacak yerleşimle aynı ada sahip bir kıymeti otomatik olarak oluşturulabilmesi ve bunu bu durumdaki işlem yapılacak yerleşime yüklenebilmesi isteniyorsa **Kıymet oluştur** geçiş düğmesinde "Evet" seçeneğini belirleyin.  
 >[!NOTE]
 >Bu geçiş düğmesi **İşlem yapılacak yerleşim türleri** formunda **Genel** hızlı sekmesindeki **Kıymet türü** alanıyla ilgilidir (**Kıymet yönetimi** > **Kurulum** > **İşlem yapılacak yerleşimler** > **İşlem yapılacak yerleşim türleri**).
+
 6. Bu durumda işlem yapılacak yerleşimin adının değiştirilebilmesi isteniyorsa **Yerleşimi yeniden adlandır** geçiş düğmesinde "Evet" seçeneğini belirleyin.
 7. Bu durumda işlem yapılacak yerleşime yeni alt yerleşimler eklenebilmesi isteniyorsa **Yeni alt yerleşimler** geçiş düğmesinde "Evet" seçeneğini belirleyin.
 8. Bu durumda işlem yapılacak yerleşime kıymet yüklenebilmesi isteniyorsa **Kıymetleri yükle** geçiş düğmesinde "Evet" seçeneğini belirleyin.

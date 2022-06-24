@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 60b96f4d116d7f8f14226bd792c36c487cc0035763afdff6bbe22fe6e0104e77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2af539e9201456c46d1dd5fef5f31f9c4f225cdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777392"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844604"
 ---
 # <a name="report-designer-interface"></a>Rapor Tasarımcısı arayüzü
 
@@ -157,9 +157,9 @@ Aşağıdaki tablolarda, finansal raporlar tasarlarken kullanabileceğiniz menü
 
 **Yardım** menüsü tüm kullanıcılara açıktır ve aşağıdaki komutları içerir.
 
-| Komut | Tanım                                                              |
+| Command | Açıklama                                                              |
 |---------|--------------------------------------------------------------------------|
-| Yardım    | Finansal raporlama için yardım konu sayfasını açın. |
+| Yardım    | Mali raporlama için yardım makalesi sayfasını açın. |
 |         |                                                                          |
 
 ## <a name="report-designer-toolbar-buttons"></a>Rapor Tasarımcısı araç çubuğu düğmeleri

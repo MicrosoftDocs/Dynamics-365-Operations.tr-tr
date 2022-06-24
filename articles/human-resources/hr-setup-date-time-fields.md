@@ -1,6 +1,6 @@
 ---
 title: Tarih ve Saat alanlarını anlama
-description: Bu konu, Microsoft Dynamics 365 Human Resources'ta tarih ve saat alanlarının nasıl kullanılacağını açıklar.
+description: Bu makalede, Microsoft Dynamics 365 Human Resources'da tarih ve saat alanlarının nasıl kullanılacağı açıklanmaktadır.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f595e06d9ddc9b44e8820d814d888971444bdf6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e314efa5ac08288bc7d00c197be59ba9decac203
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688503"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856323"
 ---
 # <a name="understand-date-and-time-fields"></a>Tarih ve Saat alanlarını anlama
 

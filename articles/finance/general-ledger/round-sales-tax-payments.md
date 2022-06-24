@@ -1,6 +1,6 @@
 ---
 title: Satış vergisi ödemeleri ve yuvarlama kuralları
-description: Bu konuda, Satış vergisi makamlarında yuvarlama kuralı ayarlarının nasıl çalıştığı ve Satış vergilerini kapatma ve deftere nakletme işi sırasında satış vergisi bilançosunun yuvarlanması açıklanmaktadır.
+description: Bu makalede, Satış vergisi makamlarında yuvarlama kuralı ayarlarının nasıl çalıştığı ve Satış vergilerini kapatma ve deftere nakletme işi sırasında satış vergisi bilançosunun yuvarlanması açıklanmaktadır.
 author: kailiang
 ms.date: 10/29/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff69afae675b9f8824ac0b29b5611420136b6a57
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5c24a9850543e9d08ee1726186f433c7cfd26608
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726564"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865697"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Satış vergisi ödemeleri ve yuvarlama kuralları
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Satış vergisi makamlarında yuvarlama kuralı ayarlarının nasıl çalıştığı ve Satış vergilerini kapatma ve deftere nakletme işi sırasında satış vergisi bilançosunun yuvarlanması açıklanmaktadır.
+Bu makalede, Satış vergisi makamlarında yuvarlama kuralı ayarlarının nasıl çalıştığı ve Satış vergilerini kapatma ve deftere nakletme işi sırasında satış vergisi bilançosunun yuvarlanması açıklanmaktadır.
 
 Satış vergilerinin düzenli olarak vergi dairelerine bildirilmesi ve ödenmesi gerekir. Bu eylem, **Satış vergisi** sayfasındaki Satış vergisi kapatma ve nakletme işlemi çalıştırılarak yapılabilir. Bir döneme ait satış vergisi, satış vergisi hesaplarına karşı kapatılır ve satış vergisi bakiyesi Satış vergisi kapatma hesabına nakledilir. Satış vergisi kapatma hesabına nakledilen satış vergisi bakiyesi, **Satş vergisi** sayfasında bir yuvarlama kuralı ayarlanarak vergi kurumlarının gerektirdiği şekilde yuvarlanabilir. 
 

@@ -1,6 +1,6 @@
 ---
 title: Borç hesapları ile alacak hesapları için para birimi yeniden değerleme işlemi
-description: Bu konuda, Borç hesapları ve Alacak hesaplarındaki açık hareketlerin değerini güncelleştirmek için çalıştırdığınız yabancı para birimi yeniden değerleme işlemi hakkında bilgiler verilmektedir.
+description: Bu makalede, Borç hesapları ve Alacak hesaplarındaki açık hareketlerin değerini güncelleştirmek için çalıştırdığınız yabancı para birimi yeniden değerleme işlemi hakkında bilgiler verilmektedir.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf32a31df1d56740d803b97d65829b1b1d31eb17
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 33750e7bb2f1fc4158a5f2faba5eeae5a356db7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713938"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906398"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Borç hesapları ile alacak hesapları için para birimi yeniden değerleme işlemi
 
 [!include [banner](../includes/banner.md)]
 
-Döviz kuru dalgalanmaları, yabancı para birimlerindeki açık hareketlerin teorik değerinin (defter değerinin) zaman içinde değişmesine neden olur. Bu konuda, Borç hesapları ve Alacak hesaplarındaki açık hareketlerin değerini güncelleştirmek için çalıştırdığınız yabancı para birimi yeniden değerleme işlemi hakkında bilgiler verilmektedir. 
+Döviz kuru dalgalanmaları, yabancı para birimlerindeki açık hareketlerin teorik değerinin (defter değerinin) zaman içinde değişmesine neden olur. Bu makalede, Borç hesapları ve Alacak hesaplarındaki açık hareketlerin değerini güncelleştirmek için çalıştırdığınız yabancı para birimi yeniden değerleme işlemi hakkında bilgiler verilmektedir. 
 
 Yabancı para birimlerindeki açık hareketlerinin teorik değeri veya defter değeri, döviz kurlarındaki dalgalanmalar nedeniyle zaman içinde değişiklik gösterebilir. Borç hesapları ve Alacak hesapları altındaki açık hareketlerin değerini güncelleştirmek için yabancı para birimi yeniden değerleme sürecini işletin. Yabancı para biriminde yeniden değerleme hem Borç hesapları hem Alacak hesapları için yürütülebilir. Süreç, belirli bir tarihteki açık hesapları veya kapatılmamış tutarları yeniden değerlemek için yeni bir döviz kuru kullanır. Gönderilen orijinal tutarlar ve yeniden değerlenen tutarlar, her açık hareketten gerçekleşmemiş kazanç veya kayıp ile sonuçlanmış olabilir. Borç hesapları ve alacak hesapları alt muhasebe defterleri daha sonra gerçekleşmemiş kazanç veya zararı yansıtmak için güncelleştirilir ve bir muhasebe girişi Genel muhasebe defterine nakledilir.
 

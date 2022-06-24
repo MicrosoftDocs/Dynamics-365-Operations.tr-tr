@@ -1,6 +1,6 @@
 ---
 title: Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği
-description: Bu konu, Microsoft Dynamics 365 Commerce'taki Çek Cumhuriyeti'ne yönelik mali tümleştirme örneğine genel bakış sağlar.
+description: Bu makale, Microsoft Dynamics 365 Commerce'taki Çek Cumhuriyeti'ne yönelik mali tümleştirme örneğine genel bakış sağlar.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-4-1
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 1c764de42f727bb72adbb8b015745599f428656e
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: d255b03242a4cb7a72cef1e8e6fab901ecf953e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8613921"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910510"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce'taki Çek Cumhuriyeti'ne yönelik mali tümleştirme örneğine genel bakış sağlar.
+Bu makale, Microsoft Dynamics 365 Commerce'taki Çek Cumhuriyeti'ne yönelik mali tümleştirme örneğine genel bakış sağlar.
 
 Çek Cumhuriyeti'nde yazar kasalara yönelik yerel mali gereksinimlerin karşılanması amacıyla Çek Cumhuriyeti için Dynamics 365 Commerce işlevi, satış noktasının (POS) harici bir mali kayıt hizmetiyle örnek tümleştirmesini içerir. Bu örnek, [mali tümleştirme işlevini](fiscal-integration-for-retail-channel.md) genişletir. [EFSTA'nın](https://efsta.org/) [EFR (Elektronik Yazar Kasa)](https://efsta.org/sicherheitsloesungen/) çözümüne dayalıdır ve HTTPS protokolü üzerinden EFR hizmetiyle iletişim kurulmasını sağlar. EFR hizmeti, Elektronik Satış Kaydını (EET - Elektronická evidence tržeb), diğer bir deyişle, satış verilerinin vergi makamlarının mali web hizmetine çevrimiçi olarak iletilmesini sağlar.
 

@@ -1,6 +1,6 @@
 ---
-title: Tümleşik siteler ve ambarlar
-description: Bu konu Finans ve Operasyon ile Dataverse arasında site ve ambar verileri tümleştirmesini açıklar.
+title: Tümleşik tesisler ve ambarlar
+description: Bu makale Finans ve Operasyon ile Dataverse arasında site ve ambar verileri tümleştirmesini açıklar.
 author: t-benebo
 ms.date: 10/09/2019
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: benebotg
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: 66c5962933387831bbc3f17b9f29128ceaaf750b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: cd1293094f670c43eb46bc14b8bfe0f2afe43047
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063224"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852612"
 ---
-# <a name="integrated-sites-and-warehouses"></a>Tümleşik siteler ve ambarlar
+# <a name="integrated-sites-and-warehouses"></a>Tümleşik tesisler ve ambarlar
 
 [!include [banner](../../includes/banner.md)]
 
 
 
-Bu konu Finans ve Operasyon ile Dataverse arasında site ve ambar verileri tümleştirmesini açıklar. Operasyonel tesisler ve ambarlar, Supply Chain Management uygulamasındaki ortak kavramlardır. Bunlar şirketinizin tedarik zincirini modellemek için kullanılırlar.
+Bu makale Finans ve Operasyon ile Dataverse arasında site ve ambar verileri tümleştirmesini açıklar. Operasyonel tesisler ve ambarlar, Supply Chain Management uygulamasındaki ortak kavramlardır. Bunlar şirketinizin tedarik zincirini modellemek için kullanılırlar.
 
 ## <a name="templates"></a>Şablonlar
 

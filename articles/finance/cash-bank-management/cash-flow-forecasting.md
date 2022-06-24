@@ -1,6 +1,6 @@
 ---
 title: Nakit akışı tahmini
-description: Bu konu, nakit akışı genel görünüm işlemine bir genel bakış sağlar. Nakit akışı tahmininin sistemdeki diğer modüllerle nasıl tümleşik olduğunu da açıklar.
+description: Bu makalede, nakit akışı tahmini işlemine dair genel bir bakış sağlanmaktadır. Nakit akışı tahmininin sistemdeki diğer modüllerle nasıl tümleşik olduğunu da açıklar.
 author: panolte
 ms.date: 02/16/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4979a57c966f25dba62a944a4e44086e5f6aed28
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: c811afb0129b25a257bdc3519c511d70ecb44714
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712551"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904686"
 ---
 # <a name="cash-flow-forecasting"></a>Nakit akışı tahmini
 
@@ -110,7 +110,7 @@ Daha fazla bilgi için bkz. [Nakit akışı tahminlerinde harici veriler](../../
 
 10.0.17 sürümünde yeni bir özellik, proje yönetimi ve muhasebe ile nakit akışı tahminiyle tümleştirmeyi etkinleştirir. **Özellik Yönetimi** çalışma alanında, tahmin edilen maliyetleri ve gelirleri nakit akışı tahminine eklemek için **nakit akışı proje tahmini** özelliğini açın. **Nakit akışı tahmini kurulumu** sayfasının **Proje yönetimi ve muhasebe** sekmesinde, nakit akışı tahminine eklenmesi gereken proje türlerini ve işlem türlerini seçin. Ardından Proje tahmin modelini seçin. Bir azaltma türü alt modeli en iyi çalışır. Alacak hesapları kurulumuna girilen likidite hesapları varsayılan likidite hesapları olarak kullanılır. Bu nedenle, nakit akışı tahminini ayarlarken varsayılan likidite hesaplarını girmeniz gerekmez. Bütçe modeli de kullanılabilir, ancak Proje yönetimi ve muhasebe için **nakit akışı tahmin kurulumu** sayfasında yalnızca bir tür seçilebilir. Tahmin modeli, proje yönetimi ve muhasebe veya Project Operations kullanıldığında en iyi esnekliği sağlar.
 
-Nakit akışı proje tahmini özelliği açık olduğunda, nakit akışı tahmini **tüm projeler** sayfasında her proje için görüntülenebilir. Eylem Bölmesindeki **Plan** sekmesinde yer alan **Tahmin** grubunda **Nakit akışı tahmini**'ni seçin. **Nakit genel bakış** çalışma alanlarında (bu konunun ilerleyen bölümlerindeki [raporlama ](#reporting) bölümüne bakın), proje tahmin işlem türü, girişleri (proje tahmini geliri) ve çıkışları (proje tahmin maliyetleri) gösterir. Tutarlar ancak, **Nakit genel bakış** çalışma alanlarında **proje aşaması** alanı **İşlemde** olarak ayarlanmışsa dahil edilebilir.
+Nakit akışı proje tahmini özelliği açık olduğunda, nakit akışı tahmini **tüm projeler** sayfasında her proje için görüntülenebilir. Eylem Bölmesindeki **Plan** sekmesinde yer alan **Tahmin** grubunda **Nakit akışı tahmini**'ni seçin. **Nakde genel bakış** çalışma alanlarındaki (bu makalenin ilerleyen kısımlarındaki [Raporlama ](#reporting) bölümüne bakın) Proje tahmini hareket türü, girişleri (proje tahmini geliri) ve çıkışları (proje tahmini maliyetleri) gösterir. Tutarlar ancak, **Nakit genel bakış** çalışma alanlarında **proje aşaması** alanı **İşlemde** olarak ayarlanmışsa dahil edilebilir.
 
 **Nakit akışı proje tahmini** özelliğinin açık olup olmamasına bakmaksızın, proje işlemleri çeşitli yollarla nakit akışı tahminine dahil edilir. Deftere nakledilen proje faturaları, açık müşteri hareketlerinin bir parçası olarak tahmine dahil edilir. Proje tarafından başlatılan satış siparişleri ve satınalma siparişleri, sisteme girildikten sonra açık siparişler olarak tahmin dahil edilir. Proje tahminlerini bir genel muhasebe bütçe modeline de aktarabilirsiniz. Bu genel muhasebe bütçe modeli daha sonra nakit akışı tahminine, bütçe kayıt varlıklarının bir parçası olarak dahil edilir. **Nakit akışı proje tahmini** özelliğini etkinleştirdiyseniz, Proje tahminlerini bir kayıt defteri bütçe modeline transfer etmeyin, çünkü bu eylem proje tahminlerinin iki kere sayılmasına neden olur.
 

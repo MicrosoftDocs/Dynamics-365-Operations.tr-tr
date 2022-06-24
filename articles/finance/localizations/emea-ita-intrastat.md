@@ -1,6 +1,6 @@
 ---
-title: İtalya Intrastat
-description: Bu konu, İtalya'daki Intrastat raporlaması hakkında bilgi içerir.
+title: İtalya İntrastat
+description: Bu makalede, İtalya'daki Intrastat raporlaması hakkında bilgiler yer almaktadır.
 author: anasyash
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 3b676ba754cded03fdc6d566ffbfbb35c204b03a
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: a4531baf29759607c877c815b849067f718851b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488271"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874377"
 ---
 # <a name="italian-intrastat"></a>İtalya Intrastat
 
@@ -631,7 +631,7 @@ Daha fazla bilgi için bkz. [İntrastat'a genel bakış](emea-intrastat.md).
 
     Daha fazla bilgi için bkz. [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını yükleme](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
-2. Dynamics 365 Finance'de **Vergi** > **Kurulum** > **Dış ticaret parametreleri**'ne gidin.
+2. Dynamics 365 Finance'te, **Vergi** > **Kurulum** > **Dış ticaret parametreleri**'ne gidin.
 3. **İntrastat** sekmesinde, **Genel** hızlı sekmesinde aşağıdaki alanları ayarlayın:
 
     - **Menşe/hedef**: Şirketinizin ilçesini seçin. Bu ilçe gönderimlerde kullanılacak.
@@ -650,7 +650,7 @@ Daha fazla bilgi için bkz. [İntrastat'a genel bakış](emea-intrastat.md).
 6. **İstatistiksel değer** hızlı sekmesinde, gerekirse **İstatistiksel verileri yazdır ve dışarı aktar** seçeneğini **Evet** olarak ayarlayın. Bu ayar istatistiksel bölümün aktarımını etkinleştirir. İstatistik bölümü; ağırlıklar, ek birimler, istatistiksel değerler, teslimat koşulları, teslimat planlaması, taşıma şekilleri ve menşe bölgeler hakkındaki verilerden oluşur.
 
     > [!NOTE]
-    > Üç aylık bir bildirim için İntrastat raporu istatistiksel bölümü veya teslimat koşulları ve taşıma şekilleri hakkındaki bilgileri içermez. Daha fazla bilgi için bu konunun [Genel bakış](#overview) bölümündeki tabloya bakın.
+    > Üç aylık bir bildirim için İntrastat raporu istatistiksel bölümü veya teslimat koşulları ve taşıma şekilleri hakkındaki bilgileri içermez. Daha fazla bilgi için bu makalenin [Genel bakış](#overview) bölümündeki tabloya bakın.
 
 7. **Ülke/bölge özellikleri** sekmesinde, kuruluşunuzun iş yaptığı tüm ülke/bölgeleri listeleyin. Her ülke/bölge için aşağıdaki alanları ayarlayın:
 

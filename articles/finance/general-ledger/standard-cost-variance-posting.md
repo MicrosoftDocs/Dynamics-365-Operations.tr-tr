@@ -1,6 +1,6 @@
 ---
 title: Standart maliyet farkını deftere nakletme
-description: Bu konuda, standart maliyetlendirme için deftere nakil profilleri ayarlama hakkında bilgi sağlanır.
+description: Bu makalede, standart maliyetlendirme için deftere nakil profilleri ayarlama hakkında bilgi sağlanır.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,16 +10,16 @@ ms.search.form: InventPosting, InventItemGroup
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: bc4f1bd7c1bf7a8f214f20460b10d371d8f3c790
-ms.sourcegitcommit: 1ea145dc606e243c7f51d91a5c0dd9e385bbda4a
+ms.openlocfilehash: e7b2d04f32b75dbd1354b3ef74a41ea1b6469c8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8804628"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894891"
 ---
 # <a name="standard-cost-variance-posting"></a>Standart maliyet farkını deftere nakletme
 
-Kuruluşunuzda bir veya daha fazla ürün için standart maliyetlendirme kullandığınızda, [standart maliyetlendirmeye yönelik ön koşulları](/supply-chain/cost-management/prerequisites-standard-costs.md) yapılandırmalısınız. Bu konuda, ön koşulların 3. adımı ("Madde nakillerine, standart maliyet farklarıyla ilişkili genel muhasebe hesapları atayın") için gerekli olan deftere nakil hesapları açıklanmaktadır.
+Kuruluşunuzda bir veya daha fazla ürün için standart maliyetlendirme kullandığınızda, [standart maliyetlendirmeye yönelik ön koşulları](/supply-chain/cost-management/prerequisites-standard-costs.md) yapılandırmalısınız. Bu makalede, ön koşulların 3. adımı ("Madde nakillerine, standart maliyet farklarıyla ilişkili genel muhasebe hesapları atayın") için gerekli olan deftere nakil hesapları açıklanmaktadır.
 
 Satınalmalar ve üretim emirleri için çeşitli türlerde farklar olabilir. Üretim farklarına örnekler için bkz. [Üretim farklarının ortak kaynakları](/supply-chain/cost-management/common-sources-of-production-variances.md). Satınalma siparişi fiyat farkları, satın alınan bir madde için standart maliyet kullandığınızda ve ürünün standart maliyeti ile satınalma siparişindeki faturalanan tutar arasında fark olduğunda oluşur.
 

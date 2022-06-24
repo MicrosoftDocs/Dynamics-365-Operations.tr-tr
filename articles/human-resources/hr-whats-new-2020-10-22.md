@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler 22 Ekim 2020
-description: Bu konuda, 22 Ekim 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, 22 Ekim 2020 için Microsoft Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır.
 author: jcart1106
 ms.date: 10/22/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b36354b14faf59aacb4a619dfb6f243335e6a297
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d58c8d5eab86779a764cee5a3ee8ca17ade471de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862815"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler 22 Ekim 2020
 
@@ -27,7 +27,7 @@ ms.locfileid: "8063530"
 
 
 
-Bu konuda, Dynamics 365 Human Resources'daki yeni, değişen veya gelecek özellikler açıklanmaktadır. Güncelleştirme işlemi ve planı hakkında daha fazla bilgi için bkz. [Güncelleştirme işlemi](hr-admin-setup-update-process.md).
+Bu makalede, Dynamics 365 Human Resources'da yeni, değişen veya yakında sunulacak özellikler açıklanmaktadır. Güncelleştirme işlemi ve planı hakkında daha fazla bilgi için bkz. [Güncelleştirme işlemi](hr-admin-setup-update-process.md).
 
 Yeni özellikler ve bunların beklenen genel kullanılabilirlik tarihleri hakkında daha fazla bilgi için, [Dynamics 365 Human Resources 2020 sürümü 2. Dalga'ya bakın](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -50,9 +50,9 @@ Aşağıdaki özellikler genel olarak bu sürümde mevcuttur.
 Bu sürümde aşağıdaki hata çözümleri bulunmaktadır.
 
 > [!NOTE]
-> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu konu ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmelerini eklemek için bu konuya güncelleştirmeler uygulayabiliriz.
+> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu makale, ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmeleri eklenerek güncelleştirilebilir.
 
-| Sorun numarası| Çıkış  | Tanım|
+| Sorun numarası| Sorun  | Açıklama|
 | --- | --- | --- |
 | 437922 | DMF varlığı kullanılarak FMLA saatlerinin aktarılması salt okunur bir hatayla sonuçlanır. | Bir FMLA servis talebiyle ilişkilendirilmiş saatleri içe aktarmak için FMLA saat varlığını kullanma başarısız oldu. İçe aktarılan saatlerin servis talebi için kalan saatleri aşmamasını sağlamak amacıyla mantık ekledik. |
 | 512019 | Yanlış **son ileri taşıma** miktarı. | **İzin** sayfasında **Başlangıç tarihini** sonraki mali dönemin ilk günü olarak değiştirmek **Yıllık izin** türü için yanlış **son ileri taşıma** tutarı görüntülüyordu. Şimdi doğru tutarı görüntülüyor. |

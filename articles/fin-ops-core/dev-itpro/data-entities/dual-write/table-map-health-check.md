@@ -1,20 +1,20 @@
 ---
 title: Tablo eşlemesi sistem durumu denetimi için hata kodları
-description: Bu konu, tablo eşlemesi durum denetimi için hata kodlarını açıklamaktadır.
-author: nhelgren
-ms.date: 10/04/2021
+description: Bu makalede, tablo eşlemesi durum denetimi için hata kodları açıklanmaktadır.
+author: RamaKrishnamoorthy
+ms.date: 05/31/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
-ms.author: nhelgren
+ms.author: ramasri
 ms.search.validFrom: 2021-10-04
-ms.openlocfilehash: 916f3cfca3bae7a073ce4e956a12080ee01c8d31
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3ae78077fc716311c38620b14665af3983a44c2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061290"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884097"
 ---
 # <a name="errors-codes-for-the-table-map-health-check"></a>Tablo eşlemesi sistem durumu denetimi için hata kodları
 
@@ -22,7 +22,7 @@ ms.locfileid: "8061290"
 
 
 
-Bu konu, tablo eşlemesi durum denetimi için hata kodlarını açıklamaktadır.
+Bu makalede, tablo eşlemesi durum denetimi için hata kodları açıklanmaktadır.
 
 ## <a name="error-100"></a>Hata 100
 
@@ -36,7 +36,7 @@ Hata iletisi şudur: "\{Finans ve Operasyon UniqueEntityName\} varlığı için 
 
 ## <a name="error-500"></a>Hata 500
 
-Hata iletisi: "\{proje adı\} projesi için proje konfigürasyonu bulunamadı. Bu, proje etkinleştirilmedi veya tüm alan eşlemeleri müşteri etkileşiminden Finans ve Operasyon'a tek yönlü olabilir."
+Hata iletisi: "\{proje adı\} projesi için proje konfigürasyonu bulunamadı. Bunun nedeni projenin etkinleştirilmemesi veya tüm alan eşlemelerinin müşteri etkileşiminden Finance and Operations'a tek yönlü olmasıdır."
 
 Tablo haritası için eşlemeleri denetleyin. Müşteri etkileşimi uygulamalarından Finans ve Operasyon uygulamalarına tek yönlü ise Finans ve Operasyon uygulamalarından Dataverse'e canlı eşitleme için trafik oluşturulmaz.
 
@@ -79,5 +79,20 @@ select * from <EntityName> where <filter criteria for the records> on SQL.
 Hata iletisi: "\{datasourceTable.Key.entityName\} varlığı için Tablo: \{DataSourceTable.Key.subscribedTableName\}, \{origTableToEntityMaps.EntityName\} varlığı için izlenir. Çoklu varlıklar için izlenen aynı tablolar, dinamik eşitleme hareketleri için sistem performansını etkileyebilir."
 
 Aynı tablo birden çok varlık tarafından izleniyorsa, tabloda yapılan tüm değişiklikler bağlantılı varlıklar için çift-yazılır değerlendirmeyi tetikler. Filtre yan tümceleri yalnızca geçerli kayıtları gönderebilse de, uzun süre çalışan sorgular veya iyileştirilmemiş sorgu planları varsa, değerlendirme performans sorununa neden olabilir. Bu sorun iş açısından anlaşılabilir olmayabilir. Ancak, birden fazla varlık arasında birçok kesişen tablo varsa, varlığı basitleştirmeyi veya varlık sorguları için en iyi duruma getirme işlemlerini düşünmelisiniz.
+
+## <a name="error-1800"></a>Hata 1800
+Hata iletisi şudur: "CustCustomerV3Entity varlığı için veri kaynağı ({}) aralık değeri içeriyor. Dataverse'ten Finance and Operations'a gelen kayıt eklemeleri varlıktaki aralık değerlerinden etkilenebilir. Lütfen ayarlarınızı doğrulamak için filtre ölçütüne uymayan kayıtlar ile Dataverse-Finance and Operations yönlü kayıt güncelleştirmelerini sınayın."
+
+Finans ve operasyonlar uygulamalarındaki varlıkta belirtilen bir aralık varsa Dataverse'ten finans ve operasyon uygulamalarına gelen eşleştirme, bu aralık ölçütüyle eşleşmeyen kayıtlarda güncelleştirme davranışı için sınanmalıdır. Aralıkla eşleşmeyen tüm kayıtlar, varlık tarafından bir ekleme işlemi olarak kabul edilir. Temel tabloda mevcut bir kayıt varsa ekleme işlemi başarısız olur. Üretime dağıtmadan önce bu kullanım durumunu tüm senaryolarda sınamanızı öneririz.
+
+## <a name="error-1900"></a>Hata 1900
+Hata iletisi şudur: "Varlık, giden çift yazma için izlenmeyen {} veri kaynağına sahiptir. Bu, canlı eşitleme sorgusu performansını etkileyebilir. Lütfen, kullanılmayan veri kaynaklarını ve tabloları kaldırmak için Finance and Operations'da varlığı yeniden modelleyin veya çalışma zamanı sorgularını iyileştirmek için getEntityRecordIdsImpactedByTableChange işlemini uygulayın."
+
+Finans ve Operasyon uygulamalarından gerçek canlı eşitlemede izleme için kullanılmayan birçok veri kaynağı varsa varlık performansı canlı eşitlemeyi etkileyebilir. İzlenen tabloları iyileştirmek için getEntityRecordIdsImpactedByTableChange yöntemini kullanın.
+
+## <a name="error-5000"></a>Hata 5000
+Hata iletisi "Zaman uyumlu eklentiler, varlık hesaplarının veri yönetimi olayları için kaydedilir. Bunlar, Dataverse'e ilk eşitleme ve canlı eşitleme ile içe aktarma performansını etkileyebilir. En iyi performans için lütfen eklentileri zaman uyumsuz işleme olarak değiştirin. Kayıtlı eklentilerin listesi: {}."
+
+Dataverse varlığındaki zaman uyumlu eklentiler, hareket yükünü artırdığı için canlı eşitleme ve ilk eşitleme performansını etkileyebilir. Önerilen yaklaşım, eklentileri kapatmak veya belirli bir varlık için ilk eşitlemede veya canlı eşitlemede yükleme zamanı yavaşsa eklentileri zaman uyumsuz hale getirmektir.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

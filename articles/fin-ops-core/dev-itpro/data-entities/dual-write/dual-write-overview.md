@@ -1,6 +1,6 @@
 ---
 title: Çift yazmaya genel bakış
-description: Bu konuda, müşteri etkileşimi uygulamaları ile Finance ve Operations uygulamaları arasında gerçek zamanlıya yakın etkileşim sağlayan çift yazma özelliğine dair genel bir bakış sunulur.
+description: Bu makalede, müşteri etkileşimi uygulamaları ile Finans ve Operasyon uygulamaları arasında gerçek zamanlıya yakın etkileşim sağlayan çift yazma özelliğine dair genel bir bakış sunulmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 02/06/2020
 ms.topic: overview
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: f39322a0c2ef50ef2bbeb256c80096e0687c4642
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2ef4fb1a51bd92db440841eb2a9d9ebcce0e1b1d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061346"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872954"
 ---
 # <a name="dual-write-overview"></a>Çift yazmaya genel bakış
 
@@ -73,7 +73,7 @@ ms.locfileid: "8061346"
 
 Çift-yazılır, Microsoft Dynamics 365 uygulama arasında veri tümleştirmesi sağlar. Bu güçlü çerçeve, ortamları birbirine bağlar ve farklı iş uygulamalarının birlikte çalışmasını sağlar. Çift-yazmayı kullanmanız gereken başlıca nedenler şunlardır:
 
-+ Çift yazma, finans ve operasyon uygulamaları ile müşteri etkileşimi uygulamaları arasında sıkı bir şekilde birleştirilmiş, neredeyse gerçek zamanlı ve çift yönlü tümleştirme sunar. Bu bütünleşme, Microsoft Dynamics 365 tüm iş çözümleri için tek durduran mağaza yapar. Müşteri İlişkileri Yönetimi (CRM) için Microsoft dışı çözümler kullanan ancak Dynamics 365 Finance ve Dynamics 365 Supply Chain Management kullanan müşteriler çift yaz desteği için Dynamics 365'e doğru hareket ettirillerdir.
++ Çift yazma, finans ve operasyon uygulamaları ile müşteri etkileşimi uygulamaları arasında sıkı bir şekilde birleştirilmiş, neredeyse gerçek zamanlı ve çift yönlü tümleştirme sunar. Bu bütünleşme, Microsoft Dynamics 365 tüm iş çözümleri için tek durduran mağaza yapar. Müşteri ilişkileri yönetimi (CRM) için Microsoft dışı çözümler kullanan ancak Dynamics 365 Finance ve Dynamics 365 Supply Chain Management kullanan müşteriler çift yazma desteği için Dynamics 365'e geçiş yapmaktadır.
 + Müşteriler, ürünler, operasyonlar, projeler ve bunların Internet bilgileri (IoT), otomatik olarak çift-yazılabilir olarak Dataverse'e akar. Bu bağlantı, Power Platform uzantıları ile ilgilenen işletmeler için yararlıdır.
 + Çift-yazılır altyapı, No-Code/Low-Code ilkesini izler. Standart tablo-tablo eşlemelerini genişletmek ve özel eşlemeler eklemek için minimal mühendislik çaba gereklidir.
 + Çift yazım, hem çevrimiçi modu, hem de çevrimdışı modu destekler. Microsoft, çevrimiçi ve çevrimdışı modlar için destek sunan tek şirkettir.

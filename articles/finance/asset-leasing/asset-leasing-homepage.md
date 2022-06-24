@@ -1,6 +1,6 @@
 ---
 title: Varlık kiralama giriş sayfası
-description: Bu konuda, Varlık kiralama belgeleri hakkında genel bilgiler ve belirli konuların bağlantıları sağlanır.
+description: Bu makalede, Varlık kiralama belgeleri hakkında genel bilgiler ve belirli makalelerin bağlantıları sağlanmaktadır.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c82c54b08a7d4c603d1246c598abacc51eb88839
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 014c34791f280ca1d3d9154cd0870a73cc43d26b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710399"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889163"
 ---
 # <a name="asset-leasing-home-page"></a>Varlık kiralama giriş sayfası
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Varlık kiralama için sunulan yardım konu başlıklarını listeler ve belirli konuların bağlantılarını içerir. 
+Bu makalede, Varlık kiralama için sunulan yardım makaleleri listelenmekte ve belirli makalelerin bağlantıları sağlanmaktadır. 
 
 Varlık kiralama, Microsoft Dynamics 365 Finance'te kiralanmış varlıklar için mali hareketleri yönetme, izleme ve otomatikleştirmeye yönelik gelişmiş bir özelliktir. Varlık kiralama Uluslararası muhasebe standartları (IFRS 16) ve US GAAP standartları (ASC 842) ile uyumludur. Varlık kiralama, kiralama bilgilerini yakalıp işler ve ilk kabul ve aylık günlük girişlerinden kira değerinin düşmesi ve kiranın sonlanmasına kadar kiranın yaşam döngüsü aracılığıyla günlük girişleri oluşturmaya yardımcı olur.
 
 Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için **özellik yönetimi** çalışma alanını kullanabilir. **Özellik yönetimi** çalışma alanında, **Varlık kiralama** olarak adlandırılan özelliği bulup seçin ve **Şimdi etkinleştir** düğmesine tıklayın.
 
 ## <a name="asset-leasing-topics"></a>Varlık kiralama konuları
-Aşağıdaki konu, Varlık kiralamayı yapılandırmaya ve kullanmaya yardımcı olmak için sunulmuştur. 
+Aşağıdaki makale, Varlık kiralamayı yapılandırmaya ve kullanmaya yardımcı olmak için sunulmuştur. 
 
- - [Varlık kiralamaya başlama](asset-leasing-quick-start.md): Bu konuda Varlık kiralamanın genel özellikleri açıklanmaktadır, yazılımda ve belgelerde kullanılan terimler listelenmekte ve tanımlanmaktadır.
+ - [Varlık kiralamaya başlama](asset-leasing-quick-start.md): Bu makalede Varlık kiralamanın genel özellikleri açıklanmaktadır, yazılımda ve belgelerde kullanılan terimler listelenmekte ve tanımlanmaktadır.
  
  ### <a name="set-up-asset-leasing"></a>Varlık kiralamayı ayarlama
  Bu konu grubu, Varlık kiralamayı kuruluşunuzun işletme koşullarınıza uygun şekilde yapılandırma konusunda yardımcı olabilir.  
@@ -77,7 +77,7 @@ Bu konu grubu, kiralama ekleme, ödeme faturaları oluşturma, kiralamaları dü
  - [Kiralama içeri aktarma çerçevesi üzerinden kiralamayı yönetme](manage-leases-thru-imprt-framewrk.md)
  
 ### <a name="asset-leasing-reporting"></a>Varlık kiralama raporlama
-Bu konuda, varlık kiralamaları için kullanılabilen raporlar açıklanmaktadır. 
+Bu makalede, varlık kiralamaları için kullanılabilen raporlar açıklanmaktadır. 
 
  - [Varlık kiralama raporları](asset-leasing-rprts.md)
  

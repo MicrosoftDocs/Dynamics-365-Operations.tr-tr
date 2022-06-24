@@ -1,6 +1,6 @@
 ---
 title: Elektronik raporlamayı kullanarak gelişmiş banka mutabakatı içe aktarmayı ayarlama
-description: Bu konuda, gelişmiş banka mutabakatı içeri aktarma işlemini ayarlamak üzere Elektronik raporlamanın nasıl kullanılacağı açıklanmaktadır.
+description: Bu makalede, gelişmiş banka mutabakatı içeri aktarma işlemini ayarlamak üzere Elektronik raporlamanın nasıl kullanılacağı açıklanmaktadır.
 author: panolte
 ms.date: 03/30/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 30530a9870ba2ff0546237d2698d1675afa78104
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 2ac8811a5c10490d90f782472d3c198474c7edc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770208"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889134"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Elektronik raporlamayı kullanarak gelişmiş banka mutabakatı içe aktarmayı ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 Finance'teki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda, banka ekstreleriniz için içeri aktarma işlevinin nasıl ayarlanacağı açıklanmaktadır. Banka ekstresi içe aktarma işleminin kurulumu elektronik banka ekstrenizin biçimine bağlı olarak değişir. Microsoft Dynamics 365 Finance, üç banka ekstresi biçimini destekler: ISO20022, MT940 ve BAI2. 
+Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 Finance'teki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu makalede banka ekstreleriniz için içe aktarma işlevinin nasıl ayarlanacağı açıklanmaktadır. Banka ekstresi içe aktarma işleminin kurulumu elektronik banka ekstrenizin biçimine bağlı olarak değişir. Microsoft Dynamics 365 Finance, üç banka ekstresi biçimini destekler: ISO20022, MT940 ve BAI2. 
 
 ## <a name="set-up-the-electronic-reporting-configuration"></a>Elektronik raporlama yapılandırmasını ayarlama
 

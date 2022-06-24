@@ -1,6 +1,6 @@
 ---
 title: Üretim uygulama için kayıt
-description: Bu konu üretim yürütmeyi yapılandırmak ve kullanmak için anlamanız gereken temel kavramları ve koşulları açıklar.
+description: Bu makale üretim yürütmeyi yapılandırmak ve kullanmak için anlamanız gereken temel kavramları ve koşulları açıklar.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c843bc87c7b9c0676211c8f3363ec3e05ee97d20b3eedc940b9ffaee2d3211fa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c43a9d847045f2c029f232d6317268d91ee0129a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718912"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907217"
 ---
 # <a name="registration-for-manufacturing-execution"></a>Üretim uygulama için kayıt
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu üretim yürütmeyi yapılandırmak ve kullanmak için anlamanız gereken temel kavramları ve koşulları açıklar. 
+Bu makale üretim yürütmeyi yapılandırmak ve kullanmak için anlamanız gereken temel kavramları ve koşulları açıklar. 
 
 Üretim uygulama, temel olarak üretim şirketleri tarafından kullanılmak üzere tasarlanmıştır. Çalışanlar, **İş kaydı** sayfasını kullanarak üretim işlerindeki zaman ve madde tüketimini kaydedebilirler. Tüm kayıtlar onaylanır ve daha sonra ilgili modüllere transfer edilir. Kayıtların devamlı onaylanması ve transfer edilmesi müdürlerin, üretim emirlerindeki gerçek maliyetleri kolayca takip etmesine izin verir.
 

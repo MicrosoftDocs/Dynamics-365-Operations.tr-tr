@@ -1,6 +1,6 @@
 ---
 title: Özellikleri Genel depodan içeri aktarma
-description: Bu konu, Genel depodan Genelleştirme özelliklerinin nasıl içe aktarılacağını açıklamaktadır.
+description: Bu makalede, Genel depodan Genelleştirme özelliklerinin nasıl içeri aktarılacağı açıklanmaktadır.
 author: dkalyuzh
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ff3019986d089a286f7aef94346398b3d328ad54
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: bc8f346cdef4aa0b909d75b016b37cbbe3248ebf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371752"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865569"
 ---
 # <a name="import-features-from-the-global-repository"></a>Özellikleri Genel depodan içeri aktarma
 

@@ -1,6 +1,6 @@
 ---
 title: Brezilya için Elektronik faturalamayı kullanmaya başlama
-description: Bu konu, Finance ve Supply Chain Management'ta Brezilya için Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler içerir.
+description: Bu makalede, Finance ve Supply Chain Management'ta Brezilya için Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler yer almaktadır.
 author: gionoder
 ms.date: 03/29/2021
 ms.topic: article
@@ -9,30 +9,32 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 82bbf806d207af0b15406e4bec516420db7f2c06
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 74debbca4ee365e05f1c15d45179f0cd1d23c3e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846598"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>Brezilya için Elektronik faturalamayı kullanmaya başlama 
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Brezilya için Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler içerir. Bu konu Regulatory Configuration Services'da (RCS) ülkeye bağlı olan yapılandırma adımlarında size kılavuzluk eder ve [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) konusunda açıklanan adımları tamamlar.
+Bu makalede, Brezilya için Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler yer almaktadır. Bu makale, Regulatory Configuration Services'da (RCS) ülkeye bağlı olan yapılandırma adımlarında size kılavuzluk eder ve [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) makalesinde açıklanan adımları tamamlayıcı niteliktedir.
 
 ## <a name="country-specific-configuration-for-brazilian-nf-e-br-electronic-invoicing-feature"></a>Brezilya NF-e (BR) elektronik faturalama özelliği için ülkeye özel yapılandırma
 
 **Brezilya NF-e (BR) elektronik faturalama özelliğindeki** parametrelerden bazıları varsayılan değerlerle yayımlanır. Değerleri gözden geçirin ve gerekirse, elektronik faturalama özelliğini servis ortamına dağıtmadan önce iş operasyonlarınızı daha iyi yansıtması için değerleri güncelleştirin.
 
-Bu bölüm, [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) konusunun **Elektronik Faturalama özelliği için ülkeye özgü yapılandırma** bölümünü tamamlayıcı niteliktedir.
+Bu bölüm, [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) makalesinin **Elektronik faturalama özelliği için ülkeye özgü yapılandırma** bölümünü tamamlayıcı niteliktedir.
 
 1. RCS'te **Genelleştirme özelliği** çalışma alanının **Özellikler** bölümünde, **Elektronik faturalama** kutucuğunu seçin.
 2. **Elektronik faturalama özellikleri** sayfasında, oluşturduğunuz **Brezilya NF-e (BR)** elektronik faturalama özelliğinin seçili olduğunu doğrulayın.
@@ -51,7 +53,7 @@ Bu bölüm, [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-start
 
 Uygulama kurulumunu Finance veya Supply Chain Management bağlı uygulamanıza dağıtmadan önce bu adımları tamamlayın.
 
-Bu bölüm, [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) konusunun **Uygulama kurulumunu ülkeye özgü yapılandırma** bölümünü tamamlayıcı niteliktedir.
+Bu bölüm, [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) makalesinin **Uygulama kurulumunun ülkeye özel yapılandırması** bölümünü tamamlayıcı niteliktedir.
 
 1. RCS'te **Genelleştirme özelliği** çalışma alanının **Özellikler** bölümünde, **Elektronik faturalama** kutucuğunu seçin.
 2. **Elektronik faturalama özellikleri** sayfasında, **Brezilya NF-e (BR)** elektronik faturalama özelliğinin seçili olduğunu doğrulayın.
@@ -71,7 +73,7 @@ Bu bölüm, [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-start
 
 **Brezilya NFS-e ABRASF Curitiba (BR) elektronik faturalama özelliğindeki** parametrelerden bazıları varsayılan değerlerle yayımlanır. Gözden geçirin ve gerekirse, elektronik faturalama özelliğini servis ortamına dağıtmadan önce iş operasyonu ihtiyaçlarınıza daha iyi uyması için değerleri güncelleştirin.
 
-Bu bölüm, [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) konusunun **Elektronik Faturalama özelliği için ülkeye özgü yapılandırma** bölümünü tamamlayıcı niteliktedir.
+Bu bölüm, [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) makalesinin **Elektronik faturalama özelliği için ülkeye özgü yapılandırma** bölümünü tamamlayıcı niteliktedir.
 
 1. RCS'te **Genelleştirme özelliği** çalışma alanının **Özellikler** bölümünde, **Elektronik faturalama** kutucuğunu seçin.
 2. **Elektronik faturalama özellikleri** sayfasında, oluşturduğunuz **Brezilya NFS-e ABRASF Curitiba (BR)** elektronik faturalama özelliğinin seçili olduğunu doğrulayın.
@@ -96,7 +98,7 @@ Bu bölüm, [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-start
 
 Uygulama kurulumunu Finance veya Supply Chain Management bağlı uygulamanıza dağıtmadan önce bu adımları tamamlayın.
 
-Bu bölüm, [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) konusunun **Uygulama kurulumunu ülkeye özgü yapılandırma** bölümünü tamamlayıcı niteliktedir.
+Bu bölüm, [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) makalesinin **Uygulama kurulumunun ülkeye özel yapılandırması** bölümünü tamamlayıcı niteliktedir.
 
 1. RCS'te **Genelleştirme özelliği** çalışma alanının **Özellikler** bölümünde, **Elektronik faturalama** kutucuğunu seçin.
 2. **Elektronik faturalama özellikleri** sayfasında, **Brezilya NFS-e ABRASF Curitiba (BR)** elektronik faturalama özelliğinin seçili olduğunu doğrulayın.

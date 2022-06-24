@@ -1,6 +1,6 @@
 ---
 title: Malzeme işleme ekipmanı arabirimi (MHAX)
-description: Bu konuda, harici fiziksel malzeme işleme (MH) sistemlerine bağlanabilmeniz için malzeme işleme ekipmanı arabiriminin (MHAX) nasıl ayarlanacağı açıklanmaktadır.
+description: Bu makalede, harici fiziksel malzeme işleme (MH) sistemlerine bağlanabilmeniz için malzeme işleme ekipmanı arabiriminin (MHAX) nasıl ayarlanacağı açıklanmaktadır.
 author: Mirzaab
 ms.date: 03/04/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4c04b8a9574bb6f34b56b4a7462882f1885f1178
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c4b0d991d320d5a679d0ed60880c56a6cb849e2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907101"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Malzeme işleme ekipmanı arabirimi (MHAX)
 
@@ -88,7 +88,7 @@ Abonelik oluşturmak için **Malzeme işleme ekipmanı arabirimi \> Kurulum \> A
 
 Her abonelikle bir sorgu ilişkilendirilebilir. Bu sorgu, olayları oluşturmak için aboneliği kullanacak işi daha da sınırlamak üzere iş satırlarını ve başlıklarını filtreler. Aboneliğe sorgu eklemek için **Abonelikler** sayfasında ilgili aboneliğin **Sorguyu çalıştır** onay kutusunu seçin ve ardından Eylem Bölmesinde **Sorguyu düzenle**'yi seçin. Standart Supply Chain Management sorgu düzenleyicisi görüntülenir.
 
-Buna ek olarak abonelik, alanları iş başlığından veya iş satırından, gerektiğinde giden olayın 10 boş veri alanının bir kısmına veya tümüne eşleşen bir *abonelik eşlemesi* içerir. MHAX hizmetine bilgi döndürmek için genellikle iş satırı kayıt kimliği veya *iş satırı çift kimliği* eklenir. (İş satırı çifti kimliği, sistemin malzeme çekme ve yerine koyma satırlarını işlemek için tek bir dönüş komutu kullanmasını sağlayan yeni bir özelliktir.) Kalan alanlar kullanım örneğine bağlıdır. Bu konunun ilerleyen bölümlerinde bazı örnekler verilmiştir.
+Buna ek olarak abonelik, alanları iş başlığından veya iş satırından, gerektiğinde giden olayın 10 boş veri alanının bir kısmına veya tümüne eşleşen bir *abonelik eşlemesi* içerir. MHAX hizmetine bilgi döndürmek için genellikle iş satırı kayıt kimliği veya *iş satırı çift kimliği* eklenir. (İş satırı çifti kimliği, sistemin malzeme çekme ve yerine koyma satırlarını işlemek için tek bir dönüş komutu kullanmasını sağlayan yeni bir özelliktir.) Kalan alanlar kullanım örneğine bağlıdır. Bu makalenin ilerleyen bölümlerinde bazı örnekler verilmiştir.
 
 Abonelik eşlemesi ayarlamak için **Abonelikler** sayfasında ilgili aboneliği seçin ve ardından Eylem Bölmesinde **Abonelik eşlemesi**'ni seçin. Görüntülenen **Abonelik eşlemesi** iletişim kutusunda, kullanılabilir her veri alanı için istediğiniz gibi bir tablo ve alan atayabilirsiniz.
 
@@ -161,7 +161,7 @@ Bu bölümde, desteklenen gelen olay türleri (hareket türleri) ve olayların i
 
 Plaka kontrollü konumlardan malzeme çekme satırları, satırların iş satırı kaydı kimliği veya iş satırı çifti kimliği ile işaretlenip işaretlenmediğine bakılmaksızın, **data03**'ün çekilmesi gereken plakayı belirtmesi gerekir. **data04** alanında, malzeme çekme için iş başlığının hedef plakası belirtilmelidir.
 
-Yerine koyma satırları daha fazla bilgi kabul etmez. Bunlar yalnızca geçerli iş satırının konumuna ve işin hedef plakasına göre çalıştırılır. Yerine koymanın farklı bir konuma yapılması gerekiyorsa bu konunun sonraki bölümlerindeki [Geçersiz kılma olayları](#override-events) bölümünde açıklandığı gibi iş satırının konumunu değiştirin.
+Yerine koyma satırları daha fazla bilgi kabul etmez. Bunlar yalnızca geçerli iş satırının konumuna ve işin hedef plakasına göre çalıştırılır. Yerine koymanın farklı bir konuma yapılması gerekiyorsa bu makalenin sonraki bölümlerindeki [Geçersiz kılma olayları](#override-events) bölümünde açıklandığı gibi iş satırının konumunu değiştirin.
 
 Özel iş satırları, gelen olayda herhangi bir ek bilgi gerektirmez veya desteklemez.
 
@@ -220,7 +220,7 @@ Son olarak, gelen kuyruğunuz zaten işlenmiş kuyruk maddeleriyle dolmaya başl
 
 ## <a name="get-a-quick-overview-by-using-the-queue-manager"></a>Kuyruk yöneticisini kullanarak hızlı bir genel bakış elde etme
 
-Gelen ve giden kuyruklarınızla ilgili tüm etkinliklere hızlı bir genel bakış elde etmek için **Malzeme işleme ekipmanı arabirimi \> Çalışma Alanları \> Kuyruk yöneticisi**'ne gidin. **Kuyruk yöneticisi** sayfası, kuyruklarınızı izlemek ve keşfetmek için kullanabileceğiniz sekmeler ve kutucuklar kümesi sağlar. Ayrıca, bu konuda bahsedilen diğer sayfaların çoğunun yararlı bağlantılarını sağlar.
+Gelen ve giden kuyruklarınızla ilgili tüm etkinliklere hızlı bir genel bakış elde etmek için **Malzeme işleme ekipmanı arabirimi \> Çalışma Alanları \> Kuyruk yöneticisi**'ne gidin. **Kuyruk yöneticisi** sayfası, kuyruklarınızı izlemek ve keşfetmek için kullanabileceğiniz sekmeler ve kutucuklar kümesi sağlar. Ayrıca, bu makalede bahsedilen diğer sayfaların çoğunun yararlı bağlantılarını sağlar.
 
 ## <a name="connect-to-the-mhax-service"></a>MHAX hizmetine bağlanma
 

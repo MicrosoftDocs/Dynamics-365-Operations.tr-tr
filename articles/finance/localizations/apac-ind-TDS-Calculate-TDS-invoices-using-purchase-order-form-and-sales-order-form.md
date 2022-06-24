@@ -1,6 +1,6 @@
 ---
-title: TDS faturalarını, satınalma siparişi formu ve satış siparişi formu kullanarak hesaplama
-description: Bu konuda, çeşitli fatura türlerinde Kaynakta Kesilen Vergi (TDS) hesaplamaya yönelik adımlar listelenmektedir.
+title: Satın alma siparişi formu ve satış siparişi formunu kullanarak TDS faturalarını hesaplama
+description: Bu makalede, çeşitli fatura türlerinde Kaynakta Kesilen Vergi (TDS) hesaplamaya yönelik adımlar listelenmektedir.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6a7e670c38a1bce6b8f6771b4be49e56e3aa785a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 72883741ee7eed6b0296736c80dd648c882ae53e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711962"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853299"
 ---
-# <a name="calculate-tds-invoices-using-purchase-order-form-and-sales-order-form"></a>TDS faturalarını, satınalma siparişi formu ve satış siparişi formu kullanarak hesaplama
+# <a name="calculate-tds-invoices-using-purchase-order-form-and-sales-order-form"></a>Satın alma siparişi formu ve satış siparişi formunu kullanarak TDS faturalarını hesaplama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, **Satınalma siparişi**, **Satınalma günlüğü**, **Paket sipariş** ve **Satış siparişi** sayfalarını kullanan çeşitli fatura türlerinde Kaynakta Kesilen Vergi (TDS) hesaplanmasında kullanılan adımları listeler.
+Bu makalede, **Satınalma siparişi**, **Satınalma günlüğü**, **Paket sipariş** ve **Satış siparişi** sayfaları kullanılarak çeşitli fatura türlerinde Kaynakta Kesilen Vergi (TDS) hesaplamaya yönelik adımlar listelenmektedir.
 
 1. Listelenen sayfayı kullanarak bir satınalma siparişi, satınalma günlüğü, paket satınalma siparişi veya bir satış siparişi oluşturun. Gerekli ayrıntıları girin.
 

@@ -1,6 +1,6 @@
 ---
 title: Ödeme teklifi kullanarak satıcı ödemeleri oluşturma
-description: Bu konu, ödeme teklifi seçeneklerine genel bir bakış sağlar ve ödeme tekliflerinin nasıl çalıştığına dair bazı örnekler içerir.
+description: Bu makalede, ödeme teklifi seçeneklerine genel bir bakış sağlanmakta ve ödeme tekliflerinin nasıl çalıştığına dair bazı örnekler yer almaktadır.
 author: abruer
 ms.date: 04/04/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 101cbcc77b2e1eab9fb4b6724fc5e3e8925a54c5
-ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
+ms.openlocfilehash: 64290ebd47295bea5bc4bf843f7a9d9528375ce7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8629480"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845388"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Ödeme teklifi kullanarak satıcı ödemeleri oluşturma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, ödeme teklifi seçeneklerine genel bir bakış sağlar ve ödeme tekliflerinin nasıl çalıştığına dair bazı örnekler içerir. Ödeme teklifleri, çoğunlukla satıcı ödemeleri oluşturmak için kullanılır çünkü sorgu ödeme için satıcı faturalarını vade tarihi ve nakit indirimi gibi kriterlere dayalı olarak hızla seçmek için kullanılabilir. 
+Bu makalede, ödeme teklifi seçeneklerine genel bir bakış sağlanmakta ve ödeme tekliflerinin nasıl çalıştığına dair bazı örnekler yer almaktadır. Ödeme teklifleri, çoğunlukla satıcı ödemeleri oluşturmak için kullanılır çünkü sorgu ödeme için satıcı faturalarını vade tarihi ve nakit indirimi gibi kriterlere dayalı olarak hızla seçmek için kullanılabilir. 
 
 Ödeme teklifi sorgusu vade tarihi, nakit iskontosu ve diğer ölçütlere göre ödenecek satıcı faturalarının hızlı şekilde seçilmesine olanak tanıdığından kuruluşlar satıcı ödemeleri oluşturmak için genellikle ödeme tekliflerini kullanır. 
 

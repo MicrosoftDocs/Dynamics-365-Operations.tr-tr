@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 genelleştirme hizmetleri
-description: Bu konu, Microsoft Dynamics 365 genelleştirme hizmetlerine genel bir bakış sağlar.
+description: Bu makalede, Microsoft Dynamics 365 genelleştirme hizmetlerine genel bir bakış sağlanmaktadır.
 author: JaneA07
 ms.date: 04/12/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 1dfe88bf6eb0cf479f8febd8a599b165b71d932d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9f449bed7eac8d6eb38e62e6eda816f31cff80c2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986003"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879492"
 ---
 # <a name="dynamics-365-globalization-services"></a>Dynamics 365 genelleştirme hizmetleri
 
@@ -40,8 +40,8 @@ Bu genelleştirme hizmetleri, aşağıdaki Dynamics 365 çevrimiçi hizmetleriyl
 |----------------|-----|----------------------|---------------------------|
 | Dynamics 365 Finance | Evet | Evet | Evet | 
 | Dynamics 365 Supply Chain Management | Evet | Evet | Evet | 
-| Dynamics 365 Project Operations | Evet | Evet | Geçerli değil | 
-| Dynamics 365 Commerce | Evet | Geçerli değil | Geçerli değil | 
+| Dynamics 365 Project Operations | Evet | Evet | Uygulanamaz | 
+| Dynamics 365 Commerce | Evet | Uygulanamaz | Geçerli değil | 
 
 > [!NOTE]
 > Azure coğrafi konumlarının (coğrafi bölgeler) RCS için kullanılabilirliğine ilişkin farklılıklar nedeniyle, bu hizmetin yapılandırması müşteri verilerinin geçerli Dynamics 365 çevrimiçi hizmeti için seçilen coğrafi bölge dışına aktarılmasına neden olabilir. Daha fazla bilgi için bkz. [Dynamics 365 ve Power Platform: Kullanılabilirlik, veri konumu, dil ve yerelleştirme](https://aka.ms/rcs/D365Productavailabilityguide).

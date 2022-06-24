@@ -1,6 +1,6 @@
 ---
 title: Döngü sayımı örnek senaryoları
-description: Bu konu, Microsoft Dynamics 365 Supply Chain Management'ın döngü sayımı özelliklerini keşfetmek için kullanılan bir senaryo koleksiyonu kullanmaktadır.
+description: Bu makale, Microsoft Dynamics 365 Supply Chain Management'ın döngü sayımı özelliklerini keşfetmek için kullanılan bir senaryo koleksiyonu kullanmaktadır.
 author: GalynaFedorova
 ms.date: 06/08/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 60be945035570634c572baaa37ae0d02e41dd0be
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 90a3f132a96081b56ab60f5b0ba5cc328b820879
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674715"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899338"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Döngü sayımı örnek senaryoları
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Supply Chain Management'ın döngü sayımı özelliklerini keşfetmek için kullanılan bir senaryo koleksiyonu kullanmaktadır. Önce mevcut Supply Chain Management ortamınızla ilgili gereksinimleri açıklar. Daha sonra, döngü sayımının nasıl yapılandırılacağını ve tüm döngü sayım aşamalarını açıklar. Bitirdiğinizde, kılavuzlu döngü sayımı, kör döngü sayımı, nokta döngüsü sayımı, döngü sayımı eşikleri ve döngü sayımı planları dahil döngü sayımı hakkında bilgi sahibi olmanız gerekir.
+Bu makale, Microsoft Dynamics 365 Supply Chain Management'ın döngü sayımı özelliklerini keşfetmek için kullanılan bir senaryo koleksiyonu kullanmaktadır. Önce mevcut Supply Chain Management ortamınızla ilgili gereksinimleri açıklar. Daha sonra, döngü sayımının nasıl yapılandırılacağını ve tüm döngü sayım aşamalarını açıklar. Bitirdiğinizde, kılavuzlu döngü sayımı, kör döngü sayımı, nokta döngüsü sayımı, döngü sayımı eşikleri ve döngü sayımı planları dahil döngü sayımı hakkında bilgi sahibi olmanız gerekir.
 
-## <a name="prerequisites"></a>Önkoşullar
+## <a name="prerequisites"></a>Ön Koşullar
 
 ### <a name="make-demo-data-available"></a>Tanıtım verilerini kullanılabilir hale getirme
 
-Bu konudaki her senaryo, Supply Chain Management için sağlanan standart tanıtım verilerinde bulunan değerler ve kayıtlarla ilgilidir. Senaryolarda ilerlerken burada sağlanan değerleri kullanmak isterseniz tanıtım verisinin yüklü olduğu bir ortamda çalıştığınızdan ve başlamadan önce tüzel kişiliği (şirket) **USMF** olarak ayarladığınızdan emin olun.
+Bu makaledeki her senaryo, Supply Chain Management için sağlanan standart tanıtım verilerinde bulunan değerler ve kayıtlarla ilgilidir. Senaryolarda ilerlerken burada sağlanan değerleri kullanmak isterseniz tanıtım verisinin yüklü olduğu bir ortamda çalıştığınızdan ve başlamadan önce tüzel kişiliği (şirket) **USMF** olarak ayarladığınızdan emin olun.
 
 ### <a name="turn-on-support-for-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulaması için desteği açma
 
@@ -158,7 +158,7 @@ Ambar *61*'deki *01A02R2S2B* (BULK-06) madde yerleşimi için döngü sayımı o
 
 Döngü sayımı işi oluşturduktan sonra, döngü sayım işini bir ambar yerleşimindeki maddeleri sayıp sonuçları bir mobil cihaz kullanarak Supply Chain Management'a girerek gerçekleştirirsiniz. Warehouse Management mobil uygulamasında döngü sayımı işini yapmak için bu adımları izleyin.
 
-1. Bu konunun önceki bölümlerinde yer alan [Senaryolar için tanıtım verileri hazırlama](#prepare-demo-data) bölümünde ayarladığınız iş kullanıcısı olarak Warehouse Management mobil uygulamasında oturum açın. Bu konudaki örnek için, kullanıcı *Julia Funderburk* adına sahiptir ve ambar *61* için ayarlanmıştır. (USMF demo verileri, kullanıcı kimliği olarak *61* ve parola olarak *1* girerek bu iş kullanıcısı olarak oturum açmanıza olanak tanıyacaktır.)
+1. Bu makalenin önceki bölümlerinde yer alan [Senaryolar için tanıtım verileri hazırlama](#prepare-demo-data) bölümünde ayarladığınız iş kullanıcısı olarak Warehouse Management mobil uygulamasında oturum açın. Bu makaledeki örnek için, kullanıcı *Julia Funderburk* adına sahiptir ve ambar *61* için ayarlanmıştır. (USMF demo verileri, kullanıcı kimliği olarak *61* ve parola olarak *1* girerek bu iş kullanıcısı olarak oturum açmanıza olanak tanıyacaktır.)
 1. Ana menüde **Stok**'u seçin.
 1. **Stok** menüsünde, **Döngü Sayımı Kılavuzlu** öğesini seçin.
 1. **Miktar** alanını seçin, sayısal tuş takımını kullanarak *9* girin ve ardından **Tamam**'ı (onay işareti düğmesi) seçin.
@@ -227,7 +227,7 @@ Kör döngü sayımının gerçekleşmesi için önce bazı işler oluşturmanı
 
 Döngü sayımı işini oluşturduktan sonra, Warehouse Management mobil uygulamasında döngü sayımı işini yapmak için bu adımları izleyin.
 
-1. Bu konunun önceki bölümlerinde yer alan [Senaryolar için tanıtım verileri hazırlama](#prepare-demo-data) bölümünde ayarladığınız iş kullanıcısı olarak Warehouse Management mobil uygulamasında oturum açın. Bu konudaki örnek için, kullanıcı *Julia Funderburk* adına sahiptir ve ambar *61* için ayarlanmıştır. (USMF demo verileri, kullanıcı kimliği olarak *61* ve parola olarak *1* girerek bu iş kullanıcısı olarak oturum açmanıza olanak tanıyacaktır.)
+1. Bu makalenin önceki bölümlerinde yer alan [Senaryolar için tanıtım verileri hazırlama](#prepare-demo-data) bölümünde ayarladığınız iş kullanıcısı olarak Warehouse Management mobil uygulamasında oturum açın. Bu makaledeki örnek için, kullanıcı *Julia Funderburk* adına sahiptir ve ambar *61* için ayarlanmıştır. (USMF demo verileri, kullanıcı kimliği olarak *61* ve parola olarak *1* girerek bu iş kullanıcısı olarak oturum açmanıza olanak tanıyacaktır.)
 1. Ana menüde **Stok**'u seçin.
 1. **Stok** menüsünde, **Döngü Sayımı Kör** öğesini seçin.
 1. **Bölge kodu** alanını seçin *BULK06* girin ve sonra **Tamam**'ı (onay işareti düğmesi) seçin.
@@ -259,7 +259,7 @@ Eldeki stok kaydı *01A02R2S2B* yerleşiminde *L0101* maddesi için eldeki stok 
 
 Warehouse Management mobil uygulamasında döngü sayımı işini yapmak için bu adımları izleyin.
 
-1. Bu konunun önceki bölümlerinde yer alan [Senaryolar için tanıtım verileri hazırlama](#prepare-demo-data) bölümünde ayarladığınız iş kullanıcısı olarak Warehouse Management mobil uygulamasında oturum açın. Bu konudaki örnek için, kullanıcı *Julia Funderburk* adına sahiptir ve ambar *61* için ayarlanmıştır. (USMF demo verileri, kullanıcı kimliği olarak *61* ve parola olarak *1* girerek bu iş kullanıcısı olarak oturum açmanıza olanak tanıyacaktır.)
+1. Bu makalenin önceki bölümlerinde yer alan [Senaryolar için tanıtım verileri hazırlama](#prepare-demo-data) bölümünde ayarladığınız iş kullanıcısı olarak Warehouse Management mobil uygulamasında oturum açın. Bu makaledeki örnek için, kullanıcı *Julia Funderburk* adına sahiptir ve ambar *61* için ayarlanmıştır. (USMF demo verileri, kullanıcı kimliği olarak *61* ve parola olarak *1* girerek bu iş kullanıcısı olarak oturum açmanıza olanak tanıyacaktır.)
 1. Ana menüde **Stok**'u seçin.
 1. **Stok** menüsünde, **Nokta sayımı** öğesini seçin.
 1. **Yerleşim** alanını seçin *01A02R2S1B* girin ve sonra **Tamam**'ı (onay işareti düğmesi) seçin.

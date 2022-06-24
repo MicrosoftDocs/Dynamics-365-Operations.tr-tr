@@ -1,6 +1,6 @@
 ---
 title: Kiralamaları sabit varlıklarla ilişkilendirme
-description: Bu konuda, mevcut bir sabit varlığın yeni bir kiralamayla nasıl ilişkilendirileceği açıklanır.
+description: Bu makalede, mevcut bir sabit kıymetin yeni bir kiralamayla nasıl ilişkilendirileceği açıklanır.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a0ae7a850ceb13cb41ee5adc406e71105cdad4fe
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 5cc341008d25da544ec35d5660b5ff0b38f2287b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712160"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895123"
 ---
 # <a name="associate-fixed-assets-with-leases"></a>Kiralamaları sabit varlıklarla ilişkilendirme
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Bu konuda, mevcut bir sabit varlığın yeni bir kiralamayla nasıl ilişkilendirileceği açıklanır. Bir sabit varlığı kiralamayla ilişkilendirdiğinizde, ilk kabuldeki kullanım hakkı (ROU) varlığı sabit varlığın alım maliyeti olur.
+Bu makalede, mevcut bir sabit kıymetin yeni bir kiralamayla nasıl ilişkilendirileceği açıklanır. Bir sabit varlığı kiralamayla ilişkilendirdiğinizde, ilk kabuldeki kullanım hakkı (ROU) varlığı sabit varlığın alım maliyeti olur.
 
 Sabit bir varlığı kiralamayla ilişkilendirmeden önce Sabit varlıklarda sabit varlık için bir kayıt oluşturmanız gerekir. Ardından, **Kiralama özeti** sayfasında kiralama oluşturmanız ve varlığı bu kiralamaya bağlamanız gerekir.
 

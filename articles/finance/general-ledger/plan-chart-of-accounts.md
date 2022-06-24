@@ -1,6 +1,6 @@
 ---
 title: Hesap planınızı planlama
-description: Bu konuda, kuruluşunuzun hesap planını yapmanıza yardımcı olacak bilgiler verilmektedir.
+description: Bu makalede, kuruluşunuzun hesap planını yapmanıza yardımcı olacak bilgiler verilmektedir.
 author: aprilolson
 ms.date: 04/02/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0734276a736cfdb91ec3a129c83dae1c0a6d3955
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 6e797117199ff57cb4d3beae187ae7649579d33b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722478"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853362"
 ---
 # <a name="plan-your-chart-of-accounts"></a>Hesap planınızı planlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, kuruluşunuzun hesap planını yapmanıza yardımcı olacak bilgiler verilmektedir.
+Bu makalede, kuruluşunuzun hesap planını yapmanıza yardımcı olacak bilgiler verilmektedir.
 
 Bir kuruluşun finansal bilgilerini takip etmek ve kaydetmek için bir hesap planı ayarlayabilirsiniz. Hesap planı bir finansal çerçeveyi tanımlayan bir hesaplar topluluğudur. Bu hesaplardaki hareketleri daha da ayrıntılı izlemek için segmentler ekleyebilirsiniz. Bu segmentler mali boyutlar olarak bilinir. Örneğin, bir gider hesabı Departman, Maliyet merkezi ve Amaç adlı finansal boyutlar içerebilir. Kullanıcı tanımlı kurallar finansal boyutların ana hesaplara ve diğer finansal boyutlara nasıl ekleneceğini ve ayrıca işlemlerin nasıl girileceğini belirler. Kullanıcı tanımlı kurallar hesap yapıları ve gelişmiş kurallar olarak bilinir.
 

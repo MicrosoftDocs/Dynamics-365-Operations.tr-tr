@@ -1,6 +1,6 @@
 ---
 title: Vergi kodu belirlenemiyor
-description: Bu konu, Vergi Hesaplama hizmetinin "Vergi kodu belirlenemedi" hatasının nasıl düzeltileceğini açıklamaktadır.
+description: Bu makale, Vergi Hesaplama hizmetinin "Vergi kodu belirlenemedi" hatasının nasıl düzeltileceğini açıklamaktadır.
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 3c0914f0013ad2de61cd5a59e3092fef149742e4
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 6a74724de38cf362900277ab9addc8e6894f7689
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645438"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877873"
 ---
 # <a name="tax-code-cannot-be-determined"></a>Vergi kodu belirlenemiyor
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Vergi Hesaplama hizmetinde "Vergi kodu belirlenemedi" hatasını aldığınızda atacağınız adımları açıklamaktadır.
+Bu makale, Vergi Hesaplama hizmetinde "Vergi kodu belirlenemedi" hatasını aldığınızda atacağınız adımları açıklamaktadır.
 
 ## <a name="symptom"></a>Belirti
 
@@ -121,7 +121,7 @@ Sorunu düzeltmek için şu adımları izleyin.
 
 ## <a name="mitigation"></a>Risk azaltma
 
-1. Bu konunun [Sorun giderme](#troubleshoot) bölümündeki her adımı izleyin ve kurulumu gerektiği gibi düzeltin. Vergi grubu ve madde vergisi grubu doğru saptanmadı ise bkz. [Eşleşen sonuç bulunamadı](tcs-troubleshooting-no-matching-result.md).
+1. Bu makalenin [Sorun giderme](#troubleshoot) bölümündeki her adımı izleyin ve kurulumu gerektiği gibi düzeltin. Vergi grubu ve madde vergisi grubu doğru saptanmadı ise bkz. [Eşleşen sonuç bulunamadı](tcs-troubleshooting-no-matching-result.md).
 2. Vergi grubu ve madde vergi grubu için kesişim yoksa, RCS'de yeni bir özellik sürümü oluşturun ve kurulumu düzeltin.
 
     - **Vergi özellikleri** \> **Vergi kodları ve grupları** >  **Madde vergi grubu**'na gidin.

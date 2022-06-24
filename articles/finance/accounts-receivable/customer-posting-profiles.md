@@ -1,6 +1,6 @@
 ---
 title: Müşteri deftere nakil profilleri
-description: Bu konu, müşteri hareketlerinin genel muhasebe deftere nakledilmesini denetleyen müşteri deftere nakil profillerini açıklar.
+description: Bu makalede, müşteri hareketlerinin genel muhasebe defterine nakledilmesini denetleyen müşteri deftere nakil profilleri açıklanmaktadır.
 author: JodiChristiansen
 ms.date: 12/22/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ed5ab24e37c75222080bd242aa72a39ecb476bf
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d0563040590eefab57706b183281c47a82e46076
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734646"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891709"
 ---
 # <a name="customer-posting-profiles"></a>Müşteri deftere nakil profilleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, müşteri hareketlerinin genel muhasebe deftere nakledilmesini denetleyen müşteri deftere nakil profillerini açıklar.
+Bu makalede, müşteri hareketlerinin genel muhasebe defterine nakledilmesini denetleyen müşteri deftere nakil profilleri açıklanmaktadır.
 
 ## <a name="customer-posting-profiles"></a>Müşteri deftere nakil profilleri
 

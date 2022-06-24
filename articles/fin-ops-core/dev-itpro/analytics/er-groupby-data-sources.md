@@ -1,6 +1,6 @@
 ---
 title: GROUPBY veri kaynaklarını kullanarak kayıtları ve toplam hesaplamaları gruplama
-description: Bu konuda, Elektronik raporlama'da (ER) GROUPBY türü veri kaynaklarını nasıl kullanabileceğiniz açıklanmaktadır.
+description: Bu makalede, Elektronik raporlama'da (ER) GROUPBY türü veri kaynaklarını nasıl kullanabileceğiniz açıklanmaktadır.
 author: NickSelin
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b79dfe62122a031ae9ed7f51ea7ff578cd47358
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 7b20b5db0794157560f27f15594a84083966642f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462311"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861801"
 ---
 # <a name="group-records-and-aggregate-calculations-by-using-groupby-data-sources"></a>GROUPBY veri kaynaklarını kullanarak kayıtları ve toplam hesaplamaları gruplama
 
@@ -69,7 +69,7 @@ Bu özellik hakkında daha fazla bilgi edinmek için aşağıdaki örneği tamam
 
 Bu örnek, Sistem yöneticisi veya Elektronik raporlama işlev danışmanı rolündeki bir kullanıcının, toplama işlevlerini ve grup kayıtlarını hesaplamak için kullanılan bir **GROUPBY** veri kaynağına sahip bir ER modeli eşlemesini nasıl yapılandırabileceğini gösterir. Bu model eşlemesi, İntrastat bildirimi oluşturulduğunda denetim raporunu yazdırmak için kullanılır. Bu rapor, bildirilen İntrastat hareketlerini gözden geçirmenizi sağlar.
 
-Bu örnekteki yordamlar Microsoft Dynamics 365 Finance'teki **DEMF** şirketinde tamamlanabilir. 
+Bu örnekteki prosedürler, Microsoft Dynamics 365 Finance'teki **DEMF** şirketinde tamamlanabilir. 
 
 ### <a name="prepare-sample-data"></a>Örnek verileri hazırlama
 

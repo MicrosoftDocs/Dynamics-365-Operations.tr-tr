@@ -1,6 +1,6 @@
 ---
 title: Ambar yönetimi eldeki stok girişlerini temizleme işi
-description: Bu konu, gerekli ancak gerekmeyen kayıtları tanımlayıp silerek sistem performansının artırılmasına yardımcı olan eldeki girişler temizleme işini açıklamaktadır.
+description: Bu makale, gerekli ancak gerekmeyen kayıtları tanımlayıp silerek sistem performansının artırılmasına yardımcı olan eldeki girişler temizleme işini açıklamaktadır.
 author: perlynne
 ms.date: 04/23/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103875"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900520"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Ambar yönetimi eldeki stok girişlerini temizleme işi
 
@@ -26,7 +26,7 @@ ms.locfileid: "8103875"
 
 Eldeki stoğu hesaplamak için kullanılan sorguların performansı, söz konusu tablolardaki kayıt sayısından etkilenir. Performansı iyileştirmeye yardımcı olmanın bir yolu, veritabanının dikkate alınması gereken kayıt sayısını azaltmaktır.
 
-Bu konu, InventSum ve WHSInventReserve servis tablolarında gerekmeyen kayıtları silen eldeki girişler temizleme işini açıklamaktadır. Bu tablolar, ambar yönetimi işlemleri için etkinleştirilen maddeler için eldeki bilgileri depolar. (Bu öğelere, duman maddeleri olarak başvurulur.) Bu kayıtların silinmesi, eldeki hesaplamaların performansını önemli ölçüde artırabilir.
+Bu makale, InventSum ve WHSInventReserve servis tablolarında gerekmeyen kayıtları silen eldeki girişler temizleme işini açıklamaktadır. Bu tablolar, ambar yönetimi işlemleri için etkinleştirilen maddeler için eldeki bilgileri depolar. (Bu öğelere, duman maddeleri olarak başvurulur.) Bu kayıtların silinmesi, eldeki hesaplamaların performansını önemli ölçüde artırabilir.
 
 ## <a name="what-the-cleanup-job-does"></a>Temizleme işi ne yapar
 

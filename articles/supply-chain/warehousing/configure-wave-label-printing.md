@@ -1,6 +1,6 @@
 ---
 title: Dalga etiketi yazdırma
-description: Bu konu, dalga etiketi yazdırma özelliğini ve bunu nasıl ayarlayabileceğinizi açıklamaktadır.
+description: Bu makale, dalga etiketi yazdırma özelliğini ve bunu nasıl ayarlayabileceğinizi açıklamaktadır.
 author: perlynne
 ms.date: 05/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 18620602c5f3cf6a69a36ef7248f35e5509337b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778095"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901835"
 ---
 # <a name="wave-label-printing"></a>Dalga etiketi yazdırma
 
@@ -49,7 +49,7 @@ Dalga etiketi yazdırma özelliği aşağıdaki geliştirmeleri sunar:
 Bu geliştirmeler, paletlemeden önce kolileri etiketlemeyi daha etkili hale getirir. Bunlar özellikle, her koliyi ayrı olarak tarayıp sipariş girişlerini otomatik olarak onaylayan büyük perakendecilere sevkiyat yapan şirketler için yararlıdır.
 
 > [!NOTE]
-> İş gereksinimlerinize bağlı olarak, bu konuda açıklanan yapılandırma senaryolarını ayrı olarak veya birlikte uygulayabilirsiniz. Sırayla çalışan birkaç dalga etiketi şablonu (senaryo 3'te gösterildiği gibi) tasarlayabilirsiniz. Örneğin, koli etiketlerini yazdırmak için senaryo 1'i, palet etiketleri yazdırmak için de senaryo 2'yi kullanabilirsiniz (stoktaki paletler boyut ve kompozisyon olarak farklılık gösteriyorsa).
+> İş gereksinimlerinize bağlı olarak, bu makalede açıklanan yapılandırma senaryolarını ayrı olarak veya birlikte uygulayabilirsiniz. Sırayla çalışan birkaç dalga etiketi şablonu (senaryo 3'te gösterildiği gibi) tasarlayabilirsiniz. Örneğin, koli etiketlerini yazdırmak için senaryo 1'i, palet etiketleri yazdırmak için de senaryo 2'yi kullanabilirsiniz (stoktaki paletler boyut ve kompozisyon olarak farklılık gösteriyorsa).
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Dalga etiketi yazdırma özelliğini açma
 

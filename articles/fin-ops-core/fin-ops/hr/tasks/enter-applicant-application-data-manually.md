@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a00e20569f05730296ef611938a94b73ebb7f6f5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d59b5a2c99813fee2e12e30e8694edf6da7391d9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735332"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909263"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Başvuran ve başvuru verilerini el ile girme
 
 > [!NOTE]
-> Bu konudaki işe alma işlevi İşe Alma projeleri olarak adlandırılacaktır ve başvuranlar, uygulamalar ve işe alma projelerine odaklanır.  
+> Bu makalede işe alma işlevi, İşe Alma projeleri olarak belirtilir ve makalede başvuranlar, başvurular ve işe alma projelerine odaklanılmaktadır.  
 
 
 Bu yordam başvuranlar ve başvuruları hakkındaki bilgileri el ile girmeyi gösterir. Başvuranlar için kişisel bilgileri, görüşme tarihi ve saatlerin, referansları, yetkinlikleri ve konaklama taleplerini girebilir ve muhafaza edebilirsiniz. Ayrıca başvuranların iş başvurularının durumunu güncelleştirebilir ve başvuranlar ile iletişim kurmak için mektup veya e-posta iletileri oluşturabilirsiniz. Bir başvuran kaydı oluşturduğunuzda, Genel Adres Defteri'nde o başvuran kişi için kayıt oluşturulur. Bu yordamı oluşturmak için **USMF** demo verileri şirketi kullanılmıştır.

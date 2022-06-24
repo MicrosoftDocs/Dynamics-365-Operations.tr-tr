@@ -1,6 +1,6 @@
 ---
 title: Şirket içi dağıtım giriş sayfası
-description: bu konu şirket içi dağıtım hakkında içeriğe bağlantılar ve bilgi sağlar.
+description: Bu makalede, şirket içi dağıtım hakkında bilgiler ve içerik bağlantıları sağlanmaktadır.
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867426"
 ---
 # <a name="on-premises-deployment-home-page"></a>Şirket içi dağıtım giriş sayfası
 
 [!include [banner](../includes/banner.md)]
 
-Dynamics 365 Finance + Operations (on-premises)'ı dağıtabilirsiniz. Bir şirket içi dağıtım türünü seçtiğinizde, sistem gereksinimleri, donanım boyutlandırma ve işlev, bir bulut dağıtımından farklılık gösterir. Bu konu, şirket içi dağıtımlara ilişkin çeşitli konulara dair bilgi içeren içeriklere bağlantılar sağlar.
+Dynamics 365 Finance + Operations (on-premises)'ı dağıtabilirsiniz. Bir şirket içi dağıtım türünü seçtiğinizde, sistem gereksinimleri, donanım boyutlandırma ve işlev, bir bulut dağıtımından farklılık gösterir. Bu makalede, şirket içi dağıtımlara ilişkin çeşitli konulara dair bilgi içeren içeriklerin bağlantıları sağlanmaktadır.
 
 ## <a name="get-started"></a>Başlayın
 - [Şirket içi dağıtıma genel bakış](on-premises-overview.md)

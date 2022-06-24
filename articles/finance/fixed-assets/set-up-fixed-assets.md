@@ -1,6 +1,6 @@
 ---
 title: Sabit kıymetleri ayarlama
-description: Bu konu, Sabit kıymetler modülünün kurulumu hakkında genel bir bakış sunar.
+description: Bu makale, Sabit kıymetler modülünün kurulumu hakkında genel bir bakış sunar.
 author: moaamer
 ms.date: 06/08/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 164f19d4b346a51d4f5d43064cb33bf0c01378dd
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3baa842dadddd0f763f803528d322b9561b3141e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726252"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910156"
 ---
 # <a name="set-up-fixed-assets"></a>Sabit kıymetleri ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, **Sabit kıymetler** modülünün kurulumu hakkında genel bir bakış sunar. 
+Bu makale, **Sabit kıymetler** modülünün kurulumu hakkında genel bir bakış sunar. 
 
 Parametreler, Sabit kıymetler içindeki genel davranışı kontrol eder. Sabit kıymet grupları, kıymetlerinizi gruplamanızı ve bir gruba atanan her kıymet için varsayılan öznitelikleri belirtmenizi sağlar. Defterler, sabit kıymet gruplarına atanır. Defterler, amortisman profilinde tanımlanan amortisman yapılandırmasını kullanarak bir sabit kıymetin zaman içindeki mali değerini izler.
 

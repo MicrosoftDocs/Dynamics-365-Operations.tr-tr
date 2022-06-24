@@ -1,6 +1,6 @@
 ---
 title: Satıcı faturası otomasyonu için kurulum seçenekleri (Önizleme)
-description: Bu konu, satıcı faturası otomasyonu ayarlamak ve yapılandırma için kullanılabilen seçenekleri açıklar.
+description: Bu makalede, satıcı faturası otomasyonunu ayarlama ve yapılandırma için kullanılabilen seçenekler açıklanmaktadır.
 author: sunfzam
 ms.date: 02/14/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c1dc443e4225a3ffc6b88cedf7add396a66ec25d
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 86ad68b3dc08bf2c57ab5f9bc6c65bc37c0901e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874855"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Satıcı faturası otomasyonu için kurulum seçenekleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, satıcı faturası otomasyonu ayarlamak ve yapılandırma için kullanılabilen seçenekleri açıklar. Fatura otomasyonu özellikleri aşağıdaki kurulum parametresi türlerini kullanır:
+Bu makalede, satıcı faturası otomasyonunu ayarlama ve yapılandırma için kullanılabilen seçenekler açıklanmaktadır. Fatura otomasyonu özellikleri aşağıdaki kurulum parametresi türlerini kullanır:
 
 - İçe aktarılan faturalardaki peşinatlar otomatik olarak uygulanacak parametreler.
 - İçe aktarılan satıcı faturalarını iş akışı sistemine gönderme ve deftere nakledilen ürün giriş satırlarını bekleyen satıcı fatura satırlarına eşleştirmeye yönelik parametreler.

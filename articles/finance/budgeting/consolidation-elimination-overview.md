@@ -1,6 +1,6 @@
 ---
 title: Birleştirme ve elemeye genel bakış
-description: Bu konu konsolidasyon ve eleme işlemleri hakkında genel bilgi sağlar. Sık sorulan bazı soruların yanıtlarını içerir.
+description: Bu makale konsolidasyon ve eleme işlemleri hakkında genel bilgi sağlar. Sık sorulan bazı soruların yanıtlarını içerir.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670b238580ecf800686324fe664be747c551090d
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: cd7647df49883f0e3b6cbb2d21b19ca2acb2f065
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710712"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871405"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Birleştirme ve elemeye genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu konsolidasyon ve eleme işlemleri hakkında genel bilgi sağlar. Sık sorulan bazı soruların yanıtlarını içerir.
+Bu makale konsolidasyon ve eleme işlemleri hakkında genel bilgi sağlar. Sık sorulan bazı soruların yanıtlarını içerir.
 
 Verileri birleştirdiğinizde birden fazla bağlı şirket için finansal sonuçlar tek bir, konsolide şirket sonuçlarında bir araya getirilir. Bağlı kuruluşlar farklı sürümlerde veya sistemlerde bulunuyor olabilir, sahibi farklı olabilir ve farklı para birimleri kullanıyor olabilir. Verilerin birleştirilmesi için birden fazla seçenek mevcuttur:
 

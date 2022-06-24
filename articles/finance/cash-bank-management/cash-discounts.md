@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37698133a959792338abcc2abd75b6fa654177f6
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b684cf16b172432fc3bdb485be98a5c3476c8ed0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710684"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846969"
 ---
 # <a name="cash-discounts"></a>Nakit iskontoları
 
@@ -30,7 +30,7 @@ Nakit iskontoları Borç hesapları ve Alacak hesapları için ayarlanır ve pay
 
 ## <a name="cash-discounts"></a>Nakit iskontoları
 
-Hem müşteriler veya hem de satıcılar için nakit iskontoları, Nakit iskontoları sayfasında oluşturulabilir. Ayrıca, önceki nakit iskontosunun vadesi dolduğunda birbirini izleyecek nakit iskontolarını, Sonraki iskonto kodu alanını kullanarak tanımlayabilirsiniz, Daha fazla bilgi için bu konunun devamındaki "Örnek: Nakit iskontoları serileri" başlığına bakınız. Eğer bir fatura, iade hareketi (ödeme veya alacak dekontu) veya her ikisi, tüzel kişiliğin hesap para birimini farklı bir para biriminde girilirse, nakit iskontosu, ödeme veya alacak dekontunun döviz kuru kullanılarak hesaplanır. Fatura ve iade belgesi farklı tüzel kişiliklere girildiye ve tüzel kişiliklerin muhasebe para birimleri farklıysa, döviz kuru faturanın bir tüzel kişiliğinden kredi belgesine göre alınır. Daha fazla bilgi için bu konunun devamındaki "Örnek: Nakit için döviz kurları" başlığına bakınız.
+Hem müşteriler veya hem de satıcılar için nakit iskontoları, Nakit iskontoları sayfasında oluşturulabilir. Ayrıca, önceki nakit iskontosunun vadesi dolduğunda birbirini izleyecek nakit iskontolarını, Sonraki iskonto kodu alanını kullanarak tanımlayabilirsiniz, Daha fazla bilgi için bu makalenin devamındaki "Örnek: Nakit iskontoları dizisi" bölümüne bakın. Eğer bir fatura, iade hareketi (ödeme veya alacak dekontu) veya her ikisi, tüzel kişiliğin hesap para birimini farklı bir para biriminde girilirse, nakit iskontosu, ödeme veya alacak dekontunun döviz kuru kullanılarak hesaplanır. Fatura ve iade belgesi farklı tüzel kişiliklere girildiye ve tüzel kişiliklerin muhasebe para birimleri farklıysa, döviz kuru faturanın bir tüzel kişiliğinden kredi belgesine göre alınır. Daha fazla bilgi için bu makalenin devamındaki "Örnek: Nakit için döviz kurları" bölümüne bakın.
 
 ## <a name="defaulting-order-of-cash-discount-main-account"></a>Nakit iskontosu ana hesabı varsayılan ilkesi
 

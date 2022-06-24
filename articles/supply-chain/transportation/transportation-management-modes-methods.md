@@ -1,6 +1,6 @@
 ---
 title: Taşımacılık yönetimi modları ve yöntemleri
-description: Bu konuda, Taşımacılık yönetimi modlarının ve yöntemlerinin nasıl ayarlanacağını gösterilmektedir.
+description: Bu makalede, Taşımacılık yönetimi modlarının ve yöntemlerinin nasıl ayarlanacağını gösterilmektedir.
 author: Weijiesa
 ms.date: 10/16/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9b7810e9947a1a7439fa084e711fe684039b81b0
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1daed8940e41af0163b90195eed64464c2dcac0b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678393"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900752"
 ---
 # <a name="transportation-management-modes-and-methods"></a>Taşımacılık yönetimi modları ve yöntemleri
 

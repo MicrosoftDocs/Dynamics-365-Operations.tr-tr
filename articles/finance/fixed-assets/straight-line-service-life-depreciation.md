@@ -1,6 +1,6 @@
 ---
 title: Sabit servis ömrü amortismanı
-description: Bu konu, amortismanın Sabit servis ömrü yöntemi hakkında genel bir bakış sağlar.
+description: Bu makalede amortismanın Düz çigi hizmet ömrü yöntemine genel bir bakış sunulmuştur.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d39bfea3f222d83d3b3d47e4ba931521b8e1aed0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 8766d38958ccb17142132fb78d04368f1b73af71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726683"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896477"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Sabit servis ömrü amortismanı
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, amortismanın Sabit servis ömrü yöntemi hakkında genel bir bakış sağlar.
+Bu makalede amortismanın Düz çigi hizmet ömrü yöntemine genel bir bakış sunulmuştur.
 
 Bir sabit kıymet amortisman profili ayarladığınızda ve Amortisman profilleri sayfasında Yöntem alanında Sabit servis ömrü öğesini seçtiğinizde bu amortisman profilinin atanmış olduğu kıymetlerin amortismanı kıymetin toplam servis ömrüne dayalı olarak hesaplanır. Bu, genellikle her amortisman dönemindeki aynı amortisman tutarı olur. 
 
@@ -41,7 +41,7 @@ Amortisman profilleri sayasındaki Amortisman yılı alanından Takvim Yılı ve
 
 Takvim seçersiniz, mali dönem takvimini farklı şekilde tanımlamış olsanız bile, bir yılın 1 Ocak ile 31 Aralık arasındaki süre olduğu varsayılacaktır. 
 
-Takvim seçeneği tipik olarak her yıl 1 Ocak itibariyle net defter değerinden hurda değeri çıkarılarak hesaplanan amortisman temelini günceller. Bu konunun devamındaki örneklerde, amortisman tabanı hesaplamalar sütunundaki yer alan ilk ifadedeki pay olur. 
+Takvim seçeneği tipik olarak her yıl 1 Ocak itibariyle net defter değerinden hurda değeri çıkarılarak hesaplanan amortisman temelini günceller. Bu makalenin devamındaki örneklerde, amortisman tabanı hesaplamalar sütununda yer alan ilk ifadedeki pay olur. 
 
 Takvim seçimini yaparsanız, amortisman artışı nakil tarihleri ve takvim yılı genelindeki tutarları belirleyen Dönem sıklığı alanında şu seçenekler mevcut olacaktır:
 - Yıllık 31 Aralık'ta bir tutarı nakleder.

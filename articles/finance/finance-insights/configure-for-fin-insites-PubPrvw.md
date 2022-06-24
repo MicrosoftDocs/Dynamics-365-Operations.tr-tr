@@ -1,6 +1,6 @@
 ---
 title: Finance Insights için Yapılandırma - 10.0.20 sürümü ve sonrası
-description: Bu konu, Finance Insights sürüm 10.0.20 ve sonrasında bulunan özellikleri kullanmak üzere sisteminizi yapılandırma yöntemini açıklamaktadır.
+description: Bu makalede, Finance Insights 10.0.20 ve sonraki sürümlerde bulunan özellikleri kullanmak üzere sisteminizi yapılandırma yöntemi açıklanmaktadır.
 author: ShivamPandey-msft
 ms.date: 06/16/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 61cc002395ac3bc946fa03a04833a7b6d4820194
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e6b9c34ee68a25ac9613a65cf63443751a39c576
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711618"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868532"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>Finance Insights için Yapılandırma - 10.0.20 sürümü ve sonrası
 
@@ -29,10 +29,10 @@ ms.locfileid: "8711618"
 
 
 
-Finance Insights, kuruluşunuza güçlü tahmin araçları sunmak için Microsoft Dynamics 365 Finance işlevlerini Dataverse, Azure ve AI Builder işlevleriyle bir araya getirir. Bu konu, genel önizleme için Finance Insights sürüm 10.0.20 ve sonrasında bulunan özellikleri sisteminizin kullanabilmesi için Dynamics 365 Finance sürüm 10.0.20'yi yapılandırma yöntemini açıklamaktadır.
+Finance Insights, kuruluşunuza güçlü tahmin araçları sunmak için Microsoft Dynamics 365 Finance işlevlerini Dataverse, Azure ve AI Builder işlevleriyle bir araya getirir. Bu makalede, genel önizleme için Finance Insights 10.0.20 ve sonraki sürümlerde bulunan özellikleri sisteminizin kullanabilmesi için Dynamics 365 Finance 10.0.20 sürümünü yapılandırma yöntemi açıklanmaktadır.
 
 > [!NOTE]
-> Bu konuda açıklanan yapılandırma adımları yalnızca Finance sürüm 10.0.20 ve sonrası için geçerlidir. Finance Insights'ı sürüm 10.0.19 ve öncesinde ayarlamak için bkz. [Sürüm 10.0.19'e kadar Finance Insights yapılandırmaları](configure-for-fin-insites.md).
+> Bu makalede açıklanan yapılandırma adımları yalnızca Finance 10.0.20 ve sonraki sürümler için geçerlidir. Finance Insights'ı sürüm 10.0.19 ve öncesinde ayarlamak için bkz. [Sürüm 10.0.19'e kadar Finance Insights yapılandırmaları](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>Finance'i Dağıtma
 

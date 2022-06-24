@@ -1,6 +1,6 @@
 ---
 title: Yazılı müşteri faturalarını karma numaralarla arşivleme
-description: Bu konu, yazdırılmış müşteri faturalarını karma numaralarla kaydetmek için arşivlemenin nasıl etkinleştirileceğini açıklar.
+description: Bu makalede, basılı müşteri faturalarını karma numaralarla kaydetmek için arşivlemenin nasıl etkinleştirileceği açıklanmaktadır.
 author: ilkond
 ms.date: 09/15/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 44caf44097a433b8848b17688430ca88a4b3f51b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3f19968b4f4cf76a48ac5485e915785e9be5c7db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695288"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909199"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>Yazılı müşteri faturalarını karma numaralarla arşivleme
 
@@ -27,7 +27,7 @@ ms.locfileid: "8695288"
 
 Bazı ülkelerde, Hesaplanmış karma numaraların sistemde bazı belgelerin çıktılarıyla birlikte kaydedilmesi için yasal bir gereksinim vardır. Karma numaralar, yetkililere rapor verirken ve denetimler sırasında kullanılabilir.
 
-Bu konu, yazdırılmış müşteri faturalarını karma numaralarla kaydetmek için arşivlemenin nasıl yapılandırılacağını açıklar.
+Bu makalede, basılı müşteri faturalarını karma numaralarla kaydetmek için arşivlemenin nasıl yapılandırılacağı açıklanmaktadır.
 
 ## <a name="prerequisites"></a>Önkoşullar
 

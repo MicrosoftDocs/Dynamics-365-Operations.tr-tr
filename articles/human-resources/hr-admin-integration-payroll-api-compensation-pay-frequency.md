@@ -1,6 +1,6 @@
 ---
 title: Maaş ödeme sıklığı
-description: Bu konuda, Dynamics 365 Human Resources uygulamasındaki Ücret ödeme sıklığı varlığı için ayrıntılar ve örnek bir sorgu açıklanmaktadır.
+description: Bu makalede, Dynamics 365 Human Resources'daki Ücret ödeme sıklığı varlığı için ayrıntılar ve örnek bir sorgu sağlanmaktadır.
 author: marcelbf
 ms.date: 09/01/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 171b7fb7b361bd1fe2e7e637cd555c88a81a8bcf
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9afe27776797b2355a32226bbd7fa514b5c5d962
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066155"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894628"
 ---
 # <a name="compensation-pay-frequency"></a>Maaş ödeme sıklığı
 
@@ -27,7 +27,7 @@ ms.locfileid: "8066155"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, Dynamics 365 Human Resources uygulamasındaki Ücret ödeme sıklığı varlığı açıklanmaktadır.
+Bu makalede, Dynamics 365 Human Resources'daki Ücret ödeme sıklığı varlığı açıklanmaktadır.
 
 Fiziksel ad: mshr_hcmpayrateconversionentity.
 

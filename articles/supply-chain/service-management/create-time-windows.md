@@ -1,6 +1,6 @@
 ---
 title: Zaman aralıkları oluşturma
-description: Bu konuda, zaman aralıklarının nasıl oluşturulacağını gösteren bir yordam açıklanmaktadır.
+description: Bu makalede, zaman aralıklarının nasıl oluşturulacağını gösteren bir yordam açıklanmaktadır.
 author: sorenva
 ms.date: 02/20/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fff9e0d6b8a06efbdb89c74f0bdd2edb35629696
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5575102163ea273e5ec8437c027b56368370e09a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677772"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900781"
 ---
 # <a name="create-time-windows"></a>Zaman aralıkları oluşturma
 
@@ -34,7 +34,7 @@ Servis siparişi satırlarının planlamasını en iyi duruma getirmek için zam
 4. **Açıklama** alanında zaman aralığı için bir açıklama girin.
 5. **Yöntem** alanında otomatik oluşturulacak yöntemi seçin. Yöntem **El ile** türündeyse, servis siparişi satırının hesaplanan tarihten kaç gün önce veya sonra taşınabileceğini belirtin.
 
-## <a name="related-topics"></a>İlgili konular
+## <a name="related-articles"></a>İlgili makaleler
 
 [Zaman aralıkları](time-windows.md)
 

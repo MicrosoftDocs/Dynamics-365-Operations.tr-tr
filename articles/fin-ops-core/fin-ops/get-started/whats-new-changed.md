@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 98add33413f38db52b70b9c39c4ebd004ab3dd57
-ms.sourcegitcommit: 1819a11ae22019f1de6991d233c1c51e9950d7a3
+ms.openlocfilehash: 2430e75897a8ddc78a6b1b9288b23458aa44108a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "8457410"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908241"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Finans ve Operasyon uygulamaları giriş sayfasındaki yenilikler veya değişiklikler
 
@@ -41,18 +41,18 @@ Bir Finans ve Operasyon uygulamasının her sürümünde nelerin yeni veya deği
 
 ## <a name="stand-alone-applications"></a>Bağımsız uygulamalar
 
-Bağımsız Dynamics 365 Human Resources'daki yenilik ve değişiklikleri görmek için aşağıdaki konulara bakın:
+Bağımsız Dynamics 365 Human Resources'daki yenilik ve değişiklikleri görmek için aşağıdaki makaleye bakın:
 
 - **Human Resources**: [Dynamics 365 Human Resources'taki yenilikler veya değişiklikler](../../../human-resources/hr-admin-whats-new.md)
 
 ## <a name="platform-updates"></a>Platform güncelleştirmeleri
 
-Finans ve Operasyon uygulamalarının platform güncelleştirmelerinde nelerin yeni veya değiştirilmiş olduğunu görmek için aşağıdaki konuya bakın:
+Finans ve Operasyon uygulamalarının platform güncelleştirmelerinde nelerin yeni veya değiştirilmiş olduğunu görmek için aşağıdaki makaleye bakın:
 
 - [Platform güncelleştirmelerinde yenilikler veya değişiklikler](../../dev-itpro/get-started/whats-new-home-page.md)
 
 ## <a name="lifecycle-services-releases"></a>Lifecycle Services sürümleri
-Lifecycle Services'te nelerin yeni veya değiştirilmiş olduğunu görmek için aşağıdaki konulara bakın:
+Lifecycle Services'da nelerin yeni veya değiştirilmiş olduğunu görmek için aşağıdaki makaleye bakın:
 
 - [Lifecycle Services'deki (LCS) yenilikler veya değişiklikler](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 

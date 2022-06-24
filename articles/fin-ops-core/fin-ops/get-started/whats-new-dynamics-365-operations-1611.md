@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 for Operations sürüm 1611'deki yenilikler veya değişiklikler (Kasım 2016)
-description: Bu konuda, Dynamics 365 for Operations sürüm 1611'daki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, Dynamics 365 for Operations 1611 sürümündeki yeni veya değişen özellikler açıklanmaktadır.
 author: sericks007
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 43a53d5940b2595abb305a08e6f52661bee8ca62
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: a6e9454baa33e37fe62db2b7bd39ff00891ff855
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8548094"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905038"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Dynamics 365 for Operations sürüm 1611'deki yenilikler veya değişiklikler (Kasım 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Dynamics 365 for Operations sürüm 1611'daki yeni veya değişen özellikler açıklanmaktadır.
+Bu makalede, Dynamics 365 for Operations 1611 sürümündeki yeni veya değişen özellikler açıklanmaktadır.
 
 ## <a name="cost-accounting"></a>Maliyet muhasebesi
 

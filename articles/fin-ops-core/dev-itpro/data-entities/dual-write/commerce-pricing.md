@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce fiyatlandırma altyapısını Dynamics 365 Sales ile kullanma
-description: Bu konu başlığında, Dynamics 365 Sales'da satış teklifleri oluşturmak için Microsoft Dynamics 365 Commerce fiyatlandırma altyapısının nasıl kullanılacağı açıklanmaktadır.
+description: Bu makalede, Dynamics 365 Sales'de satış teklifleri oluşturmak için Microsoft Dynamics 365 Commerce fiyatlandırma altyapısının nasıl kullanılacağı açıklanmaktadır.
 author: ShalabhjainMSFT
 ms.date: 11/19/2020
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: global
 ms.author: shajain
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c3f1527e5f37bebba57661ca86b1a3aae7e62da0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 11a164ec15c8b7a69172a153b961011a8b324712
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416767"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881408"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>Dynamics 365 Commerce fiyatlandırma altyapısını Dynamics 365 Sales ile kullanma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu başlığında, Dynamics 365 Sales'da satış teklifleri oluşturmak için Microsoft Dynamics 365 Commerce fiyatlandırma altyapısının nasıl kullanılacağı açıklanmaktadır.
+Bu makalede, Dynamics 365 Sales'de satış teklifleri oluşturmak için Microsoft Dynamics 365 Commerce fiyatlandırma altyapısının nasıl kullanılacağı açıklanmaktadır.
 
 Dynamics 365 Commerce fiyatlandırma altyapısı, mağaza düzeyinde fiyatlandırma, ilişki tabanlı ve bağlılık programı tabanlı fiyatlandırma, karıştırma ve eşleme iskontoları, miktar iskontoları ve eşik iskontoları gibi işletme-müşteri (B2C) fiyatlandırma senaryolarının çoğunu destekler. Fiyatlandırma motoru, belirli bir teklif veya sipariş için en iyi fiyatı belirlemek amacıyla karmaşık kurallar kullanır.
 

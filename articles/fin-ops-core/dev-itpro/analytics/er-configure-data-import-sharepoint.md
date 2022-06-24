@@ -1,6 +1,6 @@
 ---
 title: SharePoint'ten veri aktarımını yapılandırma
-description: Bu konu, Microsoft SharePoint'ten nasıl veri aktarılacağını açıklamaktadır.
+description: Bu makalede, Microsoft SharePoint'ten nasıl veri aktarılacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 01/05/2022
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9ac328e660c7a8a3b4a4f34a650062a0fa974771
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 0163ece2f61735073567b32a45d3dc6df8be1864
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074778"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864792"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>SharePoint'ten veri aktarımını yapılandırma
 
 [!include[banner](../includes/banner.md)]
 
-Elektronik raporlama (ER) çerçevesini kullanarak bir gelen dosyadan verileri içe aktarmak için, içe aktarmayı destekleyen bir ER biçimi yapılandırmanız ve ardından bu biçimi veri kaynağı olarak kullanan **Hedefe** türünün bir model eşlemesini çalıştırmanız gerekir. Verileri içe aktarmak için, içe aktarmak istediğiniz dosyaya gitmeniz gerekir. Kullanıcı gelen dosyayı el ile seçebilir. Microsoft SharePoint'ten veri içe aktarmayı destekleyen yeni ER özelliği sayesinde bu işlem müdahalesiz yürüyecek şekilde yapılandırılabilir. Microsoft SharePoint klasörlerinde depolanan dosyalardan veri içe aktarmak için ER yapılandırmalarını kullanabilirsiniz. Bu konu SharePoint'den içe aktarma işleminin nasıl tamamlanacağını açıklar. Örneklerde iş verisi olarak satıcı hareketleri kullanılmaktadır.
+Elektronik raporlama (ER) çerçevesini kullanarak bir gelen dosyadan verileri içe aktarmak için, içe aktarmayı destekleyen bir ER biçimi yapılandırmanız ve ardından bu biçimi veri kaynağı olarak kullanan **Hedefe** türünün bir model eşlemesini çalıştırmanız gerekir. Verileri içe aktarmak için, içe aktarmak istediğiniz dosyaya gitmeniz gerekir. Kullanıcı gelen dosyayı el ile seçebilir. Microsoft SharePoint'ten veri içe aktarmayı destekleyen yeni ER özelliği sayesinde bu işlem müdahalesiz yürüyecek şekilde yapılandırılabilir. Microsoft SharePoint klasörlerinde depolanan dosyalardan veri içe aktarmak için ER yapılandırmalarını kullanabilirsiniz. Bu makalede, SharePoint'den içeri aktarma işleminin nasıl tamamlanacağı açıklanmaktadır. Örneklerde iş verisi olarak satıcı hareketleri kullanılmaktadır.
 
-## <a name="prerequisites"></a>Önkoşullar
-Bu konudaki örnekleri tamamlamak için şu erişimlere sahip olmanız gerekir:
+## <a name="prerequisites"></a>Ön Koşullar
+Bu makaledeki örnekleri tamamlamak için şu erişimlere sahip olmanız gerekir:
 
 - Aşağıdaki rollerden birine erişim:
 

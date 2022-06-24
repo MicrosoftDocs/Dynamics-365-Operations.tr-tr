@@ -1,6 +1,6 @@
 ---
 title: Maliyet nesnesi denetleyicilerinin erişim hakları
-description: Bu konu, maliyet nesnesi denetleyicileri için erişim hakları hakkında bilgi sağlar.
+description: Bu makale, maliyet nesnesi denetleyicileri için erişim hakları hakkında bilgi sağlar.
 author: AndersGirke
 ms.date: 06/24/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13d562a4f42644b822c9548d1ea87d44a396b2c2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c40be758c5e5d1d1fb025630ed8321ae46251892
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903203"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Maliyet nesnesi denetleyicilerinin erişim hakları
 
@@ -35,10 +35,10 @@ Maliyet muhasebesinde dört benzersiz rol vardır.
 |-------------------------|--------------|
 | Maliyet muhasebesi yöneticisi | Faaliyet     |
 | Maliyet muhasebecisi         | Operations   |
-| Maliyet muhasebe memuru   | Operations   |
+| Maliyet muhasebe memuru   | Operasyonlar   |
 | Maliyet nesnesi denetleyicisi  | Takım üyeleri |
 
-Bu konu, **Maliyet nesnesi denetleyicisi** rolünü bir yöneticiye atamayı açıklar.
+Bu makalede, bir yöneticiye **Maliyet nesnesi denetleyicisi** rolünü atama işlemi açıklanmaktadır.
 
 **Maliyet nesnesi denetleyicisi** rolü bir yöneticiye atandığı, yönetici aşağıdaki görevleri yerine getirebilir:
 
@@ -95,7 +95,7 @@ Erişim listesi hiyerarşisi için ayarlar, aşağıdaki alanlarda gösterilen v
 
 > [!IMPORTANT]
 > - Erişim listesi hiyerarşisi Power BI içerisindeki veriyi etkileyebilmeden önce, Power BI içindeki Erişim listesi hiyerarşisi ve satır düzeyi güvenliği eşleştirilmelidir. Daha fazla bilgi için bkz [Maliyet muhasebesi İçerik Paketi için güvenlik kurma](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
-> - Bu konu, **Maliyet kontrolü** çalışma alanını kullanmadan önce ayarlanması gereken önkoşulları gösterir.
+> - Bu makalede, **Maliyet kontrolü** çalışma alanını kullanmadan önce ayarlanması gereken ön koşullar gösterilmektedir.
 
 Ek kaynaklar
 

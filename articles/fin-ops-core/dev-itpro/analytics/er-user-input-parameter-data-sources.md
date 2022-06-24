@@ -1,6 +1,6 @@
 ---
 title: Bir raporun parametrelerini belirtmek için KULLANICI GİRİŞİ PARAMETRESİ veri kaynaklarını kullanma
-description: Bu konu, oluşturduğunuz raporların parametrelerini belirtmek için KULLANICI GİRİŞİ PARAMETRESİ veri kaynaklarının nasıl kullanılacağını açıklar.
+description: Bu makalede, oluşturduğunuz raporların parametrelerini belirtmek için KULLANICI GİRİŞİ PARAMETRESİ veri kaynaklarının nasıl kullanılacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 04/20/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.27
-ms.openlocfilehash: 4e431c9dd59080af17fa073547073037ba233288
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: 62b7a8173416a1d36a2985823d186a7a0e6a7e60
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782325"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872986"
 ---
 # <a name="use-user-input-parameter-data-sources-to-specify-parameters-for-a-report"></a>Bir raporun parametrelerini belirtmek için KULLANICI GİRİŞİ PARAMETRESİ veri kaynaklarını kullanma
 
 [!include[banner](../includes/banner.md)]
 
-[Elektronik raporlama](general-electronic-reporting.md) (ER) [model eşlemesi](er-overview-components.md#model-mapping-component) ve ER [biçimi](er-overview-components.md#format-component) bileşenlerini tasarladığınızda, herhangi bir ER biçimini yürütme işlemi başlamadan önce çalışma zamanında iletişim kutusundaki veri girişi alanlarında belirtilebilecek gerekli değerleri almak için *KULLANICI GİRİŞİ PARAMETRESİ* türünde veri kaynakları kullanabilirsiniz. Bu konuda, şu anda desteklenen *KULLANICI GİRİŞİ PARAMETRESİ* veri kaynakları açıklanmaktadır.
+[Elektronik raporlama](general-electronic-reporting.md) (ER) [model eşlemesi](er-overview-components.md#model-mapping-component) ve ER [biçimi](er-overview-components.md#format-component) bileşenlerini tasarladığınızda, herhangi bir ER biçimini yürütme işlemi başlamadan önce çalışma zamanında iletişim kutusundaki veri girişi alanlarında belirtilebilecek gerekli değerleri almak için *KULLANICI GİRİŞİ PARAMETRESİ* türünde veri kaynakları kullanabilirsiniz. Bu makalede, şu anda desteklenen *KULLANICI GİRİŞİ PARAMETRESİ* veri kaynakları açıklanmaktadır.
 
 ## <a name="mandatory-properties"></a><a name="mandatory-properties"></a>Zorunlu özellikler
 

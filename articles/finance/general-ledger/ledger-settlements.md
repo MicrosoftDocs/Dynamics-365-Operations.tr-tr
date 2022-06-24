@@ -1,6 +1,6 @@
 ---
 title: Genel muhasebe hesabı kapatmaları
-description: Bu konu, Genel muhasebe kapatmaları sayfasını genel muhasebe hareketlerini kapatmak ve kapatmaları geri almak için nasıl kullanılacağını açıklar.
+description: Bu makalede, Genel muhasebe kapatmaları sayfasının genel muhasebe hareketlerini kapatmak ve kapatmaları geri almak için nasıl kullanılacağı açıklanmaktadır.
 author: kweekley
 ms.date: 01/31/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: e98b012210338e7f18cb874eefbc8a023aa4428b
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 39fd6c6677565a4b1e9a9bf6f43a4c630cb5e07b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902501"
 ---
 # <a name="ledger-settlements"></a>Genel muhasebe hesabı kapatmaları
 
@@ -32,7 +32,7 @@ Kapatılan hareketler sorguların ve raporların dışında tutulabilir. Bu şek
 > Borç Hesapları (AP) ve Alacak Hesapları (AR) modüllerinde fatura ve ödemelerin de kapatması vardır. AR ve AP alt defterlerinde kapatma gerçekleştiğinde, karşılık gelen defter girişleri otomatik olarak kapatılmaz.
 
 ## <a name="ledger-settlement-features"></a>Genel muhasebe kapatma özellikleri
-Microsoft Dynamics 365 Finance sürüm 10.0.21'de, **Gelişmiş genel muhasebe kapatmayı etkinleştir** seçeneği **Genel muhasebe parametreleri** sayfasından kaldırıldı. Gelişmiş genel muhasebe kapatması artık her zaman etkindir.
+Microsoft Dynamics 365 Finance 10.0.21 sürümünde, **Gelişmiş genel muhasebe kapatmayı etkinleştir** seçeneği **Genel muhasebe parametreleri** sayfasından kaldırıldı. Gelişmiş genel muhasebe kapatması artık her zaman etkindir.
 Finance sürüm 10.0.25'te, **Genel muhasebe kapatması ile yıl sonu kapanışı arasındaki farklılıklar** özelliği tanıtıldı. Bu özellik, hem genel muhasebe kapatma hem de Genel muhasebe yıl sonu kapanışında temel işlevselliği değiştirir. **Özellik yönetimi** çalışma alanında bu özelliği etkinleştirmeden önce, [Genel muhasebe kapatması ile yıl sonu kapanışı arasındaki fark](awareness-between-ledger-settlement-year-end-close.md) bölümüne bakın.
 
 ## <a name="set-up-ledger-settlement"></a>Genel muhasebe kapatmasını ayarlama

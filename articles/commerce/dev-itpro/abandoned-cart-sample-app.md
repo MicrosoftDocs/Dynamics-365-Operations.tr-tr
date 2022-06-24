@@ -1,6 +1,6 @@
 ---
 title: Bırakılmış alışveriş sepetlerini algılama ve müşterilere bildirimler gönderme
-description: Bu konu, Microsoft Dynamics 365 Commerce terk edilen sepetleri algılamak ve müşterilere anımsatıcı e-posta bildirimleri göndermek için bırakılan sepet bağlayıcısı örnek uygulamasını nasıl özelleştireceğinizi açıklar.
+description: Bu makale, Microsoft Dynamics 365 Commerce terk edilen sepetleri algılamak ve müşterilere anımsatıcı e-posta bildirimleri göndermek için bırakılan sepet bağlayıcısı örnek uygulamasını nasıl özelleştireceğinizi açıklar.
 author: bicyclingfool
 ms.date: 02/25/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
-ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
+ms.openlocfilehash: 707640ca211e997533d0f5a0b4e6d52cb5be9db4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "8489042"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899222"
 ---
 # <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Bırakılmış alışveriş sepetlerini algılama ve müşterilere bildirimler gönderme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce terk edilen sepetleri algılamak ve müşterilere anımsatıcı e-posta bildirimleri göndermek için bırakılan sepet bağlayıcısı örnek uygulamasını nasıl özelleştireceğinizi açıklar.
+Bu makale, Microsoft Dynamics 365 Commerce terk edilen sepetleri algılamak ve müşterilere anımsatıcı e-posta bildirimleri göndermek için bırakılan sepet bağlayıcısı örnek uygulamasını nasıl özelleştireceğinizi açıklar.
 
 Terk edilen sepet bildirimleri aracılığıyla geliri kurtarma ve müşterileri tutma becerisi, Dynamics 365 Commerce'in desteklediği önemli bir özelliktir. Commerce terk edilmiş sepet bağlayıcısı örnek uygulamasını özelleştiren perakendeciler, perakendeci tarafından belirlenen bir zaman içinde değiştirilmemiş olan Perakende Sunucusundaki alışveriş sepetlerine erişebilir. Bu sepetler daha sonra alınabilir, ürün ve müşteri verileriyle geliştirilebilir ve e-posta bildirimleri oluşturup bunları müşterilere gönderecek üçüncü taraf e-posta pazarlama sağlayıcılarına iletilebilir.
 

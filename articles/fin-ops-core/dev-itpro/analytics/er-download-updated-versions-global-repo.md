@@ -1,6 +1,6 @@
 ---
-title: ER konfigürasyonlarının güncelleştirilmiş sürümlerini içe aktar
-description: Bu konu, genel amaçlı yapılandırma havuzundan elektronik raporlama (ER) yapılandırmalarının güncel sürümlerinin nasıl içe aktarılacağı açıklamaktadır.
+title: ER yapılandırmalarının güncellenmiş sürümlerini içeri aktarma
+description: Bu makalede, Yapılandırma hizmeti Genel deposundan Elektronik raporlama (ER) yapılandırmalarının güncel sürümlerinin nasıl içe aktarılacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 06/09/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 712bccbd48775cadc069ef5e8a04f9aae3c9f223137bcd394ff1815a720393b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69eaa3e2ecfbd1e92f23725d97d7fa9f0abe1cea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734900"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847560"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>ER konfigürasyonlarının güncelleştirilmiş sürümlerini içe aktar
 
 [!include [banner](../includes/banner.md)]
 
-Elektronik raporlama (ER) [depoları](general-electronic-reporting.md#Repository), [ER konfigürasyonları](general-electronic-reporting.md#Configuration) paylaşmak için kullanılır. Farklı depolardaki ER yapılandırmalarını Microsoft Dynamics 365 Finance örneğiniz için [içe aktarabilirsiniz](download-electronic-reporting-configuration-lcs.md) . ER yapılandırmalarını içe aktardığınızda, [Konfigürasyon sağlayıcıları](general-electronic-reporting.md#Provider)paylaşılabilecek şekilde yeni [sürümler](general-electronic-reporting.md#component-versioning) depoları yayımlayabilir.
+Elektronik raporlama (ER) [depoları](general-electronic-reporting.md#Repository), [ER konfigürasyonları](general-electronic-reporting.md#Configuration) paylaşmak için kullanılır. Farklı depolardaki ER yapılandırmalarını Microsoft Dynamics 365 Finance örneğiniz için [içeri aktarabilirsiniz](download-electronic-reporting-configuration-lcs.md). ER yapılandırmalarını içe aktardığınızda, [Konfigürasyon sağlayıcıları](general-electronic-reporting.md#Provider)paylaşılabilecek şekilde yeni [sürümler](general-electronic-reporting.md#component-versioning) depoları yayımlayabilir.
 
-Bu konu, genel amaçlı yapılandırma havuzundan ER yapılandırmalarının güncel sürümlerinin nasıl içe aktarılacağı açıklamaktadır. Daha fazla bilgi için, bkz [Microsoft Dynamics 365 for Finance and Operations - Regulatory services yapılandırma hizmeti](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Bu makalede, Yapılandırma hizmeti Genel deposundan ER yapılandırmalarının güncel sürümlerinin nasıl içe aktarılacağı açıklanmaktadır. Daha fazla bilgi için, bkz [Microsoft Dynamics 365 for Finance and Operations - Regulatory services yapılandırma hizmeti](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>Kullanılabilir güncelleştirilmiş sürümleri gözden geçirin
 

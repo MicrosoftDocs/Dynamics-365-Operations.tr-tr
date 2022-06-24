@@ -1,6 +1,6 @@
 ---
 title: Madde vergisi gruplarını ayarlama
-description: Bu konuda, Vergi Hesaplama hizmetinde madde vergi gruplarının nasıl ayarlanılacağı açıklanmaktadır.
+description: Bu makalede, Vergi Hesaplama hizmetinde madde vergi gruplarının nasıl ayarlanacağı açıklanmaktadır.
 author: wangchen
 ms.date: 11/30/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 88dd8e2fd9d4d4e5172dcc7b1bd27a70a2f59f03
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 3bc705bc8173ad2bc8ef883e6dc80b0a187314ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883887"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846477"
 ---
 # <a name="set-up-item-tax-groups"></a>Madde vergisi gruplarını ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Vergi Hesaplama hizmetinde madde vergi gruplarının nasıl ayarlanılacağı açıklanmaktadır. Ayrıca, madde vergi grubu uygulanabilirlik kuralı matrisinin nasıl ayarlanıp matristeki satırların nasıl yapılandırılacağı açıklanmaktadır.
+Bu makalede, Vergi Hesaplama hizmetinde madde vergi gruplarının nasıl ayarlanacağı açıklanmaktadır. Ayrıca, madde vergi grubu uygulanabilirlik kuralı matrisinin nasıl ayarlanıp matristeki satırların nasıl yapılandırılacağı açıklanmaktadır.
 
 Vergi Hesaplama hizmetindeki madde vergi grupları kavramı, Microsoft Dynamics 365 Finance'teki madde satış vergisi grupları kavramına benzerdir. Bunlar vergi kodu gruplarıdır. Vergi Hesaplama hizmeti, vergi kodlarını belirlemek için bir vergi grubu ile madde vergi grubunun kesişimini kullanır.
 

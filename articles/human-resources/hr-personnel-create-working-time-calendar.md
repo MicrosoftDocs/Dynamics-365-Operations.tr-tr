@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b49b5393448bc501abd1b96123b64c034d7cc67
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 811f49307a8ae44bbee9906cb40a3ca31101f52b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846343"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>Takvimler ve çalışma zamanları oluşturma
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!IMPORTANT]
-> Bu konuda belirtilen işlevler şu anda Finance altyapısında Human Resources müşteriler için kullanıma sunulmaktadır.  
+> Bu makalede belirtilen işlevler şu anda Finance altyapısında Human Resources müşterileri için kullanıma sunulmaktadır.  
 
 
 Takvimler, kapasiteyi ve işlem kaynaklarının çalışma zamanlarını açıklar. Bu konuda bir çalışma saati şablonunu temel alan bir iş takvimi tanımlama işlemi açıklanmaktadır. Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz.

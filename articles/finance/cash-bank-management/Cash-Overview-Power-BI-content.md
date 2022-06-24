@@ -1,6 +1,6 @@
 ---
 title: Nakde genel bakış Power BI içeriği
-description: Bu konu, Nakde genel bakış Power BI içeriğini açıklar. Bu ayrıca, içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
+description: Bu makalede, Nakde genel bakış Power BI içeriği açıklanmaktadır. Bu ayrıca, içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 author: panolte
 ms.date: 07/16/2020
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bb44dd8203b87ac5fb1f7977b865522faa6ebaeb
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 4f841ec5b17c2271010a95f45188832ee5917556
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710291"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910243"
 ---
 # <a name="cash-overview-power-bi-content"></a>Nakde genel bakış Power BI içeriği
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, **Nakide genel bakış** Microsoft Power BI içeriğini açıklar. Bu ayrıca, içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
+Bu makalede, **Nakde genel bakış** Microsoft Power BI içeriği açıklanmaktadır. Bu ayrıca, içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
 ## <a name="overview"></a>Genel bakış
 

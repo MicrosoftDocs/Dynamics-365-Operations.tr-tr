@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea52c39ef1c7d7b62f20da9fe4d94103119ccc23
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 75019f3f9bcd081f32d06971b11429bcdd794240
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069285"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847113"
 ---
 # <a name="view-and-export-field-descriptions"></a>Alan açıklamalarını görüntüleme ve dışarı aktarma
 
@@ -91,11 +91,11 @@ Bu bölüm, alan açıklamalarını kullanırken karşılaşabileceğiniz sorunl
 
 ### <a name="i-cant-find-a-field-description"></a>Bir alanın açıklamasını bulamıyorum
 
-Daha karmaşık alanların açıklamalarını eklemeye devam ediyoruz. Belirli bir alanla ilgili yardım gereksiniminiz varsa bu konuya yorum ekleyerek bize bildirin.
+Daha karmaşık alanların açıklamalarını eklemeye devam ediyoruz. Belirli bir alanla ilgili yardım gereksiniminiz varsa bu makaleye yorum ekleyerek bize bildirin.
 
 ### <a name="the-field-description-isnt-helpful"></a>Alan açıklaması yardımcı olmuyor
 
-Bu konuya yorum ekleyerek bize bildirin. Yapabiliyorsanız ihtiyacınız olan ek bilgileri açıklayın.
+Bu makaleye yorum ekleyerek bize bildirin. Yapabiliyorsanız ihtiyacınız olan ek bilgileri açıklayın.
 
 ### <a name="i-cant-find-a-field-on-the-field-descriptions-page"></a>Alan açıklamaları sayfasında bir alanı bulamıyorum
 

@@ -1,6 +1,6 @@
 ---
 title: RCS'deki/Genel depodaki ER yapılandırmalarını harici kuruluşlarla paylaşma
-description: Bu konuda, Microsoft Regulatory Configuration Services (RCS)/Genel depodaki Elektronik raporlama (ER) yapılandırmalarının harici kuruluşlarla doğrudan nasıl paylaşılacağı açıklanmaktadır.
+description: Bu makalede, Microsoft Regulatory Configuration Services'daki (RCS)/Genel depodaki Elektronik raporlama (ER) yapılandırmalarının harici kuruluşlarla doğrudan nasıl paylaşılacağı açıklanmaktadır.
 author: JaneA07
 ms.date: 05/04/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ee7feef83ffa458e7cbd238d37a0f343d1a202f48002da67823df024bb609d02
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 976a86aee75581d1afa764bea049b6c0eaecf9f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719185"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888937"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>Regulatory Configuration Services (RCS)/Genel depodaki Elektronik raporlama (ER) yapılandırmalarını harici kuruluşlarla paylaşma
 
@@ -36,7 +36,7 @@ Aşağıdaki yordamlarda, bir RCS kullanıcısının harici kuruluşla bir RCS �
 
 Ayrıca, şirketiniz için bir RCS ortamının sağlandığından da emin olmalısınız.
 
-1. Finance and Operations uygulamasında, **Kuruluş yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama** bölümüne gidin.
+1. Finance ve Operations uygulamasında, **Kuruluş yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 2. Şirketiniz için hiçbir RCS ortamı sağlanmamışsa **Regulatory services - Harici yapılandırma**'yı seçin ve ardından bir ortam sağlamak için yönergeleri izleyin.
 
 Şirketiniz için zaten bir RCS ortamı sağlanmışsa oturum açma seçeneğini belirleyerek bu URL'ye erişmek için sayfa URL'sini kullanın.
@@ -67,7 +67,7 @@ Yapılandırma sağlayıcınız altında bir yapılandırma oluşturulduktan son
 
     ![Yapılandırma sürümünü harici kuruluş ile paylaş iletişim kutusu.](media/1_RCS_Repo_for_Share_with_form.JPG)
 
-Yapılandırma, harici kuruluşla paylaşılır ve Genel depodaki bu kuruluş tarafından kullanılabilir. Buradan, kuruluşun RCS örneğine veya Finance and Operations uygulama örneklerine içe aktarılabilir.
+Yapılandırma, harici kuruluşla paylaşılır ve Genel depodaki bu kuruluş tarafından kullanılabilir. Buradan, kuruluşun RCS örneğine veya Finans ve Operasyon uygulamaları örneklerine içeri aktarılabilir.
 
 6. Daha önce harici bir kuruluşla paylaşılan bir yapılandırmanın paylaşımını kaldırmak için yapılandırmayı seçin ve **Paylaşımı kaldır**'ı, ardından **Tamam**'ı seçin
 

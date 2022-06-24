@@ -1,6 +1,6 @@
 ---
 title: Veri reyonunu sıfırlamayla ilgili SSS
-description: Bu konu, veri reyonu sıfırlama hakkında sık sorulan bazı soruların yanıtlarını sağlar.
+description: Bu makale, veri reyonu sıfırlama hakkında sık sorulan bazı soruların yanıtlarını sağlar.
 author: jinniew
 ms.date: 03/21/2022
 ms.topic: article
@@ -13,16 +13,16 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 61c7047096f42e71cde5e9ba1ddc59785383795a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: d2b20ec7af9f0c6b7899617c2b8fdbf0992d7397
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714143"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892406"
 ---
 # <a name="data-mart-resets-faq"></a>Veri reyonunu sıfırlamayla ilgili SSS
 
-Bu konu, veri reyonu sıfırlama hakkında sık sorulan bazı soruların yanıtlarını sağlar. Veri reyonu sıfırlama işlemi zaman alan bir işlem olabilir ve koşullara bağlı olarak gerekli çözüm olmayabilir. Bu nedenle, bu konu bir veri reyonu sıfırlamasının yardımcı olabileceği ve büyük olasılıkla size yardımcı olamayacağı koşullar hakkında bilgi içerir.
+Bu makale, veri reyonu sıfırlama hakkında sık sorulan bazı soruların yanıtlarını sağlar. Veri reyonu sıfırlama işlemi zaman alan bir işlem olabilir ve koşullara bağlı olarak gerekli çözüm olmayabilir. Bu nedenle bu makalede, bir veri reyonu sıfırlamasının sorununuzu çözmeye yardımcı olabileceği ve olamayacağı koşullar hakkında bilgiler yer alır.
 
 ## <a name="what-is-a-data-mart-reset"></a>Veri reyonu sıfırlama nedir?
 

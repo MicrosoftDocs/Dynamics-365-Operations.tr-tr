@@ -1,6 +1,6 @@
 ---
 title: Kullanım yönetimi panosu
-description: Bu konu, Elektronik Faturalama hizmetinin kullanımını izlemek ve uyumlu kalmak için Kullanım yönetimi panosunun nasıl kullanılacağını açıklar.
+description: Bu makalede, Elektronik Faturalama hizmetinin kullanımını izlemek ve kurallara uyumluluğu sağlamak için Kullanım yönetimi panosunun nasıl kullanılacağı açıklanmaktadır.
 author: gionoder
 ms.date: 06/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 35b50c8cb5c6ef72f466a4fb10c7af0e53afc3db5d1ef9e2b23d6049e24a70c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3fad2acea373e96092208ce06edb31f1a862912d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776486"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875985"
 ---
 # <a name="usage-management-dashboard"></a>Kullanım yönetimi panosu
 

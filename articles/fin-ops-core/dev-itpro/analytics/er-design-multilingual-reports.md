@@ -1,8 +1,8 @@
 ---
 title: Elektronik raporlamada çok dilli raporlar tasarlama
-description: Bu konu, çok dilli raporlar tasarlamak ve oluşturmak için Elektronik raporlama (ER) etiketlerini nasıl kullanabileceğinizi açıklamaktadır.
+description: Bu makalede, çok dilli raporlar tasarlamak ve oluşturmak için Elektronik raporlama (ER) etiketlerini nasıl kullanabileceğiniz açıklanmaktadır.
 author: NickSelin
-ms.date: 04/28/2022
+ms.date: 05/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: c042d609d68544aa4be5d707109a15b2ab8d422c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811621"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845758"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Elektronik raporlamada çok dilli raporlar tasarlama
 
@@ -142,6 +142,9 @@ Bir ER biçimi bu şekilde yapılandırırsanız, rapor ER etiketlerinin ilgili 
 
 Başvurulan bir etikette, biçim yürütme bağlamının diline ait bir çeviri yoksa, bunun yerine EN-US dilindeki etiket metni kullanılır.
 
+> [!TIP]
+> Bir giden dosyasının nasıl oluşturulacağını belirtmek için düzenlenebilir ER biçiminde **KLASÖR** öğesini ve farklı türdeki **DOSYA** bileşenlerini kullanabilirsiniz. Oluşturulan bir dosyayı adlandırmak için, bileşenin **Dosya adı** parametresi olarak ER [ifadesini](er-formula-language.md) ayarlayın. Yapılandırılan ifadedeki etiketleri kullanabilirsiniz. **Dosya adı** parametresi varsayılan olarak dilden bağımsız olduğu için bu ifadede başvurduğunuz tüm etiketlerin metinleri çalışma zamanında varsayılan EN-US dilinde gösterilir. Ancak, 10.0.28 ve sonraki sürümlerde, **"Dosya adı" ifadesi için "Dil tercihi" parametresini uygula** özelliğini etkinleştirebilirsiniz. **Dosya adı** ifadesi, hesaplandığında **Dil tercihleri** parametresini de dikkate alır.
+
 ## <a name="language"></a>Dil
 
 ER, oluşturulan bir rapor için dil belirtmek üzere farklı yöntemleri destekler. **Biçim** sekmesindeki **Dil tercihleri** alanında aşağıdaki değerleri seçebilirsiniz:
@@ -198,7 +201,7 @@ ER bileşeni yapılandırması, düzenlenebilir ER bileşeninin içinde bulundu�
 
 ![Taslak durumundaki yapılandırmanın sürümüne erişim sağlayan ER Yapılandırmaları sayfası.](./media/er-multilingual-labels-configurations.png)
 
-Bu konuda daha önce de anlatıldığı gibi, gerekli ER etiketlerini düzenlenebilir bir ER bileşenine ekleyebilirsiniz. Bu şekilde, EN-US dilindeki ER etiketlerinin metnini belirtebilirsiniz. Daha sonra, yerleşik ER işlevini kullanarak ER bileşeninin etiketlerini dışa aktarabilirsiniz. Düzenlenebilir ER bileşenini içeren bir ER yapılandırmasının taslak sürümünü seçin ve sonra da **Exchange \>Etiketleri dışa aktar**'ı seçin.
+Bu makalede daha önce de anlatıldığı gibi, gerekli ER etiketlerini düzenlenebilir bir ER bileşenine ekleyebilirsiniz. Bu şekilde, EN-US dilindeki ER etiketlerinin metnini belirtebilirsiniz. Daha sonra, yerleşik ER işlevini kullanarak ER bileşeninin etiketlerini dışa aktarabilirsiniz. Düzenlenebilir ER bileşenini içeren bir ER yapılandırmasının taslak sürümünü seçin ve sonra da **Exchange \>Etiketleri dışa aktar**'ı seçin.
 
 ![Seçili yapılandırma sürümünden ER etiketlerini dışa aktarmaya olanak tanıyan ER Yapılandırmaları sayfası.](./media/er-multilingual-labels-export.png)
 
@@ -229,7 +232,7 @@ ER sürüm oluşturma işlemi, ER bileşenindeki herhangi bir özniteliğe etike
 
 Yerleşik [LISTOFFIELDS](er-functions-list-listoffields.md) ER işlevi, ER bileşenlerinin bazı öğeleri için yapılandırılmış olan ER etiketlerine erişebilir.
 
-Bu konuda daha önce de anlatıldığı gibi, her [modelin](#LinkModelEnum) **Etiket** ve **Açıklama** öznitelikleri veya [biçim](#LinkFormatEnum) ER numaralandırması değeri, uygun ER bileşeninde erişilebilir olan ER etiketine bağlanabilir. ER numaralandırmasını bağımsız değişken olarak kullanarak **LISTOFFIELDS** işlevini çağırdığınız bir ER ifadesi yapılandırabilirsiniz. Bu ifade, bu işlevin bağımsız değişkeni olarak tanımlanan bir ER numaralandırmasının her değeri için kayıt içeren bir liste döndürür. Her kayıt, bir ER numaralandırması değerine bağlantılı olanbir ER etiketi değerini içerir:
+Bu makalede daha önce de anlatıldığı gibi, her [modelin](#LinkModelEnum) **Etiket** ve **Açıklama** öznitelikleri veya [biçim](#LinkFormatEnum) ER numaralandırması değeri, uygun ER bileşeninde erişilebilir olan ER etiketine bağlanabilir. ER numaralandırmasını bağımsız değişken olarak kullanarak **LISTOFFIELDS** işlevini çağırdığınız bir ER ifadesi yapılandırabilirsiniz. Bu ifade, bu işlevin bağımsız değişkeni olarak tanımlanan bir ER numaralandırmasının her değeri için kayıt içeren bir liste döndürür. Her kayıt, bir ER numaralandırması değerine bağlantılı olanbir ER etiketi değerini içerir:
 
 - **Etiket** özniteliklerini bağlantılı ER etiketinin değeri, döndürülen kaydın **Etiket** alanında saklanır.
 - **Açıklama** özniteliklerini bağlantılı ER etiketinin değeri, döndürülen kaydın **Açıklama** alanında saklanır.

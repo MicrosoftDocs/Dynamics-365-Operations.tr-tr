@@ -1,6 +1,6 @@
 ---
 title: Otomatik kapatma ve öncelik belirleme
-description: Bu konuda Alacak hesapları parametreleri sayfasında Otomatik kapatmayı seçtiğinizde hareketlerin nasıl kapatılacağı açıklanmıştır. Ayrıca, otomatik kapatmanın ödeme önceliği ile birlikte nasıl kullanılabileceği de açıklanmıştır.
+description: Bu makalede, Alacak hesapları parametreleri sayfasında Otomatik kapatma'yı seçtiğinizde hareketlerin nasıl kapatılacağı açıklanmaktadır. Ayrıca, otomatik kapatmanın ödeme önceliği ile birlikte nasıl kullanılabileceği de açıklanmıştır.
 author: ShivamPandey-msft
 ms.date: 01/30/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47ccdb49b4d5c43b4f9cb9a967bd30376474e4c1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: bd5b894c82beb1b5d69ad6bf485161ab9c91a806
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712272"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855534"
 ---
 # <a name="automatic-settlement-and-prioritization"></a>Otomatik kapatma ve öncelik belirleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda Alacak hesapları parametreleri sayfasında Otomatik kapatmayı seçtiğinizde hareketlerin nasıl kapatılacağı açıklanmıştır. Ayrıca, otomatik kapatmanın ödeme önceliği ile birlikte nasıl kullanılabileceği de açıklanmıştır.
+Bu makalede, Alacak hesapları parametreleri sayfasında Otomatik kapatma'yı seçtiğinizde hareketlerin nasıl kapatılacağı açıklanmaktadır. Ayrıca, otomatik kapatmanın ödeme önceliği ile birlikte nasıl kullanılabileceği de açıklanmıştır.
 
 Ödemeleri faturalar ve diğer hareketlerle kapatma sırasında iki seçeneğiniz vardır. Sistem hareketleri otomatik olarak otomatik kapatma işlevini kullanarak seçebilir veya kapatmak için hareketleri el ile seçebilirsiniz. **Kapatma önceliklendirme** seçeneğini kullanarak otomatik kapatmaların nasıl işleneceğini de özelleştirebilirsiniz. Tüm bu özellikler, **Alacak hesapları parametreleri** sayfasında tanımlanan kapatma parametrelerinin parçasıdır. Hareketlerin otomatik olarak kapatılabileceği yollar, otomatik kapatma için kullandığınız yönteme bağlı olarak farklılık gösterebilir. Aşağıdaki yöntemler kullanılabilir:
 

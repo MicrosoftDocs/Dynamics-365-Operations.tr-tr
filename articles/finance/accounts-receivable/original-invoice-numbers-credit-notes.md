@@ -1,6 +1,6 @@
 ---
 title: Alacak dekontlarındaki orijinal faturalara başvurular
-description: Bu konu, ilgili alacak dekontlarında orijinal fatura numaralarının nasıl ayarlanacağını ve yazdırılacağını açıklamaktadır.
+description: Bu makalede, ilgili alacak dekontlarında orijinal fatura numaralarının nasıl ayarlanacağı ve yazdırılacağı açıklanmaktadır.
 author: ilkond
 ms.date: 10/26/2021
 ms.topic: article
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c1362bf41416202631dc4b966338e8166b26a67f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ebfeb43aaf137ef336b460f340fbda50f5918d08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688360"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861545"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Alacak dekontlarındaki orijinal faturalara başvurular
 
 [!include [banner](../includes/banner.md)]
 
 
-Bazı ülke/bölgelerde, yazdırılan alacak dekontlarının orijinal faturalara referanslar içermesi yasal bir gereksinim vardır. Bu konu, ilgili alacak dekontlarında orijinal fatura numaralarının nasıl ayarlanacağını ve yazdırılacağını açıklamaktadır.
+Bazı ülke/bölgelerde, yazdırılan alacak dekontlarının orijinal faturalara referanslar içermesi yasal bir gereksinim vardır. Bu makalede, ilgili alacak dekontlarında orijinal fatura numaralarının nasıl ayarlanacağı ve yazdırılacağı açıklanmaktadır.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
 - **Özellik yönetimi** çalışma alanında, **Satış ve proje faturası raporları için alacak faturalama düzeni**'ni açın. Daha fazla bilgi için bkz. [Özellik yönetimine genel bakış](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - Gerekli belgelerin yazdırılabilir biçimleri Yazdırma yönetimi'nde konfigüre edilmelidir.
 
-Bu konuda açıklanan işlevsellik aşağıdaki belgeler için geçerlidir:
+Bu makalede açıklanan işlevsellik aşağıdaki belgeler için geçerlidir:
 
 **Alacak hesapları**
 

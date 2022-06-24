@@ -1,6 +1,6 @@
 ---
 title: Genel stopaj vergisi
-description: Bu konu, genel stopaj vergisi işlevselliği ve nasıl ayarlanacağı hakkında bilgiler sağlar. Genel stopaj vergisi işlevselliği satıcı ve müşteri hareketleri için geliştirilmiştir, böylece stopaj vergisi kalem düzeyinde hesaplanır.
+description: Bu makalede, genel stopaj vergisi işlevi ve işlevin nasıl ayarlanacağı hakkında bilgiler sağlanmaktadır. Genel stopaj vergisi işlevselliği satıcı ve müşteri hareketleri için geliştirilmiştir, böylece stopaj vergisi kalem düzeyinde hesaplanır.
 author: kailiang
 ms.date: 01/12/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 9cb02ba77fa33c839bc2a74811131973d1e5877f
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 49d5048b9df30e94d959cf9f22b8ae837b74abdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720237"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846842"
 ---
 # <a name="global-withholding-tax"></a>Genel stopaj vergisi
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, genel stopaj vergisi işlevselliği hakkında bilgiler sağlar ve nasıl ayarlanacağını açıklar. Bu yeni işlev, 10.0.17 sürümü ve sonrasında bulunur.
+Bu makalede, genel stopaj vergisi işlevi hakkında bilgiler sağlanır ve işlevin nasıl ayarlanacağı açıklanır. Bu yeni işlev, 10.0.17 sürümü ve sonrasında bulunur.
 
 Genel stopaj vergisi işlevselliği satıcı ve müşteri hareketleri için geliştirilmiştir, böylece stopaj vergisi kalem düzeyinde hesaplanır. Satın alma hareketlerinden stopaj vergisi hesabındaki bakiye, stopaj vergisi ödeme işini stopaj vergisi kapatma hesabıyla karşılaştırılarak kapatılabilir.
 

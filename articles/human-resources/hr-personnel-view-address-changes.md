@@ -1,6 +1,6 @@
 ---
 title: Adres değişikliklerini görüntüleme ve yönetme
-description: Bu konu adres değişikliklerini Dynamics 365 Human Resources'ta nasıl görüntüleyebileceğinizi ve yöneteceğinizi açıklamaktadır.
+description: Bu makalede, Dynamics 365 Human Resources'da adres değişikliklerinin nasıl görüntülenebileceği ve yönetilebileceği açıklamaktadır.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 819f22c58da485980c38d35dcc6dda6aebacf423
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 744ab532fcc663f25ce376817779924bbef15432
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695859"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899599"
 ---
 # <a name="view-and-manage-address-changes"></a>Adres değişikliklerini görüntüleme ve yönetme
 
@@ -27,7 +27,7 @@ ms.locfileid: "8695859"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konu, adres değişikliklerini **Personel self servisi** çalışma alanından açılan **Kişisel ayrıntıları düzenle** sayfasında veya Dynamics 365 Human Resources'taki **Çalışan** ayrıntıları sayfasında nasıl görüntüleyip yönetebileceğinizi açıklamaktadır.
+Bu makalede, adres değişikliklerini **Personel self servisi** çalışma alanından açılan **Kişisel ayrıntıları düzenle** sayfasında veya Dynamics 365 Human Resources'daki **Çalışan** ayrıntıları sayfasında nasıl görüntüleyip yönetebileceğiniz açıklanmaktadır.
 
 Birçok kuruluş, çalışanların kendi kişisel ayrıntılarını self servis deneyimiyle yönetmesini ister. Kullanıcıların adreslerini **Personel self servis** çalışma alanında güncelleştirmelerine olanak tanıyabilirsiniz. Daha sonra, bu değişiklikleri **Personel yönetimi** çalışma alanında izleyebilirsiniz. Bu özelliği kullanmak için, değişiklikleri **İnsan kaynakları parametreleri** sayfasında görüntülemek istediğiniz gün sayısını belirtmeniz gerekir.
 

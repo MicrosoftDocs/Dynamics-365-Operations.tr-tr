@@ -1,6 +1,6 @@
 ---
 title: Faturalanmamış gelir
-description: Bu konuda, Abonelik faturalamasında madde ve hesapların faturalandırılmamış gelir özelliğini kullanmak üzere nasıl ayarlanacağı açıklanmaktadır.
+description: Bu makalede, Abonelik faturalamasında madde ve hesapların faturalandırılmamış gelir özelliğini kullanmak üzere nasıl ayarlanacağı açıklanmaktadır.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a70786291822a85ec41c98ab8ce706f2ad79b08d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b3fe58fc06df3f61433c8457b337ae895283e12b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691259"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879696"
 ---
 # <a name="unbilled-revenue"></a>Faturalanmamış gelir
 
-Bu konuda, tüm ödeme zamanlamalarına ait tutarları bilançoya dahil etmenize olanak sağlayan faturalanmış gelir özelliği açıklanmıştır. Bu tutarlar, faturalandırılmamış gelir hesabına ve faturalandırılmamış gelir mahsup hesabına dahil edilir ve sözleşme taksitli olarak faturalandırılır.
+Bu makalede, tüm ödeme zamanlamalarına ait tutarları bilançoya dahil etmenize olanak sağlayan faturalanmamış gelir özelliği açıklanmıştır. Bu tutarlar, faturalandırılmamış gelir hesabına ve faturalandırılmamış gelir mahsup hesabına dahil edilir ve sözleşme taksitli olarak faturalandırılır.
 
 ## <a name="set-up-unbilled-revenue"></a>Faturalanmamış gelir ayarlama
 

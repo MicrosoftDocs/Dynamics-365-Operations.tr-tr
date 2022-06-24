@@ -1,6 +1,6 @@
 ---
-title: İşteki iş havuzunu değiştir
-description: Bu konu, varolan işin iş havuzunu değiştirmek için iş öğelerinin İş havuzunu değiştir düğmesini nasıl kullanabileceğinizi açıklamaktadır.
+title: İşteki iş havuzunu değiştirme
+description: Bu makale, varolan işin iş havuzunu değiştirmek için iş öğelerinin İş havuzunu değiştir düğmesini nasıl kullanabileceğinizi açıklamaktadır.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: dc210de420705062ba52c674f3ddb8eb7944715a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 817b45e8f5af957801a0af04e50acf20ba16c26d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669866"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900636"
 ---
 # <a name="change-work-pool-on-work"></a>İşteki iş havuzunu değiştir
 
@@ -34,14 +34,14 @@ Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatıla
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>İşte iş havuzunu değiştir özelliğini ayarlama
 
-Bu özelliği kullanmak için ayarlanmış iş havuzlarınız olmalıdır. Ayrıca iş şablonlarınızı otomatik olarak bir havuz atayacak şekilde ayarlayabilirsiniz. Bu konunun ilerleyen kısımlarında sağlanan örnek senaryo aracılığıyla çalışmak istiyorsanız, sisteminizi bu bölümde anlatıldığı şekilde ayarlayın.
+Bu özelliği kullanmak için ayarlanmış iş havuzlarınız olmalıdır. Ayrıca iş şablonlarınızı otomatik olarak bir havuz atayacak şekilde ayarlayabilirsiniz. Bu makalenin ilerleyen kısımlarında sağlanan örnek senaryo aracılığıyla çalışmak istiyorsanız, sisteminizi bu bölümde anlatıldığı şekilde ayarlayın.
 
 ### <a name="set-up-work-pools"></a>İş havuzlarını ayarlama
 
 İş havuzları, iş öğelerini türlerine göre düzenlemenizi sağlar. *İşte iş havuzunu değiştir* özelliğini kullanmak için en az iki iş havuzunuz olması gerekir. İş havuzlarını görüntülemek ve eklemek için şu adımları izleyin:
 
 1. **Ambar yönetimi \> Kurulum \> İş \> İş öğeleri** seçeneğine gidin.
-1. **USMF** şirketinden demo verilerle çalışıyorsanız ve bu konunun ilerleyen kısımlarında örnek senaryo üzerinden çalışacaksanız, aşağıdaki ayarlara sahip iki iş havuzu ekleyin:
+1. **USMF** şirketinden demo verilerle çalışıyorsanız ve bu makalenin ilerleyen kısımlarında örnek senaryo üzerinden çalışacaksanız, aşağıdaki ayarlara sahip iki iş havuzu ekleyin:
 
     - İş havuzu 1:
 
@@ -57,7 +57,7 @@ Bu özelliği kullanmak için ayarlanmış iş havuzlarınız olmalıdır. Ayrı
 
 ### <a name="set-up-work-templates"></a>İş şablonlarını ayarla
 
-Her iş şablonunuz için, istediğiniz şekilde varsayılan bir iş havuzu ayarlayabilirsiniz. Her ilgili şablon için **İş havuzu kimliği** sütununa bir iş havuzu atarsınız. Bu durumda, belirli bir şablon kullanılarak oluşturulan tüm iş öğeleri atanan iş havuzunu otomatik olarak devralır. **USMF** şirketinden demo verilerle çalışıyorsanız ve bu konunun ilerleyen kısımlarında örnek senaryo üzerinden çalışacaksanız aşağıdaki adımları izleyin.
+Her iş şablonunuz için, istediğiniz şekilde varsayılan bir iş havuzu ayarlayabilirsiniz. Her ilgili şablon için **İş havuzu kimliği** sütununa bir iş havuzu atarsınız. Bu durumda, belirli bir şablon kullanılarak oluşturulan tüm iş öğeleri atanan iş havuzunu otomatik olarak devralır. **USMF** şirketinden demo verilerle çalışıyorsanız ve bu makalenin ilerleyen kısımlarında örnek senaryo üzerinden çalışacaksanız aşağıdaki adımları izleyin.
 
 1. **Ambar yönetimi \> Kurulum \> İş \> İş şablonları**'na gidin.
 1. Eylem Bölmesinde, sayfayı düzenleme moduna geçirmek için **Düzenle** öğesini seçin.
@@ -70,7 +70,7 @@ Her iş şablonunuz için, istediğiniz şekilde varsayılan bir iş havuzu ayar
 
 ## <a name="example-scenario"></a>Örnek senaryo
 
-Bu senaryo, çalışma havuzunu değiştirerek varolan bir iş öğesinin işlem akışının nasıl değiştirileceğini gösterir. **USMF** şirketinden demo veriler ve bu konunun önceki bölümlerinde önerilen ayarlar kullanılır.
+Bu senaryo, çalışma havuzunu değiştirerek varolan bir iş öğesinin işlem akışının nasıl değiştirileceğini gösterir. **USMF** şirketinden demo veriler ve bu makalenin önceki bölümlerinde önerilen ayarlar kullanılır.
 
 ### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>Satış siparişi oluşturma ve ambara serbest bırakma
 

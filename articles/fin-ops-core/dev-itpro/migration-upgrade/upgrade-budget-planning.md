@@ -1,6 +1,6 @@
 ---
 title: Bütçe planlamasını yükseltme
-description: Bu konu nelerin yeniden yapılandırılması gerektiğin ve yükseltme tamamlandıktan sonra dikkate alınması gereken yeni özellikleri açıklar.
+description: Bu makale, nelerin yeniden yapılandırılması gerektiğini ve yükseltme tamamlandıktan sonra dikkate alınması gereken yeni özellikleri açıklar.
 author: panolte
 ms.date: 04/10/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c52de15faddd797d31d0875882863b8fe37a7d173b38be058e51a06b2e7fe078
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d098aa77b4eb87118692c18ecd1b09a5de2c53d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769203"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890420"
 ---
 # <a name="upgrade-budget-planning"></a>Bütçe planlamayı yükselt
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics AX 2012 ve Dynamics 365 Finance arasında bütçe planlamada önemli farklar vardır. Bazı özellikler yükseltilmemiştir ve bu nedenle yeniden yapılandırma gerektirmektedirler. Bu konu nelerin yeniden yapılandırılması gerektiğin ve yükseltme tamamlandıktan sonra dikkate alınması gereken yeni özellikleri açıklar.  
+Microsoft Dynamics AX 2012 ve Dynamics 365 Finance arasında bütçe planlamada önemli farklar vardır. Bazı özellikler yükseltilmemiştir ve bu nedenle yeniden yapılandırma gerektirmektedirler. Bu makale, nelerin yeniden yapılandırılması gerektiğini ve yükseltme tamamlandıktan sonra dikkate alınması gereken yeni özellikleri açıklar.  
 
-Finance'teki bütçe planlama, Dynamics AX 2012'de bulunmayan pek çok geliştirme içermektedir. Bu konu, yükseltme yapacak müşterilerin gerçekleştirmesi gereken değişiklikleri açıklar. Yükseltme işleminde dikkate alınması gereken yeni özellikleri de ortaya koyar. Değişikliklerin kapsamı yüzünden, bu konuda altı çizilen değişiklikler gerçekleştirilene kadar mevcut bütçe planlarından hiçbiri açılamayacaktır. Ancak, raporlar çalışmaya devam edecektir ve ek değişiklikler gerektirmemektedir.
+Finance'teki bütçe planlama, Dynamics AX 2012'de bulunmayan pek çok geliştirme içermektedir. Bu makale, yükseltme yapacak müşterilerin gerçekleştirmesi gereken değişiklikleri açıklar. Yükseltme işleminde dikkate alınması gereken yeni özellikleri de ortaya koyar. Değişikliklerin kapsamı nedeniyle, bu makalede altı çizilen değişiklikler gerçekleştirilene kadar mevcut bütçe planlarından hiçbiri açılamayacaktır. Ancak, raporlar çalışmaya devam edecektir ve ek değişiklikler gerektirmemektedir.
 
 ## <a name="overview-of-changes"></a>Değişimlerin özeti
 Finance and Operations için Bütçeleme içerisinde pek çok önemli değişiklik yapılmıştır. Bu değişiklikler Bütçe planlamanın yapılandırmasını daha kolay hale getirmek ve yeniden kullanılabilirliği artırarak yıldan yıla bakımı ve kurulumu azaltmak amacıyla yapılmıştır. AX 2012'deki şu alanlar Finance'te artık bulunmamaktadır:
@@ -58,7 +58,7 @@ Bütçe planlama işlemleri, AX 2012'dekiyle büyük ölçüde aynıdır. En ön
 AX 2012'de, gerekçe belgeleri bir ek klasörüne kaydedilmekteydi. Önceki gerekçe belgelerinden hiçbiri yükseltilmedi. Gerekçe belgeleri artık veritabanında depolanır. Bu bilgi yükseltilmiş sürümde kaydedilecekse, nihai gerekçe belgelerini her bir plan için Eylem Bölmesi'ndeki **Gerekçe** düğmesini kullanarak bir ek olarak yükleyebilirsiniz. AX 2012'de, her bütçe planı için Excel çalışma sayfaları, şablonu temel alarak oluşturulmaktaydı. Finance'te tüm planlar düzenin bir kopyasını açar. Ancak, hiçbir değişiklik Excel dosyasında kaydedilmez. Plana dayalı olarak kullanılan herhangi bir formül veya destekleyici bilgi, açıklamalar, bir gerekçe belgesi veya diğer ek işlemler ile eklenmelidir.
 
 ## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>AX 2012'den bir yükseltilmiş ortam yapılandırmak
-Yükseltilmiş sistemi nasıl yapılandıracağınızı belirlemeye yardımcı olmak için aşağıdaki örnek, AX 2012 demo verisinden yükseltilmiş bir bütçeyi kullanır. Sütunlar için varsayılan yapılandırma verisi, yükseltme işlemine yardımcı olmak için oluşturuldu. Yapılandırma gereksinimlerinizi karşılaşmıyorsa, bu varsayılan veriyi güncelleştirebilir veya silebilirsiniz. **Not:** Sistemde ayarlanmayan yeni gerekli alanlar mevcuttur. Bir sayfada takılır kalırsanız, örneğin **Bütçe planlama yapılandırması** sayfası gibi, ve başka yere gidemezseniz, ayrıntıları doğru sırada girmek için tarayıcınızı kapatabilir ve yeni bir sayfaya yeniden açabilirsiniz. Henüz ayarlanmamış gerekli alanlar vardır. Bu nedenle, her şey yapılandırılana ve tüm gerekli alanları ayarlanana kadar sorunları ortaya çıkabilir. Bu konu, bu alanları gerektiği gibi nasıl ayarlanacağını açıklar. Gerek duyulan alanlardan bazıları şunlardır:
+Yükseltilmiş sistemi nasıl yapılandıracağınızı belirlemeye yardımcı olmak için aşağıdaki örnek, AX 2012 demo verisinden yükseltilmiş bir bütçeyi kullanır. Sütunlar için varsayılan yapılandırma verisi, yükseltme işlemine yardımcı olmak için oluşturuldu. Yapılandırma gereksinimlerinizi karşılaşmıyorsa, bu varsayılan veriyi güncelleştirebilir veya silebilirsiniz. **Not:** Sistemde ayarlanmayan yeni gerekli alanlar mevcuttur. Bir sayfada takılır kalırsanız, örneğin **Bütçe planlama yapılandırması** sayfası gibi, ve başka yere gidemezseniz, ayrıntıları doğru sırada girmek için tarayıcınızı kapatabilir ve yeni bir sayfaya yeniden açabilirsiniz. Henüz ayarlanmamış gerekli alanlar vardır. Bu nedenle, her şey yapılandırılana ve tüm gerekli alanları ayarlanana kadar sorunları ortaya çıkabilir. Bu makale, bu alanların nasıl gereken şekilde ayarlanacağını açıklar. Gerek duyulan alanlardan bazıları şunlardır:
 
 -   **Bütçe planlama işlemi** sayfası: **Varsayılan hesap yapısı** alanı
 -   **Bütçe planlama işlemi** sayfası: **Bütçe planlama aşaması kuralları ve düzenleri** hızlı sekmesi üzerindeki **Düzen** alanı
@@ -69,7 +69,7 @@ Yükseltilmiş sistemi nasıl yapılandıracağınızı belirlemeye yardımcı o
    -   Bütçe planı senaryoları: Fiili değerler, Temel, Bütçe İsteği, Bütçe Onaylandı
    -   2017 içindeki tüm senaryolar için Bütçe planı satırları ve hem 2017 hem de 2016 için Fiili değerler
 
-   Finance and Operations'da aşağıdaki sütunlar oluşturulur:
+   Aşağıdaki sütunlar Finance and Operations içerisinde oluşturulur:
 
    | Sütun adı    | Bütçe planı senaryosu | Sütun dönemi | Yıl denkleştirme |
    |----------------|----------------------|--------------------|-------------|

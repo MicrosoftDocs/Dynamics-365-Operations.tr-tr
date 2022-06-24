@@ -1,6 +1,6 @@
 ---
 title: Dalga tahsisatı
-description: Bu konu, dalga tahsisatı adımının nasıl ayarlanacağını açıklar (paralel işlemenin nasıl etkinleştirileceği dahil).
+description: Bu makale, dalga tahsisatı adımının nasıl ayarlanacağını açıklar (paralel işlemenin nasıl etkinleştirileceği dahil).
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 08781b26a4e066a026d4efa14670f073b04ec185
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c6b89364afd57b9c4b4413d0319b86e725433594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695549"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906965"
 ---
 # <a name="wave-allocation"></a>Dalga tahsisatı
 
@@ -25,7 +25,7 @@ ms.locfileid: "8695549"
 
 Dalga işleme zaman alabilir ve işlem süresinin çoğu tahsisat adımında ve iş oluşturma adımında harcanır.
 
-Bu adımların her birini paralel olarak çalıştırmak mümkündür, bu da dalga işlemenin performansını artırır ve aynı ambardaki daha fazla dalga üretimi için izin verebilir. Bu konu, dalga tahsisat yönteminin paralel çalışacak şekilde nasıl ayarlanacağını açıklar. İş oluşturmanın paralel olarak çalışacak şekilde ayarlanması hakkında daha fazla bilgi için, bkz. [Dalga sırasında iş oluşturmayı planlama](configure-wave-schedule-work-creation.md).
+Bu adımların her birini paralel olarak çalıştırmak mümkündür, bu da dalga işlemenin performansını artırır ve aynı ambardaki daha fazla dalga üretimi için izin verebilir. Bu makale, dalga tahsisat yönteminin paralel çalışacak şekilde nasıl ayarlanacağını açıklar. İş oluşturmanın paralel olarak çalışacak şekilde ayarlanması hakkında daha fazla bilgi için, bkz. [Dalga sırasında iş oluşturmayı planlama](configure-wave-schedule-work-creation.md).
 
 Daha önce, bir seferde aynı anda tek bir dalga tahsis etmek mümkündü. Bu sınırlama kaldırıldı ve yalnızca ayırma hiyerarşisinde konumun üzerinde olan madde ve boyutları kilitleyen yeni bir kısıtlamayla değiştirildi. Yerleşimin üzerindeki boyutlar her zaman ürün boyutlarını içerir. Örneğin, bir öğe *renk* kullanılarak yapılandırılırsa, *kırmızı*, *mavi* ve *sarı* çeşitlerinin her biri paralel olarak işlenebilir.
 

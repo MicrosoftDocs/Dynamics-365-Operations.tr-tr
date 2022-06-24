@@ -1,42 +1,42 @@
 ---
 title: Mobil fatura onayları
-description: Bu konu, mobil için satıcı faturası onaylarını bir kullanım durumu olarak kullanarak mobil senaryolar tasarlamak amacıyla partik bir yaklaşım sunmak üzere hazırlanmıştır.
+description: Bu makale, kullanım senaryosu olarak mobil için satıcı faturası onaylarının alınmasını temel alan mobil senaryolar tasarlamak amacıyla pratik bir yaklaşım sunmak üzere hazırlanmıştır.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 83d95ef6d9fcff060ac992b11ab5773af075fea5409e43430b4826dc097570c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f635891e3d92fbd5978e10fe01eb67c0a28542c5
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737367"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946288"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobil fatura onayları
 
 [!include [banner](../includes/banner.md)]
 
-Mobil özellikler, bir işletmenin mobil deneyimler tasarlamasına olanak tanır. Gelişmiş senaryolar için platform geliştiricilerin de yeteneklerini istedikleri gibi genişletmesine olanak tanır. Mobildeki yeni kavramlardan bazıları hakkında bilgi edinmek için en etkili yol, bir kaç senaryo tasarlama işleminde ilerlemektir. Bu konu, mobil için satıcı faturası onaylarını bir kullanım durumu olarak kullanarak mobil senaryolar tasarlamak amacıyla partik bir yaklaşım sunmak üzere hazırlanmıştır. Bu konu, senaryoların farklı çeşitlerini tasarlamanıza yardımcı olur ve satıcı faturalarıyla ilgili olmayan diğer senaryolara da uygulanablir.
+Mobil özellikler, bir işletmenin mobil deneyimler tasarlamasına olanak tanır. Gelişmiş senaryolar için platform geliştiricilerin de yeteneklerini istedikleri gibi genişletmesine olanak tanır. Mobildeki yeni kavramlardan bazıları hakkında bilgi edinmek için en etkili yol, bir kaç senaryo tasarlama işleminde ilerlemektir. Bu makale, kullanım senaryosu olarak mobil için satıcı faturası onaylarının alınmasını temel alan mobil senaryolar tasarlamak amacıyla pratik bir yaklaşım sunmak üzere hazırlanmıştır. Bu makale, senaryoların farklı çeşitlerini tasarlamanıza yardımcı olur ve satıcı faturalarıyla ilgili olmayan diğer senaryolara da uygulanabilir.
 
 ## <a name="prerequisites"></a>Ön koşullar
 
-| Önkoşul                                                                                            | Açıklama                                                                                                                                                          |
-|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Önkoşul                                                                                            | Açıklama                       |
+|---------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | Mobil el kitabı ön okuma                                                                                |[Mobil platform](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Sürüm 1611 ve Platform güncelleştirmesi 3'e sahip bir ortam (Kasım 2016)                   |
 | KB 3204341 numaralı düzeltmeyi yükleyin.                                                                              | Görev kaydedici, Platform güncelleştirmesi 3'te (Kasım 2016 güncellemesi) bulunan açılır iletişim kutusu için yanlışlıkla iki Kapat komutu kaydedebilir. |
 | KB 3207800 numaralı düzeltmeyi yükleyin.                                                                              | Bu düzeltme, eklerin Platform güncelleştirmesi 3'te (Kasım 2016 güncelleştirmesi) bulunan mobil istemcide görüntülenmesini sağlar.           |
 | KB 3208224 numaralı düzeltmeyi yükleyin.                                                                              | Sürüm 7.0.1'e (Mayıs 2016) dahil edilen mobil satıcı faturası onayı uygulaması için uygulama kodu.                          |
-| Mobil uygulama yüklenmiş olan bir Android, iOS veya Windows cihazı. | Uygulamayı ilgili uygulama mağazasında arayın.                                                                                                                     |
+| Mobil uygulama yüklenmiş olan bir Android, iOS veya Windows cihazı. | Uygulamayı ilgili uygulama mağazasında arayın.                            |
 
 ## <a name="introduction"></a>Giriş
 Satıcı faturaları için mobil onaylar "Önkoşullar" bölümünde açıklanan üç düzeltmenin olmasını gerektirir. Bu düzeltmeler fatura onayları için bir çalışma alanı sağlamaz. Mobil bağlamında çalışma alanının ne olduğunu öğrenmek için, "Önkoşullar" bölümünde belirtilen mobil el kitabını okuyun. Fatura onayları çalışma alanının tasarlanması gerekir. 
@@ -51,11 +51,11 @@ Her kuruluş satıcı faturaları için kendi iş sürecini farklı şekilde dü
     -   Faturaların fatura başlığında da hesap dağıtımları var mı? Öyleyse, bu hesap dağıtımlarının cihazda kullanılabilir olması gerekir mi?
 
     > [!NOTE]
-    > Bu konuda hesap dağıtımlarının nasıl düzenleneceği açıklanmamaktadır çünkü bu işlevsellik şu anda mobil senaryolar için desteklenmez.
+    > Bu makalede, hesap dağıtımlarının nasıl düzenleneceği açıklanmamaktadır çünkü bu işlev şu anda mobil senaryolar için desteklenmez.
 
 -   Kullanıcılar cihazda fatura için ekleri görmek ister mi?
 
-Fatura onayları için mobil deneyimi tasarımı, bu sorulara bağlı olarak farklılık gösterir. Amaç, bir kuruluş içinde mobildeki iş süreci için kullanıcı deneyimini en iyi duruma getirmektir. Bu konunun devamında, yukarıdaki sorulara verilecek farklı yanıtları temel alan iki senaryo çeşidine bakacağız. 
+Fatura onayları için mobil deneyimi tasarımı, bu sorulara bağlı olarak farklılık gösterir. Amaç, bir kuruluş içinde mobildeki iş süreci için kullanıcı deneyimini en iyi duruma getirmektir. Bu makalenin devamında, yukarıdaki sorulara verilecek farklı yanıtları temel alan iki senaryo çeşidine bakacağız. 
 
 Genel bir yönerge olarak, mobil tasarımcıyla çalışırken güncelleştirmelerin kaybolmasını önlemek için değişiklikleri "yayımlamadığınızdan' emin olun.
 

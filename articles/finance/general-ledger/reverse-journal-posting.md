@@ -1,6 +1,6 @@
 ---
-title: Ters günlük nakli
-description: Bu konu, fiş hareket listesinden veya mali günlüklerden fişleri ters kaydetmenize olanak sağlayan yetenekleri açıklamaktadır.
+title: Günlük deftere naklini tersine çevirme
+description: Bu makalede, fiş hareket listesinden veya mali günlüklerden fişleri ters kaydetmenize olanak sağlayan özellikler açıklanmaktadır.
 author: kweekley
 ms.date: 10/08/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb1615312e9fd1786a5a0050dda3e9e9b20fe710
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: bec7d5d0dd64a2d89b00e2aa630a4fe670feaa2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753790"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868416"
 ---
-# <a name="reverse-journal-posting"></a>Ters günlük nakli
+# <a name="reverse-journal-posting"></a>Günlük deftere naklini tersine çevirme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Finance'in bir günlüğün tamamını veya kaynağından bağımsız olarak, hareket listesinden bir veya daha fazla fişi ters kaydetmenize olanak sağlayan yetenekleri açıklamaktadır. 
+Bu makale, Microsoft Dynamics 365 Finance'in bir günlüğün tamamını veya kaynağından bağımsız olarak, hareket listesinden bir veya daha fazla fişi ters kaydetmenize olanak sağlayan özellikleri açıklamaktadır. 
 
-Bu konuda açıklanan özelliklerden birini kullanabilmeniz için bu özelliğin sisteminizde açılmış olması gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için **özellik yönetimi** çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
+Bu makalede açıklanan özelliklerden birini kullanabilmeniz için bu özelliğin sisteminizde açılmış olması gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için **özellik yönetimi** çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
  - Modül: Genel muhasebe
  - Özellik adı: **Birden çok belgeyi toplu tersine çevirme**
 
@@ -69,7 +69,7 @@ Hareketler ters kaydedilir.
 
 Fiş satırlarının sayısı 100 veya daha az ise ters kayıt işlemi hemen çalıştırılır. Sonuçlar, ters kaydedilememiş fişleri ve ters kaydedilememe nedenlerini gösteren bir iletişim kutusunda görüntülenir. İletişim kutusunu kapatmak için **Tamam**'ı seçin.
 
-Hareketler ancak ters işlem uygulanabilecek iş kurallarına uygun olduklarında ters kaydedilebilir. Bu konuda açıklanan özellik kullanılarak satıcı ödemeleri tersine çevrilemez. Satıcı ödemelerinin [Satıcı ödemesini tersine çevirme](../accounts-payable/reverse-vendor-payment.md) bölümünde listelenen adımlar kullanılarak tersine çevrilmesi gerekir.
+Hareketler ancak ters işlem uygulanabilecek iş kurallarına uygun olduklarında ters kaydedilebilir. Bu makalede açıklanan özellik kullanılarak satıcı ödemeleri tersine çevrilemez. Satıcı ödemelerinin [Satıcı ödemesini tersine çevirme](../accounts-payable/reverse-vendor-payment.md) bölümünde listelenen adımlar kullanılarak tersine çevrilmesi gerekir.
 
 
 

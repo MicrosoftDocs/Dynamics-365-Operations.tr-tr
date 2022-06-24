@@ -1,6 +1,6 @@
 ---
 title: Konsolidasyon hesabı grupları ve ek konsolidasyon hesapları
-description: Bu konu, konsolidasyon hesabı grupları ve ek konsolidasyon hesapları oluşturma ve bunların nasıl kullanıldıkları hakkında bilgi sağlar.
+description: Bu makalede, konsolidasyon hesabı grupları ve ek konsolidasyon hesapları oluşturma ve bunların nasıl kullanıldıkları hakkında bilgi sağlanmaktadır.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5ca7a50fcac53f1636da15b2d7977174b087ac25
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 9e66190fe0bab24545bf19eba59facded63ee197
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711707"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882034"
 ---
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Konsolidasyon hesabı grupları ve ek konsolidasyon hesapları
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, konsolidasyon hesabı grupları ve ek konsolidasyon hesapları oluşturma ve bunların nasıl kullanıldıkları hakkında bilgi sağlar.
+Bu makalede, konsolidasyon hesabı grupları ve ek konsolidasyon hesapları oluşturma ve bunların nasıl kullanıldıkları hakkında bilgi sağlanmaktadır.
 
 ## <a name="consolidation-account-groups"></a>Konsolidasyon hesap grupları
 

@@ -1,6 +1,6 @@
 ---
 title: Çift yazmada aday müşteriden nakde
-description: Bu konu, çift yazmadan aday müşteriden nakde hakkında bilgi sağlar.
+description: Bu makalede, çift yazmada aday müşteriden nakde işlemi hakkında bilgi sağlanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781803"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860123"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Çift yazmada aday müşteriden nakde
 
@@ -111,7 +111,7 @@ Satış faturaları Supply Chain Management'ta oluşturulur ve Sales'e eşitleni
 
 Aday müşteriden nakde, aşağıdaki tabloda gösterildiği gibi veri etkileşimi sırasında birlikte çalışan bir temel tablo eşlemeleri koleksiyonudur.
 
-| Finance and Operations uygulamaları | Müşteri etkileşimi uygulamaları | Tanım |
+| Finans ve Operasyon uygulamaları | Müşteri etkileşimi uygulamaları | Açıklama |
 |-----------------------------|-----------------------------------|-------------|
 [Tüm ürünler](mapping-reference.md#138) | msdyn_globalproducts | |
 [Müşteriler V3](mapping-reference.md#101) | hesaplar | |

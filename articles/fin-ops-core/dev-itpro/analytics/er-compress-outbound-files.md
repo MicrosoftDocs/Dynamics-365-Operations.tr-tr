@@ -1,6 +1,6 @@
 ---
 title: Elektronik raporlama sırasında oluşturulan büyük belgeleri sıkıştırma
-description: Bu konu, Elektronik raporlama (ER) biçimi tarafından oluşturulan büyük belgelerin nasıl sıkıştırılacağını açıklamaktadır.
+description: Bu makalede, Elektronik raporlama (ER) biçimi tarafından oluşturulan büyük belgelerin nasıl sıkıştırılacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 09/11/2020
 ms.topic: article
@@ -15,33 +15,33 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a4995879717e715f8ebadb6a80e00949df7545c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718611"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864821"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Elektronik raporlama sırasında oluşturulan büyük belgeleri sıkıştırma 
 
 [!include [banner](../includes/banner.md)]
 
-[Elektronik raporlama (ER) çerçevesini](general-electronic-reporting.md), giden belge oluşturmak üzere hareketlere ait verileri getiren bir çözüm yapılandırmak için kullanabilirsiniz. Oluşturulan bu belge çok büyük olabilir. Bu tür bir belge oluşturulduğunda, dosyayı tutmak için [Uygulama Nesne Sunucusu (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) belleği kullanılır. Bir noktada, belgenin Microsoft Dynamics 365 Finance uygulamasından yüklenmesi gerekir. Şu anda ER tarafından oluşturulan tek bir belgenin boyutu en fazla 2 gigabayt (GB) ile sınırlıdır. Ek olarak, Finance indirilen dosyanın boyutunu 1 GB ile [sınırlandırır](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3). Bu nedenle, bu sınırlamaların aşılma olasılığını azaltan ve bir **Akış çok uzundu** veya **Aritmetik işlemde taşma veya yetersiz gelme** özel durumu alacağınız bir ER çözümü yapılandırmalısınız.
+[Elektronik raporlama (ER) çerçevesini](general-electronic-reporting.md), giden belge oluşturmak üzere hareketlere ait verileri getiren bir çözüm yapılandırmak için kullanabilirsiniz. Oluşturulan bu belge çok büyük olabilir. Bu tür bir belge oluşturulduğunda, dosyayı tutmak için [Uygulama Nesne Sunucusu (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) belleği kullanılır. Bir noktada, belgenin Microsoft Dynamics 365 Finance uygulamasından indirilmesi gerekir. Şu anda ER tarafından oluşturulan tek bir belgenin boyutu en fazla 2 gigabayt (GB) ile sınırlıdır. Ek olarak, Finance indirilen dosyanın boyutunu 1 GB ile [sınırlandırır](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3). Bu nedenle, bu sınırlamaların aşılma olasılığını azaltan ve bir **Akış çok uzundu** veya **Aritmetik işlemde taşma veya yetersiz gelme** özel durumu alacağınız bir ER çözümü yapılandırmalısınız.
 
 Bir çözüm yapılandırdığınızda, iç içe geçmiş öğelerin herhangi biri tarafından oluşturulan içeriği sıkıştırmak için **Klasör** türünün bir kök öğesini ekleyerek ER biçimini Operations tasarımcısında ayarlayabilirsiniz. Sıkıştırma işlemi "tam zamanında" çalışır, böylece yüklenecek en yüksek bellek kullanımı ve dosya boyutu da azaltılabilir.
 
 > [!NOTE]
 > Dosya sıkıştırması, CPU kullanımının ek bir yüzdesini alır.
 
-Bu yaklaşım hakkında daha fazla bilgi için bu konudaki örneği tamamlayın.
+Bu yaklaşım hakkında daha fazla bilgi için bu makaledeki örneği tamamlayın.
 
 ## <a name="example-compress-an-outbound-document"></a>Örnek: giden belgeyi sıkıştırma
 
 Bu örnekte, **Sistem yöneticisi** veya **Elektronik raporlama işlev danışmanı** rolüne atanan bir kullanıcının oluşturulmuş bir belgeyi sıkıştırmak için bir ER biçimini nasıl yapılandırabileceği gösterilir.
 
-### <a name="prerequisites"></a>Önkoşullar
+### <a name="prerequisites"></a>Ön Koşullar
 
-Bu konudaki yordamları tamamlayabilmek için önce aşağıdaki adımları tamamlamanız gerekir.
+Bu makaledeki yordamları tamamlayabilmek için önce aşağıdaki adımları tamamlamanız gerekir.
 
 1. [Yapılandırma sağlayıcısı etkinleştirin](er-defer-xml-element.md#activate-a-configuration-provider).
 2. [Örnek ER yapılandırmalarını içe aktarma](er-defer-xml-element.md#import-the-sample-er-configurations).

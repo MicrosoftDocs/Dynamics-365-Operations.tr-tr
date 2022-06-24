@@ -1,6 +1,6 @@
 ---
 title: Norveç için yazar kasa işlevi
-description: Bu konu, Microsoft Dynamics 365 Commerce'ta Norveç için kullanılabilir olan yazar kasa işlevine genel bir bakış sağlar ve işlevin ayarlanmasına yönelik yönergeler sunar.
+description: Bu makale, Microsoft Dynamics 365 Commerce'ta Norveç için kullanılabilir olan yazar kasa işlevine genel bir bakış sağlar ve işlevin ayarlanmasına yönelik yönergeler sunar.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: bb87b3a7405ef3d8435748813fa66db74b8f0971
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 778a947f03866518219e9c0fa44660d66f19f53a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944976"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906711"
 ---
 # <a name="cash-register-functionality-for-norway"></a>Norveç için yazar kasa işlevi
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, Dynamics 365 Commerce'ta Norveç için kullanılabilir olan yazar kasa işlevine genel bir bakış sağlar. Ayrıca bu işlevin ayarlanmasına yönelik yönergeler sunar. İşlev aşağıdaki bölümlerden oluşur:
+Bu makale, Dynamics 365 Commerce'ta Norveç için kullanılabilir olan yazar kasa işlevine genel bir bakış sağlar. Ayrıca bu işlevin ayarlanmasına yönelik yönergeler sunar. İşlev aşağıdaki bölümlerden oluşur:
 
 - Tüm ülke veya bölgelerdeki müşteriler tarafından kullanılabilen ortak satış noktası (POS) özellikleri. Örnekler arasında, bir makbuz kopyasının birden fazla kez yazdırılmasını engellemenizi sağlayan bir seçenek bulunur.
 - Satış hareketlerine yönelik dijital imzalar gibi, Norveç'e özgü özellikler.

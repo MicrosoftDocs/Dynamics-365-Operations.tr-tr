@@ -1,6 +1,6 @@
 ---
 title: Derecelendirmeler ve incelemelerle ilgili SSS
-description: Bu konuda, Microsoft Dynamics 365 Commerce derecelendirmeleri ve incelemeleri çözümü hakkında sık sorulan soruların yanıtları sağlanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce derecelendirmeleri ve incelemeleri çözümü hakkında sık sorulan soruların yanıtları sağlanmaktadır.
 author: gvrmohanreddy
 ms.date: 09/02/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f8d79697aaf17e2860d2c47e7d1bf6b4352f0089
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3aef1135aa03d221e403fe1b5f7dce08bc9885d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691067"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909540"
 ---
 # <a name="ratings-and-reviews-faq"></a>Derecelendirmeler ve incelemelerle ilgili SSS
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce derecelendirmeleri ve incelemeleri çözümü hakkında sık sorulan soruların yanıtları sağlanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce derecelendirmeleri ve incelemeleri çözümü hakkında sık sorulan soruların yanıtları sağlanmaktadır.
 
 ### <a name="how-do-i-hide-the-ratings-refiner-that-appears-on-search-results-and-category-pages-if-my-e-commerce-site-doesnt-use-the-ratings-and-reviews-solution"></a>E-ticaret sitem derecelendirmeler ve incelemeler çözümünü kullanmıyorsa arama sonuçlarında ve kategori sayfalarında görünen derecelendirme iyileştiriciyi nasıl gizlerim?
 

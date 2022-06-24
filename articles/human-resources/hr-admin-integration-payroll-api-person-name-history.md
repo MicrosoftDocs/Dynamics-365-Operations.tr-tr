@@ -1,6 +1,6 @@
 ---
 title: Kişi adı geçmişi
-description: Bu konuda, Dynamics 365 Human Resources uygulamasındaki Kişi ad geçmişi varlığıyla ilgili ayrıntılı bilgiler ve örnek bir sorgu sağlanmaktadır.
+description: Bu makalede, Dynamics 365 Human Resources'daki Kişi adı geçmişi varlığıyla ilgili ayrıntılı bilgiler ve örnek bir sorgu sağlanmaktadır.
 author: twheeloc
 ms.date: 09/01/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: db22a602c782cef15b6e5769b9c0726dff158160
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: e34b0d7bebd1c4037347161087ff3a4485a58878
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533612"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875785"
 ---
 # <a name="person-name-history"></a>Kişi adı geçmişi
 
@@ -27,7 +27,7 @@ ms.locfileid: "8533612"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, Dynamics 365 Human Resources uygulamasındaki Kişi ad geçmişi varlığı açıklanmaktadır.
+Bu makalede, Dynamics 365 Human Resources'daki Kişi adı geçmişi varlığı açıklanmaktadır.
 
 Fiziksel ad: mshr_dirpersonnamehistoricalentity.
 

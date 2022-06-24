@@ -1,6 +1,6 @@
 ---
 title: ER veri modellerinin parametreli çağrılarını destekleme
-description: Bu konu, elektronik raporlama (ER) veri modelleri için parametreleştirilmiş çağrıların nasıl uygulanacağını açıklamaktadır.
+description: Bu makalede, elektronik raporlama (ER) veri modelleri için parametre haline getirilmiş çağrıların nasıl uygulanacağını açıklanmaktadır.
 author: NickSelin
 ms.date: 03/14/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 968b0769607e9fdbed57c25b727ed44988a92913
-ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.openlocfilehash: 65ac81e9aa25b286640fd526e71b55de3b0695ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419479"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884271"
 ---
 # <a name="support-parameterized-calls-of-er-data-models"></a>ER veri modellerinin parametreli çağrılarını destekleme
 
@@ -160,7 +160,7 @@ Bir veri modeli alanının her parametresini, tanımlı veri türünün tek değ
 > [!NOTE]
 > Veri modeli alanının parametresi için varsayılan değer desteklenmez. Veri modelindeki bir alana parametre eklerseniz ve bu veri modelinin sürümü zaten serbest bırakılmış ve yayımlanmışsa, bu veri modeli değişikliği geriye dönük olarak uyumlu olmadığından, ilgili tüm model eşlemelerini ve biçimlerini bu modelin yeni sürümüne yeniden [temellendirmelisiniz](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase).
 
-Model eşleme çağrılarını formata özgü olarak yapmak için parametreleştirilmiş veri modeli alanları konfigüre edebilirsiniz. Bu yaklaşım, tek bir veri modelinin birçok biçimi için yapılandırılması gereken model eşleme sayısını azaltmada size yardımcı olabilir. Bu yaklaşımı, biçimlendirlerinizin yürütme performansını artırmak ve iş belgelerini oluşturmak için gereken zamanı azaltmak için de kullanabilirsiniz. Bu özellik hakkında daha fazla bilgi edinmek için bu konudaki örneği tamamlayın.
+Model eşleme çağrılarını formata özgü olarak yapmak için parametreleştirilmiş veri modeli alanları konfigüre edebilirsiniz. Bu yaklaşım, tek bir veri modelinin birçok biçimi için yapılandırılması gereken model eşleme sayısını azaltmada size yardımcı olabilir. Bu yaklaşımı, biçimlendirlerinizin yürütme performansını artırmak ve iş belgelerini oluşturmak için gereken zamanı azaltmak için de kullanabilirsiniz. Bu özellik hakkında daha fazla bilgi edinmek için bu makaledeki örneği tamamlayın.
 
 ## <a name="example-use-parameterized-calls-of-er-data-models"></a>Örnek: ER veri modellerinin parametreli çağrılarını kullanma
 

@@ -1,6 +1,6 @@
 ---
-title: Kira içe aktarma çerçevesi üzerinden kiraları yönetme
-description: Bu konu, aynı anda birden fazla kiralamayı düzeltmek için kiralama içe aktarma çerçevesinin nasıl kullanılacağını açıklar.
+title: Kira içeri aktarma çerçevesi üzerinden kiraları yönetme
+description: Bu makalede, aynı anda birden fazla kiralamayı düzeltmek için Kiralama içeri aktarma çerçevesinin nasıl kullanılacağı açıklanmaktadır.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e3443225b5c7cb6d8f758248e538c2a427a89265
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 8cf81ccf61e62ac49e6cb90d13ca5fe50147cc76
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723181"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894978"
 ---
-# <a name="manage-leases-through-the-lease-import-framework"></a>Kira içe aktarma çerçevesi üzerinden kiraları yönetme
+# <a name="manage-leases-through-the-lease-import-framework"></a>Kira içeri aktarma çerçevesi üzerinden kiraları yönetme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, tek adımda birden fazla kiralamayı düzeltmek için kiralama içe aktarma çerçevesinin nasıl kullanılacağını açıklar. Bu özelliği kullanarak zamandan tasarruf edebilir ve insan hatası olasılığını azaltarak daha doğru düzeltmeler yapabilirsiniz. Ek olarak, bu özellik Microsoft Dynamics 365 Finance'i dış veri varlıklarıyla bağlayarak verilerin etkili şekilde karşıya yüklenmesini sağlayabilir.
+Bu makalede, tek adımda birden fazla kiralamayı düzeltmek için Kiralama içeri aktarma çerçevesinin nasıl kullanılacağı açıklanmaktadır. Bu özelliği kullanarak zamandan tasarruf edebilir ve insan hatası olasılığını azaltarak daha doğru düzeltmeler yapabilirsiniz. Ek olarak, bu özellik Microsoft Dynamics 365 Finance'i dış veri varlıklarıyla bağlayarak verilerin etkili şekilde karşıya yüklenmesini sağlayabilir.
 
 Aşağıdaki veri varlıkları dış sistemlerle Varlık kiralamayı tümleştirmek için kullanılabilir:
 

@@ -1,6 +1,6 @@
 ---
 title: Finans ve Operasyon uygulamalarında çift yazma ile ilgili sorunları giderme
-description: Bu konu, Finans ve Operasyon uygulamalarındaki çift-yazma modülüyle ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlar.
+description: Bu makalede, Finans ve Operasyon uygulamalarındaki çift-yazma modülüyle ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0696d525e985f1cfcac1998d4c0bd8a380ca9551
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 36f7969eb0bdbc64ade14a5bb97b4b708486d226
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8613896"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864586"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Finans ve Operasyon uygulamalarında çift yazma ile ilgili sorunları giderme
 
@@ -22,10 +22,10 @@ ms.locfileid: "8613896"
 
 
 
-Bu konu, Finans ve Operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında sorun giderme bilgileri sağlar. Bu konu, Finans ve Operasyon uygulamalarındaki **Çift Yazma** modülüyle ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlar.
+Bu makalede, Finans ve Operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında sorun giderme bilgileri sağlanmaktadır. Bu konu, Finans ve Operasyon uygulamalarındaki **Çift Yazma** modülüyle ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlar.
 
 > [!IMPORTANT]
-> Bu konu adresiyle ilgili bazı sorunların sistem yöneticisi rolü veya Microsoft Azure Active Directory (Azure AD) kiracı yöneticisi kimlik bilgileri gerekebilir. Her konunun bölümünde belirli bir rol veya kimlik bilgilerinin gerekli olup olmadığı açıklanmaktadır.
+> Bu makalede ele alınan bazı sorunlar için sistem yöneticisi rolü veya Microsoft Azure Active Directory (Azure AD) kiracı yöneticisi kimlik bilgileri gerekebilir. Her konunun bölümünde belirli bir rol veya kimlik bilgilerinin gerekli olup olmadığı açıklanmaktadır.
 
 ## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Finans ve Operasyon uygulamasında çift yazma modülü yüklenemiyor
 

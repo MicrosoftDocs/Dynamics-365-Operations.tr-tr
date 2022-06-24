@@ -1,6 +1,6 @@
 ---
 title: Üretim emri durumunu tersine çevirme
-description: Bu konuda, üretim emri durumunun tersine çevrilmesi açıklanmaktadır.
+description: Bu makalede, üretim emri durumunun tersine çevrilmesi açıklanmaktadır.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0dd17bc48bfb6c78e1baca4faf78d6bc5b3ce426c5f0530174eccd95536a5859
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1d50cbcb4031d5c9f2c814883afd1fb38777d2ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903970"
 ---
 # <a name="reverse-the-production-order-status"></a>Üretim emri durumunu tersine çevirme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, üretim emri durumunun tersine çevrilmesi açıklanmaktadır. 
+Bu makalede, üretim emri durumunun tersine çevrilmesi açıklanmaktadır. 
 
 Bir üretim emrinin durumunu tersine çevirirseniz, emrin kendisi ve rotalarla ilişkili tüm operasyonlar üretim döngüsündeki önceki bir adıma geri döner. Örneğin, bir üretim emrinin durumunu **Planlandı** ise ve durumu yeniden **Oluşturuldu** olarak değiştirirseniz. Bu durumda, sistem önce durumu **Tahmini** olarak değiştirir ki bu **Planlandı**'nın hemen öncesindeki durumdur. Daha sonra durumu istediğiniz **Oluşturuldu** durumuna değiştirebilir. **Not:** Emriniz **Tamamlandı bildirimi** durumuna geldiyse, yine de önceki bir duruma geri döndürebilirsiniz. Ancak emirdeki bilgileri güncellemek için tahmini ve operasyon planlamasını, iş planlamasını veya her iki planlama türünü yeniden çalıştırmanız gerekir. Bu adım gereklidir çünkü kalan madde tüketimi ve operasyon kaynakları tüketimi rezervasyonları da sıfırlanmalıdır. Bu makalenin geri kalanında, bir üretim emrini aşağıdaki şekillerde tersine çevirdiğinizde neler olduğu anlatılmaktadır:
 

@@ -1,6 +1,6 @@
 ---
 title: Kıymet yaşam döngüsü durumları
-description: Bu konuda Kıymet Yönetimi'nde kıymet yaşam döngüsü durumları ve yaşam döngüsü modelleri açıklanmaktadır.
+description: Bu makalede Kıymet Yönetimi'nde kıymet yaşam döngüsü durumları ve yaşam döngüsü modelleri açıklanmaktadır.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55139c6458e569b15518f0f11f1c12c3a26cae2f26c6a2046a7ebdc1277cb144
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 43b1ff9438437e6c1ff33bab9a7ba0361029cb6d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722475"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901074"
 ---
 # <a name="asset-lifecycle-states"></a>Kıymet yaşam döngüsü durumları
 
@@ -28,7 +28,7 @@ ms.locfileid: "6722475"
 
  
 
-Bu konuda Kıymet Yönetimi'nde kıymet yaşam döngüsü durumları ve yaşam döngüsü modelleri açıklanmaktadır. Kıymet yaşam döngüsü durumları kıymetin etkin mi yoksa devre dışı mı olduğunu tanımlamak için kullanılır. Örneğin, **Oluşturuldu**, **Etkin** ve **Sonlandırıldı** gibi kıymet yaşam döngüsü durumları ayarlayabilirsiniz.
+Bu makalede Kıymet Yönetimi'nde kıymet yaşam döngüsü durumları ve yaşam döngüsü modelleri açıklanmaktadır. Kıymet yaşam döngüsü durumları kıymetin etkin mi yoksa devre dışı mı olduğunu tanımlamak için kullanılır. Örneğin, **Oluşturuldu**, **Etkin** ve **Sonlandırıldı** gibi kıymet yaşam döngüsü durumları ayarlayabilirsiniz.
 
 > [!NOTE]
 > - Talep yaşam döngüsü durumları kıymet yaşam döngüsü durumlarına bağlanır. Bu nedenle bir talep yeni talep yaşam döngüsü durumuna değiştirildiğinde, talebe iliştirilmiş kıymet yeni kıymet yaşam döngüsü durumuna değiştirilir. Örneğin bir talebin yaşam döngüsü durumu **Gelen** olarak değiştirilirse, iliştirilmiş kıymetin yaşam döngüsü durumu **Kıymet yaşam döngüsü durumu modelleri** sayfasının **Kıymet yaşam döngüsü durumu** hızlı sekmesindeki **Gelen yaşam döngüsü durumu** alanında seçili yaşam döngüsü durumuna değiştirilir. 

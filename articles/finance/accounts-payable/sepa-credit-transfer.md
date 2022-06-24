@@ -1,6 +1,6 @@
 ---
 title: SEPA kredi transferine genel bakış
-description: Bu konu, Tek Euro Ödeme Alanı (SEPA) kredi transferleri ve satıcılar için diğer elektronik ödemeleri içeren ISO 20022 kredi transferleri hakkında genel bilgi sağlar.
+description: Bu makale, Tek Euro Ödeme Bölgesi (SEPA) kredi transferleri ve satıcılar için diğer elektronik ödemeleri içeren ISO 20022 kredi transferleri hakkında genel bilgi sağlar.
 author: sunfzam
 ms.date: 06/20/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c45aa4f22f5044e7c10329dafa76226970b3d
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f3f0c428d9167e9f1a7fb17a292d474448b2d4df
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871463"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredi transferine genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Tek Euro Ödeme Alanı (SEPA) kredi transferleri ve satıcılar için diğer elektronik ödemeleri içeren ISO 20022 kredi transferleri hakkında genel bilgi sağlar. SEPA kredi transferi bir şirketten veya bir bireyden başka bir şirket veya bireye yapılan özel türde bir ödemedir (euro cinsinden). Bu başlık altında, bir kredi transferi ödeme dosyasının nasıl ayarlanacağı ve aktarılacağı da açıklanmaktadır.
+Bu makale, Tek Euro Ödeme Bölgesi (SEPA) kredi transferleri ve satıcılar için diğer elektronik ödemeleri içeren ISO 20022 kredi transferleri hakkında genel bilgi sağlar. SEPA kredi transferi bir şirketten veya bir bireyden başka bir şirket veya bireye yapılan özel türde bir ödemedir (euro cinsinden). Bu makalede, bir kredi transferi ödeme dosyasının nasıl ayarlanacağı ve aktarılacağı da açıklanmaktadır.
 
 ## <a name="what-is-a-credit-transfer-message"></a>Kredi transferi iletisi nedir?
 Kredi aktarma iletisi, başlatan bir tarafın (şirketinizin) kendi hesabından alacaklıya para taşımak için gönderdiği bir istektir. Kredi transferi iletilerinin ülke/bölge özelinde ve bankaya özel uygulamaları vardır. Bunlardan bazıları bir ülkede/bölgede kullanılırken, bazıları standart haline gelmektedir. İyi bilinen bir küresel standart, ISO 20022 ve Kredi transferi gibi başlatma iletileridir. Aşağıdaki şekilde, seçilen kredi aktarma iletileri arasındaki ilişkiler ve kapsam gösterilmektedir. 
@@ -53,7 +53,7 @@ SEPA kredi transferi bir şirketten veya bir bireyden başka bir şirket veya bi
 Avrupa ülkeleri için kredi transferi ödeme biçimi, Microsoft Dynamics 365 Finance uygulamasında Elektronik raporlama (ER) ve Ödeme yöntemleri işlevi kullanılarak uygulanır. Diğer bölgelerde kullanılan birkaç kredi aktarma biçimi, eski ödeme çerçevesini kullanmaya devam etmektedir. Diğer pek çok biçim arasında on iki ISO 20022 kredi aktarım dosyası biçimi mevcuttur. Bu dışa aktarma biçimleri SEPA ISO 20022 XML standardına uygundur. Bunlar, kullanıldıkları ülkeler/bölgeler için euro dışı ödeme transferleri ve EPC'nin yayınladığı SEPA Kredi Transfer Şeması Kural Kitabı'nın 8.2 sürümünde belirtilen euro ödemeleri için kullanılır. Kredi transferlerini uygulamadan önce, elektronik bankacılık dosyalarını yüklemek için gereken yazılımı edinmek için bankanıza başvurmanız gerekir. Bu yazılımı ödeme emirlerini içeren XML dosyalarını bankanıza aktarmak için kullanacaksınız.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported"></a>Şu anda hangi kredi transfer biçimleri desteklenmektedir?
-Sürekli olarak Microsoft Dynamics Lifecycle Services'daki (LCS) Paylaşılan varlık kitaplığına gidip varlık türü **GER yapılandırması** olan mevcut dosyaların en güncel listesini görüntülemeniz gerekir. Sonraki "Neyi ayarlamam gerekiyor?" bölümünde, mevcut yapılandırmaları incelemek ve seçili yapılandırmaları içe aktarmak için bir LCS havuzunun nasıl oluşturulacağının açıklandığını açıklayan konuya bağlantı verilmektedir.
+Sürekli olarak Microsoft Dynamics Lifecycle Services'daki (LCS) Paylaşılan varlık kitaplığına gidip varlık türü **GER yapılandırması** olan mevcut dosyaların en güncel listesini görüntülemeniz gerekir. Sonraki "Neyi ayarlamam gerekiyor?" bölümünde, mevcut yapılandırmaları incelemek ve seçili yapılandırmaları içeri aktarmak için bir LCS deposunun nasıl oluşturulacağının açıklandığı makalenin bağlantısı verilmektedir.
 
 ## <a name="what-do-i-have-to-set-up"></a>Neyi ayarlamam gerekiyor?
 -   Kredi transfer dosyaları oluşturmadan önce en az bir etkin kredi transferi yapılandırmasının ER yapılandırmalarınıza aktarılması gerekir. Yönergeler için bkz. [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını karşıdan yükle](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).

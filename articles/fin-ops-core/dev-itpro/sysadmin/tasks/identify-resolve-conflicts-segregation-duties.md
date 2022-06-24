@@ -1,6 +1,6 @@
 ---
 title: Görev ayrımındaki çakışmaları tanımlama ve çözümleme
-description: Bu konu görev ayrımındaki çakışmalarının nasıl tanımlandığını ve çözümlendiğini açıklar.
+description: Bu makalede, görev ayrımındaki çakışmalarının nasıl tanımlandığı ve çözümlendiği açıklanmaktadır.
 author: peakerbl
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0638699c0e569bbe67024a87d6c55729642557cb085ee899aa98aa0022b12840
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd36db5df2b6871d410bb1feaae825909ec9b3ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748324"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883491"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Görev ayrımındaki çakışmaları tanımlama ve çözümleme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu görev ayrımındaki çakışmalarının nasıl tanımlandığını ve çözümlendiğini açıklar. Farklı kullanıcılar tarafından gerçekleştirilmesi gereken görevleri ayırmak için kurallar ayarlayabilirsiniz. Bu kavram, görev ayrımı adını taşır. Güvenlik rolü tanımı veya bir kullanıcının rol atamaları kuralları ihlal ederse, çakışma kaydedilir. Tüm çakışmaların yönetici tarafından düzeltilmesi gerekir. Çakışmaları çözmek ve tanımlamak için aşağıdaki yordamı tamamlayın.
+Bu makalede, görev ayrımındaki çakışmalarının nasıl tanımlandığı ve çözümlendiği açıklanmaktadır. Farklı kullanıcılar tarafından gerçekleştirilmesi gereken görevleri ayırmak için kurallar ayarlayabilirsiniz. Bu kavram, görev ayrımı adını taşır. Güvenlik rolü tanımı veya bir kullanıcının rol atamaları kuralları ihlal ederse, çakışma kaydedilir. Tüm çakışmaların yönetici tarafından düzeltilmesi gerekir. Çakışmaları çözmek ve tanımlamak için aşağıdaki yordamı tamamlayın.
 
 Kural eklendikten sonra, mevcut tüm rollerin uyumlu olduğunu doğrulayın. 
 

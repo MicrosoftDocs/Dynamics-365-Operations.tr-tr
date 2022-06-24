@@ -1,6 +1,6 @@
 ---
 title: Marjinal taban ve Hesaplama yöntemi temel alınarak Satış vergisi oranları
-description: Bu konuda, Marjinal taban ve Hesaplama yöntemi alanlarındaki değerlerin, satış ve satınalma hareketlerindeki vergi oran(lar)ını nasıl belirlediği açıklanmaktadır.
+description: Bu makalede, Marjinal taban ve Hesaplama yöntemi alanlarındaki değerlerin, satış ve satınalma hareketlerindeki vergi oranlarını nasıl belirlediği açıklanmaktadır.
 author: kailiang
 ms.date: 10/26/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32d334b0c5dcce1e5211fb0580872731d38fb87b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 00cdc470397cedfd951e4c3a05a32f048775a4b9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724883"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903145"
 ---
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Marjinal taban ve Hesaplama yöntemi temel alınarak Satış vergisi oranları
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Marjinal taban ve Hesaplama yöntemi alanlarındaki değerlerin, satış ve satınalma hareketlerindeki vergi oran(lar)ını nasıl belirlediği açıklanmaktadır.
+Bu makalede, Marjinal taban ve Hesaplama yöntemi alanlarındaki değerlerin, satış ve satınalma hareketlerindeki vergi oranlarını nasıl belirlediği açıklanmaktadır.
 
 Satış vergisi kodları sayfasındaki Hesaplama hızlı sekmesi üzerindeki Marjinal taban, Satış vergisi kodu değerleri sayfasından uygun vergi oranlarının seçilmesinde hangi tutarın kullanılacağını belirler. Marjinal taban alanındaki tutar türü, Hesaplama yöntemi alanındaki yöntem ile birlikte bir hareket için doğru vergi oranı/oranlarını bulmak için mantığı belirlemekte kullanılır. 
 

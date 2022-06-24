@@ -1,6 +1,6 @@
 ---
 title: Sabit kıymet oluşturma
-description: Bu konu, sabit kıymet listesi sayfasından yeni bir sabit kıymet kaydının nasıl oluşturulacağını açıklamaktadır.
+description: Bu makalede, Sabit kıymet listesi sayfasından yeni bir sabit kıymet kaydının nasıl oluşturulacağı açıklanmaktadır.
 author: moaamer
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9394c0c7a5e2d9b417cbaee9f4e67f36ae124fb
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 00c72081d20015737aa027cee9474a54e498cef4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714299"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868503"
 ---
 # <a name="create-a-fixed-asset"></a>Sabit kıymet oluşturma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, **sabit kıymet** listesi sayfasından yeni bir sabit kıymet kaydının nasıl oluşturulacağını açıklamaktadır.
+Bu makalede, **Sabit kıymet** listesi sayfasından yeni bir sabit kıymet kaydının nasıl oluşturulacağı açıklanmaktadır.
 
 Sistem sabit kıymet grubuna atanan numara serisine göre kıymet numarasını atar. Microsoft Excel eklentisi aracılığıyla kıymetleri içe aktarmak için sabit kıymet şablonunu veya başka bir içe aktarma işini kullanırsanız sistem otomatik olarak sabit kıymet kayıtları oluşturur ve kıymet numarasını arttırır.
 

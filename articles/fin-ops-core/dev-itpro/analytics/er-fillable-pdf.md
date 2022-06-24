@@ -1,6 +1,6 @@
 ---
 title: PDF şablonlarını doldurmak için ER yapılandırmaları tasarlama
-description: Bu konu, bir PDF şablonunu doldurmak üzere Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı hakkında bilgi sağlar.
+description: Bu makalede, bir PDF şablonunu doldurmak üzere Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı hakkında bilgi sağlanmaktadır.
 author: NickSelin
 ms.date: 03/18/2022
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 706256300cf0b64bc5b5e1e7adb77c1da500d16f
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: ef9b650e9b676d79af8839c08cfbb1000a5aee5f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645121"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908604"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>PDF şablonlarını doldurmak için ER yapılandırmaları tasarlama
 
 [!include[banner](../includes/banner.md)]
 
-Bu konudaki yordamlar **Sistem Yöneticisi** veya **Elektronik raporlama geliştirici** rolündeki bir kullanıcının, rapor şablonu olarak doldurulabilir PDF belgelerini kullanarak PDF dosyaları halinde raporlar oluşturan Elektronik raporlama (ER) biçimini nasıl yapılandırabileceğini gösteren örneklerdir. Bu adımlar herhangi bir Dynamics 365 Finance şirketinde veya Regulatory Configuration Services (RCS) içinde gerçekleştirilebilir.
+Bu makaledeki yordamlar **Sistem Yöneticisi** veya **Elektronik raporlama geliştirici** rolündeki bir kullanıcının, rapor şablonu olarak doldurulabilir PDF belgelerini kullanarak PDF dosyaları halinde raporlar oluşturan Elektronik raporlama (ER) biçimini nasıl yapılandırabileceğini gösteren örneklerdir. Bu adımlar herhangi bir Dynamics 365 Finance şirketinde veya Regulatory Configuration Services (RCS) içinde gerçekleştirilebilir.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Başlamadan önce, bu konudaki yordamları tamamlamak için kullandığınız hizmete bağlı olarak, aşağıdaki erişim türlerinden birine sahip olmalısınız:
+Başlamadan önce, bu makaledeki yordamları tamamlamak için kullandığınız hizmete bağlı olarak, aşağıdaki erişim türlerinden birine sahip olmalısınız:
 
 - Aşağıdaki rollerden biri için Finance'a erişim:
 

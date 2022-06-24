@@ -1,6 +1,6 @@
 ---
 title: Medeni durum
-description: Bu konu, Dynamics 365 Human Resources için Medeni durum seçenek kümesini açıklar.
+description: Bu makalede, Dynamics 365 Human Resources için Medeni durum seçenek kümesi açıklanmaktadır.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b3327f084aba87b54a4071c3b6af351ab7b54d6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 35f6c96a684b326a16936cb9228d634c12ff63f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894657"
 ---
 # <a name="marital-status"></a>Medeni durum
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069894"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konu, Dynamics 365 Human Resources için Medeni durum seçenek kümesini açıklar.
+Bu makalede, Dynamics 365 Human Resources için Medeni durum seçenek kümesi açıklanmaktadır.
 
 Fiziksel ad: mshr_dirpersonmaritalstatus
 

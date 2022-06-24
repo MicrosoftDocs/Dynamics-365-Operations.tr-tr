@@ -1,6 +1,6 @@
 ---
 title: Kapatma yapılandırma
-description: Hareketlerin neden ve ne zaman kapatıldığı karmaşık konular olabilir. O yüzden, iş gereksinimlerinizi karşılayacak parametreleri doğru bir şekilde anlayıp tanımlamanız çok önemlidir. Bu konuda, hem Borç hesapları hem Alacak hesapları için kapanışta kullanılan parametreler açıklanmaktadır.
+description: Hareketlerin neden ve ne zaman kapatıldığı karmaşık konular olabilir. O yüzden, iş gereksinimlerinizi karşılayacak parametreleri doğru bir şekilde anlayıp tanımlamanız çok önemlidir. Bu makalede, hem Borç hesapları hem Alacak hesapları için kapanışta kullanılan parametreler açıklanmaktadır.
 author: kweekley
 ms.date: 05/16/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 978c99ddd3e56e6699ab128a154a5594685d5956
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 14ed2999a9ad8ffc64815ca3f8b1556aad27ae48
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712507"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910214"
 ---
 # <a name="configure-settlement"></a>Kapatma yapılandırma
 
 [!include [banner](../includes/banner.md)]
 
-Hareketlerin neden ve ne zaman kapatıldığı karmaşık konular olabilir. O yüzden, iş gereksinimlerinizi karşılayacak parametreleri doğru bir şekilde anlayıp tanımlamanız çok önemlidir. Bu konuda, hem Borç hesapları hem Alacak hesapları için kapanışta kullanılan parametreler açıklanmaktadır. 
+Hareketlerin neden ve ne zaman kapatıldığı karmaşık konular olabilir. O yüzden, iş gereksinimlerinizi karşılayacak parametreleri doğru bir şekilde anlayıp tanımlamanız çok önemlidir. Bu makalede, hem Borç hesapları hem Alacak hesapları için kapanışta kullanılan parametreler açıklanmaktadır. 
 
 Aşağıdaki parametreler, Microsoft Dynamics 365 Finance'te kapatmaların nasıl işleneceğini etkiler. Kapatma işlemi bir faturanın bir ödemeye veya bir alacak dekontuna karşılık kapatılmasını içerir. Bu parametreler **Alacak hesapları parametreleri** ve **Borç hesapları parametreleri** sayfalarının **Kapatma** alanında bulunur.
 

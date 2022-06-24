@@ -1,6 +1,6 @@
 ---
 title: Power BI Embedded kullanarak çalışma alanlarına analiz ekleme
-description: Bu konu bir Power BI raporunu bir çalışma alanının Analizler sekmesine katıştırmayı gösterir.
+description: Bu makalede, bir Power BI raporunun bir çalışma alanının Analizler sekmesine nasıl ekleneceği gösterilmektedir.
 author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fba78f091a9e1ba209489b0e324027c4885a198d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760164"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884563"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Power BI Embedded kullanarak çalışma alanlarına analiz ekleme
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Bu özellik Finance and Operations içinde desteklenir (sürüm 7.2 ve sonrası).
+> Bu özellik Finance and Operations (sürüm 7.2 ve sonrası) için desteklenir.
 
 ## <a name="introduction"></a>Giriş
-Bu konu bir Microsoft Power BI raporunu bir çalışma alanının **Analizler** sekmesine katıştırmayı gösterir. Burada verilen örnek için Filo Yönetimi uygulamasındaki **Rezervasyon yönetimi** çalışma alanını, bir **Analizler** sekmesinde bir analitik çalışma alanı katıştırmak üzere genişleteceğiz.
+Bu makalede, bir Microsoft Power BI raporunun bir çalışma alanının **Analizler** sekmesine nasıl ekleneceği gösterilmektedir. Burada verilen örnek için Filo Yönetimi uygulamasındaki **Rezervasyon yönetimi** çalışma alanını, bir **Analizler** sekmesinde bir analitik çalışma alanı katıştırmak üzere genişleteceğiz.
 
 ## <a name="prerequisites"></a>Ön koşullar
 + Platform güncelleştirmesi 8 veya sonraki bir sürümü çalıştıran bir geliştirici ortamına erişin.

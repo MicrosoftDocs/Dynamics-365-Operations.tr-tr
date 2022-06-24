@@ -1,6 +1,6 @@
 ---
 title: Power BI'a veri çekmek için Elektronik raporlamayı (ER) yapılandırma
-description: Bu konu, verilerinizi kurulumunuzdan Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı nasıl kullanacağınızı açıklar.
+description: Bu makalede, verilerinizi örneğinizden Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı nasıl kullanacağınız açıklanmaktadır.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -14,31 +14,31 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: aa9a47c9ee7c76322fd2d9bfcf5fc61a50bf421321891b3c78a782be6a9f8e6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6903513dec4da20dbc4463fbae6a406fc06e1a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740954"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896748"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Power BI'a veri çekmek için Elektronik raporlamayı (ER) yapılandırma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, verilerinizi kurulumunuzdan Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı nasıl kullanacağınızı açıklar. Örnek olarak, bu konu Intrastat hareketlerini aktarılması gereken iş verileri olarak kullanır. Power BI harita görselleştirmesi, bu Intrastat hareket verilerini şirketin içe aktarma/dışa aktarma etkinliklerinin Power BI raporundaki analizinin bir görünümünü sunmak için kullanır.
+Bu makalede, verilerinizi örneğinizden Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı nasıl kullanacağınız açıklanmaktadır. Örnek olarak bu makalede, aktarılması gereken iş verileri olarak İntrastat hareketleri kullanılmaktadır. Power BI harita görselleştirmesi, bu Intrastat hareket verilerini şirketin içe aktarma/dışa aktarma etkinliklerinin Power BI raporundaki analizinin bir görünümünü sunmak için kullanır.
 
 ## <a name="overview"></a>Genel bakış
 
-Microsoft Power BI harici veri kaynaklarını tutarlı, görsel olarak modern ve etkileşimli bilgilere dönüştürmek için birlikte çalışan yazılım hizmetleri, uygulamalar ve bağlayıcılardan oluşan bir koleksiyondur. Elektronik raporlama (ER), kullanıcıların veri kaynaklarını kolayca yapılandırmasını ve veriyi uygulamadan Power BI'ya aktarmayı ayarlamalarını sağlar. Veriler OpenXML çalışma sayfası (Microsoft Excel çalışma kitabı dosyası) biçiminde aktarılır. Aktarılan dosyalar bu amaçla yapılandırılmış bir Microsoft SharePoint Server üzerinde depolanır. Depolanan dosyalar görselleştirme (tablo, grafik, harita vs.) içeren raporlar oluşturmak için Power BI'da kullanılır. Power BI raporları Power BI kullanıcılarıyla paylaşılır ve bunlara Power BI panoları ve uygulama sayfalarından ulaşılır. Bu konuda aşağıdaki görevler açıklanmıştır:
+Microsoft Power BI harici veri kaynaklarını tutarlı, görsel olarak modern ve etkileşimli bilgilere dönüştürmek için birlikte çalışan yazılım hizmetleri, uygulamalar ve bağlayıcılardan oluşan bir koleksiyondur. Elektronik raporlama (ER), kullanıcıların veri kaynaklarını kolayca yapılandırmasını ve veriyi uygulamadan Power BI'ya aktarmayı ayarlamalarını sağlar. Veriler OpenXML çalışma sayfası (Microsoft Excel çalışma kitabı dosyası) biçiminde aktarılır. Aktarılan dosyalar bu amaçla yapılandırılmış bir Microsoft SharePoint Server üzerinde depolanır. Depolanan dosyalar görselleştirme (tablo, grafik, harita vs.) içeren raporlar oluşturmak için Power BI'da kullanılır. Power BI raporları Power BI kullanıcılarıyla paylaşılır ve bunlara Power BI panoları ve uygulama sayfalarından ulaşılır. Bu makalede aşağıdaki görevler açıklanmıştır:
 
-- Microsoft Dynamics 365 Finance'ı yapılandırın.
+- Microsoft Dynamics 365 Finance'i yapılandırın.
 - ER biçim yapılandırmanızı Finance uygulamasından veri almak için hazırlayın.
 - ER ortamını Power BI'ya veri aktarmak için yapılandırın.
 - Power BI raporu oluşturmak için aktarılan verileri kullanın.
 - Power BI raporunu Finance'da erişilebilir hale getirin.
 
-## <a name="prerequisites"></a>Önkoşullar
-Bu konudaki örneği tamamlamak için şu erişimlere sahip olmanız gerekir:
+## <a name="prerequisites"></a>Ön Koşullar
+Bu makaledeki örneği tamamlamak için şu erişimlere sahip olmanız gerekir:
 
 - Aşağıdaki rollerden biri için erişim:
 

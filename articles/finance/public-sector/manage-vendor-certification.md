@@ -1,6 +1,6 @@
 ---
 title: Satıcı sertifikasını koruma
-description: Bu konu, Satıcı işbirliği çalışma alanını kullanarak satıcıların sertifikalarını korumak için kullanabileceği adımları açıklamaktadır.
+description: Bu makalede, Satıcı işbirliği çalışma alanını kullanarak satıcıların sertifikalarını korumak için kullanabileceği adımlar açıklanmaktadır.
 author: v-kiarnd
 ms.date: 04/27/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b1b2cdd4389afd8997b60fe8e7a9b6851cbde199
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 37990292748c363f44d306bda0263dd117808eb1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735709"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891451"
 ---
 # <a name="maintain-vendor-certification"></a>Satıcı sertifikasını koruma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, **Satıcı işbirliği çalışma alanı**'nı kullanarak satıcılarınızın sertifikalarını korumak için kullanabileceği adımları açıklamaktadır. Sertifika örnekleri arasında Kadın İşletme Girişimi (WBE) veya Enerji ve Çevre Tasarımında Liderlik (LEED) şirketi olabilir. Satıcıların, **Satıcı bilgileri** çalışma alanına sertifika bilgilerini girmesi gerekir. Burada satıcılar, **Daha fazla ayrıntı** seçeneğini belirler ve ardından **Sertifikalar**'ı seçer.
+Bu makalede, **Satıcı işbirliği çalışma alanı**'nı kullanarak satıcılarınızın sertifikalarını korumak için kullanabileceği adımlar açıklanmaktadır. Sertifika örnekleri arasında Kadın İşletme Girişimi (WBE) veya Enerji ve Çevre Tasarımında Liderlik (LEED) şirketi olabilir. Satıcıların, **Satıcı bilgileri** çalışma alanına sertifika bilgilerini girmesi gerekir. Burada satıcılar, **Daha fazla ayrıntı** seçeneğini belirler ve ardından **Sertifikalar**'ı seçer.
 
 ## <a name="turn-on-the-vendor-certification-feature"></a>Satıcı sertifikasyonu özelliğini açma
 

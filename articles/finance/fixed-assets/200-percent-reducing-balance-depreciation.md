@@ -1,6 +1,6 @@
 ---
 title: Yüzde 200 azalan bakiyeli amortisman
-description: Bu konu, amortismanın yüzde 200 azalan bakiye yöntemi hakkında genel bir bakış sunar.
+description: Bu makale, amortismanın yüzde 200 azalan bakiye yöntemi hakkında genel bir bakış sunar.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 831a99246f0a2d5f223e3624aace1c218c3c4ff4
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 7abcf26f3e658e8a6f451f26240890d183547982
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870176"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>Yüzde 200 azalan bakiyeli amortisman
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, amortismanın yüzde 200 azalan bakiye yöntemi hakkında genel bir bakış sunar.
+Bu makale, amortismanın yüzde 200 azalan bakiye yöntemi hakkında genel bir bakış sunar.
 
 Bir sabit kıymet amortisman profili ayarlayıp **Amortisman profilleri** sayfasındaki **Yöntem** alanında **%200 azalan bakiye** seçeneğini belirlediğinizde, amortisman profiline atanan sabit kıymetlerin amortismanı her amortisman döneminde aynı yüzdeyi içerir. Yüzde, sabit kıymetin servis ömrü temel alınarak hesaplanır. Örneğin, bir sabit kıymetin beş yıllık servis ömrü varsa, yüzde 40 (%200 ÷ 5) olarak hesaplanır. 
 
@@ -43,7 +43,7 @@ Seçiminiz, **Dönem sıklığı** alanında bulunan seçenekleri belirler. Bu a
 
 **Amortisman yılı** alanında varsayılan değer olan **Takvim** seçeneğini bırakabilirsiniz. 
 
-**Takvim** seçeneği, amortisman tabanını her yılın Ocak 1 tarihinde günceller. Tipik olarak, amortisman net defter değeri eksi ıskarta değeridir. Bu konunun devamındaki örneklerde, amortisman tabanı hesaplamalar sütunundaki yer alan ilk ifadedeki pay olur. 
+**Takvim** seçeneği, amortisman tabanını her yılın Ocak 1 tarihinde günceller. Tipik olarak, amortisman net defter değeri eksi ıskarta değeridir. Bu makalenin devamındaki örneklerde, amortisman tabanı hesaplamalar sütununda yer alan ilk ifadedeki pay olur. 
 
 Amortisman yılı olarak **Takvim** seçerseniz, **Dönem sıklığı** alanında şu seçenekler kullanılabilir :
 

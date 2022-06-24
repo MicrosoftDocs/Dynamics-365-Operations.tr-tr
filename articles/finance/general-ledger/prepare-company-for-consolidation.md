@@ -1,6 +1,6 @@
 ---
 title: Konsolidasyon işleminde tüzel kişilik hazırlama
-description: Konsolidasyon sırasında, birkaç tüzel kişilik hesabı kümesinden hareketleri tek bir tüzel kişilik hesabı kümesinde birleştirebilirsiniz. Bu konuda, bir konsolidasyon için tüzel kişiliğin nasıl hazırlanacağı açıklanmaktadır.
+description: Konsolidasyon sırasında, birkaç tüzel kişilik hesabı kümesinden hareketleri tek bir tüzel kişilik hesabı kümesinde birleştirebilirsiniz. Bu makalede, bir konsolidasyon için tüzel kişiliğin nasıl hazırlanacağı açıklanmaktadır.
 author: jinniew
 ms.date: 10/30/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0ef6736046748b92357c41d27eeedfc88c610d33
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 2a3d4645c79ec30df2bbb7a32a82a59fdb7016e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722052"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894040"
 ---
 # <a name="prepare-a-legal-entity-for-the-consolidation-process"></a>Konsolidasyon işleminde tüzel kişilik hazırlama
 
 [!include [banner](../includes/banner.md)]
 
-Konsolidasyon sırasında, birkaç tüzel kişilik hesabı kümesinden hareketleri tek bir tüzel kişilik hesabı kümesinde birleştirebilirsiniz. Bu konuda, bir konsolidasyon için tüzel kişiliğin nasıl hazırlanacağı açıklanmaktadır.
+Konsolidasyon sırasında, birkaç tüzel kişilik hesabı kümesinden hareketleri tek bir tüzel kişilik hesabı kümesinde birleştirebilirsiniz. Bu makalede, bir konsolidasyon için tüzel kişiliğin nasıl hazırlanacağı açıklanmaktadır.
 
 > [!NOTE]
 > Microsoft Dynamics 365 Finance için Management Reporter'ı kullanarak birden çok tüzel kişilik için mali sonuçları konsolide bir biçimde birleştirmeniz önerilir. Management Reporter, tüzel kişiliklerde konsolide mali raporlar oluşturmanıza, diğer kaynaklardan konsolidasyon verilerini içeri aktarmak için Excel'i kullanmanıza ve Dynamics 365 Finance'te konsolidasyon sürecini çalıştırmak zorunda kalmadan tutarları istediğiniz sayıda raporlama para birimine çevirmenize olanak sağlar.

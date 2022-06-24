@@ -1,6 +1,6 @@
 ---
 title: Çalışma zamanında getirilen tablo alanlarının sayısını azaltarak ER çözümlerinin performansını artırma
-description: Bu konuda, çalışma zamanında getirilen tablo alanlarının sayısını azaltarak ER çözümlerinin performansını artırmaya nasıl yardımcı olacağınız açıklanmaktadır.
+description: Bu makalede, çalışma zamanında getirilen tablo alanlarının sayısını azaltarak ER çözümlerinin performansını artırmaya nasıl yardımcı olacağınız açıklanmaktadır.
 author: NickSelin
 ms.date: 05/12/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: dd192a7718ac4fd8bcb636ede6c005ca29ee5f08
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: eb76c415da87d421b8135a93b84f4e905f01e70d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811967"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847465"
 ---
 # <a name="improve-performance-of-er-solutions-by-reducing-the-number-of-table-fields-that-are-fetched-at-runtime"></a>Çalışma zamanında getirilen tablo alanlarının sayısını azaltarak ER çözümlerinin performansını artırma
 
@@ -28,7 +28,7 @@ ms.locfileid: "8811967"
 
 Çeşitli biçimlerde giden belgeler oluşturan [Elektronik raporlama](general-electronic-reporting.md) (ER) [biçimleri](er-overview-components.md#format-components-for-outgoing-electronic-documents) tasarlayabilirsiniz. Bir belge oluşturulurken, bir ER biçimi, karşılık gelen bir ER [model eşlemesinde](er-overview-components.md#model-mapping-component) yapılandırılmış veri kaynaklarını çağırır. Kayıt alma amacıyla uygulama tablolarına, sorgularına veya varlıklarına erişimi yapılandırmak için *Tablo kayıtları* türünde ER veri kaynakları kullanabilirsiniz. Varsayılan olarak, *Tablo kayıtları* türündeki bir veri kaynağı istenen kayıtlardaki tüm alanların değerlerini alır. Ancak, bu türdeki bir veri kaynağını yalnızca çalışan ER biçimi için gerekli alan değerlerini getirecek şekilde yapılandırabilirsiniz. Bu yapılandırma, veri alımı ve daha fazla kayıt önbelleğe alma işlemi gerçekleştiren uygulama sunucusunun bellek tüketimini azaltmaya yardımcı olur.
 
-*Tablo kayıtları* türündeki veri kaynaklarının getirilen alan listesini sınırlama konusunda daha fazla bilgi için bu konudaki örneği tamamlayın.
+*Tablo kayıtları* türündeki veri kaynaklarının getirilen alan listesini sınırlama konusunda daha fazla bilgi için bu makaledeki örneği tamamlayın.
 
 ## <a name="example-reduce-the-number-of-table-fields-that-are-fetched-at-runtime"></a>Örnek: Çalışma zamanında getirilen tablo alanlarının sayısını azaltma
 

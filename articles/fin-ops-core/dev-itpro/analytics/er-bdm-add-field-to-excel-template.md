@@ -1,6 +1,6 @@
 ---
 title: Microsoft Excel'de iş belgesi şablonuna yeni alanlar ekleme
-description: Bu konuda, İş belgesi yönetimi özelliğini kullanarak Microsoft Excel'de iş belgesi şablonuna yeni alanlar ekleme hakkında bilgiler sağlanmaktadır.
+description: Bu makalede, İş belgesi yönetimi özelliğini kullanarak Microsoft Excel'de iş belgesi şablonuna yeni alanlar ekleme hakkında bilgiler sağlanmaktadır.
 author: NickSelin
 ms.date: 11/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 57eebdc38fb3f74690b92c03fa60e10c7610db1fe413320a6d167f05b0658bf1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8395a87e88ebbd1942c87da0cecebe6d25bdf625
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767254"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869416"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Microsoft Excel'de iş belgesi şablonuna yeni alanlar ekleme
 
@@ -28,14 +28,14 @@ ms.locfileid: "6767254"
 
 İş belgelerini Microsoft Excel biçiminde oluşturmak için kullanılan şablona yeni alanlar ekleyebilirsiniz. Bu alanlar, oluşturulan belgeleri uygulamadaki gerekli bilgilerle doldurmak için kullanılan yer tutucular olarak eklenebilir. Eklediğiniz alanlara yönelik olarak, şablon iş belgeleri oluşturmak üzere kullanıldığında alana hangi uygulama verilerinin girileceğini belirlemek için veri kaynaklarına bir bağlama belirtebilirsiniz.
 
-Bu özellik hakkında daha fazla bilgi edinmek için bu konudaki örneği tamamlayın. Bu örnekte, oluşturulan serbest metin faturası formlarındaki alanları dolduracak şekilde bir şablonun nasıl güncelleştirileceği gösterilmektedir.
+Bu özellik hakkında daha fazla bilgi edinmek için bu makaledeki örneği tamamlayın. Bu örnekte, oluşturulan serbest metin faturası formlarındaki alanları dolduracak şekilde bir şablonun nasıl güncelleştirileceği gösterilmektedir.
 
 ## <a name="configure-business-document-management-to-edit-templates"></a>Şablonları düzenlemek için İş belge yönetimini yapılandırma
 
 İş belgesi yönetimi (BDM) [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md) çerçevesi üzerine kurulu olduğundan BDM ile çalışmaya başlayabilmeniz için gerekli ER ve BDM parametrelerini yapılandırmanız gerekir.
 
-1.  Microsoft Dynamics 365 Finance kurulumunda sistem yöneticisi olarak oturum açın.
-2.  [İş belgesi yönetimine genel bakış](er-business-document-management.md) konusundaki örneğin aşağıdaki adımlarını tamamlayın:
+1.  Microsoft Dynamics 365 Finance'in örneğinde sistem yöneticisi olarak oturum açın.
+2.  [İş belgesi yönetimine genel bakış](er-business-document-management.md) makalesindeki örneğin aşağıdaki adımlarını tamamlayın:
 
     1.  ER parametrelerini yapılandırın.
     2.  BDM'yi açın.

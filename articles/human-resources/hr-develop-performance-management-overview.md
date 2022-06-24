@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c1ef722eabc3c3bc740f9ff5d959cfa005862a9b
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 28caacaafa5ef20a3d8e1ce93851c48bd4af89a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735737"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848208"
 ---
 # <a name="performance-management"></a>Performans yönetimi
 
@@ -79,9 +79,9 @@ Performans günlüğünüz<!--note from editor: Suggested.--> hedeflerinizi nas�
 
 Hedefe bitirme sertifikası gibi bir belge eklemek isterseniz bunu **Performans hedefleri** sayfasının **Ekler** bölümünden ekleyebilirsiniz. Ekli belgelerin içeriğini hızlı bir şekilde görüntüleyebilmeniz için bir belge görüntüleyici sağlanır. 
 
-Hedeften bir şablon oluşturabilir ve ardından şablona dayalı yeni hedefler oluşturmak için bu şablonu kullanabilirsiniz. Hedeften bir şablon oluşturduğunuzda açıklama, konular ve hedef ölçümleri kaydedilir. Ancak tüm fiili ölçümler, tamamlanma tarihleri ve konu yorumları kaldırılır.
+Hedeften bir şablon oluşturabilir ve ardından şablona dayalı yeni hedefler oluşturmak için bu şablonu kullanabilirsiniz. Hedeften bir şablon oluşturduğunuzda açıklama, konular ve hedef ölçümleri kaydedilir. Ancak tüm fiili ölçümler, tamamlanma tarihleri ve makale yorumları kaldırılır.
 
-## <a name="performance-reviews"></a>Performans gözden geçirmeleri
+## <a name="performance-reviews"></a>Performans incelemeleri
 
 Performans gözden geçirmeleri daha resmi haliyle tartışmalar olarak bilinir. Sürekli geri bildirimi, gelişme planlarını ve daha resmi gözden geçirmeleri destekleyecek kadar esnek hale getirilmiştir. İki kişi için hızla küçük toplantılar oluşturabilirsiniz<!--note from editor: I think "one-on-one meeting" is implied by "two people."--> Veya şirketinizin gözden geçirme işlemiyle eşleşen daha karmaşık bir gözden geçirme işlemi oluşturabilirsiniz. 
 

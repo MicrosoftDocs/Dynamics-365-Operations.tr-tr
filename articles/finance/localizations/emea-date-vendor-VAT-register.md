@@ -1,6 +1,6 @@
 ---
 title: Satıcı KDV kayıt tarihi
-description: Bu konu, satıcı KDV kaydının bitiş tarihini etkinleştirme özelliği hakkında bilgi sağlar
+description: Bu makalede, satıcı KDV kaydının bitiş tarihini etkinleştirme özelliği hakkında bilgi sağlanmaktadır
 author: anasyash
 ms.date: 01/15/2022
 ms.topic: article
@@ -13,16 +13,16 @@ ms.search.region: global
 ms.author: anasyash
 ms.search.validFrom: 2022-01-15
 ms.dyn365.ops.version: AX 10.0.24
-ms.openlocfilehash: 882d5a8718d819cff80bfa5b86e054a39e9db159
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: b1368e0c7764bed42aa7549f36a6f4bcbb96eff4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7992071"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849790"
 ---
 # <a name="date-of-vendor-vat-register"></a>Satıcı KDV kayıt tarihi
 
-Microsoft Dynamics 365 Finance sürüm 10.0.24'te yeni **Satıcı KDV kayıt alanının tarihi**, satıcı faturaları için kullanılabilir. Bu alan, bir satınalmayla ilgili vergiye tabi tedarikin tarihini belirtir.
+Microsoft Dynamics 365 Finance 10.0.24 sürümünde, yeni **Satıcı KDV kayıt tarihi** alanı, satıcı faturaları için kullanılabilir. Bu alan, bir satınalmayla ilgili vergiye tabi tedarikin tarihini belirtir.
 
 Yeni alanı etkinleştirmek için, **Özellik yönetimi** çalışma alanına gidin , **Satıcı faturaları üzerindeki satıcı KDV kaydının etkinleştirme tarihi** özelliğini bulun ve **Şimdi etkinleştir**'i seçin.
 

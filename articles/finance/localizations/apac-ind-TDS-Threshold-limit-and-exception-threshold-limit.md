@@ -1,6 +1,6 @@
 ---
-title: Eşik sınırı ve istisna eşik sınırı
-description: Bu konu, Kaynakta Kesilen Vergi (TDS) için eşik ve istisna sınırlarını açıklamaktadır.
+title: Eşik sınırı ve özel durum eşik sınırı
+description: Bu makalede, Kaynakta Kesilen Vergi (TDS) için eşik ve istisna sınırları açıklanmaktadır.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7fa7d871fdf25f29b003a68cacd9fc0d487dce5b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: aceebad08b5454b64059e7ef374b9634bad35c37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726030"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877950"
 ---
-# <a name="threshold-limit-and-exception-threshold-limit"></a>Eşik sınırı ve istisna eşik sınırı
+# <a name="threshold-limit-and-exception-threshold-limit"></a>Eşik sınırı ve özel durum eşik sınırı
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Kaynakta Kesilen Vergi (TDS) için eşik ve istisna sınırlarını açıklamaktadır. Fatura ve ödemelerle ilgili TDS, **Stopaj vergisi bileşenleri** sayfasındaki TDS vergi bileşenleri için belirlenen eşik sınırı ve istisna eşik sınırı dikkate alınarak hesaplanır. TDS vergi bileşenleri, TDS vergi gruplarına dahil olan TDS vergi kodlarına bağlıdır. TDS vergi grupları, TDS'yi fatura düzeyinde veya ödeme düzeyinde hesaplamak için satıcılara ve müşterilere iliştirilir.
+Bu makalede, Kaynakta Kesilen Vergi (TDS) için eşik ve istisna sınırları açıklanmaktadır. Fatura ve ödemelerle ilgili TDS, **Stopaj vergisi bileşenleri** sayfasındaki TDS vergi bileşenleri için belirlenen eşik sınırı ve istisna eşik sınırı dikkate alınarak hesaplanır. TDS vergi bileşenleri, TDS vergi gruplarına dahil olan TDS vergi kodlarına bağlıdır. TDS vergi grupları, TDS'yi fatura düzeyinde veya ödeme düzeyinde hesaplamak için satıcılara ve müşterilere iliştirilir.
 
 TDS, bir hareket tutarı ya da bir satıcı için belirli birTDS grubuyla deftere nakledilen kümülatif hareketler, **Stopaj vergisi bileşenleri** sayfasında belirtilen eşik sınırını aşarsa hesaplanır. TDS, kümülatif hareket tutarı belirtilen eşik sınırını aşıncaya kadar hesaplanmaz.
 

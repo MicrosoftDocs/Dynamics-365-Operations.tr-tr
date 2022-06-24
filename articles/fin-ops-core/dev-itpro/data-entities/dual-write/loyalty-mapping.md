@@ -1,6 +1,6 @@
 ---
 title: Müşteri bağlılık programı kartları ve ödül puanları
-description: Bu konuda, müşteri bağlılık programı kartları ve çift yazmadaki ödül puanlarıyla ilgili verilerin tümleştirilmesi açıklanmaktadır.
+description: Bu makalede, müşteri bağlılık programı kartları ve çift yazmadaki ödül puanlarıyla ilgili verilerin tümleştirilmesi açıklanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 03/10/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: e9044cffceafc46d923d2b693b00644bd1b2ec60
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 383a1b8e9a7497a47a6ce8561253124853095b0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061558"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890139"
 ---
 # <a name="customer-loyalty-cards-and-reward-points"></a>Müşteri bağlılık programı kartları ve ödül puanları
 

@@ -1,6 +1,6 @@
 ---
 title: Yevmiye defteri işlemleri
-description: Bu konu, yevmiye işlemlerini daha kolay yapmaya yardımcı olabilecek Microsoft Dynamics 365 Finance özelliklerini açıklamaktadır. Bunlar ayrıca doğru verilerin kaydedildiğini ve dahili denetimin hatasız olduğunu da sağlamaya yardımcı olurlar.
+description: Bu makalede, genel muhasebe işlemlerini daha kolay yapmaya yardımcı olabilecek Microsoft Dynamics 365 Finance özellikleri açıklanmaktadır. Bunlar, doğru verilerin kaydedilmesini ve dahili denetimin hatasız olmasını sağlamaya da yardımcı olur.
 author: kweekley
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cfe4af0c666fb2accb6737edb2de6e0b6e7cdf1
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 2055c028f7bfe8edc9faec8f791fff2fbfe08bfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720041"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896390"
 ---
-# <a name="general-journal-processing"></a>Genel günlük işleme
+# <a name="general-journal-processing"></a>Yevmiye defteri işlemleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, yevmiye işlemlerini daha kolay yapmaya yardımcı olabilecek yetenekleri açıklamaktadır. Bunlar ayrıca doğru verilerin kaydedildiğini ve dahili denetimin hatasız olduğunu da sağlamaya yardımcı olurlar.  
+Bu makalede, genel muhasebe işlemlerini daha kolay yapmaya yardımcı olabilecek özellikler açıklanmaktadır. Bunlar, doğru verilerin kaydedilmesini ve dahili denetimin hatasız olmasını sağlamaya da yardımcı olur.  
 
 ## <a name="journal-names"></a>Günlük adları
 

@@ -1,6 +1,6 @@
 ---
 title: İşe alma Power BI içeriği
-description: Bu konu, İşe alma Power BI içeriğini açıklar.
+description: Bu makalede, İşe alma Power BI içeriği açıklanmaktadır.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 36ea9f204b50b3d7a6c8e33e69a9c3fd7d82cd79d466e2b9547c6733aa294aea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3240b92993986b32a739b7a6e5c7f7c2df3ed71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765134"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890110"
 ---
 # <a name="recruiting-power-bi-content"></a>İşe alma Power BI içeriği
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, **İşe alma** Microsoft Power BI içeriğini açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
+Bu makalede, **İşe alma** Microsoft Power BI içeriği açıklanmaktadır. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişim
 **İşe alma** Power BI içeriği **İşe alma yönetimi** çalışma alanında gösterilir.

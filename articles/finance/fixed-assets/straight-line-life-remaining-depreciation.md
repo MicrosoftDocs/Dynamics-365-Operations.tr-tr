@@ -1,6 +1,6 @@
 ---
 title: Sabit kalan ömür amortismanı
-description: Bu konu, amortismanın Sabit kalan ömür yöntemi hakkında genel bir bakış sağlar.
+description: Bu makale, amortismanın Sabit kalan ömür yöntemi hakkında genel bir bakış sağlar.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92941bc679835d38ba47464452315498a70ce2ee
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 185e1c101ffb6dfbd47348952d6dfc47ab137ffa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726711"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853452"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Sabit kalan ömür amortismanı
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, amortismanın Sabit kalan ömür yöntemi hakkında genel bir bakış sağlar.
+Bu makale, amortismanın Sabit kalan ömür yöntemi hakkında genel bir bakış sağlar.
 
 Bir sabit kıymek amortisman profili ayarladığınızda ve **Amortisman profilleri** sayfasındaki **Yöntem** alanından **Kalan düz çizgi yaşamı** öğesini seçtiğinizde amortisman profiline atanan sabit kıymetlerin amortismanı kıymetin kalan hizmet ömrüne dayalı olacaktır. Amortisman tutarı genellikle her amortisman döneminde aynı olur. Düz çizgi kalan ömür amortismanı ayarlamak için, **Amortisman profilleri** sayfasında **Amortisman yılı** alanı ve **Dönem sıklığı** alanındaki seçenekleri de belirlemeniz gerekir. **Dönem sıklığı** alanındaki kullanılabilir seçenekler, **Amortisman yılı** alanında seçili değere bağlı olarak değişir.
 
@@ -35,7 +35,7 @@ Bir sabit kıymek amortisman profili ayarladığınızda ve **Amortisman profill
 
 ### <a name="calendar"></a>Takvim
 
-**_Amortisman yılı_*alanında **Takvim**'i seçerseniz, mali takvimi farklı tanımlamış olsanız bile, 1 Ocak-31 Aralık arası bir yıl varsayılır. _* Takvim** seçeneği, amortisman tabanını her yıl 1 Ocak 'ta güncelleştirilir. Tipik olarak, amortisman tabanı, net defter değeri eksi hurda değeridir. Bu konunun devamındaki örnekte, amortisman tabanı hesaplamalar sütunundaki yer alan ilk ifadedeki pay olur. Amortisman yılı olarak **Takvim** seçerseniz, **Dönem sıklığı** alanında şu seçenekler kullanılabilir :
+**_Amortisman yılı_*alanında **Takvim**'i seçerseniz, mali takvimi farklı tanımlamış olsanız bile, 1 Ocak-31 Aralık arası bir yıl varsayılır. _* Takvim** seçeneği, amortisman tabanını her yıl 1 Ocak 'ta güncelleştirilir. Tipik olarak, amortisman tabanı, net defter değeri eksi hurda değeridir. Bu makalenin devamındaki örnekte, amortisman tabanı hesaplamalar sütununda yer alan ilk ifadedeki pay olur. Amortisman yılı olarak **Takvim** seçerseniz, **Dönem sıklığı** alanında şu seçenekler kullanılabilir :
 
 - **Yıllık** 31 Aralık'ta bir tutarı nakleder.
 - **Aylık** seçeneği her takvim ayının sonunda bir aylık tutarı nakleder.

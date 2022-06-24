@@ -1,6 +1,6 @@
 ---
 title: Ürün boyutları için görüntü ayarlarını uygulama
-description: Bu konu, ürün boyutlarının görüntü ayarlarını kapsar ve Microsoft Dynamics 365 Commerce'de bunların nasıl uygulanacağını açıklar.
+description: Bu makale, ürün boyutlarının görüntü ayarlarını kapsar ve Microsoft Dynamics 365 Commerce'de bunların nasıl uygulanacağını açıklar.
 author: anupamar-ms
 ms.date: 05/28/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80a0861c51ea14ddb6bce02d757667adac34e740cd04311e26211d9bdbae4ed8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d7575e205a9732259b00e424f66eeadfe8c659ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716234"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899187"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>Ürün boyutları için görüntü ayarlarını uygulama
 
 [!include [banner](includes/banner.md)]
 
 
-Bu konu, ürün boyutlarının görüntü ayarlarını kapsar ve Microsoft Dynamics 365 Commerce'de bunların nasıl uygulanacağını açıklar.
+Bu makale, ürün boyutlarının görüntü ayarlarını kapsar ve Microsoft Dynamics 365 Commerce'de bunların nasıl uygulanacağını açıklar.
 
 Dynamics 365 Commerce, ürün çeşitlerini ayırt etmek için boyut, stil ve renk boyutlarını destekler. Boyutlar genellikle boyutlar için "Küçük", "Orta" ve "Büyük" ve renkler için "Siyah" ve "Kahverengi" gibi metin değerleri olarak gösterilir. Ancak, bir ürün birçok varyasyonu destekliyorsa her varyasyon için görüntüyü görüntülemek için birden fazla seçim gerektiğinden, ürün varyasyonlarına göz atmak zor olabilir. Ürün varyasyonlarına göz atmayı kolaylaştırmak için, Commerce'in 10.0.20 sürümü, boyutları renk örneği olarak göstermek için görüntüleri ve onaltılık (onaltılık) kodları kullanabilir.
 

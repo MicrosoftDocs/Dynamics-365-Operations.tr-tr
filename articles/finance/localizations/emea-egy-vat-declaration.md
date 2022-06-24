@@ -1,6 +1,6 @@
 ---
 title: Mısır için KDV beyannamesi
-description: Bu konu, Mısır için KDV iade formunun nasıl yapılandırılacağını ve oluşturulacağını açıklar.
+description: Bu makalede, Mısır için KDV iade formunun nasıl yapılandırılacağı ve oluşturulacağı açıklanmaktadır.
 author: sndray
 ms.date: 06/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a67c6e00b94d49b3eb279416407f603923e53b2e
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 1d5788b2328a49f4725a6c689e29a7e784032fae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870049"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Mısır için KDV beyannamesi (EG-00002)
 
@@ -26,11 +26,11 @@ ms.locfileid: "7403960"
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, Mısır'daki yasal varlıklar için KDV iade formunun ve satış ve satın alma defterlerinin nasıl ayarlanacağını ve oluşturulacağını açıklar.
+Bu makalede, Mısır'daki tüzel kişilikler için KDV iade formunun ve satış ve satın alma defterlerinin nasıl ayarlanacağı ve oluşturulacağı açıklanmaktadır.
 
 Mısır için KDV iade formu, vadesi gelen toplam çıkış KDV vergi tutarını, kurtarılabilir toplam giriş KDV vergisi tutarını ve ilgili KDV vergi tutarı borcunun özetini içeren resmi belgedir. Form tüm vergi mükellefi türleri için kullanılır ve vergi dairesi portalı aracılığıyla el ile doldurulmalıdır. KDV iade formu genellikle KDV iade dosyası olarak da adlandırılır.
 
-Dynamics 365 Finance'deki KDV iade formu aşağıdaki raporları içerir:
+Dynamics 365 Finance'teki KDV iade formu aşağıdaki raporları içerir:
 
 - Mevzuatta açıklandığı şekilde, KDV iade formunda satır maddesi başına tutar, düzeltme ve KDV tutarı dökümü sağlayan 10 numaralı KDV iade formu.
 - Satış hareketleri defteri

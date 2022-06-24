@@ -1,6 +1,6 @@
 ---
-title: İş akışı SSS
-description: Bu konu, iş akışı sistemi hakkında sık sorulan soruları yanıtlamaktadır.
+title: İş akışıyla ilgili SSS
+description: Bu makalede, iş akışı sistemi hakkında sık sorulan sorular yanıtlanmaktadır.
 author: ChrisGarty
 ms.date: 03/01/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e9e2000684081035f35ea55e1c773a4f6976d74
-ms.sourcegitcommit: 967b93bb42413b5b38b817f924015468312a93a0
+ms.openlocfilehash: a72fd141bb1178a3a83385c512d1a655064d5b00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896593"
 ---
 # <a name="workflow-faq"></a>İş akışıyla ilgili SSS
 
@@ -26,7 +26,7 @@ ms.locfileid: "8370892"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Bu konu, iş akışı sistemi hakkında sık sorulan soruları yanıtlamaktadır.
+Bu makalede, iş akışı sistemi hakkında sık sorulan sorular yanıtlanmaktadır.
 
 ## <a name="why-are-multiple-notifications-received-when-a-work-item-is-rejected"></a>Bir iş öğesi reddedildiğinde neden birden fazla uyarı alınır?
 Bir iş öğesi reddedildiğinde, bu iş maddesi reddedildi olarak tamamlanır. Başka bir iş öğesi oluşturulur ve başlatıcıya atanır. Bu, reddedilen iş öğesi için başlatan bir uyarı olacağı ve ayrı bir uyarının, yeni "değişim talebi" iş öğesine atanan kullanıcıya gönderileceği anlamına gelir. 

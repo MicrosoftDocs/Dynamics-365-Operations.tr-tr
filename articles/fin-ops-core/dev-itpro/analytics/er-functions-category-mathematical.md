@@ -1,6 +1,6 @@
 ---
 title: Matematiksel kategorisindeki ER işlevlerinin listesi
-description: Bu konu, elektronik raporlama (ER) uygulamasında desteklenen matematiksel işlevleri hakkında bilgi sağlar.
+description: Bu makalede, Elektronik raporlama (ER) uygulamasında desteklenen matematiksel işlevler hakkında bilgi sağlanmaktadır.
 author: NickSelin
 ms.date: 12/17/2019
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2788ba22a7fffe24f349f9b78f9221e423ae90976309ca6017fbe6fade500f67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f3e657d2684ce97bb3bd5885ec02436e47723ae6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747357"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894396"
 ---
 # <a name="list-of-er-functions-in-the-mathematical-category"></a>Matematiksel kategorisindeki ER işlevlerinin listesi
 
 [!include [banner](../includes/banner.md)]
 
-Elektronik raporlama (ER) matematik işlevleri, birçok genel matematiksel hesaplamayı yapmak için kullanılabilir. Bu konu, bu işlevlerin özetini sunmaktadır.
+Elektronik raporlama (ER) matematik işlevleri, birçok genel matematiksel hesaplamayı yapmak için kullanılabilir. Bu makale, bu işlevlerin özetini sunmaktadır.
 
 ## <a name="list-of-supported-functions"></a>Desteklenen işlevler listesi
 

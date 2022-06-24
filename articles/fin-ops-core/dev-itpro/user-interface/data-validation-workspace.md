@@ -12,12 +12,12 @@ ms.reviewer: tfehr
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: fef3130f06cbb1d8afdbae93bdc55b47be3480b3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 626b3bbaf88f905bd167ad9eea4683ed1855eb92
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070839"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860053"
 ---
 # <a name="data-validation-checklist-workspace"></a>Veri doğrulama denetim listesi çalışma alanı
 
@@ -26,7 +26,7 @@ ms.locfileid: "8070839"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Bu konu, **Veri doğrulama denetim listesi** çalışma alanı ve bununla ilişkili yapılandırma hakkında genel bir bakış sağlar.
+Bu makalede, **Veri doğrulama denetim listesi** çalışma alanı ve bununla ilişkili yapılandırma hakkında genel bir bakış sağlanmaktadır.
 
 **Veri doğrulama yapılacaklar listesi** çalışma alanı, şirketler, bölgeler ve kişiler arasındaki veri doğrulama işlemlerini izlemenize olanak sağlar. Denetim listesi yeni bir uygulama sırasında, bir yükseltmeden sonra veya bir geçişten sonra kullanılabilir. **Veri doğrulama yapılacaklar listesi** çalışma alanınızın görünümüne bağlı olarak, bir veri doğrulama projesi için tüm görevleri ve durumlar ya da sadece size atanmış olan görevleri görürsünüz.
 

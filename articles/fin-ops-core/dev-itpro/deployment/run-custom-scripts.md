@@ -1,6 +1,6 @@
 ---
 title: Özel X++ komut dosyalarını sıfır kapalı kalma süresiyle çalıştırma
-description: Bu konuda, sisteminizi askıya almak zorunda kalmadan özel X++ komut dosyaları içeren dağıtılabilir paketlerin nasıl yüklenip çalıştırılacağı açıklanmaktadır.
+description: Bu makalede, sisteminizi askıya almak zorunda kalmadan özel X++ komut dosyaları içeren dağıtılabilir paketlerin nasıl yüklenip çalıştırılacağı açıklanmaktadır.
 author: AndersGirke
 ms.date: 12/16/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: fcd0a472fa5116ca0b3a59561b6eeb72181a9113
-ms.sourcegitcommit: 44e6875e974a3a1b3e1d7a24c1a3cff3d3697cdc
+ms.openlocfilehash: ff01e2ff8ec105603bb91e0b555301f36e8985b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "8088356"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867343"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>Özel X++ komut dosyalarını sıfır kapalı kalma süresiyle çalıştırma
 
@@ -122,7 +122,7 @@ Komut dosyasını yüklemek ve çalıştırmak için aşağıdaki yordamı kulla
 
 1. Finans ve Operasyon uygulamanızda, **Sistem yönetimi \> Periyodik görevler \> Veritabanı \> Özel komut dosyaları**'na gidin.
 1. **Yükle**'yi seçin.
-1. Bu konuda daha önce açıklandığı gibi oluşturduğunuz dağıtılabilir paketi seçin. Komut dosyasının amacını belirtmeniz istenecektir.
+1. Bu makalede daha önce açıklandığı gibi oluşturduğunuz dağıtılabilir paketi seçin. Komut dosyasının amacını belirtmeniz istenecektir.
 1. Komut dosyası artık dosyayı yükleyen kullanıcı dışında bir kullanıcı tarafından onaylanmalıdır. Onaylayan kullanıcı aşağıdaki adımları izlemelidir:
 
     1. **Sistem yönetimi \> Periyodik \> Veri tabanı \> Özel komut dosyaları**'na gidin.

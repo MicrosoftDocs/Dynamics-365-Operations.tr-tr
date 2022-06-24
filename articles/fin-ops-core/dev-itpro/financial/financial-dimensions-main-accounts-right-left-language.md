@@ -1,6 +1,6 @@
 ---
 title: Sağdan sola doğru okunan dillerde mali boyutlar ve ana hesaplar
-description: Bu konu, sağdan sola doğru okunan bir dil kullandığınızda ve mali boyutlar ve ana hesaplar ayarlamanız gerektiğinde vermeniz gereken kararları açıklar.
+description: Bu makalede, sağdan sola doğru okunan bir dil kullandığınızda ve mali boyutlar ve ana hesaplar ayarlamanız gerektiğinde vermeniz gereken kararlar açıklanmaktadır.
 author: RyanCCarlson2
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: rcarlson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5de2e0e6e56651487ebd36e3594eb378ce6154ea
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: b1e2c0ef5cd405232332847078c70af42f056e17
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734967"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866774"
 ---
 # <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Sağdan sola doğru okunan dillerde mali boyutlar ve ana hesaplar
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, sağdan sola doğru okunan bir dil kullandığınızda ve finansal boyutlar ve ana hesaplar ayarlamanız gerektiğinde değerlendirmeniz gereken bazı uygulama kararlarını açıklar.
+Bu makalede, sağdan sola doğru okunan bir dil kullandığınızda ve finansal boyutlar ve ana hesaplar ayarlamanız gerektiğinde değerlendirmeniz gereken bazı uygulama kararları açıklanmaktadır.
 
 Mali boyutları ve ana hesaplar bir uygulama için planlama aşamasının anahtar bileşenleridir. Mali boyutlar ve ana hesaplar sistemde oluşturulduktan sonra **Hesap yapıları yapılandır**, **Gelişmiş kural yapıları** ve **Uygulamaları tümleştirmek için mali boyut yapılandırması** sayfalarında kullanılır. Bu sayfalarda tanımlanan sıra, sistemde veri girişi ve tüketim için kullanılır. Sistemdeki bazı yerlerde mali boyutlar ve ana hesaplar ayrı alanlarda görünür. Günlükler gibi diğer yerlerde mali boyutlar ve ana hesaplar tek bir dize olarak görünür.
 

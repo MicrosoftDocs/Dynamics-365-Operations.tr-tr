@@ -1,6 +1,6 @@
 ---
 title: Regression suite automation tool öğreticisi
-description: Bu konu, Regression suite automation tool'un (RSAT) nasıl kullanılacağını gösterir. Çeşitli özellikleri tanımlar ve gelişmiş komut dosyası kullanan örnekler sunar.
+description: Bu makale, Regression Suite Automation Tool'un (RSAT) nasıl kullanılacağını gösterir. Çeşitli özellikleri tanımlar ve gelişmiş komut dosyası kullanan örnekler sunar.
 author: FrankDahl
 ms.date: 09/23/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: e2273aefb98880a1ae746ef7ec65b4f2262f3560
-ms.sourcegitcommit: 49c97b0c94e916db5efca5672d85df70c3450755
+ms.openlocfilehash: 04c7d7081ece4e077881092534ed061fe2d0e999
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "8492934"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854613"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool öğreticisi
 
@@ -650,7 +650,7 @@ Uygulamayı bir ayarlar dosyası ile çalıştırma:
 
 #### <a name="run-a-test-case-in-a-loop"></a>Test olayının döngüde çalıştırılması
 
-Yeni müşteri oluşturan bir test koduna sahipsiniz. Bu test olayı, kodlama yoluyla her bir tekrarlama çalıştırılmadan önce aşağıdaki verileri rastgele seçerek bir döngü içerisinde çalışabilir.
+Yeni bir müşteri oluşturan bir test koduna sahipsiniz. Bu test olayı, kodlama yoluyla her bir tekrarlama çalıştırılmadan önce aşağıdaki verileri rastgele seçerek bir döngü içerisinde çalışabilir.
 
 - Müşteri kimliği
 - Müşteri adı

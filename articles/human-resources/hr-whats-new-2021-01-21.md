@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources'daki yenilikler veya değişiklikler (21 Ocak 2021)
-description: Bu konuda, 21 Ocak 2021 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, 21 Ocak 2021 için Microsoft Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır.
 author: marcelbf
 ms.date: 01/21/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: be50596cd64839ba82b847b2fabb0f46dc749a3f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9f1f660b7993804901f5fc9d3b608c141882bff5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686869"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901103"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Dynamics 365 Human Resources'daki yenilikler veya değişiklikler (21 Ocak 2021)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, Dynamics 365 Human Resources'daki yeni, değişen veya gelecek özellikler açıklanmaktadır.
+Bu makalede, Dynamics 365 Human Resources'da yeni, değişen veya yakında sunulacak özellikler açıklanmaktadır.
 
 Güncelleştirme işlemi ve planı hakkında daha fazla bilgi için bkz. [Güncelleştirme işlemi](hr-admin-setup-update-process.md).
 
@@ -53,9 +53,9 @@ Aşağıdaki özellikler genel olarak bu sürümde mevcuttur.
 Bu sürümde aşağıdaki hata çözümleri bulunmaktadır.
 
 > [!NOTE]
-> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu konu ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmelerini eklemek için bu konuya güncelleştirmeler uygulayabiliriz.
+> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu makale, ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmeleri eklenerek güncelleştirilebilir.
 
-| Sorun numarası | Çıkış |  Tanım |
+| Sorun numarası | Sorun |  Açıklama |
 | --- | --- | --- |
 | 533079 | Kesintilere bakmaya çalıştığımda, gezinti hatası "Form hatalı olarak çağrıldı" alıyorum. | Sosyal haklar kesintilerine **Tarih itibarıyla** görünümünde bakarken oluşan hata düzeltildi. |
 | 543641 | Posta Kodu elektronik raporlamada doldurulmuyor.  | Kapsama kodu M ile Q arasında olduğunda, Yan haklar yönetimi için ACA elektronik raporlarında Posta Kodunun görünmediği bir dahili hata düzeltildi. |

@@ -1,6 +1,6 @@
 ---
 title: Regression Suite Automation Tool eğitimi ayarlama ve yükleme
-description: Bu konu,Regression Suite Automation Tool'un (RSAT). nasıl ayarlanacağını ve yükleneceğini gösteren bir eğitimdir.
+description: Bu makale, Regression Suite Automation Tool'un (RSAT) nasıl ayarlanacağını ve yükleneceğini gösteren bir eğitimdir.
 author: tonyafehr
 ms.date: 09/20/2019
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 5dcdd14f54b9c0ad39794ff98ede29332c246513
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: ec4ae765aaac038e6c7eff11403fb21ebd27fc2c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782003"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858604"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool eğitimi ayarlama ve yükleme
 
-Bu konu, RSAT ve RSAT kullanmayla ilgili araçları almanıza ve bu kurulumu başlatmanıza yardımcı olan bir eğitimdir.
+Bu makale, RSAT ve RSAT kullanmayla ilgili araçları almanıza ve bu kurulumu başlatmanıza yardımcı olan bir eğitimdir.
 
 [!include [banner](../../includes/banner.md)]
 
@@ -111,7 +111,7 @@ Bu öğreticide, bir test durumu kitaplığı oluşturmak ve test olaylarınız�
 
 ## <a name="configure-the-lcs-project"></a>LCS projesini yapılandırma
 
-Ana test kitaplığınız için bir Lifecycle Services (LCS) projesi gerekir. İş Süreci Modelleyici (BPM) test durumlarınız için ana kitaplık olarak kullanılır. BPM, test kitaplıklarını LCS projeleri üzerinden yönetmek ve dağıtmak için kullanılır. Örneğin, bir Microsoft ortağı veya bağımsız yazılım satıcısı (ISV) oluşturma testi kitaplığı, test olayları BPM kitaplıkları biçiminde serbest bırakacaktır. BPM'de, test olayları iş sürecine göre düzenlenir. BPM, test geçişinin yürütme sırasını veya sıklığını tanımlamaz. Bu detaylar, bu konunun ilerisinde anlatıldığı gibi Azure DevOps'ta yönetilir.  
+Ana test kitaplığınız için bir Lifecycle Services (LCS) projesi gerekir. İş Süreci Modelleyici (BPM) test durumlarınız için ana kitaplık olarak kullanılır. BPM, test kitaplıklarını LCS projeleri üzerinden yönetmek ve dağıtmak için kullanılır. Örneğin, bir Microsoft ortağı veya bağımsız yazılım satıcısı (ISV) oluşturma testi kitaplığı, test olayları BPM kitaplıkları biçiminde serbest bırakacaktır. BPM'de, test olayları iş sürecine göre düzenlenir. BPM, test geçişinin yürütme sırasını veya sıklığını tanımlamaz. Bu detaylar, bu makalenin ilerleyen bölümlerinde anlatıldığı gibi Azure DevOps'ta yönetilir.  
 
 LCS projeniz için varolan bir müşteri uygulamasını veya ortak projeyi kullanabilirsiniz.
 

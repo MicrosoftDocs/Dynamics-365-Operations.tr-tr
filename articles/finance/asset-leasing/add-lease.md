@@ -1,6 +1,6 @@
 ---
 title: Kiralama ekleme veya kopyalama (Önizleme)
-description: Bu konuda, Varlık kiralamada kiralamaya ilişkin bilgi girerek veya mevcut bir kiralamadaki bilgileri kopyalayarak yeni bir kiralama oluşturma açıklanmaktadır.
+description: Bu makalede, Varlık kiralamada kiralamaya ilişkin bilgi girerek veya mevcut bir kiralamadaki bilgileri kopyalayarak yeni bir kiralama oluşturma açıklanmaktadır.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 798ab3ece45ee6f21694a364cfb7a4ff14a9c8aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967938"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880946"
 ---
 # <a name="add-or-copy-leases-preview"></a>Kiralama ekleme veya kopyalama (Önizleme)
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Varlık kiralamada sıfırdan kiralama oluşturma ve mevcut bir kiralamayı kopyalayarak kiralama oluşturma yöntemleri açıklanmaktadır. Sıfırdan kiralama oluşturma işlemi, yeni kiralamaya ilişkin bilgilerin girilmesini ve sonra bir kiralama planlamasının oluşturulmasını içerir. En az bir kiralama ayarladıktan sonra, bilgileri mevcut bir kiralamadan kopyalayıp daha sonra yeni bir kiralama oluşturmak için bu bilgileri düzenlemeniz daha kolay olabilir.
+Bu makalede, Varlık kiralamada sıfırdan kiralama oluşturma ve mevcut bir kiralamayı kopyalayarak kiralama oluşturma yöntemleri açıklanmaktadır. Sıfırdan kiralama oluşturma işlemi, yeni kiralamaya ilişkin bilgilerin girilmesini ve sonra bir kiralama planlamasının oluşturulmasını içerir. En az bir kiralama ayarladıktan sonra, bilgileri mevcut bir kiralamadan kopyalayıp daha sonra yeni bir kiralama oluşturmak için bu bilgileri düzenlemeniz daha kolay olabilir.
 
 ## <a name="create-a-lease"></a>Kiralama oluşturma
 

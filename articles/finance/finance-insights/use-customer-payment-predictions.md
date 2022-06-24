@@ -1,6 +1,6 @@
 ---
 title: Müşteri ödeme tahminleri kullanma
-description: Bu konu, Mali içgörülerimn deneme sürümünü kullanmak için gerekli ön koşulları ve kapsamlı adımları açıklar.
+description: Bu makale, Finance Insights'ın deneme sürümünü kullanmak için gerekli ön koşulları ve kapsamlı adımları açıklar.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ecc864485dfc106df22b48e92a85f2c73d58e0e8
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 330642624b55a6772ef149b70873021401a6bd83
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740638"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901416"
 ---
 # <a name="use-customer-payment-predictions"></a>Müşteri ödeme tahminleri kullanma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Müşteri ödeme tahminlerinin nasıl kullanılacağını açıklar. Bu özelliği kullanmadan önce, kurulum adımlarını tamamladığınızdan emin olun. Daha fazla bilgi için bkz. [Müşteri ödeme tahminlerini etkinleştirme](enable-cust-paymnt-prediction.md).
+Bu makale, Müşteri ödeme tahminlerinin nasıl kullanılacağını açıklar. Bu özelliği kullanmadan önce, kurulum adımlarını tamamladığınızdan emin olun. Daha fazla bilgi için bkz. [Müşteri ödeme tahminlerini etkinleştirme](enable-cust-paymnt-prediction.md).
 
 **Müşteri alacak ve tahsilatlarını yönetme** çalışma alanında ve **Hareket ödeme tahminleri** ile **Müşteri ödeme tahminleri** adlı iki yeni liste sayfasında müşteri ödeme tahminlerini görebilirsiniz.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e884e96e1275f9162b642bbe48c2d891c6434002
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: d4be32a7158561bdf00a996831dca7395ce6f331
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109980"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879754"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Fatura eşleştirme ve şirketlerarası satınalma siparişleri
 
@@ -28,7 +28,7 @@ ms.locfileid: "8109980"
 
 Bir şirketlerarası ticaret hareketinde yer alan satın alma tüzel kişiliği, borç hesapları fatura eşleştirmesini kullanacak şekilde ayarlanabilir. **Borç hesapları parametreleri** sayfasındaki **Uyuşmazlıkları olan faturayı deftere naklet** alanı **Onay gerektir** olarak ayarlandığında fatura eşleştirme doğrulaması gerçekleştirilir. Bu durumda, şirketlerarası satıcı faturalarının deftere nakledilebilmesi için, hem şirketlerarası ticaret için, hem de borç hesapları fatura eşleştirmesi için deftere nakil gereksinimleri karşılanmalıdır.
 
-Bu başlıktaki örnekler aşağıdaki şirketlerarası ticaret ayarlarını kullanır:
+Bu makaledeki örneklerde, aşağıdaki şirketlerarası ticaret ayarları kullanılır:
 -   Fabrikam Satınalma, satınalma yapan yasal varlıktır.
 -   Fabrikam Satış, satış yapan yasal varlıktır.
 -   Müşteri 4020, Fabrikam Satışlar içinde yer alır.

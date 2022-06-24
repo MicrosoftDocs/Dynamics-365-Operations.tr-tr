@@ -1,6 +1,6 @@
 ---
 title: Human Resources özellikleri yönetme
-description: Bu konu Özellik Yönetimi özelliğini ve nasıl kullanabileceğinizi açıklar.
+description: Bu makalede, Özellik Yönetimi özelliği ve nasıl kullanabileceği açıklanmaktadır.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 914752e71871ce05255fbb52ad6a0ee8f0226a4c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a5023e8b60ede1f75961abff158bec9424d1aca4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687317"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907623"
 ---
 # <a name="manage-features-in-human-resources"></a>Human Resources özellikleri yönetme
 

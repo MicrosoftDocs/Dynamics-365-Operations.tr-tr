@@ -1,6 +1,6 @@
 ---
 title: Bileşik aralık işlevi
-description: Bu konuda aylık, üç aylık, yarı yıllık ve yıllık bileşik aralıklar arasından seçim yapmanıza yardımcı olacak bilgiler sağlanır.
+description: Bu makalede aylık, üç aylık, yarı yıllık ve yıllık bileşik aralıklar arasından seçim yapmanıza yardımcı olacak bilgiler sağlanmaktadır.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d1b8af3d5f8f6a6812fe309f57f682d0c5023d00
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 2de5f1e9d52de41388298031a03fbc487a1b1cde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710456"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886443"
 ---
 # <a name="compounding-interval-functionality"></a>Bileşik aralık işlevi
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Bu konuda aylık, üç aylık, yarı yıllık ve yıllık bileşik aralıklar arasından seçim yapmanıza yardımcı olacak bilgiler sağlanır. Bileşik aralık işlevi, bir kiralamanın ödeme planında yıl başına bileşik dönemlerin sayısını belirlemek için kullanılır. Bu konudaki dört örneğin her biri, farklı bir aralık için kiralama ödeme planının nasıl görüneceğini gösterir.
+Bu makalede aylık, üç aylık, yarı yıllık ve yıllık bileşik aralıklar arasından seçim yapmanıza yardımcı olacak bilgiler sağlanmaktadır. Bileşik aralık işlevi, bir kiralamanın ödeme planında yıl başına bileşik dönemlerin sayısını belirlemek için kullanılır. Bu makaledeki dört örneğin her biri, farklı bir aralık için kiralama ödeme planının nasıl görüneceğini gösterir.
 
 Kiralama ödeme sıklığından daha az sıklıkta bir bileşik aralık seçemezsiniz. Örneğin, üç aylık bileşik aralık aylık ödeme sıklığıyla kullanılamaz ve yıllık bileşik aralık yarı yıllık ödeme sıklığıyla birlikte kullanılamaz. Kiralama ödeme sıklığından daha az sıklıkta bir bileşik aralık seçmeye çalışırsanız bir hata iletisi alırsınız.
 
 > [!NOTE]
-> Bu konudaki dört örnekte, bileşik aralık ödeme sıklığıyla eşleşir.
+> Bu makaledeki dört örnekte, bileşik aralık ödeme sıklığıyla eşleşir.
 
 ## <a name="examples"></a>Örnekler
 

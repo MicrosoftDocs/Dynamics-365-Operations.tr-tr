@@ -1,6 +1,6 @@
 ---
 title: Dengeleme mali boyutlarını nasıl ayarlayabilirim?
-description: Bu konuda, Dengeleme mali boyutu özelliğini ayarlama ve kullanma seçenekleri açıklanmaktadır.
+description: Bu makalede, Dengeleme mali boyutu özelliğini ayarlama ve kullanma seçenekleri açıklanmaktadır.
 author: kweekley
 ms.date: 08/25/2021
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-08-17
 ms.dyn365.ops.version: 10.0.210
-ms.openlocfilehash: cb3033a615200a358c1b28b0991bae4b84470ae0
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: dd859629b0eb9f14fa4907699613382f3897d21d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720125"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878026"
 ---
 # <a name="how-do-i-set-up-balancing-financial-dimensions"></a>Dengeleme mali boyutlarını nasıl ayarlayabilirim?
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Dengeleme mali boyutu özelliğini ayarlama ve kullanma seçenekleri açıklanmaktadır.
+Bu makalede, Dengeleme mali boyutu özelliğini ayarlama ve kullanma seçenekleri açıklanmaktadır.
 
 ## <a name="symptom"></a>Belirti
 
-Dengeleme mali boyutlarını ayarlamak için iki seçenek vardır. İlk seçenek, **Genel muhasebe** kurulumu sayfasındaki **Dengeleme mali boyutu** alanını kullanmaktır (**Genel muhasebe \> Genel muhasebe kurulumu \> Kayıt defteri**). İkinci seçenek, **Mali boyutlar** sayfasındaki **Boyutun dengelenmesi gerekir** alanını kullanmaktır (**Genel muhasebe > Hesap planı \> Boyutlar \> Mali boyutlar**). Bu konuda, bu iki seçenek arasındaki fark açıklanmaktadır.
+Dengeleme mali boyutlarını ayarlamak için iki seçenek vardır. İlk seçenek, **Genel muhasebe** kurulumu sayfasındaki **Dengeleme mali boyutu** alanını kullanmaktır (**Genel muhasebe \> Genel muhasebe kurulumu \> Kayıt defteri**). İkinci seçenek, **Mali boyutlar** sayfasındaki **Boyutun dengelenmesi gerekir** alanını kullanmaktır (**Genel muhasebe > Hesap planı \> Boyutlar \> Mali boyutlar**). Bu makalede, bu iki seçenek arasındaki fark açıklanmaktadır.
 
 ## <a name="resolution"></a>Çözüm
 

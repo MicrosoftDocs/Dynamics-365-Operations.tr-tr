@@ -1,6 +1,6 @@
 ---
 title: Tahsisat koşulları
-description: Bu konu, bir ana hesapta tahsisat koşullarının kullanılması hakkında bilgi sağlar.
+description: Bu makalede, bir ana hesapta tahsisat koşullarının kullanılması hakkında bilgi sağlanmaktadır.
 author: rachel-profitt
 ms.date: 06/15/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-06-15
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab3f797505e2c3d7521d3af5c231f5985e6efaa5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d62c0cc79c9d61e0ebb1c2c62a345ad47412d0d2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734909"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859841"
 ---
 # <a name="allocation-terms"></a>Tahsisat koşulları
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, bir ana hesapta tahsisat koşullarının kullanılması hakkında bilgi sağlar. Tahsisat koşulları, tutarları birden fazla genel muhasebe hesabı birleşimleri arasında dağıtmak için kullanılır. Gelir ve giderlerin muhasebede doğru nesneye yazılmasını sağlamaya yardımcı olurlar.
+Bu makalede, bir ana hesapta tahsisat koşullarının kullanılması hakkında bilgi sağlanmaktadır. Tahsisat koşulları, tutarları birden fazla genel muhasebe hesabı birleşimleri arasında dağıtmak için kullanılır. Gelir ve giderlerin muhasebede doğru nesneye yazılmasını sağlamaya yardımcı olurlar.
 
 Ana hesapta oluşturduğunuz her tahsisat koşulu, tek kaynaklı bir ana hesaptan ve mali boyutların bir bileşiminden tahsis edilecek fişin yüzdesini tanımlar. Ek olarak, hedef ana hesabı ve tutarın tahsis edileceği mali boyutları siz tanımlarsınız. 
 

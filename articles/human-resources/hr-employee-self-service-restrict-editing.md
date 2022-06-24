@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 98cb7c2f1f57dacf303e2e9bc7779ce3ede6733e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c82114f6600345ee5e2eb9c1c0629ae6c8f0b9a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695886"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877699"
 ---
 # <a name="restrict-editing-of-personal-information"></a>Kişisel bilgilerin düzenlenmesini kısıtlama
 
@@ -29,7 +29,7 @@ ms.locfileid: "8695886"
 [!include [applies to](../includes/applies-to-hr.md)]
 [!include [preview feature](./includes/preview-feature.md)]
 
-Bu konuda, çalışanların Dynamics 365 Human Resources'da iletişim bilgilerini düzenlemesinin nasıl kısıtlanacağı açıklanmaktadır. Çalışanların iş konumları veya e-posta adresleri gibi belirli iletişim bilgilerini düzenlemelerini engellemek isteyebilirsiniz.
+Bu makalede, çalışanların Dynamics 365 Human Resources'da iletişim bilgilerini düzenlemesinin nasıl kısıtlanacağı açıklanmaktadır. Çalışanların iş konumları veya e-posta adresleri gibi belirli iletişim bilgilerini düzenlemelerini engellemek isteyebilirsiniz.
 
 > [!NOTE]
 > Bu özelliği kullanmak için önce Özellik yönetiminde **(Önizleme) Belirli amaçlar için çalışanların adres ve iletişim bilgilerini eklemesini veya düzenlemesini kısıtlama** özelliğini etkinleştirmeniz gerekir. Önizleme özelliklerini etkinleştirmeyle ilgili daha fazla bilgi için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).<br><br>![Önizleme özelliğini etkinleştirme.](./media/hr-employee-self-service-restrict-enable.png)

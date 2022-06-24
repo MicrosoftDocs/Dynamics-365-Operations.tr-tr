@@ -1,6 +1,6 @@
 ---
 title: Örneği kaldırma
-description: Bu konuda, Dynamics 365 Human Resources için bir test sürüşü kaldırma yeni bir üretim ortam işlemi adım adım anlatılmaktadır.
+description: Bu konuda, Microsoft Dynamics 365 Human Resources için bir test sürüşü kaldırma yeni bir üretim ortam işlemi adım adım anlatılmaktadır.
 author: twheeloc
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 522989298544fa5a2c0812bc57e9ae4ae21fe250
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4256938be70f301d3d7b7663f10addb19725b048
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692380"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859647"
 ---
 # <a name="remove-an-instance"></a>Örneği kaldırma
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, Microsoft Dynamics 365 Human Resources için bir test sürüşünün veya üretim ortamının kaldırılması süreci açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Human Resources için bir test sürüşünün veya üretim ortamının kaldırılması süreci açıklanmaktadır.
 
 ## <a name="remove-a-test-drive-environment"></a>Bir test ortamını kaldırma
 
@@ -40,7 +40,7 @@ Var olan test ortamı kaldırılır. Kaldırıldığında, yeni bir test ortamı
 
 ## <a name="remove-a-production-environment"></a>Bir üretim ortamını kaldırma
 
-Bu konuda, Human Resources uygulamasını bir Bulut Çözümü Sağlayıcısı (CSP) veya kurumsal mimari (EA) sözleşmesi aracılığıyla aldığınız varsayılır. 
+Bu konuda, İnsan Kaynaklarını bir Bulut Çözümü Sağlayıcısı (CSP) veya kurumsal mimari (EA) sözleşmesi aracılığıyla aldığınız varsayılır. 
 
 Tek bir İnsan Kaynakları ortamı tek bir Power Apps ortamı içinde "yer aldığından", dikkate alınması gereken iki seçenek vardır. İlk seçenek tüm Power Apps ortamını kaldırmayı, ikinci seçenek yalnızca İnsan Kaynakları'nı kaldırmayı içerir. İlk seçenek, Power Apps ortamını özellikle İnsan Kaynakları sağlamak için oluşturmuş, uygulamaya henüz başlamış veya herhangi bir tümleştirme yapmamış olmanız durumunda tercih edilir. İkinci seçenek Power Apps ve Power Automate'ten alınan zengin verilerle doldurulan bir Power Apps ortamınız olması durumunda uygundur.
 

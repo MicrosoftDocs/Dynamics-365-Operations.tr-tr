@@ -1,6 +1,6 @@
 ---
 title: Satış sözleşmelerine genel bakış
-description: Bu konu, satış sözleşmeleri hakkında bilgiler sağlar. Satış anlaşması, müşterinin özel fiyatlar ve iskontolar karşılığında ürünleri, belirli miktarda veya belirli bir zaman aralığında belirli bir tutarda almasını sağlayan bir sözleşmedir.
+description: Bu makale, satış sözleşmeleri hakkında bilgiler sağlar. Satış anlaşması, müşterinin özel fiyatlar ve iskontolar karşılığında ürünleri, belirli miktarda veya belirli bir zaman aralığında belirli bir tutarda almasını sağlayan bir sözleşmedir.
 author: Henrikan
 ms.date: 07/25/2019
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c36ace4fe61d4f3add7750c66594c0f1060f8127
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3e84b8be597870deea3beaf1bdc4a98021b7f135
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694382"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903854"
 ---
 # <a name="sales-agreements-overview"></a>Satış sözleşmelerine genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, satış sözleşmeleri hakkında bilgiler sağlar. Satış anlaşması, müşterinin özel fiyatlar ve iskontolar karşılığında ürünleri, belirli miktarda veya belirli bir zaman aralığında belirli bir tutarda almasını sağlayan bir sözleşmedir.
+Bu makale, satış sözleşmeleri hakkında bilgiler sağlar. Satış anlaşması, müşterinin özel fiyatlar ve iskontolar karşılığında ürünleri, belirli miktarda veya belirli bir zaman aralığında belirli bir tutarda almasını sağlayan bir sözleşmedir.
 
 Bir satış anlaşması,müşterinin belirli bir miktarda ya da belirli bir zaman zarfında ürün satın alması karşılığında özel fiyatlar, özel iskontolar ve ödeme ve teslimat koşulları gibi diğer özel koşullara hak kazanmasını sağlayan bir anlaşmadır. Mevcut herhangi bir ticaret anlaşmasındaki belirtilen fiyatlar ve iskontolar, satış anlaşmasındaki fiyatlar ve iskontolar tarafından geçersiz kılınır.  
 

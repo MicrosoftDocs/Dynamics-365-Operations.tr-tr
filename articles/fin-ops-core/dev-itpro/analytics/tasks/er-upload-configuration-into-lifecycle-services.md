@@ -1,6 +1,6 @@
 ---
 title: Lifecycle Services'e bir yapılandırma yükleme
-description: Bu konuda, yeni bir Elektronik raporlama (ER) yapılandırması oluşturma ve bunu Microsoft Dynamics Lifecycle Services'a (LCS) yükleme açıklanmaktadır.
+description: Bu makalede, yeni bir Elektronik raporlama (ER) yapılandırması oluşturma ve bunu Microsoft Dynamics Lifecycle Services'a (LCS) yükleme açıklanmaktadır.
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b480351875c7d300db790a68d61a402218f8ee36d8247188b912762f21d035b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2b84fc3167b3edaf6b99fa8bb0efd373c7f57c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720772"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885528"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>Lifecycle Services'e bir yapılandırma yükleme
 
 [!include [banner](../../includes/banner.md)]
 
-Aşağıdaki konuda, Sistem yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının yeni bir [Elektronik Raporlama (ER) yapılandırması](../general-electronic-reporting.md#Configuration) oluşturarak Microsoft Dynamics Lifecycle Services (LCS)'de [proje düzeyi Varlık kitaplığı'na](../../lifecycle-services/asset-library.md) yüklemesi açıklanmaktadır.
+Bu makalede, Sistem yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının yeni bir [Elektronik Raporlama (ER) yapılandırması](../general-electronic-reporting.md#Configuration) oluşturarak Microsoft Dynamics Lifecycle Services'da (LCS) [proje düzeyi Varlık kitaplığı'na](../../lifecycle-services/asset-library.md) yüklemesi açıklanmaktadır.
 
 > [!IMPORTANT]
 > LCS'nin, ER yapılandırmaları için saklama deposu olarak kullanılma özelliği [kullanım dışı bırakılıyor](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Daha fazla bilgi için bkz. [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) depolamasının kullanım dışı bırakılması](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
@@ -42,7 +42,7 @@ Bu örnekte Litware, Inc. örnek şirketi için bir yapılandırma oluşturacak 
 
 <a name="accessconditions"></a>
 > [!NOTE]
-> Geçerli Dynamics 365 Finance kullanıcısının, ER konfigürasyonlarını içe aktarmak için kullanılacak [Varlık kitaplığı'nı](../../lifecycle-services/asset-library.md#asset-library-support) içeren LCS projesine üye olduğundan emin olun.
+> Geçerli Dynamics 365 Finance kullanıcısının, ER yapılandırmalarını içeri aktarmak için kullanılacak [Varlık kitaplığı](../../lifecycle-services/asset-library.md#asset-library-support)'nı içeren LCS projesine üye olduğundan emin olun.
 >
 > Bir LCS projesine Finance içinde kullanılan etki alanından farklı bir etki alanını temsil eden bir ER havuzundan erişemezsiniz. Denediğinizde, boş bir LCS proje listesi görüntülenir ve bu yapılandırmaları LCS'de proje düzeyi Varlık kitaplığı'ndan içe aktarmanız mümkün olmayacaktır. ER yapılandırmalarını içe aktarmak için kullanılan bir ER havuzundan proje düzeyi Varlık kitaplıkları'na erişmek için, geçerli Finance örneğinin sağlandığı kiracıya (etki alanı) ait bir kullanıcının kimlik bilgilerini kullanarak Finance uygulamasında oturum açın.
 

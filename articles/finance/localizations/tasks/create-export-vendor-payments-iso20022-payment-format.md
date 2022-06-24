@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7bd5308e7589cb280244ea85e184422cbe2aa09f1cb548a81445defbd082e42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac84055586eff678ea489b35198b1c2dfab13658
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752110"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856481"
 ---
-# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>ISO20022 ödeme biçimini kullanarak satıcı ödemeleri oluşturma ve dışa aktarma
+# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>ISO20022 ödeme biçimini kullanarak satıcı ödemeleri oluşturma ve dışarı aktarma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, Satıcı ödeme günlüğünde ödeme satırlarının ve ISO2022 Alacak transferi örneğini kullanarak bir satıcı ödemesi dosyasının nasıl oluşturulacağını açıklar.
+Bu makalede, satıcı ödeme günlüğünde ödeme satırlarının nasıl oluşturulacağı ve ISO2022 Alacak transferi örneği kullanılarak bir satıcı ödemesi dosyasının nasıl oluşturulacağı açıklanmaktadır.
 
 Bu, birlikte elektronik raporlama yapılandırmalarını kullanarak satıcı ödemesi işlemini gösteren beş yordamın beşincisidir. Bu örneği tamamlamak için DEMF demo verisini kullanın.
 

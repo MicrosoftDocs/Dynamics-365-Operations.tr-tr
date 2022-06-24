@@ -1,6 +1,6 @@
 ---
-title: Ambar Yönetimi mobil uygulaması aracılığıyla plaka teslim alma
-description: Bu konu, fiziksel stoğu almak için bir plaka teslim alma işlemi kullanmayı desteklemek üzere Ambar Yönetimi mobil uygulamasının nasıl ayarlanacağını açıklamaktadır.
+title: Warehouse Management mobil uygulaması aracılığıyla plaka alma
+description: Bu makale, fiziksel stoğu almak için bir plaka teslim alma işlemi kullanmayı desteklemek üzere Ambar Yönetimi mobil uygulamasının nasıl ayarlanacağını açıklamaktadır.
 author: perlynne
 ms.date: 04/29/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: fe083f16bd47b3f7bdfd366ae4b0fe4a02f49185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103075"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907014"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulaması aracılığıyla plaka teslim alma
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulaması aracılığıyla plaka alma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, fiziksel stoğu almak için bir plaka teslim alma işlemi kullanmayı destekleyecek şekilde Ambar Yönetimi mobil uygulamasının nasıl ayarlanacağını açıklamaktadır.
+Bu makale, fiziksel stoğu almak için bir plaka teslim alma işlemi kullanmayı destekleyecek şekilde Ambar Yönetimi mobil uygulamasının nasıl ayarlanacağını açıklamaktadır.
 
 Bu işlevi, bir ön sevkiyat bildirimi (ÖSB) ile ilgili gelen stoğun girişini hızlı bir şekilde kaydetmek için kullanabilirsiniz. Ambar yönetim işlemleri transfer emri sevk etmek için kullanıldığında, sistem otomatik olarak bir ÖSB oluşturur. Satınalma siparişi işlemi için, ÖSB el ile kaydedilebilir veya bir gelen ÖSB veri varlığı işlemi kullanılarak otomatik olarak içe aktarılabilir.
 

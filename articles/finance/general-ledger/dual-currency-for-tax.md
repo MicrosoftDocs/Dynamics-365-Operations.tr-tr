@@ -1,6 +1,6 @@
 ---
 title: Vergi için çift para birimi desteği
-description: Bu konu, vergi etki alanındaki iki para birimi ile muhasebe özelliğinin nasıl uzatılacağını ve vergi hesaplama ve deftere nakil işlemlerinin etkisini açıklamaktadır
+description: Bu makalede, vergi etki alanındaki çift para birimiyle muhasebe özelliğinin nasıl genişletileceği ve bunun vergi hesaplama ve deftere nakil işlemleri üzerindeki etkisi açıklanmaktadır
 author: EricWang
 ms.date: 12/11/2020
 ms.topic: article
@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fcd5a3afb442d9c85aba12b7782cf09f88f0e51a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 13d70d964a83c2efba090244d549bdb38ad25af2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713058"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909054"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Satış vergisi için çift para birimi desteği
 [!include [banner](../includes/banner.md)]
 
-Bu konu, satış vergileri için iki para birimi ile muhasebe özelliğinin nasıl uzatılacağını ve satış vergisi hesaplama ve deftere nakil işlemlerinin etkisini açıklamaktadır.
+Bu makalede, satış vergileri için çift para birimiyle muhasebe özelliğinin nasıl genişletileceği ve bunun satış vergisi hesaplama ve deftere nakil işlemlerine etkisi açıklanmaktadır.
 
 Dynamics 365 Finance için çift para birimi özelliği 8.1 (2018 Ekim) sürümünde kullanılmaya başlandı. Raporlama para birimi cinsinden hesap girişlerinin hesaplanma biçimini değiştirir.
 
@@ -89,7 +89,7 @@ Bu özellik yalnızca yeni hareketler için geçerlidir. Vergi hareketi için TA
 
 Önceki senaryoyu önlemek için bu parametre değerini, kapatılmamış vergi hareketleri içermeyen yeni (temiz) vergi kapatma döneminde değiştirmenizi öneririz. Vergi kapatma döneminin ortasındaki bu değeri değiştirmek için, lütfen bu parametre değerini değiştirmeden önce geçerli vergi kapatma dönemi için "Satış vergisini kapat ve deftere naklet" programını çalıştırın.
 
-Bu özellik, döviz alım satımlarından elde edilen kazanç ve kayıpları netleştiren muhasebe girişleri ekler. Girişler, satış vergisi kapatması sırasında yeniden değerleme yapıldığında gerçekleşen para birimi ayarlama kar ve zarar hesaplarında yapılacaktır. Daha fazla bilgi için, bu konunun sonraki bölümlerinde yer alan [raporlama para birimi bölümündeki Vergi kapatma otomatik bakiyesi](#tax-settlement-auto-balance-in-reporting-currency) bölümüne bakın.
+Bu özellik, döviz alım satımlarından elde edilen kazanç ve kayıpları netleştiren muhasebe girişleri ekler. Girişler, satış vergisi kapatması sırasında yeniden değerleme yapıldığında gerçekleşen para birimi ayarlama kar ve zarar hesaplarında yapılacaktır. Daha fazla bilgi için, bu makalenin sonraki bölümlerinde yer alan [Raporlama para birimi cinsinden vergi kapatma otomatik bakiyesi](#tax-settlement-auto-balance-in-reporting-currency) bölümüne bakın.
 
 > [!NOTE]
 > Kapatma sırasında, mali boyutlara ilişkin bilgiler bilanço hesapları olan satış vergisi hesaplarından alınır ve kar ve zarar tablosu hesapları olan para birimi ayarlama kar ve zarar hesaplarına girilir. Mali boyutların değerine ilişkin kısıtlamalar bilanço hesapları ile kar ve zarar tablosu hesapları arasında farklılık sağladığından, Satış vergisi kapatma ve deftere naklet işlemi sırasında bir hata oluşabilir. Hesap yapılarını değiştirmek zorunda kalmamak için, "Mali boyutları satış vergisi kapatması için gerçekleşen para birimi ayarlama kar/zarar hesaplarına doldur" özelliğini açabilirsiniz. Bu özellik, finansal boyutların para birimi düzeltme kar/zarar hesaplarına türetilmesini zorlayacaktır. 

@@ -1,6 +1,6 @@
 ---
 title: Tek bir model kökü için türetilmiş eşlemeleri yönetme
-description: Bu konuda, tek bir model kökü için yapılandırılmış birden fazla türetilmiş eşlemenin nasıl yönetileceği açıklanmaktadır.
+description: Bu makalede, tek bir model kökü için yapılandırılmış birden fazla türetilmiş eşlemenin nasıl yönetileceği açıklanmaktadır.
 author: NickSelin
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d71b05b3f2eda93a93f728926e675c040371781e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324124"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892493"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Tek bir model kökü için türetilmiş eşlemeleri yönetme
 
@@ -26,15 +26,15 @@ ms.locfileid: "8324124"
 
 [Elektronik raporlama (ER)](general-electronic-reporting.md) veri modeli bileşeni, giden belgeler oluşturmak için her yapılandırılmış ER biçimi bileşeninde veri kaynağı olarak kullanılır. Tek bir işletme etki alanını açıklamak için, birçok kök tanımına sahip bir veri modeli bileşeni yapılandırın. 
 
-Her kök tanımı, söz konusu etki alanının verilerini belirli bir raporlama amacına en uygun şekilde göstermenize olanak sağlar. Her kök tanımı için, bir ER model eşleme bileşenini veri modelinizin Microsoft Dynamics 365 Finance'a özgü uygulaması olarak yapılandırabilirsiniz. Bu şekilde, veri modelinizin çalışma zamanında nasıl doldurulacağını açıklarsınız.
+Her kök tanımı, söz konusu etki alanının verilerini belirli bir raporlama amacına en uygun şekilde göstermenize olanak sağlar. Her kök tanımı için, bir ER model eşleme bileşenini veri modelinizin Microsoft Dynamics 365 Finance'e özgü uygulaması olarak yapılandırabilirsiniz. Bu şekilde, veri modelinizin çalışma zamanında nasıl doldurulacağını açıklarsınız.
 
 ER model eşleme bileşenleri ER veri modeli [yapılandırmalarında](general-electronic-reporting.md#Configuration) ve ER model eşleme yapılandırmalarında bulunabilir. Tek bir ER yapılandırması, her biri tek bir kök tanımı için yapılandırılan birçok eşleme bileşeni içerebilir. Alternatif olarak, tek bir ER yapılandırması tek bir kök tanımı için yapılandırılan yalnızca tek bir eşleme bileşeni içerebilir.
 
 Birçok yapılandırma sağlayıcısı aynı ER veri modeli için ER model eşleme yapılandırmaları sunabilir. Bu model eşleme yapılandırmaları, farklı kök tanımlarının eşleme bileşenlerini içerebilir. Bir [sağlayıcı](general-electronic-reporting.md#Provider) tarafından sunulan bir kök tanımı için model eşleme kullanıyor ve başka bir sağlayıcı tarafından sunulan başka bir kök tanımı için bir model eşleme kullanıyor olabilirsiniz.
 
-Bu konudaki yordamlar, aynı kök tanımı için yapılandırılan farklı model eşleme bileşenleri içeren ER veri modelinin birden fazla ER model eşleme yapılandırmasının nasıl yönetileceği açıklanmaktadır. 
+Bu makaledeki yordamlarda, aynı kök tanımı için yapılandırılan farklı model eşleme bileşenleri içeren ER veri modelinin birden fazla ER model eşleme yapılandırmasının nasıl yönetileceği açıklanmaktadır. 
 
-Bu konudaki yordamları tamamlamak için Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne atanmanız gerekir.
+Bu makalede yordamları tamamlamak için Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne atanmanız gerekir.
 
 Aşağıdaki yordamların tümü USMF şirketinde yapılabilir. Kodlama gerekmez.
 

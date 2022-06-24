@@ -1,6 +1,6 @@
 ---
 title: Taraf ve genel adres defteri
-description: Bu konu, Çift yazmanın taraf ve genel adres defteri işlevlerini açıklamaktadır.
+description: Bu makalede, çift yazmanın taraf ve genel adres defteri işlevleri açıklanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 04/25/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 1e2dcfa69308f6691e787a1ff1893f9080dcaef1
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 91b56d091f549838092bdefe1a6a763fde79a32c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717460"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892207"
 ---
 # <a name="party-and-global-address-book"></a>Taraf ve genel adres defteri
 

@@ -1,6 +1,6 @@
 ---
 title: Harcama gözden geçirenlerini yapılandırma
-description: Bu konu, iş akışı görevinin, onayın veya el ile kararın atandığı kullanıcıyı dinamik olarak seçmek için harcama gözden geçiricilerin nasıl kullanılacağını açıklar.
+description: Bu makalede, iş akışı görevinin, onayın veya el ile kararın atandığı kullanıcıyı dinamik olarak seçmek için harcama gözden geçiricilerin nasıl kullanılacağı açıklanmaktadır.
 author: rachel-profitt
 ms.date: 06/25/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: ad980889247e0239ad743078cb013c1c5839f676
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 110edf4c2733f899368069c7d215ae5b0882f5cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070158"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863237"
 ---
 # <a name="configure-expenditure-reviewers"></a>Harcama gözden geçiricilerini yapılandırma
 [!include[banner](../includes/banner.md)]
@@ -75,7 +75,7 @@ Satınalma siparişi oluşturulduğunda, **Proje** alanı belirtilmelidir. Tüm 
 
 ## <a name="set-up-expenditure-reviewers"></a>Harcama gözden geçirenleri ayarlama
 
-Bu örnekte, bir satınalma talebi harcamaları gözden geçireninin nasıl yapılandırılacağı gösterilmektedir. Diğer türdeki harcama gözden geçirenleri yapılandırmak için adım 1'deki gezinti yolunu, bu konunun önceki bölümlerinde yer alan [Harcama gözden geçirenleri türleri](configure-expenditure-reviewers.md#types-of-expenditure-reviewers) bölümünde bulunan tablodaki uygun yolla değiştirin.
+Bu örnekte, bir satınalma talebi harcamaları gözden geçireninin nasıl yapılandırılacağı gösterilmektedir. Diğer türdeki harcama gözden geçiricileri yapılandırmak için 1. Adım'daki gezinti yolunu, bu makalenin önceki bölümlerinde yer alan [Harcama gözden geçirenleri türleri](configure-expenditure-reviewers.md#types-of-expenditure-reviewers) bölümünde bulunan tablodaki uygun yolla değiştirin.
 
 1. **Tedarik ve kaynak atama \> Kurulum \> İlkeler \> Satınalma talebi harcama gözden geçirenleri**'ne gidin.
 2. **Satınalma talebi harcamaları gözden geçirenleri** sayfasında, **Yeni**'yi seçin.

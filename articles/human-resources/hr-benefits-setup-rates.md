@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2deb20646a532509c9e3a3e7a39f646bced2a3fb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 039b4aa3f044cda29944bcd4f5c42fc35818c58b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693129"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868173"
 ---
 # <a name="configure-rates"></a>Oranları yapılandırma
 
@@ -47,7 +47,7 @@ Oranlar bir yan hak için katkıda bulunan ne kadar işveren ve personelin oldu�
    | **Yürürlüğe giriş** | Oranın geçerli olduğu tarih. Geçerli sistem tarihi varsayılan değerdir. Bu tarih, yan hak döneminizde veya öncesinde olmalıdır. İyi bir uygulama, bu tarihi yan hak planının tarihine ayarlamaktır. |
    | **Bitiş tarihi** | Oranın bitiş tarihi. Varsayılan değer 12/31/2154'dir ve hiçbir zaman bunu belirtir. |
    | **Katmanları kullan** |  Bir oran belirlemek için kullanılması gereken yöntem varsa bu alanı kullanın. Örneğin, bir oranın yaşa göre artması gerekiyorsa burada bir değer seçin. Bir katmanlı yan hak oranı için **Tek katman** veya iki katmanlı bir yan hak oranı için **Çift katman** seçin. Çift katmanlı bir örnek, cinsiyet ve yaşa bağlı bir katmandır. Bir değer seçtikten sonra, **Eylemler**'i ve ardından **Katman oranları**'nı seçin. Değişmeyen sabit bir oranınız varsa bu alanı boş bırakın. |
-   | **Ödeme sıklığı** | Yan hak prim oranının yan hak sağlayıcısına ne sıklıkta ödenmesi gerektiğini belirtin. Bu konunun sonraki bölümlerinde açıklanan sayfaya girdiğiniz fiyatlar, burada belirttiğiniz ödeme sıklığına göre olacaktır. Örneğin, bu alana **Aylık** girerseniz ve **100 TL** personel ücreti girerseniz yan hakkın çalışana aylık 100 TL'ye mal olacağı varsayılır. Ancak, personel kaydında ayarlanan yan hak ödeme sıklığına bağlı olarak bir personele ayda iki kez ödeme yapılabilir. Bu durumda personel, **Personel self servisi**'nde oturum açtığında, **Personel self servisi**'nin gösterdiği oran çalışanın ödeme sıklığına dayandığından ödedikleri tutar 50 dolar olacaktır. |
+   | **Ödeme sıklığı** | Yan hak prim oranının yan hak sağlayıcısına ne sıklıkta ödenmesi gerektiğini belirtin. Bu makalenin sonraki bölümlerinde açıklanan sayfaya girdiğiniz fiyatlar, burada belirttiğiniz ödeme sıklığına göre olacaktır. Örneğin, bu alana **Aylık** girerseniz ve **100 TL** personel ücreti girerseniz yan hakkın çalışana aylık 100 TL'ye mal olacağı varsayılır. Ancak, personel kaydında ayarlanan yan hak ödeme sıklığına bağlı olarak bir personele ayda iki kez ödeme yapılabilir. Bu durumda personel, **Personel self servisi**'nde oturum açtığında, **Personel self servisi**'nin gösterdiği oran çalışanın ödeme sıklığına dayandığından ödedikleri tutar 50 dolar olacaktır. |
    | **Ödeme sıklığı oran yuvarlaması** | Oranı yuvarlama yöntemleri şunlardır: Standart, Kesilmiş, Normal, Aşağı ve Yukarı yuvarlama. </br></br><ul><li>**Standart**: Her zaman yukarı yuvarlanır. Örneğin, 10,611 10,62'ye yuvarlanır. -10,231, -10,23'e yuvarlanır. </li><li>**Kesilmiş**: Her zaman aşağı yuvarlanır. Örneğin, 10,619 10,61'e yuvarlanır. -10,231, -10,24'e yuvarlanır. </li><li>**Normal**: 5 ile biten veya 5'ten büyük ondalık değerler sıfırdan uzağa yuvarlanır. 4 ile biten veya daha az olan ondalık değeri sıfıra yuvarlanır. Örneğin, 10,615 10,62'ye yuvarlanır. -10,235, -10,24'e yuvarlanır. 10,614, 10,61'e yuvarlanır. -10,234, -10,23'e yuvarlanır. </li><li>**Aşağı**: Sıfıra doğru yuvarlanır. Örneğin, 10,619 10,61'e yuvarlanır. -10,231, -10,23'e yuvarlanır. </li><li>**Yuvarlama**: Sıfırdan uzağa yuvarlanır. Örneğin, 10,619 10,62'ye yuvarlanır. -10,231, -10,24'e yuvarlanır. |
    | **Sigara İçmeyen Personel tutarı** | Sigara olmayan çalışan için kazanç sağlayıcısı masrafın tutarı. Bu, işverenin kazanç sağlayıcısına ödediği tutardır ve Kurun oran ayarına göre ödeme sıklığını temel almak zorunda değildir. |
    | **Sigara İçmeyen İşveren tutarı** | Sigara olmayan çalışan için kazanç sağlayıcısı masrafın tutarı. Bu, işverenin kazanç sağlayıcısına ödediği tutardır ve Kurun oran ayarına göre ödeme sıklığını temel almak zorunda değildir. |

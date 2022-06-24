@@ -1,6 +1,6 @@
 ---
 title: LinkedIn Talent Hub ile tümleştirme
-description: Bu konu Microsoft Dynamics 365 Human Resources ile LinkedIn Talent Hub arasında tümleştirmeyi ayarlamayı açıklar.
+description: Bu makalede, Microsoft Dynamics 365 Human Resources ile LinkedIn Talent Hub arasındaki tümleştirmenin nasıl ayarlanacağı açıklanmaktadır.
 author: jaredha
 ms.date: 10/20/2020
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d14a8cb1973e0ed55ef10ddb43415eba80eb5c1b
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: df4a0a4dec078392ba835318450f5983a6e95c97
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717125"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887762"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>LinkedIn Talent Hub ile tümleştirme
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!IMPORTANT]
-> Bu konuda açıklanan Dynamics 365 Human Resources ile LinkedIn Talent Hub arasındaki tümleştirme, 31 Aralık 2021 tarihinde kullanımdan kaldırıldı. Tümleştirme hizmeti, bu tarihten sonra artık kullanılamayacaktır. Tümleştirme hizmetini zaten kullanmayan kuruluşlar, kullanımdan kaldırılmadan önce hizmeti uygulayamaz.
+> Bu makalede açıklanan Dynamics 365 Human Resources ile LinkedIn Talent Hub arasındaki tümleştirme, 31 Aralık 2021 tarihinde kullanımdan kaldırıldı. Tümleştirme hizmeti, bu tarihten sonra artık kullanılamayacaktır. Tümleştirme hizmetini zaten kullanmayan kuruluşlar, kullanımdan kaldırılmadan önce hizmeti uygulayamaz.
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) bir başvuran izleme sistemi (ATS) platformudur. Tek bir yerden çalışanları bulmanıza, yönetmenize ve işe almanıza olanak tanır. Microsoft Dynamics 365 Human Resources ile LinkedIn Talent Hub'ı tümleştirerek bir pozisyon için işe alınan kişiler için Human Resources'da kolayca çalışan kayıtları oluşturabilirsiniz.
 

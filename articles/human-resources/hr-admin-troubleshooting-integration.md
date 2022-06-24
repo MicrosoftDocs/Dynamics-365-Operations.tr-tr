@@ -1,6 +1,6 @@
 ---
 title: Finans ile tümleştirme SSS
-description: Bu konuda, bir Human Resources ve Finance tümleştirmesinde hangi verilerin eşitleneceği açıklanmaktadır.
+description: Bu konu altında, bir İnsan Kaynakları ve Finance tümleştirmesinde hangi verilerin eşitleneceği açıklanmaktadır.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9b83250bdb54ea6e78709dd3a3ea434a994f6211
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f150c87b6d4e6575bc61a8f36bdf344ebba9c571
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694018"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879293"
 ---
 # <a name="integration-with-finance-faq"></a>Finans ile tümleştirme SSS
 
@@ -29,7 +29,7 @@ ms.locfileid: "8694018"
 
 
 
-Bu konu, Dynamics 365 Human Resources, Dynamics 365 Finance ile tümleştirildiğinde hangi verilerin eşitleneceğine dair sıkça sorulan soruları yanıtlar.
+Bu makalede, Dynamics 365 Human Resources, Dynamics 365 Finance ile tümleştirildiğinde hangi verilerin eşitleneceğine dair sıkça sorulan sorular yanıtlanmaktadır.
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Power Apps uygulamasında Dynamics 365 Talent uygulama kullanıcısını düzenleyebilir miyim?
 

@@ -1,6 +1,6 @@
 ---
 title: Human Resources uygulamasından başka bir ortama bağlantılar oluşturma
-description: Bu konu, Microsoft Dynamics 365 Human Resources'tan başka bir Dynamics 365 ortamına bağlantı oluşturmayı açıklamaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Human Resources'tan başka bir Dynamics 365 ortamına nasıl bağlantı oluşturulacağı açıklanmaktadır.
 author: twheeloc
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d20eef4b4861d85ead1d47ca493c3a5c2d2d85e8
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 0c9efae1061e96c0c42d5ca6a100bb36889ce56b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712637"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859680"
 ---
 # <a name="create-links-from-human-resources-to-another-finance-environment"></a>Human Resources uygulamasından başka bir Finance ortamına bağlantılar oluşturma
 

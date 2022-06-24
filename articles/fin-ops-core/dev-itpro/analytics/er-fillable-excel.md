@@ -1,6 +1,6 @@
 ---
 title: Excel biçiminde belgeler oluşturmak için yapılandırma tasarlama
-description: Bu konuda, bir Excel şablonunu doldurmak ve ardından giden Excel biçimi belgeleri oluşturmak için Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı açıklanmaktadır.
+description: Bu makalede, bir Excel şablonunu doldurmak ve ardından giden Excel biçimi belgeleri oluşturmak için Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 05/09/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 4660aaf438ee091eed30387d984746ac2c3b4bd7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811434"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854828"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Excel biçiminde belgeler oluşturmak için bir yapılandırma tasarlama
 
@@ -28,7 +28,7 @@ ms.locfileid: "8811434"
 
 Microsoft Excel çalışma kitabı biçiminde giden belge oluşturmak üzere yapılandırabileceğiniz ER biçimi bileşenine sahip bir [Elektronik raporlama (ER)](general-electronic-reporting.md) biçimi yapılandırması tasarlayabilirsiniz. Bu amaçla belirli ER biçimli bileşenler kullanılmalıdır.
 
-Bu özellik hakkında daha fazla bilgi edinmek için [OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama](tasks/er-design-reports-openxml-2016-11.md) konusundaki adımları izleyin.
+Bu özellik hakkında daha fazla bilgi edinmek için [OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama](tasks/er-design-reports-openxml-2016-11.md) makalesindeki adımları izleyin.
 
 ## <a name="add-a-new-er-format"></a>Yeni bir ER biçimi ekleme
 
@@ -263,7 +263,7 @@ Tek bir **sayfa** bileşeni için, her biri **üst bilgi/alt bilgi görünümü*
 
 Eklenen **alt bilgi** bileşeni altında **metin\\Dize**, **Metin\\Tarih/Saat** veya başka bir türün gerekli iç içe bileşenlerini ekleyin. Sayfa alt bilginizin nasıl doldurulacağını belirtmek için bu bileşenler için bağları yapılandırın.
 
-Oluşturulan bir alt bilginin içeriğini doğru şekilde biçimlendirmek için özel [biçimlendirme kodları](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) da kullanabilirsiniz. Bu yaklaşımın nasıl kullanılacağını öğrenmek için, Bu konunun ilerleyen kısımlarında [örnek 1](#example-1)'deki adımları izleyin.
+Oluşturulan bir alt bilginin içeriğini doğru şekilde biçimlendirmek için özel [biçimlendirme kodları](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) da kullanabilirsiniz. Bu yaklaşımın nasıl kullanılacağını öğrenmek için, bu makalenin ilerleyen kısımlarında [Örnek 1](#example-1)'deki adımları izleyin.
 
 > [!NOTE]
 > ER biçimlerini yapılandırdığınızda, Excel [sınırını](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) ve tek bir üst bilgi ya da alt bilgi için maksimum karakter sayısını göz önünde bulundurmaya dikkat edin.

@@ -1,6 +1,6 @@
 ---
-title: Vergi yapılandırmalarına veri alanları Ekleme
-description: Bu konu, veri alanları ekleyerek vergi yapılandırmalarının nasıl özelleştirileceğini açıklamaktadır.
+title: Vergi yapılandırmalarına veri alanları ekleme
+description: Bu makale, veri alanları ekleyerek vergi yapılandırmalarının nasıl özelleştirileceğini açıklamaktadır.
 author: Kai-Cloud
 ms.date: 10/21/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: deb19c8ddf20b416864ed8c3f816f92e43309f71
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 894c42f444d27b807288b84c7b9c620ad0121fa9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694118"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872340"
 ---
-# <a name="add-data-fields-in-tax-configurations"></a>Vergi yapılandırmalarına veri alanları Ekleme
+# <a name="add-data-fields-in-tax-configurations"></a>Vergi yapılandırmalarına veri alanları ekleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu [vergi tümleştirmesinde eklenen veri alanlarını](tax-service-add-data-fields-tax-integration-by-extension.md) kullanarak vergi yapılandırmalarının nasıl özelleştirileceğini açıklamaktadır.
+Bu makale [vergi tümleştirmesinde eklenen veri alanlarını](tax-service-add-data-fields-tax-integration-by-extension.md) kullanarak vergi yapılandırmalarının nasıl özelleştirileceğini açıklamaktadır.
 
 ## <a name="customize-the-tax-data-model"></a>Vergi veri modeli yapılandırmasını özelleştirme
 

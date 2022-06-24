@@ -1,6 +1,6 @@
 ---
 title: Borç hesaplarını yapılandırmaya genel bakış
-description: Bu konuda, Borç hesapları için temel ve isteğe bağlı işlevleri ayarlamada kullanacağınız sayfalar açıklanmaktadır. Ayrıca, Borç hesaplarını ayarlamaya başlamadan önce tamamlamanız gereken kurulum adımları da açıklanmaktadır.
+description: Bu makalede, Borç hesapları için temel ve isteğe bağlı işlevleri ayarlamada kullanacağınız sayfalar açıklanmaktadır. Ayrıca, Borç hesaplarını ayarlamaya başlamadan önce tamamlamanız gereken kurulum adımları da açıklanmaktadır.
 author: abruer
 ms.date: 07/25/2019
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4ed5664b5be11f013900d6411d4307692d5e8334
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: bce5da0c9593bcfcfb9589f8fe7e09b8acd63726
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358201"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906546"
 ---
 # <a name="configure-accounts-payable-overview"></a>Borç hesaplarını yapılandırmaya genel bakış
 

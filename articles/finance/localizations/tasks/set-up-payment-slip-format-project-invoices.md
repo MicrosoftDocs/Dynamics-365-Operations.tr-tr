@@ -1,6 +1,6 @@
 ---
 title: Proje faturaları için ödeme makbuzu biçimini ayarlama
-description: Bu konuda, proje faturalarına ödeme makbuzlaırnı iliştirme ve fatura nakli ve ödemeleri için ödeme başvurusu sağlama açıklanır.
+description: Bu makalede, proje faturalarına basılı ödeme makbuzlarını iliştirme ve fatura nakli ve kapatmaları için ödeme başvurusu sağlama açıklanmaktadır.
 author: EvgenyPopovMBS
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 88bdce7697e47fc49b6ffb2fe6a8a468860f41f3
-ms.sourcegitcommit: 2fba4f2ef7e513357366fc640befe0d2f7bc31f5
+ms.openlocfilehash: 8f9e956f6c6a5d7a783bfc3a475ff4ca60473f17
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "7601513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879452"
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>Proje faturaları için ödeme makbuzu biçimini ayarlama
 

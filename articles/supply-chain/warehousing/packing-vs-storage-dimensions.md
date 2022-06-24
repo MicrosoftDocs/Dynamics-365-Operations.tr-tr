@@ -1,6 +1,6 @@
 ---
 title: Paketleme ve depolama için farklı boyutlar ayarlama
-description: Bu konuda, belirtilen her boyutun kullanıldığı işlemin (paketleme, depolama veya iç içe paketleme) nasıl belirtileceğini gösterir.
+description: Bu makalede, belirtilen her boyutun kullanıldığı işlemin (paketleme, depolama veya iç içe paketleme) nasıl belirtileceğini gösterir.
 author: Mirzaab
 ms.date: 01/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 090a6f653b50d8f22a2f34354172f129624813f1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 85e40a0768174dcdc5d0fa2647b24cddccf01bdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687681"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905500"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Paketleme ve depolama için farklı boyutlar ayarlama
 
@@ -33,7 +33,7 @@ Bazı maddeler, birçok farklı işlemin her biri için fiziksel boyutları fark
 *Depolama* boyutları, *Ürün paketleme boyutları* özelliği etkinleştirilmediğinde bile desteklenir. Bunları, Supply Chain Management'ta **Fiziksel boyut** sayfasını kullanarak ayarlarsınız. Bu boyutlar, paketleme ve iç içe paketleme boyutlarının belirtilmediği tüm işlemler tarafından kullanılır.
 
 *Paketleme* ve *iç içe paketleme* boyutları, *Ürün paketleme boyutları* özelliğini etkinleştirdiğinizden eklenen **Fiziksel ürün boyutları** sayfasını kullanarak ayarlanır.
-Bu konu, bu özelliğin nasıl kullanılacağını açıklayan bir senaryo içermektedir.
+Bu makale, bu özelliğin nasıl kullanılacağını açıklayan bir senaryo içermektedir.
 
 ## <a name="turn-on-the-packaging-product-dimensions-feature"></a>Ürün paketleme boyutları özelliğini etkinleştirme
 

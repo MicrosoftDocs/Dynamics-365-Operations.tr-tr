@@ -1,6 +1,6 @@
 ---
 title: NUMSEQVALUE ER işlevi
-description: Bu konu, NUMSEQVALUE Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
+description: Bu makalede, NUMSEQVALUE Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlanmaktadır.
 author: NickSelin
 ms.date: 12/17/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53040d1f4b3c8089fab264a524309df909a90ed5e617bd86658704b286fabb34
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 569d9ba1497bbc6dfc0ca909207aa5a78a877fe9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758252"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879847"
 ---
 # <a name="numseqvalue-er-function"></a>NUMSEQVALUE ER işlevi
 
@@ -94,7 +94,7 @@ Model eşlemenizde aşağıdaki veri kaynaklarını tanımlanır:
 
 Model eşlemenizde aşağıdaki veri kaynaklarını tanımlanır:
 
-- Microsoft Dynamics 365 Finance *numaralandırma* türünün **enumscope** veri kaynağı. Bu veri kaynağı **ERExpressionNumberSequenceScopeType** numaralandırması anlamına gelir.
+- Microsoft Dynamics 365 Finance *numaralandırma* türünün **enumScope** veri kaynağı. Bu veri kaynağı **ERExpressionNumberSequenceScopeType** numaralandırması anlamına gelir.
 - **NumSeq** veri kaynağına *hesaplanan alan* ekleyin. Bu veri kaynağı `NUMSEQVALUE ("Gene_1", enumScope.Company, "")` ifadesini içeriyor.
 
 **NumSeq** veri kaynağı çağrıldığında ER biçimi altında çalışan içerik sağlayan bir şirket için yapılandırılmış **Gene\_1** numara serisinin yeni oluşturulan değeri geri döner.

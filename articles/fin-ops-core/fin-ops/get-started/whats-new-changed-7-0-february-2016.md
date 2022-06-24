@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e92e6aeab949567e65a13ebdd92f0e5b306ccd30
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711334"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861719"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)
 
@@ -320,7 +320,7 @@ Bu özellik, üretilen maddeye atanan maliyetlendirme yöntemlerinden bağımsı
 <td><strong>Yardım</strong>'a tıklayarak destekli yordamsal Yardım (görev kılavuzları) ve kavramsal konulara erişin.</td>
 <td>AX 2012 Yardım sistemi, yerel web sunucusunda depolanmış olan HTML konulara yönlendirir. Müşteriler ve ortaklar kendi yardımlarını oluşturabilirler.</td>
 <td>Dynamics AX'in mevcut sürümündeki yardım sistemi, Microsoft Dynamics Lifecycle Services (LCS) BPM içinde depolanan görev kılavuzlarını görüntüler. Yardım sistemi aynı zamanda Microsoft belgeler sitesinde de konular görüntüler. Daha fazla bilgi için bkz. <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Yardım sistemi</a> ve <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Yeni görev kılavuzları (Şubat 2016)</a>.</td>
-<td>Görev kılavuzları, size bir görevin veya iş işlemin adımları boyunca yol gösteren destekli, etkileşimli bir deneyim sağlar. Microsoft'un sağladığı görev kılavuzlarını indirebilir ve özelleştirebilirsiniz. Konu, ürün belgelerini oluşturmak, teslim etmek ve güncelleştirmek için daha hızlı ve esnek bir yol sağlar. Bu nedenle, en son teknik bilgilerin erişimine sahip olmanızı garanti etmeye yardımcı olur.</td>
+<td>Görev kılavuzları, size bir görevin veya iş işlemin adımları boyunca yol gösteren destekli, etkileşimli bir deneyim sağlar. Microsoft'un sağladığı görev kılavuzlarını indirebilir ve özelleştirebilirsiniz. Makalede, ürün belgelerini oluşturmak, teslim etmek ve güncelleştirmek için daha hızlı ve esnek bir yöntem sağlanmaktadır. Bu nedenle, en son teknik bilgilerin erişimine sahip olmanızı garanti etmeye yardımcı olur.</td>
 </tr>
 </tbody>
 </table>

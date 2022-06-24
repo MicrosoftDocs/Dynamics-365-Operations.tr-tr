@@ -1,6 +1,6 @@
 ---
 title: İşe alma süreçlerini yönetme
-description: Bu konuda, işe alanların işe alma sürecindeki adımları izlemek için kullanabileceği bir kavram açıklanmaktadır.
+description: Bu makalede, işe alanların işe alma sürecindeki adımları izlemek için kullanabileceği bir kavram açıklanmaktadır.
 author: twheeloc
 ms.date: 01/10/2022
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb7cc1db906ba0cd07caaa1d82a12182f78b19ba
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 1ada6dfc9b227c7ae4ca873e8354d1fcc11ecbaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735388"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910333"
 ---
 # <a name="manage-recruiting-processes"></a>İşe alma süreçlerini yönetme
 
 > [!IMPORTANT]
-> Bu konudaki işe alma işlevi İşe Alma projeleri olarak adlandırılacaktır ve başvuranlar, uygulamalar ve işe alma projelerine odaklanır. 
+> Bu makalede işe alma işlevi, İşe Alma projeleri olarak belirtilir ve makalede başvuranlar, başvurular ve işe alma projelerine odaklanılmaktadır. 
 
 
-Bu konu açık pozisyonların ilan edilmesi ve başvuru sahiplerinin işe alınması işlemleri, başvuru sahibinin ve başvuru bilgilerinin takip edilmesi, başvuru sahipleriyle iş görüşmeleri gerçekleştirilmesi ve organizasyonunuzdaki açık pozisyonların doldurulması amacıyla bir veya daha fazla sayıda aday seçilmesi de dahil olmak üzere işe alan kişilerin bir işe alma sürecindeki adımları takip etmek üzere kullanabileceği bir konsept açıklanmıştır.
+Bu makalede açık pozisyonların ilan edilmesi ve başvuru sahiplerinin işe alınması işlemleri, başvuru sahibinin ve başvuru bilgilerinin takip edilmesi, başvuru sahipleriyle iş görüşmeleri gerçekleştirilmesi ve organizasyonunuzdaki açık pozisyonların doldurulması amacıyla bir veya daha fazla sayıda aday seçilmesi de dahil olmak üzere işe alan kişilerin bir işe alma sürecindeki adımları takip etmek üzere kullanabileceği bir konsept açıklanmıştır.
 
 ## <a name="overview"></a>Özet
 

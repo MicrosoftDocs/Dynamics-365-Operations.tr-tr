@@ -1,5 +1,5 @@
 ---
-title: Ambar Yönetimi mobil uygulamasını yükleme ve bağlama
+title: Warehouse Management mobil uygulamasını yükleme ve bağlama
 description: Bu konuda, Ambar Yönetimi mobil uygulamasının mobil cihazlarınızın her birine nasıl yükleneceği ve Microsoft Dynamics 365 Supply Chain Management ortamınıza bağlanacak şekilde nasıl yapılandırılacağı açıklanmaktadır.
 author: Mirzaab
 ms.date: 02/03/2021
@@ -16,14 +16,14 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 812dd30e0e444bc310fc81edd16958e0c0747885
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9bd208ba78d28046782d03221b0f23471f56b574
+ms.sourcegitcommit: 3f544f8671821be915b289a614e4e440bd38994f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103425"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8941780"
 ---
-# <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulamasını yükleme ve bağlama
+# <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasını yükleme ve bağlama
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,7 +39,7 @@ Ambar Yönetimi mobil uygulaması hem Windows hem de Google Android işletim sis
 - Windows 10 (Evrensel Windows Platformu \[UWP\]) Ekim 2018 güncelleştirmesi 1809 (derleme 10.0.17763) veya sonraki bir sürüm
 - Android 4.4 veya üstü
 
-## <a name="turn-warehouse-management-mobile-app-features-or-or-off-in-supply-chain-management"></a>Supply Chain Management'ta Warehouse Management mobile app özelliklerini açma veya kapatma
+## <a name="turn-warehouse-management-mobile-app-features-on-or-off-in-supply-chain-management"></a>Supply Chain Management'ta Warehouse Management mobile app özelliklerini açma veya kapatma
 
 Warehouse Management mobile app kullanmak için, *Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları* özelliğinin sisteminizde açık olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
@@ -87,11 +87,11 @@ Ambar Yönetimi mobil uygulamasının belirli bir Supply Chain Management sunucu
 
     ![Uygulama kaydetme sihirbazı.](media/app-connect-azure-register-wizard.png "Uygulama kaydetme sihirbazı")
 
-1. Yeni uygulama kaydınız açıldı. Daha sonra gereksinim duyacağınız **Uygulama (istemci) Kodu** değerini not edin. Bu kod, bu konuda daha sonra *istemci kimliği* olarak ifade edilecektir.
+1. Yeni uygulama kaydınız açıldı. Daha sonra gereksinim duyacağınız **Uygulama (istemci) Kodu** değerini not edin. Bu kod, bu makalede daha sonra *istemci kimliği* olarak ifade edilecektir.
 
     ![Uygulama (istemci) kodu.](media/app-connect-azure-app-id.png "Uygulama (istemci) kodu")
 
-1. **Yönet** listesinde **Sertifika ve parolalar**'ı seçin. Ardından, uygulamayı kimlik doğrulama için nasıl yapılandırmak istediğinize bağlı olarak aşağıdaki düğmelerden birini seçin. (Daha fazla bilgi için bu konunun ilerisindeki [Sertifika veya istemci parolası kullanarak kimlik doğrulaması](#authenticate) bölümüne bakın.)
+1. **Yönet** listesinde **Sertifika ve parolalar**'ı seçin. Ardından, uygulamayı kimlik doğrulama için nasıl yapılandırmak istediğinize bağlı olarak aşağıdaki düğmelerden birini seçin. (Daha fazla bilgi için bu makalenin ilerisindeki [Sertifika veya istemci parolası kullanarak kimlik doğrulaması](#authenticate) bölümüne bakın.)
 
     - **Karşıya yükleme sertifikası**: Bir sertifikayı parola olarak kullanmak için karşıya yükleyin. Daha güvenli ve tamamen otomatikleştirilebilir olduğu için bu yaklaşımı öneriyoruz. Ambar Yönetimi mobil uygulamasını Windows cihazlarında çalıştırıyorsanız sertifikayı yükledikten sonra gösterilen **Parmak İzi** değerini not edin. Sertifikayı Windows cihazlarında yapılandırırken bu değere ihtiyacınız olacaktır.
     - **Yeni istemci parolası**: **Parolalar** bölümüne bir anahtar açıklama ve süre girerek bir anahtar oluşturun ve **Ekle**'yi seçin. Anahtarın bir kopyasını oluşturun ve güvenli bir şekilde saklayın.
@@ -101,7 +101,7 @@ Ambar Yönetimi mobil uygulamasının belirli bir Supply Chain Management sunucu
 Azure AD uygulamasında web hizmeti uygulamalarını ayarlama hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - Azure AD uygulamasında web hizmeti uygulamalarını ayarlamak için Windows PowerShell'in nasıl kullanılacağını gösteren yönergeler için bkz. [Nasıl yapılır: Sertifikalı bir hizmet sorumlusu oluşturmak için Azure PowerShell'i kullanma](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
-- Azure AD uygulamasında el ile bir web hizmeti uygulaması oluşturma hakkında ayrıntılı bilgi için aşağıdaki konulara bakın:
+- Azure AD uygulamasında el ile bir web hizmeti uygulaması oluşturma hakkında ayrıntılı bilgi için aşağıdaki makalelere bakın:
 
     - [Hızlı Başlangıç: Microsoft kimlik platformu ile bir uygulamayı kaydetme](/azure/active-directory/develop/quickstart-register-app)
     - [Nasıl yapılır: Kaynaklara erişebilen bir Azure AD uygulaması ve hizmet sorumlusu oluşturmak için portalı kullanma](/azure/active-directory/develop/howto-create-service-principal-portal)
@@ -135,7 +135,7 @@ Supply Chain Management'ın Azure AD uygulamanızı kullanmasını sağlamak iç
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Sertifika veya istemci parolası kullanarak kimlik doğrulama
 
-Azure AD ile kimlik doğrulaması, bir mobil cihazı Supply Chain Management uygulamasında bağlamak için güvenli bir yol sağlar. İstemci parolası veya sertifika kullanarak kimlik doğrulaması yapabilirsiniz. Bağlantı ayarlarını içe aktaracaksanız istemci parolası yerine bir sertifika kullanmanızı öneririz. İstemci parolasının her zaman güvenli bir şekilde saklanması gerektiğinden, bu konuda daha sonra açıklandığı gibi istemci parolasını bir bağlantı ayarları dosyasından veya bir QR kodundan içe aktaramazsınız.
+Azure AD ile kimlik doğrulaması, bir mobil cihazı Supply Chain Management uygulamasında bağlamak için güvenli bir yol sağlar. İstemci parolası veya sertifika kullanarak kimlik doğrulaması yapabilirsiniz. Bağlantı ayarlarını içe aktaracaksanız istemci parolası yerine bir sertifika kullanmanızı öneririz. İstemci parolasının her zaman güvenli bir şekilde saklanması gerektiğinden, bu makalede daha sonra açıklandığı gibi istemci parolasını bir bağlantı ayarları dosyasından veya bir QR kodundan içe aktaramazsınız.
 
 Sertifikalar, bir belirteç istendiğinde uygulamanın kimliğini kanıtlamak için parola olarak kullanılabilir. Sertifikanın genel kısmı Azure portalındaki uygulama kaydına yüklenirken tam sertifikanın Ambar Yönetimi mobil uygulamasının yüklü olduğu her cihaza dağıtılması gerekir. Kuruluşunuz sertifikayı, rotasyonu vb. konularda yönetmekle sorumludur. Kendinden imzalı sertifikalar kullanabilirsiniz ancak her zaman dışa aktarılamayan sertifikalar kullanmalısınız.
 

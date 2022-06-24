@@ -1,6 +1,6 @@
 ---
 title: Konsolide mali tabloları oluşturma
-description: Bu konuda, konsolide mali tabloları oluşturabileceğiniz çeşitli senaryolar açıklanmaktadır.
+description: Bu makalede, konsolide mali tablolar oluşturabileceğiniz çeşitli senaryolar açıklanmaktadır.
 author: aprilolson
 ms.date: 07/09/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 092123d6f5f74d2ff160f2ebffdc2c049ccc3f65
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: c6a132b742414a3dab635634c7bb5ba0dbea527d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716538"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846813"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsolide mali tabloları oluşturma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, konsolide mali tabloları oluşturabileceğiniz çeşitli senaryolar açıklanmaktadır.
+Bu makalede, konsolide mali tablolar oluşturabileceğiniz çeşitli senaryolar açıklanmaktadır.
 
 ## <a name="single-level-and-multilevel-consolidations-across-legal-entities"></a>Tüzel kişilikler arasındaki tek düzeyli ve birden fazla düzeyli konsolidasyonlar
 Mali raporlamayı kullanarak konsolide etmek için en kolay yöntem aynı hesap planı ve mali dönemlere sahip şirketler arasında verileri toplamak için raporlama ağaçları kullanmaktır. Raporlama ağacı kullanarak konsolide etmek için üst düzey adımlar şunlardır.
@@ -153,7 +153,7 @@ Aşağıdaki çizim, rapor tanımında konsolidasyon için kullanılmak üzere d
 ![Rapor tanımı dönem numarası seçenekleri.](./media/options-report-definition-period-number.png "Rapor tanımı dönem numarası seçenekleri")
 
 ## <a name="business-unit-consolidations"></a>İş birimi konsolidasyonları
-Bu konuda, konsolidasyon amaçları için Mali raporlamada raporlama ağacı tanımlarının ve kuruluş hiyerarşisinin kullanılmasına odaklanılmaktadır. Ayrıca dünya çapında satışlar veya işlemlerle ilgili raporlar gibi iş birimi konsolidasyon raporları oluşturmak için raporlama ağacını kullanabilirsiniz. Bu raporlar ortak bir ihtiyaçtır. Bunları oluşturmak isterseniz konsolide etmek istediğiniz her bir birim için bir şirket ve bir boyut seçin. Örneğin, aşağıdaki çizimde iş birimi toplamı **Şirket** sütunundaki (A sütunu) her bir şirketi yineleyerek ve **Boyutlar** sütunundaki (D sütunu) her şirket için bir Departman boyut değerleri grubu tanımlayarak gerçekleştirilir.
+Bu makalede, konsolidasyon amaçları için Mali raporlamada raporlama ağacı tanımlarının ve kuruluş hiyerarşisinin kullanılmasına odaklanılmaktadır. Ayrıca dünya çapında satışlar veya işlemlerle ilgili raporlar gibi iş birimi konsolidasyon raporları oluşturmak için raporlama ağacını kullanabilirsiniz. Bu raporlar ortak bir ihtiyaçtır. Bunları oluşturmak isterseniz konsolide etmek istediğiniz her bir birim için bir şirket ve bir boyut seçin. Örneğin, aşağıdaki çizimde iş birimi toplamı **Şirket** sütunundaki (A sütunu) her bir şirketi yineleyerek ve **Boyutlar** sütunundaki (D sütunu) her şirket için bir Departman boyut değerleri grubu tanımlayarak gerçekleştirilir.
 
 ![İş birimi konsolidasyon raporları.](./media/business-unit-consolidation-reports.png "İş birimi konsolidasyon raporları")
 
@@ -218,7 +218,7 @@ Mali raporlama, para birimleri kullanılırken doğru şekilde dönüştürülm�
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-Konsolidasyon ve para birimi dönüştürmeleri hakkında daha fazla bilgi için bu konunun ana konusuna bakın: [Mali konsolidasyonlar ve para birimi dönüştürmeye genel bakış](./financial-consolidations-currency-translation.md).
+Konsolidasyon ve para birimi dönüştürmeleri hakkında daha fazla bilgi için bu makalenin üst makalesine bakın: [Mali konsolidasyonlar ve para birimi dönüştürmeye genel bakış](./financial-consolidations-currency-translation.md).
 
 Konsolidasyon bilgilerini çevrimiçi olarak nasıl gireceğiniz hakkında daha fazla bilgi için bkz. [Çevrimiçi mali konsolidasyonlar](./consolidate-online.md).
 

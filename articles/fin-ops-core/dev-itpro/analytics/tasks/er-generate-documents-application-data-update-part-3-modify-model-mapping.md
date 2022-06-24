@@ -1,6 +1,6 @@
 ---
 title: Uygulama verileri içeren belgeler oluşturmak için modelleri ve eşlemeleri değiştirme
-description: Bu konuda, elektronik belge oluşturmak ve uygulama verilerini güncelleştirmek için raporlama yapılandırmalarının nasıl tasarlanacağı açıklanmaktadır. (2. Bölüm - Belge oluşturma).
+description: Bu makalede, elektronik belge oluşturmak ve uygulama verilerini güncelleştirmek için raporlama yapılandırmalarının nasıl tasarlanacağı açıklanmaktadır. (2. Bölüm - Belge oluşturma).
 author: NickSelin
 ms.date: 06/19/2017
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d7df46bab244d11509b86a27eeed3c2725400b5eb4d0fbf50af1750e7de45d1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 797057112e9476389655b870fd729acd33d57e43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745900"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908311"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>Uygulama verileri içeren belgeler oluşturmak için modelleri ve eşlemeleri değiştirme
 

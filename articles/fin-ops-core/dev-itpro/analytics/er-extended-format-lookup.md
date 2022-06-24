@@ -1,6 +1,6 @@
 ---
 title: Elektronik raporlama (ER) genişletilmiş biçim araması
-description: Bu konu, gerekli biçim Global havuzda depolandığı zaman, ER biçim aramasında bir ER biçim başvurusunun nasıl ayarlanacağını açıklamaktadır.
+description: Bu makalede, gerekli biçim Global depoda depolandığı zaman, ER biçim aramasında bir ER biçim başvurusunun nasıl ayarlanacağı açıklanmaktadır.
 author: NickSelin
 ms.date: 03/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 2b69ba1b3b27f447b58cf98b1140a481b01b735a
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: ae544b8ed4e280ffcaf58d893056a4bf5169e379
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324150"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901662"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Kullanıcıların, Global havuzdan bir biçim sorgulayan ER biçimi başvurusu ayarlamalarına izin verme
 
 [!include [banner](../includes/banner.md)]
 
-giden belgelerin biçimlerini çeşitli ülkelerin/bölgelerin yasal gereksinimlerine uygun şekilde yapılandırmak için [Elektronik raporlama](general-electronic-reporting.md) (ER) çerçevesini kullanabilirsiniz. Ayrıca, giden belgelerin ayrıştırılması için biçimleri yapılandırmak ve uygulama verilerini eklemek ya da güncelleştirmek için bu belgelerdeki bilgileri kullanmak için de ER çerçevesini kullanabilirsiniz. Bu biçimlerin her biri, Dynamics 365 Finance kurulumunuzda, belirli bir iş sürecinin parçası olarak gelen veya giden iş belgelerini işlemek için kullanılabilir.
+giden belgelerin biçimlerini çeşitli ülkelerin/bölgelerin yasal gereksinimlerine uygun şekilde yapılandırmak için [Elektronik raporlama](general-electronic-reporting.md) (ER) çerçevesini kullanabilirsiniz. Ayrıca, giden belgelerin ayrıştırılması için biçimleri yapılandırmak ve uygulama verilerini eklemek ya da güncelleştirmek için bu belgelerdeki bilgileri kullanmak için de ER çerçevesini kullanabilirsiniz. Bu biçimlerin her biri, Dynamics 365 Finance örneğinizde, belirli bir iş sürecinin parçası olarak gelen veya giden iş belgelerini işlemek için kullanılabilir.
 
 Genellikle, belirli bir iş sürecinde hangi ER biçiminin kullanılması gerektiğini belirtmeniz gerekir. Bunu yapmak için, iş sürecine özgü parametrelerin bir parçası olarak yapılandırılan bir arama alanında tek bir ER biçimi seçin. Bu arama alanları genellikle ER çerçevesinin uygun API'sını kullanarak uygulanır. Daha fazla bilgi için bkz. [ER çerçevesi API'sı - bir biçim eşleme aramasını görüntülemek için kod](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 

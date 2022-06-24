@@ -1,6 +1,6 @@
 ---
 title: Görev Kaydedici'yle belge veya eğitim oluşturma
-description: Bu konuda, Görev kaydedici ve görev kılavuzlarının neler olduğu, kayıtların nasıl oluşturulacağı ve Microsoft görev kılavuzlarının özelleştirilip bunların Yardım bölümünüze nasıl ekleneceği açıklanmaktadır.
+description: Bu makalede, Görev kaydedici ve görev kılavuzlarının neler olduğu, kayıtların nasıl oluşturulacağı ve Microsoft görev kılavuzlarının özelleştirilip bunların Yardım bölümünüze nasıl ekleneceği açıklanmaktadır.
 author: josaw1
 ms.date: 03/24/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 448c2b302136e595852c423d53e49adfcc40d12d
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b556003edf2fe186f6b095e538f142fcf5a0bba5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070538"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891828"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Görev Kaydedici'yle belge veya eğitim oluşturma
 
@@ -29,7 +29,7 @@ ms.locfileid: "8070538"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Bu konuda, Görev kaydedici ve görev kılavuzlarının neler olduğu, görev kayıtlarının nasıl oluşturulacağı ve Microsoft görev kılavuzlarının özelleştirilip bunların Yardım bölümünüze nasıl ekleneceği açıklanmaktadır.
+Bu makalede, Görev kaydedici ve görev kılavuzlarının neler olduğu, görev kayıtlarının nasıl oluşturulacağı ve Microsoft görev kılavuzlarının özelleştirilip bunların Yardım bölümünüze nasıl ekleneceği açıklanmaktadır.
 
 > [!IMPORTANT]
 > Dynamics 365 Human Resources için kendi görev kılavuzlarınızı kaydedebilirsiniz ancak bunları İş Süreci Modelleyici (BPM) kitaplığına kaydedemez veya Yardım bölmesinden açamazsınız. Bunları yerel olarak veya ağ konumuna kaydedebilir ve daha sonra Görev kaydediciyi kullanarak açabilir ve oynatabilirsiniz. 

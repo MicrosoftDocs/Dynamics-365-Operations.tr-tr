@@ -1,6 +1,6 @@
 ---
 title: İndirimleri işleme, inceleme ve deftere nakletme
-description: Bu konuda, indirim yönetimi anlaşmaları üzerinde işlem yapmak, iskontoları hesaplamak, oluşturulan işlemleri gözden geçirmek, işlemleri deftere nakletmek ve deftere nakilleri gözden geçirmek açıklanmıştır.
+description: Bu makalede, indirim yönetimi anlaşmaları üzerinde işlem yapmak, iskontoları hesaplamak, oluşturulan işlemleri gözden geçirmek, işlemleri deftere nakletmek ve deftere nakilleri gözden geçirmek açıklanmıştır.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 524aec8025378391057275f77e31191f88e4a98b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e63f02e5e93ec2ce8c321a20c2a0c5886edcbe42
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690288"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901951"
 ---
 # <a name="process-review-and-post-rebates"></a>İndirimleri işleme, inceleme ve deftere nakletme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, indirim yönetimi anlaşmaları üzerinde işlem yapmak, iskontoları hesaplamak, oluşturulan işlemleri gözden geçirmek, işlemleri deftere nakletmek ve deftere nakilleri gözden geçirmek açıklanmıştır.
+Bu makalede, indirim yönetimi anlaşmaları üzerinde işlem yapmak, iskontoları hesaplamak, oluşturulan işlemleri gözden geçirmek, işlemleri deftere nakletmek ve deftere nakilleri gözden geçirmek açıklanmıştır.
 
 ## <a name="change-the-status-of-a-deal"></a>Bir anlaşma durumunu değiştirme
 
@@ -45,7 +45,7 @@ Bu konuda, indirim yönetimi anlaşmaları üzerinde işlem yapmak, iskontoları
 
 Geçerli bir İndirim yönetimi anlaşması oluşturmadan önce veya sonra kaynak işlemleri olan satış siparişlerini veya satınalma siparişlerini oluşturabilirsiniz.
 
-Her bir anlaşma satırını, bir satış siparişi veya satınalma siparişi için teslimatı ya da faturayı deftere naklederek otomatik olarak bir indirim provizyonu oluşturacak şekilde ayarlayabilirsiniz. Anlaşma satırı için **Hareket türü** alanını *Teslimat* veya *Fatura* olarak ayarlayın ve **Deftere naklederken işle** seçeneğini *Evet* olarak ayarlayın. **Hareket türü** alanı *Sipariş* olarak ayarlanmışsa deftere nakil sırasında işleme devre dışı bırakılır. Anlaşma etkinleştirildikten sonra oluşturulan kaynak hareketleri için bu konunun daha ilerideki [İndirim yönetimi anlaşmalarını işleme](#process-deals) bölümünde açıklandığı gibi provizyonu yine de işleyebilirsiniz.
+Her bir anlaşma satırını, bir satış siparişi veya satınalma siparişi için teslimatı ya da faturayı deftere naklederek otomatik olarak bir indirim provizyonu oluşturacak şekilde ayarlayabilirsiniz. Anlaşma satırı için **Hareket türü** alanını *Teslimat* veya *Fatura* olarak ayarlayın ve **Deftere naklederken işle** seçeneğini *Evet* olarak ayarlayın. **Hareket türü** alanı *Sipariş* olarak ayarlanmışsa deftere nakil sırasında işleme devre dışı bırakılır. Anlaşma etkinleştirildikten sonra oluşturulan kaynak hareketleri için bu makalenin daha ilerideki [İndirim yönetimi anlaşmalarını işleme](#process-deals) bölümünde açıklandığı gibi provizyonu yine de işleyebilirsiniz.
 
 ### <a name="enable-price-details"></a>Fiyat ayrıntılarını etkinleştir
 

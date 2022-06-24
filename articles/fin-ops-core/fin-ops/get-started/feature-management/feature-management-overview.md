@@ -1,6 +1,6 @@
 ---
 title: Özellik yönetimine genel bakış
-description: Bu konu, Özellik Yönetimini ve bunu nasıl kullanabileceğinizi açıklar.
+description: Bu makalede, Özellik yönetimi ve bunu nasıl kullanabileceğiniz açıklanmaktadır.
 author: Peakerbl
 ms.date: 01/10/2022
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: c98bdbd64ee5488da20de3f5b23ae18ebce8c23f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0691bc34ac8b57d20cfbeb58b6a2e2a03a57d067
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068021"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850074"
 ---
 # <a name="feature-management-overview"></a>Özellik yönetimine genel bakış
 
@@ -41,7 +41,7 @@ Panoda uygun kutucuğu seçerek **Özellik yönetimi** çalışma alanını aça
 - **Durum**: Simge, bir özelliğin açık olduğunu (onay işareti), kapalı olduğunu (boş), açılmak üzere zamanlandığını (saat), zorunlu olduğunu (kilit), açmadan önce dikkat edilmesi gerektiğini (uyarı simgesi) veya açılamadığını (X) belirtir. Gösterilen ayar tüm tüzel kişilikler için kullanılır. Bir özellik açılsa bile hala güvenlik tarafından denetlendiğini unutmayın. Bu nedenle, özellik yalnızca güvenlik rolüne göre erişimi olan kullanıcılar tarafından kullanılabilir. Ayrıca, yalnızca kullanıcının erişebileceği tüzel kişilikler için de kullanılabilir.
 - **Etkinleştirme tarihi** – Özelliğin açıldığı veya açık olarak planlandığı tarih.
 - **Özellik eklendi** – Özelliğin ortamınıza eklendiği tarih. Bu tarih, aylık sürüm döngüleri sırasında ortamınızı güncelleştirdiğinizde otomatik olarak girilir.
-- **Özellik durumu**: Özelliğin geçerli yaşam döngüsü durumudur: **Önizleme**, **Yayımlanan** (boş olarak gösterilir), **Varsayılan olarak açık** ve **Zorunlu**. Bu durumlar, bu konunun ilerleyen bölümlerinde daha ayrıntılı olarak ele alınmaktadır. 
+- **Özellik durumu**: Özelliğin geçerli yaşam döngüsü durumudur: **Önizleme**, **Yayımlanan** (boş olarak gösterilir), **Varsayılan olarak açık** ve **Zorunlu**. Bu durumlar, bu makalenin ilerleyen bölümlerinde daha ayrıntılı olarak ele alınmaktadır. 
 - **Modül** – Yeni özellikten etkilenen modül.
 
 > [!NOTE]
@@ -72,7 +72,7 @@ Bu özellikler için **Özellik durumu** sütunu boştur. Başlangıçta yayıml
 
 ### <a name="on-by-default-features-optional"></a>Varsayılan olarak açık özellikler (isteğe bağlı)
 
-**Varsayılan olarak açık** olarak güncelleştirilen özellikler varsayılan olarak açıktır ancak devre dışı bırakılabilir. En az altı ay boyunca **Yayımlanan** durumunda kaldıktan sonra, devre dışı bırakılabilen özelliklerin bir sonraki ana sürümde bu duruma geçmeleri beklenir. **Varsayılan olarak açık**'a geçiş yapan özelliklerin, sürüm [Yenilikleri](../whats-new-changed.md) konusunda bildirilmeleri beklenir. Güncelleştirme, sahibi olan ürün takımı tarafından başlatılır.
+**Varsayılan olarak açık** olarak güncelleştirilen özellikler varsayılan olarak açıktır ancak devre dışı bırakılabilir. En az altı ay boyunca **Yayımlanan** durumunda kaldıktan sonra, devre dışı bırakılabilen özelliklerin bir sonraki ana sürümde bu duruma geçmeleri beklenir. **Varsayılan olarak açık**'a geçiş yapan özelliklerin, sürümün [Yenilikler](../whats-new-changed.md) makalesinde bildirilmeleri beklenir. Güncelleştirme, sahibi olan ürün takımı tarafından başlatılır.
 
 > [!NOTE]
 > Bu özellikler otomatik olarak etkinleştirileceğinden, kuruluşunuzun bu özellikleri almaya hazır olup olmadığını veya daha fazla zaman gerekip gerekmediğini belirlemeniz önemlidir. Daha fazla zaman gerekiyorsa bu özellikleri geçici olarak devre dışı bırakmanız gerekebilir. Bir özelliğin **Varsayılan olarak açık** durumuna geçişinin genellikle özelliğin **Zorunlu** durum haline gelmesi hedeflenmeden önceki ana sürümde yapıldığını unutmayın. Bu noktada, özelliği devre dışı bırakma seçeneğiniz olmaz. 

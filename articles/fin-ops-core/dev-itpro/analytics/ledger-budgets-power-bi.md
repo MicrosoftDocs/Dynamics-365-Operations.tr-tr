@@ -1,6 +1,6 @@
 ---
 title: Gerçek - bütçe Power BI içeriği
-description: Bu konu, Gerçek ve bütçe karşılaştırması Power BI içeriğini açıklar. Raporlara nasıl erişileceğini açıklar ve veri modeli hakkında bilgi sağlar.
+description: Bu makalede, Fiili değer ve bütçe karşılaştırması Power BI içeriği açıklanmaktadır. Raporlara nasıl erişileceğini açıklar ve veri modeli hakkında bilgi sağlar.
 author: panolte
 ms.date: 12/18/2017
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7a5628dc67c721bf616803d6a31047cee09d8a434d43c0175dd8639815b7c9a6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff57d052b66103ad716ad8d55afb4fcb095d2c02
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737915"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847296"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>Gerçek - bütçe Power BI içeriği
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, **Gerçek ve bütçe karşılaştırması** Microsoft Power BI içeriğini açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
+Bu makalede, **Fiili değer ve bütçe karşılaştırması** Microsoft Power BI içeriği açıklanmaktadır. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
 ## <a name="overview"></a>Genel bakış
 

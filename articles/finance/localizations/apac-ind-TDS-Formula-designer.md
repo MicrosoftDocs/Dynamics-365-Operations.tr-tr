@@ -1,6 +1,6 @@
 ---
 title: TDS hesaplamaları için formül tasarımcısı
-description: Bu konu, hareketle ilişkilendirilmiş TDS grubundaki her bir TDS vergi kodu için belirlenen formüle dayalı olarak Kaynakta Kesilen Verginin (TDS) nasıl hesaplandığını gösteren bir örnek sağlar.
+description: Bu makalede, hareketle ilişkilendirilmiş TDS grubundaki her bir TDS vergi kodu için belirlenen formüle dayalı olarak Kaynakta Kesilen Verginin (TDS) nasıl hesaplandığını gösteren bir örnek sağlanmaktadır.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: e60db55fd3bbcfb8dc34670b3bbbd39336b04efb
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1196f7258c898a55f3f29ddce7457e6f527185d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720097"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889875"
 ---
 # <a name="formula-designer-for-tds-calculations"></a>TDS hesaplamaları için formül tasarımcısı
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, her bir TDS vergi kodu için belirlenen formüle göre Kaynakta Kesilen Verginin (TDS) nasıl hesaplandığıyla ilgili bir örnek sağlar. TDS vergi kodları, harekete iliştirilen TDS grubunda tanımlanır. TDS formüllerini tasarlamadan önce, aşağıdaki adımlarda listelendiği şekilde TDS için gerekli temel kurulumu tamamlayın. 
+Bu makalede, her bir TDS vergi kodu için belirlenen formüle göre Kaynakta Kesilen Verginin (TDS) nasıl hesaplandığıyla ilgili bir örnek sağlanmaktadır. TDS vergi kodları, harekete iliştirilen TDS grubunda tanımlanır. TDS formüllerini tasarlamadan önce, aşağıdaki adımlarda listelendiği şekilde TDS için gerekli temel kurulumu tamamlayın. 
 
 - **Stopaj vergisi bileşeni grupları** sayfasını kullanarak TDS bileşeni gruplarını ayarlayın. 
 - **Stopaj vergisi bileşenleri** sayfasını kullanarak TDS bileşenlerini ayarlayın ve TDS bileşeni grubunu TDS bileşenleriyle ilişkilendirin. 

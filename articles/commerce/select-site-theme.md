@@ -1,6 +1,6 @@
 ---
 title: Site teması seçme
-description: Bu konuda, Microsoft Dynamics 365 Commerce'ta sitenizin temasını nasıl ayarlayabileceğiniz veya değiştirileceği açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce'ta sitenizin temasını nasıl ayarlayabileceğiniz veya değiştirileceği açıklanmaktadır.
 author: bicyclingfool
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a13400258a86087b6137b08ca724cbbfc1a90ad4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: b038dc996c571d54dce3f2aec679f7af8af85074
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964793"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900398"
 ---
 # <a name="select-a-site-theme"></a>Site teması seçme
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce'ta sitenizin temasını nasıl ayarlayabileceğiniz veya değiştirileceği açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce'ta sitenizin temasını nasıl ayarlayabileceğiniz veya değiştirileceği açıklanmaktadır.
 
 Sitenin yerleşimi ve stili (örneğin, yazı tipleri, boyutlar ve renkler) seçtiğiniz ve siteye uyguladığınız Tema tarafından tanımlanır. Bir tema, şirketinizdeki bir geliştirici tarafından oluşturulur ve dağıtılır. Temalara genel bakış için, bkz [Temalara genel bakış](e-commerce-extensibility/theming.md). Kural oluşturmayla ve temaları dağıtmayla ilgili daha fazla bilgi için bkz. [Yeni tema oluşturma](e-commerce-extensibility/create-theme.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler 6 Eylül 2021
-description: Bu konuda, 6 Eylül 2021 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, 6 Eylül 2021 için Microsoft Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır.
 author: marcelbf
 ms.date: 09/06/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 314d836db9b7560c2ed95ad1b9d2eba753e39d2b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 776498b32f8323b1a06f39b518cdc1ae534f9bcc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690596"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872166"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-6-2021"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler 6 Eylül 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, Microsoft Dynamics 365 Human Resources uygulamasındaki yeni, değişen veya gelecek özellikler açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Human Resources'daki yeni, değişen veya yakında sunulacak özellikler açıklanmaktadır.
 
 Güncelleştirme işlemi ve planı hakkında daha fazla bilgi için bkz. [Güncelleştirme işlemi](hr-admin-setup-update-process.md).
 
@@ -50,9 +50,9 @@ Aşağıdaki özellikler genel olarak bu sürümde mevcuttur.
 Bu sürümde aşağıdaki hata çözümleri bulunmaktadır.
 
 > [!NOTE]
-> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu konu ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmelerini eklemek için bu konuya güncelleştirmeler uygulayabiliriz.
+> Bizim hedefimiz size en kısa sürede bu bilgiyi sunmaktır. Bu makale, ilk kez yayımlandıktan sonra derlemeye eklenen hata düzeltmeleri eklenerek güncelleştirilebilir.
 
-| Sorun numarası | Sorun | Tanım |
+| Sorun numarası | Sorun | Açıklama |
 |---|---|---|
 | 610128 | HcmDiscussionOverallCommentEntity varlığını kullanırken veri yayımlama hatası oluştu | Veriler bir Excel çalışma kitabından HcmDiscussionOverralCommentEntity varlığına yayımlandığında aşağıdaki hata oluşuyor: "HcmTopicOverrall veri kaynağı kayıt türü bulunamıyor" |
 | 589073 | EEO-1 raporunda, **Cinsiyet** alanı için "Belirsiz" ve boş değerler "Kadın" değeri olarak sayılır. | **Cinsiyet** alanı için **Erkek** belirtilmezse EEO-1 raporunda varsayılan **Kadın** değeri oluşturulur. |

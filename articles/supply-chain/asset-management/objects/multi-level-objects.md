@@ -1,6 +1,6 @@
 ---
 title: Çok düzeyli kıymetler
-description: Bu konuda, çok düzeyli kıymetleri oluşturma ve silme açıklanmaktadır.
+description: Bu makalede, çok düzeyli kıymetleri oluşturma ve silme açıklanmaktadır.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c7c97f8b05a1bf76b2f2c869e6868689f388d06337064f04af839f2403357
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 34ab83c9f9673c39006b3985ebaac9e17a45da82
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769623"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908786"
 ---
 # <a name="multi-level-assets"></a>Çok düzeyli kıymetler
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769623"
 
  
 
-Bu konuda, çok düzeyli kıymetleri oluşturma ve silme açıklanmaktadır. Hiyerarşik ağaç yapısında kıymetler ve ilgili alt kıymetler oluşturabilirsiniz. Bu şekilde kıymetler arasındaki ilişkileri ve bağımlılıkları gösterebilirsiniz. Bakım işleri, ağaç yapısının tüm düzeyleriyle ilgili olabilir. İstatistikler tek bir düzey veya tüm alt kıymet düzeylerinin toplamı olarak da oluşturulabilir.
+Bu makalede, çok düzeyli kıymetleri oluşturma ve silme açıklanmaktadır. Hiyerarşik ağaç yapısında kıymetler ve ilgili alt kıymetler oluşturabilirsiniz. Bu şekilde kıymetler arasındaki ilişkileri ve bağımlılıkları gösterebilirsiniz. Bakım işleri, ağaç yapısının tüm düzeyleriyle ilgili olabilir. İstatistikler tek bir düzey veya tüm alt kıymet düzeylerinin toplamı olarak da oluşturulabilir.
 
 **Tüm Kıymetler** listesi sayfasında (**Kıymet yönetimi** \> **Ortak** \> **Kıymetler** \> **Tüm kıymetler**), **Kıymet** sütunu kıymetleri hiyerarşik düzende listeler. **Üst Öğe** sütunu ilgili üst öğe gösterilir. Ayrıca kıymetler ve alt kıymetler zaten oluşturulmuşsa **İlgili bilgiler** bölmesindeki **Kıymet ağacı** bölümü kıymetleri bir ağaç yapısında gösterir.
 

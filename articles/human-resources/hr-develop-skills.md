@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7c853ad71aecd7f5d214c02da97f7956ff2391df
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: acb632042cdb535bea0dd625531f22d284653294
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695970"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893772"
 ---
 # <a name="configure-skills"></a>Yetenekleri konfigüre et
 
 > [!IMPORTANT]
-> Bu konuda belirtilen işlevler şu anda Finance altyapısında Human Resources müşteriler için kullanıma sunulmaktadır.  
+> Bu makalede belirtilen işlevler şu anda Finance altyapısında Human Resources müşterileri için kullanıma sunulmaktadır.  
 
 
 Çalışanlarınızın yeteneklerini Dynamics 365 Human Resources'ta izleyebilirsiniz. Ayrıca, belirli bir iş için gereken yetenekleri de belirtebilirsiniz.

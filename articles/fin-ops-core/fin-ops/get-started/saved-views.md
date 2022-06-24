@@ -1,6 +1,6 @@
 ---
 title: Kayıtlı görünümler
-description: Bu konu, kaydedilmiş görünümler özelliklerinin nasıl kullanılacağını açıklar.
+description: Bu makale, kaydedilmiş görünümler özelliklerinin nasıl kullanılacağını açıklar.
 author: jasongre
 ms.date: 04/25/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644801"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845427"
 ---
 # <a name="saved-views"></a>Kayıtlı görünümler
 
@@ -196,7 +196,7 @@ Sayfa için tüm yayımlanmış görünümlerin listesi için aşağıdaki eylem
 
 ## <a name="managing-views-globally"></a>Görünümleri genel olarak yönetme
 
-Bu konuda belirtildiği gibi, bazı yönetim özellikleri her sayfada yer almakla birlikte, **sistem yöneticileri** ve **kaydedilmiş görünüm yöneticileri**, **Kişiselleştirme** sayfası aracılığıyla sistem için görünümleri daha da yönetebilir . Özellikle, Bu sayfa aşağıdaki bölümlere ve yeteneklere sahiptir: 
+Bu makale belirtildiği gibi, bazı yönetim özellikleri her sayfada yer almakla birlikte, **sistem yöneticileri** ve **kaydedilmiş görünüm yöneticileri**, **Kişiselleştirme** sayfası aracılığıyla sistem için görünümleri daha bütüncül olarak yönetebilir. Özellikle, Bu sayfa aşağıdaki bölümlere ve yeteneklere sahiptir: 
 
 - **Yayınlanan Görünümler** – Bu bölüm, organizasyonunuz için yayımlanmış tüm görünümleri listeler. Burada, görünümün hedeflediği güvenlik rollerini veya tüzel kişilikler ayarladıktan sonra bir görünümü yeniden yayımlayabilirsiniz. Dilerseniz görünümleri dışa aktarabiliri silebilir veya yayımdan kaldırabilirsiniz. Bir görünümün bir kişisel kopyasını oluşturmak için **Kişisel olarak kaydet** eylemini kullanabilirsiniz, böylece görünümü güncelleştirebilir veya içeriğinin daha iyi anlaşılmasını sağlayabilirsiniz. 
 - **Yayımlanmamış görünümler**: Bu bölüm, sisteminizdeki yayımlanmayan tüm kuruluş görünümlerini listeler. Bu görünümler genellikle içe aktarma özelliği aracılığıyla sisteme gelir. Bu görünümleri yayımlayabilir, dışa aktarabilir veya silebilirsiniz. 10.0.12 sürümüne eklenen **hızlı yayımlama** eylemi, varolan güvenlik rolü ve yasal varlık yapılandırmaları kullanılarak tek bir eylemde bu bölümdeki çoklu görünümlerin yayımlanmasına olanak tanır. Görünümün bir kişisel kopyasını oluşturmak için **Kişisel olarak kaydet** eylemini kullanabilirsiniz, böylece görünümü güncelleştirebilir veya içeriğinim daha iyi anlaşılmasını sağlayabilirsiniz.

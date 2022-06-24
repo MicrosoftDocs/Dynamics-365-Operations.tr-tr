@@ -1,6 +1,6 @@
 ---
 title: İş adaylarını işe alma
-description: Bu konu, Dynamics 365 Human Resources içinde adayların nasıl işe alınacağını anlatır.
+description: Bu makalede, Dynamics 365 Human Resources'da adayların nasıl işe alınacağı açıklanmaktadır.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 743c78d3526db2707630229d4cf21531f9641dd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733999"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879264"
 ---
 # <a name="recruit-job-candidates"></a>İş adaylarını işe alma
 
@@ -47,11 +47,12 @@ Ayrı bir işe alma uygulaması kullanmıyorsanız, İnsan Kaynakları adayları
 
 Özellikler etkinleştirildikten sonra, aşağıdaki adımlarla işlevi seçin: 
 1. **Human resources** > **Kurulum** > **Human resources parametreleri**'ne gidin.
-2.  **İşe alma** sekmesinde, **İşe alma devre dışı bırakıldı** alanını **Hayır** olarak ayarlayın.
-3. **İşe alma deneyimi** açılır menüsünde, **İK işe alma** seçeneğini belirleyin.   
+2.  **İşe alma** sekmesinde, **İşe alma etkinleştirildi** alanını **Evet** olarak ayarlayın.
+3. **İşe alma deneyimi** açılır menüsünde, **İK işe alma** seçeneğini belirleyin.  
+4. **Kaydet**'e tıklayın. 
 
 > [!Note] 
-> **İK işe alma** seçildiğinde, **İşe alma projeleri** (eski) salt okunur olur. 
+> **İK işe alma** seçildiğinde, **İşe alma projeleri** (eski) kullanılamaz. 
 
 
 ## <a name="add-a-recruiting-request-location"></a>İşe alma isteği Ekle konumu

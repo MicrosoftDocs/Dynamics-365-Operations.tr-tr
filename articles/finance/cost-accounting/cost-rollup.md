@@ -1,6 +1,6 @@
 ---
 title: Maliyet yuvarlama ilkesi ve genel gider hesaplaması
-description: Bu konu, ikincil maliyet öğelerinin doğru düzeyini belirlemek ve kuruluşun raporlamasına ve maliyet izlemesine uygun maliyet öğeleri ve maliyet yuvarlama kuralları oluşturmak hakkında bilgi sağlar.
+description: Bu makalede, ikincil maliyet öğelerinin doğru düzeyini belirlemek ve kuruluşun raporlamasına ve maliyet izlemesine uygun maliyet öğeleri ve maliyet yuvarlama kuralları oluşturmak hakkında bilgi sağlanmaktadır.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f35bf3e900b8dd9c1864be8668f7ff7296924c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734443"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874623"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Maliyet yuvarlama ilkesi ve genel gider hesaplaması 
 
@@ -33,7 +33,7 @@ Maliyet muhasebesi, maliyet akışının bir kuruluş içerisinde teslim edilen 
 -   Genel gider hesaplaması tarafından oluşturulan maliyet girdilerinin hacmi çok yüksek olabilir.
 -   Maliyet nesneleri arasında maliyet akışını izlemek mümkün değildir.
 
-Maliyet muhasebesi, bu ektilerin önüne geçmek için maliyet tahsisatının kuruluşunuzun yönetimsel raporlama gereksinimlerine uyacak şekilde yapılandırılmasını sağlar. Bu konu, ikincil maliyet öğelerinin doğru düzeyini belirlemek ve kuruluşun raporlamasına ve maliyet izlemesine uygun maliyet öğeleri ve maliyet yuvarlama kuralları oluşturmayı ele alır.
+Maliyet muhasebesi, bu ektilerin önüne geçmek için maliyet tahsisatının kuruluşunuzun yönetimsel raporlama gereksinimlerine uyacak şekilde yapılandırılmasını sağlar. Bu makalede, ikincil maliyet öğelerinin doğru düzeyini belirleme ve kuruluşun raporlamasına ve maliyet izlemesine uygun maliyet öğeleri ve maliyet yuvarlama kuralları oluşturma konusu ele alınmaktadır.
 
 > [!NOTE]
 > Raporlama gereksinimleri değişirse yapılandırmaları değiştirebilirsiniz.

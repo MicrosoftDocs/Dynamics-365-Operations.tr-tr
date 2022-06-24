@@ -1,6 +1,6 @@
 ---
 title: Mali takvimler, mali yıllar ve dönemler
-description: Bu konuda, mali takvimler, mali yıllar, mali dönemler ve bunların tüzel kişilikler, sabit kıymetler ve bütçeleme için nasıl kullanıldığı ele alınmaktadır.
+description: Bu makalede, mali takvimler, mali yıllar, mali dönemler ve bunların tüzel kişilikler, sabit kıymetler ve bütçeleme için nasıl kullanıldığı ele alınmaktadır.
 author: aprilolson
 ms.date: 03/05/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d50db3a96d6267f59dd5a99c039dd8fc8b44079a
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: a1583df4650d0b36ecc2cb0d3e2d3a410aa807ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717404"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909112"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Mali takvimler, mali yıllar ve dönemler
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, mali takvimler, mali yıllar, mali dönemler ve bunların tüzel kişilikler, sabit kıymetler ve bütçeleme için nasıl kullanıldığı ele alınmaktadır.
+Bu makalede, mali takvimler, mali yıllar, mali dönemler ve bunların tüzel kişilikler, sabit kıymetler ve bütçeleme için nasıl kullanıldığı ele alınmaktadır.
 
 Mali takvimler bir kuruluşun finansal faaliyeti için bir çerçeve sağlar. Her mali yıl takvimi bir veya birden çok mali yıl içerir ve her bir mali yıl, birden fazla dönem içerir. Mali takvimler 1 Ocak ile 31 Aralık takvim yılına veya seçtiğiniz herhangi bir tarih aralığına dayalı olabilir. Örneğin, bazı kuruluşlar bir yılın 1 Temmuz'unda başlayan ve sonraki yılın 30 Haziran'ına kadar süren bir mali takvimi seçerler. 
 

@@ -1,6 +1,6 @@
 ---
 title: Bordro API'sı Hayır Evet
-description: Bu konuda, Dynamics 365 Human Resources bordro API'sındaki Hayır Evet seçeneği açıklanmıştır.
+description: Bu makalede, Dynamics 365 Human Resources Bordro API'sindeki Hayır Evet seçenek kümesi açıklanmaktadır.
 author: marcelbf
 ms.date: 06/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b715aac51a27f691ec5369d062f233fbcf9b0abe
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7fe030100d2fe51cace4b940c80f7ac950ce9697
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069133"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865425"
 ---
 # <a name="payroll---no-yes-option-set"></a>Bordro - Hayır Evet seçenek kümesi
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069133"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konu, Dynamics 365 Human Resources için Hayır Evet seçeneği kümesini açıklar.
+Bu makalede, Dynamics 365 Human Resources için Hayır Evet seçenek kümesi açıklanmaktadır.
 
 ## <a name="option-set-no-yes"></a>Seçenek kümesi: Hayır Evet
 

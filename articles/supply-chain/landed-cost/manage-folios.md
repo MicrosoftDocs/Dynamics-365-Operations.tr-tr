@@ -1,6 +1,6 @@
 ---
 title: Folyoları yönetme
-description: Bu konu, folyolarla nasıl çalışılacağını açıklamaktadır. Folyo genellikle sevkiyat başına bir varlık veya şirket için bir satıcının mallarından oluşur. Bir folyodaki mallar bir konteynerde olabilir veya birden fazla konteynere yayılabilir.
+description: Bu makale, folyolarla nasıl çalışılacağını açıklamaktadır. Folyo genellikle sevkiyat başına bir varlık veya şirket için bir satıcının mallarından oluşur. Bir folyodaki mallar bir konteynerde olabilir veya birden fazla konteynere yayılabilir.
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f908ae3c150a09af61bb0ee97469619744cd1079
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4cc556c47f7027f2f5d5b24c235b11ced63b3e4e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695316"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905906"
 ---
 # <a name="manage-folios"></a>Folyoları yönetme
 
@@ -132,7 +132,7 @@ Aşağıdaki tabloda, folyonun **Başlık** görünümünün **İhracat** hızl�
 
 ### <a name="information-on-the-folio-fasttab"></a>Folyo hızlı sekmesi hakkında bilgi
 
-**Satırlar** görünümündeki **Folyo** hızlı sekmesi, folyo hakkındaki bilgileri gösterir. Bu bilgilerin çoğu, bu konuda daha önce açıklandığı gibi **Başlık** görünümünde de görünür.
+**Satırlar** görünümündeki **Folyo** hızlı sekmesi, folyo hakkındaki bilgileri gösterir. Bu bilgilerin çoğu, bu makalede daha önce açıklandığı gibi **Başlık** görünümünde de görünür.
 
 ### <a name="information-and-buttons-on-the-lines-fasttab"></a>Satırlar hızlı sekmesindeki bilgiler ve düğmeler
 

@@ -1,6 +1,6 @@
 ---
 title: Sabit kıymeti elden çıkarma deftere nakil hesapları
-description: Bu konuda, Genel muhasebe deftere nakil hesaplarının kıymetlerin elden çıkarılmasına yönelik nasıl ayarlanacağı açıklanmaktadır.
+description: Bu makalede, kıymetlerin elden çıkarılmasına yönelik olarak Genel muhasebe deftere nakil hesaplarının nasıl ayarlanacağı açıklanmaktadır.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8501bbb0fc47fb52e100d9086054db4831dae178
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1272cdb16396d24b5495f023e7b9fe3dee341507
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720265"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871347"
 ---
 # <a name="fixed-asset-disposal-posting-accounts"></a>Sabit kıymeti elden çıkarma deftere nakil hesapları
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Genel muhasebe deftere nakil hesaplarının, kıymetleri elden çıkarırken nasıl ayarlanacağı açıklanmaktadır.
+Bu makalede, Genel muhasebe deftere nakil hesaplarının, kıymetleri elden çıkarırken nasıl ayarlanacağı açıklanmaktadır.
 
 Bir kıymeti elden çıkarırken Genel muhasebe deftere nakil hesaplarını ayarlamak için **Sabit kıymetler deftere nakil profilleri** sayfasındaki **Kayıt defteri hesapları** hızlı sekmesinde , **Satış çıkışı** ve **Iskarta çıkışı**'nı seçin.
 

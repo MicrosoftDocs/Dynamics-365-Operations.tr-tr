@@ -1,6 +1,6 @@
 ---
 title: Yazıcı ER hedefi türü
-description: Bu konuda, Elektronik raporlama (ER) biçiminin her KLASÖR veya DOSYA bileşeni için yazıcı hedefini nasıl yapılandırabileceğiniz açıklanmaktadır.
+description: Bu makalede, Elektronik raporlama (ER) biçiminin her KLASÖR veya DOSYA bileşeni için yazıcı hedefini nasıl yapılandırabileceğiniz açıklanmaktadır.
 author: NickSelin
 ms.date: 02/14/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 2513fc4f86519c71602089cd46e9757813b1a708
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 826455d0901a45ef26755fd323ee2a2737b5eec0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388300"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845584"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Yazıcı hedefi
 
@@ -34,7 +34,7 @@ Başlamadan önce, Belge Yönlendirme Aracısı'nı yükleyip yapılandırmanız
 
 ## <a name="make-the-printer-destination-available"></a>Yazıcı hedefini kullanıma açma
 
-**Yazıcı** hedefini Microsoft Dynamics 365 Finance'in geçerli kurulumunda kullanıma açmak için **Özellik yönetimi** çalışma alanına gidin ve aşağıdaki özellikleri şu sırayla açın:
+**Yazıcı** hedefini Microsoft Dynamics 365 Finance'in geçerli örneğinde kullanıma açmak için **Özellik yönetimi** çalışma alanına gidin ve aşağıdaki özellikleri şu sırayla açın:
 
 1. Elektronik Raporlama giden belgelerini Microsoft Office biçimlerinden PDF'e dönüştür
 2. Giden belgeler için Elektronik raporlama hedefi olarak Belge Yönlendirme Aracısı

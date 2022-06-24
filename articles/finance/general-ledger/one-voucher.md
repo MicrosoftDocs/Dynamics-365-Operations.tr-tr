@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 9a0a9a3f23a3aec0077fd1a64c55fea567b72800
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: fa7a519b87bd5933b8b672f9f9b3e230fd7f2eb4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722506"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896419"
 ---
 # <a name="one-voucher"></a>Bir fiş
 
@@ -37,7 +37,7 @@ Mali günlükler için (günlük fişi, sabit kıymet günlüğü, satıcı öde
     [![Tek satır.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
-    > Bir fiş tanımının **yalnızca Bir fiş numarası** olarak ayarlanan günlük adlarını **içermediğini** ve kullanıcının yalnızca Genel muhasebe türlerini içeren bir fiş girdiğini unutmayın. Bu konuda Bir fiş, birden çok satıcı, müşteri, banka, sabit kıymet veya proje içeren bir fiş olduğu anlamına gelir.
+    > Bir fiş tanımının **yalnızca Bir fiş numarası** olarak ayarlanan günlük adlarını **içermediğini** ve kullanıcının yalnızca Genel muhasebe türlerini içeren bir fiş girdiğini unutmayın. Bu makalede Bir fiş; birden çok satıcı, müşteri, banka, sabit kıymet veya proje içeren bir fiş olduğu anlamına gelir.
 
 - Mahsup hesabın olmadığı çok satırlı bir fiş girin.
 
@@ -63,16 +63,16 @@ Daha sonra **Mali Bilgiler** çalışma alanında, **Satıcıya göre giderler**
 
 Bir fiş kullanıldığında oluşabilecek sorunlar nedeniyle, bu işlevsellik kullanım dışı bırakılacaktır. Ancak bu işleve bağlı olan işlevsel boşluklar olduğundan, kullanım dışı bırakma işlemi bir anda gerçekleşmeyecektir. Bunun yerine, aşağıdaki planı kullanacağız:
 
-- **Bahar 2018 sürümü** – Bu işlev varsayılan olarak **Genel muhasebe parametreleri** sayfasındaki **Genel** sekmesinde bulunan **Tek bir fiş içinde birden fazla harekete izin ver** aracılığıyla kapatılır. Ancak kuruluşunuzun, bu konunun ilerleyen bölümlerinde listelenen işlevsel boşluklardan birine denk gelen bir senaryosu varsa bu işlevi tekrar açabilirsiniz.
+- **Bahar 2018 sürümü** – Bu işlev varsayılan olarak **Genel muhasebe parametreleri** sayfasındaki **Genel** sekmesinde bulunan **Tek bir fiş içinde birden fazla harekete izin ver** aracılığıyla kapatılır. Ancak kuruluşunuzun, bu makalenin ilerleyen bölümlerinde listelenen işlev eksiklikleriyle ilgili bir senaryosu varsa bu işlevi tekrar açabilirsiniz.
 
-    - İş senaryonuz için Bir fiş gerekmiyorsa işlevi kapalı bırakmanız önerilir. Microsoft, başka bir çözüm varken bile bu işlev kullanılırsa bu konunun ilerleyen bölümlerinde tanımlanan alanlardaki "hataları" düzeltmez.
+    - İş senaryonuz için Bir fiş gerekmiyorsa işlevi kapalı bırakmanız önerilir. Microsoft, başka bir çözüm varken bile bu işlev kullanılırsa bu makalenin ilerleyen bölümlerinde tanımlanan alanlardaki "hataları" düzeltmez.
     - Belgelenen işlevsel boşluklardan biri için gerekli olmadıkça tümleştirmelerde Bir fiş'i kullanmayı bırakmanızı öneririz.
 
 - **Sonraki sürümler** - Bu iş gereksinimlerinden bazıları yalnızca Bir fiş kullanılarak karşılanabilir. Microsoft, işlevsellik kullanımdan kalktıktan sonra tüm tanımlı iş gereksinimlerinin hala sistemde karşılanamayacağını garanti etmelidir. Bu nedenle, işlevsel boşlukları doldurmak için yeni özelliklerin eklenmesi gerekecektir. Her özellik boşluğu farklı olduğundan ve iş gereksinimlerine göre değerlendirilmek zorunda olduğundan, Microsoft belirli bir çözüm sağlayamaz. Bazı işlevsel boşluklar, belirli iş gereksinimlerini karşılamaya yardımcı olan özelliklerle değiştirilecektir. Ancak, Bir fiş kullanıldığı sırada bir günlüğe giriş yapılmasına izin vermek dışında başka boşluklar doldurulabilir fakat gerektiğinde daha ayrıntılı bilgi izlemek için sistem geliştirilir.
 
 Tüm işlevsel boşluklar doldurulduktan sonra, Microsoft özelliğin kullanımdan kaldırılacağını bildirecektir. Ancak, kullanım dışı bırakma işlemi ilgili iletişimin ardından en az bir yıl için etkili olmayacaktır. Microsoft, Bir fiş işlevinin ne zaman kullanımdan kaldırılacağı hakkında bir tahminde bulunamasa da, kullanımdan kaldırmaya en az iki yıl vardır. Microsoft'un ilkesi, kullanım dışı bırakılan işlevlerin duyurusu ile kullanım dışı bırakma işlemi arasında en az 12 ay süre bırakmaktır; böylece müşteriler ve bağımsız yazılım satıcıları (ISV) değişikliğe hazırlanmak için yeterli zamana sahip olur. Örneğin, bir kuruluşun iş süreçleri, varlık ve tümleştirmelerini güncelleştirmesi gerekebilir.
 
-Bir fiş'in kullanım dışı bırakılması, kapsamlı bir şekilde iletilen önemli bir değişikliktir. Bu iletişim kapsamında Microsoft, bu konuyu güncelleştirir, Microsoft Dynamics 365 Finance bloguna bir blog gönderisi gönderir, "Kaldırılmış veya kullanım dışı özellikler" konusunu güncelleştirir, değişiklikleri ilgili Microsoft konferanslarında açıklar ve benzer eylemlerde bulunur.
+Bir fiş'in kullanım dışı bırakılması, kapsamlı bir şekilde iletilen önemli bir değişikliktir. Bu iletişim kapsamında Microsoft, bu makaleyi güncelleştirir, Microsoft Dynamics 365 Finance bloguna bir blog gönderisi gönderir, "Kaldırılmış veya kullanım dışı özellikler" makalesini güncelleştirir, değişiklikleri ilgili Microsoft konferanslarında açıklar ve benzer eylemlerde bulunur.
 
 ## <a name="why-use-one-voucher"></a>Bir fiş neden kullanılır?
 

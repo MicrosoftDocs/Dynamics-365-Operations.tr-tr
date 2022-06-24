@@ -1,6 +1,6 @@
 ---
 title: TDS vergi türü için vergi bileşenlerini ayarlama
-description: Bu konu, Kaynakta Kesilen Vergi (TDS) türü için stopaj vergisi bileşenlerinin nasıl ayarlanabileceğini açıklar. Ayrıca her TDS bileşeni için TDS'yi hesaplama amacıyla kullanılan eşik sınırının nasıl tanımlanacağını açıklar.
+description: Bu makalede, Kaynakta Kesilen Vergi (TDS) türü için stopaj vergisi bileşenlerinin nasıl ayarlanacağı açıklanmaktadır. Ayrıca her TDS bileşeni için TDS'yi hesaplama amacıyla kullanılan eşik sınırının nasıl tanımlanacağını açıklar.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 9c86341f7528e2c85b813e4f825ae34f10680a9b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: df2eb10ce9e372bb1e984f6ae1a2e889bbd90ad0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727131"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871171"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>TDS vergi türü için vergi bileşenlerini ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Kaynakta Kesilen Vergi (TDS) türü için stopaj vergisi bileşenlerinin nasıl ayarlanabileceğini açıklar. TDS bileşenleri şunlardır: TDS, ek talep, PE-Cess ve SHE Cess. Bu konu ayrıca her TDS bileşeni için TDS'yi hesaplama amacıyla kullanılan eşiğin nasıl tanımlanacağını açıklar. Ek olarak, her TDS bileşeni için TDS'yi hesaplamak üzere kullanılan bir istisna eşiği tanımlayabilirsiniz.
+Bu makalede, Kaynakta Kesilen Vergi (TDS) türü için stopaj vergisi bileşenlerinin nasıl ayarlanacağı açıklanmaktadır. TDS bileşenleri şunlardır: TDS, ek talep, PE-Cess ve SHE Cess. Bu makalede, her TDS bileşeni için TDS'yi hesaplama amacıyla kullanılan eşiğin nasıl tanımlanacağını da açıklanmaktadır. Ek olarak, her TDS bileşeni için TDS'yi hesaplamak üzere kullanılan bir istisna eşiği tanımlayabilirsiniz.
 
 TDS bileşenlerini ayarlamak için aşağıdaki adımları izleyin.
 

@@ -1,6 +1,6 @@
 ---
 title: Bakım kesinti süresi faaliyetleri
-description: Bu konuda bakım kesinti süresinin, belirli bir dönem boyunca belirli varlıklarda bakım işleri gerçekleştirmek için gerekli kapasitenin genel görünümünü edinmek üzere nasıl kullanılacağı anlatılır.
+description: Bu makalede bakım kesinti süresinin, belirli bir dönem boyunca belirli varlıklarda bakım işleri gerçekleştirmek için gerekli kapasitenin genel görünümünü edinmek üzere nasıl kullanılacağı anlatılır.
 author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0e6168033afb97c6f4f1b8466801a6f16332df82a039927ec1b45e03aa3694b8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 75e30c8b2d74cc2f1ca538b64e5fc801f9ca130a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897704"
 ---
 # <a name="maintenance-downtime-activities"></a>Bakım kesinti süresi faaliyetleri
 

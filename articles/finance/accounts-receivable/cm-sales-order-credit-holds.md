@@ -1,6 +1,6 @@
 ---
 title: Satış siparişleri için askıda krediler
-description: Bu konuda, bir satış siparişini kredi bekletmeye sokmak için kullanılan kuralların kurulumu açıklanmaktadır.
+description: Bu makalede, bir satış siparişini kredi askıda durumuna almak için kullanılan kuralların ayarlanması açıklanmaktadır.
 author: JodiChristiansen
 ms.date: 07/20/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2d8966f993e7ca82b10a2ef5a023256a05682980
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 44560425056ee1726f21a4279f36c2e718956814
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734347"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856842"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Satış siparişleri için askıda krediler
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Bu konuda, bir satış siparişini kredi bekletmeye sokmak için kullanılan kuralların kurulumu açıklanmaktadır. Kredi yönetimi durdurma kuralları tek bir müşteriye veya bir müşteri grubuna uygulanabilir. Durdurma kuralları, aşağıdaki durumlara yanıtları tanımlar:
+Bu makalede, bir satış siparişini kredi askıda durumuna almak için kullanılan kuralların ayarlanması açıklanmaktadır. Kredi yönetimi durdurma kuralları tek bir müşteriye veya bir müşteri grubuna uygulanabilir. Durdurma kuralları, aşağıdaki durumlara yanıtları tanımlar:
 
 1. Vade sonrası gün sayısı
 2. Hesapların durumu
