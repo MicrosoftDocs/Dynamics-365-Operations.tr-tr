@@ -1,6 +1,6 @@
 ---
 title: Sales'deki hesapları doğrudan Supply Chain Management'daki müşterilerle eşitleme
-description: Bu konu, hesapları Dynamics 365 Sales'den Supply Chain Management'a eşitlemek için altta yatan görevleri ve şablonları açıklar.
+description: Bu makale, hesapları Dynamics 365 Sales'den Supply Chain Management'a eşitlemek için altta yatan görevleri ve şablonları açıklar.
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b3257f4582ede6cd1be8e593a5ed99f5ffd0ca6f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8d415174f62c511626852b91f3591f907b4a85ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063097"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851579"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Sales'deki hesapları doğrudan Supply Chain Management'daki müşterilerle eşitleme
 
@@ -32,7 +32,7 @@ ms.locfileid: "8063097"
 > [!NOTE]
 > Aday'dan nakde çözümünü kullanmadan önce [Microsoft Dataverse for Apps için veri tümleştirme](/powerapps/administrator/data-integrator) hakkında bilgi sahibi olmalısınız.
 
-Bu konu, hesapları doğrudan Dynamics 365 Sales'den Dynamics 365 Supply Chain Management'a eşitlemek için altta yatan görevleri ve şablonları açıklar.
+Bu makale, hesapları doğrudan Dynamics 365 Sales'den Dynamics 365 Supply Chain Management'a eşitlemek için altta yatan görevleri ve şablonları açıklar.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Aday müşteriden nakde çözümünde veri akışı
 
@@ -101,7 +101,7 @@ Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gö
 
 ![Veri tümleştirmede şablon eşleme.](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
-## <a name="related-topics"></a>İlgili konular
+## <a name="related-articles"></a>İlgili makaleler
 
 
 [Aday müşteriden nakde](prospect-to-cash.md)

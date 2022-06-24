@@ -1,6 +1,6 @@
 ---
 title: Ürün tanımlayıcıları
-description: Bu konu çeşitli ürün tanımlayıcısı türleri hakkında bilgi sağlar ve ürün tanımlayıcılarını ürün verilerine nasıl ekleyebileceğinizi açıklar.
+description: Bu makale çeşitli ürün tanımlayıcısı türleri hakkında bilgi sağlar ve ürün tanımlayıcılarını ürün verilerine nasıl ekleyebileceğinizi açıklar.
 author: t-benebo
 ms.date: 03/27/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3fc2d5c01209f15a9cb680e3bb569087f08c08d3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063353"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851724"
 ---
 # <a name="product-identifiers"></a>Ürün tanımlayıcıları
 
@@ -29,7 +29,7 @@ ms.locfileid: "8063353"
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu çeşitli ürün tanımlayıcısı türleri hakkında bilgi sağlar ve ürün tanımlayıcılarını ürün verilerine nasıl ekleyebileceğinizi açıklar.
+Bu makale çeşitli ürün tanımlayıcısı türleri hakkında bilgi sağlar ve ürün tanımlayıcılarını ürün verilerine nasıl ekleyebileceğinizi açıklar.
 
 Microsoft Dynamics ERP veya Microsoft Dynamics CRM'de atölyedeki veya ambardaki ürünlerle çalıştığınızda, bu ürünleri ve ürün çeşitlerini tanımlamak için iyi bir stratejiniz olması gerekir.
 
@@ -125,7 +125,7 @@ Ne yazık ki, harici kodlara göre ürünleri aramanızı sağlayan standart bir
 | Ürünler V2 | Ürün numarası, ürün arama adı, ürün adı, ürün açıklaması | Ürün numarası, ürün arama adı, ürün adı, ürün açıklaması | Ürün numarası için numara serisi ve varlık ayarlarına bağlı olarak ürün numarası içe aktarma sırasında otomatik olarak oluşturulabilir. |
 | Ürün çeşitleri | Ürün numarası, ürün arama adı, ürün adı, ürün açıklaması | Ürün numarası, ürün arama adı, ürün adı, ürün açıklaması | Ürün terminolojisi şablonuna bağlı olarak ürün numarası, içe aktarma sırasında otomatik olarak oluşturulabilir. Bununla birlikte, tüm benzersiz bir ürün numaralarını içe aktarabilirsiniz ve ürün numarasının ürün terminolojisi şablonlarının yapısını izlemesi gerekmez. |
 | Ürün çevirileri | Ürün adı, ürün açıklaması | Ürün adı, ürün açıklaması | Bu varlık herhangi bir dil üzerine yazılır. Bir tüzel kişiliğinin adı veya açıklamasının birincil dilinin üzerine yazıldığında, ürünün adı ve açıklaması değişir. |
-| Serbest bırakılan ürün oluşturma V2 | Madde numarası, ürün numarası, madde arama adı| Madde numarası, ürün numarası, madde arama adı, ürün arama adı, ürün adı | Numara serileri yeni serbest bırakılan ürünler oluşturulurken kullanıldığında, bu varlıkla ilgili zorluklarla karşılaşılabilir. Hem **Madde numarası** numara serisinin hem de **Ürün numarası** numara serisinin bir etkisi vardır. Bununla birlikte, **Madde numarası** numara serisi tüzel kişiliğe göredir ve **Ürün numarası** numara serisi geneldir. Bu nedenle, yeni serbest bırakılan ürünler dağıtırken **Madde numarası** numara serisini kullanmanızı önermeyiz. Açıkça, varlık varolan bir ürünü serbest bırakmak için kullanıldığında, ürün numarasının varlıkta verilmesi gerekir. Daha fazla bilgi için bu konudaki "Ürün ve madde numarası serileri" bölümüne bakın. |
+| Serbest bırakılan ürün oluşturma V2 | Madde numarası, ürün numarası, madde arama adı| Madde numarası, ürün numarası, madde arama adı, ürün arama adı, ürün adı | Numara serileri yeni serbest bırakılan ürünler oluşturulurken kullanıldığında, bu varlıkla ilgili zorluklarla karşılaşılabilir. Hem **Madde numarası** numara serisinin hem de **Ürün numarası** numara serisinin bir etkisi vardır. Bununla birlikte, **Madde numarası** numara serisi tüzel kişiliğe göredir ve **Ürün numarası** numara serisi geneldir. Bu nedenle, yeni serbest bırakılan ürünler dağıtırken **Madde numarası** numara serisini kullanmanızı önermeyiz. Açıkça, varlık varolan bir ürünü serbest bırakmak için kullanıldığında, ürün numarasının varlıkta verilmesi gerekir. Daha fazla bilgi için bu makaledeki "Ürün ve madde numarası serileri" bölümüne bakın. |
 | Serbest bırakılan ürün çeşitleri | Madde numarası, ürün boyutları, ürün numarası | Ürün numarası, ürün arama adı, ürün adı, ürün açıklaması, ürün boyutları | **Ürün çeşitleri** varlığı gibi, bu varlık da ürün terminolojisi şablonunu izleyen veya ürün çeşidi için kendi ürün numaralarını kullanan yeni ürünler oluşturmak için kullanılabilir. |
 | Müşteriler için harici madde açıklaması | Müşteri madde numarası, müşteri madde adı, müşteri açıklaması, müşteri hesabı | Müşteri madde numarası, müşteri madde adı, müşteri açıklaması, müşteri hesabı | Bir grup müşteri (örneğin, alıcı ilişkilendirmesi) **Harici madde açıklaması müşteri grupları** varlığı kullanılarak tek bir grupta toplanabilir. |
 | Satıcılar için harici madde açıklaması | Satıcı madde numarası, satıcı madde adı, satıcı açıklaması, satıcı hesabı | Satıcı madde numarası, satıcı madde adı, satıcı açıklaması, satıcı hesabı | Bir grup satıcı (örneğin, satış ilişkilendirmesi ve sektör organizasyonu) **Harici madde açıklaması satıcı grupları** varlığı kullanılarak tek bir grupta toplanabilir. |
@@ -184,7 +184,7 @@ Ortamı yapılandırmak için şu adımları izleyin.
 
 Artık herhangi bir hedef sistem için tanımlayıcıları dışa aktarmak için **Ürün varlığı common data service tanımlayıcısı varlığı**, **Ürün varlık tanımlayıcısı kodu** ve **Ürün varlık tanımlayıcısı kapsamı** veri varlıklarını kullanabilirsiniz.
 
-## <a name="related-topic"></a>İlgili konu
+## <a name="related-article"></a>İlgili makale
 
 [Sipariş girişi sırasında ürünleri ve ürün çeşitlerini arama](search-products-product-variants.md)
 

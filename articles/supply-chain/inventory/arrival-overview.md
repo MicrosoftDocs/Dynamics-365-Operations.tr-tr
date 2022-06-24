@@ -1,6 +1,6 @@
 ---
 title: Varışa genel bakış
-description: Bu konu, Varış genel bakış özelliği hakkında bilgi sağlamaktadır. Varış genel bakış sayfası bu özelliğin bir parçasıdır ve gelen maddelere, varması beklenen maddeler olarak genel bir bakış sağlamaktadır.
+description: Bu makale, Varış genel bakış özelliği hakkında bilgi sağlamaktadır. Varış genel bakış sayfası bu özelliğin bir parçasıdır ve gelen maddelere, varması beklenen maddeler olarak genel bir bakış sağlamaktadır.
 author: yufeihuang
 ms.date: 11/02/2017
 ms.topic: article
@@ -18,20 +18,20 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 1248156ba9081fe4afbffd480b45cf9326d14a6c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8118db9469c01c43b23c64ee383ac1d383a0ba7a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567451"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874086"
 ---
 # <a name="arrival-overview"></a>Varışa genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Varış genel bakış özelliği hakkında bilgi sağlamaktadır. Varış genel bakış sayfası bu özelliğin bir parçasıdır ve gelen maddelere, varması beklenen maddeler olarak genel bir bakış sağlamaktadır.
+Bu makale, Varış genel bakış özelliği hakkında bilgi sağlamaktadır. Varış genel bakış sayfası bu özelliğin bir parçasıdır ve gelen maddelere, varması beklenen maddeler olarak genel bir bakış sağlamaktadır.
 
-**Varış genel bakış** sayfası, tüm beklenen gelen maddelerin özetini sağlar. Bir genel görünüme göre başlatılabilecek varışları da gösterir. Bu konu, alma işlemi üzerine odaklanır.
+**Varış genel bakış** sayfası, tüm beklenen gelen maddelerin özetini sağlar. Bir genel görünüme göre başlatılabilecek varışları da gösterir. Bu makale, alma işlemi üzerine odaklanır.
 
 ## <a name="business-scenario"></a>İş senaryosu
 Gelen işlemlerinde aşağıdaki senaryoyu düşünün.

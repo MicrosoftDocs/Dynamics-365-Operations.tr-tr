@@ -1,6 +1,6 @@
 ---
 title: Adyen için Dynamics 365 Commerce Payment Connector ile bağlantılı olmayan geri ödemeleri işleme
-description: Bu konuda, Adyen için Microsoft Dynamics 365 ödeme konnektörü kullanıldığında bağlantısız para iadelerini nasıl çalıştığı açıklanmaktadır.
+description: Bu makalede, Adyen için Microsoft Dynamics 365 ödeme konnektörü kullanıldığında bağlantısız para iadelerini nasıl çalıştığı açıklanmaktadır.
 author: BrianShook
 ms.date: 10/07/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c137dcf7d35031a293c88d8c4f5dc1e5f3d9e2f9
-ms.sourcegitcommit: a21a664cd35b95c8600c5af0aac588a64e892902
+ms.openlocfilehash: 634b30de7adbfb0c316fe14456581ea8eb89d070
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623933"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885209"
 ---
 # <a name="process-unlinked-refunds-with-the-dynamics-365-commerce-payment-connector-for-adyen"></a>Adyen için Dynamics 365 Commerce Payment Connector ile bağlantılı olmayan geri ödemeleri işleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, [Adyen için Microsoft Dynamics 365 ödeme konnektörü](adyen-connector.md) kullanıldığında bağlantısız para iadelerini nasıl çalıştığı açıklanmaktadır. Ayrıca, satış noktasında (POS) veya çağrı merkezinde yeni bir ödeme yöntemiyle para iadesi işleme yeteneğini de gözden geçirir.
+Bu makalede, [Adyen için Microsoft Dynamics 365 ödeme konnektörü](adyen-connector.md) kullanıldığında bağlantısız para iadelerini nasıl çalıştığı açıklanmaktadır. Ayrıca, satış noktasında (POS) veya çağrı merkezinde yeni bir ödeme yöntemiyle para iadesi işleme yeteneğini de gözden geçirir.
 
 Adyen için Dynamics 365 ödeme konnektörü, orijinal hareket için kullanılandan farklı bir ödeme yöntemi kullanarak para iadelerini işleme yeteneğini destekler. Sağlanan kaynak ödeme yöntemine karşı para iadesini işlemek için [bağlantılı para iadelerini](linked-refunds.md) kullanmanızı öneririz, ancak bazı senaryolarda farklı bir yönteme yapılan para iadesi gereklidir. Örneğin, orijinal ödeme için kullanılan kartın artık süresi geçmiş veya kaybolmuş olabilir veya Kullanıcı tarafından iptal edilmiş olabilir.
 

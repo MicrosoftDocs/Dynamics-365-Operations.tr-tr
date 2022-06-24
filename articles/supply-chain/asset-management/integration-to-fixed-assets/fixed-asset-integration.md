@@ -1,6 +1,6 @@
 ---
-title: Varlık yönetimini sabit kıymetlerle tümleştirme
-description: Bu konu, sabit kıymetleri bakım yapılan varlıklarla bağlamak için Varlık Yönetimi ve Sabit kıymetler modüllerinin nasıl tümleştirileceğini açıklamaktadır.
+title: Kıymet yönetimini sabit kıymetlerle tümleştirme
+description: Bu makale, sabit kıymetleri bakım yapılan varlıklarla bağlamak için Varlık Yönetimi ve Sabit kıymetler modüllerinin nasıl tümleştirileceğini açıklamaktadır.
 author: johanhoffmann
 ms.date: 04/17/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 40e4fdce50b335668a53d2efe53b7cf6c66f364f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d5dfaaf9e4cd989ad6b993e8d152f4713c0d3aa4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567595"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874231"
 ---
 # <a name="integrate-asset-management-with-fixed-assets"></a>Varlık yönetimini sabit kıymetlerle tümleştirme
 
@@ -26,7 +26,7 @@ ms.locfileid: "7567595"
 **Varlık Yönetimi** ve **Sabit kıymetler** modüllerini tümleştirerek sabit kıymetler ile bakım yapılan varlıkları bağlayabilirsiniz. Sabit kıymet kullanıcıları daha sonra yeni veya varolan sabit kıymetten bir bakım yapılan varlık oluşturabilir ve Varlık yönetimi kullanıcıları bakım yapılan varlığı varolan bir sabit kıymetle ilişkilendirebilir. Bu özellik, Sabit kıymetler kullanıcılarının ilgili bakım varlıklarının iş emirlerinden deftere nakledilen maliyetleri görüntülemesini de kolaylaştırır.
 
 > [!NOTE]
-> Bu konuda, *bakım yapılan varlıklar* **Varlık Yönetimi** modülündeki varlıkları, *sabit kıymetler* ise **Sabit kıymetler** modülündeki varlıkları ifade eder.
+> Bu makalede, *bakım yapılan varlıklar* **Varlık Yönetimi** modülündeki varlıkları, *sabit kıymetler* ise **Sabit kıymetler** modülündeki varlıkları ifade eder.
 
 ## <a name="set-a-default-location-for-new-maintenance-assets-that-are-created-from-fixed-assets-optional"></a>Sabit kıymetlerden oluşturulan yeni bakım yapılan varlıklar için varsayılan konum ayarlama (isteğe bağlı)
 

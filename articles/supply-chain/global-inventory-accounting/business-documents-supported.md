@@ -1,6 +1,6 @@
 ---
 title: Global Stok Muhasebesi tarafından desteklenen iş belgeleri
-description: Bu konuda, Global Stok Muhasebesi tarafından desteklenen iş belgeleri listelenmektedir. Ayrıca, satınalma siparişi belgeleri için ayrıntılı bir örnek sağlar.
+description: Bu makalede, Global Stok Muhasebesi tarafından desteklenen iş belgeleri listelenmektedir. Ayrıca, satınalma siparişi belgeleri için ayrıntılı bir örnek sağlar.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 44081be35c6737aa0d16b6e11a5fc8f94b41e872
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: dc88d095c039b22ac347db949f6b61d5a89dc4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674463"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875437"
 ---
 # <a name="business-documents-supported-by-global-inventory-accounting"></a>Global Stok Muhasebesi tarafından desteklenen iş belgeleri
 
@@ -32,7 +32,7 @@ Global Stok Muhasebesi Eklentisi tam olarak ayarlandıktan sonra, Microsoft Dyna
 - **Günlüğü olan belgeler**: Bu belgeler ürün girişi, satınalma faturası, sevk irsaliyesi ve satış faturası belgelerini içerir.
 - **Günlüğü olmayan belgeler**: Bu belgeler sayım, taşıma ve stok ayarlama belgelerini içerir.
 
-Bu konunun ilerleyen bölümlerinde, satınalma siparişleri işlemi göstermek için örnek olarak kullanılacaktır.
+Bu makalenin ilerleyen bölümlerinde, satınalma siparişleri işlemi göstermek için örnek olarak kullanılacaktır.
 
 Aşağıdaki tabloda, geçerli sürümün desteklediği belgeler listelenir.
 

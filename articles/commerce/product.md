@@ -1,6 +1,6 @@
 ---
 title: POS'ta ürün önerileri ekleme
-description: Bu konuda bir satış noktasında (POS) ürün önerilerinin nasıl kullanılacağı açıklanmaktadır.
+description: Bu makalede bir satış noktasında (POS) ürün önerilerinin nasıl kullanılacağı açıklanmaktadır.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 29f502df7c158611df4eb2ddd5ac0e6bd6b4fe628113b2c544e33ba9c41cbcc7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 442ae540b04588afd9aeb37a92c6ceb92c05a9ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763752"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872811"
 ---
 # <a name="add-product-recommendations-on-pos"></a>POS'ta ürün önerileri ekleme
 

@@ -1,6 +1,6 @@
 ---
 title: RFQ'lar için kapalı teklif
-description: Bu konuda, satıcının teklifinin satın alma personeli tarafından açılana kadar satıcı teklifi yanıtlarının gizli kalması için kapalı tekliflerin nasıl ayarlanacağı açıklanmaktadır.
+description: Bu makalede, satıcının teklifinin satın alma personeli tarafından açılana kadar satıcı teklifi yanıtlarının gizli kalması için kapalı tekliflerin nasıl ayarlanacağı açıklanmaktadır.
 author: GalynaFedorova
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: dfc19646d6724627c8a25bcfc8a6b2a70a73c261
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40f1735d7efa5131b1462963758b6b48eec78fea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890900"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>RFQ'lar için kapalı teklif
 
@@ -148,7 +148,7 @@ Kapalı teklif için RFQ dosyası oluşturma işlemi, kapalı olmayan teklif iş
 Kapalı teklif için RFQ dosyalarının **Teklif türü**, *Kapalı* olmalıdır. Bu değeri bir RFQ dosyasına atamanın üç yolu vardır:
 
 - Dosyayı oluşturduktan sonra değeri doğrudan RFQ dosyasında belirleyin.
-- Tedarik ve kaynak atama parametrelerinde tüm RFQ dosyaları için varsayılan teklif türü olarak kapalı teklifi tanımlayın. (Bu konunun önceki [Varsayılan teklif türünü ayarlama](#set-default-bid-type) bölümüne bakın.)
+- Tedarik ve kaynak atama parametrelerinde tüm RFQ dosyaları için varsayılan teklif türü olarak kapalı teklifi tanımlayın. (Bu makalenin önceki [Varsayılan teklif türünü ayarlama](#set-default-bid-type) bölümüne bakın.)
 - Yeni bir RFQ dosyası oluşturduğunuzda, kapalı teklif için ayarlanmış bir talep türü seçin. ([Varsayılan teklif türünü ayarlama](#set-default-bid-type) bölümüne bakın.)
 
 Kapalı teklif için RFQ dosyasının **Bitiş tarihi ve saati** değeri, gönderilen tekliflerin mührünün ne zaman açılabileceğini belirler. Her satırdaki **Bitiş tarihi ve saati** değeri, başlıktaki değerle eşleşir.

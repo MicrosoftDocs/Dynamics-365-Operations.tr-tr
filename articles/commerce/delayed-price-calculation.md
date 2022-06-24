@@ -1,6 +1,6 @@
 ---
 title: İyileştirilmiş performans için kesin fiyat ve iskonto hesaplamasını geciktirme
-description: Bu konuda, Microsoft Dynamics 365 Commerce satış noktasında (POS) ve çağrı merkezinde bulunan gecikmeli fiyat hesaplama özelliği açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce satış noktasında (POS) ve çağrı merkezinde bulunan gecikmeli fiyat hesaplama özelliği açıklanmaktadır.
 author: boycezhu
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: boycez
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 8c4264c3a4c71e6aab0e1ef8d7d8cfffad065a46
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 6926c288a91dbe66b6ffc2e6c06f866d3ebd7652
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488375"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845909"
 ---
 # <a name="delay-exact-price-and-discount-calculation-for-improved-performance"></a>İyileştirilmiş performans için kesin fiyat ve iskonto hesaplamasını geciktirme
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce satış noktasında (POS) ve çağrı merkezinde bulunan gecikmeli fiyat hesaplama özelliği açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce satış noktasında (POS) ve çağrı merkezinde bulunan gecikmeli fiyat hesaplama özelliği açıklanmaktadır.
 
 Dynamics 365 Commerce, bir satış siparişinde veya satış teklifinde birden çok satış satırı birleştirilmesi sırasında uygulanan çok satırlı iskontolar oluşturmayı destekler. Bu iskontolar; karıştır ve eşle, eşik ve miktar iskontolarını içerir.
 

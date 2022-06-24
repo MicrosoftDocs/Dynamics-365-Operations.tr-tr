@@ -1,6 +1,6 @@
 ---
 title: Standart maliyetler için ön koşullara genel bakış
-description: Bu konu, standart maliyetleri kullanmak için temel adımları açıklar.
+description: Bu makale, standart maliyetleri kullanmak için temel adımları açıklar.
 author: JennySong-SH
 ms.date: 07/25/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cf37ae8d2cfa2a3f372e37eb66c22711e76dd59
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: bf02653b1d1a2cf5ed45f0fc6bd9affe098e7396
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672332"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895800"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>Standart maliyetler için ön koşullara genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, standart maliyetleri kullanmak için temel adımları açıklar. Sonraki adımlar şirketin işlemlerine bağlıdır. Örneğin, adımlar üretim yapılmayan bir ortam, rotaları kullanmayan bir üretim ortamı ve rotaları kullanan üretim ortamı için farklıdır. 
+Bu makale, standart maliyetleri kullanmak için temel adımları açıklar. Sonraki adımlar şirketin işlemlerine bağlıdır. Örneğin, adımlar üretim yapılmayan bir ortam, rotaları kullanmayan bir üretim ortamı ve rotaları kullanan üretim ortamı için farklıdır. 
 
 Standart maliyetleri ayarlamak için aşağıdaki adımları takip edin.
 
@@ -65,7 +65,7 @@ Standart maliyetler için bir veya daha fazla maliyetlendirme sürümü oluştur
 Varolan maddelerini standart bir maliyet stok modeline değiştirmek isteyen müşterilerin **Standart maliyet dönüştürmeleri** sayfasını kullanması gerekir.
 
 
-## <a name="related-topics"></a>İlgili konular
+## <a name="related-articles"></a>İlgili makaleler
 
 [Standart maliyet dönüştürmeye genel bakış](standard-cost-conversion-overview.md)
 

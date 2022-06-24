@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce'ten Microsoft Teams sağlama
-description: Bu konu, Dynamics 365 Commerce'deki organizasyon verilerini kullanarak nasıl Microsoft Teams sağlanacağını açıklar.
+description: Bu makale, Dynamics 365 Commerce'deki organizasyon verilerini kullanarak nasıl Microsoft Teams sağlanacağını açıklar.
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 54c85d1b6b51b7b2608200a7fa8e343ac6d008d0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3dc9d0f20ec251f0908dda0017adaaeac1b43856
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690512"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868947"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>Dynamics 365 Commerce'ten Microsoft Teams sağlama
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Dynamics 365 Commerce'deki organizasyon verilerini kullanarak nasıl Microsoft Teams sağlanacağını açıklar.
+Bu makale, Dynamics 365 Commerce'deki organizasyon verilerini kullanarak nasıl Microsoft Teams sağlanacağını açıklar.
 
 Dynamics 365 Commerce henüz perakende mağazalarınız için Teams'i ayarlamadıysanız, Teams sağlamak için kolay bir yol sunar. Teams'de kullanmak istediğiniz Commerce'teki iyi tanımlanmış bilgilerden yararlanarak, mağaza çalışanlarınızın Teams'i kullanmaya başlaması konusunda yardımcı olabilirsiniz. Bu bilgiler, organizasyon hiyerarşisi, mağaza adları, çalışan bilgileri ve Azure Active Directory (Azure AD) hesaplarını içerir. 
 

@@ -1,6 +1,6 @@
 ---
-title: Hareketli ortalama, geri dönüş maliyet sırası
-description: Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta hareketli ortalama hesaplamaları için geri dönüş maliyet sıraları hakkında bilgi sağlar.
+title: Hareketli ortalama geri dönüş maliyet sırası
+description: Bu makale, Microsoft Dynamics 365 Supply Chain Management'ta hareketli ortalama hesaplamaları için geri dönüş maliyet sıraları hakkında bilgi sağlar.
 author: JennySong-SH
 ms.date: 03/25/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2020-03-25
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 1056ab771c292aebc54e229d1f14f3901f9a5d9c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ad67828e2608f4754a3dffd76c64292f6a91e95f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674491"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868028"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>Hareketli ortalama, geri dönüş maliyet sırası
 

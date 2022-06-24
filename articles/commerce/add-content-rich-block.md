@@ -1,6 +1,6 @@
 ---
 title: Metin bloku modülü
-description: Bu konu metin bloku modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
+description: Bu makale metin bloku modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 18a4226d3b8dce1b46e6612521d70a3627b517d1
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 48714f172b12bbc10f1f682a9dec8be710748e6b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780501"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869236"
 ---
 # <a name="text-block-module"></a>Metin bloku modülü
 
 [!include [banner](includes/banner.md)]
 
-Bu konu metin bloku modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
+Bu makale metin bloku modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
 Bir metin bloğu modülü, metin içeriği eklemek için kullanılan bir modüldür. Bu içerik bilgilendirici veya promosyon olabilir.
 

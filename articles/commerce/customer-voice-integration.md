@@ -1,6 +1,6 @@
 ---
 title: Customer Voice'u e-ticaret sitesi sayfalarıyla tümleştirme
-description: Bu konu, Microsoft Dynamics 365 Customer Voice'u Dynamics 365 Commerce e-ticaret site sayfalarıyla tümleştirmeyi açıklamaktadır.
+description: Bu makale, Microsoft Dynamics 365 Customer Voice'u Dynamics 365 Commerce e-ticaret site sayfalarıyla tümleştirmeyi açıklamaktadır.
 author: samjarawan
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
-ms.openlocfilehash: 272ec1a59ed45b2d2336dcfea16051d27011360f
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: c8c67ecf4950c92fc91c8d119e06e5e8afff0ddf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767969"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850342"
 ---
 # <a name="integrate-customer-voice-into-e-commerce-site-pages"></a>Customer Voice'u e-ticaret sitesi sayfalarıyla tümleştirme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Customer Voice'u Dynamics 365 Commerce e-ticaret site sayfalarıyla tümleştirmeyi açıklamaktadır.
+Bu makale, Microsoft Dynamics 365 Customer Voice'u Dynamics 365 Commerce e-ticaret site sayfalarıyla tümleştirmeyi açıklamaktadır.
 
 Gerçek zamanlı müşteri geribildirimini toplamak, analiz etmek ve izlemek için [Customer Voice](https://dynamics.microsoft.com/customer-voice/overview/)'u e-ticaret sitenizle tümleştirebilirsiniz. Tümleştirmeye başlamak için bir hesap oluşturmanız ve toplamak istediğiniz geri bildirim türü için bir Customer Voice projesi şablonu seçmeniz gerekir.
 
@@ -37,7 +37,7 @@ Bir Customer Voice projesi şablonu seçmek için, aşağıdaki adımları izley
 1. Toplamak istediğiniz geri bildirim türüne yönelik proje şablonunu seçin ve ardından **İleri**'yi seçin.
 1. **Gönder** sekmesindeki **Ekleme biçimi seç** bölümünde ekleme biçimi seçin. **Ekleme kodu** alanı, Commerce site oluşturucusuna eklenmesi gereken kodu gösterir.
 
-Bu konudaki örneklerde, **Dönemsel müşteri anketi** proje şablonunu ve **Düğme** ekleme biçimi kullanılmıştır.
+Bu makaledeki örneklerde, **Dönemsel müşteri anketi** proje şablonunu ve **Düğme** ekleme biçimi kullanılmıştır.
 
 Aşağıdaki örnek çizimde, **Düğme** ekleme biçiminin seçildiği ve bu seçeneğin ekleme kodunun **Ekleme kodu** alanında görüntülendiği **Dönemsel müşteri anketi** proje şablonu sayfası gösterilmektedir. Aşağıdaki bölümlerde açıklandığı gibi, sağlanan kodu site sayfalarınıza eklemek için üç ayrı işlem gereklidir.
 

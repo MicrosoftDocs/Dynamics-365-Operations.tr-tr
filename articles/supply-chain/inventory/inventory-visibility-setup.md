@@ -1,8 +1,8 @@
 ---
 title: Stok Görünürlüğü Eklentisini Yükleme
-description: Bu konuda, Microsoft Dynamics 365 Supply Chain Management için Stok Görünürlüğü Eklentisi'nin nasıl yüklendiği açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Supply Chain Management için Stok Görünürlüğü Eklentisi'nin nasıl yüklendiği açıklanmaktadır.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a49f35211f30cdb76104cc5be78f5b114320a228
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: ce81ed2ed79bfe5c7fff9724e14af150817af11f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062662"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895713"
 ---
-# <a name="install-and-set-up-inventory-visibility"></a>Stok Görünürlüğü'nü yükleme ve ayarlama
+# <a name="install-and-set-up-inventory-visibility"></a>Inventory Visibility'yi yükleme ve ayarlama
 
 [!include [banner](../includes/banner.md)]
 
+Bu makalede, Microsoft Dynamics 365 Supply Chain Management için Stok Görünürlüğü Eklentisi'nin nasıl yüklendiği açıklanmaktadır.
 
-Bu konuda, Microsoft Dynamics 365 Supply Chain Management için Stok Görünürlüğü Eklentisi'nin nasıl yüklendiği açıklanmaktadır.
+Stok Görünürlüğü Eklentisi'ni yüklemek için Microsoft Dynamics Lifecycle Services (LCS) kullanmanız gerekir. LCS, Finans ve Operasyon uygulamalarınızın uygulama yaşam döngüsünü yönetmenize yardımcı olan bir ortam ve düzenli olarak güncelleştirilen bir dizi hizmet sağlayan bir işbirliği portalıdır. Daha fazla bilgi için bkz. [Lifecycle Services kaynakları](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
-Stok Görünürlüğü Eklentisi'ni yüklemek için Microsoft Dynamics Lifecycle Services (LCS) kullanmanız gerekir. LCS, Finans ve Operasyon uygulamalarınızın uygulama yaşam döngüsünü yönetmenize yardımcı olan bir ortam ve düzenli olarak güncelleştirilen bir dizi hizmet sağlayan bir işbirliği portalıdır.
-
-Daha fazla bilgi için bkz. [Lifecycle Services kaynakları](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
+> [!TIP]
+> Kullanışlı kılavuzlar bulabileceğiniz, en son güncelleştirmelerinizi alabileceğiniz ve envanter görünürlüğünün kullanımıyla ilgili soruları alabileceğiniz, Stok Görünürlüğü Eklentisi kullanıcı grubuna katılmanızı öneririz. Katılmak için lütfen [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com)'da Stok Görünürlüğü ürün ekibine e-posta gönderin ve Supply Chain Management ortam kimliğinizi ekleyin.
 
 ## <a name="inventory-visibility-prerequisites"></a>Stok Görünürlüğü önkoşulları
 
@@ -44,6 +44,9 @@ Bu ön koşullarla ilgili herhangi bir sorunuz varsa [inventvisibilitysupp@micro
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Stok Görünürlüğü Eklentisini Yükleme
 
 Eklentiyi yüklemeden önce Azure aboneliğiniz altında bir uygulama kaydedin ve Azure Active Directory (Azure AD) bölümüne bir istemci gizli anahtarı ekleyin. Yönergeler için bkz. [Uygulama kaydetme](/azure/active-directory/develop/quickstart-register-app) ve [İstemci gizli anahtarı ekleme](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Daha sonra ihtiyacınız olacağından **Uygulama (istemci) kimliği**, **İstemci gizli anahtarı** ve **Kiracı Kimliği** değerlerini not ettiğinizden emin olun.
+
+> [!IMPORTANT]
+> Birden fazla LCS ortamınız varsa her biri için farklı bir Azure AD uygulaması oluşturun. Farklı ortamlar için Stok Görünürlüğü Eklentisini yüklemek üzere aynı uygulama kimliğini ve kiracı kimliğini kullanırsanız daha eski ortamlar için bir belirteç sorunu oluşur. Sonuç olarak, yalnızca son yükleme geçerli olacak.
 
 Azure AD'ye uygulama kaydedip istemci gizli anahtarı ekledikten sonra şu adımları izleyerek Stok Görünürlüğü Eklentisi'ni yükleyin.
 
@@ -72,11 +75,18 @@ Azure AD'ye uygulama kaydedip istemci gizli anahtarı ekledikten sonra şu adım
 1. **Yükle**'yi seçin. Eklentinin durumu **Yükleniyor** olarak gösterilir. Yükleme tamamlandığında sayfayı yenileyin. Durum **Yüklendi** olarak değişecektir.
 1. Dataverse uygulamasında, sol gezinme bölmesinde **Uygulamalar** bölümünü seçin ve **Stok Görünürlüğü** Power Apps uygulamasının başarıyla yüklendiğini doğrulayın. **Uygulamalar** bölümü yoksa [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) adresinden Stok Görünürlüğü ürün takımıyla iletişime geçin.
 
-> [!TIP]
-> Kullanışlı kılavuzlar bulabileceğiniz, en son güncelleştirmelerinizi alabileceğiniz ve envanter görünürlüğünün kullanımıyla ilgili soruları alabileceğiniz, Stok Görünürlüğü Eklentisi kullanıcı grubuna katılmanızı öneririz. Katılmak için lütfen [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com)'da Stok Görünürlüğü ürün ekibine e-posta gönderin ve Supply Chain Management ortam kimliğinizi ekleyin.
-
-> [!IMPORTANT]
-> Birden fazla LCS ortamınız varsa her ortam için farklı bir Azure AD uygulaması oluşturun. Farklı ortamlar için Stok Görünürlüğü Eklentisini yüklemek üzere aynı uygulama kimliğini ve kiracı kimliğini kullanırsanız daha eski ortamlar için bir belirteç sorunu oluşur. Yalnızca en son yüklenen geçerlidir.
+> [!NOTE]
+> LCS sayfasından yüklenmesi bir saatten fazla sürerse kullanıcı hesabınız büyük olasılıkla Dataverse ortamundaki çözümleri yükleme iznine sahip olmayabilir. Sorunu gidermek için şu adımları izleyin:
+>
+> 1. LCS sayfasından Stok Görünürlüğü eklentisini yükleme işlemini iptal edin.
+> 1. [Microsoft 365 yönetim merkezinde](https://admin.microsoft.com) oturum açın ve eklentiyi yüklemek için kullanmak istediğiniz kullanıcı hesabında kendisine atanmış bir "Dynamics 365 Unified Operations Planı" lisansı olduğundan emin olun. Gerekirse lisansı atayın.
+> 1. İlgili kullanıcı hesabını kullanarak [Power Platform yönetim merkezinde](https://admin.powerplatform.microsoft.com) oturum açın. Daha sonra, aşağıdaki adımları izleyerek stok görünülürlüğü eklentisini yükleyin:
+>     1. Eklentiyi yüklemek istediğiniz ortamı seçin.
+>     1. **Dynamics 365 Uygulamaları**'nı seçin.
+>     1. **Uygulamayı Yükle**'yi seçin.
+>     1. **Stok Görünürlüğü**'nü seçin
+>
+> 1. Yükleme tamamlandıktan sonra, LCS sayfasına geri dönün ve **Stok Görünürlüğü** eklentisini yeniden yüklemeyi deneyin.
 
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Stok Görünürlüğü Eklentisi'ni kaldırma
 

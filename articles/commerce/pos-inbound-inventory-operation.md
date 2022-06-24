@@ -1,6 +1,6 @@
 ---
 title: POS'ta gelen stok işlemi
-description: Bu konu satış noktası (POS) gelen stok operasyonunun yeteneklerini açıklar.
+description: Bu makale satış noktası (POS) gelen stok operasyonunun yeteneklerini açıklar.
 author: hhaines
 ms.date: 09/17/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 8848c10e9f8f931ee66414075d28b8910a02e5a000525a63bc38ab6851f11276
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbabcaafee74b4d0a1ca8ef79de94376a7764aa3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741794"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858894"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>POS'ta gelen stok işlemi
 
@@ -215,7 +215,7 @@ Taslak belge başarıyla Commerce Headquarters'a gönderildikten sonra **etkin**
 
 Belge **istenen** duruma girdikten sonra **etkin** sekmesinde görünür. Ancak, henüz gelen mağaza veya ambar tarafından alınamaz. Giden ambar transfer emrinin bir kısmını veya tamamını sevk ettikten sonra, gelen mağaza veya ambar POS'ta alış irsaliyelerini deftere nakledebilir. Giden taraf, transfer emri belgelerini işlerken durumu **talep edilen**'den **Sevk edildi** veya **kısmen sevk edildi** durumuna göre güncelleştirilir. Belgeler **Sevk edidi** veya **kısmen sevk edildi** durumunda ise, gelen mağaza veya ambar gelen operasyon alma sürecini kullanarak kendilerine giriş yapabilir.
 
-## <a name="related-topics"></a>İlgili konular
+## <a name="related-articles"></a>İlgili makaleler
 
 [POS'ta giden stok işlemi](pos-outbound-inventory-operation.md)
 

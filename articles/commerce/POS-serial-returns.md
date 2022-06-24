@@ -1,6 +1,6 @@
 ---
 title: POS'ta seri numarası denetimli ürünleri iade etme
-description: Bu konu, serileştirilmiş maddeleri Microsoft Dynamics 365 Commerce satış noktası (POS) uygulamasında iade sürecinin bir parçası olarak doğrulamaya yönelik özellikleri açıklamaktadır.
+description: Bu makale, serileştirilmiş maddeleri Microsoft Dynamics 365 Commerce satış noktası (POS) uygulamasında iade sürecinin bir parçası olarak doğrulamaya yönelik özellikleri açıklamaktadır.
 author: hhainesms
 ms.date: 06/01/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 179d66e19c7fa81d587ea920b1c71468ec070177d7e7e68e45c2b58da2f9f5af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2af301180dc2284400b887ce36357660bdd86fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716360"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860333"
 ---
 # <a name="return-serial-numbercontrolled-products-in-pos"></a>POS'ta seri numarası denetimli ürünleri iade etme
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, serileştirilmiş maddeleri Microsoft Dynamics 365 Commerce satış noktası (POS) uygulamasında iade sürecinin bir parçası olarak doğrulamaya yönelik özellikleri açıklamaktadır.
+Bu makale, serileştirilmiş maddeleri Microsoft Dynamics 365 Commerce satış noktası (POS) uygulamasında iade sürecinin bir parçası olarak doğrulamaya yönelik özellikleri açıklamaktadır.
 
 > [!NOTE]
 > Commerce sürüm 10.0.20 ve sonrasında, **POS'ta birleşik iade işleme deneyimi** olarak adlandırılan yeni bir özellik mevcuttur. POS'ta iade siparişi işleme sırasında seri numara doğrulamasını kullanmak için bu özelliği etkinleştirmelisiniz. Bu özellik etkinleştirildiğinde sağladığı diğer özellikler hakkında bilgi için, bkz. [POS'ta iade oluşturma](POS-returns.md).

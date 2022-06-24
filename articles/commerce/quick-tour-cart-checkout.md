@@ -1,6 +1,6 @@
 ---
 title: Sepet ve ödeme sayfalarına genel bakış
-description: Bu konu, Microsoft Dynamics 365 Commerce'ta sepet ve ödeme sayfalarına genel bakış sağlar.
+description: Bu makale, Microsoft Dynamics 365 Commerce'ta sepet ve ödeme sayfalarına genel bakış sağlar.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3e450192025b29c655be49050aa3e61fc8acd898
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e911a1be1f06fcb3c2af08bab835a2b1ab5590f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982980"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853779"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Sepet ve ödeme sayfalarına genel bakış
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce'ta sepet ve ödeme sayfalarına genel bakış sağlar.
+Bu makale, Microsoft Dynamics 365 Commerce'ta sepet ve ödeme sayfalarına genel bakış sağlar.
 
 Bir e-ticaret web sitesinin alışveriş sayfası bir müşterinin sepete eklediği tüm maddeleri gösterir. Alışveriş sepeti sayfası, sepet modülü kullanılarak oluşturulur. Bir sepet modülü, sepetteki öğelerin gösterimi için gerekli olan tüm modülleri barındırmak için kullanılan bir konteynerdir. Sepet modülü ayrıca sipariş özetini ve müşteri emrine uygulanan promosyon kodlarını göstermek için diğer modülleri de kullanabilir.
 

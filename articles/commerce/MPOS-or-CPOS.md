@@ -1,6 +1,6 @@
 ---
-title: Store Commerce ve Bulut POS arasında seçim yapın
-description: Bu konu, Store Commerce ve bulut POS arasındaki önemli farklılıkları açıklar ve Dynamics 365 Commerce uygulayan perakendeciler tarafından gereksinimler için en iyi seçimi yapmaya yardımcı olmak için dikkate alınması gereken çeşitli faktörleri açıklar.
+title: Store Commerce ve Cloud POS arasında seçim yapma
+description: Bu makale, Store Commerce ve bulut POS arasındaki önemli farklılıkları açıklar ve Dynamics 365 Commerce uygulayan perakendeciler tarafından gereksinimler için en iyi seçimi yapmaya yardımcı olmak için dikkate alınması gereken çeşitli faktörleri açıklar.
 author: jblucher
 ms.date: 04/21/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b62e1737bc9e3b9d9e25a7a88e693a9aece80776
-ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
+ms.openlocfilehash: 26f6e94b13b3058ac42c4c7b83dcf7179bae18e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8629302"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854018"
 ---
-# <a name="choose-between-store-commerce-and-cloud-pos"></a>Store Commerce ve Bulut POS arasında seçim yapın
+# <a name="choose-between-store-commerce-and-cloud-pos"></a>Store Commerce ve Cloud POS arasında seçim yapma
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Store Commerce ve bulut POS arasındaki önemli farklılıkları açıklar ve Dynamics 365 Commerce uygulayan perakendeciler tarafından gereksinimler için en iyi seçimi yapmaya yardımcı olmak için dikkate alınması gereken çeşitli faktörleri açıklar. Aynı zamanda uygulamacılara, Dynamics 365 Commerce dağıtırken dikkate almaları gereken faktörlerle ilgili ek bilgiler, ipuçları ve kılavuzlar sağlar. Dağıtım sürecinin bir parçası olarak bu kılavuzu gözden geçiren ve izleyen uygulamacılar kullanıcı memnuniyetini veya performansı etkileyebilecek sorunları önleyebilir.
+Bu makale, Store Commerce ve bulut POS arasındaki önemli farklılıkları açıklar ve Dynamics 365 Commerce uygulayan perakendeciler tarafından gereksinimler için en iyi seçimi yapmaya yardımcı olmak için dikkate alınması gereken çeşitli faktörleri açıklar. Aynı zamanda uygulamacılara, Dynamics 365 Commerce dağıtırken dikkate almaları gereken faktörlerle ilgili ek bilgiler, ipuçları ve kılavuzlar sağlar. Dağıtım sürecinin bir parçası olarak bu kılavuzu gözden geçiren ve izleyen uygulamacılar kullanıcı memnuniyetini veya performansı etkileyebilecek sorunları önleyebilir.
 
 ## <a name="insights"></a>Öngörüler
 

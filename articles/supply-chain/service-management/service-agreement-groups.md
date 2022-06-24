@@ -1,6 +1,6 @@
 ---
 title: Servis sözleşmelerine genel bakış
-description: Bu konuda, servis sözleşmelerinin nasıl çalıştığına ilişkin bir genel bakış sağlanmaktadır.
+description: Bu makalede, servis sözleşmelerinin nasıl çalıştığına ilişkin bir genel bakış sağlanmaktadır.
 author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc0be99cf492d672f9eaecff25c93b700e7ed230
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5566f559da6340a82ca015fb5dee2dae7887202e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670846"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862467"
 ---
 # <a name="service-agreements-overview"></a>Servis sözleşmelerine genel bakış
 
@@ -35,7 +35,7 @@ Servis sözleşmesi grupları, servis sözleşmelerinin sıralanması ve filtrel
 - Şirketinizde oluşturduğunuz üç sözleşme grubu Altın, Gümüş ve Bronz olsun.
 - Şirketinizde yeni bir servis hesabı yöneticisi işe alınmış olsun. Servis yöneticisi Altın sözleşme grubundaki tüm müşterilerle ilgilenmekten sorumludur. Yeni servis yöneticisini sorumlu kişi olarak belirtmeniz gereken tüm sözleşmeleri bulmak üzere Altın sözleşmesi grubundaki sözleşme kayıtlarını filtreleyebilirsiniz.
 
-## <a name="related-topics"></a>İlgili konular
+## <a name="related-articles"></a>İlgili makaleler
 
 [Servis sözleşmesi grupları oluşturma](create-service-agreement-groups.md)
 

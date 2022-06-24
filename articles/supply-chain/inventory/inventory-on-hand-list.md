@@ -1,6 +1,6 @@
 ---
 title: Eldeki stok listesi
-description: Bu konu, eldeki stok ayrıntılarını incelemek için Eldeki stok listesi sayfasının nasıl kullanılacağını açıklar. Çeşitli filtreleme ve sıralama seçeneklerinin birlikte çalışması ve bu seçeneklerin kimi zaman birleştirildiklerinde beklenmedik sonuçlar üretebileceği birçok yolu gösterir.
+description: Bu makale, eldeki stok ayrıntılarını incelemek için Eldeki stok listesi sayfasının nasıl kullanılacağını açıklar. Çeşitli filtreleme ve sıralama seçeneklerinin birlikte çalışması ve bu seçeneklerin kimi zaman birleştirildiklerinde beklenmedik sonuçlar üretebileceği birçok yolu gösterir.
 author: yufeihuang
 ms.date: 07/07/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 9464240123ec2248e1b66f32dd3c9a2f974512b6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5747ae985e1791de8ddd93b678c2449a4a1802da
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573933"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879062"
 ---
 # <a name="inventory-on-hand-list"></a>Eldeki stok listesi
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, eldeki stok ayrıntılarını incelemek için **Eldeki stok listesi** sayfasının nasıl kullanılacağını açıklar. Çeşitli filtreleme ve sıralama seçeneklerinin birlikte çalışması ve bu seçeneklerin kimi zaman birleştirildiklerinde beklenmedik sonuçlar üretebileceği birçok yolu gösterir.
+Bu makale, eldeki stok ayrıntılarını incelemek için **Eldeki stok listesi** sayfasının nasıl kullanılacağını açıklar. Çeşitli filtreleme ve sıralama seçeneklerinin birlikte çalışması ve bu seçeneklerin kimi zaman birleştirildiklerinde beklenmedik sonuçlar üretebileceği birçok yolu gösterir.
 
 ## <a name="query-your-on-hand-inventory"></a>Eldeki stokunuza sorgu gönderme
 
@@ -35,9 +35,9 @@ Stokta hareketler yapıldığında **Eldeki liste** sayfası otomatik olarak gü
 Aradığınız ürünleri bulmak için aşağıdaki araçları kullanın:
 
 - Eylem bölmesinde, **Eldeki** kılavuzunda gösterilen sütunları ekleyebileceğiniz veya kaldırabileceğiniz bir iletişim kutusu açmak için [**Boyutlar**](#dimensions)'ı seçin.
-- [**Filtreler** bölmesine](#filters-pane), yalnızca bu değerlere uyan kayıtları göstermek için belirli alanların değerlerini girin. Burada tanımladığınız filtrelerin, göstermeyi seçtiğiniz boyutlara göre daha sonra toplanabilir kaynak tablolar için geçerli olduğunu unutmayın. Bu davranışın sonuçlarınızı nasıl etkileyeceği hakkında bilgi için bu konunun devamındaki [örnekler](#examples) bölümüne bakın.
+- [**Filtreler** bölmesine](#filters-pane), yalnızca bu değerlere uyan kayıtları göstermek için belirli alanların değerlerini girin. Burada tanımladığınız filtrelerin, göstermeyi seçtiğiniz boyutlara göre daha sonra toplanabilir kaynak tablolar için geçerli olduğunu unutmayın. Bu davranışın sonuçlarınızı nasıl etkileyeceği hakkında bilgi için bu makalenin devamındaki [örnekler](#examples) bölümüne bakın.
 - **Filtreler** bölmesinde, **Eldeki stok** kılavuzunda eşleştirilen eldeki stok listesini oluşturmak için **Uygula**'yı seçin.
-- **Eldeki** kılavuzunda, ilgili sütundaki değerlere göre sıralama veya filtreleme için herhangi bir sütun başlığı seçin. Kılavuzun üst kısmındaki hızlı filtre ek filtre uygulama seçenekleri sağlar. Bu filtreler kaynak tablolar değil, sonuçlar için geçerlidir. Bu davranışın sonuçlarınızı nasıl etkileyeceği hakkında bilgi için bu konunun devamındaki [örnekler](#examples) bölümüne bakın.
+- **Eldeki** kılavuzunda, ilgili sütundaki değerlere göre sıralama veya filtreleme için herhangi bir sütun başlığı seçin. Kılavuzun üst kısmındaki hızlı filtre ek filtre uygulama seçenekleri sağlar. Bu filtreler kaynak tablolar değil, sonuçlar için geçerlidir. Bu davranışın sonuçlarınızı nasıl etkileyeceği hakkında bilgi için bu makalenin devamındaki [örnekler](#examples) bölümüne bakın.
 
 Her eşleşen kalem için **Eldeki** kılavuzu aşağıdaki stok bilgileri sütunlarını sağlar.
 
@@ -64,7 +64,7 @@ Eldeki stok listesini yalnızca alan değerlerinin filtre ölçütüne uyan kay�
 > [!IMPORTANT]
 > **Eldeki liste** sayfası, kullanılabilir tüm boyutları içeren ayrıntılı bir eldeki stok tablosundan toplanır. Ancak bu sayfadaki liste bir özettir. Bu nedenle, gösterilen boyutlara göre değerleri toplayarak kaynak tablodaki satırları birleştirebilir.
 >
-> **Filtreler** bölmesinde tanımladığınız filtreler, toplanan listeye değil, kaynak tabloya uygulanır. Bu davranış bazen beklenmeyen sonuçlara neden olabilir. Bu davranışın sonuçlarınızı nasıl etkileyeceği hakkında bilgi için bu konunun devamındaki [örnekler](#examples) bölümüne bakın.
+> **Filtreler** bölmesinde tanımladığınız filtreler, toplanan listeye değil, kaynak tabloya uygulanır. Bu davranış bazen beklenmeyen sonuçlara neden olabilir. Bu davranışın sonuçlarınızı nasıl etkileyeceği hakkında bilgi için bu makalenin devamındaki [örnekler](#examples) bölümüne bakın.
 > 
 > Ancak, [kılavuzda sağlanan filtreler](#grid-filters) toplanan liste için *geçerlidir*. Bu filtreler kılavuzun üst kısmındaki hızlı filtreyi ve her sütun başlığının filtresini içerir.
 
@@ -75,7 +75,7 @@ Eldeki stok listesini yalnızca alan değerlerinin filtre ölçütüne uyan kay�
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Gösterilecek boyutları seçme
 
-Boyutlar, eldeki stok listesindeki her kalem hakkında daha fazla bilgi verir ve listeyi sıralamak ve filtre uygulamak için size daha fazla yol sağlar. Göstermek için seçtiğiniz boyutlar, **Eldeki liste** sayfasında satırların nasıl toplanmakta olduğunu da etkiler. Bu toplama da gördüğünüz sonuçlarda kaynak tablolardaki satırların nasıl birleştirileceğini etkileyebilir. Bu davranışın sonuçlarınızı nasıl etkileyeceği hakkında bilgi için bu konunun devamındaki [örnekler](#examples) bölümüne bakın.
+Boyutlar, eldeki stok listesindeki her kalem hakkında daha fazla bilgi verir ve listeyi sıralamak ve filtre uygulamak için size daha fazla yol sağlar. Göstermek için seçtiğiniz boyutlar, **Eldeki liste** sayfasında satırların nasıl toplanmakta olduğunu da etkiler. Bu toplama da gördüğünüz sonuçlarda kaynak tablolardaki satırların nasıl birleştirileceğini etkileyebilir. Bu davranışın sonuçlarınızı nasıl etkileyeceği hakkında bilgi için bu makalenin devamındaki [örnekler](#examples) bölümüne bakın.
 
 Gösterilen stok boyutlarının seçimini özelleştirmek için aşağıdaki adımları izleyin.
 
@@ -89,7 +89,7 @@ Gösterilen stok boyutlarının seçimini özelleştirmek için aşağıdaki ad�
 
 ## <a name="filter-on-the-output-of-the-inventory-on-hand-list"></a><a name="grid-filters"></a>Eldeki stok listesi çıktısına filtre uygulama
 
-İlgili sütundaki değerlere göre sıralama veya filtreleme için **Eldeki** kılavuzunda dilediğiniz sütun başlığı seçebilirsiniz. Kılavuzun üst kısmındaki hızlı filtre ek filtre uygulama seçenekleri sağlar. Bu filtreler kaynak tablolar değil, sonuçlar için geçerlidir. Bu davranışın sonuçlarınızı nasıl etkileyeceği hakkında bilgi için bu konunun devamındaki [örnekler](#examples) bölümüne bakın.
+İlgili sütundaki değerlere göre sıralama veya filtreleme için **Eldeki** kılavuzunda dilediğiniz sütun başlığı seçebilirsiniz. Kılavuzun üst kısmındaki hızlı filtre ek filtre uygulama seçenekleri sağlar. Bu filtreler kaynak tablolar değil, sonuçlar için geçerlidir. Bu davranışın sonuçlarınızı nasıl etkileyeceği hakkında bilgi için bu makalenin devamındaki [örnekler](#examples) bölümüne bakın.
 
 > [!NOTE]
 > Tüm sütunlara göre filtre veya sıralama yapamazsınız. Hesaplanmış alanlar olduklarından, miktar sütunlarının çoğu sıralama ve filtreleme denetimlerini içermez. **Siparişte** sütunu bir özel durumdur.

@@ -1,6 +1,6 @@
 ---
 title: Stok günlükleri
-description: Bu konuda, çeşitli fiziksel stok hareketi türlerini deftere nakletmek için stok günlüklerini nasıl kullanabileceğiniz açıklanmaktadır.
+description: Bu makalede, çeşitli fiziksel stok hareketi türlerini deftere nakletmek için stok günlüklerini nasıl kullanabileceğiniz açıklanmaktadır.
 author: yufeihuang
 ms.date: 04/05/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9370e495bf16ed638646843faaf0ff599fe1abc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 182c0ac9146c44b08698f8f9d15a3610bf0b7cea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573981"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849430"
 ---
 # <a name="inventory-journals"></a>Stok günlükleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, çeşitli fiziksel stok hareketi türlerini deftere nakletmek için stok günlüklerini nasıl kullanabileceğiniz açıklanmaktadır.
+Bu makalede, çeşitli fiziksel stok hareketi türlerini deftere nakletmek için stok günlüklerini nasıl kullanabileceğiniz açıklanmaktadır.
 
 Supply Chain Management stok günlükleri; sorunlar ve girişler, stok hareketleri, ürün reçeteleri (BOM) oluşturulması ve fiziksel envanter mutabakatı deftere nakilleri gibi çeşitli türdeki fiziksel stok hareketlerini deftere nakletmek için kullanılır. Tüm stok günlükleri benzer şekilde kullanılır, ancak bunlar farklı türlere ayrılır.
 

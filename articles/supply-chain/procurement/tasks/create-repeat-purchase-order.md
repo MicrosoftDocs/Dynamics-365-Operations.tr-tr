@@ -1,6 +1,6 @@
 ---
 title: Tekrar eden satınalma siparişi oluşturma
-description: Bu konu önceki satınalma siparişi belgesinden yeni bir PO veya mevcut PO'ya satırları kopyalayarak tekrar eden bir satınalma siparişinin (PO) nasıl oluşturulacağını gösterir.
+description: Bu makale önceki satınalma siparişi belgesinden yeni bir PO veya mevcut PO'ya satırları kopyalayarak tekrar eden bir satınalma siparişinin (PO) nasıl oluşturulacağını gösterir.
 author: GalynaFedorova
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be4eca824794b8d45c7a6f40cb68aff7c4a53cd0
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 42bfbc7a10d21a475055ee87e76c89db0ad64165
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671154"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865106"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Tekrar eden satınalma siparişi oluşturma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu önceki satınalma siparişi belgesinden yeni bir PO veya mevcut PO'ya satırları kopyalayarak tekrar eden bir satınalma siparişinin (PO) nasıl oluşturulacağını gösterir. Tekrar eden siparişleri oluşturmak için iki yöntem vardır. Eylem Bölmesi'nden belge düzeyindeki kullanılabilir eylemleri kullanabilir veya satır ayrıntısı eylemlerini kullanabilirsiniz. Satır ayrıntıları eylemi temel olarak mevcut siparişe satır eklerken, belge düzeyi eylemleri satır ekleyerek yeni bir satınalma siparişi oluşturmak için tasarlanmıştır. Bu kılavuzda gösterilen örnek, demo veriler şirketi USMF'de kullanılabilir. Bu görev genellikle bir satınalma temsilcisi tarafından gerçekleştirilir.
+Bu makale önceki satınalma siparişi belgesinden yeni bir PO veya mevcut PO'ya satırları kopyalayarak tekrar eden bir satınalma siparişinin (PO) nasıl oluşturulacağını gösterir. Tekrar eden siparişleri oluşturmak için iki yöntem vardır. Eylem Bölmesi'nden belge düzeyindeki kullanılabilir eylemleri kullanabilir veya satır ayrıntısı eylemlerini kullanabilirsiniz. Satır ayrıntıları eylemi temel olarak mevcut siparişe satır eklerken, belge düzeyi eylemleri satır ekleyerek yeni bir satınalma siparişi oluşturmak için tasarlanmıştır. Bu kılavuzda gösterilen örnek, demo veriler şirketi USMF'de kullanılabilir. Bu görev genellikle bir satınalma temsilcisi tarafından gerçekleştirilir.
 
 
 ## <a name="create-a-new-repeat-purchase-order"></a>Yeni bir tekrar eden satınalma siparişi oluşturun

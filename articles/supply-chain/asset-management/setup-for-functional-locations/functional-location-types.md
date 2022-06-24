@@ -1,6 +1,6 @@
 ---
 title: İşlem yapılacak yerleşim türleri
-description: Bu konu Varlık Yönetimi'nde işlem yapılacak yerleşim türleri oluşturma işlemini açıklar.
+description: Bu makale Varlık Yönetimi'nde işlem yapılacak yerleşim türleri oluşturma işlemini açıklar.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 301dc838ed204ebe488dd167df75fc84131f235f64285c6ae99c62ee1188362c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739167"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879235"
 ---
 # <a name="functional-location-types"></a>İşlem yapılacak yerleşim türleri
 
@@ -28,7 +28,7 @@ ms.locfileid: "6739167"
 
  
 
-Bu konu Varlık Yönetimi'nde işlem yapılacak yerleşim türleri oluşturma işlemini açıklar. İşlem yapılacak yerleşim türleri, varlıkların işlem yapılacak yerleşime nasıl yükleneceği de dahil olmak üzere işlem yapılacak yerleşim gereksinimlerini yönetmek için kullanılır. Belirli işlem yapılacak yerleşim türünü kullanan işlem yapılacak yerleşimde kullanılacak varlık türlerini, bakım planlarını, işlem yapılacak yerleşim özniteliklerini ve varlık öznitelik gereksinimlerini ayarlayabilirsiniz. İşlem yapılacak yerleşim oluştururken, işlem yapılacak yerleşim türü zorunludur.
+Bu makale Varlık Yönetimi'nde işlem yapılacak yerleşim türleri oluşturma işlemini açıklar. İşlem yapılacak yerleşim türleri, varlıkların işlem yapılacak yerleşime nasıl yükleneceği de dahil olmak üzere işlem yapılacak yerleşim gereksinimlerini yönetmek için kullanılır. Belirli işlem yapılacak yerleşim türünü kullanan işlem yapılacak yerleşimde kullanılacak varlık türlerini, bakım planlarını, işlem yapılacak yerleşim özniteliklerini ve varlık öznitelik gereksinimlerini ayarlayabilirsiniz. İşlem yapılacak yerleşim oluştururken, işlem yapılacak yerleşim türü zorunludur.
 
 >[!NOTE] 
 >İşlem yapılacak yerleşimlerle çalışmak için, yalnızca yeni varlıklar oluşturmak amacıyla kullanılmak üzere varsayılan bir işlem yapılacak yerleşim oluşturmanız gerekir. Bu varsayılan işlem yapılacak yerleşim için gerçekten basit olan ve birden çok varlığın varsayılan işlem yapılacak yerleşime yüklenmesini sağlayan bir varsayılan işlem yapılacak yerleşim türü oluşturmanız gerekir. İşlem yapılacak yerleşimleri ayarlamayla ilgili daha fazla bilgi için bkz. [İşlem yapılacak yerleşimler oluşturma](../functional-locations/create-functional-locations.md).

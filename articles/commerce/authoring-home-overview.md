@@ -1,6 +1,6 @@
 ---
 title: Yazma sayfasına genel bakış
-description: Bu konu Microsoft Dynamics 365 Commerce ile tümleştirme hakkında bilgi sağlar.
+description: Bu makale Microsoft Dynamics 365 Commerce ile tümleştirme hakkında bilgi sağlar.
 author: brendans
 ms.date: 10/31/2019
 ms.topic: overview
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 68487c899edccaeff9c339d746d21b1d27b498aa
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: bc8cdbc0a521f3aa444a3af0d0230f8567729694
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984633"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855016"
 ---
 # <a name="authoring-page-overview"></a>Yazma sayfasına genel bakış
 
   
  [!include [banner](includes/banner.md)]
 
-Bu konu Microsoft Dynamics 365 Commerce ile tümleştirme hakkında bilgi sağlar.
+Bu makale Microsoft Dynamics 365 Commerce ile tümleştirme hakkında bilgi sağlar.
 
 Çeşitli iş gereksinimlerini desteklemek üzere Web siteleri oluşturulabilir. Tüm bir işi temsil edebilir, iş için tek bir kanal sunabilir veya belirli bir izleyiciyi ya da bir hedef kitle segmentini hedefleyebilir. Örneğin, bir giyme üreticisinin sahip olduğu tüm markalar içeren bir Web sitesi bulunabilir. Aynı kıyafet üreticisi, bu markalar için ayrı bir Web sitesine sahip olabilir ve ayrıca Özellik lüks moda, dış giyim ve çocuk modası gibi bir dizi Web sitesi bulunabilir.
 

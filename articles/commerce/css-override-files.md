@@ -1,6 +1,6 @@
 ---
 title: CSS geçersiz kılma dosyalarıyla çalışma
-description: Bu konu, Microsoft Dynamics 365 Commerce'te geçişli stil sayfalarının (CSS) nasıl geçersiz kılındığını, ne zaman ve nasıl kullanılacağını açıklamaktadır.
+description: Bu makale, Microsoft Dynamics 365 Commerce'te geçişli stil sayfalarının (CSS) nasıl geçersiz kılındığını, ne zaman ve nasıl kullanılacağını açıklamaktadır.
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6788481936a54bff32096dba1d0424fc52c669e4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: eaeeee4c9de7293ba94cc836c4d7b62787eca81d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964616"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892872"
 ---
 # <a name="work-with-css-override-files"></a>CSS geçersiz kılma dosyalarıyla çalışma
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce'te geçişli stil sayfalarının (CSS) nasıl geçersiz kılındığını, ne zaman ve nasıl kullanılacağını açıklamaktadır.
+Bu makale, Microsoft Dynamics 365 Commerce'te geçişli stil sayfalarının (CSS) nasıl geçersiz kılındığını, ne zaman ve nasıl kullanılacağını açıklamaktadır.
 
 Kalıcı site stilleri genellikle sitenin teması üzerinden işlenmelidir. Temalar, sitenizin herhangi bir sayfasında modüller için temel CSS ve stil ayarlarını sağlar. Temalar, Dynamics 365 Commerce çevrimiçi yazılım geliştirme SETI (SDK) kullanılarak oluşturulur ve bunlar Web siteleriniz ile Microsoft Dynamics Lifecycle Services (LCS) aracılığıyla dağıtılır. SDK yardımda Tema hata ayıklama özellikleri ve modül arabirim yapılandırmaları özelleştirilebilir ve ortaklaşa bulunmayan site tasarım paketleri oluşturur. Bu tasarım paketleri bir siteye dağıtıldığında, Site yazarları, site geliştirme yerine içerik oluşturma, düzenleme ve yayımlama işlemlerinde yoğunlaşabilir.
 

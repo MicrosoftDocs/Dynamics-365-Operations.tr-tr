@@ -1,6 +1,6 @@
 ---
 title: Ürün yapılandırma modeli için hesaplamalar SSS
-description: Bu konu ürün yapılandırma modelleriyle ilgili hesaplamaları açıklar ve hesaplamaların kısıtlamalarla birlikte nasıl kullanılacağını açıklar.
+description: Bu makale ürün yapılandırma modelleriyle ilgili hesaplamaları açıklar ve hesaplamaların kısıtlamalarla birlikte nasıl kullanılacağını açıklar.
 author: t-benebo
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9463fac363f6bb25c1bd2afebe5737e47aa8b3cf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 593f6a8e28c789a378515ddc8e4163c331442e8b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570813"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890958"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Ürün yapılandırma modeli için hesaplamalar SSS
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu ürün yapılandırma modelleriyle ilgili hesaplamaları açıklar ve hesaplamaların kısıtlamalarla birlikte nasıl kullanılacağını açıklar.
+Bu makale ürün yapılandırma modelleriyle ilgili hesaplamaları açıklar ve hesaplamaların kısıtlamalarla birlikte nasıl kullanılacağını açıklar.
 
 Hesaplamalar aritmetik veya mantıksal işlemler için kullanılabilir. Ürün yapılandırma modellerindeki ifade kısıtlamalarını tamamlar. **Kısıtlamaya dayalı ürün yapılandırma modeli ayrıntıları** sayfasında hesaplamaları tanımlayabilir ve ardından ifade düzenleyicideki hesaplamalar için ifadeler oluşturabilirsiniz. Daha fazla bilgi için, Hesaplamalar oluşturma bölümüne bakın.
 

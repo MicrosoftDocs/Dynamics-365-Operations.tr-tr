@@ -1,6 +1,6 @@
 ---
 title: Yayımlama gruplarıyla çalışma
-description: Bu konuda, Microsoft Dynamics 365 Commerce'ta grup yayımlama özelliği açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce'ta grup yayımlama özelliği açıklanmaktadır.
 author: phinneyridge
 ms.date: 10/09/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d757f34d3e16850e4f5de122f63b2b3342f612e49f07c7cf6585362999f03c02
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 76d447a5368cd5e342e8b1b934bb04d45e3378fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717684"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885122"
 ---
 # <a name="work-with-publish-groups"></a>Yayımlama gruplarıyla çalışma
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce'ta grup yayımlama özelliği açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce'ta grup yayımlama özelliği açıklanmaktadır.
 
 E-ticaret Web siteleri yıl boyunca yeni içerikle sürekli güncelleştirilir. Güncelleştirmeler sıklıkla tatiller, mevsimsel pazarlama kampanyaları veya promosyon tarafından başlatılır gibi e-ticaret olaylarının çevresinde toplu olarak yayımlanır. Bu güncelleştirmeler genellikle, Web sitesi içeriği gruplarının (örnekler, sayfalar, resimler, parçalar ve şablonlar) tek bir eylemde aynı anda hazırlanabilsin, doğrulanmalıdır ve yayımlanmaktadır.
 

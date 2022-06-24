@@ -1,6 +1,6 @@
 ---
-title: Müşteri adayından nakde
-description: Bu konu, Dynamics 365 Supply Chain Management ve Dynamics 365 Sales arasında Aday'dan nakite çözümüne genel bakış sağlar.
+title: Aday müşteriden nakde
+description: Bu makale, Dynamics 365 Supply Chain Management ve Dynamics 365 Sales arasında Aday'dan nakite çözümüne genel bakış sağlar.
 author: Henrikan
 ms.date: 04/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b96f22d711ce5b34c2f8de5a86caf5f89dd3f337
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 40398a481d23b8abed59556a3c6d70e783756017
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579004"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857242"
 ---
 # <a name="prospect-to-cash"></a>Aday müşteriden nakde
 

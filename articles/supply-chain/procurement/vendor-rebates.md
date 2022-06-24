@@ -1,6 +1,6 @@
 ---
 title: Satıcı indirimleri
-description: Bu konu, bir satıcı indirimi ile çalışırken gerçekleştirmek isteyebileceğiniz en yaygın görevlere bir genel bakış sağlar. Satıcı indirimleri, şirketlerin kendi tedarikçi indirim programlarını daha iyi yönetmelerine, kazanılan indirimleri elde etmelerine, yönetmelerine ve izlemelerinde gerek duyulan otomatik görevleri olanak sağlar.
+description: Bu makale, bir satıcı indirimi ile çalışırken gerçekleştirmek isteyebileceğiniz en yaygın görevlere bir genel bakış sağlar. Satıcı indirimleri, şirketlerin kendi tedarikçi indirim programlarını daha iyi yönetmelerine, kazanılan indirimleri elde etmelerine, yönetmelerine ve izlemelerinde gerek duyulan otomatik görevleri olanak sağlar.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: ed41fe18048050ecb80a93e929d66ebc3a2e2441
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 789a58af40595cbb72d55d598510c43315aead2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672976"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890813"
 ---
 # <a name="vendor-rebates"></a>Satıcı indirimleri
 
@@ -26,7 +26,7 @@ ms.locfileid: "8672976"
 
 Satıcı indirimleri, şirketlerin kendi tedarikçi indirim programlarını daha iyi yönetmelerine, kazanılan indirimleri elde etmelerine, yönetmelerine ve izlemelerinde gerek duyulan otomatik görevleri olanak sağlar.
 
-Bu konu, bir satıcı indirimi ile çalışırken gerçekleştirmek isteyebileceğiniz en yaygın görevlere bir genel bakış sağlar. Genel bakış aşağıdaki görevleri kapsar:
+Bu makale, bir satıcı indirimi ile çalışırken gerçekleştirmek isteyebileceğiniz en yaygın görevlere bir genel bakış sağlar. Genel bakış aşağıdaki görevleri kapsar:
 
 - Bir indirim sözleşmesinin ayrıntıları.
 - İndirimlere hak kazanan siparişleri belirleme ve indirim taleplerini oluşturma.
@@ -34,7 +34,7 @@ Bu konu, bir satıcı indirimi ile çalışırken gerçekleştirmek isteyebilece
 
 ## <a name="audience-and-purpose"></a>Kitle ve amaç
 
-Bu konudaki bilgi kurumsal şirketlerdeki, satınalma yöneticisi, mali işler müdürü (CFO) ve muhasebe müdürü gibi aşağıdaki sorumluluklara sahip işletme karar alıcıları içindir:
+Bu makaledeki bilgi kurumsal şirketlerdeki, satınalma yöneticisi, mali işler müdürü (CFO) ve muhasebe müdürü gibi aşağıdaki sorumluluklara sahip işletme karar alıcıları içindir:
 
 - Satıcı fiyatını, indirimini ve indirim sözleşmelerinin pazarlığını yapmak.
 - İndirim taleplerini işleyen ve ödemeleri toplayan personeli yönetmek.

@@ -1,6 +1,6 @@
 ---
 title: Sevkiyat konsolidasyon ilkelerini yapılandırma
-description: Bu konu, varsayılan ve özel sevkiyat konsolidasyon ilkelerinin nasıl ayarlanacağını açıklar.
+description: Bu makale, varsayılan ve özel sevkiyat konsolidasyon ilkelerinin nasıl ayarlanacağını açıklar.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 0a575648c0e6f5d0e3b9fb03ea6f47252837bf9c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672584"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845938"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Sevkiyat konsolidasyon ilkelerini yapılandırma
 
@@ -26,12 +26,12 @@ ms.locfileid: "8672584"
 
 Otomatik ve el ile gerçekleştirilen ambara serbest bırakma sırasında, sevkiyat konsolidasyon ilkelerini kullanan sevkiyat konsolidasyon süreci otomatik sevkiyat konsolidasyon işlemine olanak sağlar. Bu özelliği açtıktan sonra, başlangıç ilkelerinizi yapılandırmanız gerekir. Herhangi bir ilke yapılandırılmazsa, her satış satırı tek bir yükleme satırına sahip olan ayrı bir sevkiyat oluşturacaktır.
 
-Bu konuda sunulan senaryolar, varsayılan ve özel sevkiyat konsolidasyon ilkelerinin nasıl ayarlanacağını gösterir.
+Bu makalede sunulan senaryolar, varsayılan ve özel sevkiyat konsolidasyon ilkelerinin nasıl ayarlanacağını gösterir.
 
 ## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Sevkiyat konsolidasyon ilkeleri özelliğini açma
 
 > [!IMPORTANT]
-> Bu konuda açıklanan [ilk senaryoda](#scenario-1), ilk olarak önceki sevkiyat konsolidasyon özelliğini kullanacak şekilde bir ambar ayarlarsınız. Daha sonra, sevkiyat konsolidasyon ilkelerinin kullanılabilmesini sağlayabilirsiniz. Böylece, yükseltme senaryosunun nasıl çalıştığını görebilirsiniz. İlk senaryo üzerinden gitmek için demo veri ortamı kullanmayı planlıyorsanız senaryoyu yapmadan önce özelliği açmayın.
+> Bu makalede açıklanan [ilk senaryoda](#scenario-1), ilk olarak önceki sevkiyat konsolidasyon özelliğini kullanacak şekilde bir ambar ayarlarsınız. Daha sonra, sevkiyat konsolidasyon ilkelerinin kullanılabilmesini sağlayabilirsiniz. Böylece, yükseltme senaryosunun nasıl çalıştığını görebilirsiniz. İlk senaryo üzerinden gitmek için demo veri ortamı kullanmayı planlıyorsanız senaryoyu yapmadan önce özelliği açmayın.
 
 *Sevkiyat konsolidasyon ilkeleri* özelliğini kullanabilmeniz için önce sisteminizde bu özelliği açmanız gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
 
@@ -40,7 +40,7 @@ Bu konuda sunulan senaryolar, varsayılan ve özel sevkiyat konsolidasyon ilkele
 
 ## <a name="make-demo-data-available"></a>Tanıtım verilerini kullanılabilir hale getirme
 
-Bu konudaki her senaryo, Microsoft Dynamics 365 Supply Chain Management için sağlanan standart tanıtım verilerinde bulunan değerlere ve kayıtlara başvurur. Alıştırmaları yaparken burada sağlanan değerleri kullanmak isterseniz tanıtım verisinin yüklü olduğu bir ortamda çalıştığınızdan ve başlamadan önce tüzel kişiliği **USMF** olarak ayarladığınızdan emin olun.
+Bu makaledeki her senaryo, Microsoft Dynamics 365 Supply Chain Management için sağlanan standart tanıtım verilerinde bulunan değerlere ve kayıtlara başvurur. Alıştırmaları yaparken burada sağlanan değerleri kullanmak isterseniz tanıtım verisinin yüklü olduğu bir ortamda çalıştığınızdan ve başlamadan önce tüzel kişiliği **USMF** olarak ayarladığınızdan emin olun.
 
 ## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>Senaryo 1: Varsayılan sevkiyat konsolidasyon ilkelerini yapılandırma
 
@@ -339,7 +339,7 @@ Tüm ilkeleriniz oluşturulduğunda, bunların uygulanacağı sırayı oluşturm
 
 ## <a name="example-scenarios-of-how-to-use-shipment-consolidation-policies"></a><a name="example-scenarios"></a> Sevkiyat konsolidasyon ilkelerinin nasıl kullanılacağına ilişkin örnek senaryolar
 
-Aşağıdaki senaryolar, bu konuyu okurken oluşturduğunuz sevkiyat konsolidasyon ilkelerini nasıl kullanabileceğinizi gösterir. Her bir senaryo otomatik ve el ile gerçekleştirilen ambara serbest bırakma sırasında, sevkiyat konsolidasyon ilkelerini kullanan sevkiyat konsolidasyon sürecinde size yol gösterir:
+Aşağıdaki senaryolar, bu makaleyi okurken oluşturduğunuz sevkiyat konsolidasyon ilkelerini nasıl kullanabileceğinizi gösterir. Her bir senaryo otomatik ve el ile gerçekleştirilen ambara serbest bırakma sırasında, sevkiyat konsolidasyon ilkelerini kullanan sevkiyat konsolidasyon sürecinde size yol gösterir:
 
 - Senaryo 1: [Satış siparişlerinin otomatik serbest bırakılması kullanılarak ambara serbest bırakıldıklarında sevkiyatları konsolide etme](../warehousing/consolidate-shipments-automatic.md)
 - Senaryo 2: [Sevkiyat konsolidasyonu ilkesi, Ambara serbest bırakma sayfasından geçersiz kılındığında sevkiyatları konsolide etme](../warehousing/consolidate-shipments-release-to-warehouse-override.md)

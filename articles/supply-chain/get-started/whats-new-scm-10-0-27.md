@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Supply Chain Management 10.0.27 Önizlemesi (2022 Temmuz)
-description: Bu konuda, Microsoft Dynamics 365 Supply Chain Management 10.0.27'daki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Supply Chain Management 10.0.27'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
 ms.date: 04/22/2022
 ms.topic: article
@@ -10,19 +10,19 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 77c79c88b08844bf7e399a762bb9eb9746ffb71a
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: a91f2cdae0fed75f07d6cae86d24aeedfca80e94
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8812958"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844510"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10027-july-2022"></a>Dynamics 365 Supply Chain Management 10.0.27 Önizlemesi (2022 Temmuz)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10.0.27'daki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.1227 derleme numarasına sahiptir ve aşağıdaki planlamaya göre kullanıma sunulmuştur:
+Bu makalede, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10.0.27'daki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.1227 derleme numarasına sahiptir ve aşağıdaki planlamaya göre kullanıma sunulmuştur:
 
 - **Sürümün önizlemesi:** Nisan 2022
 - **Sürüm genel kullanılabilirliği (kendi kendine güncelleştirme):** Haziran 2022
@@ -30,7 +30,7 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10
 
 ## <a name="features-included-in-this-release"></a>Bu sürümdeki özellikler
 
-Aşağıdaki tabloda, bu sürüme dahil edilen özellikler listelenmektedir. Bu konu ilk kez yayımlandıktan sonra derlemeye eklenen özellikleri dahil etmek için bu konuya güncelleştirmeler uygulayabiliriz.
+Aşağıdaki tabloda, bu sürüme dahil edilen özellikler listelenmektedir. Bu makale ilk kez yayımlandıktan sonra derlemeye eklenen özellikleri dahil etmek için bu konuya güncelleştirmeler uygulayabiliriz.
 
 | Özellik alanı | Özellik | Daha fazla bilgi | Etkinleştiren |
 |---|---|---|---|
@@ -56,9 +56,9 @@ Bu özelliklerden herhangi birini açmak veya kapatmak istiyorsanız bunu [özel
 
 ## <a name="new-and-updated-documentation-resources"></a>Yeni ve güncelleştirilmiş belge kaynakları
 
-Aşağıdaki Yardım konularını yakın bir zamanda ekledik veya önemli ölçüde güncelleştirdik. Bu konuların, önceki bölümlerde listelendiği üzere bu sürüm için eklenen yeni özelliklerle ilgili olması gerekmez. Ancak mevcut özelliklerden daha fazla yararlanmanıza yardımcı olabilirler.
+Aşağıdaki Yardım makalelerini yakın bir zamanda ekledik veya önemli ölçüde güncelleştirdik. Bu makalelerin, önceki bölümlerde listelendiği üzere bu sürüm için eklenen yeni özelliklerle ilgili olması gerekmez. Ancak mevcut özelliklerden daha fazla yararlanmanıza yardımcı olabilirler.
 
-| Özellik alanı | Yeni veya güncelleştirilmiş konular |
+| Özellik alanı | Yeni veya güncelleştirilmiş makaleler |
 |---|---|
 | Maliyet yönetimi | [Fiziksel değer ve işaretlemeyi dahil et ile ağırlıklı ortalama tarihi](../cost-management/weighted-average-date.md) |
 | Dağıtılmış karma topoloji | [Dağıtılmış karma topolojideki ölçek birimlerini deneme](../cloud-edge/cloud-edge-try-out.md) |
@@ -83,12 +83,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.27 platform güncelleştirme
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Kaldırılan ve kullanım dışı bırakılan Supply Chain Management özellikleri
 
-[Dynamics 365 Supply Chain Management'taki kaldırılmış veya kullanım dışı bırakılmış özellikler](removed-deprecated-features-scm-updates.md) konusu Supply Chain Management için kaldırılan veya kullanım dışı bırakılan veya kaldırılması ya da kullanım dışı bırakılması planlanan özellikleri açıklar.
+[Dynamics 365 Supply Chain Management'taki kaldırılmış veya kullanım dışı bırakılmış özellikler](removed-deprecated-features-scm-updates.md) makalesi Supply Chain Management için kaldırılan veya kullanım dışı bırakılan veya kaldırılması ya da kullanım dışı bırakılması planlanan özellikleri açıklar.
 
 - *Kaldırılan* özellik artık üründe bulunmaz.
 - *Kullanımına son verilen* özellik etkin geliştirmede değildir ve sonraki güncellemede kaldırılabilir.
 
-Herhangi bir özellik üründen kaldırılmadan önce, kullanım dışı bırakma bildirimi kaldırma işleminden 12 ay önce [Dynamics 365 Supply Chain Management'taki kaldırılan veya kullanım dışı bırakılan özelliker](removed-deprecated-features-scm-updates.md) konusunda duyurulacaktır.
+Herhangi bir özellik üründen kaldırılmadan önce, kullanım dışı bırakma bildirimi kaldırma işleminden 12 ay önce [Dynamics 365 Supply Chain Management'taki kaldırılan veya kullanım dışı bırakılan özelliker](removed-deprecated-features-scm-updates.md) makalesinde duyurulacaktır.
 
 Yalnızca derleme zamanını etkileyen ancak korumalı alan ve üretim ortamlarıyla ikili uyumlu olan son dakika değişiklikleri için kullanım dışı bırakma süresi 12 aydan kısa olacaktır. Genellikle, bunlar derleyiciye yapılması gereken işlevsel güncelleştirmelerdir.
 

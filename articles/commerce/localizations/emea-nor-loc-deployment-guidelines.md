@@ -1,6 +1,6 @@
 ---
 title: Norveç için yazar kasalara ilişkin dağıtım kılavuzları (eski)
-description: Bu konu, Norveç için Microsoft Dynamics 365 Commerce yerelleştirmesinin nasıl etkinleştirileceğini gösteren bir dağıtım kılavuzudur.
+description: Bu makale, Norveç için Microsoft Dynamics 365 Commerce yerelleştirmesinin nasıl etkinleştirileceğini gösteren bir dağıtım kılavuzudur.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,27 +9,27 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
-ms.openlocfilehash: 019bac01abdc0b2e16718c08953b44fbccef83a3
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 7a6450215f152779428d3b0fd83bf09761e2ad98
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944800"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894474"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway-legacy"></a>Norveç için yazar kasalara ilişkin dağıtım kılavuzları (eski)
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Norveç için Microsoft Dynamics 365 Commerce yerelleştirmesinin nasıl etkinleştirileceğini gösteren bir dağıtım kılavuzudur. Yerelleştirme, çeşitli Commerce bileşeni uzantılarından oluşur. Uzantılar örneğin; makbuzlara özel alanlar yazdırmanıza, Satış Noktasına (POS) ek denetim olayları, satış hareketleri ve ödeme hareketleri kaydetmenize, satış hareketlerini dijital olarak imzalamanıza ve X ve Z raporlarını yerel biçimlerde yazdırmanıza olanak sağlar. Norveç yerelleştirmesi hakkında daha fazla bilgi için bkz. [Norveç için yazar kasa işlevi](./emea-nor-cash-registers.md).
+Bu makale, Norveç için Microsoft Dynamics 365 Commerce yerelleştirmesinin nasıl etkinleştirileceğini gösteren bir dağıtım kılavuzudur. Yerelleştirme, çeşitli Commerce bileşeni uzantılarından oluşur. Uzantılar örneğin; makbuzlara özel alanlar yazdırmanıza, Satış Noktasına (POS) ek denetim olayları, satış hareketleri ve ödeme hareketleri kaydetmenize, satış hareketlerini dijital olarak imzalamanıza ve X ve Z raporlarını yerel biçimlerde yazdırmanıza olanak sağlar. Norveç yerelleştirmesi hakkında daha fazla bilgi için bkz. [Norveç için yazar kasa işlevi](./emea-nor-cash-registers.md).
 
 Bu örnek, Retail yazılım geliştirme setinin (SDK) bir parçasıdır. SDK hakkında bilgi için bkz. [Retail yazılım geliştirme seti (SDK) mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
-Bu örnek; Commerce Runtime ( CRT), Retail Server ve POS'a yönelik uzantılardan oluşur. Bu örneği çalıştırmak için CRT, Retail Server ve POS projelerini değiştirip derlemeniz gerekir. Bu konuda açıklanan değişiklikleri yapmak için değiştirilmemiş bir Retail SDK kullanmanızı öneririz. Henüz değiştirilmiş bir dosya olmadığı durumlarda, Microsoft Visual Studio Online (VSO) gibi bir kaynak denetimi sistemi kullanmanızı öneririz.
+Bu örnek; Commerce Runtime ( CRT), Retail Server ve POS'a yönelik uzantılardan oluşur. Bu örneği çalıştırmak için CRT, Retail Server ve POS projelerini değiştirip derlemeniz gerekir. Bu makalede açıklanan değişiklikleri yapmak için değiştirilmemiş bir Retail SDK kullanmanızı öneririz. Henüz değiştirilmiş bir dosya olmadığı durumlarda, Microsoft Visual Studio Online (VSO) gibi bir kaynak denetimi sistemi kullanmanızı öneririz.
 
 > [!NOTE]
-> Commerce 10.0.8 ve üzeri sürümlerde Retail Server, Commerce Scale Unit olarak bilinir. Bu konu uygulamanın önceki birden çok sürümü için geçerli olduğundan, konu genelinde *Retail Server* kullanılmıştır.
+> Commerce 10.0.8 ve üzeri sürümlerde Retail Server, Commerce Scale Unit olarak bilinir. Bu makale uygulamanın önceki birden çok sürümü için geçerli olduğundan, makale genelinde *Retail Server* kullanılmıştır.
 >
-> Bu konudaki yordamlarda yer alan bazı adımlar, kullandığınız Commerce sürümüne bağlı olarak farklılık gösterir. Daha fazla bilgi için bkz. [Dynamics 365 Retail'deki yenilikler veya değişiklikler](../get-started/whats-new.md).
+> Bu makaledeki yordamlarda yer alan bazı adımlar, kullandığınız Commerce sürümüne bağlı olarak farklılık gösterir. Daha fazla bilgi için bkz. [Dynamics 365 Retail'deki yenilikler veya değişiklikler](../get-started/whats-new.md).
 
 ### <a name="using-certificate-profiles-in-commerce-channels"></a>Commerce kanallarında sertifika profillerini kullanma
 
@@ -1252,7 +1252,7 @@ Daha fazla bilgi için bkz. [Norway için yazar kasa işlevi](./emea-nor-cash-re
 
 Commerce bileşenleri içeren dağıtılabilir paketler oluşturmak ve bu paketleri üretim ortamında uygulamak için aşağıdaki adımları izleyin.
 
-1. Bu konunun daha önceki [Bulut POS uzantı bileşenleri](#cloud-pos-extension-components) veya [Modern POS uzantı bileşenleri](#modern-pos-extension-components) bölümünde yer alan adımları tamamlayın.
+1. Bu makalenin daha önceki [Bulut POS uzantı bileşenleri](#cloud-pos-extension-components) veya [Modern POS uzantı bileşenleri](#modern-pos-extension-components) bölümünde yer alan adımları tamamlayın.
 2. **RetailSdk\\Assets** klasöründeki paket yapılandırma dosyalarında aşağıdaki değişiklikleri yapın:
 
     1. **commerceruntime.ext.config** ve **CommerceRuntime.MPOSOffline.Ext.config** yapılandırma dosyalarında, **composition** bölümüne aşağıdaki satırları ekleyin:

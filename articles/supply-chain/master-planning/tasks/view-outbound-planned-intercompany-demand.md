@@ -1,6 +1,6 @@
 ---
 title: Giden planlanmış şirketlerarası talebi görüntüleme
-description: Bu konuda, giden planlı şirketlerarası talebin nasıl görüntüleneceğini gösteren bir yordam açıklanmaktadır.
+description: Bu makalede, giden planlı şirketlerarası talebin nasıl görüntüleneceğini gösteren bir yordam açıklanmaktadır.
 author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39f2c1ad6fa6f282d9e281e4d1ed9483d45f096a
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: dcdea0af5cb522646bc63c7e5ef1d4e54e0a3547
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469436"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895655"
 ---
 # <a name="view-outbound-planned-intercompany-demand"></a>Giden planlanmış şirketlerarası talebi görüntüleme
 

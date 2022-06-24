@@ -1,6 +1,6 @@
 ---
-title: Konteyner modülü
-description: Bu konu konteyner modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
+title: Kapsayıcı modülü
+description: Bu makale konteyner modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: aa4bf7523acee06e91f0ebb983dd8777dec4bac5
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 4406b6ee998f3094e5a8a36d4f721839ffb427e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780726"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867852"
 ---
-# <a name="container-module"></a>Konteyner modülü
+# <a name="container-module"></a>Kapsayıcı modülü
 
 [!include [banner](includes/banner.md)]
 
-Bu konu konteyner modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
+Bu makale konteyner modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
 Konteyner modülü, diğer modülleri barındıran bir modüldür. Bir konteyner modülünün birincil amacı, kendisi için ayarlanan özellikler boyunca, içinde olan modüllerin düzenini tanımlamak amacıyla kullanılır. Örneğin, bu modüller iki sütunlu, üç sütunlu, dört sütunlu veya altı sütunlu düzende yan yana görüntülenebilir. Ayrıca, konteyner genişliği ile sınırlanabilirler veya ekranı doldurabilirler. Bir başlık, her konteyner modüle da eklenebilir.
 

@@ -1,6 +1,6 @@
 ---
 title: Kapsam zaman dilimleri
-description: Bu konuda, Planlamayı En İyi Duruma Getirme'yi kullanırken kapsam zaman dilimlerinin nasıl ayarlanacağı açıklanmaktadır. Kapsam zaman dilimi, planlama ufkunuzu ve sınırınızı belirtir.
+description: Bu makalede, Planlamayı En İyi Duruma Getirme'yi kullanırken kapsam zaman dilimlerinin nasıl ayarlanacağı açıklanmaktadır. Kapsam zaman dilimi, planlama ufkunuzu ve sınırınızı belirtir.
 author: t-benebo
 ms.date: 01/18/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 12deca22fd6ff3cb4556e0525ab831e1aea0ee33
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: ebd59e05d2ae227f24e7dae6fae3634aab026c5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847947"
 ---
 # <a name="coverage-time-fences"></a>Kapsam zaman dilimleri
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, Planlamayı En İyi Duruma Getirme'yi kullanırken *kapsam zaman dilimlerinin* nasıl ayarlanacağı açıklanmaktadır. Planlayıcılar, planlama ufkunu (gün olarak karşılama zaman dilimi) tanımlayabilir ve bu dönemin dışında kalan tedariki ve talebi hariç tutabilir. Bu sayede, kapsam zaman dilimleri, aylarca tepki vermenizi gerektirmeyen tedarik önerilerinin neden olduğu "gürültü"nün önlenmesine yardımcı olur. Örnekler arasında, gelecek yılın tahmini ve normal sağlama süresinin dışında verilen müşteri siparişleri yer alır.
+Bu makalede, Planlamayı En İyi Duruma Getirme'yi kullanırken *kapsam zaman dilimlerinin* nasıl ayarlanacağı açıklanmaktadır. Planlayıcılar, planlama ufkunu (gün olarak karşılama zaman dilimi) tanımlayabilir ve bu dönemin dışında kalan tedariki ve talebi hariç tutabilir. Bu sayede, kapsam zaman dilimleri, aylarca tepki vermenizi gerektirmeyen tedarik önerilerinin neden olduğu "gürültü"nün önlenmesine yardımcı olur. Örnekler arasında, gelecek yılın tahmini ve normal sağlama süresinin dışında verilen müşteri siparişleri yer alır.
 
 Kapsam zaman dilimi, bugünün tarihinden (veya planlama çalıştırmasını yaptığınız tarihten) sonra tedarik ve talebin hariç tutulduğu gün sayısıdır. Gecikmeleri önlemek için kapsam zaman diliminin, toplam sağlama süresinden uzun olduğundan emin olmalısınız. Varsayılan sistem değeri 100 gündür.
 

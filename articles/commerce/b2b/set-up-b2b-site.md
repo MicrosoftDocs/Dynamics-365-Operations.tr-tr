@@ -1,6 +1,6 @@
 ---
 title: B2B e-ticaret sitesi ayarlama
-description: Bu konuda, Microsoft Dynamics 365 Commerce'te nasıl bir işletmeden işletmeye (B2B) e-ticaret sitesi kurulacağı açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce'te nasıl bir işletmeden işletmeye (B2B) e-ticaret sitesi kurulacağı açıklanmaktadır.
 author: josaw1
 ms.date: 12/03/2021
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 31266f84270f170e172eadea75a90397c5a6e8e6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0bcd864694ff2ad2aa211c927da4d698c0039715
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881918"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B e-ticaret sitesi ayarlama
 
 [!include [banner](../../includes/banner.md)]
 
-İşletmeler arası (B2B) e-ticaret siteleri, B2B kullanıcısı için iş akışını iyileştiren bazı önemli özellikler sağlar. Bu konuda, Microsoft Dynamics 365 Commerce'te nasıl B2B e-ticaret sitesi kurulacağı açıklanmaktadır. B2B'ye özgü senaryoları etkinleştirmek için yapılandırılması gereken modüller ve site ayarları anlatılmaktadır.
+İşletmeler arası (B2B) e-ticaret siteleri, B2B kullanıcısı için iş akışını iyileştiren bazı önemli özellikler sağlar. Bu makalede, Microsoft Dynamics 365 Commerce'te nasıl B2B e-ticaret sitesi kurulacağı açıklanmaktadır. B2B'ye özgü senaryoları etkinleştirmek için yapılandırılması gereken modüller ve site ayarları anlatılmaktadır.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-- B2B e-ticaret sitesi kurmak için bu konuda açıklandığı gibi Commerce Headquarters'da belirli özellikleri etkinleştirmeniz ve yapılandırmanız gerekir.
+- B2B e-ticaret sitesi kurmak için bu makalede açıklandığı gibi Commerce Headquarters'da belirli özellikleri etkinleştirmeniz ve yapılandırmanız gerekir.
 - Ürün bulma, ürün ayrıntıları sayfaları, sepet ve ödeme gibi temel deneyimler, işletmeden tüketiciye (B2C) e-ticaret siteleri için kullanılan modüllerle desteklenir. Site yazarları, Dynamics 365 Commerce'ün desteklediği tüm modüllere aşina olmalıdır. Daha fazla bilgi için bkz. [Modül kitaplığına genel bakış](../starter-kit-overview.md).
-- Bu konu, site yazarlarının e-ticaret sitelerine yönelik B2B özelliklerini etkinleştirebilmeleri için Commerce Site Builder, şablonlar, parçalar ve sayfalarla ilgili temel bilgileri bildiğini varsayar.
+- Bu makale, site yazarlarının e-ticaret sitelerine yönelik B2B özelliklerini etkinleştirebilmeleri için Commerce Site Builder, şablonlar, parçalar ve sayfalarla ilgili temel bilgileri bildiğini varsayar.
 
 ## <a name="site-level-settings"></a>Site düzeyi ayarlar
 

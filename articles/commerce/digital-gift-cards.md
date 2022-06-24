@@ -1,6 +1,6 @@
 ---
 title: E-ticaret dijital hediye kartları
-description: Bu konuda, dijital hediye kartlarının Microsoft Dynamics 365 Commerce'ün e-ticaret uygulamasında nasıl çalıştığı açıklanmaktadı . Ayrıca, önemli yapılandırma adımlarının genel bir görünümünü sağlar.
+description: Bu makalede, dijital hediye kartlarının Microsoft Dynamics 365 Commerce'ün e-ticaret uygulamasında nasıl çalıştığı açıklanmaktadır. Ayrıca, önemli yapılandırma adımlarının genel bir görünümünü sağlar.
 author: anupamar-ms
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: de8811b3265bc582a055aaad1f3dea32def552f4
-ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
+ms.openlocfilehash: 60de6988f14a0dcbbb881e84a9e4d8a45ca1289a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809599"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884916"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>E-ticaret dijital hediye kartları
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, dijital hediye kartlarının Microsoft Dynamics 365 Commerce'ün e-ticaret uygulamasında nasıl çalıştığı açıklanmaktadı . Ayrıca, önemli yapılandırma adımlarının genel bir görünümünü sağlar.
+Bu makalede, dijital hediye kartlarının Microsoft Dynamics 365 Commerce'ün e-ticaret uygulamasında nasıl çalıştığı açıklanmaktadır. Ayrıca, önemli yapılandırma adımlarının genel bir görünümünü sağlar.
 
 Dynamics 365 Commerce'te, dijital hediye kartlarının satın alması, sistemdeki diğer ürünlerin satın alma işlemiyle aynı akışı izler. Konfigüre edilecek ek modül yoktur. Sepete birden fazla hediye kartı eklenirse, hediye kartı maddeleri tek bir satış satırında toplanmazlar. Her satış satırı ayrı bir hediye kartı numarası kullanılarak faturalandığından, bu davranış gereklidir.
 

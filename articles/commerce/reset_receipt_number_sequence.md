@@ -1,6 +1,6 @@
 ---
 title: Makbuz numaralarını sıfırlama
-description: Bu konuda, istenen tarihteki çeşitli eylemler için kullanılan giriş numaralarının nasıl sıfırlanacağı açıklanmaktadır (örneğin, mali yıl veya takvim yılı).
+description: Bu makalede, istenen tarihteki çeşitli eylemler için kullanılan giriş numaralarının nasıl sıfırlanacağı açıklanmaktadır (örneğin, mali yıl veya takvim yılı).
 author: ShalabhjainMSFT
 ms.date: 10/06/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 855c39f15db6de8fac1f0cd4667eec485c70542b9aebde0d7085e2703f4609bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5dc9f3f977e04866562781d9768141a4a96166f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858868"
 ---
 # <a name="reset-receipt-numbers"></a>Makbuz numaralarını sıfırlama 
 
@@ -30,7 +30,7 @@ ms.locfileid: "6733881"
 > [!NOTE]
 > Bu özelliği kullanmadan önce, işlevsellik profilindeki tüm makbuz türleri için **Bağımsız sıralama** özelliğini seçmeniz gerekir. Ayrıca, POS'un kullanıldığı cihazın sistem saat dilimi, ilgili mağaza saat dilimiyle aynı olmalıdır. Bu sınırlamalar nedeniyle, biz bu sorunları gelecekteki bir sürümde düzeltmeye çalışırken bu özelliği üretim sırasında kullanmamanızı öneririz. 
 
-Perakendeciler, mağaza gibi çeşitli eylemler için giriş numaraları (örneğin nakit ve hareketleri, iade hareketleri, müşteri siparişleri, teklifler ve ödemeler) oluşturur. Perakendeciler kendi makbuz biçimlerini tanımlamakla birlikte, bazı ülkelerde veya bölgelerde bu makbuz biçimlerine sınırlamalar koymak için gereken düzenlemeler vardır. Örneğin, bu düzenlemeler Makbuzdaki karakter sayısını sınırlayabilir, birbirini izleyen Makbuz numaraları gerektirebilir, bazı özel karakterleri sınırlayabilir veya yılın başlangıcında makbuz numaralarının sıfırlanmasını gerektirebilir. Microsoft Dynamics 365 Commerce, perakendecilerinin yasal gereksinimleri karşılamasına yardımcı olmak için makbuz numaralarının yönetimi sürecini çok esnek yapar. Bu konu, makbuz numaralarının sıfırlanması için işlevselliğin nasıl kullanıldığını açıklamaktadır.
+Perakendeciler, mağaza gibi çeşitli eylemler için giriş numaraları (örneğin nakit ve hareketleri, iade hareketleri, müşteri siparişleri, teklifler ve ödemeler) oluşturur. Perakendeciler kendi makbuz biçimlerini tanımlamakla birlikte, bazı ülkelerde veya bölgelerde bu makbuz biçimlerine sınırlamalar koymak için gereken düzenlemeler vardır. Örneğin, bu düzenlemeler Makbuzdaki karakter sayısını sınırlayabilir, birbirini izleyen Makbuz numaraları gerektirebilir, bazı özel karakterleri sınırlayabilir veya yılın başlangıcında makbuz numaralarının sıfırlanmasını gerektirebilir. Microsoft Dynamics 365 Commerce, perakendecilerinin yasal gereksinimleri karşılamasına yardımcı olmak için makbuz numaralarının yönetimi sürecini çok esnek yapar. Bu makale, makbuz numaralarının sıfırlanması için işlevselliğin nasıl kullanıldığını açıklamaktadır.
 
 Commerce'da makbuz biçimleri alfasayısal olabilir. Hem statik içeriği hem de dinamik içeriği yerleştirebilirsiniz. Statik içerik alfabetik karakter, sayı ve özel karakterleri içerir. Dinamik içerik, otomatik olarak artan mağaza numarası, Terminal numarası, tarih, ay, yıl ve numara serileri gibi bilgileri temsil eden bir veya daha fazla karakter içerir. Formatlar, işlevsellik profilinin **makbuz numaralandırma** bölümünde tanımlanmıştır. Aşağıdaki tabloda dinamik içeriği temsil eden karakterler açıklanmıştır.
 

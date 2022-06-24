@@ -1,6 +1,6 @@
 ---
-title: Stok Görünürlüğü ipuçları
-description: Bu konu, Stok Görünürlüğü eklentisini ayarlayıp kullanırken dikkate almanız gereken bazı ipuçları sağlar.
+title: Inventory Visibility ipuçları
+description: Bu makale, Stok Görünürlüğü eklentisini ayarlayıp kullanırken dikkate almanız gereken bazı ipuçları sağlar.
 author: yufeihuang
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1f6ade36ac184a3c8bf790fc0d899ea01d90c8d2
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 9f571d353f99c91776424bc2fa3405f73b2bae0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952427"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885971"
 ---
 # <a name="inventory-visibility-tips"></a>Stok Görünürlüğü ipuçları
 
@@ -34,5 +34,6 @@ Stok Görünürlüğü eklentisini ayarlayıp kullanırken dikkate almanız gere
 - Supply Chain Management ortamınıza bir veya daha fazla yeni ölçüm eklerseniz, bunları da Stok Görünürlüğüne eklemelisiniz. Ancak, yeni ölçümler için tüm miktar değişiklikleri Supply Chain Management ortamınızdan gelmelidir.
 - Şu anda [bölüm yapılandırması](inventory-visibility-configuration.md#partition-configuration), verilerin nasıl dağıtıldığını gösteren iki temel boyuttan (`SiteId` ve `LocationId`) oluşur. Aynı bölüm altındaki işlemler daha düşük maliyetle daha yüksek performans sağlayabilir. Çözüm varsayılan olarak bu bölüm yapılandırmasını içerir. Bu nedenle, *kendiniz tanımlamak zorunda değilsiniz*. Varsayılan bölüm yapılandırmasını özelleştirmeyin. Yapılandırmayı siler veya değiştirirseniz beklenmeyen bir hataya neden olabilirsiniz.
 - Bölüm yapılandırmasında tanımlanan temel boyutlar, [ürün dizini hiyerarşi yapılandırmasında](inventory-visibility-configuration.md#index-configuration) tanımlanmamalıdır.
+- [Ürün dizini hiyerarşi yapılandırmanızda](inventory-visibility-configuration.md#index-configuration) en az bir dizin hiyerarşiniz olmalıdır (örneğin, `Empty` temel boyutunu içeren), aksi takdirde sorgular "dizin hiyerarşisi ayarlanmadı" hatasıyla başarısız olur.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

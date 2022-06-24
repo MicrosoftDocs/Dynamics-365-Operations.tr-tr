@@ -1,6 +1,6 @@
 ---
 title: Modül kitaplığına genel bakış
-description: Bu konu Microsoft Dynamics 365 Commerce modül kitaplığı hakkında bilgi sağlar.
+description: Bu makale Microsoft Dynamics 365 Commerce modül kitaplığı hakkında bilgi sağlar.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94ff18fc34fbfbaee434db12f0d0bc8bb7042c2f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: dbf3754136de62b72938742b7cd4cb3d56532f8b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985771"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882182"
 ---
 # <a name="module-library-overview"></a>Modül kitaplığına genel bakış
 
 [!include [banner](includes/banner.md)]
 
-Bu konu Microsoft Dynamics 365 Commerce modül kitaplığı hakkında bilgi sağlar.
+Bu makale Microsoft Dynamics 365 Commerce modül kitaplığı hakkında bilgi sağlar.
 
 Dynamics 365 Commerce modül kitaplığı, bir e-ticaret Web sitesi oluşturmak için kullanılabilen modüller topluluğudur. Modüllerin hem Kullanıcı arabirimi (UI) yönleri, hem de işlevsel davranış yönleri vardır.
 

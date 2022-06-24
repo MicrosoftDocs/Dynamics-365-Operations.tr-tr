@@ -1,6 +1,6 @@
 ---
 title: Ambar yönetimini Microsoft Dynamics AX 2012'den Supply Chain Management'a yükseltme
-description: Bu konu, ürün ve ambar yönetimi geçiş seçenekleri hakkında bilgi sağlar.
+description: Bu makale, ürün ve ambar yönetimi geçiş seçenekleri hakkında bilgi sağlar.
 author: perlynne
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ac8c0d8781e5146186fbf71ce619f90ca3556ccefefe7e974efded7e0eb86dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d85f4e5c44db511970b3e22490341228fa0d1abd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775447"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857097"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Ambar yönetimini Microsoft Dynamics AX 2012'den Supply Chain Management'a yükseltme 
 
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, WMSII modülünü çalıştıran Microsoft Dynamics AX 2012 R3'ten Supply Chain Management'a yükseltme işlemi hakkında genel bakış sağlar.
+Bu makale, WMSII modülünü çalıştıran Microsoft Dynamics AX 2012 R3'ten Supply Chain Management'a yükseltme işlemi hakkında genel bakış sağlar.
 
 Supply Chain Management artık Microsoft Dynamics AX 2012'den gelen eski **WMSII** modülünü desteklemiyor. Bunun yerine, **Ambar yönetimi** modülünü kullanabilirsiniz. WMSII modülünde mali stok için Yerleşim ve Palet Kodu stok boyutları seçilebilir ancak Palet kodu stok boyutu Supply Chain Management'ta mali stok için kullanılamaz.
 

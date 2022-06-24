@@ -1,6 +1,6 @@
 ---
 title: Sevkiyat bilgileri kurulumu
-description: Bu konuda, Varış yeri maliyeti modülü için sevkiyat bilgilerinin nasıl ayarlanacağı açıklanmaktadır.
+description: Bu makalede, Varış yeri maliyeti modülü için sevkiyat bilgilerinin nasıl ayarlanacağı açıklanmaktadır.
 author: Weijiesa
 ms.date: 12/04/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1ee099b923f3e2140f7f6962795fc6b6e87b913a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 62277f66a36817e83b4c0bf101aa7b6cc14ecccb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690316"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882648"
 ---
 # <a name="shipping-information-setup"></a>Sevkiyat bilgileri kurulumu
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, **Varış yeri maliyeti** modülü için sevkiyat bilgilerinin nasıl ayarlanacağı açıklanmaktadır.
+Bu makalede, **Varış yeri maliyeti** modülü için sevkiyat bilgilerinin nasıl ayarlanacağı açıklanmaktadır.
 
 ## <a name="description-of-goods"></a><a name="description-of-goods"></a>Malların açıklaması
 

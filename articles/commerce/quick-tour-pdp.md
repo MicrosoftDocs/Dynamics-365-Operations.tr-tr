@@ -1,6 +1,6 @@
 ---
 title: Ürün ayrıntıları sayfalarına genel bakış
-description: Bu konu, Microsoft Dynamics 365 Commerce'ta ürün ayrıntıları sayfalarına (PDP'ler) genel bakış sağlar.
+description: Bu makale, Microsoft Dynamics 365 Commerce'ta ürün ayrıntıları sayfalarına (PDP'ler) genel bakış sağlar.
 author: anupamar-ms
 ms.date: 01/23/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7b7630a15f98da4a1454f7c9b0d3501d4f035649
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884297"
 ---
 # <a name="product-details-pages-overview"></a>Ürün ayrıntıları sayfalarına genel bakış
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce'ta ürün ayrıntıları sayfalarına (PDP'ler) genel bakış sağlar.
+Bu makale, Microsoft Dynamics 365 Commerce'ta ürün ayrıntıları sayfalarına (PDP'ler) genel bakış sağlar.
 
 PDP bir ürünle ilgili ayrıntılı bilgi sağlar ve müşteriler boyut, stil ve renk gibi ürün seçeneklerini seçsin. Bir PDP, bir müşterinin satın alma kararı vermek için gerek duyduğu tüm ürün bilgilerini sergilemelidir.
 
@@ -35,9 +35,9 @@ Aşağıdaki şekilde bir PDP örneği gösterilmiştir.
 
 ## <a name="header-and-footer-modules"></a>Üst bilgi ve alt bilgi modülleri
 
-PDP üst bölümünde, perakendecinin müşterilerin göz atmasını istediği tüm ürün kategorilerini ve diğer sayfaları gösteren bir başlık yer vardır. Sayfanın alt bölümünde, bir müşterilerin ilgilenebileceği çeşitli konularda hızlı bağlantılar içeren bir altbilgi yer almaktadır.
+PDP üst bölümünde, perakendecinin müşterilerin göz atmasını istediği tüm ürün kategorilerini ve diğer sayfaları gösteren bir başlık yer vardır. Sayfanın alt bölümünde, bir müşterilerin ilgilenebileceği çeşitli makalelerin hızlı bağlantılarını içeren bir altbilgi yer almaktadır.
 
-## <a name="buy-box-module"></a>Satınalma kutusu modülü
+## <a name="buy-box-module"></a>Satın alma kutusu modülü
 
 Bir PDP üzerindeki en önemli modül, sayfanın ana bölümünde ilk öğe olarak görünen satın alma kutusu modülüdür. Satınalma kutusu modülü, ürün adı, ürün açıklaması, ürün fiyatı, ürün görüntüleri ve ürün derecelendirmeleri gibi önemli ürün bilgilerini gösterir.
 

@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Supply Chain Management içindeki Yenilikler veya değişiklikler
-description: Bu konu, Dynamics 365 Supply Chain Management'ın her sürümündeki yeni ve değiştirilmiş özellikleri açıklayan konulara işaret eder.
+description: Bu makale, Dynamics 365 Supply Chain Management'ın her sürümündeki yeni ve değiştirilmiş özellikleri açıklayan konulara işaret eder.
 author: kamaybac
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 6c1cfcd7ccc39f2742fd237278f97b4d3d0ad4fd
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: b767f8ff8e9c9ef7ea1b4dee777f9e0c96f93aef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8812986"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893453"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management içindeki Yenilikler veya değişiklikler
 
@@ -27,7 +27,7 @@ ms.locfileid: "8812986"
 
 ## <a name="releases-of-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management sürümleri
 
-Dynamics 365 Supply Chain Management'ın her sürümündeki yenilikleri veya değişiklikleri görmek için aşağıdaki konulara bakın.
+Dynamics 365 Supply Chain Management'ın her sürümündeki yenilikleri veya değişiklikleri görmek için aşağıdaki makalelere bakın.
 
 | Sürüm | Yapı numarası | Otomatik güncelleştirme kullanılabilirliği | Daha fazla bilgi |
 |---|---|---|---|
@@ -57,9 +57,9 @@ Dynamics 365 Supply Chain Management'ın her sürümündeki yenilikleri veya de�
 
 ## <a name="releases-before-november-2019"></a>Kasım 2019 öncesi sürümler
 
-Kasım 2019 öncesi sürümlerdeki yenilikleri veya değişiklikleri görmek için aşağıdaki konulara bakın.
+Kasım 2019 öncesi sürümlerdeki yenilikleri veya değişiklikleri görmek için aşağıdaki makalelere bakın.
 
-| Serbest bırak | Sürüm | Yapı numarası | Kullanılabilirlik | Daha fazla bilgi edinin |
+| Serbest Bırak | Sürüm | Yapı numarası | Kullanılabilirlik | Daha fazla bilgi |
 |---|---|---|---|---|
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.5      | 10.0.197         | 2019 Ekim     | [Dynamics 365 for Finance and Operations sürüm 10.0.5'teki yenilikler veya değişiklikler (Ekim 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md)                 |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.4      | 10.0.136         | Temmuz 2019        | [ Dynamics 365 for Finance and Operations sürüm 10.0.4'teki yenilikler ve değişiklikler (Temmuz 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md)                    |

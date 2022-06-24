@@ -1,6 +1,6 @@
 ---
 title: Cihaz, pazar ve coğrafi konum hedefleme
-description: Bu konuda; cihaz, pazar ve coğrafi konum bilgilerini kullanarak Microsoft Dynamics 365 Commerce site oluşturucuda hedef kitlelerin ve hedeflerin nasıl oluşturulacağı, düzenleneceği ve yönetileceği açıklanmaktadır.
+description: Bu makalede; cihaz, pazar ve coğrafi konum bilgilerini kullanarak Microsoft Dynamics 365 Commerce site oluşturucuda hedef kitlelerin ve hedeflerin nasıl oluşturulacağı, düzenleneceği ve yönetileceği açıklanmaktadır.
 author: sushma-rao
 ms.date: 02/03/2022
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2021-07-31
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 0c8ceb5e59c801e0d3dbc3a57e54c40fa8d967ac
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 90772fd942db30bbf4f65a87b1dca4b2aaacee1e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090706"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881669"
 ---
 # <a name="device-market-and-geolocation-targeting"></a>Cihaz, pazar ve coğrafi konum hedefleme
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda; cihaz, pazar ve coğrafi konum bilgilerini kullanarak Microsoft Dynamics 365 Commerce site oluşturucuda hedef kitlelerin ve hedeflerin nasıl oluşturulacağı, düzenleneceği ve yönetileceği açıklanmaktadır.
+Bu makalede; cihaz, pazar ve coğrafi konum bilgilerini kullanarak Microsoft Dynamics 365 Commerce site oluşturucuda hedef kitlelerin ve hedeflerin nasıl oluşturulacağı, düzenleneceği ve yönetileceği açıklanmaktadır.
 
 Dynamics 365 Commerce, kullanıcı etkileşimini ve memnuniyetini artırmaya yardımcı olmak üzere özel müşteri grupları (*hedef kitleler* olarak bilinir) için sayfa içeriğinizin varyasyonlarını (*hedefler* olarak bilinir) kişiselleştirmenizi sağlar. Öncelikle bir hedef kitle veya hedef oluşturabilirsiniz. Ancak başarılı bir hedefleme deneyimi bu bileşenlerin her ikisini de gerektirir.
 

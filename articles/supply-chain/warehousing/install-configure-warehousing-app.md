@@ -1,6 +1,6 @@
 ---
 title: Ambar uygulamasını yükleme ve bağlama
-description: Bu konuda, ambar uygulamasının mobil cihazlarınızın her birine nasıl yükleneceği ve Microsoft Dynamics 365 Supply Chain Management ortamınıza bağlanacak şekilde nasıl yapılandırılacağı açıklanmaktadır. Her cihazı el ile yapılandırabilir veya bir dosya ya da bir QR kodunu tarayarak bağlantı ayarlarını içe aktarabilirsiniz.
+description: Bu makalede, ambar uygulamasının mobil cihazlarınızın her birine nasıl yükleneceği ve Microsoft Dynamics 365 Supply Chain Management ortamınıza bağlanacak şekilde nasıl yapılandırılacağı açıklanmaktadır. Her cihazı el ile yapılandırabilir veya bir dosya ya da bir QR kodunu tarayarak bağlantı ayarlarını içe aktarabilirsiniz.
 author: Mirzaab
 ms.date: 05/25/2020
 ms.topic: article
@@ -16,26 +16,26 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f123f217aabcc7500832fafb15199043048b5e5
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 8ed770e45aa7f9909b98a92b493dd2931c6a3981
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902283"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885768"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Ambar uygulamasını yükleme ve bağlama
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Bu konu, eski ambar uygulamasının (şimdi kullanım dışı) nasıl yapılandırılacağını açıklar. Yeni Ambar Yönetimi mobil uygulamasını yapılandırma hakkında bilgi arıyorsanız bkz. [Ambar Yönetimi mobil uygulamasını yükleme ve bağlama](install-configure-warehouse-management-app.md).
+> Bu makale, eski ambar uygulamasının (şimdi kullanım dışı) nasıl yapılandırılacağını açıklar. Yeni Ambar Yönetimi mobil uygulamasını yapılandırma hakkında bilgi arıyorsanız bkz. [Ambar Yönetimi mobil uygulamasını yükleme ve bağlama](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
-> Bu konu bulut dağıtımları için ambar uygulamasının nasıl yapılandırılacağını açıklar. Şirket içi dağıtımlar için ambar uygulamasının nasıl yapılandırılacağı hakkında bilgi arıyorsanız bkz. [Şirket için dağıtımlar için ambarlama](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> Bu makale bulut dağıtımları için ambar uygulamasının nasıl yapılandırılacağını açıklar. Şirket içi dağıtımlar için ambar uygulamasının nasıl yapılandırılacağı hakkında bilgi arıyorsanız bkz. [Şirket için dağıtımlar için ambarlama](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 Ambar uygulaması Google Play Store ve Microsoft Store'dan edinilebilir. Bağımsız bir bileşen olarak sağlanır. Bu nedenle, her cihaza indirmeli ve sonra Microsoft Dynamics 365 Supply Chain Management ortamınıza bağlanacak şekilde yapılandırmalısınız.
 
-Bu konuda, ambar uygulamasının mobil cihazlarınızın her birine nasıl yükleneceği ve Supply Chain Management ortamınıza bağlanacak şekilde nasıl yapılandırılacağı açıklanmaktadır. Her cihazı el ile yapılandırabilir veya bir dosya ya da bir QR kodunu tarayarak bağlantı ayarlarını içe aktarabilirsiniz.
+Bu makalede, ambar uygulamasının mobil cihazlarınızın her birine nasıl yükleneceği ve Supply Chain Management ortamınıza bağlanacak şekilde nasıl yapılandırılacağı açıklanmaktadır. Her cihazı el ile yapılandırabilir veya bir dosya ya da bir QR kodunu tarayarak bağlantı ayarlarını içe aktarabilirsiniz.
 
 ## <a name="system-requirements"></a>Sistem gereksinimleri
 
@@ -76,11 +76,11 @@ Ambar uygulamasının belirli bir Supply Chain Management sunucusuyla etkileşim
 
     ![Uygulama kaydetme sihirbazı.](media/app-connect-azure-register-wizard.png "Uygulama kaydetme sihirbazı")
 
-1. Yeni uygulama kaydınız açıldı. Daha sonra gereksinim duyacağınız **Uygulama (istemci) Kodu** değerini not edin. Bu kod, bu konuda daha sonra *istemci kimliği* olarak ifade edilecektir.
+1. Yeni uygulama kaydınız açıldı. Daha sonra gereksinim duyacağınız **Uygulama (istemci) Kodu** değerini not edin. Bu kod, bu makalede daha sonra *istemci kimliği* olarak ifade edilecektir.
 
     ![Uygulama (istemci) kodu.](media/app-connect-azure-app-id.png "Uygulama (istemci) kodu")
 
-1. **Yönet** listesinde **Sertifika ve parolalar**'ı seçin. Ardından, uygulamayı kimlik doğrulama için nasıl yapılandırmak istediğinize bağlı olarak aşağıdaki düğmelerden birini seçin. (Daha fazla bilgi için bu konunun ilerisindeki [Sertifika veya istemci parolası kullanarak kimlik doğrulaması](#authenticate) bölümüne bakın.)
+1. **Yönet** listesinde **Sertifika ve parolalar**'ı seçin. Ardından, uygulamayı kimlik doğrulama için nasıl yapılandırmak istediğinize bağlı olarak aşağıdaki düğmelerden birini seçin. (Daha fazla bilgi için bu makalenin ilerisindeki [Sertifika veya istemci parolası kullanarak kimlik doğrulaması](#authenticate) bölümüne bakın.)
 
     - **Karşıya yükleme sertifikası**: Bir sertifikayı parola olarak kullanmak için karşıya yükleyin. Daha güvenli ve tamamen otomatikleştirilebilir olduğu için bu yaklaşımı öneriyoruz. Ambar uygulamasını Windows cihazlarında çalıştırıyorsanız sertifikayı yükledikten sonra gösterilen **Parmak İzi** değerini not edin. Sertifikayı Windows cihazlarında yapılandırırken bu değere ihtiyacınız olacaktır.
     - **Yeni istemci parolası**: **Parolalar** bölümüne bir anahtar açıklama ve süre girerek bir anahtar oluşturun ve **Ekle**'yi seçin. Anahtarın bir kopyasını oluşturun ve güvenli bir şekilde saklayın.
@@ -90,7 +90,7 @@ Ambar uygulamasının belirli bir Supply Chain Management sunucusuyla etkileşim
 Azure AD uygulamasında web hizmeti uygulamalarını ayarlama hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - Azure AD uygulamasında web hizmeti uygulamalarını ayarlamak için Windows PowerShell'in nasıl kullanılacağını gösteren yönergeler için bkz. [Nasıl yapılır: Sertifikalı bir hizmet sorumlusu oluşturmak için Azure PowerShell'i kullanma](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
-- Azure AD uygulamasında el ile bir web hizmeti uygulaması oluşturma hakkında ayrıntılı bilgi için aşağıdaki konulara bakın:
+- Azure AD uygulamasında el ile bir web hizmeti uygulaması oluşturma hakkında ayrıntılı bilgi için aşağıdaki makalelere bakın:
 
     - [Hızlı Başlangıç: Microsoft kimlik platformu ile bir uygulamayı kaydetme](/azure/active-directory/develop/quickstart-register-app)
     - [Nasıl yapılır: Kaynaklara erişebilen bir Azure AD uygulaması ve hizmet sorumlusu oluşturmak için portalı kullanma](/azure/active-directory/develop/howto-create-service-principal-portal)
@@ -117,7 +117,7 @@ Supply Chain Management'ın Azure AD uygulamanızı kullanmasını sağlamak iç
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Sertifika veya istemci parolası kullanarak kimlik doğrulama
 
-Azure AD ile kimlik doğrulaması, bir mobil cihazı Supply Chain Management uygulamasında bağlamak için güvenli bir yol sağlar. İstemci parolası veya sertifika kullanarak kimlik doğrulaması yapabilirsiniz. Bağlantı ayarlarını içe aktaracaksanız istemci parolası yerine bir sertifika kullanmanızı öneririz. İstemci parolasının her zaman güvenli bir şekilde saklanması gerektiğinden, bu konuda daha sonra açıklandığı gibi istemci parolasını bir bağlantı ayarları dosyasından veya bir QR kodundan içe aktaramazsınız.
+Azure AD ile kimlik doğrulaması, bir mobil cihazı Supply Chain Management uygulamasında bağlamak için güvenli bir yol sağlar. İstemci parolası veya sertifika kullanarak kimlik doğrulaması yapabilirsiniz. Bağlantı ayarlarını içe aktaracaksanız istemci parolası yerine bir sertifika kullanmanızı öneririz. İstemci parolasının her zaman güvenli bir şekilde saklanması gerektiğinden, bu makalede daha sonra açıklandığı gibi istemci parolasını bir bağlantı ayarları dosyasından veya bir QR kodundan içe aktaramazsınız.
 
 Sertifikalar, bir belirteç istendiğinde uygulamanın kimliğini kanıtlamak için parola olarak kullanılabilir. Sertifikanın genel kısmı Azure portalındaki uygulama kaydına yüklenirken tam sertifikanın ambar uygulamasının yüklü olduğu her cihaza dağıtılması gerekir. Kuruluşunuz sertifikayı, rotasyonu vb. konularda yönetmekle sorumludur. Kendinden imzalı sertifikalar kullanabilirsiniz ancak her zaman dışa aktarılamayan sertifikalar kullanmalısınız.
 

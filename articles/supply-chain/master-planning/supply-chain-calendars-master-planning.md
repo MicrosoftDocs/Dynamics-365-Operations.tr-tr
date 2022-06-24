@@ -1,7 +1,7 @@
 ---
 title: Takvimler ve master planlama
-description: Bu konu tedarik zinciri takvimleri ve master planlamayı nasıl etkiledikleri hakkında genel görünüm sağlar.
-author: ChristianRytt
+description: Bu makale tedarik zinciri takvimleri ve master planlamayı nasıl etkiledikleri hakkında genel görünüm sağlar.
+author: t-benebo
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f424a2a050f917be2f0823c35ee2a47b4dd5cd0a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 182c22a77e73573b4e27a81f80debf67242b95c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568627"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890987"
 ---
 # <a name="calendars-and-master-planning"></a>Takvimler ve master planlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu tedarik zinciri takvimleri ve master planlamayı nasıl etkiledikleri hakkında genel görünüm sağlar.  Ana planlama altyapısında kullanılan farklı takvimler ve bunların planlanan siparişlerin sevkiyat ve teslim alma tarihleri üzerindeki etkisi açıklanır. Son olarak takvimlerin atanması, kullanımı ve güncelleştirilmesine ilişkin öneriler verilir.
+Bu makale tedarik zinciri takvimleri ve master planlamayı nasıl etkiledikleri hakkında genel görünüm sağlar.  Ana planlama altyapısında kullanılan farklı takvimler ve bunların planlanan siparişlerin sevkiyat ve teslim alma tarihleri üzerindeki etkisi açıklanır. Son olarak takvimlerin atanması, kullanımı ve güncelleştirilmesine ilişkin öneriler verilir.
 
 ## <a name="definition-of-a-calendar"></a>Bir takvimin tanımı
 

@@ -1,6 +1,6 @@
 ---
 title: İş emirlerini planla
-description: Bu konuda Varlık Yönetimi'nde iş emirleri planlama işlemi açıklanmaktadır.
+description: Bu makalede Varlık Yönetimi'nde iş emirleri planlama işlemi açıklanmaktadır.
 author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: becd06c46afd92bf07d9a69147b7768e780aefa57f9045c11698c04154d6ddb8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a3fc3e6ef2332a883ef4a612a669142da1794454
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718071"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845068"
 ---
 # <a name="schedule-work-orders"></a>İş emirlerini planla
 
@@ -28,7 +28,7 @@ ms.locfileid: "6718071"
 
  
 
-Bu konuda Varlık Yönetimi'nde iş emirleri planlama işlemi açıklanmaktadır. 
+Bu makalede Varlık Yönetimi'nde iş emirleri planlama işlemi açıklanmaktadır. 
 
 Bir iş emri için gereken saat sayısı, toplam tahmin saat eksi deftere nakledilen saate göre tanımlanır. Daha fazla zaman gerekiyorsa, tahmin uygun şekilde ayarlanmalıdır. **Varlık yönetimi** > **Ortak** > **İş emirleri** > **Tüm iş emirleri** veya **Etkin iş emirleri**'nde, iş emrini seçip **İş emri** sekmesinde **Tahmin**'e tıklayarak iş emrindeki tahminleri görüntüleyebilir veya düzenleyebilirsiniz. İş emirleri oluşturulduğunda ve tahmin edildiğinde, sonraki adım iş emirlerini tamamlamak için gerekli bakım çalışanlarını ve araçları tahsis etmektir.
 

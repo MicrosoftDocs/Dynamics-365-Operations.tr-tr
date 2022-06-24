@@ -1,6 +1,6 @@
 ---
 title: Sayfa içeriği erişilebilirliğini doğrulama
-description: Bu konuda, Microsoft Dynamics 365 Commerce sayfa içeriğinin erişilebilirliğini nasıl doğrulanacaklarını açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce sayfa içeriğinin erişilebilirliğini nasıl doğrulanacaklarını açıklanmaktadır.
 author: josaw1
 ms.date: 01/08/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6f92d5c34896e284a40a4806cd83e469c2db4c9181c919d2d967dacc84076201
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: caccb6085947193e4a5f8a8555722dd073f0c275
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748460"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884772"
 ---
 # <a name="verify-page-content-accessibility"></a>Sayfa içeriği erişilebilirliğini doğrulama
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce sayfa içeriğinin erişilebilirliğini nasıl doğrulanacaklarını açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce sayfa içeriğinin erişilebilirliğini nasıl doğrulanacaklarını açıklanmaktadır.
 
 Bir sayfayı değiştirmeyi bitirdiğinizde, içeriğin Web'deki herkes tarafından erişilebilir olduğundan emin olun. Commerce geliştirme araçlarında, tümleşik [Microsoft Erişilebilirlik Öngörüler](https://accessibilityinsights.io/) hizmetini kullanarak sayfa içeriğinin erişilebilirliğini kolayca doğrulayabilirsiniz. Bu hizmet, sayfanızın içeriğini en son [World Wide Web Consortium (W3C) erişilebilirlik](https://www.w3.org/standards/webdesign/accessibility) yönergelerine göre doğrular.
 

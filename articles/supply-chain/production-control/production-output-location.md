@@ -1,6 +1,6 @@
 ---
 title: Üretim çıkış yeri
-description: Bu konu, üretim çıkış konumunun kimliğini belirlemekte kullanılacak hiyerarşiyi açıklar.
+description: Bu makale, üretim çıkış konumunun kimliğini belirlemekte kullanılacak hiyerarşiyi açıklar.
 author: johanhoffmann
 ms.date: 04/04/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f4c8086e9179ff51f62ce77620af96360c6123060372dfd1c0e06dad79998b75
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5bfabae39d3bcb8f7fdd71ac5c93fcdbaeb9d946
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720288"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893308"
 ---
 # <a name="production-output-location"></a>Üretim çıkış yeri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, üretim çıkış konumunun kimliğini belirlemekte kullanılacak hiyerarşiyi açıklar.
+Bu makale, üretim çıkış konumunun kimliğini belirlemekte kullanılacak hiyerarşiyi açıklar.
 
 Üretim çıkış konumu, tamamlanmış malın üretildikten sonra ilk depolandığı konumdur. Bu, konum genellikle, tamamlanmış ürünü üreten üretim merkezine yakındır. Üretim çıkış konumu, malzemenin sevkiyat alanına, bir depolama konumuna, üretime devam etme işlemi için bir üretim giriş konumuna ve benzerlerine taşınmadan önceki bir ara depolamadır. 
 

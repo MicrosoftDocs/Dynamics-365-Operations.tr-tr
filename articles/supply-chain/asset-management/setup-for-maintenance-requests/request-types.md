@@ -1,6 +1,6 @@
 ---
 title: Bakım talebi türleri
-description: Bu konuda Kıymet Yönetimi'nde bakım talebi türleri ayarlama işlemi açıklanmaktadır.
+description: Bu makalede Kıymet Yönetimi'nde bakım talebi türleri ayarlama işlemi açıklanmaktadır.
 author: johanhoffmann
 ms.date: 07/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f51c90f72120d236ae9acf3fbcb8ac98fdc8cdf3d3bd032b3a3a3d317483b070
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a2d707cc9c0aa4863968651a8434883cc1322eb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721499"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888715"
 ---
 # <a name="maintenance-request-types"></a>Bakım talebi türleri
 

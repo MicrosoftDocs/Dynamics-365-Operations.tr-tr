@@ -1,6 +1,6 @@
 ---
 title: Stok hareketi ayrıntıları
-description: Bu konu, seçili bir stok hareketinin ayrıntılarını gösteren Hareket ayrıntıları sayfasına genel bakış sağlar.
+description: Bu makale, seçili bir stok hareketinin ayrıntılarını gösteren Hareket ayrıntıları sayfasına genel bakış sağlar.
 author: rachel-profitt
 ms.date: 04/25/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-04-25
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: fd1416f21ce15dc832dd41ea4110c93bf5bb41a2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 55e29d5804f57cd86fb5ddac5d6c5576b7ea5f61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735924"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859401"
 ---
 # <a name="inventory-transaction-details"></a>Stok hareketi ayrıntıları
 
@@ -36,8 +36,8 @@ Seçili herhangi bir stok hareketinin ayrıntılarını görüntülemek için **
 
 | Hızlı sekme | Açıklama |
 |---|---|
-| Genel | Bu hızlı sekme, seçili stok hareketiyle ilgili temel bilgileri gösterir. **Stok hareketleri** sayfasında görülen alanlara ek olarak, bu konunun ilerleyen kısımlarında açıklanan ek alanları içerir. |
-| Güncelleştirmeler | Bu hızlı sekme, seçili stok hareketinin fiziksel, mali ve kapatma yönleriyle ilgili bilgileri gösterir. Hareketin geçerli durumuna bağlı olarak, bazı alanlar boş olabilir. Ancak, hareketler deftere nakledilirken bu alanlar otomatik olarak ayarlanır. **Stok hareketleri** sayfasında görülen alanlara ek olarak bu hızlı sekme, bu konunun ilerleyen kısımlarında açıklanan ek alanları içerir. |
+| Genel | Bu hızlı sekme, seçili stok hareketiyle ilgili temel bilgileri gösterir. **Stok hareketleri** sayfasında görülen alanlara ek olarak, bu makalenin ilerleyen kısımlarında açıklanan ek alanları içerir. |
+| Güncelleştirmeler | Bu hızlı sekme, seçili stok hareketinin fiziksel, mali ve kapatma yönleriyle ilgili bilgileri gösterir. Hareketin geçerli durumuna bağlı olarak, bazı alanlar boş olabilir. Ancak, hareketler deftere nakledilirken bu alanlar otomatik olarak ayarlanır. **Stok hareketleri** sayfasında görülen alanlara ek olarak bu hızlı sekme, bu makalenin ilerleyen kısımlarında açıklanan ek alanları içerir. |
 | Genel muhasebe nakilleri | Bu hızlı sekme, seçili stok hareketiyle ilişkili fiziksel güncelleştirme, mali güncelleştirme, fiziksel gelir, fiziksel giderler, mali gelir ve mali giderler için kullanılan deftere nakil türünü ve genel muhasebe hesabını gösterir. |
 | Referanslar | Bu hızlı sekme, seçili stok hareketini oluşturan kaynak hareketle ilgili ek bilgileri gösterir. Örneğin, bu bilgiler satın alma siparişi veya satış siparişinin ayrıntılarını içerebilir. |
 | İlgili bilgiler | Bu hızlı sekme, seçili stok hareketiyle ilgili ek bilgileri gösterir. Tedarik kategorileri veya projeler gibi bazı özellikleri kullanmıyorsanız, bu alanlar ayarlanmamış olabilir. |

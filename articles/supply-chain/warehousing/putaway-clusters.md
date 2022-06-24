@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 559ca80976955d6328cb4d6b2020d5662460cef9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103675"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863664"
 ---
 # <a name="putaway-clusters"></a>Yerine koyma kümeleri
 
@@ -27,7 +27,7 @@ Yerine koyma kümeleri, aynı anda birden fazla plakayı çekmek ve daha sonra f
 
 ## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>Küme yerine koyma özelliğini açma veya kapatma
 
-Bu konuda açıklanan işlevi kullanmak için *Küme yerine koyma* özelliğinin sisteminizde etkinleştirilmiş olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Küme yerine koyma* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
+Bu makalede açıklanan işlevi kullanmak için *Küme yerine koyma* özelliğinin sisteminizde etkinleştirilmiş olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Küme yerine koyma* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="setup-for-the-example-scenario"></a>Örnek senaryo için kurulum
 

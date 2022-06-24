@@ -1,6 +1,6 @@
 ---
 title: Kesinti workbench'ini kullanarak kesintileri yönetme
-description: Bu konuda, kesintileri içeren müşteri ödemelerini işlemek için kesinti workbench'inin nasıl kullanılacağı açıklanmaktadır.
+description: Bu makalede, kesintileri içeren müşteri ödemelerini işlemek için kesinti workbench'inin nasıl kullanılacağı açıklanmaktadır.
 author: sherry-zheng
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: bf98529176fbed368708ea925f542a70f2936037
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 607ad528b56d1f0c9a78e113f67c920cdae6e620
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500414"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873622"
 ---
 # <a name="manage-deductions-using-the-deduction-workbench"></a>Kesinti workbench'ini kullanarak kesintileri yönetme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, kesintileri içeren müşteri ödemelerini işlemek için kesinti workbench'inin nasıl kullanılacağı açıklanmaktadır.
+Bu makalede, kesintileri içeren müşteri ödemelerini işlemek için kesinti workbench'inin nasıl kullanılacağı açıklanmaktadır.
 
 İndirime sahip olan bir müşteri, indirim ödemesini beklememeye karar verebilir. Bunun yerine müşteri, indirim tutarı için kesinti içeren bir ödeme gönderebilir. Bu tür bir hareketi işlemek için kesintileri kredi hareketleri açma, kesintileri bölme, kesintileri reddetme ve kesintileri silme işlemleriyle eşleştirmek üzere kesinti workbench'ini kullanabilirsiniz.
 
 > [!NOTE]
-> Kesinti workbench'i uzun süredir Microsoft Dynamics 365 Supply Chain Management'ta satış ve pazarlama işlevinin bir parçası olmuştur. Şimdi ise daha yeni **İndirim yönetimi** modülüyle de çalışacak şekilde geliştirilmiştir. Bu konuda, kesinti workbench'inin eski özelliklerinin ve İndirim yönetimi özelliklerinin nasıl kullanılacağı açıklanmaktadır. Ancak [sisteminizde **İndirim yönetimi** modülünü açmadıysanız](rebate-management-enable.md) burada açıklanan işlevlerin bazılarını kullanamazsınız.
+> Kesinti workbench'i uzun süredir Microsoft Dynamics 365 Supply Chain Management'ta satış ve pazarlama işlevinin bir parçası olmuştur. Şimdi ise daha yeni **İndirim yönetimi** modülüyle de çalışacak şekilde geliştirilmiştir. Bu makalede, kesinti workbench'inin eski özelliklerinin ve İndirim yönetimi özelliklerinin nasıl kullanılacağı açıklanmaktadır. Ancak [sisteminizde **İndirim yönetimi** modülünü açmadıysanız](rebate-management-enable.md) burada açıklanan işlevlerin bazılarını kullanamazsınız.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
@@ -159,11 +159,11 @@ Kesinti workbench'inde yeni bir kesinti oluşturmak için aşağıdaki adımlar�
         - *Miktar tabanlı*: Eksi satış siparişi veya iade emri oluşturulur.
 
     - **Talep tarihi**: Talebin tarihini seçin. Varsayılan değer, geçerli tarihtir.
-    - **Talep nedeni**: Mevcut kesinti için geçerli olan neden kodunu seçin. Seçtiğiniz talep esası, geçerli seçenekleri etkiler. Burada seçim için kullanılabilir talep nedenlerini oluşturma ve yapılandırma hakkında daha fazla bilgi için bu konunun önceki [Kesinti nedenleri oluşturma](#deduction-reasons) bölümüne bakın.
+    - **Talep nedeni**: Mevcut kesinti için geçerli olan neden kodunu seçin. Seçtiğiniz talep esası, geçerli seçenekleri etkiler. Burada seçim için kullanılabilir talep nedenlerini oluşturma ve yapılandırma hakkında daha fazla bilgi için bu makalenin önceki [Kesinti nedenleri oluşturma](#deduction-reasons) bölümüne bakın.
     - **Notlar**: Geçerli not ekleyin. Talep onaylandığında onaylayan, talebin notlarını düzenleyebilir veya bunlara ekleme yapabilir.
     - **Talep günlüğü oluştur**: Talep veya kesinti oluşturulduğunda talep günlüğünün oluşturulup oluşturulmayacağını belirtmek için bu seçeneği ayarlayın:
 
-        - *Evet*: Sistem, **Alacak hesapları parametreleri** sayfasında ayarlanan talep günlüğünü kullanarak bir yevmiye defteri oluşturup deftere nakleder. (Daha fazla bilgi için bu konunun önceki [Alacak hesapları ve kesintileri yapılandırma](#accounts-receivable-deductions) bölümüne bakın.) Talebe bir fatura eklendiğinde talep günlüğü, geçerli faturanın bakiyesini azaltmak için kullanılır. Daha sonra talep reddedilirse talep günlüğü ve kapatma işlemleri (fatura eklenmişse) tersine çevrilir.
+        - *Evet*: Sistem, **Alacak hesapları parametreleri** sayfasında ayarlanan talep günlüğünü kullanarak bir yevmiye defteri oluşturup deftere nakleder. (Daha fazla bilgi için bu makalenin önceki [Alacak hesapları ve kesintileri yapılandırma](#accounts-receivable-deductions) bölümüne bakın.) Talebe bir fatura eklendiğinde talep günlüğü, geçerli faturanın bakiyesini azaltmak için kullanılır. Daha sonra talep reddedilirse talep günlüğü ve kapatma işlemleri (fatura eklenmişse) tersine çevrilir.
         - *Hayır*: Bu durumda talep günlüğü oluşturulmaz. Talep günlüğü, talep onaylandığında oluşturulur. Talep günlüğü oluşturulmamış olsa bile yeni talebe bir fatura eklenebilir. Ancak talep günlüğü olmadan kapatma yapılamaz.
 
 1. **Tamam**'ı seçin.
@@ -197,11 +197,11 @@ Müşteri kapatma işleminden kesinti oluşturma işlemi, kesinti workbench'i ar
         - *Miktar tabanlı*: Eksi satış siparişi veya iade emri oluşturulur.
 
     - **Talep tarihi**: Talebin tarihini seçin. Varsayılan değer, geçerli tarihtir.
-    - **Talep nedeni**: Mevcut kesinti için geçerli olan neden kodunu seçin. Seçtiğiniz talep esası, geçerli seçenekleri etkiler. Burada seçim için kullanılabilir talep nedenlerini oluşturma ve yapılandırma hakkında daha fazla bilgi için bu konunun önceki [Kesinti nedenleri oluşturma](#deduction-reasons) bölümüne bakın.
+    - **Talep nedeni**: Mevcut kesinti için geçerli olan neden kodunu seçin. Seçtiğiniz talep esası, geçerli seçenekleri etkiler. Burada seçim için kullanılabilir talep nedenlerini oluşturma ve yapılandırma hakkında daha fazla bilgi için bu makalenin önceki [Kesinti nedenleri oluşturma](#deduction-reasons) bölümüne bakın.
     - **Notlar**: Geçerli not ekleyin. Talep onaylandığında onaylayan, talebin notlarını düzenleyebilir veya bunlara ekleme yapabilir.
     - **Talep günlüğü oluştur**: Talep veya kesinti oluşturulduğunda talep günlüğünün oluşturulup oluşturulmayacağını belirtmek için bu seçeneği ayarlayın:
 
-        - *Evet*: Sistem, **Alacak hesapları parametreleri** sayfasında ayarlanan talep günlüğünü kullanarak bir yevmiye defteri oluşturup deftere nakleder. (Daha fazla bilgi için bu konunun önceki [Alacak hesapları ve kesintileri yapılandırma](#accounts-receivable-deductions) bölümüne bakın.) Talebe bir fatura eklendiğinde talep günlüğü, geçerli faturanın bakiyesini azaltmak için kullanılır. Daha sonra talep reddedilirse talep günlüğü ve kapatma işlemleri (fatura eklenmişse) tersine çevrilir.
+        - *Evet*: Sistem, **Alacak hesapları parametreleri** sayfasında ayarlanan talep günlüğünü kullanarak bir yevmiye defteri oluşturup deftere nakleder. (Daha fazla bilgi için bu makalenin önceki [Alacak hesapları ve kesintileri yapılandırma](#accounts-receivable-deductions) bölümüne bakın.) Talebe bir fatura eklendiğinde talep günlüğü, geçerli faturanın bakiyesini azaltmak için kullanılır. Daha sonra talep reddedilirse talep günlüğü ve kapatma işlemleri (fatura eklenmişse) tersine çevrilir.
         - *Hayır*: Bu durumda talep günlüğü oluşturulmaz. Talep günlüğü, talep onaylandığında oluşturulur. Talep günlüğü oluşturulmamış olsa bile yeni talebe bir fatura eklenebilir. Ancak talep günlüğü olmadan kapatma yapılamaz.
 
 1. **Tamam**'ı seçin.
@@ -235,11 +235,11 @@ Müşteri sayfasından kesinti oluşturma, kesinti workbench'i aracılığıyla 
         - *Miktar tabanlı*: Eksi satış siparişi veya iade emri oluşturulur.
 
     - **Talep tarihi**: Talebin tarihini seçin. Varsayılan değer, geçerli tarihtir.
-    - **Talep nedeni**: Mevcut kesinti için geçerli olan neden kodunu seçin. Seçtiğiniz talep esası, geçerli seçenekleri etkiler. Burada seçim için kullanılabilir talep nedenlerini oluşturma ve yapılandırma hakkında daha fazla bilgi için bu konunun önceki [Kesinti nedenleri oluşturma](#deduction-reasons) bölümüne bakın.
+    - **Talep nedeni**: Mevcut kesinti için geçerli olan neden kodunu seçin. Seçtiğiniz talep esası, geçerli seçenekleri etkiler. Burada seçim için kullanılabilir talep nedenlerini oluşturma ve yapılandırma hakkında daha fazla bilgi için bu makalenin önceki [Kesinti nedenleri oluşturma](#deduction-reasons) bölümüne bakın.
     - **Notlar**: Geçerli not ekleyin. Talep onaylandığında onaylayan, talebin notlarını düzenleyebilir veya bunlara ekleme yapabilir.
     - **Talep günlüğü oluştur**: Talep veya kesinti oluşturulduğunda talep günlüğünün oluşturulup oluşturulmayacağını belirtmek için bu seçeneği ayarlayın:
 
-        - *Evet*: Sistem, **Alacak hesapları parametreleri** sayfasında ayarlanan talep günlüğünü kullanarak bir yevmiye defteri oluşturup deftere nakleder. (Daha fazla bilgi için bu konunun önceki [Alacak hesapları ve kesintileri yapılandırma](#accounts-receivable-deductions) bölümüne bakın.) Talebe bir fatura eklendiğinde talep günlüğü, geçerli faturanın bakiyesini azaltmak için kullanılır. Daha sonra talep reddedilirse talep günlüğü ve kapatma işlemleri (fatura eklenmişse) tersine çevrilir.
+        - *Evet*: Sistem, **Alacak hesapları parametreleri** sayfasında ayarlanan talep günlüğünü kullanarak bir yevmiye defteri oluşturup deftere nakleder. (Daha fazla bilgi için bu makalenin önceki [Alacak hesapları ve kesintileri yapılandırma](#accounts-receivable-deductions) bölümüne bakın.) Talebe bir fatura eklendiğinde talep günlüğü, geçerli faturanın bakiyesini azaltmak için kullanılır. Daha sonra talep reddedilirse talep günlüğü ve kapatma işlemleri (fatura eklenmişse) tersine çevrilir.
         - *Hayır*: Bu durumda talep günlüğü oluşturulmaz. Talep günlüğü, talep onaylandığında oluşturulur. Talep günlüğü oluşturulmamış olsa bile yeni talebe bir fatura eklenebilir. Ancak talep günlüğü olmadan kapatma yapılamaz.
 
 1. **Tamam**'ı seçin.
@@ -280,7 +280,7 @@ Kesintiyi bir krediyle eşleştirmek için aşağıdaki adımları izleyin.
 1. Eylem Bölmesi'nde **Yönet \> Eşleştir**'i seçin. Sistem, kesintiyi krediyle eşleştirir. Kesintide bakiye kalırsa **Kesintiler** sekmesinde **Kalan tutar** alanında gösterilir.
 
     > [!NOTE]
-    > Kesinti workbench'inde, müşteri kapatma işlemlerinde veya müşteri sayfasında **Yeni kesinti** komutu kullanılarak oluşturulmuş kesintilerde yalnızca **Talep durumu** alanı *Kabul Edildi* olarak ayarlanırsa **Yönet \> Eşleştir** komutu kullanılabilir. Bu komut, fiyat tabanlı veya miktar tabanlı hareketi **Açık hareketler** bölümündeki ilişkili krediyle el ile eşleştirmek için kullanılabilir. Bu kredi, bu konunun önceki [Kesintiyi onaylama işleminin dışında oluşturulan krediler](#credits-outside-approval) bölümünde açıklandığı gibi kesinti onaylandığında (**Yönet \> Kesintiyi onayla** komutu kullanılarak) veya mevcut bir krediye eklendiğinde oluşturulur. *Onaylanan kesintileri kapat* periyodik görevi (**Satış pazarlama \> Periyodik görevler \> Onaylanan kesintileri kapat**) eşleşen **Kesinti Kimliği** değerleri ve tutarları olan kesintileri ve kredileri otomatik olarak eşleştirmek için de kullanılabilir.
+    > Kesinti workbench'inde, müşteri kapatma işlemlerinde veya müşteri sayfasında **Yeni kesinti** komutu kullanılarak oluşturulmuş kesintilerde yalnızca **Talep durumu** alanı *Kabul Edildi* olarak ayarlanırsa **Yönet \> Eşleştir** komutu kullanılabilir. Bu komut, fiyat tabanlı veya miktar tabanlı hareketi **Açık hareketler** bölümündeki ilişkili krediyle el ile eşleştirmek için kullanılabilir. Bu kredi, bu makalenin önceki [Kesintiyi onaylama işleminin dışında oluşturulan krediler](#credits-outside-approval) bölümünde açıklandığı gibi kesinti onaylandığında (**Yönet \> Kesintiyi onayla** komutu kullanılarak) veya mevcut bir krediye eklendiğinde oluşturulur. *Onaylanan kesintileri kapat* periyodik görevi (**Satış pazarlama \> Periyodik görevler \> Onaylanan kesintileri kapat**) eşleşen **Kesinti Kimliği** değerleri ve tutarları olan kesintileri ve kredileri otomatik olarak eşleştirmek için de kullanılabilir.
 
 ### <a name="split-a-deduction"></a>Kesintiyi bölme
 

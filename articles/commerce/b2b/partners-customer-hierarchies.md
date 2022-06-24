@@ -1,6 +1,6 @@
 ---
 title: Müşteri hiyerarşileri kullanarak B2B iş ortaklarını yönetme
-description: Bu konuda, Microsoft Dynamics 365 Commerce işletmeden işletmeye (B2B) e-ticaret web sitelerinde iş ortaklarını yönetmek için müşteri hiyerarşileri kullanma açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce işletmeden işletmeye (B2B) e-ticaret web sitelerinde iş ortaklarını yönetmek için müşteri hiyerarşileri kullanma açıklanmaktadır.
 author: josaw1
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 70acdf469be2fcddd9e2bf755e958c1b20ee2fcf
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ddd02045b5df3ce20160a4feaa23339475823d3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864993"
 ---
 # <a name="manage-b2b-business-partners-using-customer-hierarchies"></a>Müşteri hiyerarşileri kullanarak B2B iş ortaklarını yönetme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce işletmeden işletmeye (B2B) e-ticaret web sitelerinde iş ortaklarını yönetmek için müşteri hiyerarşileri kullanma açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce işletmeden işletmeye (B2B) e-ticaret web sitelerinde iş ortaklarını yönetmek için müşteri hiyerarşileri kullanma açıklanmaktadır.
 
 Commerce Headquarters 'da, B2B e-ticaret sitenizi kullanacak iş ortağı kuruluşları temsil etmek için *müşteri hiyerarşisi* varlığı kullanılır. İş ortaklarını yönetmek amacıyla müşteri hiyerarşilerini kullanmaya başlamadan önce, Commerce Headquarters'da B2B e-ticaret özelliklerini etkinleştirmeniz ve sonra müşteri hiyerarşisi için bir numara sırası tanımlamanız gerekir.
 

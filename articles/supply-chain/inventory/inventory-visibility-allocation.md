@@ -1,8 +1,8 @@
 ---
-title: Stok Görünürlüğü stok tahsisatı
-description: Bu konu, en karlı kanallarınızın veya müşterilerinizin siparişlerini karşılayabileceğinizden emin olmak için özel bir stok ayırmanıza olanak sağlayan stok tahsisatı özelliğinin nasıl ayarlanacağını ve kullanılacağını açıklar.
+title: Inventory Visibility stok tahsisatı
+description: Bu makale, en karlı kanallarınızın veya müşterilerinizin siparişlerini karşılayabileceğinizden emin olmak için özel bir stok ayırmanıza olanak sağlayan stok tahsisatı özelliğinin nasıl ayarlanacağını ve kullanılacağını açıklar.
 author: yufeihuang
-ms.date: 05/20/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 4293ead4ccfc9ba04e8b9da437134b4e97569026
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786959"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852519"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>Stok Görünürlüğü stok tahsisatı
 
@@ -98,7 +98,7 @@ Başlangıçtaki hesaplanan ölçüler şunlardır:
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>Tahsisata uygun hesaplanan ölçüsüne diğer fiziksel ölçüleri ekleme
 
-Tahsisatı kullanmak için, tahsisata uygun hesaplanan ölçüsünü ayarlamanız gerekir (`@iv`.`@available_to_allocate`). Örneğin, `fno` veri kaynağına ve `onordered` ölçüsüne; `pos` veri kaynağına ve `inbound` ölçüsüne sahip olduğunuzu ve `fno.onordered` ve `pos.inbound` toplamı için eldeki stokta tahsisat yapmak istediğinizi varsayalım. Bu durumda `@iv.@available_to_allocate`, formülünde `pos.inbound` ve `fno.onordered` öğelerini içermelidir. Aşağıda bir örnek verilmiştir:
+Tahsisatı kullanmak için, tahsisata uygun hesaplanan ölçüsünü ayarlamanız gerekir (`@iv.@available_to_allocate`). Örneğin, `fno` veri kaynağına ve `onordered` ölçüsüne; `pos` veri kaynağına ve `inbound` ölçüsüne sahip olduğunuzu ve `fno.onordered` ve `pos.inbound` toplamı için eldeki stokta tahsisat yapmak istediğinizi varsayalım. Bu durumda `@iv.@available_to_allocate`, formülünde `pos.inbound` ve `fno.onordered` öğelerini içermelidir. Aşağıda bir örnek verilmiştir:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound` – `@iv.@allocated`
 
@@ -110,11 +110,12 @@ Grup adlarını **Stok Görünürlüğü Power App Yapılandırması** sayfasın
 
 Örneğin, dört grup adı kullanır ve bunları \[`channel`, `customerGroup`, `region`, `orderType`\] ayarlarsanız yapılandırma güncelleştirme API'sini çağırdığınızda, bu adlar tahsisat ile ilgili istekler için geçerli olur.
 
-### <a name="allcoation-using-tips"></a>Tahsisatı kullanmayla ilgili ipuçları
+### <a name="allocation-using-tips"></a>Tahsisatı kullanmayla ilgili ipuçları
 
-- Tahsisat işlevi, her ürün için [ürün dizini hiyerarşisi yapılandırmasında](inventory-visibility-configuration.md#index-configuration) ayarladığınız ürün dizini hiyerarşisine göre aynı boyut düzeyinde kullanılmalıdır. Örneğin, dizin hiyerarşisinin Tesis, Yerleşim, Renk, Boyut olduğunu varsayalım. Tesis, Yerleşim, Renk düzeyinde bir ürün için belirli bir miktar tahsis ederseniz tahsisat özelliğini bir daha kullandığınızda Tesis, Yerleşim, Renk düzeyinde kullanmanız gerekir. Tesis, Yerleşim, Renk, Boyut düzeyinde veya Tesis, Yerleşim düzeyinde kullanırsanız veriler tutarsız olur.
+- Tahsisat işlevi, her ürün için [ürün dizini hiyerarşisi yapılandırmasında](inventory-visibility-configuration.md#index-configuration) ayarladığınız ürün dizini hiyerarşisine göre aynı *boyut düzeyinde* kullanılmalıdır. Örneğin, dizin hiyerarşinizin şöyle olduğunu varsayalım: \[`Site`, `Location`, `Color`, `Size`\]. Boyut düzeyinde \[`Site`, `Location`, `Color`\] bir ürün için bir miktar tahsis ederseniz daha sonra bu ürünü tahsis etmek istediğinizde, aynı düzeyde \[`Site`, `Location`, `Color`\] tahsisat yapmanız gerekir. \[`Site`, `Location`, `Color`, `Size`\] or \[`Site`, `Location`\] düzeyini kullanırsanız veriler tutarsız olacaktır.
 - Tahsisat grubu adının değiştirilmesi, hizmete kaydedilen verileri etkilemez.
 - Tahsisat, ürünün eldeki stok miktara pozitif olduktan sonra gerçekleştirilmelidir.
+- Ürünleri yüksek bir *tahsisat düzeyi* grubundan bir alt gruba tahsis etmek için `Reallocate` API'sini kullanın. Örneğin, \[`channel`, `customerGroup`, `region`, `orderType`\] şeklinde bir tahsisat grubu hiyerarşiniz var ve tahsisat grubundan\[Online, VIP\] alt tahsisat grubuna \[Online, VIP, EU\], bir ürünü tahsis etmek istiyorsanız miktarı taşımak için `Reallocate` API'sini kullanın `Allocate` API'sini kullanırsanız sanal ortak havuzdaki miktar tahsis edilir.
 
 ### <a name="using-the-allocation-api"></a><a name="using-allocation-api"></a>Tahsisat API'sini kullanma
 

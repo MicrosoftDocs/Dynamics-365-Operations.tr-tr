@@ -1,6 +1,6 @@
 ---
 title: Servis nesnesi ilişkileri oluşturma
-description: Bu konu bir servis sözleşmesi veya servis siparişi için servis nesnesi ilişkileri oluşturmayı açıklar.
+description: Bu makale bir servis sözleşmesi veya servis siparişi için servis nesnesi ilişkileri oluşturmayı açıklar.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4178132b03cd146aacbcbb8bf8e1e774a161726c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e89039356f167ef2f06824ffee8645f74f8a2b53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677240"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890668"
 ---
 # <a name="create-service-object-relations"></a>Servis nesnesi ilişkileri oluşturma 
 
 [!include [banner](../includes/banner.md)]
 
 
-Bu konu bir servis sözleşmesi veya servis siparişi için servis nesnesi ilişkileri oluşturmayı açıklar. Bir servis nesnesi ilişkisi oluşturduğunuzda, servis nesnesini servis sözleşmesi veya servis siparişiyle ilişkilendirirsiniz. Müşteri servis nesnesi olan bir madde için servis talep ettiğinde, servis nesnesini servis nesnesi ilişkileri listesinden seçebilirsiniz.
+Bu makale bir servis sözleşmesi veya servis siparişi için servis nesnesi ilişkileri oluşturmayı açıklar. Bir servis nesnesi ilişkisi oluşturduğunuzda, servis nesnesini servis sözleşmesi veya servis siparişiyle ilişkilendirirsiniz. Müşteri servis nesnesi olan bir madde için servis talep ettiğinde, servis nesnesini servis nesnesi ilişkileri listesinden seçebilirsiniz.
 
 ## <a name="create-a-service-object-relation-for-a-service-agreement"></a>Servis sözleşmesi için servis nesnesi ilişkisi oluşturma
 

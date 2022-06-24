@@ -1,6 +1,6 @@
 ---
 title: Ambarları Supply Chain Management'tan Field Service'e eşitleme
-description: Bu konu ambarları Dynamics 365 Supply Chain Management üzerinden Dynamics 365 Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
+description: Bu makale ambarları Dynamics 365 Supply Chain Management üzerinden Dynamics 365 Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 author: Henrikan
 ms.date: 03/13/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: f38d2dfdba1f2afa1005bd740cba27afe9dcb0ec
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 7fac40ebd8a1f7994997e12f1231e5522a0c0e24
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062148"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865077"
 ---
 # <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>Ambarları Supply Chain Management'tan Field Service'e eşitleme
 
@@ -29,7 +29,7 @@ ms.locfileid: "8062148"
 
 
 
-Bu konu ambarları Dynamics 365 Supply Chain Management üzerinden Dynamics 365 Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
+Bu makale ambarları Dynamics 365 Supply Chain Management üzerinden Dynamics 365 Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 
 [![Supply Chain Management ile Field Service arasında iş süreçlerini eşitleme.](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
 

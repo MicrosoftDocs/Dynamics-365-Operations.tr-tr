@@ -13,18 +13,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b98c37ad7695e81dbbd9558217287c868e052d08415d6d5c5d6055b5f9755eac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: caf27d3a5dddae0be7029834dce692f1fbc2fee7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769355"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889354"
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>Perakende kanalları için mali boyutlar oluşturma ve mağazalardaki boyut değerlerini yapılandırma
 
 [!include [banner](../includes/banner.md)]
 
-Bu yordam, boyut değerleriyle bir Commerce kanalı mali boyutu oluşturma konusunu ve mağazalarda mali boyut değerleri yapılandırma adımlarını açıklamaktadır. Konu, boyut kümeleri ve hesap yapıları oluşturmak gibi diğer ilgili adımları içermez. Bu yordam USRT demo veri şirketini kullanır.
+Bu yordam, boyut değerleriyle bir Commerce kanalı mali boyutu oluşturma konusunu ve mağazalarda mali boyut değerleri yapılandırma adımlarını açıklamaktadır. Makale, boyut kümeleri ve hesap yapıları oluşturmak gibi diğer ilgili adımları içermez. Bu yordam USRT demo veri şirketini kullanır.
 
 1. General ledger > Chart of accounts > Dimensions > Financial dimensions (Genel muhasebe > Hesap planı > Boyutlar > Mali boyutlar) menüsüne gidin.
 2. Yeni'yi tıklatın.

@@ -1,6 +1,6 @@
 ---
 title: POS'ta seri hale getirilmiş maddelerle çalışma
-description: Bu konu, satış noktası (POS) uygulamasında serileştirilmiş maddelerin nasıl yönetileceğini açıklar.
+description: Bu makale, satış noktası (POS) uygulamasında serileştirilmiş maddelerin nasıl yönetileceğini açıklar.
 author: boycezhu
 ms.date: 01/08/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 5725943fd249e1b5d66b08b829c2eb58b6aad3ee24db9ca83bbde9be906bbf82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a715a9d025f36656506daeb9e611bfacdafa102
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737590"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880041"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>POS'ta seri hale getirilmiş maddelerle çalışma
 
 [!include [banner](includes/banner.md)]
 
-Birçok perakendeci seri denetim gerektiren ürünler satar. Bu ürünlere, *serileştirilmiş öğeler* adı verilir. Bazı perakendeciler, izleme amacıyla mağaza veya ambar stokunda seri numaraları tutmak isteyebilir. Diğer perakendeciler, satış işlemi sırasında servis ve garanti amacıyla seri numaralarını yakalamak isteyebilir. Bu konu, Microsoft Dynamics 365 Commerce satış noktası (POS) uygulamasında serileştirilmiş maddelerin nasıl yönetileceğini açıklar.
+Birçok perakendeci seri denetim gerektiren ürünler satar. Bu ürünlere, *serileştirilmiş öğeler* adı verilir. Bazı perakendeciler, izleme amacıyla mağaza veya ambar stokunda seri numaraları tutmak isteyebilir. Diğer perakendeciler, satış işlemi sırasında servis ve garanti amacıyla seri numaralarını yakalamak isteyebilir. Bu makale, Microsoft Dynamics 365 Commerce satış noktası (POS) uygulamasında serileştirilmiş maddelerin nasıl yönetileceğini açıklar.
 
 ## <a name="serial-number-configurations"></a>Seri numarası yapılandırmaları
 
@@ -124,7 +124,7 @@ Gelecekteki teslim alım veya sevkiyat için satılan seri haline getirilmiş ma
 
 ### <a name="apply-serial-numbers-during-customer-order-fulfillment-or-pickup"></a>Müşteri siparişi karşılama veya teslim alma sırasında seri numaralarını uygulama
 
-POS'taki **Sipariş Karşılama** işlemini kullanarak seri haline getirilmiş ürünler için müşteri sipariş satırlarını karşıladığınızda, POS, son karşılamadan önce seri numarasının yakalanmasını zorunlu tutar. Bu nedenle, ilk sipariş yakalama sırasında bir seri numarası sağlanmamışsa POS'taki çekme, paketleme veya sevk işlemleri sırasında yakalanması gerekir. Her adımda bir doğrulama yapılır ve kullanıcıdan yalnızca eksikse veya artık geçerli değilse seri numarası verileri istenir. Örneğin, bir kullanıcı malzeme çekme veya paketleme adımlarını atlar ve hemen bir sevk irsaliyesi başlatırsa ve satır için bir seri numarası kaydedilmemişse POS, son fatura adımı tamamlanmadan önce seri numarasının girilmesini zorunlu kılar. POS'ta sipariş karşılama işlemleri sırasında seri numarasının yakalanmasını zorunlu tutarken, bu konuda daha önce belirtilen tüm kurallar hala geçerlidir. Yalnızca **Etkin** olarak yapılandırılan seri haline getirilmiş maddeler bir seri numarası stok doğrulamasından geçer. **Satış işleminde Etkin** olarak yapılandırılan maddeler doğrulanmaz. **Etkin** ürünler için **Fiziksel negatif stok**'a izin verilirse, stok kullanılabilirliğine bakılmaksızın herhangi bir seri numarası kabul edilir. **Etkin** ve **Satış işleminde Etkin** öğeleri için, **Boş vermeye izin verilir** ayarı yapılandırılmışsa, malzeme çekme, paketleme ve sevk adımları sırasında istenirse kullanıcı, seri numaralarını boş bırakabilir.
+POS'taki **Sipariş Karşılama** işlemini kullanarak seri haline getirilmiş ürünler için müşteri sipariş satırlarını karşıladığınızda, POS, son karşılamadan önce seri numarasının yakalanmasını zorunlu tutar. Bu nedenle, ilk sipariş yakalama sırasında bir seri numarası sağlanmamışsa POS'taki çekme, paketleme veya sevk işlemleri sırasında yakalanması gerekir. Her adımda bir doğrulama yapılır ve kullanıcıdan yalnızca eksikse veya artık geçerli değilse seri numarası verileri istenir. Örneğin, bir kullanıcı malzeme çekme veya paketleme adımlarını atlar ve hemen bir sevk irsaliyesi başlatırsa ve satır için bir seri numarası kaydedilmemişse POS, son fatura adımı tamamlanmadan önce seri numarasının girilmesini zorunlu kılar. POS'ta sipariş karşılama işlemleri sırasında seri numarasının yakalanmasını zorunlu tutarken, bu makalede daha önce belirtilen tüm kurallar hala geçerlidir. Yalnızca **Etkin** olarak yapılandırılan seri haline getirilmiş maddeler bir seri numarası stok doğrulamasından geçer. **Satış işleminde Etkin** olarak yapılandırılan maddeler doğrulanmaz. **Etkin** ürünler için **Fiziksel negatif stok**'a izin verilirse, stok kullanılabilirliğine bakılmaksızın herhangi bir seri numarası kabul edilir. **Etkin** ve **Satış işleminde Etkin** öğeleri için, **Boş vermeye izin verilir** ayarı yapılandırılmışsa, malzeme çekme, paketleme ve sevk adımları sırasında istenirse kullanıcı, seri numaralarını boş bırakabilir.
 
 Seri numaraları için doğrulamalar, kullanıcı POS'taki müşteri siparişlerinde teslim alma işlemlerini gerçekleştirdiğinde de gerçekleşir. POS uygulaması, daha önce belirtildiği gibi doğrulamaları geçirmediği sürece seri hale getirilmiş bir üründe teslim alma işlemine izin vermez. Doğrulamalar her zaman ürünün izleme boyutunu ve satış ambarı yapılandırmalarını temel alır. 
 

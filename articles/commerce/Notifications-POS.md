@@ -1,6 +1,6 @@
 ---
 title: Satış noktasında (POS) sipariş bildirimlerini görüntüleme
-description: Bu konu, satış noktasında sipariş bildirimlerinin etkinleştirilmesini ve bildirim çerçevesini açıklar.
+description: Bu makale, satış noktasında sipariş bildirimlerinin etkinleştirilmesini ve bildirim çerçevesini açıklar.
 author: ShalabhjainMSFT
 ms.date: 03/12/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7166afdb43c7e835170c5768a0767f2943222b19c00c7d0aaf067263845651f8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9e646d6bf48461e78dc75c8a154f2fbf1443393
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714150"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853992"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Satış noktasında (POS) sipariş bildirimlerini görüntüleme
 
@@ -65,10 +65,10 @@ Hem sipariş karşılama hem de sipariş geri çekme bildirimleri için, yeni si
 
 ## <a name="enable-live-content-on-pos-buttons"></a>POS düğmelerinde canlı içeriği etkinleştirme
 
-POS düğmeleri artık çalışanların hangi görevlerle hemen ilgilenilmesi gerektiğini kolayca belirlemesine yardımcı olan bir sayı gösterir. Bu sayıyı POS düğmesine göstermek için bu konuda daha önce açıklanan bildirim ayarını tamamlamanız gerekir (bir işlem için bildirimleri etkinleştirmeniz, bir bildirim aralığı ayarlamanız ve çalışan için POS izin grubunu güncelleştirmeniz gerekir). Ayrıca, düğme grubu tasarımcısını açmanız, düğmenin özelliklerini görüntülemeniz ve **Canlı içeriği etkinleştir** onay kutusunu seçmeniz gerekir. **İçerik hizalama** alanında, sayının düğmenin sağ üst köşesinde mi (**Sağ üst**) yoksa ortasında mı (**Merkez**) görüntüleneceğini seçebilirsiniz.
+POS düğmeleri artık çalışanların hangi görevlerle hemen ilgilenilmesi gerektiğini kolayca belirlemesine yardımcı olan bir sayı gösterir. Bu sayıyı POS düğmesine göstermek için bu makalede daha önce açıklanan bildirim ayarını tamamlamanız gerekir (bir işlem için bildirimleri etkinleştirmeniz, bir bildirim aralığı ayarlamanız ve çalışan için POS izin grubunu güncelleştirmeniz gerekir). Ayrıca, düğme grubu tasarımcısını açmanız, düğmenin özelliklerini görüntülemeniz ve **Canlı içeriği etkinleştir** onay kutusunu seçmeniz gerekir. **İçerik hizalama** alanında, sayının düğmenin sağ üst köşesinde mi (**Sağ üst**) yoksa ortasında mı (**Merkez**) görüntüleneceğini seçebilirsiniz.
 
 > [!NOTE]
-> Canlı içerik **Bildirimleri etkinleştir** onay kutusunun işlemler için daha önce açıklandığı şekilde **POS işlemleri** sayfasından seçilmiş olması durumunda işlemler için seçilebilir.
+> Canlı içerik **Bildirimleri etkinleştir** onay kutusunun işlemler için daha önce bu makalede açıklandığı şekilde **POS işlemleri** sayfasından seçilmiş olması durumunda işlemler için seçilebilir.
 
 Aşağıdaki örnek düğme grubu tasarımcısındaki canlı içerik ayarlarını göstermektedir.
 

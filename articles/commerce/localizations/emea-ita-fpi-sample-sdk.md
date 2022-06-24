@@ -1,6 +1,6 @@
 ---
 title: İtalya için mali yazıcı tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)
-description: Bu konu, Microsoft Dynamics 365 Commerce Retail yazılım geliştirme setinden (SDK) İtalya için mali yazıcı tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar.
+description: Bu makale, Microsoft Dynamics 365 Commerce Retail yazılım geliştirme setinden (SDK) İtalya için mali yazıcı tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 617e97272fb4bd7cea0958958ae99648bb847b56
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: bb07ca91c9e5bf1a79f672f9ba29b7bcc21688c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614081"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848910"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>İtalya için mali yazıcı tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) Microsoft Dynamics 365 Commerce Retail yazılım geliştirme setinden (SDK) İtalya için mali yazıcı tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar. Bu mali tümleştirme örneği hakkında daha fazla bilgi için bkz. [İtalya için mali yazıcı tümleştirme örneği](emea-ita-fpi-sample.md). 
+Bu makale, Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) Microsoft Dynamics 365 Commerce Retail yazılım geliştirme setinden (SDK) İtalya için mali yazıcı tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar. Bu mali tümleştirme örneği hakkında daha fazla bilgi için bkz. [İtalya için mali yazıcı tümleştirme örneği](emea-ita-fpi-sample.md). 
 
-İtalya için mali tümleştirme örneği, Retail SDK'nin bir parçasıdır. SDK'yi yükleme ve kullanma hakkında daha fazla bilgi için bkz. [Retail yazılım geliştirme seti (SDK) mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md). Bu örnek, Commerce Runtime ( CRT) ve Hardware station'a yönelik uzantılardan oluşur. Bu örneği çalıştırmak için CRT ve Hardware station projelerini değiştirip derlemeniz gerekir. Bu konuda açıklanan değişiklikleri yapmak için değiştirilmemiş bir Retail SDK kullanmanızı öneririz. Henüz değiştirilmiş bir dosya olmadığı durumlarda, Azure DevOps gibi bir kaynak denetimi sistemi kullanmanızı öneririz.
+İtalya için mali tümleştirme örneği, Retail SDK'nin bir parçasıdır. SDK'yi yükleme ve kullanma hakkında daha fazla bilgi için bkz. [Retail yazılım geliştirme seti (SDK) mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md). Bu örnek, Commerce Runtime ( CRT) ve Hardware station'a yönelik uzantılardan oluşur. Bu örneği çalıştırmak için CRT ve Hardware station projelerini değiştirip derlemeniz gerekir. Bu makalede açıklanan değişiklikleri yapmak için değiştirilmemiş bir Retail SDK kullanmanızı öneririz. Henüz değiştirilmiş bir dosya olmadığı durumlarda, Azure DevOps gibi bir kaynak denetimi sistemi kullanmanızı öneririz.
 
 ## <a name="development-environment"></a>Geliştirme ortamı
 
@@ -86,7 +86,7 @@ Hardware station uzantı bileşenleri, Retail SDK'ye dahil edilmiştir. Aşağı
 
 Commerce bileşenleri içeren dağıtılabilir paketler oluşturmak ve bu paketleri üretim ortamında uygulamak için aşağıdaki adımları izleyin.
 
-1. Bu konunun daha önceki [Geliştirme ortamı](#development-environment) bölümünde açıklanan adımları tamamlayın.
+1. Bu makalenin daha önceki [Geliştirme ortamı](#development-environment) bölümünde açıklanan adımları tamamlayın.
 2. **RetailSdk\\Assets** klasöründeki paket yapılandırma dosyalarında aşağıdaki değişiklikleri yapın:
 
     1. **commerceruntime.ext.config** ve **CommerceRuntime.MPOSOffline.Ext.config** yapılandırma dosyalarında, **composition** bölümüne aşağıdaki satırı ekleyin.

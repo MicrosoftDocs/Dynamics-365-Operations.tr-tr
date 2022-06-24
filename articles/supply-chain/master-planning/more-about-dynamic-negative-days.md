@@ -1,6 +1,6 @@
 ---
 title: Negatif günler ve dinamik negatif günler
-description: Bu konu, negatif günler ve dinamik negatif günler hakkında bilgi verir ve işinize yardımcı olması için bunları nasıl kullanabileceğinizi açıklar.
+description: Bu makale, negatif günler ve dinamik negatif günler hakkında bilgi verir ve işinize yardımcı olması için bunları nasıl kullanabileceğinizi açıklar.
 author: t-benebo
 ms.date: 05/25/2021
 ms.topic: article
@@ -10,27 +10,27 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d88517c99a274911e8abd8de4bcd318139822a5
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: d83aab9b7d3d30d519e8b313a57f2802de3cfb72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469883"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846141"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Negatif günler ve dinamik negatif günler
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, negatif günler ve dinamik negatif günler hakkında bilgi verir ve işinize yardımcı olması için bunları nasıl kullanabileceğinizi açıklar. *Negatif günler zaman dilimi* negatif stoğunuz olduğunda veya yeni bir stok yenileme siparişi vermeden önce beklemek istediğiniz gün sayısını temsil eder.
+Bu makale, negatif günler ve dinamik negatif günler hakkında bilgi verir ve işinize yardımcı olması için bunları nasıl kullanabileceğinizi açıklar. *Negatif günler zaman dilimi* negatif stoğunuz olduğunda veya yeni bir stok yenileme siparişi vermeden önce beklemek istediğiniz gün sayısını temsil eder.
 
-Bu konuda, aşağıdaki bilgileri öğreneceksiniz:
+Bu makalede, aşağıdaki bilgileri öğreneceksiniz:
 
 - Planlı siparişleri oluşturma
 - Negatif günler zaman dilimi ve maddenin sağlama süresi arasındaki ilişki
 - Dinamik negatif günlerin zaman dilimi hesaplaması ve maddenin sağlama süresinin hesaplama ile nasıl hesaplandığı.
 - Negatif günlerle ilişkili [malzeme ihtiyaç planlamasında çalışma süresinin iyileştirilmesine yönelik öneriler (MRP) (master planning)](https://blogs.msdn.com/b/axmfg/archive/2015/01/02/checklist-for-improving-mrp-performance-part-2-how-to-setup-planning-parameters.aspx) nasıl yorumlanır
 
-Bu konu, bu bilgileri anlamanıza yardımcı olması için üç kuramsal senaryo kullanır. Senaryolar arasındaki fark, talep ettiğiniz noktadır: maddenin teslim süresinden önce, sırasında veya sonrasında.
+Bu makale, bu bilgileri anlamanıza yardımcı olması için üç kuramsal senaryo kullanır. Senaryolar arasındaki fark, talep ettiğiniz noktadır: maddenin teslim süresinden önce, sırasında veya sonrasında.
 
 ## <a name="scenario-1-you-get-demand-before-the-items-lead-time-period"></a>Senaryo 1: maddenin sağlama süresinden önce talep alırsınız
 
@@ -93,7 +93,7 @@ Aşağıdaki çizim, bu olayda ne yaşandığının grafiksel bir görünümün�
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Olay E: Hem maddenin teslim süresinden daha fazla olan negatif günleri hem de dinamik negatif günlerin zaman dilimlerini kullanın
 
-Negatif günleri maddenin sağlama zamanından daha büyük bir sayıya ayarlarsanız ve ayrıca dinamik negatif günler zaman dilimini kullanırsanız dinamik negatif günler zaman dilimi 6 + 6 + 0 = 12 gün olarak ayarlanır. Bu yaklaşım, MRP'nin sonuçları araması gereken çok uzun bir zaman dilimi oluşturabilir. Negatif günleri uzun bir zaman dilimine ayarladığınız bir olay ilgili E olayı hakkında bilgi almak için bu konunun [Conclusion](#conclusion) bölümüne bakın.
+Negatif günleri maddenin sağlama zamanından daha büyük bir sayıya ayarlarsanız ve ayrıca dinamik negatif günler zaman dilimini kullanırsanız dinamik negatif günler zaman dilimi 6 + 6 + 0 = 12 gün olarak ayarlanır. Bu yaklaşım, MRP'nin sonuçları araması gereken çok uzun bir zaman dilimi oluşturabilir. Negatif günleri uzun bir zaman dilimine ayarladığınız bir olay ilgili E olayı hakkında bilgi almak için bu makalenin [Conclusion](#conclusion) bölümüne bakın.
 
 ## <a name="scenario-2-you-get-demand-during-the-items-lead-time-period"></a>Senaryo 2: Maddenin sağlama süresi boyunca talep alırsınız
 
@@ -142,7 +142,7 @@ Negatif günleri **0**'a (sıfır) ayarlarsanız ve yalnızca dinamik negatif g�
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Olay E: Hem maddenin teslim süresinden daha fazla olan negatif günleri hem de dinamik negatif günlerin zaman dilimlerini kullanın
 
-Negatif günleri maddenin sağlama zamanından daha büyük bir sayıya ayarlarsanız ve ayrıca dinamik negatif günler zaman dilimini kullanırsanız dinamik negatif günler zaman dilimi 6 + 6 – 4 = 8 gün olarak ayarlanır. Bu yaklaşım, MRP'nin sonuçları araması gereken çok uzun bir zaman dilimi oluşturabilir. Negatif günleri uzun bir zaman dilimine ayarladığınız bir olay ilgili E olayı hakkında bilgi almak için bu konunun [Conclusion](#conclusion) bölümüne bakın.
+Negatif günleri maddenin sağlama zamanından daha büyük bir sayıya ayarlarsanız ve ayrıca dinamik negatif günler zaman dilimini kullanırsanız dinamik negatif günler zaman dilimi 6 + 6 – 4 = 8 gün olarak ayarlanır. Bu yaklaşım, MRP'nin sonuçları araması gereken çok uzun bir zaman dilimi oluşturabilir. Negatif günleri uzun bir zaman dilimine ayarladığınız bir olay ilgili E olayı hakkında bilgi almak için bu makalenin [Conclusion](#conclusion) bölümüne bakın.
 
 ## <a name="scenario-3-you-get-demand-after-the-items-lead-time-period"></a>Senaryo 3: Maddenin sağlama süresinden sonra talep alırsınız
 
@@ -204,7 +204,7 @@ Bu olay 1 ve 2 numaralı senaryolar için E olayı ile aynıdır. Temelde aynı 
 
 ## <a name="conclusion"></a>Sonuç
 
-Bu konudaki üç senaryonun gösterdiği gibi, negatif günleri karşılama grubundaki maddelerin sağlama zamanından daha büyük bir sayıya ayarlamak iyi bir fikirdir. Yalnızca dinamik negatif günler kullanmak ve negatif günleriniz varsa yeni stok yenilemeyi sipariş etmeden önce beklemek istediğiniz gün sayısına göre negatif günleri ayarlamak da iyi bir fikirdir (başka bir deyişle, Talebi daha da geciktirmek istediğiniz gün sayısı). Ayrıca, aynı kapsam grubundaki maddeler benzer sağlama sürelerine sahip olmalıdır.
+Bu makaledeki üç senaryonun gösterdiği gibi, negatif günleri karşılama grubundaki maddelerin sağlama zamanından daha büyük bir sayıya ayarlamak iyi bir fikirdir. Yalnızca dinamik negatif günler kullanmak ve negatif günleriniz varsa yeni stok yenilemeyi sipariş etmeden önce beklemek istediğiniz gün sayısına göre negatif günleri ayarlamak da iyi bir fikirdir (başka bir deyişle, Talebi daha da geciktirmek istediğiniz gün sayısı). Ayrıca, aynı kapsam grubundaki maddeler benzer sağlama sürelerine sahip olmalıdır.
 
 Negatif günleri **0**' a (sıfır) ayarlarsanız ve dinamik negatif günler kullanmazsanız MRP, talebi karşılamak için her zaman yeni bir planlı sipariş oluşturur. Bu durumda, stok biriktirmediğinizden emin olmak için eylem iletileriyle çalışmanız önemlidir.
 

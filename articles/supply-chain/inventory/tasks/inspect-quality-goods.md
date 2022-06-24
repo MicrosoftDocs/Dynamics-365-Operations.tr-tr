@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc2fbbedb608b38c6855fbd48ff0c3e26ee3e0bc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eeb14a3b0a61f34819bdd8d524e65ac214a81c35
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857590"
 ---
 # <a name="inspect-the-quality-of-goods"></a>Malların kalitesini denetleme
 

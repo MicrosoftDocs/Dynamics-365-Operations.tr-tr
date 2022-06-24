@@ -1,6 +1,6 @@
 ---
-title: Servis sözleşmelerini karşılamaya genel bakış
-description: Bu konu servis sözleşmelerini karşılama görevlerine genel bir bakış sağlar.
+title: Servis sözleşmelerinin koşullarını yerine getirmeye genel bakış
+description: Bu makale servis sözleşmelerini karşılama görevlerine genel bir bakış sağlar.
 author: sorenva
 ms.date: 05/03/2018
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c0331477a815c7404faa9bde43275415c3994fd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 920ac245c94d87ac692b173012e88dc8c1352f8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677212"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852113"
 ---
-# <a name="fulfill-service-agreements-overview"></a>Servis sözleşmelerini karşılamaya genel bakış
+# <a name="fulfill-service-agreements-overview"></a>Servis sözleşmelerinin koşullarını yerine getirmeye genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu servis sözleşmelerini karşılama görevlerine genel bir bakış sağlar. Bu konu ayrıca, her iş süreci bileşeniyle ilişkili formları listeler ve her iş süreci bileşeniyle ilgili görevleri ele alır.
+Bu makale servis sözleşmelerini karşılama görevlerine genel bir bakış sağlar. Bu makale ayrıca, her iş süreci bileşeniyle ilişkili formları listeler ve her iş süreci bileşeniyle ilgili görevleri ele alır.
 
 ## <a name="forms-for-the-fulfill-service-contracts-business-process-components"></a>Servis sözleşmesini karşılama iş süreci bileşenlerine ilişkin formlar
 

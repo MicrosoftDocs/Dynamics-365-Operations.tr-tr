@@ -1,6 +1,6 @@
 ---
 title: Varış yeri maliyetlerini tahmin etme ve yönetme
-description: Sistem, varış yeri maliyetiniz için bir tahmin belirlemek üzere otomatik maliyet kurulumunuzu kullanır. Bu konuda, daha doğru bir tahmin sunmak için çeşitli senaryoları nasıl tanımlayabileceğiniz açıklanmaktadır.
+description: Sistem, varış yeri maliyetiniz için bir tahmin belirlemek üzere otomatik maliyet kurulumunuzu kullanır. Bu makalede, daha doğru bir tahmin sunmak için çeşitli senaryoları nasıl tanımlayabileceğiniz açıklanmaktadır.
 author: Weijiesa
 ms.date: 01/26/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 630fb9dc8e7954fcbc4f54941d81de1caa657676
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2e7cdd7c7439a24ec75a59bcee1e8f42f37bb2cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696221"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854455"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>Varış yeri maliyetlerini tahmin etme ve yönetme
 
@@ -50,7 +50,7 @@ Aşağıdaki tabloda, her şablonda kullanılabilecek alanlar açıklanmıştır
 
 Seçili maliyet şablonlarını, seçili madde kümesini ve yolculuğun diğer ayrıntılarını temel alan yeni bir maliyet tahmini oluşturmak için **Maliyet tahmini** iletişim kutusunu kullanın. Bu ayarlar daha sonra malların tahmini varış yeri maliyetlerini belirlemek için kullanılır. Bu maliyet tahminleri öncelikle standart maliyet maddeleri ile çalışmak için kullanılır. Tahmini varış yeri maliyetlerini stoktaki malların standart maliyetine ekleyerek mallar bir seyahate eklendiğinde daha küçük fark işlemleri ortaya çıkmalıdır çünkü standart maliyet bu varış yeri maliyetlerinin tahminlerini yansıtacaktır.
 
-**Maliyet tahmini** iletişim kutusunu açmak için **Varış yeri maliyeti \> Periyodik görevler \> Maliyet tahmini**'ne gidin. Ardından, aşağıdaki alt bölümlerde açıklanan alanları ayarlayın. Son olarak tahmini oluşturmak için **Tamam**'ı seçin. Daha sonra **Maliyet tahmini** sayfası **(Varış yeri maliyeti \> Sorgular \> Maliyet tahminleri)** görünür ve bu konuda daha sonra açıklanacağı üzere yeni tahmininizi gösterir.
+**Maliyet tahmini** iletişim kutusunu açmak için **Varış yeri maliyeti \> Periyodik görevler \> Maliyet tahmini**'ne gidin. Ardından, aşağıdaki alt bölümlerde açıklanan alanları ayarlayın. Son olarak tahmini oluşturmak için **Tamam**'ı seçin. Daha sonra **Maliyet tahmini** sayfası **(Varış yeri maliyeti \> Sorgular \> Maliyet tahminleri)** görünür ve bu makalede daha sonra açıklanacağı üzere yeni tahmininizi gösterir.
 
 ### <a name="settings-on-the-parameters-tab"></a>Parametreler sekmesindeki ayarlar
 
@@ -91,7 +91,7 @@ Bir maddenin birim ve/veya ağırlık ayrıntılarını görüntülemek veya aya
 
 ## <a name="manage-estimated-costs"></a>Tahmini maliyetleri yönetme
 
-Oluşturduğunuz maliyet tahminlerini görüntülemek ve düzenlemek için **Varış yeri maliyeti \> Sorgular \> Maliyet tahminleri**'ne gidin. **Maliyet tahminleri** sayfasında, soldaki liste bölmesi tüm geçerli maliyet tahminlerini gösterir. Seçili bir tahminle çalışmak için Eylem Bölmesindeki düğmeleri kullanabilirsiniz. **Maliyet tahminleri** sayfasından yeni bir maliyet tahmini oluşturamayacağınızı unutmayın. Bunun yerine, bu konuda daha önce açıklandığı gibi **Maliyet tahmini** iletişim kutusunu **(Varış yeri maliyeti \> Periyodik görevler \> Maliyet tahmini)** kullanın.
+Oluşturduğunuz maliyet tahminlerini görüntülemek ve düzenlemek için **Varış yeri maliyeti \> Sorgular \> Maliyet tahminleri**'ne gidin. **Maliyet tahminleri** sayfasında, soldaki liste bölmesi tüm geçerli maliyet tahminlerini gösterir. Seçili bir tahminle çalışmak için Eylem Bölmesindeki düğmeleri kullanabilirsiniz. **Maliyet tahminleri** sayfasından yeni bir maliyet tahmini oluşturamayacağınızı unutmayın. Bunun yerine, bu makalede daha önce açıklandığı gibi **Maliyet tahmini** iletişim kutusunu **(Varış yeri maliyeti \> Periyodik görevler \> Maliyet tahmini)** kullanın.
 
 **Maliyet tahminleri** sayfası, her tahmini maliyetin nasıl türetildiğini gösterir. Ayrıca, her madde için tahmini varış yeri maliyetini de gösterir. Çeşitli mallarla ilişkili maliyet fiyatını ve/veya para birimini değiştirerek maliyet tahminini değiştirebilirsiniz. Ayrıca, ilişkili seyahat maliyetlerini hem seyahat seviyesinde hem de konteyner düzeyinde değiştirebilirsiniz. Maliyetleri değiştirmek için bu sayfayı kullandığınızda, maliyet tahminindeki maddelerin tahmini maliyetlerini yeniden hesaplamanız istenir. Hazır olduğunuzda, maliyet şablonundaki maddelerin maliyet fiyatını güncelleştirmek için tahminleri kullanabilirsiniz.
 

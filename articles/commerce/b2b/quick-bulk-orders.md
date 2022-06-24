@@ -1,6 +1,6 @@
 ---
 title: B2B web sitesi siparişlerini hızla verme
-description: Bu konu, işletmeler arası (B2B) site kullanıcılarının toplu ve yinelenen siparişleri hızla verebilmesine olanak tanıyan Microsoft Dynamics 365 Commerce özelliklerini açıklamaktadır.
+description: Bu makale, işletmeler arası (B2B) site kullanıcılarının toplu ve yinelenen siparişleri hızla verebilmesine olanak tanıyan Microsoft Dynamics 365 Commerce özelliklerini açıklamaktadır.
 author: shajain
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8ac4833b2ca05e90b4019ffdfc4b669c542b0cf6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0b13fb49c49b0a540b192f4dd0f3a847fb5dd8a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686558"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881373"
 ---
 # <a name="place-b2b-website-orders-quickly"></a>B2B web sitesi siparişlerini hızla verme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, işletmeler arası (B2B) site kullanıcılarının toplu ve yinelenen siparişleri hızla verebilmesine olanak tanıyan Microsoft Dynamics 365 Commerce özelliklerini açıklamaktadır.
+Bu makale, işletmeler arası (B2B) site kullanıcılarının toplu ve yinelenen siparişleri hızla verebilmesine olanak tanıyan Microsoft Dynamics 365 Commerce özelliklerini açıklamaktadır.
 
 Dynamics 365 Commerce B2B e-ticaret web siteleri, kullanıcıların arama ve gözatma yoluyla yeni ürünleri keşfetmek, ürün ayrıntılarını görüntülemek, sepete öğeler eklemek ve satın almak gibi standart işlemleri gerçekleştirmesini sağlar. Ancak, işletmeler arası (B2C) sitelerinin müşterileri genel olarak küçük miktarlarda ürün sipariş eder ve bunları yalnızca bir kez sipariş ederken B2B müşterileribüyük miktarlarda sipariş verir ve bunları birden çok kere sipariş eder. Bu müşteriler genellikle satın almak istedikleri ürünleri tam olarak bildiklerinden genellikle ürün bulma aşamasını atlar ve doğrudan sipariş vermeye geçer. Commerce B2B e-ticaret web siteleri, bu müşterilerin ihtiyaçlarını karşılamak için siparişleri hızlı bir şekilde vermenize yardımcı olan çeşitli yetenekler sağlar.
 
@@ -65,4 +65,4 @@ Aşağıdaki örnekte kullanıcının sipariş geçmişi ve sipariş geçmişind
 
 ![Sipariş geçmişinden yeniden sipariş verme.](../media/Reorder.png)
 
-Bu konuda, Commerce B2B sitelerinin kullanıcıların istedikleri ürünleri kolayca bulmasına, sipariş vermesine ve yeniden sipariş vermesine yardımcı olma yollarından bazıları açıklanmıştır. Toplu siparişler yakalama sürecini daha da basitleştirmek için daha fazla özellik geliştirilme aşamasındadır.
+Bu makalede, Commerce B2B sitelerinin kullanıcıların istedikleri ürünleri kolayca bulmasına, sipariş vermesine ve yeniden sipariş vermesine yardımcı olma yollarından bazıları açıklanmıştır. Toplu siparişler yakalama sürecini daha da basitleştirmek için daha fazla özellik geliştirilme aşamasındadır.

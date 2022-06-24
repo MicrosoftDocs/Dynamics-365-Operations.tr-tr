@@ -1,6 +1,6 @@
 ---
-title: Favicon ekleme
-description: Bu konu, sitenize bir tercih simgesi ekleneceğini açıklamaktadır.
+title: Site simgesi ekleme
+description: Bu makale, sitenize bir tercih simgesi ekleneceğini açıklamaktadır.
 author: bicyclingfool
 ms.date: 08/31/2020
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2047a0c30c9e723c717657475a111181299aaa8d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964744"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855807"
 ---
 # <a name="add-a-favicon"></a>Site simgesi ekleme
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, sitenize bir tercih simgesi ekleneceğini açıklamaktadır.
+Bu makale, sitenize bir tercih simgesi ekleneceğini açıklamaktadır.
 
 Bir tercih edilen simge, Web tarayıcısı sekmesinde, adres çubuğunda, gözatma geçmişinde ve diğer yerlerin yanı sıra yer imleri veya Sık Kullanılanlar'da gösterilen küçük bir grafik dosyasıdır. Markanızı temsil ettiğinden ve yeniden zorlayan ve sitenizi müşterilerinizin ziyaret ettiği diğer sitelerden ayırt etmenize yardımcı olacağından sitenize bir tercih edilen bir simge eklemeniz önerilir.
 
-Sitenize çeşitli boyutlarda ve dosya türlerindeki birçok tercih edilebilir simge ekleyebilmenize rağmen bu konu, tek bir tercih edilen simgenin nasıl ekleneceğini göstermektedir. Ancak, aynı işlem ve yer, daha fazla tercih edilen simge eklemek için kullanılır.
+Sitenize çeşitli boyutlarda ve dosya türlerindeki birçok tercih edilebilir simge ekleyebilmenize rağmen bu makale, tek bir tercih edilen simgenin nasıl ekleneceğini göstermektedir. Ancak, aynı işlem ve yer, daha fazla tercih edilen simge eklemek için kullanılır.
 
 ## <a name="upload-a-favicon-to-your-sites-asset-collection"></a>Sitenizin varlık koleksiyonuna bir tercih simgesi yükleyin
 

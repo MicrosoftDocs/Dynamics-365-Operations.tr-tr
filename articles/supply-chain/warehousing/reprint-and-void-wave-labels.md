@@ -1,6 +1,6 @@
 ---
 title: Dalga etiketlerini yeniden yazdırma ve hükümsüz kılma
-description: Bu konu, mevcut dalga etiketlerinin nasıl hükümsüz kılınacağını ve yeniden yazdırılacağını açıklamaktadır.
+description: Bu makale, mevcut dalga etiketlerinin nasıl hükümsüz kılınacağını ve yeniden yazdırılacağını açıklamaktadır.
 author: perlynne
 ms.date: 07/09/2020
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 052c6632d1c6c6b1f357d4066ca8b419698cae62
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f9f057d9985fb8431ec7c9ced23f2cd3c476570d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572349"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871847"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Dalga etiketlerini yeniden yazdırma ve hükümsüz kılma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, dalga işleme tarafından oluşturulan etiketlerin nasıl yönetileceğini açıklar. (Ayrıntılı açıklama ve yapılandırma yönergeleri için bkz. [Dalga etiketi yazdırmayı yapılandırma](../warehousing/configure-wave-label-printing.md).)
+Bu makale, dalga işleme tarafından oluşturulan etiketlerin nasıl yönetileceğini açıklar. (Ayrıntılı açıklama ve yapılandırma yönergeleri için bkz. [Dalga etiketi yazdırmayı yapılandırma](../warehousing/configure-wave-label-printing.md).)
 
 Dalga etiketlerini istediğiniz zaman yeniden yazdırabilirsiniz. Örneğin, mevcut bir etiket kaybedildiyse veya zarar gördüyse tek bir etiketi yazdırmanız gerekebilir. Alternatif olarak, tam bir dalga etiketi serisinin numarası ve/veya kompozisyonu (örneğin, stok yetersizliği veya başka nedenlerle) değişirse, bir ambar çalışanı veya gözetmen tüm etiketleri yeniden yazdırmak zorunda kalabilir. Genellikle, yalnızca kartonlar değişse bile, her bir etiketin "Koli X / Y" bölümünde doğru toplam sayıyı korumak için tüm rulonun yeniden yazdırılması gerekebilir.
 
@@ -32,10 +32,10 @@ Dalga etiketlerini yeniden yazdırma özelliği aşağıdaki işlevleri destekle
 - Etiketleri hükümsüz kılma ve eş zamanlı olarak yeniden yazdırma. (Örneğin, etiketleri hükümsüz kılma özelliği eksik çekme senaryolarına katıştırılmıştır.)
 - Dalga etiketi geçmişini temizleme.
 
-Bu konu, örnekler aracılığıyla, dalga etiketlerini yeniden yazdırma özelliğinin nasıl kullanılacağını gösteren bir dizi senaryoyu göstermektedir.
+Bu makale, örnekler aracılığıyla, dalga etiketlerini yeniden yazdırma özelliğinin nasıl kullanılacağını gösteren bir dizi senaryoyu göstermektedir.
 
 > [!IMPORTANT]
-> Bu konuda sunulan senaryolarda çalışmak için, öncelikle [Dalga etiketi yazdırmayı yapılandırma](../warehousing/configure-wave-label-printing.md) bölümünde açıklandığı gibi ilgili dalga yazdırma özelliklerini açmanız ve yapılandırmanız gerekir. Bu konudaki senaryoların bazıları, önkoşul olarak gerekli örnek verileri oluşturmak için öncelikle ilgili konudaki senaryolar aracılığıyla çalışmanızı gerektirir.
+> Bu makalede sunulan senaryolarda çalışmak için, öncelikle [Dalga etiketi yazdırmayı yapılandırma](../warehousing/configure-wave-label-printing.md) bölümünde açıklandığı gibi ilgili dalga yazdırma özelliklerini açmanız ve yapılandırmanız gerekir. Bu makaledeki senaryoların bazıları, önkoşul olarak gerekli örnek verileri oluşturmak için öncelikle ilgili makaledeki senaryolar aracılığıyla çalışmanızı gerektirir.
 
 ## <a name="scenario-1-reprint-labels-from-the-web-client"></a>Senaryo 1: Etiketleri web istemcisinden yeniden yazdırma
 

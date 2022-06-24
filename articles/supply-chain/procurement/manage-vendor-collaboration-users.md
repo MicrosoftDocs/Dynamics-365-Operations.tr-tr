@@ -1,6 +1,6 @@
 ---
 title: Satıcı iş birliği kullanıcılarını yönetme
-description: Bu konu, yeni satıcı iş birliği kullanıcıları hazırlama talebinde bulunma ve yeni satıcı iş birliği kişileri ekleme konularını ele alır.
+description: Bu makale, yeni satıcı iş birliği kullanıcıları hazırlama talebinde bulunma ve yeni satıcı iş birliği kişileri ekleme konularını ele alır.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 515d995641f5bbe976643a38c26a46f7d8a115dd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 823e92cadc36659264a70132ed1390c7bcf8bc5d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678841"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852316"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Satıcı iş birliği kullanıcılarını yönetme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, yeni satıcı iş birliği kullanıcıları hazırlama talebinde bulunma ve yeni satıcı iş birliği kişileri ekleme konularını ele alır. 
+Bu makale, yeni satıcı iş birliği kullanıcıları hazırlama talebinde bulunma ve yeni satıcı iş birliği kişileri ekleme konularını ele alır. 
 
-Dynamics 365 Supply Chain Management'taki satıcı iş birliği arabirimi; satınalma siparişleri, faturalar ve harici satıcılara konsinye stok hakkında bilgi sağlar. **Satıcı yöneticisi (harici)** güvenlik rolü ya da benzer izinlerle harici satıcı olarak çalışıyorsanız yeni kullanıcıların sağlandığı yeni satıcı iş birliği kişileri ve talepleri oluşturabilirsiniz. Tedarik profesyoneli olarak çalışıyorsanız da bu görevleri gerçekleştirebilirsiniz. Bu konuda bu rol, Supply Chain Management kurulumuna sahip bir şirkette çalışan tedarik profesyoneli anlamına gelir. Harici satıcıysanız satıcı iş birliğini kullanma hakkında daha fazla bilgi için bkz. [Müşterilerle satıcı iş birliği](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+Dynamics 365 Supply Chain Management'taki satıcı iş birliği arabirimi; satınalma siparişleri, faturalar ve harici satıcılara konsinye stok hakkında bilgi sağlar. **Satıcı yöneticisi (harici)** güvenlik rolü ya da benzer izinlerle harici satıcı olarak çalışıyorsanız yeni kullanıcıların sağlandığı yeni satıcı iş birliği kişileri ve talepleri oluşturabilirsiniz. Tedarik profesyoneli olarak çalışıyorsanız da bu görevleri gerçekleştirebilirsiniz. Bu makalede bu rol, Supply Chain Management kurulumuna sahip bir şirkette çalışan tedarik profesyoneli anlamına gelir. Harici satıcıysanız satıcı iş birliğini kullanma hakkında daha fazla bilgi için bkz. [Müşterilerle satıcı iş birliği](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Tedarik uzmanıysanız satıcı iş birliğini kullanma hakkında daha fazla bilgi için bkz. [Harici satıcılarla satıcı iş birliği](vendor-collaboration-work-external-vendors.md).
 

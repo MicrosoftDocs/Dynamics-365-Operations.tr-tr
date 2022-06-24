@@ -1,6 +1,6 @@
 ---
 title: Supply Chain Management için standart kayıtlı görünümler
-description: Bu konuda, sunulan standart kayıtlı görünümler ve bunların nasıl etkinleştirileceği açıklanmaktadır.
+description: Bu makalede, sunulan standart kayıtlı görünümler ve bunların nasıl etkinleştirileceği açıklanmaktadır.
 author: kamaybac
 ms.date: 02/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0709574ea44fcf841321044da31781862fcf1420
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 92ff2dfc9cd8b742a7b086e540bd2c527833254d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887587"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Supply Chain Management için standart kayıtlı görünümler
 
 [!include [banner](../../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management, gerektiği şekilde etkinleştirebileceğiniz ve kullanabileceğiniz kaydedilmiş görünümler içerir. Bu standart kayıtlı görünümlerin bazıları belirli bir rol veya görev için en iyi duruma getirilmiş ve adlandırılmıştır (ör. "Kalite kontrol" veya "Alma"). Diğerleri, Microsoft kullanım istatistiklerine göre müşteriler tarafından en çok kullanılan alanları ve ayarları içerecek şekilde en iyi duruma getirilmiştir. Bu kayıtlı görünümlere genellikle *basitleştirilmiş* görünümler adı verilir. Bu konuda, sunulan standart kayıtlı görünümler ve bunların nasıl etkinleştirileceği ve özelleştirileceği açıklanmaktadır.
+Microsoft Dynamics 365 Supply Chain Management, gerektiği şekilde etkinleştirebileceğiniz ve kullanabileceğiniz kaydedilmiş görünümler içerir. Bu standart kayıtlı görünümlerin bazıları belirli bir rol veya görev için en iyi duruma getirilmiş ve adlandırılmıştır (ör. "Kalite kontrol" veya "Alma"). Diğerleri, Microsoft kullanım istatistiklerine göre müşteriler tarafından en çok kullanılan alanları ve ayarları içerecek şekilde en iyi duruma getirilmiştir. Bu kayıtlı görünümlere genellikle *basitleştirilmiş* görünümler adı verilir. Bu makalede, sunulan standart kayıtlı görünümler ve bunların nasıl etkinleştirileceği ve özelleştirileceği açıklanmaktadır.
 
 Standart kayıtlı görünümler dahil olmak üzere kayıtlı görünümlerle nasıl çalışılacağı hakkında tüm ayrıntılar için bkz. [Kayıtlı görünümler](../../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json).
 
@@ -39,7 +39,7 @@ Kayıtlı görünümleri özelleştirme ve yeniden adlandırma hakkında daha fa
 
 Standart kayıtlı görünümleri kullanıp kullanmamanızdan bağımsız olarak kayıtlı görünümleri kullanmak için [Özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) *Kayıtlı görünümler* özelliğini açmanız gerekir (10.0.21 sürümü itibarıyla bu özellik varsayılan olarak etkindir).
 
-Bu konunun kalan bölümlerinde, ilgili her modül için şu anda kullanılabilir olan standart kayıtlı görünümleri açıklayan tablolar bulunur. Her tabloda, kayıtlı görünümün adı, görünümü bulabileceğiniz sayfa ve açıklaması gösterilir. Ayrıca her tabloda, kayıtlı görünümü içeren özelliğin adı da gösterilir. Sisteminizde standart bir kayıtlı görünümü görmek için [Özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) belirtilen özelliği açmanız gerekir. Sürüm 10.0.25 itibarıyla, listelenen tüm görünümler varsayılan olarak açıktır.
+Bu makalenin kalan bölümlerinde, ilgili her modül için şu anda kullanılabilir olan standart kayıtlı görünümleri açıklayan tablolar bulunur. Her tabloda, kayıtlı görünümün adı, görünümü bulabileceğiniz sayfa ve açıklaması gösterilir. Ayrıca her tabloda, kayıtlı görünümü içeren özelliğin adı da gösterilir. Sisteminizde standart bir kayıtlı görünümü görmek için [Özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) belirtilen özelliği açmanız gerekir. Sürüm 10.0.25 itibarıyla, listelenen tüm görünümler varsayılan olarak açıktır.
 
 ## <a name="saved-views-for-the-inventory-management-module"></a>Stok yönetim modülü için kayıtlı görünümler
 

@@ -1,6 +1,6 @@
 ---
 title: Mevcut ürünlerde değişiklik yönetimini etkinleştirme
-description: Bu konuda, var olan ürünler için değişiklik yönetimini nasıl etkinleştirebileceğiniz açıklanmaktadır. Ayrıca, değişiklik yönetimini etkinleştirme yeteneğinizin sınırlı olduğu durumları da açıklar.
+description: Bu makalede, var olan ürünler için değişiklik yönetimini nasıl etkinleştirebileceğiniz açıklanmaktadır. Ayrıca, değişiklik yönetimini etkinleştirme yeteneğinizin sınırlı olduğu durumları da açıklar.
 author: t-benebo
 ms.date: 02/05/2021
 ms.topic: article
@@ -12,24 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9f99529abebdf5490f158c6f0a7be4519449e9f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103625"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893482"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Mevcut ürünlerde değişiklik yönetimini etkinleştirme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, var olan ürünler için değişiklik yönetimini nasıl etkinleştirebileceğiniz açıklanmaktadır. Ayrıca, değişiklik yönetimini etkinleştirme yeteneğinizin sınırlı olduğu durumları da açıklar.
+Bu makalede, var olan ürünler için değişiklik yönetimini nasıl etkinleştirebileceğiniz açıklanmaktadır. Ayrıca, değişiklik yönetimini etkinleştirme yeteneğinizin sınırlı olduğu durumları da açıklar.
 
 Var olan bir ürün için değişiklik yönetimini etkinleştirdiğinizde, bu ürünün sürümlerini oluşturabilir ve üründe yapılan değişiklikleri kullanım ömrü boyunca izleyebilirsiniz. Bu nedenle, değişiklik emirlerini kullanarak bu değişiklikleri izleyebilirsiniz. Değişiklik yönetimini etkinleştirmek için ilgili ürünleri *mühendislik öğelerine* (mühendislik ürünleri olarak da adlandırılır) dönüştürmeniz gerekir. Mühendislik ürünleri, değişiklik yönetimi yoluyla sürümü oluşturulan ve yönetilen ürünlerdir. Dönüştürme işleminde size yol gösterecek bir sihirbaz sağlanmıştır.
 
 ## <a name="turn-this-feature-on-or-off"></a>Bu özelliği açma veya kapatma
 
-Bu konuda açıklanan işlev, sisteminiz için hem *Mühendislik Değişiklik Yönetimi* hem de *Mevcut ürünlerde değişiklik yönetimini etkinleştir* özelliğinin açık olmasını gerektirir. Bu özelliklerin nasıl açılacağı veya kapatılacağı hakkında ayrıntılar için bkz. [Mühendislik değişiklik yönetimine genel bakış](product-engineering-overview.md).
+Bu makalede açıklanan işlev, sisteminiz için hem *Mühendislik Değişiklik Yönetimi* hem de *Mevcut ürünlerde değişiklik yönetimini etkinleştir* özelliğinin açık olmasını gerektirir. Bu özelliklerin nasıl açılacağı veya kapatılacağı hakkında ayrıntılar için bkz. [Mühendislik değişiklik yönetimine genel bakış](product-engineering-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Kısıtlamalar ve sınırlamalar
 
@@ -38,7 +38,7 @@ Tüm ürün türleri diğer tüm türlere dönüştürülemez. Aşağıdaki kıs
 - Bir ürünü mühendislik ürününe dönüştürdüğünüzde, *ürün* olarak kalır. Bir *ana ürün* olmaz.
 - Belirli bir boyut kümesine sahip bir ürün yöneticisini dönüştürdüğünüzde, bu boyutlar değişiklik sonrasında korunur. Örneğin, boyut boyutuna sahip bir ürün yöneticisini dönüştürürseniz boyut boyutu korunur.
 
-Bu nedenle, farklı bir ürününüz varsa bunu yalnızca hareketlerdeki ürün boyutunu izlemeyen bir mühendislik ürünüyle değiştirebilirsiniz (diğer bir de misli sürüm boyutu kullanılmaz). Bu sorunlar hakkında daha fazla bilgi için bu konunun diğer bölümlerine bakın.
+Bu nedenle, farklı bir ürününüz varsa bunu yalnızca hareketlerdeki ürün boyutunu izlemeyen bir mühendislik ürünüyle değiştirebilirsiniz (diğer bir de misli sürüm boyutu kullanılmaz). Bu sorunlar hakkında daha fazla bilgi için bu makalenin diğer bölümlerine bakın.
 
 ## <a name="prepare-for-conversion-by-creating-all-required-engineering-product-categories"></a>Gerekli tüm mühendislik ürün kategorilerini oluşturarak dönüşüme hazırlanma
 
@@ -81,7 +81,7 @@ Dönüştürülen her mühendislik ürünü, orijinal ürünün serbest bırakı
 
     - **Ürün numarası**: Ürün numarası.
     - **Ürün adı**: Ürünün adı.
-    - **Mühendislik kategorisi**: Ürünün dönüştürüldükten sonra ait olması gereken mühendislik ürünü kategorisini seçin. Bu konunun önceki bölümünde açıklandığı gibi, her ürün için uygun bir kategori zaten mevcut olmalıdır. Her ürüne bir kategori atamanız gerekir.
+    - **Mühendislik kategorisi**: Ürünün dönüştürüldükten sonra ait olması gereken mühendislik ürünü kategorisini seçin. Bu makalenin önceki bölümünde açıklandığı gibi, her ürün için uygun bir kategori zaten mevcut olmalıdır. Her ürüne bir kategori atamanız gerekir.
     - **Sürüm**: Dönüştürüldükten sonra ürüne atanacak ürün sürümünü girin. Örneğin, kategorinizin zaten kullandığı numara serisine uyan bir sayı seçebilirsiniz. Her mühendislik sürümü, bu sürüme özgü mühendislikle ilgili verileri depolar. Daha fazla bilgi için bkz. [Mühendislik sürümleri ve mühendislik ürünü kategorileri](engineering-versions-product-category.md).
     - **Ürün yaşam döngüsü durumu**: Ürünün dönüştürüldükten sonra içinde olması gereken ürün yaşam döngüsü durumunu seçin. Ürün yaşam döngüsü durumu, belirli bir mühendislik sürümü için hangi işlemlere izin verildiğini denetlemenizi sağlar. Daha fazla bilgi için bkz. [Ürün yaşam döngüsü durumları ve hareketler](product-lifecycle-state-transactions.md).
     - **Ürün reçetesi var**: Seçili onay kutusu ürünün, ürün reçetesine sahip olduğunu gösterir. Bu onay kutusunun ayarı, **Geçerli ürün, reçetesi mühendislik ürününün bir parçası olacak** ayarını nasıl yapacağınıza karar vermenize yardımcı olabilir.

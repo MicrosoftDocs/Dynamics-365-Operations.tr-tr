@@ -1,6 +1,6 @@
 ---
 title: URL parametrelerini temel alan dinamik e-ticaret sayfaları oluşturma
-description: Bu konuda, URL parametrelerine göre dinamik içerik sunabilen bir Microsoft Dynamics 365 Commerce e-ticaret sayfasının nasıl ayarlanacağı açıklanmaktadır.
+description: Bu makalede, URL parametrelerine göre dinamik içerik sunabilen bir Microsoft Dynamics 365 Commerce e-ticaret sayfasının nasıl ayarlanacağı açıklanmaktadır.
 author: StuHarg
 ms.date: 05/27/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.openlocfilehash: 3443dad9ead40b59da994c56e22fe2599f4bac82
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: e2b13403ffb316059476a03857c849b4f9f8cb9c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811043"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884675"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>URL parametrelerini temel alan dinamik e-ticaret sayfaları oluşturma
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Bu konuda, URL parametrelerine göre dinamik içerik sunabilen bir Microsoft Dynamics 365 Commerce e-ticaret sayfasının nasıl ayarlanacağı açıklanmaktadır.
+Bu makalede, URL parametrelerine göre dinamik içerik sunabilen bir Microsoft Dynamics 365 Commerce e-ticaret sayfasının nasıl ayarlanacağı açıklanmaktadır.
 
 Bir e-ticaret sayfası, URL yolundaki bir segmente göre farklı içerikler sunmak üzere yapılandırılabilir. Bu nedenle, sayfa dinamik sayfa olarak bilinir. Segment, sayfa içeriğini almak için parametre olarak kullanılır. Örneğin, site oluşturucusunda oluşturulan **blog\_viewer** adlı bir sayfa `https://fabrikam.com/blog` URL'si ile eşleştirilir. Bu sayfa daha sonra URL yolundaki son segmente göre farklı içerik göstermek için kullanılabilir. Örneğin, `https://fabrikam.com/blog/article-1` URL'sindeki son segment **makale-1**'dir.
 

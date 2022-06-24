@@ -1,6 +1,6 @@
 ---
 title: Dalga işlemeyi yapılandırma örneği
-description: Bu başlık bir dalga işlendiğinde bir ambar için hangi işin oluşturulacağını belirlemek için ölçütleri ayarlamayı ve dalgaların manuel mi yoksa otomatik olarak mı işlemden geçirileceğini açıklayan bir örnek sunar.
+description: Bu makale bir dalga işlendiğinde bir ambar için hangi işin oluşturulacağını belirlemek için ölçütleri ayarlamayı ve dalgaların manuel mi yoksa otomatik olarak mı işlemden geçirileceğini açıklayan bir örnek sunar.
 author: Mirzaab
 ms.date: 03/17/2021
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39c3fecf9250ee89c22003d5dff4ea662c3042e3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3a9fc2b9f31bc9e2f73b53a900bc9b0924410768
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572997"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860362"
 ---
 # <a name="configure-wave-processing-example"></a>Dalga işlemeyi yapılandırma örneği
 
 [!include [banner](../../includes/banner.md)]
 
-Bu başlık bir dalga işlendiğinde bir ambar için hangi işin oluşturulacağını belirlemek için ölçütleri ayarlamayı ve dalgaların manuel mi yoksa otomatik olarak mı işlemden geçirileceğini açıklayan bir örnek sunar. Ölçütleri, bir dalgayı yayımlanan satış siparişleri, üretim emirleri veya kanban siparişleri ile eşleştiren dalga şablonları ve sorguları oluşturarak belirtebilirsiniz.
+Bu makale bir dalga işlendiğinde bir ambar için hangi işin oluşturulacağını belirlemek için ölçütleri ayarlamayı ve dalgaların manuel mi yoksa otomatik olarak mı işlemden geçirileceğini açıklayan bir örnek sunar. Ölçütleri, bir dalgayı yayımlanan satış siparişleri, üretim emirleri veya kanban siparişleri ile eşleştiren dalga şablonları ve sorguları oluşturarak belirtebilirsiniz.
 
 ## <a name="enable-sample-data"></a>Örnek verileri etkinleştirme
 

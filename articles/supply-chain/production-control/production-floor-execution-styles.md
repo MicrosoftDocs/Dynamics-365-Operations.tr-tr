@@ -1,6 +1,6 @@
 ---
 title: Üretim katı yürütme arabirimini düzenleme
-description: Bu konu, form denetimlerinin varsayılan üretim kat yürütme stillerinin uygulanmasını sağlayacak şekilde konfigüre etme biçimini açıklar.
+description: Bu makale, form denetimlerinin varsayılan üretim kat yürütme stillerinin uygulanmasını sağlayacak şekilde konfigüre etme biçimini açıklar.
 author: johanhoffmann
 ms.date: 11/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ef39dc6414f0afdadd4a4b5a41e1fb1fe60e4974
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: ad6ecd591353fe8ddc1a5b9049d65491fb58e98a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790902"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859154"
 ---
 # <a name="style-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimini düzenleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, form denetimlerinin varsayılan üretim kat yürütme stillerinin uygulanmasını sağlayacak şekilde konfigüre etme biçimini açıklar.
+Bu makale, form denetimlerinin varsayılan üretim kat yürütme stillerinin uygulanmasını sağlayacak şekilde konfigüre etme biçimini açıklar.
 
 ## <a name="forms-and-dialogs"></a>Formlar ve iletişim kutuları
 
@@ -31,7 +31,7 @@ Stiller, yalnızca aşağıdaki gereksinimlerin karşılanması halinde bir form
 - Form varolan rapor ilerlemesi formuna benzemesi gerekiyorsa, formunuzun veya iletişim kutusunun adı `JmgProductionFloorExecutionCustomInputDialog` ile başlamalıdır.
 - Form veya diyalog bir ayrıntı formu parçası içerebilir. Stilleri uygulamak için, ayrıntı formunun adının `JmgProductionFloorExecutionCustomDetailsDialog` ile başlaması gerekir.
 - Formda veya iletişim kutusunda basit bir görünüm olması gerekiyorsa, basit görünümün adı `JmgProductionFloorExecutionCustomDialog` ile başlamalıdır. Basit bir görünüme sahip formların örnekleri başlangıç formunu ve dolaylı faaliyet formunu içerir.
-- İletişim kutusuna ait tüm denetimler bu konuda anlatıldığı şekilde konfigüre edilmelidir.
+- İletişim kutusuna ait tüm denetimler bu makalede anlatıldığı şekilde konfigüre edilmelidir.
 
 > [!IMPORTANT]
 > Bu listenin ilk iki madde işareti noktasında sözü edilen özellikler, Supply Chain Management sürüm 10.0.19 veya üstünü gerektirir.

@@ -1,6 +1,6 @@
 ---
-title: Perakende beyannamaleri için numara serilerini ayarla
-description: Bu konuda, Microsoft Dynamics 365 Commerce'deki perakende beyannameleri için gerekli numara serilerinin nasıl konfigüre edildiği açıklanmıştır.
+title: Perakende ekstreleri için numara serilerini ayarlama
+description: Bu makalede, Microsoft Dynamics 365 Commerce'deki perakende beyannameleri için gerekli numara serilerinin nasıl konfigüre edildiği açıklanmıştır.
 author: analpert
 ms.date: 04/27/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2022-04-12
-ms.openlocfilehash: db47ca4ee8bac0d55b9a9c732183d2734bce660f
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 5c4eb872ec2151a9f4ac5462ad43dd03a6705487
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649220"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880015"
 ---
-# <a name="set-up-number-sequences-for-retail-statements"></a>Perakende beyannamaleri için numara serilerini ayarla
+# <a name="set-up-number-sequences-for-retail-statements"></a>Perakende ekstreleri için numara serilerini ayarlama
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce'deki perakende beyannameleri için gerekli numara serilerinin nasıl konfigüre edildiği açıklanmıştır.
+Bu makalede, Microsoft Dynamics 365 Commerce'deki perakende beyannameleri için gerekli numara serilerinin nasıl konfigüre edildiği açıklanmıştır.
 
 Dynamics 365 Commerce'te iki tür perakende beyannameleri kullanılır: 
 

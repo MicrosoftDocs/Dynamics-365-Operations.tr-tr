@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams'de kullanıcı rollerini yönetme
-description: Bu konuda, Microsoft Teams'te Microsoft Dynamics 365 Commerce kullanıcı rollerinin nasıl yönetileceği açıklanmaktadır.
+description: Bu makalede, Microsoft Teams'te Microsoft Dynamics 365 Commerce kullanıcı rollerinin nasıl yönetileceği açıklanmaktadır.
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3bde573456856b6457740587b7e921408285a762
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 478bdc762bbc808b031b3ec160126deb4627b6e8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693347"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881283"
 ---
 # <a name="manage-user-roles-in-microsoft-teams"></a>Microsoft Teams'de kullanıcı rollerini yönetme
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Teams'te Microsoft Dynamics 365 Commerce kullanıcı rollerinin nasıl yönetileceği açıklanmaktadır.
+Bu makalede, Microsoft Teams'te Microsoft Dynamics 365 Commerce kullanıcı rollerinin nasıl yönetileceği açıklanmaktadır.
 
 Teams'de her mağaza veya kanal için bir ekip oluştururken, ekibe karşılık gelen bir grup üyeliği oluşturulur (örneğin, `HOUSTON_D365@<YourTenantAzureADDomain>.com`). Bir ekip grubu üyeliğinin altındaki tüm depolama çalışanları şu iki Kullanıcı rolünden birine atanmıştır: **sahip** veya **üye**. **Sahip** kullanıcı rolüne sahip mağaza çalışanları, özel kanal ekleme ve üye ekleme veya silme gibi işlemleri gerçekleştirebilirler. Genellikle mağaza yöneticilerinin **sahip** Kullanıcı rolü vardır.
 

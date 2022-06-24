@@ -1,6 +1,6 @@
 ---
 title: Stok birimli ürünleri Supply Chain Management'tan Field Service'e eşitleme
-description: Bu konu, stoklu ürünlerin Dynamics 365 Supply Chain Management üzerinden Dynamics 365 Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
+description: Bu makale, stoklu ürünlerin Dynamics 365 Supply Chain Management üzerinden Dynamics 365 Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 author: Henrikan
 ms.date: 03/13/2019
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 6ac346d735bc44e9f9660c60b23a73057e4b7306
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5f7658eacd20aa69a64d6288e9d29e53b6ccb002
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566347"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887268"
 ---
 # <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a>Stok birimli ürünleri Supply Chain Management'tan Field Service'e eşitleme
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, stoklu ürünlerin Dynamics 365 Supply Chain Management üzerinden Dynamics 365 Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
+Bu makale, stoklu ürünlerin Dynamics 365 Supply Chain Management üzerinden Dynamics 365 Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 
 [![Supply Chain Management ile Field Service arasında iş süreçlerini eşitleme.](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
 Kullanılan **Stok Birimli Field Service Ürünleri (Supply Chain Management'tan Field Service'e)** şablonu, **Field Service Ürünleri (Supply Chain Management'tan Field Service'e)** şablonuna dayanır. Daha fazla bilgi için bkz. [Field Service'teki ürünleri Supply Chain Management'taki ürünlere eşitleme](field-service-product.md).
 
-Bu konu, yalnızca iki şablon arasındaki farkı açıklar: 
+Bu makale, yalnızca iki şablon arasındaki farkı açıklar: 
 - **Stok Birimli Field Service Ürünleri (Supply Chain Management'tan Sales'e)**
 - **Field Service Ürünleri (Supply Chain Management'tan Field Service'e)** 
 

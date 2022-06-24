@@ -1,6 +1,6 @@
 ---
-title: Ambara serbest bırak
-description: Bu konuda, ambara serbest bırakma işlemi hakkında ayrıntılı bilgi sağlanmaktadır. Burada, ambara sipariş serbest bıraktığınızda oluşturulan varlıklar ve işlemi başlatmak için kullanabileceğiniz seçenekler tanımlanmaktadır.
+title: Ambara serbest bırakma
+description: Bu makalede, ambara serbest bırakma işlemi hakkında ayrıntılı bilgi sağlanmaktadır. Burada, ambara sipariş serbest bıraktığınızda oluşturulan varlıklar ve işlemi başlatmak için kullanabileceğiniz seçenekler tanımlanmaktadır.
 author: Mirzaab
 ms.date: 8/13/2021
 ms.topic: article
@@ -11,22 +11,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 8624db42e9d0f3d08ed3b582224ed7937d52f85d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678365"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893192"
 ---
-# <a name="release-to-warehouse"></a>Ambara serbest bırak
+# <a name="release-to-warehouse"></a>Ambara serbest bırakma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, ambara serbest bırakma işlemi hakkında ayrıntılı bilgi sağlanmaktadır. Burada, ambara sipariş serbest bıraktığınızda oluşturulan varlıklar ve işlemi başlatmak için kullanabileceğiniz seçenekler tanımlanmaktadır.
+Bu makalede, ambara serbest bırakma işlemi hakkında ayrıntılı bilgi sağlanmaktadır. Burada, ambara sipariş serbest bıraktığınızda oluşturulan varlıklar ve işlemi başlatmak için kullanabileceğiniz seçenekler tanımlanmaktadır.
 
 ## <a name="release-to-warehouse-overview"></a>Ambara serbest bırakmaya genel bakış
 
-Ambara serbest bırakma, gönderme işlemleri için stoku hazır hale getirme işlemidir. Ambara sipariş serbest bıraktığınızda sistem, yük satırları ve sevkiyatlar oluşturur. Otomatik dalga işleme ayarlanırsa yükler ve gerekli işler de oluşturulur. Dahil edilen varlıkların yapılandırması, sistem ayarlarına bağlıdır. Konunun bu bölümünde, ambara serbest bırakma işlemi sırasında oluşturulan varlıklar ve bunları tanımlayan sistem ayarları incelenmektedir.
+Ambara serbest bırakma, gönderme işlemleri için stoku hazır hale getirme işlemidir. Ambara sipariş serbest bıraktığınızda sistem, yük satırları ve sevkiyatlar oluşturur. Otomatik dalga işleme ayarlanırsa yükler ve gerekli işler de oluşturulur. Dahil edilen varlıkların yapılandırması, sistem ayarlarına bağlıdır. Makalenin bu bölümünde, ambara serbest bırakma işlemi sırasında oluşturulan varlıklar ve bunları tanımlayan sistem ayarları incelenmektedir.
 
 *Sevkiyat*, aynı müşteri veya aynı teslimat adresi için bir grup satış siparişi veya transfer emri satırıdır.
 
@@ -67,7 +67,7 @@ Sonuç olarak, ambara bir sipariş serbest bırakıldığında en otomatik akı�
 
 Dalga şablonları, iş şablonları ve konum yönergeleri ayarlarına bağlı olarak, bu akıştaki bazı adımlar el ile yapılabilir. Ancak genel akış aynı kalır.
 
-Ambara sipariş serbest bırakma işlemi için birkaç seçeneğiniz vardır. İşlemi el ile gerçekleştirebilir veya bir toplu iş ayarlayabilirsiniz. Bu konunun geri kalan bölümlerinde, ambara serbest bırakma operasyonu gerçekleştirebileceğiniz çeşitli yollar ayrıntılı olarak incelenmektedir.
+Ambara sipariş serbest bırakma işlemi için birkaç seçeneğiniz vardır. İşlemi el ile gerçekleştirebilir veya bir toplu iş ayarlayabilirsiniz. Bu makalenin geri kalan bölümlerinde, ambara serbest bırakma operasyonu gerçekleştirebileceğiniz çeşitli yollar ayrıntılı olarak incelenmektedir.
 
 ## <a name="manual-release-to-the-warehouse-from-the-sales-orders-and-transfer-orders-pages"></a>Satış siparişleri ve Transfer emirleri sayfalarından ambara el ile serbest bırakma
 

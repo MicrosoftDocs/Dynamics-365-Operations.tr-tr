@@ -1,6 +1,6 @@
 ---
 title: Öznitelikler ve öznitelik gruplarını yönetme
-description: Bu konu, bir ürünü veya özelliklerini kullanıcı tanımlı alanlar aracılığıyla açıklamak için özniteliklerin nasıl kullanılacağını açıklar.
+description: Bu makale, bir ürünü veya özelliklerini kullanıcı tanımlı alanlar aracılığıyla açıklamak için özniteliklerin nasıl kullanılacağını açıklar.
 author: ashishmsft
 ms.date: 04/28/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cd74cb7795366bdca80e47d79a9591af69a16daf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727666"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876676"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Öznitelikler ve öznitelik gruplarını yönetme
 
@@ -85,7 +85,7 @@ ms.locfileid: "6727666"
 
 *Öznitelik meta verisi* her ürün için özniteliklerin nasıl davranacağını belirtebileceğiniz seçenekler belirlemenize olanak tanır. Örneğin, özniteliklerin gerekli olup olmadığını, aramalar için kullanılıp kullanılamayacağını ve filtre olarak kullanılıp kullanılamayacağını belirtebilirsiniz.
 
-Ürünler için, öznitelik meta verileri kanal düzeyinde geçersiz kılınabilir. Bu özellik bu konunun ilerleyen bölümlerinde açıklanmıştır.
+Ürünler için, öznitelik meta verileri kanal düzeyinde geçersiz kılınabilir. Bu özellik bu makalenin ilerleyen bölümlerinde açıklanmıştır.
 
 Sizin de göreceğiniz gibi **Öznitelikler** sayfası öznitelik meta verileriyle ilgili seçenekler içerir. **POS için öznitelik değerleri** altında, **İyileştirilebilir** adına sahip bir seçenek satış noktasındaki (POS) öznitelik değerlerinin davranışını veya sistemin bu öznitelik değerlerini ele alma şeklini etkiler. Yalnızca, **İyileştirilebilir** seçeneğini **Evet** olarak ayarlayabileceğiniz öznitelikler POS'taki ürünleri iyileştirilmesi veya filtrelenmesi için gösterir.
 

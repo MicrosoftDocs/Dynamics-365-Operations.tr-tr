@@ -1,6 +1,6 @@
 ---
 title: Zaman uyumsuz müşteri oluşturma modu
-description: Bu konu, Microsoft Dynamics 365 Commerce'teki zaman uyumsuz müşteri oluşturma modunu açıklamaktadır.
+description: Bu makale, Microsoft Dynamics 365 Commerce'teki zaman uyumsuz müşteri oluşturma modunu açıklamaktadır.
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: ca7cceb066d30b7bba82265a3654f3bfb26f57f6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4ca63fe06a804035e976a3432454078c1cca0020
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689114"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880152"
 ---
 # <a name="asynchronous-customer-creation-mode"></a>Zaman uyumsuz müşteri oluşturma modu
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce'teki zaman uyumsuz müşteri oluşturma modunu açıklamaktadır.
+Bu makale, Microsoft Dynamics 365 Commerce'teki zaman uyumsuz müşteri oluşturma modunu açıklamaktadır.
 
 Commerce'te, iki müşteri oluşturma modu vardır: zaman uyumlu (veya senkron) ve zaman uyumsuz (veya asenkron). Varsayılan olarak, müşteriler zaman uyumlu olarak oluşturulur. Başka bir deyişle, bunlar Commerce genel merkezinde gerçek zamanlı olarak oluşturulur. Zaman uyumlu müşteri oluşturma modu, tüm kanallar arasında yeni müşteriler hemen aranabilir hale geldiği için yararlıdır. Ancak, bir dezavantajı da vardır. Commerce genel merkezine [Commerce Data Exchange: Gerçek Zamanlı Servis](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service) çağrıları oluşturduğundan, birçok eşzamanlı müşteri oluşturma çağrısı yapılırsa performans etkilenebilir.
 

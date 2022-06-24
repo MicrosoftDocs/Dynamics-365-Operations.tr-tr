@@ -1,6 +1,6 @@
 ---
 title: Kesinleşmiş planlı siparişler
-description: Bu konu, planlı siparişlerin nasıl kesinleştirileceğini açıklar. Planlı siparişler kesinleştirildiğinde, gerçek satınalma siparişlerine, transfer emirlerine veya üretim emirlerine dönüştürülür.
+description: Bu makale, planlı siparişlerin nasıl kesinleştirileceğini açıklar. Planlı siparişler kesinleştirildiğinde, gerçek satınalma siparişlerine, transfer emirlerine veya üretim emirlerine dönüştürülür.
 author: t-benebo
 ms.date: 04/22/2021
 ms.search.form: ReqTransPo, ReqTransFirmLog
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30f3ee656b97e0337b6e3e78f0acb2300d7d85dc
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468483"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857561"
 ---
 # <a name="firm-planned-orders"></a>Kesinleşmiş planlı siparişler
 
@@ -29,11 +29,11 @@ Planlı siparişleri kesinleştirmek için üç yöntem vardır:
 - **Otomatik kesinleştirme** – Kapsama grupları, bağımsız maddeler ve madde birleşimleri ile master plan birleşimleri için varsayılan kesinleştirme zaman dilimini tanımlayın. Daha sonra, master planlama çalışırken sipariş tarihi kesinleştirme için belirtilen zaman dilimi dahilinde olduğunda planlı siparişler otomatik olarak kesinleştirilecektir.
 - **Sorgu tabanlı kesinleştirme** – Planlı siparişleri, özelliklerine göre seçmek için bir sorgu tanımlayın. Sorguyu çalıştırmak ve belirli siparişleri düzenli bir planla kesinleştirmek için bir toplu iş ayarlayabilirsiniz.
 
-Bu konuda her yöntem ayrıntılı olarak açıklanmaktadır.
+Bu makalede her yöntem ayrıntılı olarak açıklanmaktadır.
 
-## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a>Bu konuda açıklanan özellikleri etkinleştirin
+## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a>Bu makalede açıklanan özellikleri etkinleştirin
 
-Çoğu planlı sipariş özelliği Microsoft Dynamics 365 Supply Chain Management'ın Planlama Optimizasyonunu kullanan tüm standart yüklemelerinde kullanılabilir. Ancak, bu konuda açıklanan özelliklerden bazılarını kullanabilmeniz için önce bunların Özellik yönetiminde etkinleştirilmesi gerekir.
+Çoğu planlı sipariş özelliği Microsoft Dynamics 365 Supply Chain Management'ın Planlama Optimizasyonunu kullanan tüm standart yüklemelerinde kullanılabilir. Ancak, bu makalede açıklanan özelliklerden bazılarını kullanabilmeniz için önce bunların Özellik yönetiminde etkinleştirilmesi gerekir.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Planlı siparişler için paralel kesinleştirmeyi açma veya kapatma
 
@@ -97,7 +97,7 @@ Otomatik kesinleştirme, planlı siparişleri master planlama işleminin parças
 > Kesinleştirilmiş türetilmiş siparişler (yani taşeron satınalma siparişleri), servis talebi değişiklik izleme etkin olduğunda *İncelemede* durumuna sahip olur.
 
 > [!IMPORTANT]
-> Bu bölümde açıklanan özelliğin Planlama Optimizasyonunda kullanılabilmesi için öncelikle, bu konunun başlangıcında açıklandığı gibi [*Planlama Optimizasyonu için otomatik kesinleştirme* özelliğinin](#enable-features) sisteminizde etkinleştirilmiş olması gerekir. Otomatik kesinleştirme, yerleşik master planlama altyapısıyla her zaman kullanılabilir.
+> Bu bölümde açıklanan özelliğin Planlama Optimizasyonunda kullanılabilmesi için öncelikle, bu makalenin başlangıcında açıklandığı gibi [*Planlama Optimizasyonu için otomatik kesinleştirme* özelliğinin](#enable-features) sisteminizde etkinleştirilmiş olması gerekir. Otomatik kesinleştirme, yerleşik master planlama altyapısıyla her zaman kullanılabilir.
 
 ### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Planlama Optimizasyonu ile otomatik kesinleştirme ile yerleşik planlama altyapısı kıyaslaması
 
@@ -130,7 +130,7 @@ Sorgu tabanlı kesinleştirme, önceden tanımlanan ölçütlere dayalı olarak 
 Otomatik kesinleştirme ile sorgu tabanlı kesinleştirmeyi birlikte kullanabilirsiniz. Örneğin, sorgu tabanlı kesinleştirme işi, eşleşen bir otomatik kesinleştirme kapsamı yapılandırmasının zaman diliminden daha uzun olan bir ileriye doğru zaman dilimine sahiptir. Bu nedenle, sorgu tabanlı kesinleştirme işi otomatik kesinleştirme tetiklenmeden bu planlı siparişleri işler. Belirli satıcıların siparişlerini, diğer satıcılardan gelen benzer ürünlere ait siparişlerden farklı zamanlamak için bu davranıştan yararlanabilirsiniz.
 
 > [!IMPORTANT]
-> Bu bölümde açıklanan özelliğin kullanılabilmesi için öncelikle, bu konunun başlangıcında açıklandığı gibi [*Filtrelemeyle planlı sipariş kesinleştirme* özelliğinin](#enable-features) sisteminizde etkinleştirilmiş olması gerekir.
+> Bu bölümde açıklanan özelliğin kullanılabilmesi için öncelikle, bu makalenin başlangıcında açıklandığı gibi [*Filtrelemeyle planlı sipariş kesinleştirme* özelliğinin](#enable-features) sisteminizde etkinleştirilmiş olması gerekir.
 
 Sorgu tabanlı kesinleştirme işlemini kullanarak planlı bir siparişi kesinleştirmek için aşağıdaki adımları izleyin.
 

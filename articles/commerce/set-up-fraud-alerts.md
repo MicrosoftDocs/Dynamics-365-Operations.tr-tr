@@ -1,6 +1,6 @@
 ---
 title: Çağrı merkezi sahtekarlık uyarılarını ayarlama ve bu uyarılarla çalışma
-description: Bu konu, siparişler işlendiğinde, müşteri hizmetleri temsilcilerini sahte olması olası bilgilere karşı uyarmak için kuralların nasıl ayarlanacağını açıklar. Siparişleri otomatik olarak veya el ile beklemeye almak için kullanılan belirli kodlar tanımlayabilirsiniz.
+description: Bu makale, siparişler işlendiğinde, müşteri hizmetleri temsilcilerini sahte olması olası bilgilere karşı uyarmak için kuralların nasıl ayarlanacağını açıklar. Siparişleri otomatik olarak veya el ile beklemeye almak için kullanılan belirli kodlar tanımlayabilirsiniz.
 author: josaw1
 ms.date: 05/14/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e692d43b8c2648a424ff3b4fdc9d0cf16d0e03702d6a237f71caaf49646c5ec3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 212afd594453d3594fdaef9442a7809e4cafbd07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763680"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885360"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Çağrı merkezi sahtekarlık uyarılarını ayarlama ve bu uyarılarla çalışma
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, potansiyel sahte satış siparişlerini daha fazla incelemek üzere beklemeye almak için nasıl ölçütler ve kurallar ayarlayacağınız açıklanmaktadır. Sahte veri denetimi özelliği, bir satış siparişindeki bilgilerin geçerliliğini belirlemek için kullanılır. Satış siparişindeki bilgiler kuruluşun sahtekarlık ölçütlerine ve kurallarına göre şüpheli görünüyorsa, sipariş incelenmek üzere beklemeye alınabilir. Bu durumda, sipariş, bekleme kaldırılana kadar, işlemlerine devam edilmesi için ambara serbest bırakılamaz.
+Bu makalede, potansiyel sahte satış siparişlerini daha fazla incelemek üzere beklemeye almak için nasıl ölçütler ve kurallar ayarlayacağınız açıklanmaktadır. Sahte veri denetimi özelliği, bir satış siparişindeki bilgilerin geçerliliğini belirlemek için kullanılır. Satış siparişindeki bilgiler kuruluşun sahtekarlık ölçütlerine ve kurallarına göre şüpheli görünüyorsa, sipariş incelenmek üzere beklemeye alınabilir. Bu durumda, sipariş, bekleme kaldırılana kadar, işlemlerine devam edilmesi için ambara serbest bırakılamaz.
 
 > [!NOTE]
 > Bu özellik yalnızca Commerce çağrı merkezi kanalı için satış siparişi işlemiyle birlikte kullanılabilir.

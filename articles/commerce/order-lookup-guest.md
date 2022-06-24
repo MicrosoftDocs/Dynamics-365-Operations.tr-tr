@@ -1,6 +1,6 @@
 ---
 title: Konuk ödemeleri için sipariş aramayı etkinleştirme
-description: Bu konuda, Microsoft Dynamics 365 Commerce'te konuk ödemeleri için sipariş aramanın nasıl etkinleştirileceği açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce'te konuk ödemeleri için sipariş aramanın nasıl etkinleştirileceği açıklanmaktadır.
 author: stuharg
 ms.date: 12/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: a2a10b122faae354b0ea002e43a9bd60157f6216
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: fe32bb59b6529dd9686ced92c1016f12a75a32d4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891512"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891999"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Konuk ödemeleri için sipariş aramayı etkinleştirme
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce'te konuk ödemeleri için sipariş aramanın nasıl etkinleştirileceği açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce'te konuk ödemeleri için sipariş aramanın nasıl etkinleştirileceği açıklanmaktadır.
 
 Konuk ödemeleri için sipariş arama özelliği, konuk kullanıcılar olarak satınalma yapan müşterilerin siparişlerini aramasını sağlar. Sipariş arama özelliği, müşteriler bir siparişteki ürünlerin karşılanma durumunu denetlemek, siparişin sevk edildiği adresi doğrulamak, bir ürünü yeniden sipariş etmek veya siparişin alınacağı mağazayı onaylamak gibi eylemler gerçekleştirmek istediğinde kullanışlıdır.
 

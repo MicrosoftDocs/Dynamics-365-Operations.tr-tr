@@ -1,6 +1,6 @@
 ---
 title: İş emirleri oluşturma
-description: Bu konuda Varlık Yönetimi'nde iş emirleri oluşturma işlemi açıklanmaktadır.
+description: Bu makalede Varlık Yönetimi'nde iş emirleri oluşturma işlemi açıklanmaktadır.
 author: johanhoffmann
 ms.date: 02/01/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c1477e3c1b99172d84d2cdc64fc0ed01c057e0fa59422b30c17868ca400de4d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1b8b3d8d83bdad2efe49bd4e878793cca6c49f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743710"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891219"
 ---
 # <a name="creating-work-orders"></a>İş emirleri oluşturma
 
@@ -60,7 +60,7 @@ Bakım zamanlamanızı temel alan iş emirleri oluşturmak için aşağıdaki ad
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Bakım planı çalışırken otomatik olarak oluşturulan iş emri satırlarını gruplandırma
 
-Bu özellik, sistem bir bakım planına göre otomatik olarak iş emirleri oluşturmak üzere ayarlandığında, iş emri satırlarını tek bir iş emri altında gruplandırmak için kurallar tanımlamanıza olanak sağlar. Daha önce otomatik olarak oluşturulan iş emirleri yalnızca tek bir satır içerebiliyordu. Ancak, şu anda iş emirlerini kıymet, kıymet türü veya işlem yapılacak yerleşim gibi ölçütlere göre gruplandırabilirsiniz. (Elle oluşturulan iş emirleri bu konunun önceki bölümünde açıklandığı gibi zaten bu şekilde gruplandırılabilir.)
+Bu özellik, sistem bir bakım planına göre otomatik olarak iş emirleri oluşturmak üzere ayarlandığında, iş emri satırlarını tek bir iş emri altında gruplandırmak için kurallar tanımlamanıza olanak sağlar. Daha önce otomatik olarak oluşturulan iş emirleri yalnızca tek bir satır içerebiliyordu. Ancak, şu anda iş emirlerini kıymet, kıymet türü veya işlem yapılacak yerleşim gibi ölçütlere göre gruplandırabilirsiniz. (Elle oluşturulan iş emirleri bu makalenin önceki bölümünde açıklandığı gibi zaten bu şekilde gruplandırılabilir.)
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Otomatik oluşturulan iş emirleri için gruplandırmayı etkinleştirme
 

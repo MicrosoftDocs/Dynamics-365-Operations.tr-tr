@@ -1,6 +1,6 @@
 ---
 title: WHS öğeleri için Inventory Visibility desteği
-description: Bu konu, Stok Görünürlüğü'nün gelişmiş ambar işlemleri (WHS öğeleri) için etkinleştirilen öğeleri desteklemesini açıklar.
+description: Bu makale, Stok Görünürlüğü'nün gelişmiş ambar işlemleri (WHS öğeleri) için etkinleştirilen öğeleri desteklemesini açıklar.
 author: yufeihuang
 ms.date: 03/10/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-10
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: cfbff05697f4159cb74d110887b8029f28fbf96b
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: ec2254d6cf203216acea88fdfb54ad491abdeb49
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625408"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895684"
 ---
 # <a name="inventory-visibility-support-for-whs-items"></a>WHS öğeleri için Inventory Visibility desteği
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Stok Görünürlüğü'nün gelişmiş ambar işlemleri (WHS öğeleri) için etkinleştirilen öğeleri desteklemesini açıklar. Bu yeteneği Stok Görünürlüğüne ekleyen özellik *Gelişmiş WHS* olarak adlandırılır.
+Bu makale, Stok Görünürlüğü'nün gelişmiş ambar işlemleri (WHS öğeleri) için etkinleştirilen öğeleri desteklemesini açıklar. Bu yeteneği Stok Görünürlüğüne ekleyen özellik *Gelişmiş WHS* olarak adlandırılır.
 
 ## <a name="whs-items"></a>WHS maddeleri
 

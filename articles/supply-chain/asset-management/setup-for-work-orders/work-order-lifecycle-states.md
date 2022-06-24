@@ -1,6 +1,6 @@
 ---
 title: İş emri yaşam döngüsü durumları
-description: Bu konuda Kıymet Yönetimi'nde iş emri yaşam döngüsü durumunu açıklanmaktadır.
+description: Bu makalede Kıymet Yönetimi'nde iş emri yaşam döngüsü durumunu açıklanmaktadır.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa0980438ec629ef7ae6bf711d5ae87efca131e6ab86dfcaa1f17d953725147a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 67f857e4bfb828250e632e3ba46af9930cd908a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768678"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860884"
 ---
 # <a name="work-order-lifecycle-states"></a>İş emri yaşam döngüsü durumları
 
@@ -69,7 +69,7 @@ Aşağıdaki tablo **İş emri yaşam döngüsü durumları** sayfasının **Gen
 
     **Ayrıntılar** hızlı sekmesinde, **Yaşam döngüsü modelleri** alanı bu yaşam döngüsü durumunu kullanan iş emri yaşam döngüsü modellerinin sayısını gösterir.
 
-8. **Genel** hızlı sekmesinde, **İş emri** bölümünde, ilgili seçenekleri **Evet** olarak ayarlayarak bu yaşam döngüsü durumu için kullanılabilir olması gereken işlevleri seçin. Seçeneklerin açıklamaları için, bu konunun önceki kısımlarında yer alan tabloya bakın.
+8. **Genel** hızlı sekmesinde, **İş emri** bölümünde, ilgili seçenekleri **Evet** olarak ayarlayarak bu yaşam döngüsü durumu için kullanılabilir olması gereken işlevleri seçin. Seçeneklerin açıklamaları için, bu makalenin önceki kısımlarında yer alan tabloya bakın.
 9. **Proje** bölümünde, **Aşama** alanında, bu yaşam döngüsü durumuyla ilişkili olması gereken proje aşamasını seçin.
 10. İş emri bu yaşam döngüsü durumunda olduğunda , her iş emri işiyle ilgili proje faaliyetleri otomatik olarak kapatılacağından, **Proje** bölümünde, **Tüm faaliyetleri kapat** seçeneğini **Evet** olarak ayarlayın.
 
@@ -77,7 +77,7 @@ Aşağıdaki tablo **İş emri yaşam döngüsü durumları** sayfasının **Gen
     > Bir iş emri işiyle ilgili proje faaliyetinin numarasını bulmak için **Kıymet yönetimi** \> **Ortak** \> **İş emirleri** \> **Tüm iş emirleri**, **Etkin iş emirleri** ya da **Etkin iş emirlerim**'i seçin. İş emrini açın ve iş emri işini seçin. Faaliyet numarası **Satır ayrıntılar** hızlı sekmesinin **Genel** sekmesindeki **Proje** bölümünün **Etkinlik numarası** alanında gösterilir.
 
 11. İş emri bu yaşam döngüsü durumundayken otomatik olarak iş emri günlüklerine yüklenmeliyse **Tahmini** bölümünde, **Çalışma saati tahminlerini kopyala**, **Öğeyi tahminini kopyala** ve / veya **Harcama tahminini kopyala** seçeneğini **Evet** olarak ayarlayın.
-12. İş emri bu yaşam döngüsü durumunda olduğunda, iş emri işleriyle ilgili zamanlama durumu güncelleştirilecek ise, **Zamanlama** bölümünde seçeneklerden birini **Evet** olarak ayarlayın. **Hazır**, **Başlat**, **Bitir** ve **Planlanmış satırları sil** seçeneklerinin anlamları için bu konudaki önceki tabloya bakın.
+12. İş emri bu yaşam döngüsü durumunda olduğunda, iş emri işleriyle ilgili zamanlama durumu güncelleştirilecek ise, **Zamanlama** bölümünde seçeneklerden birini **Evet** olarak ayarlayın. **Hazır**, **Başlat**, **Bitir** ve **Planlanmış satırları sil** seçeneklerinin anlamları için bu makaledeki önceki tabloya bakın.
 
     > [!NOTE]
     > Bir iş emri işiyle ilgili planlanmış satırları görmek için **Kıymet yönetimi** \> **Ortak** \> **İş emirleri** \> **Tüm iş emirleri**, **Etkin iş emirleri** ya da **Etkin iş emirlerim**'i seçin. İş emrini açın, **İş emri işleri** hızlı sekmesinde iş emri işini seçin ve **Satır ayrıntıları** hızlı sekmesinde görünümle ilgili bilgileri görüntüleyin. **Çizelge** sekmesindeki **Durum** alanı, iş emri işinin durumunu gösterir. **Durum** alanı şu değerlere ayarlanabilir: **Planlanan**, **Hazır**, **Başlatıldı**, **Durduruldu**, ve **Sona erdi**.

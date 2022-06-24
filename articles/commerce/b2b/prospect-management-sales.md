@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Sales kullanarak B2B e-ticaret web sitelerindeki iş ortağı kullanıcılarını yönetme
-description: Bu konuda, Dynamics 365 Commerce işletmeler arası (B2B) e-ticaret web siteleri için iş ortağı onaylarını yönetmek üzere Microsoft Dynamics 365 Sales uygulamasının nasıl kullanılacağı açıklanmaktadır.
+description: Bu makalede, Dynamics 365 Commerce işletmeler arası (B2B) e-ticaret web siteleri için iş ortağı onaylarını yönetmek üzere Microsoft Dynamics 365 Sales uygulamasının nasıl kullanılacağı açıklanmaktadır.
 author: shajain
 ms.date: 2/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 540e8f26d7f2a08060a3839f9e4f97bf8ddcafac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ac4aa15f2c6e7f557105254c2c8ce743a9466985
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692575"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878633"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites-using-dynamics-365-sales"></a>Dynamics 365 Sales kullanarak B2B e-ticaret web sitelerindeki iş ortağı kullanıcılarını yönetme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, Dynamics 365 Commerce işletmeler arası (B2B) e-ticaret web siteleri için iş ortağı onaylarını yönetmek üzere Microsoft Dynamics 365 Sales uygulamasının nasıl kullanılacağı açıklanmaktadır. Dynamics 365 Sales çözümüne zaten yatırım yapmış olan kuruluşlar, B2B e-ticaret iş ortağı onay işlemi için müşteri adayı ve fırsat kavramlarını kullanabilir.
+Bu makalede, Dynamics 365 Commerce işletmeler arası (B2B) e-ticaret web siteleri için iş ortağı onaylarını yönetmek üzere Microsoft Dynamics 365 Sales uygulamasının nasıl kullanılacağı açıklanmaktadır. Dynamics 365 Sales çözümüne zaten yatırım yapmış olan kuruluşlar, B2B e-ticaret iş ortağı onay işlemi için müşteri adayı ve fırsat kavramlarını kullanabilir.
 
 B2B iş ortağı onay işlemi hakkında temel bilgiler için [B2B e-ticaret web sitelerinde iş ortağı kullanıcılarını yönetme](manage-b2b-users.md) konusuna bakın.
 

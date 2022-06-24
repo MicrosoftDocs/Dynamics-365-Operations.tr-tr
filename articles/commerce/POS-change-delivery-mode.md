@@ -1,6 +1,6 @@
 ---
-title: POS'ta teslimat şeklini değiştirme
-description: Bu konu, POS'ta teslimat işlemi değişiklik modunun nasıl yapılandırıldığını ve kullanıldığını açıklamaktadır.
+title: Satış noktasında teslimat şeklini değiştirme
+description: Bu makale, POS'ta teslimat işlemi değişiklik modunun nasıl yapılandırıldığını ve kullanıldığını açıklamaktadır.
 author: hhainesms
 ms.date: 03/01/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: ef778763b26954057b83df3e963e34008819fd208a55d55e07075853ffce8b35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 583f568164d0de70e22998bf5ded5f4616b00bd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714052"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855833"
 ---
-# <a name="change-mode-of-delivery-in-pos"></a>POS'ta teslimat şeklini değiştirme
+# <a name="change-mode-of-delivery-in-pos"></a>Satış noktasında teslimat şeklini değiştirme
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, satış noktası (POS) ortamında "teslimat şeklini değiştir" işlevinin nasıl ayarlanacağını ve kullanılacağını açıklamaktadır. 
+Bu makale, satış noktası (POS) ortamında "teslimat şeklini değiştir" işlevinin nasıl ayarlanacağını ve kullanılacağını açıklamaktadır. 
 
 Dynamics 365 Commerce 10.0.10 ve sonraki sürümlerinde, **Teslimat şeklini değiştir** işlemi (647) POS ekran düzenlerinize eklenmek üzere sunulur.
 

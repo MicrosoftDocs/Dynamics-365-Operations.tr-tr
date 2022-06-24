@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Supply Chain Management'daki yenilikler veya değişiklikler 10.0.26 (Mayıs 2022)
-description: Bu konuda, Microsoft Dynamics 365 Supply Chain Management 10.0.26'daki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Supply Chain Management 10.0.26'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
 ms.date: 03/01/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 0724045824f39f316c8b3dbb06a48eb6ca6dbef3
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 73f2f9a819312d8d6e111b998c68b65ba85e7818
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625265"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850771"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Dynamics 365 Supply Chain Management'daki yenilikler veya değişiklikler 10.0.26 (Mayıs 2022)
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Supply Chain Management sürümü 10.0.26'teki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.1192 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
+Bu makalede, Microsoft Dynamics 365 Supply Chain Management sürümü 10.0.26'teki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.1192 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
 
 - **Sürümün önizlemesi:** Mart 2022
 - **Sürüm genel kullanılabilirliği (kendi kendine güncelleştirme):** Nisan 2022
@@ -29,7 +29,7 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management sürümü 10.0.26'teki
 
 ## <a name="features-included-in-this-release"></a>Bu sürümdeki özellikler
 
-Aşağıdaki tabloda, bu sürüme dahil edilen özellikler listelenmektedir. Bu konu ilk kez yayımlandıktan sonra derlemeye eklenen özellikleri dahil etmek için bu konuya güncelleştirmeler uygulayabiliriz.
+Aşağıdaki tabloda, bu sürüme dahil edilen özellikler listelenmektedir. Bu makale ilk kez yayımlandıktan sonra derlemeye eklenen özellikleri dahil etmek için bu konuya güncelleştirmeler uygulayabiliriz.
 
 | Özellik alanı | Özellik | Daha fazla bilgi | Etkinleştiren |
 |---|---|---|---|
@@ -56,11 +56,11 @@ Bu özelliklerden herhangi birini açmak veya kapatmak istiyorsanız bunu [özel
 
 ## <a name="new-and-updated-documentation-resources"></a>Yeni ve güncelleştirilmiş belge kaynakları
 
-Aşağıdaki yardım konularını yakın bir zamanda ekledik veya önemli ölçüde güncelleştirdik. Bu konuların, önceki bölümlerde listelendiği üzere bu sürüm için eklenen yeni özelliklerle ilgili olması gerekmez. Ancak mevcut özelliklerden daha fazla yararlanmanıza yardımcı olabilirler.
+Aşağıdaki yardım makalelerini yakın bir zamanda ekledik veya önemli ölçüde güncelleştirdik. Bu makalelerin, önceki bölümlerde listelendiği üzere bu sürüm için eklenen yeni özelliklerle ilgili olması gerekmez. Ancak mevcut özelliklerden daha fazla yararlanmanıza yardımcı olabilirler.
 
-| Özellik alanı | Yeni veya güncelleştirilmiş konular |
+| Özellik alanı | Yeni veya güncelleştirilmiş makaleler |
 |---|---|
-| Maliyet yönetimi | Aşağıdaki konuların her birine güncelleştirilmiş örnekler ve diyagramlar eklendi:<ul><li>[Fiziksel değer ve işaretleme ile FIFO](../cost-management/fifo-physical-value-marking.md)</li><li>[Fiziksel değer ve işaretleme ile LIFO](../cost-management/lifo-physical-value-marking.md)</li><li>[Fiziksel değer ve işaretleme ile LIFO Tarihi](../cost-management/lifo-date-physical-value-marking.md)</li><li>[Cari ortalama maliyet fiyatı](../cost-management/running-average-cost-price.md)</li><li>[Fiziksel değer ve işaretleme ile ağırlıklı ortalama](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
+| Maliyet yönetimi | Aşağıdaki makalelerin her birine güncelleştirilmiş örnekler ve diyagramlar eklendi:<ul><li>[Fiziksel değer ve işaretleme ile FIFO](../cost-management/fifo-physical-value-marking.md)</li><li>[Fiziksel değer ve işaretleme ile LIFO](../cost-management/lifo-physical-value-marking.md)</li><li>[Fiziksel değer ve işaretleme ile LIFO Tarihi](../cost-management/lifo-date-physical-value-marking.md)</li><li>[Cari ortalama maliyet fiyatı](../cost-management/running-average-cost-price.md)</li><li>[Fiziksel değer ve işaretleme ile ağırlıklı ortalama](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
 | Tedarik ve kaynak atama | [Satınalma siparişi satırı veri uyuşmazlıkları](../troubleshooting/procurement/purchase-order-line-data-issues.md) |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
@@ -81,12 +81,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.26 platform güncelleştirme
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Kaldırılan ve kullanım dışı bırakılan Supply Chain Management özellikleri
 
-[Dynamics 365 Supply Chain Management'taki kaldırılmış veya kullanım dışı bırakılmış özellikler](removed-deprecated-features-scm-updates.md) konusu Supply Chain Management için kaldırılan veya kullanım dışı bırakılan veya kaldırılması ya da kullanım dışı bırakılması planlanan özellikleri açıklar.
+[Dynamics 365 Supply Chain Management'taki kaldırılmış veya kullanım dışı bırakılmış özellikler](removed-deprecated-features-scm-updates.md) makalesi Supply Chain Management için kaldırılan veya kullanım dışı bırakılan veya kaldırılması ya da kullanım dışı bırakılması planlanan özellikleri açıklar.
 
 - *Kaldırılan* özellik artık üründe bulunmaz.
 - *Kullanımına son verilen* özellik etkin geliştirmede değildir ve sonraki güncellemede kaldırılabilir.
 
-Herhangi bir özellik üründen kaldırılmadan önce, kullanım dışı bırakma bildirimi kaldırma işleminden 12 ay önce [Dynamics 365 Supply Chain Management'taki kaldırılan veya kullanım dışı bırakılan özelliker](removed-deprecated-features-scm-updates.md) konusunda duyurulacaktır.
+Herhangi bir özellik üründen kaldırılmadan önce, kullanım dışı bırakma bildirimi kaldırma işleminden 12 ay önce [Dynamics 365 Supply Chain Management'taki kaldırılan veya kullanım dışı bırakılan özelliker](removed-deprecated-features-scm-updates.md) makalesinde duyurulacaktır.
 
 Yalnızca derleme zamanını etkileyen ancak korumalı alan ve üretim ortamlarıyla ikili uyumlu olan son dakika değişiklikleri için kullanım dışı bırakma süresi 12 aydan kısa olacaktır. Genellikle, bunlar derleyiciye yapılması gereken işlevsel güncelleştirmelerdir.
 

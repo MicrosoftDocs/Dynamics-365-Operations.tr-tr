@@ -1,6 +1,6 @@
 ---
 title: Kalite denetimi
-description: Bu konuda, Kalite denetimi özelliğiyle ilgili bilgiler verilir. Bu özellik, ambar çalışanlarının kalemleri giriş noktası alanına alırken kalite açısından hızlı bir şekilde denetlemesine olanak tanır.
+description: Bu makalede, Kalite denetimi özelliğiyle ilgili bilgiler verilir. Bu özellik, ambar çalışanlarının kalemleri giriş noktası alanına alırken kalite açısından hızlı bir şekilde denetlemesine olanak tanır.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: c5a4b380529ca8cb9c3474b363c7f9ba4220ff2b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ceb01205edc269690fda306bc90f465dbccc563b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677996"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855071"
 ---
 # <a name="quality-check"></a>Kalite denetimi
 
@@ -41,11 +41,11 @@ Bu işlem, taranan tüm plakaların hemen kalite denetimi konumuna yönlendirilm
 
 ## <a name="turn-the-quality-check-feature-on-or-off"></a>Kalite denetimi özelliğini açma veya kapatma
 
-Bu konuda açıklanan işlevi kullanmak için *Kalite denetimi* özelliğinin sisteminizde etkinleştirilmiş olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Kalite denetimi* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
+Bu makalede açıklanan işlevi kullanmak için *Kalite denetimi* özelliğinin sisteminizde etkinleştirilmiş olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Kalite denetimi* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Örnek senaryo için özelliği ayarlama
 
-Bu bölümde, *Kalite denetimi* özelliğinin nasıl ayarlanacağı ve bu konunun ilerleyen kısımlarında sağlanan örnek senaryo için örnek verilerin nasıl hazırlanacağı gösterilmektedir.
+Bu bölümde, *Kalite denetimi* özelliğinin nasıl ayarlanacağı ve bu makalenin ilerleyen kısımlarında sağlanan örnek senaryo için örnek verilerin nasıl hazırlanacağı gösterilmektedir.
 
 ### <a name="make-sample-data-available"></a>Örnek verilerini kullanılabilir hale getirme
 
@@ -270,7 +270,7 @@ Mobil cihazların **Kalite Denetimi** işlevini gerçekleştirebilmesi için bir
 
 ## <a name="example-scenario"></a><a name="example-scenario"></a>Örnek senaryo
 
-Daha önce açıklanan örnek verilerin tümünü kullanılabilir hale getirip ayarladıktan sonra, bu senaryoda, *Kalite denetimi* özelliğini deneyebilirsiniz. Bu senaryoda gösterilen değerler, standart demo verileriyle çalıştığınızı, **USMF** tüzel kişiliğini seçmiş olduğunuzu ve bu konunun önceki bölümlerinde açıklanan örnek kayıtları hazırladığınızı varsayar. Bu senaryo aynı zamanda özelliğin bir üretim ayarında nasıl kullanılabileceğini gösteren bir örnek işlevi de görür.
+Daha önce açıklanan örnek verilerin tümünü kullanılabilir hale getirip ayarladıktan sonra, bu senaryoda, *Kalite denetimi* özelliğini deneyebilirsiniz. Bu senaryoda gösterilen değerler, standart demo verileriyle çalıştığınızı, **USMF** tüzel kişiliğini seçmiş olduğunuzu ve bu makalenin önceki bölümlerinde açıklanan örnek kayıtları hazırladığınızı varsayar. Bu senaryo aynı zamanda özelliğin bir üretim ayarında nasıl kullanılabileceğini gösteren bir örnek işlevi de görür.
 
 ### <a name="create-a-purchase-order"></a>Satınalma siparişi oluşturma
 
@@ -357,7 +357,7 @@ Bu senaryo için palet 2 reddedilecektir.
 
 Kalite denetimini tamamladınız ve reddedilmiş palet için bir kalite emri oluşturdunuz. Oluşturulan emri görüntülemek için **Stok Yönetimi \> Periyodik görevler \> Kalite yönetimi \> Kalite emirleri**'ne gidin.
 
-Kalite emri testleri artık işlenebilir. Kalite testi bu konuda ele alınmamaktadır.
+Kalite emri testleri artık işlenebilir. Kalite testi bu makalede ele alınmamaktadır.
 
 Kalite yönetimi hakkında daha fazla bilgi için bkz. [Kalite yönetimine genel bakış](../inventory/enable-quality-management.md)
 

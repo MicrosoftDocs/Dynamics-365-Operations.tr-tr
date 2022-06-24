@@ -1,6 +1,6 @@
 ---
 title: Satıcı hesaplarını ayarlama
-description: Bu konu, yeni bir satıcı hesabı oluşturduğunuzda girmeniz gereken bilgilerin türünü açıklar.
+description: Bu makale, yeni bir satıcı hesabı oluşturduğunuzda girmeniz gereken bilgilerin türünü açıklar.
 author: GalynaFedorova
 ms.date: 02/03/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d524ff99cba733fdd607d9708abba440248d6cc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d1ddf126305f39a35f61b9a98da1c6bce29372cf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676988"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875289"
 ---
 # <a name="set-up-vendor-accounts"></a>Satıcı hesaplarını ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, yeni bir satıcı hesabı oluşturduğunuzda girmeniz gereken bilgilerin türünü açıklar.
+Bu makale, yeni bir satıcı hesabı oluşturduğunuzda girmeniz gereken bilgilerin türünü açıklar.
 
 Bir satıcı hesabı oluşturduğunuzda, satıcıyla ilgili bilgileri girersiniz. Bu bilgiler belgelere otomatik olarak veri girilmesinde ve satıcı ile ilgili etkinliklerin izlenmesinde kullanılır. Örneğin, bir satıcı için aşağıdaki bilgileri yapılandırabilirsiniz:
 

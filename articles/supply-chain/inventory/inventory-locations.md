@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c202a679e992c562772cbf6da6e17c4b8149760f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bd5ad086cadd2e49585614e7650bb7e30a4e7328
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573957"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888600"
 ---
 # <a name="inventory-locations"></a>Stok konumları
 
@@ -29,7 +29,7 @@ ms.locfileid: "7573957"
 
 Stok konumları ile temel depolama (WSM I) birlikte kullanılarak maddelerin nerede depolandıkları ve maddelerin bir WMS I ambarında nereden çekildikleri belirlenir.
 
-Bu konu, Stok yönetimi modülündeki özellikler için geçerlidir. Ambar yönetimi modülündeki özellikler için geçerli değildir.
+Bu makale, Stok yönetimi modülündeki özellikler için geçerlidir. Ambar yönetimi modülündeki özellikler için geçerli değildir.
 
 Konum terimi, maddelerin depolandığı ve çekildiği yeri ifade eder.
 

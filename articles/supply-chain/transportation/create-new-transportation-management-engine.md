@@ -1,6 +1,6 @@
 ---
 title: Yeni bir taşıma yönetimi altyapısı oluşturma
-description: Bu konu, Dynamics 365 Supply Chain Management uygulamasında yeni bir taşıma yönetim altyapısının nasıl oluşturulacağını açıklar.
+description: Bu makale, Dynamics 365 Supply Chain Management uygulamasında yeni bir taşıma yönetim altyapısının nasıl oluşturulacağını açıklar.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be52c6afb66e88b36f3b2cdf5af14e17b3d3005f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 627972ef6afb7551bb57821ded24183f8f335e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678136"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857271"
 ---
 # <a name="create-a-new-transportation-management-engine"></a>Yeni bir taşıma yönetimi altyapısı oluşturma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Dynamics 365 Supply Chain Management uygulamasında yeni bir taşıma yönetim altyapısının nasıl oluşturulacağını açıklar. 
+Bu makale, Dynamics 365 Supply Chain Management uygulamasında yeni bir taşıma yönetim altyapısının nasıl oluşturulacağını açıklar. 
 
 Nakliye yönetimi (TMS) motorları, Nakliye yönetimindeki nakliye oranlarının oluşturulması ve işlenmesi için kullanılan mantığı tanımlar. Supply Chain Management; oran, yoldaki saatler ve aktarma sırasında kesilecek bölge sayısı gibi farklı parametreleri hesaplayan birkaç farklı altyapı türü sağlar. Bu makalede, yeni bir TMS altyapısı oluşturmak ve dağıtmak ve daha sonra işlemdeki altyapıyı ayarlamak için Supply Chain Management geliştirme araçlarıyla birlikte Microsoft Visual Studio geliştirme ortamının nasıl kullanılacağı açıklanır. Altyapılar hakkında daha fazla bilgi için bkz. [Nakliye yönetimi motorları](transportation-management-engines.md).
 

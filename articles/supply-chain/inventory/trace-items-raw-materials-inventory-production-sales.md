@@ -1,6 +1,6 @@
 ---
 title: Stok, üretim ve satıştaki maddeleri ve hammaddeleri izleme
-description: Bu konuda, madde izlemesini kullanarak maddelerin veya hammaddelerin üretim ve satış süreçlerinde nerede kullanılmış, kullanılmakta veya kullanılacak olduklarını belirleyebilirsiniz.
+description: Bu makalede, madde izlemesini kullanarak maddelerin veya hammaddelerin üretim ve satış süreçlerinde nerede kullanılmış, kullanılmakta veya kullanılacak olduklarını belirleyebilirsiniz.
 author: yufeihuang
 ms.date: 11/02/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95f59a3eca20634d03520ad88f71a3096309e23e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 23d860b86e2eebb520bf2fd472c5655f40dd0ca0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571821"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854427"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Stok, üretim ve satıştaki maddeleri ve hammaddeleri izleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, madde izlemesini kullanarak maddelerin veya hammaddelerin üretim ve satış süreçlerinde nerede kullanılmış, kullanılmakta veya kullanılacak olduklarını belirleyebilirsiniz.
+Bu makalede, madde izlemesini kullanarak maddelerin veya hammaddelerin üretim ve satış süreçlerinde nerede kullanılmış, kullanılmakta veya kullanılacak olduklarını belirleyebilirsiniz.
 
 Madde izleme işlevi **Madde izleme** sayfasında bulunur. Madde izlemeyi nasıl kullanabileceğiniz ve seçenekler ve sınırlamaların neler olduğu aşağıdaki bölümlerde açıklanmıştır.
 

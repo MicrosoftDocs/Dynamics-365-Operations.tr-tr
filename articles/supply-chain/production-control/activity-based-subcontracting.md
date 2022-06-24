@@ -1,6 +1,6 @@
 ---
 title: Etkinlik tabanlı alt sözleşme verme
-description: Bu konu, alt sözleşmeli etkinliklerin yalın imalat için üretim akışında nasıl kullanılacağını ayrıntılarıyla açıklar.
+description: Bu makale, alt sözleşmeli etkinliklerin yalın imalat için üretim akışında nasıl kullanılacağını ayrıntılarıyla açıklar.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c2e1efceb800930d9f9e19a109da80d8cfebe2e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e53da46a27fd573ae7f7450fcf34ffd8ef43e3fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566843"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890755"
 ---
 # <a name="activity-based-subcontracting"></a>Etkinlik tabanlı alt sözleşme verme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, alt sözleşmeli etkinliklerin yalın imalat için üretim akışında nasıl kullanılacağını ayrıntılarıyla açıklar.
+Bu makale, alt sözleşmeli etkinliklerin yalın imalat için üretim akışında nasıl kullanılacağını ayrıntılarıyla açıklar.
 
 Microsoft Dynamics 365 Supply Chain Management'ta, alt sözleşme için iki seçenek vardır: üretim emirleri ve yalın imalat. Yalın imalat yaklaşımında, alt özleşme işi bir üretim akışının etkinliğiyle ilişkili bir hizmet olarak modellenir. **Doğrudan dış kaynak kullanımı** olarak adlandırılan özel bir maliyet grubu türü kullanılmaya başlanmıştır ve alt sözleşme hizmetleri artık bir ürün reçetesinin (BOM) parçası değildir. Alt sözleşmeli işin maliyet muhasebesi, yalın imalatın maliyetlendirme çözümüne tümüyle entegre edilmiştir.
 

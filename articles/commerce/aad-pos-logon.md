@@ -1,6 +1,6 @@
 ---
 title: POS oturum açma için Azure Active Directory kimlik doğrulamasını yapılandırma
-description: Bu konu, Microsoft Dynamics 365 Commerce satış noktasında kimlik doğrulama yöntemi olarak Azure Active Directory'yi yapılandırma yöntemini açıklamaktadır.
+description: Bu makale, Microsoft Dynamics 365 Commerce satış noktasında kimlik doğrulama yöntemi olarak Azure Active Directory'yi yapılandırma yöntemini açıklamaktadır.
 author: boycezhu
 ms.date: 04/23/2021
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 9dfb0389b0ca4b2cf75ccc70f35824674e618055
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 47da2c78cef2bbee324fbc2202898fbabd927c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853940"
 ---
 # <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>POS oturum açma için Azure Active Directory kimlik doğrulamasını yapılandırma
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce (POS) satış noktasında kimlik doğrulama yöntemi olarak Azure Active Directory'yi (Azure AD) yapılandırma yöntemini açıklamaktadır.
+Bu makale, Microsoft Dynamics 365 Commerce (POS) satış noktasında kimlik doğrulama yöntemi olarak Azure Active Directory'yi (Azure AD) yapılandırma yöntemini açıklamaktadır.
 
-Microsoft Azure, Microsoft 365, ve Microsoft Teams gibi diğer Microsoft bulut hizmetleriyle birlikte Dynamics 365 Commerce kullanan perakendeciler genellikle uygulamalar arasında güvenli ve sorunsuz oturum açma deneyimi sağlamak amacıyla kullanıcı kimlik bilgilerinin merkezi yönetimi için Azure AD kullanmak ister. Commerce POS için Azure AD kimlik doğrulamasını kullanmak için önce Commerce genel merkezinde kimlik doğrulama yöntemi olarak Azure AD'yi yapılandırmalısınız.
+Microsoft Azure, Microsoft 365 ve Microsoft Teams gibi diğer Microsoft bulut hizmetleriyle birlikte Dynamics 365 Commerce kullanan perakendeciler genellikle uygulamalar arasında güvenli ve sorunsuz oturum açma deneyimi sağlamak amacıyla kullanıcı kimlik bilgilerinin merkezi yönetimi için Azure AD kullanmak ister. Commerce POS için Azure AD kimlik doğrulamasını kullanmak için önce Commerce genel merkezinde kimlik doğrulama yöntemi olarak Azure AD'yi yapılandırmalısınız.
 
 ## <a name="configure-pos-authentication-method"></a>POS kimlik doğrulama yöntemini yapılandırma
 

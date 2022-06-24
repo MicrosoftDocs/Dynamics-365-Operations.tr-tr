@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: f71ce701adbe60b69b25e41810dda7adeec1d390
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5d1ea1517c75393b1c8d7c95c8aa2405042b4532
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983806"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850655"
 ---
 # <a name="product-lifecycle-state-overview"></a>Ürün yaşam döngüsü durumuna genel bakış
 
@@ -74,7 +74,7 @@ Daha fazla bilgi için:
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Eski ürünleri ve ürün çeşitlerini bulma
 
-Eski ürünleri ve ürün çeşitlerini bulmak için bir benzerim analizi çalıştırabilir ve daha sonra ürün yaşam döngüsü durumlarını güncelleştirebilirsiniz. Eski ürünleri bulmak için [Eski ürün çeşitlerini bulma ve bir ürün yaşam döngüsü durumu atama](tasks/obsolete-product-variants.md) konusuna bakın. Bu konu, eski ürünleri veya ürün çeşitlerini nasıl bulabileceğinizi ve bir ürün yaşam döngüsü durumunu eski ürünlerle nasıl ilişkilendirebileceğinizi gösterir. Ayrıca, benzetim sonuçlarının nasıl görüntüleneceğini ve benzetim olmadan güncelleştirme çalıştırıldığında ne kadar ürün ve ürün çeşidinin yeni bir ürün yaşam döngüsü durumuyla ilişkilendirileceğinin nasıl değerlendirileceğini gösterir.  
+Eski ürünleri ve ürün çeşitlerini bulmak için bir benzerim analizi çalıştırabilir ve daha sonra ürün yaşam döngüsü durumlarını güncelleştirebilirsiniz. Eski ürünleri bulmak için [Eski ürün çeşitlerini bulma ve bir ürün yaşam döngüsü durumu atama](tasks/obsolete-product-variants.md) konusuna bakın. Bu makale, eski ürünleri veya ürün çeşitlerini nasıl bulabileceğinizi ve bir ürün yaşam döngüsü durumunu eski ürünlerle nasıl ilişkilendirebileceğinizi gösterir. Ayrıca, benzetim sonuçlarının nasıl görüntüleneceğini ve benzetim olmadan güncelleştirme çalıştırıldığında ne kadar ürün ve ürün çeşidinin yeni bir ürün yaşam döngüsü durumuyla ilişkilendirileceğinin nasıl değerlendirileceğini gösterir.  
 
 Analiz benzetim modunda çalıştırıldığında, eski olarak tanımlanan ürünler ve ürün çeşitleri kolay bir şekilde gözden geçirilmelerini sağlayan özel bir formda görüntülenir. Analiz, değişken bir dönem içinde talep edilmemiş olan ve talep durumunda herhangi bir ana veriye ulaşılamayacak ürünleri tanımlamak için hareketleri ve belirli ana verileri arar. Değişken bir dönem içinde yeni serbest bırakılan ürünler bu analizin dışında bırakılabilir. Analiz benzetimi beklenen sonucu döndürdüğünde, kullanıcı analizi çalıştırabilir ve analiz tarafından eski olarak tanımlanan tüm ürünler için yeni bir ürün yaşam döngüsü durumu ayarlayabilir.  
 
@@ -97,7 +97,7 @@ Serbest bırakılan ürünleri ve ürün çeşitlerini seçmek ve güncelleştir
 - Ürün veya ürün çeşidi için etkin veya geleceğe yönelik satış veya satınalma sözleşmesi satırları bulunmamalıdır.
 - Ürün veya ürün çeşidi, planlama için etkin olan bir ürün veya ürün çeşidi için süresi sona ermemiş, onaylanmış ürün reçetesi sürümüyle ilişkilendirilmiş bir ürün reçetesinde kullanılmamalıdır.
 
-## <a name="related-topics"></a>İlgili konular
+## <a name="related-articles"></a>İlgili makaleler
 
 - [Yeni ürün yaşam döngüsü durumu oluşturma](tasks/new-product-lifecycle-state.md)
 - [Varsayılan ürün yaşam döngüsü durumu oluşturma](tasks/default-product-lifecycle-state.md)

@@ -1,6 +1,6 @@
 ---
 title: Dalga sırasında dalga etiketi yazdırmayı zamanlama
-description: Bu konuda, görev tabanlı dalga etiketi yazdırma işlevselliğinin nasıl ayarlanacağı ve kullanılacağı açıklanmaktadır.
+description: Bu makalede, görev tabanlı dalga etiketi yazdırma işlevselliğinin nasıl ayarlanacağı ve kullanılacağı açıklanmaktadır.
 author: perlynne
 ms.date: 06/09/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: ac2bc4cce42bada43334b82301d716414cd6d654
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920161"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889471"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Dalga sırasında dalga etiketi yazdırmayı zamanlama
 
@@ -30,7 +30,7 @@ Dalga etiketi yazdırmayı yapılandırma işlemi karmaşıktır ve doğru yapı
 
 ## <a name="turn-on-the-task-based-wave-label-printing-feature-in-feature-management"></a>Özellik yönetiminde Görev tabanlı dalga etiketi yazdırma özelliğini açma
 
-Bu konuda açıklanan özellikleri kullanmak için, bunların sisteminiz için etkinleştirilmiş olması gerekir. Özellikleri aşağıdaki sırada açmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanın:
+Bu makalede açıklanan özellikleri kullanmak için, bunların sisteminiz için etkinleştirilmiş olması gerekir. Özellikleri aşağıdaki sırada açmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanın:
 
 1. *Dalga etiketi yazdırma*: Bu özellik, dalga etiketi yazdırma için dalga işlemi yöntemini etkinleştirmek için gereklidir.
 1. *Kuruluş genelinde iş durdurma*: Bu özellik, planlanan iş oluşturma işleminin hem el ile hem de otomatik yapılandırılması için gereklidir. (Supply Chain Management sürüm 10.0.21 itibariyle bu özellik zorunludur; bu nedenle varsayılan olarak açıktır ve yeniden kapatılamaz.)

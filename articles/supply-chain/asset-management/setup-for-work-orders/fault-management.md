@@ -1,6 +1,6 @@
 ---
 title: Hata yönetimi
-description: Bu konuda Varlık Yönetimi'ndeki varlık yönetiminde açıklanmaktadır.
+description: Bu makalede Varlık Yönetimi'ndeki varlık yönetiminde açıklanmaktadır.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 149d4fc8026a2a1878155d2b708cf3a79dd0e5af966db4e7f9339d8ca582da70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 10a4a209b54aa31c4a2f6970f46ab8b1a2cbef97
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6711965"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874173"
 ---
 # <a name="fault-management"></a>Hata yönetimi
 

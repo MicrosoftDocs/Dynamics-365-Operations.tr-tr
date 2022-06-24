@@ -1,6 +1,6 @@
 ---
-title: Stok Görünürlüğü rezervasyonları
-description: Bu konuda, Stok Görünürlüğü'nü kullanarak rezervasyon oluşturmak, rezervasyonları tüketmek ve/veya belirtilen stok miktarlarının rezervasyonunu kaldırmak için rezervasyon özelliğinin nasıl ayarlanacağı açıklanmaktadır.
+title: Inventory Visibility rezervasyonları
+description: Bu makalede, Stok Görünürlüğü'nü kullanarak rezervasyon oluşturmak, rezervasyonları tüketmek ve/veya belirtilen stok miktarlarının rezervasyonunu kaldırmak için rezervasyon özelliğinin nasıl ayarlanacağı açıklanmaktadır.
 author: yufeihuang
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5e6752539a6381e1f7271883102391374e04f3aa
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3b74907709ab97ddf4cc829dba324df213ca229f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061716"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895742"
 ---
-# <a name="inventory-visibility-reservations"></a>Stok Görünürlüğü rezervasyonları
+# <a name="inventory-visibility-reservations"></a>Inventory Visibility rezervasyonları
 
 [!include [banner](../includes/banner.md)]
 
 
-Bu konuda, Stok Görünürlüğü'nü kullanarak rezervasyon oluşturmak, rezervasyonları tüketmek ve/veya belirtilen stok miktarlarının rezervasyonunu kaldırmak için rezervasyon özelliğinin nasıl ayarlanacağı açıklanmaktadır.
+Bu makalede, Stok Görünürlüğü'nü kullanarak rezervasyon oluşturmak, rezervasyonları tüketmek ve/veya belirtilen stok miktarlarının rezervasyonunu kaldırmak için rezervasyon özelliğinin nasıl ayarlanacağı açıklanmaktadır.
 
 Rezervasyonlar, gelecekte kullanılacak stok miktarını belirtir. Rezervasyon oluşturduğunuzda sistem, rezervasyon tüketilene veya rezervasyonu kaldırılana kadar diğer siparişlerin rezerve edilmesini veya rezerve edilen malların tüketilmesini engeller. Rezervasyonlar, Stok Görünürlüğü hizmeti için API çağrılarını kullanarak oluşturulur, tüketilir ve iptal edilir.
 

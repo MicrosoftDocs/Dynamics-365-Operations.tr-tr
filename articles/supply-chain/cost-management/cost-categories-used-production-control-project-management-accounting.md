@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e35a6b7da4ead8ab6f007ef8800ed8a05b1c513
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 09a808c91ece25a9a40f662e0aca2c504246fc0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675361"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854514"
 ---
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Üretim kontrolde ve Proje yönetimi muhasebesinde kullanılan maliyet kategorileri
 
@@ -31,7 +31,7 @@ Bazı üretim iş türleri, proje süresi tahminlerine ve raporlamaya uygulanabi
 
 Bazı üretim iş türleri, proje süresi tahminlerine ve raporlamaya uygulanabilir. Bu durumda, üretim ve proje amaçları için bir maliyet kategorisi gereklidir. Bir maliyet kategorisi üretim ve projelerde kullanılacaksa, projeyle ilgili ek bilgilerin tanımlanması gerekir. Örneğin, projelerle ilişkilendirilmiş olan saatlik maliyetler üretimle ilişkilendirilmiş olan saatlik maliyetlerden farklıdır. **Maliyet kategorileri** sayfasını kullanarak Üretim kontrol ve Proje yönetim muhasebesinde kullanılan bir maliyet kategorisi tanımlayabilirsiniz. 
 
-**Not:** Maliyet muhasebesinde bir **Proje kategorileri** sayfası vardır ama bu sayfanın bu konuda açıklanan işlevle ilişkisi yoktur. Projelerde bir maliyet kategorisi kullandığınızda **Maliyet kategorileri** sayfasında proje ile ilgili ek bilgiler gösteren ek sekmeler olur. Bu bilgiler, maliyet kategorisine atanmış kategori grubu, bir satır özelliğini ve genel muhasebe hesaplarını içerir.
+**Not:** Maliyet muhasebesinde bir **Proje kategorileri** sayfası vardır ama bu sayfanın bu makalede açıklanan işlevle ilişkisi yoktur. Projelerde bir maliyet kategorisi kullandığınızda **Maliyet kategorileri** sayfasında proje ile ilgili ek bilgiler gösteren ek sekmeler olur. Bu bilgiler, maliyet kategorisine atanmış kategori grubu, bir satır özelliğini ve genel muhasebe hesaplarını içerir.
 
 -   Maliyet kategorisi, hareket tipi olarak **Saat**'i destekleyen bir kategori grubuna atanmalıdır.
 -   Satır özelliği, raporlanan sürenin bir proje için nasıl masraflandırılabileceği hakkında varsayılan bilgileri belirtir.

@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özellikleri yapılandırma
-description: Bu konu, Microsoft Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özelliklerin nasıl yapılandırılacağını açıklamaktadır.
+description: Bu makale, Microsoft Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özelliklerin nasıl yapılandırılacağını açıklamaktadır.
 author: psimolin
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728303"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861926"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özellikleri yapılandırma
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özelliklerin nasıl yapılandırılacağını açıklamaktadır.
+Bu makale, Microsoft Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özelliklerin nasıl yapılandırılacağını açıklamaktadır.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
@@ -108,7 +108,7 @@ E-posta şablonlarını farklı görüntüler kullanacak şekilde özelleştirme
     - Paket sipariş şablonu
     - Sipariş şablonu al
 
-1. Metin veya HTML Düzenleyicisi kullanarak şablonları özelleştirin. [Desteklenen belirteçler](#supported-tokens-in-the-email-template) listesine bu konunun ilerisinde bakın.
+1. Metin veya HTML Düzenleyicisi kullanarak şablonları özelleştirin. Bu makalenin ilerleyen bölümlerindeki [desteklenen belirteçler](#supported-tokens-in-the-email-template) listesine bakın.
 1. Commerce'de oturum açın.
 1. Soldaki menüyü kullanarak, **Modüller \> Kuruluş yönetimi \> Kurulum \>> Kuruluş e-posta şablonları** gidin.
 1. Tüm şablonları görmek için soldaki listeyi genişletin.

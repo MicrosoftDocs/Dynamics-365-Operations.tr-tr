@@ -1,6 +1,6 @@
 ---
-title: Maddeler için minimum kapsamı güncelleştirmek için emniyet stoku günlüğünü kullanma
-description: Bu konuda, maddelerin emniyet stoku miktarını güncelleştirmek için emniyet stoğu günlüğünün, geçmişteki hareketlere dayalı minimum tedarik tekliflerini hesaplayarak nasıl kullanılacağı açıklanmaktadır.
+title: Maddelerin minimum kapsamını güncellemek için emniyet stoğu günlüğünü kullanma
+description: Bu makalede, maddelerin emniyet stoku miktarını güncelleştirmek için emniyet stoğu günlüğünün, geçmişteki hareketlere dayalı minimum tedarik tekliflerini hesaplayarak nasıl kullanılacağı açıklanmaktadır.
 author: t-benebo
 ms.date: 10/28/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-28
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 391f741ee08eb0624e80f5c297009c527e50c14c
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 385144738b83fcf6873eae5204b4784d6ecd5b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468566"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851783"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage-for-items"></a>Maddeler için minimum kapsamı güncelleştirmek için emniyet stoku günlüğünü kullanma
 
@@ -24,7 +24,7 @@ ms.locfileid: "8468566"
 
 Emniyet stoğu, maddenin stokta kalmama riskini azaltmak amacıyla bir madde için stokta tutulan ek miktarı belirtir. Emniyet stoğu, satış siparişlerinin gelmesi ve tedarikçinin müşteri tarafından talep edilen sevk tarihini karşılayacak şekilde teslim edememesi durumunda tampon olarak kullanılır.
 
-Bu konu, geçmiş işlemleri temel alarak minimum kapsam tekliflerini hesaplamak ve ardından tekliflerle madde kapsamının güncelleştirmek için emniyet stoğu günlüğünün nasıl kullanılacağını açıklar.
+Bu makale, geçmiş işlemleri temel alarak minimum kapsam tekliflerini hesaplamak ve ardından tekliflerle madde kapsamının güncelleştirmek için emniyet stoğu günlüğünün nasıl kullanılacağını açıklar.
 
 ## <a name="overview-of-minimum-coverage-usage"></a>Minimum tedarik kullanımına genel bakış
 
@@ -43,7 +43,7 @@ Emniyet stoğu, her madde için **Madde tedarik** sayfasında ayarlanır. Farkl�
 
 Emniyet stoğu günlükleri, minimum/maksimum veya stok planı amaçları için olan bir maddenin geçmiş kullanımını temel alan önerilen minimum miktarını hesaplamak için kullanılır. Tarihsel kullanım, belirtilen bir dönem içindeki tüm çıkış hareketlerini gösterir. Bu çıkış hareketleri satış siparişi hareketlerini ve stok düzeltmelerini içerir. Hesaplamalar ayrıca geçerli minimum miktarlarla karşılaştırıldığında, stok değerindeki önerilen minimum miktar değerini ve stok değerindeki değişikliği de tanımlar.
 
-Her emniyet stoğu günlük satırı, bir maddeyi ve bu maddenin karşılama boyutlarını temsil eder. Bu günlük satırları, **Emniyet stoğu günlük satırları** sayfasında oluşturulur ve gösterilir (**Master planlama \> Master planlama \> Çalıştır \>Güvenlik stoğu hesaplaması**). Önerilen minimum miktarları hesaplamak için emniyet stoğu günlüklerini kullanmaya yönelik iş süreci bu konunun ilerleyen kısımlarında açıklanmıştır.
+Her emniyet stoğu günlük satırı, bir maddeyi ve bu maddenin karşılama boyutlarını temsil eder. Bu günlük satırları, **Emniyet stoğu günlük satırları** sayfasında oluşturulur ve gösterilir (**Master planlama \> Master planlama \> Çalıştır \>Güvenlik stoğu hesaplaması**). Önerilen minimum miktarları hesaplamak için emniyet stoğu günlüklerini kullanmaya yönelik iş süreci bu makalenin ilerleyen kısımlarında açıklanmıştır.
 
 Planlayıcı, seçili dönemler sırasında geçmişteki kullanımı esas alarak, seçili maddelerin önerilen minimum miktarlarını hesaplamak için bir emniyet stoğu günlüğü kullanır. Önerilen minimum değer gerektiğinde el ile geçersiz kılınabilir ve önerilen minimum değerlerinin potansiyel etkisini gözden geçirebilirsiniz. Günlük deftere nakledildiğinde, madde karşılamasının ilişkili minimum miktarları otomatik olarak güncelleştirilir.
 
@@ -89,7 +89,7 @@ Günlük satırlarını otomatik olarak oluşturmak için bu adımları izleyin.
 
     - **Başlangıç tarihi** – Maddelerin hesaplamaya dahil edilmesi gereken dönemin başlangıç tarihini seçin.
     - **Bitiş tarihi** – Maddelerin hesaplamaya dahil edilmesi gereken dönemin bitiş tarihini seçin. Başlangıç ve bitiş tarihleri arasında en az iki ay olmalıdır.
-    - **Standart sapmayı hesapla** – Standart sapmayı hesaplamak için bu seçeneği *Evet* olarak ayarlayın. Teklifi hesaplarken (bu konunun ilerisinde açıklandığı gibi), **Servis** düzeyi kullan seçeneğini kullanmak için bu seçeneği *Evet* olarak ayarlamalısınız.
+    - **Standart sapmayı hesapla** – Standart sapmayı hesaplamak için bu seçeneği *Evet* olarak ayarlayın. Teklifi hesaplarken (bu makalenin ilerisinde açıklandığı gibi), **Servis** düzeyi kullan seçeneğini kullanmak için bu seçeneği *Evet* olarak ayarlamalısınız.
 
 1. **Dahil edilecek kayıtlar** hızlı sekmesinde, dahil edilecek maddeleri tanımlamak için filtreler ve sınırlamalar ayarlayabilirsiniz. (Örneğin, **Karşılama grubu** değerine göre filtre uygulayabilirsiniz.) Seçim ölçütü, sıralama ölçütü ve birleşim tanımlayabileceğiniz standart bir sorgu düzenleyici iletişim kutusunu açmak için **Filtre**'yi seçin. Alanlar, Microsoft Dynamics 365 Supply Chain Management'taki diğer sorgu türleri için çalıştıkları gibi çalışır.
 1. **Arka planda çalıştır** hızlı sekmesinde, işi toplu iş modunda çalıştırmanın ve/veya yinelenen bir zamanlama ayarlamanın gerekip gerekmediğini seçin. Alanlar, Supply Chain Management'ta bulunan diğer [arka plan işleri](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) için çalıştıkları gibi çalışır.
@@ -110,7 +110,7 @@ Bu adım, her bir günlük satırı için önerilen minimum değerini ve satır�
 Gösterilen hesaplamalar, Eylem Bölmesinde **Deftere naklet**'i seçene kadar her bir ürün için fiili minimum miktar değerlerini etkilemez. Bu tarihte, her bir ürüne **Yeni minimum miktar** değerleri uygulanacaktır.
 
 1. **Master planlama \> Master planlama \> Çalıştır \> Emniyet stoğu hesaplama**'ya gidin.
-1. Teklifi hesaplamak için günlüğü açın. Alternatif olarak, bu konuda daha önce anlatıldığı gibi yeni bir günlük de oluşturabilirsiniz.
+1. Teklifi hesaplamak için günlüğü açın. Alternatif olarak, bu makalede daha önce anlatıldığı gibi yeni bir günlük de oluşturabilirsiniz.
 1. **Günlük satırları** hızlı sekmesinde, araç çubuğundaki **Teklifi hesapla**'yı seçin. (Herhangi bir satırı seçmeniz gerekmez.)
 1. **Minimum stok düzeyi için teklifi hesapla** iletişim kutusuna, aşağıdaki alanları ayarlayın:
 

@@ -1,6 +1,6 @@
 ---
 title: Madde kalite grupları
-description: Bu konu, otomatik oluşturma ve kalite emirleri oluşturmak üzere kalite ilişkilerine atanabilmeleri için ürünleri mantıksal olarak gruplamak üzere madde kalite gruplarının nasıl kullanılacağını açıklar.
+description: Bu makale, otomatik oluşturma ve kalite emirleri oluşturmak üzere kalite ilişkilerine atanabilmeleri için ürünleri mantıksal olarak gruplamak üzere madde kalite gruplarının nasıl kullanılacağını açıklar.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f7a4932c561c052bec1eb0094a390e315b9b1bb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bf1ce49fa58fd1a8a5aa07636e0b2bd7e2fc10e4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580924"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875379"
 ---
 # <a name="item-quality-groups"></a>Madde kalite grupları
 
 [!include [banner](../includes/banner.md)]
 
-Kalite grubu, maddeler için ortak test gereksinimlerini temsil eder. Bu konu, otomatik oluşturma ve kalite emirleri oluşturmak üzere kalite ilişkilerine atanabilmeleri için ürünleri mantıksal olarak gruplamak üzere madde kalite gruplarının nasıl kullanılacağını açıklar.
+Kalite grubu, maddeler için ortak test gereksinimlerini temsil eder. Bu makale, otomatik oluşturma ve kalite emirleri oluşturmak üzere kalite ilişkilerine atanabilmeleri için ürünleri mantıksal olarak gruplamak üzere madde kalite gruplarının nasıl kullanılacağını açıklar.
 
 Bir kalite grubuna atanmış maddeleri veya bir maddeye atanmış kalite gruplarını ayarlamak, düzenlemek ve görüntülemek için **Stok yönetimi \> Kurulum \> Kalite grupları**'na gidin. **Test grupları** sayfasındaki test gereksinimlerini tanımladıktan sonra, kalite emirlerini otomatik olarak oluşturmak için kurallar tanımlayabilirsiniz. İşlemi basitleştirmek için, kuralları her bir öğe için tanımlamanız gerekmez. Bunun yerine, **Kalite ilişkileri** sayfasında bir kalite grubu için kuralları tanımlayabilirsiniz.
 

@@ -1,6 +1,6 @@
 ---
 title: Kıymet görünümü
-description: Bu konuda Kıymet Yönetimi'ndeki kıymet görünümü açıklanmaktadır.
+description: Bu makalede Kıymet Yönetimi'ndeki kıymet görünümü açıklanmaktadır.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4265928fc5cb899a77eee6e5b9ff0a928efbe99c99ec7fe31eecffcb0f98f752
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a416dbea0bab8f6a506ae5cfbfc4feeae8edfe29
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765550"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882735"
 ---
 # <a name="asset-view"></a>Kıymet görünümü
 
@@ -28,7 +28,7 @@ ms.locfileid: "6765550"
 
  
 
-Bu konuda Kıymet Yönetimi'ndeki kıymet görünümü açıklanmaktadır. **Kıymet görünümü** sayfası etkin kıymetleri ve işlem yapılacak yerleşimleri ağaç görünümünde gösterir. Bu nedenle kıymetin işlem yapılacak yerleşimlerle ilişkisine genel bakışı kolayca alabilirsiniz. Ayrıca işlem yapılacak yerleşimler, kıymetler ve ilgili ürün reçeteleri (BOM) hakkında ayrıntılı bilgileri de görüntüleyebilirsiniz. Ayrıca kıymetle ilgili etkin bakım talepleri ve iş emirlerine hızlı bir genel bakış da alabilirsiniz.
+Bu makalede Kıymet Yönetimi'ndeki kıymet görünümü açıklanmaktadır. **Kıymet görünümü** sayfası etkin kıymetleri ve işlem yapılacak yerleşimleri ağaç görünümünde gösterir. Bu nedenle kıymetin işlem yapılacak yerleşimlerle ilişkisine genel bakışı kolayca alabilirsiniz. Ayrıca işlem yapılacak yerleşimler, kıymetler ve ilgili ürün reçeteleri (BOM) hakkında ayrıntılı bilgileri de görüntüleyebilirsiniz. Ayrıca kıymetle ilgili etkin bakım talepleri ve iş emirlerine hızlı bir genel bakış da alabilirsiniz.
 
 1. **Kıymet yönetimi** \> **Ortak** \> **Kıymetler** \> **Kıymet görünümü** öğesini seçin.
 2. Sayfada gösterilen görünümü değiştirmek için **Görünüm** alanından yeni bir değer seçin.

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c6729e9a485205a6beb53441798952fac2b93ef7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a0dd10ba7ce0f6eca2549edb227eb9116edea2d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673060"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857503"
 ---
 # <a name="automatic-allocation-of-charges"></a>Otomatik masraf tahsisatı
 

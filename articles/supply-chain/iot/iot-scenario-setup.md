@@ -1,6 +1,6 @@
 ---
 title: IoT Zekası için senaryo kurulumu
-description: Bu konu, Microsoft Dynamics 365 Supply Chain Management uygulamasında IoT Zekası için senaryoların nasıl yapılandırılacağını açıklamaktadır.
+description: Bu makale, Microsoft Dynamics 365 Supply Chain Management uygulamasında IoT Zekası için senaryoların nasıl yapılandırılacağını açıklamaktadır.
 author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dddc282ef3e479d524b1dfa0c60091cad1c231e0
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3172bdb81e00d20c5b1d1f3f8e4299ca69c59434
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675191"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889620"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>IoT Zekası için senaryo kurulumu
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Supply Chain Management uygulamasında IoT Zekası için senaryoların nasıl yapılandırılacağını açıklamaktadır. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
+Bu makale, Microsoft Dynamics 365 Supply Chain Management uygulamasında IoT Zekası için senaryoların nasıl yapılandırılacağını açıklamaktadır. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
 
-Bu konuda, **Ekipman kesinti süresi** senaryosunu bir makine arızalandığında Supply Chain Management'ta bildirim oluşturulacak şekilde yapılandıracaksınız. Bu konu ayrıca, bir maddenin özniteliği belirli bir aralığın dışında olduğunda bir bildirimin oluşturulması için **Ürün kalite** senaryosunun nasıl yapılandırılacağını ve üretim verimi bir eşik değerinin altına düştüğünde bir bildirim üretilmesi için **Üretim gecikmeleri** senaryosunun nasıl yapılandırılacağını açıklar.
+Bu makalede, **Ekipman kesinti süresi** senaryosunu bir makine arızalandığında Supply Chain Management'ta bildirim oluşturulacak şekilde yapılandıracaksınız. Bu makale ayrıca, bir maddenin özniteliği belirli bir aralığın dışında olduğunda bir bildirimin oluşturulması için **Ürün kalite** senaryosunun nasıl yapılandırılacağını ve üretim verimi bir eşik değerinin altına düştüğünde bir bildirim üretilmesi için **Üretim gecikmeleri** senaryosunun nasıl yapılandırılacağını açıklar.
 
 ## <a name="configure-the-equipment-downtime-scenario-in-supply-chain-management"></a>Supply Chain Management'ta Ekipman kesinti süresi senaryosunu yapılandırma
 

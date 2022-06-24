@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Commerce uygulamasında etki alanları
-description: Bu konuda, etki alanlarının Microsoft Dynamics 365 Commerce uygulamasında nasıl yönetildiği açıklanmaktadır.
+title: Dynamics 365 Commerce'taki etki alanları
+description: Bu makalede, etki alanlarının Microsoft Dynamics 365 Commerce uygulamasında nasıl yönetildiği açıklanmaktadır.
 author: BrShoo
 ms.date: 05/10/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
-ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
+ms.openlocfilehash: c48c8bd57d90a8c7d47bfa4263cd9ab38002629b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8737358"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848966"
 ---
-# <a name="domains-in-dynamics-365-commerce"></a>Dynamics 365 Commerce uygulamasında etki alanları
+# <a name="domains-in-dynamics-365-commerce"></a>Dynamics 365 Commerce'taki etki alanları
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, etki alanlarının Microsoft Dynamics 365 Commerce uygulamasında nasıl yönetildiği açıklanmaktadır.
+Bu makalede, etki alanlarının Microsoft Dynamics 365 Commerce uygulamasında nasıl yönetildiği açıklanmaktadır.
 
-Etki alanları, bir web tarayıcısında Dynamics 365 Commerce sitelerinde gezinmek için kullanılan web adresleridir. Etki alanının yönetimini seçilen bir etki alanı adı sunucusu (DNS) sağlayıcısıyla denetleyebilirsiniz. Dynamics 365 Commerce site oluşturucusunda yayımlandığında bir siteye nasıl erişileceğini koordine etmek için etki alanlarına başvurulur. Bu konuda, Commerce site geliştirme ve başlatma yaşam döngüsü boyunca etki alanlarının nasıl yönetildiği ve başvurulduğu incelenir.
+Etki alanları, bir web tarayıcısında Dynamics 365 Commerce sitelerinde gezinmek için kullanılan web adresleridir. Etki alanının yönetimini seçilen bir etki alanı adı sunucusu (DNS) sağlayıcısıyla denetleyebilirsiniz. Dynamics 365 Commerce site oluşturucusunda yayımlandığında bir siteye nasıl erişileceğini koordine etmek için etki alanlarına başvurulur. Bu makalede, Commerce site geliştirme ve başlatma yaşam döngüsü boyunca etki alanlarının nasıl yönetildiği ve başvurulduğu incelenir.
 
 > [!NOTE]
 > 6 Mayıs 2022 itibarıyla, Dynamics 365 Commerce'te oluşturulan tüm ortamlar önceki `.commerce.dynamics.com` şablonunun yerini alan `.dynamics365commerce.ms` etki alanıyla hazırlanacak. `.commerce.dynamics.com` etki alanıyla hazırlanan varolan ortamlar çalışmaya devam eder.

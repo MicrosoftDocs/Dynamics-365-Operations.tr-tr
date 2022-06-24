@@ -1,6 +1,6 @@
 ---
 title: Kısmen rezerve edilen transfer emirleri için toplu iş serbest bırakma
-description: Bu konu bir mobil cihazdan kısmi rezerve edilmiş transfer emirlerini toplu serbest bırakmanın nasıl ayarlanacağını ve uygulanacağını açıklamaktadır.
+description: Bu makale bir mobil cihazdan kısmi rezerve edilmiş transfer emirlerini toplu serbest bırakmanın nasıl ayarlanacağını ve uygulanacağını açıklamaktadır.
 author: perlynne
 ms.date: 05/26/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fbe12b66da68bcd130fdb188eb0106b686200c3b59edc2af96b79f65022567a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 591c93eef61992507188323909f37e3f33550a7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759394"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888397"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Kısmen rezerve edilen transfer emirleri için toplu iş serbest bırakma
 

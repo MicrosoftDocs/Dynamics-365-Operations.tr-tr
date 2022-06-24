@@ -1,6 +1,6 @@
 ---
 title: Varlıkları taşıma, değiştirme ve yükleme
-description: Bu konuda Varlık Yönetimi'nde varlıkların nasıl taşınacağı, değiştirileceği ve yükleneceği açıklanmaktadır.
+description: Bu makalede Varlık Yönetimi'nde varlıkların nasıl taşınacağı, değiştirileceği ve yükleneceği açıklanmaktadır.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aad94f17d6efadf7c520c021354963e7135d6d4da1426774925ce877f705e01a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769647"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872138"
 ---
 # <a name="move-replace-and-install-assets"></a>Varlıkları taşıma, değiştirme ve yükleme
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769647"
 
  
 
-Bu konuda Varlık Yönetimi'nde varlıkların nasıl taşınacağı, değiştirileceği ve yükleneceği açıklanmaktadır. Başka varlıklarla ilişkisi olmayan bağımsız varlıklar oluşturabilir veya bir üst varlık (en üst düzey varlık) ve ilgili alt varlıklar (alt varlıklar) içeren bir varlık yapısı oluşturabilirsiniz. Varlık Yönetiminde, bir varlığın yerleşimini taşımak ve değiştirmek için üç yaklaşım vardır:
+Bu makalede Varlık Yönetimi'nde varlıkların nasıl taşınacağı, değiştirileceği ve yükleneceği açıklanmaktadır. Başka varlıklarla ilişkisi olmayan bağımsız varlıklar oluşturabilir veya bir üst varlık (en üst düzey varlık) ve ilgili alt varlıklar (alt varlıklar) içeren bir varlık yapısı oluşturabilirsiniz. Varlık Yönetiminde, bir varlığın yerleşimini taşımak ve değiştirmek için üç yaklaşım vardır:
 
 - **Taşı**: Varlığı başka bir varlık yapısına veya aynı varlık yapısındaki başka bir yerleşime taşıyın.
 - **Değiştir**: Bir varlığı onarılması veya yenilenmesi için bir varlık yapısından geçici olarak kaldırın ve yenilenen varlığı daha sonra varlık yapısına geri ekleyin. Alternatif olarak, kullanılan varlığı kalıcı olarak yeni bir varlıkla değiştirin.
@@ -42,7 +42,7 @@ Bu konuda Varlık Yönetimi'nde varlıkların nasıl taşınacağı, değiştiri
 Varlığı başka bir varlık yapısına veya aynı varlık yapısındaki başka bir yerleşime taşımak için **Varlığı taşı** işlevini kullanın. Ayrıca, bir varlığı varlık yapısının dışına taşıyarak yapı ilişkileri içermeyen bağımsız bir varlık haline gelmesini sağlayabilirsiniz.
 
 > [!NOTE]
-> Varlıklar onarılıyorsa veya geçici olarak değiştiriliyorsa bu işlevi kullanmayın. Bunun yerine, bu konunun ilerleyen kısımlarında açıklanan **Varlığı değiştir** işlevini kullanın.
+> Varlıklar onarılıyorsa veya geçici olarak değiştiriliyorsa bu işlevi kullanmayın. Bunun yerine, bu makalenin ilerleyen kısımlarında açıklanan **Varlığı değiştir** işlevini kullanın.
 
 1. **Varlık yönetimi** \> **Genel** \> **Varlıklar** \> **Tüm varlıklar** veya **Etkin varlıklar**'ı seçin.
 2. Listede, taşınacak varlığı seçin. Varlığın alt varlıkları varsa, bu varlıkları da taşırsınız.

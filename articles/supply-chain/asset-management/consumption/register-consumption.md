@@ -1,6 +1,6 @@
 ---
 title: Tüketimi kaydetme
-description: Bu konuda Varlık Yönetimi'nde tüketimi kaydetme işlemi açıklanmaktadır.
+description: Bu makalede Varlık Yönetimi'nde tüketimi kaydetme işlemi açıklanmaktadır.
 author: johanhoffmann
 ms.date: 08/21/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 619da584ea37e80b1803ae5983e52e8ee4053f3751a8df75a8f5bc1ddf7e65d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf78d53e8e2d7bee24a0a7789ca1a96cdd8f1415
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765597"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886058"
 ---
 # <a name="register-consumption"></a>Tüketimi kaydetme
 
@@ -90,7 +90,7 @@ Tüketim kayıtları yaptığınızda, farklı kayıt türleriyle ilgili mali bo
 - *Madde kayıtları:* Önce, varsa günlük başlığındaki mali boyutlar eklenir. Ardından ilgili iş emri projesindeki mali boyutlar eklenir. Bundan sonra, tesisteki mali boyutlar eklenir. Son olarak, maddedeki mali boyutlar eklenir.
 
 >[!NOTE]
->Üç kayıt türü için, mali boyut birleşimi doğrulanır ve geçersiz birleşimler boş bırakılır. Bu, diğer Finance and Operations uygulamalarıyla birlikte standart kurulumdur.
+>Üç kayıt türü için, mali boyut birleşimi doğrulanır ve geçersiz birleşimler boş bırakılır. Bu, diğer Finance and Operations uygulamalarıyla standart bir kurulumdır.
 
 
 

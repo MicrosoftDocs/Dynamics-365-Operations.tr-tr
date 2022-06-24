@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f3e94cc79f0daac9107f9876ac8414d2c4cff366
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e3ec1f59e0b1d202d5591bfc1525c9034f4d8f45
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569011"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893134"
 ---
 # <a name="zone-threshold-replenishment"></a>Bölge eşiği stok yenilemesi
 
@@ -45,7 +45,7 @@ Yerleşim tabanlı minimum/maksimum stok yenileme işleminden farklı olarak, b�
 
 ## <a name="set-up-zone-based-replenishment"></a><a name="setup"></a>Bölge tabanlı stok yenilemeyi ayarlama
 
-Bölgeye dayalı stok yenilemeyi ayarlamak için sistemin çeşitli kısımlarını yapılandırmanız gerekir. Bu bölümde çeşitli ayarlar tanıtılmakta ve bu konunun sonundaki senaryo üzerinden çalışmak istiyorsanız girebileceğiniz tanıtım veri değerleri sağlamaktadır.
+Bölgeye dayalı stok yenilemeyi ayarlamak için sistemin çeşitli kısımlarını yapılandırmanız gerekir. Bu bölümde çeşitli ayarlar tanıtılmakta ve bu makalenin sonundaki senaryo üzerinden çalışmak istiyorsanız girebileceğiniz tanıtım veri değerleri sağlamaktadır.
 
 ### <a name="set-up-directive-codes"></a>Yönerge kodlarını ayarlama
 
@@ -57,7 +57,7 @@ Yönerge kodlarınızı görüntülemek veya düzenlemek için, **Ambar yönetim
 
 #### <a name="prepare-demo-data-directive-codes"></a>Tanıtım verileri yönerge kodlarını hazırlama
 
-Bu örnek, bir yönerge kodunun nasıl hazırlanacağını göstermektedir. Bu konunun sonundaki senaryo üzerinden çalışmayı planlıyorsanız, burada sağlanan tanıtım veri değerlerini kullanın. Aksi durumda, kendi değerlerinizi kullanın.
+Bu örnek, bir yönerge kodunun nasıl hazırlanacağını göstermektedir. Bu makalenin sonundaki senaryo üzerinden çalışmayı planlıyorsanız, burada sağlanan tanıtım veri değerlerini kullanın. Aksi durumda, kendi değerlerinizi kullanın.
 
 1. Tanıtım verileriyle çalışmak için **USMF** tüzel kişiliğini seçin.
 1. **Ambar yönetimi \> Kurulum \> Yönerge kodları**'na gidin.
@@ -79,7 +79,7 @@ Stok yenileme şablonu, bir yerleşimde stokun ne zaman ve nasıl yenileneceğin
 
 #### <a name="prepare-a-demo-data-replenishment-template"></a>Tanıtım verileri stok yenileme şablonu hazırlama
 
-Bu örnek, bir stok yenileme şablonunun nasıl hazırlanacağını göstermektedir. Bu konunun sonundaki senaryo üzerinden çalışmayı planlıyorsanız, burada sağlanan tanıtım veri değerlerini kullanın. Aksi durumda, kendi değerlerinizi kullanın.
+Bu örnek, bir stok yenileme şablonunun nasıl hazırlanacağını göstermektedir. Bu makalenin sonundaki senaryo üzerinden çalışmayı planlıyorsanız, burada sağlanan tanıtım veri değerlerini kullanın. Aksi durumda, kendi değerlerinizi kullanın.
 
 1. Tanıtım verileriyle çalışmak için **USMF** tüzel kişiliğini seçin.
 1. **Ambar yönetimi \> Kurulum \> Stok yenileme \> Stok yenileme şablonları**'na gidin.
@@ -144,7 +144,7 @@ Gerekli çekme yerleşimi yönergelerini ve koyma yerleşim yönergelerini oluş
 
 #### <a name="prepare-demo-data-location-directives"></a>Tanıtım verileri yerleşim yönergelerini hazırlama
 
-Tanıtım verilerini bu konunun sonundaki senaryoda kullanılabilecek şekilde hazırlamak için iki yerleşim yönergesi oluşturmanız gerekir: biri çekme ve diğeri koyma için.
+Tanıtım verilerini bu makalenin sonundaki senaryoda kullanılabilecek şekilde hazırlamak için iki yerleşim yönergesi oluşturmanız gerekir: biri çekme ve diğeri koyma için.
 
 ##### <a name="create-a-replenishment-pick-directive"></a>Bir stok yenileme çekme yönergesi oluşturma
 
@@ -258,7 +258,7 @@ Bu bölümde, özellikle nasıl çalışılacağını gösteren örnek bir senar
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-sample-scenario"></a>Örnek senaryo için gereken örnek verileri hazırlama
 
-Senaryo üzerinden çalışmaya başlamadan önce, örnek verileri etkinleştirmeniz ve özelliği bu bölümde ve bu konunun önceki bölümlerinde açıklandığı şekilde ayarlamanız gerekir.
+Senaryo üzerinden çalışmaya başlamadan önce, örnek verileri etkinleştirmeniz ve özelliği bu bölümde ve bu makalenin önceki bölümlerinde açıklandığı şekilde ayarlamanız gerekir.
 
 #### <a name="use-the-usmf-legal-entity"></a>Tüzel kişilik olarak USMF'yi kullanın
 
@@ -266,7 +266,7 @@ Burada belirtilen örnek kayıtları ve değerleri kullanarak senaryo üzerinden
 
 #### <a name="prepare-additional-sample-data"></a>Ek örnek veriler hazırlama
 
-**USMF** tüzel kişiliğini seçtikten sonra, bu konunun önceki [Bölge tabanlı stok yenileme](#setup) bölümünde açıklandığı gibi gerekli ek örnek verileri ekleyin.
+**USMF** tüzel kişiliğini seçtikten sonra, bu makalenin önceki [Bölge tabanlı stok yenileme](#setup) bölümünde açıklandığı gibi gerekli ek örnek verileri ekleyin.
 
 #### <a name="check-your-on-hand-inventory"></a>Eldeki stokunuzu denetleme
 

@@ -1,6 +1,6 @@
 ---
 title: Mağazalardaki müşteri yönetimi
-description: Bu konu, perakendecilerin müşteri yönetimi yeteneklerini Microsoft Dynamics 365 Commerce'teki satış noktasında nasıl etkinleştirebileceğini açıklar.
+description: Bu makale, perakendecilerin müşteri yönetimi yeteneklerini Microsoft Dynamics 365 Commerce'teki satış noktasında nasıl etkinleştirebileceğini açıklar.
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5a352ba479ca5e635ef521b99f31bd26d5d837ac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 805d0b5894b18e2fc34f481bdc32ada7a4b1aee0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687345"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863499"
 ---
 # <a name="customer-management-in-stores"></a>Mağazalardaki müşteri yönetimi
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, perakendecilerin müşteri yönetimi yeteneklerini Microsoft Dynamics 365 Commerce'teki satış noktasında nasıl etkinleştirebileceğini açıklar.
+Bu makale, perakendecilerin müşteri yönetimi yeteneklerini Microsoft Dynamics 365 Commerce'teki satış noktasında nasıl etkinleştirebileceğini açıklar.
 
 Mağaza görevlilerinin, POS'ta müşteri kayıtlarını oluşturabilmesi ve düzenleyebilmesi önemlidir. Bu şekilde, e-posta adresi, telefon numarası ve adres gibi müşteri bilgileri ile ilgili güncelleştirmeleri kaydedebilirler. Bu bilgiler pazarlama gibi aşağı akış yönündeki sistemlerde yararlıdır, çünkü bu sistemlerin verimliliği müşteri verilerinin doğruluğuna bağlıdır.
 

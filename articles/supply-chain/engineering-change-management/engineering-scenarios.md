@@ -1,6 +1,6 @@
 ---
 title: Mühendislik değişikliği yönetimi özelliği kılavuzu
-description: Bu konu, mühendislik değişikliği yönetimiyle nasıl çalışılacağını gösteren uçtan uca bir kılavuz sağlar.
+description: Bu makale, mühendislik değişikliği yönetimiyle nasıl çalışılacağını gösteren uçtan uca bir kılavuz sağlar.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4c1c67559a8f2e9d0abb512f4231aea495d1957c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574005"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889649"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Mühendislik değişikliği yönetimi özelliği kılavuzu
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, mühendislik değişikliği yönetimiyle nasıl çalışılacağını gösteren uçtan uca bir kılavuz sağlar. En önemli senaryoların her birini ele alır:
+Bu makale, mühendislik değişikliği yönetimiyle nasıl çalışılacağını gösteren uçtan uca bir kılavuz sağlar. En önemli senaryoların her birini ele alır:
 
 - Temel özellik yapılandırması
 - Bir mühendislik şirketi yeni mühendislik ürünlerini nasıl oluşturur?
@@ -35,13 +35,13 @@ Bu konu, mühendislik değişikliği yönetimiyle nasıl çalışılacağını g
 - Mühendislik değişikliği emri oluşturarak istenen değişiklikler nasıl zamanlanır ve uygulanır?
 - Değiştirilen bir ürün nasıl serbest bırakılır?
 
-Bu konudaki tüm alıştırmalar Microsoft Dynamics 365 Supply Chain Management için sağlanan standart örnek verileri kullanır. Ayrıca, her alıştırma önceki alıştırmayı geliştirerek ilerler. Bu nedenle, özellikle mühendislik değişikliği yönetimi özelliğini daha önce hiç kullanmadıysanız, baştan sona alıştırmalar üzerinde çalışmanızı öneririz. Bu şekilde, özelliği tam olarak kavrayabilirsiniz.
+Bu makaledeki tüm alıştırmalar Microsoft Dynamics 365 Supply Chain Management için sağlanan standart örnek verileri kullanır. Ayrıca, her alıştırma önceki alıştırmayı geliştirerek ilerler. Bu nedenle, özellikle mühendislik değişikliği yönetimi özelliğini daha önce hiç kullanmadıysanız, baştan sona alıştırmalar üzerinde çalışmanızı öneririz. Bu şekilde, özelliği tam olarak kavrayabilirsiniz.
 
 ## <a name="set-up-for-the-sample-scenario"></a>Örnek senaryo için ayarlar
 
-Bu konuda sağlanan örnek senaryoyu izlemek için öncelikle demo verilerini kullanılabilir hale getirerek ve birkaç özel kayıt ekleyerek özelliği hazırlamanız gerekir.
+Bu makalede sağlanan örnek senaryoyu izlemek için öncelikle demo verilerini kullanılabilir hale getirerek ve birkaç özel kayıt ekleyerek özelliği hazırlamanız gerekir.
 
-Bu konunun geri kalanında herhangi bir alıştırma yapmaya başlamadan önce, aşağıdaki tüm alt bölümlerdeki talimatları izleyin. Bu alt bölümler, kendi kuruluşunuz için mühendislik değişikliği yönetimini ayarlarken kullanacağınız birkaç önemli ayar sayfasını da tanıtır.
+Bu makalenin geri kalanında herhangi bir alıştırma yapmaya başlamadan önce, aşağıdaki tüm alt bölümlerdeki talimatları izleyin. Bu alt bölümler, kendi kuruluşunuz için mühendislik değişikliği yönetimini ayarlarken kullanacağınız birkaç önemli ayar sayfasını da tanıtır.
 
 ### <a name="make-standard-demo-data-available"></a>Standart demo verilerini kullanılabilir hale getirme
 

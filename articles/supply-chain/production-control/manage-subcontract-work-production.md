@@ -1,6 +1,6 @@
 ---
 title: Üretimdeki alt sözleşme işini yönetme
-description: Bu konu, taşeron operasyonların Dynamics 365 Supply Chain Management içinde nasıl yönetileceğini açıklar. Başka bir deyişle, bir kaynağa atanan üretim operasyonlarının bir satıcı tarafından nasıl yönetileceğini açıklar.
+description: Bu makale, taşeron operasyonların Dynamics 365 Supply Chain Management içinde nasıl yönetileceğini açıklar. Başka bir deyişle, bir kaynağa atanan üretim operasyonlarının bir satıcı tarafından nasıl yönetileceğini açıklar.
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e80efc751ccf9243163d23ed48fd17923326f89
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a0021d409f9f4a9b36effbd80a99766812572d5b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579391"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863809"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>Üretimdeki alt sözleşme işini yönetme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, taşeron operasyonların Dynamics 365 Supply Chain Management içinde nasıl yönetileceğini açıklar. Başka bir deyişle, bir kaynağa atanan üretim operasyonlarının bir satıcı tarafından nasıl yönetileceğini açıklar.
+Bu makale, taşeron operasyonların Dynamics 365 Supply Chain Management içinde nasıl yönetileceğini açıklar. Başka bir deyişle, bir kaynağa atanan üretim operasyonlarının bir satıcı tarafından nasıl yönetileceğini açıklar.
 
 [Üretim işlemlerinde](production-process-overview.md) iş, satıcıların sahip olduğu veya onlar tarafından yönetilen kaynaklar tarafından yapılabilir. Genellikle satıcı kaynakları, bir şirketin kendi kaynaklarını aşan düzenli fazla talebi düzenlemek için kullanılır. Satıcı aynı zamanda belirli [kaynak yetenekleri](resource-capabilities.md) veya kaynakları daha düşük fiyattan sunabilir.  
 
@@ -63,7 +63,7 @@ Bu yapılandırma kullanıldığında, ilgili hizmet ürünü için bir üretim 
 Bir üretim emrinin birçok işlemi olabilir ve her işlem farklı bir satıcıya tahsis edilebilir. Bu nedenle, uçtan uca üretim emri çok sayıda satınalma siparişini tetikleyebilir.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Üretim akışı etkinliklerinin alt sözleşmeyle verilmesi
-[Yalın imalat](lean-manufacturing-overview.md) çözümü, alt sözleşmeli işi bir [üretim akışı](tasks/create-production-flow-version.md) (Görev kılavuzu konusu) faaliyetiyle ilişkili bir hizmet olarak modeller. Bu nedenle, bu tür alt sözleşmeler [etkinlik tabanlı alt sözleşme](activity-based-subcontracting.md) olarak da bilinir. **Doğrudan dış kaynak kullanımı** olarak bilinen bir özel maliyet grup türü kullanılmaya başlamıştır ve alt sözleşme hizmetleri, mamul malın BOM'unun parçası değildir. Yalın imalat kullandığınızda, tüm etkinlikler bir ya da birçok üretim akış etkinliğiyle ilişkilendirilebilir kanbanlar ile tanımlanır. Şu ana kadar bu açıklama, üretim emirleri açıklamasına benzemektedir. Ancak üretim emirleri her zaman bir mamul mal ile sonlanmak zorundayken, bir yarı bitmiş ürün sağlamak için kanbanlar oluşturabilirsiniz. Yeni ürün ve ürün reçetesi düzeyi tanıtmak zorunda değilsiniz.  
+[Yalın imalat](lean-manufacturing-overview.md) çözümü, alt sözleşmeli işi bir [üretim akışı](tasks/create-production-flow-version.md) (Görev kılavuzu makalesi) faaliyetiyle ilişkili bir hizmet olarak modeller. Bu nedenle, bu tür alt sözleşmeler [etkinlik tabanlı alt sözleşme](activity-based-subcontracting.md) olarak da bilinir. **Doğrudan dış kaynak kullanımı** olarak bilinen bir özel maliyet grup türü kullanılmaya başlamıştır ve alt sözleşme hizmetleri, mamul malın BOM'unun parçası değildir. Yalın imalat kullandığınızda, tüm etkinlikler bir ya da birçok üretim akış etkinliğiyle ilişkilendirilebilir kanbanlar ile tanımlanır. Şu ana kadar bu açıklama, üretim emirleri açıklamasına benzemektedir. Ancak üretim emirleri her zaman bir mamul mal ile sonlanmak zorundayken, bir yarı bitmiş ürün sağlamak için kanbanlar oluşturabilirsiniz. Yeni ürün ve ürün reçetesi düzeyi tanıtmak zorunda değilsiniz.  
 
 Kanban kuralları çok dinamik olabileceğinden, bir üretim akışı üzerinde aynı ürün için farklı tedarik türevleri modelleyebilirsiniz. Yalın alt sözleşme kullandığınızda, üretim akışı ve finansal akış katı bir biçimde ayrılır. Tüm malzeme akışı kanban etkinlikleri ile temsil edilir. Hizmet ürünleri ve bu hizmetlerin alış irsaliyesi deftere nakilleri, üretim akışındaki kanban işlerinin durumuna dayalı olarak otomatikleştirilebilir. Kanban işleri satınalma siparişleri başlamadan hatta oluşturulmadan önce başlatılabilir.a Alt sözleşme belgeleri (satınalma emri ve hizmetin satınalma alış irsaliyesi) dönem ve hizmet ile toplanabilmektedir. Bu nedenle, satınalma belgeleri ve satırları küçük tutulabilir, satıcıların tek bir parça akışında alt sözleşmeli hizmetler sağladığı büyük ölçüde tekrar eden operasyonlarda bile.
 

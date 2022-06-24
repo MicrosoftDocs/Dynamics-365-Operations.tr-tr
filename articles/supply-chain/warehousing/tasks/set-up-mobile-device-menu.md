@@ -1,6 +1,6 @@
 ---
 title: Satınalma siparişi iş türünü tamamlamak için bir mobil cihaz menü öğesi ayarlama
-description: Bu konu bir Mobil cihaz menü öğesinin nasıl kurulacağını gösterir.
+description: Bu makale bir Mobil cihaz menü öğesinin nasıl kurulacağını gösterir.
 author: Mirzaab
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d18b0ab1057dbccdd45a52a58f80ef9346e4459f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 09286e8e482780523b61006081205868be487755
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565189"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882300"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>Satınalma siparişi iş türünü tamamlamak için bir mobil cihaz menü öğesi ayarlama
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu bir Mobil cihaz menü öğesinin nasıl kurulacağını gösterir. Bu örnekte, menü öğesi Satın alma siparişi türünde işi yapan için kullanılır. Menü öğesiyle ilişkili iş sınıfı, hangi işin geçerli olduğunu belirler. Bu kılavuzu USMF demo şirketinde kullanabilirsiniz. Bu yordam genel olarak bir depo yöneticisi tarafından yerine getirilir.
+Bu makale bir Mobil cihaz menü öğesinin nasıl kurulacağını gösterir. Bu örnekte, menü öğesi Satın alma siparişi türünde işi yapan için kullanılır. Menü öğesiyle ilişkili iş sınıfı, hangi işin geçerli olduğunu belirler. Bu kılavuzu USMF demo şirketinde kullanabilirsiniz. Bu yordam genel olarak bir depo yöneticisi tarafından yerine getirilir.
 
 
 ## <a name="create-a-mobile-device-menu-item"></a>Mobil cihaz menü öğesi oluşturma

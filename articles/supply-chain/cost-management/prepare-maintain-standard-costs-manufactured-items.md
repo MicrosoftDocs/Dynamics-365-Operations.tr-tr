@@ -1,6 +1,6 @@
 ---
 title: Üretilmiş maddeler için standart maliyetleri sürdürmeye hazırlanma
-description: Bu konu üretilmiş maddeler için maliyetleri korumaya hazırlanmayla ilgili adımları açıklar.
+description: Bu makale üretilmiş maddeler için maliyetleri korumaya hazırlanmayla ilgili adımları açıklar.
 author: JennySong-SH
 ms.date: 01/17/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d42f61bcd44e89f0563c8f7450a1cdd6fd0e3ce
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 423da8022faf8066c5aa524c49c5071d0871de04
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679149"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886029"
 ---
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Üretilmiş maddeler için standart maliyetleri sürdürmeye hazırlanma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu üretilmiş maddeler için maliyetleri korumaya hazırlanmayla ilgili adımları açıklar. Üretilmiş maddelerle ilgili adımlar satın alınan maddelerle ilgili adımlardan biraz farklıdır.
+Bu makale üretilmiş maddeler için maliyetleri korumaya hazırlanmayla ilgili adımları açıklar. Üretilmiş maddelerle ilgili adımlar satın alınan maddelerle ilgili adımlardan biraz farklıdır.
 
 Üretilmiş maddelere atanan ilkeler, üretilmiş üst maddelere ait maliyet hesaplarını etkileyebilir. Üretilmiş maddeler için standart maliyetleri korumaya hazırlanmak için aşağıdaki adımları uygulayın.
 
@@ -63,7 +63,7 @@ Bu konu üretilmiş maddeler için maliyetleri korumaya hazırlanmayla ilgili ad
 
 Rota bilgilerini maliyetlendirme amaçlı kullanmak istemeniz durumunda ek hazırlık adımları gerekir. Örneğin, rota operasyonlarına atanan maliyet kategorilerinin doğru ve tam olması gerekir.
 
-## <a name="related-topics"></a>İlgili konular
+## <a name="related-articles"></a>İlgili makaleler
 
 [Üretilen maddeler için sabit maliyetlerin itfası](amortize-constant-costs-manufactured-item.md)
 

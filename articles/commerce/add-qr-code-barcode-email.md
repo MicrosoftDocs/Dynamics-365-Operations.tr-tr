@@ -1,6 +1,6 @@
 ---
 title: İşlem tabanlı e-postalara ve makbuz e-postalarına QR kodu veya barkod ekleme
-description: Bu konu, Microsoft Dynamics 365 Commerce'de işlem tabanlı e-postalara ve makbuz e-postalarına sıra kimliklerini temsil eden QR kodlarının ve barkodların nasıl ekleneceğini açıklamaktadır.
+description: Bu makale, Microsoft Dynamics 365 Commerce'de işlem tabanlı e-postalara ve makbuz e-postalarına sıra kimliklerini temsil eden QR kodlarının ve barkodların nasıl ekleneceğini açıklamaktadır.
 author: bicyclingfool
 ms.date: 03/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-02-16
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 5f7b349700a4b3b43f818b30bb479e630048e8b8
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ffa0009c55b5322b209b19692952c2e0704f65c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872896"
 ---
 # <a name="add-a-qr-code-or-bar-code-to-transactional-and-receipt-emails"></a>İşlem tabanlı e-postalara ve makbuz e-postalarına QR kodu veya barkod ekleme
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce'de işlem tabanlı e-postalara ve makbuz e-postalarına sıra kimliklerini temsil eden QR kodlarının ve barkodların nasıl ekleneceğini açıklamaktadır.
+Bu makale, Microsoft Dynamics 365 Commerce'de işlem tabanlı e-postalara ve makbuz e-postalarına sıra kimliklerini temsil eden QR kodlarının ve barkodların nasıl ekleneceğini açıklamaktadır.
 
 Bir perakende ortamında sipariş arama sürecini hızlandırmaya yardımcı olacak şekilde, işlem tabanlı e-postalara QR kodlarını ve barkodları kolayca dahil edebilirsiniz. E-postalara QR kodları ve Barkodlar eklemek için, oluşturma ve işleme servinden QR kodu veya barkod görüntüsü isteyen bir HTML **\<img\>** etiketi kullanın. Microsoft bu hizmeti sağlamaz. Ancak, bir sorgu dizesinde geçirilen bir değere dayalı olarak dinamik olarak oluşturulan QR kodları veya Barkod hizmeti veren birçok ücretsiz veya uygun fiyatlı hizmet vardır.
 

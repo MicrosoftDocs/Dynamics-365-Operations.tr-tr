@@ -1,6 +1,6 @@
 ---
 title: Talep tahminleri ile master planlama
-description: Bu konu, Planlama İyileştirmesi ile master planlama sırasında talep tahminlerinin nasıl ekleneceğini açıklamaktadır.
+description: Bu makale, Planlama İyileştirmesi ile master planlama sırasında talep tahminlerinin nasıl ekleneceğini açıklamaktadır.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ec5150186e190e67913409b9cac107ff2bd55001
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879004"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Talep tahminleri ile master planlama
 
@@ -42,7 +42,7 @@ Master planınızı bir talep tahmini içerecek şekilde yapılandırmak için b
 
     - **Tahmin modeli**: Uygulanacak tahmin modelini seçin. Geçerli master plan için bir tedarik önerisi oluşturulduğunda, bu model dikkate alınır.
     - **Talep tahminini dahil et**: Geçerli master plana talep tahmini eklemek için bu seçeneği *Evet* olarak ayarlayın. *Hayır* olarak ayarlarsanız talep tahmini hareketleri master plana dahil edilmeyecektir.
-    - **Tahmin gereksinimlerini azaltmak için kullanılan yöntem**: Tahmin gereksinimlerini azaltmak için kullanılacak yöntemi seçin. Daha fazla bilgi için bu konuda ileride yer alan [Tahmin azaltma anahtarları](#reduction-keys) bölümüne bakın.
+    - **Tahmin gereksinimlerini azaltmak için kullanılan yöntem**: Tahmin gereksinimlerini azaltmak için kullanılacak yöntemi seçin. Daha fazla bilgi için bu makalenin ilerleyen bölümlerindeki [Tahmin azaltma anahtarları](#reduction-keys) kısmına bakın.
 
 1. **Gün cinsinden zaman dilimi** hızlı sekmesinde, talep tahmininin dahil edildiği dönemi belirtmek için aşağıdaki alanları ayarlayabilirsiniz:
 
@@ -61,7 +61,7 @@ Kapsam grubunuzu bir talep tahmini içerecek şekilde yapılandırmak için bu a
 1. **Diğer** hızlı sekmesinde, aşağıdaki alanları ayarlayın:
 
     - **Tahmin planı zaman dilimi**: Talep tahmininin uygulanması gereken gün sayısını (bugünün tarihinden itibaren) girin. Bu değer, önceki bölümde açıklandığı gibi, master plan üzerindeki **Tahmin planı** seçeneği kullanılarak geçersiz kılınabilir.
-    - **Azaltma anahtarı**: Uygulanacak azaltma anahtarını seçin. Daha fazla bilgi için bkz. [Tahmin azaltma anahtarı oluşturma ve ayarlama](#create-reduction-key) ve bu konunun ilerleyen kısımlarındaki [Azaltma anahtarı kullanma](#use-reduction-key).
+    - **Azaltma anahtarı**: Uygulanacak azaltma anahtarını seçin. Daha fazla bilgi için bkz. [Tahmin azaltma anahtarı oluşturma ve ayarlama](#create-reduction-key) ve bu makalenin ilerleyen kısımlarındaki [Azaltma anahtarı kullanma](#use-reduction-key).
     - **Tahmin azaltma ölçütü**: **Tahmin gereksinimlerini azaltmak için kullanılan yöntem** alanının *Hareketler - azaltma anahtarı* veya *Hareketler - dinamik dönem* olarak ayarlandığı master planlar için hangi hareketlerin tahmini azaltılacağını belirtin. Aşağıdaki değerlerden birini seçin:
 
         - **Tüm hareketler**: Tüm hareketler tahmini azaltır.

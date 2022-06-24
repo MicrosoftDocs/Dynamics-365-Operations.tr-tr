@@ -1,6 +1,6 @@
 ---
 title: Tedarik ve kaynak atama ana sayfası
-description: Bu konuda, Tedarik ve kaynak atama için kullanılabilecek yardım konularının ve diğer kaynakların bir listesi verilmektedir.
+description: Bu makalede, Tedarik ve kaynak atama için kullanılabilecek yardım konularının ve diğer kaynakların bir listesi verilmektedir.
 author: GalynaFedorova
 ms.date: 09/27/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdf56084147edcdf8951d4a267611c10dc7eb6dd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 68409b15a3f4874d05a43931136ce91097c4f904
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673032"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885884"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Tedarik ve kaynak atama ana sayfası
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Tedarik ve kaynak atama için kullanılabilecek yardım konularının ve diğer kaynakların bir listesi verilmektedir.
+Bu makalede, Tedarik ve kaynak atama için kullanılabilecek yardım konularının ve diğer kaynakların bir listesi verilmektedir.
 
 Tedarik ve kaynak atama, ürün ve hizmet ihtiyacını belirlemeden ürünü satın alma, giriş, fatura ve satıcılarla ödeme işlemlerine kadar tüm adımları kapsar. Tedarik işlemleri; satınalma ilkeleri ve iş akışları tanımlanarak özel iş ihtiyaçlarına yönelik olarak yapılandırılabilir. Genel bilgi için bkz. [Tedarik ve kaynak atama genel özeti](procurement-sourcing-overview.md). Ek kaynaklar aşağıda listelenmiştir.
 

@@ -1,6 +1,6 @@
 ---
 title: Almanya için mali kayıt hizmeti tümleştirme örneği
-description: Bu konu, Microsoft Dynamics 365 Commerce'taki Almanya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
+description: Bu makale, Microsoft Dynamics 365 Commerce'taki Almanya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: 16079ba5ca830625c4f18df9fe6b5b307217183d
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: a218989263580ea08947d3366b79e3b19b506375
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614056"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867770"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Almanya için mali kayıt hizmeti tümleştirme örneği
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce'taki Almanya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
+Bu makale, Microsoft Dynamics 365 Commerce'taki Almanya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
 
 Almanya'da yazar kasalara yönelik yerel mali gereksinimlerin karşılanması amacıyla Almanya için Microsoft Dynamics 365 Commerce işlevi, satış noktasının (POS) harici bir mali kayıt hizmetiyle örnek tümleştirmesini içerir. Bu örnek, [mali tümleştirme işlevini](fiscal-integration-for-retail-channel.md) genişletir. [EFSTA'nın](https://www.efsta.eu/de/) [EFR (Elektronik Yazar Kasa)](https://www.efsta.eu/de/fiskalloesungen/deutschland) çözümüne dayalıdır ve HTTPS protokolü üzerinden EFR hizmetiyle iletişim kurulmasını sağlar. EFR hizmeti, Retail Hardware station'da veya Hardware station'dan bağlanılabilecek ayrı bir bilgisayarda barındırılmalıdır. Örnek, kaynak kodu biçiminde sağlanır ve Commerce yazılım geliştirme setinin (SDK) bir parçasıdır.
 

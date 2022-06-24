@@ -1,6 +1,6 @@
 ---
 title: Global Stok Muhasebesi kullanmaya başlama
-description: Bu konuda, Global Stok Muhasebesi kullanmaya nasıl başlayabileceğiniz açıklanmaktadır.
+description: Bu makalede, Global Stok Muhasebesi kullanmaya nasıl başlayabileceğiniz açıklanmaktadır.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 17d4816fc5fcad0b0665640a8347b1f4ea032dd7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679457"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891103"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Global Stok Muhasebesi kullanmaya başlama
 
@@ -38,12 +38,18 @@ Global Stok Muhasebesi bir eklentidir. Özelliklerini kullanılabilir hale getir
 
 Global Stok Muhasebesi, Supply Chain Management'ta yerleşik olan tüm maliyet yönetimi özelliklerini desteklememektedir. Bu nedenle, şu anda mevcut olan özellik kümesinin gereksinimlerinizi karşılayıp karşılamadığını değerlendirmeniz önemlidir.
 
-## <a name="how-to-get-the-global-inventory-accounting-public-preview"></a><a name="sign-up"></a>Global Stok Muhasebesi genel önizlemesi nasıl alınır
+## <a name="how-to-get-the-global-inventory-accounting-add-in"></a><a name="sign-up"></a>Global Stok Muhasebesi eklentisi nasıl alınır?
 
 > [!IMPORTANT]
 > Global Stok Muhasebesi kullanmak için, LCS etkin bir yüksek kullanılabilirlik ortamına sahip olmanız (OneBox ortamı değil) gerekir. Ek olarak, Supply Chain Management sürüm 10.0.19 veya üstünü çalıştırıyor olmalısınız.
 
-Global Stok Muhasebesi genel önizlemesine kaydolmak için, LCS ortam kimliğinizi e-posta ile [Global Stok Muhasebesi ekibine gönderin](mailto:GlobalInvAccount@microsoft.com). Program için onaylandıktan sonra, takım Global Stok Muhasebesi Beta anahtarı ve servis uç noktalarınızı içeren bir takip e-postası gönderir. Beta anahtarını aldıktan sonra [eklentiyi yükleyebilirsiniz](#install).
+### <a name="supply-chain-management-version-10019-to-10026"></a>Supply Chain Management sürüm 10.0.19 ila 10.0.26
+
+Supply Chain Management sürüm 10.0.19 ila 10.0.26 için Genel Stok Muhasebesi'ni yüklemek üzere, [eklentiyi yükleyerek başlayın](#install). Daha sonra, LCS ortam kimliğinizi ve şirket adınızı e-posta ile [Genel Stok Muhasebesi ekibine](mailto:GlobalInvAccount@microsoft.com) gönderin. Ekip Global Stok Muhasebesi ve servis uç noktalarınızı içeren bir takip e-postası gönderir.
+
+### <a name="supply-chain-management-version-10027-and-later"></a>Supply Chain Management 10.0.27 sürümü ve sonraki sürümler
+
+Supply Chain Management sürüm 10.0.27 ve sonrası için Genel Stok Muhasebesi'ni yüklemek üzere, [eklentiyi yükleyin](#install). Bu Supply Chain Management sürümleri için Global Stok Muhasebesi servis uç noktaları otomatik olarak ayarlanır, böylece bunları el ile bulmanız gerekmez. Eklentiyi yüklerken herhangi bir sorunla karşılaşırsanız lütfen [Global Stok Muhasebesi ekibine](mailto:GlobalInvAccount@microsoft.com) başvurun.
 
 ## <a name="licensing"></a>Lisans
 
@@ -98,12 +104,7 @@ Dataverse yüklemenizin varsayılan dili İngilizcedeğilse, aşağıdaki adıml
 
 Global Stok Muhasebesi kullanabilmeniz için eklentiyi yüklemek üzere bu adımları izleyin.
 
-1. Global Stok Muhasebesi genel önizlemesi için [kaydolma](#sign-up).
 1. [LCS](https://lcs.dynamics.com/Logon/Index)'de oturum açın
-1. **Özellik yönetimi önizlemesi**'ne gidin.
-1. Artı işaretini (**+**) seçin.
-1. **Kod** alanına Global Stok Muhasebesi için eklenti beta anahtarınızı girin. (Kaydolduğunuzda Beta anahtarınızı e-posta ile almış olmanız gerekir.)
-1. **Engellemeyi Kaldır**'ı seçin.
 1. Hizmeti eklemek istediğiniz LCS ortamını açın.
 1. **Tüm ayrıntılar**'a gidin.
 1. **Power Platform Tümleştirmesi**'ne gidin **Kurulum**'u seçin.
@@ -124,6 +125,8 @@ Global Stok Muhasebesi ile Supply Chain Management arasındaki tümleştirmeyi a
 1. **Tümü** sekmesinde, *(Önizleme) Global stok muhasebesi* olarak adlandırılan özelliği arayın.
 1. **Şimdi etkinleştir**'i seçin.
 1. **Global stok muhasebesi \> Kurulum \> Global stok muhasebesi parametreleri \> Tümleştirme parametreleri**'ne gidin.
-1. **Veri hizmeti uç noktası** ve **Global stok muhasebesi uç noktası** alanlarında, önizleme Için kayıt olduğunuzda Global Stok Muhasebesi takımının gönderdiği e-postadaki URL'leri girin.
+1. Çalıştırdığınız Supply Chain Management sürümüne bağlı olarak aşağıdaki adımlardan birini uygulayın:
+    - **Supply Chain Management sürüm 10.0.19 ila 10.0.26**: **Veri servisi uç noktası** ve **Genel stok muhasebesi uç noktası** alanlarına, Genel Stok Muhasebesi ekibinin e-postayla gönderdiği URL'leri girin (ayrıca bkz. [Genel Stok Muhasebesi eklentisini edinme](#sign-up)).
+    - **Supply Chain Management sürüm 10.0.27 ve daha yeni sürümler**: Uç noktaları girmeniz gerekmediği için bu adımı atlayabilirsiniz.
 
 Global Stok Muhasebesi artık kullanıma hazır.

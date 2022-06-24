@@ -1,6 +1,6 @@
 ---
 title: Ambar yerleşimi durumu
-description: Bu konu Ambar konumu durumu özelliğine genel bakış sunmaktadır.
+description: Bu makale Ambar konumu durumu özelliğine genel bakış sunmaktadır.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d5ca45ce47e6b558ac5ba24e63e9461c1d643372
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d2632ed1f5c733e45f5d927643bdaef430bc4009
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677520"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850423"
 ---
 # <a name="warehouse-location-status"></a>Ambar yerleşimi durumu
 

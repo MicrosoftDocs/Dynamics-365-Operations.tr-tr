@@ -1,8 +1,8 @@
 ---
 title: Plan geçmişini ve planlama günlüklerini görüntüleme
-description: Bu konu, Planlamayı En İyi Duruma Getirme işlevi tarafından tetiklenen planlama işlerinin geçmişini nasıl görüntüleyeceğinizi açıklar.
+description: Bu makale, Planlamayı En İyi Duruma Getirme işlevi tarafından tetiklenen planlama işlerinin geçmişini nasıl görüntüleyeceğinizi açıklar.
 author: t-benebo
-ms.date: 10/30/2019
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,22 +16,22 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 9b4cba4dd94eb198e770d152d4f759a706065dee
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: b2c9257fc67a06b57418b2f5b035b2b540131405
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469771"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863954"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Plan geçmişini ve planlama günlüklerini görüntüleme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta Planlamayı En İyi Duruma Getirme işlevi tarafından tetiklenen planlama işlerinin geçmişini nasıl görüntüleyeceğinizi açıklar.
+Bu makale, Microsoft Dynamics 365 Supply Chain Management'ta Planlamayı En İyi Duruma Getirme işlevi tarafından tetiklenen planlama işlerinin geçmişini nasıl görüntüleyeceğinizi açıklar.
 
 Planın geçmişini görüntülemek için **Master planlama** \> **Ayar** \> **Planlar** \> **Master planlar**'a gidip **Geçmiş**'i seçerek planı açın. Geçmiş, seçilen plan için tüm işleri listeler. Liste, tamamlanmış ve etkin işleri içerir.
 
-Planlama Optimizasyonu master planlama çalıştırma işlerinin geçmişi, master plan başına yalnızca 60'a kadar kayıt saklar. Yeni bir master planlama hesaplaması çalıştırdığınızda, ilgili planın en eski geçmiş kaydı silinir.
+Sistem, ana plan başına en fazla 60 geçmiş kaydı tutar ve 30 günden eski kayıtları siler. Yeni bir ana planlama hesaplamasını her çalıştırdığınızda, sistem yeni bir geçmiş kaydı ekler ve gerektiğinde en eski kayıtları temizler.
 
 İşlerin başlama zamanını ve durumunu görmeye ek olarak, belirli bir iş için günlüğü de görüntüleyebilirsiniz. Günlük, ek bilgiler ve uyarılar içerir. Tüm işlerin günlüğü olmayabilir. İşin günlüğünü görüntülemek için **Günlük** öğesini seçin. Günlük girişleri, iş tamamlandıktan sonra yalnızca 30 gün saklanır. Bu tarihten sonra otomatik olarak silinirler.
 

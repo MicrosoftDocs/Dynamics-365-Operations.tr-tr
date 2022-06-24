@@ -1,6 +1,6 @@
 ---
-title: "\"Benzer görünümleri araştır\" önerilerini etkinleştirme"
-description: Bu konuda, Microsoft Dynamics 365 Commerce'ta "benzer görünümleri araştır" ürün önerilerinin nasıl etkinleştirileceği açıklanmaktadır.
+title: "\"Benzer görünüme sahip ürünler\" önerilerini etkinleştirme"
+description: Bu makalede, Microsoft Dynamics 365 Commerce'ta "benzer görünümleri araştır" ürün önerilerinin nasıl etkinleştirileceği açıklanmaktadır.
 author: bebeale
 ms.date: 08/06/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e70365be8484d71ef9e0e9823b0a4406b0fd2761439780cafc30e1284bda1f20
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3024e832de5e6a60b49c5b0c8bfbe36b2c416379
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722012"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884589"
 ---
-# <a name="enable-shop-similar-looks-recommendations"></a>"Benzer görünümleri araştır" önerilerini etkinleştirme
+# <a name="enable-shop-similar-looks-recommendations"></a>"Benzer görünüme sahip ürünler" önerilerini etkinleştirme
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce'ta "benzer görünümleri araştır" ürün önerilerinin nasıl etkinleştirileceği açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce'ta "benzer görünümleri araştır" ürün önerilerinin nasıl etkinleştirileceği açıklanmaktadır.
 
 Dynamics 365 Commerce' taki "benzer görünümleri araştır" önerileri özelliği, müşterilere görsel olarak benzer ürünler için öneri sağlamak amacıyla yapay zeka ve makine öğreniminden (AI-ML) yararlanır. Commerce'taki tüm perakende kanallarında "benzer görünümleri araştır" önerileri kullanılabilir duruma getirildiğinde, perakendeciler müşterilerin istediklerini kolayca bulmasına yardımcı olarak müşteri memnuniyetini artırabilir.
 

@@ -1,6 +1,6 @@
 ---
 title: Dağıtılmış karma topolojideki ölçek birimlerini deneme
-description: Bu konu, üretim ve ambar yönetimi iş yükleri için bulut ve uç ölçek birimlerini deneme hakkında bilgi sağlar.
+description: Bu makale, üretim ve ambar yönetimi iş yükleri için bulut ve uç ölçek birimlerini deneme hakkında bilgi sağlar.
 author: perlynne
 ms.date: 05/02/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-03-03
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 658948d94cd012b95812a786433967f5cadc3a15
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 5645955109e7a942e617b3b90a27065c2a8fe4a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711900"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893598"
 ---
 # <a name="try-out-scale-units-in-a-distributed-hybrid-topology"></a>Dağıtılmış karma topolojideki ölçek birimlerini deneme
 

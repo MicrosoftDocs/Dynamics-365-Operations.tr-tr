@@ -1,6 +1,6 @@
 ---
 title: Gönderimle görevlendir özelliğini kullanarak siparişleri başka bir mağazaya sevk etme
-description: Bu konuda Gönderimle görevlendir özelliği açıklanmaktadır.
+description: Bu makalede Gönderimle görevlendir özelliği açıklanmaktadır.
 author: ashishmsft
 ms.date: 10/10/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 8c9c435c9ef8f692551a216d72a76f8a71b4ce6dc03dc6b13c23364a0aa81662
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d73a21bfe9a284bd6e222e73bb0250648912b230
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746711"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863525"
 ---
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>Gönderimle görevlendir özelliğini kullanarak siparişleri başka bir mağazaya sevk etme
 

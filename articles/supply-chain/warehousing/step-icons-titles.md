@@ -1,6 +1,6 @@
 ---
 title: Warehouse Management mobil uygulaması için adım simgeleri ve başlıklar atama
-description: Bu konuda, Warehouse Management mobil uygulaması için yeni veya özelleştirilmiş görev akışları için adım simgelerinin ve başlıklarının nasıl atandığı açıklanmaktadır.
+description: Bu makalede, Warehouse Management mobil uygulaması için yeni veya özelleştirilmiş görev akışları için adım simgelerinin ve başlıklarının nasıl atandığı açıklanmaktadır.
 author: Mirzaab
 ms.date: 05/17/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 361ace454f7125ec86bd99cffefc7d268f81d37f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103325"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890610"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulaması için adım simgeleri ve başlıklar atama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Warehouse Management mobil uygulaması için yeni veya özelleştirilmiş görev akışları için adım simgelerinin ve adım başlıklarının nasıl atandığı açıklanmaktadır.
+Bu makalede, Warehouse Management mobil uygulaması için yeni veya özelleştirilmiş görev akışları için adım simgelerinin ve adım başlıklarının nasıl atandığı açıklanmaktadır.
 
 Aşağıdaki çizimlerde, adım simgelerinin ve başlıkların Warehouse Management mobil uygulamasında nasıl göründüğü gösterilmektedir.
 
@@ -29,7 +29,7 @@ Aşağıdaki çizimlerde, adım simgelerinin ve başlıkların Warehouse Managem
 
 ## <a name="turn-this-feature-on-or-off"></a>Bu özelliği açma veya kapatma
 
-Bu konuda açıklanan işlevi kullanmak için, *Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları* özelliğinin sisteminiz için açık olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
+Bu makalede açıklanan işlevi kullanmak için, *Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları* özelliğinin sisteminiz için açık olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="standard-step-ids-classes-and-icons"></a>Standart adım kimlikleri, sınıflar ve simgeler
 
@@ -39,9 +39,9 @@ Görev akışındaki her adım bir adım kimliğiyle tanımlanır ve her adım k
 
 Aşağıdaki tabloda, şu anda kullanılabilen her adım kimliği listelenmiştir ve bu, karşılık gelen adım sınıfıdır. Birincil giriş alanının denetim adı adım kimliği olarak kullanılır.
 
-Bu adım kimliklerinin ve sınıflarının nasıl kullanıldığını gösteren bir örnek için, bu konunun sonraki bölümlerinde yer alan [Örnek: Özel akış bölümü için adım simgeleri ve başlıklar atama](#example) bölümünde `WHSMobileAppStepInfoBuilder.stepId()` yöntemin uygulanmasına bakın.
+Bu adım kimliklerinin ve sınıflarının nasıl kullanıldığını gösteren bir örnek için, bu makalenin sonraki bölümlerinde yer alan [Örnek: Özel akış bölümü için adım simgeleri ve başlıklar atama](#example) bölümünde `WHSMobileAppStepInfoBuilder.stepId()` yöntemin uygulanmasına bakın.
 
-| Adım kodu | Adım Sınıfı |
+| Adım kimliği | Adım Sınıfı |
 |-|-|
 | BatchDisposition | WHSMobileAppStepBatchDisposition |
 | Taşıyıcı | WHSMobileAppStepCarrier |
@@ -373,7 +373,7 @@ final internal class WHSMobileAppStepContainerId extends WHSMobileAppStep
 
 Adım simgesinin tanımlayıcısı `defaultStepIcon` sınıf üyesinde, adım başlığı ise `defaultStepTitle` sınıf üyesinde depolanır.
 
-Adım simgesi atamak için, bu konunun önceki bölümlerindeki [Kullanılabilir adım simgeleri](#step-icons) bölümünde listelenen simge kimliklerinden birine `defaultStepIcon` ayarlayın.
+Adım simgesi atamak için, bu makalenin önceki bölümlerindeki [Kullanılabilir adım simgeleri](#step-icons) bölümünde listelenen simge kimliklerinden birine `defaultStepIcon` ayarlayın.
 
 ### <a name="use-a-standard-or-custom-step-icon-and-title-for-the-weight-input"></a>Ağırlık girişi için standart veya özel adım simgesi ve başlığı kullanma
 
@@ -405,7 +405,7 @@ public class WHSMobileAppStepInfoBuilderWeighContainer extends WHSMobileAppStepI
 }
 ```
 
-Daha sonra `NewWeight` adım için bir adım sınıfı oluşturursunuz. Kod, bu konuda daha önce gösterilen `ContainerId` örneğin koduna benzemelidir.
+Daha sonra `NewWeight` adım için bir adım sınıfı oluşturursunuz. Kod, bu makalede daha önce gösterilen `ContainerId` örneğin koduna benzemelidir.
 
 #### <a name="override-the-stepinfo-method"></a>stepInfo() yöntemini geçersiz kılma
 

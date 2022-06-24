@@ -1,6 +1,6 @@
 ---
 title: Warehouse Management mobil uygulaması için adım başlıklarını ve yönergeleri özelleştirme
-description: Bu konuda, Warehouse Management mobil uygulaması için ayarladığınız her bir görev akışının tüm adımları için özel yönergelerin nasıl oluşturulacağı ve gösterileceği açıklanmaktadır.
+description: Bu makalede, Warehouse Management mobil uygulaması için ayarladığınız her bir görev akışının tüm adımları için özel yönergelerin nasıl oluşturulacağı ve gösterileceği açıklanmaktadır.
 author: Mirzaab
 ms.date: 08/11/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ffd433427b2c5011740a7ee54c93713689945df3
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 289a3735133919ae7dbad05c40ba9ccf0e8f57ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902259"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895510"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulaması için adım başlıklarını ve yönergeleri özelleştirme
 
 > [!IMPORTANT]
-> Bu konuda açıklanan özellikler yalnızca yeni Warehouse Management mobil uygulaması için geçerlidir. Artık kullanımdan kaldırılan eski ambar uygulamasını etkilemezler.
+> Bu makalede açıklanan özellikler yalnızca yeni Warehouse Management mobil uygulaması için geçerlidir. Artık kullanımdan kaldırılan eski ambar uygulamasını etkilemezler.
 
-Bu konuda, Warehouse Management mobil uygulaması için ayarladığınız tüm görev akışlarının her bir adımı için özel yönergelerin nasıl oluşturulacağı ve gösterileceği açıklanmaktadır. Ambar çalışanları iyi yazılmış yönergeler aldıklarında önceden eğitime ihtiyaç duymadan yeni akışları hemen kullanmaya başlayabilirler. Bu özellik aşağıdaki avantajları sağlar:
+Bu makalede, Warehouse Management mobil uygulaması için ayarladığınız tüm görev akışlarının her bir adımı için özel yönergelerin nasıl oluşturulacağı ve gösterileceği açıklanmaktadır. Ambar çalışanları iyi yazılmış yönergeler aldıklarında önceden eğitime ihtiyaç duymadan yeni akışları hemen kullanmaya başlayabilirler. Bu özellik aşağıdaki avantajları sağlar:
 
 - **Her görev adımı için basit yönergeler izlemelerini sağlayarak çalışanları işe daha hızlı alıştırın.** Akışın her adımı, ön saflardaki çalışanların görevi anlamasını sağlayan yönergeler sağlar.
 - **Kendi süreçlerinizle eşleşen yönergeler sağlayın.** İş ve ambar süreçlerinizle eşleşecek kendi yönergelerinizi yazın. Örneğin, terminolojiyi fiziksel alanınıza ve yerel kısaltmalara uygun hale getirebilirsiniz.

@@ -1,6 +1,6 @@
 ---
 title: Ölçü birimlerini yönetme
-description: Bu konu; bir ölçü birimi tanımlamayı, bu birim ve açıklaması için çeviriler oluşturmayı ve ilgili birimler için dönüştürme kuralları tanımlamayı gösterir.
+description: Bu makale; bir ölçü birimi tanımlamayı, bu birim ve açıklaması için çeviriler oluşturmayı ve ilgili birimler için dönüştürme kuralları tanımlamayı gösterir.
 author: t-benebo
 ms.date: 04/09/2021
 ms.topic: business-process
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e13897396810507bb4b2cbb415b873eb3dd7f4e8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8e2c21756b270ef7d914dc74a0cf61727953206a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565532"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863925"
 ---
 # <a name="manage-units-of-measure"></a>Ölçü birimlerini yönetme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu; bir ölçü birimi tanımlamayı, bu birim ve açıklaması için çeviriler oluşturmayı ve ilgili birimler için dönüştürme kuralları tanımlamayı gösterir.
+Bu makale; bir ölçü birimi tanımlamayı, bu birim ve açıklaması için çeviriler oluşturmayı ve ilgili birimler için dönüştürme kuralları tanımlamayı gösterir.
 
 ## <a name="open-the-units-page"></a>Birimler sayfasını açma
 
 Sisteminizde kullanılabilen ölçü birimlerini oluşturmak ve bunlarla çalışmak için **Kuruluş Yönetimi \> Kurulum \> Birimler \>Birimler**'e gidin.
 
-Bu konunun geri kalan bölümleri, **Birimler** sayfasında neler yapabileceğinizi açıklamaktadır.
+Bu makalenin geri kalan bölümleri, **Birimler** sayfasında neler yapabileceğinizi açıklamaktadır.
 
 ## <a name="create-standard-units-and-conversions"></a>Standart birimler ve dönüşümler oluşturma
 

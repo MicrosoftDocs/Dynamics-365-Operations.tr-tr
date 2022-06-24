@@ -1,6 +1,6 @@
 ---
 title: Çevrimiçi mağazaları konfigüre et
-description: Bu makale, bir çevrimiçi mağazayı merkezi olarak yapılandırma ve yönetme hakkında yardımcı olacak konulara bağlantılar sağlar.
+description: Bu makale, bir çevrimiçi mağazayı merkezi olarak yapılandırma ve yönetme hakkında yardımcı olacak makalelerin bağlantılarını sağlar.
 author: kfend
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87607e2c42ee67d62a7ce2e87744e9d9143dcf81
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c8a5b13189eb93d4df81a427a932b81ab8d830be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734116"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861891"
 ---
 # <a name="configure-online-stores"></a>Çevrimiçi mağazaları konfigüre et
 
 [!include [banner](../includes/banner.md)]
 
-Bu makale, bir çevrimiçi mağazayı merkezi olarak yapılandırma ve yönetme hakkında yardımcı olacak konulara bağlantılar sağlar.
+Bu makale, bir çevrimiçi mağazayı merkezi olarak yapılandırma ve yönetme hakkında yardımcı olacak makalelerin bağlantılarını sağlar.
 
-Aşağıdaki tabloda listelenen konular, Commerce bileşenlerini ve istemcideki çevrimiçi mağazayı yapılandırmanıza yardımcı olur.
+Aşağıdaki tabloda listelenen makaleler, Commerce bileşenlerini ve istemcideki çevrimiçi mağazayı yapılandırmanıza yardımcı olur.
 
 ## <a name="configure-an-online-store"></a>Bir çevrimiçi mağazayı yapılandırma
 
-| Görev                                                | Ayrıntılı                                                                                                                                                                                                                                                                                                                                                   | Konular                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Görev                                                | Ayrıntılar                                                                                                                                                                                                                                                                                                                                                   | Makaleler                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bileşenleri yapılandırın.                        | Commerce operasyonları için bilgileri ayarlayın ve saklayın. Bu bilgiler, mağazalar, vergiler, ürünler, hediye kartları, promosyonlar ve indirimleri içerir.                                                                                                                                                                                                          | [Perakende'yi kurmak ve korumak](/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-retail) (Microsoft Dynamics AX 2012 için TechNet içeriği)                                                                                                                                                                                                                                                                                          |
 | Bir kanal gezinme hiyerarşisi yapılandırın.    | Çevrimiçi bir mağazayla sunduğunuz ürünler için bir kategori yapısı ayarlamak için kanal gezinti kategori hiyerarşisi oluşturun. Kategori hiyerarşisini tanımlar ve ürünler, ürün öznitelik grupları ve öznitelik değerlerini kategorilere atayabilirsiniz. Daha sonra çevrimiçi bir mağazaya kategori hiyerarşisi atarsınız.                            | [Perakende hiyerarşisi ayarlama](/dynamicsax-2012/appuser-itpro/set-up-a-retail-hierarchy)</br> (AX için TechNet içeriği 2012)</br> [Öznitelikleri ve öznitelik türlerini ayarlama](/dynamicsax-2012/appuser-itpro/set-up-attributes-and-attribute-types) (AX için TechNet içeriği 2012)</br> [Perakende öznitelik grupları ayarlama](/dynamicsax-2012/appuser-itpro/set-up-retail-attribute-groups) (AX için TechNet içeriği 2012) |
@@ -41,7 +41,7 @@ Aşağıdaki tabloda listelenen konular, Commerce bileşenlerini ve istemcideki 
 
 ## <a name="configure-online-store-products"></a>Çevrimiçi mağaza ürünlerini yapılandır
 
-| Görev                                 | Ayrıntılı                                                                                                                                           | Konular                                                                                                                                                                                                                                                                            |
+| Görev                                 | Ayrıntılar                                                                                                                                           | Makaleler                                                                                                                                                                                                                                                                            |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Çevrimiçi mağazaya ürün çeşidi ekle. | Bir çevrimiçi mağazada sunduğunuz ürünleri içeren sınıfları ekleyin.                                                                  | [Bir çevrimiçi mağaza kurmak](/dynamicsax-2012/appuser-itpro/set-up-an-online-store) (AX 2012 için TechNet içeriği)                                                                                                                                              |
 | Katalogları yönet.                     | Mağazalarınızda sunmak istediğiniz ürünleri belirlemek için ürün kataloglarını kullanın.                                                              | [Anahtar görevler: Perakende ürün katalogları oluşturmak](/dynamicsax-2012/appuser-itpro/key-tasks-create-retail-product-catalogs) (AX 2012 için TechNet içeriği)                                                                                                                           |
@@ -52,7 +52,7 @@ Aşağıdaki tabloda listelenen konular, Commerce bileşenlerini ve istemcideki 
 
 ## <a name="set-up-data-exchange-between-commerce-and-the-online-store"></a>Commerce ve çevrimiçi mağaza arasındaki veri değişimini ayarlama
 
-| Görev                                 | Ayrıntılı                                                                                                                               | Konular                                                                                                                                                                                                                                                                                  |
+| Görev                                 | Ayrıntılar                                                                                                                               | Makaleler                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kanal tümleştirme profillerini ayarlayın. | Profiller, bileşenlerin birbirleriyle iletişim kurabilmesini sağlar. Veri değişimi ayarlarını yapılandırmadan önce profiller ayarlayın. | [Gerçek zamanlı hizmet profili ayarlama](/dynamicsax-2012/appuser-itpro/set-up-a-real-time-service-profile) (AX için TechNet içeriği 2012)</br> [Kanal profili ayarlama](/dynamicsax-2012/appuser-itpro/set-up-a-channel-profile) (AX için TechNet içeriği 2012) |
 

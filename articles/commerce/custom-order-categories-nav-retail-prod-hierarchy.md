@@ -1,6 +1,6 @@
 ---
 title: Alım satım varlıkların sıralama düzenini değiştirme
-description: Bu konu, alım satım ilgili çeşitli kuruluşlar için Dynamics 365 Commerce'deki görüntüleme sırasını denetlemeyle ilgili kavramları açıklamaktadır.
+description: Bu makale, alım satım ilgili çeşitli kuruluşlar için Dynamics 365 Commerce'deki görüntüleme sırasını denetlemeyle ilgili kavramları açıklamaktadır.
 author: josaw1
 ms.date: 08/05/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 4e7a7bd42b0ef72ae6bc3f52a8857602b6282907
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779554"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847666"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Alım satım varlıkların sıralama düzenini değiştirme
 
@@ -29,7 +29,7 @@ ms.locfileid: "7779554"
 
 Perakendeciler, tüm kanallarda müşteri etkileşimi için ürün keşfini bir ana araç olarak kabul edin. Çeşitli işlevler müşterilerin ürünleri kolayca bulmasına yardımcı olabilir. Örneğin kategorilerine, aramaya ve filtreye göz atabilirler.
 
-Bu konu, alım satım ilgili çeşitli kuruluşlar için görüntüleme sırasını denetlemeyle ilgili kavramları açıklamaktadır. Sıralama düzenini nasıl değiştireceğinizi de açıklar.
+Bu makale, alım satım ilgili çeşitli kuruluşlar için görüntüleme sırasını denetlemeyle ilgili kavramları açıklamaktadır. Sıralama düzenini nasıl değiştireceğinizi de açıklar.
 
 ## <a name="overview"></a>Genel bakış
 

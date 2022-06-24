@@ -1,6 +1,6 @@
 ---
 title: Yeni bir e-ticaret kiracısını dağıtma
-description: Bu konu, Microsoft Dynamics Lifecycle Services (LCS) kullanarak yeni bir Dynamics 365 Commerce e-ticaret sitesi dağıtımının nasıl dağıtılacağını açıklamaktadır.
+description: Bu makale, Microsoft Dynamics Lifecycle Services (LCS) kullanarak yeni bir Dynamics 365 Commerce e-ticaret sitesi dağıtımının nasıl dağıtılacağını açıklamaktadır.
 author: psimolin
 ms.date: 07/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b4b54e10cb4bd897b4c0706a13eeaf32f8892a05f7a09f3b27dbdd3dcdad1606
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7aee33a6322ada6de142ecf5b70ba81213ffb085
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750726"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884016"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Yeni bir e-ticaret kiracısını dağıtma
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics Lifecycle Services (LCS) kullanarak yeni bir Dynamics 365 Commerce e-ticaret sitesi dağıtımının nasıl dağıtılacağını açıklamaktadır.
+Bu makale, Microsoft Dynamics Lifecycle Services (LCS) kullanarak yeni bir Dynamics 365 Commerce e-ticaret sitesi dağıtımının nasıl dağıtılacağını açıklamaktadır.
 
 Microsoft Dynamics Lifecycle Services (LCS), iş ortaklarının ve müşterilerin projelerini ve ortamlarını yönetmek, Microsoft Dynamics ürünlerle ve özelliklerle ilgili en son bilgileri görüntülemek ve destek olayları oluşturmak, izlemek ve bunlara gözatmak için kullanılabilecek bulut tabanlı bir ortak çalışma alanıdır. E-ticaret yönetim özellikleri LCS ile tümleşiktir.
 

@@ -1,6 +1,6 @@
 ---
-title: B2B siteleri için ticari Katalog oluştur
-description: Bu konuda, Microsoft Dynamics 365 Commerceişletmeden işletmeye (B2B) siteleri için Commerce katalogları oluşturma açıklanmaktadır.
+title: B2B siteleri için Commerce katalogları oluşturma
+description: Bu makalede, Microsoft Dynamics 365 Commerceişletmeden işletmeye (B2B) siteleri için Commerce katalogları oluşturma açıklanmaktadır.
 author: ashishmsft
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 7382062706c2de01c499ee05aeb0b45ff6fb37cb
-ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
+ms.openlocfilehash: 7d87b6c64a6038c4518eeec178f9e139ef6f5ae2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782849"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849001"
 ---
-# <a name="create-commerce-catalogs-for-b2b-sites"></a>B2B siteleri için ticari Katalog oluştur
+# <a name="create-commerce-catalogs-for-b2b-sites"></a>B2B siteleri için Commerce katalogları oluşturma
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerceişletmeden işletmeye (B2B) siteleri için Commerce ürün katalogları oluşturma açıklanmaktadır. B2B siteleri ile ilgili Commerce katalogları hakkında sık sorulan soruların yanıtları için, bkz. [B2B için Commerce katalogları SSS](catalogs-b2b-sites-FAQ.md).
+Bu makalede, Microsoft Dynamics 365 Commerceişletmeden işletmeye (B2B) siteleri için Commerce ürün katalogları oluşturma açıklanmaktadır. B2B siteleri ile ilgili Commerce katalogları hakkında sık sorulan soruların yanıtları için, bkz. [B2B için Commerce katalogları SSS](catalogs-b2b-sites-FAQ.md).
 
 > [!NOTE]
-> Bu konu, Dynamics 365 Commerce sürüm 10.0.27 ve sonraki sürümler için geçerlidir.
+> Bu makale, Dynamics 365 Commerce sürüm 10.0.27 ve sonraki sürümler için geçerlidir.
 
 B2B çevrimiçi mağazalarınızda sunmak istediğiniz ürünleri belirlemek için Commerce kataloglarını kullanabilirsiniz. Bir katalog oluşturduğunuzda, ürünlerin sunulduğu çevrimiçi mağazaları tanımlar, dahil etmek istediğiniz ürünleri eklersiniz ve ticari satış ayrıntıları ekleyerek ürün tekliflerini geliştirebilirsiniz. Her B2B çevrimiçi deposu için birden çok katalog oluşturabilirsiniz.
 

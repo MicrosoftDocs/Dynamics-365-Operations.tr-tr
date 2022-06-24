@@ -1,6 +1,6 @@
 ---
 title: Konteyner paketleme stratejileri
-description: Bu konuda konteyner paketleme stratejileri arasındaki farklar açıklanmakta ve örnekler verilmektedir.
+description: Bu makalede konteyner paketleme stratejileri arasındaki farklar açıklanmakta ve örnekler verilmektedir.
 author: GalynaFedorova
 ms.date: 06/11/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ab34cee7fd495ec26f6b20da2aa43895f49f677c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 46b4a007dafbd99e5f9b7231c07a148f8101d2a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676397"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862380"
 ---
 # <a name="container-packing-strategies"></a>Konteyner paketleme stratejileri
 
 [!include [banner](../includes/banner.md)]
 
-*Konteyner paketleme stratejisi*, konteynerler arasında madde tahsisatlarını tanımlamak için kullanabileceğiniz bir stratejidir. Bu konuda, *Tüm açık konteynerlere paketle* ve *Yalnızca geçerli konteynerde paketle* stratejileri arasındaki farklar açıklanmaktadır.
+*Konteyner paketleme stratejisi*, konteynerler arasında madde tahsisatlarını tanımlamak için kullanabileceğiniz bir stratejidir. Bu makalede, *Tüm açık konteynerlere paketle* ve *Yalnızca geçerli konteynerde paketle* stratejileri arasındaki farklar açıklanmaktadır.
 
 - **Tüm açık konteynerlere paketle** - Sistem, maddenin bunlardan birine uygun olacağından emin olmak için konteyner kullanımı döngüsü sırasında zaten oluşturulmuş olan tüm açık konteynerleri kontrol etmelidir. Paketleme sırasında sistem, önceden oluşturulmuş konteynerlerden herhangi birine uyup uymayacağını belirlemek için her maddeyi denetler. Madde mevcut bir konteynere uymuyorsa, sistem yeni bir konteyner oluşturur ve tüm siparişi paketlemeyi tamamlayana kadar devam eder.
 
@@ -242,7 +242,7 @@ Dalga şablonu ayarlamak için aşağıdaki adımları takip edin.
 
     Şimdi, siparişteki her konteynerin bir iş emrine bağlanması için işi bölmek üzere ayarları uygulayacaksınız.
 
-1. **Çalışma başlığı sonları** sayfasındaki her satır için **Bu alana göre grupla** onay kutusunu seçin  (**Sevkiyat kodu**, **Sipariş numarası** ve **Konteyner kodu**).
+1. **Çalışma başlığı sonları** sayfasındaki her satır için **Bu alana göre grupla** onay kutusunu seçin (**Sevkiyat kodu**, **Sipariş numarası** ve **Konteyner kodu**).
 1. Sayfayı kapatın.
 
 ### <a name="set-up-shipment-consolidation-policies"></a>Sevkiyat konsolidasyonu ilkelerini ayarlama
@@ -348,7 +348,7 @@ Bir satış siparişi oluşturmak için şu adımları izleyin.
 Bu senaryo için oluşturduğunuz her sipariş için bir yük oluşturmak ve sonra bunu ambara serbest bırakmak için aşağıdaki adımları izleyin.
 
 1. **Ambar yönetimi \> Yükler \> Yük planlama çalışma ekranı** öğesine gidin.
-1. **Satış satırları** sekmesinde, bu senaryo için oluşturduğunuz  satış siparişlerindeki tüm satış siparişi satırlarını bulun ve seçin.
+1. **Satış satırları** sekmesinde, bu senaryo için oluşturduğunuz satış siparişlerindeki tüm satış siparişi satırlarını bulun ve seçin.
 1. Eylem Bölmesinde **Arz ve talep** sekmesindeki **Ekle** grubunda **Yeni yüke**'yi seçin. Seçili sipariş satırları yeni bir yüke eklenir.
 1. **Yük şablonu ataması** iletişim kutusundaki **Yük şablonu kimliği** alanında, *40' Konteyner* gibi bir yük şablonu seçin.
 1. İletişim kutusunu kapatmak için **Tamam**'ı seçin.

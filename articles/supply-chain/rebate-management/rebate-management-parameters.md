@@ -1,6 +1,6 @@
 ---
 title: İndirim yönetimi parametreleri
-description: Bu konu, indirim yönetimi parametreleri sayfasını açıklar. Bu sayfa, deftere nakli, durum güncelleştirmelerini, numara serilerini ve diğer davranışı etkileyen ayarlar içerir.
+description: Bu makale, indirim yönetimi parametreleri sayfasını açıklar. Bu sayfa, deftere nakli, durum güncelleştirmelerini, numara serilerini ve diğer davranışı etkileyen ayarlar içerir.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8f5c9734b2480329eed246bcbbfe3bd6e9991e0b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 218c54d97f3ac204e8613f5efdda0cc9d713ee04
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689005"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895539"
 ---
 # <a name="rebate-management-parameters"></a>İndirim yönetimi parametreleri
 
@@ -45,9 +45,9 @@ Aşağıdaki tablo, **İndirim yönetimi parametreleri** sayfasının **İndirim
 
 ## <a name="number-sequences-tab"></a>Numara serileri sekmesi
 
-İndirim yönetiminin kullandığı farklı numara serilerine numara serisi kodları atamak için **indirim yönetimi parametreleri** sayfasındaki **numara serileri** sekmesini kullanın. Aşağıdaki tabloda bu numara serilerinin her birinin amacı açıklanmıştır. Numara serileri hakkında daha fazla bilgi için [Numara serilerine genel bakış](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md) ve ilgili konularına bakın.
+İndirim yönetiminin kullandığı farklı numara serilerine numara serisi kodları atamak için **indirim yönetimi parametreleri** sayfasındaki **numara serileri** sekmesini kullanın. Aşağıdaki tabloda bu numara serilerinin her birinin amacı açıklanmıştır. Numara serileri hakkında daha fazla bilgi için [Numara serilerine genel bakış](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md) ve ilgili makalelerine bakın.
 
-| Referans | Tanım |
+| Referans | Açıklama |
 |---|---|
 | İndirim yönetimi anlaşması | Numara serisi, her indirim anlaşması için benzersiz bir anahtar değeri atar. Bu anahtar, anlaşmalar oluşturulduğunda kullanılır. |
 | İndirim yönetimi numarası | Numara serisi, her indirim için benzersiz bir anahtar değeri atar. Bu anahtar indirim ilişkilerini tanımlamak için kullanılır. |

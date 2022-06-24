@@ -1,6 +1,6 @@
 ---
 title: Abone olma modülü
-description: Bu konu abone olma modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
+description: Bu makale abone olma modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: efc9150ea5ddeb7051f82fb07c4d566ac8a48dfa
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 23b74f5853ffb7f191ea7ee3da0d3238db339d34
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780601"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852705"
 ---
 # <a name="subscribe-module"></a>Abone olma modülü
 
 [!include [banner](includes/banner.md)]
 
-Bu konu abone olma modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
+Bu makale abone olma modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
 Abone olma modülleri, site sayfalarında haber bültenleri veya promosyonlar için müşteri bilgilerini yakalamak amacıyla kullanılabilir.
 

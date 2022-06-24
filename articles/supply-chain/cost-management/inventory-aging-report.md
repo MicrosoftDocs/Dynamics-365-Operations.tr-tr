@@ -1,6 +1,6 @@
 ---
 title: Stok yaşlandırma raporu örnekleri ve mantığı
-description: Bu konu, Stok yaşlandırma raporunun sonuçlarının nasıl yorumlanacağını gösteren bazı örnekler sunar.
+description: Bu makale, Stok yaşlandırma raporunun sonuçlarının nasıl yorumlanacağını gösteren bazı örnekler sunar.
 author: JennySong-SH
 ms.date: 5/29/2020
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4cfffa49f802c601da391617b123134c435fba92
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40066431ddfb9644c059025eac55d1b36789882e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672360"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848034"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>Stok yaşlandırma raporu örnekleri ve mantığı
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, **Stok yaşlandırma** raporunun sonuçlarının nasıl yorumlanacağını gösteren bazı örnekler sunar. Bu rapor, seçili bir madde veya madde grubu için eldeki miktar ve stok değerlerini çeşitli dönem demetlerinde kategorileştirir. Bu konu ayrıca raporun iç mantığını da gösterir.
+Bu makale, **Stok yaşlandırma** raporunun sonuçlarının nasıl yorumlanacağını gösteren bazı örnekler sunar. Bu rapor, seçili bir madde veya madde grubu için eldeki miktar ve stok değerlerini çeşitli dönem demetlerinde kategorileştirir. Bu makale ayrıca raporun iç mantığını da gösterir.
 
-Bu konudaki örneklerde, standart **Stok yaşlandırma** raporunda sunulan sonuçlar gösterilmektedir. Ancak genel olarak, özellikle de işlenmesi gereken çok sayıda madde ve ambara sahipseniz bu raporun [Stok yaşlandırma raporu depolama](inventory-aging-report-storage.md) sürümünü kullanmanız önerilir. Stok yaşlandırma raporu depolaması, oluşturduğunuz her raporu kaydeder, sonuçları etkileşimli bir sayfa ve bir grafik olarak gösterir ve kaydedilmiş herhangi bir raporu dışa aktarmanızı sağlar.
+Bu makaledeki örneklerde, standart **Stok yaşlandırma** raporunda sunulan sonuçlar gösterilmektedir. Ancak genel olarak, özellikle de işlenmesi gereken çok sayıda madde ve ambara sahipseniz bu raporun [Stok yaşlandırma raporu depolama](inventory-aging-report-storage.md) sürümünü kullanmanız önerilir. Stok yaşlandırma raporu depolaması, oluşturduğunuz her raporu kaydeder, sonuçları etkileşimli bir sayfa ve bir grafik olarak gösterir ve kaydedilmiş herhangi bir raporu dışa aktarmanızı sağlar.
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Bu örneklerde kullanılan örnek veriler
 
-Bu konudaki örnekler, bu bölümde açıklanan örnek stok hareketi verilerini temel almaktadır.
+Bu makaledeki örnekler, bu bölümde açıklanan örnek stok hareketi verilerini temel almaktadır.
 
 ### <a name="storage-dimension-setup"></a>Depolama boyutu kurulumu
 

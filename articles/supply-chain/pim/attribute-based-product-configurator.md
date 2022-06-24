@@ -1,6 +1,6 @@
 ---
 title: Sabit tabanlı ürün yapılandırması için öznitelik tabanlı satış fiyatları
-description: Bu konu, fiziksel ürün reçetesi ve rota yerine bileşenleri ve öznitelikleri temel alan satış fiyatlarıyla satış fiyatı modellerinin nasıl oluşturulacağını açıklamaktadır.
+description: Bu makale, fiziksel ürün reçetesi ve rota yerine bileşenleri ve öznitelikleri temel alan satış fiyatlarıyla satış fiyatı modellerinin nasıl oluşturulacağını açıklamaktadır.
 author: t-benebo
 ms.date: 10/2/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e50b2d1e9ccf03a58e0ddf6d4ecfb34c6c504161
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 456c7399f981e41ea452f1a6a8e30e9e12e0be54
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577468"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857475"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Sabit tabanlı ürün yapılandırması için öznitelik tabanlı satış fiyatları
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, fiziksel ürün reçetesi ve rota yerine bileşenleri ve öznitelikleri temel alan satış fiyatlarıyla satış fiyatı modellerinin nasıl oluşturulacağını açıklamaktadır. Her ürün yapılandırması modeli için birkaç satış fiyatı modeli oluşturabilirsiniz.
+Bu makale, fiziksel ürün reçetesi ve rota yerine bileşenleri ve öznitelikleri temel alan satış fiyatlarıyla satış fiyatı modellerinin nasıl oluşturulacağını açıklamaktadır. Her ürün yapılandırması modeli için birkaç satış fiyatı modeli oluşturabilirsiniz.
 
 ## <a name="set-relevant-product-information-management-parameters"></a>İlgili ürün bilgileri yönetim parametrelerini ayarlama
 
@@ -111,7 +111,7 @@ Fiyat modelleri için seçim ölçütü ayarlamak üzere:
 1. Hedef ürün yapılandırma modelini seçin.
 1. Eylem Bölmesinde, **Model** sekmesini açın ve **Ayarla** grubundan **Fiyat modeli ölçütü**'nü seçin. **Fiyat modeli ölçütü** sayfası açılır.
 1. İhtiyacınız olan sorgu satırı henüz yoksa, kılavuza yeni bir satır eklemek üzere eylem bölmesinde **Yeni**'yi seçin ve aşağıdaki ayarları yapın:
-    - **Ad** -  Bu satır için bir ad girin.
+    - **Ad** - Bu satır için bir ad girin.
     - **Açıklama** - Sorguyu ve ne için olduğunu kısaca açıklayın.
     - **Fiyat modeli** - Tetiklendiğinde sorgunun uygulanacağı bir [fiyat modeli](#build-price-model) (geçerli yapılandırma modelinden) seçin.
     - **Sipariş türü** - Sorgunun uygulanacağı sipariş türünü seçin.

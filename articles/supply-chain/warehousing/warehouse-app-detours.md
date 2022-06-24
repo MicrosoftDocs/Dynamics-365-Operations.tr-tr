@@ -1,6 +1,6 @@
 ---
 title: Mobil cihaz menü öğelerindeki adımların deturlarını konfigüre etme
-description: Bu konuda, çalışanların geçerli görevi park edebilmesi, başka bir görev gerçekleştirmesi ve herhangi bir bilgiyi kaybetmeden özgün göreve geri dönebilmesi için menü öğelerinin deturlarını konfigüre etme yöntemi açıklanmıştır.
+description: Bu makalede, çalışanların geçerli görevi park edebilmesi, başka bir görev gerçekleştirmesi ve herhangi bir bilgiyi kaybetmeden özgün göreve geri dönebilmesi için menü öğelerinin deturlarını konfigüre etme yöntemi açıklanmıştır.
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 874abbdf7c0938a7ad4cc66e23dd01d901a1f0d3
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920360"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863606"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Mobil cihaz menü öğelerindeki adımların deturlarını konfigüre etme
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Bu konuda açıklanan özellikler yalnızca yeni Warehouse Management mobil uygulaması için geçerlidir. Artık kullanımdan kaldırılan eski ambar uygulamasını etkilemezler.
+> Bu makalede açıklanan özellikler yalnızca yeni Warehouse Management mobil uygulaması için geçerlidir. Artık kullanımdan kaldırılan eski ambar uygulamasını etkilemezler.
 
-Bu konuda, çalışanların geçerli görevi "park" edebilmesi, başka bir görev gerçekleştirmesi ve herhangi bir bilgiyi kaybetmeden özgün göreve geri dönebilmesi için menü öğelerinin deturlarını konfigüre etme yöntemi açıklanmıştır.
+Bu makalede, çalışanların geçerli görevi "park" edebilmesi, başka bir görev gerçekleştirmesi ve herhangi bir bilgiyi kaybetmeden özgün göreve geri dönebilmesi için menü öğelerinin deturlarını konfigüre etme yöntemi açıklanmıştır.
 
 Sapma, ana görevdeki bir adımdan açılabilen ayrı bir menü öğesidir. Sapmanın sonunda, çalışan, ana görevin solundaki yere geri döndürülür. Konfigürasyon sırasında, sapma olarak davranması gereken menü öğesini belirtirsiniz. Ayrıca ana görevdeki hangi alan değerlerinin sapmaya otomatik olarak iletildiğini (kopyalanacağını) ve buraya girileceğini seçebilirsiniz. Bu nedenle, görev akışında, sapmanın çalışanlar için nereye kullanılabileceğini istediğinizi anlamanız gerekir. Ayrıca, sapma için kopyalanması gereken bilgilerin görev akışı adımı için kullanılabilir durumda olduğundan emin olmalısınız.
 
@@ -46,7 +46,7 @@ Mobil aygıt menü öğelerindeki adımların sapmalarını konfigüre etmeden �
     - **Modül:** *Ambar yönetimi*
     - **Özellik adı:** *Warehouse Management uygulama sapmaları*
 
-    Bu özellik, bu konuda açıklanan özelliktir.
+    Bu özellik, bu makalede açıklanan özelliktir.
 
 1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Ambar uygulaması alan adları**'na gidip **Varsayılan kurulum oluştur**'u seçerek Warehouse Management mobil uygulamasında alan adlarını güncelleştirin. - Daha fazla bilgi için bkz. [Ambar Yönetimi mobil uygulaması için alanları yapılandırma](configure-app-field-names-priorities-warehouse.md).
 1. Warehouse Management mobil uygulamasını kullandığınız her yasal varlık (şirket) için önceki adımı yineleyin.
@@ -57,7 +57,7 @@ Menüye özel bir geçersiz kılmada bir sapma ayarlamak için aşağıdaki yord
 
 1. İlgili menü için, [Warehouse Management mobil uygulaması için adım başlıklarını ve talimatlarını özelleştirme](mobile-app-titles-instructions.md) bölümünde açıklandığı şekilde ilgili menü ve adımlar için menüye özel geçersiz kılma oluşturun.
 1. Düzenlemek istediğiniz **Adım Kimliği** ve **Menü öğesi adı** değerlerinin birleşimini bulun ve **Adım Kimliği** sütunundaki değeri seçin.
-1. Görüntülenen sayfada, **Mevcut sapmalar (menü öğeleri)** hızlı sekmesinde, bir gezinti görevi görecek menü öğesini belirtebilirsiniz. Ayrıca ana görevdeki hangi alan değerlerinin sapmaya ve sapmadan otomatik olarak iletildiğini belirleyebilrisiniz. Bu ayarların nasıl kullanılacağını gösteren örnekler için, bu konunun ilerleyen kısımlarında yer alan senaryolara bakın.
+1. Görüntülenen sayfada, **Mevcut sapmalar (menü öğeleri)** hızlı sekmesinde, bir gezinti görevi görecek menü öğesini belirtebilirsiniz. Ayrıca ana görevdeki hangi alan değerlerinin sapmaya ve sapmadan otomatik olarak iletildiğini belirleyebilrisiniz. Bu ayarların nasıl kullanılacağını gösteren örnekler için, bu makalenin ilerleyen kısımlarında yer alan senaryolara bakın.
 
 ## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>Örnek Senaryo 1: Bir yerleşim sorgulaması sırasında yapılacak bir sapma olarak hareket eden satış çekme
 

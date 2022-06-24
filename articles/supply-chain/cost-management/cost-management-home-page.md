@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0c5d7e8f9561ba81e0be93220df9afcd493179f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e9ba69f637087298bf6a93dbb049d78dff739aaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672500"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891161"
 ---
 # <a name="cost-management-home-page"></a>Maliyet yönetimi giriş sayfası
 
@@ -53,7 +53,7 @@ Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microso
 
 #### <a name="white-paper"></a>Teknik inceleme
 
-[Maliyetlendirme tablosu kullanarak ürün reçetesi hesaplama](https://www.microsoft.com/download/details.aspx?id=101937) malzemeyi ve üretimi kapsayan bir maliyetlendirme tablosunu ayarlamayı ve ayarlamanın ürün reçetesi hesaplama sonuçları üzerindeki etkilerini anlatır. Konuları daha iyi açıklamak için çeşitli ayarların ve yapılandırmaların etkisini gösteren somut senaryolar ve veriler sağlar.
+[Maliyetlendirme tablosu kullanarak ürün reçetesi hesaplama](https://www.microsoft.com/download/details.aspx?id=101937) malzemeyi ve üretimi kapsayan bir maliyetlendirme tablosunu ayarlamayı ve ayarlamanın ürün reçetesi hesaplama sonuçları üzerindeki etkilerini anlatır. Makaleleri daha iyi açıklamak için çeşitli ayarların ve yapılandırmaların etkisini gösteren somut senaryolar ve veriler sağlar.
 
 #### <a name="blogs"></a>Bloglar
 

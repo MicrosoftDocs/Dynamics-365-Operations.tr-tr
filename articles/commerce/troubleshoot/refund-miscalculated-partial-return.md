@@ -1,6 +1,6 @@
 ---
 title: İade edilebilir masraflar, iade edilen miktara göre yanlış hesaplanmış
-description: Bu konu satış noktasında (POS) iade edilen maddelerin miktarı için yanlış iade edilebilir masraflar gördüklerinde kasiyerlere yardımcı olabilecek sorun giderme kılavuzu sağlar.
+description: Bu makale satış noktasında (POS) iade edilen maddelerin miktarı için yanlış iade edilebilir masraflar gördüklerinde kasiyerlere yardımcı olabilecek sorun giderme kılavuzu sağlar.
 author: gvrmohanreddy
 ms.date: 03/24/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c8ecaa0cb73d06ac66b57cce815264e841a2259b
-ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
+ms.openlocfilehash: 7a84207f587a826b9acdfd818c64220c5327bde1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "8490223"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890255"
 ---
 # <a name="refundable-charges-are-miscalculated-based-on-the-quantity-returned"></a>İade edilebilir masraflar, iade edilen miktara göre yanlış hesaplanmış
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu satış noktasında (POS) iade edilen maddelerin miktarı için yanlış iade edilebilir masraflar gördüklerinde kasiyerlere yardımcı olabilecek sorun giderme kılavuzu sağlar.
+Bu makale satış noktasında (POS) iade edilen maddelerin miktarı için yanlış iade edilebilir masraflar gördüklerinde kasiyerlere yardımcı olabilecek sorun giderme kılavuzu sağlar.
 
 ## <a name="description"></a>Açıklama
 

@@ -1,6 +1,6 @@
 ---
 title: İsveç için kontrol birimi tümleştirmesi örneği
-description: Bu konu, Microsoft Dynamics 365 Commerce'taki İsveç'e yönelik mali tümleştirme örneğine genel bakış sağlar.
+description: Bu makale, Microsoft Dynamics 365 Commerce'taki İsveç'e yönelik mali tümleştirme örneğine genel bakış sağlar.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: ace1bd5b1a06317b6753a34779ecfa96e519a63e
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 11ce0b146f2e64092b0d03dc7416660d76380cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077025"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885414"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>İsveç için kontrol birimi tümleştirmesi örneği
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce'taki İsveç'e yönelik mali tümleştirme örneğine genel bakış sağlar.
+Bu makale, Microsoft Dynamics 365 Commerce'taki İsveç'e yönelik mali tümleştirme örneğine genel bakış sağlar.
 
 > [!NOTE]
 > Bu örnek mali tümleştirme işlevi, önceki [İsveç için kontrol birimleriyle POS tümleştirmesi örneğinin](retail-sdk-control-unit-sample.md) yerine geçer. Önceki örnek [mali tümleştirme çerçevesinden](./fiscal-integration-for-retail-channel.md) yararlanmaz ve sonraki güncelleştirmelerde artık kullanılmayacaktır. Önceki örnekten Dynamics 365 Commerce sürüm **10.0.22 ve öncesine** karşılık gelen örneğe nasıl geçileceği hakkında bilgi için bkz. [Önceki tümleştirme örneğinden geçiş yapma](emea-swe-fi-sample-sdk.md#migrating-from-the-earlier-integration-sample).
@@ -83,7 +83,7 @@ Aşağıdaki POS etiketlerini tablodaki **Dil metni** sayfasının **POS** böl�
 
 Gerekli her makbuz biçimi için **Yazdırma davranışı** alanının değerini **Her zaman yazdır** olarak değiştirin.
 
-Makbuz biçimi tasarımcısında, aşağıdaki özel alanları **Alt bilgi** bölümüne ekleyin. Alan adlarının bu konunun önceki bölümünde tanımladığınız dil metinlerine karşılık geldiğini unutmayın.
+Makbuz biçimi tasarımcısında, aşağıdaki özel alanları **Alt bilgi** bölümüne ekleyin. Alan adlarının bu makalenin önceki bölümünde tanımladığınız dil metinlerine karşılık geldiğini unutmayın.
 
 - **Kayıt kontrol kodu** – Bu alan, kontrol kodunu yazdırır.
 - **Cihazı kaydet** – Bu alan, kontrol biriminin üretim numarasını yazdırır.

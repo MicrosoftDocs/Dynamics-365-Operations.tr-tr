@@ -1,6 +1,6 @@
 ---
-title: Varlık türleri
-description: Bu konuda Varlık Yönetimi'nde varlık türleri oluşturma işlemi açıklanmaktadır. Ayrıca, varlık türlerine ilişkin öğeler de açıklanmaktadır.
+title: Kıymet türleri
+description: Bu makalede Varlık Yönetimi'nde varlık türleri oluşturma işlemi açıklanmaktadır. Ayrıca, varlık türlerine ilişkin öğeler de açıklanmaktadır.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc1a8d98e9a8853e2e72bfcc7415ddb9a0a3b7758504621d6fccff00a08a36be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3a51fdb55e9158e88e89549e3d0049e699c233e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730390"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887645"
 ---
-# <a name="asset-types"></a>Varlık türleri
+# <a name="asset-types"></a>Kıymet türleri
 
 [!include [banner](../../includes/banner.md)]
 
 
 
-Bu konu varlık türlerinin nasıl oluşturulacağını açıklar. Ayrıca, varlık türlerine ilişkin öğeler de açıklanmaktadır. Varlık türleri varlıklar için genel kategoriler olarak kullanılır. Örnekler arasında CNC makineleri, ölçüm ekipmanları ve kamyonlar bulunmaktadır. Varlık türleri bir varlık için seçilebilecek bakım işi türlerini (bakım görevleri), varlık yaşam döngüsü durumlarını, sayaçları, varlık özniteliklerini, koşul değerlendirme şablonlarını ve varlık modellerini yönetmek için kullanılır. Bir varlık oluşturduğunuzda varlık türünü belirtmeniz gerekir.
+Bu makale varlık türlerinin nasıl oluşturulacağını açıklar. Ayrıca, varlık türlerine ilişkin öğeler de açıklanmaktadır. Varlık türleri varlıklar için genel kategoriler olarak kullanılır. Örnekler arasında CNC makineleri, ölçüm ekipmanları ve kamyonlar bulunmaktadır. Varlık türleri bir varlık için seçilebilecek bakım işi türlerini (bakım görevleri), varlık yaşam döngüsü durumlarını, sayaçları, varlık özniteliklerini, koşul değerlendirme şablonlarını ve varlık modellerini yönetmek için kullanılır. Bir varlık oluşturduğunuzda varlık türünü belirtmeniz gerekir.
 
 Her varlık türü için, varlık türü kurulumu varyasyonları oluşturulabilir. Örneğin, **Kamyonlar** adlı bir varlık türünüz varsa, bu varlık türünün farklı varlık üreticileri ve varlık modelleri için varyasyonlarını oluşturabilirsiniz. Her varlık türü kurulumuna gerekli yedek parçaları ve bakım planlarını ekleyebilirsiniz.
 

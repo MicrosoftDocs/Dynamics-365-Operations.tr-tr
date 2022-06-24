@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 296cee4c5da82d8bfcab298a5a2a13d982f8f808
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 05f2f11408dac93faa8f71cb0396893c03cdb6a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672108"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851898"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Dynamics 365 Supply Chain Management işlevsel danışmanları için Öğrenme Kataloğu
 
@@ -68,7 +68,7 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | [Kurs MB-300T01-A: Dynamics 365 for Finance and Operations'ın temel ortak özellikleri](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | Bu kursta Microsoft Dynamics 365 for Finance and Operations'ın temel ortak özellikleri ele alınacaktır. | Maliyeti bölgeye ve iş ortağına göre değişkenlik gösteren, eğitmen tarafından yönetilen, bizzat katılımlı veya çevrimiçi eğitimler | 1 gün |
 | [Kurs MB-300T02-A: Dynamics 365 for Finance and Operations'ta temel yapılandırma](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | Bu kursta Microsoft Dynamics 365 for Finance and Operations'ın temel yapılandırma görevleri açıklanmaktadır. | Maliyeti bölgeye ve iş ortağına göre değişkenlik gösteren, eğitmen tarafından yönetilen, bizzat katılımlı veya çevrimiçi eğitimler | 1 gün |
 | [Kurs MB-300T03-A: Veri geçişi ve Dynamics 365 for Finance and Operations ile uygulamaya geçirme için hazırlanma](https://www.microsoft.com/learning/course.aspx?cid=MB-300T03) | Bu kursta veri geçişi ve Microsoft Dynamics 365 for Finance and Operations ile uygulamaya geçirme için hazırlanma ele alınacaktır. | Maliyeti bölgeye ve iş ortağına göre değişkenlik gösteren, eğitmen tarafından yönetilen, bizzat katılımlı veya çevrimiçi eğitimler | 1 gün |
-| [Uygulama Yaşam Döngüsü giriş sayfası](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | Bu konularda Microsoft Dynamics 365 for Finance and Operations projenizin uygulama yaşam döngüsü ile ilgili olan program, araç ve işlemler açıklanmaktadır. | Belgeler | |
+| [Uygulama Yaşam Döngüsü giriş sayfası](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | Bu makalelerde Microsoft Dynamics 365 for Finance and Operations projenizin uygulama yaşam döngüsü ile ilgili olan program, araç ve işlemler açıklanmaktadır. | Belgeler | |
 
 ## <a name="migration-and-upgrade"></a>Geçiş ve yükseltme<a name="migration"></a>
 
@@ -105,7 +105,7 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | [Warehousing Mobile App (VIR816PAL) ](https://community.dynamics.com/365/b/techtalks/posts/warehousing-mobile-app-march-22-2017) | Bu Teknik Sohbet'te, Dynamics 365 for Operations'taki Gelişmiş Ambar İşlemleri sistemi ve geleceğin gelişmiş ambar işlemleri mobil arabirimi için neler getireceği ele alınacaktır. Yayınlanan yeni mobil uygulamayı ve bunun eski WMDP ile karşılaştırmasını inceleyeceğiz. Bu mobil uygulamayı yüklemek, yapılandırmak ve çalıştırmak için gerekli olan şeyleri ve uygulamalarınıza yarar sağlamak için bu uygulamanın nasıl kullanılacağını öğreneceğiz. | Bir web konferansını ücretsiz olarak kaydetme | 54 dakika |
 | [Satıcı İş Birliği (DYN327PAL) ](https://community.dynamics.com/365/b/techtalks/posts/vendor-collaboration-july-25-2017) | Bu Teknik Sohbet'te, Temmuz (ilkbahar) sürümüne dahil edilen Satıcı özelliğinden gelen Yakıt Tüketimi de dahil olmak üzere Satıcı İş Birliği özelliğini inceleyeceğiz. | Bir web konferansını ücretsiz olarak kaydetme | 58 dakika |
 | [Gelişmiş Ambar Yönetimini Kullanmak İçin Madde ve Ambar Taşıma İşlemi (DYN316PAL) ](https://community.dynamics.com/365/b/techtalks/posts/item-and-warehouse-migration-process-to-use-advanced-warehouse-management-june-27-2017) | Bu Teknik Sohbet'te, maddeler için depo boyut grubunu değiştirmeye ve ambarların gelişmiş ambar yönetim sürecini kullanmalarını sağlamaya yönelik yeni özellikleri kullanarak gelişmiş ambar yönetimine ilişkin açık işlemler içeren mevcut ambar kurulumu ve maddelerine nasıl geçiş yapabileceğinizi size öğreteceğiz. | Bir web konferansını ücretsiz olarak kaydetme | 54 dakika |
-| [Tedarik zinciri yönetimi giriş sayfası](/dynamics365/unified-operations/supply-chain/) | Bu konuda Microsoft Dynamics 365 for Finance and Operations'ta tedarik zinciri yönetim özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır. | Belgeler | |
+| [Tedarik zinciri yönetimi giriş sayfası](/dynamics365/unified-operations/supply-chain/) | Bu makalede Microsoft Dynamics 365 for Finance and Operations'ta tedarik zinciri yönetim özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır. | Belgeler | |
 | [Hammadde Çekme İçin Stok Yenileme Talebi (DYN333PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/demand-replenishment-for-raw-material-picking-september-28-2017) | Bu Teknik Sohbet'te, hammadde çekme ve hammadde çekme için talep yenileme işlemleri ele alınacaktır. | Bir web konferansını ücretsiz olarak kaydetme | 38 dakika |
 | [Kurs MB-330T01-A: Dynamics 365 for Finance and Operations'ta Supply Chain Management'ı yapılandırma ve kullanma](https://www.microsoft.com/learning/course.aspx?cid=MB-330T01) | Bu kursta, Dynamics 365 for Finance and Operations'ta Supply Chain Management'ı yapılandırma ve kullanma ele alınmaktadır. | Maliyeti bölgeye ve iş ortağına göre değişkenlik gösteren, eğitmen tarafından yönetilen, bizzat katılımlı veya çevrimiçi eğitimler | 2 gün |
 | [Kurs MB-330T02-A: Dynamics 365 for Finance and Operations'ta kalite yönetimini, şirketlerarası ticareti ve ana planlamayı kullanma](https://www.microsoft.com/learning/course.aspx?cid=MB-330T02) | Bu kursta, Dynamics 365 for Finance and Operations'ta kalite yönetimini, şirketlerarası ticareti ve ana planlamayı kullanma ele alınmaktadır. | Maliyeti bölgeye ve iş ortağına göre değişkenlik gösteren, eğitmen tarafından yönetilen, bizzat katılımlı veya çevrimiçi eğitimler | 1 gün |

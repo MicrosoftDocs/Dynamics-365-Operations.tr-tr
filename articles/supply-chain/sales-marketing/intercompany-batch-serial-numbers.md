@@ -1,6 +1,6 @@
 ---
 title: Şirketlerarası toplu iş ve seri numaraları
-description: Bu konuda, şirketlerarası siparişlerin toplu iş numaralarını ve seri numaralarını kaydettiğinizde ne olacağı açıklanmaktadır
+description: Bu makalede, şirketlerarası siparişlerin toplu iş numaralarını ve seri numaralarını kaydettiğinizde ne olacağı açıklanmaktadır
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 9d5e6ddd0bf9ab9dd032e3ab8d1e11d53fba639e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5c743c8eee8d27a2c2357523a11236eb247ec5be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851521"
 ---
 # <a name="intercompany-batch-and-serial-numbers"></a>Şirketlerarası toplu iş ve seri numaraları
 

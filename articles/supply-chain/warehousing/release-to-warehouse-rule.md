@@ -1,6 +1,6 @@
 ---
 title: Ambara serbest bırakma kuralı
-description: Bu konu, ambara serbest bırakma sırasında esneklik sağlayan Ambara serbest bırakma kuralı özelliği hakkında bilgi sağlamaktadır. Bu özellik, sistemin kısmen rezerve edilmiş sipariş satırlarının serbest bırakılmasına izin verip vermeyeceğini denetleyen bir yapılandırma seçeneği ekler.
+description: Bu makale, ambara serbest bırakma sırasında esneklik sağlayan Ambara serbest bırakma kuralı özelliği hakkında bilgi sağlamaktadır. Bu özellik, sistemin kısmen rezerve edilmiş sipariş satırlarının serbest bırakılmasına izin verip vermeyeceğini denetleyen bir yapılandırma seçeneği ekler.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5fef1d942f2e9d3467fb8a00c6d89cc5c018a5aa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c011938438be32e8a3169d90561ab329da32e32a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674631"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895481"
 ---
 # <a name="release-to-warehouse-rule"></a>Ambara serbest bırakma kuralı
 
@@ -78,7 +78,7 @@ Bu senaryoları, üretim sisteminde çalışırken özelliğe ilişkin bir kıla
 Bu senaryo, özelliğin **Tam rezervasyon gerekli** şeklinde ayarlanmış ambarlar için nasıl çalıştığını gösterir.
 
 1. **Ambar yönetimi \> Kurulum \> Ambar  \> Ambarlar**'a gidin.
-1. _62_ kodlu ambar için, bu konuda daha önce ele alınan [Ambara serbest bırakma kuralını her bir ambar için ayarlama](#set-option-warehouse) bölümünde açıklandığı gibi, **Stok rezervasyonu için gereksinim** alanının ayarını **Tam rezervasyon gerekli** yapın.
+1. _62_ kodlu ambar için, bu makalede daha önce ele alınan [Ambara serbest bırakma kuralını her bir ambar için ayarlama](#set-option-warehouse) bölümünde açıklandığı gibi, **Stok rezervasyonu için gereksinim** alanının ayarını **Tam rezervasyon gerekli** yapın.
 1. **Satış ve pazarlama \> Satış siparişleri \> Tüm satış siparişleri**'ne gidin.
 1. Satış siparişi oluşturmak için **Yeni**'yi seçin.
 1. **Satış siparişi oluştur** iletişim kutusunda, aşağıdaki değerleri ayarlayın:
@@ -112,7 +112,7 @@ Bu senaryo, özelliğin **Tam rezervasyon gerekli** şeklinde ayarlanmış ambar
 Bu senaryo, özelliğin **Kısmi serbest bırakmaya izin ver** şeklinde ayarlanmış ambarlar için nasıl çalıştığını gösterir.
 
 1. **Ambar yönetimi \> Kurulum \> Ambar  \> Ambarlar**'a gidin.
-1. _62_ kodlu ambar için, bu konuda daha önce ele alınan [Ambara serbest bırakma kuralını her bir ambar için ayarlama](#set-option-warehouse) bölümünde açıklandığı gibi, **Stok rezervasyonu için gereksinim** alanının ayarını **Kısmi rezervasyona izin ver** yapın.
+1. _62_ kodlu ambar için, bu makalede daha önce ele alınan [Ambara serbest bırakma kuralını her bir ambar için ayarlama](#set-option-warehouse) bölümünde açıklandığı gibi, **Stok rezervasyonu için gereksinim** alanının ayarını **Kısmi rezervasyona izin ver** yapın.
 1. [Önceki senaryoda](#scenario1) yaptığınız gibi, **Satış ve pazarlama \> Satış siparişleri \> Tüm satış siparişleri**'ne gidin ve _62_ kodlu ambardaki müşteri hesabı _ABD-004_ için bir satış siparişi oluşturun. Aşağıdaki iki sipariş satırını ekleyin:
 
     - **Satır 1:** **Madde numarası** alanını _A0001_ olarak, **Miktar** alanını _2_ olarak ve **Birim** alanını _Prç_ olarak ayarlayın.

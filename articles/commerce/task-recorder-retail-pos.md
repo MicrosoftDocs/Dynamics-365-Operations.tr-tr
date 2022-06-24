@@ -1,6 +1,6 @@
 ---
 title: Retail Modern POS (MPOS) ve Cloud POS için görev kaydedici ve Yardım
-description: Bu konu, Görev kaydedicinin Retail Modern POS ve Bulut POS içerisinde nasıl kullanılacağını açıklar.
+description: Bu makale, Görev kaydedicinin Retail Modern POS ve Bulut POS içerisinde nasıl kullanılacağını açıklar.
 author: mugunthanm
 ms.date: 06/19/2017
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: aedf18ef8b3d7266f3e5c7acd676241f9ec8b900f061f5363cd8d581062e83ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9f3e17a6c67dc1cc1d4ba423ce258f2ed1d1ec0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730767"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847613"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) ve Cloud POS için görev kaydedici ve Yardım
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Görev kaydedicinin Retail Modern POS ve Bulut POS içerisinde nasıl kullanılacağını açıklar.
+Bu makale, Görev kaydedicinin Retail Modern POS ve Bulut POS içerisinde nasıl kullanılacağını açıklar.
 
-## <a name="overview"></a>Genel bakış
+## <a name="overview"></a>Genel Bakış
 
 Retail Modern POS veya Bulut POS'taki görev kaydedici, yüksek cevap verebilirliğe odaklı oluşturulmuş yeni bir çözümdür. Genişletilebilirlik ve iş işlemi kayıtlarının müşterileri ile sorunsuz tümleştirme sağlayan esnek bir uygulama programlama arabirimi (API) sağlar. Ek olarak, Microsoft Dynamics Lifecycle Services üzerinde İş süreci modelleyici (BPM) aracı ile Görev kaydedici tümleştirmesi ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) öne çıkarılmıştır. Bu sayede kullanıcılar, kendi uygulamalarını analiz etmek ve tasarlamak için zengin iş işlemi diyagramlarını kayıtlardan üretebilirler.
 
@@ -139,7 +139,7 @@ Görev kayıtlarınızın Retail Modern POS ve Bulut POS için metin olarak gör
 
 [![Yardım düğmesi.](./media/help.jpg)](./media/help.jpg)
 
-Arama sonuçları içerisinde bir Görev kılavuzuna tıkladığınızda adımları bir Yardım konusu olarak görüntüleyebilir veya adımları bir Word belgesine aktarabilirsiniz.
+Arama sonuçları içerisinde bir Görev kılavuzuna tıkladığınızda adımları bir Yardım makalesi olarak görüntüleyebilir veya adımları bir Word belgesine aktarabilirsiniz.
 
 > [!NOTE]
 > Retail Modern POS ve Bulut POS'ta Yardım, hangi formda olduğunuza veya hangi işlemi yaptığınıza bağlı olarak görev kılavuzlarını getirmeyecektir. Arama kutusuna işlem adını yazıp **Ara** düğmesine tıklamanız gerekir.

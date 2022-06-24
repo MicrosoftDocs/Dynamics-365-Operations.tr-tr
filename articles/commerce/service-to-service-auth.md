@@ -1,6 +1,6 @@
 ---
 title: Hizmetten hizmete kimlik doğrulamasını yapılandırma
-description: Bu konuda, derecelendirmelere ve incelemelere ilişkin hizmet API'lerini güvenli şekilde çağırmak amacıyla Microsoft Dynamics 365 Commerce'te Hizmetten Hizmete kimlik doğrulamasının nasıl yapılandırılacağı açıklanmaktadır.
+description: Bu makalede, derecelendirmelere ve incelemelere ilişkin hizmet API'lerini güvenli şekilde çağırmak amacıyla Microsoft Dynamics 365 Commerce'te Hizmetten Hizmete kimlik doğrulamasının nasıl yapılandırılacağı açıklanmaktadır.
 author: gvrmohanreddy
 ms.date: 01/12/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: da780de5f15d72bdac85a261eae809125c830260
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: acb3a6220d146d32bbeb5bd8169033bc897ec3fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968536"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871619"
 ---
 # <a name="configure-service-to-service-authentication"></a>Hizmetten hizmete kimlik doğrulamasını yapılandırma
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, derecelendirmelere ve incelemelere ilişkin hizmet uygulama programlama arabirimlerini (API'ler) güvenli şekilde çağırmak amacıyla Microsoft Dynamics 365 Commerce'te Hizmetten Hizmete (S2S) kimlik doğrulamasının nasıl yapılandırılacağı açıklanmaktadır.
+Bu makalede, derecelendirmelere ve incelemelere ilişkin hizmet uygulama programlama arabirimlerini (API'ler) güvenli şekilde çağırmak amacıyla Microsoft Dynamics 365 Commerce'te Hizmetten Hizmete (S2S) kimlik doğrulamasının nasıl yapılandırılacağı açıklanmaktadır.
 
-Dynamics 365 Commerce, çok kanallı çözüm olarak [derecelendirmeler ve incelemeler](ratings-reviews-overview.md) sunar. Bu çözüm, çeşitli görevlerin gerçekleştirilebileceği şekilde, Commerce dışından gelen hizmet API'lerine erişim sağlar. Bu görevler harici sisteminizden gelen derecelendirmeleri ve değerlendirmeleri Commerce'e aktarmayı ve derecelendirmeler ve incelemeleri Commerce'den dışa aktarmayı içerir. Commerce'in derecelendirmeleri ve incelemeleri güvenli bir şekilde çağırmasını etkinleştirmek için öncelikle bu konudaki prosedürleri tamamlayarak S2S kimlik doğrulamasını yapılandırmanız gerekir.
+Dynamics 365 Commerce, çok kanallı çözüm olarak [derecelendirmeler ve incelemeler](ratings-reviews-overview.md) sunar. Bu çözüm, çeşitli görevlerin gerçekleştirilebileceği şekilde, Commerce dışından gelen hizmet API'lerine erişim sağlar. Bu görevler harici sisteminizden gelen derecelendirmeleri ve değerlendirmeleri Commerce'e aktarmayı ve derecelendirmeler ve incelemeleri Commerce'den dışa aktarmayı içerir. Commerce'in derecelendirmeleri ve incelemeleri güvenli bir şekilde çağırmasını etkinleştirmek için öncelikle bu makaledeki prosedürleri tamamlayarak S2S kimlik doğrulamasını yapılandırmanız gerekir.
 
 ## <a name="add-a-new-app-registration"></a>Yeni uygulama kaydı ekle
 

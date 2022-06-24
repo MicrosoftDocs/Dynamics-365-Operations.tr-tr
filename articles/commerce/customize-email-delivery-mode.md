@@ -1,6 +1,6 @@
 ---
 title: Teslimat şekline göre işlem tabanlı e-postaları özelleştirme
-description: Bu konu, Microsoft Dynamics 365 Commerce'ta belirli bildirim türleri ve teslimat modları için özel e-posta şablonları ayarlamayı açıklamaktadır .
+description: Bu makale, Microsoft Dynamics 365 Commerce'ta belirli bildirim türleri ve teslimat modları için özel e-posta şablonları ayarlamayı açıklamaktadır .
 author: stuharg
 ms.date: 11/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: d15e7c5c7050ad373cb45da72de59416e85a5f2034f7a11b007d497b2e2b98bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f16bc23e3527f57bd61d73e92506946067c6eeb9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749919"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850316"
 ---
 # <a name="customize-transactional-emails-by-mode-of-delivery"></a>Teslimat şekline göre işlem tabanlı e-postaları özelleştirme
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce'ta belirli bildirim türleri ve teslimat modları için özel e-posta şablonları ayarlamayı açıklamaktadır .
+Bu makale, Microsoft Dynamics 365 Commerce'ta belirli bildirim türleri ve teslimat modları için özel e-posta şablonları ayarlamayı açıklamaktadır .
 
 İşlem e-postaları artık bildirim türü (örneğin, **sipariş oluşturuldu**, **sipariş edilen sipariş** veya **fatura kesilen sipariş**) ve teslimat modu (örneğin, fazla gece, mağaza içi teslim veya yol kenarı teslim) birleşimi için özelleştirilebilir. Özel işlem e-postaları perakendecilerin, siparişin teslimat moduna göre tasarlanmış olan karşılama deneyimleriyle ilgili olarak müşterilerine sipariş vermalarını sağlar. Örneğin, "sipariş edilen" olayı özelleştirilebilir bir yan malzeme çekme seçimi yapan müşteriler için yol kenarı teslim yönergeleri sağlar. Alternatif olarak, siparişleri sevk edilmesini seçen müşteriler için sevkiyat taşıyıcısı ve teslimat bilgileri sağlayabilir.
 

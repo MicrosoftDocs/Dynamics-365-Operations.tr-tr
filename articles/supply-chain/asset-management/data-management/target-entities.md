@@ -1,6 +1,6 @@
 ---
 title: Hedef varlıkları
-description: Bu konu, Varlık Yönetimi içinde hedef varlıkların genel bakışını almayı anlatır.
+description: Bu makale, Varlık Yönetimi içinde hedef varlıkların genel bakışını almayı anlatır.
 author: johanhoffmann
 ms.date: 09/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c2d08781ff75b2435e9b71531ce77a59dbee2d90e647087d7c2c58bb4b1227e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 172f49c13c183eb4df986dc3e30ff3955bc1a605
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772580"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861000"
 ---
 # <a name="target-entities"></a>Hedef varlıklar
 
@@ -30,7 +30,7 @@ ms.locfileid: "6772580"
 
 **Veri yönetimi** çalışma alanında, hedef varlıkların, ilgili varlık tiplerinin ve **Varlık Yönetimi** modülüyle ilgili hazırlama tablolarının genel bir görünümünü alabilirsiniz. 
 
-1. Ekranın sol üst köşesindeki **Finance and Operations** düğmesini tıklatın ve **Veri yönetimi**'ni tıklatın.
+1. Ekranın sol üst köşesindeki **Finance and Operations** düğmesini tıklatın ve **veri yönetimi**'ni tıklatın.
 
 2. **İçe/Dışa aktarma** bölümünde **Veri varlıkları**'nı tıklatın. 
 

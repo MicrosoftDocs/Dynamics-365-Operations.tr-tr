@@ -1,6 +1,6 @@
 ---
 title: Bulut ve uç ölçek birimleri için üretim yürütme iş yükleri
-description: Bu konuda, üretim yürütme iş yüklerinin bulut ve edge ölçek birimleri ile nasıl çalıştığı açıklanmaktadır.
+description: Bu makalede, üretim yürütme iş yüklerinin bulut ve edge ölçek birimleri ile nasıl çalıştığı açıklanmaktadır.
 author: johanhoffmann
 ms.date: 10/06/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: johanho
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b30e16489b0b0169f08e52c70cf4489c9bf4ce1b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c73c2440d8807e965e5d2d89105c2a8a6971c849
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674068"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865338"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için üretim yürütme iş yükleri
 
@@ -41,7 +41,7 @@ ms.locfileid: "8674068"
 - Üretim katı denetçisi, çalışma planını ayarlayabilir.
 - Çalışanlar, doğru çalışan maaşı hesaplamasını sağlamak için kenardan giriş ve çıkış zamanlarına erişebilirsiniz.
 
-Bu konuda, üretim yürütme iş yüklerinin bulut ve edge ölçek birimleri ile nasıl çalıştığı açıklanmaktadır.
+Bu makalede, üretim yürütme iş yüklerinin bulut ve edge ölçek birimleri ile nasıl çalıştığı açıklanmaktadır.
 
 ## <a name="the-manufacturing-lifecycle"></a>Üretim yaşam döngüsü
 

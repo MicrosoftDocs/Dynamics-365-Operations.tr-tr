@@ -1,6 +1,6 @@
 ---
 title: Çevrimiçi işlevsellik profili oluştur
-description: Bu konuda, Microsoft Dynamics 365 Commerce'ta bir çevrimiçi işlevsellik profilinin nasıl oluşturulacağı açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce'ta bir çevrimiçi işlevsellik profilinin nasıl oluşturulacağı açıklanmaktadır.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d6dcbb5b9ea01035396e90a6809cb1568c3a4fc86def41cf36732588b5046da7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 686bc6440c31f3a4d729f2d92e3e57a1cc7b641f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716206"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895438"
 ---
 # <a name="create-an-online-functionality-profile"></a>Çevrimiçi işlevsellik profili oluştur
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce için bir çevrimiçi işlevsellik profili kurma işleminin genel görünümünü sunmaktadır.
+Bu makale, Microsoft Dynamics 365 Commerce için bir çevrimiçi işlevsellik profili kurma işleminin genel görünümünü sunmaktadır.
 
 Çevrimiçi işlevsellik profili, çevrimiçi kanallarda çeşitli ayarlar sağlar. Her bir çevrimiçi kanalın bir çevrimiçi işlevsellik profili belirtmesi gerekir.
 

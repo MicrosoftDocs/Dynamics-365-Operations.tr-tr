@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3381c752e4f1f723162ad314c29ab477caf635a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6934c1147de79c24eb66127d2e08ae8b627bc744
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849372"
 ---
 # <a name="purchase-requisition-workflow"></a>Satınalma talebi iş akışı
 
@@ -89,7 +89,7 @@ Bu örnekte, satınalma talebi satırları için iş akışı süreci aşağıda
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Satınalma talepleri için bir iş akışı yapılandırma
 Gözden geçirilmek üzere bir satınalma talebini yönlendirmek için satınalma talebi iş akışı işlemlerini yapılandırmanız gerekir. Tanımladığınız iş akışı işlemi ürünleri, talep eden kullanıcı (talep sahibi) ile iş akışında gözden geçiren ve onaylayan kişi arasındaki etkileşimi denetler. Satınalma talebinin yönlendirilmesi iş akışı yapılandırmasında belirtilen koşullara bağlıdır. Örneğin, bu koşullar satınalma talebinin ne zaman yönlendirilmesi gerektiğini, yönlendirilmesi gereken kullanıcı ile rolü ve kullanıcıları gerçekleştirebileceği işlemleri belirler.  
 
-Bu konudaki örnekler, bir satınalma talebinin bir satınalma talebinin tek bir belge olarak veya bağımsız satınalma talebi satırları olarak bir iş akışı aracılığıyla nasıl yönlendirilebileceğini gösterir. Kuruluşunuz için tanımlanmış satınalma taleplerinin iç denetim incelemesini yansıtan satınalma talepleri için bir iş akışı da yapılandırabilirsiniz.  
+Bu makaledeki örnekler, bir satınalma talebinin bir satınalma talebinin tek bir belge olarak veya bağımsız satınalma talebi satırları olarak bir iş akışı aracılığıyla nasıl yönlendirilebileceğini gösterir. Kuruluşunuz için tanımlanmış satınalma taleplerinin iç denetim incelemesini yansıtan satınalma talepleri için bir iş akışı da yapılandırabilirsiniz.  
 
 Katılımcılar veya bir iş akışında görev atanmış olan gözden geçirenler belirli bir kullanıcı grubunun üyeleri, bir güvenlik rolüne sahip kullanıcılar, yönetimle ilgili hiyerarşide gönderen ile ilişkili kullanıcılar veya adlandırılmış kullanıcılar ya da belirli bir harcama sorumlulukları olan kullanıcılar olabilir.
 

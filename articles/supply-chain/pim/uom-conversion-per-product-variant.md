@@ -1,6 +1,6 @@
 ---
 title: Ürün çeşidi başına ölçü birimi dönüşümü
-description: Bu konuda, ürün çeşitleri için ölçü birimi dönüştürmelerinin nasıl ayarlanacağı açıklanmaktadır. Bir kurulum örneği içerir.
+description: Bu makalede, ürün çeşitleri için ölçü birimi dönüştürmelerinin nasıl ayarlanacağı açıklanmaktadır. Bir kurulum örneği içerir.
 author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c02252abcaf82cb2aab928949827e25ef7cce8c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a605e510ac8faa1f92e105c9fcc30222ef78e05e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579580"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869647"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Ürün çeşidi başına ölçü birimi dönüşümü
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, farklı ürün çeşitleri için ölçü birimi dönüştürmelerinin nasıl ayarlanacağı açıklanmaktadır.
+Bu makalede, farklı ürün çeşitleri için ölçü birimi dönüştürmelerinin nasıl ayarlanacağı açıklanmaktadır.
 
 Korunması gereken birden fazla ayrı ürün oluşturmak yerine tek bir ürünün çeşitlerini oluşturmak için ürün çeşitlerini kullanabilirsiniz. Örneğin, belirli bir boyut ve renkteki tişört bir ürün çeşidi olabilir.
 

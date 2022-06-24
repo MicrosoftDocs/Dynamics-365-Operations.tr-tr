@@ -1,6 +1,6 @@
 ---
 title: Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
-description: Bu konu, bir çalışanın bakış açısından üretim katı yürütme arabiriminin nasıl kullanılacağını açıklar.
+description: Bu makale, bir çalışanın bakış açısından üretim katı yürütme arabiriminin nasıl kullanılacağını açıklar.
 author: johanhoffmann
 ms.date: 01/24/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f163b8feb906470f31a648bf09abf5647c5f1bab
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 9c0d87dfb4c432f9cff0f1172139dbcda6308275
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645004"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860681"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
 
@@ -34,7 +34,7 @@ Cihaz hazırlandıktan sonra, üzerinde oturum açma sayfası görüntülenir. B
 
 ![Üretim katı yürütme arabirimi oturum açma sayfası.](media/pfei-sign-in-page.png "Üretim katı yürütme arabirimi oturum açma sayfası")
 
-Bu konunun geri kalan bölümleri, çalışanların arabirimle nasıl etkileştiğini açıklamaktadır.
+Bu makalenin geri kalan bölümleri, çalışanların arabirimle nasıl etkileştiğini açıklamaktadır.
 
 ## <a name="all-jobs-tab"></a>Tüm işler sekmesi
 

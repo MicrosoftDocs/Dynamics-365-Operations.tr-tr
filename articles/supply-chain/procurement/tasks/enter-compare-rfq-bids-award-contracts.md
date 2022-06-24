@@ -1,6 +1,6 @@
 ---
 title: RFQ tekliflerini girip karşılaştırma ve işi verme
-description: Bu konuda bir teklif talebine (RFQ) yanıtların nasıl girileceği, tekliflerin nasıl puanlandırılacağı ve karşılaştırılacağı ve ardından sözleşme için satıcılardan birinin nasıl seçileceği açıklanmıştır.
+description: Bu makalede bir teklif talebine (RFQ) yanıtların nasıl girileceği, tekliflerin nasıl puanlandırılacağı ve karşılaştırılacağı ve ardından sözleşme için satıcılardan birinin nasıl seçileceği açıklanmıştır.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50b403021c347498a9b489a34196e592a2041a11
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d3ef754f2d5d58254a7c6f0e572115f8a2981ad9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677380"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893395"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>RFQ tekliflerini girip karşılaştırma ve işi verme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda bir teklif talebine (RFQ) yanıtların nasıl girileceği, tekliflerin nasıl puanlandırılacağı ve karşılaştırılacağı ve ardından sözleşme için satıcılardan birinin nasıl seçileceği açıklanmıştır. Bu yordamı **USMF** demo veri şirketinde kullanabilirsiniz.
+Bu makalede bir teklif talebine (RFQ) yanıtların nasıl girileceği, tekliflerin nasıl puanlandırılacağı ve karşılaştırılacağı ve ardından sözleşme için satıcılardan birinin nasıl seçileceği açıklanmıştır. Bu yordamı **USMF** demo veri şirketinde kullanabilirsiniz.
 
 Bu yordama başlamadan önce, en az iki satıcıya gönderilmiş ve iki satır içeren bir RFQ'ya sahip olmanız gerekir. Bu RFQ'yu oluşturmak için [Teklif talebi oluşturma](create-request-quotation.md) yordamını tamamlayın. Bu prosedürü tamamlamadan önce puanlama ölçütlerini belirlemeniz gerekir.
 

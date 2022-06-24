@@ -1,6 +1,6 @@
 ---
 title: Çağrı merkezi katalogları
-description: Bu konu Dynamics 365 Commerce'te kataloglar için çağrı merkezine özel işlevler açıklanır.
+description: Bu makale Dynamics 365 Commerce'te kataloglar için çağrı merkezine özel işlevler açıklanır.
 author: josaw1
 ms.date: 05/15/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6fae877b04fdbd84e1c2508f91bbf53b5412b350c5d2c8978aafb2d7f49783f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 11af3c889e7e40e13f4aa8b3db97f544fbd20229
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884068"
 ---
 # <a name="call-center-catalogs"></a>Çağrı merkezi katalogları
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda Dynamics 365 Commerce'de katalog yetenekleriyle bağlantılı, çağrı merkezine özel işlevler açıklanmaktadır.
+Bu makalede Dynamics 365 Commerce'de katalog yetenekleriyle bağlantılı, çağrı merkezine özel işlevler açıklanmaktadır.
 
 Commerce'te bulunan katalog özellikleri birden çok amaç için kullanılabilir. Başlangıçta katalog özellikleri üçüncü taraf e-Ticaret entegrasyonlarını desteklemek için oluşturulmuştur. Katalog kurulumu, şirketlerin, bir üçüncü taraf e-Ticaret çözümünün kullanımı için harici olarak yayınlanabilen ürün ve öznitelik gruplaması oluşturmalarına olanak sağladı.
 

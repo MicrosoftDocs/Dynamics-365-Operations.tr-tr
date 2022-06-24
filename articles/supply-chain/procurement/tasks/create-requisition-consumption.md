@@ -1,6 +1,6 @@
 ---
 title: Tüketim talebi oluşturma
-description: Bu konuda bir talep oluşturma işlemi açıklanmaktadır.
+description: Bu makalede bir talep oluşturma işlemi açıklanmaktadır.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5881e8a415ad37ff4bdb61b1043901c0b87ef743
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b4fc4a9f0dbd5c413300d27640512df69df30122
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888484"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Tüketim talebi oluşturma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda bir talep oluşturma işlemi açıklanmaktadır. Ürün tedarik kataloğunuzda bulunan ürünleri arama ve kataloğunuzda bulunmayanları nasıl ekleyeceğiniz hakkında farklı yolları gösterir. Bu yordama başlamadan önce Tüketim'in varsayılan talep türü olarak ayarlanmış olduğu bir satın alma ilkeniz olmalıdır. Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz. Yordam, yalnızca çalışan olarak ayarlanmış bir kullanıcı profili tarafından kullanılabilir. Bu görev normalde bir personel tarafından yerine getirilir. **Employee** işe alma güvenlik rolü, görevleri gerçekleştirmenize izin verir veya USMF kullanıyorsanız, **Sibel** olarak oturum açabilirsiniz.
+Bu makalede bir talep oluşturma işlemi açıklanmaktadır. Ürün tedarik kataloğunuzda bulunan ürünleri arama ve kataloğunuzda bulunmayanları nasıl ekleyeceğiniz hakkında farklı yolları gösterir. Bu yordama başlamadan önce Tüketim'in varsayılan talep türü olarak ayarlanmış olduğu bir satın alma ilkeniz olmalıdır. Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz. Yordam, yalnızca çalışan olarak ayarlanmış bir kullanıcı profili tarafından kullanılabilir. Bu görev normalde bir personel tarafından yerine getirilir. **Employee** işe alma güvenlik rolü, görevleri gerçekleştirmenize izin verir veya USMF kullanıyorsanız, **Sibel** olarak oturum açabilirsiniz.
 
 
 ## <a name="create-a-new-requisition"></a>Yeni bir talep oluştur

@@ -1,6 +1,6 @@
 ---
 title: Varlık Ürün Reçeteleri
-description: Bu konuda, Varlık yönetimi'ndeki varlık ürün reçeteleri (BOM) açıklanmaktadır.
+description: Bu makalede, Varlık yönetimi'ndeki varlık ürün reçeteleri (BOM) açıklanmaktadır.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0430891607ac4558c91b86318aee318d0076007daf59a32eda65cb411d274b3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 71b861ec31e704e001aab29245b9e24ce8beb0de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751997"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882793"
 ---
 # <a name="asset-boms"></a>Varlık Ürün Reçeteleri
 
@@ -28,7 +28,7 @@ ms.locfileid: "6751997"
 
  
 
-Bu konuda, Varlık yönetimi'ndeki varlık ürün reçeteleri (BOM) açıklanmaktadır. **Varlık Ürün Reçetesi** sayfası, tüm kullanım ömrü boyunca bir varlık üzerinde kullanılan tüm öğelerin (yedek parça ve diğer öğeler) listesini gösterir. Yeni bir varlık oluşturduğunuzda, kurulum yordamının bir parçası olarak bir varlık ürün reçetesi ayarlamayı düşünmelisiniz. Bu şekilde, varlık için madde geçmişini oluşturma tarihinden itibaren takip edebilirsiniz.
+Bu makalede, Varlık yönetimi'ndeki varlık ürün reçeteleri (BOM) açıklanmaktadır. **Varlık Ürün Reçetesi** sayfası, tüm kullanım ömrü boyunca bir varlık üzerinde kullanılan tüm öğelerin (yedek parça ve diğer öğeler) listesini gösterir. Yeni bir varlık oluşturduğunuzda, kurulum yordamının bir parçası olarak bir varlık ürün reçetesi ayarlamayı düşünmelisiniz. Bu şekilde, varlık için madde geçmişini oluşturma tarihinden itibaren takip edebilirsiniz.
 
 Bir bakım işini tamamladıktan ve madde tüketimi bir iş emrinee kaydettikten sonra, varlık üzerinde kullanılan yedek parça ve diğer maddelerin tüketimini izleyebilirsiniz. Bu işlev, tüm varlıklarınız için tam bir madde tüketim kaydı tutmanızı sağlar. Örneğin, belirli bir yedek parçanın sıklıkla değiştirilip değiştirilmediğini izlemek veya bir varlık üzerinde kullanılmakta olan yedek parçaları veya diğer maddeleri izlemek için bu kaydı kullanabilirsiniz.
 

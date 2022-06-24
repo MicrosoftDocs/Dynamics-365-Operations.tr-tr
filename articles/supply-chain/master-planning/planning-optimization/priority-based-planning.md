@@ -1,6 +1,6 @@
 ---
 title: Öncelik tabanlı planlama
-description: Bu konuda, Microsoft Dynamics 365 Supply Chain Management'ın öncelik tabanlı planlama özelliği açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Supply Chain Management'ın öncelik tabanlı planlama özelliği açıklanmaktadır.
 author: t-benebo
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: bdca7ef99716cebee5c4eb41d1e51793b9468dd4
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468314"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873825"
 ---
 # <a name="priority-based-planning"></a>Öncelik tabanlı planlama
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Supply Chain Management'ın öncelik tabanlı planlama özelliği açıklanmaktadır. Özellik, Talep Temelli Malzeme Gereksinimleri Planlaması (DDMRP) adımı olan talep temelli planlamaya destek ekler. Önceliğe dayalı planlama, Planlama Optimizasyonu için, gereksinim tarihleri yerine öncelikler planlama ile çalışan planlı siparişler oluşturma olanağı sağlar.
+Bu makalede, Microsoft Dynamics 365 Supply Chain Management'ın öncelik tabanlı planlama özelliği açıklanmaktadır. Özellik, Talep Temelli Malzeme Gereksinimleri Planlaması (DDMRP) adımı olan talep temelli planlamaya destek ekler. Önceliğe dayalı planlama, Planlama Optimizasyonu için, gereksinim tarihleri yerine öncelikler planlama ile çalışan planlı siparişler oluşturma olanağı sağlar.
 
 Önceliğe dayalı planlama, acil talebin, daha az önemli talebe göre öncelik uygulandığından emin olmak için stok yenileme emirlerinin önceliğini belirlemenizi sağlar. Örneğin, bir stok bitimi yenileme siparişinin standart bir dolum stok yenileme siparişi üzerinden öncelikli olması gerekir. Sistem, daha büyük siparişleri otomatik olarak sipariş satırlarının önceliğine göre gruplandırıldığında farklı küçük siparişlere bölebilir. Daha sonra, tüm yüksek öncelikli siparişleri önce işleyebilir.
 

@@ -1,6 +1,6 @@
 ---
-title: Üretim katı yürütme arabiriminde tatil bakiyelerini görüntüle
-description: Bu konuda, Microsoft Dynamics 365 Supply Chain Management'in çalışanlara cari yıl için tatil bakiyelerine genel bir bakış sağlamak üzere bordro istatistiklerini kullanacak şekilde nasıl ayarlanacağını gösteren örnek bir senaryo sağlanmaktadır.
+title: Üretim katı yürütme arabiriminde tatil bakiyelerini görüntüleme
+description: Bu makalede, Microsoft Dynamics 365 Supply Chain Management'in çalışanlara cari yıl için tatil bakiyelerine genel bir bakış sağlamak üzere bordro istatistiklerini kullanacak şekilde nasıl ayarlanacağını gösteren örnek bir senaryo sağlanmaktadır.
 author: johanhoffmann
 ms.date: 04/22/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-04-22
 ms.dyn365.ops.version: 10.0.XX
-ms.openlocfilehash: a97858c72b0be50609cee552bd0635e2d68ea478
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 2a6b6f52bfa7539b7c9bb5841536b0d564d0274c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645365"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852287"
 ---
-# <a name="show-vacation-balances-in-the-production-floor-execution-interface"></a>Üretim katı yürütme arabiriminde tatil bakiyelerini görüntüle
+# <a name="show-vacation-balances-in-the-production-floor-execution-interface"></a>Üretim katı yürütme arabiriminde tatil bakiyelerini görüntüleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Supply Chain Management'in her bir çalışana cari yıl için tatil bakiyelerine genel bir bakış sağlamak üzere bordro istatistiklerini kullanacak şekilde nasıl ayarlanacağını gösteren örnek bir senaryo sağlanmaktadır. Çalışanlar, tatil bakiyelerini üretim katı yürütme arabirimindeki **Günüm** iletişim kutusunda görebilir.
+Bu makalede, Microsoft Dynamics 365 Supply Chain Management'in her bir çalışana cari yıl için tatil bakiyelerine genel bir bakış sağlamak üzere bordro istatistiklerini kullanacak şekilde nasıl ayarlanacağını gösteren örnek bir senaryo sağlanmaktadır. Çalışanlar, tatil bakiyelerini üretim katı yürütme arabirimindeki **Günüm** iletişim kutusunda görebilir.
 
 Bu senaryoda, tatil yılının 1 Eylül'den 31 Ağustos'a kadar sürdüğü Danimarka tatil yasası kullanılır. Bu senaryoda, şirketiniz yeni bir çalışan işe aldı ve bu çalışana geçerli tatil yılının geri kalanı için 10 tatil günü bakiyesi verecek.
 

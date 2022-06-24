@@ -1,6 +1,6 @@
 ---
 title: Satış noktasında (POS) ürün arama ve müşteri arama
-description: Bu konu Dynamics 365 Commerce içinde ürün ve müşteri arama özelliğinde yapılmış olan iyileştirmeler hakkında genel bakış sağlar.
+description: Bu makale Dynamics 365 Commerce içinde ürün ve müşteri arama özelliğinde yapılmış olan iyileştirmeler hakkında genel bakış sağlar.
 author: ShalabhjainMSFT
 ms.date: 05/25/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 460c7d3b00421ba43414f7343887edf9b8adad9c
-ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
+ms.openlocfilehash: 5f2d8162c810f63dc889a03d33fd111de69783de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "8806440"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859012"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Satış noktasında (POS) ürün arama ve müşteri arama
 

@@ -1,6 +1,6 @@
 ---
 title: Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri
-description: Bu konu, Dynamics 365 Commerce içinde satış noktası (POS operasyonları hakkında bilgi verir). Uygulamada işlemlerin nereden çağrılabileceğini ve çevrimdışı modda kullanılabilir olup olmadığını belirtir.
+description: Bu makale, Dynamics 365 Commerce içinde satış noktası (POS operasyonları hakkında bilgi verir). Uygulamada işlemlerin nereden çağrılabileceğini ve çevrimdışı modda kullanılabilir olup olmadığını belirtir.
 author: jblucher
 ms.date: 05/27/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7e4556ad11cbea0cb8fb3c5447116a1b54576e17
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: aa1ca9c057b8a1332cd52f73a24adf2089ebef3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811214"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852731"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri
 

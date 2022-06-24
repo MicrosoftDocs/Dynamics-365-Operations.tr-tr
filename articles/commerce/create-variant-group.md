@@ -1,6 +1,6 @@
 ---
 title: Çeşit grubu oluşturma
-description: Bu konuda, Microsoft Dynamics 365 Commerce'te bir ürün için boyut, stil veya renk çeşidi grubunun nasıl oluşturulacağı açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce'te bir ürün için boyut, stil veya renk çeşidi grubunun nasıl oluşturulacağı açıklanmaktadır.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 49e6860fa22bbfba8b86a8243fa29b831e22b489d967a45310648e5debd7512b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a46dc9fd5cdb848818964e771d373924b217147a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749943"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874973"
 ---
 # <a name="create-a-variant-group"></a>Çeşit grubu oluşturma
 
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce'te bir ürün için boyut, stil veya renk çeşidi grubunun nasıl oluşturulacağı açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce'te bir ürün için boyut, stil veya renk çeşidi grubunun nasıl oluşturulacağı açıklanmaktadır.
 
 ## <a name="overview"></a>Genel Bakış
 
 Dynamics 365 Commerce, ürünler için birden çok çeşidi destekliyor. Farklı ürün kategorileri için çeşit grupları ayarlamak idealdir. Örneğin, çok küçük, küçük, orta, büyük ve ekstra büyük boyutlarda tişörtler için bir boyut grubu oluşturulabilir veya bir ürünün mevcut tüm renklerini eklemek için bir renk grubu oluşturulabilir. Ürünler eklenmeden önce çeşit grupları eklenmelidir.
 
-Bu konuda, bir boyut grubu oluşturulacak ve yapılandırılacak. Stil gruplarını ve renk gruplarını ekleyip yapılandırmak için benzer yordamlar kullanılabilir.
+Bu makalede, bir boyut grubu oluşturulacak ve yapılandırılacak. Stil gruplarını ve renk gruplarını ekleyip yapılandırmak için benzer yordamlar kullanılabilir.
 
 ## <a name="create-a-size-group"></a>Boyut grubu oluşturma
 

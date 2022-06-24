@@ -1,6 +1,6 @@
 ---
 title: Sales ve Supply Chain Management arasında satış siparişlerini doğrudan eşitleme
-description: Bu konu altında, satış siparişlerini Dynamics 365 Sales ve Dynamics 365 Supply Chain Management arasında eşitlemek için kullanılan temel görevler ve şablonlar açıklanmaktadır.
+description: Bu makale altında, satış siparişlerini Dynamics 365 Sales ve Dynamics 365 Supply Chain Management arasında eşitlemek için kullanılan temel görevler ve şablonlar açıklanmaktadır.
 author: Henrikan
 ms.date: 05/09/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: eb41a21395a5d115b779e6b1ef71e9eb1176e28e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 63a9be9bedabe1f15ad8db583151aa7fa480473b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854195"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Sales ve Supply Chain Management arasında satış siparişlerini doğrudan eşitleme
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061530"
 
 
 
-Bu konu altında, satış siparişlerini Dynamics 365 Sales ve Dynamics 365 Supply Chain Management arasında eşitlemek için kullanılan temel görevler ve şablonlar açıklanmaktadır.
+Bu makale altında, satış siparişlerini Dynamics 365 Sales ve Dynamics 365 Supply Chain Management arasında eşitlemek için kullanılan temel görevler ve şablonlar açıklanmaktadır.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Aday müşteriden nakde çözümünde veri akışı
 
@@ -203,7 +203,7 @@ Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gö
 
 [![Veri tümleştirmede şablon eşleme, Satış Siparişleri (Sales'den Supply Chain Management'a): Doğrudan: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
-## <a name="related-topics"></a>İlgili konular
+## <a name="related-articles"></a>İlgili makaleler
 
 [Aday müşteriden nakde](prospect-to-cash.md)
 

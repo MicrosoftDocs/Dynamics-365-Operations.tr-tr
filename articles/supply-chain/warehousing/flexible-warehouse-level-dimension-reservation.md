@@ -1,6 +1,6 @@
 ---
-title: Esnek ambar düzeyi boyut rezervasyon ilkesi
-description: Bu konu, toplu işle izlenen ürünler satan ve lojistiklerini WMS-etkin operasyonlar olarak çalıştıran işletmelerin, ürünlerle ilişkili rezervasyon hiyerarşisi belirli toplu işlerin rezervasyonuna izin vermese bile, belirli toplu işleri rezerve etmelerine izin veren stok rezervasyon ilkesini açıklar.
+title: Ambar düzeyinde esnek boyut rezervasyonu ilkesi
+description: Bu makale, toplu işle izlenen ürünler satan ve lojistiklerini WMS-etkin operasyonlar olarak çalıştıran işletmelerin, ürünlerle ilişkili rezervasyon hiyerarşisi belirli toplu işlerin rezervasyonuna izin vermese bile, belirli toplu işleri rezerve etmelerine izin veren stok rezervasyon ilkesini açıklar.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: fb42d4ccd2d8797a34f6351caf7dedbc1e957fd5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474952"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885826"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Esnek ambar düzeyi boyut rezervasyonu ilkesi
 
@@ -28,7 +28,7 @@ ms.locfileid: "7474952"
 
 Benzer şekilde, satış siparişlerindeki ürünler varsayılan rezervasyon hiyerarşisiyle ilişkilendirildiğinde bu ürünler için belirli plakalar rezerve edilemez.
 
-Bu konu, ürünler bir *Toplu iş-\[yerleşim altı\]* rezervasyon hiyerarşisiyle ilişkili olsa bile, bu işletmelerin belirli toplu işleri veya plakaları rezerve etmelerine izin veren stok rezervasyon ilkesini açıklamaktadır.
+Bu makale, ürünler bir *Toplu iş-\[yerleşim altı\]* rezervasyon hiyerarşisiyle ilişkili olsa bile, bu işletmelerin belirli toplu işleri veya plakaları rezerve etmelerine izin veren stok rezervasyon ilkesini açıklamaktadır.
 
 ## <a name="inventory-reservation-hierarchy"></a>Stok rezervasyonu hiyerarşisi
 

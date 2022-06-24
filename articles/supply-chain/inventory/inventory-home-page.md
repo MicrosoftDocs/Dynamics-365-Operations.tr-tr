@@ -1,6 +1,6 @@
 ---
 title: Stok yönetimine genel bakış
-description: Bu konu, Stok yönetimine genel bakış sağlamaktadır.
+description: Bu makale, Stok yönetimine genel bakış sağlamaktadır.
 author: yufeihuang
 ms.date: 07/25/2019
 ms.topic: overview
@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8dee04677858228b66d64bb0a217206b5557cc30
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5705f11eae145ea262eaf5f7ed30f189d94703b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982676"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874028"
 ---
 # <a name="inventory-management-overview"></a>Stok yönetimine genel bakış
 

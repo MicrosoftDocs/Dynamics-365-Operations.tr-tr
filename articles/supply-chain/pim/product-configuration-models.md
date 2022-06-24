@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fddad1fffd61ef0cf78977721bdf2da51aa4c682
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9bee2d68a2ed2aa339ddf8232bba4541f4fe52b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984658"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871934"
 ---
 # <a name="product-configuration-models-overview"></a>Ürün yapılandırma modellerine genel bakış
 
@@ -75,7 +75,7 @@ Eğer öznitelik türü <strong>Boolean</strong>, aralığa sahip bir <strong>Ta
 <td>Sınırlamalar</td>
 <td>Kısıtlamalar, ürün modeli yapılandırmasının kısıtlamalarını açıklamaktadır. Kısıtlamalar, bir ürün yapılandırılırken yalnızca geçerli değerlerin seçildiğini güvence altına almak için kullanılır. Kısıtlamalar ya ifade kısıtlamaları ya da tablo kısıtlamaları olabilirler.
 <ul>
-<li>İfade kısıtlamaları yalnızca bağlı oldukları bileşen için kullanılabilirler. Bir bileşen için deyim kısıtlamaları, bileşenin alt bileşenlerinin özniteliklerini referans gösterebilir. Ürün yapılandırma çözücüsü kısıtlamaları çözmek için kullanılır ve kısıtlamaları yazarken çözücü sözdizimi kullanmanız gerekir. Daha fazla bilgi için ifade kısıtlamaları ve tablo kısıtlamaları konu bağlantısına bakınız.</li>
+<li>İfade kısıtlamaları yalnızca bağlı oldukları bileşen için kullanılabilirler. Bir bileşen için deyim kısıtlamaları, bileşenin alt bileşenlerinin özniteliklerini referans gösterebilir. Ürün yapılandırma çözücüsü kısıtlamaları çözmek için kullanılır ve kısıtlamaları yazarken çözücü sözdizimi kullanmanız gerekir. Daha fazla bilgi için ifade kısıtlamaları ve tablo kısıtlamaları makale bağlantısına bakınız.</li>
 <li>Ürün yapılandırma modelindeki bir bileşene uygulanabilmesi için tablo kısıtlamaları belirlenmelidir. Tablo kısıtlamaları kullanıcı tanımlı veya sistem tanımlı olabilir. Bir kullanıcı tanımlı tablo kısıtlaması öznitelik türleri tarafından tanımlanan öznitelik değerleri için bir dizi kombinasyonu tanımlamak için kullanılabilecek bir matris türüdür. Örneğin üretilecek şey bir hoparlör ise, kullanıcı tanımlı tablo kısıtlaması için matris, hoparlörün yüzey rengi için sütunlara sahip olabilir.</li>
 </ul>
 <strong>Örnek</strong> Hoperlörler dört yüzey rengine veya türüne sahip olabilir: Siyah, Meşe, Venge ve Beyaz. Hoparlörde üç ön ızgaradan biri bulunabilir: Siyah, Metal veya Beyaz. Siyah yüzey tüm ızgaralar için kullanılabilir, ancak diğerleri belirli ızgaralar için sınırlıdır. Aşağıdaki tablo <strong>Tablo kısıtlamasını düzenle</strong> sayfasındaki <strong>İzin verilen birleşimler</strong> sekmesindeki görüntülenen örnek bilgiyi gösterir.

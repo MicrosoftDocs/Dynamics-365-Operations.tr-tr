@@ -1,6 +1,6 @@
 ---
 title: Kıymetler ve iş emirleri
-description: Bu konuda Kıymet Yönetimi'ndeki kıymetler ve iş emirleri açıklanmaktadır.
+description: Bu makalede Kıymet Yönetimi'ndeki kıymetler ve iş emirleri açıklanmaktadır.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2872dc84ec11ae7fad9fd5b225b9207f13280db334cc0d010a3d6749a591ee2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: df2d0fcc5162900ad2ad67f2629d14015f694bd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718119"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869705"
 ---
 # <a name="assets-and-work-orders"></a>Kıymetler ve iş emirleri
 
@@ -28,7 +28,7 @@ ms.locfileid: "6718119"
 
  
 
-Bu konuda Kıymet Yönetimi'ndeki kıymetler ve iş emirleri açıklanmaktadır. Kıymetler ve iş emirleri Kıymet Yönetimi'nin merkezi parçalarıdır. Bir *kıymet* sürekli bakım ve hizmet gerektiren bir makine veya makine parçasıdır. Kıymetler hiyerarşik yapıda oluşturulabilir ve işlem yapılacak yerleşimle ilişkili olabilirler. Bakım işleri, kıymet yapısının tüm düzeyleriyle planlanabilir.
+Bu makalede Kıymet Yönetimi'ndeki kıymetler ve iş emirleri açıklanmaktadır. Kıymetler ve iş emirleri Kıymet Yönetimi'nin merkezi parçalarıdır. Bir *kıymet* sürekli bakım ve hizmet gerektiren bir makine veya makine parçasıdır. Kıymetler hiyerarşik yapıda oluşturulabilir ve işlem yapılacak yerleşimle ilişkili olabilirler. Bakım işleri, kıymet yapısının tüm düzeyleriyle planlanabilir.
 
 Ürün bilgileri ve kıymet belirtimi gibi çeşitli veriler ve gerekli bakım planları her kıymet için ayarlanmıştır. Aşağıdaki çizimde kıymet verilerine genel bakışla kıymetlerin iş türleriyle ilişkisi gösterilmektedir. Kırmızı metin devir ve bağımlılıkları gösteren örnekler için kullanılır.
 

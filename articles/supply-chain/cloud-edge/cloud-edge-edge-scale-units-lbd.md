@@ -1,6 +1,6 @@
 ---
-title: LBD kullanarak özel donanımda uç ölçek birimleri dağıtma
-description: Bu konu, yerel iş verilerini (LBD) temel alan özel donanım ve dağıtım kullanarak şirket içi kenar ölçek birimlerinin nasıl sağlanması gerektiğini açıklamaktadır.
+title: LBD kullanarak özel donanımda uç ölçek birimlerini dağıtma
+description: Bu makale, yerel iş verilerini (LBD) temel alan özel donanım ve dağıtım kullanarak şirket içi kenar ölçek birimlerinin nasıl sağlanması gerektiğini açıklamaktadır.
 author: Mirzaab
 ms.date: 01/24/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 540ac1f6d69d869256f49b8501e18966575903fa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 794de8c0d77949789e4046418ac2b55dba1bee02
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674100"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882764"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>LBD kullanarak özel donanımda uç ölçek birimleri dağıtma
 
@@ -27,7 +27,7 @@ Kenar ölçek birimleri, tedarik zinciri yönetimi için dağıtılmış karma t
 
 Kenar ölçek birimleri yerel iş verileri (LBD) [yerinde ortam](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) oluşturularak dağıtılabilir ve sonra Supply Chain Management için dağıtılmış karma topolojiniz içinde bir ölçek birimi olarak çalışacak şekilde konfigüre edilebilir. Bu, şirket içi LBD ortamını bulutta bir merkez olarak çalışacak şekilde yapılandırılmış olan bir Supply Chain Management ortamı ile ilişkilendirerek elde edilir.  
 
-Bu konu, şirket içi bir LBD ortamının kenar ölçek birimi olarak nasıl ayarlanacağını ve sonra da bir merkez ile nasıl ilişkilendirileceğini açıklar.
+Bu makale, şirket içi bir LBD ortamının kenar ölçek birimi olarak nasıl ayarlanacağını ve sonra da bir merkez ile nasıl ilişkilendirileceğini açıklar.
 
 ## <a name="infrastructure-considerations"></a>Altyapı ile ilgili hususlar
 
@@ -44,21 +44,21 @@ Dağıtım adımlarına genel bakış.
 
 1. **Bir LBD ortamını *boş* bir veritabanı ile ayarlayın ve dağıtın.**
 
-    En son topolojiyle LBD ortamını ve boş bir veritabanını dağıtmak için LCS kullanın. Daha fazla bilgi için, bu konunun ilerisinde yer alan [Boş veritabanıyla LBD ortamı ayarlama ve dağıtma](#set-up-deploy) başlığına bakın. Merkez ve ölçek birimi ortamlarında, Supply Chain Management sürüm 10.0.21 veya üstü ile kullanmalısınız.
+    En son topolojiyle LBD ortamını ve boş bir veritabanını dağıtmak için LCS kullanın. Daha fazla bilgi için bu makalenin ilerisinde yer alan [Boş veritabanıyla LBD ortamı ayarlama ve dağıtma](#set-up-deploy) başlığına bakın. Merkez ve ölçek birimi ortamlarında, Supply Chain Management sürüm 10.0.21 veya üstü ile kullanmalısınız.
 
 1. **Hedef paketleri LCS içindeki LBD projesi varlıklarına yükleyin.**
 
-    Merkez ve kenar ölçek birimi boyunca kullandığınız uygulama, platform ve özelleştirme paketlerini hazırlayın. Daha fazla bilgi için, bu konunun ilerleyen bölümlerindeki [LCS'de LBD proje varlıklarına hedef paketlerini yükleme](#upload-packages) başlığına bakın.
+    Merkez ve kenar ölçek birimi boyunca kullandığınız uygulama, platform ve özelleştirme paketlerini hazırlayın. Daha fazla bilgi için, bu makalenin ilerleyen bölümlerindeki [LCS'de LBD proje varlıklarına hedef paketlerini yükleme](#upload-packages) başlığına bakın.
 
 1. **LBD ortamına hedef paketleri ile hizmet verme.**
 
-    Bu adım, aynı yapı ve özelleştirmelerin merkeze ve bağlı bileşene dağıtılmasını sağlar. Daha fazla bilgi için bu konunun ilerleyen bölümlerindeki [Hedef paketlerle LBD ortamında hizmet verme](#service-target-packages) başlığına bakın.
+    Bu adım, aynı yapı ve özelleştirmelerin merkeze ve bağlı bileşene dağıtılmasını sağlar. Daha fazla bilgi için bu makalenin ilerleyen bölümlerindeki [Hedef paketlerle LBD ortamında hizmet verme](#service-target-packages) başlığına bakın.
 
 1. **Ölçek birimi konfigürasyonunu ve iş yükü atamasını tamamlayın.**
 
-    Daha fazla bilgi için, bu konunun ilerleyen bölümlerindeki [LBD kenar ölçek birimini bir merkez bölümüne atama](#assign-edge-to-hub) konusuna bakın.
+    Daha fazla bilgi için bu makalenin ilerleyen bölümlerindeki [LBD kenar ölçek birimini bir merkez bölümüne atama](#assign-edge-to-hub) konusuna bakın.
 
-Bu konunun kalan bölümleri, bu adımları tamamlama hakkında ayrıntı verir.
+Bu makalenin kalan bölümleri, bu adımları tamamlama hakkında ayrıntı verir.
 
 ## <a name="set-up-and-deploy-an-lbd-environment-with-an-empty-database"></a><a name="set-up-deploy"></a>Bir LBD ortamını boş bir veritabanı ile ayarlayın ve dağıtın
 
@@ -67,7 +67,7 @@ Bu adım, işlevsel LBD ortamı oluşturur. Ancak, ortamın merkez ortamıyla ay
 1. [Şirket içi ortamları ayarlama ve dağıtma (Platform güncelleştirmesi 41 ve sonrası)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md) bölümündeki talimatları izleyin. Merkez ve ölçek birimi ortamlarında, Supply Chain Management sürüm 10.0.21 veya üstü ile kullanmalısınız. Ek olarak, altyapı kodlarının sürüm 2.12.0 veya üstünü kullanmalısınız. 
 
     > [!IMPORTANT]
-    > Bu konudaki adımları uygulamadan **önce** bu bölümün geri kalanını okuyun.
+    > Bu makaledeki adımları uygulamadan **önce** bu bölümün geri kalanını okuyun.
 
 1. Konfigürasyonunuzu \\ConfigTemplate.xml dosyasında açıklamadan önce, aşağıdaki kodu çalıştırın:
 

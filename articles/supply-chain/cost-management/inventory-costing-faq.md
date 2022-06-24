@@ -1,6 +1,6 @@
 ---
 title: Stok maliyetlendirme ile ilgili SSS
-description: Bu konuda, Microsoft Dynamics 365 Supply Chain Management'ta stok maliyetlendirme hakkında sık sorulan sorulardan bazıları yanıtlanır.
+description: Bu makalede, Microsoft Dynamics 365 Supply Chain Management'ta stok maliyetlendirme hakkında sık sorulan sorulardan bazıları yanıtlanır.
 author: rachel-profitt
 ms.date: 05/03/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-03
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 45f65bd4a5cfb9bd0c4eb03ceb56eca452f6ec95
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: 467839b1d0ca6788a92ae60d46686374d0a58046
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809298"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850858"
 ---
 # <a name="inventory-costing-faq"></a>Stok maliyetlendirme ile ilgili SSS
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Supply Chain Management'ta stok maliyetlendirme hakkında sık sorulan sorulardan bazıları yanıtlanır.
+Bu makalede, Microsoft Dynamics 365 Supply Chain Management'ta stok maliyetlendirme hakkında sık sorulan sorulardan bazıları yanıtlanır.
 
 ## <a name="inventory-close-adjustments-and-recalculation"></a>Stok kapatma, düzeltme ve yeniden hesaplama işlemleri
 
@@ -359,7 +359,7 @@ Kuruluşunuz veya iş gereksinimleriniz stoğunuzun negatif olmasına izin verme
 
 ### <a name="do-i-have-to-create-a-new-item-if-my-inventory-has-gone-negative-and-i-use-moving-average"></a>Stoğum negatif olduysa ve hareketli ortalama kullanıyorsam yeni bir madde oluşturmak zorunda mıyım?
 
-Hayır. Kuruluşunuz stoğun fiziksel olarak negatif olmasına izin veriyor ve stok modeliniz olarak hareketli ortalama kullanıyorsanız sistem, maliyetin çıkışlarınıza nasıl atanacağını belirlemek için **Stok ve ambar yönetim parametreleri** sayfasında atanan geri dönüş maliyet sırasını kullanır. Genel olarak, stoğunuzun fiziksel olarak negatif duruma geçmesini engellemeniz önerilir. Daha fazla bilgi için bu konunun [Negatif stok](#negative-inventory) bölümündeki diğer sorulara bakın.
+Hayır. Kuruluşunuz stoğun fiziksel olarak negatif olmasına izin veriyor ve stok modeliniz olarak hareketli ortalama kullanıyorsanız sistem, maliyetin çıkışlarınıza nasıl atanacağını belirlemek için **Stok ve ambar yönetim parametreleri** sayfasında atanan geri dönüş maliyet sırasını kullanır. Genel olarak, stoğunuzun fiziksel olarak negatif duruma geçmesini engellemeniz önerilir. Daha fazla bilgi için bu makalenin [Negatif stok](#negative-inventory) bölümündeki diğer sorulara bakın.
 
 ## <a name="not-stocked-products"></a>Stoğu tutulmayan ürünler
 
@@ -433,7 +433,7 @@ Bir giriş için fiziksel güncelleştirme ile mali güncelleştirmenin deftere 
 
 ### <a name="when-i-use-moving-average-what-happens-if-there-is-an-issue-before-the-receipt"></a>Hareketli ortalama kullandığımda, girişten önce bir çıkış varsa ne olur?
 
-Genellikle, madde modeli grubu için fiziksel negatif stoğa izin vermeniz veya çıkışın geriye dönük tarihli olması nedeniyle girişten önce çıkış olabilir. Daha fazla bilgi için bu konudaki [Negatif stok](#negative-inventory) bölümüne bakın.
+Genellikle, madde modeli grubu için fiziksel negatif stoğa izin vermeniz veya çıkışın geriye dönük tarihli olması nedeniyle girişten önce çıkış olabilir. Daha fazla bilgi için bu makaledeki [Negatif stok](#negative-inventory) bölümüne bakın.
 
 Hareketleri geriye dönük tarihlendiriyorsanız, bu senaryoyu önlemenin bir yolu olup olmadığını belirlemek için iş sürecinizi ve işlemlerinizi dikkatle değerlendirmeniz önerilir. Hareketli ortalamayı kullanan bir maddenin hareketini geriye dönük tarihlendiriyorsanız, sistem mevcut hareketli ortalamayı harekete atayacaktır. Sonraki çıkışlar düzeltilmez. Geriye dönük tarihli hareketleri olan hareketli ortalama hakkında daha fazla bilgi edinmek için bkz. [Hareketli ortalama](moving-average.md).
 

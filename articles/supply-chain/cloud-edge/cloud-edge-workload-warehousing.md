@@ -1,6 +1,6 @@
 ---
 title: Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri
-description: Bu konu, ölçek birimlerinin ambar yönetimi iş yükünden seçili işlemleri çalıştırmasını sağlayan özellik hakkında bilgi sağlar.
+description: Bu makale, ölçek birimlerinin ambar yönetimi iş yükünden seçili işlemleri çalıştırmasını sağlayan özellik hakkında bilgi sağlar.
 author: perlynne
 ms.date: 09/03/2021
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 67f78441b0914d18c2a7853bab54c6b8817be3ac
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f9839ad9a18eb543734c2ba43a56b568460a64c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384498"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893511"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> Bir ölçek birimi üzerinde iş yükü çalıştıran ambarlar için tüm ambar yönetimi iş işlevleri tam olarak desteklenmez. Yalnızca bu konunun açıkça desteklenen olarak tanımladığı işlemleri kullandığınızdan emin olun.
+> Bir ölçek birimi üzerinde iş yükü çalıştıran ambarlar için tüm ambar yönetimi iş işlevleri tam olarak desteklenmez. Yalnızca bu makalenin açıkça desteklenen olarak tanımladığı işlemleri kullandığınızdan emin olun.
 
 ## <a name="warehouse-execution-on-scale-units"></a>Ölçek birimlerinde ambar yürütme
 
@@ -184,7 +184,7 @@ Aşağıdaki iş türleri bir ölçek biriminde oluşturulabilir ve bu nedenle, 
 >
 > Warehouse Management mobil uygulamasını bir bulut veya uç ölçek birimiyle karşılaştırmalı olarak çalışacak şekilde ayarlamak için birkaç ek adım gerekir. Daha fazla bilgi için bkz. [Warehouse Management mobil uygulamasını bulut ve uç ölçek birimleri için yapılandırma](cloud-edge-workload-setup-warehouse-app.md).
 >
-> Bir ölçek biriminde iş yükü çalıştırıyorsanız merkezdeki belirli bir ambar için desteklenmeyen işlemleri çalıştıramazsınız. Bu konunun ilerleyen kısımlarında sağlanan tablolar desteklenen özellikleri gösterir.
+> Bir ölçek biriminde iş yükü çalıştırıyorsanız merkezdeki belirli bir ambar için desteklenmeyen işlemleri çalıştıramazsınız. Bu makalenin ilerleyen kısımlarında sağlanan tablolar desteklenen özellikleri gösterir.
 >
 > Seçili ambar iş türleri hem merkezde hem de ölçek birimlerinde oluşturulabilir ancak yalnızca sahibi olan merkez veya ölçek birimi (verileri oluşturan dağıtım) tarafından saklanabilir.
 >

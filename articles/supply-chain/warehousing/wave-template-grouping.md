@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b265c0d5cb43e151386fe90e3a3dea414ec0aca6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5eb18ce29cbd1434b2a766c2ba5d78ed1be4e72b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579916"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851260"
 ---
 # <a name="wave-template-grouping"></a>Dalga şablonu gruplandırması
 
@@ -41,7 +41,7 @@ Dalga şablonu gruplandırması, sistemin serbest bırakılan satırları nasıl
 Dalga şablonu gruplandırmasını kullanılabilir hale getirmek için, bu adımları izleyerek [dalga şablonunuzu](tasks/configure-wave-processing.md) ayarlayın.
 
 1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga şablonları**'na gidin.
-1. Sol bölmede, ayarlanacak dalga şablonunu seçin. Bu konudaki tanıtım verilerini kullanarak daha sonra senaryo üzerinde çalışmaya hazırlanıyorsanız, **62 Sevkiyat varsayılanı** şablonunu seçin.
+1. Sol bölmede, ayarlanacak dalga şablonunu seçin. Bu makaledeki tanıtım verilerini kullanarak daha sonra senaryo üzerinde çalışmaya hazırlanıyorsanız, **62 Sevkiyat varsayılanı** şablonunu seçin.
 1. Sayfayı düzenleme moduna sokmak için **Düzenle**'yi seçin.
 1. **Genel** hızlı sekmesinde, aşağıdaki değerleri ayarlayın:
 
@@ -84,7 +84,7 @@ Bu senaryodan, üretim sisteminde çalışırken özelliği kullanmaya yönelik 
 
 Bu senaryo, bir dalga şablonunda tanımlanan gruplandırma ölçütlerine göre çoklu dalgaları otomatik olarak oluşturmak için dalga şablonu gruplandırmasının nasıl kullanılacağını gösteriyor. Bu senaryoda, dalga şablonu, sistemde taşıyıcı hizmeti başına bir dalga oluşturmak üzere ayarlanmıştır.
 
-Başlamadan önce, bu konuda daha önce ele alınan [Dalga şablonu gruplandırmasını kullanmak için bir dalga şablonu ayarlama](#set-up-template) bölümünde açıklandığı şekilde dalga şablonunuzu hazırlayın. Bu senaryo için tanıtım verileriyle çalışacaksanız, o yordamda önerilen tanıtım veri değerlerini kullandığınızdan emin olun. Bu kurulum, dalgalarınızı her bir satış siparişi için ayarlanan taşıyıcı hizmetine göre gruplandıracaktır.
+Başlamadan önce, bu makalede daha önce ele alınan [Dalga şablonu gruplandırmasını kullanmak için bir dalga şablonu ayarlama](#set-up-template) bölümünde açıklandığı şekilde dalga şablonunuzu hazırlayın. Bu senaryo için tanıtım verileriyle çalışacaksanız, o yordamda önerilen tanıtım veri değerlerini kullandığınızdan emin olun. Bu kurulum, dalgalarınızı her bir satış siparişi için ayarlanan taşıyıcı hizmetine göre gruplandıracaktır.
 
 #### <a name="create-sales-order-1"></a>Satış siparişi oluşturma 1
 

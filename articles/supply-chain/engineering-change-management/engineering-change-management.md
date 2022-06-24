@@ -1,6 +1,6 @@
 ---
 title: Mühendislik ürünlerindeki değişiklikleri yönetme
-description: Bu konu mühendislik değişikliği yönetimi hakkında bilgiler sağlar. Mühendislik değişikliği yönetimi, mühendislik ürünlerindeki değişiklikleri yönetmek için önerme, talepte bulunma ve değişiklik yapmadan değişiklikleri inceleme ve onaylama, mevcut hareketler üzerindeki etkilerini değerlendirme ve bunları takip etme gibi yapılandırılmış süreçler sağlar.
+description: Bu makale mühendislik değişikliği yönetimi hakkında bilgiler sağlar. Mühendislik değişikliği yönetimi, mühendislik ürünlerindeki değişiklikleri yönetmek için önerme, talepte bulunma ve değişiklik yapmadan değişiklikleri inceleme ve onaylama, mevcut hareketler üzerindeki etkilerini değerlendirme ve bunları takip etme gibi yapılandırılmış süreçler sağlar.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9af5184da4f9507e3c06464a223f0debaea4430e
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 71b5ec792013ae80be643b9581e388c291d608dd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384680"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849604"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Mühendislik ürünlerindeki değişiklikleri yönetme
 
@@ -107,7 +107,7 @@ Etkilenen hareketleri gözden geçirmek için, seçili hareketleri engellemek ve
     - **Ara**: Tüm açık hareketleri tarar ve ardından değişiklikten etkilenecek tüm hareketleri listeleyen **Açık hareketler üzerindeki iş etkisi** iletişim kutusunu açar.
     - **Önceki aramayı görüntüle**: Önceki aramanın sonuçlarını listeleyen **Açık hareketler üzerindeki iş etkisi** iletişim kutusunu açar. (Yeni bir arama yapılmaz.)
 
-1. **Hareketlerin açılmasına yönelik İş etkisi** iletişim kutusu, her biri belirli bir türdeki etkilenen hareketlerin listesini gösteren bir sekme kümesi sağlar  (**Satış emirleri**, **Satın alma emirleri**, **Üretim emirleri**, **Stok** vb.). Her sekmede, bu türdeki etkilenen hareketlerin sayısını gösteren bir sayı da gösterilir. İlgili listeyi görüntülemek için bir sekme seçin.
+1. **Hareketlerin açılmasına yönelik İş etkisi** iletişim kutusu, her biri belirli bir türdeki etkilenen hareketlerin listesini gösteren bir sekme kümesi sağlar (**Satış emirleri**, **Satın alma emirleri**, **Üretim emirleri**, **Stok** vb.). Her sekmede, bu türdeki etkilenen hareketlerin sayısını gösteren bir sayı da gösterilir. İlgili listeyi görüntülemek için bir sekme seçin.
 1. Listedeki bir hareketle çalışmak için, hareketi seçin ve sonra araç çubuğunda aşağıdaki düğmelerden birini seçin:
 
     - **Hareketi görüntüle** – Seçili hareket kaydını açın.

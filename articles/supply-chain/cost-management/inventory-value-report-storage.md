@@ -1,6 +1,6 @@
 ---
 title: Stok değeri raporları
-description: Bu konu stok değer rporlarıın nasıl kurulacağı, oluşturulacağı ve kullanılacağını açıklar. Bu raporlar, stoğunuzun fiziksel ve mali miktarları ve tutarlarınız hakkında ayrıntılar sağlar.
+description: Bu makale stok değer rporlarıın nasıl kurulacağı, oluşturulacağı ve kullanılacağını açıklar. Bu raporlar, stoğunuzun fiziksel ve mali miktarları ve tutarlarınız hakkında ayrıntılar sağlar.
 author: JennySong-SH
 ms.date: 10/19/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 4f710ff308bac42a284cd506143dd0ae21ff2ec7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3128abb25fdb8f8e01b4d1fe153f5b5fff6cb706
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676201"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854572"
 ---
 # <a name="inventory-value-reports"></a>Stok değeri raporları
 
@@ -200,7 +200,7 @@ Aşağıdaki örnekte **Stok değeri raporu depolama** raporunun nasıl dışa a
 1. Ayarlarınızı kaydedip iletişim kutusunu kapatmak için **Tamam**'ı seçin.
 1. Dışa aktarma ayarınızı kaydetmek için **Kaydet**'i seçin.
 1. **Dışa aktarma seçenekleri** sekmesinde dışa aktarma dosyasını oluşturmak için **Şimdi dışa aktar**'ı seçin.
-1. Görüntülenen **Yürütme özeti** sayfasında dışa aktarma işinizin durumunu ve dışa aktarılan varlıkların listesini görebilirsiniz. **Varlık işleme durumu** bölümünde,  listeden **Stok değeri** varlığını seçin ve ardından söz konusu varlıktan dışa aktarılan verileri indirmek için **Dosyayı indir**'i seçin.
+1. Görüntülenen **Yürütme özeti** sayfasında dışa aktarma işinizin durumunu ve dışa aktarılan varlıkların listesini görebilirsiniz. **Varlık işleme durumu** bölümünde, listeden **Stok değeri** varlığını seçin ve ardından söz konusu varlıktan dışa aktarılan verileri indirmek için **Dosyayı indir**'i seçin.
 
 Veri yönetimini kullanarak verileri dışa aktarma hakkında daha fazla bilgi için bkz. [Veri içe ve dışa aktarma işlerine genel bakış](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Değerlendirme profilleri
-description: Bu konuda, değerlendirme profilleri için veri ayarlama yöntemi açıklanmaktadır.
+description: Bu makalede, değerlendirme profilleri için veri ayarlama yöntemi açıklanmaktadır.
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2512b79c87a4640a2b31b7699e85d743b451a14c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1f7408574187ddb099181bd2566c46c52307f603
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676453"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850495"
 ---
 # <a name="rating-profiles"></a>Değerlendirme profilleri
 
@@ -56,7 +56,7 @@ Var olan tüm değerlendirme profillerinin özetini gösteren bir genel sayfa ku
 1. **Taşımacılık yönetimi \> Kurulum \> Taşıyıcılar \> Sevkiyat taşıyıcıları** seçeneğine gidin.
 1. Listeden sevkiyat taşıyıcısı seçin.
 1. Değerlendirme profili oluşturmak için **Değerlendirme profilleri** hızlı sekmesinde, **Yeni**'yi seçin.
-1. Yeni değerlendirme profili için alanları ayarlayın. Bu alanlar, bu konunun önceki bölümünde açıklandığı gibi, **Değerlendirme profilleri** sayfasındaki alanlara karşılık gelir.
+1. Yeni değerlendirme profili için alanları ayarlayın. Bu alanlar, bu makalenin önceki bölümünde açıklandığı gibi, **Değerlendirme profilleri** sayfasındaki alanlara karşılık gelir.
 
 > [!NOTE]
 > **Sevkiyat taşıyıcıları** sayfasında oluşturulan profiller, **Değerlendirme profilleri** sayfasında da gösterilir.

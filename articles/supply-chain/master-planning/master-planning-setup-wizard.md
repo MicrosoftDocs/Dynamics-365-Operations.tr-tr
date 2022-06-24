@@ -1,6 +1,6 @@
 ---
 title: Master planlama kurulum sihirbazı (video içerir)
-description: Bu konuda, master planlamayı ayarlamak için master planlama kurulum sihirbazının nasıl çalıştırılacağı açıklanmaktadır.
+description: Bu makalede, master planlamayı ayarlamak için master planlama kurulum sihirbazının nasıl çalıştırılacağı açıklanmaktadır.
 author: t-benebo
 ms.date: 10/21/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: a5914f63de654acd076048240c6e37d5b67f4ffa
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 1c79e1df53dfabc33aeacb56096b113e62b765d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470219"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875347"
 ---
 # <a name="master-planning-setup-wizard"></a>Master planlama kurulum sihirbazı
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, **Master planlama kurulum sihirbazı** için bir kılavuz sağlar. Bu, parametre önerilerinin nasıl hesaplanacağını açıklar ve aynı zamanda farklı şirketlerin iş gereksinimlerine göre master planlamanın nasıl ayarladığını gösteren örnekler de sağlar.
+Bu makale, **Master planlama kurulum sihirbazı** için bir kılavuz sağlar. Bu, parametre önerilerinin nasıl hesaplanacağını açıklar ve aynı zamanda farklı şirketlerin iş gereksinimlerine göre master planlamanın nasıl ayarladığını gösteren örnekler de sağlar.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 

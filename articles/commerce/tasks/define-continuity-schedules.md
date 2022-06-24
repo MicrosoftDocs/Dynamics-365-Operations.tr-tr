@@ -1,6 +1,6 @@
 ---
-title: " Süreklilik zamanlamaları tanımlama"
-description: Bu konu süreklilik programının ayarlanmasını gösterir (aksi takdirde tekrarlanan siparişler olarak bilinir).
+title: Süreklilik zamanlamaları tanımlama
+description: Bu makale süreklilik programının ayarlanmasını gösterir (aksi takdirde tekrarlanan siparişler olarak bilinir).
 author: josaw1
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7b05bc82acfad89c9b50777bd0c5fd85f7bda90efd73f278f122c9aa0d073df
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: faa55c844c8ee8742fbb0868b55a520cec6686aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724503"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885096"
 ---
-# <a name="define-continuity-schedules"></a> Süreklilik zamanlamaları tanımlama
+# <a name="define-continuity-schedules"></a>Süreklilik zamanlamaları tanımlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu süreklilik programının ayarlanmasını gösterir (aksi takdirde tekrarlanan siparişler olarak bilinir). Bu konu, demo verilerinde USRT şirketini kullanır.
+Bu makale süreklilik programının ayarlanmasını gösterir (aksi takdirde tekrarlanan siparişler olarak bilinir). Bu makale demo verilerinde USRT şirketini kullanır.
 
 
 ## <a name="create-continuity-program"></a>Süreklilik programı oluşturma
@@ -33,7 +33,7 @@ Bu konu süreklilik programının ayarlanmasını gösterir (aksi takdirde tekra
 2. Yeni'yi tıklatın.
 3. Planlama kodu alanına süreklilik planı kodunu yazın.
 4. Sipariş başlangıç alanında 'İlk olay'ı seçin.
-    * Bir müşteri süreklilik programı için yeni bir sipariş verirse, ürünü nakliye edileceği iki yol vardır:  1. İlk olay: süreklilik programındaki ilk ürün sevk edilir.  2. Geçerli olay: Geçerli ürün sevk edilir. Örneğin, programdaki üç ay içinde müşteri programdaki üçüncüyü alır.  
+    * Bir müşteri süreklilik programı için yeni bir sipariş verirse, ürünü nakliye edileceği iki yol vardır: 1. İlk olay: süreklilik programındaki ilk ürün sevk edilir.  2. Geçerli olay: Geçerli ürün sevk edilir. Örneğin, programdaki üç ay içinde müşteri programdaki üçüncüyü alır.  
 5. Sipariş başlangıç tarihi komutu için Evet'i seçin.
 6. Satır ekle'ye tıklayın.
 7. Madde numarası alanında ilk ürün için madde numarasını ('0013') girin.

@@ -1,6 +1,6 @@
 ---
-title: Sipariş özeti alt toplamı, özelleştirilmiş sipariş özeti modüllerini kullanırken ücretlere vergi eklemez
-description: Bu konuda, özelleştirilmiş sipariş özeti modülleri kullanırken sipariş özeti alt toplamının "fiyata satış vergisi dahildir" senaryosunda ücretlere vergi eklememesi durumunda yardımcı olabilecek sorun giderme yönergeleri sağlanır.
+title: Sipariş özeti alt toplamı, özelleştirilmiş sipariş özeti modüllerini kullanırken masraflarla ilgili vergileri içermiyor
+description: Bu makalede, özelleştirilmiş sipariş özeti modülleri kullanırken sipariş özeti alt toplamının "fiyata satış vergisi dahildir" senaryosunda ücretlere vergi eklememesi durumunda yardımcı olabilecek sorun giderme yönergeleri sağlanır.
 author: gvrmohanreddy
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,16 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-04-22
-ms.openlocfilehash: 1a47561a3ac984bc554b5b93546592237c16cf18
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: 260dcb6bc1585615195e32adfcd1da6bfbca294e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767970"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848849"
 ---
-# <a name="order-summary-subtotal-doesnt-include-taxes-on-charges-when-using-customized-order-summary-modules"></a>Sipariş özeti alt toplamı, özelleştirilmiş sipariş özeti modüllerini kullanırken ücretlere vergi eklemez
+# <a name="order-summary-subtotal-doesnt-include-taxes-on-charges-when-using-customized-order-summary-modules"></a>Sipariş özeti alt toplamı, özelleştirilmiş sipariş özeti modüllerini kullanırken masraflarla ilgili vergileri içermiyor
 
-Bu konuda, özelleştirilmiş sipariş özeti modülleri kullanırken sipariş özeti alt toplamının "fiyata satış vergisi dahildir" senaryosunda ücretlere vergi eklememesi durumunda yardımcı olabilecek sorun giderme yönergeleri sağlanır.
+Bu makalede, özelleştirilmiş sipariş özeti modülleri kullanırken sipariş özeti alt toplamının "fiyata satış vergisi dahildir" senaryosunda ücretlere vergi eklememesi durumunda yardımcı olabilecek sorun giderme yönergeleri sağlanır.
 
 ## <a name="description"></a>Açıklama
 

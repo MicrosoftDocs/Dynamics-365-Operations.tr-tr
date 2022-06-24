@@ -1,6 +1,6 @@
 ---
 title: Ambar işlemleri için kalite yönetimi
-description: Bu konuda, ambar işlemleri özelliği için Kalite yönetimi hakkında bilgiler verilmektedir. Bu özellik kalite yönetimi yeteneklerini genişletir ve kullanıcıların gelişmiş ambar yönetimini kullanarak madde örnekleme kontrollerini ambar teslim alma işlemiyle tümleştirmelerini sağlar.
+description: Bu makalede, ambar işlemleri özelliği için Kalite yönetimi hakkında bilgiler verilmektedir. Bu özellik kalite yönetimi yeteneklerini genişletir ve kullanıcıların gelişmiş ambar yönetimini kullanarak madde örnekleme kontrollerini ambar teslim alma işlemiyle tümleştirmelerini sağlar.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: a8a7ac8266c14791137f9eda51b5abb5a59e5961
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679065"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857851"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Ambar işlemleri için kalite yönetimi
 
@@ -69,7 +69,7 @@ Stoğu kalite kontrolüne taşımak için ambar işi otomatik olarak oluşturulm
 1. Her iş emri türü için, stoğun taşınması gereken doğru kalite kontrol yerleşimlerini uygulayan yerleşim yönergeleri ayarlayın. Kalite kontrol tamamlandıktan sonra, _Kalite emri_ iş emri türünün yerleşim yönergesi, stoğun kalite kontrol konumundan dışarı taşınabilmesi için yeni bir hedef yerleşim seçilmesini sağlar.
 1. Teslim alınan stoğun kalite kontrol konumuna taşınmasını ve kalite kontrolünden geçen veya geçemeyen sotuğun kalite kontrol yerleşiminden yeni bir konuma taşınmasını desteklemek için ilgili mobil cihaz menü öğelerini ayarlayın.
 
-Bu kurulumun nasıl tamamlandığını gösteren adım adım bir örnek için bu konunun sonundaki [örnek senaryoya](#example-scenario) bakın.
+Bu kurulumun nasıl tamamlandığını gösteren adım adım bir örnek için bu makalenin sonundaki [örnek senaryoya](#example-scenario) bakın.
 
 ## <a name="enable-a-warehouse-for-quality-management"></a>Ambarı kalite yönetimi için etkinleştirme
 
@@ -188,7 +188,7 @@ Aşağıdaki örneklerin **Referans türü** değeri _Satınalma_'dır ve **Olay
 | Yükle | Tam plaka | Evet _(kilitli/düzenlenemez)_ | <p>Konum: Evet</p><p>Plaka: Evet _(kilitli/düzenlenemez)_</p> | Evet | 3 | <p>**İki madde:**</p><ul><li>**A maddesi için sipariş satırı miktarı: 120 EA (4 palet)**</li><li>**B maddesi için sipariş satırı miktarı: 90 EA (3 palet)**</li></ul><p>**Bir yük, her sipariş satırıyla iyi yük satırı**</p><ol><li>Madde A, 30 EA, LP1 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA için kalite madde örneklemesi işi</p><p>30 EA için kalite emri 1</p></li><li>Madde A, 30 EA, LP2 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li><li>Madde A, 30 EA, LP3 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li><li>Madde A, 30 EA, LP4 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA için kalite madde örneklemesi işi</p><p>30 EA için kalite emri 1</p></li><li>Madde B, 30 EA, LP5 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA için kalite madde örneklemesi işi</p><p>30 EA için kalite emri 1</p></li><li>Madde B, 30 EA, LP6 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li><li>Madde A, 30 EA, LP7 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li></ol> |
 | Yükle | Yüzde = 10 | Evet _(kilitli/düzenlenemez)_ | <p>Konum: Hayır</p><p>Plaka: Hayır</p> | Hayır | Geçerli değil | <p>**Sipariş satırı miktarı: 100 EA**</p><p>**Hiçbir yük oluşturulmadı. Sipariş kapsamı uygulandı.**</p><ol><li>50 EA, LP1 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>5 EA için kalite madde örneklemesi işi</p><p>5 EA için kalite emri 1</p><p>45 EA (yerine koyma) için satınalma siparişi işi</p></li><li>50 EA, LP2 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>5 EA için kalite madde örneklemesi işi</p><p>5 EA için kalite emri 1</p><p>45 EA (yerine koyma) için satınalma siparişi işi</p></li></ol> |
 
-Bir çalışan önceki tabloda gösterilen kalite emirlerinden birini doğrularsa sistem, stoğu kalite kontrol yerleşiminden _Kalite emri_ iş emri türü için yerleşim yönergesinde tanımlanan yerleşime taşımak üzere otomatik olarak kalite emri işi oluşturur. Bu amaç için, iade veya depolama yerleşimi gibi herhangi bir konumu, kalite emrinin test sonucuna bağlı olarak ayarlayabilirsiniz. Bu kurulumun bir örneği için bu konunun sonundaki [örnek senaryoya](#example-scenario) bakın.
+Bir çalışan önceki tabloda gösterilen kalite emirlerinden birini doğrularsa sistem, stoğu kalite kontrol yerleşiminden _Kalite emri_ iş emri türü için yerleşim yönergesinde tanımlanan yerleşime taşımak üzere otomatik olarak kalite emri işi oluşturur. Bu amaç için, iade veya depolama yerleşimi gibi herhangi bir konumu, kalite emrinin test sonucuna bağlı olarak ayarlayabilirsiniz. Bu kurulumun bir örneği için bu makalenin sonundaki [örnek senaryoya](#example-scenario) bakın.
 
 Stoğun kalite kontrol yerleşiminden taşınmasına ilişkin kalite emri işinin **İş durumu** *Kapalı* veya *Sürüyor* olmadığı sürece önceden doğrulanmış bir kalite emrini yeniden açabilirsiniz.
 

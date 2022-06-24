@@ -1,6 +1,6 @@
 ---
 title: Ürün, sipariş, sevkiyat ve yüklerdeki tehlikeli malzemeler
-description: Bu konuda serbest bırakılan ürünler için tehlikeli malzeme özelliklerini ayarlama, tehlikeli maddelerle ilgili stok limitlerini belirleme ve tehlikeli malzemeleri satış siparişine, sevkiyata veya yüke ekleme açıklanmaktadır.
+description: Bu makalede serbest bırakılan ürünler için tehlikeli malzeme özelliklerini ayarlama, tehlikeli maddelerle ilgili stok limitlerini belirleme ve tehlikeli malzemeleri satış siparişine, sevkiyata veya yüke ekleme açıklanmaktadır.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 64d31cd86045ff28aa007666a3877271eecf0106
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eaae3ce4916465cd57da65eaa217c40f9c3ea88a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570717"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860710"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Ürün, sipariş, sevkiyat ve yüklerdeki tehlikeli malzemeler
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda serbest bırakılan ürünler için tehlikeli malzeme özelliklerini ayarlama, tehlikeli maddelerle ilgili stok limitlerini belirleme ve tehlikeli malzemeleri satış siparişine, sevkiyata veya yüke ekleme açıklanmaktadır.
+Bu makalede serbest bırakılan ürünler için tehlikeli malzeme özelliklerini ayarlama, tehlikeli maddelerle ilgili stok limitlerini belirleme ve tehlikeli malzemeleri satış siparişine, sevkiyata veya yüke ekleme açıklanmaktadır.
 
 ## <a name="set-hazardous-material-specifications-for-products"></a>Ürünlerin tehlikeli malzeme belirtimlerini ayarlama
 
@@ -109,11 +109,11 @@ Formül anahtarı aşağıdaki gibidir:
 - *&lt;UnitConversion&gt;*, yük satırı miktarı için kullanılan birim ile **Malzeme yönetimi** hızlı sekmesindeki **Birim** alanında ürün için belirtilen birim arasında dönüşüm yapmak amacıyla kullanılan dönüştürme faktörüdür.
 - *&lt;Multiplier&gt;*, **Malzeme yönetimi** hızlı sekmesindeki **Çarpan** alanında ürün için belirtilen çarpandır.
 
-Bu puan, bu değerlerin belirtildiği bir ürün içeren her yük satırı için raporlanır. Daha fazla bilgi için bu konudaki [Tehlikeli malzeme içeren sevkiyatlar](#hazmat-shipments) ve [Tehlikeli malzeme içeren yükler](#hazmat-loads) bölümlerine bakın.
+Bu puan, bu değerlerin belirtildiği bir ürün içeren her yük satırı için raporlanır. Daha fazla bilgi için bu makaledeki [Tehlikeli malzeme içeren sevkiyatlar](#hazmat-shipments) ve [Tehlikeli malzeme içeren yükler](#hazmat-loads) bölümlerine bakın.
 
 #### <a name="how-the-hazardous-material-weight-is-calculated"></a>Tehlikeli malzeme ağırlığının hesaplanması
 
-Bu konudaki [Tehlikeli malzeme içeren sevkiyatlar](#hazmat-shipments) ve [Tehlikeli malzeme içeren yükler](#hazmat-loads) bölümlerinde açıklanan şekilde, **Malzeme yönetimi** hızlı sekmesinde **Sınırlı miktar** seçeneği **Evet** olarak ayarlanmış ürünler içeren yükler ve yük satırları toplam tehlikeli malzeme ağırlığını gösterir. Tehlikeli malzeme ağırlığı aşağıdaki formül kullanılarak hesaplanır:
+Bu makaledeki [Tehlikeli malzeme içeren sevkiyatlar](#hazmat-shipments) ve [Tehlikeli malzeme içeren yükler](#hazmat-loads) bölümlerinde açıklanan şekilde, **Malzeme yönetimi** hızlı sekmesinde **Sınırlı miktar** seçeneği **Evet** olarak ayarlanmış ürünler içeren yükler ve yük satırları toplam tehlikeli malzeme ağırlığını gösterir. Tehlikeli malzeme ağırlığı aşağıdaki formül kullanılarak hesaplanır:
 
 Tehlikeli malzeme ağırlığı = *&lt;LineQty&gt;* × *&lt;ProductWeight&gt;* × *&lt;UnitConversion&gt;*
 

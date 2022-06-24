@@ -1,6 +1,6 @@
 ---
 title: Formüller ve formül sürümleri
-description: Bu konu, formül ve formül versiyonlarının hakkında bilgi sağlar. Malzemeleri, içerikleri ve işlem üretimindeki belirli bir işlemin sonucunu tanımlayan bir formül. Formüller işlem üretiminde ürünleri planlamak ve üretmek için kullanılır.
+description: Bu makale, formül ve formül versiyonlarının hakkında bilgi sağlar. Malzemeleri, içerikleri ve işlem üretimindeki belirli bir işlemin sonucunu tanımlayan bir formül. Formüller işlem üretiminde ürünleri planlamak ve üretmek için kullanılır.
 author: johanhoffmann
 ms.date: 09/12/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca7111811d14aaf0f6c8b814877897884e4cd76f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 236a283736078e80506a1ecaab53c013a91c3721
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570285"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844162"
 ---
 # <a name="formulas-and-formula-versions"></a>Formüller ve formül sürümleri
 

@@ -1,6 +1,6 @@
 ---
 title: Satınalma siparişi oluşturma
-description: Bu konu, size bir satınalma siparişinin el ile nasıl oluşturulacağını gösterir.
+description: Bu makale, size bir satınalma siparişinin el ile nasıl oluşturulacağını gösterir.
 author: GalynaFedorova
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2fd627b9874b3e3f7aad71fb2970ddcc333a608
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2a04a9f4a512a307efecb19703cd3df638ba5ff5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677408"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856091"
 ---
 # <a name="create-a-purchase-order"></a>Satınalma siparişi oluşturma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, size bir satınalma siparişinin el ile nasıl oluşturulacağını gösterir. Satınalma siparişlerinin master planlama, doğrudan teslimat ve diğer işlemler sonucunda otomatik olarak oluşturulması daha normaldir. Satınalma siparişleri genellikle bir satınalma aracısı tarafından oluşturulur. Buradaki örnek, çeşitli adımlardaki tavsiye edilen notlardaki değerleri kullanarak USMF demo verisi şirketinde kullanılabilir.
+Bu makale, size bir satınalma siparişinin el ile nasıl oluşturulacağını gösterir. Satınalma siparişlerinin master planlama, doğrudan teslimat ve diğer işlemler sonucunda otomatik olarak oluşturulması daha normaldir. Satınalma siparişleri genellikle bir satınalma aracısı tarafından oluşturulur. Buradaki örnek, çeşitli adımlardaki tavsiye edilen notlardaki değerleri kullanarak USMF demo verisi şirketinde kullanılabilir.
 
 
 ## <a name="create-the-purchase-order-header"></a>Satınalma siparişi başlığını oluşturun

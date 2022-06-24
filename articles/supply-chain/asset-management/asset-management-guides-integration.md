@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Supply Chain Management'ı (Varlık yönetimi) Dynamics 365 Guides ile tümleştirme
-description: Bu konu, günlük servis ve bakım iş akışlarınızda karma gerçeklik kılavuzlarından yararlanmak için Microsoft Dynamics 365 Supply Chain Management'taki Varlık yönetimi modülünün Dynamics 365 Guides ile nasıl tümleştirileceğini açıklar.
+description: Bu makale, günlük servis ve bakım iş akışlarınızda karma gerçeklik kılavuzlarından yararlanmak için Microsoft Dynamics 365 Supply Chain Management'taki Varlık yönetimi modülünün Dynamics 365 Guides ile nasıl tümleştirileceğini açıklar.
 author: johanhoffmann
 ms.date: 04/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4132992eb5f4b42d43d9ff72cada616fe0573c2f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d06978bcbd6205111384f5c7cefdf34fdbdbfbf5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568267"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875698"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Dynamics 365 Supply Chain Management'ı (Varlık yönetimi) Dynamics 365 Guides ile tümleştirme
 
@@ -47,7 +47,7 @@ Bir kılavuzu ilişkilendirmek için, Varlık yönetimindeki bir bakım denetim 
 
 Kılavuzu bakım denetim listesi şablonuyla ilişkilendirmek için aşağıdaki adımları izleyin.
 
-1. Dynamics 365 Guides PC ve HoloLens uygulamalarını kullanarak bir kılavuz oluşturun. Kılavuz oluşturma hakkında daha fazla bilgi için aşağıdaki konulara bakın:
+1. Dynamics 365 Guides PC ve HoloLens uygulamalarını kullanarak bir kılavuz oluşturun. Kılavuz oluşturma hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
 
     - [Kılavuz oluşturmak için PC uygulaması kullanma](/dynamics365/mixed-reality/guides/pc-app-overview)
     - [Hologramlarınızı yerleştirmek için HoloLens uygulaması kullanma](/dynamics365/mixed-reality/guides/hololens-app-overview)

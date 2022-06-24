@@ -1,6 +1,6 @@
 ---
 title: LCS'de IoT Zekası eklentisini yükleme
-description: Bu konu, Microsoft Dynamics LifeCycle Services (LCS) Içindeki IoT Zekası eklentisinin nasıl yükleneceğini açıklamaktadır.
+description: Bu makale, Microsoft Dynamics LifeCycle Services (LCS) Içindeki IoT Zekası eklentisinin nasıl yükleneceğini açıklamaktadır.
 author: johanhoffmann
 ms.date: 07/07/2020
 ms.topic: article
@@ -14,25 +14,25 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 12ffa71dc1c2badaffdc2e419a47d855635016f2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 52fe4c4a79378aca5f1e64c8b3f4fa85199c9911
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679037"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887500"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>LCS'de IoT Zekası eklentisini yükleme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics LifeCycle Services (LCS) Içindeki IoT Zekası eklentisinin nasıl yükleneceğini açıklamaktadır. Eklentilerin tanıtım/deneme ortamına yüklenemeyeceğini unutmayın. Eklentiyi yükleyebilmek için önce [Azure kaynaklarını oluşturmanız gerekir](iot-azure-setup.md).
+Bu makale, Microsoft Dynamics LifeCycle Services (LCS) Içindeki IoT Zekası eklentisinin nasıl yükleneceğini açıklamaktadır. Eklentilerin tanıtım/deneme ortamına yüklenemeyeceğini unutmayın. Eklentiyi yükleyebilmek için önce [Azure kaynaklarını oluşturmanız gerekir](iot-azure-setup.md).
 
 IoT yönetim kodunu herhangi bir kod yazmadan ayarlayabilir ve konfigüre edebilirsiniz. Temel adımlar şunlardır.
 
 1. [Azure kaynaklarını ayarla](iot-azure-setup.md) – bir IoT Merkezi, Redis Cache ve Supply Chain Management'tan erişilebilen bir Key Vault oluşturun.
 2. [IoT Hub'ı için ileti şeması formatları](iot-schema-format.md) – Aygıtları IoT Hub'a göndermek üzere yapılandırın ve JavaScript Nesne Gösterimi (JSON) ileti biçimi tanımlayın.
 3. Özellik Yönetiminde, IoT yönetim bilgileri özellik bayrağını etkinleştirin.
-4. Microsoft Dynamics Lifecycle Services (LCS) içindeki IoT yönetim bilgileri eklentisini yükleyin – Eklentiyi, LCS'ye yükleyin ve Azure gizli kod dizelerini yapılandırın (bu konuda açıklandığı şekilde).
+4. Microsoft Dynamics Lifecycle Services (LCS) içindeki IoT yönetim bilgileri eklentisini yükleyin – Eklentiyi, LCS'ye yükleyin ve Azure gizli kod dizelerini yapılandırın (bu makalede açıklandığı şekilde).
 5. [Ölçümleri ayarla](iot-metrics-setup.md) – Supply Chain Management'ta ölçümleri ayarlayın.
 6. [Senaryo kurulumu](iot-scenario-setup.md) -Supply Chain Management'ta senaryolar ayarlayın.
 

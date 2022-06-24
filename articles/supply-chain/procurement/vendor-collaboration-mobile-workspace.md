@@ -1,6 +1,6 @@
 ---
 title: Satıcı işbirliği mobil çalışma alanı
-description: Bu konu, Satıcı işbirliği mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı satıcılarınızın, onay için onlara gönderilen satınalma siparişleri hakkında güncel kalmasını sağlar. Ayrıca yeni ve güncelleştirilmiş satınalma siparişleri ve kişiler hakkında bilgileri görebilirler.
+description: Bu makale, Satıcı işbirliği mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı satıcılarınızın, onay için onlara gönderilen satınalma siparişleri hakkında güncel kalmasını sağlar. Ayrıca yeni ve güncelleştirilmiş satınalma siparişleri ve kişiler hakkında bilgileri görebilirler.
 author: GalynaFedorova
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 97352ca89cef77b9320f17af5a1dbe6a00df2dd6
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 591d4269a1188ed8f098a342729ba49b9772f42d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811728"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851666"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Satıcı işbirliği mobil çalışma alanı
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-Bu konu, **Satıcı işbirliği** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı satıcılarınızın, onay için onlara gönderilen satınalma siparişleri hakkında güncel kalmasını sağlar. Ayrıca yeni ve güncelleştirilmiş satınalma siparişleri ve kişiler hakkında bilgileri görebilirler.
+Bu makale, **Satıcı işbirliği** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı satıcılarınızın, onay için onlara gönderilen satınalma siparişleri hakkında güncel kalmasını sağlar. Ayrıca yeni ve güncelleştirilmiş satınalma siparişleri ve kişiler hakkında bilgileri görebilirler.
 
 Bu mobil çalışma alanı, Finance and Operations (Dynamics 365) mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
 
@@ -97,7 +97,7 @@ Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 3
 </tr>
 <tr class="even">
 <td>Satıcı kullanıcısının, web istemcisindeki satıcı işbirliği web arabirimine erişmesi ve bir satıcı işbirliği kullanıcısı ayarlaması gerekir.</td><td>Satın alma uzmanları ve sistem yöneticisi</td>
-<td>Satıcı işbirliği web arabirimini ayarlamak ve bu arabirimle çalışmak için aşağıdaki konularda açıklanan adımları izleyin.
+<td>Satıcı işbirliği web arabirimini ayarlamak ve bu arabirimle çalışmak için aşağıdaki makalelerde açıklanan adımları izleyin.
 <ul>
 <li><a href="vendor-collaboration-work-external-vendors.md">Harici satıcılarla çalışmak için satıcı işbirliğini kullanma</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Satıcı iş birliği kullanıcılarını yönetme</a></li>

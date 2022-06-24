@@ -1,6 +1,6 @@
 ---
 title: Çevre birimleri
-description: Bu konu, Commerce çevre birimleriyle ilgili kavramları açıklar.
+description: Bu makale, Commerce çevre birimleriyle ilgili kavramları açıklar.
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 76ce17777a2d13b46e5faed96dbde5e0d93782eb
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462253"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880093"
 ---
 # <a name="peripherals"></a>Çevre birimleri
 
 [!include[banner](includes/banner.md)]
 
-Bu konu, mağaza çevre birimleriyle ilgili kavramları açıklar. Bu çevre birimlerinin satış noktasına (POS) bağlanmasıyla ilgili çeşitli yollar ve POS ile bağlantı yönetiminden sorumlu olan bileşenler açıklanmaktadır.
+Bu makale, mağaza çevre birimleriyle ilgili kavramları açıklar. Bu çevre birimlerinin satış noktasına (POS) bağlanmasıyla ilgili çeşitli yollar ve POS ile bağlantı yönetiminden sorumlu olan bileşenler açıklanmaktadır.
 
 ## <a name="concepts"></a>Kavramlar
 
@@ -55,9 +55,9 @@ Modern POS for Android, Modern POS programının Android cihazlara dağıtılabi
 
 ### <a name="pos-peripherals"></a>POS çevre birimleri
 
-POS çevre birimleri, POS işlevleri için açıkça desteklenen cihazlardır. Bu çevre birimleri, genellikle belirli sınıflara ayrılmıştır. Bu sınıflar hakkında daha fazla bilgi için bu konudaki "Cihaz sınıfları" bölümüne bakın.
+POS çevre birimleri, POS işlevleri için açıkça desteklenen cihazlardır. Bu çevre birimleri, genellikle belirli sınıflara ayrılmıştır. Bu sınıflar hakkında daha fazla bilgi için bu makaledeki "Cihaz sınıfları" bölümüne bakın.
 
-### <a name="hardware-station"></a>Hardware station
+### <a name="hardware-station"></a>Donanım istasyonu
 
 Gezinme: **Retail ve Commerce \> Kanallar \> Mağazalar \> Tüm mağazalar**'a gidin. Bir mağaza seçin ve sonra **Donanım istasyonları** hızlı sekmesini seçin. **Donanım istasyonu** ayarı çevresel çevre birimi mantığının dağıtıldığı kurulumları tanımlamak için kullanılan kanal düzeyindeki bir ayardır. Kanal düzeyindeki bu ayar donanım istasyonu özelliklerini belirlemek için kullanılır. Ayrıca, belirli bir mağazanın Modern POS kurulumunda kullanılabilen donanım istasyonlarını listelemek için kullanılır. Donanım istasyonu Windows ve Android için Modern POS programlarına yerleşik olarak bulunur. Donanım istasyonu bağımsız olarak tek başına bir Microsoft Internet Information Services (IIS) programı olarak dağıtılabilir. Bu durumda, ağ üzerinden erişilebilir.
 

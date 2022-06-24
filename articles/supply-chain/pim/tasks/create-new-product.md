@@ -1,6 +1,6 @@
 ---
-title: Yeni ürün oluşturma
-description: Bu konuda, yeni bir paylaşılan ürün oluşturma yöntemi açıklanmıştır.
+title: Yeni bir ürün oluştur
+description: Bu makalede, yeni bir paylaşılan ürün oluşturma yöntemi açıklanmıştır.
 author: t-benebo
 ms.date: 07/22/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f509758ed062b756d99c93b2721c99dcdbae5155
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 75490661bf6f1e3dc0655cf9bd79316194c63820
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575596"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887355"
 ---
-# <a name="create-a-new-product"></a>Yeni ürün oluşturma
+# <a name="create-a-new-product"></a>Yeni bir ürün oluştur
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, yeni bir paylaşılan ürün oluşturma yöntemi açıklanmıştır. Bu işlem genellikle bir ürün tasarımcısı tarafından gerçekleştirilir. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir.
+Bu makalede, yeni bir paylaşılan ürün oluşturma yöntemi açıklanmıştır. Bu işlem genellikle bir ürün tasarımcısı tarafından gerçekleştirilir. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 
 
 ## <a name="create-a-product"></a>Ürün oluşturma

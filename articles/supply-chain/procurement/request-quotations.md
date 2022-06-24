@@ -1,6 +1,6 @@
 ---
 title: Teklif taleplerine (RFQ'lar) genel bakış
-description: Bu konuda, teklif taleplerine (RFQ) genel bakış sağlanmaktadır. Kuruluşlar, satın almak zorunda oldukları maddeler veya hizmetler için çeşitli satıcılardan rekabetçi teklifler almak istediklerinde RFQ'lar yayınlar.
+description: Bu makalede, teklif taleplerine (RFQ) genel bakış sağlanmaktadır. Kuruluşlar, satın almak zorunda oldukları maddeler veya hizmetler için çeşitli satıcılardan rekabetçi teklifler almak istediklerinde RFQ'lar yayınlar.
 author: GalynaFedorova
 ms.date: 10/05/2020
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3de48c03ac73ee164dea0c329b2595db21c841cc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 89abf82879ab08f2341ce5b14e6af1d5c42140b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671968"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895597"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Teklif taleplerine (RFQ'lar) genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, teklif taleplerine (RFQ) genel bakış sağlanmaktadır. Kuruluşlar, satın almak zorunda oldukları maddeler veya hizmetler için çeşitli satıcılardan rekabetçi teklifler almak istediklerinde RFQ'lar yayınlar. Bir RFQ'da, satıcılardan belirlediğiniz madde miktarları için fiyat ve teslimat süreleri vermelerini istersiniz.
+Bu makalede, teklif taleplerine (RFQ) genel bakış sağlanmaktadır. Kuruluşlar, satın almak zorunda oldukları maddeler veya hizmetler için çeşitli satıcılardan rekabetçi teklifler almak istediklerinde RFQ'lar yayınlar. Bir RFQ'da, satıcılardan belirlediğiniz madde miktarları için fiyat ve teslimat süreleri vermelerini istersiniz.
 Satıcılardan, nakliye maliyetleri ya da büyük siparişler için indirimler veya satıcı faturalarının erken ödenmesi gibi dolaylı giderler olup olmadığını belirtmelerini de isteyebilirsiniz.
 
 RFQ işlemi aşağıdaki görevlerden oluşur:
@@ -45,7 +45,7 @@ Planlanan siparişlerden, satınalma talebinden veya el ile yapılan bir girişt
 
 RFQ servis talebini hazırlayıp satıcıları ekledikten sonra RFQ servis talebinde **Gönder**'i (Kamu sektörü için **Gönder ve yayımla**) seçin. RFQ gönderdiğiniz her satıcı için bir RFQ günlüğü oluşturulur. Gönder eylemi için Yazdırma seçeneklerini her satıcı için arşive gönderilecek bir rapor yazdıracak veya her satıcının e-posta adresine bir rapor gönderecek şekilde ayarlayabilirsiniz. Ayrıca, her satıcıya ilişkin RFQ günlüğü, satıcıya daha sonra gönderebileceğiniz veya yeniden gönderebileceğiniz bir rapor oluşturmak için kullanılabilir. Gönder eylemini, satıcının dolduracağı bir yanıt sayfası oluşturmak için de yapılandırabilirsiniz.
 
-Bu konu, satıcı işbirliği kullanılmadığında RFQ'ların işlenmesine ilişkin süreci kapsar. Sisteminiz satıcı işbirliği için ayarlanmamışsa, satıcılar tekliflerini doğrudan Supply Chain Management'ta girebilir. Daha fazla bilgi için bkz. [Harici müşterilerle satıcı işbirliği](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ve [Harici satıcılarla satıcı işbirliği](vendor-collaboration-work-external-vendors.md).
+Bu makale, satıcı işbirliği kullanılmadığında RFQ'ların işlenmesine ilişkin süreci kapsar. Sisteminiz satıcı işbirliği için ayarlanmamışsa, satıcılar tekliflerini doğrudan Supply Chain Management'ta girebilir. Daha fazla bilgi için bkz. [Harici müşterilerle satıcı işbirliği](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ve [Harici satıcılarla satıcı işbirliği](vendor-collaboration-work-external-vendors.md).
 
 Gönderdikten sonra bir RFQ'da düzeltme yapmanız gerekirse, RFQ'yu işleminizi tamamladıktan sonra satıcılara iki düzeltme eylemini kullanarak gönderebilirsiniz: Oluştur ve Sonlandır.
 
@@ -59,7 +59,7 @@ Bir teklifi veya bir teklifteki birçok satırı seçtikten sonra tüm veya baz�
 
 RFQ servis talebinin iki durumu bulunur: en düşük ve en yüksek. Durumu **Tüm teklif talepleri** liste sayfasında görebilirsiniz. En düşük durum RFQ servis talebindeki herhangi bir satırın en az gelişmiş aşamasıdır; en yüksek durum RFQ servis talebindeki herhangi bir satırın en ileri aşamasıdır. Örneğin, üç satırı olan bir RFQ servis talebinin iki satıcıya gönderilmesi durumunda her birinde üç satır olan iki RFQ bulunur. Tüm satırlar **Gönderildi**. Şimdi satıcılardan biri tarafından bir teklif girilir ve RFQ satırları **Alındı** durumunu alır. Bu, RFQ servis talebindeki üç satırın tümünün bir RFQ için **Gönderildiği** ve diğer RFQ için **Alındığı** anlamına gelir. En düşük durum **Gönderildi** ve en yüksek durum **Alındı** olacaktır.
 
-Bu durumlar, bu konuda daha ayrıntılı açıklanacaktır.
+Bu durumlar, bu makalede daha ayrıntılı açıklanacaktır.
 
 ## <a name="setting-up-rfq-functionality"></a>RFQ işlevini ayarlama
 

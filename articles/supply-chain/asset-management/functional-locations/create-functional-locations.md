@@ -1,6 +1,6 @@
 ---
 title: İşlem yapılacak yerleşimler oluşturma
-description: Bu konuda Varlık Yönetimi'nde işlem yapılacak yerleşimler oluşturma işlemi açıklanmaktadır.
+description: Bu makalede Varlık Yönetimi'nde işlem yapılacak yerleşimler oluşturma işlemi açıklanmaktadır.
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e5dd5ea59b27c594752ff82428723f3afe555b5f2426a812c70e10b968c920a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 503150e7cfc580821c5ed8d4c4c9b56998f6ff13
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767548"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869734"
 ---
 # <a name="create-functional-locations"></a>İşlem yapılacak yerleşimler oluşturma
 
@@ -28,7 +28,7 @@ ms.locfileid: "6767548"
 
  
 
-Bu konuda Varlık Yönetimi'nde işlem yapılacak yerleşimler oluşturma işlemi açıklanmaktadır.
+Bu makalede Varlık Yönetimi'nde işlem yapılacak yerleşimler oluşturma işlemi açıklanmaktadır.
 
 İşlem yapılacak yerleşim yapısı oluşturduğunuzda, işlem yapılacak bir yerleşim oluşturduktan sonra bunu özgün konumdan taşıyamazsınız. Bu, Varlık Yönetiminde oluşturmaya başlamadan önce işlem yapılacak yerleşimlerin yapısını dikkatle değerlendirmeniz gerektiği anlamına gelir. İşlem yapılacak bir yerleşimden memnun değilseniz, henüz kullanıma alınmamış olması durumunda bunu silebilirsiniz.
 

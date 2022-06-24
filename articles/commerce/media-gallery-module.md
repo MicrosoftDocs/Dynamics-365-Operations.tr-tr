@@ -1,6 +1,6 @@
 ---
 title: Ortam galerisi modülü
-description: Bu konu ortam galerisi modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'te site sayfalarına nasıl ekleneceğini açıklamaktadır.
+description: Bu makale ortam galerisi modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'te site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0d05129145c5d6c3967b243cb0855a1c4fd3e84e
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 73eba2c39f9ebf1e4092545565b8cbf2db75cfb5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881747"
 ---
 # <a name="media-gallery-module"></a>Ortam galerisi modülü
 
 [!include [banner](includes/banner.md)]
 
-Bu konu ortam galerisi modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'te site sayfalarına nasıl ekleneceğini açıklamaktadır.
+Bu makale ortam galerisi modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'te site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
 Ortam galerisi modülleri bir veya daha fazla görüntüyü galeri görünümünde gösterir. Ortam galerisi modülleri yatay (görüntünün altında bir satır olarak) veya dikey olarak (görüntünün yanında bir sütun olarak) düzenlenebilen küçük resimleri destekler. Ortam galerisi modülleri ayrıca, resimlerin yakınlaştırılmasına (büyütülmesine) veya tam ekran modunda görüntülenmesine olanak veren özellikler sağlar. Ortam galerisi modülünde işlenebilmesi için bir resmin Commerce site oluşturucu Ortam kitaplığında bulunması gerekir. Şu anda, ortam galerisi modülleri yalnızca resimleri destekler.
 

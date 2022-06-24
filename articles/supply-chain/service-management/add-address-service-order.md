@@ -1,6 +1,6 @@
 ---
 title: Servis siparişine adres ekleme
-description: Bu konu bir servis siparişine nasıl müşteri adresi ekleneceğini açıklar.
+description: Bu makale bir servis siparişine nasıl müşteri adresi ekleneceğini açıklar.
 author: sorenva
 ms.date: 05/02/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 560d0c58aebe652e668cc0ec3ed05d84f004872e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ce58ff7bbb491fd2d250b8986d02fca04bd5fad1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844749"
 ---
 # <a name="add-an-address-to-a-service-order"></a>Servis siparişine adres ekleme    
 
 [!include [banner](../includes/banner.md)]
 
 
-Bu konu bir servis siparişine nasıl müşteri adresi ekleneceğini açıklar. Bir servis siparişi oluşturduğunuzda, adres bilgileri servis siparişinin iliştirildiği projeden transfer edilir. Ancak müşteriler, satıcılar, tesisler, ambarlar, servis siparişleri ve projeler için Microsoft Dynamics AX'e önceden girilmiş adreslerden alternatif bir konum seçebilirsiniz.
+Bu makale bir servis siparişine nasıl müşteri adresi ekleneceğini açıklar. Bir servis siparişi oluşturduğunuzda, adres bilgileri servis siparişinin iliştirildiği projeden transfer edilir. Ancak müşteriler, satıcılar, tesisler, ambarlar, servis siparişleri ve projeler için Microsoft Dynamics AX'e önceden girilmiş adreslerden alternatif bir konum seçebilirsiniz.
 
 Yeni bir adres de oluşturabilirsiniz. Varsayılan olarak, yeni adres projeye transfer edilir. Ancak, yeni adresin yalnızca hizmetin bu örneği için geçerli olduğunu belirtebilirsiniz. Bunu yaparsanız, yeni adres projeye transfer edilmez.
 

@@ -1,6 +1,6 @@
 ---
 title: Ambar uygulamasından transfer emirleri oluşturma
-description: Bu konu, Ambar Yönetimi mobil uygulaması özelliğinden transfer emirlerinin nasıl oluşturulacağını ve işleneceğini açıklamaktadır
+description: Bu makale, Ambar Yönetimi mobil uygulaması özelliğinden transfer emirlerinin nasıl oluşturulacağını ve işleneceğini açıklamaktadır
 author: perlynne
 ms.date: 09/02/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: cbaeb120032bf2239fd9a5bce39fd7936229b308
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: b9edc2d94aa1f4850d2e7fe2b4bdd1b092be944f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102950"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877464"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Ambar uygulamasından transfer emirleri oluşturma
 
@@ -134,7 +134,7 @@ Bu bölüm, bir dalga serbest bırakıldığında, bir iş şablonunun şablon t
 1. **Ölçüt** alanında *51* öğesini seçin.
 1. **Sıralama** sekmesini seçin.
 1. **Ekle**'yi seçin ve **Alan**'ı *Bulunan plaka kimliği*'ne ayarlayın. Bu alan seçildiğinde, **İş başlığı sonları** araç çubuğu düğmesi etkinleşir.
-1. Gruplandırmayı sıfırlamak ve **İş şablonları** sayfasına dönmek için **Tamam**'ı  ve arından **Evet**'i seçin.
+1. Gruplandırmayı sıfırlamak ve **İş şablonları** sayfasına dönmek için **Tamam**'ı ve arından **Evet**'i seçin.
 1. **İş başlığı sonları**'nı seçin ve **Bulunan plaka kodu** için **Bu alana göre grupla**'yı etkinleştirip kapatın.
 
 > [!NOTE]
@@ -274,7 +274,7 @@ Bu senaryo sırasında, aşağıdakiler meydana geldi:
 1. Hedef ambar seçiminde sistem yaklaşan transfer emri için bir kod numarası rezerve etti (sisteminizde tanımlanan transfer emri numara sırasını temel alarak) ancak transfer emrini henüz oluşturmadı.
 1. Yeni ambara taşınması gereken eldeki stoğu içeren plaka olan *LP10*'u taradığınızda,daha sonra işlenecek olaylar kuyruğuna bir **Ambar uygulaması olayı** eklendi. Ambar olayı, tasarlanan transfer emri numarası dahil olmak üzere taramayla ilgili ileti ayrıntılarını içeriyordu.
 1. Ambar Yönetimi mobil uygulamasında, **Siparişi tamamla** düğmesi seçildiğinde yeni bir ambar uygulama olayı, **Transfer emrini tamamla** oluşturulur ve ilgili mevcut olay, **Transfer emri oluştur** durumu **Kuyruğa alındı** olarak değişir.
-1. Arka uçta, **Ambar uygulaması olaylarını işle toplu işi** **Kuyruğa alındı** olayını aldı ve taranmış plakayla ilgili eldeki stoğu topladı. Eldeki stoğa göre, gerçek transfer emri kaydı ile ilişkili satırlar oluşturuldu. İş aynı zamanda transfer emri için **Giden sevkiyat ilkesi** alanını yapılandırılan *Serbest bırakma ve sevkiyat onayı*'nı temel alan değerle doldurdu ve  plakayı **Plaka yönlendirmeli** strateji için satırlara göre doldurdu.
+1. Arka uçta, **Ambar uygulaması olaylarını işle toplu işi** **Kuyruğa alındı** olayını aldı ve taranmış plakayla ilgili eldeki stoğu topladı. Eldeki stoğa göre, gerçek transfer emri kaydı ile ilişkili satırlar oluşturuldu. İş aynı zamanda transfer emri için **Giden sevkiyat ilkesi** alanını yapılandırılan *Serbest bırakma ve sevkiyat onayı*'nı temel alan değerle doldurdu ve plakayı **Plaka yönlendirmeli** strateji için satırlara göre doldurdu.
 1. Transfer emri satırına dayalı olarak **Giden sevkiyat ilkesi** alan değeri **Transfer emirleri toplu işini otomatik serbest bırakma** sorgusu transfer emrinin sevkiyat ambarına serbest bırakılmasıyla sonuçlandı. Kullanılan **Dalga şablonu**, **İş şablonu** ve **Konum yönergelerinin** kurulumu nedeniyle, işin aldığı otomatik işleme **Yük durumu** *Yüklendi* olarak güncelleştirildi.
 1. **Giden sevkiyat toplu işini işle** yük için yürütülür ve sevk edilen transfer emri ve Ön Sevkiyat Bildirimi (ÖSB) oluşturulur.
 1. Tüm bu olayların zamanlaması oluşturulan toplu işlerin **Yineleme** ayarlarına bağlıdır.

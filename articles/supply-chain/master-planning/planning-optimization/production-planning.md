@@ -1,6 +1,6 @@
 ---
 title: Üretim planlama
-description: Bu konuda üretim planlaması açıklanır ve Planlamayı En İyi Duruma Getirme kullanılarak planlı üretim emirlerinin nasıl değiştirileceği anlatılır.
+description: Bu makalede üretim planlaması açıklanır ve Planlamayı En İyi Duruma Getirme kullanılarak planlı üretim emirlerinin nasıl değiştirileceği anlatılır.
 author: t-benebo
 ms.date: 06/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8f23cb62512dfd718fe199867a4b21aaa0eca3fd
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 151aa3688c570ea6ec282c297ed18288dd886131
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469072"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873796"
 ---
 # <a name="production-planning"></a>Üretim planlama
 
@@ -24,11 +24,11 @@ ms.locfileid: "8469072"
 
 Planlamayı En İyi Duruma Getirme, birçok üretim senaryosunu destekler. Mevcut, yerleşik master planlama altyapısından geçiş yapıyorsanız değiştirilen bazı davranışları öğrenmeniz gerekir.
 
-Aşağıdaki video, bu konuda ele alınan bazı kavramlara kısa bir giriş sağlar: [Dynamics 365 Supply Chain Management: Planlamayı İyileştirme'deki geliştirmeler](https://youtu.be/u1pcmZuZBTw).
+Aşağıdaki video, bu makalede ele alınan bazı kavramlara kısa bir giriş sağlar: [Dynamics 365 Supply Chain Management: Planlamayı İyileştirme'deki geliştirmeler](https://youtu.be/u1pcmZuZBTw).
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Sisteminiz için bu özelliği etkinleştirme
 
-Sisteminiz bu konuda açıklanan özellikleri zaten içermiyorsa [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve *Planlama Optimizasyonu için planlı üretim emirleri* özelliğini açın.
+Sisteminiz bu makalede açıklanan özellikleri zaten içermiyorsa [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve *Planlama Optimizasyonu için planlı üretim emirleri* özelliğini açın.
 
 ## <a name="planned-production-orders"></a>Planlı üretim emirleri
 
@@ -65,7 +65,7 @@ Planlı bir siparişte yer alan bilgileri değiştirmek ve ilgili malzeme gereks
 2. Planlı siparişi onaylayın.
 3. Master planlamayı çalıştırın.
 
-Master planlamayı çalıştırdığınızda, planlanan üretim emirleri dahilse filtre kullanmamalısınız. Daha fazla bilgi için bu konunun sonraki kısımlarında yer alan [Filtreler](#filters) bölümüne bakın.
+Master planlamayı çalıştırdığınızda, planlanan üretim emirleri dahilse filtre kullanmamalısınız. Daha fazla bilgi için bu makalenin sonraki kısımlarında yer alan [Filtreler](#filters) bölümüne bakın.
 
 > [!NOTE]
 > Planlı siparişin teslimat tarihi sonraki bir tarihe değiştirilirse talep yeni bir planlı siparişle ilişkilendirilebilir. Bu davranış, yeni tedarik tarihi ilişkilendirilmiş talep için gecikmeye neden olduğunda ancak sağlama süresi ayarlarına göre gecikme önlenebileceğinde gerçekleşir.

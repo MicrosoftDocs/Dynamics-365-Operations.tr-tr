@@ -1,6 +1,6 @@
 ---
 title: Sevkiyat konsolidasyonu ilkesi geçersiz kılınmamışsa sevkiyatları konsolide et
-description: Bu konu, bir veya daha fazla satış satırının Ambara serbest bırakma sayfasından manuel olarak ambara serbest bırakılmasının ve serbest bırakmadan önce sistem tarafından tanımlanan sevkiyat konsolidasyon ilkesinin geçersiz kılınmasının gerektiği bir senaryo sunar.
+description: Bu makale, bir veya daha fazla satış satırının Ambara serbest bırakma sayfasından manuel olarak ambara serbest bırakılmasının ve serbest bırakmadan önce sistem tarafından tanımlanan sevkiyat konsolidasyon ilkesinin geçersiz kılınmasının gerektiği bir senaryo sunar.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 8b1c8ac41fe0941c9bbfce20ce593eafe5699ef1
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 680941adeba1fc1cd54a02fb366d3d5903938d77
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675473"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878714"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden"></a>Sevkiyat konsolidasyonu ilkesi geçersiz kılınmamışsa sevkiyatları konsolide et
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, bir veya daha fazla satış satırının **Ambara serbest bırakma** sayfasından manuel olarak ambara serbest bırakılmasının ve serbest bırakmadan önce sistem tarafından tanımlanan sevkiyat konsolidasyon ilkesinin geçersiz kılınmasının gerektiği bir senaryo sunar. Örneğin, genellikle açık sevkiyatlarla konsolide edilmemiş bir siparişin açık sevkiyatlarla konsolide edilmesi gerekirse sevkiyat konsolidasyon ilkesinin geçersiz kılınması gerekebilir.
+Bu makale, bir veya daha fazla satış satırının **Ambara serbest bırakma** sayfasından manuel olarak ambara serbest bırakılmasının ve serbest bırakmadan önce sistem tarafından tanımlanan sevkiyat konsolidasyon ilkesinin geçersiz kılınmasının gerektiği bir senaryo sunar. Örneğin, genellikle açık sevkiyatlarla konsolide edilmemiş bir siparişin açık sevkiyatlarla konsolide edilmesi gerekirse sevkiyat konsolidasyon ilkesinin geçersiz kılınması gerekebilir.
 
 Senaryo sırasında, bir satış siparişleri kümesi oluşturacak ve siparişleri ambara serbest bırakmadan önce varsayılan sevkiyat konsolidasyon ilkesini geçersiz kılacaksınız.
 
 ## <a name="make-demo-data-available"></a>Tanıtım verilerini kullanılabilir hale getirme
 
-Bu konudaki senaryo, Microsoft Dynamics 365 Supply Chain Management için sağlanan standart tanıtım verilerinde bulunan değerlere ve kayıtlara başvurur. Alıştırmaları yaparken burada sağlanan değerleri kullanmak isterseniz tanıtım verisinin yüklü olduğu bir ortamda çalıştığınızdan ve başlamadan önce tüzel kişiliği **USMF** olarak ayarladığınızdan emin olun.
+Bu makaledeki senaryo, Microsoft Dynamics 365 Supply Chain Management için sağlanan standart tanıtım verilerinde bulunan değerlere ve kayıtlara başvurur. Alıştırmaları yaparken burada sağlanan değerleri kullanmak isterseniz tanıtım verisinin yüklü olduğu bir ortamda çalıştığınızdan ve başlamadan önce tüzel kişiliği **USMF** olarak ayarladığınızdan emin olun.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Sevkiyat konsolidasyon ilkelerini ve ürün filtrelerini ayarlama
 

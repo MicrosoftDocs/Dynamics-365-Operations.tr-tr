@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce sitesini çevrimiçi bir kanalla ilişkilendirme
-description: Bu konu, Microsoft Dynamics 365 Commerce sitenizin bir veya daha fazla çevrimiçi mağazaya nasıl bağlanacağını açıklamaktadır.
+description: Bu makale, Microsoft Dynamics 365 Commerce sitenizin bir veya daha fazla çevrimiçi mağazaya nasıl bağlanacağını açıklamaktadır.
 author: bicyclingfool
 ms.date: 07/02/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 60ead45e6e2b7fea8f04371310ff4315205e11f6e0968e5f8bbc6a29c5f26e18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 006c8b60791e0176c808762025f3bfdeaff9c48d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737665"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878685"
 ---
 # <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Dynamics 365 Commerce sitesini çevrimiçi bir kanalla ilişkilendirme
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce sitenizin bir veya daha fazla çevrimiçi mağazaya nasıl bağlanacağını açıklamaktadır. 
+Bu makale, Microsoft Dynamics 365 Commerce sitenizin bir veya daha fazla çevrimiçi mağazaya nasıl bağlanacağını açıklamaktadır. 
 
 Microsoft Dynamics Lifecycle Services (LCS) portalını kullanarak e-ticaret sağlandıktan sonra, ilk Dynamics 365 Commerce e-ticaret Web sitenizi hazırlıyoruz. İlk site oluşturma işleminin bir parçası olarak, siteyi önceden oluşturulmuş bir çevrimiçi mağazadan ilişkilendirirsiniz. Bu adım, siteyi çevrimiçi bir kanala bağlar ve sitenin gezinti hiyerarşisini, ürünlerini, kategorilerini, fiyatlarını, Sevkiyat seçeneklerini ve çevrimiçi mağazada tanımladığınız her şeyi göstermesini sağlar.
 

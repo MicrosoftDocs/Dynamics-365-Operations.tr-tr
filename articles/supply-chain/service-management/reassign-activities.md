@@ -1,6 +1,6 @@
 ---
 title: Faaliyetleri yeniden atama
-description: Bu konu servis faaliyetlerinin bir çalışandan başka bir çalışana nasıl yeniden atanabileceğini açıklar.
+description: Bu makale servis faaliyetlerinin bir çalışandan başka bir çalışana nasıl yeniden atanabileceğini açıklar.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55ebcda19aba074191a2820d2ac7faf27313db8e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5f6cd7523a9185de0bb2dfd81ffb3fe5e7dba5e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860478"
 ---
 # <a name="reassign-activities"></a>Faaliyetleri yeniden atama 
 
 [!include [banner](../includes/banner.md)]
 
 
-Bu konu servis faaliyetlerinin bir çalışandan başka bir çalışana nasıl yeniden atanabileceğini açıklar. Çalışanlar farklı gönderme ekiplerine atanmış olsa bile servis faaliyetlerini bir çalışandan başka bir çalışana yeniden atayabilirsiniz.
+Bu makale servis faaliyetlerinin bir çalışandan başka bir çalışana nasıl yeniden atanabileceğini açıklar. Çalışanlar farklı gönderme ekiplerine atanmış olsa bile servis faaliyetlerini bir çalışandan başka bir çalışana yeniden atayabilirsiniz.
 
 Faaliyeti başka bir çalışana yeniden atamak için aşağıdaki adımları kullanın:
 

@@ -1,6 +1,6 @@
 ---
 title: Yalın imalat için görsel planlama
-description: Bu konu, üretim planlayıcısının kanban işleri için üretim planını denetlemek ve en iyi duruma getirmek üzere kullanabileceği Kanban zamanlama panosu hakkında bilgiler sağlar.
+description: Bu makale, üretim planlayıcısının kanban işleri için üretim planını denetlemek ve en iyi duruma getirmek üzere kullanabileceği Kanban zamanlama panosu hakkında bilgiler sağlar.
 author: johanhoffmann
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5803793a4874ee73f943d0f059047458c37dc48b7d3276dadc8d8803599fb9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a743be96867c1f325e6fe01f23355c27cb4d0cc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764824"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875202"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Yalın imalat için görsel planlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, üretim planlayıcısının kanban işleri için üretim planını denetlemek ve en iyi duruma getirmek üzere kullanabileceği Kanban zamanlama panosu hakkında bilgiler sağlar.
+Bu makale, üretim planlayıcısının kanban işleri için üretim planını denetlemek ve en iyi duruma getirmek üzere kullanabileceği Kanban zamanlama panosu hakkında bilgiler sağlar.
 
-Bu konu, üretim planlayıcısının kanban işleri için üretim planını denetlemek ve en iyi duruma getirmek üzere kullanabileceği Kanban zamanlama panosu hakkında bilgiler sağlar.
+Bu makale, üretim planlayıcısının kanban işleri için üretim planını denetlemek ve en iyi duruma getirmek üzere kullanabileceği Kanban zamanlama panosu hakkında bilgiler sağlar.
 
 Kanban zamanlama panosu üretim planlayıcıya üretim planını kanban işleri için denetleme ve en iyi duruma getirme olanağı sunar. Kanban iş akışını şeffaf hale getirir ve üretim planlayıcısına yalın imalat iş hücresi için üretim planını en iyi duruma getiren ve düzenleyen bir araç sunar.
 

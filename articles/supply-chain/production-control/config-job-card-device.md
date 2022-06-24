@@ -1,6 +1,6 @@
 ---
 title: Cihazlar için iş kartını konfigüre et
-description: Bu konu, iş kartı aygıtını konfigüre etmek için çeşitli seçenekleri açıklamaktadır.
+description: Bu makale, iş kartı aygıtını konfigüre etmek için çeşitli seçenekleri açıklamaktadır.
 author: johanhoffmann
 ms.date: 05/29/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103450"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860739"
 ---
 # <a name="configure-job-card-for-devices"></a>Cihazlar için iş kartını konfigüre et
 
 [!include [banner](../includes/banner.md)]
 
-İş kartı aygıtı, atölye çalışanları tarafından, işlerin başlatılması, işlere ilişkin geribildirim bildirmek, dolaylı faaliyetleri kaydetmek ve devamsızlığı bildirmek gibi günlük çalışmalarını kaydetmek için kullanılır. Bu kayıtlar, ilerlemeyi izlemenin ve üretim emirleriyle ilgili maliyetin temelini oluşturur ve çalışanların ödemesine yönelik temel hesaplama içindir. Bu konu, iş kartı aygıtını konfigüre etmek için çeşitli seçenekleri açıklamaktadır.
+İş kartı aygıtı, atölye çalışanları tarafından, işlerin başlatılması, işlere ilişkin geribildirim bildirmek, dolaylı faaliyetleri kaydetmek ve devamsızlığı bildirmek gibi günlük çalışmalarını kaydetmek için kullanılır. Bu kayıtlar, ilerlemeyi izlemenin ve üretim emirleriyle ilgili maliyetin temelini oluşturur ve çalışanların ödemesine yönelik temel hesaplama içindir. Bu makale, iş kartı aygıtını konfigüre etmek için çeşitli seçenekleri açıklamaktadır.
 
 ## <a name="enable-new-features-in-feature-management"></a>Özellik yönetiminde yeni özellikleri etkinleştir
 
-Bu konuda açıklanan ayarlardan birkaçı sisteminizde kullanılabilmesi için etkin olmalıdır. Aşağıdaki özelliklerin herhangi birini veya tümünü gerekli şekilde etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sayfasını kullanın.
+Bu makalede açıklanan ayarlardan birkaçı sisteminizde kullanılabilmesi için etkin olmalıdır. Aşağıdaki özelliklerin herhangi birini veya tümünü gerekli şekilde etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sayfasını kullanın.
 
 ### <a name="generate-license-plate"></a>Plaka oluştur
 

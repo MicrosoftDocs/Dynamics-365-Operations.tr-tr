@@ -1,6 +1,6 @@
 ---
 title: Basitleştirilmiş planlı siparişler
-description: Bu konuda, Planlı siparişler (basitleştirilmiş) sayfasını kullanarak planlı siparişleri nasıl görüntüleyebileceğiniz, yönetebileceğiniz ve kesinleştirebileceğiniz açıklanmaktadır.
+description: Bu makalede, Planlı siparişler (basitleştirilmiş) sayfasını kullanarak planlı siparişleri nasıl görüntüleyebileceğiniz, yönetebileceğiniz ve kesinleştirebileceğiniz açıklanmaktadır.
 author: t-benebo
 ms.date: 01/24/2022
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-01-24
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: b039aa5481b835d3523b86c4ea88afff6a96ba8b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 5f207fa1edb11d05910e22732cf54e100e4e3489
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470135"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887384"
 ---
 # <a name="planned-orders-simplified"></a>Basitleştirilmiş planlı siparişler
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, **Planlı siparişler (basitleştirilmiş)** sayfasını kullanarak planlı siparişleri nasıl görüntüleyebileceğiniz, yönetebileceğiniz ve kesinleştirebileceğiniz açıklanmaktadır.
+Bu makalede, **Planlı siparişler (basitleştirilmiş)** sayfasını kullanarak planlı siparişleri nasıl görüntüleyebileceğiniz, yönetebileceğiniz ve kesinleştirebileceğiniz açıklanmaktadır.
 
 **Planlı siparişler (basitleştirilmiş)** sayfası, **Planlı siparişler** sayfasının basitleştirilmiş bir sürümüdür. Daha az seçenek sağlar ancak tüm planlı siparişleri gözden geçirmek, onaylamak ve kesinleştirmek istediğinizde daha hızlıdır.
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Sisteminiz için bu özelliği etkinleştirme
 
-Sisteminiz bu konuda açıklanan özellikleri zaten içermiyorsa [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve *Planlı siparişler (basitleştirilmiş)* özelliğini açın.
+Sisteminiz bu makalede açıklanan özellikleri zaten içermiyorsa [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve *Planlı siparişler (basitleştirilmiş)* özelliğini açın.
 
 ## <a name="view-manage-and-firm-planned-orders"></a>Planlı siparişleri görüntüleme, yönetme ve kesinleştirme
 

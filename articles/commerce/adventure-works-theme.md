@@ -1,6 +1,6 @@
 ---
 title: Adventure Works temasına genel bakış
-description: Bu konu, Adventure Works temasına genel bakış sağlar ve bunun Microsoft Dynamics 365 Commerce'deki site sayfalarına nasıl uygulanacağını açıklar.
+description: Bu makale, Adventure Works temasına genel bakış sağlar ve bunun Microsoft Dynamics 365 Commerce'deki site sayfalarına nasıl uygulanacağını açıklar.
 author: anupamar-ms
 ms.date: 12/03/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 34ea24e2d81a69d720973455492f9e05ed34dd81
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 4f13d6c1c4b0e2764c22dc3d7311c726fac7989d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983706"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874999"
 ---
 # <a name="adventure-works-theme-overview"></a>Adventure Works temasına genel bakış
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Adventure Works temasına genel bakış sağlar ve bunun Microsoft Dynamics 365 Commerce'deki site sayfalarına nasıl uygulanacağını açıklar.
+Bu makale, Adventure Works temasına genel bakış sağlar ve bunun Microsoft Dynamics 365 Commerce'deki site sayfalarına nasıl uygulanacağını açıklar.
 
 Dynamics 365 Commerce'te e-ticaret için Adventure Works adlı bir tema bulunur. Adventure Works teması, spor ve eğlence ürünlerini gösterir ve zengin ve geliştirilmiş bir öykü anlatma deneyimi için optimize edilmiştir. E-ticaret müşterilerine yönelik kapsamlı ve etkileyici bir çevrimiçi alışveriş deneyimi oluşturmak için modern bir görünüm, yeni düzenler ve animasyon efektleri sağlar.
 

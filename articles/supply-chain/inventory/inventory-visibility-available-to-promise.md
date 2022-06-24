@@ -1,6 +1,6 @@
 ---
 title: Stok Görünürlüğü eldeki değişiklik zamanlamaları ve karşılanabilir miktarı
-description: Bu konuda, gelecekteki eldeki değişikliklerin nasıl zamanlanacağı ve karşılanabilir miktarların (KM) nasıl hesaplanacağı açıklanmaktadır.
+description: Bu makalede, gelecekteki eldeki değişikliklerin nasıl zamanlanacağı ve karşılanabilir miktarların (KM) nasıl hesaplanacağı açıklanmaktadır.
 author: yufeihuang
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 7456f87bede7bd0073223fa4762f96f919799e06
-ms.sourcegitcommit: 38d97efafb66de298c3f504b83a5c9b822f5a62a
+ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "8763267"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856207"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Stok Görünürlüğü eldeki değişiklik zamanlamaları ve karşılanabilir miktarı
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, gelecekteki eldeki değişiklikleri zamanlamak ve karşılanabilir miktarları (KM) hesaplamak için *Eldeki değişiklik zamanlaması* özelliğinin nasıl ayarlanacağı açıklanmaktadır. KM, mevcut bulunan ve sonraki dönemde müşteriye vaat edilebilecek bir maddenin miktarıdır. Bu hesaplamanın kullanımı, sipariş karşılama yeteneğinizi büyük ölçüde artırabilir.
+Bu makalede, gelecekteki eldeki değişiklikleri zamanlamak ve karşılanabilir miktarları (KM) hesaplamak için *Eldeki değişiklik zamanlaması* özelliğinin nasıl ayarlanacağı açıklanmaktadır. KM, mevcut bulunan ve sonraki dönemde müşteriye vaat edilebilecek bir maddenin miktarıdır. Bu hesaplamanın kullanımı, sipariş karşılama yeteneğinizi büyük ölçüde artırabilir.
 
 Birçok üretici, perakendeci veya satıcı için şu anda eldeki stoğu bilmek yeterli değildir. Gelecekteki kullanılabilirliğe ilişkin tam görünürlüğe sahip olmaları da gerekir. Bu gelecekteki kullanılabilirlik için gelecekteki arz, gelecekteki talep ve KM dikkate alınmalıdır.
 

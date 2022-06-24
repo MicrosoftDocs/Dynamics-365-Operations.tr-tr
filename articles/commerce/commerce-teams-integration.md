@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce ve Microsoft Teams tümleştirmesine genel bakış
-description: Bu konu, Microsoft Dynamics 365 Commerce ve Microsoft Teams tümleştirmesine genel bir bakış sunar.
+description: Bu makale, Microsoft Dynamics 365 Commerce ve Microsoft Teams tümleştirmesine genel bir bakış sunar.
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7786a527a9aca08f5d9326570e8a2dafc5059dc5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0b674f40b6bb433bc5e2c9216d649a7f15169442
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692550"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887100"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-overview"></a>Dynamics 365 Commerce ve Microsoft Teams tümleştirmesine genel bakış
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce ve Microsoft Teams tümleştirmesine genel bir bakış sunar.
+Bu makale, Microsoft Dynamics 365 Commerce ve Microsoft Teams tümleştirmesine genel bir bakış sunar.
 
 Dynamics 365 Commerce, müşterilerin ve çalışanlarının iki uygulama arasında görev yönetimini eşitleyerek Üretkenliği artırmaya yardımcı olmak amacıyla Teams ile tümleştiriliyor. Commerce ve Teams tümleştirmesinin sağladığı sorunsuz görev yönetimi, mağaza yöneticileri ve çalışanların bu iki uygulamanın herhangi birinden görev listeleri oluşturmalarına, birden fazla mağazaya görev atamalarına ve mağazalar arası görevlerin durumunu izlemelerine olanak sağlar.
 

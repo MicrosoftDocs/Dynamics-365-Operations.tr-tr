@@ -1,6 +1,6 @@
 ---
 title: Supply Chain Management'taki ürünleri doğrudan Sales'daki ürünlerle eşitleme
-description: Bu konuda, ürünleri Dynamics 365 Sales'dan Dynamics 365 Supply Chain Management'a eşitlemek için kullanılan şablon ve temel görevler ele alınmaktadır.
+description: Bu makalede, ürünleri Dynamics 365 Sales'dan Dynamics 365 Supply Chain Management'a eşitlemek için kullanılan şablon ve temel görevler ele alınmaktadır.
 author: Henrikan
 ms.date: 06/10/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: dd84f96a5597c480648ae30b6d0274e15d750ff6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 5195368f3de12c7e361905c3cca442067e39e000
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062475"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856004"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Supply Chain Management'taki ürünleri doğrudan Sales'daki ürünlerle eşitleme
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062475"
 > [!NOTE]
 > Aday'dan nakde çözümünü kullanmadan önce [Microsoft Dataverse for Apps için veri tümleştirme](/powerapps/administrator/data-integrator) hakkında bilgi sahibi olmalısınız.
 
-Bu konuda, ürünleri doğrudan Dynamics 365 Sales'dan Dynamics 365 Supply Chain Management'a eşitlemek için kullanılan şablon ve temel görevler ele alınmaktadır.
+Bu makalede, ürünleri doğrudan Dynamics 365 Sales'dan Dynamics 365 Supply Chain Management'a eşitlemek için kullanılan şablon ve temel görevler ele alınmaktadır.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Aday müşteriden nakde çözümünde veri akışı
 
@@ -107,7 +107,7 @@ Aşağıdaki görsel, veri tümleştirmede bir şablon eşleme örneğini göste
 ![Veri tümleştirici içerisindeki şablon eşleme.](./media/products-direct-template-mapping-data-integrator-1.png)
 
 
-## <a name="related-topics"></a>İlgili konular
+## <a name="related-articles"></a>İlgili makaleler
 
 [Aday müşteriden nakde](prospect-to-cash.md)
 

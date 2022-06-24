@@ -1,6 +1,6 @@
 ---
-title: Konsinye ayarlama
-description: Bu konuda, gelen konsinye stok işlemlerinin nasıl yapılacağı açıklanır.
+title: Konsinyeyi ayarlama
+description: Bu makalede, gelen konsinye stok işlemlerinin nasıl yapılacağı açıklanır.
 author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4a1b96d18048a1ae6e380374f32d2bfa2270ae24
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 66215811c8c48412fb137967107abca3774f5f0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577732"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872050"
 ---
-# <a name="set-up-consignment"></a>Konsinye ayarlama
+# <a name="set-up-consignment"></a>Konsinyeyi ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, gelen konsinye stok işlemlerinin nasıl yapılacağı açıklanır.
+Bu makalede, gelen konsinye stok işlemlerinin nasıl yapılacağı açıklanır.
 
-Konsinye stok, satıcıya ait olan ancak tesisinizde depolanan stoktur. Stoğu tüketmeye veya kullanmaya hazır olduğunuzda stoğun sahipliği size geçer. Bu konu, genel muhasebe defteri hareketleri oluşturmadan satıcının sahip olduğu eldeki stoku fiziksel olarak alma, satıcının sahip olduğu stokun fiziksel olarak ayrılabildiği bir üretimi başlatma hakkında bilgiler içerir. ve hammadde sahipliğinin, tüketimi, üretim siparişi işlemini yapabilmek için nasıl değiştirilebileceği. Satıcıların, satıcı iş birliği arabirimini kullanarak nasıl kendi stok tüketimlerini izleyebilecekleri hakkında bazı bilgiler de bulunur.
+Konsinye stok, satıcıya ait olan ancak tesisinizde depolanan stoktur. Stoğu tüketmeye veya kullanmaya hazır olduğunuzda stoğun sahipliği size geçer. Bu makale, genel muhasebe defteri hareketleri oluşturmadan satıcının sahip olduğu eldeki stoku fiziksel olarak alma, satıcının sahip olduğu stokun fiziksel olarak ayrılabildiği bir üretimi başlatma hakkında bilgiler içerir. ve hammadde sahipliğinin, tüketimi, üretim siparişi işlemini yapabilmek için nasıl değiştirilebileceği. Satıcıların, satıcı iş birliği arabirimini kullanarak nasıl kendi stok tüketimlerini izleyebilecekleri hakkında bazı bilgiler de bulunur.
 
 ## <a name="overview-of-the-consignment-process"></a>Konsinye işlemine genel bakış
 

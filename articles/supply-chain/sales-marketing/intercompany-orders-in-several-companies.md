@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 8458a08c1a2e5e656c496eb74188d0e2e7257020
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6dce419126d60199bc11d4bd3209185ad779e979
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673732"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873564"
 ---
 # <a name="creating-intercompany-purchase-and-sales-orders-in-several-companies"></a>Birkaç şirkette şirketlerarası satın alma ve satış siparişleri oluşturma
 

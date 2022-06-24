@@ -1,6 +1,6 @@
 ---
 title: Avusturya için mali kayıt hizmeti tümleştirme örneği
-description: Bu konu, Microsoft Dynamics 365 Commerce'taki Avusturya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
+description: Bu makale, Microsoft Dynamics 365 Commerce'taki Avusturya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 826c1cb0fba7025b16dadbfa6157683392945103
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 099c3630d035ea673342d8345cd8f65dbd6db6a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873370"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>Avusturya için mali kayıt hizmeti tümleştirme örneği
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce'taki Avusturya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
+Bu makale, Microsoft Dynamics 365 Commerce'taki Avusturya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
 
 Avusturya'da yazar kasalara yönelik yerel mali gereksinimlerin karşılanması amacıyla Avusturya için Dynamics 365 Retail işlevi, satış noktasının (POS) harici bir mali kayıt hizmetiyle örnek tümleştirmesini içerir. Bu örnek, [mali tümleştirme işlevini](fiscal-integration-for-retail-channel.md) genişletir. [EFSTA'nın](https://www.efsta.eu/at/) [EFR (Elektronik Yazar Kasa)](https://www.efsta.eu/at/fiskalloesungen/oesterreich) çözümüne dayalıdır ve HTTPS protokolü üzerinden EFR hizmetiyle iletişim kurulmasını sağlar. EFR hizmeti, Retail Hardware station'da veya Hardware station'dan bağlanılabilecek ayrı bir makinede barındırılmalıdır. Örnek, kaynak kodu biçiminde sağlanır ve Commerce yazılım geliştirme setinin (SDK) bir parçasıdır.
 

@@ -1,6 +1,6 @@
 ---
 title: Ülke/bölge seçici modülü
-description: Bu konuda, ülke/bölge seçici modülü kapsanmaktadır ve bu modülün Microsoft Dynamics 365 Commerce'de nasıl yapılandırılacağı açıklanmaktadır.
+description: Bu makalede, ülke/bölge seçici modülü kapsanmaktadır ve bu modülün Microsoft Dynamics 365 Commerce'de nasıl yapılandırılacağı açıklanmaktadır.
 author: stuharg
 ms.date: 04/06/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 9c20e614053b7a79cf962990dbd13ca0f45d5a00
-ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
+ms.openlocfilehash: d20b3be008a37b1c86e6fefe0ccc90c581e18340
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8551682"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862004"
 ---
 # <a name="countryregion-picker-module"></a>Ülke/bölge seçici modülü
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, ülke/bölge seçici modülü kapsanmaktadır ve bu modülün Microsoft Dynamics 365 Commerce'de nasıl yapılandırılacağı açıklanmaktadır.
+Bu makalede, ülke/bölge seçici modülü kapsanmaktadır ve bu modülün Microsoft Dynamics 365 Commerce'de nasıl yapılandırılacağı açıklanmaktadır.
 
 Ülke/bölge seçici modülü, ülkeleri veya bölgeleri ile ilişkili olmayan bir e-ticaret sitesi URL'si isteyen müşterilere önerilen siteleri göstermek için Dynamics 365 Commerce'te [coğrafi konum algılama ve yeniden yönlendirme](geo-detection-redirection.md) özelliğini kullanır.
 

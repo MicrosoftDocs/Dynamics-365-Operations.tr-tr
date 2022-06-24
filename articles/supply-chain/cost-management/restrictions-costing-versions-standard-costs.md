@@ -1,6 +1,6 @@
 ---
 title: Standart maliyetler için maliyetlendirme sürümlerindeki kısıtlamalar
-description: Bu konu standart maliyetler için maliyetlendirme sürümüne uygulanan kısıtlamaları açıklar.
+description: Bu makale standart maliyetler için maliyetlendirme sürümüne uygulanan kısıtlamaları açıklar.
 author: JennySong-SH
 ms.date: 01/17/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11bf14b2926fd4ff053697bef8b7dad781948a2c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8c5c00ae8952e2c80d97d039271a6f5c63e9a72f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672220"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867999"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>Standart maliyetler için maliyetlendirme sürümlerindeki kısıtlamalar
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu standart maliyetler için maliyetlendirme sürümüne uygulanan kısıtlamaları açıklar. 
+Bu makale standart maliyetler için maliyetlendirme sürümüne uygulanan kısıtlamaları açıklar. 
 
 Aşağıdaki kısıtlamalar, standart maliyetlendirme ilkelerine bağlı kalınmasını sağlamaya yardımcı olur:
 
@@ -37,9 +37,9 @@ Aşağıdaki kısıtlamalar, standart maliyetlendirme ilkelerine bağlı kalınm
 
 -  Ürün reçetesi hesaplamaları tek düzeyli bir açılım moduyla yapılmalıdır.
 
-Standart maliyetlerin madde maliyet verileri standart veya planlanan maliyetler içeren başka bir maliyet versiyonuna kopyalanabilir. Ancak planlanan maliyetlerin madde maliyet verileri standart maliyetler içeren başka bir maliyet versiyonuna kopyalanamaz çünkü bu bölümde daha önce listelenen kısıtlamalar planlanan maliyetler için geçerli olmayacaktır.
+Standart maliyetlerin madde maliyet verileri standart veya planlanan maliyetler içeren başka bir maliyet versiyonuna kopyalanabilir. Ancak planlanan maliyetlerin madde maliyet verileri standart maliyetler içeren başka bir maliyet versiyonuna kopyalanamaz çünkü bu makalede daha önce listelenen kısıtlamalar planlanan maliyetler için geçerli olmayacaktır.
 
-## <a name="related-topics"></a>İlgili konular
+## <a name="related-articles"></a>İlgili makaleler
 
 [Maliyetlendirme sürümlerine genel bakış](costing-versions.md)
 

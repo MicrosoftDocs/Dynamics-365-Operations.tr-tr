@@ -1,6 +1,6 @@
 ---
-title: Küme malzeme çekme ayarlama
-description: Bu konu küme malzeme çekmenin nasıl ayarlanacağını ve küme malzeme çekmeyle madde onayının nasıl uygulanacağını açıklar.
+title: Küme malzeme çekmeyi ayarlama
+description: Bu makale küme malzeme çekmenin nasıl ayarlanacağını ve küme malzeme çekmeyle madde onayının nasıl uygulanacağını açıklar.
 author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 859dc7e98a3236d2220ac43f9de426bd73679f0756da0aaa14669e563d5bf609
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3094649da2ce9a700a4d1cde236609013f4b9744
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744594"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862322"
 ---
-# <a name="set-up-cluster-picking"></a>Küme malzeme çekme ayarlama
+# <a name="set-up-cluster-picking"></a>Küme malzeme çekmeyi ayarlama
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu çalışanlara aynı anda birden çok iş emri için tek bir yerleşimden maddeleri çekebilmeleri için mobil cihazlardan malzeme çekme işlerini kümeler halinde gruplandırma olanağı sağlamayı açıklar. Buna *küme malzeme çekme* denir.
+Bu makale çalışanlara aynı anda birden çok iş emri için tek bir yerleşimden maddeleri çekebilmeleri için mobil cihazlardan malzeme çekme işlerini kümeler halinde gruplandırma olanağı sağlamayı açıklar. Buna *küme malzeme çekme* denir.
 
 ## <a name="about-cluster-picking"></a>Küme malzeme çekme hakkında
 

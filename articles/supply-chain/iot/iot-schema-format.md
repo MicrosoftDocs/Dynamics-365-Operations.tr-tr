@@ -1,6 +1,6 @@
 ---
 title: IoT Hub mesajları için şema biçimleri
-description: Bu konu, IoT'de kullanabileceğiniz bir ileti şemasını nasıl tasarlayabileceğinizi açıklamaktadır.
+description: Bu makale, IoT'de kullanabileceğiniz bir ileti şemasını nasıl tasarlayabileceğinizi açıklamaktadır.
 author: johanhoffmann
 ms.date: 04/25/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-25
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60d5bc4eacdd7e7d713490998bd1d20c9271ad02
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 705a2150042f9b65f1f4528d6f2699f7306996f5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887471"
 ---
 # <a name="schema-formats-for-iot-hub-messages"></a>IoT Hub mesajları için şema biçimleri
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, IoT'de kullanabileceğiniz bir ileti şemasını nasıl tasarlayabileceğinizi açıklamaktadır.
+Bu makale, IoT'de kullanabileceğiniz bir ileti şemasını nasıl tasarlayabileceğinizi açıklamaktadır.
 
 ## <a name="message-requirements"></a>İleti gereksinimleri
 

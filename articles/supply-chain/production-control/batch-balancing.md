@@ -1,6 +1,6 @@
 ---
 title: Toplu iş dengelemesi
-description: Bu konu toplu iş dengeleme işlemini açıklar.
+description: Bu makale toplu iş dengeleme işlemini açıklar.
 author: johanhoffmann
 ms.date: 01/04/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a9e69b4d9213e57e5a920c7adda934ba845d17410c17d9c8a6356d717870ac23
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50392e8aa0deb568a57e1df59ced70625a4f8a78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780088"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856062"
 ---
 # <a name="batch-balancing"></a>Toplu iş dengelemesi
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu toplu iş dengeleme işleminin nasıl desteklendiğini açıklar.
+Bu makale toplu iş dengeleme işleminin nasıl desteklendiğini açıklar.
 
 Daha fazla bilgi için, [ toplu iş dengelemesine yönelik bir video](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be) izleyin.
 
@@ -149,7 +149,7 @@ Dolgu bileşeninin dengelenmiş miktarı, 100 litrelik toplu iş boyutu ile A,B 
 Toplu iş dengeleme işlemi **Toplu iş dengelemesi** sayfasından gerçekleştirilir.
 **Maliyet yönetimi \> Toplu iş emirleri**'ni seçin ve ardından **İşlem** sekmesinde **Toplu iş dengelemesi**'ni seçin. Toplu iş dengelemesi **Başlatıldı** durumundaki toplu iş emirleri için kullanılabilir.
 
-Genel olarak, formülde **Bileşen türü**'nün *Etkin* olduğu en az bir formül satırı varsa toplu iş dengelemesi toplu iş emirlerine uygulanabilir. (Bu kuralın özel durumu için, bu konunun ilerleyen bölümlerindeki "Toplu iş dengelemesi kullanılmayan toplu iş emirleri" bölümüne bakın.)
+Genel olarak, formülde **Bileşen türü**'nün *Etkin* olduğu en az bir formül satırı varsa toplu iş dengelemesi toplu iş emirlerine uygulanabilir. (Bu kuralın özel durumu için, bu makalenin ilerleyen bölümlerindeki "Toplu iş dengelemesi kullanılmayan toplu iş emirleri" bölümüne bakın.)
 
 Toplu iş dengeleme işlemi iki alt işleme bölünebilir:
 

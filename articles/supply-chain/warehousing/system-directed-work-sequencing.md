@@ -1,6 +1,6 @@
 ---
 title: Sistemin yönlendirdiği iş sıralaması
-description: Bu konu, sistemin yönlendirdiği iş sıralaması hakkında bilgi sağlar. Bu işlevsellik, sistemin yürütülmek üzere kullanıcılara sunduğu iş emirlerini sıralamanızı ve filtrelemenizi sağlar. Ambar malzeme çekme sürecini yönetmek için ek ölçütlerin gerekli olduğu senaryolarda yardımcı olur.
+description: Bu makale, sistemin yönlendirdiği iş sıralaması hakkında bilgi sağlar. Bu işlevsellik, sistemin yürütülmek üzere kullanıcılara sunduğu iş emirlerini sıralamanızı ve filtrelemenizi sağlar. Ambar malzeme çekme sürecini yönetmek için ek ölçütlerin gerekli olduğu senaryolarda yardımcı olur.
 author: Mirzaab
 ms.date: 07/03/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b433787f330de3634c59f7b1b2babfe07e3bdf09
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849140"
 ---
 # <a name="system-directed-work-sequencing"></a>Sistemin yönlendirdiği iş sıralaması
 
@@ -44,7 +44,7 @@ Sistemin yönlendirdiği iş sıralamasını kullanabilmeniz için özelliğin s
 
 ### <a name="make-demo-data-available"></a>Tanıtım verilerini kullanılabilir hale getirme
 
-Bu konu altında sunulan değerleri kullanarak bu senaryoyla çalışmak için, standart tanıtım verilerinin yüklenmiş olduğu bir sistemde çalışmanız gerekir. Ayrıca, **USMF** hukuk varlığını seçmelisiniz. Senaryo, tanıtım verilerinden ambar *51*'i kullanır.
+Bu makale altında sunulan değerleri kullanarak bu senaryoyla çalışmak için, standart tanıtım verilerinin yüklenmiş olduğu bir sistemde çalışmanız gerekir. Ayrıca, **USMF** hukuk varlığını seçmelisiniz. Senaryo, tanıtım verilerinden ambar *51*'i kullanır.
 
 > [!IMPORTANT]
 > Siparişleri ambara serbest bırakmadan önce, çekme yerleşimlerinin siparişlerdeki tüm maddeler için yeterli stok içerdiğinden emin olun.

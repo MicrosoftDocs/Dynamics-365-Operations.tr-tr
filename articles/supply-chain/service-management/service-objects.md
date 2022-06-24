@@ -1,6 +1,6 @@
 ---
 title: Servis nesnelerine genel bakış
-description: Bu konuda, servis nesneleriyle nasıl çalışılacağına ilişkin bir genel bakış sağlanmaktadır.
+description: Bu makalede, servis nesneleriyle nasıl çalışılacağına ilişkin bir genel bakış sağlanmaktadır.
 author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cef4cf1222c4c66991069da72e3e6f5a7040153
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8150a94677fe38f4caa6f3e0b5fb5d1be5972eaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677688"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862425"
 ---
 # <a name="service-objects-overview"></a>Servis nesnelerine genel bakış
 
@@ -39,7 +39,7 @@ Servis nesneleri, üzerinde servis gerçekleştirebileceğiniz müşteri kıymet
 
 Şirket A, birkaç küçük şirketin mali kayıtlarını tutuyor. Şirket A'nın müşterilerinden biri, yerel bir futbol takımı. Şirket A kulübün hesapları için haftalık olarak defter tutmaktan ve yıllık denetimden sorumlu. Kulübün hesapları Servis nesneleri formunda ayarlanıyor ve servis sözleşmesinde nesne olarak belirtiliyor. Nesne için iki servis sözleşmesi satırı bulunuyor. Satır 1, satıra atanan haftalık aralıklı haftalık defter tutma ve satır 2, kendisine atanan yıllık aralıklı yıllık denetimdir.
 
-## <a name="related-topics"></a>İlgili konular
+## <a name="related-articles"></a>İlgili makaleler
 
 [Servis nesneleri oluşturma](create-service-objects.md)
 

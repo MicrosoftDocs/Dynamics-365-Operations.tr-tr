@@ -1,6 +1,6 @@
 ---
 title: B2B e-ticaret siteleri için müşteri hesabı ödeme yöntemini yapılandırma
-description: Bu konuda, Microsoft Dynamics 365 Commerce'de müşteri hesabı ödeme yönteminin nasıl yapılandırılacağı açıklanmıştır. Ayrıca, alacak limitlerinin işletmeler arası (B2B) e-ticaret sitelerinde açık hesap ödeme yakalamasını nasıl etkilediğini de açıklar.
+description: Bu makalede, Microsoft Dynamics 365 Commerce'de müşteri hesabı ödeme yönteminin nasıl yapılandırılacağı açıklanmıştır. Ayrıca, alacak limitlerinin işletmeler arası (B2B) e-ticaret sitelerinde açık hesap ödeme yakalamasını nasıl etkilediğini de açıklar.
 author: josaw1
 ms.date: 04/19/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a55a5d4c9dbf7909af5219843fc4310b6cdd4ed7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 20af517b9a69f4fb490d4d93ada8bc4063e895dd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689649"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878659"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>B2B e-ticaret siteleri için müşteri hesabı ödeme yöntemini yapılandırma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce'de müşteri hesabı ödeme yönteminin nasıl yapılandırılacağı açıklanmıştır. Ayrıca, alacak limitlerinin işletmeler arası (B2B) e-ticaret sitelerinde açık hesap ödeme yakalamasını nasıl etkilediğini de açıklar.
+Bu makalede, Microsoft Dynamics 365 Commerce'de müşteri hesabı ödeme yönteminin nasıl yapılandırılacağı açıklanmıştır. Ayrıca, alacak limitlerinin işletmeler arası (B2B) e-ticaret sitelerinde açık hesap ödeme yakalamasını nasıl etkilediğini de açıklar.
 
 Perakendeciler, e-ticaret kanalında sattıkları ürünler ve hizmetler karşılığında çeşitli türlerde ödemeler kabul edebilirler. Perakendecinin kabul edeceği ödeme türlerinin her biri, sistem ayarlandığında Dynamics 365 Commerce'te yapılandırılmalıdır. Müşteri hesabı (veya "açık hesap") ödeme yöntemi, B2B e-ticaret sitelerinde desteklenmelidir. 
 

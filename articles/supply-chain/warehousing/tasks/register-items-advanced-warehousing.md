@@ -1,6 +1,6 @@
 ---
 title: Gelişmiş ambar işlemleri etkinleştirilmiş madde için madde varış günlüğü kullanarak maddeleri kaydetme
-description: Bu konu, gelişmiş ambar yönetimi işlemlerini kullanırken ürünlerin ürün varış günlüğü kullanılarak nasıl kaydedileceğini gösteren bir senaryo sunar.
+description: Bu makale, gelişmiş ambar yönetimi işlemlerini kullanırken ürünlerin ürün varış günlüğü kullanılarak nasıl kaydedileceğini gösteren bir senaryo sunar.
 author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -14,22 +14,22 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e753897d1e21ffebbcbfac48abab4b0549c3553f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac4a681484f0cd843ccd73633040f0fa0be0475e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565267"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863635"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Gelişmiş ambar işlemleri etkinleştirilmiş madde için madde varış günlüğü kullanarak maddeleri kaydetme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, gelişmiş ambar yönetimi işlemlerini kullanırken ürünlerin ürün varış günlüğü kullanılarak nasıl kaydedileceğini gösteren bir senaryo sunar. Bu genellikle bir teslim alma memuru tarafından yapılır.
+Bu makale, gelişmiş ambar yönetimi işlemlerini kullanırken ürünlerin ürün varış günlüğü kullanılarak nasıl kaydedileceğini gösteren bir senaryo sunar. Bu genellikle bir teslim alma memuru tarafından yapılır.
 
 ## <a name="enable-sample-data"></a>Örnek verileri etkinleştirme
 
-Bu konuda belirtilen örnek kayıtları ve değerleri kullanarak bu senaryo aracılığıyla çalışmak için, standart gösteri verilerinin yüklendiği bir sistem kullanıyor olmanız ve başlamadan önce *USMF* hukuk varlığını seçmeniz gerekir.
+Bu makalede belirtilen örnek kayıtları ve değerleri kullanarak bu senaryo aracılığıyla çalışmak için, standart gösteri verilerinin yüklendiği bir sistem kullanıyor olmanız ve başlamadan önce *USMF* hukuk varlığını seçmeniz gerekir.
 
 Bunun yerine, aşağıdaki veriler kullanılabilir olduğu takdirde değerleri kendi verilerinizde değiştirerek bu senaryoya göre çalışabilirsiniz:
 

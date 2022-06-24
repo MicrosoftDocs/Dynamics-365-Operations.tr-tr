@@ -1,6 +1,6 @@
 ---
 title: Hareket ekranına öneriler ekleme
-description: Bu konu, öneri denetiminin bir satış noktası (POS) cihazına, Microsoft Dynamics 365 Commerce'de ekran düzeni tasarımcısını kullanarak nasıl ekleneceğini açıklar.
+description: Bu makale, öneri denetiminin bir satış noktası (POS) cihazına, Microsoft Dynamics 365 Commerce'de ekran düzeni tasarımcısını kullanarak nasıl ekleneceğini açıklar.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af76169455cef16467b1faa9eda92a969aa923e85750cf245b0a6bd071a092e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4748ade8d6693666b58cbded2123d3449d191509
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731019"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862084"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Hareket ekranına öneriler ekleme
 
 [!include [banner](includes/banner.md)]
 
 
-Bu konu, öneri denetiminin bir satış noktası (POS) cihazına, Microsoft Dynamics 365 Commerce'de ekran düzeni tasarımcısını kullanarak nasıl ekleneceğini açıklar. Ürün önerileri hakkında daha fazla bilgi için [POS belgelerindeki ürün önerilerini okuyun](product.md).
+Bu makale, öneri denetiminin bir satış noktası (POS) cihazına, Microsoft Dynamics 365 Commerce'de ekran düzeni tasarımcısını kullanarak nasıl ekleneceğini açıklar. Ürün önerileri hakkında daha fazla bilgi için [POS belgelerindeki ürün önerilerini okuyun](product.md).
 
 
 Commerce kullanırken ürün önerilerini POS cihazınızda görüntüleyebilirsiniz. Ürün önerilerini görüntülemek için, ekran düzeni tasarımcısını kullanarak bir denetimi hareket ekranına eklemeniz gerekir. 

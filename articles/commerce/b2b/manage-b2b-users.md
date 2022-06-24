@@ -1,6 +1,6 @@
 ---
 title: B2B e-ticaret web sitelerindeki iş ortağı kullanıcılarını yönetme
-description: Bu konuda, Microsoft Dynamics 365 Commerce işletmeler arası (B2B) e-ticaret web sitelerinde ve Commerce Headquarters'ta iş ortağı kullanıcılarını ekleme, silme ve düzenleme işlemleri açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce işletmeler arası (B2B) e-ticaret web sitelerinde ve Commerce Headquarters'ta iş ortağı kullanıcılarını ekleme, silme ve düzenleme işlemleri açıklanmaktadır.
 author: josaw1
 ms.date: 04/19/2022
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ef8ae583f18048fc6a36adf38ee7be0fb5b02fcd
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4a3d1c7bf7e7ea545590315d9e185fa525b5d5e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860307"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>B2B e-ticaret web sitelerindeki iş ortağı kullanıcılarını yönetme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce işletmeler arası (B2B) e-ticaret web sitelerinde ve Commerce Headquarters'ta iş ortağı kullanıcılarını ekleme, silme ve düzenleme işlemleri açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce işletmeler arası (B2B) e-ticaret web sitelerinde ve Commerce Headquarters'ta iş ortağı kullanıcılarını ekleme, silme ve düzenleme işlemleri açıklanmaktadır.
 
 > [!NOTE]
-> - [Müşteri hiyerarşilerini kullanarak B2B iş ortaklarını yönetme](partners-customer-hierarchies.md) konusu bu belge için bir ön koşuldur.
+> - [Müşteri hiyerarşilerini kullanarak B2B iş ortaklarını yönetme](partners-customer-hierarchies.md) makalesi bu belge için bir ön koşuldur.
 > - **Kuruluş yönetimi \> Belge yönetimi \> Belge türleri**'nde **Belge türleri** formunu açarak Commerce genel merkezde belge türleri varlığını başlattığınızdan emin olun.
 
 B2B e-ticaret web siteleri kuruluşların iş ortakları olarak kaydolmasını gerektirir. Bir kuruluş, bir B2B e-ticaret web sitesine kayıt ayrıntılarını gönderdikten sonra, kayıt isteği bir uygunluk işleminden geçer. Kuruluş başarıyla uygun bulunursa bir iş ortağı olarak eklenir.
@@ -121,7 +121,7 @@ Commerce Headquarters'da iş ortaklarını ve kullanıcıları eklemek için şu
 
 ## <a name="additional-information"></a>Ek bilgiler
 
-- Bu konuda belirtilen tüm işler, bir zamanlamada toplu iş biçiminde çalışacak şekilde yapılandırılabilir. Beklenti, iş ortaklarının toplu işleri gerektiği gibi yapılandırmasıdır.
+- Bu makalede belirtilen tüm işler, bir zamanlamada toplu iş biçiminde çalışacak şekilde yapılandırılabilir. Beklenti, iş ortaklarının toplu işleri gerektiği gibi yapılandırmasıdır.
 - Şu anda, yönetici kullanıcı olarak yalnızca bir kullanıcı/müşteri kaydı atanabilir ve bu rol yalnızca Commerce Headquarters'da değiştirilebilir. İş ortaklarının B2B e-ticaret web sitelerinden birden fazla yönetici belirlemesine veya yönetici değiştirmesine izin veren self servis özellikler için destek sunulmaz.
 - Kullanıcılar için harcama limitleri tanımlanabilse de, sipariş giriş işlemi sırasında harcama limitlerinin zorunlu kılınması henüz uygulanmamıştır.
 - Bir kullanıcının B2B e-ticaret web sitesindeki deneyimi için tüm iş mantığı ve doğrulama, Commerce Headquarters'da kullanıcıyla eşlenen müşteri kaydının yapılandırmasını temel alır.

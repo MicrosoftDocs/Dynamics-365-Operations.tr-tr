@@ -1,6 +1,6 @@
 ---
-title: Kanal için iade ve para iadesi ilkesi oluşturma ve güncelleştirme
-description: Bu konu, bir kanal için iade ve para iadesi ilkesinin nasıl ayarlanacağını açıklar.
+title: Kanal için iade ve para iadesi ilkesi oluşturma ve güncelleme
+description: Bu makale, bir kanal için iade ve para iadesi ilkesinin nasıl ayarlanacağını açıklar.
 author: ShalabhjainMSFT
 ms.date: 07/13/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
-ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
+ms.openlocfilehash: 54dd19134aea68f73de51086fbaa096961447b62
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7388945"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873316"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Kanal için iade ve para iadesi ilkesi oluşturma ve güncelleştirme
 
@@ -27,7 +27,7 @@ ms.locfileid: "7388945"
 
 Dynamics 365 Commerce'deki kanal iade ilkesi, perakendecilerin, bir satış noktasında (POS) iadeyi işleme için izin verilen, tüm ödeme faaliyetlerde zorlayıcı olarak ayarlanmasını sağlar.  
 
-Bu konu, bir kanal için iade ve para iadesi ilkesinin nasıl ayarlanacağı adımlarını açıklar.
+Bu makale, bir kanal için iade ve para iadesi ilkesinin nasıl ayarlanacağı adımlarını açıklar.
 
 İlkenin kapsamı şu anda bir kanal için izin verilmeyen ödeme koşullarını ayarlama ile sınırlı. "İzin verildi" listesi, satın alma işlemi yapmak için kullanılan ödeme yöntemlerine dayanır. Örneğin:
 

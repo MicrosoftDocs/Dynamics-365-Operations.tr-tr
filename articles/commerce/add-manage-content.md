@@ -1,6 +1,6 @@
 ---
 title: İçerik ekleme yolları
-description: Bu konu, Microsoft Dynamics 365 Commerce Site Builder Web yazma aracı kümesi kullanılarak içeriğin nasıl ve nasıl başlanacağı ile ilgili genel bakış ve bağlantı sağlar.
+description: Bu makale, Microsoft Dynamics 365 Commerce Site Builder Web yazma aracı kümesi kullanılarak içeriğin nasıl ve nasıl başlanacağı ile ilgili genel bakış ve bağlantı sağlar.
 author: phinneyridge
 ms.date: 10/09/2020
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f8a2dbb7bc7659e2e23b0ba6e2b5645dbe508ef9c9bda10df3bad8d04a6cfb32
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7f01de31e4eca1266066b4fcf1c92b429bfc71c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727690"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871766"
 ---
 # <a name="ways-to-add-content"></a>İçerik ekleme yolları
 
 [!include [banner](includes/banner.md)]
 
-Bu konu Microsoft Dynamics 365 Commerce site yapıcısı web yazma araç takımı kullanarak içeriği yönetme hakkında genel bakış ve bağlantılar sağlar.
+Bu makale Microsoft Dynamics 365 Commerce site yapıcısı web yazma araç takımı kullanarak içeriği yönetme hakkında genel bakış ve bağlantılar sağlar.
 
 Sitenizin görünümünü, hissini ve içeriğini değiştirmek için birçok yol vardır. Bu değişikliklerin çoğu, gerekli özelleştirme düzeyine bağlı olarak, Site Builder içinde bulunan Web yazma araç takımı içindeki geliştiriciler tarafından gerçekleştirilebilir Dynamics 365 Commerce. Site Builder, şablon oluşturmanızı, temaları seçmenizi ve herhangi bir kod yazmadan modülleri seçmenizi ve yapılandırmanızı sağlar. Bunun aksine, e-ticaret yazılım geliştirme seti (SDK) ve Microsoft Dynamics Lifecycle Services (LCS) dağıtım iş akışı kullanılması gerektiğinden, yeni bir tema veya modül oluşturmak için geliştirme becerileri gereklidir.
 
-Aşağıdaki konular, Site içeriğinin nasıl ekleneceğini ve yönetileceğini anlamaya başlamak için puanlar atmasına uygundur. Listelenen pek çok konu, sitenizin geliştirici gerektirmeyen alanlarına odaklanırlar. Bazı adres temel içerik düzenleme, diğerleri Site Yöneticisi görevlerine odaklanmaktadır. Bu konuların her biri, belirli görevlerin SDK çalışması gerektirebileceğini gösterir. Her konu, bir siteyi önceden sağlamış olduğunuzu ve siteniz için Site Builder Araç Takımı'na erişim verildiğini varsayar.
+Aşağıdaki makaleler, Site içeriğinin nasıl ekleneceğini ve yönetileceğini anlamaya başlamak için puanlar atmasına uygundur. Listelenen pek çok makale, sitenizin geliştirici gerektirmeyen alanlarına odaklanırlar. Bazı adres temel içerik düzenleme, diğerleri Site Yöneticisi görevlerine odaklanmaktadır. Bu makalelerin her biri, belirli görevlerin SDK çalışması gerektirebileceğini gösterir. Her makale, bir siteyi önceden sağlamış olduğunuzu ve siteniz için Site Builder Araç Takımı'na erişim verildiğini varsayar.
 
-Başlamak için aşağıdaki konulardan birini seçin.
+Başlamak için aşağıdaki makalelerden birini seçin.
 
 - Site Builder ve bu dokümentasyonda kullanılan içerik yönetim terminolojisini öğrenmek bk. [Sayfa model sözlüğü](page-elements-overview.md).
 - Modüllerin içerik yönetimi iş akışları içinde nasıl çalıştığını anlamak için bk. [Modüllerle çalışmka](work-with-modules.md).

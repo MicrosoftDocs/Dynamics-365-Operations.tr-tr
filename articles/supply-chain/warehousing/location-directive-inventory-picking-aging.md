@@ -1,6 +1,6 @@
 ---
 title: Yerleşim yönergesi stoktan çekme yaşlandırma
-description: Bu konuda malzeme çekme sırasında ilk giren ilk çıkar (FIFO) ve son giren ilk çıkar (LIFO) konum yönergesi stratejilerinin nasıl kullanılacağı açıklanmaktadır.
+description: Bu makalede malzeme çekme sırasında ilk giren ilk çıkar (FIFO) ve son giren ilk çıkar (LIFO) konum yönergesi stratejilerinin nasıl kullanılacağı açıklanmaktadır.
 author: Mirzaab
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 229dd0033e3eae4bdd33acca6736b7a9feec8c9b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 34ce119ca70596f0e40797c4b44a8fba4d5b7e0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676286"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885710"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Yerleşim yönergesi stoktan çekme yaşlandırma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda malzeme çekme sırasında ilk giren ilk çıkar (FIFO) ve son giren ilk çıkar (LIFO) konum yönergesi stratejilerinin nasıl kullanılacağı açıklanmaktadır. Bu stratejiler, stoğun ambara ilk olarak ne zaman girdiğini izlemek üzere yerleşimler için kaydedilen yaşlandırma tarihleriyle birlikte çalışır. *Yerleşim yönergesi stok çekme yaşlandırma* özelliği yaşlandırmayı belirlemek için yerleşimdeki tarihi kullanır. *Ambar yerleşimi durumu* özelliği, plakadaki tarihe göre, yerleşimdeki tarihi güncelleştirir.
+Bu makalede malzeme çekme sırasında ilk giren ilk çıkar (FIFO) ve son giren ilk çıkar (LIFO) konum yönergesi stratejilerinin nasıl kullanılacağı açıklanmaktadır. Bu stratejiler, stoğun ambara ilk olarak ne zaman girdiğini izlemek üzere yerleşimler için kaydedilen yaşlandırma tarihleriyle birlikte çalışır. *Yerleşim yönergesi stok çekme yaşlandırma* özelliği yaşlandırmayı belirlemek için yerleşimdeki tarihi kullanır. *Ambar yerleşimi durumu* özelliği, plakadaki tarihe göre, yerleşimdeki tarihi güncelleştirir.
 
 Hem toplu olarak izlenen maddeleri, hem de toplu olarak izlenmeyen maddeleri sevk etmek için, stoğun ambara girdiği tarihi temel alan FIFO ve LIFO stratejilerini kullanabilirsiniz. Bu yetenek özellikle, tasnif için bitiş tarihi bulunmayan, toplu olarak izlenmeyen stok için yararlı olabilir.
 

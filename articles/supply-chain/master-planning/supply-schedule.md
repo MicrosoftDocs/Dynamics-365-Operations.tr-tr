@@ -1,6 +1,6 @@
 ---
 title: Tedarik planı
-description: Bu konuda, Tedarik planı sayfası ve özellikleri hakkında bilgi sağlanmaktadır.
+description: Bu makalede, Tedarik planı sayfası ve özellikleri hakkında bilgi sağlanmaktadır.
 author: t-benebo
 ms.date: 9/3/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 89b8ce96a5c34902187751cfa523ed99a94500b3
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 0e3937dd4cffc464f38b5770674364579bdb06d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468690"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851753"
 ---
 # <a name="supply-schedule"></a>Tedarik planı
 
@@ -28,7 +28,7 @@ ms.locfileid: "8468690"
 
 **Tedarik planı** sayfasını aşağıdaki yollardan biriyle açabilirsiniz:
 
-- **Master planlama \> Master planlama \> Tedarik planı**'na gidin. **Filtreyi değiştir** iletişim kutusunda, sağlanan alanlara filtre değerleri girerek aradığınız planı ve ürünü belirtin. (Bu konunun geri kalanında, girdiğiniz filtre değerleri koleksiyonuna "filtre" veya "geçerli filtre" adı verilir.) Bitirdiğinizde, **Tamam**'ı seçin.
+- **Master planlama \> Master planlama \> Tedarik planı**'na gidin. **Filtreyi değiştir** iletişim kutusunda, sağlanan alanlara filtre değerleri girerek aradığınız planı ve ürünü belirtin. (Bu makalenin geri kalanında, girdiğiniz filtre değerleri koleksiyonuna "filtre" veya "geçerli filtre" adı verilir.) Bitirdiğinizde, **Tamam**'ı seçin.
 - **Ürün bilgi yönetimi \> Ürünler \> Serbest bırakılmış ürünler**'e gidin. Bir ürün seçin veya açın. Ardından, Eylem Bölmesi'nde, **Plan** sekmesindeki **Görüntüleme** gurubunda **Tedarik planı**'nı seçin.
 - **Master planlama \> Kurulum \> Talep tahmini \> Madde tahsisat anahtarları**'na gidin. Ürün ailesi olarak kullanılan bir madde tahsisat anahtarı seçin. Eylem Bölmesi'nde **Tedarik planı**'nı seçin.
 - **Master planlama \> Master planlama \> Planlı siparişler** öğesine gidin. Planlanan bir sipariş seçin veya açın. Ardından, Eylem Bölmesi'nde, **Görüntüle** sekmesindeki **Görüntüle** gurubunda **Tedarik planı**'nı seçin.

@@ -1,6 +1,6 @@
 ---
 title: Derecelendirmeleri ve değerlendirmeleri içe ve dışa aktarma
-description: Bu konu, Microsoft Dynamics 365 Commerce'de ürün derecelendirmelerinin ve incelerinin nasıl alınacağını ve verileceğini açıklar.
+description: Bu makale, Microsoft Dynamics 365 Commerce'de ürün derecelendirmelerinin ve incelerinin nasıl alınacağını ve verileceğini açıklar.
 author: gvrmohanreddy
 ms.date: 01/12/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 3ae85f21f7a78d56621aed60527207badcee9c75
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 97407f62d462c0ae370e9ea0d2799d3f30ecacfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968537"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863413"
 ---
 # <a name="import-and-export-ratings-and-reviews"></a>Derecelendirmeleri ve değerlendirmeleri içe ve dışa aktarma
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce'de ürün derecelendirmelerinin ve incelerinin nasıl alınacağını ve verileceğini açıklar.
+Bu makale, Microsoft Dynamics 365 Commerce'de ürün derecelendirmelerinin ve incelerinin nasıl alınacağını ve verileceğini açıklar.
 
 Dynamics 365 Commerce, çok kanallı çözüm olarak [derecelendirmeler ve incelemeler](ratings-reviews-overview.md) sunar. Dynamics 365 Commerce derecelendirmeler ve incelemeler çözümüne geçtiğinizde, varolan derecelendirme ve inceleme verilerini Commerce platformuna taşımak isteyebilirsiniz. İş gereksinimlerinize göre, Commerce'den derecelendirme ve inceleme verilerini dışa aktarmak da isteyebilirsiniz. Power Automate bağlayıcısı, derecelendirmeleri ve incelemeleri Commerce'e ve Commerce'den aktarmanıza olanak tanır.
 

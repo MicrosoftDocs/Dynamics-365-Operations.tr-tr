@@ -1,8 +1,8 @@
 ---
 title: Stok Görünürlüğü uygulaması
-description: Bu konuda, Stok Görünürlüğü uygulamasının nasıl kullanılacağı açıklanmaktadır.
+description: Bu makalede, Stok Görünürlüğü uygulamasının nasıl kullanılacağı açıklanmaktadır.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 359f89f98ca6954a0bbafd63fffa1d505a43f0c8
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060984"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895771"
 ---
-# <a name="use-the-inventory-visibility-app"></a>Stok Görünürlüğü uygulamasını kullanma
+# <a name="use-the-inventory-visibility-app"></a>Inventory Visibility uygulamasını kullanma
 
 [!include [banner](../includes/banner.md)]
 
 
-Bu konuda, Stok Görünürlüğü uygulamasının nasıl kullanılacağı açıklanmaktadır.
+Bu makalede, Stok Görünürlüğü uygulamasının nasıl kullanılacağı açıklanmaktadır.
 
 Stok görünürlüğü, görselleştirme için bir model temelli uygulama sağlar. Uygulama üç sayfa içerir: **Yapılandırma**, **Operasyonel görünürlük** ve **Stok özeti**. Aşağıdaki özelliklere sahiptir:
 
@@ -70,7 +70,10 @@ Rezervasyon isteğini deftere nakletmek için talep gövdesine bir değer girmel
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Stok özeti
 
-**Stok özeti**, *Eldeki Stok Toplamı* varlığı için özelleştirilmiş bir görünümdür. Tüm boyutlarla birlikte ürünler için bir stok özeti sağlar. Stok özeti verileri, Stok Görünürlüğü'nden periyodik olarak eşitlenir. **Stok özeti** sekmesindeki verileri görüntüleyebilmeniz için **Özellik Yönetimi** sekmesinde *OnHandMostSpecificBackgroundService* özelliğini açmanız gerekir.
+**Stok özeti**, *Eldeki Stok Toplamı* varlığı için özelleştirilmiş bir görünümdür. Tüm boyutlarla birlikte ürünler için bir stok özeti sağlar. Stok özeti verileri, her 15 dakikada bir Stok Görünürlüğü'nden periyodik olarak eşitlenir. **Stok özeti** sekmesindeki verileri görüntüleyebilmeniz için **Özellik Yönetimi** sekmesinde *OnHandMostSpecificBackgroundService* özelliğini açmanız ve **Yapılandırmayı güncelleştir**'i seçmeniz gerekir.
+
+> [!NOTE]
+> *OnHandMostSpecificBackgroundService* özelliği yalnızca özelliği açtıktan sonra oluşan eldeki ürün değişikliklerini izler. Özelliği açtığınızdan bu yana değiştirilemeyen ürünlere ait veriler, stok hizmeti önbelleğinden Dataverse ortamına eşitlenmez. **Stok özeti** sayfanız beklediğiniz eldeki ürün bilgilerinin tümünü göstermiyorsa **Stok Yönetimi > Periyodik görevler > Stok görünürlüğü tümleştirmesi**'ne gidin, toplu işi devre dışı bırakın ve yeniden etkinleştirin. Bu işlemi, ilk gönderimi yapacak ve tüm veriler sonraki 15 dakika içinde *Stok Eldeki Toplam* varlığıyla eşitlenecektir. Bu özelliği kullanmak istiyorsanız herhangi bir eldeki miktar değişikliği oluşturmadan ve **Stok Görünürlüğü tümleştirmesi** toplu işlemini etkinleştirmeden önce bunu etkinleştirmenizi öneririz.
 
 Dataverse'in sağladığı **Gelişmiş filtre**'yi kullanarak sizin için önemli olan satırları gösteren bir kişisel görünüm oluşturabilirsiniz. Gelişmiş filtre seçenekleri, basitten karmaşığa doğru geniş aralıklı görünümler oluşturmanıza olanak tanır. Ayrıca filtrelere gruplanmış ve iç içe koşullar eklemenize de olanak tanır. **Gelişmiş filtre**'nin nasıl kullanılacağı hakkında daha fazla bilgi edinmek için bkz. [Gelişmiş ızgara filtrelerini kullanarak kişisel görünümleri düzenleme veya oluşturma](/powerapps/user/grid-filters-advanced).
 

@@ -1,6 +1,6 @@
 ---
-title: Varlık olay geçmişi
-description: Bu konu, Varlık Yönetiminde varlık olay geçmişine nasıl erişeceğinizi açıklar.
+title: Kıymet olay geçmişi
+description: Bu makale, Varlık Yönetiminde varlık olay geçmişine nasıl erişeceğinizi açıklar.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670fa5800efad99d913e96dee8c6883f150b86d2227143dbdf392c7b380e89a6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 63045cf2fc493144897b8a857f615105f6d7b50f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750184"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865309"
 ---
-# <a name="asset-event-history"></a>Varlık olay geçmişi
+# <a name="asset-event-history"></a>Kıymet olay geçmişi
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Bu konu, Varlık Yönetiminde varlık olay geçmişine nasıl erişeceğinizi açıklar. **Varlık olay geçmişi** sayfası, bir varlığın ömrü boyunca yapılan kayıt geçmişini gösterir. Bu sayfaya **Tüm varlıklar**, **Etkin varlıklar** ve **Etkin varlıklarım** menü öğelerinden erişebilirsiniz. Bir varlık seçin ve ardından **Olay geçmişi**'ni seçin.
+Bu makale, Varlık Yönetiminde varlık olay geçmişine nasıl erişeceğinizi açıklar. **Varlık olay geçmişi** sayfası, bir varlığın ömrü boyunca yapılan kayıt geçmişini gösterir. Bu sayfaya **Tüm varlıklar**, **Etkin varlıklar** ve **Etkin varlıklarım** menü öğelerinden erişebilirsiniz. Bir varlık seçin ve ardından **Olay geçmişi**'ni seçin.
 
 **Varlık olay geçmişi** sayfasının **Ayrıntılar** hızlı sekmesinde, kullanılabilir tüm bilgilerde arama yapabilirsiniz. Örneğin, aşağıdaki bilgileri bulmak için varlık olay geçmişini kullanabilirsiniz:
 

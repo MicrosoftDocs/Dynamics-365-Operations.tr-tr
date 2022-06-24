@@ -1,6 +1,6 @@
 ---
 title: Uygunsuzluk işlemleri giderleri
-description: Bu konu, uyumsuzlukla ilgili işlemlerle kullanılabilecek kalite masraflarının nasıl oluşturulacağını açıklamaktadır.
+description: Bu makale, uyumsuzlukla ilgili işlemlerle kullanılabilecek kalite masraflarının nasıl oluşturulacağını açıklamaktadır.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac3306f3f9215ab03f408b8026f335dcf496515a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 29520afca07adee49846d1be987685a1ece8283c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850742"
 ---
 # <a name="charges-for-nonconformance-operations"></a>Uygunsuzluk işlemleri giderleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, uyumsuzlukla ilgili işlemlerle kullanılabilecek kalite masraflarının nasıl oluşturulacağını açıklamaktadır.
+Bu makale, uyumsuzlukla ilgili işlemlerle kullanılabilecek kalite masraflarının nasıl oluşturulacağını açıklamaktadır.
 
 **Kalite giderleri** sayfasını, uygunsuzluklar ile ilgili işlemlerine eklenebilecek giderlerin türlerini tanımlamak için kullanırsınız. Giderler, uygunsuz ürünlerle ilgili olarak müşteriye borçlu olduğunuz ücretler veya giderlerle ilgili ayrıntıları izlemenize veya bir satıcının aldığınız uygunsuz ürünler için size olan borcuyla ilgili ayrıntıları izlemenize olanak tanır. Ayrıca giderleri, harici satıcılar veya servisler için gereken maliyetleri izlemek için de kullanabilirsiniz.
 

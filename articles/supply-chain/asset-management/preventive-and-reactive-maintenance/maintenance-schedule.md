@@ -1,6 +1,6 @@
 ---
 title: Bakım zamanlaması
-description: Bu konuda Varlık Yönetimi'nde bakım zamanlaması açıklanmaktadır.
+description: Bu makalede Varlık Yönetimi'nde bakım zamanlaması açıklanmaktadır.
 author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 40df8e6cba824f90e13b46cc258c76bef993a3e2dd9c35566d8c6a622ce4eb09
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4089400817d6dd8454c85e594eff05314d3fd72e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738331"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858025"
 ---
 # <a name="maintenance-schedule"></a>Bakım zamanlaması
 

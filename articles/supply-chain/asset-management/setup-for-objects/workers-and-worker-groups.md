@@ -1,6 +1,6 @@
 ---
 title: Bakım görevlileri ve çalışan grupları
-description: Bu konuda Kıymet Yönetimi'nde bakım görevlileri ve çalışan grupları açıklanmaktadır.
+description: Bu makalede Kıymet Yönetimi'nde bakım görevlileri ve çalışan grupları açıklanmaktadır.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e976a28349a4bc7a371d23eb4df724e0ffd36a0553aec2deeb2ff07d0a63579
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a24c880ee76af1490824aef07976b998d9225d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750136"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860913"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Bakım görevlileri ve çalışan grupları
 
@@ -28,7 +28,7 @@ ms.locfileid: "6750136"
 
  
 
-Bu konuda Kıymet Yönetimi'nde bakım görevlileri ve çalışan grupları açıklanmaktadır. Kıymet Yönetimi'nde bakım çalışanlarını işlem yapılacak yerleşimlerle bağlayabilirsiniz. (İşlem yapılacak yerleşimler hakkında daha fazla bilgi için bkz. [İşlem yapılacak yerleşimleri oluşturma](../functional-locations/create-functional-locations.md).) Bu işlev işlem yapılacak yerleşim 01'de bulunan bir makinede bakım işi zamanlarken ve işi gerçekleştirmesi için aynı konumdan bakım görevlilerini tahsis etmek istediğinizde yararlı olabilir.
+Bu makalede Kıymet Yönetimi'nde bakım görevlileri ve çalışan grupları açıklanmaktadır. Kıymet Yönetimi'nde bakım çalışanlarını işlem yapılacak yerleşimlerle bağlayabilirsiniz. (İşlem yapılacak yerleşimler hakkında daha fazla bilgi için bkz. [İşlem yapılacak yerleşimleri oluşturma](../functional-locations/create-functional-locations.md).) Bu işlev işlem yapılacak yerleşim 01'de bulunan bir makinede bakım işi zamanlarken ve işi gerçekleştirmesi için aynı konumdan bakım görevlilerini tahsis etmek istediğinizde yararlı olabilir.
 
 Ayrıca bakım görevlisi grupları oluşturabilir ve bakım görevlilerini bu gruplarla ilişkilendirebilirsiniz. Bu işlev basit bir iş emri planlaması yaparken ve bir iş emrinde bakım görevlileri grubunu planlamak istediğinizde yararlıdır. Bakım görevlilerini ve bakım görevlisi gruplarını tercih edilen bakım görevlileri ve sorumlu bakım görevlilerini ayarlamak için kullanabilirsiniz. 
 

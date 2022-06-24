@@ -1,6 +1,6 @@
 ---
-title: B2B özelleştirmeleri için Commerce kataloglarının genişletilebilirlik etkisi
-description: Bu konu, Microsoft Dynamics 365 Commerce'deki B2B için Commerce kataloglarının genişletilebilirlik etkisini açıklamaktadır.
+title: B2B özelleştirmelerine yönelik Commerce kataloglarının genişletilebilirlik etkisi
+description: Bu makale, Microsoft Dynamics 365 Commerce'deki B2B için Commerce kataloglarının genişletilebilirlik etkisini açıklamaktadır.
 author: ashishmsft
 ms.date: 04/28/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: aff333bfe8003233dd5d8181aa8c5dd7eaeffcd0
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: f21d3375db69dd412325d00261bfc18e26d0c257
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656875"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849027"
 ---
-# <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>B2B özelleştirmeleri için Commerce kataloglarının genişletilebilirlik etkisi
+# <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>B2B özelleştirmelerine yönelik Commerce kataloglarının genişletilebilirlik etkisi
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce'deki **B2B için Commerce kataloglarının** genişletilebilirlik etkisini açıklamaktadır.
+Bu makale, Microsoft Dynamics 365 Commerce'teki **B2B için Commerce kataloglarının** genişletilebilirlik etkisini açıklamaktadır.
 
 Katalog bağlamını özel senaryolara göre genişletme ile ilgileniyorsanız, özelleştirmelerinizin güncelleştirilmesi gerekebilir. Bu güncelleştirme, müşterilerin izlemesi gereken standart işlemi izler, çünkü bunların özelleştirmeleri, yükseltmeler yapıldıktan sonra en son özellikleri otomatik olarak desteklemeyebilir. Özelleştirmeleriniz deneyimlerdeki yeni özellik veya hata düzeltmelerini içeriyorsa, özelleştirme kodunu buna göre güncelleştirmenizi öneririz. Bu güncelleştirme, Microsoft'un çekirdek kod için yapmış olabileceği değişikliklere benzer.
 

@@ -1,6 +1,6 @@
 ---
 title: Tahmin azaltma anahtarları
-description: Bu konuda bir azaltma anahtarının nasıl ayarlanacağını gösteren örnekler verilmiştir. Çeşitli azaltma anahtarı ayarları ve her birinin sonuçları hakkında da bilgiler içerir. Bir zzaltma anahtarını, tahmin gereksinimlerinin nasıl azaltılacağını tanımlamak için kullanabilirsiniz.
+description: Bu makalede bir azaltma anahtarının nasıl ayarlanacağını gösteren örnekler verilmiştir. Çeşitli azaltma anahtarı ayarları ve her birinin sonuçları hakkında da bilgiler içerir. Bir zzaltma anahtarını, tahmin gereksinimlerinin nasıl azaltılacağını tanımlamak için kullanabilirsiniz.
 author: t-benebo
 ms.date: 04/15/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 054eb28044e532ed2850cde21cb2f9fb5181ae02
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 5cf84598b731e9750e3cf79d312bf0bbf4f8bd81
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468992"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854282"
 ---
 # <a name="forecast-reduction-keys"></a>Tahmin azaltma anahtarları
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, tahmin gereksinimlerini azaltmak için kullanılan farklı yöntemleri hakkında bilgi sağlar. Her yöntemin sonuçlarının örneklerini içerir. Bu aynı zamanda tahmin azaltma anahtarı kullan oluşturmak ve ayarlamayı açıklar. Bazı yöntemler, bir azaltma anahtarını, tahmin gereksinimlerini azaltmak için kullanır.
+Bu makale, tahmin gereksinimlerini azaltmak için kullanılan farklı yöntemleri hakkında bilgi sağlar. Her yöntemin sonuçlarının örneklerini içerir. Bu aynı zamanda tahmin azaltma anahtarı kullan oluşturmak ve ayarlamayı açıklar. Bazı yöntemler, bir azaltma anahtarını, tahmin gereksinimlerini azaltmak için kullanır.
 
 ## <a name="methods-that-are-used-to-reduce-forecast-requirements"></a>Tahmin gereksinimlerini azaltmak için kullanılan yöntemler
 

@@ -1,6 +1,6 @@
 ---
 title: Hesap yönetimi sayfalarına genel bakış
-description: Bu konu, Microsoft Dynamics 365 Commerce'ta hesap yönetimi sayfalarına genel bakış sağlar.
+description: Bu makale, Microsoft Dynamics 365 Commerce'ta hesap yönetimi sayfalarına genel bakış sağlar.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b21ae257ce84034f05fa22a93a2c622ee14c0a2b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9cc70f48371fb90f4e3529173d30baffd6fe4e14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984531"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868895"
 ---
 # <a name="account-management-pages-overview"></a>Hesap yönetimi sayfalarına genel bakış
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce'ta hesap yönetimi sayfalarına genel bakış sağlar.
+Bu makale, Microsoft Dynamics 365 Commerce'ta hesap yönetimi sayfalarına genel bakış sağlar.
 
 Hesap yönetimi sayfaları, müşterilerin kendi hesap ve siparişleriyle ilgili bilgileri görüntülemesine olanak tanır. Hesap yönetimi sayfaları, hesap yönetimi giriş sayfası, kullanıcı profili sayfaları, adresler, sipariş geçmişi sayfası, sipariş ayrıntıları sayfası, bağlılık programı puanları ve istek listesi sayfasını içerir.
 

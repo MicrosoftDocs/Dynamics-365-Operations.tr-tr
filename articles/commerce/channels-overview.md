@@ -1,6 +1,6 @@
 ---
 title: Kanallara genel bakış
-description: Bu konu, Microsoft Dynamics 365 Commerce'teki kanallar hakkında genel bilgi vermektedir.
+description: Bu makale, Microsoft Dynamics 365 Commerce'teki kanallar hakkında genel bilgi vermektedir.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: overview
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: cc7f00d69a6fd57efcd9b6eece56ddc0702c6935
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: af5089f0065610873360b2e2883928a43600caa9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985017"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884649"
 ---
 # <a name="channels-overview"></a>Kanallara genel bakış
 
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce'teki kanallar hakkında genel bilgi vermektedir. Makalede, her bir kanalı ayarlamanızdan önce ve sonra tamamlamanız gereken görevleri hakkında bilgiler yer almaktadır.
+Bu makale, Microsoft Dynamics 365 Commerce'teki kanallar hakkında genel bilgi vermektedir. Makalede, her bir kanalı ayarlamanızdan önce ve sonra tamamlamanız gereken görevleri hakkında bilgiler yer almaktadır.
 
 ## <a name="types-of-channels"></a>Kanal Türleri
 

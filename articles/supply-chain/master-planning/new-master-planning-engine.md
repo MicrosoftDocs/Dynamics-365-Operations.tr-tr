@@ -1,6 +1,6 @@
 ---
 title: Master planlama için Planlama İyileştirmesi'ne geçiş
-description: Bu konu, yeni master planlama altyapısı, Planlama İyileştirmesi ve var olan altyapıdan geçiş hakkında bilgi sağlar.
+description: Bu makale, yeni master planlama altyapısı, Planlama İyileştirmesi ve var olan altyapıdan geçiş hakkında bilgi sağlar.
 author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: a94b424ad1a454feecede8a7b037171b2984504f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809109"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846113"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Master planlama için Planlama İyileştirmesi'ne geçiş
 
 [!include [banner](../includes/banner.md)]
 
-Yerleşik master planlama altyapısının devre dışı (devre dışı) bırakılması planlanmaktadır. Yerini, Microsoft Dynamics 365 Supply Chain Management için Planlama İyileştirmesi Eklentisi alacaktır. Bu konu, yeni ve var olan dağıtımlar üzerindeki etkisi hakkında bilgi sağlar. Gerekli eylemler hakkında bilgi içerir.
+Yerleşik master planlama altyapısının devre dışı (devre dışı) bırakılması planlanmaktadır. Yerini, Microsoft Dynamics 365 Supply Chain Management için Planlama İyileştirmesi Eklentisi alacaktır. Bu makale, yeni ve var olan dağıtımlar üzerindeki etkisi hakkında bilgi sağlar. Gerekli eylemler hakkında bilgi içerir.
 
 Planlama İyileştirmesi, master planlama hesaplamalarının Supply Chain Management ve Azure SQL veritabanı dışında gerçekleşmesini sağlar. Planlama İyileştirmesi ile ilişkili avantajlar arasında master planlama çalışmaları sırasında artan performans ve SQL veritabanı üzerinde en az etki vardır. Hızlı planlama çalıştırmaları, ofis saatlerinde de yapılabildiği için planlayıcılar, talep ve parametre değişikliklerine hemen tepki verebilir.
 
@@ -63,7 +63,7 @@ Master planlamaya bağlı olan bulut tabanlı dağıtımların sahipleri, Planla
 
 Gerekli özellikler kullanıma sunulduktan sonra, Microsoft özel durum süresi dolana kadar bir yetkisiz kullanım süresi sağlar. Gerekli özellikler kullanılabilir hale geldiğinde ve yetkisiz kullanım süresi başladığında ortam yöneticisi bilgilendirilecektir.
 
-Aşağıdaki akış çizelgesi, bu konuda sağlanan bilgileri özetler ve böylece bir özel durum istemeniz gerekip gerekmediğini hızlı bir şekilde öğrenebilirsiniz. Bir özel durum talep etmeniz gerekiyorsa, lütfen [Planlama Optimizasyonu geçiş ve özel durum anketini](https://go.microsoft.com/fwlink/?linkid=2144962) doldurup gönderin. Ürün grubu her özel durum isteğini değerlendirme ve onaylama işleminden sorumludur; bu nedenle lütfen sağlanan bağlantıyı kullanarak isteğinizi doğrudan ürün grubuna gönderin ve destek bileti oluşturmayın. İsteğiniz reddedilmişse, lütfen destek bileti oluşturmayın. Microsoft Desteği yeniden değerlendirme işlemi yapamaz veya özel durumlara izin veremez.
+Aşağıdaki akış çizelgesi, bu makalede sağlanan bilgileri özetler ve böylece bir özel durum istemeniz gerekip gerekmediğini hızlı bir şekilde öğrenebilirsiniz. Bir özel durum talep etmeniz gerekiyorsa, lütfen [Planlama Optimizasyonu geçiş ve özel durum anketini](https://go.microsoft.com/fwlink/?linkid=2144962) doldurup gönderin. Ürün grubu her özel durum isteğini değerlendirme ve onaylama işleminden sorumludur; bu nedenle lütfen sağlanan bağlantıyı kullanarak isteğinizi doğrudan ürün grubuna gönderin ve destek bileti oluşturmayın. İsteğiniz reddedilmişse, lütfen destek bileti oluşturmayın. Microsoft Desteği yeniden değerlendirme işlemi yapamaz veya özel durumlara izin veremez.
 
 ![Özel durum akış çizelgesi.](media/exception-diagram.png "Özel durum akış çizelgesi")
 

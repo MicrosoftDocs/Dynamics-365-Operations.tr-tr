@@ -1,6 +1,6 @@
 ---
 title: Müşteri sipairşleri için Çoklu malzeme çekme teslimat şekillerini etkinleştirme
-description: Bu konu, Microsoft Dynamics 365 Commerce'ta bir mağazada malzeme çekme amacıyla müşteri siparişleri oluşturmanıza olanak sağlayan işlevleri açıklamaktadır.
+description: Bu makale, Microsoft Dynamics 365 Commerce'ta bir mağazada malzeme çekme amacıyla müşteri siparişleri oluşturmanıza olanak sağlayan işlevleri açıklamaktadır.
 author: hhainesms
 ms.date: 06/07/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: a8fec96eb644cccea3566a32f3eb2ac3c699faa412be2bb9cdb2690d34999542
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 555ae3900bd7f9c66366f19a6eb2f12503898c93
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745368"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858920"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Müşteri sipairşleri için Çoklu malzeme çekme teslimat şekillerini etkinleştirme
 

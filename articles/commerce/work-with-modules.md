@@ -1,6 +1,6 @@
 ---
 title: Modüllerle çalışma
-description: Bu konu, Microsoft Dynamics 365 Commerce'ta modüllerin nasıl ve ne zaman kullanılacağını açıklamaktadır.
+description: Bu makale, Microsoft Dynamics 365 Commerce'ta modüllerin nasıl ve ne zaman kullanılacağını açıklamaktadır.
 author: phinneyridge
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ce16aa98a37cd5dec60bcdbf86f59f74810da9755a6d3514bdd3e38a21afb748
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c393f1e619647795a5ae8da3a78500c1678da9f6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728276"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860204"
 ---
 # <a name="work-with-modules"></a>Modüllerle çalışma
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce'ta modüllerin nasıl ve ne zaman kullanılacağını açıklamaktadır.
+Bu makale, Microsoft Dynamics 365 Commerce'ta modüllerin nasıl ve ne zaman kullanılacağını açıklamaktadır.
 
 Modüller, sayfa yapınızı oluşturan mantıksal yapı taşlarıdır ve çeşitli amaçlara ve kapsamlarına sahiptirler. Bazı modüller yüksek düzey konteynerlerdir ve bunların tek amacı diğer modülleri (alt modüller) tutmak ve düzenlemek içindir. Basit bir resim yerleşimi modülü gibi diğer modüller ise çok özel bir amaca sahiptir. Döngü modülü gibi diğer modüller ise bu iki kategori arasında bir yere denk düşen bir yer.
 
@@ -151,7 +151,7 @@ Sayfada bir konteyner modülünü konfigüre etmek için aşağıdaki adımları
 
 1. Sayfanızda bir konteyner modülü seçin (örneğin, bir döngü veya sıvı konteyner modülü).
 1. Sağdaki Özellikler bölmesinde, üst bilgileri seçerek iç içe geçmiş denetimleri genişletin ve gerekli tüm denetim değerlerini ayarlayın.
-1. Soldaki anahat bölmesinde, konteyner veya konteyner içindeki yuvalardan birinin adının yanında üç nokta düğmesini seçin ve **Modül ekle** yi seçin. Daha sonra seçili konteynere alt modüller ekleyin. Daha fazla bilgi için bu konunun önceki [Modüllerle çalış](#add-a-module) bölümüne bakın.
+1. Soldaki anahat bölmesinde, konteyner veya konteyner içindeki yuvalardan birinin adının yanında üç nokta düğmesini seçin ve **Modül ekle** yi seçin. Daha sonra seçili konteynere alt modüller ekleyin. Daha fazla bilgi için bu makalenin önceki [Modüllerle çalış](#add-a-module) bölümüne bakın.
 1. Bir üst kapsayıcıda eş öğe olarak birden fazla alt modül varsa, bunların görüntüleme sıralarını üst konteynerde değiştirebilirsiniz. Modül için üç nokta düğmesini seçin ve sonra yukarı ok ve aşağı ok düğmelerini kullanın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar

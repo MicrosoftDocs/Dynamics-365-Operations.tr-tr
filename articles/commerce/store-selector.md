@@ -1,6 +1,6 @@
 ---
 title: Mağaza seçicisi modülü
-description: Bu konu mağaza seçici modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
+description: Bu makale mağaza seçici modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
 ms.date: 05/18/2022
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76682f26f62fe4686f5102e3099f038a50005f5e
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: a91b50d2177483615cf45276cf342be381814717
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780676"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881695"
 ---
 # <a name="store-selector-module"></a>Mağaza seçicisi modülü
 
 [!include [banner](includes/banner.md)]
 
-Bu konu mağaza seçici modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
+Bu makale mağaza seçici modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
 Müşteriler, çevrimiçi bir satın alma işleminden sonra seçili bir mağazadan bir ürünü almak için mağaza seçici modülünü kullanabilirler. Commerce sürüm 10.0.13'te mağaza seçici modülü yakındaki mağazaları gösteren bir **Mağaza Bulun** sayfası gösterebilecek ek özellikler de içerir.
 
@@ -132,7 +132,7 @@ Mağaza Seçici modülü, [Sepete ürün ekle ayarlarına](add-cart-settings.md)
 - Satın alma kutusu modülüne bir mağaza Seçicisi modülü ekleme hakkında bilgi için bkz. [Satın alma kutusu modülü](add-buy-box.md). 
 - Sepet kutusu modülüne bir mağaza Seçicisi modülü ekleme hakkında bilgi için bkz. [Sepet modülü](add-cart-module.md).
 
-Mağaza seçici modülünü bu konunun yukarısında gösterilen çizimde olduğu gibi mağaza konumları sayfasında mevcut mağazaları gösterecek şekilde yapılandırmak için aşağıdaki adımları izleyin.
+Mağaza seçici modülünü bu makalenin yukarısında gösterilen çizimde olduğu gibi mağaza konumları sayfasında mevcut mağazaları gösterecek şekilde yapılandırmak için aşağıdaki adımları izleyin.
 
 1. Bir yeni şablonu oluşturmak için **Şablonlar**'a gidin ve **Yeni**'yi seçin.
 1. **Yeni şablon** iletişim kutusunda **Şablon adı** altında, **Pazarlama şablonu**'nu girin ve **Tamam**'ı seçin.

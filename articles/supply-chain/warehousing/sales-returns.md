@@ -1,6 +1,6 @@
 ---
 title: Satış iadeleri
-description: Bu konu için iade siparişlerini işlemi hakkında bilgi sağlar. Müşteri iadeleri ve bu iadelerin maliyetlendirmeye ve eldeki stok miktarlarına etkisi hakkında bilgi içerir.
+description: Bu makale için iade siparişlerini işlemi hakkında bilgi sağlar. Müşteri iadeleri ve bu iadelerin maliyetlendirmeye ve eldeki stok miktarlarına etkisi hakkında bilgi içerir.
 author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 672f24a720f48c420916c197722eb2d9599744fa
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9e8045ec39b9caf9bf0dc2b2d331419efb54e6d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695577"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860420"
 ---
 # <a name="sales-returns"></a>Satış iadeleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu için iade siparişlerini işlemi hakkında bilgi sağlar. Müşteri iadeleri ve bu iadelerin maliyetlendirmeye ve eldeki stok miktarlarına etkisi hakkında bilgi içerir.
+Bu makale için iade siparişlerini işlemi hakkında bilgi sağlar. Müşteri iadeleri ve bu iadelerin maliyetlendirmeye ve eldeki stok miktarlarına etkisi hakkında bilgi içerir.
 
 Müşteriler malları çeşitli nedenlerle iade edebilir. Örneğin, bir mal kusurlu veya müşterinin beklentilerini karşılamamış olabilir. Müşteri, bir malı iade etmek için bir istekte bulunduğu zaman iade işlemi başlar. Müşterinin talebi alınınca bir iade emri oluşturulur.
 
@@ -84,7 +84,7 @@ Müşteri arızalı veya istemediği bir ürünü iade etmek ve/veya alacak kayd
 -   **Satış siparişi bul** işlevini kullanarak bir iade satırı oluşturun. İade emri oluştururken bu işlevi kullanmanızı öneririz. **Satış siparişi bul** işlevi, iade satırından, faturalanan satış siparişi satırına referans oluşturur ve madde numarası, miktar, fiyat, iskonto ve maliyet değerleri gibi satır ayrıntılarını satış satırından alır. Referans, ürün şirkete iade edildiğinde, satıldığı birim maliyetiyle değerlendirilmesini garantilemeye yardımcı olur. Referans iade emrindeki miktarın, faturadaki satış miktarını aşmadığını da doğrular.
 
 >[!NOTE] 
->Bir satış siparişine referans bulunan iade satırları, satışa ilişkin düzeltmeler veya ters kayıtlar olarak işlem görür. Daha fazla bilgi için, bu konuda ileride yer alan "Genel muhasebeye nakletme" bölümüne bakın.
+>Bir satış siparişine referans bulunan iade satırları, satışa ilişkin düzeltmeler veya ters kayıtlar olarak işlem görür. Daha fazla bilgi için, bu makalede ileride yer alan "Genel muhasebeye nakletme" bölümüne bakın.
 
 ### <a name="charges"></a>Masraflar
 
@@ -179,7 +179,7 @@ Sevk irsaliyesini deftere naklederek iade edilen malları stoka fiziksel olarak 
 
 [![Varış işlemi.](./media/salesreturn03.png)](./media/salesreturn03.png)  
 
-Bu işlemde bu konu kapsamında ele alınmayan çeşitli varyasyonlar vardır. Bu varyasyonlardan birkaçı:
+Bu işlemde bu makale kapsamında ele alınmayan çeşitli varyasyonlar vardır. Bu varyasyonlardan birkaçı:
 
 -   Varış günlüğü oluştururken **Varışa genel bakış** listesini kullanmayın. Bunun yerine, Varış günlüğünü el ile oluşturun. İade emirlerinde referans olarak **Satış siparişi** olacaktır.
 -   Ambar yönetimi kullanıyorsanız, paletli taşımalar oluşturun. Paletli taşıma sırasında iade satırının durumu **Gelen** olacaktır.

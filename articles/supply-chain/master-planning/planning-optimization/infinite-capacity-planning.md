@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: b8f08af3b58e5c0f8480ae540478d60bb8d36193
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 3646a7ca1f9a3a87a2f130783dc4961a61335f1d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469939"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873883"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Sonsuz kapasiteyle planlama
 

@@ -1,6 +1,6 @@
 ---
 title: Ürün yaşam döngüsü durumu ve hareketler
-description: Bu konu, bir mühendislik ürünü yaşam döngüsü boyunca ilerlerken her yaşam döngüsü durumu için hangi hareketlere izin verileceğini nasıl denetleyebileceğinizi açıklamaktadır.
+description: Bu makale, bir mühendislik ürünü yaşam döngüsü boyunca ilerlerken her yaşam döngüsü durumu için hangi hareketlere izin verileceğini nasıl denetleyebileceğinizi açıklamaktadır.
 author: t-benebo
 ms.date: 02/17/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1e9b8a9f25edfa654a57e0ab4071cd93c8033d85
-ms.sourcegitcommit: d375ef4138e898621416754c40770d8ccca4d271
+ms.openlocfilehash: dd9155f799c66e8297b93d8ffbeeced1acd14220
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322756"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867970"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Ürün yaşam döngüsü durumu ve hareketler
 
@@ -37,7 +37,7 @@ Bir mühendislik ürünü için, yaşam döngüsü durumunda yapılan değişikl
 - Var olan bir yaşam döngüsü durumunu silmek için bunu liste bölmesinden seçin ve sonra Eylem bölmesinden **Sil**'i seçin.
 
 > [!NOTE]
-> Mühendislik ürünleri, standart (mühendislik olmayan) ürünler gibi aynı ürün yaşam döngüsü durumlarını kullanır. **Ürün bilgileri yönetimi \> Kurulum \> Ürün yaşam döngüsü durumu**'na giderek bu konuda açıklanan **Ürün yaşam döngüsü durumu** sayfasını da açabilirsiniz. Hem mühendislik ürünleri hem de standart ürünler için ürün yaşam döngüsü durumları hakkında daha fazla bilgi için [Ürün yaşam döngüsü durumu](../pim/product-lifecycle.md) başlığına bakın.
+> Mühendislik ürünleri, standart (mühendislik olmayan) ürünler gibi aynı ürün yaşam döngüsü durumlarını kullanır. **Ürün bilgileri yönetimi \> Kurulum \> Ürün yaşam döngüsü durumu**'na giderek bu makalede açıklanan **Ürün yaşam döngüsü durumu** sayfasını da açabilirsiniz. Hem mühendislik ürünleri hem de standart ürünler için ürün yaşam döngüsü durumları hakkında daha fazla bilgi için [Ürün yaşam döngüsü durumu](../pim/product-lifecycle.md) başlığına bakın.
 
 ### <a name="header"></a>Üst bilgi
 

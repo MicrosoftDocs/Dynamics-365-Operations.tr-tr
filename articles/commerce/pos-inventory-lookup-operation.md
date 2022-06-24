@@ -1,6 +1,6 @@
 ---
 title: POS'ta stok arama işlemi
-description: Bu konu, mağazalar ve ambarlar genelinde ürünlerin eldeki stok kullanılabilirliğini görüntülemek için stok arama işleminin Dynamics 365 Commerce satış noktasında (POS) nasıl kullanılacağını açıklar.
+description: Bu makale, mağazalar ve ambarlar genelinde ürünlerin eldeki stok kullanılabilirliğini görüntülemek için stok arama işleminin Dynamics 365 Commerce satış noktasında (POS) nasıl kullanılacağını açıklar.
 author: boycezhu
 ms.date: 08/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: ded7c0aa00d0806dfe4eb4e182abbbf66fd76d5b
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 01f10c348c61ffbcb30be26a57b3edd436aacc8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343848"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850261"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>POS'ta stok arama işlemi
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, mağazalar ve ambarlar genelinde ürünlerin eldeki stok kullanılabilirliğini görüntülemek için stok arama işleminin Dynamics 365 Commerce satış noktasında (POS) nasıl kullanılacağını açıklar.
+Bu makale, mağazalar ve ambarlar genelinde ürünlerin eldeki stok kullanılabilirliğini görüntülemek için stok arama işleminin Dynamics 365 Commerce satış noktasında (POS) nasıl kullanılacağını açıklar.
 
 Bir kuruluştaki stoğun doğru görünümü mağaza görevlilerinin zamanında, etkili müşteri hizmeti sunmasını sağlar. En önemli olan zaman, müşterilerin satın alma kararını vermeye hazır olduğu andır. Perakende mağazasındaki kasiyerlerin gerçek zamanlı veya neredeyse gerçek zamanlı bilgileri parmaklarının ucunda bulması çok önemlidir; böylece ürün teslimatı ve alınması için doğru şekilde taahhütte bulunabilirler.
 

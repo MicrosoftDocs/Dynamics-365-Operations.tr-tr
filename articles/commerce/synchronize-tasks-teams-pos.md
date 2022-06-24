@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams ve Dynamics 365 Commerce POS arasında görev yönetimini eşitleme
-description: Bu konu görev yönetiminin Microsoft Teams ile Dynamics 365 Commerce Satış noktası (POS) arasında nasıl eşitleneceğini açıklar.
+description: Bu makale görev yönetiminin Microsoft Teams ile Dynamics 365 Commerce Satış noktası (POS) arasında nasıl eşitleneceğini açıklar.
 author: gvrmohanreddy
 ms.date: 02/17/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b7bb38a415524290d1636eda1f379f3cdcf7e593
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 23da56f4f6aee906aad261939d1c7ef9feac5922
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688923"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874881"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>Microsoft Teams ve Dynamics 365 Commerce POS arasında görev yönetimini eşitleme
 
 [!include [banner](includes/banner.md)]
 
-Bu konu görev yönetiminin Microsoft Teams ile Dynamics 365 Commerce Satış noktası (POS) arasında nasıl eşitleneceğini açıklar.
+Bu makale görev yönetiminin Microsoft Teams ile Dynamics 365 Commerce Satış noktası (POS) arasında nasıl eşitleneceğini açıklar.
 
 Teams tümleştirmesinin başlıca amaçlarından biri, POS uygulaması ve Teams arasında görev yönetiminin eşitlenmesini etkinleştirmektir. Böylece, mağaza çalışanları, görevleri yönetmek için POS uygulamasını veya Teams'i kullanabilir ve uygulamalarda geçiş yapmak zorunda kalmaz.
 

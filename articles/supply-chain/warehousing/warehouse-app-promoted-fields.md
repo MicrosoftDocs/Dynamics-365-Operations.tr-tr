@@ -1,6 +1,6 @@
 ---
 title: Warehouse Management mobil uygulamasında tanıtılan alanların adımlarını yapılandırma
-description: Bu konuda, Warehouse Management mobil uygulaması için görev akışlarındaki addımlar için belirli bilgileri nasıl tanıtıp vurgulayacağınız açıklanır.
+description: Bu makalede, Warehouse Management mobil uygulaması için görev akışlarındaki addımlar için belirli bilgileri nasıl tanıtıp vurgulayacağınız açıklanır.
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 0ce3fb829d349a35c6c2f29838a2c725f7b61c55
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 5f5f24f47d0a2376be714f9208cd383cf3aacc07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920335"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857068"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasında tanıtılan alanların adımlarını yapılandırma
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Bu konuda açıklanan özellikler yalnızca yeni Warehouse Management mobil uygulaması için geçerlidir. Artık kullanımdan kaldırılan eski ambar uygulamasını etkilemezler.
+> Bu makalede açıklanan özellikler yalnızca yeni Warehouse Management mobil uygulaması için geçerlidir. Artık kullanımdan kaldırılan eski ambar uygulamasını etkilemezler.
 
-Bu konuda, Warehouse Management mobil uygulaması için görev akışlarındaki addımlar için belirli bilgileri nasıl tanıtıp vurgulayacağınız açıklanır. Bu özellik, çalışanların bir akışla çalışırken en önemli alanlar üzerinde ilgilenmesini sağlamaya yardımcı olabilir. Her bir işlemdeki her adım için, yöneticiler hangi alanların tanıtılacağını ve hangi alanların vurgulanacağını seçebilir.
+Bu makalede, Warehouse Management mobil uygulaması için görev akışlarındaki addımlar için belirli bilgileri nasıl tanıtıp vurgulayacağınız açıklanır. Bu özellik, çalışanların bir akışla çalışırken en önemli alanlar üzerinde ilgilenmesini sağlamaya yardımcı olabilir. Her bir işlemdeki her adım için, yöneticiler hangi alanların tanıtılacağını ve hangi alanların vurgulanacağını seçebilir.
 
 ## <a name="enable-promoted-fields-in-your-system"></a>Sisteminizdeki tanıtılan alanları etkinleştir
 
@@ -44,7 +44,7 @@ Tanıtılan alanları ayarlamadan önce, gerekli özellikleri etkinleştirmek ve
     - **Modül:** *Ambar yönetimi*
     - **Özellik adı:** *Ambar uygulaması tanıtılan alanlar*
 
-    Bu özellik, bu konuda açıklanan özelliktir.
+    Bu özellik, bu makalede açıklanan özelliktir.
 
 1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Ambar uygulaması alan adları**'na gidip **Varsayılan kurulum oluştur**'u seçerek Warehouse Management mobil uygulamasında alan adlarını güncelleştirin. - Daha fazla bilgi için bkz. [Ambar Yönetimi mobil uygulaması için alanları yapılandırma](configure-app-field-names-priorities-warehouse.md).
 1. Warehouse Management mobil uygulamasını kullandığınız her yasal varlık (şirket) için önceki adımı yineleyin.
@@ -56,7 +56,7 @@ Tanıtılan alanları ayarlamak için aşağıdaki yordamı kullanın.
 1. İlgili menü için, [Warehouse Management mobil uygulaması için adım başlıklarını ve talimatlarını özelleştirme](mobile-app-titles-instructions.md) bölümünde açıklandığı şekilde ilgili menü ve adımlar için menüye özel geçersiz kılma oluşturun.
 1. Düzenlemek istediğiniz **Adım Kimliği** ve **Menü öğesi adı** değerlerinin birleşimini bulun ve **Adım Kimliği** sütunundaki değeri seçin.
 1. Görüntülenen sayfada, **Tanıtılan alanları seç** hızlı sekmesinde, araç çubuğundaki **Alanları seç**'i belirleyin.
-1. **Tanıtılan alanlar** iletişim kutusunda, tanıtmak istediğiniz alanları seçin. Ayrıca, seçili alanlardan en fazla ikiye kadar vurgulayabilirsiniz. Vurgulanan alanlar, Warehouse Management mobil uygulamasında kalın olarak gösterilir. Alanları seçerken, bazı ekranların yalnızca en üstteki bir veya iki yükseltilen alanı görüntüleyecek kadar büyük olabileceğini göz önünde bulundurun. Bu ayarların nasıl kullanılacağını gösteren bir örnek için, bu konunun ilerleyen kısımlarında yer alan senaryoya bakın.
+1. **Tanıtılan alanlar** iletişim kutusunda, tanıtmak istediğiniz alanları seçin. Ayrıca, seçili alanlardan en fazla ikiye kadar vurgulayabilirsiniz. Vurgulanan alanlar, Warehouse Management mobil uygulamasında kalın olarak gösterilir. Alanları seçerken, bazı ekranların yalnızca en üstteki bir veya iki yükseltilen alanı görüntüleyecek kadar büyük olabileceğini göz önünde bulundurun. Bu ayarların nasıl kullanılacağını gösteren bir örnek için, bu makalenin ilerleyen kısımlarında yer alan senaryoya bakın.
 
     > [!NOTE]
     > **Kullanılabilir alanlar** listesi, menü öğesi için görünebilecek alanlarla sınırlıdır. Ancak, başka etkenler (madde oluşturma gibi) bir alanın Warehouse Management mobil uygulamasında gerçekten görünüp görünmeyeceğini belirler. Tanıtılan alanları konfigüre etmişseniz, Warehouse Management mobil uygulamasının ana sayfasında yalnızca seçilen alanlar görünür. Ancak, çalışanlar ayrıntılar sayfasına dokunarak kalan alanları görüntülemeye devam edebilir.

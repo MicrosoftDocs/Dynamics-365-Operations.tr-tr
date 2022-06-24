@@ -1,6 +1,6 @@
 ---
 title: Polonya için yazar kasa tümleştirme örneği
-description: Bu konu, Microsoft Dynamics 365 Commerce'taki Polonya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
+description: Bu makale, Microsoft Dynamics 365 Commerce'taki Polonya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-2-1
-ms.openlocfilehash: 43d9a54334d97a65a1f9a356daf54154f6c069b3
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: e71d7b342789e4cf2e7644a46bc847087063fc78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076848"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876961"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>Polonya için yazar kasa tümleştirme örneği
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce'taki Polonya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
+Bu makale, Microsoft Dynamics 365 Commerce'taki Polonya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
 
 Polonya için Dynamics 365 Commerce işlevi, satış noktasının (POS) mali bir yazıcıyla örnek tümleştirmesini içerir. Örnek, [mali tümleştirme işlevini](fiscal-integration-for-retail-channel.md) genişletir ve [Posnet Polska S.A.](https://www.posnet.com.pl)'nın mali yazıcıları için POSNET THERMAL HD 2.02 protokolünü destekler. Örnek, yerel yazılım sürücüsü kullanılarak COM bağlantı noktası üzerinden bağlanmış bir mali yazıcıyla iletişimi sağlar. Örnek, Posnet Thermal HD FV EJ mali yazıcısı için Posnet tarafından sağlanan bir yazılım öykünücüsü kullanılarak uygulanmış ve sınanmıştır. Örnek, kaynak kodu biçiminde sağlanır ve Commerce yazılım geliştirme setinin (SDK) bir parçasıdır.
 

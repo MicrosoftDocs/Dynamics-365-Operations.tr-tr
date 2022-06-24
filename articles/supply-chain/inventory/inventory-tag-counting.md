@@ -1,6 +1,6 @@
 ---
 title: Stok etiket sayımı
-description: Bu konuda ambardaki mevcut içeriği eldeki stokla karşılaştırmak için kullanabileceğiniz etiket sayımı hakkında bilgiler verilmektedir.
+description: Bu makalede, ambardaki mevcut içeriği eldeki stokla karşılaştırmak için kullanabileceğiniz etiket sayımı hakkında bilgiler verilmektedir.
 author: yufeihuang
 ms.date: 06/10/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64315b8c5f0be1dbd19239a8b07746e90aebb0d4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7ceccfce98a71f7396358de9369af61c9eb96dce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567379"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856178"
 ---
 # <a name="inventory-tag-counting"></a>Stok etiket sayımı
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda ambardaki mevcut içeriği eldeki stokla karşılaştırmak için kullanabileceğiniz etiket sayımı hakkında bilgiler verilmektedir.
+Bu makalede, ambardaki mevcut içeriği eldeki stokla karşılaştırmak için kullanabileceğiniz etiket sayımı hakkında bilgiler verilmektedir.
 
 **Etiket sayımı** sayfasında satırlar oluşturarak, her bir stok maddesine bir etiket numarası verirsiniz, örneğin 1-500 arasında. Sayım sırasında, karşılık gelen bir etikette madde numarasını ve miktarı girersiniz. Bunun üzerine, bu etiket, etiket sayım günlüğü girişi için temel olarak kullanılabilir. Siz etiket sayımı günlüğünü naklettikten sonra, **Sayım** sayfasında yeni bir sayım günlüğü oluşturulur. Yeni günlük, oluşturduğunuz etiket sayım günlüğü satırlarını temel alır. Maddeleri belirli bir stok boyutuna göre etiket sayımına tabi tutmak için, etiket sayım günlüğünü oluşturduğunuz zaman görüntülenen **Boyutu görüntüle** sayfasında boyutu seçin. Örneğin, belirli bir ambardaki maddeleri saymak için **Ambar** onay kutusunu işaretleyin. **Stok ve ambar yönetim parametreleri** sayfasındaki **Sayım sırasında madde kilitlemesi** sürgüsü seçilirse, sayım sırasında maddeler fiziksel olarak güncelleştirilemez. Ancak, etiket sayım günlüklerindeki maddeler etiket sayımı sırasında kilitlenmez. Etiket sayım satırları deftere nakil sırasında sayım günlüğüne aktarılana kadar stok hareketleri oluşturulmaz. Etiketler rastgele girilirse ve eksik etiketleri belirlemek isterseniz, satırları etikete göre sıralamak için **Etiket** sütun başlığına tıklayın.
 

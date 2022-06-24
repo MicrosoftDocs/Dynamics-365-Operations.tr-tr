@@ -1,6 +1,6 @@
 ---
 title: Stok tahminleri
-description: Bu konuda, Microsoft Dynamics 365 Supply Chain Management'ta stok tahminleri oluşturmak için kullanılabilen tedarik ve talep tahmini işlevleri açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Supply Chain Management'ta stok tahminleri oluşturmak için kullanılabilen tedarik ve talep tahmini işlevleri açıklanmaktadır.
 author: t-benebo
 ms.date: 06/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1446928c2f5fe606d1d0732764a2a4460643afcf
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 10e3b6ad079dbcbc3cce429a4d9d838e584b9c54
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8548181"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844539"
 ---
 # <a name="inventory-forecasts"></a>Stok tahminleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda stok tahminlerinin nasıl görüntüleneceği ve oluşturulacağı açıklanmaktadır. Maddeler, madde grupları, madde tahsisat anahtarları, müşteri hesapları, müşteri grupları, satıcı hesapları ve satıcı grupları için tedarik ve talep tahmin satırları oluşturabilir ve görüntüleyebilirsiniz.
+Bu makalede stok tahminlerinin nasıl görüntüleneceği ve oluşturulacağı açıklanmaktadır. Maddeler, madde grupları, madde tahsisat anahtarları, müşteri hesapları, müşteri grupları, satıcı hesapları ve satıcı grupları için tedarik ve talep tahmin satırları oluşturabilir ve görüntüleyebilirsiniz.
 
 Her tahmin satırı için kullanılan tahmin modelini seçebilirsiniz. Daha sonra madde veya madde grubunu ve miktar veya hareket tutarını belirtebilirsiniz. Aynı zamanda tahmin miktarının tahsisi için bir zaman planlaması da ayarlayabilirsiniz.
 
@@ -60,7 +60,7 @@ Adım 1'deki tabloda gösterildiği gibi, kullanılan sayfalara erişmek için f
     Seçiminize bağlı olarak, **Tedarik tahmini** veya **Talep tahmini** sayfası görüntülenir. Siz sayfayı açmadan önce seçtiğiniz kayıtla ilgili varolan tüm tahmin satırlarını gösterir.
 
 1. Eylem Bölmesi'nde, sayfanın üst bölümünde ızgaraya tahmin satırı eklemek için **Yeni**'yi seçin.
-1. Yeni satırda, **Model** alanında, kullanılacak tahmin modelini seçin. Daha sonra; madde, madde grubu, müşteri veya satıcı hesabı ya da grubu, madde miktarı veya toplam hareket tutarı gibi diğer ayrıntıları gerektiği şekilde girin. **Tedarik tahmini** ve **Talep tahmini** sayfalarında kullanılabilen alanlar hakkında ayrıntılı bilgi için bu konunun sonraki bölümlerine bakın.
+1. Yeni satırda, **Model** alanında, kullanılacak tahmin modelini seçin. Daha sonra; madde, madde grubu, müşteri veya satıcı hesabı ya da grubu, madde miktarı veya toplam hareket tutarı gibi diğer ayrıntıları gerektiği şekilde girin. **Tedarik tahmini** ve **Talep tahmini** sayfalarında kullanılabilen alanlar hakkında ayrıntılı bilgi için bu makalenin sonraki bölümlerine bakın.
 1. Tahmini dönem içinde dağıtmak için **Genel bakış** sekmesinde araç çubuğunda **Tahmin ayır**'ı seçin.
 1. **Tahsisat** ızgarasında, tahmin miktarlarını dağıtmak için kullanılan zaman dilimi ve zaman aralıklarını gözden geçirin.
 
@@ -68,7 +68,7 @@ Adım 1'deki tabloda gösterildiği gibi, kullanılan sayfalara erişmek için f
 
 Tedarik tahmini, satın alınması gereken maddeler için bir plan oluşturmanıza olanak sağlar. Bu, satın alma ve kaynaklandırma yetkililerine neler sipariş vermeleri beklendiğini söyler.
 
-Madde, madde grubu, madde tahsisat anahtarı, satıcı ve satıcı grubuna göre bir tedarik tahmini girebilirsiniz. Çeşitli varlıklar ve kayıtlar için **Tedarik tahmini** sayfası açma yöntemleri hakkında bilgi için bu bölgenin önceki kısımlarında yer alan [Tahmin satırlarını görüntüleme ve elle girme](#manual-entry) bölümüne bakın.
+Madde, madde grubu, madde tahsisat anahtarı, satıcı ve satıcı grubuna göre bir tedarik tahmini girebilirsiniz. Çeşitli varlıklar ve kayıtlar için **Tedarik tahmini** sayfası açma yöntemleri hakkında bilgi için bu makalenin önceki kısımlarında yer alan [Tahmin satırlarını görüntüleme ve elle girme](#manual-entry) bölümüne bakın.
 
 **Tedarik tahmini** sayfasının üst kısmı, tedarik tahmin satırı ızgarası ve seçili bir tahmin satırı hakkında daha fazla bilgi görüntülemek ve ayarlamak için kullanabileceğiniz bir sekmeler kümesi sağlar. Sayfanın alt kısmı bir **Tahsisat** ızgarası sağlar.
 
@@ -94,9 +94,9 @@ Aşağıdaki tabloda, **Tedarik tahmini** sayfasındaki **Genel bakış** sekmes
 
 | Command | Tanım |
 |---|---|
-| Tahmini tahsis et | Bir tahsisat yöntemi kullanıyorsanız, tahmin hareketi için ayrı çizelge satırları oluşturun. Daha sonra satırın miktarı, tüm zaman dilimi için tarihe (seçilen zaman aralıklarına göre), miktara ve tutara göre dağıtılır. (Bu konunun sonraki bölümlerinde yer alan [Tahmini tahsis et](#allocate-forecast) bölümüne bakın.) |
-| Toplu güncelleştirme | **Tahmin işlemlerini düzenle** sayfasını açın. (Bu bölümün ileriki kısımlarında yer alan [Tahmin hareketlerinin toplu güncelleştirme ](#bulk-update) bölümünü inceleyin.) |
-| Stok tahmini | Seçili madde/model kombinasyonu için filtre uygulanan **Stok tahmini** sayfası görünümünü açın. (Bu bölümün ileriki kısımlarında yer alan [Stok tahmini](#inventory-forecast) bölümünü inceleyin.) |
+| Tahmini tahsis et | Bir tahsisat yöntemi kullanıyorsanız, tahmin hareketi için ayrı çizelge satırları oluşturun. Daha sonra satırın miktarı, tüm zaman dilimi için tarihe (seçilen zaman aralıklarına göre), miktara ve tutara göre dağıtılır. (Bu makalenin sonraki bölümlerinde yer alan [Tahmini tahsis et](#allocate-forecast) bölümüne bakın.) |
+| Toplu güncelleştirme | **Tahmin işlemlerini düzenle** sayfasını açın. (Bu makalenin ileriki kısımlarında yer alan [Tahmin hareketlerinin toplu güncelleştirme ](#bulk-update) bölümünü inceleyin.) |
+| Stok tahmini | Seçili madde/model kombinasyonu için filtre uygulanan **Stok tahmini** sayfası görünümünü açın. (Bu makalenin ileriki kısımlarında yer alan [Stok tahmini](#inventory-forecast) bölümünü inceleyin.) |
 | Madde gereksinimi oluştur | Projeyle ilgili tahmin hareketleri için madde gereksinimleri ve satış siparişi veya madde günlüğü satırları oluşturabileceğiniz iletişim kutusunu açın. Bu komut hem tedarik tahmin satırları hem de talep tahmin satırları için kullanılabilir olmakla birlikte, **Tedarik tahmini** sayfasında kullanılamaz. |
 
 ### <a name="the-overview-tab-on-the-supply-forecast-page"></a>Tedarik tahmini sayfasındaki Genel bakış sekmesi
@@ -173,7 +173,7 @@ Bir madde tahsisat anahtarı kullanıyorsanız veya bir ya da daha fazla gelecek
 
 Talep tahmini, müşteri talebi girmenize veya oluşturmanıza olanak tanır. Satış ve pazarlama yetkililerinin, yaklaşan tahmin döneminde, beklenen taleple ilgili olarak master planlama yetkililerini bilgilendirmesine yardımcı olur.
 
-Madde, madde grubu, madde tahsisat anahtarı, müşteri ve müşteri grubuna göre bir talep tahmini girebilirsiniz. Çeşitli varlıklar ve kayıtlar için **Talep tahmini** sayfası açma yöntemleri hakkında bilgi için bu bölgenin önceki kısımlarında yer alan [Tahmin satırlarını görüntüleme ve elle girme](#manual-entry) bölümüne bakın.
+Madde, madde grubu, madde tahsisat anahtarı, müşteri ve müşteri grubuna göre bir talep tahmini girebilirsiniz. Çeşitli varlıklar ve kayıtlar için **Talep tahmini** sayfası açma yöntemleri hakkında bilgi için bu makalenin önceki kısımlarında yer alan [Tahmin satırlarını görüntüleme ve elle girme](#manual-entry) bölümüne bakın.
 
 **Talep tahmini** sayfasının üst kısmı, talep tahmin satırı ızgarası ve seçili bir tahmin satırı hakkında daha fazla bilgi görüntülemek ve ayarlamak için kullanabileceğiniz bir sekmeler kümesi sağlar. Sayfanın alt kısmı bir **Tahsisat** ızgarası sağlar.
 
@@ -201,9 +201,9 @@ Aşağıdaki tabloda, **Talep tahmini** sayfasındaki **Genel bakış** sekmesin
 
 | Command | Tanım |
 |---|---|
-| Tahmini tahsis et | Bir tahsisat yöntemi kullanıyorsanız, tahmin hareketi için ayrı çizelge satırları oluşturun. Daha sonra satırın miktarı, tüm zaman dilimi için tarihe (seçilen zaman aralıklarına göre), miktara ve tutara göre dağıtılır. (Bu konunun sonraki bölümlerinde yer alan [Tahmini tahsis et](#allocate-forecast) bölümüne bakın.)|
-| Toplu güncelleştirme | **Tahmin işlemlerini düzenle** sayfasını açın. (Bu bölümün ileriki kısımlarında yer alan [Tahmin hareketlerinin toplu güncelleştirme ](#bulk-update) bölümünü inceleyin.) |
-| Stok tahmini | Seçili madde/model kombinasyonu için filtre uygulanan **Stok tahmini** sayfası görünümünü açın. (Bu bölümün ileriki kısımlarında yer alan [Stok tahmini](#inventory-forecast) bölümünü inceleyin.) |
+| Tahmini tahsis et | Bir tahsisat yöntemi kullanıyorsanız, tahmin hareketi için ayrı çizelge satırları oluşturun. Daha sonra satırın miktarı, tüm zaman dilimi için tarihe (seçilen zaman aralıklarına göre), miktara ve tutara göre dağıtılır. (Bu makalenin sonraki bölümlerinde yer alan [Tahmini tahsis et](#allocate-forecast) bölümüne bakın.)|
+| Toplu güncelleştirme | **Tahmin işlemlerini düzenle** sayfasını açın. (Bu makalenin ileriki kısımlarında yer alan [Tahmin hareketlerinin toplu güncelleştirme ](#bulk-update) bölümünü inceleyin.) |
+| Stok tahmini | Seçili madde/model kombinasyonu için filtre uygulanan **Stok tahmini** sayfası görünümünü açın. (Bu makalenin ileriki kısımlarında yer alan [Stok tahmini](#inventory-forecast) bölümünü inceleyin.) |
 | Madde gereksinimi oluştur | Projeyle ilgili tahmin hareketleri için madde gereksinimleri ve satış siparişi veya madde günlüğü satırları oluşturabileceğiniz iletişim kutusunu açın. |
 
 ### <a name="the-overview-tab-on-the-demand-forecast-page"></a>Talep tahmini sayfasındaki Genel bakış sekmesi
@@ -296,7 +296,7 @@ Aşağıdaki tabloda, **Talep tahmini** sayfasının **Genel bakış** sekmesind
 
 ### <a name="the-allocation-grid-on-the-demand-forecast-page"></a>Talep tahmini sayfasındaki Tahsisat ızgarası
 
-Bir madde tahsisat anahtarı kullanıyorsanız veya bir ya da daha fazla gelecek dönem için madde tahmini girdiyseniz, **Genel bakış** sekmesindeki araç çubuğunda **Tahmin tahsisatı**'nı seçerek tahmini tahsis edebilirsiniz. Miktar daha sonra, **Tahsisat** ızgarasındaki satırlar tarafından belirtilen şekilde dağıtılır. (Bu konunun sonraki bölümlerinde yer alan [Tahmini tahsis et](#allocate-forecast) bölümüne bakın.)
+Bir madde tahsisat anahtarı kullanıyorsanız veya bir ya da daha fazla gelecek dönem için madde tahmini girdiyseniz, **Genel bakış** sekmesindeki araç çubuğunda **Tahmin tahsisatı**'nı seçerek tahmini tahsis edebilirsiniz. Miktar daha sonra, **Tahsisat** ızgarasındaki satırlar tarafından belirtilen şekilde dağıtılır. (Bu makalenin sonraki bölümlerinde yer alan [Tahmini tahsis et](#allocate-forecast) bölümüne bakın.)
 
 ## <a name="inventory-forecast"></a><a name="inventory-forecast"></a>Stok tahmini
 

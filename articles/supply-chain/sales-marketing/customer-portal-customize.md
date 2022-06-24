@@ -1,6 +1,6 @@
 ---
 title: Müşteri portalını özelleştirme ve kullanma
-description: Bu konu, müşteri portalının sisteminize eklendikten sonra nasıl özelleştirileceğini açıklamaktadır.
+description: Bu makale, müşteri portalının sisteminize eklendikten sonra nasıl özelleştirileceğini açıklamaktadır.
 author: Henrikan
 ms.date: 04/22/2020
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 02ad0470b7886b2e9b259682a7f8c8150d656cfb
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 85ec4beda2efe62ff5076a5ed694efbc47c6d87f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063505"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878888"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Müşteri portalını özelleştirme ve kullanma
 
 [!include [banner](../includes/banner.md)]
 
 
-Bu konuda, kutudan bulunmayan farklı sayfalar müşteri portalında açıklanmıştır. Sayfaların ne yaptığını ve bunları nasıl özelleştirebileceğinizi açıklar.
+Bu makalede, kutudan bulunmayan farklı sayfalar müşteri portalında açıklanmıştır. Sayfaların ne yaptığını ve bunları nasıl özelleştirebileceğinizi açıklar.
 
 Müşteri Portalı birkaç Web sayfası ve kutudan birinin dışında bir eylem sunar. Aşağıdaki site haritası bu Web sayfalarının ve eylemlerin genel görünümünü ve eylemleri gerçekleştirebilecek rolleri sağlar.
 
@@ -32,16 +32,16 @@ Müşteri Portalı birkaç Web sayfası ve kutudan birinin dışında bir eylem 
 
 ## <a name="typical-customizations"></a>Normal özelleştirmeler
 
-Aşağıdaki konular Power Apps portalların ve portalların nasıl özelleştirilebileceği hakkında temel bilgileri öğrenmenize yardımcı olur:
+Aşağıdaki makaleler Power Apps portalların ve portalların nasıl özelleştirilebileceği hakkında temel bilgileri öğrenmenize yardımcı olur:
 
-- [Şablonlarla çalışma](/powerapps/maker/portals/work-with-templates) – Bu konuda, Power Apps portalların nasıl çalıştığı ve portallardaki basit özelleştirmelerin nasıl yapılacağı ile ilgili genel bir bakış sunulmaktadır.
-- [Portal içeriğini yönetme](/dynamics365/portals/manage-portal-content) – Bu konu, portalınızda yüzeyiniz içeriği nasıl yöneteceğinizi ve özelleştirebileceğinizi açıklamaktadır.
-- [CSS Düzenle](/powerapps/maker/portals/edit-css) – Bu konu, portalınızdaki Kullanıcı arabirimi (UI) için daha karmaşık özelleştirmeler yapmanıza yardımcı olur.
-- [Portalınız için bir tema oluşturun](/dynamics365/portals/create-theme) – Bu konu, portalınız için bir UI teması oluşturmanıza yardımcı olur.
-- [Portal içeriğini kolayca oluşturma ve gösterme](/dynamics365/portals/create-expose-portal-content): Bu konu, portalınız için kullandığınız temel verileri ve tabloları yönetmenize yardımcı olur.
-- [Bir ilgili kişiyi portalda kullanılmak üzere konfigüre etme](/powerapps/maker/portals/configure/configure-contacts) – Bu konu Kullanıcı rollerinin nasıl oluşturulacağını ve özelleştirileceğini ve güvenlik ve kimlik doğrulamanın Power Apps portalda nasıl çalıştığını açıklamaktadır.
-- [Tablo formları ve portallardaki Web formları için notları yapılandırma](/powerapps/maker/portals/configure-notes): Bu konu, portala nasıl belge ve ek depolama alanı ekleneceğini açıklamaktadır.
-- [Portal Web sitesi için hata işleme](/powerapps/maker/portals/admin/view-portal-error-log) – Bu konu, portal hata günlüklerinin nasıl görüntüleneceğini ve bunları Microsoft Azure BLOB depolama hesabınızda nasıl depolayabileceğinizi açıklamaktadır.
+- [Şablonlarla çalışma](/powerapps/maker/portals/work-with-templates) – Bu makalede, Power Apps portalların nasıl çalıştığı ve portallardaki basit özelleştirmelerin nasıl yapılacağı ile ilgili genel bir bakış sunulmaktadır.
+- [Portal içeriğini yönetme](/dynamics365/portals/manage-portal-content) – Bu makale, portalınızda yüzeyiniz içeriği nasıl yöneteceğinizi ve özelleştirebileceğinizi açıklamaktadır.
+- [CSS Düzenle](/powerapps/maker/portals/edit-css) – Bu makale, portalınızdaki Kullanıcı arabirimi (UI) için daha karmaşık özelleştirmeler yapmanıza yardımcı olur.
+- [Portalınız için bir tema oluşturun](/dynamics365/portals/create-theme) – Bu makale, portalınız için bir UI teması oluşturmanıza yardımcı olur.
+- [Portal içeriğini kolayca oluşturma ve gösterme](/dynamics365/portals/create-expose-portal-content): Bu makale, portalınız için kullandığınız temel verileri ve tabloları yönetmenize yardımcı olur.
+- [Bir ilgili kişiyi portalda kullanılmak üzere konfigüre etme](/powerapps/maker/portals/configure/configure-contacts) – Bu makale Kullanıcı rollerinin nasıl oluşturulacağını ve özelleştirileceğini ve güvenlik ve kimlik doğrulamanın Power Apps portalda nasıl çalıştığını açıklamaktadır.
+- [Tablo formları ve portallardaki Web formları için notları yapılandırma](/powerapps/maker/portals/configure-notes): Bu makale, portala nasıl belge ve ek depolama alanı ekleneceğini açıklamaktadır.
+- [Portal Web sitesi için hata işleme](/powerapps/maker/portals/admin/view-portal-error-log) – Bu makale, portal hata günlüklerinin nasıl görüntüleneceğini ve bunları Microsoft Azure BLOB depolama hesabınızda nasıl depolayabileceğinizi açıklamaktadır.
 
 ## <a name="customize-the-order-creation-process"></a>Sipariş oluşturma işlemini Özelleştir
 

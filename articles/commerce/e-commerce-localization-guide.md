@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce e-ticaret yerelleştirme kılavuzu
-description: Bu konu, bir Microsoft Dynamics 365 Commerce e-ticaret sitesinin ek dillere nasıl yerelleştirileceğini ve siteyi çoklu kanalları destekleyecek şekilde konfigüre etme konusunu açıklamaktadır.
+description: Bu makale, bir Microsoft Dynamics 365 Commerce e-ticaret sitesinin ek dillere nasıl yerelleştirileceğini ve siteyi çoklu kanalları destekleyecek şekilde konfigüre etme konusunu açıklamaktadır.
 author: bicyclingfool
 ms.date: 04/29/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1e9d91036ceeb9161dc8ee903532b2cf3ca435e2
-ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
+ms.openlocfilehash: 955a85340f6d35f1e203d74920d07b5dc6ff8654
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661535"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873396"
 ---
 # <a name="dynamics-365-commerce-e-commerce-localization-guide"></a>Dynamics 365 Commerce e-ticaret yerelleştirme kılavuzu
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, bir Microsoft Dynamics 365 Commerce e-ticaret sitesinin ek dillere nasıl yerelleştirileceğini ve siteyi çoklu kanalları destekleyecek şekilde nasıl yapılandırılacağını açıklar ve işlemle ilgili kavramları ve terminolojiyi kapsar.
+Bu makale, bir Microsoft Dynamics 365 Commerce e-ticaret sitesinin ek dillere nasıl yerelleştirileceğini ve siteyi çoklu kanalları destekleyecek şekilde nasıl yapılandırılacağını açıklar ve işlemle ilgili kavramları ve terminolojiyi kapsar.
 
 Dynamics 365 Commerce'deki e-ticaret özellikleri, belirli ülkeler ve dillerle ilgili olabilecek çevrimiçi deneyimlere olanak verecek, ancak şablonların, sayfaların, içeriğin ve ortamların en fazla yeniden kullanılmasına olanak veren şekilde tasarlanmıştır. Ayrıca, temel bir site oluşturabilir ve daha sonra zaman içinde ek ülkeler ve diller için destek ekleyerek yeni pazarlara genişletebilirsiniz.
 
@@ -79,7 +79,7 @@ Bu konfigürasyonda, müşteriler ve ortaklar genellikle ülkeler ve diller aras
 ![Kullanıma hazır Dynamics 365 Commerce e-ticaret sitesi](media/loc-guide-1.png)
 
 > [!NOTE]
-> Fabrikam demo sitesini, ek bir dil için konfigüre edebilirsiniz böylece bu dilde içerik geliştirme yapılabilmesini sağlayabilirsiniz. Bir siteye ve kanala yeni dil ekleme hakkında bilgi almak için, bu konunun ilerleyen bölümlerindeki [Siteniz için ek dil yapılandırma](#configure-an-additional-language-for-your-site) başlıklı konuya bakın.
+> Fabrikam demo sitesini, ek bir dil için konfigüre edebilirsiniz böylece bu dilde içerik geliştirme yapılabilmesini sağlayabilirsiniz. Bir siteye ve kanala yeni dil ekleme hakkında bilgi almak için bu makalenin ilerleyen bölümlerindeki [Siteniz için ek dil yapılandırma](#configure-an-additional-language-for-your-site) başlıklı konuya bakın.
 
 Ancak, Dynamics 365 Commerce e-ticaret siteleri için içerik yönetim sistemi (CMS) ve sayfa modeli, yeni pazarlara ve yerel ayarlara genişlemeye olanak sağlayacak şekilde tasarlanmıştır. Bu nedenle, tek bir e-ticaret sitesi sayesinde, birden fazla pazara ve dile yayılan çevrimiçi bir mağazanın varlıklarını yönetebilirsiniz.
 
@@ -117,7 +117,7 @@ Site oluşturucuda bir kanala dil eklemek için aşağıdaki adımları izleyin.
 
 Commerce site oluşturucuda **Sayfalar** görünümüne döndüğünüzde, yeni dil kanalda ve üst sağ taraftaki yerel ayarlar seçicisinde kullanılabilir olur. Artık temel dilinizde sayfaların yerelleştirilmiş sürümlerini oluşturabilirsiniz.
 
-Sayfalarınızın ve parçalarınızın içeriğini yerelleştirme işlemi bu konunun devamında yer alan, [E-ticaret sitesi içeriğini yerelleştirme](#localize-e-commerce-site-content) bölümünde ele alınır.
+Sayfalarınızın ve parçalarınızın içeriğini yerelleştirme işlemi bu makalenin devamında yer alan, [E-ticaret sitesi içeriğini yerelleştirme](#localize-e-commerce-site-content) bölümünde ele alınır.
 
 ### <a name="configure-a-new-channel-for-your-site"></a>Siteniz için yeni bir kanal konfigüre edin
 
@@ -156,7 +156,7 @@ Aşağıdaki e-ticaret sitesi varlıkları site oluşturucuda yerelleştirilebil
 
 Tüm yeni sayfalar, parçalar ve ortam varlıkları kanal ve yerel ayar seçicisinde şu anda seçili olan kanal ve dil bağlamında oluşturulur. Ek diller veya kanallar yapılandırmadığınız için bu dil genellikle "temel dilinizdir". Birden çok kanal ve dilin yapılandırıldığı sitelerde, "temel dil", site ayarlarındaki **Kanallar** sayfasında varsayılan olarak belirlediğiniz kanal ve yerel ayarlar tarafından tanımlanır.
 
-Sayfalar, parçalar ve ortam varlıkları için içeriği yerelleştirme adımları benzerdir. Özel durumlar ve farklılıklar, izleyen bölümlerde gösterilecek. Ancak, modül içeriğini yerelleştirme adımları farklılık gösterir. Daha fazla bilgi için bu konunun sonraki kısımlarında yer alan [Yerelleştirme modülleri](#localize-modules) bölümüne bakın.
+Sayfalar, parçalar ve ortam varlıkları için içeriği yerelleştirme adımları benzerdir. Özel durumlar ve farklılıklar, izleyen bölümlerde gösterilecek. Ancak, modül içeriğini yerelleştirme adımları farklılık gösterir. Daha fazla bilgi için bu makalenin sonraki kısımlarında yer alan [Yerelleştirme modülleri](#localize-modules) bölümüne bakın.
 
 #### <a name="step-1-export-an-xliff-file"></a>Adım 1: XLIFF dosyasını dışa aktar
 

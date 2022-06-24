@@ -1,6 +1,6 @@
 ---
 title: Operasyon planlama çizelgeleme
-description: Bu konu operasyon planlaması hakkındaki bilgileri sağlar. Operasyon planlama çizelgelemesini zaman içinde üretim süresine dair genel bir tahmin yapmak için kullanabilirsiniz.
+description: Bu makale operasyon planlaması hakkındaki bilgileri sağlar. Operasyon planlama çizelgelemesini zaman içinde üretim süresine dair genel bir tahmin yapmak için kullanabilirsiniz.
 author: johanhoffmann
 ms.date: 06/20/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3c380297b56f615a6b285ef7daf1ecbd7bb420f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7b9ae31b288831d2f3b85bf1996206221e0bdbbd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574581"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871905"
 ---
 # <a name="operations-scheduling"></a>Operasyon planlama çizelgeleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu operasyon planlaması hakkındaki bilgileri sağlar. Operasyon planlama çizelgelemesini zaman içinde üretim süresine dair genel bir tahmin yapmak için kullanabilirsiniz.
+Bu makale operasyon planlaması hakkındaki bilgileri sağlar. Operasyon planlama çizelgelemesini zaman içinde üretim süresine dair genel bir tahmin yapmak için kullanabilirsiniz.
 
 Üretimi operasyon düzeyinde ve iş düzeyinde planlayabilirsiniz. İş planlamadan farklı olarak, operasyon planlama üretim rotasının operasyonlarını işlere ayırmaz. Planlamaya geçerli kapasite hakkında bilgiler gibi daha fazla ayrıntı eklemek isterseniz iş planlamayı operasyon planlamadan sonra çalıştırabilirsiniz. Yalnızca iş planlamayı da çalıştırabilirsiniz. İş planlama genellikle atölyedeki tek tek işleri anlık veya kısa bir zaman aralığında planlamak için kullanılır.
 

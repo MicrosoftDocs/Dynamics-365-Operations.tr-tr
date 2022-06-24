@@ -1,6 +1,6 @@
 ---
 title: POS'ta iskontoları gösterme
-description: Bu konu, Microsoft Dynamics 365 Commerce'ın satış görevlilerine promosyonlar hakkında bilgi edinme ve bunları çapraz satış ve yukarı satış için kullanma konusunda nasıl yardımcı olduğunu açıklamaktadır.
+description: Bu makale, Microsoft Dynamics 365 Commerce'ın satış görevlilerine promosyonlar hakkında bilgi edinme ve bunları çapraz satış ve yukarı satış için kullanma konusunda nasıl yardımcı olduğunu açıklamaktadır.
 author: ShalabhjainMSFT
 ms.date: 07/29/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 9e3fa5030cb684c01153d255ca2bd34d9be7dc9945f0c7ec26985cf74540b73d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3ec16c5051088ed2777309899b26094e8d67743
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731679"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878552"
 ---
 # <a name="show-discounts-in-pos"></a>POS'ta iskontoları gösterme
 
 [!include [banner](includes/banner.md)]
 
-Promosyonlar, satın alma kararları veren müşterileri motive etmede önemli bir rol oynar. Örneğin, tüm perakende pazarında baştan çıkarıcı promosyonlar ve indirimler olduğundan, tatiller perakendeciler için en yüksek sayıda satışı üretebilir. Mağaza görevlileri kullanılabilir promosyonlar hakkında bilgi sahibiyse ve mevcut promosyonları anlıyorsa, çapraz satış ve yukarı satış yapmak için bu promosyonlardan yararlanabilirler. Bu konu, Microsoft Dynamics 365 Commerce'ın satış görevlilerine promosyonlar hakkında bilgi edinme ve bunları çapraz satış ve yukarı satış için kullanma konusunda nasıl yardımcı olduğunu açıklamaktadır.
+Promosyonlar, satın alma kararları veren müşterileri motive etmede önemli bir rol oynar. Örneğin, tüm perakende pazarında baştan çıkarıcı promosyonlar ve indirimler olduğundan, tatiller perakendeciler için en yüksek sayıda satışı üretebilir. Mağaza görevlileri kullanılabilir promosyonlar hakkında bilgi sahibiyse ve mevcut promosyonları anlıyorsa, çapraz satış ve yukarı satış yapmak için bu promosyonlardan yararlanabilirler. Bu makale, Microsoft Dynamics 365 Commerce'ın satış görevlilerine promosyonlar hakkında bilgi edinme ve bunları çapraz satış ve yukarı satış için kullanma konusunda nasıl yardımcı olduğunu açıklamaktadır.
 
 ## <a name="learn-about-store-discounts"></a>Mağaza iskontoları hakkında bilgi edinme
 

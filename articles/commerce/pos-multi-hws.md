@@ -1,6 +1,6 @@
 ---
-title: Adanmış ödeme terminalleri ve yazıcı ve nakit çekmecesini sorar
-description: Bu konu, bir adanmış ödeme terminali alma ve kullanıcıdan bir para çekmecesini ve bir makbuz yazıcısı seçmesini sağlayan bilgiler içerir.
+title: Yazıcı ve kasa çekmecesi için ayrılmış ödeme terminalleri ve istemleri
+description: Bu makale, bir adanmış ödeme terminali alma ve kullanıcıdan bir para çekmecesini ve bir makbuz yazıcısı seçmesini sağlayan bilgiler içerir.
 author: BrianShook
 ms.date: 05/20/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: b955e55271471ac43ff4c2b217c6448b30536e06
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 7c010448e43bbfb1f949508ce1b62bd07f3107e1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779782"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874933"
 ---
-# <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Adanmış ödeme terminalleri ve yazıcı ve nakit çekmecesini sorar
+# <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Yazıcı ve kasa çekmecesi için ayrılmış ödeme terminalleri ve istemleri
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, bir adanmış ödeme terminali alma ve kullanıcıdan bir para çekmecesini ve bir makbuz yazıcısı seçmesini sağlayan bilgiler içerir.
+Bu makale, bir adanmış ödeme terminali alma ve kullanıcıdan bir para çekmecesini ve bir makbuz yazıcısı seçmesini sağlayan bilgiler içerir.
 
 ## <a name="overview"></a>Özet
 
@@ -46,7 +46,7 @@ Microsoft Dynamics 365 Commerce, bu eğilimleri, bir satış noktası (POS) ayg�
 
 ## <a name="supported-pos-clients-and-devices"></a>Desteklenen POS istemcileri ve aygıtları
 
-Bu konuda açıklanan işlevsellik Windows için Modern POS ve Android POS istemcileri için Modern POS tarafından desteklenmektedir.
+Bu makalede açıklanan işlevsellik Windows için Modern POS ve Android POS istemcileri için Modern POS tarafından desteklenmektedir.
 
 Bu işlevsellik, ağ etkin ödeme terminalleri ve makbuz yazıcılarını destekler. Nakit çekmecesini, d/k bağlantı noktası üzerinden ağ etkin giriş yazıcısına bağlayarak nakit çekmecesi desteği sağlayabilirsiniz.
 

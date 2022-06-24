@@ -1,6 +1,6 @@
 ---
-title: Müşteri malzeme çekme için zaman aralıkları oluşturma ve güncelleştirme
-description: Bu konu, Commerce Headquarters'ta müşteri teslim alma dilimlerini oluşturmayı, yapılandırmayı ve güncelleştirmeyi açıklar.
+title: Müşterinin teslim alması için zaman aralıkları oluşturma ve güncelleme
+description: Bu makale, Commerce Headquarters'ta müşteri teslim alma dilimlerini oluşturmayı, yapılandırmayı ve güncelleştirmeyi açıklar.
 author: anupamar-ms
 ms.date: 01/05/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a135f592225e4b388b5c9fdaa5fe23e60baf0185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882245"
 ---
-# <a name="create-and-update-time-slots-for-customer-pickup"></a>Müşteri malzeme çekme için zaman aralıkları oluşturma ve güncelleştirme
+# <a name="create-and-update-time-slots-for-customer-pickup"></a>Müşterinin teslim alması için zaman aralıkları oluşturma ve güncelleme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, Commerce Headquarters'ta müşteri teslim alma dilimlerini oluşturmayı, yapılandırmayı ve güncelleştirmeyi açıklar.
+Bu makale, Commerce Headquarters'ta müşteri teslim alma dilimlerini oluşturmayı, yapılandırmayı ve güncelleştirmeyi açıklar.
 
 Zaman dilimi özelliği, perakendecilere, müşteri malzeme çekme teslim modunun açık olduğu maddeler için bir zaman dilimi tanımlama yolu sunar. Zaman yuvaları, perakendeciler siparişlerin bir mağazadan çekileceği gün ve saatleri tanımlamasına olanak tanır. Perakendeciler, belirli bir dönemde çekilebilecek sipariş sayısını da tanımlayabilir. Böylece perakendeciler, belirli bir tarihte ve belirli bir zamanda çekilebilecek sipariş sayısını sınırlayabilir. Sonuç, müşterilerine daha iyi kalitede bir deneyimdir.
 

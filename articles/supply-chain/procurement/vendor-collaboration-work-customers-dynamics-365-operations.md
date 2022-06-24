@@ -1,6 +1,6 @@
 ---
-title: Müşterilerle satıcı işbirliği
-description: Bu konu, PO'lar ile çalışmak ve konsinye stoku görüntülemek için satıcı işbirliğini nasıl kullanabileceğinizi açıklamaktadır.
+title: Müşterilerle satıcı iş birliği
+description: Bu makale, PO'lar ile çalışmak ve konsinye stoku görüntülemek için satıcı işbirliğini nasıl kullanabileceğinizi açıklamaktadır.
 author: GalynaFedorova
 ms.date: 09/15/2020
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5690630d4dde947798c925af66c73122c2efad3d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4e5748f2368376ee03f280f1487d1de65250d3a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673788"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859183"
 ---
-# <a name="vendor-collaboration-with-customers"></a>Müşterilerle satıcı işbirliği
+# <a name="vendor-collaboration-with-customers"></a>Müşterilerle satıcı iş birliği
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta müşterilerle çalışmak için satıcı işbirliğini nasıl kullanabileceğinizi açıklamaktadır. Satıcılar bir dizi iş sürecini aşağıdaki çalışma alanlarından gerçekleştirebilir:
+Bu makale, Microsoft Dynamics 365 Supply Chain Management'ta müşterilerle çalışmak için satıcı işbirliğini nasıl kullanabileceğinizi açıklamaktadır. Satıcılar bir dizi iş sürecini aşağıdaki çalışma alanlarından gerçekleştirebilir:
 
 - **Satınalma siparişi teyidi** – Satınalma siparişlerini (PO) izleyin ve yanıtlayın.
 - **Satıcı teklifi** - Teklif taleplerini (RFQ) görüntüleyin ve tekliflere girerek yanıt verin.
 - **Satıcı bilgileri** – Satıcı ana verilerini görüntüleyin ve güncelleştirin.
-- **Faturalama** – Faturalar ile çalışın. Bu konu **Faturalama** çalışma alanını kapsamaz. Bu çalışma alanı hakkında daha fazla bilgi için bkz. [Satıcı işbirliği faturalama çalışma alanı](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Faturalama** – Faturalar ile çalışın. Bu makale **Faturalama** çalışma alanını kapsamaz. Bu çalışma alanı hakkında daha fazla bilgi için bkz. [Satıcı işbirliği faturalama çalışma alanı](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Satıcılar konsinye stok bilgilerini de izleyebilir.
 
@@ -47,9 +47,9 @@ Satıcılar konsinye stok bilgilerini de izleyebilir.
 
 PO'larla çalışmak için aşağıdaki sayfaları kullanabilirsiniz:
 
-- **İncelenecek satınalma siparişleri** – Bu sayfa çalışma alanındaki **İncelenecek satınalma siparişleri** listesiyle aynı bilgileri içerir. Bu konunun önceki bölümlerindeki açıklamaya bakın.
+- **İncelenecek satınalma siparişleri** – Bu sayfa çalışma alanındaki **İncelenecek satınalma siparişleri** listesiyle aynı bilgileri içerir. Bu makalenin önceki bölümlerindeki açıklamaya bakın.
 - **Satınalma siparişi satıcı onay geçmişi** – Bu sayfa satıcıya gönderilen tüm PO'ları ve PO sürümlerini içerir. Ayrıca satıcıdan gelen tüm yanıtları da içerir.
-- **Açık onaylanan satınalma siparişleri** – Bu sayfa çalışma alanındaki **Açık onaylanan satınalma siparişleri** listesiyle aynı bilgileri içerir. Bu konunun önceki bölümlerindeki açıklamaya bakın.
+- **Açık onaylanan satınalma siparişleri** – Bu sayfa çalışma alanındaki **Açık onaylanan satınalma siparişleri** listesiyle aynı bilgileri içerir. Bu makalenin önceki bölümlerindeki açıklamaya bakın.
 - **Tüm onaylanan satınalma siparişleri** – Bu sayfa, onaylanan tüm PO'ları içerir. Bu sayfada gösterilen PO'lar ürünlerin veya hizmetlerin alınmış olduğu PO'ları içerir. Hangi PO'lar için fatura gönderebileceğinizi izlemek için bu listeyi kullanabilirsiniz.
 
 ### <a name="responding-to-pos"></a>PO'ları yanıtlama

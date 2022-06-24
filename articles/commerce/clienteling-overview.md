@@ -1,6 +1,6 @@
 ---
 title: Müşteri rehberliğine genel bakış
-description: Bu konu, mağaza uygulamasında kullanılabilen yeni müşteri rehberliği yeteneklerine genel bir bakış sağlar.
+description: Bu makale, mağaza uygulamasında kullanılabilen yeni müşteri rehberliği yeteneklerine genel bir bakış sağlar.
 author: bebeale
 ms.date: 02/01/2021
 ms.topic: overview
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b1e1b7a67141ffec01d926b7f917ebd4e1f24741
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3d60004367840208f239d69220b3c181109f83d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885623"
 ---
 # <a name="clienteling-overview"></a>Müşteri rehberliğine genel bakış
 
@@ -81,7 +81,7 @@ Ortamınızda müşteri rehberliği işlevini açmak için aşağıdaki adımlar
     - Bu öznitelikler için görüntüleme sırası ayarlayın. Bu görüntüleme sırası, müşteri defterindeki müşteri kartında hangi özniteliklerin gösterilmesi gerektiğini belirler. Görüntüleme sırası 1'in görüntüleme sırası 2'den yüksek olduğu kabul edilir. Bu nedenle, görüntüleme sırası 1 olan öznitelik, görüntüleme sırası 2 olan öznitelikten önce görüntülenir.
 
     > [!NOTE]
-    > Customer Insights'ı aynı sayfadan kullanılabilir hale getirebilirsiniz. Ancak kimlik doğrulama amacıyla bir Azure uygulama kodu ve parola oluşturulmalıdır. (Gereksinimler hakkında bilgi için bu konunun ilerleyen bölümlerindeki [Customer Insights'ın Commerce ile tümleştirilmesini açma](#turn-on-the-integration-of-customer-insights-with-commerce) bölümüne bakın.) Customer Insights açıksa ve müşteri kartında gösterilmesi gereken bir veya daha fazla ölçümü seçtiyseniz bu ölçümler önce gösterilir. Ardından görüntüleme sırasına göre müşteri defteri öznitelik grupları gösterilir. Örneğin, Customer Insights'tan iki ölçüm seçerseniz müşteri kartında bu iki ölçüm ve bir müşteri defteri özniteliği gösterilir. (Gösterilen müşteri defteri özniteliği, en yüksek görüntüleme sırasına sahip özniteliktir.)
+    > Customer Insights'ı aynı sayfadan kullanılabilir hale getirebilirsiniz. Ancak kimlik doğrulama amacıyla bir Azure uygulama kodu ve parola oluşturulmalıdır. (Gereksinimler hakkında bilgi için bu makalenin ilerleyen bölümlerindeki [Customer Insights'ın Commerce ile tümleştirilmesini açma](#turn-on-the-integration-of-customer-insights-with-commerce) bölümüne bakın.) Customer Insights açıksa ve müşteri kartında gösterilmesi gereken bir veya daha fazla ölçümü seçtiyseniz bu ölçümler önce gösterilir. Ardından görüntüleme sırasına göre müşteri defteri öznitelik grupları gösterilir. Örneğin, Customer Insights'tan iki ölçüm seçerseniz müşteri kartında bu iki ölçüm ve bir müşteri defteri özniteliği gösterilir. (Gösterilen müşteri defteri özniteliği, en yüksek görüntüleme sırasına sahip özniteliktir.)
 
 6. **Commerce parametreleri** sayfasında, **Müşteri rehberliği** sekmesinde, **Müşteri defteri öznitelik grubu** alanında, oluşturduğunuz öznitelik grubunu seçin.
 

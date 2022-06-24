@@ -1,6 +1,6 @@
 ---
 title: Çağrı merkezi kanalı ayarlama
-description: Bu konuda, Microsoft Dynamics 365 Commerce'te yeni bir çağrı merkezi kanalının nasıl oluşturulacağı açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce'te yeni bir çağrı merkezi kanalının nasıl oluşturulacağı açıklanmaktadır.
 author: samjarawan
 ms.date: 03/13/2020
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3b21d5e57058fee5bb77beb6731c18967ed11cacc1925e44d2f7d8cdb26d7bcb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 219c84eb9a8c3b53467ed48c13775106c82dac63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744546"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864967"
 ---
 # <a name="set-up-a-call-center-channel"></a>Çağrı merkezi kanalı ayarlama
 
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce'te yeni bir çağrı merkezi kanalının nasıl oluşturulacağı açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce'te yeni bir çağrı merkezi kanalının nasıl oluşturulacağı açıklanmaktadır.
 
-## <a name="overview"></a>Özet
+## <a name="overview"></a>Genel Bakış
 
 
 Dynamics 365 Commerce'te çağrı merkezi, uygulamada tanımlanabilen bir Commerce kanalı türüdür. Çağrı merkezi varlıklarınız için bir kanal tanımlamak, sistemin belirli verileri ve sipariş işleme varsayılanlarını satış siparişlerine bağlamasına olanak sağlar. Bir şirket Commerce'ta çok sayıda çağrı merkezi kanalı tanımlayabilmesine karşın, tek bir kullanıcının yalnızca tek bir çağrı merkezi kanalına bağlanabileceği unutulmamalıdır. 

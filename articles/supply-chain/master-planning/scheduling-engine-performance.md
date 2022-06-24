@@ -1,6 +1,6 @@
 ---
 title: Planlama altyapısı performansını iyileştirme
-description: Bu konu, planlama altyapısı ve performansın nasıl geliştirileceği hakkında bilgi sağlar.
+description: Bu makale, planlama altyapısı ve performansın nasıl geliştirileceği hakkında bilgi sağlar.
 author: t-benebo
 ms.date: 09/03/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 972e566153b7423398b2ad4a4e70b264f02c40cd
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: f5ece3672bba352e02808248c91366539423d682
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469020"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854311"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Planlama altyapısı performansını iyileştirme
 
@@ -29,7 +29,7 @@ ms.locfileid: "8469020"
 
 Kaynak planlama altyapısı, planlanan ve serbest bırakılmış üretim emirleri için rota planlarken kullanılır. Altyapı, ilk olarak Dynamics AX 2012'nin bir parçası olarak yayımlanmıştır ve yayımlanmasından bu yana çeşitli geliştirmeler yapılmıştır.
 
-[İş atölyesi planlama sorunu](https://en.wikipedia.org/wiki/Job_shop_scheduling) çözüm süresinin karar değişkenlerinin sayısıyla katlanarak büyümesine neden olan çok karmaşık bir birleşimsel sorundur. Genellikle müşteriler, üretim rotalarını ve ilgili verileri, en modern donanımda bile, makul saatlerde çözülemeyen bir planlama sorununa neden olacak şekilde ayarlar. Bu konu, planlama altyapısını ve belirli bir kurulumun performans üzerindeki etkisini anlamanıza yardımcı olacaktır.
+[İş atölyesi planlama sorunu](https://en.wikipedia.org/wiki/Job_shop_scheduling) çözüm süresinin karar değişkenlerinin sayısıyla katlanarak büyümesine neden olan çok karmaşık bir birleşimsel sorundur. Genellikle müşteriler, üretim rotalarını ve ilgili verileri, en modern donanımda bile, makul saatlerde çözülemeyen bir planlama sorununa neden olacak şekilde ayarlar. Bu makale, planlama altyapısını ve belirli bir kurulumun performans üzerindeki etkisini anlamanıza yardımcı olacaktır.
 
 Planlamanın performansını geliştirmek söz konusu olduğunda, genel yönergeler altyapının çözmesi gereken sorunun karmaşıklığını azaltmayı önerir. Performansı etkileyebilen ana faktörlerin bazıları şunlardır:
 

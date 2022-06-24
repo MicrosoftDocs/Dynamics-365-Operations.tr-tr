@@ -1,6 +1,6 @@
 ---
 title: Satış noktasındaki (POS) müşteri siparişleri
-description: Bu konuda, satış noktasındaki (POS) müşteri siparişleri hakkında bilgi sağlanmaktadır. Müşteri siparişleri, özel siparişler olarak da adlandırılır. Bu konu, ilgili parametreler ve hareket akışları hakkında bir tartışma içerir.
+description: Bu makalede, satış noktasındaki (POS) müşteri siparişleri hakkında bilgi sağlanmaktadır. Müşteri siparişleri, özel siparişler olarak da adlandırılır. Bu makale, ilgili parametreler ve hareket akışları hakkında bir tartışma içerir.
 author: josaw1
 ms.date: 08/02/2021
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9ebdad47d761f775cf26666dc3e2736818fb4832
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6051e0a18823b354dd9940aac70a086a0f317002
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982830"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850394"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Satış noktasındaki (POS) müşteri siparişleri
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, satış noktası (POS) uygulamasında müşteri siparişlerinin nasıl oluşturulup yönetileceği ile ilgili bilgi sağlanmaktadır. Müşteri siparişleri, alışverişçilerin sonraki bir tarihte ürün çekmek, farklı bir konumdan ürünü çekmek veya maddelerin kendilerine gönderilmelerini sağlamak istedikleri satışları yakalamak için kullanılabilir. 
+Bu makalede, satış noktası (POS) uygulamasında müşteri siparişlerinin nasıl oluşturulup yönetileceği ile ilgili bilgi sağlanmaktadır. Müşteri siparişleri, alışverişçilerin sonraki bir tarihte ürün çekmek, farklı bir konumdan ürünü çekmek veya maddelerin kendilerine gönderilmelerini sağlamak istedikleri satışları yakalamak için kullanılabilir. 
 
 Çok kanallı ticaret dünyasında pek çok perakendeci, çeşitli ürün ve yerine getirme gereksinimlerini karşılamak için müşteri siparişleri seçeneği veya özel siparişler sağlar. Burada bazı tipik senaryolar vardır:
 

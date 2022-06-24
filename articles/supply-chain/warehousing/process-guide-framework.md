@@ -1,6 +1,6 @@
 ---
 title: Kılavuz çerçevesini işleme
-description: Bu konu, X++ ile ambar mobil işlemlerimizi yöneten geliştiriciler için işlem kılavuzu çerçevesi hakkında bilgi sağlar.
+description: Bu makale, X++ ile ambar mobil işlemlerimizi yöneten geliştiriciler için işlem kılavuzu çerçevesi hakkında bilgi sağlar.
 author: Mirzaab
 ms.date: 11/01/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 6882c979ad9b37eb4f95a04259b6ac0f0a0edcdc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: e88f32e0347a808d03615cf85e50b1592d691670
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902058"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860449"
 ---
 # <a name="process-guide-framework"></a>Kılavuz çerçevesini işleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, X++ ile ambar mobil işlemlerini yöneten geliştiriciler için işlem kılavuzu çerçevesi hakkında bilgi sağlar. Ambar mobil işlemler, küçük adımlara bölünmekte olan işlemlerin sonucu olarak genişletilebilir. Her adımın iş mantığı ve kullanıcı arabirimi oluşturmasına yönelik adımlar, genişletilebilirlik sağlayan bağımsız sınıflara ayıklandı.
+Bu makale, X++ ile ambar mobil işlemlerini yöneten geliştiriciler için işlem kılavuzu çerçevesi hakkında bilgi sağlar. Ambar mobil işlemler, küçük adımlara bölünmekte olan işlemlerin sonucu olarak genişletilebilir. Her adımın iş mantığı ve kullanıcı arabirimi oluşturmasına yönelik adımlar, genişletilebilirlik sağlayan bağımsız sınıflara ayıklandı.
 
 ## <a name="overview-of-the-existing-design"></a>Varolan tasarıma genel bakış
 
@@ -321,7 +321,7 @@ public class ProdProcessGuideConfirmProductionOrderPageBuilder extends ProcessGu
 ```
 
 > [!NOTE]
-> Uygulama Gezgini'ni kullanarak bu konudaki X++ yöntemleri için aynı kaynak kodunu bulabilirsiniz. Sınıf adına filtre uygulayın, sonra sınıf adını sağ tıklatıp **Kodu görüntüle**'yi seçin.
+> Uygulama Gezgini'ni kullanarak bu makaledeki X++ yöntemleri için aynı kaynak kodunu bulabilirsiniz. Sınıf adına filtre uygulayın, sonra sınıf adını sağ tıklatıp **Kodu görüntüle**'yi seçin.
 
 ### <a name="step-3-start-the-production-order"></a>Adım 3: Üretim emrini başlatın
 
@@ -421,7 +421,7 @@ Böyle bir durumda, geçirilen ad için bir eylem sınıfı oluşturmak ve düğ
 
 ### <a name="summary"></a>Özet
 
-Bu konuda açıklanan her şeyi özetlemek için, süreç için gereken kodun kapsamlı bir özeti aşağıda verilmiştir:
+Bu makalede açıklanan her şeyi özetlemek için, süreç için gereken kodun kapsamlı bir özeti aşağıda verilmiştir:
 
 1.  **ProdProcessGuideProductionStartController**
 
@@ -570,7 +570,7 @@ Bu konuda açıklanan her şeyi özetlemek için, süreç için gereken kodun ka
         ```
 
         > [!NOTE]
-        > Madde bilgi etiketlerini oluşturmak için kullanılan **generateItemInfoForProdId()** yöntemi bu konunun dışında bırakılmıştır. Bu yöntem, madde kodu, açıklama ve boyutları almak için birkaç tabloyu sorgular. **generateItemInfoForProdId()** öğesinin daha iyi anlaşılmasını istiyorsanız, kaynak koda bakın.
+        > Madde bilgi etiketlerini oluşturmak için kullanılan **generateItemInfoForProdId()** yöntemi bu makalenin dışında bırakılmıştır. Bu yöntem, madde kodu, açıklama ve boyutları almak için birkaç tabloyu sorgular. **generateItemInfoForProdId()** öğesinin daha iyi anlaşılmasını istiyorsanız, kaynak koda bakın.
 
 4.  **ProdProcessGuideStartProductionOrderStep**
 
@@ -605,7 +605,7 @@ Bu konuda açıklanan her şeyi özetlemek için, süreç için gereken kodun ka
 
 ### <a name="extending-a-business-process"></a>İş sürecini genişletme
 
-Buraya kadar, bu konuda **ProcessGuide** çerçevesi kullanılarak yeni bir işlemin nasıl oluşturulacağını vurgulandı. Bu son bölümde, bu iş sürecinin nasıl uzatılabilecek hakkında örnekler bulacaksınız.
+Buraya kadar, bu makalede **ProcessGuide** çerçevesi kullanılarak yeni bir işlemin nasıl oluşturulacağını vurgulandı. Bu son bölümde, bu iş sürecinin nasıl uzatılabilecek hakkında örnekler bulacaksınız.
 
 ### <a name="add-a-step-in-a-flow-using-processguidenavigationagentdefault"></a>Akışta bir adım ekleyin (ProcessGuideNavigationAgentDefault kullanarak)
 

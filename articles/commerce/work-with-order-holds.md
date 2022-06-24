@@ -1,6 +1,6 @@
 ---
 title: Çağrı merkezi sipariş bekletmelerini yapılandırma ve bunlarla çalışma
-description: Bu konu, siparişlerdeki tutma durumuyla Dynamics 365 Commerce kullanarak nasıl çalışılacağını açıklamaktadır.
+description: Bu makale, siparişlerdeki tutma durumuyla Dynamics 365 Commerce kullanarak nasıl çalışılacağını açıklamaktadır.
 author: josaw1
 ms.date: 05/14/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f474b5936f2ae154ad54185becd91865642e8efe3cf10e7dcdbb650c6c833b21
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f8c5daecc6aa05cc6a0f5dc4a2bc44a0fbba07d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860149"
 ---
-# <a name="configure-and-work-with-call-center-order-holds"></a>Çağrı merkezi sipariş tutmalarını yapılandırma ve bunlarla çalışma
+# <a name="configure-and-work-with-call-center-order-holds"></a>Çağrı merkezi sipariş bekletmelerini yapılandırma ve bunlarla çalışma
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, çağrı merkezi siparişleri için Dynamics 365 Commerce'de bulunan sipariş tutma özelliklerini açıklamaktadır.
+Bu makale, çağrı merkezi siparişleri için Dynamics 365 Commerce'de bulunan sipariş tutma özelliklerini açıklamaktadır.
 
 ## <a name="configuring-call-center-order-holds"></a>Çağrı merkezi sipariş tutmalarını yapılandırma
 

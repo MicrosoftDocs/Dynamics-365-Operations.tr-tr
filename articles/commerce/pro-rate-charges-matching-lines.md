@@ -1,6 +1,6 @@
 ---
-title: Başlık giderlerini eşleşen satış satırlarına eşit dağıt
-description: Bu konu, Commerce kanal siparişlerine otomatik giderlerin hesaplanmasını ve uygulanması için ek yeterlilikleri, gelişmiş otomatik masraf özelliğini kullanarak açıklar.
+title: Başlık masraflarını eşleşen satış satırlarına eşit dağıtma
+description: Bu makale, Commerce kanal siparişlerine otomatik giderlerin hesaplanmasını ve uygulanması için ek yeterlilikleri, gelişmiş otomatik masraf özelliğini kullanarak açıklar.
 author: hhaines
 ms.date: 03/30/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0de29e1817840c172f9235f2ee48251c4878a0573d270a60fde5b42ba6f88d31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b41aa7b012b161626a98fc4aa2d37134552a57a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774521"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886944"
 ---
-# <a name="prorate-header-charges-to-matching-sales-lines"></a>Başlık giderlerini eşleşen satış satırlarına eşit dağıt
+# <a name="prorate-header-charges-to-matching-sales-lines"></a>Başlık masraflarını eşleşen satış satırlarına eşit dağıtma
 
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, başlık düzeyi otomatik masrafları gruplandırmayı ve bunları ticaret satış satırlarına eşit dağıtmak için özelliği açıklar. Bu özellik, Retail sürüm 10.0.1 içinde satış noktası (POS) içerisinde ve Retail sürüm 10.0.2 içinde çağrı merkezinde oluşturulmuş hareketler için kullanılabilirdir.
+Bu makale, başlık düzeyi otomatik masrafları gruplandırmayı ve bunları ticaret satış satırlarına eşit dağıtmak için özelliği açıklar. Bu özellik, Retail sürüm 10.0.1 içinde satış noktası (POS) içerisinde ve Retail sürüm 10.0.2 içinde çağrı merkezinde oluşturulmuş hareketler için kullanılabilirdir.
 
 Bu özellik, yalnızca [gelişmiş otomatik masraflar](/dynamics365/unified-operations/retail/omni-auto-charges) özelliği, **Commerce parametreleri** sayfasındaki seçenek kullanılarak açılmışsa kullanılabilirdir. Ek olarak, otomatik giderler için gelişmiş hesaplama yöntemi, yalnızca ticaret kanalları aracılığıyla oluşturulmuş (POS, çağrı merkezi ve Dynamics e-Ticaret platformu) ticaret satış siparişlerine uygulanabilir.
 

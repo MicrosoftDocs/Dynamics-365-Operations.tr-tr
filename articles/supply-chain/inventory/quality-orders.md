@@ -1,6 +1,6 @@
 ---
 title: Kalite emirleri
-description: Bu konuda, kalite emirlerinin el ile veya otomatik olarak nasıl oluşturulacağı ve incelemeler gerçekleştirmek ve Microsoft Dynamics 365 Supply Chain Management'ta test sonuçlarını kaydetmek için bunlarla nasıl çalışılacağı açıklanmaktadır.
+description: Bu makalede, kalite emirlerinin el ile veya otomatik olarak nasıl oluşturulacağı ve incelemeler gerçekleştirmek ve Microsoft Dynamics 365 Supply Chain Management'ta test sonuçlarını kaydetmek için bunlarla nasıl çalışılacağı açıklanmaktadır.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69a4a61a599f1279ec7ad68ebb20c7b4b0f37005
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eb7ab1de0fb4d93ed18f1862630c1af7af7f3095
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571869"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857793"
 ---
 # <a name="quality-orders"></a>Kalite emirleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, kalite emirlerinin el ile veya otomatik olarak nasıl oluşturulacağı ve incelemeler gerçekleştirmek ve Microsoft Dynamics 365 Supply Chain Management'ta test sonuçlarını kaydetmek için bunlarla nasıl çalışılacağı açıklanmaktadır.
+Bu makalede, kalite emirlerinin el ile veya otomatik olarak nasıl oluşturulacağı ve incelemeler gerçekleştirmek ve Microsoft Dynamics 365 Supply Chain Management'ta test sonuçlarını kaydetmek için bunlarla nasıl çalışılacağı açıklanmaktadır.
 
 ## <a name="automatically-created-quality-orders"></a>Otomatik olarak oluşturulan kalite emirleri
 
@@ -39,7 +39,7 @@ El ile kalite emri oluşturmak için aşağıdaki adımları izleyin.
 
 1. **Stok yönetimi \> Periyodik görevler \> Kalite yönetimi \> Kalite emirleri**'ne gidin.
 1. **Yeni**'yi seçin.
-1. **Kalite emirleri** iletişim kutusunda, **Referans türü** alanında, kalite emrinizin ilişkilendirileceği stok başvurusunu seçin. Seçim için kullanılabilen referans türlerinin açıklaması için, bu konunun ilerleyen kısımlarında yer alan [Kalite emri başvuru türleri](#ref-types) bölümüne bakın.
+1. **Kalite emirleri** iletişim kutusunda, **Referans türü** alanında, kalite emrinizin ilişkilendirileceği stok başvurusunu seçin. Seçim için kullanılabilen referans türlerinin açıklaması için, bu makalenin ilerleyen kısımlarında yer alan [Kalite emri başvuru türleri](#ref-types) bölümüne bakın.
 
     > [!NOTE]
     > Seçilen referansla ilgili stoğun kullanılabilir durumda olması gerekir. Seçtiğiniz referans türü, miktar ve stok boyutları birleşimi için kullanılabilir bir stok yoksa, bir hata iletisi alırsınız.
@@ -88,7 +88,7 @@ Kalite emri sayfasını, el ile yeni bir kalite emri oluşturmak veya başka bir
 
 ### <a name="from-the-quality-orders-page"></a>Kalite emirleri sayfasından
 
-Kalite emirlerini elle oluşturmak ve mevcut tüm kalite emirlerini görüntülemek için **Stok Yönetimi \> Periyodik görevler \> Kalite yönetimi \> Kalite emirleri**'ne gidin. Bu konunun geri kalan bölümleri, **Kalite emirleri** sayfasıyla nasıl çalışılacağı hakkında daha fazla bilgi sağlar.
+Kalite emirlerini elle oluşturmak ve mevcut tüm kalite emirlerini görüntülemek için **Stok Yönetimi \> Periyodik görevler \> Kalite yönetimi \> Kalite emirleri**'ne gidin. Bu makalenin geri kalan bölümleri, **Kalite emirleri** sayfasıyla nasıl çalışılacağı hakkında daha fazla bilgi sağlar.
 
 ### <a name="from-sales-orders"></a>Satış siparişlerinden
 

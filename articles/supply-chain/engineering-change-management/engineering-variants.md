@@ -1,6 +1,6 @@
 ---
 title: Mühendislik ürünleri için çeşitler oluşturma
-description: Bu konuda, mühendislik ürünleri için çeşitlerin nasıl oluşturulacağı açıklanmaktadır
+description: Bu makalede, mühendislik ürünleri için çeşitlerin nasıl oluşturulacağı açıklanmaktadır
 author: t-benebo
 ms.date: 06/08/2021
 ms.topic: article
@@ -10,22 +10,22 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 7921983a965af5557f54f608418c8ec922256ba6
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 08feb66dedfa79f5a21a7723a22f3bef883431e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103650"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870767"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Mühendislik ürünleri için çeşitler oluşturma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, mühendislik ürünleri için çeşitlerin nasıl oluşturulacağı açıklanmaktadır.
+Bu makalede, mühendislik ürünleri için çeşitlerin nasıl oluşturulacağı açıklanmaktadır.
 
 ## <a name="turn-variant-generation-for-engineering-products-on-or-off"></a>Mühendislik ürünleri için varyant oluşturma özelliğini açma veya kapatma
 
-Bu konuda açıklanan işlev, sisteminiz için hem *Mühendislik Değişiklik Yönetimi* hem de *Mühendislik ürünleri için varyant oluşturma* özelliğinin açık olmasını gerektirir. Bu özelliklerin nasıl açılacağı veya kapatılacağı hakkında ayrıntılar için bkz. [Mühendislik değişiklik yönetimine genel bakış](product-engineering-overview.md).
+Bu makalede açıklanan işlev, sisteminiz için hem *Mühendislik Değişiklik Yönetimi* hem de *Mühendislik ürünleri için varyant oluşturma* özelliğinin açık olmasını gerektirir. Bu özelliklerin nasıl açılacağı veya kapatılacağı hakkında ayrıntılar için bkz. [Mühendislik değişiklik yönetimine genel bakış](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Mühendislik ürününün bir veya daha fazla yeni çeşidini oluşturma
 

@@ -1,6 +1,6 @@
 ---
 title: Satış noktasında (POS) müşteri giriş bildirimlerini etkinleştirme
-description: Bu konuda, Microsoft Dynamics 365 Commerce satış noktasında (POS) müşteri giriş bildirimlerinin nasıl etkinleştirileceği açıklanmıştır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce satış noktasında (POS) müşteri giriş bildirimlerinin nasıl etkinleştirileceği açıklanmıştır.
 author: bicyclingfool
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 95b4e3a1750cf072db919492f7445e87654701da
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ae53657c95128eae793f670bd9dbc31d9fac0fe4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983173"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885157"
 ---
 # <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>Satış noktasında (POS) müşteri giriş bildirimlerini etkinleştirme
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce satış noktasında (POS) müşteri giriş bildirimlerinin nasıl etkinleştirileceği açıklanmıştır.
+Bu makalede, Microsoft Dynamics 365 Commerce satış noktasında (POS) müşteri giriş bildirimlerinin nasıl etkinleştirileceği açıklanmıştır.
 
 "Sipariş teslim alma için hazır" e-postalarında kuruluşlar, müşterilere, şirket içinde bulunduklarını ve paketin kendilerine teslim edilmesini beklediklerini mağazaya bildirmelerine olanak tanıyan bir bağlantı veya düğme sunabilir. Ardından müşteriler giriş alır ve mağaza, POS uygulamasında görev olarak bir bildirim alır. Bu görev, bir satış temsilcisinin siparişi müşterinin aracına teslim etmesi için bir istem görevi görür. Bu sayede müşterinin mağazaya girmesi gerekmez.
 
@@ -70,7 +70,7 @@ Müşteri girişi özelliğini test etmek için şu adımları izleyin.
 1. Sayfayı iade edin ancak yayınlamayın.
 1. Teslim alma modu için paketleme tamamlandı bildirim türünün çağırdıüı bir e-posta şablonuna aşağıdaki bağlantıyı ekleyin. Daha fazla bilgi için bkz. [İşlem tabanlı olaylar için e-posta şablonları oluşturma](email-templates-transactions.md).
 
-    - **Üretim öncesi (UAT) ortamlar için:** Bu konunun önceki bölümlerindeki [İşlem tabanlı e-posta şablonlarını yapılandırma](#configure-the-transactional-email-template) bölümünde yer alan kod snippet'ini ekleyin.
+    - **Üretim öncesi (UAT) ortamlar için:** Bu makalenin önceki bölümlerindeki [İşlem tabanlı e-posta şablonlarını yapılandırma](#configure-the-transactional-email-template) bölümünde yer alan kod snippet'ini ekleyin.
     - **Üretim ortamları için:** Var olan müşterilerin etkilenmemesi için aşağıdaki yorumlukodu ekleyin.
 
         `<!-- https://[DOMAIN]/[CHECK_IN_PAGE]?channelReferenceId=%confirmationid%&channelId=%pickupchannelid%&packingSlipId=%packingslipid%&preview=inprogress -->`

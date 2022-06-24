@@ -1,6 +1,6 @@
 ---
 title: Mühendislik değişim yönetimi SSS
-description: Bu konu, mühendislik değişim yönetimi özelliği hakkında sık sorulan soruların yanıtlarını verilmektedir.
+description: Bu makale, mühendislik değişim yönetimi özelliği hakkında sık sorulan soruların yanıtlarını verilmektedir.
 author: t-benebo
 ms.date: 03/25/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dee16f9d6f8ea583f221a7f6eb466675c8c622d0
-ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
+ms.openlocfilehash: 16d29fa6485bae866a5209a855dfb928e8bc4783
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8007619"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870796"
 ---
 # <a name="engineering-change-management-faq"></a>Mühendislik değişim yönetimi SSS
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, mühendislik değişim yönetimi özelliği hakkında sık sorulan soruların yanıtlarını verilmektedir.
+Bu makale, mühendislik değişim yönetimi özelliği hakkında sık sorulan soruların yanıtlarını verilmektedir.
 
 ## <a name="should-i-track-the-version-in-transactions"></a>Sürümü hareketlerde takip etmeli miyim?
 

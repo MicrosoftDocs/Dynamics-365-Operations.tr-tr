@@ -1,6 +1,6 @@
 ---
 title: Transitteki malları işleme
-description: Bu konuda, transitteki mal siparişleriyle nasıl çalışılacağı açıklanmaktadır. Transitteki malların işlenmesini kullanmak üzere bir sipariş veya seyahat ayarlandığında, mallar tüketim için ambara alınmadan önce faturalanabilir.
+description: Bu makalede, transitteki mal siparişleriyle nasıl çalışılacağı açıklanmaktadır. Transitteki malların işlenmesini kullanmak üzere bir sipariş veya seyahat ayarlandığında, mallar tüketim için ambara alınmadan önce faturalanabilir.
 author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8df07c7c94cf64b0e4cf1def794270e176241b5f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 47e5ef2ef99fcf23af73cfdb6ec57b92ad62f18c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694669"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854398"
 ---
 # <a name="goods-in-transit-processing"></a>Transitteki malları işleme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, transitteki mal siparişleriyle nasıl çalışılacağı açıklanmaktadır. Bu tür siparişler yalnızca **Varış yeri maliyeti** modülü tarafından kullanılır. Bir sipariş veya seyahat, transitteki malları işlemek üzere ayarlandığında, malları faturalamadan önce ambara alınana kadar beklemeniz gerekmemektedir. Bunun yerine, mallar satıcının ambarı veya çıkış limanından ayrıldığında faturalanır ve seyahat başladığında mali maliyetler tanınır. Bu işlevsellik, malların sevkiyat limanından ayrıldığında genellikle kuruluşunuzun malı haline gelmesi nedeniyle stokun sahipliğini doğru bir şekilde almanızı sağlar.
+Bu makalede, transitteki mal siparişleriyle nasıl çalışılacağı açıklanmaktadır. Bu tür siparişler yalnızca **Varış yeri maliyeti** modülü tarafından kullanılır. Bir sipariş veya seyahat, transitteki malları işlemek üzere ayarlandığında, malları faturalamadan önce ambara alınana kadar beklemeniz gerekmemektedir. Bunun yerine, mallar satıcının ambarı veya çıkış limanından ayrıldığında faturalanır ve seyahat başladığında mali maliyetler tanınır. Bu işlevsellik, malların sevkiyat limanından ayrıldığında genellikle kuruluşunuzun malı haline gelmesi nedeniyle stokun sahipliğini doğru bir şekilde almanızı sağlar.
 
 Transitteki mal siparişleri kullanıldığında, mali olarak güncelleştirilmiş maddeler, transitteki mal ambarı olarak bilinen geçici bir ambara alınır. Mallar daha sonra son hedef ambara (diğer bir deyişle, satın alma satırında tanımlanan ambar) alınana kadar bu ambarda kalır. Bunlar el ile kaldırılamaz.
 

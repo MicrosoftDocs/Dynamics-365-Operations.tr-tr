@@ -1,6 +1,6 @@
 ---
 title: Üretim katı yürütme arabirimini tasarlama
-description: Bu konuda her yapılandırma için kullanıcı arabirimi içeriğinin nasıl tasarlanacağı açıklanmaktadır.
+description: Bu makalede her yapılandırma için kullanıcı arabirimi içeriğinin nasıl tasarlanacağı açıklanmaktadır.
 author: johanhoffmann
 ms.date: 12/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ee206ced76dbdd356c77d34a4b8f197879e9a3f0
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 66190ab261d19c718e13801c17a34b915ccf158c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384784"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852258"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimini tasarlama
 

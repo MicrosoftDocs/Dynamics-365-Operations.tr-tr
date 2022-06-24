@@ -1,6 +1,6 @@
 ---
 title: Küçük paket sevkiyatı
-description: Bu konuda, küçük paket sevkiyatı (SPS) özelliğiyle ilgili bilgiler verilir. Bu özellik, paketlenmiş konteyner hakkındaki ayrıntıların taşıyıcıya gönderilmesi ve ardından söz konusu taşıyıcıdan gönderim etiketi, sevkiyat ücreti ve izleme numarası almak için Microsoft Dynamics 365 Supply Chain Management'ı etkinleştirmeyi sağlar.
+description: Bu makalede, küçük paket sevkiyatı (SPS) özelliğiyle ilgili bilgiler verilir. Bu özellik, paketlenmiş konteyner hakkındaki ayrıntıların taşıyıcıya gönderilmesi ve ardından söz konusu taşıyıcıdan gönderim etiketi, sevkiyat ücreti ve izleme numarası almak için Microsoft Dynamics 365 Supply Chain Management'ı etkinleştirmeyi sağlar.
 author: Mirzaab
 ms.date: 01/08/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: e8e2bda39b9de241d17fcf3cb9acce2b8015efd2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7bafd4a5118de5ca6025c6bd74fe436aa6abd1c8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687630"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855917"
 ---
 # <a name="small-parcel-shipping"></a>Küçük paket sevkiyatı
 
@@ -54,7 +54,7 @@ Tanıtım amaçlı değerlendirme altyapısını edinmek için aşağıdaki adı
 
 #### <a name="create-and-deploy-functional-rate-engines"></a>İşlevsel değerlendirme altyapıları oluşturma ve dağıtma
 
-Üretim veya test ortamında kullanılabilmeleri için işlevsel değerlendirme altyapılarının nasıl oluşturulduğu ve dağıtılacağı hakkında bilgi için, aşağıdaki konulara bakın:
+Üretim veya test ortamında kullanılabilmeleri için işlevsel değerlendirme altyapılarının nasıl oluşturulduğu ve dağıtılacağı hakkında bilgi için, aşağıdaki makalelere bakın:
 
 - [Yeni bir taşıma yönetimi altyapısı oluşturma](../transportation/create-new-transportation-management-engine.md)
 - [Taşıma yönetimi altyapılarını ayarlama](/dynamicsax-2012/appuser-itpro/set-up-transportation-management-engines)
@@ -77,7 +77,7 @@ SPS için bir değerlendirme altyapısı oluşturup dağıttıktan sonra, bu alt
 
 ## <a name="example-scenario"></a>Örnek senaryo
 
-Bu örnek senaryo, bu konunun önceki bölümlerinde anlatılan şekilde sisteminizi hazırladıktan sonra SPS'nin nasıl ayarlanacağını ve kullanılacağını gösterir. Bu senaryoda, yukarıda sözü edilen tanıtım amaçlı değerlendirme altyapısı kullanılır.
+Bu örnek senaryo, bu makalenin önceki bölümlerinde anlatılan şekilde sisteminizi hazırladıktan sonra SPS'nin nasıl ayarlanacağını ve kullanılacağını gösterir. Bu senaryoda, yukarıda sözü edilen tanıtım amaçlı değerlendirme altyapısı kullanılır.
 
 ### <a name="make-demo-data-available"></a>Tanıtım verilerini kullanılabilir hale getirme
 
@@ -147,7 +147,7 @@ Taşıyıcı hizmeti hesabını ayarlamak için aşağıdaki adımları izleyin.
 
 Konteyner paketleme ilkesi ayarlamak için aşağıdaki adımları izleyin.
 
-1. Daha önce bir ZPL yazıcı tanımı ayarlamadıysanız ayarlamak için Belge Yönlendirme Aracısını uygulamasını kullanın. Daha fazla bilgi için [Belge yazdırmaya genel bakış](../../fin-ops-core/dev-itpro/analytics/print-documents.md) ve ilgili konuları inceleyin.
+1. Daha önce bir ZPL yazıcı tanımı ayarlamadıysanız ayarlamak için Belge Yönlendirme Aracısını uygulamasını kullanın. Daha fazla bilgi için [Belge yazdırmaya genel bakış](../../fin-ops-core/dev-itpro/analytics/print-documents.md) ve ilgili makaleleri inceleyin.
 1. **Ambar Yönetimi\> Kurulum \> Konteynerler \> Konteyner paketleme ilkeleri**'ne gidin.
 1. Eylem bölmesinde konteyner paketleme ilkesi eklemek için **Yeni**'yi seçin.
 1. Yeni ilkenin üst bilgisinde aşağıdaki değerleri ayarlayın:

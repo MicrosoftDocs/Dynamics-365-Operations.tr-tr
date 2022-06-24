@@ -1,6 +1,6 @@
 ---
 title: Sevkiyat konteynerleri
-description: Bu konuda, Varış yeri maliyeti modülü için sevkiyat konteynerlerinin nasıl ayarlanacağı açıklanmaktadır.
+description: Bu makalede, Varış yeri maliyeti modülü için sevkiyat konteynerlerinin nasıl ayarlanacağı açıklanmaktadır.
 author: Weijiesa
 ms.date: 12/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 96710cf2b5a2e39f9492aadb0ba6f3241f0666f4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 345f815a4f85db30db18aba3f8a4d41835c2e3f2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690568"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860856"
 ---
 # <a name="shipping-container-setup"></a>Sevkiyat konteyneri kurulumu
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, **Varış yeri maliyeti** modülü için sevkiyat konteynerlerinin nasıl ayarlanacağı açıklanmaktadır.
+Bu makalede, **Varış yeri maliyeti** modülü için sevkiyat konteynerlerinin nasıl ayarlanacağı açıklanmaktadır.
 
 ## <a name="set-up-shipping-container-types"></a><a id="shipping-container-types"></a>Sevkiyat konteyneri türlerini ayarlama
 
@@ -53,7 +53,7 @@ Sevkiyat konteynerleriyle çalışmak için **Varış yeri maliyeti \> Konteyner
 | Alan | Tanım |
 |---|---|
 | Sevkiyat konteyneri | Sevkiyat konteyneri için benzersiz bir tanımlama adı/numarası girin. |
-| Sevkiyat konteyneri türü | Sevkiyat konteyneri türünü seçin. Daha fazla bilgi için bu konuda daha önce ele alınan [Sevkiyat konteyneri türlerini ayarlama](#shipping-container-types) bölümüne bakın. |
+| Sevkiyat konteyneri türü | Sevkiyat konteyneri türünü seçin. Daha fazla bilgi için bu makalede daha önce ele alınan [Sevkiyat konteyneri türlerini ayarlama](#shipping-container-types) bölümüne bakın. |
 
 > [!NOTE]
 > - Sevkiyat konteyneri kurulumu isteğe bağlıdır. Genellikle, yalnızca şirketiniz kendi sevkiyat konteynerlerine sahipse veya genellikle aynı sevkiyat konteynerlerini yeniden kullanıyorsa kullanırsınız.

@@ -1,6 +1,6 @@
 ---
-title: Ambar Yönetimi mobil uygulamasında kamera kullanarak barkodları tarama
-description: Bu konuda, bir mobil cihazdaki kamerayı kullanarak barkodları taramak için Ambar Yönetimi mobil uygulamasının nasıl ayarlanacağı açıklanmaktadır.
+title: Warehouse Management mobil uygulamasında kamera kullanarak barkodları tarama
+description: Bu makalede, bir mobil cihazdaki kamerayı kullanarak barkodları taramak için Ambar Yönetimi mobil uygulamasının nasıl ayarlanacağı açıklanmaktadır.
 author: Mirzaab
 ms.date: 01/03/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: cc58d88865fea17e0e27463b25e2ba815ee1a5b1
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 8459ea6912328fa589b92f1731551f56df89c11b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901999"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862351"
 ---
-# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulamasında kamera kullanarak barkodları tarama
+# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasında kamera kullanarak barkodları tarama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, bir mobil cihazdaki kamerayı kullanarak barkodları taramak için Ambar Yönetimi mobil uygulamasının nasıl ayarlanacağı açıklanmaktadır.
+Bu makalede, bir mobil cihazdaki kamerayı kullanarak barkodları taramak için Ambar Yönetimi mobil uygulamasının nasıl ayarlanacağı açıklanmaktadır.
 
 ## <a name="setup"></a>Ayar
 

@@ -1,6 +1,6 @@
 ---
 title: Ürün boyutu değerlerini renk örneği olarak görünecek şekilde yapılandırma
-description: Bu konuda, ürün boyutu değerlerinin Microsoft Dynamics 365 Commerce genel merkezde renk örnekleri olarak nasıl yapılandırılacağı açıklanmaktadır.
+description: Bu makalede, ürün boyutu değerlerinin Microsoft Dynamics 365 Commerce Headquarters'da renk örnekleri olarak nasıl yapılandırılacağı açıklanmaktadır.
 author: anupamar-ms
 ms.date: 08/02/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a21e02a8e5aacfa5251b9b7bcbc451fa886d37f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764626"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892664"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Ürün boyutu değerlerini renk örneği olarak görünecek şekilde yapılandırma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, ürün boyutu değerlerinin Microsoft Dynamics 365 Commerce genel merkezde renk örnekleri olarak nasıl yapılandırılacağı açıklanmaktadır. Ürün boyutları hakkında daha fazla bilgi için bkz. [Ürün boyutları](../../supply-chain/pim/product-dimensions.md).
+Bu makalede, ürün boyutu değerlerinin Microsoft Dynamics 365 Commerce Headquarters'da renk örnekleri olarak nasıl yapılandırılacağı açıklanmaktadır. Ürün boyutları hakkında daha fazla bilgi için bkz. [Ürün boyutları](../../supply-chain/pim/product-dimensions.md).
 
 Dynamics 365 Commerce, ürün çeşitlerini temsil etmek için boyut, stil ve renk boyutlarının kullanımını destekler. Ürün boyutları, ürün varyasyonlarının seçilebilmesi için ürün ayrıntıları sayfalarında (PDF) gösterilen kolay adlara sahiptir. Bu kolay adlara örnek olarak boyutlar için "Küçük", "Orta" ve "Büyük", renkler için "Siyah" ve "Kahverengi" verilebilir. Ancak, bir ürün birçok varyasyonu destekliyorsa her varyasyon için görüntüyü görüntülemek için birden fazla seçim gerekir. Bu nedenle, müşterilerin ürün varyasyonlarına göz atıp seçmesi yavaş ve sıkıcı olabilir.
 

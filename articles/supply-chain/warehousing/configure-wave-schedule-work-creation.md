@@ -1,6 +1,6 @@
 ---
 title: Dalga sırasında iş oluşturmayı zamanlama
-description: Bu konu, İş oluşturmayı zamanlama dalga işleme yönteminin nasıl ayarlanacağını ve kullanılacağını açıklamaktadır.
+description: Bu makale, İş oluşturmayı zamanlama dalga işleme yönteminin nasıl ayarlanacağını ve kullanılacağını açıklamaktadır.
 author: Mirzaab
 ms.date: 01/14/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c955e7275c0bdc12dc206dde1d7e390f16270148
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8b4505d66c37134bc8f672b38d195f4f677df9bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691145"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852084"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Dalga sırasında iş oluşturmayı zamanlama
 
@@ -30,7 +30,7 @@ Sistemin paralel işlemeyi kullanarak iş oluşturmasıyla dalga işleme aktarı
 
 ## <a name="turn-on-the-scheduled-work-creation-features-in-feature-management"></a>Özellik yönetiminde, planlanan iş oluşturma özelliklerini açma
 
-Bu konuda açıklanan özellikleri kullanmak için, bunlar sisteminiz için açık olmalıdır. Aşağıdaki özellikleri aşağıdaki sırada açmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanın:
+Bu makalede açıklanan özellikleri kullanmak için, bunlar sisteminiz için açık olmalıdır. Aşağıdaki özellikleri aşağıdaki sırada açmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanın:
 
 1. **Kuruluş genelinde iş durdurma**: Planlanan iş oluşturma işleminin hem el ile hem de otomatik yapılandırması için gereklidir. (Supply Chain Management sürüm 10.0.21 itibariyle bu özellik zorunludur; bu nedenle varsayılan olarak açıktır ve yeniden kapatılamaz.)
 1. **İş oluşturmayı planlama**: Planlanan iş oluşturma işleminin hem el ile hem de otomatik yapılandırması için gereklidir.

@@ -1,6 +1,6 @@
 ---
 title: Hediye kartı ve alacak faturası işlemleri için sorunsuz çevrimdışı geçiş
-description: Bu konu, belirli ödeme tipleri için kesintisiz bir çevrimdışı anahtar sağlayan gelişmelere genel bakış sağlar.
+description: Bu makale, belirli ödeme tipleri için kesintisiz bir çevrimdışı anahtar sağlayan gelişmelere genel bakış sağlar.
 author: BrianShook
 ms.date: 02/11/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 59f1a0b213bd22906ba8b2c3e7da38a9818f6d4f
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: e0416a61bd5fd3b875b427ad8a6313d0e9936f0d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779504"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869173"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Hediye kartı ve alacak faturası işlemleri için sorunsuz çevrimdışı geçiş
 
 [!include [banner](../includes/banner.md)]
 
-Bir satış noktası (POS) aygıtının, kanal veritabanıyla olan bağlantısını kaybederse, kasiyerin bağlantı kaybı ile ilgili bir uyarı iletisi aldıktan sonra sürmekte olan POS işlemleri ve hareketlerinin çoğu devam edebilir. Ancak, bazı durumlarda, hareketler gerçek zamanlı servise bağlı olan öğelere sahiptir ve POS çevrimdışıyken bu öğeler desteklenmez. Bu konu, bu senaryolarda kaybedilen bağlantının etkisini azaltmaya yardımcı olan bazı işlevleri açıklamaktadır.
+Bir satış noktası (POS) aygıtının, kanal veritabanıyla olan bağlantısını kaybederse, kasiyerin bağlantı kaybı ile ilgili bir uyarı iletisi aldıktan sonra sürmekte olan POS işlemleri ve hareketlerinin çoğu devam edebilir. Ancak, bazı durumlarda, hareketler gerçek zamanlı servise bağlı olan öğelere sahiptir ve POS çevrimdışıyken bu öğeler desteklenmez. Bu makale, bu senaryolarda kaybedilen bağlantının etkisini azaltmaya yardımcı olan bazı işlevleri açıklamaktadır.
 
 ## <a name="completing-gift-card-transactions-in-offline-mode"></a>Çevrimdışı modda hediye kartı hareketlerinin sonuçlandırma
 
@@ -50,7 +50,7 @@ Dahili hediye kartları gibi, iade faturaları da Commerce Headquarters'da merke
 
 Commerce parametreleri genellikle önbelleğe alınır. Bu nedenle, bu parametrenin ayarı güncelleştirildikten ve dağıtım zamanlaması, değişikliğin kanalla eşitlenmesi için başlatıldığından, değişikliğin etkili olması 24 saate kadar sürebilir. Değişikliğin hemen etkin hale getirmek için IIS'yi sıfırlayın.
 
-## <a name="related-topics"></a>İlgili konular
+## <a name="related-articles"></a>İlgili makaleler
 
 - [Çevrimdışı satış noktası (POS) işlevleri](../pos-offline-functionality.md)
 - [Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri](../pos-operations.md)

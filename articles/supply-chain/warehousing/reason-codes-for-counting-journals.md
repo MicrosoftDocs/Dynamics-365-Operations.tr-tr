@@ -1,6 +1,6 @@
 ---
 title: Stok sayımı neden kodları
-description: Bu konu sayım görevleri için neden kodlarının nasıl ayarlanacağını ve uygulanacağını açıklar.
+description: Bu makale sayım görevleri için neden kodlarının nasıl ayarlanacağını ve uygulanacağını açıklar.
 author: perlynne
 ms.date: 08/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 7d182f1d979543eeec700924d2bd180ee06be8ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500612"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857126"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Stok sayımı neden kodları
 
@@ -42,7 +42,7 @@ Sistemi ayarlamadan önce neden kodları ile çalışmak için bir strateji tan�
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Sisteminizdeki neden kodu özelliklerini açma
 
-Bu konuda açıklanan tüm özellikleri sisteminizde görmüyorsanız muhtemelen *Mahsup hesaplara bağlı yapılandırılabilir neden kodlarını kullanarak eldeki stok ayarlamalarını deftere nakletme* özelliğini açmanız gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
+Bu makalede açıklanan tüm özellikleri sisteminizde görmüyorsanız muhtemelen *Mahsup hesaplara bağlı yapılandırılabilir neden kodlarını kullanarak eldeki stok ayarlamalarını deftere nakletme* özelliğini açmanız gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
 
 - **Modül:** *Ambar yönetimi*
 - **Özellik adı:** *Mahsup hesaplara bağlı yapılandırılabilir neden kodlarını kullanarak eldeki stok ayarlamalarını deftere nakletme*
@@ -111,7 +111,7 @@ Sayım nedeni kodlarınızı ayarlamak için aşağıdaki adımları izleyin.
 
 ### <a name="set-up-counting-reason-code-groups"></a><a name="reason-groups"></a>Sayım nedeni kodu grupları ayarlama
 
-*Sayım nedeni kodu grupları*, sayım nedeni kodları listesini sınırlamak için Warehouse Management mobil uygulamasında *Ayarlama etkin* ve *Ayarlama devre dışı* menü öğelerinin parçası olarak kullanılabilir. (Sayım nedeni kodu grupları hakkında daha fazla bilgi için bu bölümün ilerleyen bölümlerinde yer alan [Ayarlama etkin ve Ayarlama devre dışı için mobil cihaz menü öğeleri ayarlama](#setup-adjustment-in-out) bölümüne bakın.)
+*Sayım nedeni kodu grupları*, sayım nedeni kodları listesini sınırlamak için Warehouse Management mobil uygulamasında *Ayarlama etkin* ve *Ayarlama devre dışı* menü öğelerinin parçası olarak kullanılabilir. (Sayım nedeni kodu grupları hakkında daha fazla bilgi için bu makalenin ilerleyen bölümlerinde yer alan [Ayarlama etkin ve Ayarlama devre dışı için mobil cihaz menü öğeleri ayarlama](#setup-adjustment-in-out) bölümüne bakın.)
 
 1. **Stok yönetimi** \> **Kurulum** \> **Stok** \> **Sayım nedeni kodu grupları**'na gidin.
 1. Eylem Bölmesi'nde, bir grup eklemek için **Yeni**'yi seçin.
@@ -174,7 +174,7 @@ Ayarlama etkin ve ayarlama devre dışı için mobil cihaz menü öğesi ayarlam
         - *Gizle*: Neden kodunu göstermez.
 
     - **Sayım nedeni kodunu düzenle**: Sayım sırasında mobil cihazda gösterildiğinde çalışanın neden kodunu düzenlemesine izin vermek için bu seçeneği *Evet* olarak ayarlayın. Çalışanın kodu düzenlemesini önlemek için *Hayır* olarak ayarlayın.
-    - **Sayım nedeni kodu grubu**: Çalışanlara sunulan seçeneklerin listesini sınırlandırmak istiyorsanız bir neden kodu grubu seçin. Neden kodu gruplarını ayarlamak hakkında daha fazla bilgi için bu konunun önceki bölümündeki [Sayım nedeni kodu ilkesi ayarlama](#reason-groups) bölümüne bakın. 
+    - **Sayım nedeni kodu grubu**: Çalışanlara sunulan seçeneklerin listesini sınırlandırmak istiyorsanız bir neden kodu grubu seçin. Neden kodu gruplarını ayarlamak hakkında daha fazla bilgi için bu makalenin önceki bölümündeki [Sayım nedeni kodu ilkesi ayarlama](#reason-groups) bölümüne bakın. 
 
 > [!NOTE]
 > Sayım nedeni kodu grubunu **İşlem kılavuzu kullan** seçeneğinin *Evet* olarak ayarlandığı *Ayarlama etkin* ve *Ayarlama devre dışı* menü öğelerine atadığınızda Warehouse Management mobil uygulamasında işlemenin parçası olarak sayım nedeni kodlarının sınırlı bir listesini alabilirsiniz.

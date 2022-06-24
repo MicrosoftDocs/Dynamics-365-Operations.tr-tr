@@ -1,6 +1,6 @@
 ---
 title: Servis aralıkları
-description: Bu konuda, servis aralıklarıyla nasıl çalışılacağına ilişkin bir genel bakış sağlanmaktadır. Servis sözleşmesi aralığı, servis siparişlerini otomatik olarak oluşturduğunuzda servis siparişi satırlarının oluşturulma sıklığını gösterir.
+description: Bu makalede, servis aralıklarıyla nasıl çalışılacağına ilişkin bir genel bakış sağlanmaktadır. Servis sözleşmesi aralığı, servis siparişlerini otomatik olarak oluşturduğunuzda servis siparişi satırlarının oluşturulma sıklığını gösterir.
 author: sorenva
 ms.date: 02/20/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df15340a82bf36f67baa7195e2e318a4216d2c56
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 62708258ac3dca9ac03b44efdc96e3bfd643a255
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675641"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887239"
 ---
 # <a name="service-intervals"></a>Servis aralıkları
 
@@ -87,7 +87,7 @@ Servis siparişinde hiçbir gruplandırma bulunmadığından ( **Servis sipariş
 
 Üç servis siparişi satırı, **Servis siparişleri oluştur** iletişim kutusunda belirttiğiniz zaman çerçevesinin sınırları içinde oluşturulmuştur. Servis siparişi satırlarını **Servis sözleşmeleri** sayfasında (**Eylem Bölmesi** \> **Teslim Et** sekmesi \>**Görüntüle** düğmesi) görüntüleyebilirsiniz.
 
-## <a name="related-topics"></a>İlgili konular
+## <a name="related-articles"></a>İlgili makaleler
 
 [Servis aralıkları ayarlama](set-up-service-intervals.md)  
 

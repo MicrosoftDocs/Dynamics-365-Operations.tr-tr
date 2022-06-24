@@ -1,6 +1,6 @@
 ---
 title: POS'ta giden stok işlemi
-description: Bu konu satış noktası (POS) giden stok operasyonunun yeteneklerini açıklar.
+description: Bu makale satış noktası (POS) giden stok operasyonunun yeteneklerini açıklar.
 author: hhaines
 ms.date: 07/30/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: dd2c124660643628ca4c19dc3a49366b67f29ad3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581150"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850235"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>POS'ta giden stok işlemi
 
@@ -187,7 +187,7 @@ Belge **istenen** duruma girdikten sonra, çıkış ambarı tarafından işlem i
 
 Tam olarak sevk edilen transfer emirleri, **giden operasyon** belgesi listesinin **tam** sekmesine kopyalanır. Burada, giden mağaza veya ambardaki kullanıcılar, salt okunur modda yedi gün süreyle görünür durumda kalırlar.
 
-## <a name="related-topics"></a>İlgili konular
+## <a name="related-articles"></a>İlgili makaleler
 
 [POS'ta gelen stok işlemi](pos-inbound-inventory-operation.md)
 

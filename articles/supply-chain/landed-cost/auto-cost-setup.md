@@ -1,6 +1,6 @@
 ---
 title: Otomatik maliyet kurulumu
-description: Bu konuda, çeşitli gelen seyahat düzeyleri için maliyet kurallarının nasıl ayarlanacağı açıklanmaktadır. Bu kurallara dayanarak sistem maliyetleri hesaplar ve otomatik olarak ekler. Bu nedenle, kullanıcıların maliyetleri el ile eklemesi gerekmez.
+description: Bu makalede, çeşitli gelen seyahat düzeyleri için maliyet kurallarının nasıl ayarlanacağı açıklanmaktadır. Bu kurallara dayanarak sistem maliyetleri hesaplar ve otomatik olarak ekler. Bu nedenle, kullanıcıların maliyetleri el ile eklemesi gerekmez.
 author: Weijiesa
 ms.date: 01/21/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ea788ea8d21c4cb6511188e937166bc3df3cd45a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 02c78789fc7531c267cee936fa30a395e6d0b62f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695346"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852403"
 ---
 # <a name="auto-costs-setup"></a>Otomatik maliyet kurulumu
 
@@ -26,7 +26,7 @@ ms.locfileid: "8695346"
 
 Çeşitli maliyet alanları (seyahatler, sevkiyat konteynerleri, folyolar, satın alma siparişleri, maddeler veya transfer emri satırları gibi) için maliyet kuralları ayarlamak üzere **Otomatik maliyetler** sayfasını kullanabilirsiniz. Kurallara ve kullanıcıların maliyet alanlarından biri için kayıt oluştururken seçtikleri alanlara bağlı olarak sistem maliyetleri hesaplar ve bunları otomatik olarak ekler. Bu nedenle, kullanıcıların maliyetleri el ile eklemesi gerekmez.
 
-Otomatik maliyetlerle çalışmak için **Varış yeri maliyeti \> Maliyet kurulumu \> Otomatik maliyetler**'e gidin. Ardından, bu konunun geri kalanında açıklandığı gibi otomatik maliyet kurallarınızı ayarlayın.
+Otomatik maliyetlerle çalışmak için **Varış yeri maliyeti \> Maliyet kurulumu \> Otomatik maliyetler**'e gidin. Ardından, bu makalenin geri kalanında açıklandığı gibi otomatik maliyet kurallarınızı ayarlayın.
 
 ## <a name="work-with-cost-areas"></a>Maliyet alanlarıyla çalışma
 

@@ -1,6 +1,6 @@
 ---
 title: Sitenize dil ekleme
-description: Bu konu, bir Microsoft Dynamics 365 Commerce sitesine ek diller için nasıl destek ekleneceğini açıklamaktadır.
+description: Bu makale, bir Microsoft Dynamics 365 Commerce sitesine ek diller için nasıl destek ekleneceğini açıklamaktadır.
 author: bicyclingfool
 ms.date: 12/12/2019
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 69ee1d744ce26d5040d80e470b18d87bbddbda26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964566"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871818"
 ---
 # <a name="add-languages-to-your-site"></a>Sitenize dil ekleme
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, bir Microsoft Dynamics 365 Commerce sitesine ek diller için nasıl destek ekleneceğini açıklamaktadır.
+Bu makale, bir Microsoft Dynamics 365 Commerce sitesine ek diller için nasıl destek ekleneceğini açıklamaktadır.
 
-Web sitenizi Commerce destekleyen herhangi bir dilde yerelleştirebilirsiniz. (Desteklenen dillerin listesi bu konunun ilerisinde görüntülenir.) Web sitenize bir dil eklemek için, bunu önce sitenize bağlı olan bir çevrimiçi mağazaya eklemeniz gerekir.
+Web sitenizi Commerce destekleyen herhangi bir dilde yerelleştirebilirsiniz. (Desteklenen dillerin listesi bu makalenin ilerisinde görüntülenir.) Web sitenize bir dil eklemek için, bunu önce sitenize bağlı olan bir çevrimiçi mağazaya eklemeniz gerekir.
 
 ## <a name="add-a-language-to-an-online-store"></a>Çevrimiçi mağazaya dil ekle
 

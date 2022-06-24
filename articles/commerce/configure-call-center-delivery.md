@@ -1,6 +1,6 @@
 ---
 title: Çağrı merkezi teslimat şekillerini ve masraflarını yapılandırma
-description: Bu konu, Dynamics 365 Commerce içinde bir çağrı merkezi siparişinin teslimat modlarını ve giderlerini ayarlamayı açıklar.
+description: Bu makale, Dynamics 365 Commerce içinde bir çağrı merkezi siparişinin teslimat modlarını ve giderlerini ayarlamayı açıklar.
 author: josaw1
 ms.date: 04/26/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bd763082969079de2d68e12483ec25871c332e4067f122c6a845d3acd477af62
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f445e9dabd0210951609170369eae63bcc30ce6b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888310"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Çağrı merkezi teslimat şekillerini ve masraflarını yapılandırma
 
@@ -35,7 +35,7 @@ Commerce'in, kullanıcılara bir kanalın kullanabileceği teslimat şekillerini
 
 Çağrı merkezi siparişleri için kullanılabilecek teslimat şekillerini belirleyip ilişkili kurallar ve masraflar tanımlamadan önce teslimat şekillerini tanımlamanız gerekir. **Satış ve pazarlama \> Kurulum \> Dağıtım \> Teslimat şekilleri**'ne gidin. Yeni bir teslimat şekli oluşturmak için **Yeni**'yi seçin. Alternatif olarak, listedeki mevcut bir teslimat şeklini seçin ve ardından değişiklikler yapmak için **Düzenle**'yi seçin.
 
-**Teslimat şekli** alanında, iş gereksiniminize göre bir alfasayısal karakter birleşimi girebilirsiniz. Bunun ardından, **Açıklama** alanını kullanarak ek içerik girebilirsiniz. **Giderler grubu** ve **Hızlandır** alanları isteğe bağlıdır ve bu konunun ilerleyen bölümlerinde daha ayrıntılı açıklanacaktır.
+**Teslimat şekli** alanında, iş gereksiniminize göre bir alfasayısal karakter birleşimi girebilirsiniz. Bunun ardından, **Açıklama** alanını kullanarak ek içerik girebilirsiniz. **Giderler grubu** ve **Hızlandır** alanları isteğe bağlıdır ve bu makalenin ilerleyen bölümlerinde daha ayrıntılı açıklanacaktır.
 
 **Commerce kanalları** hızlı sekmesinde, satış hareketleri oluşturulurken teslimat şeklini kullanmasına izin verilecek Commerce kanalını ekleyin.
 

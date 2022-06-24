@@ -1,6 +1,6 @@
 ---
 title: Saat ve işe devam kaydına genel bakış
-description: Zaman kayıt çalışanları, örneğin giriş saati, çıkış saati, dolaylı faaliyetlerin kaydı ve devamsızlık kaydı gibi farklı türlerde zaman kayıtları girebilirler. Bu konuda kayıtlar, bunların hesaplanması, onaylanması ve zaman çizelgelerinin onaylanması sürecine yapı ve otomatik onay eklenmesi için iş akışının kullanımı hakkında bilgiler verilmiştir.
+description: Zaman kayıt çalışanları, örneğin giriş saati, çıkış saati, dolaylı faaliyetlerin kaydı ve devamsızlık kaydı gibi farklı türlerde zaman kayıtları girebilirler. Bu makalede kayıtlar, bunların hesaplanması, onaylanması ve zaman çizelgelerinin onaylanması sürecine yapı ve otomatik onay eklenmesi için iş akışının kullanımı hakkında bilgiler verilmiştir.
 author: johanhoffmann
 ms.date: 07/25/2019
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af257427661cb9a0d976800b657d3eb4afe7feca
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f648663d81cd37a1df7794ee9d5ad6598fb16594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986133"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875231"
 ---
 # <a name="time-and-attendance-registration-overview"></a>Saat ve işe devam kaydına genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Zaman kayıt çalışanları, örneğin giriş saati, çıkış saati, dolaylı faaliyetlerin kaydı ve devamsızlık kaydı gibi farklı türlerde zaman kayıtları girebilirler. Bu konuda kayıtlar, bunların hesaplanması, onaylanması ve zaman çizelgelerinin onaylanması sürecine yapı ve otomatik onay eklenmesi için iş akışının kullanımı hakkında bilgiler verilmiştir.
+Zaman kayıt çalışanları, örneğin giriş saati, çıkış saati, dolaylı faaliyetlerin kaydı ve devamsızlık kaydı gibi farklı türlerde zaman kayıtları girebilirler. Bu makalede kayıtlar, bunların hesaplanması, onaylanması ve zaman çizelgelerinin onaylanması sürecine yapı ve otomatik onay eklenmesi için iş akışının kullanımı hakkında bilgiler verilmiştir.
 
 ## <a name="registrations"></a>Kayıtlar
 

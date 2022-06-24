@@ -1,6 +1,6 @@
 ---
 title: Zaman uyumsuz müşterileri zaman uyumlu müşterilere dönüştürme
-description: Bu konu, zaman uyumsuz müşterilerin Microsoft Dynamics 365 Commerce'te zaman uyumlu müşterilere nasıl dönüştürüleceğini açıklamaktadır.
+description: Bu makale, zaman uyumsuz müşterilerin Microsoft Dynamics 365 Commerce'te zaman uyumlu müşterilere nasıl dönüştürüleceğini açıklamaktadır.
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: fc1690ff6068317c748bda0d767a10f306f3debe
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0ce4906816deab8824b1079a34489e55651c0e03
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691456"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884403"
 ---
 # <a name="convert-asynchronous-customers-to-synchronous-customers"></a>Zaman uyumsuz müşterileri zaman uyumlu müşterilere dönüştürme
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, zaman uyumsuz müşterilerin Microsoft Dynamics 365 Commerce'te zaman uyumlu müşterilere nasıl dönüştürüleceğini açıklamaktadır.
+Bu makale, zaman uyumsuz müşterilerin Microsoft Dynamics 365 Commerce'te zaman uyumlu müşterilere nasıl dönüştürüleceğini açıklamaktadır.
 
 Zaman uyumsuz müşterileri zaman uyumlu müşterilere dönüştürmek için bu adımları izleyin.
 

@@ -1,6 +1,6 @@
 ---
 title: Malzeme çekme bilgileri modülü
-description: Bu konu teslim bilgileri modülünü kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün ödeme sayfalarına nasıl ekleneceğini açıklamaktadır.
+description: Bu makale teslim bilgileri modülünü kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün ödeme sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 ms.date: 11/06/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 52015fb973642bfc6f45901e7c1a265f0ccfc415b1324bc62ef77a5fc72550bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad877a0c018093fe97f0aa8ac213357c0520a1c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764573"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892609"
 ---
 # <a name="pickup-information-module"></a>Malzeme çekme bilgileri modülü
 
 [!include [banner](includes/banner.md)]
 
-Bu konu teslim bilgileri modülünü kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün ödeme sayfalarına nasıl ekleneceğini açıklamaktadır.
+Bu makale teslim bilgileri modülünü kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün ödeme sayfalarına nasıl ekleneceğini açıklamaktadır.
 
 Malzeme çekme bilgileri modülü, sipariş alma bilgilerini göstermek amacıyla bir kullanıma alma modülünde kullanılabilir. Müşteriler, mevcut malzeme çekme tarihlerini ve zaman yuvalarını görüntüleyebilir ve sonra siparişini çekmek için uygun bir zaman seçebilirsiniz. Örneğin, bir müşteri San Francisco Store 'dan 21 Mart 'ta 15.00'da siparişi teslim alabilir.
 

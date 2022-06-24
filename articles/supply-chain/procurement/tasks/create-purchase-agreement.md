@@ -1,6 +1,6 @@
 ---
-title: Satınalma sözleşmesi oluşturma
-description: Bu konu bir satın alma sözleşmesi oluşturma aşamasında size yol gösterir.
+title: Satın alma sözleşmesi oluşturma
+description: Bu makale bir satın alma sözleşmesi oluşturma aşamasında size yol gösterir.
 author: GalynaFedorova
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3456e1c6e2ec65329e0f2e984f99ced0994c240b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 108c3a47132b262ebe2e15f00d26191b75469959
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670168"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877580"
 ---
-# <a name="create-a-purchase-agreement"></a>Satınalma sözleşmesi oluşturma
+# <a name="create-a-purchase-agreement"></a>Satın alma sözleşmesi oluşturma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu bir satın alma sözleşmesi oluşturma aşamasında size yol gösterir. Bu genellikle bir satın alma yöneticisi tarafından yapılır. Bu yordamı, demo verileri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz. Başlamadan önce satınalma sözleşmesi sınıflandırmaları ayarlamış olmanız gerekir. Bir anlaşma oluşturduğunuzda bunu bir satınalma siparişi oluşturmak için kullanabilirsiniz ve bu satınalma sözleşmesinin koşulları, başlığa ve sözleşme tarafından etkilenen tüm sipariş satırlarına kopyalanır.
+Bu makale bir satın alma sözleşmesi oluşturma aşamasında size yol gösterir. Bu genellikle bir satın alma yöneticisi tarafından yapılır. Bu yordamı, demo verileri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz. Başlamadan önce satınalma sözleşmesi sınıflandırmaları ayarlamış olmanız gerekir. Bir anlaşma oluşturduğunuzda bunu bir satınalma siparişi oluşturmak için kullanabilirsiniz ve bu satınalma sözleşmesinin koşulları, başlığa ve sözleşme tarafından etkilenen tüm sipariş satırlarına kopyalanır.
 
 
 ## <a name="create-a-new-purchase-agreement"></a>Yeni bir satınalma sözleşmesi oluşturun.

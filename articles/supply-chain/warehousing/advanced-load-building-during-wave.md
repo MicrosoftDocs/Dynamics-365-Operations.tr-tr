@@ -1,6 +1,6 @@
 ---
 title: Dalga sırasında gelişmiş yük oluşturma
-description: Bu konu, dalga yürütme sırasında varolan dalgalara otomatik olarak sevkiyat atayan gelişmiş dalga yükü Binası hakkında bilgi sağlar. Bu nedenle, yükleme planlama ekranını kullanmak zorunda kalmadan, kamyonları temsil eden anlamlı yüklemeler oluşturabilirsiniz.
+description: Bu makale, dalga yürütme sırasında varolan dalgalara otomatik olarak sevkiyat atayan gelişmiş dalga yükü Binası hakkında bilgi sağlar. Bu nedenle, yükleme planlama ekranını kullanmak zorunda kalmadan, kamyonları temsil eden anlamlı yüklemeler oluşturabilirsiniz.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0dafac981bcdec307de6dc202f557e7b8837ae2e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3a630a7f388e0bbb6fee96e4de753b2380d305c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670531"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863780"
 ---
 # <a name="advanced-load-building-during-wave"></a>Dalga sırasında gelişmiş yük oluşturma
 
@@ -166,7 +166,7 @@ Karışım gruplarını yükle tek bir yüklemede birleştirilebilecek öğe tü
 1. **Karışım grubu ölçütünü Yükle** hızlı sekmesinde, kılavuza satır eklemek için **yeni** 'yi seçin.
 1. Yeni satırda, her bir alanda istenen değerleri ayarlayın. Bu değerler, yükleme karışımı için dikkate alınan madde gruplarını belirler.
 
-    **USMF** demo verileriyle çalışıyorsanız, *madde grubu* alanında **TV & videosu** 'ni seçin.
+    **USMF** demo verileriyle çalışıyorsanız, *madde grubu* alanında **TV ve Video**'yu seçin.
 
 1. Eylem bölmesinde, **Yük karışımını grup kısıtlamaları** Hızlı sekmesi 'ni kullanılabilir hale getirmek için **Kaydet** 'i seçin.
 1. **Yük karışım grubu kısıtlamaları** hızlı sekmesinde, kılavuza satır eklemek için **yeni** 'yi seçin.
@@ -220,7 +220,7 @@ Karışım gruplarını yükle tek bir yüklemede birleştirilebilecek öğe tü
 
 ## <a name="scenario"></a>Senaryo
 
-Bu senaryo, bir satış siparişi işlendiği sırada bu konuda daha önce açıklanan ayarların Ambar işlemlerini nasıl etkilediğini gösterir. Bu senaryo, **USMF** demo verilerini bu kurulum yönergelerinde sağlanan diğer gösteri değerleriyle birlikte kullanır.
+Bu senaryo, bir satış siparişi işlendiği sırada bu makalede daha önce açıklanan ayarların Ambar işlemlerini nasıl etkilediğini gösterir. Bu senaryo, **USMF** demo verilerini bu kurulum yönergelerinde sağlanan diğer gösteri değerleriyle birlikte kullanır.
 
 ### <a name="create-sales-orders"></a>Satış siparişleri oluşturma
 

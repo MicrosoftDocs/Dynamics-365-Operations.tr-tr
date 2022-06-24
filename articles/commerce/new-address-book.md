@@ -1,6 +1,6 @@
 ---
 title: Yeni adres defteri oluşturun
-description: Bu konuda, Microsoft Dynamics 365 Commerce'e adres defterleri oluşturma yöntemi açıklanmıştır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce'e adres defterleri oluşturma yöntemi açıklanmıştır.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f28e9d301b0a3c30f903ccc32e785ae09f0d702f3625f5febe03817ba44046ce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7bee4999255e063da946d38561146f5beb98dbc8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729866"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889380"
 ---
 # <a name="create-new-address-book"></a>Yeni adres defteri oluşturun
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce'e yeni adres defteri oluşturma yöntemi açıklanmıştır.
+Bu makalede, Microsoft Dynamics 365 Commerce'e yeni adres defteri oluşturma yöntemi açıklanmıştır.
 
 Adres defterleri, bir kanalın müşteri listelerini ve çalışan listelerini depolamak gibi çeşitli nedenlerle Commerce 'ta kullanılır. Adres defterleri tek bir kanal için kullanılabilir veya kanallar arasında paylaşılabilir.
 

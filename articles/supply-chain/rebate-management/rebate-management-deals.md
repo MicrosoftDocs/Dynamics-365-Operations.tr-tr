@@ -1,6 +1,6 @@
 ---
 title: İndirim yönetimi anlaşmaları
-description: Bu konuda indirim yönetimi anlaşmaları oluşturma işlemi açıklanmaktadır. Anlaşmalar, indirimleri ve Kâr paylarını hesaplamak için farklı yöntem ve esasları denetlemek amacıyla kullanılır. Bunlar eklemeler ve hariç tutmalar için kurallar içerir.
+description: Bu makalede indirim yönetimi anlaşmaları oluşturma işlemi açıklanmaktadır. Anlaşmalar, indirimleri ve Kâr paylarını hesaplamak için farklı yöntem ve esasları denetlemek amacıyla kullanılır. Bunlar eklemeler ve hariç tutmalar için kurallar içerir.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 76cdbf21cfbc0db7b363d0fbf60a1ecd0046efc1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 28cfff69ab4e528c146ccbf6a34548a819c99522
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689705"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851608"
 ---
 # <a name="rebate-management-deals"></a>İndirim yönetimi anlaşmaları
 
 [!include [banner](../includes/banner.md)]
 
-İndirim yönetimi anlaşmaları, indirimleri ve kâr paylarını hesaplamak için farklı yöntem ve esasları denetlemek amacıyla kullanılır. Bunlar eklemeler ve hariç tutmalar için kurallar içerir. Üç tip İndirim Yönetimi anlaşması vardır: Müşteri indirimleri, müşteri kâr payları ve satıcı indirimleri. Üç tür de benzer ayarlar kullanır. Bu konu, farklılıkların olduğu yerleri gösterir.
+İndirim yönetimi anlaşmaları, indirimleri ve kâr paylarını hesaplamak için farklı yöntem ve esasları denetlemek amacıyla kullanılır. Bunlar eklemeler ve hariç tutmalar için kurallar içerir. Üç tip İndirim Yönetimi anlaşması vardır: Müşteri indirimleri, müşteri kâr payları ve satıcı indirimleri. Üç tür de benzer ayarlar kullanır. Bu makale, farklılıkların olduğu yerleri gösterir.
 
 ## <a name="create-a-deal"></a>Anlaşma oluşturma
 
@@ -118,7 +118,7 @@ Anlaşmanızdaki her bir satır için, **indirim yönetimi detayları** hızlı 
 
 | Alan | Tanım |
 |---|---|
-| Hesaplama yöntemi | Seçilen anlaşma satırı diğer anlaşma satırlarıyla (*Adımlı*, *Kümülatif*, *Hareketli* veya *Toplam*) birleştirildiğinde kullanılacak yöntemi seçin. Bu alanın değeri, indirim hesaplamalarınızın sonucunu önemli ölçüde etkileyebilir. İndirim hesaplamasını nasıl etkilediğini gösteren örnekler ve her yöntemin tam açıklaması için Bu konunun ilerleyen kısımlarında yer alan [anlaşma satırları için hesaplama yöntemleri](#calc-methods) konusuna bakın. |
+| Hesaplama yöntemi | Seçilen anlaşma satırı diğer anlaşma satırlarıyla (*Adımlı*, *Kümülatif*, *Hareketli* veya *Toplam*) birleştirildiğinde kullanılacak yöntemi seçin. Bu alanın değeri, indirim hesaplamalarınızın sonucunu önemli ölçüde etkileyebilir. İndirim hesaplamasını nasıl etkilediğini gösteren örnekler ve her yöntemin tam açıklaması için Bu makalenin ilerleyen kısımlarında yer alan [anlaşma satırları için hesaplama yöntemleri](#calc-methods) konusuna bakın. |
 | Temel | İndirimin miktara dayalı (satın alınan veya satılan birimlerin toplam sayısı) veya değere dayalı (diğer bir deyişle, satın alınan veya satılan malların toplam fiyatı) olarak uygulandığını seçin. |
 | Hareket türü | <p>Süreçte Hesaplamanın gerçekleşmesi gereken noktayı seçin:</p><ul><li>*Sipariş*: Hesaplama için temel olarak sipariş edilen miktar veya değeri kullanın.</li><li>*Teslim edilen*: Hesaplama için temel olarak teslim edilen miktar veya değeri kullanın.</li><li>*Fatura*: Hesaplama için temel olarak fatura edilen miktar veya değeri kullanın.</li></ul> |
 | Birim | **Temel** alanında *miktar*'ı seçtiyseniz, miktarın belirtilmesi gereken birimi seçin. |

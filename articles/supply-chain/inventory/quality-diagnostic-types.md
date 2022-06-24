@@ -1,6 +1,6 @@
 ---
 title: Uygunsuzluklar için tanılama türleri
-description: Bu konu, uygunsuzluklar ile kullanılabilecek tanılama türlerinin nasıl kullanılacağını ve oluşturulacağını açıklar.
+description: Bu makale, uygunsuzluklar ile kullanılabilecek tanılama türlerinin nasıl kullanılacağını ve oluşturulacağını açıklar.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edaa3a8b5c6446f039f33589166d832dcd9d0b9a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 87b7a051f807c9faab3169d2672d47f663892225
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852461"
 ---
 # <a name="diagnostic-types-for-nonconformances"></a>Uygunsuzluklar için tanılama türleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, uygunsuzluklar ile kullanılabilecek tanılama türlerinin nasıl kullanılacağını ve oluşturulacağını açıklar.
+Bu makale, uygunsuzluklar ile kullanılabilecek tanılama türlerinin nasıl kullanılacağını ve oluşturulacağını açıklar.
 
 Tanılama işlemleri için bir sınıflandırma tanımlamak için **Tanılama türleri** sayfasını kullanın. Daha sonra, uygunsuzluk için bir düzeltme oluşturduğunuzda bir tanı seçersiniz. Bir düzeltme, onaylanan bir uyumsuzluk için hangi türde tanılama işleminin yürütülmesi ve bu işlemin kimin tarafından gerçekleştirilmesi gerektiğini tanımlar. Ayrıca, istenen tamamlanma tarihi ve planlanan tamamlanma tarihini belirtir.
 

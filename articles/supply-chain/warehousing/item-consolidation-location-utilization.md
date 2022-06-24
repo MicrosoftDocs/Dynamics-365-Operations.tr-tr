@@ -1,6 +1,6 @@
 ---
 title: Madde konsolidasyonu - yerleşim kullanımı
-description: Bu konu, ambar yöneticilerinin ambar içindeki yerleşimlerin hacimsel kullanımını görüntülemesini ve filtrelemesini kolaylaştıran işlev hakkında bilgi sağlar. Yöneticiler yerleşimleri seçip maddeleri konsolide etmek ve böylece ambar alanını daha iyi kullanabilmek için Madde Konsolidasyonu sayfasından doğrudan stok hareketi işi oluşturabilirler.
+description: Bu makale, ambar yöneticilerinin ambar içindeki yerleşimlerin hacimsel kullanımını görüntülemesini ve filtrelemesini kolaylaştıran işlev hakkında bilgi sağlar. Yöneticiler yerleşimleri seçip maddeleri konsolide etmek ve böylece ambar alanını daha iyi kullanabilmek için Madde Konsolidasyonu sayfasından doğrudan stok hareketi işi oluşturabilirler.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f858eae57b8b354076f5ed026a4b84ed680866b0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578620"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849198"
 ---
 # <a name="item-consolidation---location-utilization"></a>Madde konsolidasyonu - yerleşim kullanımı
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, ambar yöneticilerinin ambar içindeki yerleşimlerin hacimsel kullanımını görüntülemesini ve filtrelemesini kolaylaştıran işlev hakkında bilgi sağlar. Yöneticiler yerleşimleri seçip maddeleri konsolide etmek ve böylece ambar alanını daha iyi kullanabilmek için **Madde Konsolidasyonu** sayfasından doğrudan stok hareketi işi oluşturabilirler.
+Bu makale, ambar yöneticilerinin ambar içindeki yerleşimlerin hacimsel kullanımını görüntülemesini ve filtrelemesini kolaylaştıran işlev hakkında bilgi sağlar. Yöneticiler yerleşimleri seçip maddeleri konsolide etmek ve böylece ambar alanını daha iyi kullanabilmek için **Madde Konsolidasyonu** sayfasından doğrudan stok hareketi işi oluşturabilirler.
 
 ## <a name="turn-on-the-features"></a>Özellikleri etkinleştirme
 
-Bu konuda açıklanan özellikleri kullanabilmeniz için, önce bunları sisteminizde açmanız gerekir. Yöneticiler bu özelliklerin durumunu denetlemek ve gerekirse etkinleştirmek için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanabilir. Aşağıdaki özelliklerin her ikisini de listelendikleri sırayla açın. (Her iki özellik de **Ambar Yönetimi** modülünde yer alır.)
+Bu makalede açıklanan özellikleri kullanabilmeniz için, önce bunları sisteminizde açmanız gerekir. Yöneticiler bu özelliklerin durumunu denetlemek ve gerekirse etkinleştirmek için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanabilir. Aşağıdaki özelliklerin her ikisini de listelendikleri sırayla açın. (Her iki özellik de **Ambar Yönetimi** modülünde yer alır.)
 
 1. Ambar yerleşimi durumu
 2. Madde konsolidasyon yerleşimi kullanımı
@@ -51,7 +51,7 @@ Bu alanlar ambar yöneticilerinin ambar yerleşimlerinin durumu hakkında daha i
 
 ## <a name="set-up-item-consolidation-and-location-utilization"></a>Madde konsolidasyonu ve yerleşim kullanımını ayarlama
 
-Bu bölümde, sistemin madde konsolidasyonu ve yerleşim kullanımını kullanmak için nasıl hazırlanacağı açıklanmaktadır. Bu yordamlar, standart demo verilerinden örnek değerleri kullanır. Bu konunun ilerleyen kısımlarında sağlanan örnek senaryo aracılığıyla çalışmayı planlıyorsanız, **USMF** tüzel kişiliğini (standart demo verilerini içeren) seçin ve bu bölümde açıklanan her kaydı oluşturun. Örnek senaryo aracılığıyla çalışmayı planlamıyorsanız, burada sağlanan değerler, özellikleri kullanmak için tamamlamanız gereken kurulum türleriyle ilgili örnekler olarak kabul edilebilir.
+Bu bölümde, sistemin madde konsolidasyonu ve yerleşim kullanımını kullanmak için nasıl hazırlanacağı açıklanmaktadır. Bu yordamlar, standart demo verilerinden örnek değerleri kullanır. Bu makalenin ilerleyen kısımlarında sağlanan örnek senaryo aracılığıyla çalışmayı planlıyorsanız, **USMF** tüzel kişiliğini (standart demo verilerini içeren) seçin ve bu bölümde açıklanan her kaydı oluşturun. Örnek senaryo aracılığıyla çalışmayı planlamıyorsanız, burada sağlanan değerler, özellikleri kullanmak için tamamlamanız gereken kurulum türleriyle ilgili örnekler olarak kabul edilebilir.
 
 ### <a name="released-product"></a>Serbest bırakılan ürün
 

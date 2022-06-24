@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce ve Microsoft Teams tümleştirmesini etkinleştirme
-description: Bu konu, Microsoft Dynamics 365 Commerce ve Microsoft Teams tümleştirmesinin nasıl etkinleştirileceğini açıklamaktadır.
+description: Bu makale, Microsoft Dynamics 365 Commerce ve Microsoft Teams tümleştirmesinin nasıl etkinleştirileceğini açıklamaktadır.
 author: gvrmohanreddy
 ms.date: 02/17/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dfada577ab97fdb9912c22d2399529f934b25d54
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 505e3854818e4d5b73fc1a22724be16036300c3b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695746"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872840"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>Dynamics 365 Commerce ve Microsoft Teams tümleştirmesini etkinleştirme
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce ve Microsoft Teams tümleştirmesinin nasıl etkinleştirileceğini açıklamaktadır.
+Bu makale, Microsoft Dynamics 365 Commerce ve Microsoft Teams tümleştirmesinin nasıl etkinleştirileceğini açıklamaktadır.
 
 Dynamics 365 Commerce'den gelen bilgilerle Teams'i sağlamak ve Teams ile satış noktası (POS) uygulaması arasındaki görev yönetimi özelliklerini eşlemek için Commerce Headquarters'da tümleştirme özelliklerini etkinleştirmeniz gerekir.
 
@@ -42,7 +42,7 @@ Teams uygulamasını kiracınızla Azure portalında kaydetmek için aşağıdak
 1. Kayıtlı uygulama için **Genel bakış** sayfasında **Uygulama (istemci) Kimliği** değerini kopyalayın. Sonraki aşamada, bu değeri Commerce Headquarters'da Teams tümleştirmesini etkinleştirmek için sağlamanız gerekecek.
 1. Bir istemci gizli anahtarı eklemek için [İstemci gizli anahtarı ekleme](/azure/active-directory/develop/quickstart-register-app#add-a-client-secret) konusundaki yönergeleri izleyin. Sonra, istemci için **Gizli anahtar değeri** değerini kopyalayın. Sonraki aşamada, bu değeri Commerce Headquarters'da Teams tümleştirmesini etkinleştirmek için sağlamanız gerekecek.
 1. **API izinleri**'ni ve ardından **İzin Ekle**'yi seçin.
-1. **API izinleri iste** iletişim kutusunda **Microsoft Graph**'ı seçin, **Temsilci izinleri**'ni seçin , **Grup**'u genişletin **Group.ReadWrite.All** öğesini ve ardından **İzin ekle**'yi seçin . 
+1. **API izinleri iste** iletişim kutusunda **Microsoft Graph**'ı seçin, **Temsilci izinleri**'ni seçin , **Grup**'u genişletin **Group.ReadWrite.All** öğesini ve ardından **İzin ekle**'yi seçin.
 1. **API izinleri iste** iletişim kutusunda **Microsoft Graph**'ı seçmek için **İzin ekle**'yi, **Uygulama izinleri**'ni seçin, **Grup**'u genişletin, **Group.ReadWrite.All** öğesini ve **İzin ekle**'yi seçin.
 1. **API izinleri iste** iletişim kutusunda **İzin ekle**'yi seçin. **Kuruluşumun kullandığı API'lar** sekmesinde  **Microsoft Teams Retail Service**'i bulun ve seçin.
 1. **Temsilci izinleri**'ni seçin, **TaskPublishing** öğesini genişletin, **TaskPublising.ReadWrite.All** öğesini ve ardından **İzin ekle**'yi seçin, Daha fazla bilgi için bkz. [Web API'sına erişmek için istemci uygulaması yapılandırma](/azure/active-directory/develop/quickstart-configure-app-access-web-apis).

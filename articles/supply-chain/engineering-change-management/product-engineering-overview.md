@@ -1,6 +1,6 @@
 ---
 title: Mühendislik değişikliği yönetimine genel bakış (video içerir)
-description: Bu konuda, ürün sürümü oluşturma ve yönetme, ürün yaşam döngüleri ve mühendislik değişikliklerini yönetmenize yardımcı olan mühendislik değişikliği yönetimine genel bir bakış sağlanmaktadır.
+description: Bu makalede, ürün sürümü oluşturma ve yönetme, ürün yaşam döngüleri ve mühendislik değişikliklerini yönetmenize yardımcı olan mühendislik değişikliği yönetimine genel bir bakış sağlanmaktadır.
 author: t-benebo
 ms.date: 01/11/2022
 ms.topic: overview
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 54d91d009d70194dfc91c8c855e0088f9de01718
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 6c9bfcdef91ad07b8346498b8944e1d741d623a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103825"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862670"
 ---
 # <a name="engineering-change-management-overview"></a>Mühendislik değişikliği yönetimine genel bakış
 

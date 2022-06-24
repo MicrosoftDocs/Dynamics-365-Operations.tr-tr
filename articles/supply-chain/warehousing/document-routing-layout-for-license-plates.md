@@ -1,6 +1,6 @@
 ---
-title: Plaka etiketleri için belge yönlendirme düzeni
-description: Bu konu, etiketlere değer yazdırmak için biçimlendirme yöntemlerinin nasıl kullanılacağını açıklar.
+title: Plaka etiketleri için belge rotası düzeni
+description: Bu makale, etiketlere değer yazdırmak için biçimlendirme yöntemlerinin nasıl kullanılacağını açıklar.
 author: perlynne
 ms.date: 04/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 9055e4c6e35099b7769faa6fc83f71523f2e64fd
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103902"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847889"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Plaka etiketleri için belge yönlendirme düzeni
 
@@ -53,7 +53,7 @@ Birçok yaygın kullanılan etiket oluşturma aracı, etiket düzenine ilişkin 
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Sisteminiz için bu özelliği etkinleştirme
 
-Sisteminiz bu konuda açıklanan özellikleri zaten içermiyorsa [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve *Gelişmiş plaka etiketi düzenleri* özelliğini açın. (Supply Chain Management sürüm 10.0.21 itibarıyla, bu özellik varsayılan olarak açıktır. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz.)
+Sisteminiz bu makalede açıklanan özellikleri zaten içermiyorsa [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve *Gelişmiş plaka etiketi düzenleri* özelliğini açın. (Supply Chain Management sürüm 10.0.21 itibarıyla, bu özellik varsayılan olarak açıktır. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz.)
 
 ## <a name="custom-number-formats"></a>Özel sayı biçimleri
 
@@ -129,7 +129,7 @@ Aşağıdaki biçimi kullanarak bir görüntüleme yönteminden yazdırma yapabi
 $DisplayMethod()$
 ```
 
-Bu biçimi, bu konunun önceki kısımlarında açıklanan diğer türlerle birleştirebilirsiniz. Örneğin, `DisplayListOfItemsNumbers()` bir görüntüleme yönteminiz var ve bu yöntemin ilk öğe numarasını yazdırmak istiyorsunuz. Bu durumda, aşağıdaki kodu kullanabilirsiniz.
+Bu biçimi, bu makalenin önceki kısımlarında açıklanan diğer türlerle birleştirebilirsiniz. Örneğin, `DisplayListOfItemsNumbers()` bir görüntüleme yönteminiz var ve bu yöntemin ilk öğe numarasını yazdırmak istiyorsunuz. Bu durumda, aşağıdaki kodu kullanabilirsiniz.
 
 ```dos
 $DisplayListOfItemsNumbers()[1]$

@@ -1,6 +1,6 @@
 ---
 title: Stok değer raporu örnekleri ve mantığı
-description: Bu konu, her bir stok değer raporu türünde sunulan sonuç örneklerini içerir. Stok değer raporları, stoğunuzun fiziksel ve mali miktarları ve tutarlarınız hakkında ayrıntılar sağlar.
+description: Bu makale, her bir stok değer raporu türünde sunulan sonuç örneklerini içerir. Stok değer raporları, stoğunuzun fiziksel ve mali miktarları ve tutarlarınız hakkında ayrıntılar sağlar.
 author: JennySong-SH
 ms.date: 10/19/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0d594fc18a104c434a334a5b6d1d249330a6be9a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6c6387be5204fde6ebc7a4983567801900974af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675333"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877667"
 ---
 # <a name="inventory-value-report-examples-and-logic"></a>Stok değer raporu örnekleri ve mantığı
 
 [!include [banner](../includes/banner.md)]
 
-Stok değer raporları, stoğunuzun fiziksel ve mali miktarları ve tutarlarınız hakkında ayrıntılar sağlar. Bu konu, her bir stok değer raporu türünde sunulan sonuç örneklerini içerir.
+Stok değer raporları, stoğunuzun fiziksel ve mali miktarları ve tutarlarınız hakkında ayrıntılar sağlar. Bu makale, her bir stok değer raporu türünde sunulan sonuç örneklerini içerir.
 
 Her stok değer raporu türünün nasıl oluşturulacağı ve kullanılacağı hakkında daha fazla bilgi için bkz. [Stok değeri raporları](inventory-value-report-storage.md).
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Bu örneklerde kullanılan örnek veriler
 
-Bu konudaki örnekler, bu bölümde açıklanan örnek stok hareketi verilerini temel almaktadır.
+Bu makaledeki örnekler, bu bölümde açıklanan örnek stok hareketi verilerini temel almaktadır.
 
 ### <a name="storage-dimension-setup"></a>Depolama boyutu kurulumu
 
@@ -70,9 +70,9 @@ Bu konudaki örnekler, bu bölümde açıklanan örnek stok hareketi verilerini 
 
 ## <a name="inventory-value-report-example-1"></a>Stok değeri raporu örnek 1
 
-Aşağıdaki tablo ve çizimler, bu konunun önceki kısımlarında açıklanan örnek verileri ve rapor yapılandırmasını kullandığınızda sonuçları gösterir.
+Aşağıdaki tablo ve çizimler, bu makalenin önceki kısımlarında açıklanan örnek verileri ve rapor yapılandırmasını kullandığınızda sonuçları gösterir.
 
-| Kaynak türü | Kaynak | Tesis | Referans | Stok Mali miktar | Stok: Mali tutar | Stok: Deftere nakledilen fiziksel miktar | Stok: Deftere nakledilen fiziksel tutar | Stok: Miktar | Stok: Tutar | Ortalama birim maliyeti |
+| Kaynak türü | Kaynak | Site | Referans | Stok Mali miktar | Stok: Mali tutar | Stok: Deftere nakledilen fiziksel miktar | Stok: Deftere nakledilen fiziksel tutar | Stok: Miktar | Stok: Tutar | Ortalama birim maliyeti |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Malzeme | B0001 | 1 | Kapanış bakiyesi | 9.00 | 908.33 | 5.00 | 375.00 | 14,00 | 1,283.33 | 91.67 |
 | Malzeme | B0001 | 2 | Kapanış bakiyesi | 10,00 | 2,000.00 | 0,00 | 0,00 | 10,00 | 2,000.00 | 200.00 |
@@ -91,7 +91,7 @@ Aşağıdaki şekil, örnek 1 için standart **Stok değeri rapor depolama** rap
 
 ## <a name="inventory-value-report-example-2"></a>Stok değeri raporu örnek 2
 
-Aşağıdaki tablo ve çizimler, bu konuda daha önce açıklanan örnek verileri kullandığınızda sonuçları gösterir, ancak rapor konfigürasyonundaki **Düzey** alanını *Hareketler* olarak değiştirirsiniz ve raporu çalıştırdığınızda **Başlangıç tarihi** alanını *15 Mart* olarak ayarlarsınız.
+Aşağıdaki tablo ve çizimler, bu makalede daha önce açıklanan örnek verileri kullandığınızda sonuçları gösterir, ancak rapor konfigürasyonundaki **Düzey** alanını *Hareketler* olarak değiştirirsiniz ve raporu çalıştırdığınızda **Başlangıç tarihi** alanını *15 Mart* olarak ayarlarsınız.
 
 | Kaynak türü | Kaynak | Tesis | Tarih | Numara | Referans | Stok Mali miktar | Stok: Mali tutar | Stok: Deftere nakledilen fiziksel miktar | Stok: Deftere nakledilen fiziksel tutar | Stok: Miktar | Stok: Tutar |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -127,7 +127,7 @@ Aşağıdaki alt kısımlar 30 Mayıs'a kadar stoğu kapattıktan sonra oluştur
 
 ### <a name="example-3-when-the-totals-level-is-used"></a>Toplam düzeyi kullanıldığında örnek 3
 
-Aşağıdaki tablo, bu konunun önceki kısımlarında açıklanan örnek verileri ve rapor yapılandırmasını kullandığınızda sonuçları gösterir. (Bu rapor yapılandırmasında, **Düzey** alanı *Toplamlar* olarak ayarlanır.)
+Aşağıdaki tablo, bu makalenin önceki kısımlarında açıklanan örnek verileri ve rapor yapılandırmasını kullandığınızda sonuçları gösterir. (Bu rapor yapılandırmasında, **Düzey** alanı *Toplamlar* olarak ayarlanır.)
 
 | Kaynak türü | Kaynak | Tesis | Referans | Stok Mali miktar | Stok: Mali tutar | Stok: Deftere nakledilen fiziksel miktar | Stok: Deftere nakledilen fiziksel tutar | Stok: Miktar | Stok: Tutar | Ortalama birim maliyeti |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -136,7 +136,7 @@ Aşağıdaki tablo, bu konunun önceki kısımlarında açıklanan örnek verile
 
 ### <a name="example-3-when-the-transactions-level-is-used"></a>Hareketler düzeyi kullanıldığında örnek 3
 
-Aşağıdaki tablo, bu konunun önceki bölümlerinde açıklanan örnek verileri kullandığınızda sonuçları gösterir, ancak **Düzey** alanının değerini rapor konfigürasyonundaki *Hareketler* olarak değiştirirsiniz.
+Aşağıdaki tablo, bu makalenin önceki bölümlerinde açıklanan örnek verileri kullandığınızda sonuçları gösterir, ancak **Düzey** alanının değerini rapor konfigürasyonundaki *Hareketler* olarak değiştirirsiniz.
 
 | Kaynak türü | Kaynak | Tesis | Tarih | Numara | Referans | Stok Mali miktar | Stok: Mali tutar | Stok: Deftere nakledilen fiziksel miktar | Stok: Deftere nakledilen fiziksel tutar | Stok: Miktar | Stok: Tutar |
 |---|---|---|---|---|---|---|---|---|---|---|---|

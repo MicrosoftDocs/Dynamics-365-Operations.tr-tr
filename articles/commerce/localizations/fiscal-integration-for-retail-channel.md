@@ -1,6 +1,6 @@
 ---
 title: Commerce kanalları için mali tümleştirmeye genel bakış
-description: Bu konu, Dynamics 365 Commerce içinde kullanılabilen mali tümleştirme yeterliliklerine genel bakış sağlar.
+description: Bu makale, Dynamics 365 Commerce içinde kullanılabilen mali tümleştirme yeterliliklerine genel bakış sağlar.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 00c68155088ff2aabbe2fe0c4f431b665aebcd0a
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: ea1de0791a0eaffa2a8b1ac57143bdfd753f855b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462535"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884856"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Commerce kanalları için mali tümleştirmeye genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Dynamics 365 Commerce içinde kullanılabilen mali tümleştirme yeterliliklerine bir genel bakıştır. 
+Bu makale, Dynamics 365 Commerce içinde kullanılabilen mali tümleştirme yeterliliklerine bir genel bakıştır. 
 
 Mali tümleştirme, satışların yerel mali yasalar ile mali kaydını etkinleştiren ve perakende sektöründe veri kaçakçılığını önlemeyi amaçlayan çeşitli mali cihazlar ve servisler ile tümleştirmedir. Mali tümleştirme ile kapsanabilecek bazı tipik senaryolar şunlardır:
 

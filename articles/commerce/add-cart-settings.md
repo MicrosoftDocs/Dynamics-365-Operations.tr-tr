@@ -1,6 +1,6 @@
 ---
 title: Sepete ürün ekle ayarlarını uygulama
-description: Bu konu "Sepete ürün ekle" ayarlarını kapsar ve bunların Microsoft Dynamics 365 Commerce'te nasıl uygulanacağını açıklar.
+description: Bu makale "Sepete ürün ekle" ayarlarını kapsar ve bunların Microsoft Dynamics 365 Commerce'te nasıl uygulanacağını açıklar.
 author: anupamar-ms
 ms.date: 07/08/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6299a1c815978ab9f748b6110980e673e1fbae927ed08a5e2e080f89ef063115
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 336bea289b22e4f6f98077f915d7d35f2a48682d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712826"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866042"
 ---
 # <a name="apply-add-product-to-cart-settings"></a>Sepete ürün ekle ayarlarını uygulama
 
 [!include [banner](includes/banner.md)]
 
-Bu konu **Sepete ürün ekle** ayarlarını kapsar ve bunların Microsoft Dynamics 365 Commerce'te nasıl uygulanacağını açıklar.
+Bu makale **Sepete ürün ekle** ayarlarını kapsar ve bunların Microsoft Dynamics 365 Commerce'te nasıl uygulanacağını açıklar.
 
 Bir Dynamics 365 Commerce e-ticaret sitesindeki alışveriş sepetine bir ürün eklendiğinde, farklı iş akışları desteklenir. Örneğin, site kullanıcısı alışveriş sepeti sayfasına götürülebilir. Alternatif olarak, kullanıcı geçerli sayfada kalabilir ancak ürünün alışveriş sepetine eklendiğini bildiren bir bildirim alır.
 

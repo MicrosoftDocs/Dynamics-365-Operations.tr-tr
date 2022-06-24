@@ -1,6 +1,6 @@
 ---
 title: Yerleşim ürün boyutu karıştırması
-description: Bu konu, konum ürün boyutu karıştırma hakkında bilgiler sağlar. Bu konum profili işlevi, kullanım sektörü gibi ürün çeşitleri veya boyutları olan ürünler kullanıldığında yerleşim yönetiminin artırılmasına yardımcı olur. Konfigürasyonların, renklerin, stillerin ve boyutların belirli bir yerleşim profili için karıştırılıp karışlamayacağını veya bu boyutlardan yalnızca birinin veya bunların bir bileşimin aynı konuma konulacağını belirlemenize olanak tanır.
+description: Bu makale, konum ürün boyutu karıştırma hakkında bilgiler sağlar. Bu konum profili işlevi, kullanım sektörü gibi ürün çeşitleri veya boyutları olan ürünler kullanıldığında yerleşim yönetiminin artırılmasına yardımcı olur. Konfigürasyonların, renklerin, stillerin ve boyutların belirli bir yerleşim profili için karıştırılıp karışlamayacağını veya bu boyutlardan yalnızca birinin veya bunların bir bileşimin aynı konuma konulacağını belirlemenize olanak tanır.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 031b92f827979c01dbf0208ba21ae827fb13920b
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9daf6061d56ef004753114aaffa8eb580cea1186
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103500"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885739"
 ---
 # <a name="location-product-dimension-mixing"></a>Yerleşim ürün boyutu karıştırması
 
@@ -28,7 +28,7 @@ Konum ürün boyutu karıştırma, kullanım sektörü gibi ürün çeşitleri v
 
 ## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>Yerleşim ürün boyutu karıştırma özelliğini açma veya kapatma
 
-Bu konuda açıklanan işlevi kullanmak için *Yerleşim ürün boyutu karıştırma* özelliğinin sisteminizde etkinleştirilmiş olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Yerleşim ürün boyutu karıştırma* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
+Bu makalede açıklanan işlevi kullanmak için *Yerleşim ürün boyutu karıştırma* özelliğinin sisteminizde etkinleştirilmiş olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Yerleşim ürün boyutu karıştırma* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="setup"></a>Kurulum
 
@@ -44,7 +44,7 @@ Ambardaki her konumun, konum özelliklerini açıklayan, kendisiyle ilişkili bi
     > [!NOTE]
     > Bu seçeneği yalnızca, **karışık öğelere izin ver** seçeneği *Hayır* olarak ayarlanmışsa *Evet* olarak ayarlayabilirsiniz .
 
-1. **İzin verilen ürün boyutlandırma karışımı** hızlı sekmesinde, **Boyut** seçeneğini *Evet* olarak ayarlayın. Bu konuda açıklanan senaryoda, karıştırma yalnızca farklı **boyut** boyutları olan ürünler için yapılabilir . Ancak diğer seçenekler de kullanılabilir.
+1. **İzin verilen ürün boyutlandırma karışımı** hızlı sekmesinde, **Boyut** seçeneğini *Evet* olarak ayarlayın. Bu makalede açıklanan senaryoda, karıştırma yalnızca farklı **boyut** boyutları olan ürünler için yapılabilir . Ancak diğer seçenekler de kullanılabilir.
 1. **Kaydet**'i seçin.
 
 ### <a name="create-a-new-product-master-and-product-variants"></a>Yeni ana ürünler ve ürün çeşitleri oluşturun

@@ -1,6 +1,6 @@
 ---
 title: IoT Zekası'nı izleme ve yönetme
-description: Bu konu, IoT Zekası'nın nasıl izleneceğini ve yönetileceğini açıklar.
+description: Bu makale, IoT Zekası'nın nasıl izleneceğini ve yönetileceğini açıklar.
 author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e078f1895b44ca388b75f5cd3d19e0e8f7c36630
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a640b523adac619377e19d670f932d4d85cfb6a9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669754"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852432"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>IoT Zekası'nı izleme ve yönetme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, IoT Zekası'nın nasıl izleneceğini ve yönetileceğini açıklar.
+Bu makale, IoT Zekası'nın nasıl izleneceğini ve yönetileceğini açıklar.
 
 ## <a name="monitor-scenarios-in-microsoft-dynamics-365-supply-chain-management"></a><a id="monitor-scenarios"></a>Microsoft Dynamics 365 Supply Chain Management'ta senaryoları izleme
 
@@ -54,7 +54,7 @@ Bir senaryo çalışırken şu değişiklikler yapılamaz:
 
 ## <a name="simulation-options"></a>Benzetim seçenekleri
 
-Fabrika makine sinyallerinin benzetimini yapabilirsiniz. Daha fazla bilgi edinmek için şu konulara bakın:
+Fabrika makine sinyallerinin benzetimini yapabilirsiniz. Daha fazla bilgi edinmek için şu makalelere bakın:
 
 + [IoT DevKit AZ3166'yı Azure IoT Hub'a bağlama](/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 + [Raspberry Pi online simulator'ı Azure IoT Hub'a (Node. js) bağlama](/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)

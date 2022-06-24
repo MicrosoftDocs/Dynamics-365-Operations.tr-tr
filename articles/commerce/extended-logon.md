@@ -1,6 +1,6 @@
 ---
 title: Genişletilmiş oturum açma yeteneğini ayarlama ve kullanma
-description: Bu konuda, Microsoft Dynamics 365 Commerce satış noktası (POS) uygulamasının genişletilmiş oturum açma yeteneğinin nasıl ayarlanacağı ve kullanılacağı açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce satış noktası (POS) uygulamasının genişletilmiş oturum açma yeteneğinin nasıl ayarlanacağı ve kullanılacağı açıklanmaktadır.
 author: boycez
 ms.date: 03/18/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d211ecfe1550f6093e1d35e7c2b37c036b50dd4a
-ms.sourcegitcommit: 5aebb181004eb63210503fb566dcda5c55032bee
+ms.openlocfilehash: e27e8d94adccc46559089928b0481442306567ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "8491451"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884323"
 ---
 # <a name="set-up-and-use-the-extended-logon-capability"></a>Genişletilmiş oturum açma yeteneğini ayarlama ve kullanma
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce satış noktası (POS) uygulamasının genişletilmiş oturum açma yeteneğinin nasıl ayarlanacağı ve kullanılacağı açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce satış noktası (POS) uygulamasının genişletilmiş oturum açma yeteneğinin nasıl ayarlanacağı ve kullanılacağı açıklanmaktadır.
 
 Bulut POS (CPOS) ve Modern POS (MPOS), perakende mağaza çalışanlarının bir manyetik bant okuyucu (MSR) kullanarak barkod taramasıyla veya kart kaydırmasıyla POS uygulamasında oturum açmasına olanak tanıyan genişletilmiş bir oturum açma yeteneği sağlar.
 

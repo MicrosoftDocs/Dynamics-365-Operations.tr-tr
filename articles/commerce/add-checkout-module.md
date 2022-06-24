@@ -1,6 +1,6 @@
 ---
-title: Ödeme modülü
-description: Bu konuda, bir yeni sayfaya ödeme modülü eklemek ve gerekli özellikleri ayarlamak açıklanır.
+title: Ödeme yapma modülü
+description: Bu makalede, bir yeni sayfaya ödeme modülü eklemek ve gerekli özellikleri ayarlamak açıklanır.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0d022ad98603b489a133a5b9f2326677e9ebb307
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: a30d56d7edf967a3afab7442338dd9f480ef7fd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780526"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869040"
 ---
-# <a name="checkout-module"></a>Ödeme modülü
+# <a name="checkout-module"></a>Ödeme yapma modülü
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, bir yeni sayfaya ödeme modülü eklemek ve gerekli özellikleri ayarlamak açıklanır.
+Bu makalede, bir yeni sayfaya ödeme modülü eklemek ve gerekli özellikleri ayarlamak açıklanır.
 
 Ödeme modülü, sipariş oluşturmak için gerekli olan tüm modülleri barındıran özel bir konteynerdir. Müşterinin satın alma yapmak üzere ilgili tüm bilgileri girmek için kullandığı adım adım bir akış sunar. Sevkiyat adresi, sevkiyat yöntemi ve fatura bilgilerini yakalar. Ayrıca bir sipariş özeti ve bir müşteri siparişiyle ilgili başka bilgiler de sağlar.
 

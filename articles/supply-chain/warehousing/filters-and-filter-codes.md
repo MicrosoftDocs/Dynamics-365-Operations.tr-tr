@@ -1,6 +1,6 @@
 ---
 title: Ambar hareketleri için ürün filtrelerini yapılandırma
-description: Bu konuda, bir ambardaki stok maddelerini kategorilere ayırmak için ürün filtrelerinin ve filtre kodlarının nasıl yapılandırılacağı açıklanmaktadır. Ayrıca, belirli bir maddeyi hangi müşterilerin sipariş edebileceğini ve belirli bir satıcıdan hangi maddelerin satın alınabileceğini belirtmek için de filtreleri kullanabilirsiniz.
+description: Bu makalede, bir ambardaki stok maddelerini kategorilere ayırmak için ürün filtrelerinin ve filtre kodlarının nasıl yapılandırılacağı açıklanmaktadır. Ayrıca, belirli bir maddeyi hangi müşterilerin sipariş edebileceğini ve belirli bir satıcıdan hangi maddelerin satın alınabileceğini belirtmek için de filtreleri kullanabilirsiniz.
 author: Mirzaab
 ms.date: 01/04/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 021ce940a4ea6d59719d1c6bc79532832cc2f3ff
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567691"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850452"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Ambar hareketleri için ürün filtrelerini yapılandırma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, bir ambardaki stok maddelerini kategorilere ayırmak için ürün filtrelerinin ve filtre kodlarının nasıl yapılandırılacağı açıklanmaktadır. Ayrıca, belirli bir maddeyi hangi müşterilerin sipariş edebileceğini ve belirli bir satıcıdan hangi maddelerin satın alınabileceğini belirtmek için de filtreleri kullanabilirsiniz.
+Bu makalede, bir ambardaki stok maddelerini kategorilere ayırmak için ürün filtrelerinin ve filtre kodlarının nasıl yapılandırılacağı açıklanmaktadır. Ayrıca, belirli bir maddeyi hangi müşterilerin sipariş edebileceğini ve belirli bir satıcıdan hangi maddelerin satın alınabileceğini belirtmek için de filtreleri kullanabilirsiniz.
 
 Ayrıca, bir ambardaki stok maddelerini otomatik olarak düzenlemek ve filtre uygulanmış maddeleri filtre gruplarında bir araya getirmek için ürün filtreleri ayarlayabilir ve kullanabilirsiniz. Filtreler; işleme, satın alma ve satış işlemleri için maddeleri kategorilere ayrımak için kullanılabilir. Maddelerin işlenme şekli ağırlıklarına veya işlenme kısıtlamalarına bağlı olduğunda maddeleri bir grup altında toplamak veya farklı gruplara ayırmak isteyebilirsiniz. Ayrıca, bir maddenin hangi müşterilere satılabileceğini veya hangi satıcılardan satın alınabileceğini de belirtebilirsiniz.
 
@@ -48,7 +48,7 @@ Başlamadan önce yerine getirilmesi gereken önkoşullar aşağıdaki tabloda g
 
     ![Ürün filtresi ayarlama.](media/Product_Filters10.png "Ürün filtresi ayarlama")
 
-1. **Açıklama** alanına, kodun adını girin. Örneğin, *Kod 2* satıcıları temsil edebilir. Böylece, belirli bir satıcı veya satıcı grubu için bir ürün filtresi oluşturabilirsiniz. Daha fazla bilgi için bu konunun ilerleyen kısımlarında yer alan [Satıcı filtre kodlarını ayarlama](#vendor-product-filters) bölümüne bakın.
+1. **Açıklama** alanına, kodun adını girin. Örneğin, *Kod 2* satıcıları temsil edebilir. Böylece, belirli bir satıcı veya satıcı grubu için bir ürün filtresi oluşturabilirsiniz. Daha fazla bilgi için bu makalenin ilerleyen kısımlarında yer alan [Satıcı filtre kodlarını ayarlama](#vendor-product-filters) bölümüne bakın.
 
     ![Ürün filtreleri kümesi.](media/Product_Filters.png "Ürün filtreleri kümesi")
 

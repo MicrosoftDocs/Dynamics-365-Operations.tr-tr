@@ -1,6 +1,6 @@
 ---
 title: Genel mobil cihaz parametreleri
-description: Bu konuda, Ambar yönetimi parametreleri sayfasında mobil cihaz ayarlarının nasıl yapılandırılacağı açıklanmaktadır.
+description: Bu makalede, Ambar yönetimi parametreleri sayfasında mobil cihaz ayarlarının nasıl yapılandırılacağı açıklanmaktadır.
 author: Mirzaab
 ms.date: 08/13/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ae04c86ff1eafb649fcef7c34ace66bdc3e5cb8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6e03414edd9243fcc4156195928455b30a7cee9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679179"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847773"
 ---
 # <a name="global-mobile-device-parameters"></a>Genel mobil cihaz parametreleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, sistemin mobil cihazlarla etkileşim biçimini etkileyen genel ambar yönetimi parametrelerinin nasıl ayarlanacağı açıklanmaktadır.
+Bu makalede, sistemin mobil cihazlarla etkileşim biçimini etkileyen genel ambar yönetimi parametrelerinin nasıl ayarlanacağı açıklanmaktadır.
 
 Ambar çalışanlarını ayarlama hakkında daha fazla bilgi için bkz. [Ambar çalışanlarını yönetme](manage-warehouse-workers.md). Mobil cihazlarda plaka işleme hakkında daha fazla bilgi için bkz. [Warehouse Management mobil uygulaması aracılığıyla plaka teslim alma](warehousing-mobile-device-app-license-plate-receiving.md). Döngü sayımı işlemleri hakkında daha fazla bilgi için bkz. [Döngü sayımı](cycle-counting.md) ve [Döngü sayımı örnek senaryoları](cycle-counting-scenarios.md).
 
 ## <a name="open-the-warehouse-management-parameters-page"></a>Ambar yönetimi parametreleri sayfasını açma
 
-**Ambar yönetimi parametreleri** sayfasını açmak için **Ambar yönetimi \> Kurulum \> Ambar yönetimi parametreleri**'ne gidin. Ardından bu konunun sonraki bölümünde açıklandığı üzere mobil cihaz işi ile ilgili alanları ayarlayabilirsiniz.
+**Ambar yönetimi parametreleri** sayfasını açmak için **Ambar yönetimi \> Kurulum \> Ambar yönetimi parametreleri**'ne gidin. Ardından bu makalenin sonraki bölümünde açıklandığı üzere mobil cihaz işi ile ilgili alanları ayarlayabilirsiniz.
 
 ## <a name="mobile-device-fasttab-on-the-general-tab"></a>Genel sekmesindeki mobil cihaz hızlı sekmesi
 

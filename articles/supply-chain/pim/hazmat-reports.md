@@ -1,6 +1,6 @@
 ---
 title: Tehlikeli malzeme sorguları ve raporları
-description: Bu konuda, tehlikeli malzemelerle ilgili çeşitli raporlar üzerinde nasıl çalışılacağı açıklanmaktadır. Bu raporların çoğu, sevkiyat ve depolama sırasında çeşitli tehlikeli malzeme yönetmeliklerine uyumluluğunuzu korumanız için gereklidir.
+description: Bu makalede, tehlikeli malzemelerle ilgili çeşitli raporlar üzerinde nasıl çalışılacağı açıklanmaktadır. Bu raporların çoğu, sevkiyat ve depolama sırasında çeşitli tehlikeli malzeme yönetmeliklerine uyumluluğunuzu korumanız için gereklidir.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ca8c973d3322bd51bf519e83fb5a5c19d35c0bed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 782b1b4995af09a63c483d2b81ed255a5c11803a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568555"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846054"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Tehlikeli malzeme sorguları ve raporları
 
@@ -63,7 +63,7 @@ Bu raporu görüntülemek için **Ürün bilgileri yönetimi \> Sorgular ve rapo
 
 Serbest bırakılan bir ürünle ilgili stok limitlerinin nasıl ayarlanacağı hakkında daha fazla bilgi için bkz. [Tehlikeli ürünler için stok limitleri ayarlama](hazmat-items.md#stock-limits).
 
-Stok limitleri için kullanılan yönetmelik, **Ambar yönetimi parametreleri** sayfasında tanımlanmıştır. **Ambar yönetimi \> Ayar \> Ambar yönetim parametreleri**'ne gidin, ardından **Raporlar** sekmesindeki **Tehlikeli malzeme stok limiti**'nde yönetmelik kodunu belirtin. Daha fazla bilgi için bu konuda daha önce ele alınan [Tehlikeli malzeme raporlarını ayarlama](#set-up) bölümüne bakın.
+Stok limitleri için kullanılan yönetmelik, **Ambar yönetimi parametreleri** sayfasında tanımlanmıştır. **Ambar yönetimi \> Ayar \> Ambar yönetim parametreleri**'ne gidin, ardından **Raporlar** sekmesindeki **Tehlikeli malzeme stok limiti**'nde yönetmelik kodunu belirtin. Daha fazla bilgi için bu makalede daha önce ele alınan [Tehlikeli malzeme raporlarını ayarlama](#set-up) bölümüne bakın.
 
 ## <a name="verified-gross-mass-report"></a>Doğrulanan brüt kütle raporu
 

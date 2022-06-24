@@ -1,6 +1,6 @@
 ---
 title: İş emri proje kurulumu
-description: Bu konuda Varlık Yönetimi'nde iş emri proje türünü açıklanmaktadır.
+description: Bu makalede Varlık Yönetimi'nde iş emri proje türünü açıklanmaktadır.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb897ca0a7e9c45ee55244189bb1b487fbddf0714ad3ea0cac26eb7bac36a07f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 31d8f42eb5753ea2656d502d2670a6cf7683c0f2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754095"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874144"
 ---
 # <a name="work-order-project-setup"></a>İş emri proje kurulumu
 
@@ -80,7 +80,7 @@ Kurulum, **Oroje yönetimi ve muhasebe** modülüyle tam tümleştirmeye olanak 
 ![İş emri proje kurulumu sayfası, İş emri ekleme.](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
-> Bir iş emri satırı her oluşturulduğunda, kıymet yönetimi iş emri iş projesiyle ilişkili olması gereken bir proje grubu arar. Arama, bu konuda açıklanan kuruluma dayanır. Her proje grubunun ilgili bir proje türü vardır. **Zaman ve malzeme** veya **Sabit fiyatlı** proje türüne sahip proje grupları, yalnızca bir müşteri hesabıyla ilişkili kıymetler için geçerlidir.
+> Bir iş emri satırı her oluşturulduğunda, kıymet yönetimi iş emri iş projesiyle ilişkili olması gereken bir proje grubu arar. Arama, bu makalede açıklanan kuruluma dayanır. Her proje grubunun ilgili bir proje türü vardır. **Zaman ve malzeme** veya **Sabit fiyatlı** proje türüne sahip proje grupları, yalnızca bir müşteri hesabıyla ilişkili kıymetler için geçerlidir.
 >
 > Ana projeler ve proje grupları için, sistem kullanılabilir iş emri projesini veya proje grubunu seçtiğinde, bu seçim önceki yordamı kullanarak oluşturduğunuz kayıtlara dayanır. Kıymet yönetimi, olası bir eşleşmeyi denetlemek için iş emri projesiyle ilişkili kayıtlara geçer. Her zaman ilk önce en belirgin birleşimi denetler. Başka bir deyişle, iş emri ana projesi için Kıymet Yönetimi **Kıymet** alanı için olası bir eşleşme arar. Eşleşme bulamazsa **Kıymet** alanı için eşleşmeleri denetler. Eşleşme bulamazsa **İşlem yapılacak yerleşim** alanı için eşleşmeleri denetler ve bu şekilde devam eder. **İş emri proje ayarı** sayfasının düzeninde gördüğünüz gibi bu davranış en belirgin birleşimi bulmak için Varlık Yönetimi'nin eşleşme için sağdan sola her kaydı denetleyeceği anlamına gelir. Eşleşme bulunmazsa yalnızca proje kodunun seçildiği varsayılan kaydı kullanılır. İlgili proje grubunu bulma işlemi benzerdir. Kıymet yönetimi önce **Kıymet** alanıyla ilgili olası eşleşmeyi denetleyip **Kıymet türü** alanını ve **İş emri türü** alanını denetler. Eşleşme bulunmazsa yalnızca proje grubunun seçildiği varsayılan kaydı kullanılır.
 

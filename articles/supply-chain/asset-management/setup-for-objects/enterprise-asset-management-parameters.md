@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1659fd3b4c173ffe09f245631309d329bba5b1bd
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: a1e2c79a621cf4bd1212c006e1c8967d85bd716b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105501"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870825"
 ---
 # <a name="asset-management-parameters"></a>Kıymet Yönetimi parametreleri
 
 [!include [banner](../../includes/banner.md)]
 
-Kıymet Yönetimi'nde kıymetler, iş emirleri ve iş emri zamanlamasıyla ilgili genel parametrelerin ayarlanması gerekir. Bu konuda bu öğelerin nasıl ayarlanacağı açıklanmaktadır. Formu açmak için **Kıymet yönetimi** > **Kurulum** > **Kıymet yönetimi parametreleri**'ni seçin.
+Kıymet Yönetimi'nde kıymetler, iş emirleri ve iş emri zamanlamasıyla ilgili genel parametrelerin ayarlanması gerekir. Bu makalede bu öğelerin nasıl ayarlanacağı açıklanmaktadır. Formu açmak için **Kıymet yönetimi** > **Kurulum** > **Kıymet yönetimi parametreleri**'ni seçin.
 
 > [!NOTE]
 > Kıymet yönetimi özelliklerini sınamak için demo verileri içeren bir sistem kurmak istiyorsanız, talimatlar için bkz. [Demo ortamı oluştur](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md).

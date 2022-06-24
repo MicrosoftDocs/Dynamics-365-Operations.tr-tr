@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Supply Chain Management'deki yenilikler veya değişiklikler 10.0.20 (Ağustos 2021)
-description: Bu konuda, Dynamics 365 Supply Chain Management 10.0.20'daki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, Dynamics 365 Supply Chain Management 10.0.20'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
 ms.date: 05/28/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a8f46165a89f064878d2e8af1b0b174b04eca37e
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 3eadc447d8c0c443fa9d3eab220300e3eedf051d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647326"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888657"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Dynamics 365 Supply Chain Management'deki yenilikler veya değişiklikler 10.0.20 (Ağustos 2021)
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Supply Chain Management sürümü 10.0.20'teki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.886 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
+Bu makalede, Microsoft Dynamics 365 Supply Chain Management sürümü 10.0.20'teki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.886 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
 
 - **Sürümün önizlemesi:** Mayıs 2021
 - **Sürüm genel kullanılabilirliği (kendi kendine güncelleştirme):** Temmuz 2021
@@ -59,21 +59,21 @@ Aşağıdaki tabloda, bu sürümde yer alan özellik iyileştirmeleri yer almakt
 
 ## <a name="new-and-updated-documentation-resources"></a>Yeni ve güncelleştirilmiş belge kaynakları
 
-Aşağıdaki yardım konularını yakın bir zamanda ekledik veya önemli ölçüde güncelleştirdik. Önceki bölümde listelendiği gibi, bunların bu sürüm için eklenen yeni özelliklerle ilgili olması gerekmez ancak var olan özelliklerden daha fazla bilgi almanıza yardımcı olabilirler.
+Aşağıdaki yardım makalelerini yakın bir zamanda ekledik veya önemli ölçüde güncelleştirdik. Önceki bölümde listelendiği gibi, bunların bu sürüm için eklenen yeni özelliklerle ilgili olması gerekmez ancak var olan özelliklerden daha fazla bilgi almanıza yardımcı olabilirler.
 
-| Özellik alanı | Yeni veya güncelleştirilmiş konular |
+| Özellik alanı | Yeni veya güncelleştirilmiş makaleler |
 |---|---|
-| Mühendislik değişim yönetimi | [Ürün yaşam döngüsü durumu ve hareketler](../engineering-change-management/product-lifecycle-state-transactions.md) |
-| Stok Yönetimi | [Stok Görünürlüğü Eklentisi](../inventory/inventory-visibility.md)<br><br>[Kalite ve uyumsuzluk yönetimine genel bakış](../inventory/quality-management-processes.md) (artı tüm ilgili kalite-yönetim konuları) |
+| Mühendislik değişikliği yönetimi | [Ürün yaşam döngüsü durumu ve hareketler](../engineering-change-management/product-lifecycle-state-transactions.md) |
+| Stok Yönetimi | [Stok Görünürlüğü Eklentisi](../inventory/inventory-visibility.md)<br><br>[Kalite ve uyumsuzluk yönetimine genel bakış](../inventory/quality-management-processes.md) (artı tüm ilgili kalite-yönetim makaleleri) |
 | Tedarik ve kaynak atama | [Satıcı sertifikasyonunu koruma](../../finance/public-sector/manage-vendor-certification.md) |
 | Üretim denetimi | [Üretim katı yürütme arabirimini düzenleme](../production-control/production-floor-execution-styles.md) |
 | Ambar yönetimi | [Warehouse Management mobil uygulaması için adım simgeleri ve başlıklar atama](../warehousing/step-icons-titles.md)<br><br>[Manuel stok hareketinin ertelenmiş işlemesi](../warehousing/deferred-processing-manual-inventory-movement.md) |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations uygulamaları için platform güncelleştirmeleri
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finans ve Operasyon uygulamaları için Platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.20 sürümü için platform güncelleştirmeleri (Temmuz 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finans ve Operasyon uygulamalarının 10.0.20 sürümü için platform güncelleştirmeleri (Temmuz 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 
@@ -87,12 +87,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.20 platform güncelleştirme
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Kaldırılan ve kullanım dışı bırakılan Supply Chain Management özellikleri
 
-[Dynamics 365 Supply Chain Management'taki kaldırılmış veya kullanım dışı bırakılmış özellikler](removed-deprecated-features-scm-updates.md) konusu Supply Chain Management için kaldırılan veya kullanım dışı bırakılan veya kaldırılması ya da kullanım dışı bırakılması planlanan özellikleri açıklar.
+[Dynamics 365 Supply Chain Management'taki kaldırılmış veya kullanım dışı bırakılmış özellikler](removed-deprecated-features-scm-updates.md) makalesi Supply Chain Management için kaldırılan veya kullanım dışı bırakılan veya kaldırılması ya da kullanım dışı bırakılması planlanan özellikleri açıklar.
 
 - *Kaldırılan* özellik artık üründe bulunmaz.
 - *Kullanımına son verilen* özellik etkin geliştirmede değildir ve sonraki güncellemede kaldırılabilir.
 
-Herhangi bir özellik üründen kaldırılmadan önce, kullanım dışı bırakma bildirimi kaldırma işleminden 12 ay önce [Dynamics 365 Supply Chain Management'taki kaldırılan veya kullanım dışı bırakılan özelliker](removed-deprecated-features-scm-updates.md) konusunda duyurulacaktır.
+Herhangi bir özellik üründen kaldırılmadan önce, kullanım dışı bırakma bildirimi kaldırma işleminden 12 ay önce [Dynamics 365 Supply Chain Management'taki kaldırılan veya kullanım dışı bırakılan özelliker](removed-deprecated-features-scm-updates.md) makalesinde duyurulacaktır.
 
 Yalnızca derleme zamanını etkileyen ancak korumalı alan ve üretim ortamlarıyla ikili uyumlu olan son dakika değişiklikleri için kullanım dışı bırakma süresi 12 aydan kısa olacaktır. Genellikle, bunlar derleyiciye yapılması gereken işlevsel güncelleştirmelerdir.
 

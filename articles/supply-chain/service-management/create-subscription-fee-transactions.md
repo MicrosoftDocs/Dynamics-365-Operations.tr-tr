@@ -1,6 +1,6 @@
 ---
 title: Abonelik işlem harcı oluştur
-description: Bu konu, abonelik ücreti hareketlerinin nasıl oluşturulacağını anlatır.
+description: Bu makale, abonelik ücreti hareketlerinin nasıl oluşturulacağını anlatır.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f72791062de16302dee8add06a58ca46b91a62fc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5f87bd7bd1553f66a6c5c6b563595404961d82ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677800"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844267"
 ---
 # <a name="create-subscription-fee-transactions"></a>Abonelik işlem harcı oluştur 
 

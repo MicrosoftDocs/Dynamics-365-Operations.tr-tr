@@ -1,6 +1,6 @@
 ---
 title: Stok arabelleklerini ve stok düzeylerini konfigüre et
-description: Bu konu, Microsoft Dynamics 365 Commerce sitelerinde stok kullanılabilirliği iletilerini belirleyen stok arabelleklerinin ve stok düzeylerinin konfigüre nasıl yapılandırılacağını açıklamaktadır.
+description: Bu makale, Microsoft Dynamics 365 Commerce sitelerinde stok kullanılabilirliği iletilerini belirleyen stok arabelleklerinin ve stok düzeylerinin konfigüre nasıl yapılandırılacağını açıklamaktadır.
 author: boycezhu
 ms.date: 06/01/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 842389811169f785235de7ac7d9a49ab903f99ddf7d43f139aba0873a2577d72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: acfe71f7fb55f1bc701297bb3949e91d6450d9e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727545"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853805"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Stok arabelleklerini ve stok düzeylerini konfigüre et
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce sitelerinde stok kullanılabilirliği iletilerini belirleyen stok arabelleklerinin ve stok düzeylerinin konfigüre nasıl yapılandırılacağını açıklamaktadır.
+Bu makale, Microsoft Dynamics 365 Commerce sitelerinde stok kullanılabilirliği iletilerini belirleyen stok arabelleklerinin ve stok düzeylerinin konfigüre nasıl yapılandırılacağını açıklamaktadır.
 
 Dynamics 365 Commerce yönetim Merkezi, stok verilerini ve satış noktası (POS) uygulamaları, e-ticaret mağazaları ve zaman uyumsuz şekilde envanter çekme ve iletme gibi çeşitli kanalları içerir. Bu nedenle, Commerce merkezdeki eldeki stok sayfası aracılığıyla, POS Kullanıcı arabirimi (UI) aracılığıyla ve e-ticaret stok kullanılabilirlik API 'Leri aracılığıyla elde edilen kullanılabilir stok değerleri, gerçek zamanlı olarak yüzde 100 doğru sonuç vermez.
 

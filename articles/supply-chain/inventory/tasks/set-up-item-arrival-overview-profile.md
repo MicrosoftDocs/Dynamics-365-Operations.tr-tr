@@ -1,6 +1,6 @@
 ---
 title: Madde varışı genel bakış profili ayarlama
-description: Bu konu bir varış genel bakış profili kurulumu üzerinde odaklanır.
+description: Bu makale bir varış genel bakış profili kurulumu üzerinde odaklanır.
 author: yufeihuang
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -15,18 +15,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9a98c84c0dcc86e58b74f53a9061c4a0518ecbf
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 8517710f5d0be1859f86449152712d950281769a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964818"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872021"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Madde varışı genel bakış profili ayarlama
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu bir varış genel bakış profili kurulumu üzerinde odaklanır. Varış genel bakış profili, varış genel bakışı kullanıcı tarafından açıldığında uygulanacak kurallar topluluğudur. Bu prosedürü USMF demo veri şirketinde kullanabilirsiniz. Bu yordam genel olarak bir teslim alma memuru tarafından yerine getirilir.
+Bu makale bir varış genel bakış profili kurulumu üzerinde odaklanır. Varış genel bakış profili, varış genel bakışı kullanıcı tarafından açıldığında uygulanacak kurallar topluluğudur. Bu prosedürü USMF demo veri şirketinde kullanabilirsiniz. Bu yordam genel olarak bir teslim alma memuru tarafından yerine getirilir.
 
 1. Gezinme bölmesinde **Modüller > Stok yönetimi > Kurulum > Dağıtım > Varış genel bakış profilleri**'ne gidin.
 2. **Yeni**'yi seçin. Neredeyse her zaman aynı ambarda tam kamyon yükleri boşaltmakla uğraşacağınız için, alınan maddelerin kayıt işlemini basitleştirmek için bir varış genel bakış profilini oluşturmalısınız  

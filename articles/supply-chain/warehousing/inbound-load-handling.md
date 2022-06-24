@@ -1,6 +1,6 @@
 ---
 title: Satınalma siparişleri için gelen yüklerin ambarda işlenmesi
-description: Bu konu, satınalma siparişleri için gelen yüklerle ilgili ambar işleme sürecini açıklamaktadır.
+description: Bu makale, satınalma siparişleri için gelen yüklerle ilgili ambar işleme sürecini açıklamaktadır.
 author: Mirzaab
 ms.date: 03/21/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778071"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855946"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Satınalma siparişleri için gelen yüklerin ambarda işlenmesi
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, satınalma siparişleri için gelen yüklerle ilgili ambar işleme sürecini açıklamaktadır.
+Bu makale, satınalma siparişleri için gelen yüklerle ilgili ambar işleme sürecini açıklamaktadır.
 
 Her gelen yük için, sisteminizde zaten ilgili bir satış siparişi bulunmalıdır ve ayrıca ilgili yük belirtimini ve/veya taşımacılık planını da içerebilir. Gelen yükleri oluşturma ve yönetme hakkında daha fazla bilgi için bkz. [İş süreci: Gelen yükler için taşımayı planlama](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
@@ -209,7 +209,7 @@ Aşağıdaki tabloda, **Yük başına birden fazla ürün girişine izin ver** a
 | Evet | Güncelleştirme yok | _Teslim alındı_, toplam kayıtlı yük miktarı yük miktarına eşit veya daha fazlaysa | |
 | Evet | Güncelleştirme yok | _Sevk edildi_ veya _İşlemde_, toplam kayıtlı yük miktarı yük miktarından azsa | |
 
-**Yük durumu** alanı _Teslim alındı_ olarak ayarlandıktan sonra, bu yük için daha fazla ürün girişi deftere nakli yapılamaz. Ancak, çalışan kalan sipariş miktarını aşağıdaki koşullarda alınan yüklemeye karşı kaydedebilir. (Daha fazla bilgi için bu konunun önceki bölümündeki [Fazla yük teslim alma](#load-over-receiving) konusuna bakın.)
+**Yük durumu** alanı _Teslim alındı_ olarak ayarlandıktan sonra, bu yük için daha fazla ürün girişi deftere nakli yapılamaz. Ancak, çalışan kalan sipariş miktarını aşağıdaki koşullarda alınan yüklemeye karşı kaydedebilir. (Daha fazla bilgi için bu makalenin önceki bölümündeki [Fazla yük teslim alma](#load-over-receiving) konusuna bakın.)
 
 - Supply Chain Management sürümü 10.0.11 sürümünden daha eski.
 - _Yük miktarlarını fazladan teslim alma_ özelliği açıktır ve yük maddesi teslim alma eylemine ait mobil cihaz menü öğesindeki **Fazla teslim alınan yük satırı miktarı** alanı _İzin ver_ olarak ayarlanır.

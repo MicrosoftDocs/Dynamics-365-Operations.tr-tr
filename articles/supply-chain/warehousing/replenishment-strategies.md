@@ -1,6 +1,6 @@
 ---
 title: Stok yenileme stratejileri
-description: Bu konu, stok yenileme stratejileri hakkında bilgi sağlar ve stok yenilemenin nasıl yapılacağını seçmek için dalga talep stok yenileme şablon satırlarındaki Stok yenileme stratejisi alanını nasıl kullanabileceğinizi açıklar.
+description: Bu makale, stok yenileme stratejileri hakkında bilgi sağlar ve stok yenilemenin nasıl yapılacağını seçmek için dalga talep stok yenileme şablon satırlarındaki Stok yenileme stratejisi alanını nasıl kullanabileceğinizi açıklar.
 author: Mirzaab
 ms.date: 10/29/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1aa48f231c5d98a22fa989fb6e6996b972be9089
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3b4d691bbcf88cc73d10e3bb401710508ec641e1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893163"
 ---
 # <a name="replenishment-strategies"></a>Stok yenileme stratejileri
 

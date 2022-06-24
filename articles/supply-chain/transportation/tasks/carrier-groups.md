@@ -1,6 +1,6 @@
 ---
 title: Taşıyıcı grupları
-description: Bu konuda, taşıyıcı grupları için veri ayarlama yöntemi açıklanmaktadır.
+description: Bu makalede, taşıyıcı grupları için veri ayarlama yöntemi açıklanmaktadır.
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4f1bd29d68bf5ebad1e15f7533c5d1c75e4ff75b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d3f8618de520880aa807a21f49f164e8483274ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676537"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871876"
 ---
 # <a name="carrier-groups"></a>Taşıyıcı grupları
 

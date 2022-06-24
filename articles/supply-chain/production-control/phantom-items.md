@@ -1,6 +1,6 @@
 ---
 title: Hayali maddeler
-description: Bu konu, Dynamics 365 Supply Chain Management içinde Hayali satır türünün bir ürün reçetesi (BOM) satırlarında ve formülünde nasıl kullanılabileceğini açıklar.
+description: Bu makale, Dynamics 365 Supply Chain Management içinde Hayali satır türünün bir ürün reçetesi (BOM) satırlarında ve formülünde nasıl kullanılabileceğini açıklar.
 author: johanhoffmann
 ms.date: 05/05/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-05-05
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 5c9768381d35709611e4bec3d2b7793a4d896b34
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 64139873216decd8ecb2fcaf1f284e726c53c332
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713261"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893337"
 ---
 # <a name="phantom-items"></a>Hayali maddeler
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, ayrıntılı olarak Hayali hat türünün bir ürün reçetesi (BOM) satırlarında ve formülünde nasıl kullanılabileceğini açıklar.
+Bu makale, ayrıntılı olarak Hayali hat türünün bir ürün reçetesi (BOM) satırlarında ve formülünde nasıl kullanılabileceğini açıklar.
 
 Şekil 1'de (a), H ürünü ve F ile G parçaları için ürün reçetesidir, ve (b), H ile F ürünleri için rota tablosudur.
 

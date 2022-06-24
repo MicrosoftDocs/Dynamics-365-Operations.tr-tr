@@ -1,6 +1,6 @@
 ---
 title: Gönderme takımlarını ayarla
-description: Bu konuda, gönderme takımı oluşturma açıklanmıştır.
+description: Bu makalede, gönderme takımı oluşturma açıklanmıştır.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 742cb79076662e9595b98bb7acf91ffed5e0ac82
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2051ccdbe5786a347c1eba5bd36a0d6c77ad72a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675613"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847860"
 ---
 # <a name="set-up-dispatch-teams"></a>Gönderme takımlarını ayarla 
 
 [!include [banner](../includes/banner.md)]
 
 
-Bu konuda, gönderme takımı oluşturma açıklanmıştır. Bir gönderme takımı oluşturduktan sonra, çalışanları takıma atayabilirsiniz. Bir servis siparişi oluşturduğunuzda, gönderme takımının bir üyesini servis siparişindeki bir faaliyetle ilişkilendirebilirsiniz.
+Bu makalede, gönderme takımı oluşturma açıklanmıştır. Bir gönderme takımı oluşturduktan sonra, çalışanları takıma atayabilirsiniz. Bir servis siparişi oluşturduğunuzda, gönderme takımının bir üyesini servis siparişindeki bir faaliyetle ilişkilendirebilirsiniz.
 
 1.  **Servis yönetimi** \> **Kurulum** \> **Gönderme takımları**'na tıklayın.
 

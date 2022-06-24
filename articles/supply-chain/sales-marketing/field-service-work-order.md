@@ -1,6 +1,6 @@
 ---
 title: Field Service'daki iş emirlerini Supply Chain Management'taki satış siparişleriyle eşitleme
-description: Bu konu, Field Service'taki iş emirlerini Supply Chain Management'daki satış siparişleriyle eşitlemek için kullanılan şablonları ve temel görevleri açıklar.
+description: Bu makale, Field Service'taki iş emirlerini Supply Chain Management'daki satış siparişleriyle eşitlemek için kullanılan şablonları ve temel görevleri açıklar.
 author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e64c9a954e8f5c4410f8ba370b40b7c6e76e8ae0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061321"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860536"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Field Service'daki iş emirlerini Supply Chain Management'taki satış siparişleriyle eşitleme
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061321"
 
 
 
-Bu konu iş emirlerini Dynamics 365 Field Service üzerinden Dynamics 365 Supply Chain Management satış siparişine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
+Bu makale iş emirlerini Dynamics 365 Field Service üzerinden Dynamics 365 Supply Chain Management satış siparişine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 
 [![Supply Chain Management ile Field Service arasında iş süreçlerini eşitleme.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -165,9 +165,9 @@ Kaynağı iş emirleri olan satış siparişlerini takip etmek için **Kaynak t�
 
 Varsayılan olarak, eşleme iş emirlerinden oluşturulan tüm satış siparişleri için **İş emri tümleştirmesi** satış kaynağı türü için satış kaynağını seçer. Bu davranış Supply Chain Management'da satış siparişiyle çalışırken yararlı olabilir. Kaynağı iş emirleri olan satış siparişlerinin Field Service'a yeniden iş emirleri olarak eşitlenmemesini sağlamanız gerekir.
 
-Supply Chain Management'da doğru satış kaynağı kurulumunu oluşturma ayrıntıları için bu konunun "Önkoşullar ve eşleme kurulumu" bölümüne bakın.
+Supply Chain Management'da doğru satış kaynağı kurulumunu oluşturma ayrıntıları için bu makalenin "Önkoşullar ve eşleme kurulumu" bölümüne bakın.
 
-### <a name="status"></a>Durum
+### <a name="status"></a>Çalıştırma Durumu
 
 Satış siparişinin kaynağı bir iş emri olduğunda, **Harici iş emri durumu** alanı satış siparişi başlığının **Kurulum** sekmesinde görüntülenir. Bu alan Field Service'daki iş emrinden gelen sistem durumunu göstererek Supply Chain Management'daki satış siparişlerinin eşitlenen iş emri durumunun izlenmesine yardımcı olur. Bu alan kullanıcının satış siparişinin ne zaman sevk edilmesi veya faturalanması gerektiğini belirlemesine yardımcı olur.
 
@@ -230,7 +230,7 @@ Field Service ile Supply Chain Management arasında tümleştirmeyi desteklemek 
 
 ### <a name="setup-in-data-integration"></a>Veri tümleştirmesinde kurulum
 
-**msdyn_workorders** için **Tümleştirme anahtarı** bulunduğundan emin olun. 
+**msdyn_workorders** için **Tümleştirme anahtarı** bulunduğundan emin olun.
 1. Veri Tümleştirme'ye gidin
 2. **Bağlantı Kümesi** sekmesini seçin
 3. İş emri eşitlemede kullanılacak Bağlantı kümesini seçin

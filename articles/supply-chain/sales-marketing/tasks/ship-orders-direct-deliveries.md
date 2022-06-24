@@ -1,6 +1,6 @@
 ---
 title: Siparişleri doğrudan teslim olarak sevk etme
-description: Bu konu, satış siparişi için bir doğrudan teslimat oluşturmayı göstermektedir.
+description: Bu makale, satış siparişi için bir doğrudan teslimat oluşturmayı göstermektedir.
 author: Henrikan
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94890b0915a49052c298090f124cf2b91c462de8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f5f145bacecc47a782c60335c6ff5b79f978007c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572453"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875173"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Siparişleri doğrudan teslim olarak sevk etme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, satış siparişi için bir doğrudan teslimat oluşturmayı göstermektedir. Malları ilk önce ambarınız yerine doğrudan satıcınızdan müşteriye sevk etmek istediğinizde doğrudan teslimat seçeneğini kullanırsınız. Bu prosedürü demo veri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz. "Doğrudan teslimatları çalışma alanından oluştur" ikincil alt görevini başarıyla tamamlamak için, satış siparişinde seçtiğiniz ürün için Serbest bırakılan ana ürünlerin Satınalma FastTab'inde belirtilmiş varsayılan bir Satıcı olduğundan emin olun.
+Bu makale, satış siparişi için bir doğrudan teslimat oluşturmayı göstermektedir. Malları ilk önce ambarınız yerine doğrudan satıcınızdan müşteriye sevk etmek istediğinizde doğrudan teslimat seçeneğini kullanırsınız. Bu prosedürü demo veri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz. "Doğrudan teslimatları çalışma alanından oluştur" ikincil alt görevini başarıyla tamamlamak için, satış siparişinde seçtiğiniz ürün için Serbest bırakılan ana ürünlerin Satınalma FastTab'inde belirtilmiş varsayılan bir Satıcı olduğundan emin olun.
 
 ## <a name="set-an-individual-order-for-direct-delivery"></a>Doğrudan teslimat için tek bir sipariş ayarlama
 1. **Gezinti bölmesi > Modüller > Alacak hesapları > Siparişler > Tüm satış siparişleri**'ne gidin.

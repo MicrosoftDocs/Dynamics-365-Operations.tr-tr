@@ -1,6 +1,6 @@
 ---
 title: Çift kullanımlı mallar
-description: Bu konu, çift kullanımlı mal olarak tanımlanan ürünlerin nasıl izleneceğini, ilgili her ürün ve hedef ülkeye ilişkin sertifika numaralarının nasıl depolanacağını ve ilgili faturalara, sevk irsaliyelerine ve/veya satış siparişlerine geçerli sertifika numaralarının nasıl yazdırılacağını açıklar.
+description: Bu makale, çift kullanımlı mal olarak tanımlanan ürünlerin nasıl izleneceğini, ilgili her ürün ve hedef ülkeye ilişkin sertifika numaralarının nasıl depolanacağını ve ilgili faturalara, sevk irsaliyelerine ve/veya satış siparişlerine geçerli sertifika numaralarının nasıl yazdırılacağını açıklar.
 author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
-ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
+ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8736047"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878917"
 ---
 # <a name="dual-use-goods"></a>Çift kullanımlı mallar
 
@@ -42,7 +42,7 @@ Aşağıdaki senaryoyu inceleyin:
 
 6. Sipariş X-100 ürününü içeriyor, ürün Fransa'ya sevk ediliyor ve ürün için bir Fransa sertifikası var. Ancak, bu sertifikanın süresi sona ermiş. Bu nedenle, aşağıdaki uyarı iletisini alırsınız: "Bu satış siparişindeki bir veya daha fazla çift kullanımlı madde için çift kullanım sertifikaları geçerli değil. Onay işlemine devam etmek istiyor musunuz?"
 
-Bu konu, çift kullanımlı malları ayarlamak ve bu senaryoyu desteklemek için gereken tüm ayarları nasıl yapılandıracağınızı açıklamaktadır.
+Bu makale, çift kullanımlı malları ayarlamak ve bu senaryoyu desteklemek için gereken tüm ayarları nasıl yapılandıracağınızı açıklamaktadır.
 
 ## <a name="define-dual-use-requirements-for-each-relevant-country"></a>İlgili her ülke için çift kullanım gereksinimleri tanımlama
 

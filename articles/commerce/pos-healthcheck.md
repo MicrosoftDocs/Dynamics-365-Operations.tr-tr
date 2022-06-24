@@ -1,6 +1,6 @@
 ---
-title: POS çevre birimleri ve hizmetler için sistem durumu denetimi
-description: Bu konu, satış noktasındaki (POS) sistem durumu denetimi işlemine genel bakış sağlar.
+title: POS çevre birimleri ve hizmetleri için durum denetimi
+description: Bu makale, satış noktasındaki (POS) sistem durumu denetimi işlemine genel bakış sağlar.
 author: BrianShook
 ms.date: 03/06/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: cd4e97b8dbfc4faf336d4ea927342fd4fa3cc7cd
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 44fd4b6246d3d7947527416c2b8b447bd64f179f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779884"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863333"
 ---
-# <a name="health-check-for-pos-peripherals-and-services"></a>POS çevre birimleri ve hizmetler için sistem durumu denetimi
+# <a name="health-check-for-pos-peripherals-and-services"></a>POS çevre birimleri ve hizmetleri için durum denetimi
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, satış noktasındaki (POS) sistem durumu denetimi işlemini açıklar.
+Bu makale, satış noktasındaki (POS) sistem durumu denetimi işlemini açıklar.
 
 ## <a name="overview"></a>Özet
 
@@ -39,7 +39,7 @@ Microsoft Dynamics 365 Commerce 10.0.10 ve sonraki sürümler, bu maliyet ve eng
 | Vade | Tanım |
 |---|---|
 | Çevre birimi | POS uygulamasının hareketleri ve mağazadaki diğer işlemleri kolaylaştırmak için kullandığı herhangi bir cihaz. Örnekler arasında kasalar, barkod tarayıcıları ve ödeme terminalleri bulunur. |
-| Service | Bu konuda hizmet, POS uygulamasının hareketleri ve günlük işlemleri gerçekleştirmek için kullandığı yardımcı bir uygulamadır. Örnek olarak vergi veya sevkiyat hesaplamalarına yardımcı olan uygulamalar sayılabilir. |
+| Servis | Bu makalede hizmet, POS uygulamasının hareketleri ve günlük işlemleri gerçekleştirmek için kullandığı yardımcı bir uygulamadır. Örnek olarak vergi veya sevkiyat hesaplamalarına yardımcı olan uygulamalar sayılabilir. |
 
 ## <a name="health-check-operation"></a>Sistem durumu denetimi işlemi
 

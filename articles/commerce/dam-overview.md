@@ -1,6 +1,6 @@
 ---
 title: Dijital varlık yönetimine genel bakış
-description: Bu konu, Microsoft Dynamics 365 Commerce site oluşturucusunda dijital varlık yönetimine genel bakış sağlar.
+description: Bu makale, Microsoft Dynamics 365 Commerce site oluşturucusunda dijital varlık yönetimine genel bakış sağlar.
 author: psimolin
 ms.date: 03/03/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 73c41d97727c461a959d05e76c27efa49e9b5775
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 8e958715591c404d979d2537531476004dbcdee5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983200"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892117"
 ---
 # <a name="digital-asset-management-overview"></a>Dijital varlık yönetimine genel bakış
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce site oluşturucusunda dijital varlık yönetimine genel bakış sağlar.
+Bu makale, Microsoft Dynamics 365 Commerce site oluşturucusunda dijital varlık yönetimine genel bakış sağlar.
 
 Dynamics 365 Commerce site oluşturucusunun Ortam Kitaplığı aşağıdakiler için destek dahil olmak üzere zengin dijital varlık yönetimi işlevlerine sahiptir:
 - Görüntü varlıkları

@@ -1,6 +1,6 @@
 ---
 title: Çoklu kanal ödemeleri genel bakışı
-description: Bu konu, Dynamics 365 Commerce Omni-Channel ödemelerinin genel görünümünü sağlar.
+description: Bu makale, Dynamics 365 Commerce Omni-Channel ödemelerinin genel görünümünü sağlar.
 author: BrianShook
 ms.date: 09/17/2020
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 593a647caeaf7d06aa1f2067954466db7dac6a1d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d850e532a764d22bc926f5649f4ad2907b49d1a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984178"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881721"
 ---
 # <a name="omni-channel-payments-overview"></a>Çoklu kanal ödemeleri genel bakışı
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Dynamics 365 Commerce Omni-Channel ödemelerinin genel görünümünü sağlar. Desteklenen senaryoların kapsamlı bir listesini, işlevleri, kurulumu ve sorun giderme bilgilerini ve bazı tipik sorunların açıklamalarını içerir.
+Bu makale, Dynamics 365 Commerce Omni-Channel ödemelerinin genel görünümünü sağlar. Desteklenen senaryoların kapsamlı bir listesini, işlevleri, kurulumu ve sorun giderme bilgilerini ve bazı tipik sorunların açıklamalarını içerir.
 
 ## <a name="key-terms"></a>Önemli terimler
 
@@ -45,15 +45,15 @@ Bu konu, Dynamics 365 Commerce Omni-Channel ödemelerinin genel görünümünü 
 
 Genel olarak, *omni-kanal ödemeleri* terimi bir kanalda bir sipariş oluşturma ve bunu başka bir kanalda yerine getirebilme olanağını açıklamaktadır. Omni-Channel ödeme desteği arasında ödeme ayrıntıları geri kalan sipariş ayrıntılarının ile birlikte korunur ve sipariş tekrar çekilir veya başka bir kanalda işlenirken bu ödeme detayları kullanılır. Klasik örnek, "Çevrimiçi satın al, mağazada teslim al" senaryosudur. Bu senaryoda, sipariş çevrimiçi oluşturulduğunda ödeme ayrıntıları eklenir. Bunlar, daha sonra POS'ta, malzeme çekme sırasında müşterinin ödeme kartının borçlandırılabilmesi için geri çekilir. 
 
-Bu konuda açıklanan tüm senaryolar Commerce ile birlikte sağlanan standart ödeme yazılımı geliştirme seti (SDK) kullanılarak uygulanabilir. [Dynamics 365 Payment Connector for Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3), burada tanımlanan her senaryo için kullanıma hazır uygulama sağlar. 
+Bu makalede açıklanan tüm senaryolar Commerce ile birlikte sağlanan standart ödeme yazılımı geliştirme seti (SDK) kullanılarak uygulanabilir. [Dynamics 365 Payment Connector for Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3), burada tanımlanan her senaryo için kullanıma hazır uygulama sağlar. 
 
-### <a name="prerequisites"></a>Önkoşullar
+### <a name="prerequisites"></a>Ön Koşullar
 
-Bu konuda anlatılan her senaryo, Omni-channel ödemelerini destekleyen bir ödeme bağlayıcısı gerektirir. Kullanıma hazır Adyen bağlayıcısı da kullanılabilir çünkü Ödemeler SDK'sı ile sağlanan senaryoları desteklemektedir. Ödeme bağlayıcılarının nasıl uygulanacağı ve genel olarak Retail SDK hakkında daha fazla bilgi için, [Perakende BT profesyonelleri ve geliştiricileri ana sayfasını](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors) ziyaret edin.
+Bu makalede anlatılan her senaryo, Omni-channel ödemelerini destekleyen bir ödeme bağlayıcısı gerektirir. Kullanıma hazır Adyen bağlayıcısı da kullanılabilir çünkü Ödemeler SDK'sı ile sağlanan senaryoları desteklemektedir. Ödeme bağlayıcılarının nasıl uygulanacağı ve genel olarak Retail SDK hakkında daha fazla bilgi için, [Perakende BT profesyonelleri ve geliştiricileri ana sayfasını](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors) ziyaret edin.
 
 #### <a name="supported-versions"></a>Desteklenen sürümler
 
-Bu konuda açıklanan Omni-channel ödeme özellikleri Microsoft Dynamics 365 for Retail 8.1.3 sürümünün bir parçası olarak yayımlanmıştır. 
+Bu makalede açıklanan Omni-channel ödeme özellikleri Microsoft Dynamics 365 for Retail 8.1.3 sürümünün bir parçası olarak yayımlanmıştır. 
 
 #### <a name="card-present-and-card-not-present-connectors"></a>"Kart mevcut" ve "kart mevcut değil" bağlayıcıları
 
@@ -66,7 +66,7 @@ Bu konuda açıklanan Omni-channel ödeme özellikleri Microsoft Dynamics 365 fo
 Aşağıdaki bileşenler ve kurulum adımları gereklidir:
 
 - **eCommerce entegrasyonu:** bir siparişin çevrimiçi mağazada bulunduğu senaryoları desteklemek için bir Commerce ile bütünleşme gereklidir. Perakende e-ticaret SDK hakkında daha fazla bilgi için, bkz [e-ticaret platformu yazılım geliştirme kiti (SDK)](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Bir demo ortamında, başvuru mağazası, Omni-Channel ödeme senaryolarını desteklemektedir. 
-- **Çevrimiçi ödemeler yapılandırması:** çevrimiçi kanalın kurulumu, Omni-Channel ödemelerini desteklemek için güncelleştirilmiş bir ödeme bağlayıcısı içermelidir. Alternatif olarak, kutu dışı ödeme bağlayıcısı kullanılabilir. Adyen ödeme bağlayıcısını çevrimiçi mağazalar için konfigüre etme hakkında bilgi için, bkz: [Adyen ödeme konnektörü.](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce) Bu konuda açıklanan eCommerce Kurulum adımlarının yanı sıra, Adyen Bağlayıcısı ayarlarında **e-ticaret parametresinde ödeme bilgilerinin kaydedilmesine izin ver** parametresi **doğru** olarak ayarlanmalıdır. 
+- **Çevrimiçi ödemeler yapılandırması:** çevrimiçi kanalın kurulumu, Omni-Channel ödemelerini desteklemek için güncelleştirilmiş bir ödeme bağlayıcısı içermelidir. Alternatif olarak, kutu dışı ödeme bağlayıcısı kullanılabilir. Adyen ödeme bağlayıcısını çevrimiçi mağazalar için konfigüre etme hakkında bilgi için, bkz: [Adyen ödeme konnektörü.](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce) Bu makalede açıklanan eCommerce Kurulum adımlarının yanı sıra, Adyen Bağlayıcısı ayarlarında **e-ticaret parametresinde ödeme bilgilerinin kaydedilmesine izin ver** parametresi **doğru** olarak ayarlanmalıdır. 
 - **Omni-Channel ödemeler konfigürasyonu:** arka ofiste, **Retail ve Commerce \> Merkez kurulumu \> Parametreler \> Commerce paylaşımı parametreleri**. **Omni kanal ödemeleri** sekmesinde, **Omin-channel ödemeleri kullan** seçeneğini **Evet** olarak ayarlayın. Commerce 10.0.12 ve sonraki sürümlerde bu ayar **Özellik Yönetimi** çalışma alanında yer alınır. **Çok yönlü kanal ödemeleri** özelliğini seçin ve **Şimdi etkinleştir**'e tıklayın. 
 - **Ödeme hizmetleri:** Çağrı merkezi ödemeleri işlemek için **Ödeme hizmetleri** sayfasındaki varsayılan ödeme bağlayıcısını kullanır. "Arama merkezinde satın al, mağazada teslim al" gibi senaryoları desteklemek için, bu varsayılan ödeme bağlayıcının, bir Adyen ödeme Bağlayıcısı veya Omni-Channel ödemeleri için olan uygulama gereksinimlerini karşılayan bir ödeme bağlayıcısı olması gerekir.
 - **EFT servisi:** donanım profilinin **EFT servis** hızlı sekmesinde bir ödeme terminali ile yapılan ödemeler ayarlanmalıdır. Adyen konektörü, kullanıma hazır, Omni-Channel ödemeler senaryolarını destekler. **iNamedRequestHandler** arabirimini destekleyen diğer ödeme bağlayıcıları , Omni-kanal ödemelerini destekliyorsa da kullanılabilir.
@@ -231,7 +231,7 @@ Sipariş oluşturmak için kullanılan kart artık geçerli değilse, malzeme ç
 
 Birden çok ilgili ve birden çok satırı bulunan bir sipariş çekildiğinde, kasiyer önce **Kullanılabilir ödeme yöntemini kullan** istemini alır. Birden fazla kart varsa, kasiyer **kullanılabilir ödeme yöntemini kullan** seçtiğinde, mevcut kart ödeme satırları, şu anda çekilmiş mallar için bakiye karşılanana kadar yakalanır. Kasiyerin, çekilmiş mallar için kullanılması gereken kartı seçme seçeneği yoktur. 
 
-## <a name="related-topics"></a>İlgili konular
+## <a name="related-articles"></a>İlgili makaleler
 
 - [Ödemeler ile ilgili SSS](/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [Adyen için Dynamics 365 Ödeme Bağlayıcısı](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)

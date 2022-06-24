@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 2c7f60786743cf750b2bb17ccc0dadf71d859766
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e7b3de3d7da7be6c1c8b5c3842862e7bccd78277
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678589"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857300"
 ---
 # <a name="synchronize-intercompany-charges"></a>Şirketlerarası masrafları eşitleme
 

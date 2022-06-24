@@ -1,6 +1,6 @@
 ---
 title: Dağıtılmış karma topolojide ölçek birimleri
-description: Bu konu, üretim ve ambar yönetimi iş yükleri için bulut ve uç ölçek birimleri hakkında bilgi sağlar.
+description: Bu makale, üretim ve ambar yönetimi iş yükleri için bulut ve uç ölçek birimleri hakkında bilgi sağlar.
 author: Mirzaab
 ms.date: 04/22/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 5ec846b294cd9ca62ff15a5306e012813c77e306
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6b53822238220ccfcf538d49285e051c49c57189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676365"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893685"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Dağıtılmış karma topolojide ölçek birimleri
 
@@ -25,7 +25,7 @@ ms.locfileid: "8676365"
 > [!IMPORTANT]
 > Microsoft Dynamics 365 Supply Chain Management ölçek birimi özelliği, hizmetin kullanımını düzenleyen koşullar altında kullanıma sunulur. Daha fazla bilgi için [Microsoft Dynamics Yasal Bilgiler](https://go.microsoft.com/fwlink/?LinkID=290927) bölümüne bakın.
 >
-> Bulut ve uç ölçek birimlerini etkinleştirdiğinizde, bulut ve uç ölçek birimlerinin yapılandırması ve işlenmesiyle ilgili bazı verilerin ABD'de bulunan bir veri merkezinde depolanabileceğini anladığınızı onaylamanız istenir. Bulut ve uç ölçek birimleri için veri işleme hakkında daha fazla bilgi edinmek için, bu konunun sonraki bölümlerinde yer alan [Ölçek birimleri yönetimi sırasında veri işleme](#data-processing-management) bölümüne bakın.
+> Bulut ve uç ölçek birimlerini etkinleştirdiğinizde, bulut ve uç ölçek birimlerinin yapılandırması ve işlenmesiyle ilgili bazı verilerin ABD'de bulunan bir veri merkezinde depolanabileceğini anladığınızı onaylamanız istenir. Bulut ve uç ölçek birimleri için veri işleme hakkında daha fazla bilgi edinmek için, bu makalenin sonraki bölümlerinde yer alan [Ölçek birimleri yönetimi sırasında veri işleme](#data-processing-management) bölümüne bakın.
 
 ## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Dağıtılmış karma topoloji için temel değer önerisi
 
@@ -48,7 +48,7 @@ Dağıtılmış karma topoloji, atölye ve ambar yürütme iş yüklerinin farkl
 
 *İş yükü*, hariç tutulup bir ölçek birimine devredilebilen tanımlanmış bir iş işlevi kümesidir. Ambar yönetimi için iş yükü yayımlanmış olsa da, üretim yürütme iş yükü hala önizleme aşamasındadır.
 
-[Ölçek Birimi Yöneticisi portalını](https://sum.dynamics.com) kullanarak merkez ortamınızı ve bulut ölçek birimlerini seçili iş yükleri için yapılandırabilirsiniz. Ölçek birimi başına birden çok iş yükü de atayabilirsiniz. Geçerli sürümdeki bulut ölçek birimlerinin önkoşulları ve sınırlamaları hakkında bilgi için, bu konunun sonraki bölümlerinde yer alan [Bulut ölçek birimleri için önkoşullar ve sınırlamalar](#cloud-scale-unit-prerequisites) bölümüne bakın.
+[Ölçek Birimi Yöneticisi portalını](https://sum.dynamics.com) kullanarak merkez ortamınızı ve bulut ölçek birimlerini seçili iş yükleri için yapılandırabilirsiniz. Ölçek birimi başına birden çok iş yükü de atayabilirsiniz. Geçerli sürümdeki bulut ölçek birimlerinin önkoşulları ve sınırlamaları hakkında bilgi için, bu makalenin sonraki bölümlerinde yer alan [Bulut ölçek birimleri için önkoşullar ve sınırlamalar](#cloud-scale-unit-prerequisites) bölümüne bakın.
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Bir ölçek birimindeki özel ambar yönetimi iş yükü özellikleri
 

@@ -1,6 +1,6 @@
 ---
 title: Serbest bırakılan ana ürünün temel kurulumunu tamamlama
-description: Bu konu, ana ürünün, ürün reçetelerinde kullanılmadan önce yerine getirilmesi gereken minimum kurulumun nasıl tamamlanacağını gösterir.
+description: Bu makale, ana ürünün, ürün reçetelerinde kullanılmadan önce yerine getirilmesi gereken minimum kurulumun nasıl tamamlanacağını gösterir.
 author: t-benebo
 ms.date: 07/08/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1ec567892c09968fe80c3a075d656185aceb4e5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a403600bfdc257587441b5b5a907981d5eebaf58
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568507"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844893"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Serbest bırakılan ana ürünün temel kurulumunu tamamlama
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, ana ürünün, ürün reçetelerinde kullanılmadan önce yerine getirilmesi gereken minimum kurulumun nasıl tamamlanacağını gösterir.
+Bu makale, ana ürünün, ürün reçetelerinde kullanılmadan önce yerine getirilmesi gereken minimum kurulumun nasıl tamamlanacağını gösterir.
 
 Bu, boyut tabanlı yapılandırma birleşimlerini nasıl oluşturulacağını açıklayan sekiz prosedür arasındaki üçüncüsüdür. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

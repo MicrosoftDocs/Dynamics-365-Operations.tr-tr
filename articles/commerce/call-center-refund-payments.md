@@ -1,6 +1,6 @@
 ---
 title: Çağrı merkezlerinde iade ödemelerini işleme
-description: Bu konuda, iadeler oluşturulduğunda veya siparişler veya sipariş satırları iptal edildiğinde iade ödemelerinin çağrı merkezleri aracılığıyla nasıl oluşturulduğu açıklanmaktadır.
+description: Bu makalede, iadeler oluşturulduğunda veya siparişler veya sipariş satırları iptal edildiğinde iade ödemelerinin çağrı merkezleri aracılığıyla nasıl oluşturulduğu açıklanmaktadır.
 author: hhainesms
 ms.date: 01/05/2020
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 330674a31dc59e99ffedb82d0896c64214562eb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944725"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880126"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Çağrı merkezlerinde iade ödemelerini işleme
 
-Bu konuda, iadeler oluşturulduğunda veya siparişler veya sipariş satırları iptal edildiğinde iade ödemelerinin çağrı merkezleri aracılığıyla nasıl oluşturulduğu açıklanmaktadır.
+Bu makalede, iadeler oluşturulduğunda veya siparişler veya sipariş satırları iptal edildiğinde iade ödemelerinin çağrı merkezleri aracılığıyla nasıl oluşturulduğu açıklanmaktadır.
 
 Microsoft Dynamics 365 Commerce Headquarters'da çağrı merkezi kullanıcısı olarak bir müşteri için sipariş iadesi oluşturan bir kullanıcı, ilk iade malzemeleri yetkilendirmesini (RMA) oluşturmak için **İade emri** sayfasını kullanır. RMA, müşterinin iade etmek veya değiştirmek istediği ürünleri tanımlar ve iade edilen siparişin sipariş türüne sahip bağlantılı bir **İade satış siparişi** oluşturur. Bu bağlantılı iade siparişi, iade edilen stokun deftere naklini ve deftere nakledilen alacak dekontlarını veya ödeme iadelerini izlemek için kullanılır.
 
@@ -92,7 +92,7 @@ Değiştirme siparişlerindeki ödemeler işlendiğinde, kuruluşların iki seç
 
 ## <a name="payment-overrides-for-call-center-returns"></a>Çağrı merkezi iadeleri için ödeme geçersiz kılmaları
 
-Çağrı merkezi mantığı, iade ödemesi yöntemini bu konuda daha önce açıklanan şekilde sistematik olarak belirlese de, kullanıcılar bazen bu ödemeleri geçersiz kılmak isteyebilir. Örneğin, bir kullanıcı mevcut iade ödeme satırlarını düzenleyebilir veya kaldırabilir ve yeni ödeme satırları uygulayabilir. Sistem tarafından hesaplanan iade ödemeleri yalnızca doğru geçersiz kılma izinlerine sahip kullanıcılar tarafından değiştirilebilir. Bu izinler Perakende ve Ticaret'teki **Geçersi kılma izinleri** sayfasında yapılandırılabilir. İade ödemesini geçersiz kılmak için kullanıcının **Geçersiz kılma izinleri** sayfasında **Alternatif ödemeye izin ver** seçeneğinin **Evet** olarak ayarlandığı bir güvenlik rolüne bağlanması gerekir.
+Çağrı merkezi mantığı, iade ödemesi yöntemini bu makalede daha önce açıklanan şekilde sistematik olarak belirlese de, kullanıcılar bazen bu ödemeleri geçersiz kılmak isteyebilir. Örneğin, bir kullanıcı mevcut iade ödeme satırlarını düzenleyebilir veya kaldırabilir ve yeni ödeme satırları uygulayabilir. Sistem tarafından hesaplanan iade ödemeleri yalnızca doğru geçersiz kılma izinlerine sahip kullanıcılar tarafından değiştirilebilir. Bu izinler Perakende ve Ticaret'teki **Geçersi kılma izinleri** sayfasında yapılandırılabilir. İade ödemesini geçersiz kılmak için kullanıcının **Geçersiz kılma izinleri** sayfasında **Alternatif ödemeye izin ver** seçeneğinin **Evet** olarak ayarlandığı bir güvenlik rolüne bağlanması gerekir.
 
 ![Geçersiz kılma izinleri sayfasında alternatif ödemeye izin ver seçeneği.](media/overridepermissions.png)
 

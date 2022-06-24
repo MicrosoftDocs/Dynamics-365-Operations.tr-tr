@@ -1,6 +1,6 @@
 ---
 title: İndirim yönetimi deftere nakil ayarı
-description: Bu konuda, deftere nakil profilleri için veri ayarlama yöntemi açıklanmaktadır. Deftere nakil profilleri, indirim yönetimi hesaplama satırlarıyla ilgili deftere nakil girişlerini belirlemek için kullanılır.
+description: Bu makalede, deftere nakil profilleri için veri ayarlama yöntemi açıklanmaktadır. Deftere nakil profilleri, indirim yönetimi hesaplama satırlarıyla ilgili deftere nakil girişlerini belirlemek için kullanılır.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5ed28e99e36fafa4e1275421159420a3f3380c7c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7a519b7153b307bf7d8cc9093572ca2711432970
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690260"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873593"
 ---
 # <a name="rebate-management-posting-setup"></a>İndirim yönetimi deftere nakil ayarı
 
@@ -30,7 +30,7 @@ Bu özellik şirketler arasında çalışır (tüzel kişilikler). Provizyonun t
 
 Müşteriler ve satıcılar için indirim yönetimi deftere nakil profilleri ayarlamak üzere, **indirim Yönetimi \>i ndirim yönetimi deftere nakil kurulumu \> indirim yönetimi deftere nakil profilleri**'ne gidin. **İndirim yönetimi deftere nakil profilleri** sayfası, varolan tüm profillerinizi gösteren bir liste bölmesi içerir. Listeye profil eklemek veya bunları kaldırmak için eylem bölmesinde düğmeleri kullanabilirsiniz.
 
-Bu konunun geri kalan bölümleri, bir profil oluşturduğunuzda veya düzenlediğinizde, kullanılabilir alanların nasıl kullanılacağını açıklar.
+Bu makalenin geri kalan bölümleri, bir profil oluşturduğunuzda veya düzenlediğinizde, kullanılabilir alanların nasıl kullanılacağını açıklar.
 
 ## <a name="posting-profile-header"></a>Profil başlığı nakletme
 

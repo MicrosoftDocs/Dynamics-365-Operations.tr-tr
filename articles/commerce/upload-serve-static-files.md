@@ -1,6 +1,6 @@
 ---
 title: Statik dosyaları karşıya yükleme ve sunma
-description: Bu konu, Microsoft Dynamics 365 Commerce site Builder'a statik bir dosya yükleme ve bu dosyayı istemek için kullanılabilecek özel bir URL ve dosya adı oluşturma konularını açıklamaktadır.
+description: Bu makale, Microsoft Dynamics 365 Commerce site Builder'a statik bir dosya yükleme ve bu dosyayı istemek için kullanılabilecek özel bir URL ve dosya adı oluşturma konularını açıklamaktadır.
 author: StuHarg
 ms.date: 11/16/2020
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 389d33189644241dcf98da0c7f3b841e82a4430ac459dc8027284cecc299b4b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1b14feba1466c3a5efc3b0ea66f20e9e818a8a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714695"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885334"
 ---
 # <a name="upload-and-serve-static-files"></a>Statik dosyaları karşıya yükleme ve sunma
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce site Builder'a statik bir dosya yükleme ve bu dosyayı istemek için kullanılabilecek özel bir URL ve dosya adı oluşturma konularını açıklamaktadır.
+Bu makale, Microsoft Dynamics 365 Commerce site Builder'a statik bir dosya yükleme ve bu dosyayı istemek için kullanılabilecek özel bir URL ve dosya adı oluşturma konularını açıklamaktadır.
 
-Bazı üçüncü taraf bağlayıcılar, bir dosyanın barındırılmasını ve e-ticaret sitesinden sunulmasını gerektirir. Bu bağlayıcılar, dosyanın istekler tarafından belirli bir geri arama URL'sine yol ve dosya adıyla verilmesini bekler. Bu nedenle bu konu, bir Dynamics 365 Commerce e-ticaret sitesinde Kullanıcı tarafından tanımlanabilir bir URL ve dosya adı bulunan statik bir dosyanın nasıl karşıya yükleneceğini ve hizmet verileceğini açıklamaktadır.
+Bazı üçüncü taraf bağlayıcılar, bir dosyanın barındırılmasını ve e-ticaret sitesinden sunulmasını gerektirir. Bu bağlayıcılar, dosyanın istekler tarafından belirli bir geri arama URL'sine yol ve dosya adıyla verilmesini bekler. Bu nedenle bu makale, bir Dynamics 365 Commerce e-ticaret sitesinde Kullanıcı tarafından tanımlanabilir bir URL ve dosya adı bulunan statik bir dosyanın nasıl karşıya yükleneceğini ve hizmet verileceğini açıklamaktadır.
 
 ## <a name="create-a-site-url-that-returns-a-static-file"></a>Statik dosya döndüren bir site URL'si oluştur
 
@@ -86,7 +86,7 @@ URL oluşturulduktan sonra, yolu değiştirilemez. Bir dosyaya veya başka bir k
 
 URL yolu değiştirmek için, aşağıdaki adımları izleyin.
 
-1. Yeni bir URL oluşturmak ve varolan bir dosyaya veya başka bir kaynağa eşlemek için, [Bu konunun yukarısındaki statik dosya bölümü döndüren bir site URL 'si oluştur konusundaki yönergeleri izleyin ](#create-a-site-url-that-returns-a-static-file).
+1. Yeni bir URL oluşturmak ve varolan bir dosyaya veya başka bir kaynağa eşlemek için, [Bu makalenin yukarısındaki statik dosya bölümü döndüren bir site URL 'si oluştur konusundaki yönergeleri izleyin ](#create-a-site-url-that-returns-a-static-file).
 1. Yeni URL'yi seçin ve komut çubuğunda **yayınla** 'yı seçin . Yeni URL yayımlandı.
 1. Eski URL'yi yayımdan kaldırmak için, onu seçin ve sonra komut çubuğunda **Yayımdan Kaldır**'ı seçin. İsterseniz eski URL'yi artık silebilirsiniz.
 

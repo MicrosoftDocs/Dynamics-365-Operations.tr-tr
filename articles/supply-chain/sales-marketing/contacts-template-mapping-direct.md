@@ -1,6 +1,6 @@
 ---
 title: Sales'teki ilgili kişileri doğrudan Supply Chain Management'taki ilgili kişilerle veya müşterilerle eşitleme
-description: Bu konu, Kişiler (Kişiler) ve Kişiler (Müşteriler) varlıklarını Dynamics 365 Sales üzerinden Dynamics 365 Supply Chain Management üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
+description: Bu makale, Kişiler (Kişiler) ve Kişiler (Müşteriler) varlıklarını Dynamics 365 Sales'dan Dynamics 365 Supply Chain Management'a eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 57a9c2a860e99855e841f0f4276ba2f92767c2b1
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4ddb91c34816791d8eca80e4798eb46c1b496439
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062527"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857358"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Sales'teki ilgili kişileri doğrudan Supply Chain Management'taki ilgili kişilerle veya müşterilerle eşitleme
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062527"
 > [!NOTE]
 > Aday'dan nakde çözümünü kullanmadan önce [Microsoft Dataverse for Apps için veri tümleştirme](/powerapps/administrator/data-integrator) hakkında bilgi sahibi olmalısınız.
 
-Bu konuda, İlgili Kişi (Kişiler) ve İlgili Kişi (Müşteriler) tablolarını doğrudan Dynamics 365 Sales'den Dynamics 365 Supply Chain Management'a eşitlemekte kullanılan şablonlar ve temel görevler açıklanmaktadır.
+Bu makalede, İlgili Kişi (Kişiler) ve İlgili Kişi (Müşteriler) tablolarını doğrudan Dynamics 365 Sales'den Dynamics 365 Supply Chain Management'a eşitlemekte kullanılan şablonlar ve temel görevler açıklanmaktadır.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Aday müşteriden nakde çözümünde veri akışı
 
@@ -126,7 +126,7 @@ Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gö
 ![Veri tümleştirici içerisindeki İlgili kişiden müşteriye şablon eşlemesi.](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
-## <a name="related-topics"></a>İlgili konular
+## <a name="related-articles"></a>İlgili makaleler
 
 [Aday müşteriden nakde](prospect-to-cash.md)
 

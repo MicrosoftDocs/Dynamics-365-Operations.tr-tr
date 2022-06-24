@@ -1,6 +1,6 @@
 ---
-title: Satınalma ticari sözleşmeleri ile master planlama
-description: Bu konuda, planlama Iyileştirmenin planlı bir sipariş için satıcı ve/veya sağlama süresini, satınalma ticari anlaşmalarında bulunan en iyi fiyat veya sağlama süresine göre nasıl bulabileceği açıklanmaktadır.
+title: Satın alma ticari sözleşmeleri ile master planlama
+description: Bu makalede, planlama Iyileştirmenin planlı bir sipariş için satıcı ve/veya sağlama süresini, satınalma ticari anlaşmalarında bulunan en iyi fiyat veya sağlama süresine göre nasıl bulabileceği açıklanmaktadır.
 author: t-benebo
 ms.date: 06/29/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: cb790836042506ed6676ee7edbd8bba58191519b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468427"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873767"
 ---
-# <a name="master-planning-with-purchase-trade-agreements"></a>Satınalma ticari sözleşmeleri ile master planlama
+# <a name="master-planning-with-purchase-trade-agreements"></a>Satın alma ticari sözleşmeleri ile master planlama
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, planlama iyileştirmenin planlı bir sipariş için satıcı ve/veya sağlama süresini, belirli bir ürün için belirtilen tüm satınalma ticari anlaşmalarında bulunan en iyi fiyat veya sağlama süresine göre nasıl bulabileceği açıklanmaktadır.
+Bu makalede, planlama iyileştirmenin planlı bir sipariş için satıcı ve/veya sağlama süresini, belirli bir ürün için belirtilen tüm satınalma ticari anlaşmalarında bulunan en iyi fiyat veya sağlama süresine göre nasıl bulabileceği açıklanmaktadır.
 
 ## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>Planlama için iyileştirme özelliği için satınalma ticari anlaşmalarını açın
 

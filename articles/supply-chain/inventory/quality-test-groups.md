@@ -1,6 +1,6 @@
 ---
 title: Kalite yönetimi test grupları
-description: Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta kalite emirleriyle birden çok testin kullanılabilmesi için, test gruplarının nasıl oluşturulacağını açıklar.
+description: Bu makale, Microsoft Dynamics 365 Supply Chain Management'ta kalite emirleriyle birden çok testin kullanılabilmesi için, test gruplarının nasıl oluşturulacağını açıklar.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5619be4a0724556bf0c51dcaa3adcc3725f10706
-ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
+ms.openlocfilehash: e7722bc92d8c2bf52d6a798a93f07af44037d4e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "8789282"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857720"
 ---
 # <a name="quality-management-test-groups"></a>Kalite yönetimi test grupları
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta kalite emirleriyle birden çok testin kullanılabilmesi için, test gruplarının nasıl oluşturulacağını açıklar.
+Bu makale, Microsoft Dynamics 365 Supply Chain Management'ta kalite emirleriyle birden çok testin kullanılabilmesi için, test gruplarının nasıl oluşturulacağını açıklar.
 
 Test grubuna atanmış bireysel testleri ayarlamak, düzenlemek ve görüntülemek için **Test grupları** sayfasını kullanın. Sayfanın üst bölümü, test gruplarını gösterir ve alt bölümü seçili bir test grubuna atanan testleri görüntüler.
 

@@ -1,6 +1,6 @@
 ---
 title: Mobil cihaz kullanıcı ayarları
-description: Bu konuda, ambar çalışanları için mobil cihaz kullanıcı ayarlarının nasıl yönetileceği açıklanmaktadır.
+description: Bu makalede, ambar çalışanları için mobil cihaz kullanıcı ayarlarının nasıl yönetileceği açıklanmaktadır.
 author: Mirzaab
 ms.date: 02/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 15f9ce1768e1ed9dc6f7e84d245082b46a7f122c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103725"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882358"
 ---
 # <a name="mobile-device-user-settings"></a>Mobil cihaz kullanıcı ayarları
 
@@ -41,7 +41,7 @@ Bu özellik, çalışanların yeni bir cihaz kullanmaya başladıklarında daha 
 
 ## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>Mobil cihaz kullanıcı ayarları özelliğini açma veya kapatma
 
-Bu konuda açıklanan işlevi kullanmak için, *Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları* özelliğinin sisteminiz için açık olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
+Bu makalede açıklanan işlevi kullanmak için, *Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları* özelliğinin sisteminiz için açık olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="create-and-manage-user-settings"></a>Kullanıcı ayarları oluşturma ve yönetme
 

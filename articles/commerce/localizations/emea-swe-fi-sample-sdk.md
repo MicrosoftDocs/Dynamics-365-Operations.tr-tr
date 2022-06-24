@@ -1,6 +1,6 @@
 ---
 title: İsveç için kontrol birimi tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)
-description: Bu konu, Retail SDK'den İsveç için kontrol birimi tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar
+description: Bu makale, Retail SDK'den İsveç için kontrol birimi tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: b8d60f32d986dec6bb26d78ebdfe8cee3a6b688a
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 05a49de43282c449c7b99072d8ac3ac4a5f2a67f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077050"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870559"
 ---
 # <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>İsveç için kontrol birimi tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) Retail yazılım geliştirme setinden (SDK) İsveç için kontrol birimi tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar. Bu mali tümleştirme örneği hakkında daha fazla bilgi için bkz. [İsveç için kontrol birimi tümleştirme örneği](emea-swe-fi-sample.md). 
+Bu makale, Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) Retail yazılım geliştirme setinden (SDK) İsveç için kontrol birimi tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar. Bu mali tümleştirme örneği hakkında daha fazla bilgi için bkz. [İsveç için kontrol birimi tümleştirme örneği](emea-swe-fi-sample.md). 
 
-İsveç için mali tümleştirme örneği, Retail SDK'nin bir parçasıdır. SDK'yi yükleme ve kullanma hakkında daha fazla bilgi için bkz. [Retail yazılım geliştirme seti (SDK) mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md). Bu örnek, Commerce Runtime ( CRT) ve satış noktasına (POS) yönelik uzantılardan oluşur. Bu örneği çalıştırmak için CRT, Hardware station ve POS projelerini değiştirip derlemeniz gerekir. Bu konuda açıklanan değişiklikleri yapmak için değiştirilmemiş bir Retail SDK kullanmanızı öneririz. Henüz değiştirilmiş bir dosya olmadığı durumlarda, Azure DevOps gibi bir kaynak denetimi sistemi kullanmanızı öneririz.
+İsveç için mali tümleştirme örneği, Retail SDK'nin bir parçasıdır. SDK'yi yükleme ve kullanma hakkında daha fazla bilgi için bkz. [Retail yazılım geliştirme seti (SDK) mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md). Bu örnek, Commerce Runtime ( CRT) ve satış noktasına (POS) yönelik uzantılardan oluşur. Bu örneği çalıştırmak için CRT, Hardware station ve POS projelerini değiştirip derlemeniz gerekir. Bu makalede açıklanan değişiklikleri yapmak için değiştirilmemiş bir Retail SDK kullanmanızı öneririz. Henüz değiştirilmiş bir dosya olmadığı durumlarda, Azure DevOps gibi bir kaynak denetimi sistemi kullanmanızı öneririz.
 
 ## <a name="development-environment"></a>Geliştirme ortamı
 
@@ -257,7 +257,7 @@ Geçiş işlemi aşağıdaki adımlardan oluşmalıdır.
 1. POS ve Hardware station bileşenlerini güncelleştirin, önceki örneğin parçası olan uzantıları devre dışı bırakın ve güncel örneğin uzantılarını etkinleştirin.
 
     > [!NOTE]
-    > Ortam türüne bağlı olarak, bu konunun [Geliştirme ortamında geçiş](#migration-in-a-development-environment) veya [Üretim ortamında geçiş](#migration-in-a-production-environment) bölümünde geçiş işlemi hakkında daha fazla teknik ayrıntı bulabilirsiniz.
+    > Ortam türüne bağlı olarak, bu makalenin [Geliştirme ortamında geçiş](#migration-in-a-development-environment) veya [Üretim ortamında geçiş](#migration-in-a-production-environment) bölümünde geçiş işlemi hakkında daha fazla teknik ayrıntı bulabilirsiniz.
 
 ### <a name="migration-in-a-development-environment"></a>Geliştirme ortamında geçiş
 

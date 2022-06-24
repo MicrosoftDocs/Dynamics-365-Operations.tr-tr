@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f87723ebd6684efba8464a7d64c7e1ea99f194eb
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: e52b313e0a00c04edf9003aa6292146936f837d4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102814"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889442"
 ---
 # <a name="location-license-plate-positioning"></a>Yerleşim plakası konumlandırmasıı
 
@@ -28,11 +28,11 @@ Lisans levhası yerleşim konumlama, Çift-derin palet yerleşiminden oluşan ye
 
 Özellik bir depolama konumuna yerleştirilecek her lisans kalıbına bir sıra numarası ekler. Bu sıra numarası depolama konumundaki lisans levhalarını sipariş etmek için kullanılır. Bu nedenle, özellik, müşterilerin yer çekimi takılabilir bir sistemi kullandığı ve malzeme çekme amaçları doğrultusunda, hangi lisans kalıbının öne geldiği ile ilgili bilinmesi gereken senaryoları akıllıca destekler.
 
-Bu konu özelliğin nasıl ayarlanacağını ve kullanılacağını gösteren bir senaryo sunar.
+Bu makale özelliğin nasıl ayarlanacağını ve kullanılacağını gösteren bir senaryo sunar.
 
 ## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>Konum lisans plakası konumlandırma özelliğini açma veya kapatma
 
-Bu konuda açıklanan işlevi kullanmak için *Yerleşim lisans plakası konumlandırma* özelliğinin sisteminizde etkinleştirilmiş olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Yerleşim lisans plakası konumlandırma* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
+Bu makalede açıklanan işlevi kullanmak için *Yerleşim lisans plakası konumlandırma* özelliğinin sisteminizde etkinleştirilmiş olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Yerleşim lisans plakası konumlandırma* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="example-scenario"></a>Örnek senaryo
 
@@ -42,7 +42,7 @@ Burada önerilen değerleri kullanarak bu senaryoyla çalışmak için, örnek v
 
 ### <a name="set-up-the-feature-for-this-scenario"></a>Bu senaryo için özellik ayarla
 
-Bu konuda sunulan senaryoya ait *konum lisans levhası konumlandırma* özelliğini ayarlamak için aşağıdaki yordamları tamamlayın.
+Bu makalede sunulan senaryoya ait *konum lisans levhası konumlandırma* özelliğini ayarlamak için aşağıdaki yordamları tamamlayın.
 
 #### <a name="location-profiles"></a>Konum profilleri
 

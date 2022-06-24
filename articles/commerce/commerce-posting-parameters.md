@@ -1,6 +1,6 @@
 ---
 title: Commerce deftere nakil parametreleri
-description: Bu konu, Microsoft Dynamics 365 Commerce'de mali ve fiziksel hareketlerin deftere nakledilmesine özel parametreleri açıklamaktadır.
+description: Bu makale, Microsoft Dynamics 365 Commerce'de mali ve fiziksel hareketlerin deftere nakledilmesine özel parametreleri açıklamaktadır.
 author: analpert
 ms.date: 04/27/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2022-04-12
-ms.openlocfilehash: 1b49c893567d39f05e16cefee47407a424b7e139
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 10ea650b7c5c0cad7e1a3d7556c073aecef06036
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649219"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887126"
 ---
 # <a name="commerce-posting-parameters"></a>Commerce deftere nakil parametreleri
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce'de mali ve fiziksel hareketlerin deftere nakledilmesine özel parametreleri açıklamaktadır. Commerce deftere nakil parametreleri, Commerce yönetim merkezinde **Retail ve Commerce \> Yönetim merkezi kurulumu \> Parametreler \> Commerce parametreleri \> Deftere nakil**'de yer almaktadır.
+Bu makale, Microsoft Dynamics 365 Commerce'de mali ve fiziksel hareketlerin deftere nakledilmesine özel parametreleri açıklamaktadır. Commerce deftere nakil parametreleri, Commerce yönetim merkezinde **Retail ve Commerce \> Yönetim merkezi kurulumu \> Parametreler \> Commerce parametreleri \> Deftere nakil**'de yer almaktadır.
 
 ## <a name="periodic-discount-parameters"></a>Periyodik iskonto parametreleri
 
