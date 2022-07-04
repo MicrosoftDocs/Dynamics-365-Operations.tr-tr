@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26 (Mayıs)
                   href: get-started/whats-new-changed-10-0-26.md
-                - name: Finance 10.0.25 (Nisan)
-                  href: get-started/whats-new-changed-10-0-25.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -68,13 +66,13 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Veri görevi otomasyonu
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/finance/toc.json
-                - name: One Version kullanarak ISV çözümleri teslim etme
+                - name: One Version'ı kullanarak ISV çözümlerini sunma
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/finance/toc.json
-                - name: Kullanıcı kabul testleri oluşturma ve otomatikleştirme
+                - name: Kullanıcı kabul testlerini oluşturma ve otomatikleştirme
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/finance/toc.json
             - name: Tanıtım ortamını dağıtma
               href: ../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md?toc=/dynamics365/finance/toc.json
-            - name: Dağıtımla ilgili konular
+            - name: Dağıtımla ilgili dikkate alınması gereken noktalar
               items:
                 - name: Dağıtım seçenekleri
                   href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/finance/toc.json
@@ -462,6 +460,8 @@
                   items:
                     - name: Gelir ve gider ertelemelerini ayarlama
                       href: accounts-receivable/sb-deferrals.md
+                    - name: Ertelemeleri deftere nakletme yöntemi
+                      href: accounts-receivable/Deferral-posting-methods.md
                     - name: Erteleme planları oluşturma
                       href: accounts-receivable/sb-deferrals-schedules.md
                     - name: Erteleme varsayılan işlemleri
@@ -1214,6 +1214,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: Mali rapor bileşenleri
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: Mali raporları görüntüleme ve tasarlama
+              href: ../fin-ops-core/dev-itpro/analytics/design-financial-reports.md
             - name: Mali raporlamada para birimi özellikleri
               href: general-ledger/financial-reporting-currency-capability.md
             - name: Mali raporlamada yedek akçe hesaplaması
@@ -1978,6 +1980,8 @@
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
                 - name: Brezilya için banka hesap numaralarını ayarlama
                   href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
+                - name: Transfer emirleri
+                  href: localizations/latam-bra-about-transfer-orders.md
                 - name: Vergiler
                   items:
                     - name: Brezilya'daki vergilere genel bakış
@@ -2116,11 +2120,13 @@
                   href: localizations/emea-cze-intra-community-VAT.md
                 - name: Yıl sonu kapanışı
                   href: localizations/emea-cze-hun-year-end.md
+                - name: AB satış listesi
+                  href: localizations/emea-cze-eu-sales-list.md
             - name: Danimarka
               items:
                 - name: Danimarka'ya genel bakış
                   href: localizations/denmark.md
-                - name: Müşteri hesabına ödeme makbuzu biçimi atama
+                - name: Müşteri hesaplarına ödeme makbuzu biçimi atama
                   href: localizations/tasks/assign-payment-slip-format-customer-account.md
                 - name: Kamu sektörü müşterisi için müşteri faturası oluşturma ve deftere nakletme
                   href: localizations/tasks/create-post-customer-invoice-public-sector-customer.md
@@ -2130,8 +2136,8 @@
                   href: localizations/tasks/create-post-project-invoice-public-sector-customer.md
                 - name: AB satış listesi
                   href: localizations/emea-dnk-eu-sales-list.md
-                - name: OIOUBL elektronik faturalama yapılandırmalarını içeri aktarma
-                  href: localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
+                - name: Danimarka'da elektronik müşteri faturaları
+                  href: localizations/emea-dnk-e-invoices.md
                 - name: Ödeme makbuzu olan serbest metin faturasını deftere nakletme
                   href: localizations/tasks/post-free-text-invoice-payment-slip.md
                 - name: Ödeme makbuzu olan proje faturasını deftere nakletme
@@ -2220,6 +2226,8 @@
                       href: localizations/emea-ISO20022-file-formats.md
                     - name: ISO20022 talimatlı ödeme yapılandırmasını içeri aktarma
                       href: localizations/tasks/import-iso20022-direct-debit-configuration.md
+                    - name: ISO 20022 alacak transfer biçimi için önkoşullar
+                      href: localizations/emea-fra-ISO20022-international.md
                     - name: ISO20022 alacak transferi yapılandırmasını içeri aktarma
                       href: localizations/tasks/import-iso20022-credit-transfer-configuration.md
                     - name: ISO20022 alacak transferleri için şirket banka hesapları ayarlama
@@ -2458,15 +2466,17 @@
                   href: localizations/emea-hun-online-invoicing.md
                 - name: Macaristan için satış vergisi raporları
                   href: localizations/emea-hun-sales-tax-reports.md
-                - name: Macarca İntrastat
+                - name: Macaristan için Intrastat
                   href: localizations/emea-hun-intrastat.md
                 - name: Ertelenen satış vergisi hesaplamaları
                   href: localizations/emea-hun-deferred-vat.md
+                - name: AB satış listesi
+                  href: localizations/emea-hun-eu-sales-list.md
             - name: İzlanda
               items:
                 - name: İzlanda'ya genel bakış
                   href: localizations/iceland.md
-                - name: Satıcı hesabı oluşturma ve fatura beyanı kategorisini iliştirme
+                - name: Satıcı hesabı oluşturma ve fatura beyanı kategorisini ekleme
                   href: localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
                 - name: Satıcılar için fatura beyanı ayarlama
                   href: localizations/tasks/set-up-invoice-declaration-vendors.md
@@ -2766,6 +2776,8 @@
                                   href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
                                 - name: Tüzel kişilikler için TDS kayıt numaralarını ayarlama
                                   href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: TDS vergi türü için stopaj vergisi bileşen gruplarını ayarlama
+                                  href: localizations/apac-ind-TDS-Withholding-tax-component-groups-setup-for-TDS-tax-type.md
                                 - name: TDS vergi türü için stopaj vergisi yetkililerini ayarlama
                                   href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
                                 - name: TDS vergi türü için vergi bileşenlerini ayarlama
@@ -2968,6 +2980,8 @@
                   href: localizations/tasks/configure-depreciation-profile-posting.md
                 - name: Kıymet emeklilik yükümlülüğü deftere nakil işlemi ve pazar iskonto oranları için ana hesapları yapılandırma
                   href: localizations/tasks/configure-main-accounts-asset-retirement.md
+                - name: Tüketim vergisi raporu
+                  href: localizations/apac-jpn-consumption-tax-report.md
                 - name: Konsolide faturalar
                   href: localizations/apac-jpn-consolidate-invoices.md
                 - name: Ek amortisman ile sabit kıymet oluşturma
@@ -3416,6 +3430,8 @@
                           href: localizations/rus-register-acquisition.md
                         - name: Sabit kıymetleri alma ve işleme koyma
                           href: localizations/rus-fixed-asset-acquisition.md
+                        - name: Sabit kıymetler olarak araçlar ve gayrimenkul
+                          href: localizations/rus-vehicles-realty.md
                         - name: Amortismanı hesaplama
                           href: localizations/rus-depreciation-calculation.md
                         - name: Kısmi sabit kıymet ayrıştırma (tasfiye)
@@ -3444,6 +3460,8 @@
                       items:
                         - name: Değerli olmayan sabit kıymetler (NVFA'lar) (Rusya)
                           href: localizations/rus-not-valuable-assets.md
+                        - name: 'NVFA, iş kıyafetleri ve özel donanımlar için birincil formlar (Rusya)'
+                          href: localizations/rus-nvfa.md
                         - name: İş kıyafetleri/özel donanım muhasebesi (Rusya)
                           href: localizations/rus-working-clothes-instruments-accounting.md
                     - name: Kıymet yönetimi modülünü sabit kıymetlerle tümleştirme
@@ -3520,6 +3538,8 @@
                       href: localizations/rus-land-tax-declaration.md
                     - name: Kazanç vergisi beyannamesi
                       href: localizations/rus-profit-tax-declaration.md
+                    - name: İzlenebilir mallar bulunan operasyonları raporlama
+                      href: localizations/rus-traceable-goods-operation-report.md
                 - name: Kuruluş yönetimi
                   items:
                     - name: Adresle ilgili vergi sicil bilgileri

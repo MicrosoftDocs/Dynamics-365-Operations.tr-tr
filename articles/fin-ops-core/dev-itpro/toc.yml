@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-27.md
                 - name: 10.0.26 sürümü için platform güncellemeleri (Mayıs 2022)
                   href: get-started/whats-new-platform-updates-10-0-26.md
-                - name: 10.0.25 sürümü için platform güncellemeleri (Nisan 2022)
-                  href: get-started/whats-new-platform-updates-10-0-25.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -374,13 +372,13 @@
                   items:
                     - name: Şirket içi dağıtıma genel bakış
                       href: deployment/on-premises-overview.md
-                    - name: Şirket içi dağıtımları planlama ve hazırlama
+                    - name: Şirket içi dağıtımları planlama ve bu dağıtımlara hazırlanma
                       href: deployment/plan-onprem-deployment.md
-                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) tarafından desteklenen yazılımlar
+                    - name: Şirket içi dağıtımlarda desteklenen yazılımlar
                       href: deployment/onprem-compatibility.md
                     - name: Donanım boyutlandırma gereksinimleri
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                    - name: Dynamics 365 Finance + Operations (on-premises) uygulamasında kimlik doğrulaması
+                    - name: Şirket içi ortamlarda kimlik doğrulaması
                       href: deployment/authentication-onprem.md
                 - name: Şirket içi ortamları ayarlama ve dağıtma
                   items:
@@ -402,15 +400,15 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: İstemci internet bağlantısı
                       href: user-interface/client-disconnected.md
-                    - name: Şirket içi dağıtımlarda Yalnızca toplu iş ve Yalnızca etkileşimli AOS düğümlerini yapılandırma
+                    - name: Şirket içi dağıtımlarda yalnızca toplu iş ve yalnızca etkileşimli AOS düğümlerini yapılandırma
                       href: deployment/onprem-batchonly.md
                     - name: SQL Server Reporting Services (SSRS) düğümleri için yüksek kullanılabilirliği yapılandırma
                       href: deployment/onprem-SSRSHA.md
                     - name: Şirket içi ortamlar için proxy'ler yapılandırma
                       href: deployment/onprem-reverseproxy.md
-                    - name: Şirket içi dağıtımlar için Ambarlama uygulamasını yapılandırma
+                    - name: Şirket içi dağıtımlar için Warehousing uygulamasını yapılandırma
                       href: deployment/warehousing-for-on-premise-deployments.md
-                    - name: Finance + Operations (on-premises) ortamlarında RSAT'yi etkinleştirme
+                    - name: Şirket içi ortamlarda RSAT'yi etkinleştirme
                       href: deployment/onprem-rsat-configuration.md
                     - name: Şirket içi ortamlara ağ yazıcısı cihazları kurma
                       href: analytics/install-network-printer-onprem.md
@@ -426,17 +424,17 @@
                       href: deployment/redeploy-on-prem.md
                     - name: AOS düğümünü kaldırıp yeniden yükleme veya ekleme
                       href: deployment/onprem-remove-reinstall-AOS-node.md
-                    - name: Birden çok ortam için aynı AD FS örneğini yeniden kullanma
+                    - name: Birden çok ortamda aynı AD FS örneğini yeniden kullanma
                       href: deployment/onprem-reuseadfs.md
-                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) ortamlarınızda Windows Server'ı yükseltme
+                    - name: Şirket içi ortamlarınızda Windows Server'ı yükseltme
                       href: deployment/onprem-upgrade-os.md
-                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) ortamlarının SQL Server örneğini yükseltme
+                    - name: Şirket içi ortamların SQL Server örneğini yükseltme veya değiştirme
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: Yerel aracı
                   items:
                     - name: AD FS Microsoft 365 uyumluluğu
                       href: deployment/onprem-adfscompatibility.md
-                    - name: Yerel aracı dağıtım öncesi ve dağıtım sonrası kodları
+                    - name: Yerel aracı dağıtım öncesi ve dağıtım sonrası betikleri
                       href: lifecycle-services/pre-post-scripts.md
                     - name: Yerel aracı için dağıtım yapılandırmaları
                       href: deployment/onprem-localagent-options.md
@@ -982,9 +980,11 @@
                   href: lifecycle-services/configuration-manager-lcs.md
                 - name: Yapılandırma yöneticisini ayarlama
                   href: lifecycle-services/set-up-configuration-manager-lcs.md
+                - name: Yapılandırmaları kopyalama
+                  href: lifecycle-services/copy-configuration-lcs.md
             - name: Kod yükseltme hizmetini yapılandırma
               href: lifecycle-services/configure-execute-code-upgrade.md
-            - name: Metodolojiler oluşturma veya güncelleme
+            - name: Metodoloji oluşturma veya güncelleme
               href: lifecycle-services/create-methodology.md
             - name: İş süreci modelleyici (BPM)
               items:
@@ -1050,7 +1050,9 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Azure DevOps uzantısı öğreticisi (Genel Önizleme)
                   href: lifecycle-services/dts-ado-tutorial.md
-                - name: Dynamics 365 Translation Service Visual Studio Code uzantısı (Genel Önizleme)
+                - name: Visual Studio uzantısı (Özel Önizleme)
+                  href: lifecycle-services/dts-visual-studio.md
+                - name: Visual Studio Code uzantısı (Genel Önizleme)
                   href: lifecycle-services/dts-vscode-doc.md
         - name: Microsoft Power Platform tümleştirmesi
           items:
@@ -1602,6 +1604,8 @@
               href: sysadmin/implement-b2b.md
             - name: Veri bakımı
               href: sysadmin/DataMaintenancePortal.md
+            - name: Tüzel kişilikler genelinde ağ yazıcılarına erişimi yönetme
+              href: sysadmin/sys-admin-tools-network-printer.md
             - name: Güvenlik
               items:
                 - name: Rol tabanlı güvenlik

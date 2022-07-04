@@ -18,8 +18,6 @@
                   href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26 (Mayıs 2022)
                   href: get-started/whats-new-scm-10-0-26.md
-                - name: Supply Chain Management 10.0.25 (Nisan 2022)
-                  href: get-started/whats-new-scm-10-0-25.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -68,9 +66,9 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Veri görevi otomasyonu
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/supply-chain/toc.json
-                - name: One Version kullanarak ISV çözümleri teslim etme
+                - name: One Version'ı kullanarak ISV çözümlerini sunma
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Kullanıcı kabul testleri oluşturma ve otomatikleştirme
+                - name: Kullanıcı kabul testlerini oluşturma ve otomatikleştirme
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/supply-chain/toc.json
             - name: Tanıtım ortamını dağıtma
               href: ../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md?toc=/dynamics365/supply-chain/toc.json
@@ -619,8 +617,6 @@
                   href: asset-management/asset-management-mobile-workspace.md
             - name: Kıymet yönetimini Dynamics 365 Guides ile tümleştirme
               href: asset-management/asset-management-guides-integration.md
-        - name: Veri yönetimi
-          items:
             - name: Hedef varlıklar
               href: asset-management/data-management/target-entities.md
         - name: Maliyet muhasebesi
@@ -775,6 +771,10 @@
                   href: cost-management/physical-financial-updates.md
                 - name: Fiziksel değeri dahil etme
                   href: cost-management/include-physical-value.md
+                - name: Sabit giriş fiyatı
+                  href: cost-management/fixed-receipt-price.md
+                - name: Gider hesabına naklet muhasebe ilkesi
+                  href: cost-management/post-to-charge-account-accounting-principle.md
                 - name: Maliyet nesneleri
                   href: cost-management/cost-object.md
                 - name: Maliyet nesnesi bakiyesini görüntüleme
@@ -1647,10 +1647,12 @@
                   href: inventory/tasks/create-new-warehouse-layout.md
                 - name: Barkod türlerini yönetme
                   href: inventory/tasks/maintain-barcode-types.md
-                - name: Stok uygunluğu denetleme
+                - name: Stok uygunluğunu denetleme
                   href: inventory/tasks/check-availability-stock.md
                 - name: Eldeki stok listesi
                   href: inventory/inventory-on-hand-list.md
+                - name: Stok hareketi ayrıntıları
+                  href: inventory/inventory-transactions-details.md
                 - name: Ambardaki stok düzeylerini başlatma
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
                 - name: Ambar içindeki fiziksel stoku transfer etme
@@ -2111,6 +2113,8 @@
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/supply-chain/toc.json
         - name: Tedarik ve kaynak atama
           items:
+            - name: Tedarik ve kaynak atama giriş sayfası
+              href: procurement/procurement-sourcing.md
             - name: Tedarik ve kaynak atamaya genel bakış
               href: procurement/procurement-sourcing-overview.md
             - name: Tedarik ve kaynak atama iş akışı
@@ -2167,7 +2171,9 @@
                   href: procurement/purchase-order-creation.md
                 - name: Satınalma siparişi oluşturma
                   href: procurement/tasks/create-purchase-order.md
-                - name: Teslimat planı olan satınalma siparişi oluşturma
+                - name: Bütçeyle yönetilen bir satınalma siparişi oluşturma
+                  href: cost-management/tasks/create-purchase-order-governed-by-budget.md
+                - name: Teslimat planı olan bir satınalma siparişi oluşturma
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
                 - name: Tek seferlik tedarikçi için satınalma siparişi oluşturma
                   href: procurement/tasks/create-purchase-order-one-time-supplier.md
@@ -2383,6 +2389,8 @@
                       href: pim/tasks/create-dimension-based-configurations.md
                 - name: Kısıtlama tabanlı yapılandırma oluşturma
                   items:
+                    - name: Ürün yapılandırma modellerine genel bakış
+                      href: pim/product-configuration-models.md
                     - name: Ürün yapılandırma modeli ayarlama
                       href: pim/set-up-maintain-product-configuration-model.md
                     - name: Ürün yapılandırma modeli hesaplamaları
@@ -2929,11 +2937,13 @@
                   href: sales-marketing/customer-portal-overview.md
                 - name: 'Müşteri portalını yükleme, kurma ve güncelleme'
                   href: sales-marketing/customer-portal-setup.md
-                - name: Müşteri portalı kullanıcıları oluşturma ve yönetme
+                - name: Müşteri portalı kullanıcılarını oluşturma ve yönetme
                   href: sales-marketing/customer-portal-user-admin.md
                 - name: Müşteri portalını özelleştirme ve kullanma
                   href: sales-marketing/customer-portal-customize.md
-            - name: Ticari ödeneği
+            - name: Müşteriler için kredi limitleri
+              href: sales-marketing/credit-limits-customers.md
+            - name: Ticari tahsisat
               href: sales-marketing/trade-allowance.md
             - name: Yeni bir ticari sözleşme oluşturma
               href: sales-marketing/tasks/create-new-trade-agreement.md
@@ -2951,6 +2961,8 @@
                       href: service-management/service-agreement-groups.md
                     - name: Servis sözleşmeleri oluşturma
                       href: service-management/create-service-agreements.md
+                    - name: Servis sözleşmesi grupları oluşturma
+                      href: service-management/create-service-agreement-groups.md
                     - name: Servis aralıkları
                       href: service-management/service-intervals.md
                     - name: Servis aralıklarını ayarlama
@@ -2972,7 +2984,7 @@
                     - name: Servis nesnelerine genel bakış
                       href: service-management/service-objects.md
                     - name: Servis nesneleri oluşturma
-                      href: service-management/create-service-task-relations.md
+                      href: service-management/create-service-objects.md
                     - name: Servis nesnelerine stok maddeleri iliştirme
                       href: service-management/attach-inventory-items-service-objects.md
                     - name: Servis nesne grupları
@@ -3117,6 +3129,8 @@
                           href: service-management/create-item-requirements-service-orders.md
                         - name: Servis siparişi madde gereksinimleri
                           href: service-management/service-order-item-requirements.md
+                        - name: Servis siparişine adres ekleme
+                          href: service-management/add-address-service-order.md
                         - name: Abonelik iş akışına genel bakış
                           href: service-management/subscription-workflow-overview.md
                         - name: Servis siparişlerini birleştirme
@@ -3139,9 +3153,11 @@
                           href: service-management/set-up-preferred-technician.md
                         - name: Gönderilen ekipleri ayarlama
                           href: service-management/set-up-dispatch-teams.md
-                        - name: Servis siparişlerinin önceliklerini belirleme
+                        - name: Gönderilen ekipleri görüntüleme
+                          href: service-management/view-dispatch-teams.md
+                        - name: Servis siparişlerini önceliklendirme
                           href: service-management/prioritize-service-orders.md
-                        - name: Servis siparişinin durumunu görüntüleme
+                        - name: Servis siparişlerinin durumunu görüntüleme
                           href: service-management/view-the-status-of-service-orders.md
                         - name: Servis faaliyetlerini izleme
                           href: service-management/monitor-service-activities.md
@@ -3253,31 +3269,33 @@
               href: landed-cost/landed-cost-vs-tms.md
             - name: Son teslim alma maliyeti modülünü ayarlama ve yapılandırma
               items:
-                - name: Sisteminiz için Son teslim alma maliyeti modülünü açma
+                - name: Sisteminiz için Varış yeri maliyeti modülünü açma
                   href: landed-cost/landed-cost-enable.md
-                - name: Son teslim alma maliyeti parametreleri
+                - name: Varış yeri maliyeti parametreleri
                   href: landed-cost/landed-cost-parameters.md
-                - name: Son teslim alma maliyeti tedarik ve kaynak atama parametreleri
-                  href: landed-cost/landed-cost-procurement-parameters.md
-                - name: Sefer durumu ayarı
+                - name: Seyahat durumu ayarı
                   href: landed-cost/voyage-status-setup.md
                 - name: Sevkiyat konteyneri ayarı
                   href: landed-cost/shipping-container-setup.md
                 - name: Teslimat bilgileri ayarı
                   href: landed-cost/delivery-information-setup.md
-                - name: Çok aşamalı günlük ayarı
+                - name: Çok duraklı yolculuk ayarı
                   href: landed-cost/multi-leg-journey-setup.md
                 - name: Sevkiyat bilgileri ayarı
                   href: landed-cost/shipping-information-setup.md
-                - name: Maliyetlendirme parametre değerleri ayarı
+                - name: Otomatik maliyetler ayarı
+                  href: landed-cost/auto-cost-setup.md
+                - name: Maliyetlendirme parametresi değerlerinin ayarı
                   href: landed-cost/costing-parameters-setup.md
+                - name: Varış yeri maliyeti tedarik ve kaynak atama parametreleri
+                  href: landed-cost/landed-cost-procurement-parameters.md
+                - name: Varış yeri maliyeti için eklenen satıcı ayarları
+                  href: landed-cost/vendors-landed-cost-settings.md
                 - name: Genel muhasebe için varsayılan açıklamalar
                   href: landed-cost/defult-descriptions.md
-            - name: Son teslim alma maliyeti için eklenen satıcı ayarları
-              href: landed-cost/vendors-landed-cost-settings.md
-            - name: 'Seferler, konteynerler ve folyolarla çalışma'
+            - name: 'Seyahatler, konteynerler ve folyolarla çalışma'
               items:
-                - name: Seferleri yönetme
+                - name: Seyahatleri yönetme
                   href: landed-cost/manage-voyages.md
                 - name: Sevkiyat konteynerlerini yönetme
                   href: landed-cost/manage-shipping-containers.md
@@ -3643,396 +3661,6 @@
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
             - name: Eldeki stok veri varlıklarını genişletme
               href: inventory/extend-on-hand-entities.md
-        - name: Sorun Giderme
-          items:
-            - name: Maliyet yönetimi
-              items:
-                - name: Stok yaşlandırma raporu uyuşmazlıkları
-                  href: troubleshooting/costing/aging-report-discrepancies.md
-                - name: Stoğu kapatmadan genel muhasebe dönemi durumunu değiştirmeye ilişkin uyarılar veya hatalar
-                  href: troubleshooting/costing/change-ledger-period-without-closing.md
-                - name: Stok değeri/yaşlandırma raporları ile bunların depolama sürümleri arasındaki işlevsel boşluklar
-                  href: troubleshooting/costing/function-gaps-storage-reports.md
-                - name: Stok değerleme yöntemi olarak standart maliyet veya hareketli ortalama kullanıldığında güncelleme çakışması oluşur
-                  href: troubleshooting/costing/update-conflict-standard-moving.md
-                - name: Madde model grupları başka bir tüzel kişiliğe kopyalandığında alan ayarları eksik
-                  href: troubleshooting/costing/copying-item-model-groups.md
-                - name: 'Süren dolaylı maliyetler raporu, silinen üretim emirlerini içeriyor'
-                  href: troubleshooting/costing/indirect-costs-in-pr.md
-                - name: Sıfır değerli ürün girişi için satın alma tahakkuku sıfır tutarıyla deftere naklediliyor
-                  href: troubleshooting/costing/posting-to-purchase.md
-                - name: Fiziksel olarak alınan satın alma siparişleri stok kapanış raporunda görünmüyor
-                  href: troubleshooting/costing/purchase-orders-rece.md
-                - name: Madde fiyatı sayfasının Etkin fiyatlar sekmesinde Başlangıç tarihi yok
-                  href: troubleshooting/costing/there-is-no-from-dat.md
-            - name: Stok yönetimi
-              items:
-                - name: Stok yevmiye defterlerine yönelik "İş akışı" açılır iletişim kutusunu bulamıyorsunuz
-                  href: troubleshooting/inventory/cant-find-workflow-dropdown.md
-                - name: Stok günlüğü iş akışı hiç tamamlanmıyor ve günlük işlenemiyor
-                  href: troubleshooting/inventory/cant-post-inventory-journal.md
-                - name: Stok günlüğünüz kilitli ve iş akışı toplu işi çalışmıyor
-                  href: troubleshooting/inventory/inventory-journal-locked-workflow.md
-                - name: Stok günlüğündeki birim ve birim miktarı doğru şekilde çalışmıyor
-                  href: troubleshooting/inventory/journal-unit-quantity-incorrect.md
-                - name: 'Stok günlüğü iş akışı koşulları satır düzeyinde değil, günlük düzeyinde uygulanıyor'
-                  href: troubleshooting/inventory/journal-workflow-conditions.md
-                - name: Eldeki liste sayfasındaki filtre bölmesi beklendiği gibi çalışmıyor
-                  href: troubleshooting/inventory/on-hand-filter-unexpected.md
-                - name: Stok tutma birimi için maksimum ondalık basamağı sayısı 0'dır
-                  href: troubleshooting/inventory/sku-max-decimals-zero.md
-                - name: Toplu iş numaraları için "Fiziksel güncelleme" olmadan birden fazla stok hareketi oluşuyor
-                  href: troubleshooting/inventory/multiple-inventory-t.md
-                - name: Bir rapor tamamlanmış olarak tersine çevrildiğinde beklenmedik bir açık işlem oluşuyor
-                  href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: 'Malzeme çekme listesi, bir günlüğe eklenen yeni notları göstermez'
-                  href: troubleshooting/inventory/unable-to-print-the.md
-                - name: 'Başlatılan bir karantina emrindeki miktar, sipariş bölündüğünde güncellenemiyor'
-                  href: troubleshooting/inventory/quantity-on-a-start.md
-                - name: Birden fazla kalite emri oluşturulurken Son test tarihi alanı güncellenemiyor
-                  href: troubleshooting/inventory/the-field-last-test.md
-                - name: Fiili ağırlık miktarı bölündüğünde nominal miktar yerine minimum miktar kullanılıyor
-                  href: troubleshooting/inventory/while-splitting-the.md
-            - name: Master planlama
-              items:
-                - name: 'Sistem, birden fazla sipariş üzerinde çalışırken planlı bir sipariş bulamıyor'
-                  href: troubleshooting/planning/planned-order-not-exist.md
-                - name: 'Ürün reçetesi açılımı, kesinleştirilmiş ve tahmini üretim emirlerinde farklı şekilde işlev gösteriyor'
-                  href: troubleshooting/planning/bom-explosion-works-differently.md
-                - name: Planlanan bir siparişi yeniden zamanladığınızda gecikme değeri güncellenmiyor
-                  href: troubleshooting/planning/delay-value-not-updated.md
-                - name: Planlı siparişlerin güncellenmesi uzun zaman alıyor
-                  href: troubleshooting/planning/planned-order-long-update.md
-                - name: Üretim emirlerinde stokta olan maddeler için planlı emirler oluşturuluyor
-                  href: troubleshooting/planning/planned-orders-in-stock-items.md
-                - name: Üretim planlamasında emniyet marjları göz önüne alınmıyor
-                  href: troubleshooting/planning/prod-schedule-safety-margins.md
-                - name: 'Master planlama, kullanılabilir kapasiteden daha fazlasını planlıyor'
-                  href: troubleshooting/planning/respect-capacity-limitations.md
-                - name: Yeterli kapasite bulunamadı
-                  href: troubleshooting/planning/not-enough-capacity-error.md
-                - name: Yerleşik master planlama altyapısını çalıştırırken hata alıyorsunuz
-                  href: troubleshooting/planning/deprecated-master-planning-error.md
-                - name: Madde alanı ürün reçetesi veya formül içeremez
-                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
-                - name: Master plan için parametre yok
-                  href: troubleshooting/planning/no-parameters-for-master-plan.md
-                - name: Planlı üretim emrinin kesinleştirilmeden önce zamanlanması gerekir
-                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
-                - name: 'Ürün, hareketler için beklemede'
-                  href: troubleshooting/planning/product-is-on-hold.md
-                - name: 'Seçili formül numarası, bir toplu iş emri için onaylanmamış.'
-                  href: troubleshooting/planning/selected-formula-not-approved.md
-                - name: Satıcı kodu belirli bir ürün ve tarih için yetkilendirilmemiş
-                  href: troubleshooting/planning/vendor-code-not-authorized.md
-                - name: Planlı siparişler kesinleştirilirken satıcı belirtilmemiş
-                  href: troubleshooting/planning/vendor-not-specified.md
-                - name: 'Doğrudan türetilen kesinleştirilmiş siparişler, incelemedeki bir iş akışı tarafından işleniyor'
-                  href: troubleshooting/planning/firmed-directly-deri.md
-                - name: Master planlama maddelerini ilgili karşılama grubu değerlerine göre filtreleyemezsiniz
-                  href: troubleshooting/planning/master-planning-batc.md
-                - name: Master planlama hayali ürünler için planlı siparişler oluşturuyor
-                  href: troubleshooting/planning/planned-orders-are-g.md
-                - name: Negatif günler içinde bir satın alma mevcut olduğunda planlı satın alma siparişi oluşturuluyor
-                  href: troubleshooting/planning/planning-optimisatio.md
-                - name: 'Talep tahmini kayıtlarını içeri aktardığınızda, tahmin edilen birim maliyeti güncellenemiyor'
-                  href: troubleshooting/planning/unable-to-upload-the.md
-                - name: Ambar talebi tahmin boyutu tahmin satırlarından kaldırılamıyor
-                  href: troubleshooting/planning/warehouse-removal-fr.md
-                - name: Hiçbir değişiklik yapmamış olsanız bile madde kapsama ayarlarını kaydetmeniz isteniyor
-                  href: troubleshooting/planning/when-importing-to-th.md
-            - name: Tedarik
-              items:
-                - name: Satın alma siparişi satırı veri uyuşmazlıkları
-                  href: troubleshooting/procurement/purchase-order-line-data-issues.md
-                - name: Bir veya daha çok muhasebe dağıtımı fazla dağıtılmış veya eksik dağıtılmış
-                  href: troubleshooting/procurement/accounting-over-under-distributed.md
-                - name: Tam olarak dağıtılmış satır numaraları için yalnızca bir satınalma siparişi eylemi tamamlayabiliyorsunuz
-                  href: troubleshooting/procurement/action-requires-full-distribution.md
-                - name: Onaylanan bir satıcının geçerlilik tarihi değiştirilemiyor
-                  href: troubleshooting/procurement/approved-vendor-effective-date.md
-                - name: İptal edilen satınalma siparişleri çalışma alanındaki taslak listesinde görüntüleniyor
-                  href: troubleshooting/procurement/canceled-po-in-draft-list.md
-                - name: 'Hareketler, askıya alınmış bir genel muhasebe hesabına nakledilebilir'
-                  href: troubleshooting/procurement/canceled-receipts-posted.md
-                - name: Kalan teslimat iptal edildiğinde satınalma siparişi Onaylı durumuna taşınıyor
-                  href: troubleshooting/procurement/change-management-canceled-remainder.md
-                - name: Çoklu ürün girişlerini tek bir satınalma siparişinde konsolide edemiyorsunuz
-                  href: troubleshooting/procurement/consolidate-multiple-receipts.md
-                - name: 'Varsayılan vergi grubu ve nakit iskontosu, fatura hesabından doldurulmuyor'
-                  href: troubleshooting/procurement/default-tax-group-and-discount.md
-                - name: Bir satın alma siparişi teslimat adresi değiştirildikten sonra teslimat adı eşitlenmiyor
-                  href: troubleshooting/procurement/delivery-name-isnt-synced.md
-                - name: Satıcı faturasının deftere nakli sırasında özel durum oluşuyor
-                  href: troubleshooting/procurement/invocation-target-exception.md
-                - name: İçeri aktarılan satınalma siparişlerinde yanlış satır numaraları gösteriliyor
-                  href: troubleshooting/procurement/line-number-increments.md
-                - name: 'Satınalma sözleşmesi maksimum sınırı, satınalma talebinde geçerli olmuyor'
-                  href: troubleshooting/procurement/max-limit-on-requisition.md
-                - name: Satınalma siparişi onayı sırasında "Nesne başvurusu ayarlanmadı" hatası oluşuyor
-                  href: troubleshooting/procurement/object-reference-not-set.md
-                - name: Muhasebe dağıtımları fazla dağıtılmış veya eksik dağıtılmış
-                  href: troubleshooting/procurement/over-under-distribution.md
-                - name: Satınalma sözleşmesi sayfasına Fiyat birimi alanını ekleyemiyorsunuz
-                  href: troubleshooting/procurement/personalize-purchase-agreement-price.md
-                - name: 'Satınalma siparişleri, tüzel kişiliğin dil ayarlarını yansıtmıyor'
-                  href: troubleshooting/procurement/po-language.md
-                - name: Satınalma siparişi girişi tüm giderleri içermiyor
-                  href: troubleshooting/procurement/po-receipt-missing-charges.md
-                - name: 'Satınalma siparişlerindeki birim fiyatlar, birim dönüştürmesi temel alınarak hesaplanmıyor'
-                  href: troubleshooting/procurement/po-unit-prices-not-calculated.md
-                - name: Genel muhasebedeki gider hesabına naklet ayarı açık değil
-                  href: troubleshooting/procurement/post-setting-turned-off.md
-                - name: Bir değişiklikten sonra satınalma siparişini iş akışına yeniden gönderirken hata oluşması
-                  href: troubleshooting/procurement/resubmit-po-after-change.md
-                - name: Ticari sözleşme para birimi dönüştürme sorunları
-                  href: troubleshooting/procurement/trade-agreement-currencies.md
-                - name: 'Ticari sözleşme koşulları, içeri aktarılan sipariş satırlarına uygulanmıyor'
-                  href: troubleshooting/procurement/trade-agreement-not-applied.md
-                - name: 'Ticari sözleşmeler, reddedilen RFQ''lardan oluşturulabilir'
-                  href: troubleshooting/procurement/trade-agreements-from-rejected-rfq.md
-                - name: 'Satıcı indirimi, faturalar temel alınarak kümülatif değil'
-                  href: troubleshooting/procurement/vendor-rebate-not-cumulated.md
-                - name: 'Ürün giriş fişi numarası, fiş oluşturulmadığında bile kullanılıyor'
-                  href: troubleshooting/procurement/voucher-number-consumed.md
-                - name: Müşteri tarafındaki bir satış siparişini faturalayamıyorsunuz
-                  href: troubleshooting/procurement/not-able-to-invoice-.md
-                - name: Değişiklik isteğinden sonra satınalma talebine satır eklenemiyor
-                  href: troubleshooting/procurement/purchase-requisition.md
-            - name: Ürün bilgileri yönetimi
-              items:
-                - name: Serbest bırakılan bir ürün silinemiyor
-                  href: troubleshooting/products/cant-delete-released-prod.md
-                - name: Ürün yapılandırma modelleri hesaplanırken tamsayılar yanlış yuvarlanıyor
-                  href: troubleshooting/products/integers-incorrectly-rounded.md
-                - name: Satış siparişi satırında bir ürün yapılandırıldığında madde metni üzerine yazılıyor
-                  href: troubleshooting/products/text-overwritten-configured-item.md
-                - name: Serbest bırakılan ürün oluşturmak için şablon uygulanamıyor
-                  href: troubleshooting/products/apply-template-in-re.md
-                - name: Serbest bırakılan ürünler V2 varlığını kullanarak bir madde içeri aktarılamıyor
-                  href: troubleshooting/products/cannot-import-with-r.md
-                - name: 'Satınalma siparişleri, çevrilmiş ürün metnini göstermiyor'
-                  href: troubleshooting/products/when-the-customer-ad.md
-            - name: Üretim denetimi
-              items:
-                - name: Stok kapanışı sırasında geriye dönük maliyetlendirme hesaplama hatası
-                  href: troubleshooting/production/backflush-costing-calculation-error.md
-                - name: Bir ürün reçetesinin consumptionCost değeri hatası nedeniyle üretim emri bitirilemiyor
-                  href: troubleshooting/production/bom-consumption-cost-error.md
-                - name: Yeni üretim emri oluşturulurken ürün reçetesi ve rota eklenemiyor
-                  href: troubleshooting/production/cant-insert-bom-route-number.md
-                - name: 'Son işteki kısmı miktar raporlandığında, devam etmekte olan önceki işler bitiriliyor'
-                  href: troubleshooting/production/in-progress-jobs-ended.md
-                - name: Bir üretim emri serbest bırakıldığında RM maddesi tam olarak ayrılamıyor
-                  href: troubleshooting/production/item-rm-not-reserved.md
-                - name: 'Tamamlandı bildirimi güncellemesi, eksik miktar hatası vererek başarısız oluyor'
-                  href: troubleshooting/production/missing-report-finished-quantity.md
-                - name: Tamamlandı bildirimi günlüğü deftere nakledildiğinde hata
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: Üretim emrinin durumu tamamlandı olarak bildirilsin olarak değiştirilirken hata oluştu
-                  href: troubleshooting/production/production-order-status-error.md
-                - name: Üretim emirleri İşaretleme sayfasında gösterilmiyor
-                  href: troubleshooting/production/production-orders-marking-page.md
-                - name: Adres defterindeki bir çalışan adı değiştirildikten sonra kaynak adı güncellenmiyor
-                  href: troubleshooting/production/resource-name-not-updated.md
-                - name: Bir üretim emri sonlandırılmaya çalışıldığında toplam sağlam miktar hatası
-                  href: troubleshooting/production/total-good-quantity-order-error.md
-                - name: Mamul malların seri numaraları tüketilen malların seri numaralarıyla karşılaştırılıp takip edilemiyor
-                  href: troubleshooting/production/trace-finished-goods-consumed-goods.md
-                - name: 'Süreçler şu anda kullanılmakta olduğundan, iş ayrılamıyor veya serbest bırakılamıyor'
-                  href: troubleshooting/production/warehouse-management-processes-used.md
-                - name: Ürün reçetesi satırlarındaki otomatik tüketim kuralı ayarları dikkate alınmıyor
-                  href: troubleshooting/production/flushing-principle-n.md
-                - name: Yeni bir lot kimliği seçildiğinde toplu iş numarası siliniyor
-                  href: troubleshooting/production/when-customer-is-try.md
-                - name: Toplu iş aracılığıyla verilen üretim emirleri sıfırlanırken geç seçim dikkate alınmıyor
-                  href: troubleshooting/production/late-selection-is-no.md
-                - name: 'Kullanıcılar, bitmiş olarak bildirilen ürünler için malzeme satırlarını çekmeyi geri alabiliyor'
-                  href: troubleshooting/production/raw-material-lines-a.md
-                - name: Tamamlandı bildirimi günlüğü deftere nakledildiğinde hata
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: Malzeme çekme listesi günlüğündeki ambar bir ürün reçetesi satırında güncellenemiyor
-                  href: troubleshooting/production/the-warehouse-in-pic.md
-            - name: İndirim yönetimi
-              items:
-                - name: Madde indirim grupları kullanılarak müşteri indirimleri biriktirilemiyor
-                  href: troubleshooting/rebates/cumulating-customer-.md
-            - name: Satış ve pazarlama
-              items:
-                - name: Satış güncelleme geçmişi temizleme işi başarısız oluyor veya performans sorunları var
-                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
-                - name: Ürün demeti maddesi şirketlerarası bir işlemde desteklenmiyor
-                  href: troubleshooting/sales/bundle-item-intercompany-process.md
-                - name: Satış siparişiyle bağlantılı şirketlerarası satınalma siparişi iptal edilemiyor
-                  href: troubleshooting/sales/cancel-intercompany-purchase-order.md
-                - name: Bir sipariş iptal edilirken rezervasyonlar kaldırılamıyor
-                  href: troubleshooting/sales/cancel-order-reservations-not-removed.md
-                - name: Tarihleri çakışan iki ticari sözleşme mevcutsa her zaman aynı sözleşme seçiliyor
-                  href: troubleshooting/sales/same-trade-agreement-selected.md
-                - name: Bir satış teklifi satırındaki servis maddesinin satış miktarı değiştirilemiyor
-                  href: troubleshooting/sales/service-item-sales-quantity.md
-                - name: Satış siparişi başlığındaki konum değiştirilirse vergi bilgileri güncellenmiyor
-                  href: troubleshooting/sales/tax-information-not-updated.md
-                - name: Satış siparişi iptal edilirken miktar azaltılamıyor
-                  href: troubleshooting/sales/quantity-cannot-be-reduced.md
-                - name: Sistem yöneticileri yetkili olmadıklarından sipariş tutmalarını silemiyor
-                  href: troubleshooting/sales/system-administrator.md
-            - name: Taşıma yönetimi
-              items:
-                - name: 'Mutabakat nedeniyle yalnızca ana hesap, alacak hesabı olarak eklenebiliyor'
-                  href: troubleshooting/transportation/reconciliation-reaso.md
-            - name: Ambar yönetimi
-              items:
-                - name: Warehouse mobile app
-                  items:
-                    - name: Test sırasında istek ile oturum verileri arasında beklenmeyen fark oluştu
-                      href: troubleshooting/warehousing/request-session-data-difference.md
-                    - name: Uygulama bağlantısı ayarlanırken sertifika yolu için güven çıpası bulunamadı
-                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
-                    - name: WMS'e güncelleme ve geçiş yapılırken sertifika yolu için güven çıpası bulunamadı
-                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
-                - name: Durdurulan satış siparişi satırı için sevk irsaliyesi deftere nakledilemiyor
-                  href: troubleshooting/warehousing/unable-to-post-packi.md
-                - name: Ölçek birimi ambar iş yükü yüklendikten sonra işleme sorunları oluşuyor
-                  href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
-                - name: Kullanılabilir stok olsa da toplu iş numarası için otomatik rezervasyon komut istemi gösteriliyor
-                  href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
-                - name: Bitmemiş stok yenileme işi nedeniyle malzeme çekme işinin engeli kaldırılamıyor
-                  href: troubleshooting/warehousing/blocked-unfinished-replenishment-work.md
-                - name: Bir satış siparişinden deftere nakledilen sevk irsaliyesi iptal edilemiyor
-                  href: troubleshooting/warehousing/cancel-posted-packing-slip.md
-                - name: Seri numarasında Boş çıkış ve Boş girişe izin veriliyorsa plaka taşınamıyor
-                  href: troubleshooting/warehousing/cant-move-license-plate.md
-                - name: 'Stok, plaka denetimli bir konuma taşınamıyor'
-                  href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: Küme profili bulunamıyor
-                  href: troubleshooting/warehousing/cluster-profile-not-found-error.md
-                - name: Teslimat notu düzeltmesi işlenemiyor
-                  href: troubleshooting/warehousing/delivery-note-correction.md
-                - name: Bir seri madde için transfer emri oluşturduktan sonra sevkiyat onaylanırken hata
-                  href: troubleshooting/warehousing/dimension-location-left-blank.md
-                - name: WMS özellikli bir ambar için doğrudan teslim işlenemiyor
-                  href: troubleshooting/warehousing/direct-delivery-wms-enabled-warehouse.md
-                - name: Giriş/çıkış noktası yönetimi profili kullanılırken stok türleri karıştırılıyor
-                  href: troubleshooting/warehousing/dock-management-inventory-mixing.md
-                - name: Çoklu SKU seçeneği birden fazla konum yönergesi eylemini değerlendirmiyor
-                  href: troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md
-                - name: Giden yük serbest bırakıldığında malzeme çekme işi hemen oluşturulmuyor
-                  href: troubleshooting/warehousing/generate-work-immediately-load-release.md
-                - name: Mobil uygulamadaki plaka kodu taranırken geçersiz plaka kodu hatası
-                  href: troubleshooting/warehousing/invalid-license-plate.md
-                - name: Ambar uygulamasında hareketler işlenirken stok sahibine izin verilmiyor
-                  href: troubleshooting/warehousing/inventory-owner-not-allowed.md
-                - name: 'Sistem, yetersiz hareketler nedeniyle stok miktarını güncellenemiyor'
-                  href: troubleshooting/warehousing/inventory-quantity-insufficient-transactions.md
-                - name: İş türü sütununda Stok durumu değişikliği seçilemiyor
-                  href: troubleshooting/warehousing/inventory-status-change-work-type.md
-                - name: Mobil uygulamada tarama yaparken geçersiz plaka veya konum hatası
-                  href: troubleshooting/warehousing/license-plate-location-invalid.md
-                - name: Gelen siparişler kaydedilirken plaka miktarı geçerli değil
-                  href: troubleshooting/warehousing/license-plate-quantity-not-valid.md
-                - name: Bir transfer emri için sevkiyat onaylanırken plaka belirtim hatası
-                  href: troubleshooting/warehousing/license-plate-specified-location.md
-                - name: Satırlardan biri zaten bir yükte yer alıyor
-                  href: troubleshooting/warehousing/line-already-on-load.md
-                - name: İşin konumlar arasında işlenmesi sırasında yük ağırlığı hatası oluşuyor ve güncelleme iptal ediliyor
-                  href: troubleshooting/warehousing/load-weight-positive-numbers.md
-                - name: 'Karma plaka alımı, Alacak dışındaki herhangi bir değerlendirme kodu için çalışmıyor'
-                  href: troubleshooting/warehousing/mixed-license-plate-receiving.md
-                - name: Mobil cihaz uygulama öykünücüsüne erişmek için yalnızca yönetici rolü kullanılabiliyor
-                  href: troubleshooting/warehousing/mobile-app-emulator-administrator.md
-                - name: Temel ambarlamadan gelişmiş ambarlamaya geçişte sorunlar
-                  href: troubleshooting/warehousing/move-basic-to-advanced-warehousing.md
-                - name: Sistem tarafından yönlendirilen küme malzeme çekme kullanılırken küme için yeterli iş bulunamadı
-                  href: troubleshooting/warehousing/not-enough-work-for-cluster.md
-                - name: Satış siparişi faturalandıktan sonra bile sipariş durumu Kısmen serbest bırakıldı olarak kalıyor
-                  href: troubleshooting/warehousing/order-status-partially-released.md
-                - name: Kısmi malzeme çekme yapmak için Warehouse Management mobil uygulaması kullanılamıyor
-                  href: troubleshooting/warehousing/partial-picking-warehouse-app.md
-                - name: Kısmi miktar işi için stok durumu değişikliğini etkinleştirme
-                  href: troubleshooting/warehousing/partial-quantity-inventory-status.md
-                - name: Ambar veya siteye göre teslimat notu ya da ambalaj içeriği yazdırma
-                  href: troubleshooting/warehousing/print-documents-by-warehouse.md
-                - name: Tek bir konumda birden çok LP ile malzeme çekme işi yapılırken miktar geçerli değil
-                  href: troubleshooting/warehousing/quantity-invalid-multiple-license-plates.md
-                - name: Birden fazla toplu işte bölünmüş çekme işlemi yapılırken miktar geçerli değil
-                  href: troubleshooting/warehousing/quantity-invalid-split-pick.md
-                - name: 'Kısmen sevk edilen bir yük, ambara serbest bırakılamıyor'
-                  href: troubleshooting/warehousing/rerelease-partially-shipped-load.md
-                - name: 'Stokta 0,00 mevcut olduğundan sistem rezervasyon yapamıyor'
-                  href: troubleshooting/warehousing/reservations-0-inventory-available.md
-                - name: Geçersiz stok boyutları nedeniyle iade satış siparişi için yük satırı oluşturulamıyor
-                  href: troubleshooting/warehousing/return-order-invalid-dimensions.md
-                - name: Giden ambar işlemlerinde satış siparişi serbest bırakılamadı
-                  href: troubleshooting/warehousing/sales-order-not-released.md
-                - name: Yük sevkiyatı onaylandı ancak hiçbir satır deftere nakledilmedi
-                  href: troubleshooting/warehousing/shipment-confirmed-no-posting.md
-                - name: 'Yerleştirme şablonları, toplu iş üstü maddeler için eldeki stoku dikkate almıyor'
-                  href: troubleshooting/warehousing/slotting-templates-inventory-batch-above.md
-                - name: Toplu iş rezervasyon hiyerarşisinde kısmi miktar için yük serbest bırakılamıyor
-                  href: troubleshooting/warehousing/specify-dimensions-above-location.md
-                - name: 'Onaylanmamış satınalma siparişleri, Ürün girişlerini güncelle görevi çalıştırıldıktan sonra onaylanıyor'
-                  href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
-                - name: Satış siparişi satırındaki stok ayırma geri alınamıyor
-                  href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: Müşteri beklemede olduğundan sevkiyat onaylanamıyor
-                  href: troubleshooting/warehousing/customer-is-on-hold.md
-                - name: Yük satırlarında sıfır miktar olduğundan sevkiyat onaylanamıyor
-                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
-                - name: Serbest bırakılan miktar negatif olacağından yükleme satırı güncellenemiyor
-                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
-                - name: İptal edilen ürün girişleri hareket durumunu kaydedilmiş olarak güncellemiyor
-                  href: troubleshooting/warehousing/canceled-product-receipts.md
-                - name: Fiziksel güncelleme miktarının ondalık yuvarlaması yanlış
-                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
-                - name: Birim cinsinden kalan fiziksel miktar sıfırdan farklı olmalıdır
-                  href: troubleshooting/warehousing/physical-remaining-q.md
-                - name: Sevk irsaliyesi oluşturma sırasında çekilen miktar yeterli değil
-                  href: troubleshooting/warehousing/picked-quantity-is-n.md
-                - name: Sevk irsaliyesi oluşturma sırasında miktar fazla teslimat yüzdesini aşıyor
-                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
-                - name: 'Güncellemeye çalıştığınız miktar, alınan/teslim edilen miktarı aşıyor'
-                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
-                - name: 'Sevk irsaliyesi oluşturma sırasında miktar, eksik teslimat yüzdesini aşıyor'
-                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
-                - name: Malzeme çekme listesi kaydı sırasında konum seçilirken bir hata oluşuyor
-                  href: troubleshooting/warehousing/error-cannot-update.md
-                - name: Ambalaj istasyonunda ürün notları görüntülenmiyor
-                  href: troubleshooting/warehousing/packing-station-not-.md
-                - name: Konum profili negatif stoka izin vermiyor ancak eldeki negatif stoka izin veriliyor
-                  href: troubleshooting/warehousing/location-profile-set.md
-                - name: Birden çok iş başlığı için tek bir makbuza yalnızca bir etiket yazdırılıyor
-                  href: troubleshooting/warehousing/when-receipting-prod.md
-                - name: Takvimdeki bir sorun nedeniyle sevkiyat onaylanamıyor
-                  href: troubleshooting/warehousing/load-has-active-appo.md
-                - name: Tamamlanmamış veya eksik iş nedeniyle bir sevkiyat onaylanamıyor
-                  href: troubleshooting/warehousing/open-or-no-work-exis.md
-                - name: Maddeler alınmadığı için sevkiyat onaylanamıyor
-                  href: troubleshooting/warehousing/picked-quantity-is-not-on-final.md
-                - name: Sıfır miktar olduğundan sevkiyat onaylanamıyor
-                  href: troubleshooting/warehousing/picked-quantity-is-zero.md
-                - name: 'Miktar, fazla teslimat yüzdesini aştığından sevkiyat onaylanamıyor'
-                  href: troubleshooting/warehousing/quantity-exceeds-ove.md
-                - name: 'Miktar, az teslimat yüzdesini aştığından sevkiyat onaylanamıyor'
-                  href: troubleshooting/warehousing/quantity-exceeds-und.md
-                - name: Kapatılan son iş satırı yerine koy olmalıdır
-                  href: troubleshooting/warehousing/the-last-closed-work.md
-                - name: Yük satırlarındaki ağırlık alanları yükteki ağırlık alanlarıyla eşleşmiyor
-                  href: troubleshooting/warehousing/the-weight-fields-on.md
-                - name: 'Dalga, temizleme işlemi için uygun değil'
-                  href: troubleshooting/warehousing/wave-is-not-eligible.md
-                - name: Ağırlık pozitif olmalıdır
-                  href: troubleshooting/warehousing/weight-must-be-posit.md
-                - name: İş engellendiğinden iptal edilemiyor
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
-                - name: Durum nedeniyle iş iptal edilemiyor
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
-                - name: İş durdurulmadı
-                  href: troubleshooting/warehousing/work-is-not-blocked.md
-                - name: İş engellenmeye devam ediyor
-                  href: troubleshooting/warehousing/work-remains-blocked.md
-                - name: Kullanıcıya atanmış bir işi iptal edemezsiniz
-                  href: troubleshooting/warehousing/you-cannot-cancel-wo.md
     - name: Finans ve Operasyon uygulamalarını geliştirme ve yönetme
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance

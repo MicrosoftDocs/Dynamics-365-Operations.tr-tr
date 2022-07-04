@@ -496,6 +496,8 @@
                   items:
                     - name: İşe alma proje sürecini yönetme
                       href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                    - name: İşe alma projeleri oluşturma
+                      href: hr-personnel-develop-open-job-requisition.md
                     - name: Başvuran ve başvuru verilerini el ile girme
                       href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
                     - name: İş talepleri geliştirme ve açma
@@ -626,7 +628,11 @@
                   items:
                     - name: Kazanç planlarını ayarlama
                       href: hr-benefits-plans-setup.md
-                    - name: Esnek alacak programları ayarlama
+                    - name: Çalışan kazanç planları oluşturma
+                      href: hr-benefits-plans-worker.md
+                    - name: Gelecekteki yaşam olaylarını ayarlama
+                      href: hr-benefits-plans-future-life-events.md
+                    - name: Esnek kredi programlarını ayarlama
                       href: hr-benefits-plans-flex-credit-programs.md
                 - name: Kazanç planlarını işleme
                   items:
@@ -836,9 +842,13 @@
               href: hr-developer-api-authentication.md
             - name: Varlıklar
               items:
+                - name: İş ayrıntısı
+                  href: hr-admin-integration-api-job-detail.md
+                - name: İstihdam türü seçeneği
+                  href: hr-admin-integration-payroll-api-hcmemploymenttype.md
                 - name: MyLeaveRequests
                   items:
-                    - name: MyLeaveRequests genel bakış
+                    - name: MyLeaveRequests'e genel bakış
                       href: hr-developer-api-myleaverequests-overview.md
                     - name: Bir izin isteğini iş akışına gönderme
                       href: hr-developer-api-myleaverequests-submit.md
