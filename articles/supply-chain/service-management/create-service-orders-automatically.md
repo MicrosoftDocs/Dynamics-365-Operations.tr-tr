@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bd2d0e8463e12004022caeb464d70881aa895ce
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: db9d337166f05f80cfdb9d4b82533117daa871e9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670091"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014734"
 ---
 # <a name="create-service-orders-automatically"></a>Servis siparişlerini otomatik olarak oluşturma    
 
@@ -35,7 +35,7 @@ Servis siparişlerini el ile veya servis sözleşmesi satırından otomatik olar
 
 ## <a name="create-service-orders-automatically-for-a-service-agreement"></a>Servis anlaşması için otomatik olarak servis siparişleri oluşturma
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın.
+1.  **Servis yönetimi** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın.
 
 2.  Bir servis anlaşması seçin.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dcee5fd729de6e96d57462879f7851756f287dc9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5eb911ec4ba9655c4ecaea3bf9a4f8736fa036c2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902845"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016724"
 ---
 # <a name="introduction-to-work-orders"></a>İş emirlerine giriş
 
@@ -47,15 +47,15 @@ ms.locfileid: "8902845"
 
 ## <a name="all-work-orders"></a>Tüm iş emirleri
 
-**Varlık yönetimi** > **Ortak** > **İş emirleri** > **Tüm iş emirleri**'ni seçerek **Tüm iş emirleri** liste sayfasını açın. Bu sayfa tüm iş emirlerini ve her biriyle ilgili bazı bilgileri gösterir.
+**Varlık yönetimi** > **İş emirleri** > **Tüm iş emirleri**'ni seçerek **Tüm iş emirleri** liste sayfasını açın. Bu sayfa tüm iş emirlerini ve her biriyle ilgili bazı bilgileri gösterir.
 
 Aşağıdaki örnekte **Tüm iş emirleri** liste sayfasının bir örneği gösterilmektedir.
 
 ![Şekil 1.](media/01-work-orders.png)
 
-Yalnızca etkin iş emirlerinin listesini görmek için **Varlık yönetimi** > **Genel** > **İş emirleri** > **Etkin İş emirleri**'ni seçin. 
+Yalnızca etkin iş emirlerinin listesini görmek için **Varlık yönetimi** > **İş emirleri** > **Etkin iş emirleri**'ni seçin. 
 
-Çalışan olarak ilgili olduğunuz işlem yapılacak yerleşimlere yüklenen iş emri işlerini içeren listeyi görmek için **Varlık yönetimi** > **Genel** > **İş emirleri** > **İşlem yapılacak yerleşim iş emri bakım işlerim**'i seçin. (Çalışanlar ve işlem yapılacak yerleşimler arasındaki ilişki **Çalışanlar** sayfasında ayarlanır. Daha fazla bilgi için [Bakım görevlileri ve çalışan grupları](../setup-for-objects/workers-and-worker-groups.md) bölümüne bakın.)
+Çalışan olarak ilişkili olduğunuz işlem yapılacak yerleşimlere yüklenen iş emri işlerini içeren listeyi görmek için **Varlık yönetimi** > **İş emirleri** > **İşlem yapılacak yerleşim iş emri bakım işlerim**'i seçin. (Çalışanlar ve işlem yapılacak yerleşimler arasındaki ilişki **Çalışanlar** sayfasında ayarlanır. Daha fazla bilgi için [Bakım görevlileri ve çalışan grupları](../setup-for-objects/workers-and-worker-groups.md) bölümüne bakın.)
 
 Aşağıda, **Tüm iş emirleri** sayfasını kullanabileceğiniz bazı yöntemler verilmiştir:
 

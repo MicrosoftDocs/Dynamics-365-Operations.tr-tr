@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fe4731f8ff23f4abe25fce57a2325e1fca979c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19fafb21e879d7436678bdb3c29d1a3d7e2330d7
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890842"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023774"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Satıcı işbirliğini ayarlama ve koruma
 
@@ -29,9 +29,6 @@ ms.locfileid: "8890842"
 Satıcı iş birliği arabirimi; satınalma siparişleri, faturalar ve harici satıcı kullanıcılarına konsinye stok hakkında kısıtlı bilgi kümesi sağlar. Bu arabirimden, bir satıcı ayrıca teklif taleplerini (RFQ'ler) yanıtlayabilir ve temel şirket bilgilerini görüntüleyebilir ve düzenleyebilir.
 
 Bu makalede, Dynamics 365 Supply Chain Management'ta satıcı işbirliğinin nasıl ayarlanacağını açıklanmaktadır. Ayrıca, yeni satıcı işbirliği kullanıcılarının nasıl alınacağına dair bir iş akışı ayarlama ve bu kullanıcılar için güvenlik rollerini yönetmeyi da açıklamaktadır.
-
-> [!NOTE]
-> Satıcı işbirliğiyle ilgili güvenlik rollerinin kurulumu hakkındaki bilgiler yalnızca Finance and Operations uygulamasının geçerli sürümü için geçerlidir. Microsoft Dynamics AX 7.0 (Şubat 2016) ve Microsoft Dynamics AX uygulaması 7.0.1 (Mayıs 2016) sürümünde, **Satıcı portalı** modülünü kullanarak satıcılarla iş birliği yapabilirsiniz. Microsoft Dynamics AX'deki satıcı portalı ile ilgili kullanıcı izinleri hakkında bilgi için bkz. [Satıcı portalı kullanıcı güvenliği](configure-security-vendor-portal-users.md).
 
 ## <a name="set-up-vendor-collaboration-security-roles"></a>Satıcı güvenlik rollerini ayarlama
 
@@ -138,13 +135,7 @@ Bu dallanmayı ayarlamak için **Kullanıcı İsteği İş Akışı (Platform)**
 
 ## <a name="enable-vendor-collaboration-for-a-specific-vendor"></a>Belirli bir satıcı için satıcı iş birliğini etkinleştirme
 
-Satıcı işbirliği kullanan birisi için bir kullanıcı hesabı oluşturmadan önce satıcıyı, satıcı iş birliğini kullanabilecek şekilde ayarlamanız gerekir. **Satıcılar** sayfasındaki **Genel** sekmesinde **İş birliğini etkinleştirme** alanını seçin. Aşağıdaki seçenekler bulunur:
-
-- **Etkin (SS otomatik olarak onaylanır)** – Satınalma siparişleri satıcılar değişiklik istemeden kabul ettiğinde otomatik olarak onaylanır.
-- **Etkin (PO otomatik olarak onaylanmaz)**- Satınalma isteklerinin satıcı kabul ettikten sonra kuruluşunuz tarafından el ile onaylanması gerekir.
-
-> [!NOTE]
-> Şirketinizdeki satın alma uzmanları da bu görevi tamamlayabilir.
+Satıcı işbirliği kullanan birisi için bir kullanıcı hesabı oluşturmadan önce satıcıyı, satıcı iş birliğini kullanabilecek şekilde ayarlamanız gerekir. Bunun nasıl yapılacağı ile ilgili ayrıntılı bilgi için bkz. [Harici satıcılarla satıcı işbirliği](vendor-collaboration-work-external-vendors.md).
 
 ## <a name="troubleshoot-the-provisioning-of-new-vendor-collaboration-users"></a>Yeni satıcı işbirliği kullanıcıları sağlama sorunlarını giderme
 

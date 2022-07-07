@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c1b04c7cca70ec8b25d40cde86be370bce224388
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ea84259eb8f12becdcf008ed9222a44b2626a0d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856265"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016231"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Kıymet sayaçlarını otomatik olarak güncelleştirme
 
@@ -53,7 +53,7 @@ Yukarıda belirtildiği gibi, otomatik sayaçlar üretim kayıtlarından güncel
 
 5. **Tamam**'ı seçin. 
 
-Otomatik varlık sayacı güncelleştirmesi yapıldıktan sonra, **Varlık sayaçları** sayfasında bulunan varlıkla ilgili sayaç kayıtlarını görüntüleyebilirsiniz. **Varlık yönetimi** > **Ortak** > **Varlıklar** > **Tüm varlıklar**'ı seçin, varlığı seçin ve ardından Eylem Bölmesinde **Varlık** sekmesine gidip **Önleyici** grubundan **Sayaçlar**'ı seçin.
+Otomatik varlık sayacı güncelleştirmesi yapıldıktan sonra, **Varlık sayaçları** sayfasında bulunan varlıkla ilgili sayaç kayıtlarını görüntüleyebilirsiniz. **Varlık yönetimi** > **Varlıklar** > **Tüm varlıklar**'ı seçin, varlığı seçin ve ardından Eylem Bölmesinde **Varlık** sekmesine gidip **Önleyici** grubundan **Sayaçlar**'ı seçin.
 
 **Varlık toplam değeri** sayfasında tüm varlıklardaki tüm sayaç türlerinde yapılmış en son kaydın genel görünümünü alabilirsiniz. **Varlık Yönetimi** > **Sorgular** > **Varlıklar** > **Varlık toplam değeri**'ni seçin. Bu sayfa, **Varlık sayaçları** sayfasına benzer, ancak kayıt ekleyemez veya düzenleyemezsiniz. Yalnızca genel bakış içindir.
 

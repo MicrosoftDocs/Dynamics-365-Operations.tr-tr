@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9c0d87dfb4c432f9cff0f1172139dbcda6308275
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ee316a3e6a6baef7aa8b5d46b04a2d1bb07a641
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860681"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022537"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
 
@@ -263,9 +263,6 @@ Bir çalışan **Mola**'yı seçip ardından mola türünü temsil eden kartı (
 
 ## <a name="view-the-my-day-dialog"></a>"Günüm" iletişim kutusunu görüntüleme
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 **Günüm** iletişim kutusu, çalışanların kayıtlarının ve bakiyelerinin genel bir özetini sağlar. İletişim kutusu aşağıdaki üç bölüme ayrılmıştır:
 
 - Ana bölümde, seçilen bir tarihte geçerli çalışanın yaptığı kayıtlar listelenir. Geçerli gün için kayıtları göstererek açılır ve alt görünümün diğer günlerle aynı olmasını sağlayan bir tarih seçici sağlar.
@@ -275,9 +272,6 @@ Bir çalışan **Mola**'yı seçip ardından mola türünü temsil eden kartı (
 Yöneticiler, [Üretim kat yürütme arabiriminde tasarımda](production-floor-execution-tabs.md) açıklandığı gibi her ilgili sekme için, **Günüm** düğmesini bir araç çubuğuna yerleştirerek bu özelliği arabirime ekleyebilir.
 
 ## <a name="working-in-teams"></a>Ekipte çalışma
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 Aynı üretim işine birden fazla işçi atandığında, bir ekip oluşturabilirler. Ekip, bir çalışanı pilot olarak aday gösterebilir. Kalan işçiler ardından otomatik olarak bu pilotun asistanı olurlar. Ortaya çıkan ekip için, yalnızca pilot iş durumunu kaydetmelidir. Zaman kayıtları tüm ekip üyeleri için geçerlidir.
 

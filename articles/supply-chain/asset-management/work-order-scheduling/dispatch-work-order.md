@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e6b2349d04386a88237ec1cb650890718d41aa5a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f78e8642715b0c3fd3d01e8072645ccd9c58d685
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864012"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016869"
 ---
 # <a name="dispatch-work-order"></a>İş emri gönderme
 
@@ -30,7 +30,7 @@ ms.locfileid: "8864012"
 
 **Gönder** işlevini kullanarak bir iş emri veya iş emri işlerini bir çalışana zamanlayabilirsiniz.
 
-1. **Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ne tıklayın.
+1. **Varlık yönetimi** > **İş emirleri** > **Tüm iş emirleri** veya **Etkin iş emirleri**'ne tıklayın.
 
 2. Listeden iş emrini seçin.
 

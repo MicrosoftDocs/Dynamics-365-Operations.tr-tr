@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e0c382efda81067ad4c0cd977e5cfbf37b4e3fc6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fd7482cfe943347840e9fb070151d66fbe5ef9ca
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908728"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016550"
 ---
 # <a name="inbound-and-outbound-assets"></a>Gelen ve giden varlıklar
 
@@ -37,7 +37,7 @@ Varlık Yönetimi kurulumu, gelen ve giden varlıklarla çalışabilir olup olma
 
 ## <a name="register-assets-as-inbound"></a>Varlıkları gelen olarak kaydetme
 
-1. **Varlık yönetimi** \> **Ortak** \> **Bakım talepleri** \> **Etkin bakım talepleri**'ni seçin.
+1. **Varlık yönetimi** \> **Bakım talepleri** \> **Etkin bakım talepleri**'ni seçin.
 2. Bakım talebini seçin.
 3. **Bakım talebi durumunu güncelleştir**'i seçin.
 4. **Gelen**'i (veya gelen varlıklar için oluşturduğunuz başka bir yaşam döngüsü durumu) seçin ve **Tamam**'ı seçin.
@@ -46,7 +46,7 @@ Varlık Yönetimi kurulumu, gelen ve giden varlıklarla çalışabilir olup olma
 
 ## <a name="register-inbound-assets-as-received"></a>Gelen varlıkları alındı olarak kaydetme
 
-1. **Varlık yönetimi** \> **Ortak** \> **Gelen/Giden** \> **Gelen varlıklar**'ı seçin.
+1. **Varlık yönetimi** \> **Gelen/Giden** \> **Gelen varlıklar**'ı seçin.
 2. Varlık veya bakım talebini seçin.
 3. **Varlıkları al**'ı seçin.
 4. **Alındı** alanında tarihi ve saati girin. Daha sonra **Tamam**'ı seçin. Kayıt, **Gelen varlıklar** listesi sayfasından kaldırılır.
@@ -57,14 +57,14 @@ Varlık Yönetimi kurulumu, gelen ve giden varlıklarla çalışabilir olup olma
 
 Bakım veya onarım işini tamamladığınızda, varlığı iade edildiği gibi kaydedebilirsiniz.
 
-1. **Varlık yönetimi** \> **Ortak** \> **Bakım talepleri** \> **Etkin bakım talepleri**'ni seçin.
+1. **Varlık yönetimi** \> **Bakım talepleri** \> **Etkin bakım talepleri**'ni seçin.
 2. Bakım talebini seçin.
 3. **Bakım talebi durumunu güncelleştir**'i seçin.
 4. **Giden**'i (veya giden varlıklar için oluşturduğunuz başka bir yaşam döngüsü durumu) seçin ve **Tamam**'ı seçin.
 
 ## <a name="register-outbound-assets-as-delivered"></a>Giden varlıkları teslim edildi olarak kaydetme
 
-1. **Varlık yönetimi** \> **Ortak** \> **Gelen/Giden** \> **Giden varlıklar**'ı seçin.
+1. **Varlık yönetimi** \> **Gelen/Giden** \> **Giden varlıklar**'ı seçin.
 2. Varlık veya bakım talebini seçin.
 3. Varlıkları **Teslim et**'i seçin.
 4. **Teslim edildi** alanında tarihi ve saati girin. Daha sonra **Tamam**'ı seçin. Kayıt, **Giden varlıklar** listesi sayfasından kaldırılır.

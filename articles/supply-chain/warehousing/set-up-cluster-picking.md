@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3094649da2ce9a700a4d1cde236609013f4b9744
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0ec3de073def2ff63af3c04b5696cbcec4f09948
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862322"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014777"
 ---
 # <a name="set-up-cluster-picking"></a>Küme malzeme çekmeyi ayarlama
 
@@ -74,9 +74,14 @@ Küme malzeme çekme uygulandığında, öğe yapılandırması maddelerin küme
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>Küme malzeme çekme ile madde doğrulamayı ayarlamak
 
-1. Mobil cihaz menü öğesinden iş onayı için kurulum formunu açın: **Ambar yönetimi** \> **Ambar yönetimi** \> **Kurulum** \> **Mobil cihaz** \> **Mobil cihaz menü öğeleri**.
+1. **Ambar yönetimi** >  **Kurulum** >  **Mobil cihaz** >  **Mobil cihaz menüsü öğeleri** seçeneğine gidin.
+1. Liste bölmesinde, ayarlamak istediğiniz menü öğesini seçin.
+1. Eylem bölmesinde **İş onayı kurulumu**'nu seçin.
+1. Aşağıdaki eylemlerden birini gerçekleştirin:
+    - Ayarlamak istediğiniz **İş türü** için bir satır zaten varsa, bunu seçin ve sonra eylem bölmesinde **Düzenle** seçeneğini belirleyin.
+    - Uygun bir satır yoksa, eylem bölmesinde **Yeni**'yi seçin ve sonra **İş türü**'nü uygun türe ayarlayın.
+1. Yeni veya seçili satırınız için **Ürün onayı** onay kutusunu işaretleyin. Bu, çalışanların her stok parçasını mobil cihaz kullanarak doğrulamalarına olanak tanır.
 
-1. Mobil cihaz menü öğesinden **İş onayı ayarını** açın. **Ürün onayı** seçeneği tarandığında her stok parçasını mobil cihazınızdan doğrulamanıza olanak tanır.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

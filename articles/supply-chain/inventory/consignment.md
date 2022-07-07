@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 66215811c8c48412fb137967107abca3774f5f0c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0087abebccca107a094a40d3e2d5a5de330532af
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872050"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014923"
 ---
 # <a name="set-up-consignment"></a>Konsinyeyi ayarlama
 
@@ -84,7 +84,7 @@ Satıcılar, satıcı iş birliği arabirimini kullanıyorsa bunu, tesisinizdeki
 - **Konsinye stoktan alınan ürünler**: Sahiplik değişikliği işlemi sırasında güncelleştirilen ürün girişleri bulunan maddeler ve miktarlar hakkında bilgileri gösterir.
 - **Eldeki konsinye stok**: Teslim edilmesi beklenen konsinye maddeler ve müşterinin işyerinde halihazırda fiziksel olarak bulunan maddeler hakkında bilgileri gösterir.
 
-Satıcı iş birliğini kullanmak için satıcıların ayarlanması hakkında daha fazla bilgi için bkz. [Satıcı portalı kullanıcı güvenliği](../procurement/configure-security-vendor-portal-users.md).
+Satıcı işbirliğini kullanmak için satıcıların ayarlanması hakkında daha fazla bilgi için bkz. [Satıcı işbirliği kullanıcılarını yönetme](../procurement/manage-vendor-collaboration-users.md).
 
 ## <a name="inventory-owners"></a>Stok sahipleri
 

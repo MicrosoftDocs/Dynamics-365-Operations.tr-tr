@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 75e30c8b2d74cc2f1ca538b64e5fc801f9ca130a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 42e8ba4e19333cb25464203a2583175ef082ad98
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897704"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016492"
 ---
 # <a name="maintenance-downtime-activities"></a>Bakım kesinti süresi faaliyetleri
 
@@ -38,14 +38,14 @@ Bakım kesinti süresi kaydında varlıklar seçildiğinde etkin iş emirleriyle
 
 ## <a name="maintenance-downtime-activities"></a>Bakım kesinti süresi faaliyetleri
 
-Tüm bakım kesinti süresi faaliyetlerinin listesini açmak ve faaliyetlerle ilgili bazı bilgileri görmek için **Varlık yönetimi** > **Genel** > **Bakım kesinti süresi faaliyetleri** > **Tüm bakım kesinti süresi faaliyetleri**'ne tıklayın. Ayrıntılar görünümünü açmak için **Bakım kesinti süresi faaliyetleri** sütunundaki bağlantıya tıklayın. Aşağıdaki çizimde bir **Bakım kesinti süresi faaliyetleri** listesi örneği gösterilmektedir.
+Tüm bakım kesinti süresi faaliyetlerinin listesini açmak ve faaliyetlerle ilgili bazı bilgileri görmek için **Varlık yönetimi** > **Bakım kesinti süresi faaliyetleri** > **Tüm bakım kesinti süresi faaliyetleri**'ne tıklayın. Ayrıntılar görünümünü açmak için **Bakım kesinti süresi faaliyetleri** sütunundaki bağlantıya tıklayın. Aşağıdaki çizimde bir **Bakım kesinti süresi faaliyetleri** listesi örneği gösterilmektedir.
 
 ![Şekil 1.](media/19-preventive-maintenance.png)
 
 
 ## <a name="create-a-maintenance-downtime-activity"></a>Bakım kesinti süresi faaliyeti oluşturma
 
-1. **Varlık yönetimi** > **Genel** > **Bakım kesinti süresi faaliyetleri** > **Tüm bakım kesinti süresi faaliyetleri** veya **Etkin bakım kesinti süresi faaliyetleri**.
+1. **Varlık yönetimi** > **Bakım kesinti süresi faaliyetleri** > **Tüm bakım kesinti süresi faaliyetleri** veya **Etkin bakım kesinti süresi faaliyetleri**'ne tıklayın.
 
 2. **Yeni**'ye tıklayın.
 

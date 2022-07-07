@@ -2,30 +2,25 @@
 title: Servis siparişine adres ekleme
 description: Bu makale bir servis siparişine nasıl müşteri adresi ekleneceğini açıklar.
 author: sorenva
-ms.date: 05/02/2018
+ms.date: 06/15/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce58ff7bbb491fd2d250b8986d02fca04bd5fad1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c485c50bab7c2e945aa0f0fc0601008dcebd3328
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844749"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015739"
 ---
-# <a name="add-an-address-to-a-service-order"></a>Servis siparişine adres ekleme    
+# <a name="add-an-address-to-a-service-order"></a>Servis siparişine adres ekleme
 
 [!include [banner](../includes/banner.md)]
-
 
 Bu makale bir servis siparişine nasıl müşteri adresi ekleneceğini açıklar. Bir servis siparişi oluşturduğunuzda, adres bilgileri servis siparişinin iliştirildiği projeden transfer edilir. Ancak müşteriler, satıcılar, tesisler, ambarlar, servis siparişleri ve projeler için Microsoft Dynamics AX'e önceden girilmiş adreslerden alternatif bir konum seçebilirsiniz.
 
@@ -35,43 +30,36 @@ Yeni bir adres de oluşturabilirsiniz. Varsayılan olarak, yeni adres projeye tr
 
 Servis siparişine bir adres eklemek için bu adımları izleyin:
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın.
+1. **Servis yönetimi** \> **Servis siparişleri** \> **Servis siparişleri**'ne gidin.
 
-2.  Bir adres oluşturmak istediğiniz servis siparişini açın.
+1. Bir adres oluşturmak istediğiniz servis siparişini açın.
 
-3.  **Eylem Bölmesinde** **Düzenle**'ye ve ardından **Başlık görünümü**'ne tıklayın.
+1. **Üst bilgi** sekmesini açın.
 
-4.  **Adres** hızlı sekmesinde **Adres ekle**'ye tıklayın.
+1. **Adres** hızlı sekmesini genişletin ve sonra hızlı sekme araç çubuğundan **Adres ekle**'yi seçin.
 
-5.  **Yeni adres** formuna, adres için benzersiz bir ad girin ve kalan alanları doldurun. 
-    
+1. **Yeni adres** iletişim kutusuna adres için benzersiz bir ad girin ve kalan alanları doldurun. 
 
     > [!WARNING]
-    > <P>Varolan bir adresle aynı adı girerseniz, kalan alanlara girdiğiniz bilgiler varolan adres bilgilerini geçersiz kılar.</P>
+    > Varolan bir adresle aynı adı girerseniz, kalan alanlara girdiğiniz bilgiler varolan adres bilgilerini geçersiz kılar.
 
-
-6.  Yeni adresi servis siparişine kopyalamak için **Tamam**'a tıklayın.
+1. Yeni adresi servis siparişine kopyalamak için **Tamam**'ı seçin.
 
 ## <a name="specify-an-alternative-address-on-a-service-order"></a>Bir servis sipariş siparişinde alternatif bir adres belirtme
 
 Servis siparişine alternatif bir adres eklemek için bu adımları izleyin:
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın.
+1. **Servis yönetimi** \> **Servis siparişleri** \> **Servis siparişleri**'ne gidin.
 
-2.  Alternatif adres girmek istediğiniz servis siparişini açın.
+1. Alternatif adres girmek istediğiniz servis siparişini açın.
 
-3.  **Eylem Bölmesinde** **Düzenle**'ye ve ardından **Başlık görünümü**'ne tıklayın.
+1. **Üst bilgi** sekmesini açın.
 
-4.  **Adres** hızlı sekmesinde **Diğer adresler**'e tıklayın.
+1. **Adres** hızlı sekmesini genişletin ve sonra hızlı sekme araç çubuğundan **Diğer adres**'i seçin.
 
-5.  **Adres seçimi** formunda **Kayıt türü** alanında **Servis siparişleri**'ni seçin.
+1. **Adres seçimi** iletişim kutusunda, ızgaranın üstündeki açılan listeden **Servis siparişleri**'ni seçin.
 
-6.  Bir adres seçin ve servis siparişine kopyalamak için **Tamam**'a tıklayın.
-
-
-  
-
-
+1. Bir adres seçin ve bu adresi servis siparişinize kopyalamak için **Tamam**'ı seçin.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

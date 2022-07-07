@@ -16,12 +16,12 @@ ms.search.industry: Product information
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2798e25d1f6c293aa71a6c143ded5293f241060
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 079e6de00d1a946d998648378d5ca24c1fd26218
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850568"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015420"
 ---
 # <a name="product-related-translations-faq"></a>Ürünle ilgili çeviriler hakkında SSS
 
@@ -43,20 +43,20 @@ Bu makalede, ürünler, ürün boyut değerleri ve ürün öznitelikleri için �
 
 ## <a name="how-do-i-create-translations-for-product-related-information"></a>Ürünle ilgili bilgilerin çevirilerini nasıl oluştururum?
 Ürün için çeviriler oluşturmak için şu adımları izleyin:
-1.  **Ürün bilgileri yönetimi** &gt; **Ortak** &gt; **Serbest bırakılan ürünler**'e tıklayın.
+1.  **Ürün bilgileri yönetimi** &gt; **Ürünler** &gt; **Serbest bırakılan ürünler** seçeneğine tıklayın.
 2.  Ürün seçin ve Eylem Bölmesi'nde **Diller** grubunda **Çeviriler**'e tıklayın.
 3.  **Metin çevirisi** sayfasında **Dil** alanında, bir dil seçin. Daha fazla dil eklemek için **Dil** alanını genişletin ve **Tamam**'a tıklayın.
 4.  **Çevrilmiş metin** grubunda **Açıklama** ve **Ürün adı** alanlarında çevirileri girin.
 
 Ürün öznitelikleri için çeviriler oluşturmak üzere şu adımları izleyin:
-1.  **Ürün bilgileri yönetimi** &gt; **Ortak** &gt; **Serbest bırakılan ürünler**'e tıklayın.
+1.  **Ürün bilgileri yönetimi** &gt; **Ürünler** &gt; **Serbest bırakılan ürünler** seçeneğine tıklayın.
 2.  **Kurulum** altında **Öznitelikler**'e ve ardından **Öznitelikler**'e tıklayın.
 3.  **Öznitelikler** sayfasında **Çevir**'e tıklayın.
 4.  **Metin çevirisi** sayfasında **Dil** alanında, bir dil seçin. Daha fazla dil eklemek için **Dil** alanını genişletin ve **Tamam**'a tıklayın.
 5.  **Çevrilmiş metin** grubunda **Açıklama**, **Kolay ad** ve **Yardım metni** alanlarında çevirileri girin.
 
 Ürün boyutu değerleri için çeviriler oluşturmak üzere şu adımları izleyin:
-1.  **Ürün bilgileri yönetimi** &gt; **Ortak** &gt; **Serbest bırakılan ürünler**'e tıklayın.
+1.  **Ürün bilgileri yönetimi** &gt; **Ürünler** &gt; **Serbest bırakılan ürünler** seçeneğine tıklayın.
 2.  Ürünü seçin ve ardından **Ürün boyutları**'na tıklayın.
 3.  Ürün boyutları için bağlantılardan birini seçin: **Yapılandırmalar**, **Boyutlar**, **Renkler** veya **Stil**.
 4.  Boyut değerini seçin ve ardından **Çevir**'e tıklayın.

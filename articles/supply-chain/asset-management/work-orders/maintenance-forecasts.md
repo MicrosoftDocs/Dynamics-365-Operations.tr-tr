@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c2dbd968a22f2bded29cff3517dacbafc79ff8f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: be6ef12f34e85b90c24c43c6e55ad169c271810a
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902125"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016637"
 ---
 # <a name="maintenance-forecasts"></a>Bakım tahminleri
 
@@ -32,7 +32,7 @@ Bir iş emri oluşturduğunuzda, ilgili varlıklar ve bakım işi türleri bulun
 
 Bir iş emrine tahmin satırları ekleyebilir veya bunları bir iş emrinden silebilirsiniz. Bir iş emri yaşam döngüsü durumu, ilgili proje türü ve proje türüyle ilgili aşama kuralları kurulumu, tahmin satırları ekleyip ekleyemeyeceğinizi veya düzenleyip düzenleyemeyeceğinizi belirler. İş emri yaşam döngüsü durumları ve ilgili proje aşamaları hakkında daha fazla bilgi için bkz. [Tahminler, iş emirleri ve projeler](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
-1. **Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ni seçin.
+1. **Varlık yönetimi** > **İş emirleri** > **Tüm iş emirleri** veya **Etkin iş emirleri**'ni seçin.
 
 2. Listede iş emrini seçin ve sonra Eylem bölmesinde > **İş emri** sekmesinde > **Proje** grubunda **Tahmin** öğesini seçin. **İş emri bakım tahmini** sayfasında, iş emri işinde seçilen bakım işi türünden gelen tahmin satırları görüntülenir.
 

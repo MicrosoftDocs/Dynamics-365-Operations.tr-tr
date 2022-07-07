@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dfb75d69f20c68a40242bb1c0c25ca77f85e0c14
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 519431d84652e45dcd45aefbbaaa2a0e2afe6349
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852885"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016521"
 ---
 # <a name="maintenance-rounds"></a>Bakım sıraları
 
@@ -87,7 +87,7 @@ Aşağıdaki çizimde üç varlığı içeren bir bakım sırası örneği göst
 
 Bakım sırasını ayarladığınızda bakım sırasıyla ilgili tüm işleri zamanlamak için bir iş zamanlaması çalıştırırsınız.
 
-1. **Varlık yönetimi** > **Dönemsel** > **Önleyici bakım** > **Bakım sıraları zamanla** veya **Varlık yönetimi** > **Ortak** > **Bakım zamanlaması** > **Tüm bakım zamanlaması** veya **Bakım zamanlaması satırları aç** veya **Bakım zamanlaması havuzları aç**'a tıklayın > listeden bakım zamanlaması satırı seçin > **Bakım sıraları** düğmesine tıklayın.
+1. **Varlık yönetimi** > **Dönemsel** > **Önleyici bakım** > **Bakım sıraları zamanla** veya **Varlık yönetimi** > **Bakım zamanlaması** > **Tüm bakım zamanlaması** veya **Bakım zamanlaması satırları aç** ya da **Bakım zamanlaması havuzları aç**'a tıklayın > listeden bakım zamanlaması satırı seçin > **Bakım sıraları** düğmesine tıklayın.
 
 2. **Dönem** alanında, işi zamanlamak için kullanılacak dönem türünü seçin.
 
@@ -102,7 +102,7 @@ Bakım sırasını ayarladığınızda bakım sırasıyla ilgili tüm işleri za
 
 6. **Tamam**'a tıklayın.
 
-7. Artık bakım sıraları işlerini **Varlık yönetimi** > **Ortak** > **Bakım zamanlaması** > **Tüm bakım zamanlaması** veya **Bakım zamanlaması satırları aç** seçeneklerinde görebilirsiniz. Zamanlanan sıralar, bir iş emri havuzuna bağlanırsa bakım zamanlaması satırlarını **Bakım zamanlaması havuzları aç** seçeneğinde de görebilirsiniz. Bir sıradan oluşturulan bakım zamanlaması satırları "Bakım sıraları" referans türüne sahiptir.
+7. Bakım sırası işlerini artık **Varlık yönetimi** > **Bakım zamanlaması** > **Tüm bakım zamanlaması** veya **Bakım zamanlaması satırları aç** seçeneğinde görebilirsiniz. Zamanlanan sıralar, bir iş emri havuzuna bağlanırsa bakım zamanlaması satırlarını **Bakım zamanlaması havuzları aç** seçeneğinde de görebilirsiniz. Bir sıradan oluşturulan bakım zamanlaması satırları "Bakım sıraları" referans türüne sahiptir.
 
 Aşağıdaki iki çizimde **Bakım sıralarını zamanla** iletişim kutusundaki bir zamanlama işi ve söz konusu zamanlama işine göre **Tüm bakım zamanlamaları**'nda oluşturulan bakım zamanlaması satırları gösterilmektedir.
 

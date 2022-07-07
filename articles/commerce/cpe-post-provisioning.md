@@ -1,8 +1,8 @@
 ---
-title: Dynamics 365 Commerce değerlendirme ortamı yapılandırma
-description: Bu makale, sağlandıktan sonra Microsoft Dynamics 365 Commerce değerlendirme ortamının nasıl yapılandırılacağını açıklamaktadır.
+title: Dynamics 365 Commerce korumalı alan ortamı yapılandırma
+description: Bu makale, sağlandıktan sonra Microsoft Dynamics 365 Commerce korumalı alan ortamının nasıl yapılandırılacağını açıklamaktadır.
 author: psimolin
-ms.date: 05/12/2022
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,34 +14,34 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 19d88139e35554bce68bc6203141957b96e439a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 259a580981003f135e234f66e9e93ceb18605412
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892342"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013121"
 ---
-# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce değerlendirme ortamı yapılandırma
+# <a name="configure-a-dynamics-365-commerce-sandbox-environment"></a>Dynamics 365 Commerce korumalı alan ortamı yapılandırma
 
 [!include [banner](includes/banner.md)]
 
-Bu makale, sağlandıktan sonra Microsoft Dynamics 365 Commerce değerlendirme ortamının nasıl yapılandırılacağını açıklamaktadır.
+Bu makale, sağlandıktan sonra Microsoft Dynamics 365 Commerce korumalı alan ortamının nasıl yapılandırılacağını açıklamaktadır.
 
-Bu makaledeki yordamları yalnızca Commerce değerlendirme ortamınızı sağlandıktan sonra tamamlayın. Commerce değerlendirme ortamını sağlamak hakkında bilgi için bkz. [Commerce değerlendirme ortamı sağlama](provisioning-guide.md).
+Bu makaledeki yordamları yalnızca Commerce korumalı alan ortamınızı sağlandıktan sonra tamamlayın. Commerce korumalı alan ortamını sağlama hakkında bilgi için bkz. [Commerce korumalı alan ortamı sağlama](provisioning-guide.md).
 
-Commerce değerlendirme ortamınız sona kadar sağlanmış olduktan sonra, ortamı değerlendirmeye başlamadan önce ek sağlama sonrası yapılandırma adımlarının tamamlanması gerekir. Bu adımları tamamlamak için, Microsoft Dynamics Lifecycle Services'i (LCS) ve Dynamics 365 Commerce öğesini kullanmalısınız.
+Commerce korumalı alan ortamınız uçtan uca sağlandıktan sonra, ortamı kullanmaya başlayabilmeniz için sağlama sonrası yapılandırmaya ilişkin ek adımların tamamlanması gerekir. Bu adımları tamamlamak için, Microsoft Dynamics Lifecycle Services'i (LCS) ve Dynamics 365 Commerce öğesini kullanmalısınız.
 
 ## <a name="before-you-start"></a>Başlamadan önce
 
 1. [LCS portalda](https://lcs.dynamics.com) oturum açın.
 1. Projenize gidin.
-1. Üst menüden **bulut ile barındırılan ortamları** seçin.
 1. Listeden ortamınızı seçin.
 1. Sağdaki ortam bilgilerinde **Ortamda oturum aç**'a tıklayın. Commerce Headquarters'a gönderilirsiniz.
-1. Sağ üst köşede **USRT** hukuk varlığının seçildiğinden emin olun.
-1. **Commerce parametreleri \> Yapılandırma parametreleri** bölümüne gidin ve **ProductSearch.UseAzureSearch** için **doğru** olarak ayarlanmış bir giriş olduğundan emin olun. Bu giriş eksikse e-ticaret web siteniz ile ilişkilendirilmiş Commerce Scale Unit için bu girişi ekleyebilir, değeri **doğru** olarak ayarlayabilir ve ardından **Kanal Veritabanı \> Tam veri eşitleme**'yi seçebilirsiniz.
+1. Sağ üst köşede **USRT** hukuk varlığının seçildiğinden emin olun. Bu tüzel kişilik, demo verilerinde önceden yapılandırılmıştır.
+1. **Commerce parametreleri \> Yapılandırma parametreleri** bölümüne gidin ve **ProductSearch.UseAzureSearch** için **doğru** olarak ayarlanmış bir giriş olduğundan emin olun. Bu girdi eksikse, ekleyin ve değerini **true** olarak ayarlayın.
 1. **Retail ve Commerce \> Headquarters kurulumu \> Commerce planlayıcısı \> Commerce planlayıcısını başlat**'a gidin. **Commerce planlayıcısını başlat** açılır menüsünde, **Var olan yapılandırmayı sil** seçeneğini **Evet** olarak ayarlayın ve **Tamam**'ı seçin.
-1. Commerce Scale Unit'e kanal eklemek için **Retail ve Commerce \> Headquarters kurulumu \> Commerce planlayıcısı \>Kanal veritabanı**'na gidin ve sol bölmedeki Commerce Scale Unit'i seçin. **Perakende kanalı** hızlı sekmesinde, **AW çevrimiçi mağaza**, **AW Business çevrimiçi mağaza** ve **Fabrikam genişletilmiş çevrimiçi mağaza** kanallarını ekleyin. İsteğe bağlı olarak, POS'u kullanacaksanız perakende mağazaları da ekleyebilirsiniz (örneğin, **Seattle**, **San Francisco** ve **San Jose**).
+1. Mağazanın ve e-ticaret kanallarının düzgün çalışması için, bunların Commerce Scale Unit'e eklenmesi gerekir. **Retail ve Commerce \> Headquarters kurulumu \> Commerce planlayıcısı \> Kanal veritabanı**'na gidin ve ardından sol panelde Commerce Scale Unit'i seçin. **Perakende kanalı** hızlı sekmesinde, **AW çevrimiçi mağaza**, **AW Business çevrimiçi mağaza** ve **Fabrikam genişletilmiş çevrimiçi mağaza** kanalları arasından kullanmayı planladığınız e-ticaret kanallarını ekleyin. İsteğe bağlı olarak, satış noktasını (POS) kullanacaksanız perakende mağazaları da ekleyebilirsiniz (örneğin, **Seattle**, **San Francisco** ve/veya **San Jose**).
+1. Tüm değişikliklerin kanal veritabanıyla eşitlendiğinden emin olmak için, Commerce Scale Unit için **Kanal Veritabanı \> Tam veri eşitlemesi**'ni seçin.
 
 Commerce Headquarters'daki sağlama sonrası etkinlikler sırasında, **USRT** yasal varlığının her zaman seçili olduğundan emin olun.
 
@@ -52,7 +52,7 @@ Commerce Headquarters'daki sağlama sonrası etkinlikler sırasında, **USRT** y
 Bir çalışanı kimliğinizle ilişkilendirmek için, Commerce Headquarters'daki adımları izleyin.
 
 1. Soldaki menüyü kullanarak, **Modüller \> perakende ve ticaret \> çalışanlar \> İşçiler**'e gidin.
-1. Listede, **000713 - Andrew Collette** kaydı bulun ve seçin.
+1. Listede, **000713 - Andrew Collette** kaydı bulun ve seçin. Bu örnek kullanıcı, sonraki bölümde kullanılacak olan San Francisco mağazasıyla ilişkilidir.
 1. Eylem Bölmesinde **Commerce** öğesini seçin.
 1. **Var olan kimliği ilişkilendir**'i seçin.
 1. **E-posta** alanında (**E-posta kullanarak arama**'nın sağındaki) e-posta adresinizi yazın.
@@ -76,24 +76,24 @@ Bulut POS'u etkinleştirmek için LCS'deki şu adımları izleyin.
 1. **Etkinleştir**'i seçin. Oturumunuz kapalı ve POS oturum açma sayfasına götürülüyorsunuz.
 1. Şimdi operatör Kodu **000713** ve parola **123** kullanarak Cloud POS deneyimlerinde oturum açabilirsiniz.
 
-## <a name="set-up-your-site-in-commerce"></a>Commerce'te sitenizi ayarlama
+## <a name="set-up-your-e-commerce-sites"></a>E-ticaret sitelerinizi ayarlama
 
-Commerce'te değerlendirme sitenizi ayarlamaya başlamak için aşağıdaki adımları izleyin.
+Kullanılabilir üç e-ticaret demo sitesi vardır: Fabrikam, Adventure Works ve Adventure Works Business. Her demo sitesini yapılandırmak için aşağıdaki adımları izleyin.
 
 1. Sağlama sırasında e-Ticareti başlattığınız zaman not ettiğiniz URL'yi kullanarak site oluşturucu aracında oturum açın (bkz. [e-Ticareti başlatma](provisioning-guide.md#initialize-e-commerce)).
-1. Site kurulum iletişim kutusunu açmak için **Fabrikam** sitesine tıklayın.
-1. E-ticaret'i başlattığınızda girdiğiniz etki alanını seçin.
-1. Varsayılan kanal için **Fabrikam genişletilmiş çevrimiçi mağaza**'yı seçin. (**Genişletilmiş** çevrimiçi mağazayı seçtiğinizden emin olun)
+1. Site kurulumu iletişim kutusunu açmak için siteyi (**Fabrikam**, **Adventure Works** veya **Adventure Works Business**) seçin.
+1. Commerce'ü başlatırken girdiğiniz etki alanını seçin.
+1. Headquarters'da, varsayılan kanala karşılık gelen önceden yapılandırılmış çevrimiçi mağaza kanalını (**Fabrikam genişletilmiş çevrimiçi mağaza**, **AW çevrimiçi mağaza** veya **AW Business çevrimiçi mağaza**) seçin.
 1. Varsayılan dil için **tr-tr** seçeneğini belirleyin.
-1. **Yol** alanının değerini olduğu gibi bırakın.
+1. Yol alanlarını yapılandırın. Bu, tek bir site için boş bırakılabilir, ancak birden çok site için aynı etki alanı adı kullanılıyorsa yapılandırılmalıdır. Örneğin, etki alanı adı `https://www.constoso.com` ise, Fabrikam için boş bir yol (`https://contoso.com`) kullanabilir ve sonra Adventure Works için "aw" (`https://contoso.com/aw`) ve Adventure Works iş sitesi için "awbusiness"ı (`https://contoso.com/awbusiness`) kullanabilirsiniz.
 1. **Tamam**'ı seçin. Sitedeki Sayfalar listesi görüntülenir.
-1. **AdventureWorks** sitesi (**AW çevrimiçi mağaza** kanalıyla eşlenen) ve **AdventureWorks Business** sitesi (**AW Business çevrimiçi mağaza** kanalıyla eşlenen) için 2-7 adımlarını tekrarlayın. Fabrikam sitesinin **Yol** alanı boş ise, iki AdventureWorks sitesi için yollar eklemelisiniz (örneğin, "aw" ve "awbusiness").
+1. İsteğe bağlı olarak, diğer demo sitelerini gerektiği gibi yapılandırmak için 2-7 arasındaki adımları yineleyin.
 
 ## <a name="enable-jobs"></a>İşleri etkinleştir
 
 Commerce'de işleri etkinleştirmek için şu adımları izleyin:
 
-1. Ortama oturum açın (HQ).
+1. Headquarters ortamında oturum açın.
 1. Soldaki menüyü kullanarak **perakende ve ticaret \> Sorgulamalar ve raporlar \> toplu işler**'e gidin.
 
     Bu yordamın geri kalan adımlarının aşağıdaki işlerin her biri için tamamlanması gerekir:
@@ -146,12 +146,11 @@ Sitede test hareketleri gerçekleştirmek için, aşağıdaki test kredi kartı 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Sağlama ve yapılandırma adımları tamamlandıktan sonra, değerlendirme ortamınızı kullanmaya başlayabilirsiniz. Yazma deneyimine gitmek için Commerce site oluşturucu URL'sini kullanın. Perakende müşteri site deneyimine gitmek için Commerce sitesi URL'sini kullanın.
+Sağlama ve yapılandırma adımları tamamlandıktan sonra, korumalı alan ortamınızı kullanmaya başlayabilirsiniz. Yazma deneyimine gitmek için Commerce site oluşturucu URL'sini kullanın. Perakende müşteri site deneyimine gitmek için Commerce sitesi URL'sini kullanın.
 
-Commerce değerlendirme ortamınızla ilgili isteğe bağlı özellikleri yapılandırmak için bkz. [Commerce değerlendirme ortamınız için isteğe bağlı özellikler yapılandırma](cpe-optional-features.md).
+Commerce korumalı alan ortamınızla ilgili isteğe bağlı özellikleri yapılandırmak için bkz. [Commerce korumalı alan ortamınız için isteğe bağlı özellikler yapılandırın](cpe-optional-features.md).
 
-> [!NOTE]
-> Commerce değerlendirme ortamları, gösterim amacıyla önceden yüklenmiş Azure Active Directory (Azure AD) işletmeden tüketiciye (B2C) kiracıyla birlikte gelir. Kendi Azure AD B2C kiracınızı yapılandırmak, değerlendirme ortamları için gerekli değildir. Ancak değerlendirme ortamını kendi Azure AD B2C kiracınızı kullanacak şekilde yapılandırıyorsanız lütfen Azure Portal aracılığıyla Azure AD B2C uygulamasına yanıt URL'si olarak ``https://login.commerce.dynamics.com/_msdyn365/authresp`` eklediğinizden emin olun.
+E-ticaret kullanıcılarının e-ticaret sitesinde oturum açmasını sağlamak için, Azure Active Directory işletmeden tüketiciye (B2C) aracılığıyla site kimlik doğrulamasını etkinleştirmek üzere ek yapılandırma gereklidir. Talimatlar için bkz. [Commerce'te B2C kiracısı ayarlama](set-up-b2c-tenant.md).
 
 ## <a name="troubleshooting"></a>Sorun Giderme
 
@@ -177,15 +176,11 @@ Commerce 10.0.26 ve önceki sürümlerde gönderilen demo verileri, **AW Busines
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Dynamics 365 Commerce değerlendirme ortamına genel bakış](cpe-overview.md)
+[Dynamics 365 Commerce korumalı alan ortamını hazırlama](provisioning-guide.md)
 
-[Dynamics 365 Commerce değerlendirme ortamı sağlama](provisioning-guide.md)
+[Dynamics 365 Commerce korumalı alan ortamı için isteğe bağlı özellikleri yapılandırma](cpe-optional-features.md)
 
-[Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özellikleri yapılandırma](cpe-optional-features.md)
-
-[Dynamics 365 Commerce değerlendirme ortamında BOPIS yapılandırma](cpe-bopis.md)
-
-[Dynamics 365 Commerce değerlendirme ortamıyla ilgili SSS](cpe-faq.md)
+[Dynamics 365 Commerce korumalı alan ortamında BOPIS'i yapılandırma](cpe-bopis.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

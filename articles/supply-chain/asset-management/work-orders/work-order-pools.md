@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6fc97c8a65afe24bfe730e6d13eb178ddcafc2d9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dc9eaf82c2f3336f8c3400fcd3f1165ed4fa56d8
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849575"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014983"
 ---
 # <a name="work-order-pools"></a>İş emri havuzları
 
@@ -44,7 +44,7 @@ Gerektiğinde, bir iş emrini birden fazla iş emri havuzuna koyabilirsiniz.
 
 **Tüm iş emri havuzları** veya **Etkin iş emri havuzları** liste sayfasında, iş emri havuzlarınızın genel görünümünü alabilir ve yeni havuzlar oluşturabilirsiniz.
 
-1. **Varlık yönetimi** > **Genel** > **İş emri havuzları** > **Tüm iş emri havuzları** veya **Etkin iş emri havuzları**'nı seçin.
+1. **Varlık yönetimi** > **İş emri havuzları** > **Tüm iş emri havuzları** veya **Etkin iş emri havuzları**'nı seçin.
 
 2. **Yeni**'yi seçin.
 

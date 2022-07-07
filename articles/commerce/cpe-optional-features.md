@@ -1,8 +1,8 @@
 ---
-title: Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özellikleri yapılandırma
-description: Bu makale, Microsoft Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özelliklerin nasıl yapılandırılacağını açıklamaktadır.
+title: Dynamics 365 Commerce korumalı alan ortamı için isteğe bağlı özellikleri yapılandırma
+description: Bu makale, Microsoft Dynamics 365 Commerce korumalı alan ortamı için isteğe bağlı özelliklerin nasıl yapılandırılacağını açıklamaktadır.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 201628eb0c3e81d5fee0df9e53d93f5b1839adfb
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861926"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013250"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özellikleri yapılandırma
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-sandbox-environment"></a>Dynamics 365 Commerce korumalı alan ortamı için isteğe bağlı özellikleri yapılandırma
 
 [!include [banner](includes/banner.md)]
 
-Bu makale, Microsoft Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özelliklerin nasıl yapılandırılacağını açıklamaktadır.
+Bu makale, Microsoft Dynamics 365 Commerce korumalı alan ortamı için isteğe bağlı özelliklerin nasıl yapılandırılacağını açıklamaktadır.
 
-## <a name="prerequisites"></a>Önkoşullar
+## <a name="prerequisites"></a>Ön Koşullar
 
-İşlem e-posta özelliklerini değerlendirmek istiyorsanız, aşağıdaki önkoşulların karşılanması gerekir:
+İşlem tabanlı e-posta özelliklerini denemek istiyorsanız, aşağıdaki önkoşulların karşılanması gerekir:
 
-- Kullanılabilir bir e-posta sunucunuz var (Basit Posta Transfer Protokolü \[SMTP\] sunucusu); Bunlar, değerlendirme ortamını temin ettiğiniz Microsoft Azure aboneliğinden kullanılabilir.
+- Kullanılabilir bir e-posta sunucunuz (Basit Posta Transfer Protokolü \[SMTP\] sunucusu) var; bu sunucu, korumalı alan ortamını hazırladığınız Microsoft Azure aboneliğinden kullanılabilir.
 - Sunucunun tam etki alanı adına (FQDN)/IP adresi, SMTP bağlantı noktası numaranız ve kullanılabilir kimlik doğrulama detayları vardır.
 
 ## <a name="configure-the-image-back-end"></a>Görüntüyü arka arkaya konfigüre etme
@@ -39,10 +39,10 @@ Bu makale, Microsoft Dynamics 365 Commerce değerlendirme ortamı için isteğe 
 ### <a name="find-your-media-base-url"></a>Medya taban URL'nizi bulun
 
 > [!NOTE]
-> Bu yordamı tamamlayabilmek için, [sitenizi Commerce'ta ayarlama](cpe-post-provisioning.md#set-up-your-site-in-commerce) adımlarını tamamlamanız gerekir.
+> Bu yordamı tamamlayabilmek için, [sitenizi Commerce'ta ayarlama](cpe-post-provisioning.md#set-up-your-e-commerce-sites) adımlarını tamamlamanız gerekir.
 
 1. Sağlama sırasında e-Ticareti başlattığınız zamanı not ettiğiniz URL'yi kullanarak Commerce site oluşturucu aracında oturum açın (bkz. [e-Ticareti başlatma](provisioning-guide.md#initialize-e-commerce)).
-1. **Fabrikam** sitesini açın.
+1. Çalışmak istediğiniz **Fabrikam**, **Adventure Works** veya **Adventure Works Business** sitesini açın.
 1. Soldaki menüden **Medya Kitaplığı**'nı seçin.
 1. Herhangi bir tek resim varlığı seçin.
 1. Sağdaki Özellik denetçisinde, **genel URL** özelliğini bulun. Değer bir URL. Aşağıda bir örnek verilmiştir:
@@ -98,9 +98,9 @@ E-postalarını göndermek istediğiniz her işlemsel olay için e-posta şablon
 
 ## <a name="customize-email-templates"></a>E-posta şablonlarını özelleştirme
 
-E-posta şablonlarını farklı görüntüler kullanacak şekilde özelleştirmek isteyebilirsiniz. Veya şablonların bağlantılarını, değerlendirme ortamınıza gitmeleri için güncelleştirmek isteyebilirsiniz. Bu prosedür, varsayılan şablonların nasıl karşıdan yükleneceğini açıklar, bunları özelleştirin ve sistemdeki şablonları güncelleştirir.
+E-posta şablonlarını farklı görüntüler kullanacak şekilde özelleştirmek isteyebilirsiniz. Veya şablonlardaki bağlantıları, korumalı alan ortamınıza yönlendirilecekleri şekilde güncelleştirmek isteyebilirsiniz. Bu prosedür, varsayılan şablonların nasıl karşıdan yükleneceğini açıklar, bunları özelleştirin ve sistemdeki şablonları güncelleştirir.
 
-1. Tarayıcı kullanarak, [Microsoft Dynamics 365 Commerce Değerlendirme varsayılan e-posta şablonları zip dosyasını](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) indirin. Bu dosya aşağıdaki HTML belgelerini içerir:
+1. Web tarayıcı kullanarak [Microsoft Dynamics 365 Commerce demo varsayılan e-posta şablonları zip dosyasını](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) indirin. Bu dosya aşağıdaki HTML belgelerini içerir:
 
     - Sipariş onayı şablonu
     - Hediye kartı şablonu
@@ -167,15 +167,11 @@ Aşağıdaki belirteçler siparişteki her ürün için değerlerle değiştiril
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Dynamics 365 Commerce değerlendirme ortamına genel bakış](cpe-overview.md)
+[Dynamics 365 Commerce korumalı alan ortamını hazırlama](provisioning-guide.md)
 
-[Dynamics 365 Commerce değerlendirme ortamı sağlama](provisioning-guide.md)
+[Dynamics 365 Commerce korumalı alan ortamı yapılandırma](cpe-post-provisioning.md)
 
-[Dynamics 365 Commerce değerlendirme ortamı yapılandırma](cpe-post-provisioning.md)
-
-[Dynamics 365 Commerce değerlendirme ortamında BOPIS yapılandırma](cpe-bopis.md)
-
-[Dynamics 365 Commerce değerlendirme ortamıyla ilgili SSS](cpe-faq.md)
+[Dynamics 365 Commerce korumalı alan ortamında BOPIS'i yapılandırma](cpe-bopis.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

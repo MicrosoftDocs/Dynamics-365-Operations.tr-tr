@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb29c5e7170011b95151d9aaf2a96a570563096d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5d2cc1f5b8eccb51b6bea8655fdee243c1a2df55
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902096"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015041"
 ---
 # <a name="manually-created-work-orders"></a>El ile oluşturulmuş iş emirleri
 
@@ -34,7 +34,7 @@ ms.locfileid: "8902096"
 
 ## <a name="create-work-order"></a>İş emri oluştur
 
-1. **Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ni seçin.
+1. **Varlık yönetimi** > **İş emirleri** > **Tüm iş emirleri** veya **Etkin iş emirleri**'ni seçin.
 
 2. **Yeni**'yi seçin.
 
@@ -82,7 +82,7 @@ Aaşağıdaki noktaları unutmayın:
 
 Var olan bir iş emriyle ilgili bir iş emri oluşturabilirsiniz. Bu özellik, örneğin birincil ve ikincil iş emirleriyle çalışmak istiyorsanız yararlıdır. Yeni bir iş emri, var olan bir iş emrinden alınan bir iş emri işine dayalıdır.
 
-1. **Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ni seçin.
+1. **Varlık yönetimi** > **İş emirleri** > **Tüm iş emirleri** veya **Etkin iş emirleri**'ni seçin.
 
 2. İlgili iş emri oluşturulacak iş emrini seçin.
 
@@ -120,7 +120,7 @@ Aşağıdaki şekilde **İlgili iş emri oluştur** iletişim kutusu örneği g�
 
 Var olan bir iş emrinden hızlı şekilde yeni bir iş emri oluşturabilirsiniz. İş emirleriyle çalışmanın bu yolu, [bakım planlarını](../preventive-and-reactive-maintenance/maintenance-plans.md) temel alan iş emirleri oluşturmaktan farklıdır. Örneğin, farklı varlıklarda düzenli aralıklarla tamamlanması gereken çeşitli işler içeren birçok iş emri işi bulunan bir iş emri varsa yararlıdır.
 
-1. **Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ni seçin.
+1. **Varlık yönetimi** > **İş emirleri** > **Tüm iş emirleri** veya **Etkin iş emirleri**'ni seçin.
 
 2. İçeriği kopyalamak istediğiniz iş emrini seçin.
 
@@ -142,7 +142,7 @@ Aşağıdaki örnekte **İş emrini kopyala** iletişim kutusunun bir örneği g
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Bakım isteğine dayalı iş emri oluşturma
 
-1. **Varlık yönetimi** > **Ortak** > **Bakım talepleri** > **Tüm bakım talepleri** ya da **Etkin bakım talepleri**'ni seçin.
+1. **Varlık yönetimi** > **Bakım talepleri** > **Tüm bakım talepleri** ya da **Etkin bakım talepleri**'ni seçin.
 
 2. İş emri oluşturmak istediğiniz bakım talebini seçin ve **Düzenle**'ye tıklayın.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 67f857e4bfb828250e632e3ba46af9930cd908a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9c6a7c204370542353e9b629b78091972f8ce9a1
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860884"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017101"
 ---
 # <a name="work-order-lifecycle-states"></a>İş emri yaşam döngüsü durumları
 
@@ -46,7 +46,7 @@ Aşağıdaki tablo **İş emri yaşam döngüsü durumları** sayfasının **Gen
 | Planlamaya izin ver              | İş emrinin bu yaşam döngüsü durumundayken planlanan olması gerekiyorsa bu seçeneği **Evet** olarak ayarlayın. |
 | Fiili başlangıcı ayarla              | Bu yaşam döngüsü durumuna güncelleştirildiğinde, kullanıcıdan iş emri için gerçek başlangıç tarihi ve saati seçmesi istenirse bu seçeneği **Evet** olarak ayarlayın. |
 | Fiili bitişi ayarla                | Bu yaşam döngüsü durumuna güncelleştirildiğinde, kullanıcıdan iş emri için gerçek bitiş tarihi ve saati seçmesi istenirse bu seçeneği **Evet** olarak ayarlayın. |
-| Günlükleri yazdır                 | Bir iş emri bu yaşam döngüsü durumuna güncelleştirildiğinde iş emri günlüklerinin otomatik olarak kaydedilmesi gerekiyorsa, bu seçeneği **Evet** olarak ayarlayın. Günlük deftere nakli sırasında hata oluşursa, bir ileti görüntülenir ve iş emri yaşam döngüsü durumunun güncelleştirilmesi iptal edilir. Bir iş emrine ait günlük satırlarını görüntülemek için **Kıymet yönetimi** \> **Ortak** \> **İş emirleri** \> **Tüm iş emirleri**, **Etkin iş emirleri**'ni seçin ya da **Etkin iş emirlerim** listeden seçin ve **Günlükler**'i seçin. Belirli bir yaşam döngüsü durumunda otomatik iş emri günlüğü deftere nakil işleminin bu kurulumu, **İş emri günlükleri** sayfasında **Günlükleri deftere naklet**'i seçmeniz ile aynıdır.<p>**Not:** Bu seçeneği **Evet** olarak ayarlarsanız, hiçbir onay iş akışı ayarlanmamışsa Günlükler otomatik olarak nakledilir. Şirketiniz **Günlük onay** sayfasında konfigüre edilen günlük onay kurulumunu kullanıyorsa (**Proje yönetimi ve muhasebe** \> **Kurulum** \> **Günlükler** \> **Günlük onayı**), bir yönetici veya memur tüketim kayıtlarını doğrulamanz ve deftere nakletmeniz gerekir.</p> |
+| Günlükleri yazdır                 | Bir iş emri bu yaşam döngüsü durumuna güncelleştirildiğinde iş emri günlüklerinin otomatik olarak kaydedilmesi gerekiyorsa, bu seçeneği **Evet** olarak ayarlayın. Günlük deftere nakli sırasında hata oluşursa, bir ileti görüntülenir ve iş emri yaşam döngüsü durumunun güncelleştirilmesi iptal edilir. Bir iş emrine ait günlük satırlarını görüntülemek için **Kıymet yönetimi** \> **İş emirleri** \> **Tüm iş emirleri**, **Etkin iş emirleri**'ni ya da **Etkin iş emirlerim**'i seçin, listeden iş emrini seçin ve ardından **Günlükler**'i seçin. Belirli bir yaşam döngüsü durumunda otomatik iş emri günlüğü deftere nakil işleminin bu kurulumu, **İş emri günlükleri** sayfasında **Günlükleri deftere naklet**'i seçmeniz ile aynıdır.<p>**Not:** Bu seçeneği **Evet** olarak ayarlarsanız, hiçbir onay iş akışı ayarlanmamışsa Günlükler otomatik olarak nakledilir. Şirketiniz **Günlük onay** sayfasında konfigüre edilen günlük onay kurulumunu kullanıyorsa (**Proje yönetimi ve muhasebe** \> **Kurulum** \> **Günlükler** \> **Günlük onayı**), bir yönetici veya memur tüketim kayıtlarını doğrulamanz ve deftere nakletmeniz gerekir.</p> |
 | Bakım denetim listesini işle | Bir iş emri bu yaşam döngüsü durumuna güncellendiğinde tüm bağlı bakım kontrol listelerinin işlenmesi gerekiyorsa, bu seçeneği **Evet** olarak ayarlayın. Bu işlemenin bir parçası olarak, bir bakım denetim listesinde yapılan tüm sayaç kayıtları nakledilir ve tüm bakım denetim listesi sonucu değerlendirilir. **Başarılı** ve **Başarısız** bakım denetim listesi satırları değerlendirilir ve en az bir satır başarısız olursa tüm bakım denetim listesi kıymet yönetiminde **Başarısız** olarak işaretlenir. |
 | Hazır                         | İş emri üzerinde oluşturulan tüm iş siparişi işleri için iş emri iş planlama çizelgeleme durumu **Evet** olarak ayarlandığında, iş emri bu yaşam döngüsü durumuna güncelleştirildiği sırada otomatik olarak **Hazır** durumuna güncelleştirilmelidir. |
 | Başlangıç                         | İş emri üzerinde oluşturulan tüm iş siparişi işleri için iş emri iş planlama çizelgeleme durumu **Evet** olarak ayarlandığında, iş emri bu yaşam döngüsü durumuna güncelleştirildiği sırada otomatik olarak **Başlatıldı** durumuna güncelleştirilmelidir. |
@@ -74,13 +74,13 @@ Aşağıdaki tablo **İş emri yaşam döngüsü durumları** sayfasının **Gen
 10. İş emri bu yaşam döngüsü durumunda olduğunda , her iş emri işiyle ilgili proje faaliyetleri otomatik olarak kapatılacağından, **Proje** bölümünde, **Tüm faaliyetleri kapat** seçeneğini **Evet** olarak ayarlayın.
 
     > [!NOTE]
-    > Bir iş emri işiyle ilgili proje faaliyetinin numarasını bulmak için **Kıymet yönetimi** \> **Ortak** \> **İş emirleri** \> **Tüm iş emirleri**, **Etkin iş emirleri** ya da **Etkin iş emirlerim**'i seçin. İş emrini açın ve iş emri işini seçin. Faaliyet numarası **Satır ayrıntılar** hızlı sekmesinin **Genel** sekmesindeki **Proje** bölümünün **Etkinlik numarası** alanında gösterilir.
+    > Bir iş emri işiyle ilgili proje faaliyetinin numarasını bulmak için **Kıymet yönetimi** \> **İş emirleri** \> **Tüm iş emirleri**, **Etkin iş emirleri** ya da **Etkin iş emirlerim**'i seçin. İş emrini açın ve iş emri işini seçin. Faaliyet numarası **Satır ayrıntılar** hızlı sekmesinin **Genel** sekmesindeki **Proje** bölümünün **Etkinlik numarası** alanında gösterilir.
 
 11. İş emri bu yaşam döngüsü durumundayken otomatik olarak iş emri günlüklerine yüklenmeliyse **Tahmini** bölümünde, **Çalışma saati tahminlerini kopyala**, **Öğeyi tahminini kopyala** ve / veya **Harcama tahminini kopyala** seçeneğini **Evet** olarak ayarlayın.
 12. İş emri bu yaşam döngüsü durumunda olduğunda, iş emri işleriyle ilgili zamanlama durumu güncelleştirilecek ise, **Zamanlama** bölümünde seçeneklerden birini **Evet** olarak ayarlayın. **Hazır**, **Başlat**, **Bitir** ve **Planlanmış satırları sil** seçeneklerinin anlamları için bu makaledeki önceki tabloya bakın.
 
     > [!NOTE]
-    > Bir iş emri işiyle ilgili planlanmış satırları görmek için **Kıymet yönetimi** \> **Ortak** \> **İş emirleri** \> **Tüm iş emirleri**, **Etkin iş emirleri** ya da **Etkin iş emirlerim**'i seçin. İş emrini açın, **İş emri işleri** hızlı sekmesinde iş emri işini seçin ve **Satır ayrıntıları** hızlı sekmesinde görünümle ilgili bilgileri görüntüleyin. **Çizelge** sekmesindeki **Durum** alanı, iş emri işinin durumunu gösterir. **Durum** alanı şu değerlere ayarlanabilir: **Planlanan**, **Hazır**, **Başlatıldı**, **Durduruldu**, ve **Sona erdi**.
+    > Bir iş emri işiyle ilgili planlanmış satırları görmek için **Kıymet yönetimi** \> **İş emirleri** \> **Tüm iş emirleri**, **Etkin iş emirleri** ya da **Etkin iş emirlerim**'i seçin. İş emrini açın, **İş emri işleri** hızlı sekmesinde iş emri işini seçin ve **Satır ayrıntıları** hızlı sekmesinde görünümle ilgili bilgileri görüntüleyin. **Çizelge** sekmesindeki **Durum** alanı, iş emri işinin durumunu gösterir. **Durum** alanı şu değerlere ayarlanabilir: **Planlanan**, **Hazır**, **Başlatıldı**, **Durduruldu**, ve **Sona erdi**.
 
 13. **Bakım istekleri** bölümünde, **Yaşam döngüsü durumu** alanında, ilgili bakım taleplerinin güncelleştirilmesi gereken bakım talebi yaşam döngüsü durumunu seçin. Bu güncelleştirme otomatik olarak gerçekleştirilir. Yalnızca bakım talebi için kullanılan bakım talebi yaşam döngüsü modelinde bakım talebi yaşam döngüsü durumu seçildiğinde yapılabilir.
 14. İş emri güncelleştirildiğinde, bir iş emrinde kullanılan tüm maddelerin **Varlık ürün reçetesi** sayfasında otomatik olarak güncelleştirilmesi gerekiyorsa, **Varlık** bölümünde, **Varlık ürün reçetesini güncelleştir** seçeneğini **Evet** olarak ayarlayın. Bu ayar, örneğin, iş emri yaşam döngüsü durumu iş emrini tamamlandı veya bitmiş olarak tanımlarsa uygun olabilir.
@@ -98,7 +98,7 @@ Aşağıdaki tablo **İş emri yaşam döngüsü durumları** sayfasının **Gen
 > [!NOTE]
 > Bir iş emrini güncelleştediğiniz yaşam döngüsü durumu devre dışı ise, iş emriyle ilişkili, ancak henüz deftere nakledilmemiş Günlükler otomatik olarak silinir. Bu davranış, kullanılmayan verilerin otomatik olarak temizlenmesine yardımcı olur. (**Etkin** seçeneği **İş emri yaşam döngüsü** sayfasının **Genel** hızlı sekmesinde **Hayır** olarak ayarlanmışsa yaşam döngüsü durumu devre dışı bırakılır.)
 >
-> Bir iş emrini güncelleştediğiniz yaşam döngüsü durumını el ile devre dışı bıraktıysanız iş emriyle ilişkili, ancak henüz deftere nakledilmemiş Günlükler otomatik olarak **silinmez**. (Bir iş emrini el ile devre dışı bırakmak için **Kıymet yönetimi** \> **Ortak** \> **İş emirleri** \> **Tüm iş emirleri** ya da **Etkin iş emirleri**'ni seçin. İş emrini açın ve **Başlık** görünümüne geçin. **Genel** hızlı sekmesinde, **Düzenle**'yi seçin ve sonra **Etkin** seçeneğini **Hayır** olarak ayarlayın.)
+> Bir iş emrini güncelleştediğiniz yaşam döngüsü durumını el ile devre dışı bıraktıysanız iş emriyle ilişkili, ancak henüz deftere nakledilmemiş Günlükler otomatik olarak **silinmez**. (Bir iş emrini el ile devre dışı bırakmak için **Kıymet yönetimi** \> **İş emirleri** \> **Tüm iş emirleri** ya da **Etkin iş emirleri**'ni seçin. İş emrini açın ve **Başlık** görünümüne geçin. **Genel** hızlı sekmesinde, **Düzenle**'yi seçin ve sonra **Etkin** seçeneğini **Hayır** olarak ayarlayın.)
 
 ## <a name="relations-among-work-order-lifecycle-models-work-order-types-and-work-order-lifecycle-states"></a>İş emri yaşam döngüsü modelleri, iş emri türleri ve iş emri yaşam döngüsü durumları arasındaki ilişkiler
 

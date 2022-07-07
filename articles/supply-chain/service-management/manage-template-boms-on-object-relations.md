@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 723eae906260d152a8729f91c75cd9860eca84c5
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4f2b4213574a2d84089ab20ab1a584e1ab894ad9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669502"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016376"
 ---
 # <a name="manage-template-boms-on-object-relations"></a>Nesne ilişkilerinde şablon ürün reçetelerini yönetme 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8669502"
 
 ## <a name="attach-a-template-bom-to-a-service-object"></a>Servis kapsamındaki parçaya şablon ürün reçetesi ekleme
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın.
+1.  **Servis yönetimi** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın.
 
 2.  Nesne ilişkisine şablon ürün reçetesi eklemek istediğiniz servis sözleşmesine çift tıklayın.
 
@@ -43,7 +43,7 @@ ms.locfileid: "8669502"
 
 ## <a name="delete-a-service-bom-from-a-service-object"></a>Servis kapsamındaki parçadan servis ürün reçetesini silme
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın.
+1.  **Servis yönetimi** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın.
 
 2.  Nesne ilişkisinden servis ürün reçetesini silmek istediğiniz servis anlaşmasına çift tıklayın.
 
@@ -55,7 +55,7 @@ ms.locfileid: "8669502"
 
 ## <a name="move-the-service-bom-history-from-one-service-agreement-to-another"></a>Servis ürün reçetesi geçmişini bir servis anlaşmasından diğerine taşıma
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın.
+1.  **Servis yönetimi** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın.
 
 2.  Servis ürün reçetesini içinden taşımak istediğiniz servis sözleşmesine çift tıklayın.
 

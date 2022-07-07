@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 19fa26eeb8ea3c0944be199c57eaf4a2d7e76034
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 923715893b9f1c4b87d7bbb67e200f8cb8f92e6b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851637"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015569"
 ---
 # <a name="import-vendor-catalogs"></a>Satıcı kataloglarını içeri aktarma
 
@@ -46,7 +46,7 @@ Satıcı katalog verilerini içe aktarmak için aşağıdaki görevleri tamamlam
 
 4. Katalog içe aktarma için iş akışını yapılandırın. CMR dosyası şablonu oluşturun ve bunu satıcınızla paylaşın.
 
-5. Bir satıcı kataloğu oluşturmak için **Tedarik ve kaynak atama** \> **Ortak** \> **Kataloglar** \> **Satıcı katalogları**'nı seçin. Satıcınızdan aldığınız katalog bakımı isteği (CMR) dosyaları bu katalogda gruplandırılır. 
+5. Bir satıcı kataloğu oluşturmak için **Tedarik ve kaynak atama** \> **Kataloglar** \> **Satıcı katalogları**'nı seçin. Satıcınızdan aldığınız katalog bakımı isteği (CMR) dosyaları bu katalogda gruplandırılır.
 
 6. CMR dosyasını yükleyin.
 

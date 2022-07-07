@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95d0998bbacef7a4350d0fd0a58259ec35759d28
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b00cb62926f3a482ec655235b6e2f5880edbcd04
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868115"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016289"
 ---
 # <a name="asset-manufacturers-and-models"></a>Varlık üreticileri ve modelleri
 
@@ -53,7 +53,7 @@ Bu makale, Varlık Yönetimi'nde varlık üreticilerinin ve ilgili modellerin na
 
 ## <a name="select-a-manufacturer-and-model-on-an-object"></a>Bir nesne üzerinde üretici ve model seçme
 
-1. **Kıymet yönetimi** \> **Ortak** \> **Kıymetler** \> **Tüm kıymetler** öğesini seçin.
+1. **Varlık yönetimi** \> **_Varlıklar_* \> **Tüm varlıklar** öğesini seçin.
 2. **Varlık** sütununda, varlık için bağlantıyı seçin. **Ayrıntılar** sayfası görüntülenir.
 3. **Düzenle** öğesini seçin.
 4. **Genel** hızlı sekmesinde, **Üretici** ve **Model** alanlarında değerleri seçin.

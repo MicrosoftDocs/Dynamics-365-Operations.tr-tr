@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e75ed6e30ece1f4807ff036d831c269774d941a7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 228b76d6f6f0bb048662c8e82df76f51b7cb3652
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670986"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017390"
 ---
 # <a name="cancel-service-orders"></a>Servis siparişlerini iptal et   
 
@@ -36,11 +36,11 @@ Bir servis siparişini veya servis siparişi satırını servis siparişinin ken
 
 ## <a name="cancel-a-service-order-in-the-service-orders-form"></a>Servis siparişini Servis siparişleri formundan iptal etme
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın. Servis siparişini seçin Eylem bölmesinde **Siparişi iptal et**'e tıklayın.
+1.  **Servis yönetimi** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın. Servis siparişini seçin Eylem bölmesinde **Siparişi iptal et**'e tıklayın.
 
 ## <a name="cancel-a-service-order-line"></a>Servis siparişi satırını iptal etme
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın. İptal etmek istediğiniz satırı içeren servis siparişine çift tıklayın.
+1.  **Servis yönetimi** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın. İptal etmek istediğiniz satırı içeren servis siparişine çift tıklayın.
 
 2.  İptal etmek istediğiniz servis siparişi satırını seçin ve **Sipariş satırı iptal et**'e tıklayarak satırın durumunu **İptal edildi** olarak değiştirin.
 

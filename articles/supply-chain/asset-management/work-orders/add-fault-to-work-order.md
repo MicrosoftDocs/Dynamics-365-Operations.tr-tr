@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7905dcd4c29872ec2601359baefa78545140397c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 210db3259a6c64a508119b30598a34dbda2d2dd2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857909"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015012"
 ---
 # <a name="add-fault-to-work-order"></a>İş emrine hata ekle
 
@@ -30,7 +30,7 @@ ms.locfileid: "8857909"
 
 Arıza tasarımcısında tasarlanmış arızaları bir iş emrine ekleyebilirsiniz. İş emrinde seçilen varlık için kullanılan varlık türlerine bir veya daha fazla arıza kaydı bağlanmalıdır. Kurulum hakkında daha fazla bilgi için bkz. [Arıza yönetimi](../setup-for-work-orders/fault-management.md)
 
-1. **Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ni seçin.
+1. **Varlık yönetimi** > **İş emirleri** > **Tüm iş emirleri** veya **Etkin iş emirleri**'ni seçin.
 
 2. Arıza kaydı yapmak için iş emrini seçin ve sonra Eylem bölmesinde, **İş emri** sekmesinde, **Varlık** grubunda, **Varlık arızası**'nı seçin.
 
@@ -64,7 +64,7 @@ Aşağıdaki şekilde bir arıza merkezi kaydı örneği gösterilmiştir.
 
 **Tüm varlıklar** liste sayfasından, tüm arıza kayıtlarını görüntüleyen bir varlık arıza raporu yazdırabilir ve arıza istatistiklerine ilişkin bir grafik özet alabilirsiniz.
 
-1. **Varlık yönetimi** > **Ortak** > **Varlıklar** > **Tüm varlıklar** öğesini seçin.
+1. **Varlık yönetimi** > **Varlıklar** > **Tüm varlıklar**'ı seçin.
 
 2. Arıza raporu yazdırılacak olan varlığı seçin.
 

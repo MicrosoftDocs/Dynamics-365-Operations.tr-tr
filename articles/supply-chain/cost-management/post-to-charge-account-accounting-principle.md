@@ -11,16 +11,16 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-02
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 998a30786b3f457b24b6e3c755b2c00967adbd4b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c03109baaa341b25af70840b791ddf04f692fb1a
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879177"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016579"
 ---
 # <a name="post-to-charge-account-accounting-principle"></a>Gider hesabına naklet muhasebe ilkesi
 
-*Gider hesabına naklet* muhasebe ilkesi, fiziksel deftere nakil ve mali deftere nakil arasındaki birim fiyatta, satın alınan maddelerdeki dolaylı maliyetlerde veya satın alma siparişindeki giderler arasında meydana gelen farkları hesaba katmanıza ve bunlar için daha kolay mutabakat sağlamanıza olanak sağlar. 
+*Gider hesabına naklet* muhasebe ilkesi, fiziksel deftere nakil ve mali deftere nakil arasındaki birim fiyatta, satın alınan maddelerdeki dolaylı maliyetlerde veya satın alma siparişindeki giderler arasında meydana gelen farkları hesaba katmanıza ve bunlar için daha kolay mutabakat sağlamanıza olanak sağlar.
 
 Borç hesapları gider kodları için **Masraf kodu** sayfasındaki (**Borç hesapları \> Masraf kurulumu \> Masraf kodu**) iki yapılandırma, bir satın alma siparişinin stok varlıklarının değerlemesini etkilemesine neden olabilir:
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 503150e7cfc580821c5ed8d4c4c9b56998f6ff13
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f7c36fe230db38bfdbfd70fec7bdfd0a313d5a15
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869734"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015855"
 ---
 # <a name="create-functional-locations"></a>İşlem yapılacak yerleşimler oluşturma
 
@@ -41,7 +41,7 @@ Bu makalede Varlık Yönetimi'nde işlem yapılacak yerleşimler oluşturma işl
 
 İşlem yapılacak yerleşimleri kullandığınızda, yeni varlıklar oluştururken kullanılacak bir varsayılan işlem yapılacak yerleşim oluşturarak başlayın. Bu işlem yapılacak yerleşim **Varlık yönetimi** > **Kurulum** > **Varlık yönetimi parametreleri** > **Varlıklar** bağlantısı > **Varsayılan işlem yapılacak yerleşim** alanında seçtiğiniz konumdur. Varsayılan işlem yapılacak yerleşim yeni varlıklar oluştururken bu varlıklar için işlem yapılacak yerleşim yapısı oluşturmadığınızda kullanılabilir.
 
-1. **Varlık yönetimi** > **Genel** > **İşlem yapılacak yerleşimler** > **Tüm İşlem yapılacak yerleşimler**'i seçin.  
+1. **Varlık yönetimi** > **İşlem yapılacak yerleşimler** > **Tüm İşlem yapılacak yerleşimler**'i seçin.  
 2. **Tüm işlem yapılacak yerleşimler**'de **Yeni**'yi seçin.
 3. **İşlem yapılacak yerleşim** alanına bunun özel bir işlem yapılacak yerleşim olduğunu belirtmek için "0000" veya "Varsayılan" gibi bir kimlik ekleyin.
 4. **Ad** alanına varsayılan işlem yapılacak yerleşim için bir ad girin.
@@ -53,7 +53,7 @@ Bu makalede Varlık Yönetimi'nde işlem yapılacak yerleşimler oluşturma işl
 
 Aşağıdaki yordamda, şirketinizdeki bakım yönetimi için gerekli işlem yapılacak yerleşimleri nasıl oluşturacağınız açıklanmaktadır.
 
-1. **Varlık yönetimi** > **Genel** > **İşlem yapılacak yerleşimler** > **Tüm İşlem yapılacak yerleşimler**'i seçin. Kılavuz görünümü veya ayrıntılar görünümünden işlem yapılacak yerleşim oluşturabilirsiniz.
+1. **Varlık yönetimi** > **İşlem yapılacak yerleşimler** > **Tüm İşlem yapılacak yerleşimler**'i seçin. Kılavuz görünümü veya ayrıntılar görünümünden işlem yapılacak yerleşim oluşturabilirsiniz.
 2. **Yeni** düğmesini seçin.
 3. **İşlem yapılacak yerleşim** alanına bir kimlik ekleyin.
 4. **Ad** alanına işlem yapılacak yerleşim için bir ad girin.

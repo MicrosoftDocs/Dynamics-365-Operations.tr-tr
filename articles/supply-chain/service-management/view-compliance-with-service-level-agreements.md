@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3a91417e771902ffdc099591434befad2a3c137
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 17ada399e131f247ac7017e8819df4168d463cf5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678561"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015449"
 ---
 # <a name="view-compliance-with-service-level-agreements"></a>Servis düzeyi anlaşmalarıyla uyumluluğu görüntüleme    
 
@@ -29,7 +29,7 @@ ms.locfileid: "8678561"
 
 ## <a name="view-compliance-with-a-service-level-agreement"></a>Servis düzeyi sözleşmesiyle uyumluluğu görüntüleme
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın. Servis siparişi seçin ve siparişin ayrıntılar formunu açmak için çift tıklayın.
+1.  **Servis yönetimi** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın. Servis siparişi seçin ve siparişin ayrıntılar formunu açmak için çift tıklayın.
 
 2.  **Genel** sekmesindeki **Uyumluluk** alanında, servis siparişine harcanan zamanın servis düzeyi anlaşmasında belirtilen zaman aralığının yüzde kaçını oluşturduğunu görüntüleyin.
 

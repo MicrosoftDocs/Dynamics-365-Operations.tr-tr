@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b4d0bf82dc0dfe12991b4a48fd68a029a2ff2f3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2d4385fdd3e94d48a65baf195efa1d687fbf95c3
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887616"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016782"
 ---
 # <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Bakım işi tipleri, kategoriler, çeşitler, performans ve denetim listeleri
 
@@ -243,7 +243,7 @@ Düzenli aralıklarla bakım işi türü varsayılan referanslarını güncelle�
 
 Gerekli bakım işi türü varsayılan birleşimlerini oluşturmanızın ardından belirli bir varlıkla ilgili geçerli bakım işi türü varsayılanına genel bakış edinmek için **Tüm varlıklar** sayfasını kullanabilirsiniz. Genel bakış, varlık için seçilen varlık türünde kullanılabilen tüm bakım işi türü varsayılan birleşimlerini gösterir. Bu birleşimler, bakım işi türü çeşitlerinin ve bakım zanaatlarının çeşitlemelerine sahip birleşimleri içerir.
 
-1. **Varlık yönetimi** \> **Genel** \> **Varlıklar** \> **Tüm varlıklar** veya **Etkin varlıklar**'ı seçin.
+1. **Varlık yönetimi** \> **Varlıklar** \> **Tüm varlıklar** veya **Etkin varlıklar**'ı seçin.
 2. Listede bakım işi türü birleşimlerinin özetini görmek için varlığı seçin.
 3. Eylem Bölmesinde **Genel** sekmesindeki **İlgili bilgiler** grubunda **Bakım işi türleri**'ni seçin.
 

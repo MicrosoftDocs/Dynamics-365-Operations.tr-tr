@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 593f6a8e28c789a378515ddc8e4163c331442e8b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4424ebbf64ccdcb9bffc840520952ac915606209
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890958"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015508"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Ürün yapılandırma modeli için hesaplamalar SSS
 
@@ -73,7 +73,7 @@ Hedef özniteliği, gizli veya salt okunur olarak ayarlanmadığı sürece hedef
 ## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>Bir hedef özniteliği nasıl gizli veya salt okunur olarak ayarlarım?
 Bir özniteliği gizli veya salt okunur olarak ayarlamak için şu adımları izleyin:
 
-1.  **Ürün bilgileri yönetimi** &gt; **Ortak** &gt; **Ürün yapılandırma modelleri** öğelerini tıklayın.
+1.  **Ürün bilgileri yönetimi** &gt; **Ürünler** &gt; **Ürün yapılandırma modelleri**'ne tıklayın.
 2.  Bir ürün konfigürasyon modeli seçin ve ardından İşlem Panosundaki **Düzenle** düğmesini tıklayın.
 3.  **Kısıtlamaya dayalı ürün yapılandırma modeli bilgileri** sayfasında bir hedef özniteliği olarak kullanılacak özniteliği seçin.
 4.  **Öznitelikler** Hızlı Sekmesinden **Gizli** veya **Salt okunur** öğelerini seçin.
@@ -96,7 +96,7 @@ Bu mesaj bir hesaplamada bir hata olduğunda veya bir veya daha fazla kısıtlam
 ## <a name="why-do-i-receive-an-error-message-even-though-i-successfully-validated-my-product-model"></a>Ürün modeli başarıyla doğrulamama rağmen neden bir hata mesajı alıyorum?
 Hesaplamalar doğrulamaya dahil değildir. Hesaplamalardaki hataları bulmak için ürün yapılandırma modelini test etmelisiniz. Bir ürün yapılandırma modelini test etmek için bu adımları takip edin.
 
-1.  **Ürün bilgileri yönetimi** &gt; **Ortak** &gt; **Ürün yapılandırma modelleri** öğelerini tıklayın.
+1.  **Ürün bilgileri yönetimi** &gt; **Ürünler** &gt; **Ürün yapılandırma modelleri**'ne tıklayın.
 2.  Bir ürün yapılandırma modeli seçin ve ardından İşlem Panosundan **Yürüt** grubu altındaki **Test** düğmesini tıklayın.
 
 

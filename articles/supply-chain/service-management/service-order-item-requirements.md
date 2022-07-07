@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6f12b0dd1facc753bfcde820eea26a4052caf67
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 376cda6bbe1800611e6f24c347b9035469a30a14
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882416"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015186"
 ---
 # <a name="service-order-item-requirements"></a>Servis siparişi madde gereksinimleri
 
@@ -36,7 +36,7 @@ Bir servis siparişi için bir madde gereksinimi oluşturulur oluşturulmaz, bir
 
 ## <a name="view-an-item-requirement-from-a-service-order"></a>Bir servis siparişinden madde gereksinimi görüntüleme
 
-1. **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne gidin.
+1. **Servis yönetimi** \> **Servis siparişleri** \> **Servis siparişleri**'ne gidin.
 1. **Gönder**'i ve ardından **Madde gereksinimi**'ni seçerek **Madde gereksinimleri** formunu açın.
 1. Madde gereksiniminin servis siparişlerini görmek için **Proje** sekmesini seçin ve **Servis siparişi** alanını işaretleyin.
 
@@ -44,13 +44,13 @@ Bir servis siparişi için bir madde gereksinimi oluşturulur oluşturulmaz, bir
 
 Bir servis siparişinde bir madde gereksinimi oluşturulmuşsa, servis siparişini silemezsini. Servis siparişini silebilmeniz için madde gereksinimini silmeniz gerekir.
 
-1. **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne gidin.
+1. **Servis yönetimi** \> **Servis siparişleri** \> **Servis siparişleri**'ne gidin.
 1. **Gönder**'i ve ardından **Madde gereksinimi**'ni seçerek **Madde gereksinimleri** formunu açın. Bu form servis siparişinde oluşturulan tüm madde gereksinimlerini listeler.
 1. Silinecek madde gereksinimini seçin ve ardından **Sil**'i seçin.
 
 veya
 
-1. **Proje yönetimi ve muhasebe** \> **Genel** \> **Projeler** \> **Tüm projeler**'e gidin.
+1. **Proje yönetimi ve muhasebe** \> **Projeler** \> **Tüm projeler**'e gidin.
 1. Bir madde gereksiniminin oluşturulduğu servis siparişine sahip projeyi açın.
 1. **Projeler** formunda sağ bölmede **Madde gereksinimleri**'ni seçin. **Madde gereksinimleri** formu seçili projeyle ilişkili madde gereksinimlerini listeler.
 1. Silinecek madde gereksinimini seçin ve ardından **Sil**'i seçin.

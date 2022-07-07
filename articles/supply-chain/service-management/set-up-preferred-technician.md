@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e59271771a5f332ad8470b0b8f8f54b52a25543d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c9495bbc8e5f7cb603c027a125887feba1f0e2d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671688"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017217"
 ---
 # <a name="set-up-a-preferred-technician"></a>Tercih edilen teklifi ayarlama 
 
@@ -31,13 +31,13 @@ Servis anlaşması veya servis siparişi için bir tercih edilen teknisyen olara
 
 ## <a name="assign-employee-to-a-dispatch-team"></a>Çalışanı bir gönderilen ekibe atama
 
-1.  **İnsan kaynakları** \> **Ortak** \> **Çalışanlar** \> **Çalışanlar**'a tıklayın. Çalışan ayrıntıları sayfasını açmak için çalışana çift tıklayın. **Eylem Bölmesi**'nde **Kurulum** \> **Gönderme takımı**'na tıklayarak **Gönderme çalışanları** formunu açın.
+1.  **İnsan kaynakları** \> **Çalışanlar** \> **Çalışanlar**'a tıklayın. Çalışan ayrıntıları sayfasını açmak için çalışana çift tıklayın. **Eylem Bölmesi**'nde **Kurulum** \> **Gönderme takımı**'na tıklayarak **Gönderme çalışanları** formunu açın.
 
 2.  **Gönderme takımı** alanında, çalışanın atanacağı takımı seçin.
 
 ## <a name="assign-a-preferred-technician-to-a-service-agreement"></a>Tercih edilen teknisyeni bir servis anlaşmasına atama
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın. Ayrıntılar formunu açmak için bir servis sözleşmesine çift tıklayın.
+1.  **Servis yönetimi** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın. Ayrıntılar formunu açmak için bir servis sözleşmesine çift tıklayın.
 
 2.  Uygun gönderme takımının bir üyesini servis anlaşması için tercih edilen teknisyen olarak atamak üzere **Genel** sekmesindeki **Tercih edilen teknisyen** listesini kullanın.
 

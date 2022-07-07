@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7a1075fa214f7c902964162da2c05ef55953039
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d617637f56e23440f6d8da313788a7866cad244e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671578"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015710"
 ---
-# <a name="update-and-index-subscription-sales-prices"></a>Abonelik satış fiyatlarını güncelleştirme ve dizine alma 
+# <a name="update-and-index-subscription-sales-prices"></a>Abonelik satış fiyatlarını güncelleme ve endeksleme 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis abonelikleri** \> **Tüm servis abonelikleri**'ne tıklayın.
+1.  **Servis yönetimi** \> **Servis abonelikleri** \> **Tüm servis abonelikleri**'ne tıklayın.
 
 2.  Endeksi veya taban fiyatını güncelleştirmek istediğiniz aboneliği seçin.
 

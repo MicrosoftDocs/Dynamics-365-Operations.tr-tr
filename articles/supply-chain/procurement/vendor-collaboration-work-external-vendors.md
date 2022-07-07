@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25561802996514f6f60fc9400c22dc61a30ef1c8
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907304"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023802"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Harici satıcılarla satıcı iş birliği
 
@@ -29,9 +29,6 @@ ms.locfileid: "8907304"
 **Satıcı iş birliği** modülü Microsoft Dynamics 365 Supply Chain Management ile elektronik veri alışverişi (EDI) tümleştirmesi olmayan satıcılar için tasarlanmıştır. Satıcıların satınalma siparişleri (PO'lar), faturalar, konsinye stok bilgileri ve teklif talepleri (RFQ'lar) ile çalışmasına ve satıcı ana verilerinin bir bölümüne erişebilmelerine olanak tanır. Bu makalede PO'lar, RFQ'lar ve konsinye stokla çalışmak için satıcı iş birliği arabirimini kullanan harici satıcılarla nasıl iş birliği yapabileceğiniz açıklanmaktadır. Ayrıca belirli bir satıcının satıcı iş birliğini kullanmak üzere nasıl etkinleştirileceği ve tüm satıcıların bir PO'ya yanıt verdiklerinde görecekleri bilgilerin nasıl tanımlanacağı da açıklanır.
 
 Satıcıların harici satıcı iş birliği arabiriminde yapabilecekleri hakkında daha fazla bilgi için bkz. [Müşterilerle satıcı iş birliği](vendor-collaboration-work-customers-dynamics-365-operations.md).
-
-> [!NOTE]
-> Bu makaledeki satıcı iş birliğiyle ilgili bilgiler, yalnızca Supply Chain Management'ın geçerli sürümü için geçerlidir. Microsoft Dynamics AX 7.0 (Şubat 2016) ve Microsoft Dynamics AX uygulaması 7.0.1 (Mayıs 2016) sürümünde, **Satıcı portalı** modülünü kullanarak satıcılarla iş birliği yapabilirsiniz. **Satıcı portalı** modülü hakkında bilgi için bkz. [Satıcılarla Satıcı portalını kullanarak iş birliği yapma](collaborate-vendors-vendor-portal.md).
 
 Satıcıların faturalama işlemlerinde satıcı iş birliğini nasıl kullanacakları hakkında daha fazla bilgi için bkz. [Satıcı iş birliği faturalama çalışma alanı](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Yeni satıcı iş birliği kullanıcılarını hazırlama hakkında daha fazla bilgi için bkz. [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md).
 
@@ -57,8 +54,25 @@ Bir yönetici Supply Chain Management'ta satıcı iş birliği için, iş birli�
 
 Harici bir satıcı için kullanıcı hesaplarının oluşturulabilmesi amacıyla, satıcı hesabını bu satıcının satıcı iş birliğini kullanmasına izin verecek şekilde yapılandırmanız gerekir. **Satıcılar** sayfasındaki **Genel** sekmesinde **İş birliğini etkinleştirme** alanını seçin. Aşağıdaki seçenekler kullanılabilir durumdadır:
 
-- **Etkin (PO otomatik olarak onaylanır)** - PO'lar satıcılar değişiklik olmadan kabul ettiğinde otomatik olarak onaylanır.
+- **Etkin (PO otomatik olarak onaylanır)** - PO'lar satıcılar değişiklik olmadan kabul ettiğinde otomatik olarak onaylanır. Bu seçeneği kullanırsanız, teyitlerin işlenmesinden sorumlu olan *Satıcı işbirliğinde kabul edilen satınalma siparişlerini onayla* toplu işini planladığınızdan emin olun. Yönergeler için sonraki bölüme bakın.
 - **Etkin (PO otomatik olarak onaylanmaz)**- PO'ların satıcı kabul ettikten sonra kuruluşunuz tarafından el ile onaylanması gerekir.
+
+### <a name="scheduling-the-auto-confirmation-batch-job"></a>Otomatik onaylama toplu işini planlama
+
+Satıcılardan biri veya birkaçı için **Etkin (PO otomatik olarak onaylanır)** seçeneğini kullanırsanız (önceki bölümde açıklandığı gibi), POS'u işlemekten ve onaylamaktan sorumlu olan *Satıcı işbirliğinde kabul edilen satınalma siparişlerini onayla* toplu işini zamanlamanız gerekir. Aksi takdirde, otomatik onaylar hiçbir zaman gerçekleşmez. Bu işi zamanlamak için aşağıdaki yordamı kullanın.
+
+1. **Tedarik ve kaynak atama \> Satınalma siparişleri \> Satınalma siparişi onayı \> Satıcı işbirliğinde kabul edilen satınalma siparişlerini onayla**'ya gidin.
+1. **Satıcı işbirliğinden kabul edilen satınalma siparişlerini onayla** iletişim kutusunda, **Arka plan çalıştır** hızlı sekmesinde **Yineleme**'yi seçin.
+1. **Yinelemeyi tanımla** iletişim kutusunda, işin çalıştırılacağı zamanlamayı tanımlayın. Zamanlamanızı seçerken aşağıdaki konuları dikkate alın:
+
+    - Sisteminiz büyük miktarda veri işlerse ve birçok toplu işi çalıştırırsa, performans sorunu yaşanabilir. Bu durumda bu işi 10 dakikadan daha yüksek bir sıklıkta çalıştırmamalısınız (diğer gereksinimlerinize bağlı olarak). Performans sorunu sizin için önemli değilse, gerekirse 1 ile 2 dakika arasındaki sıklıkta da çalıştırabilirsiniz.
+    - Satıcılarınız malları genellikle hızlı bir şekilde teslim ediyorsa (kararlaştırdıkları gün içinde), yinelenme yüksek sıklıkta (her 10-30 dakika civarında) olmalıdır. Bu şekilde ambar çalışanları, onaylama sonrasında malları teyit edilen PO'ya göre alabilecektir.
+    - Satıcılarınız uzun teslim süresi (24 saatten fazla) sunuyorsa bu görevi yalnızca günde bir kez çalışacak şekilde ayarlayabilirsiniz.
+
+1. Zamanlamanızı uygulamak ve **Satıcı işbirliğinde kabul edilen satınalma siparişlerini onayla** iletişim kutusuna geri dönmek için **Tamam**'ı seçin.
+1. Gerekirse ek arka plan seçeneklerini ayarlayın. İletişim kutusu, Supply Chain Management'ta toplu işlerin ayarlanmasına yönelik her zamanki seçenekleri sağlar.
+
+Toplu işler hakkında daha fazla bilgi için bkz. [Toplu işlemeye genel bakış](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
 
 ### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Satıcının fiyat bilgilerini görmesine gerek olup olmadığını belirtme
 

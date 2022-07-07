@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edb31515f890a08b6cabae42820e5cdcbe1eaeae
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 94bcbdb0ea136bae2bcb8fa8ef0bd9304e772b49
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677324"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014894"
 ---
 # <a name="change-the-service-order-stage"></a>Servis siparişi aşamasını değiştirme 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8677324"
 
 Servis siparişini servis iş akışında bir sonraki aşamaya taşımak ya da bir önceki aşamaya geri döndürmek için şu adımları izleyin.
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın.
+1.  **Servis yönetimi** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın.
 
 2.  Servis siparişini seçin ve ardından **Gönder** sekmesine tıklayın.
 

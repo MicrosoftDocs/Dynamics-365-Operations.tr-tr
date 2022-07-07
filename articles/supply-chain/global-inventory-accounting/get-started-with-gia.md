@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
+ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891103"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013569"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Global Stok Muhasebesi kullanmaya başlama
 
@@ -69,37 +69,6 @@ Eklenti işlevselliğini etkinleştirebilmek için, aşağıdaki adımları izle
 
 Daha fazla bilgi için bkz. [Ortam dağıtımından sonra etkinleştirme](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-### <a name="set-up-dataverse"></a>Dataverse matrisini ayarla
-
-Dataverse kurulumundan önce, aşağıdaki adımları izleyerek Global Stok Muhasebesi ilkelerini kiracınıza ekleyin.
-
-1. Wşndowa PowerShell v2 için Azure AD Modülünü [Graph için Azure Active Directory PowerShell'i Yükleme](/powershell/azure/active-directory/install-adv2) bölümünde açıklandığı gibi yükleyin.
-1. Aşağıdaki PowerShell komutunu çalıştırın.
-
-    ```powershell
-    Connect-AzureAD # (open a sign in window and sign in as a tenant user)
-
-    New-AzureADServicePrincipal -AppId "7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9" -DisplayName "d365-scm-costaccountingservice"
-
-    New-AzureADServicePrincipal -AppId "5f58fc56-0202-49a8-ac9e-0946b049718b" -DisplayName "d365-scm-operationdataservice"
-    ```
-
-Sonra, aşağıdaki adımları izleyerek, Dataverse'de Global Stok Muhasebesi için uygulama kullanıcıları oluşturun.
-
-1. Dataverse ortamınızın URL'sini açın.
-1. **Gelişmiş Ayar \> Sistem \> Güvenlik \> Kullanıcılar**'a gidin ve bir uygulama kullanıcısı oluşturun. Sayfa görünümünü **Uygulama Kullanıcıları** olarak değiştirmek için *Görünüm* alanını kullanın.
-1. **Yeni**'yi seçin.
-1. **Uygulama Kimliği** alanını *7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9* olarak ayarlayın.
-1. **Rol Ata**'yı ve sonra *Sistem Yöneticisi*'ni seçin. *Common Data Service Kullanıcısı* adlı bir rol varsa onu da seçin.
-1. Önceki adımları yineleyin, ancak **Uygulama kodu** alanını *5f58fc56-0202-49a8-ac9e-0946b049718b* olarak ayarlayın.
-
-Daha fazla bilgi için bkz. [Uygulama kullanıcısı oluşturma](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
-
-Dataverse yüklemenizin varsayılan dili İngilizcedeğilse, aşağıdaki adımları izleyin.
-
-1. **Gelişmiş Ayar \> Yönetim \>Diller**'e gidin.
-1. *İngilizce* (*LanguageCode=1033*) dilini ve **Uygula**'yı seçin.
-
 ## <a name="install-the-add-in"></a><a name="install"></a>Eklentiyi yükleme
 
 Global Stok Muhasebesi kullanabilmeniz için eklentiyi yüklemek üzere bu adımları izleyin.
@@ -109,11 +78,21 @@ Global Stok Muhasebesi kullanabilmeniz için eklentiyi yüklemek üzere bu adım
 1. **Tüm ayrıntılar**'a gidin.
 1. **Power Platform Tümleştirmesi**'ne gidin **Kurulum**'u seçin.
 1. **Power Platform ortam kurulumu** iletişim kutusunda, onay kutusunu seçin ve sonra **Kurulum**'u seçin. Kurulum genellikle 60 ila 90 dakika arasında sürer.
-1. Microsoft Power Platform ortamı kurulumu tamamlandıktan sonra, **Ortam eklentileri** hızlı sekmesinde, **Yeni eklenti yükle**'yi seçin.
+1. Microsoft Power Platform ortam kurulumu tamamlandıktan sonra, [Power Platform yönetim merkezinde](https://admin.powerplatform.microsoft.com) oturum açın ve aşağıdaki adımları gerçekleştirerek Genel Stok Muhasebesi eklentisini yükleyin:
+   1. Eklentiyi yüklemek istediğiniz ortamı seçin.
+   1. **Dynamics 365 uygulamaları**'nı seçin.
+   1. **Uygulamayı Yükle**'yi seçin.
+   1. **Dynamics 365 Genel Stok Muhasebesi**'ni seçin.
+   1. Yüklemek için **İleri**'yi seçin.
+1. LCS ortamına geri dönün. **Ortam eklentileri** hızlı sekmesinde, **Yeni eklenti yükle**'yi seçin.
 1. **Global stok muhasebesi**'ni seçin.
 1. Yükleme kılavuzunu izleyin ve hüküm ve koşulları kabul edin.
 1. **Yükle**'yi seçin.
 1. **Ortam eklentileri** hızlı sekmesinde, Global Stok Muhasebesi'nin yüklenmekte olduğunu görmelisiniz. Birkaç dakika sonra, durum *Yükleniyor* yerine *Yüklü* olarak değişmelidir. (Bu değişikliği görmek için sayfayı yenilemeniz gerekebilir.) Bu noktada, Global Stok Muhasebesi kullanıma hazırdır.
+
+Dataverse yüklemenizin varsayılan dili İngilizce değilse, aşağıdaki adımları izleyin:
+1. **Gelişmiş Ayar \> Yönetim \>Diller**'e gidin.
+1. *İngilizce* (*LanguageCode=1033*) dilini ve **Uygula**'yı seçin.
 
 ## <a name="set-up-the-integration"></a>Tümleştirmeyi ayarlama
 

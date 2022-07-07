@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c2c90ff76121b436d0fec532268cd3383de0eab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f21cda0abb334432d22cc7e0ccfdab724253d91e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888426"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016963"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>Servis siparişleri için madde gereksinimleri oluşturma
 
@@ -34,14 +34,14 @@ Servis siparişleri için madde gereksinimleri bir proje aracılığıyla işlen
 
 ## <a name="create-an-item-requirement-for-a-service-order"></a>Servis siparişi için madde gereksinimi oluşturma
 
-1. **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne gidin.
+1. **Servis yönetimi** \> **Servis siparişleri** \> **Servis siparişleri**'ne gidin.
 1. Madde gereksinimi oluşturmak istediğiniz servis siparişini seçin.
 1. **Eylem Bölmesi**'nde, **Gönder** sekmesinde **Madde gereksinimi**'ni seçin.
 1. **Madde gereksinimleri** formunda, gereken madde için bilgileri girin. Belirli alanlar hakkında daha fazla bilgi için bkz. [Madde gereksinimleri (form)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>Servis sözleşmesi için madde gereksinimi oluşturma
 
-1. **Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne gidin.
+1. **Servis yönetimi** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne gidin.
 1. Madde gereksinimi oluşturmak istediğiniz servis sözleşmesini açın.
 1. **Satırlar** hızlı sekmesinde yeni bir satır oluşturmak için **Ekle**'yi seçin.
 1. **Hareket türü** alanında **Madde**'yi seçin.

@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b189835528e2e1b6d746c767fb53f365fa194b46
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 18e2323f0346e522e04a3d1e36d98846a66bea1e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865048"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015702"
 ---
 # <a name="delete-a-service-bom"></a>Servis ürün reçetesini silme
 
 [!include [banner](../includes/banner.md)]
 
-1. **Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne gidin. Servis ürün reçetesini silmek istediğiniz servis sözleşmesini seçin.
+1. **Servis yönetimi** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne gidin. Servis ürün reçetesini silmek istediğiniz servis sözleşmesini seçin.
 1. **Eylem Bölmesinde** **Servis nesneleri**'ni seçin.
 1. **Servis nesneleri** formunda servis ürün reçetesini silmek istediğiniz servis nesnesini seçin. **İşlevler**'i seçin ve ardından **Servis ürün reçetesini sil**'i seçin.
 1. **Evet**'i seçin.

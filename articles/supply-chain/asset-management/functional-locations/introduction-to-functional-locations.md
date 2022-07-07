@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a1c8c4db9aee68584ab35949745132091a34a58
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a94b366dc725db3af01c156ae517a241213f7d52
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882851"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016057"
 ---
 # <a name="introduction-to-functional-locations"></a>İşlem yapılacak yerleşimlere giriş
 
@@ -59,7 +59,7 @@ Her işlem yapılacak yerleşim, Varlık Yönetiminde bağımsız olarak yöneti
 
 ## <a name="all-functional-locations"></a>Tüm işlem yapılacak yerleşimler
 
-**Varlık yönetimi** \> **Genel** \> **İşlem yapılacak yerleşimler** \> **Tüm işlem yapılacak yerleşimler**'i seçip **Tüm işlem yapılacak yerleşimler** liste sayfasını açın. Bu sayfa tüm işlem yapılacak yerleşimleri ve her biriyle ilgili bazı bilgileri gösterir. Yalnızca etkin işlem yapılacak yerleşimleri görüntülemek için **Etkin işlem yapılacak yerleşimler**'i seçin. Yalnızca çalışan olarak ilgili olduğunuz işlem yapılacak yerleşimleri görüntülemek için **Etkin işlem yapılacak yerleşimlerim**'i seçin. (Bu ilişki **Çalışanlar** sayfasında ayarlanır. Daha fazla bilgi için [Bakım görevlileri ve çalışan grupları](../setup-for-objects/workers-and-worker-groups.md) bölümüne bakın.)
+**Varlık yönetimi** \> **İşlem yapılacak yerleşimler** \> **Tüm işlem yapılacak yerleşimler**'i seçip **Tüm işlem yapılacak yerleşimler** liste sayfasını açın. Bu sayfa tüm işlem yapılacak yerleşimleri ve her biriyle ilgili bazı bilgileri gösterir. Yalnızca etkin işlem yapılacak yerleşimleri görüntülemek için **Etkin işlem yapılacak yerleşimler**'i seçin. Yalnızca çalışan olarak ilgili olduğunuz işlem yapılacak yerleşimleri görüntülemek için **Etkin işlem yapılacak yerleşimlerim**'i seçin. (Bu ilişki **Çalışanlar** sayfasında ayarlanır. Daha fazla bilgi için [Bakım görevlileri ve çalışan grupları](../setup-for-objects/workers-and-worker-groups.md) bölümüne bakın.)
 
 **Tüm işlem yapılacak yerleşimler** liste sayfasında, seçili kaydın ayrıntılarını görüntülemek için **İşlem yapılacak yerleşim** sütunundan bir bağlantı seçin. İşlem yapılacak yerleşimi düzenlemek için **Düzenle** düğmesini seçin. Ayrıntılar görünümü yerleşimle ilgili ayrıntılı bilgileri gösterir. Ayrıca sağda bulunan bir **İlgili bilgi** bölmesi içerir. Bu bölme, işlem yapılacak yerleşim hiyerarşisini gösterir. **İlgili bilgi** bölmesini genişletebilir ve daraltabilirsiniz.
 

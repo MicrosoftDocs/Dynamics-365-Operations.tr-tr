@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ced5ec174fe1885273241be5f9fd48b7947129af
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f70b29ef69b80160f108e6f53edda12b86c2c9db
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846285"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015768"
 ---
 # <a name="asset-loans"></a>Ödünç varlıklar
 
@@ -32,7 +32,7 @@ ms.locfileid: "8846285"
 
 ## <a name="register-asset-loans-on-a-maintenance-request"></a>Bir bakım talebine ödünç varlık kaydetme
 
-1. **Varlık yönetimi** \> **Ortak** \> **Bakım talepleri** \> **Tüm bakım talepleri** ya da **Etkin bakım talepleri**'ni seçin.
+1. **Varlık yönetimi** \> **Bakım talepleri** \> **Tüm bakım talepleri** ya da **Etkin bakım talepleri**'ni seçin.
 2. Bir ödünç varlığa kaydedilecek bakım talebini seçin ve ardından **Düzenle**'yi seçin.
 3. **İstek** sayfasında **Ödünç varlığı gönder**'i seçin.
 4. Varlığı seçin ve beklenen dönüş tarihini girin.
@@ -42,7 +42,7 @@ ms.locfileid: "8846285"
 > - Bir ödünç varlığı yalnızca aynı varlık türünün bir varlığı kullanılabilir olduğunda gönderebilirsiniz.
 > - Ödünç verilen varlığın **Depoda** gibi bir ödünç varlık olarak kullanılmasını sağlayan bir varlığın yaşam döngüsü durumuna sahip olması gerekir. Ödünç varlık kaydedildiğinde, varlığın varlık yaşam döngüsü durumu otomatik olarak, örneğin **Ödünç Verildi** olarak güncelleştirilir.
 
-Diğer yerlere veya müşterilere ödünç vermiş olduğunuz tüm varlıkların listesini görüntülemek için **Varlık yönetimi** \> **Ortak** \> **Ödünç varlık** \> **Tüm ödünç varlıklar**'ı seçin. Bir varlık için **Sona erdi** kutusu seçiliyse varlık şirketiniz için iade edilmiş olarak kalır.
+Diğer konumlara veya müşterilere ödünç vermiş olduğunuz tüm varlıkların listesini görüntülemek için **Varlık yönetimi** \> **Ödünç varlık** \> **Tüm ödünç varlıklar**'ı seçin. Bir varlık için **Sona erdi** kutusu seçiliyse varlık şirketiniz için iade edilmiş olarak kalır.
 
 ![Bakım Taleplerini Yönetme.](media/06-manage-maintenance-requests.png)
 
@@ -50,7 +50,7 @@ Diğer yerlere veya müşterilere ödünç vermiş olduğunuz tüm varlıkların
 
 ## <a name="register-loan-assets-as-returned"></a>İade edilen ödünç varlıkları kaydedin
 
-1. **Varlık yönetimi** \> **Ortak** \> **Ödünç varlık** \> **Etkin ödünç varlıklar**'ı seçin.
+1. **Varlık yönetimi** \> **Ödünç varlık** \> **Etkin ödünç varlıklar**'ı seçin.
 2. İade edilen olarak kaydetmek için ödünç varlık'ı seçin ve sonra **Ödünç varlığı iade edin**'i seçin..
 3. **İade edildi** alanında tarihi ve saati girin.
 4. **Tamam**'ı seçin.

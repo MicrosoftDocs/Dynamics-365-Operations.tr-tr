@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d8498d6099112cea2c57a6387e7596adb5bcd84e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874202"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016028"
 ---
 # <a name="introduction-to-assets"></a>Kıymetler tanıtımı
 
@@ -36,7 +36,7 @@ Kıymet ilgili bilgilerle otomatik olarak güncelleştirilir. Örneğin bu ilgil
 
 ## <a name="all-assets"></a>Tüm kıymetler
 
-**Kıymet yönetimi** \> **Ortak** \> **Kıymetler** \> **Tüm kıymetler** öğesini seçin. **Tüm kıymetler** listesi sayfası tüm kıymetleri ve bunlarla ilgili bazı bilgileri gösterir. Yalnızca etkin kıymetleri görüntülemek için **Etkin kıymetler**'i seçin. Yalnızca bakım görevlisi olarak ilgili olduğunuz işlem yapılacak yerleşimde kurulu kıymetleri görüntülemek için **Etkin kıymetlerim**'i seçin. (Bu ilişki **Çalışanlar** sayfasında ayarlanır. Daha fazla bilgi için [Bakım görevlileri ve çalışan grupları](../setup-for-objects/workers-and-worker-groups.md) bölümüne bakın.)
+**Kıymet yönetimi** \> **Kıymetler** \> **Tüm kıymetler** öğesini seçin. **Tüm kıymetler** listesi sayfası tüm kıymetleri ve bunlarla ilgili bazı bilgileri gösterir. Yalnızca etkin kıymetleri görüntülemek için **Etkin kıymetler**'i seçin. Yalnızca bakım görevlisi olarak ilgili olduğunuz işlem yapılacak yerleşimde kurulu kıymetleri görüntülemek için **Etkin kıymetlerim**'i seçin. (Bu ilişki **Çalışanlar** sayfasında ayarlanır. Daha fazla bilgi için [Bakım görevlileri ve çalışan grupları](../setup-for-objects/workers-and-worker-groups.md) bölümüne bakın.)
 
 **Tüm kıymetler** ızgara görünümünde seçili kaydın ayrıntılarını görüntülemek için **Kıymet** sütunundan bir bağlantı seçin. Kaydı düzenlemek için **Düzenle** düğmesini seçin. Ayrıntılar görünümü kıymetle ilgili ayrıntılı bilgileri gösterir. Sağdaki bir **İlgili bilgiler** bölmesi kıymetle ilgili ek bilgileri içerir. Seçili kıymet için ilgili bilgileri göstermek için bölmeyi genişletin.
 

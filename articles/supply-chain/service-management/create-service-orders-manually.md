@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f969e3de9586c0c47214201b34a16f8afad5ca90
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1764d97d4492e7b982a5d2c9f7e7f1c15380be1d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678276"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014865"
 ---
 # <a name="create-service-orders-manually"></a>Servis siparişlerini el ile oluşturma    
 
@@ -34,7 +34,7 @@ Servis siparişlerini, bir servis sözleşmesi kullanarak veya **Servis sipariş
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>Servis sözleşmesinden el ile servis siparişi oluşturma
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ni seçin.
+1.  **Servis yönetimi** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ni seçin.
 
 2.  Bir servis anlaşması seçin veya yeni bir servis anlaşması oluşturun.
 
@@ -42,7 +42,7 @@ Servis siparişlerini, bir servis sözleşmesi kullanarak veya **Servis sipariş
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>Servis siparişleri formunda el ile servis siparişi oluşturma
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ni seçin.
+1.  **Servis yönetimi** \> **Servis siparişleri** \> **Servis siparişleri**'ni seçin.
 
 2.  Yeni servis siparişi oluşturmak için **Yeni**'yi seçin.
 
@@ -53,7 +53,7 @@ Servis siparişlerini, bir servis sözleşmesi kullanarak veya **Servis sipariş
 
 ## <a name="create-a-service-order-from-a-project"></a>Projeden bir servis siparişi oluşturma
 
-1.  **Proje yönetimi ve muhasebe** \> **Genel** \> **Projeler** \> **Tüm projeler**'e gidin.
+1.  **Proje yönetimi ve muhasebe** \> **Projeler** \> **Tüm projeler**'e gidin.
 
 2.  **Projeler** formunda, **Eylem Bölmesi**'nde **Yönet** sekmesini ve \> **Servis** \> **Servis siparişleri**'ni seçin.
 
@@ -66,7 +66,7 @@ Servis siparişlerini, bir servis sözleşmesi kullanarak veya **Servis sipariş
 
 **Satış siparişine dayalı yeni bir servis siparişi oluştur** sihirbazını kullanarak **satış siparişleri** formundan bir servis siparişi oluşturabilirsiniz.
 
-1.  **Satış ve pazarlama** \> **Yaygın** \> **Satış siparişleri** \> **Tüm satış siparişleri**'ne gidin.
+1.  **Satış ve pazarlama** \> **Satış siparişleri** \> **Tüm satış siparişleri**'ne gidin.
 
 2.  İlgili satış siparişini açın.
 

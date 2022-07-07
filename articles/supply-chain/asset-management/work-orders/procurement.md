@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 015499463f1eab4aaa3f3658b3204229382e73cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6e41a28ec922924b0ef86858a881280fd44bfe63
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893656"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014966"
 ---
 # <a name="procurement"></a>Tedarik
 
@@ -28,7 +28,7 @@ ms.locfileid: "8893656"
 
 Varlık Yönetiminde, iş emirleriyle ilgili satınalma taleplerinin ve satınalma siparişlerinin genel görünümünü alabilirsiniz. Bir iş emrinden bir satınalma siparişi veya satınalma talebi de oluşturabilirsiniz.
 
-**İş emri satınalma talebi** liste sayfası (**Varlık yönetimi** > **Ortak** > **Tedarik** > **İş emri satınalma talebi**), iş emirleriyle ilgili satınalma taleplerinin listesini görüntüler. Bu sayfada bir iş emri işi seçtiğinizde, çeşitli eylemleri gerçekleştirmek için **İş emri satınalma talebi** Eylem bölmesi sekmesindeki **Göster** grubunda bulunan düğmeleri kullanabilirsiniz:
+**İş emri satınalma talebi** liste sayfası (**Varlık yönetimi** > **Tedarik** > **İş emri satınalma talebi**), iş emirleriyle ilgili satınalma taleplerinin listesini görüntüler. Bu sayfada bir iş emri işi seçtiğinizde, çeşitli eylemleri gerçekleştirmek için **İş emri satınalma talebi** Eylem bölmesi sekmesindeki **Göster** grubunda bulunan düğmeleri kullanabilirsiniz:
 
 - İlgili satınalma talebini açmak için **Satınalma talebi** seçeneğini belirleyin. 
 - İlgili iş emrini açmak için **İş emri**'ni seçin.
@@ -39,7 +39,7 @@ Aşağıdaki şekilde **İş emri satınalma talebi** liste sayfası örneği g�
 ![Şekil 1.](media/08-work-orders.png)
 
 
-**İş emri satınalma** liste sayfası (**Varlık yönetimi** > **Ortak** > **Tedarik** > **İş emri satınalma talebi**), iş emirleriyle ilgili satınalma siparişlerinin listesini görüntüler. Bu sayfada bir iş emri işi seçtiğinizde, çeşitli eylemleri gerçekleştirmek için Eylem bölmesindeki **İş emri satınalma** sekmesinde bulunan **Göster** grubunda bulunan düğmeleri kullanabilirsiniz:
+**İş emri satınalma** liste sayfası (**Varlık yönetimi** > **Tedarik** > **İş emri satınalma talebi**), iş emirleriyle ilgili satınalma siparişlerinin listesini görüntüler. Bu sayfada bir iş emri işi seçtiğinizde, çeşitli eylemleri gerçekleştirmek için Eylem bölmesindeki **İş emri satınalma** sekmesinde bulunan **Göster** grubunda bulunan düğmeleri kullanabilirsiniz:
 
 - İlgili satınalma sipairşini açmak için **Satınalma siparişi**'ni seçin. 
 - İlgili iş emrini açmak için **İş emri**'ni seçin.
@@ -69,7 +69,7 @@ Bir satınalma talebi için, **Satınalma talepleri** sayfasının **Satınalma 
 
 **Tüm iş emirleri** liste sayfasında, bir iş emri işi seçip ilgili satınalma siparişi veya satınalma talebini oluşturabilirsiniz. Bu şekilde, satınalma siparişi veya satınalma talebi ile iş emri arasında proje ilişkileri olmasını sağlamaya yardımcı olursunuz.
 
-1. **Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ni seçin.
+1. **Varlık yönetimi** > **İş emirleri** > **Tüm iş emirleri** veya **Etkin iş emirleri**'ni seçin.
 
 2. Satınalma siparişi oluşturmak için iş emrini seçin ve sonra **Düzenle**'yi seçin.
 

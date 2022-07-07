@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a3fc3e6ef2332a883ef4a612a669142da1794454
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6592b94105777525c777950132d5099d1e8abb0e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845068"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016753"
 ---
 # <a name="schedule-work-orders"></a>İş emirlerini planla
 
@@ -30,11 +30,11 @@ ms.locfileid: "8845068"
 
 Bu makalede Varlık Yönetimi'nde iş emirleri planlama işlemi açıklanmaktadır. 
 
-Bir iş emri için gereken saat sayısı, toplam tahmin saat eksi deftere nakledilen saate göre tanımlanır. Daha fazla zaman gerekiyorsa, tahmin uygun şekilde ayarlanmalıdır. **Varlık yönetimi** > **Ortak** > **İş emirleri** > **Tüm iş emirleri** veya **Etkin iş emirleri**'nde, iş emrini seçip **İş emri** sekmesinde **Tahmin**'e tıklayarak iş emrindeki tahminleri görüntüleyebilir veya düzenleyebilirsiniz. İş emirleri oluşturulduğunda ve tahmin edildiğinde, sonraki adım iş emirlerini tamamlamak için gerekli bakım çalışanlarını ve araçları tahsis etmektir.
+Bir iş emri için gereken saat sayısı, toplam tahmin saat eksi deftere nakledilen saate göre tanımlanır. Daha fazla zaman gerekiyorsa, tahmin uygun şekilde ayarlanmalıdır. **Varlık yönetimi** > **İş emirleri** > **Tüm iş emirleri** veya **Etkin iş emirleri**'nde, iş emrini seçip **İş emri** sekmesinde **Tahmin**'e tıklayarak iş emrindeki tahminleri görüntüleyebilir veya düzenleyebilirsiniz. İş emirleri oluşturulduğunda ve tahmin edildiğinde, sonraki adım iş emirlerini tamamlamak için gerekli bakım çalışanlarını ve araçları tahsis etmektir.
 
 Yalnızca planlamaya izin veren iş emri yaşam döngüsü durumuna sahip iş emirleri planlanabilir. Planlamaya izin ver ayarı **Varlık yönetimi** > **Kurulum** > **İş emirleri** > **Yaşam döngüsü durumları** > **Genel** Hızlı Sekmesi > **Planlamaya izin ver** düğmesinde ayarlanır.
 
-1. **Varlık yönetimi** > **Ortak** > **İş emirleri** > **Tüm iş emirleri**'ne tıklayın.
+1. **Varlık yönetimi** > **İş emirleri** > **Tüm iş emirleri**'ne tıklayın.
 
 2. Listede planlamak istediğiniz iş emirlerini seçin. Örneğin, listeyi **Geçerli yaşam döngüsü durumuna** göre sıralayabilirsiniz.
 

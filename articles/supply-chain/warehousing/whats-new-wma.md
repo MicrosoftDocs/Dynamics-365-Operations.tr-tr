@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
-ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
+ms.openlocfilehash: ac750ede78bb4547f90b57426cc9cb10d2a282b3
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "8945737"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954677"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasındaki yenilikler veya değişiklikler
 
 [!include [banner](../includes/banner.md)]
 
 Bu makale, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni özellikleri, iyileştirmeleri ve bilinen sorunları listeler.
+
+## <a name="version-20250"></a>Sürüm 2.0.25.0
+
+Bu sürüm aşağıdaki yeni özellikleri, düzeltmeleri ve iyileştirmeleri içerir.
+
+- Performans artırıldı.
+- Kararlılık iyileştirildi.
+- Alt başlıklarda daha uzun metinleri desteklemek üzere **Sorgulama** sayfası iyileştirildi.
+- Bir akışı tek bir dokunuşla veya tıklamayla hemen iptal etme yeteneği (**Diğer eylemler** altında kullanılabilen tek eylem **İptal** olduğunda ) kullanıma sunuldu.
+- Odağın **Bağlantıyı düzenle** sayfası ve özel sayfalardaki giriş denetimleri arasında zaman zaman kaybolabilmesi sorunu düzeltildi.
+- Düğmelerin bazen yanıt vermemesine ve kaydırma görünümüne dahil edildiğinde seçili olarak gösterilmeye devam etmesine neden olabilecek bir sorun düzeltildi.
+- Ana sayfada bazen yanlış düzenin kullanılabilmesi sorunu düzeltildi.
 
 ## <a name="version-20240"></a>Sürüm 2.0.24.0
 

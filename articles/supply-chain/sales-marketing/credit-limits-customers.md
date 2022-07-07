@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7f15c0f15302c271fac7199b21b7bcd3dcfe88a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4a98b90491093f55ce6974b9b11ff326c0c2f5c
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903883"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015335"
 ---
 # <a name="credit-limits-for-customers"></a>Müşteriler için kredi limitleri
 
@@ -117,7 +117,7 @@ Bu formda değişiklikler yapmak için Sistem yöneticisi (-SYSADMIN-) güvenlik
 
 **Müşteriler** formunu, belirli bir müşteri için kredi limiti tutarını belirtmek için kullanın. Bu formda değişiklik yapmak için Müşteri ana bakım görevine atanmış (CustCustomersMaintain) olan bir güvenlik rolünün bir üyesi olmalısınız
 
-1.  **Alacak hesapları** \> **Yaygın** \> **Müşteriler** \> **Tüm müşteriler**'i tıklatın. Müşteri hesabına çift tıklayın.
+1.  **Alacak hesapları** \> **Müşteriler** \> **Tüm müşteriler**'e tıklayın. Müşteri hesabına çift tıklayın.
 
 2.  **Müşteriler** formunda, Eylem Panosunda **Düzenle**'yi tıklatın.
 
@@ -132,7 +132,7 @@ Bu formda değişiklikler yapmak için Sistem yöneticisi (-SYSADMIN-) güvenlik
 
 Bazen bir müşterinin kredi limitini el ile kontrol etmeniz gerekebilir. Örneğin, bir satış siparişi girmeye başlamadan önce bir müşterinin kredi limiti el ile denetleyebilirsiniz. Kredi limitlerini el ile denetlemek için **Satış siparişleri** formunu kullanabilirsiniz. Bu formda değişiklik yapmak için Satış siparişi bakım görevine atanmış (SalesOrderMaintain) olan bir güvenlik rolünün bir üyesi olmalısınız
 
-1.  **Satış ve pazarlama** \> **Yaygın** \> **Satış siparişleri** \> **Tüm satış siparişleri**'ne tıklayın. Bir satış siparişine çift tıklayın.
+1.  **Satış ve pazarlama** \> **Satış siparişleri** \> **Tüm satış siparişleri**'ne tıklayın. Bir satış siparişine çift tıklayın.
 
 2.  **Satış siparişi** formunda, Eylem Panosunda, **Yönet** sekmesinde, **Kredi limitini denetle**'ye tıklayın.
 

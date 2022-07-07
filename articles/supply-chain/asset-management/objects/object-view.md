@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a416dbea0bab8f6a506ae5cfbfc4feeae8edfe29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 495f3dbf9bab9d550ebdbb7dda52aca80d5ea635
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882735"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017130"
 ---
 # <a name="asset-view"></a>Kıymet görünümü
 
@@ -30,7 +30,7 @@ ms.locfileid: "8882735"
 
 Bu makalede Kıymet Yönetimi'ndeki kıymet görünümü açıklanmaktadır. **Kıymet görünümü** sayfası etkin kıymetleri ve işlem yapılacak yerleşimleri ağaç görünümünde gösterir. Bu nedenle kıymetin işlem yapılacak yerleşimlerle ilişkisine genel bakışı kolayca alabilirsiniz. Ayrıca işlem yapılacak yerleşimler, kıymetler ve ilgili ürün reçeteleri (BOM) hakkında ayrıntılı bilgileri de görüntüleyebilirsiniz. Ayrıca kıymetle ilgili etkin bakım talepleri ve iş emirlerine hızlı bir genel bakış da alabilirsiniz.
 
-1. **Kıymet yönetimi** \> **Ortak** \> **Kıymetler** \> **Kıymet görünümü** öğesini seçin.
+1. **Kıymet yönetimi** \> **Kıymetler** \> **Kıymet görünümü** öğesini seçin.
 2. Sayfada gösterilen görünümü değiştirmek için **Görünüm** alanından yeni bir değer seçin.
 
     > [!NOTE]

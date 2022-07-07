@@ -2,7 +2,7 @@
 title: Mali raporlamaya genel bakış
 description: Bu makalede, Microsoft Dynamics 365 Finance'te mali raporlara nereden erişileceği ve finansal raporlama özelliklerinin nasıl kullanılacağı açıklanmaktadır.
 author: aprilolson
-ms.date: 03/31/2022
+ms.date: 06/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b09adc738ac36625436e5cc3197e79603fff9b8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f2c31e8b8b8022e5dfdb1f8dc4836d3d95174078
+ms.sourcegitcommit: d9d111d7420ca8f1071689afe38a1ccf4b8051f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853423"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "9033674"
 ---
 # <a name="get-started-with-financial-reporting"></a>Mali raporlamayı kullanmaya başlama 
 
@@ -30,14 +30,17 @@ ms.locfileid: "8853423"
 
 Bu makalede, Mali raporlamalara nereden erişileceği ve mali raporlama özelliklerinin nasıl kullanılacağı açıklanmaktadır. Ayrıca, sağlanan varsayılan mali raporların bir açıklamasını da içerir.
 
-## <a name="accessing-financial-reporting"></a>Mali raporlamaya erişmek
+## <a name="enable-financial-reporting"></a>Mali raporlamayı etkinleştirme
+Kuruluşunuz için mali raporlama hizmetini kullanmak için, bu servisi bir Lifecycle Services (LCS) yöneticisinin, LCS portalında kuruluşunuza yönelik olarak etkinleştirmesi gerekir. Ortamınız için finansal raporlama sağlanmadıysa, hizmeti etkinleştirmesi için LCS yöneticinize başvurun. 
+
+## <a name="accessing-financial-reporting"></a>Mali raporlamaya erişme
 
 **Finansal raporlama** menüsünü aşağıdaki konumlarda bulabilirsiniz:
 
-- **Genel muhasebe** &gt; **Sorgulamalar ve raporlar**
-- **Bütçeleme** &gt; **Sorgular ve raporlar** &gt; **Temel bütçeleme**
-- **Bütçeleme** &gt; **Sorgular ve raporlar** &gt; **Bütçe planlama**
-- **Bütçeleme** &gt; **Sorgular ve raporlar** &gt; **Bütçe denetimi**
+- **Genel Muhasebe** > **Sorgulamalar ve raporlar**
+- **Bütçeleme** > **Sorgular ve raporlar** > **Temel bütçeleme**
+- **Bütçeleme** > **Sorgular ve raporlar** > **Bütçe planlama**
+- **Bütçeleme** > **Sorgular ve raporlar** > **Bütçe denetimi**
 - Konsolidasyonlar
 
 Bir tüzel kişilik için finansal raporlar oluşturmak ve üretmek için, bu tüzel kişilik için aşağıdaki bilgileri ayarlamanız gerekir:

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1e2c79a621cf4bd1212c006e1c8967d85bd716b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 750776412ce9d87389a635ef108a34cffe12b68b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870825"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015826"
 ---
 # <a name="asset-management-parameters"></a>Kıymet Yönetimi parametreleri
 
@@ -37,7 +37,7 @@ Kıymet Yönetimi'nde kıymetler, iş emirleri ve iş emri zamanlamasıyla ilgil
 
 - **Varsayılan işlem yapılacak yerleşim** yeni kıymetler oluşturduğunuzda kıymetlerde otomatik olarak seçilen standart işlem yapılacak yerleşimdir.  
 - **Standart takvim** alanında kıymet üzerinde hiçbir kaynak seçilmediyse kıymet KPI'larını hesaplamada kullanılacak takvimi seçin.  
-- **Görünüm** alanında **Kıymet görünümü** formunu açtığınızda gösterilen standart görünümü seçin (**Kıymet yönetimi** > **Ortak** > **Kıymetler** > **Kıymet görünümü**).
+- **Görünüm** alanında **Kıymet görünümü** formunu açtığınızda gösterilen standart görünümü seçin (**Kıymet yönetimi** > **Kıymetler** >  **Kıymet görünümü**).
 - **Varsayılan talep türü** yeni bir talep oluşturduğunuzda otomatik olarak seçilen standart bakım talebi türüdür.  
 - İş türlerine ilişkin tahminler **Tahmin projesi** alanında seçili olan projede depolanır. Her iş türü için tahmin projesinde yeni bir etkinlik otomatik olarak oluşturulur. İş türüne ilişkin tahminler daha sonra tahmin projesinde kaydedilir.  
 - **Model** alanında, iş türü ve iş emri tahminlerinde kullanılan tahmin modelini seçin.

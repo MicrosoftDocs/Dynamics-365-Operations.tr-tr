@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2d0552c38ddc31ad6322e9e2e0f2c2c722c045f4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25e9b00533fb183b27c1bbe616cf6f414b44b5e7
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870914"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016115"
 ---
 # <a name="calculate-item-forecast"></a>Madde tahminini hesapla
 
@@ -36,7 +36,7 @@ ms.locfileid: "8870914"
 
 Bu, belirli bir döneme ait beklenen madde tüketiminin (iş emirlerini tamamlamak için gerekli diğer maddelerin yanı sıra yedek parçaların) genel görünümünü almak istediğinizde yararlıdır. Madde tahmini hesaplaması tüm varlıklar veya seçilen varlıklar üzerinde yapılabilir. Ayrıca bir bakım kesinti süresi faaliyetinde (**Tüm bakım kesinti süresi faaliyetleri** veya **Etkin bakım kesinti süresi faaliyetleri**) veya iş emri havuzunda (**Tüm iş emri havuzları** veya **Etkin iş emri havuzları**) da hesaplama yapabilirsiniz.
 
-1. **Varlık yönetimi** > **Sorgular** > **Madde tahmini** veya **Varlık yönetimi** > **Genel** > **İş emri havuzları** > **Tüm iş emri havuzları** / **Etkin iş emri havuzları** > listeden iş emri havuzu seçin > **Madde tahmini** düğmesine veya **Varlık yönetimi** > **Genel** > **Bakım kesinti süresi faaliyetleri** > **Tüm bakım kesinti süresi faaliyetleri** / **Etkin bakım kesinti süresi faaliyetleri** > listeden bakım kesinti süresi faaliyeti seçin > **Madde tahmini** düğmesine tıklayın.
+1. **Varlık yönetimi** > **Sorgular** > **Madde tahmini** veya **Varlık yönetimi** > **İş emri havuzları** > **Tüm iş emri havuzları** / **Etkin iş emri havuzları**'na tıklayın > listeden iş emri havuzu seçin > **Madde tahmini** düğmesine veya **Varlık yönetimi** > **Bakım kesinti süresi faaliyetleri** > **Tüm bakım kesinti süresi faaliyetleri** / **Etkin bakım kesinti süresi faaliyetleri**'ne tıklayın > listeden bakım kesinti süresi faaliyeti seçin > **Madde tahmini** düğmesine tıklayın.
 
 2. **Madde tahminini hesapla** iletişim kutusunda, **Başlangıç tarihi/saati** ve **Bitiş tarihi/saati** alanlarında hesaplama için bir dönem seçin.
 

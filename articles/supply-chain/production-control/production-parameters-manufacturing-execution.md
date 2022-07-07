@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d74b6c82c573810da9cbfe14745f997f40d408fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873680"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016173"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Üretim yürütmede üretim parametreleri
 
@@ -63,7 +63,7 @@ Rota grubunda **İş yönetimi** seçilirse, iş Üretim yürütmede tamamlandı
 
 Her aşama için **Otomatik ürün reçetesi tüketimi** alanı, bir üretim emriyle ilgili malzeme çekme için üç yöntemden birini seçmenize olanak sağlar:
 
-- **Otomatik tüketim kuralı** – Bu seçenek, **Üretim** modülünde ürün reçetesi için tanımlanmış bir seçenek ile birlikte kullanılır. **Üretim denetimi** &gt; **Ortak** &gt; **Üretim emirleri** &gt; **Tüm üretim emirleri**'ni tıklayın. **Tüm üretim emirleri** sayfasında, listeden bir üretim emri seçin ve ardından Eylem Panosunda **Ürün reçetesi**'ne tıklayın. **Ürün reçetesi** sayfasında **Kurulum** sekmesindeki **Otomatik tüketim kuralı** alanında, aşağıdaki seçeneklerden birini seçin:
+- **Otomatik tüketim kuralı** – Bu seçenek, **Üretim** modülünde ürün reçetesi için tanımlanmış bir seçenek ile birlikte kullanılır. **Üretim denetimi** &gt; **Üretim emirleri** &gt; **Tüm üretim emirleri**'ne tıklayın. **Tüm üretim emirleri** sayfasında, listeden bir üretim emri seçin ve ardından Eylem Panosunda **Ürün reçetesi**'ne tıklayın. **Ürün reçetesi** sayfasında **Kurulum** sekmesindeki **Otomatik tüketim kuralı** alanında, aşağıdaki seçeneklerden birini seçin:
 
   - **Başlangıç**
   - **Son**

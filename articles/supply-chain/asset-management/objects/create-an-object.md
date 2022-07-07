@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90b41b57dfa6db8b5874bbc2d4bcac7b4c634f20
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5ab715be3bfdc380f5736fadd901af3ed78d7035
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860942"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016318"
 ---
 # <a name="create-an-asset"></a>Varlık oluşturma
 
@@ -30,7 +30,7 @@ ms.locfileid: "8860942"
 
 Bu makalede Varlık Yönetimi'nde varlık oluşturma işlemi açıklanmaktadır.
 
-1. **Varlık yönetimi** > **Genel** > **varlıklar** > **Tüm varlıklar** veya **Etkin varlıklar**'a tıklayın.
+1. **Varlık yönetimi** > **Varlıklar** > **Tüm varlıklar** veya **Etkin varlıklar**'a tıklayın.
 2. **Yeni** düğmesine tıklayın.
 3. **Varlık oluştur** iletişim kutusunda, **Varlık** ile ilgili bilgileri (varlık kodu) ve varlık adını girin. **Etkin** alanında varlık için tarih ve saat seçin. Bu tarihten itibaren, varlığı işlem yapılacak bir yerleşime yükleyebilir ve varlığı bir varlık yapısında taşıyabilir ve değiştirebilirsiniz.
 4. **Varlık türü** alanında, varlık için varlık türünü seçin (zorunlu alan). Gerekirse, varlık için **Varlık üreticisi** ve **Varlık modeli**'ni seçin. Yalnızca bir ürün ayarlanmışsa, bu ürün **Varlık üreticisi** alanında otomatik olarak seçilir. **Varlık üreticisi** ve **Varlık modeli** alanlarındaki kullanılabilir seçimler, [Varlık üreticileri ve modelleri](../setup-for-objects/product-and-model.md)'ndeki ayara bağlıdır.

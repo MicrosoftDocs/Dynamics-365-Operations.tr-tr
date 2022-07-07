@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bf78d53e8e2d7bee24a0a7789ca1a96cdd8f1415
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 588da2a217a56d2bc25f85c9a10c6589f90b16a1
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886058"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015099"
 ---
 # <a name="register-consumption"></a>Tüketimi kaydetme
 
@@ -35,7 +35,7 @@ Bazı durumlarda, bir iş emrine tahmin satırları ekleyebilir veya silebilirsi
 >[!NOTE]
 >Bir iş emri yaşam döngüsü durumunda günlüklerin otomatik olarak deftere nakledilmesini ayarlamak mümkündür. Daha fazla bilgi için bkz. [İş emri yaşam döngüsü durumları](../setup-for-work-orders/work-order-lifecycle-states.md).
 
-1. **Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ne tıklayın.
+1. **Varlık yönetimi** > **İş emirleri** > **Tüm iş emirleri** veya **Etkin iş emirleri**'ne tıklayın.
 
 2. İş emrini seçin ve **Günlükler**'e tıklayın.
 
@@ -61,7 +61,7 @@ Aşağıdaki ekran görüntüsü, **İş emri günlüklerindeki** bir iş emrind
 
 Bir iş emri birkaç iş emri işi içeriyorsa, iş saatlerini **Saatleri böl** işlevini kullanarak kaydedebilirsiniz, böylece her bir saat kayıt satırı her iş emri işinde eşit şekilde dağıtılabilir.
 
-1. **Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ne tıklayın.
+1. **Varlık yönetimi** > **İş emirleri** > **Tüm iş emirleri** veya **Etkin iş emirleri**'ne tıklayın.
 
 2. İş emrini seçin ve **Günlükler**'e tıklayın.
 

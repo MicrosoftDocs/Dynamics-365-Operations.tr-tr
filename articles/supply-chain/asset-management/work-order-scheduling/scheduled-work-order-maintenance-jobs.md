@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 99613369084ca1e708761179dfb2688014b011f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 72813325c19c639c3c8e7ea9c7436730d23eb61b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849633"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017043"
 ---
 # <a name="scheduled-work-order-maintenance-jobs"></a>Planlanan iş emri bakım işleri
 
@@ -32,7 +32,7 @@ ms.locfileid: "8849633"
 
 ## <a name="view-scheduled-work-order-maintenance-jobs"></a>Planlamış iş emri bakım işlerini görüntüleme
 
-1. **Varlık yönetimi** > **Ortak** > **İş emirleri** > **Planlanan iş emri bakım işleri**'ne tıklayın. İş emri yaşam döngüsü durumu "Planlandı" veya "Devam ediyor" olarak ayarlanmış tüm iş emirlerinin listesini görürsünüz.
+1. **Varlık yönetimi** > **İş emirleri** > **Planlanan iş emri bakım işleri**'ne tıklayın. İş emri yaşam döngüsü durumu "Planlandı" veya "Devam ediyor" olarak ayarlanmış tüm iş emirlerinin listesini görürsünüz.
 
 2. Listeyi, örneğin bakım çalışanına göre sıralayabilirsiniz. Listeyi belirli bir kaynağa veya bakım çalışanına tahsis edilen iş emirlerini gösterecek şekilde sınırlamak için de filtreyi kullanabilirsiniz.
 

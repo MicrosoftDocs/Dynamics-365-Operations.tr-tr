@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0a6b5a2904d21782ae422d06eaaf03c5d5e51ab9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872138"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015593"
 ---
 # <a name="move-replace-and-install-assets"></a>Varlıkları taşıma, değiştirme ve yükleme
 
@@ -44,7 +44,7 @@ Varlığı başka bir varlık yapısına veya aynı varlık yapısındaki başka
 > [!NOTE]
 > Varlıklar onarılıyorsa veya geçici olarak değiştiriliyorsa bu işlevi kullanmayın. Bunun yerine, bu makalenin ilerleyen kısımlarında açıklanan **Varlığı değiştir** işlevini kullanın.
 
-1. **Varlık yönetimi** \> **Genel** \> **Varlıklar** \> **Tüm varlıklar** veya **Etkin varlıklar**'ı seçin.
+1. **Varlık yönetimi** \> **Varlıklar** \> **Tüm varlıklar** veya **Etkin varlıklar**'ı seçin.
 2. Listede, taşınacak varlığı seçin. Varlığın alt varlıkları varsa, bu varlıkları da taşırsınız.
 3. **Varlığı taşı**'yı seçin.
 4. Varlığı bir varlık yapısının parçası olacak şekilde taşımak için **Üst varlık** alanında yeni üst varlığı seçin. Bir alt varlığı taşıyorsanız ve bunu yapı ilişkileri bulunmayan bağımsız bir varlık yapmak istiyorsanız, **Üst varlık** alanını boş bırakın.
@@ -58,7 +58,7 @@ Onarımlar, yenileme veya aşınmış bir varlığın yeni bir varlıkla kalıc�
 > [!NOTE]
 > Onarım atölyesi üretim departmanınızla ilişkiliyse, varlıkların onarımı ve değişimini gerçekleştirmek için **Onarım**, **Hurda** ve **Depolama** gibi işlem yapılacak yerleşimler oluşturabilirsiniz.
 
-1. **Varlık yönetimi** \> **Genel** \> **Varlıklar** \> **Tüm varlıklar** veya **Etkin varlıklar**'ı seçin.
+1. **Varlık yönetimi** \> **Varlıklar** \> **Tüm varlıklar** veya **Etkin varlıklar**'ı seçin.
 2. Listede, değiştirilecek alt varlığı seçin. Varlığın alt varlıkları varsa, bu varlıkları da değiştirirsiniz.
 3. **Varlığı değiştir**'i seçin.
 
@@ -79,7 +79,7 @@ Bir işlem yapılacak yerleşime varlık yapısı yüklemek için **Varlık yük
 > [!NOTE]
 > Her zaman bir üst varlık seçin. Üst varlık ve ilgili alt varlıklar seçili işlem yapılacak yerleşime taşınır.
 
-1. **Varlık yönetimi** \> **Genel** \> **Varlıklar** \> **Tüm varlıklar** veya **Etkin varlıklar**'ı seçin.
+1. **Varlık yönetimi** \> **Varlıklar** \> **Tüm varlıklar** veya **Etkin varlıklar**'ı seçin.
 2. Listede, başka bir işlem yapılacak yerleşime yüklenecek üst varlığı seçin.
 3. **Varlık yükle**'yi seçin.
 

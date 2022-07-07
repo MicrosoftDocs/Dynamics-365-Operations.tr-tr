@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9c886e4a2570c2627523fd1a27706e4affdc6e0
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c44b896895817beee61fc96861631743fc2481ba
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678533"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015128"
 ---
 # <a name="view-stage-reason-codes"></a>Aşama neden kodlarını görüntüle 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8678533"
 
 Servis siparişi için aşama kodları listesini görüntüleyin ve değiştirin. Bir servis siparişinin durumuna ilişkin nedeni belirtmek için aşama nedenlerini kullanın. Örneğin, **Müşteri tarafından iptal edildi** neden kodunun atanacağı bir **İptal edildi** aşaması oluşturabilirsiniz.
 
-  - **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın. Bir servis siparişini açın.
+  - **Servis yönetimi** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın. Bir servis siparişini açın.
 
   - **Servis siparişleri** formunda, **Eylem Bölmesi** üzerindeki **Gönder** sekmesinde **Aşama nedenleri**'ne tıklayın.
 

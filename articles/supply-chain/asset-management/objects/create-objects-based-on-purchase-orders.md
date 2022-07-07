@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bee66e2d35af6daa8d86539e52b558bde3c79a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ccd14493aac6484dc54ccf51ae159a071c8697a5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893714"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015623"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Varlıkları satınalma siparişlerine göre oluşturma
 
@@ -45,7 +45,7 @@ Bu makale, Varlık Yönetiminde bakım işleri için varlıklar oluşturmak üze
 
 ## <a name="create-assets-from-pending-assets"></a>Bekleyen varlıklardan varlıklar oluşturma
 
-1. **Varlık yönetimi** > **Genel** > **Varlıklar** > **Bekleyen Varlıklar**'a tıklayın.
+1. **Varlık yönetimi** > **Varlıklar** > **Bekleyen Varlıklar**'a tıklayın.
 2. **Varlık maddeleri**'nde seçilen maddelere göre satınalma siparişlerinin güncelleştirilmiş bir listesini görürsünüz.
 3. Varlığın oluşturulması gereken yaşam döngüsü durumunu seçmek için satınalma siparişlerinin durumunu filtreleyebilirsiniz. Örneğin, yalnızca bir satınalma siparişinde bir ürün girişi deftere nakledildiğinde varlıklar oluşturmak isteyebilirsiniz.
 4. Maddeyle ilgili ayrıntılı bilgileri görüntülemek için satınalma siparişi satırındaki **Referans numarası** bağlantısını seçin.

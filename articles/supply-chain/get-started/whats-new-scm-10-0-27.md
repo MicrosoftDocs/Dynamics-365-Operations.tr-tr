@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.27 Önizlemesi (2022 Temmuz)
+title: Dynamics 365 Supply Chain Management 10.0.27'deki yenilikler veya değişiklikler (Temmuz 2022)
 description: Bu makalede, Microsoft Dynamics 365 Supply Chain Management 10.0.27'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
 ms.date: 04/22/2022
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: a91f2cdae0fed75f07d6cae86d24aeedfca80e94
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a50fcbe313901beab610400d8c59dd375f1af93e
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844510"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022635"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10027-july-2022"></a>Dynamics 365 Supply Chain Management 10.0.27 Önizlemesi (2022 Temmuz)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10027-july-2022"></a>Dynamics 365 Supply Chain Management 10.0.27'deki yenilikler veya değişiklikler (Temmuz 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Bu makalede, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10.0.27'daki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.1227 derleme numarasına sahiptir ve aşağıdaki planlamaya göre kullanıma sunulmuştur:
+Bu makalede, Microsoft Dynamics 365 Supply Chain Management sürümü 10.0.27'teki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.1227 derleme numarasına sahiptir ve aşağıdaki planlamaya göre kullanıma sunulmuştur:
 
 - **Sürümün önizlemesi:** Nisan 2022
 - **Sürüm genel kullanılabilirliği (kendi kendine güncelleştirme):** Haziran 2022

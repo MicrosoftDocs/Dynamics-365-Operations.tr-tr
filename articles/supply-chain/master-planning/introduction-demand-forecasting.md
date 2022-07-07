@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7a69cbca6e6f32812ea00a63751c931a8477991
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: e1648808667c8bb9487e7a47b87d8e73cf442d82
+ms.sourcegitcommit: d98ecbd9457197ec8f8e281f9c2f24dcce7b8269
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469268"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8960206"
 ---
 # <a name="demand-forecasting-overview"></a>Talep tahminine genel bakış
 
@@ -91,19 +91,13 @@ Talep tahmini ölçü biriminin belirli anlamı olması gerekmediğini unutmayı
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Talep tahmini kurulumu](demand-forecasting-setup.md)
-
-[İstatistik temel tahmini oluşturma](generate-statistical-baseline-forecast.md)
-
-[Temel tahminde manüel ayarlamalar yapma](manual-adjustments-baseline-forecast.md)
-
-[Düzeltilen tahmini yetkilendirme](authorize-adjusted-forecast.md)
-
-[Tahmin doğruluğunu izleme](monitor-forecast-accuracy.md)
-
-[Bir talep tahmini hesaplarken aykırı değerleri geçmiş hareket verilerinden kaldırma](remove-historical-outliers-calculating-demand-forecast.md)
-
-[Talep tahmini işlevini genişletme](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-
+- [Talep tahmini kurulumu](demand-forecasting-setup.md)
+- [İstatistik temel tahmini oluşturma](generate-statistical-baseline-forecast.md)
+- [Temel tahminde manüel ayarlamalar yapma](manual-adjustments-baseline-forecast.md)
+- [Düzeltilen tahmini yetkilendirme](authorize-adjusted-forecast.md)
+- [Tahmin doğruluğunu izleme](monitor-forecast-accuracy.md)
+- [Bir talep tahmini hesaplarken aykırı değerleri geçmiş hareket verilerinden kaldırma](remove-historical-outliers-calculating-demand-forecast.md)
+- [Video: Talep tahmini işlevini genişletme](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+- [Web semineri: Azure Machine Learning ile Talep Tahmini Serisi](https://aka.ms/DemandForecastingwithAzureMachineLearningSeries)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e23d471e270d7cbeda2bbaa161e729f30e1ebecd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 482a276a86d4b4174d276d775513069d423c17a4
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854079"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015913"
 ---
 # <a name="credit-subscription-transactions"></a>Abonelik işlemlerini alacaklandırma 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8854079"
 
 ## <a name="credit-subscription-transactions"></a>Abonelik işlemlerini alacaklandırma
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis abonelikleri** \> **Tüm servis abonelikleri**'ne tıklayın.
+1.  **Servis yönetimi** \> **Servis abonelikleri** \> **Tüm servis abonelikleri**'ne tıklayın.
 
 2.  Bir alacak dekontu oluşturmak istediğiniz abonelik işlemine iliştirilmiş aboneliği seçin.
 

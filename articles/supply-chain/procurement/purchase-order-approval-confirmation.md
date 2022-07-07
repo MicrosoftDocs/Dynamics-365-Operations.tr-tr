@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 936fddb73a639564a136002354a4d3dff7798e0b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af33dbd38b1eb70e79392860e48c6943a4192f78
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907391"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016463"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Satın alma siparişlerini onaylama
 
@@ -50,7 +50,7 @@ Değişiklik yönetimi etkinleştirildiğinde PO'lar **Sonlandırıldı** ile **
 ## <a name="confirming-purchase-orders"></a>Satınalma siparişlerini teyit etme
 Onay durumu **Onaylandı** olan PO'lar teyit edilmeden önce ek adımlardan geçebilir. Örneğin, satıcıya fiyatları, iskontoları veya teslim tarihlerini sormak için bir satınalma sorgusu göndermeniz gerekebilir. Bu durumda, PO'yu **Satınalma sorgusu** eylemini kullanarak **Harici incelemede** durumuna ayarlayabilirsiniz.
 
-Satıcı portalını kullanmaya ayarlanmış satıcılar portaldaki siparişleri gözden geçirebilir ve bunları onaylayabilir veya reddedebilir. Bu gözden geçirme işlemi sırasında PO **Harici incelemede** durumundadır. Satıcı portalı, satıcıdan gelen bir teyit Supply Chain Management'daki siparişi otomatik olarak teyit edecek şekilde yapılandırılabilir. Alternatif olarak, satıcıdan teyit aldıktan sonra bir PO'yu el ile teyit edebilirsiniz. Satıcı PO'yu reddederse reddetme eylemi, reddetme nedeni ve değişiklik önerileri ile birlikte alınır. Bu durumda PO **Harici incelemede** durumunda kalır.
+Satıcı işbirliği modülünü kullanmaya ayarlanmış satıcılar portaldaki siparişleri gözden geçirebilir ve bunları onaylayabilir veya reddedebilir. Bu gözden geçirme işlemi sırasında PO **Harici incelemede** durumundadır. Satıcı işbirliği modülü, satıcıdan gelen bir teyit Supply Chain Management'taki siparişi otomatik olarak teyit edecek şekilde yapılandırılabilir. Alternatif olarak, satıcıdan teyit aldıktan sonra bir PO'yu el ile teyit edebilirsiniz. Satıcı PO'yu reddederse reddetme eylemi, reddetme nedeni ve değişiklik önerileri ile birlikte alınır. Bu durumda PO **Harici incelemede** durumunda kalır.
 
 Fiili teyit işlenmeden önce sipariş için bir proforma teyidi oluşturma seçeneği de bulunmaktadır. Bu seçenek yalnızca satıcı ile paylaşabileceğiniz bir rapor oluşturur. Herhangi bir günlük bilgisi oluşturmaz.
 

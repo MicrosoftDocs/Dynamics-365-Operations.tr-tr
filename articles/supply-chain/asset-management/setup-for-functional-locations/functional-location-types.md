@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0c44e503900bd157d7f0159cdf2b2d0c1fb3393f
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879235"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015797"
 ---
 # <a name="functional-location-types"></a>İşlem yapılacak yerleşim türleri
 
@@ -57,7 +57,7 @@ Bu yordam, varsayılan işlem yapılacak yerleşim için kullanılacak varsayıl
 7. Oluşturduğunuz işlem yapılacak yerleşim ile aynı kod ve ada sahip işlem yapılacak yerleşim için otomatik olarak *bir* varlık oluşturmak istiyorsanız **Varlık türü** alanı kullanılır. Örneğin, bir yapı veya boru hattı gibi statik bir işlem yapılacak yerleşim oluşturuyorsanız, bu ilgili olabilir. Bu durumda, otomatik olarak oluşturulan varlık için kullanmak istediğiniz varlık türünü seçin. Bu alanda bir seçim yaparsanız, **Birden çok varlık** düğmesinin "Hayır" olarak ayarlanması gerektiğini unutmayın.
 8. **Varlık türleri** hızlı sekmesinde, işlem yapılacak yerleşim türüyle ilgili varlık türlerini seçin. **Satır ekle**'yi ve varlık türlerini seçin. Burada varlık türleri eklerseniz, bu işlevsel konum türünü kullanarak yalnızca bu varlık türlerini kullanan varlıklar işlem yapılacak yerleşime yüklenebilir. **Varlık türleri** hızlı sekmesinde hiçbir varlık türü seçilmemişse, tüm varlık türleri yüklenebilir.
 9. **Bakım planları** hızlı sekmesinde, bu işlem yapılacak yerleşim türünü kullanan yeni işlem yapılacak yerleşimlerde otomatik olarak ayarlanması gereken bakım planlarını seçin. **Satır ekle**'yi ve bakım planlarını seçin. Burada bakım planları eklerseniz, bu işlem yapılacak yerleşim türünü kullanan işlem yapılacak yerleşimde yalnızca bu planlar kullanılabilir.
-10. **Varlık öznitelik gereksinimleri** hızlı sekmesinde, bu işlem yapılacak yerleşim türünü kullanan yeni işlem yapılacak yerleşimlerde otomatik olarak ayarlanması gereken varlık özniteliklerini ayarlayın. **Satır ekle**'yi ve özniteliği seçin. Bu öznitelik gereksinimleri yönergeler olarak işlev görür. Bir varlık üzerinde ayarlanan özniteliklere karşı doğrulanmazlar (**Varlık yönetimi** > **Genel** > **Varlıklar** > **Tüm varlıklar** > liste sayfasından varlığı seçin > **Genel** sekmesi > **Öznitelikler** düğmesi). Bu öznitelik gereksinimleri varlıkları işlem yapılacak yerleşimlere yüklerken gösterilir.
+10. **Varlık öznitelik gereksinimleri** hızlı sekmesinde, bu işlem yapılacak yerleşim türünü kullanan yeni işlem yapılacak yerleşimlerde otomatik olarak ayarlanması gereken varlık özniteliklerini ayarlayın. **Satır ekle**'yi ve özniteliği seçin. Bu öznitelik gereksinimleri yönergeler olarak işlev görür. Bir varlık üzerinde ayarlanan özniteliklere karşı doğrulanmazlar (**Varlık yönetimi** > **Varlıklar** > **Tüm varlıklar** > liste sayfasından varlığı seçin > **Genel** sekmesi > **Öznitelikler** düğmesi). Bu öznitelik gereksinimleri varlıkları işlem yapılacak yerleşimlere yüklerken gösterilir.
 11. **İzin verilen türler** hızlı sekmesinde, seçili işlem yapılacak yerleşim türünü kullanan bir üst işlem yapılacak yerleşim türüyle ilgili alt işlem yapılacak yerleşim türleri için geçerli olması gereken işlem yapılacak yerleşim türlerini seçin.
 12. **Öznitelikler** hızlı sekmesinde, bu işlem yapılacak yerleşim türünü kullanan işlem yapılacak yerleşimlerde otomatik olarak ayarlanması gereken işlem yapılacak yerleşim özniteliklerini seçin. **Satır ekle**'yi ve özniteliği seçin.
 

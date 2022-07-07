@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57bbb8eb638b990914dc00f9700ff0c1925c48852862b02e09f3f26415d3e347
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 14751fb0e0632ca986d6eddf55c93d44fbd68276
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745514"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015478"
 ---
 # <a name="create-an-item-replacement-order"></a>Madde değiştirme emri oluşturma 
 
@@ -31,7 +31,7 @@ Madde değiştirme siparişleri genellikle bir ürün iade edildikten ve incelen
 
 ## <a name="create-a-replacement-order-after-you-receive-an-item-that-is-returned"></a>İade edilen bir maddeyi aldığınızda değiştirme siparişi oluşturma
 
-1.  **Satış ve pazarlama** \> **Genel** \> **İade siparişleri** \> **Tüm iade siparişleri**'ne tıklayın.
+1.  **Satış ve pazarlama** \> **Satış iadeleri** \> **Tüm iade siparişleri**'ne tıklayın.
 
 2.  Yeni bir iade siparişi oluşturun veya **İade emri - RMA numarası: %1, %2** formunu açmak için listeden bir iade siparişi seçin.
 
@@ -45,7 +45,7 @@ Madde değiştirme siparişleri genellikle bir ürün iade edildikten ve incelen
 
 ## <a name="create-a-replacement-order-before-you-receive-an-item-that-will-be-returned"></a>İade edilecek bir maddeyi almadan önce değiştirme siparişi oluşturma
 
-1.  **Satış ve pazarlama** \> **Genel** \> **İade siparişleri** \> **Tüm iade siparişleri**'ne tıklayın.
+1.  **Satış ve pazarlama** \> **Satış iadeleri** \> **Tüm iade siparişleri**'ne tıklayın.
 
 2.  Yeni bir iade siparişi oluşturun veya **İade emri - RMA numarası: %1, %2** formunu açmak için listeden bir iade siparişi seçin.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3347db6395b7da396c42f84881060f476346d2e9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 60bf4ab6944bd982e022ead6431adae417ddfb43
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851289"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014633"
 ---
 # <a name="wave-creation-and-processing"></a>Dalga oluşturma ve işleme
 
@@ -60,9 +60,9 @@ Elle dalga oluşturmak için şu adımları izleyin:
 1. İlgili [dalga şablonlarının](wave-templates.md) ambar ve el ile yapmak istediğiniz sipariş türleri için otomatik olarak bir dalga oluşturacak şekilde ayarlanmadığından emin olun.
 1. Oluşturmak istediğiniz dalganın türüne bağlı olarak şunlardan birini yapın:
 
-    - **Ambar yönetimi** \> **Ortak** \> **Dalgalar** \> **Sevkiyat dalgaları** \> **Tüm dalgalar**'a gidin. Eylem bölmesinde, **Dalga**'yı seçin.
-    - **Ambar yönetimi** \> **Ortak** \> **Dalgalar** \> **Üretim dalgaları** \> **Tüm üretim dalgaları**'na gidin. Eylem bölmesinde, **Üretim Dalgası**'nı seçin.
-    - **Ambar yönetimi** \> **Ortak** \> **Dalgalar** \> **Kanban dalgaları** \> **Tüm kanban dalgaları**'na gidin. Eylem bölmesinde, **Dalga Oluştur**'u seçin.
+    - **Ambar yönetimi** \> **Giden dalgalar** \> **Sevkiyat dalgaları** \> **Tüm dalgalar**'a gidin. Eylem bölmesinde, **Dalga**'yı seçin.
+    - **Ambar yönetimi** \> **Giden dalgalar** \> **Üretim dalgaları** \> **Tüm üretim dalgaları**'na gidin. Eylem bölmesinde, **Üretim Dalgası**'nı seçin.
+    - **Ambar yönetimi** \> **Giden dalgalar** \> **Kanban dalgaları** \> **Tüm kanban dalgaları**'na gidin. Eylem bölmesinde, **Dalga Oluştur**'u seçin.
 
 1. **Açıklama** alanına dalga için kısa bir açıklama girin. Bu, dalga içinde işlediklerinizi belirtmelidir.
 
@@ -87,9 +87,9 @@ Bir dalga oluşturulduğunda, ancak henüz serbest bırakılmadığında el ile 
 
 1. Satır eklemek istediğiniz dalganın türüne bağlı olarak şunlardan birini yapın:
 
-    - **Ambar yönetimi** \> **Ortak** \> **Dalgalar** \> **Sevkiyat dalgaları** \> **Tüm dalgalar**'a gidin. Eylem bölmesinde, **Dalga**'yı seçin.
-    - **Ambar yönetimi** \> **Ortak** \> **Dalgalar** \> **Üretim dalgaları** \> **Tüm üretim dalgaları**'na gidin. Eylem bölmesinde, **Üretim Dalgası**'nı seçin.
-    - **Ambar yönetimi** \> **Ortak** \> **Dalgalar** \> **Kanban dalgaları** \> **Tüm kanban dalgaları**'na gidin. Eylem bölmesinde, **Dalga Oluştur**'u seçin.
+    - **Ambar yönetimi** \> **Giden dalgalar** \> **Sevkiyat dalgaları** \> **Tüm dalgalar**'a gidin. Eylem bölmesinde, **Dalga**'yı seçin.
+    - **Ambar yönetimi** \> **Giden dalgalar** \> **Üretim dalgaları** \> **Tüm üretim dalgaları**'na gidin. Eylem bölmesinde, **Üretim Dalgası**'nı seçin.
+    - **Ambar yönetimi** \> **Giden dalgalar** \> **Kanban dalgaları** \> **Tüm kanban dalgaları**'na gidin. Eylem bölmesinde, **Dalga Oluştur**'u seçin.
 
 1. Dalga seçin. Eylem bölmesinde aşağıdakilerden birini seçin:
 
@@ -121,9 +121,9 @@ Tüm gerekli içeriği olan bir dalga öğesini el ile işlemek için şu adıml
 
 1. İşleyeceğiniz dalganın türüne bağlı olarak şunlardan birini yapın:
 
-    - **Ambar yönetimi** \> **Ortak** \> **Dalgalar** \> **Sevkiyat dalgaları** \> **Tüm dalgalar**'ı seçin. Eylem bölmesinde, **Dalga**'yı seçin.
-    - **Ambar yönetimi** \> **Ortak** \> **Dalgalar** \> **Üretim dalgaları** \> **Tüm üretim dalgaları**'nı seçin. Eylem bölmesinde, **Üretim Dalgası**'nı seçin.
-    - **Ambar yönetimi** \> **Ortak** \> **Dalgalar** \> **Kanban dalgaları** \> **Tüm kanban dalgaları**'nı seçin. Eylem bölmesinde, **Dalga Oluştur**'u seçin.
+    - **Ambar yönetimi** \> **Giden dalgalar** \> **Sevkiyat dalgaları** \> **Tüm dalgalar**'ı seçin. Eylem bölmesinde, **Dalga**'yı seçin.
+    - **Ambar yönetimi** \> **Giden dalgalar** \> **Üretim dalgaları** \> **Tüm üretim dalgaları**'nı seçin. Eylem bölmesinde, **Üretim Dalgası**'nı seçin.
+    - **Ambar yönetimi** \> **Giden dalgalar** \> **Kanban dalgaları** \> **Tüm kanban dalgaları**'nı seçin. Eylem bölmesinde, **Dalga Oluştur**'u seçin.
 
 1. İşlenecek dalgayı seçin. Eylem Bölmesinde, **İşlem**'i seçin.
 
@@ -141,9 +141,9 @@ Dalgayı elle serbest bırakmak için şu adımları izleyin:
 
 1. Serbest bırakacağınız dalganın türüne bağlı olarak şunlardan birini yapın:
 
-      - **Ambar yönetimi** \> **Ortak** \> **Dalgalar** \> **Sevkiyat dalgaları** \> **Tüm dalgalar**'ı seçin. Eylem bölmesinde, **Dalga**'yı seçin.
-      - **Ambar yönetimi** \> **Ortak** \> **Dalgalar** \> **Üretim dalgaları** \> **Tüm üretim dalgaları**'nı seçin. Eylem bölmesinde, **Üretim Dalgası**'nı seçin.
-      - **Ambar yönetimi** \> **Ortak** \> **Dalgalar** \> **Kanban dalgaları** \> **Tüm kanban dalgaları**'nı seçin. Eylem bölmesinde, **Dalga Oluştur**'u seçin.
+      - **Ambar yönetimi** \> **Giden dalgalar** \> **Sevkiyat dalgaları** \> **Tüm dalgalar**'ı seçin. Eylem bölmesinde, **Dalga**'yı seçin.
+      - **Ambar yönetimi** \> **Giden dalgalar** \> **Üretim dalgaları** \> **Tüm üretim dalgaları**'nı seçin. Eylem bölmesinde, **Üretim Dalgası**'nı seçin.
+      - **Ambar yönetimi** \> **Giden dalgalar** \> **Kanban dalgaları** \> **Tüm kanban dalgaları**'nı seçin. Eylem bölmesinde, **Dalga Oluştur**'u seçin.
 
 1. Serbest bırakılacak dalgayı seçin. Eylem bölmesinde, **Dalgayı Serbest bırak**'ı seçin.
 
@@ -179,9 +179,9 @@ Gerekirse, işlenmiş bir dalgayı iptal edebilirsiniz. Oluşturulan bir dalga v
 
 1. İptal edeceğiniz dalganın türüne bağlı olarak şunlardan birini yapın:
 
-      - **Ambar yönetimi** \> **Ortak** \> **Dalgalar** \> **Sevkiyat dalgaları** \> **Tüm dalgalar**'a gidin.
-      - **Ambar yönetimi** \> **Ortak** \> **Dalgalar** \> **Üretim dalgaları** \> **Tüm üretim dalgaları**'na gidin.
-      - **Ambar yönetimi** \> **Ortak** \> **Dalgalar** \> **Kanban dalgaları** \> **Tüm kanban dalgaları**'na gidin.
+      - **Ambar yönetimi** \> **Giden dalgalar** \> **Sevkiyat dalgaları** \> **Tüm dalgalar**'a gidin.
+      - **Ambar yönetimi** \> **Giden dalgalar** \> **Üretim dalgaları** \> **Tüm üretim dalgaları**'na gidin.
+      - **Ambar yönetimi** \> **Giden dalgalar** \> **Kanban dalgaları** \> **Tüm kanban dalgaları**'na gidin.
 
 1. İptal edilecek dalgayı seçin. Eylem Bölmesindeki **İş** sekmesinde, **İptal**'i seçin.
 

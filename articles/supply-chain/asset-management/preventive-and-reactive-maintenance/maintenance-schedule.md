@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4089400817d6dd8454c85e594eff05314d3fd72e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 782a8cc1f9e64b8c2d4364212c9c5755c103bbfb
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858025"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017072"
 ---
 # <a name="maintenance-schedule"></a>Bakım zamanlaması
 
@@ -44,7 +44,7 @@ Dört bakım zamanlaması görünümü, görmek istediğiniz bakım zamanlaması
 
 Bakım zamanlamasını açmak için:
 
-1. **Varlık yönetimi** > **Ortak** > **Bakım zamanlaması** > **Tüm bakım zamanlamaları** veya **Bakım zamanlaması satırlarını aç** veya **Bakım zamanlaması havuzlarını aç** öğesine tıklayın.
+1. **Varlık yönetimi** > **Bakım zamanlaması** > **Tüm bakım zamanlamaları** veya **Bakım zamanlaması satırlarını aç** veya **Bakım zamanlaması havuzlarını aç** öğesine tıklayın.
 
 2. Bakım zamanlamasını güncelleştirmek için **Bakım planı** veya **Bakım sıraları**'na tıklayın. 
 

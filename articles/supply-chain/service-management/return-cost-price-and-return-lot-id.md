@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14442853152764fce7e5a8a275532ed553da16dc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c1d236918eddf3203a544a6b047f8ccac777971
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677100"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017258"
 ---
 # <a name="return-cost-price-and-return-lot-id"></a>İade maliyet fiyatı ve iade lot kodu        
 
@@ -38,7 +38,7 @@ Müşteriden gelen iadeler için geçerli maliyet dışında bir maliyet kullanm
 
 Varsayılan olarak, bir iade siparişine maddeleri eklediğinizde, maddeler stoğa geçerli maliyet fiyatından iade edilir. Farklı bir iade maliyet fiyatı belirlemek için şu adımları izleyin.
 
-1.  **Satış ve pazarlama** \> **Genel** \> **İade siparişleri** \> **Tüm iade siparişleri**'ne tıklayın.
+1.  **Satış ve pazarlama** \> **Satış iadeleri** \> **Tüm iade siparişleri**'ne tıklayın.
 
 2.  **Eylem bölmesinde** **Yeni** grubunda **İade siparişi**'ne tıklayın.
 
@@ -54,7 +54,7 @@ Varsayılan olarak, bir iade siparişine maddeleri eklediğinizde, maddeler sto�
 
 İade satırları oluşturmak için tercih edilen yöntem budur. Ürünleri müşteriye sattığınız andaki ürün maliyetini kullanmak için bir iade siparişi oluşturun ve iade edilecek bir satış satırı belirtin.
 
-1.  **Satış ve pazarlama** \> **Genel** \> **İade siparişleri** \> **Tüm iade siparişleri**'ne tıklayın.
+1.  **Satış ve pazarlama** \> **Satış iadeleri** \> **Tüm iade siparişleri**'ne tıklayın.
 
 2.  **Eylem bölmesinde** **Yeni** grubunda **İade siparişi**'ne tıklayın.
 

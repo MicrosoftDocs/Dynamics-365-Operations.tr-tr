@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa4fe7af46996e8de76ea61d5395327e7617e736
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2e63161aa32ecbc99baace9bb0cc649aedc600ed
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906138"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016006"
 ---
 # <a name="warranties-on-assets-and-asset-types"></a>Kıymet ve kıymet türlerinde garantiler
 
@@ -39,7 +39,7 @@ Bu makale, Varlık Yönetimi'nde kıymet garantilerinin ve kıymet türlerinin n
 
 ## <a name="set-up-a-warranty-on-an-asset"></a>Kıymette garanti ayarlayın
 
-1. **Kıymet yönetimi** \> **Ortak** \> **Kıymetler** \> **Tüm kıymetler** öğesini seçin.
+1. **Kıymet yönetimi** \> **Kıymetler** \> **Tüm kıymetler** öğesini seçin.
 2. Kıymeti seçin ve **Düzenle**'yi seçin.
 3. **Satıcı** hızlı sekmesinde, **Satıcı garantisi** bölümünde, **Garanti** alanında, garanti sözleşmesini seçin.
 4. **Garanti başlangıcı** ve **Garanti sonu** alanlarında, başlangıç ve bitiş tarihlerini seçin.

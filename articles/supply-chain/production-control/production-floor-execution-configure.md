@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14a49d1d6c956b37ff9b2bec387615dc75d060e1
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899425"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022579"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimini yapılandırma
 
@@ -113,9 +113,6 @@ Bu işlevi kullanmak getirmek için, [Özellik yönetiminde](../../fin-ops-core/
 
 ### <a name="enable-the-my-day-dialog"></a>"Günüm" iletişim kutusunu etkinleştirin
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 **Günüm** iletişim kutusu, çalışanlara günlük kayıtlarına ve ücretli zaman, ücretli fazla mesai, devamsızlık ve ücretli devamsızlık için geçerli bakiyelerine genel bir bakış sağlar.
 
 Bu işlevi kullanmak getirmek için, [Özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin:
@@ -124,9 +121,6 @@ Bu işlevi kullanmak getirmek için, [Özellik yönetiminde](../../fin-ops-core/
 
 ### <a name="enable-teams"></a>Takımları etkinleştir
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 Aynı üretim işine birden fazla işçi atandığında, bir ekip oluşturabilirler. Ekip, bir çalışanı pilot olarak aday gösterebilir. Kalan işçiler ardından otomatik olarak bu pilotun asistanı olurlar. Ortaya çıkan ekip için, yalnızca pilot iş durumunu kaydetmelidir. Zaman kayıtları tüm ekip üyeleri için geçerlidir.
 
 Bu işlevi kullanmak getirmek için, [Özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin:
@@ -134,9 +128,6 @@ Bu işlevi kullanmak getirmek için, [Özellik yönetiminde](../../fin-ops-core/
 - *Üretim katı yürütme arabiriminde üretim takımları*
 
 ### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimindeki ek yapılandırmayı etkinleştirme
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 Bu özellik, **Üretim taban yürütmesini konfigüre et** sayfasına aşağıdaki işlev için ayarlar ekler:
 

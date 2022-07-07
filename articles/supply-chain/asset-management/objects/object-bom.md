@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71b861ec31e704e001aab29245b9e24ce8beb0de
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 665c705e3ffb617fc159a1223cb3f776878d5cd2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882793"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016260"
 ---
 # <a name="asset-boms"></a>Varlık Ürün Reçeteleri
 
@@ -57,7 +57,7 @@ Yedek parça geçmişi kurulumu, **Stok ve ambar yönetimi** modülünde oluştu
 
 Bir iş emrindeki madde tüketimini deftere naklettikten sonra, **Varlık ürün reçetesi** sayfasında kayıtlı madde tüketimini görüntüleyebilirsiniz.
 
-1. **Varlık yönetimi** \> **Genel** \> **Varlıklar** \> **Etkin varlıklar**'ı seçin. Listeden varlığı seçin ve ardından **Varlık ürün reçetesi**'ni seçin.
+1. **Kıymet yönetimi** \> **Kıymetler** \> **Etkin kıymetler**'i seçin. Listeden varlığı seçin ve ardından **Varlık ürün reçetesi**'ni seçin.
 
     > [!NOTE]
     > Tüm varlıklardaki tüm madde tüketim kayıtlarını görüntülemek için, **Varlık yönetimi** \> **Sorgular** \> **Varlıklar** \> **Varlık ürün reçetesi**'ni seçin.

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa2ec6e21026552a4f14a67188db0720d3feae5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850800"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954510"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Dynamics 365 Supply Chain Management 10.0.25'daki yenilikler veya değişiklikler (Nisan 2022)
 
@@ -155,7 +155,7 @@ Tablo ayrıca, daha önce genel önizlemede bulunan, ancak 10.0.25'te genel kull
 | Ambar yönetimi | [El ile stok hareketi işlemini ertelenmiş olarak işleme](../warehousing/deferred-processing-manual-inventory-movement.md) | Zorunlu |
 | Ambar yönetimi | Dalga yükü oluşturma şablonu gereksinimlerini karşılamayan yük oluşturmaya izin verme | Zorunlu |
 | Ambar yönetimi | [Gelişmiş plaka etiketi düzenleri](../warehousing/document-routing-layout-for-license-plates.md) | Zorunlu |
-| Ambar yönetimi | [Çoklu SKU konumu yönergeleri için tüm eylemleri değerlendir](../troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md) | Zorunlu |
+| Ambar yönetimi | [Çoklu SKU konumu yönergeleri için tüm eylemleri değerlendir](/troubleshoot/dynamics-365/supply-chain/warehousing/evaluate-multiple-location-directive-actions) | Zorunlu |
 | Ambar yönetimi | "Tüm Yükler" ve "Yük Ayrıntıları" sayfalarındaki Toplam Değer alanını gizle | Zorunlu |
 | Ambar yönetimi | Plaka etiketi yapı yapılandırması | Zorunlu |
 | Ambar yönetimi | Yönetici veya benzer güvenilen kullanıcılar için yük satırını el ile düzeltme | Zorunlu |

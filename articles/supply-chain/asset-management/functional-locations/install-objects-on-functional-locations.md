@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a35f2494c616c2e456f92409d012cc434a32bd8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3ae571f4ad7210b31d212b0472610b36dc5c488b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894515"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016086"
 ---
 # <a name="install-assets-on-functional-locations"></a>Varlıkları işlem yapılacak yerleşimlere yükleme
 
@@ -40,7 +40,7 @@ Varlıkları işlem yapılacak yerleşime yükledikten sonra, bir üst varlığ�
 
 ## <a name="install-an-asset-structure-on-a-functional-location"></a>Varlık yapısını işlem yapılacak yerleşime yükleme
 
-1. **Varlık yönetimi** \> **Genel** \> **İşlem yapılacak yerleşimler** \> **Tüm işlem yapılacak yerleşimler** veya **Etkin işlem yapılacak yerleşimler**'i seçin.
+1. **Varlık yönetimi** \> **İşlem yapılacak yerleşimler** \> **Tüm işlem yapılacak yerleşimler** veya **Etkin işlem yapılacak yerleşimler**'i seçin.
 2. Varlığın yükleneceği işlem yapılacak yerleşimi seçin.
 3. **Varlık yükle**'yi seçin.
 
