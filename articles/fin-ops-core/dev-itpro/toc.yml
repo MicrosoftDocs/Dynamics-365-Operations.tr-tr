@@ -1,25 +1,23 @@
-- name: Finans ve Operasyon uygulamaları için geliştirme ve yönetim
+- name: Finans ve operasyon uygulamaları için geliştirme ve yönetim
   items:
-    - name: Finans ve Operasyon uygulamaları için geliştirme ve yönetim
+    - name: Finans ve operasyon uygulamaları için geliştirme ve yönetim
       items:
-        - name: Finance and Operations uygulama belgeleri
+        - name: Finans ve operasyon uygulamaları ile ilgili belgeler
           href: ../fin-ops/index.md
-        - name: Finans ve Operasyon uygulamaları için geliştirme ve yönetim
+        - name: Finans ve operasyon uygulamaları için geliştirme ve yönetim
           href: index.md
         - name: Yenilikler veya değişiklikler
           items:
-            - name: Finans ve Operasyon uygulamalarındaki yenilikler veya değişiklikler
+            - name: Finans ve operasyon uygulamalarındaki yenilikler veya değişiklikler
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Platform güncellemelerinde yenilikler veya değişiklikler
+            - name: Platform güncelleştirmelerinde yenilikler veya değişiklikler
               items:
-                - name: Platform güncellemeleri giriş sayfasındaki yenilikler veya değişiklikler
+                - name: Platform güncelleştirmelerindeki yenilikler veya değişiklikler giriş sayfası
                   href: get-started/whats-new-home-page.md
-                - name: 10.0.28 sürümü için platform güncellemeleri (Ağustos 2022)
+                - name: 10.0.28 sürümü için platform güncelleştirmeleri (Ağustos 2022)
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: 10.0.27 sürümü için platform güncellemeleri (Temmuz 2022)
+                - name: 10.0.27 sürümü için platform güncelleştirmeleri (Temmuz 2022)
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: 10.0.26 sürümü için platform güncellemeleri (Mayıs 2022)
-                  href: get-started/whats-new-platform-updates-10-0-26.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -44,11 +42,11 @@
               href: dev-tools/manage-runtime-packages.md
             - name: Hepsi bir arada dağıtılabilir paketler
               href: dev-tools/aio-deployable-packages.md
-            - name: Otomatik derlemede model sürümlerini güncelleme
+            - name: Otomatik derlemede model sürümlerini güncelleştirme
               href: dev-tools/version-models-build.md
-        - name: Veri tümleştirme
+        - name: Veri tümleştirmesi
           items:
-            - name: Finans ve Operasyon uygulamaları ile üçüncü taraf hizmetler arasında tümleştirme
+            - name: Finans ve operasyon uygulamaları ile üçüncü taraf hizmetler arasında tümleştirme
               href: data-entities/integration-overview.md
             - name: Veri tümleştirme API'leri
               items:
@@ -82,7 +80,7 @@
                   href: data-entities/service-protection-monitoring.md
                 - name: API aktarım hızını en üst düzeye çıkarma
                   href: data-entities/service-protection-maximizing-api-throughput.md
-            - name: Finance and Operations Bağlayıcısı
+            - name: Finans ve Operasyon Bağlayıcısı
               href: data-entities/fin-ops-connector.md
             - name: Tümleştirme için geliştirme
               items:
@@ -102,45 +100,45 @@
                       href: data-entities/tasks/use-record-template-new-record.md
                 - name: Veri Tümleştirici
                   items:
-                    - name: Aday müşteriden nakde senaryosu yapılandırma
+                    - name: Destekçi adayından nakde senaryosu yapılandırma
                       items:
-                        - name: Aday müşteriden nakde
+                        - name: Destekçi adayından nakde
                           href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                        - name: Sales'daki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme
+                        - name: Sales uygulamasından hesapları doğrudan finans ve operasyon uygulamalarındaki müşterilerle eşitleme
                           href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                        - name: Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle eşitleme
+                        - name: Finans ve operasyon uygulamalarındaki ürünleri doğrudan Sales'teki ürünlerle eşitleme
                           href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                        - name: Sales'teki ilgili kişileri doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme
+                        - name: Sales'teki ilgili kişileri doğrudan finans ve operasyon uygulamalarındaki ilgili kişilerle veya müşterilerle eşitleme
                           href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                        - name: Sales'teki satış teklifi başlıklarını ve satırlarını doğrudan Finance and Operations ile eşitleme
+                        - name: Sales'teki satış teklifi başlıklarını ve satırlarını doğrudan finans ve operasyon uygulamaları ile eşitleme
                           href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                        - name: Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme
+                        - name: Satış siparişlerini Sales ile finans ve operasyon uygulamaları arasında doğrudan eşitleme
                           href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                        - name: Finance and Operations'taki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
+                        - name: Finans ve operasyon uygulamalarındaki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
                           href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                     - name: Field Service ile tümleştirmeyi yapılandırma
                       items:
                         - name: Field Service ile tümleştirmeyi yapılandırmaya genel bakış
                           href: ../../supply-chain/sales-marketing/field-service.md
-                        - name: Finance and Operations'taki ürünleri Field Service'teki ürünlerle eşitleme
+                        - name: Finans ve operasyon uygulamalarındaki ürünleri Field Service'teki ürünlerle eşitleme
                           href: ../../supply-chain/sales-marketing/field-service-product.md
-                        - name: Field Service'daki iş emirlerini Finance and Operations'taki satış siparişleriyle eşitleme
+                        - name: Field Service'taki iş emirlerini finans ve operasyon uygulamalarındaki satış siparişleriyle eşitleme
                           href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                        - name: Field Service'daki sözleşme faturalarını Finance and Operations'taki serbest metin faturalarıyla eşitleme
+                        - name: Field Service'taki sözleşme faturalarını finans ve operasyon uygulamalarındaki serbest metin faturalarıyla eşitleme
                           href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                        - name: Stok transferlerini ve ayarlamalarını Field Service'dan Finance and Operations'a eşitleme
+                        - name: Stok transferlerini ve ayarlamalarını Field Service'tan finans ve operasyon uygulamalarına eşitleme
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                        - name: Stok düzeyi bilgilerini Field Service'dan Finance and Operations'a eşitleme
+                        - name: Stok düzeyi bilgilerini Field Service'tan finans ve operasyon uygulamalarına eşitleme
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                        - name: Stok birimli ürünleri Finance and Operations'tan Field Service'a eşitleme
+                        - name: Stok birimli ürünleri finans ve operasyon uygulamalarından Field Service'a eşitleme
                           href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                        - name: Proje listesini Finance and Operations'tan Field Service'a eşitleme
+                        - name: Proje listesini finans ve operasyon uygulamalarından Field Service'a eşitleme
                           href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                        - name: Ambarları Finance and Operations'tan Field Service'a eşitleme
+                        - name: Ambarları finans ve operasyon uygulamalarından Field Service'a eşitleme
                           href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                        - name: Proje içeren iş emirlerini Field Service'tan Finance and Operations'a eşitleme
+                        - name: Proje içeren iş emirlerini finans ve operasyon uygulamalarından Field Service'a eşitleme
                           href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
-                    - name: Project Service Automation tümleştirmesi yapılandırma
+                    - name: Project Service Automation tümleştirmesini yapılandırma
                       items:
                         - name: Project Service Automation'a genel bakış
                           href: /dynamics365/project-operations/prod-pma/PSA-integration
@@ -200,7 +198,7 @@
                   href: data-entities/data-synchronize-date-and-time.md
                 - name: Yevmiye defteri varlığını kullanarak fişleri içeri aktarma
                   href: data-entities/tips-tricks-import-general-journal-entity.md
-                - name: Finans ve Operasyon uygulamaları için veri geçişini iyileştirme
+                - name: Finans ve operasyon uygulamaları için veri geçişini iyileştirme
                   href: sysadmin/optimize-data-migration.md
             - name: Veri varlıkları için geliştirme
               items:
@@ -246,13 +244,13 @@
               href: data-entities/Azure-Data-Lake-GA-version-overview.md
             - name: Azure Data Lake'e dışarı aktarma eklentisini yükleme
               href: data-entities/configure-export-data-lake.md
-            - name: Azure Data Lake'teki Finans ve Operasyon uygulamaları
+            - name: Azure Data Lake'teki finans ve operasyon uygulamaları
               href: data-entities/finance-data-azure-data-lake.md
             - name: Azure Data Lake'te depolanan veriler ve meta veriler
               href: data-entities/Azure-Data-Lake-Enhanced-Metadata.md
             - name: Varlık deposunu Data Lake olarak kullanılabilir yapma
               href: data-entities/entity-store-data-lake.md
-            - name: Azure Data Lake'e dışarı aktarma hizmetiyle oluşturulan iş olayları (Önizleme)
+            - name: Azure Data Lake'e dışarı aktarma hizmetiyle oluşturulan İş etkinlikleri (Önizleme)
               href: data-entities/Azure-Data-Lake-Generates-Biz-events.md
             - name: Azure Data Lake'te verileri değiştirme
               href: data-entities/Azure-data-lake-Change-feeds.md
@@ -348,9 +346,9 @@
                   href: deployment/arm-onboarding.md
                 - name: ABD Kamu LCS projeleri için Azure Resource Manager ekleme sürecini tamamlama
                   href: deployment/arm-onbarding-us-goverment.md
-                - name: Azure ExpressRoute ve Finance and Operations
+                - name: Azure ExpressRoute ve finans ve operasyon
                   href: deployment/expressroute.md
-                - name: Finance and Operations mimarisi
+                - name: Finans ve operasyon mimarisi
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Bulut ortamlarına güncellemeleri uygulama
                   href: deployment/apply-deployable-package-system.md
@@ -484,7 +482,7 @@
                   href: help/language-locale.md
                 - name: 'Yardımı genişletme, özelleştirme ve yardım için iş birliği yapma'
                   href: help/contributor-guide.md
-            - name: Finans ve Operasyon uygulamaları bölgesel hizmetleri
+            - name: Finans ve operasyon uygulamaları bölgesel hizmetleri
               items:
                 - name: Yerel coğrafi bölgeler
                   href: deployment/deployment-options-geo.md
@@ -578,17 +576,17 @@
                   href: dev-tools/element-designers.md
                 - name: Öğe kullanımını belirleme komutları
                   href: dev-tools/element-usage.md
-                - name: Modelleri dışa ve içe aktarma
+                - name: Modelleri dışarı ve içeri aktarma
                   href: dev-tools/models-export-import.md
                 - name: Visual Studio'da meta veri arama
                   href: dev-tools/metadata-search-visual-studio.md
                 - name: Modeller ve paketler
                   href: dev-tools/models.md
-                - name: Finance and Operations proje türü
+                - name: Finans ve operasyon proje türü
                   href: dev-tools/projects.md
                 - name: Visual Studio için araç eklentileri
                   href: dev-tools/developer-tools-add-ins.md
-                - name: Visual Studio geliştirme araçlarını güncelleme
+                - name: Visual Studio geliştirme araçlarını güncelleştirme
                   href: dev-tools/update-development-tools.md
             - name: X++ programlama dili
               items:
@@ -1050,7 +1048,7 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Azure DevOps uzantısı öğreticisi (Genel Önizleme)
                   href: lifecycle-services/dts-ado-tutorial.md
-                - name: Visual Studio uzantısı (Özel Önizleme)
+                - name: Visual Studio uzantısı (Genel Önizleme)
                   href: lifecycle-services/dts-visual-studio.md
                 - name: Visual Studio Code uzantısı (Genel Önizleme)
                   href: lifecycle-services/dts-vscode-doc.md
@@ -1080,11 +1078,11 @@
                       href: data-entities/dual-write/initial-sync-guidance.md
                     - name: Canlı eşitleme limitleri
                       href: data-entities/dual-write/sync-limits.md
-                    - name: Lifecycle Services'dan çift yazma kurulumu
+                    - name: Lifecycle Services'tan çift yazma kurulumu
                       href: data-entities/dual-write/lcs-setup.md
-                    - name: Mevcut Finans ve Operasyon uygulamaları için çift yazmayı etkinleştirme
+                    - name: Mevcut finans ve operasyon uygulamaları için çift yazmayı etkinleştirme
                       items:
-                        - name: Mevcut Finans ve Operasyon uygulamaları için çift yazmayı etkinleştirme
+                        - name: Mevcut finans ve operasyon uygulamaları için çift yazmayı etkinleştirme
                           href: data-entities/dual-write/enable-dual-write.md
                         - name: Sistem gereksinimleri ve önkoşullar
                           href: data-entities/dual-write/requirements-and-prerequisites.md
@@ -1160,7 +1158,7 @@
                       href: data-entities/dual-write/scm-field-service-procurement.md
                     - name: İsteğe bağlı Supply Chain Management fiyatlandırma altyapısıyla eşitleme
                       href: data-entities/dual-write/pricing-engine.md
-                    - name: Çift yazmada aday müşteriden nakde aktarma
+                    - name: Çift yazmada destekçi adayından nakde aktarma
                       href: data-entities/dual-write/dual-write-prospect-to-cash.md
                     - name: Dynamics 365 Commerce fiyatlandırma altyapısını Dynamics 365 Sales ile kullanma
                       href: data-entities/dual-write/commerce-pricing.md
@@ -1186,7 +1184,7 @@
                   items:
                     - name: Field Service ve Project Service Automation çözümleri için destek
                       href: data-entities/dual-write/field-service-project-service-automation.md
-                    - name: Aday müşteriden nakde verilerini Veri Tümleştiricisinden çift yazmaya taşıma
+                    - name: Destekçi adayından nakde verilerini Veri Tümleştiricisinden çift yazmaya taşıma
                       href: data-entities/dual-write/migrate-prospect-to-cash.md
                     - name: Sorun giderme
                       items:
@@ -1198,15 +1196,15 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
                         - name: Canlı eşitleme sorunlarını giderme
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                        - name: Finans ve Operasyon uygulamalarında çift yazma ile ilgili sorunları giderme
+                        - name: Finans ve operasyon uygulamalarında çift yazma ile ilgili sorunları giderme
                           href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Taraf ve genel adres defteri sorunlarını giderme
                           href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: Çözüm farkındalığıyla ilgili sorunları giderme
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                        - name: Finans ve Operasyon uygulamalarının yükseltmeleriyle ilgili sorunları giderme
+                        - name: Finans ve operasyon uygulamalarının yükseltmeleri ile ilgili sorunları giderme
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Finans ve Operasyon uygulamaları ve Dataverse'teki çift yazma yapılandırmasını doğrulama
+                        - name: Finans ve operasyon uygulamaları ve Dataverse'teki çift yazma yapılandırmasını doğrulama
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                         - name: Tablo eşleme durumu denetimi için hata kodları
                           href: data-entities/dual-write/table-map-health-check.md
@@ -1224,53 +1222,53 @@
                   href: power-platform/admin-reference.md
                 - name: Dataverse sanal varlıklarını etkinleştirme
                   href: power-platform/enable-virtual-entities.md
-                - name: Finance and Operations ile Power Apps portalları
+                - name: Finans ve operasyon ile Power Apps portalları
                   href: power-platform/power-portal-reference.md
-                - name: Finance and Operations sanal varlıkları ile ilgili SSS
+                - name: Finans ve operasyon sanal varlıkları ile ilgili SSS
                   href: power-platform/faq.md
-            - name: İş olayları
+            - name: İş etkinlikleri
               items:
-                - name: İş olaylarına genel bakış
+                - name: İş etkinliklerine genel bakış
                   href: business-events/home-page.md
                 - name: İş olayı uç noktalarını yönetme
                   href: business-events/managing-business-event-endpoints.md
-                - name: Uygulama iş olayları
+                - name: Uygulama İş etkinlikleri
                   href: business-events/app-business-events.md
-                - name: İş akışı iş olayları
+                - name: İş akışı İş etkinlikleri
                   href: business-events/business-events-workflow.md
-                - name: Toplu iş olayları
+                - name: Toplu İş etkinlikleri
                   href: business-events/system-business-events.md
-                - name: İş olayları olarak uyarılar
+                - name: İş etkinlikleri olarak uyarılar
                   href: business-events/alerts-business-events.md
                 - name: Veri olayları
                   href: business-events/data-events.md
-                - name: Power Automate'teki iş olayları
+                - name: Power Automate'teki İş etkinlikleri
                   href: business-events/business-events-flow.md
-                - name: İş olayları geliştirici belgeleri
+                - name: İş etkinlikleri geliştirici belgeleri
                   href: business-events/business-events-dev-doc.md
-                - name: İş olayları sorunlarını giderme
+                - name: İş etkinlikleri sorunlarını giderme
                   href: business-events/troubleshooting.md
-                - name: İş olayları için kullanım örnekleri
+                - name: İş etkinlikleri için kullanım örnekleri
                   href: business-events/potential-use-cases.md
                 - name: Öğreticiler
                   items:
-                    - name: İş olayları ve Power Automate
+                    - name: İş etkinlikleri ve Power Automate
                       href: business-events/how-to/how-to-flow.md
-                    - name: İş olayları ve Azure Event Grid
+                    - name: İş etkinlikleri ve Azure Event Grid
                       href: business-events/how-to/how-to-eventgrid.md
-                    - name: İş olayları ve Azure Service Bus
+                    - name: İş etkinlikleri ve Azure Service Bus
                       href: business-events/how-to/how-to-servicebus.md
-                    - name: İş olayları ve Azure Service Bus Kuyruğu
+                    - name: İş etkinlikleri ve Azure Service Bus Kuyruğu
                       href: business-events/how-to/how-to-servicebus-queue.md
-                    - name: İş olayları ve iş akışı onayları
+                    - name: İş etkinlikleri ve iş akışı onayları
                       href: business-events/how-to/how-to-workflow.md
-                    - name: İş olayları ve Microsoft Forms Pro
+                    - name: İş etkinlikleri ve Microsoft Forms Pro
                       href: business-events/how-to/FormsPro.md
-                    - name: İş olayları ve Azure Event Hubs
+                    - name: İş etkinlikleri ve Azure Event Hubs
                       href: business-events/how-to/event-hub.md
                     - name: Dataverse'te olaylara abone olma
                       href: business-events/how-to/how-to-dataverse-events.md
-                    - name: Mali dönem kapanışında iş olayları
+                    - name: Mali dönem kapanışında İş etkinlikleri
                       href: business-events/how-to/period-close.md
             - name: Eklentiler
               items:
@@ -1284,7 +1282,7 @@
           items:
             - name: Mobil platform kaynakları
               href: mobile-apps/platform/mobile-platform-home-page.md
-            - name: Kullanmaya başlayın
+            - name: Başlayın
               items:
                 - name: Mobil platformu kullanmaya başlama
                   href: mobile-apps/platform/mobile-platform-getting-started.md
@@ -1574,15 +1572,15 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: Destek
           items:
-            - name: Finance and Operations ve Lifecycle Services için destek alma
+            - name: Finans ve operasyon ve Lifecycle Services için destek alma
               href: lifecycle-services/lcs-support.md
             - name: Dynamics 365 desteğine genel bakış
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: Çin'de 21Vianet tarafından işletilen Finance and Operations için destek alma
+            - name: Çin'de 21Vianet tarafından işletilen finans ve operasyon uygulamaları için destek alma
               href: lifecycle-services/21vianet-support.md
-            - name: Finans ve Operasyon uygulamaları için teknik destek ayarlama
+            - name: Finans ve operasyon uygulamaları için teknik destek ayarlama
               href: lifecycle-services/support-experience.md
-            - name: Finans ve Operasyon uygulamaları için destek deneyimlerini yönetme
+            - name: Finans ve operasyon uygulamaları için destek deneyimlerini yönetme
               href: lifecycle-services/cloud-powered-support-lcs.md
             - name: Üretim desteği ve izleme
               href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
@@ -1612,7 +1610,7 @@
                   href: sysadmin/role-based-security.md
                 - name: Güvenlik mimarisi
                   href: sysadmin/security-architecture.md
-                - name: Finans ve Operasyon uygulamalarında şifreleme
+                - name: Finans ve operasyon uygulamalarında şifreleme
                   href: sysadmin/encryption.md
                 - name: Oturumun boş durma zaman aşımını ayarlama
                   href: sysadmin/session-idle-timeout.md
@@ -1694,11 +1692,11 @@
               href: sysadmin/cleanuproutines.md
         - name: 'Yükseltmeler, güncellemeler ve düzeltmeler'
           items:
-            - name: 'Yükseltmeler, güncellemeler ve düzeltmelerle ilgili kaynaklar'
+            - name: 'Yükseltmeler, güncelleştirmeler ve düzeltmelerle ilgili kaynaklar'
               href: migration-upgrade/upgrade-home-page.md
             - name: AX 2012'den yükseltme
               items:
-                - name: AX 2012'den Finance and Operations'a yükseltme
+                - name: AX 2012'den finans ve operasyon uygulamalarına yükseltme
                   href: migration-upgrade/upgrade-overview-2012.md
                 - name: AX 2012 yükseltmesi - Yükseltme çözümleyicisi aracını kullanarak planlama
                   href: migration-upgrade/upgrade-analyzer-tool.md
@@ -1758,7 +1756,7 @@
                       href: migration-upgrade/compress-tables-ax-2012.md
             - name: AX 2009'daki verileri geçirme
               items:
-                - name: Verileri AX 2009'dan Finans ve Operasyonlar'a geçirme
+                - name: Verileri AX 2009'dan finans ve operasyon uygulamalarına geçirme
                   href: migration-upgrade/data-migration-tool.md
                 - name: AX 2009 geçişi - Veri geçişi aracını yükleme
                   href: migration-upgrade/install-dmt.md

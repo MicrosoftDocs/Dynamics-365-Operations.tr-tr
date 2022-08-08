@@ -1,6 +1,6 @@
 ---
-title: Finance and Operations uygulama belgeleri
-description: Finans ve Operasyon uygulamaları için belgeler.
+title: Finans ve operasyon uygulamaları ile ilgili belgeler
+description: Finans ve operasyon uygulamaları için belgeler.
 author: tonyafehr
 ms.date: 04/13/2021
 ms.topic: index-page
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6f646b3216c73e14b550dc438c500a569bb799c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8f9776038530438ba8d8046b735d95b2a5701594
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865846"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067477"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Finance and Operations uygulama belgeleri
+# <a name="finance-and-operations-application-documentation"></a>Finans ve operasyon uygulamaları ile ilgili belgeler
 
 [!include [banner](includes/banner.md)]
 
-Son kullanıcılar, geliştiriciler ve BT uzmanları için harika içeriklere ulaşmak isterseniz bu makaledeki kaynakları kullanarak Finans ve Operasyon uygulamalarını işletmenizde nasıl kullanacağınızı öğrenin. 
+Son kullanıcılar, geliştiriciler ve BT uzmanları için harika içeriklere ulaşmak isterseniz bu makaledeki kaynakları kullanarak finans ve operasyon uygulamalarını işletmenizde nasıl kullanacağınızı öğrenin. 
 
 Bu içeriğin büyük bir bölümü, Dynamics 365 Commerce ve Dynamics 365 Human Resources gibi ilgili ürünler için de geçerlidir. 
 
@@ -55,7 +55,7 @@ Bu içeriğin büyük bir bölümü, Dynamics 365 Commerce ve Dynamics 365 Human
 <p><a href="get-started/public-preview-releases.md">Standart ve İlk sürüm hizmet güncelleştirmeleri</a></p>
 <p><a href="get-started/whats-new-changed.md">Yenilikler veya değişiklikler</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Yükseltmeler, güncelleştirmeler ve düzeltmeler</a></p>
-<p><a href="../dev-itpro/deployment/apply-deployable-package-system.md">Bulut ortamlarına güncelleştirmeleri uygulama</a></p>
+<p><a href="../dev-itpro/deployment/apply-deployable-package-system.md">Bulut ortamlarına güncellemeleri uygulama</a></p>
 <p><a href="../dev-itpro/lifecycle-services/configure-service-updates.md">Hizmet güncelleştirmelerini yapılandırma</a></p>
 <p><a href="../dev-itpro/lifecycle-services/pause-service-updates.md">Hizmet güncelleştirmelerini duraklatma</a></p>
 <p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">Hizmet güncelleştirmeleri hakkında bilgilendirilme</a></p>
@@ -63,7 +63,7 @@ Bu içeriğin büyük bir bölümü, Dynamics 365 Commerce ve Dynamics 365 Human
 <p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation Tool</a></p>
 
 <h3><a href="../dev-itpro/data-entities/integration-overview.md">Tümleştirmeler</a></h3>
-<p><a href="../dev-itpro/business-events/home-page.md">İş olayları</a></p>
+<p><a href="../dev-itpro/business-events/home-page.md">İş etkinlikleri</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Veri varlıkları</a></p>
 <p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Microsoft Power Automate kullanarak tümleştirme</a></p>
 
@@ -143,3 +143,4 @@ Bu içeriğin büyük bir bölümü, Dynamics 365 Commerce ve Dynamics 365 Human
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -7,21 +7,21 @@ ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom:
-- "27681"
-- intro-internal
-ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4be3c576cd0fac1239113efcdd7e97810b193a88
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "27681"
+- intro-internal
+ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.openlocfilehash: 119292dccc2f2d7131f0fa39aa35a8253b948d40
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906647"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206490"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Power BI giriş sayfasıyla raporlama ve analiz
 
@@ -30,11 +30,11 @@ ms.locfileid: "8906647"
 Bu makale sizi mevcut iş zekası (BI) ve raporlama araçları hakkında bilgi edinmek için kullanabileceğiniz kaynaklara yönlendirir.
 
 ## <a name="get-started"></a>Başlayın
-- [Bilgi erişimi ve raporlama](information-access-reporting.md)
+- [Bilgiye erişim ve raporlama](information-access-reporting.md)
 - [Teknik Sohbet: Raporlama seçenekleri](https://www.youtube.com/watch?v=NzZONjKs5xA) (video)
-- [Finance and Operations: Power BI Analiz ve Raporlama Hizmetleri blogu](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
+- [Finans ve operasyon: Power BI Analiz ve Raporlama Hizmetleri blogu](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
 
-## <a name="analytical-workspaces"></a>Analitik çalışma alanları
+## <a name="analytical-workspaces"></a>Analiz çalışma alanları
 Çalışma alanlarında Microsoft Power BI tarafından desteklenen zengin infografikler ve görseller kullanılabilir. Bu infografikler ve görseller üçüncü tarafların sağladığı pek çok denetim içerir. Bu nedenle, çalışma alanları kullanıcılara oldukça görsel ve etkileşimli bir deneyim sunabilir.
 
 Kullanıcılar sayfadaki görsellere tıklayarak veya dokunarak verilerle etkileşim kurabilirler. Sebep-sonuç ilişkisini görebilirler ve çalışma alanından ayrılmadan basit deneme işlemleri gerçekleştirebilirler. Etkileyici, etkileşimli görseller sayesinde kullanıcılarınız verileri keşfedip gizli eğilimleri ortaya çıkarırken eğlenebilir.

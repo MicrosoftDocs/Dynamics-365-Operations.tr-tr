@@ -14,25 +14,25 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: abfba49c1b5e410cdc47db9965ffee26fbaebb9e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866551"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067697"
 ---
 # <a name="globalization-resources"></a>Globalleştirme kaynakları
 
 ## <a name="local-and-regional-deployments"></a>Yerel ve bölgesel dağıtımlar
 Bulunduğunuz bölgedeki mevzuat verilerin diğer ülkelerden/bölgelerden farklı şekilde depolanmasını veya sunulmasını gerektiriyorsa dağıtım sırasında dikkate almanız gereken ülkeye/bölgeye özel gereklilikler olabilir. Sizinle ilgili olabilecek aşağıdaki kaynakları inceleyin:
 
-[Çin'de 21Vianet tarafından işletilen Finans ve Operasyon uygulamaları](../deployment/china-local-deployment.md)
+[Çin'de 21Vianet tarafından işletilen finans ve operasyon uygulamaları](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Yerelleştirme ve mevzuat özellikleri
 
 [!include [banner](../includes/banner.md)]
 
-Finans ve Operasyon uygulamalarında, [Ürün yerelleştirme ve çeviri kullanılabilirlik kılavuzunda](https://aka.ms/dynamics_365_international_availability_deck) belirtilen ülkelere/bölgelere yönelik işlev bulunmaktadır. Bu işlev, etkin tüzel kişiliğin birincil adresi esas alınarak etkinleştirilir. 
+Finans ve operasyon uygulamalarında, [Ürün yerelleştirme ve çeviri kullanılabilirlik kılavuzunda](https://aka.ms/dynamics_365_international_availability_deck) belirtilen ülkelere/bölgelere yönelik işlev bulunmaktadır. Bu işlev, etkin tüzel kişiliğin birincil adresi esas alınarak etkinleştirilir. 
 
 Bu makale, aşağıdakileri yapmanıza yardımcı olabilecek kaynakların listesini içerir: 
 - Ülkeye/bölgeye özel çözümler geliştirmeyle ilgili daha fazla bilgi edinme.
@@ -62,8 +62,8 @@ Aşağıdaki kaynaklar, planlanan ve yeni yerelleştirme özellikleri hakkında 
 #### <a name="dynamics-365-release-plans"></a>Dynamics 365 sürüm planları
 [Dynamics 365 sürüm planları](/business-applications-release-notes/), Dynamics 365 iş uygulamaları ve uygulama platformları için planlanan yeni ve geliştirilmiş özelliklerle ilgili açıklamalar sağlar. 
 
-#### <a name="finance-and-operations-apps-whats-new"></a>Finans ve Operasyon uygulamalarındaki yenilikler
-[Finance and Operations'taki yenilikler veya değişiklikler giriş sayfası](../../fin-ops/get-started/whats-new-changed.md), Finans ve Operasyon uygulamalarının belirli sürümlerine eklenen özellikleri listeler.
+#### <a name="finance-and-operations-apps-whats-new"></a>Finans ve operasyon uygulamalarındaki yenilikler
+[Finans ve operasyon uygulamalarındaki yenilikler veya değişiklikler giriş sayfası](../../fin-ops/get-started/whats-new-changed.md), finans ve operasyon uygulamalarının belirli sürümlerine eklenen özellikleri listeler.
 
 ### <a name="electronic-reporting"></a>Elektronik raporlama
 Elektronik raporlama (ER) aracı, elektronik belgelerin biçimini çeşitli ülkelerin/bölgelerin yasal gereksinimlerine uygun şekilde yapılandırmanıza olanak tanır. ER, yaşam döngüleri boyunca bu biçimleri yönetmenizi sağlar. Daha fazla bilgi için aşağıdaki konulardan birine başvurun:
@@ -133,3 +133,4 @@ Daha fazla bilgi için bkz. [Yardım sistemi](../../fin-ops/get-started/help-ove
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

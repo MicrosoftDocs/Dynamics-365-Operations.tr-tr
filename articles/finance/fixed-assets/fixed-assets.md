@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57e81aaefd61eb9e695d8fe0d1c7cac4091bece7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d50af9deb5309a31b886441780fe6b40b8b152ae
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880830"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065351"
 ---
 # <a name="fixed-assets-home-page"></a>Sabit kıymetler giriş sayfası
 
@@ -46,7 +46,7 @@ Planlanmış yeni özellikleri görmek için [Microsoft Dynamics 365 sürüm pla
 
 [Microsoft Dynamics 365 bloğunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ve [Microsoft Dynamics 365 Finance and Operations - Finansal bloğunda](https://community.dynamics.com/365/financeandoperations/b/financials) fikirler, haberler ve bilgiler bulabilirsiniz.
 
-[Microsoft Dynamics Operations İş Ortağı Topluluk Blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na Dynamics 365'teki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunulmaktadır.
+[Microsoft Dynamics Operations İş Ortağı Topluluğu Blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na Dynamics 365'teki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunulmaktadır.
 
 #### <a name="task-guides"></a>Görev kılavuzları
 Ek yardıma görev kılavuzları olarak ulaşılabilir. Görev kılavuzlarına erişmek için herhangi bir sayfada Yardım düğmesine tıklayın.
@@ -63,3 +63,4 @@ Check out the how-to videos that are now available on the [Microsoft Dynamics 36
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

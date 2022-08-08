@@ -1,7 +1,7 @@
 ---
 title: Boş durumunda olan çek oluşturma
 description: Bu makalede, bir banka hesabı için boş çeklerin nasıl oluşturulacağı açıklanmaktadır.
-author: abruer
+author: angelad116
 ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: twheeloc
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
-ms.author: abruer
+ms.author: angelading
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 834e11e0e359521c674e2b6fd78c93dcb23961a0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d3f3857fe5261c1c95d02f3b7c7aaf9db7c096f
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861458"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151595"
 ---
 # <a name="create-checks-that-have-blank-status"></a>Boş durumunda olan çek oluşturma
 

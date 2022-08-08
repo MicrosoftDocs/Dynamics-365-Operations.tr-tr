@@ -6,7 +6,7 @@
           href: index.md
         - name: Yenilikler veya değişiklikler
           items:
-            - name: Finans ve Operasyon uygulamalarındaki yenilikler veya değişiklikler
+            - name: Finans ve operasyon uygulamalarındaki yenilikler veya değişiklikler
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Human Resources uygulamasındaki yenilikler veya değişiklikler
               items:
@@ -58,7 +58,13 @@
                       href: hr-whats-new-2021-01-28.md
                     - name: 21 Ocak 2021
                       href: hr-whats-new-2021-01-21.md
-        - name: Kullanmaya başlayın
+                - name: Kaldırılan veya kullanım dışı bırakılan özellikler
+                  items:
+                    - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
+                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
+                    - name: Dynamics 365 Human Resources uygulamasından kaldırılan veya kullanım dışı bırakılan özellikler
+                      href: get-started/removed-deprecated-features-hr.md
+        - name: Başlayın
           items:
             - name: Genel bakış
               href: hr-admin-overview.md
@@ -66,14 +72,18 @@
               href: hr-admin-system-requirements.md
             - name: Kurulumları ayarlama ve yönetme
               items:
-                - name: Human Resources'ı hazırlama
-                  href: hr-admin-setup-provision.md
-                - name: Örneği kopyalama
-                  href: hr-admin-setup-copy-instance.md
-                - name: Örneği kaldırma
-                  href: hr-admin-setup-remove-instance.md
-                - name: Güncelleştirme işlemi
-                  href: hr-admin-setup-update-process.md
+                - name: Finans ve operasyon altyapısında Human Resources'ı hazırlama
+                  href: hr-admin-setup-provision-fo.md
+                - name: Tek başına altyapıda Human Resources'ı hazırlama
+                  items:
+                    - name: Human Resources'ı hazırlama
+                      href: hr-admin-setup-provision.md
+                    - name: Kurulumu kopyalama
+                      href: hr-admin-setup-copy-instance.md
+                    - name: Kurulumu kaldırma
+                      href: hr-admin-setup-remove-instance.md
+                    - name: Güncelleştirme işlemi
+                      href: hr-admin-setup-update-process.md
             - name: Veri tümleştirmesini ayarlama
               items:
                 - name: Veri tümleştirme teknolojisi seçme
@@ -99,91 +109,91 @@
                 - name: Office ile tümleştirme
                   items:
                     - name: Office tümleştirmesi öğreticisi
-                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?context=/dynamics365/context/human-resources
                     - name: Excel'de varlık verilerini güncelleştirme
-                      href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?context=/dynamics365/context/human-resources
                     - name: Excel'de Aç deneyimleri ile ilgili SSS
-                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?context=/dynamics365/context/human-resources
                     - name: Office tümleştirmesi ile ilgili sorunları giderme
-                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?context=/dynamics365/context/human-resources
                 - name: Veri yönetimini yapılandırma
                   items:
                     - name: Veri yönetimi çerçevesine genel bakış
-                      href: ../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?context=/dynamics365/context/human-resources
                     - name: Veri varlıkları
                       items:
                         - name: Veri varlıklarına genel bakış
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities.md?context=/dynamics365/context/human-resources
                         - name: Yapılandırma veri projeleri
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-projects.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-projects.md?context=/dynamics365/context/human-resources
                     - name: Şirketler veya tüzel kişilikler arasında yapılandırma verilerini kopyalama
                       items:
                         - name: Yapılandırma verilerini kopyalamaya genel bakış
-                          href: ../fin-ops-core/dev-itpro/data-entities/copy-configuration.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/copy-configuration.md?context=/dynamics365/context/human-resources
                         - name: Yapılandırma veri paketleri
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?context=/dynamics365/context/human-resources
                         - name: Yapılandırma veri paketleri (yalnızca Temmuz 2017 sürümü)
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?context=/dynamics365/context/human-resources
                         - name: Yapılandırma veri şablonları
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md?context=/dynamics365/context/human-resources
                         - name: Varlık üzerindeki değişiklikleri izleme
-                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?context=/dynamics365/context/human-resources
                         - name: Standart veri varlıklarıyla ilgili bilgileri bulma
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities-report.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities-report.md?context=/dynamics365/context/human-resources
                         - name: Birden çok çalışma sayfasına sahip veri şablonları
-                          href: ../fin-ops-core/dev-itpro/data-entities/excel-template-multiple.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/excel-template-multiple.md?context=/dynamics365/context/human-resources
                         - name: Varlıklar için değişiklik izlemeyi etkinleştirme
-                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?context=/dynamics365/context/human-resources
                         - name: Yapılandırma anahtarları ve veri varlıkları
-                          href: ../fin-ops-core/dev-itpro/data-entities/config-key-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/config-key-entities.md?context=/dynamics365/context/human-resources
                         - name: Yapılandırma veri paketleri
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?context=/dynamics365/context/human-resources
                     - name: Veri içe ve dışarı aktarma işleri
                       items:
                         - name: Veri içe ve dışarı aktarma işlerine genel bakış
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?context=/dynamics365/context/human-resources
                         - name: Yevmiye defteri varlığını kullanarak fişleri içeri aktarmaya yönelik en iyi uygulamalar
-                          href: ../fin-ops-core/dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?context=/dynamics365/context/human-resources
                     - name: Veri varlıkları için geliştirme
                       items:
                         - name: Tasarım ilkeleri ve veri varlıkları için en iyi yöntemler
-                          href: ../fin-ops-core/dev-itpro/dev-tools/design-best-practices.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/dev-tools/design-best-practices.md?context=/dynamics365/context/human-resources
                         - name: Yeni veri varlıkları oluşturma
-                          href: ../fin-ops-core/dev-itpro/data-entities/build-consuming-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/build-consuming-data-entities.md?context=/dynamics365/context/human-resources
                         - name: Veri varlığı özellikleri
-                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?context=/dynamics365/context/human-resources
                         - name: Hesaplanan sütunlar ve sanal alanlar oluşturma
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?context=/dynamics365/context/human-resources
                         - name: Şirketler arası davranış
-                          href: ../fin-ops-core/dev-itpro/data-entities/cross-company-behavior.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/cross-company-behavior.md?context=/dynamics365/context/human-resources
                         - name: Ülke/bölge kodlarını yönetme
-                          href: ../fin-ops-core/dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/countryregion-codes-configuration-keys.md?context=/dynamics365/context/human-resources
                         - name: Devralma modelleri
-                          href: ../fin-ops-core/dev-itpro/data-entities/support-super-type-sub-type.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/support-super-type-sub-type.md?context=/dynamics365/context/human-resources
                         - name: Veri varlığı sihirbazı kuralları
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-wizard-rules.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-wizard-rules.md?context=/dynamics365/context/human-resources
                         - name: Mera veri özellikleri
-                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?context=/dynamics365/context/human-resources
                         - name: 'Doğrulamalar, varsayılanlar ve eşlenmemiş alanlar'
-                          href: ../fin-ops-core/dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/validations-defaults-unmapped-fields.md?context=/dynamics365/context/human-resources
                         - name: Güvenlik ve veri varlıkları
-                          href: ../fin-ops-core/dev-itpro/data-entities/security-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/security-data-entities.md?context=/dynamics365/context/human-resources
                         - name: Üçüncü taraf hizmet sınama yardımcı programlarını kullanma
-                          href: ../fin-ops-core/dev-itpro/data-entities/third-party-service-test.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/third-party-service-test.md?context=/dynamics365/context/human-resources
                         - name: Mali boyutları gösteren salt okunur varlıklar oluşturma
-                          href: ../fin-ops-core/dev-itpro/financial/read-only-entity-financial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/financial/read-only-entity-financial.md?context=/dynamics365/context/human-resources
                     - name: Kendi veritabanınızı getirme
-                      href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?context=/dynamics365/context/human-resources
                     - name: KCG toplu işlerini iyileştirme
                       href: hr-admin-integration-byod-batch-jobs.md
                     - name: Otomatikleştirilmiş Varlık deposu yenileme
-                      href: ../fin-ops-core/dev-itpro/analytics/automated-entity-store-refresh.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/automated-entity-store-refresh.md?context=/dynamics365/context/human-resources
                     - name: Veri görevi otomasyonu
-                      href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/human-resources
                     - name: Veri doğrulama denetim listesi çalışma alanı
-                      href: ../fin-ops-core/dev-itpro/user-interface/data-validation-workspace.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/user-interface/data-validation-workspace.md?context=/dynamics365/context/human-resources
                     - name: Veri yönetimi hata açıklamaları
-                      href: ../fin-ops-core/dev-itpro/data-entities/dm-error-descriptions.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/dm-error-descriptions.md?context=/dynamics365/context/human-resources
                     - name: Özellikleri yönetme
                       href: hr-admin-manage-features.md
                     - name: Veritabanı günlüğü yapılandırma ve yönetme
@@ -234,6 +244,8 @@
                   href: hr-admin-go-live-faq.md
                 - name: Human Resources altyapısını birleştirme ile ilgili SSS
                   href: hr-infrastructure-merge-faq.md
+                - name: Human Resources müşteri geçişi ile ilgili SSS
+                  href: customer-migration.md
                 - name: Belge kaynakları
                   items:
                     - name: Yardım sistemi
@@ -994,7 +1006,7 @@
                   href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
                 - name: Personel kazanç planı durumu
                   href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
-    - name: Finans ve Operasyon uygulamalarını geliştirme ve yönetme
+    - name: Finans ve operasyon uygulamalarını geliştirme ve yönetme
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
