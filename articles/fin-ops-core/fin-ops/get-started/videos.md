@@ -1,6 +1,6 @@
 ---
 title: Videolar
-description: Bu sayfa Finance and Operations uygulaması için Microsoft tarafından oluşturulan ve YouTube ve diğer sitelerde yayınlanan "nasıl yapılır" ve Teknik konuşma videolarını listeler.
+description: Bu sayfada, finans ve operasyon uygulamaları için Microsoft tarafından oluşturulan ve YouTube ve diğer sitelerde sunulan "nasıl yapılır" ve Teknik konuşma videoları listelenmektedir.
 author: sericks007
 ms.date: 06/13/2022
 ms.topic: article
@@ -14,27 +14,27 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 76fe61c13490afbd7b5dcd39f3c631cbab43bb9e
-ms.sourcegitcommit: 0686b56b4699ffefd2c208d0fe496d5860296520
+ms.openlocfilehash: a21a9122badc308940c0182061a18051bfcc0abd
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8958152"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124969"
 ---
 # <a name="videos"></a>Videolar 
 
 [!include [banner](../includes/banner.md)]
 
-[Microsoft Dynamics 365 YouTube kanalında](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), Dynamics 365 ürünleri için Microsoft tarafından oluşturulan ve çok çeşitli iş çözümlerini gösteren videolar bulabilirsiniz. Bu bölüm kanalda barındırılan Finance and Operations uygulamalarıyla ilgili "nasıl yapılır" videolarını listeler.
+[Microsoft Dynamics 365 YouTube kanalında](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), Dynamics 365 ürünleri için Microsoft tarafından oluşturulan ve çok çeşitli iş çözümlerini gösteren videolar bulabilirsiniz. Bu bölümde kanalda barındırılan finans ve operasyon uygulamalarıyla ilgili "nasıl yapılır" videoları listelenmektedir.
 
 > [!Note]
 > Listelenen videolardan bazıları önceki bir ürün adıyla yayımlanmıştır ancak yine de ilgilidir.
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>Finance and Operations geliştirme ve yönetimi için videolar
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>Finans ve operasyon için geliştirme ve yönetim videoları
 
 ### <a name="data-integration"></a>Veri bütünleştirmesi
 
-- [Dynamics 365 for Field Service ile Finance and Operations uygulamaları arasında bir iş emrini eşitleme](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Dynamics 365 for Field Service ile finans ve operasyon uygulamaları arasında bir iş emrini eşitleme](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Veri yönetimi
 
@@ -50,8 +50,8 @@ ms.locfileid: "8958152"
 ### <a name="intelligence"></a>Zeka
 
 - [Analiz çalışma alanında katıştırılmış raporu düzeleme](https://youtu.be/_8WlwmSggcQ)
-- [Finance and Operations uygulamalarına PowerBI.com raporları nasıl katıştırılır?](https://youtu.be/gGWuNJDoi-M)
-- [Finance and Operations uygulamalarına kendi veritabanınızı getirme (BYOD)](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Finans ve operasyon uygulamalarına PowerBI.com raporları nasıl katıştırılır?](https://youtu.be/gGWuNJDoi-M)
+- [Finans ve operasyon uygulamalarına kendi veritabanınızı (BYOD) getirme](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Dynamics 365'te maliyet yönetimi Power BI içeriğini kullanma](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
@@ -169,3 +169,4 @@ ms.locfileid: "8958152"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

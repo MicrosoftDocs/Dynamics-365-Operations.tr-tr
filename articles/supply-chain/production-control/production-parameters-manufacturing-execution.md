@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 6d440a0d0d95fe93ed633fa588e1c3a193757d9d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9016173"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070394"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Üretim yürütmede üretim parametreleri
 
@@ -71,7 +71,7 @@ Her aşama için **Otomatik ürün reçetesi tüketimi** alanı, bir üretim emr
   - Boş (Hiçbir seçenek belirtilmez.)
   - **Yerleşimde kullanılabilir**
 
-    Üretim yürütmede, **Başlangıç** sekmesindeki **Otomatik ürün reçetesi tüketimi** alanında **Otomatik tüketim kuralı** seçilirse, ürün reçetesinde **Başlangıç** olarak ayarlanan tüm malzemeler operasyon başlatıldığında, stoktan düşülür. **Yerleşimde kullanılabilir** seçeneği, gelişmiş ambar işlemleri için etkinleştirilen ürünler için kullanılır. Bu otomatik tüketim kuralını seçerseniz, malzeme ham madde çekme için ambar işi tamamlandığında tüketilir. Malzeme ayrıca bu tüketim kuralını kullanan bir ürün reçetesi satırı ambara serbest bırakıldığında ve malzeme üretim giriş konumunda kullanılabilir olduğunda da tüketilir.
+    Üretim yürütmede, **Başlangıç** sekmesindeki **Otomatik ürün reçetesi tüketimi** alanında **Otomatik tüketim kuralı** seçilirse, ürün reçetesinde **Başlangıç** olarak ayarlanan tüm malzemeler operasyon başlatıldığında, stoktan düşülür. **Yerleşimde kullanılabilir** seçeneği, ambar yönetimi işlemleri (WMS) için etkinleştirilen ürünler için kullanılır. Bu otomatik tüketim kuralını seçerseniz, malzeme ham madde çekme için ambar işi tamamlandığında tüketilir. Malzeme ayrıca bu tüketim kuralını kullanan bir ürün reçetesi satırı ambara serbest bırakıldığında ve malzeme üretim giriş konumunda kullanılabilir olduğunda da tüketilir.
 
     > [!NOTE]
     > **Otomatik tüketim kuralı** alanı Üretim yürütme içerisinde **Başlat** sekmesinde ayarlanmışsa, aynı kuralı ya **Operasyonlar** sekmesinde ya da **Tamamlandı olarak raporla** sekmesinde seçmelisiniz. Bu gereksinim, malzemelerin, **Sonlandır**'ı tüketim kuralı olarak üretim emrinde kullanan ürün reçetelerinden eksiltilmesini garanti etmeye yardımcı olur. **Operasyonlar** sekmesinde veya **Tamamlandı bildirimi** sekmesinde aynı otomatik tüketim kuralı seçilmezse, malzemelerin stoktan iki kez düşülebilir.

@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.openlocfilehash: e2b13403ffb316059476a03857c849b4f9f8cb9c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83e20d9fc655a474a11521ec61d0b64d30603181
+ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884675"
+ms.lasthandoff: 07/16/2022
+ms.locfileid: "9169143"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>URL parametrelerini temel alan dinamik e-ticaret sayfaları oluşturma
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Bu makalede, URL parametrelerine göre dinamik içerik sunabilen bir Microsoft Dynamics 365 Commerce e-ticaret sayfasının nasıl ayarlanacağı açıklanmaktadır.
 
@@ -30,7 +29,7 @@ Ayrıca site oluşturucusu sayfasıyla parametreli hale getirilen bir URL segmen
 Dinamik sayfaya geçirilecek parametreler için ad seçerken, dinamik sayfa adı URL'deki şekliyle (yukarıdaki örnekte `/blog`) parametre adı veya parametre adının alt dizesi olarak kullanılamaz. 
 
 > [!NOTE]
-> Dinamik sayfa içeriğini barındırma, alma ve gösterme işlevi özel bir modül kullanılarak uygulanır. Daha fazla bilgi için, bkz. [Çevrimiçi kanal genişletilebilirliği](e-commerce-extensibility/overview.md).
+> Dinamik sayfa içeriğini barındırma, alma ve gösterme işlevi özel bir modül kullanılarak uygulanır. Daha fazla bilgi için bkz. [Çevrimiçi kanal genişletilebilirliği](e-commerce-extensibility/overview.md).
 
 ## <a name="set-up-a-dynamic-e-commerce-page"></a>Dinamik e-ticaret sayfası ayarlama
 

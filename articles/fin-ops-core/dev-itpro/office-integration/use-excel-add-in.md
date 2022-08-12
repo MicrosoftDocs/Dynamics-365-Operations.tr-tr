@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a05c34454e27244bb08bfff84f2ada6ff498f23
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 388be651164af622dbabd7b2c7b3437233454bea
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862169"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108616"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Varlık verilerini Excel ile görüntüleme ve güncelleştirme 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8862169"
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
-Bu makalede, Microsoft Excel'de varlık verilerinin nasıl açılacağı, ardından Microsoft Dynamics Excel eklentisini kullanarak bu verilerin nasıl görüntüleneceği, güncelleştirileceği ve düzenleneceği açıklanmaktadır. Varlık verilerini açmak için Excel'den veya Finans ve Operasyon uygulamalarından başlayabilirsiniz.
+Bu makalede, Microsoft Excel'de varlık verilerinin nasıl açılacağı, ardından Microsoft Dynamics Excel eklentisini kullanarak bu verilerin nasıl görüntüleneceği, güncelleştirileceği ve düzenleneceği açıklanmaktadır. Varlık verilerini açmak için Excel'den veya finans ve operasyon uygulamalarından başlayabilirsiniz.
 
 Varlık verilerini Excel'de açarak, Excel eklentisiyle bu verileri hızlı ve kolay bir şekilde görüntüleyip düzenleyebilirsiniz. Bu eklenti Microsoft Excel 2016 veya sonraki bir sürümünü gerektirir.
 
@@ -40,15 +40,15 @@ Varlık verilerini Excel'de açarak, Excel eklentisiyle bu verileri hızlı ve k
 
 Excel eklentisini nasıl kullanacağınızı öğrenmek için [Üst bilgi ve satır düzenleri için Excel şablonu oluşturma](https://youtu.be/RTicLb-6dbI) kısa videosunu izleyin.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Finans ve Operasyon uygulamasından başlattığınızda varlık verilerini Excel'de açma
-1. Finans ve Operasyon uygulamasındaki bir sayfada **Microsoft Office'te aç**'ı seçin.
+## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Finans ve operasyon uygulamasından başlattığınızda varlık verilerini Excel'de açma
+1. Finans ve operasyon uygulamasındaki bir sayfada **Microsoft Office'te aç**'ı seçin.
 
     Sayfanın kök veri kaynağı (tablo) tüm varlıklar için kök veri kaynağı ile aynı ise, sayfa için, varsayılan **Excel'de aç** seçenekleri oluşturulur. **Excel'de aç** seçenekleri sık kullanılan sayfalarda (**Tüm satıcılar** ve **Tüm müşteriler** vb.) bulunabilir.
  
 2. Bir **Excel'de aç** seçeneğini belirleyin ve oluşturulan çalışma kitabını açın. Bu çalışma kitabı varlık için bağlayıcı bilgiler, ortamınız için bir işaretçi ve Excel eklentisi için bir işaretçi içerir.
 3. Excel'de,**Düzenlemeyi etkinleştir**'i seçerek Excel eklentisini etkinleştirin. Excel eklentisi Excel penceresinin sağ tarafındaki bir bölmede çalışır.
 4. Excel eklentisini ilk kez çalıştırıyorsanız **Bu eklentiyle güven**'i seçin.
-5. Oturum açmanız istendiğinde **Oturum aç**'ı seçin ve ardından Finans ve Operasyon uygulamasında oturum açmak için kullandığınız kimlik bilgilerini kullanarak oturum açın. Excel eklentisi, yapabiliyorsa, tarayıcıdan aldığı önceki oturum bağlamını kullanır ve oturumunuzu otomatik olarak açar. (İşletim sistemine göre kullanılan tarayıcı hakkında daha fazla bilgi için bkz. [Office eklentileri tarafından kullanılan tarayıcılar](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins). Oturum açma işleminin başarılı olması için Excel eklentisinin sağ üst köşesindeki kullanıcı adını doğrulayın. 
+5. Oturum açmanız istendiğinde **Oturum aç**'ı seçin ve ardından finans ve operasyon uygulamasında oturum açmak için kullandığınız kimlik bilgilerini kullanarak oturum açın. Excel eklentisi, yapabiliyorsa, tarayıcıdan aldığı önceki oturum bağlamını kullanır ve oturumunuzu otomatik olarak açar. (İşletim sistemine göre kullanılan tarayıcı hakkında daha fazla bilgi için bkz. [Office eklentileri tarafından kullanılan tarayıcılar](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins). Oturum açma işleminin başarılı olması için Excel eklentisinin sağ üst köşesindeki kullanıcı adını doğrulayın. 
 
 Excel eklentisi, seçtiğiniz varlıkla ilgili verileri otomatik olarak okur. Excel eklentisi okuyana kadar çalışma kitabında veri olmayacağını unutmayın.
 
@@ -57,7 +57,7 @@ Excel eklentisi, seçtiğiniz varlıkla ilgili verileri otomatik olarak okur. Ex
 2. Office Mağazası'nda **Dynamics** anahtar sözcüğünü arayıp **Microsoft Dynamics Office Eklentisi** (Excel eklentisi) yanındaki **Ekle**'yi seçin.
 3. Excel eklentisini ilk kez çalıştırıyorsanız **Bu eklentiyle güven**'i seçerek Excel eklentisini etkinleştirin. Excel eklentisi Excel penceresinin sağ tarafındaki bir bölmede çalışır.
 4. **Sunucu bilgilerini ekle**'yi seçerek **Seçenekler** bölmesini açın.
-5. Tarayıcınızda, hedef Finans ve Operasyon uygulaması örneğinizin URL'sini kopyalayıp **Sunucu URL**'si alanına yapıştırın ve ana bilgisayar adından sonraki her şeyi silin. Ortaya çıkan URL yalnızca ana bilgisayar adına sahip olmalıdır.
+5. Tarayıcınızda, hedef finans ve operasyon uygulaması örneğinizin URL'sini kopyalayıp **Sunucu URL**'si alanına yapıştırın ve ana bilgisayar adından sonraki her şeyi silin. Ortaya çıkan URL yalnızca ana bilgisayar adına sahip olmalıdır.
 
     Örneğin, URL `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage` ise `https://xxx.dynamics.com` dışındaki her şeyi silin.
 
@@ -76,7 +76,7 @@ Excel eklentisi, seçtiğiniz varlıkla ilgili verileri otomatik olarak okur. Ex
 Excel eklentisi varlık verilerini okuyup çalışma kitabına aktardıktan sonra verileri Excel'deki **Yenile**'yi seçerek istediğiniz zaman güncelleştirebilirsiniz.
 
 ## <a name="edit-entity-data-in-excel"></a>Varlık verilerini Excel'de düzenleme
-Varlık verilerini gerektiği gibi değiştirebilir ve Excel eklentisindeki **Yayımla**'yı seçerek Finans ve Operasyon uygulamalarında yeniden yayımlayabilirsiniz. Bir kaydı düzenlemek için çalışma sayfasında bir hücre seçin ve hücre değerini değiştirin. Yeni bir kayıt eklemek için aşağıdaki adımlardan birini izleyin:
+Varlık verilerini gerektiği gibi değiştirebilir ve Excel eklentisindeki **Yayımla**'yı seçerek finans ve operasyon uygulamalarında yeniden yayımlayabilirsiniz. Bir kaydı düzenlemek için çalışma sayfasında bir hücre seçin ve hücre değerini değiştirin. Yeni bir kayıt eklemek için aşağıdaki adımlardan birini izleyin:
 
 - Veri kaynakları tablosunda herhangi bir yere tıklayın ve ardından Excel eklentisinde **Yeni**'yi seçin.
 - Veri kaynakları tablosunun son satırında herhangi bir yere tıklayın ve sonra imleç satırın son sütununa gidip yeni bir satır oluşana kadar Sekme tuşuna basın.
@@ -146,3 +146,4 @@ Bazı kolay adımlarla çözülebilecek birkaç sorun var.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e46c5721853ebfe3b9d5955ca5f4e7a4ead570c1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fffe9c042c71dc220179bb6d1ba7fd59d5e53cc0
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846314"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069548"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-19-2021"></a>Dynamics 365 Human Resources'daki yenilikler veya değişiklikler 19 Nisan 2021
 
@@ -41,7 +41,7 @@ Aşağıdaki özellikler genel olarak bu sürümde mevcuttur.
 
 | Özellik | Sürüm planı | Belgeler |
 | --- | --- | --- |
-| Platform güncelleştirmesi 10.0.17 (41) | -- | [Finans ve Operasyon uygulamalarının 10.0.17 sürümü için platform güncelleştirmeleri (Nisan 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
+| Platform güncelleştirmesi 10.0.17 (41) | -- | [Finans ve operasyon uygulamalarının 10.0.17 sürümü için platform güncelleştirmeleri (Nisan 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
 | Kazançlar Yönetim formlarında Özel Alanlar desteği | [Kazançlar yönetim formlarında özel alanlar desteği](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-benefits-management)| [Kazanç yönetimine genel bakış](hr-benefits-management-overview.md)|
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
@@ -77,10 +77,10 @@ Aşağıdaki yeni özellikler önizlemededir. Özellikleri açma hakkında daha 
 | Özellik | Ayrıntılı |
 | --- | --- |
 | Çalışanları için bir yönetici tarafından girilen yetenekler, bir iş akışı tarafından otomatik olarak onaylanabilir | Çok yakında sunulacak. |
-| Platform güncelleştirmesi 10.0.18 (42) | Platform Update 10.0.18, 17 Mayıs 2021'deki hizmet sürümü ile kullanıma sunulmak üzere zamanlanmıştır. Daha fazla bilgi için bkz. [Finans ve Operasyon uygulamalarının 10.0.18 sürümü için platform güncelleştirmeleri (Mayıs 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
+| Platform güncelleştirmesi 10.0.18 (42) | Platform Update 10.0.18, 17 Mayıs 2021'deki hizmet sürümü ile kullanıma sunulmak üzere zamanlanmıştır. Daha fazla bilgi için bkz. [Finans ve operasyon uygulamalarının 10.0.18 sürümü için platform güncelleştirmeleri (Mayıs 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
 | Kazançlar yönetimi uygunluğu kurallarında özel alanlar desteği  | [Uygunluk işleme için özel alan desteği](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |
 
-Planlanan özelliklerin tam listesi ve bunların zamanlanmış sürümleri için, bkz. [Dynamics 365 Human Resources 2021 sürümü 1. Dalga'ya genel bakış](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
+Planlanan özelliklerin tam listesi ve bunların zamanlanmış sürümleri için bkz. [Dynamics 365 Human Resources 2021 sürümü 1. Dalga'ya genel bakış](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
@@ -90,3 +90,4 @@ Planlanan özelliklerin tam listesi ve bunların zamanlanmış sürümleri için
 [Özellikleri yönetme](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

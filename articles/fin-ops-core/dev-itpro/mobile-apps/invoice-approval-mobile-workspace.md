@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: e9067e33038ee09b8f8cdcc8dd597ab5be9cfe7f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4cc05d9fcea129cfb2ed8ed8df4bd4034a1fed4c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868683"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066405"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Fatura onayları mobil çalışma alanı
 
@@ -26,9 +26,9 @@ ms.locfileid: "8868683"
 
 Bu makalede, **Fatura onayları** mobil çalışma alanı hakkında bilgi sağlanmaktadır. Bu çalışma alanı, fatura başlığı iş akışı işlemi üzerinden size atanmış olan faturaların bir listesini sağlar. 
 
-Bu mobil çalışma alanı, Finance and Operations mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
+Bu mobil çalışma alanı, finans ve operasyon mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
 
-## <a name="overview"></a>Genel bakış
+## <a name="overview"></a>Genel Bakış
 
 **Fatura onayları** mobil çalışma alanı, Borç hesapları memurları ve yöneticilerinin, onlara atanmış olan faturalarını bir satıcı faturası başlığı iş akışı işlemi olarak görmelerine olanak sağlar. Fatura bilgisini görüntüleyebilir ve hatta satır ve dağıtım ayrıntılarını, bilgili onay kararları vermenize yardımcı olmak için kullanabilirsiniz. Çalışma alanından, faturayı iş akışı işleminde taşımak için eylem alabilirsiniz. 
 
@@ -61,7 +61,7 @@ Bu mobil çalışma alanını kullanmadan önce, aşağıdaki gereksinimleri kar
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobil uygulamayı indirin ve yükleyin
 
-Finance and Operations mobil uygulamasını indirip yükleyin:
+Finans ve operasyon mobil uygulamasını indirip yükleyin:
 
 -   [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [İPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -88,3 +88,4 @@ Finance and Operations mobil uygulamasını indirip yükleyin:
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

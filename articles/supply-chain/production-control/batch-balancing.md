@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 50392e8aa0deb568a57e1df59ced70625a4f8a78
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 939066fbf4ab7b316283d406c321f1a7936c187f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856062"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066561"
 ---
 # <a name="batch-balancing"></a>Toplu iş dengelemesi
 
@@ -165,22 +165,22 @@ Toplu iş bileşenlerini dengeleme alt işleminde, bir ürün toplu işinde kull
 
 ### <a name="confirm-and-release-the-formula"></a>Formül onaylama ve serbest bırakma
 
-Bileşen miktarları hesaplandıktan sonra, formülü onaylayıp serbest bırakabilirsiniz. Serbest bırakma işlemi, ürünlerin ambar yönetim işlemleri için etkin olup olmamasına bağlı olarak farklılık gösterir:
+Bileşen miktarları hesaplandıktan sonra, formülü onaylayıp serbest bırakabilirsiniz. Serbest bırakma işlemi, ürünlerin ambar yönetim işlemleri (WMS) için etkin olup olmamasına bağlı olarak farklılık gösterir:
 
-- Bir ürün ambar yönetimi işlemleri için etkinleştirilmişse, formül satırı ambar yönetim işlemleriyle ilgili ilkelere uygun olarak ambara serbest bırakılır. Formül satırı, dengelenen miktarlarla eşleşen miktarlarda serbest bırakılır ve etkin bileşenler için seçilen belirli toplu işler için serbest bırakılır.
+- WMS için etkinleştirilmişse formül satırı WMS ile ilgili ilkelere uygun olarak ambara serbest bırakılır. Formül satırı, dengelenen miktarlarla eşleşen miktarlarda serbest bırakılır ve etkin bileşenler için seçilen belirli toplu işler için serbest bırakılır.
 
     > [!NOTE]
     > Formül satırları yalnızca ambara toplu iş dengeleme işleminin bir bölümü olarak serbest bırakılır. Üretim için malzemeleri ambara serbest bırakmak için başka seçenekler bulunmasına karşın, bu seçenekler formül satırları için kullanılamaz.
 
-- Bir ürün ambar yönetim işlemleri için etkinleştirilmemişse, ürün için formülü onaylayıp serbest bıraktığınızda bir üretim malzeme çekme listesi oluşturulur.
+- Bir ürün WMS için etkinleştirilmemişse ürün için formülü onaylayıp serbest bıraktığınızda bir üretim malzeme çekme listesi oluşturulur.
 
-Tek bir formülde, ambar yönetimi işlemleri için etkin olan ürünler ile ambar yönetimi işlemleri için etkin olmayan ürünleri birleştirebilirsiniz. Bir formüle iki tür ürün dahil olduğunda, ambar yönetimi işlemleri için etkin olan ürünler ambara serbest bırakılır. Ambar yönetim işlemleri için etkinleştirilmemiş ürünler için, formülü onaylayıp serbest bıraktığınızda bir malzeme çekme listesi oluşturulur.
+Tek bir formülde, ambar yönetimi işlemleri için etkin olan ürünler ile ambar yönetimi işlemleri için etkin olmayan ürünleri birleştirebilirsiniz. Bir formüle iki tür ürün dahil olduğunda, WMS için etkin olan ürünler ambara serbest bırakılır. WMS için etkinleştirilmemiş ürünler için, formülü onaylayıp serbest bıraktığınızda bir malzeme çekme listesi oluşturulur.
 
 ### <a name="batch-orders-that-arent-applicable-for-batch-balancing"></a>Toplu iş dengelemesi kullanılmayan toplu iş emirleri
 
 Formülde **Bileşen türü**'nün *Etkin* olduğu en az bir formül satırı bulunması durumunda toplu iş emirlerinin toplu iş dengelemesi için kullanılmasına yönelik kuralın iki istisnası bulunur.
 
-1. Formül ambar yönetim işlemleri için etkinleştirilmiş bir ürün için etkin bileşen içeriyor ancak toplu iş numarası rezervasyon hiyerarşisinde yerleşimin altında yer alıyorsa, toplu iş dengelemesi toplu iş emri için kullanılamaz.
+1. Formül WMS için etkinleştirilmiş bir ürün için etkin bileşen içeriyor ancak toplu iş numarası rezervasyon hiyerarşisinde yerleşimin altında yer alıyorsa, toplu iş dengelemesi toplu iş emri için kullanılamaz.
 1. Formül ölçü birimi etkin bileşenin ölçü biriminden farklıysa toplu iş emri toplu iş dengelemesi için geçerli olmaz.
 
 Toplu iş dengelemesi kullanılamayan bir toplu iş emri toplu iş emirlerine yönelik normal süreçten geçer.

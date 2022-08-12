@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 10c5d9eb3f98887be976c2331f4d34530628702c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 02ab3675db0d78efa1e4e43188d79bb1e763a713
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895290"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111833"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Taraf ve genel adres defteri modeline yükseltme
 
@@ -24,7 +24,7 @@ ms.locfileid: "8895290"
 
 [Microsoft Azure Data Factory şablonları](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema), çift yazmadaki aşağıdaki verileri, taraf ve genel adres defteri modellerine çift yazmalı olarak yükseltmenize yardımcı olur: **Firma**, **İlgili Kişi** ve **Satıcı** tabloları ve posta ile elektronik adresler.
 
-Aşağıdaki üç Data Factory şablonu sağlanır. Finans ve Operasyon uygulamaları ve Customer Engagement uygulamalarındaki veriler arasında mutabakat sağlar.
+Aşağıdaki üç Data Factory şablonu sağlanır. Finans ve operasyon uygulamaları ve Customer Engagement uygulamalarındaki veriler arasında mutabakat sağlar.
 
 - **[Taraf şablonu](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/arm_template.json) (Verileri, Taraf-GAB şeması/arm_template.json öğesine çiftli yazacak şekilde yükselt)** – Bu şablon, **Firma**, **İlgili Kişi** ve **Satıcı** verileriyle ilişkili **Taraf** ve **İlgili Kişi** verilerini yükseltmenize yardımcı olur.
 - **[Taraf posta adresi şablonu](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json) (Verileri, Taraf-GAB şeması/Taraf Posta Adresine yükselt - GAB/arm_template.json öğesine çiftli yazacak şekilde yükselt)** – Bu şablon, **Firma**, **İlgili kişi** ve **Satıcı** verileriyle ilişkili posta adreslerini yükseltmenize yardımcı olur.
@@ -34,11 +34,11 @@ Aşağıdaki üç Data Factory şablonu sağlanır. Finans ve Operasyon uygulama
 
 | Dosya adı | Amaç |
 |---|---|
-| FONewParty.csv | Bu dosya, Finance and Operations uygulaması içinde yeni **Taraf** kayıtları oluşturmaya yardımcı olur. |
-| ImportFONewPostalAddressLocation.csv | Bu dosya, Finance and Operations uygulamasında yeni **Posta Adresi Konumu** kayıtlarının oluşturulmasına yardımcı olur. |
-| ImportFONewPartyPostalAddress.csv | Bu dosya, Finance and Operations uygulamasında yeni **Taraf Posta adresi** kayıtlarının oluşturulmasına yardımcı olur. |
-| ImportFONewPostalAddress.csv | Bu dosya, Finance and Operations uygulamasında yeni **Posta Adresi** kayıtlarının oluşturulmasına yardımcı olur. |
-| ImportFONewElectronicAddress.csv | Bu dosya, Finance and Operations uygulamasında yeni **Elektronik Adres** kayıtlarının oluşturulmasına yardımcı olur. |
+| FONewParty.csv | Bu dosya, finans ve operasyon uygulaması içinde yeni **Taraf** kayıtları oluşturmaya yardımcı olur. |
+| ImportFONewPostalAddressLocation.csv | Bu dosya, finans ve operasyon uygulamasında yeni **Posta Adresi Konumu** kayıtlarının oluşturulmasına yardımcı olur. |
+| ImportFONewPartyPostalAddress.csv | Bu dosya, finans ve operasyon uygulamasında yeni **Taraf Posta adresi** kayıtlarının oluşturulmasına yardımcı olur. |
+| ImportFONewPostalAddress.csv | Bu dosya, finans ve operasyon uygulamasında yeni **Posta Adresi** kayıtlarının oluşturulmasına yardımcı olur. |
+| ImportFONewElectronicAddress.csv | Bu dosya, finans ve operasyon uygulamasında yeni **Elektronik Adres** kayıtlarının oluşturulmasına yardımcı olur. |
 
 Bu makale, Data Factory şablonlarının nasıl kullanılacağını ve verilerinizin nasıl yükseltileceğini açıklar. Herhangi bir özelleştirmeleriniz yoksa, şablonları oldukları gibi kullanabilirsiniz. Ancak, **Hesap**, **İlgili Kişi** ve **Satıcı** verileri için özelleştirmeleriniz varsa, şablonları bu makalede açıklandığı şekilde değiştirmeniz gerekir.
 
@@ -61,7 +61,7 @@ Yükseltme için aşağıdaki hazırlık gereklidir:
 + **Tümleştirme anahtarları:** Müşteri etkileşimi uygulamalarındaki **Hesap (Müşteri)**, **İlgili Kişi** ve **Satıcı** tabloları kullanıma hazır gönderilen tümleştirme anahtarlarını kullanıyor. Tümleştirme anahtarlarını özelleştirdiyseniz, şablonu özelleştirmeniz gerekir.
 + **Taraf numarası:** Yükseltilecek tüm **Hesap (Müşteri)**, **İlgili Kişi** ve **Satıcı** kayıtlarında bir taraf numarası bulunur. Taraf numarası olmayan kayıtlar yok sayılır. Bu kayıtları yükseltmek istiyorsanız, yükseltme işlemine başlamadan önce onlara bir taraf numarası ekleyin.
 + **Sistem kesintisi:** Yükseltme işlemi sırasında, hem Finance and Operations ortamı hem de Customer Engagement ortamını çevrimdışına almanız gerekir.
-+ **Anlık görüntü:** Hem Finans ve Operasyon hem de Customer Engagement uygulamalarının anlık görüntüsünü alın. Gerekirse önceki durumu geri yüklemek için anlık görüntüleri kullanabilirsiniz.
++ **Anlık görüntü:** Hem finans ve operasyon hem de müşteri etkileşimi uygulamalarının anlık görüntüsünü alın. Gerekirse önceki durumu geri yüklemek için anlık görüntüleri kullanabilirsiniz.
 
 ## <a name="deployment"></a>Dağıtım
 
@@ -120,7 +120,7 @@ Bu bölümde, Taraf posta adresi ve Taraf elektronik adres Data Factory şablonl
 
 ### <a name="setup-to-run-the-party-postal-address-template"></a>Taraf posta adresi şablonunu çalıştırmak için kurulum
 
-1. Customer Engagement uygulamalarına oturum açın ve **Ayarlar** \> **Kişiselleştirme Ayarları**'na gidin. **Genel** sekmesinde, sistem yöneticisi hesabı için saat dilimini konfigüre edin. Posta adreslerinin "geçerlilik başlangıcı" ve "geçerlilik sonu" tarihlerini Finans ve Operasyon uygulamalarından güncelleştirmek için saat diliminin Eşgüdümlü Evrensel Saat'te (UTC) olması gerekir.
+1. Customer Engagement uygulamalarına oturum açın ve **Ayarlar** \> **Kişiselleştirme Ayarları**'na gidin. **Genel** sekmesinde, sistem yöneticisi hesabı için saat dilimini konfigüre edin. Posta adreslerinin "geçerlilik başlangıcı" ve "geçerlilik sonu" tarihlerini finans ve operasyon uygulamalarından güncelleştirmek için saat diliminin Eşgüdümlü Evrensel Saat'te (UTC) olması gerekir.
 
     ![Sistem yöneticisi hesabı için saat dilimi ayarı.](media/ADF-1.png)
 
@@ -128,7 +128,7 @@ Bu bölümde, Taraf posta adresi ve Taraf elektronik adres Data Factory şablonl
 
     | Numara | Ad | Tür | Değer |
     |---|---|---|---|
-    | 1 | PostalAddressIdPrefix | dize | Bu parametre, yeni oluşturulan posta adreslerine bir seri numarası öneki ekler. Finans ve Operasyon uygulamaları ve Customer Engagement uygulamalarında, posta adresleriyle çakışmayan bir dize sağladığınızdan emin olun. Örneğin, **ADF-PAD-** kullanın. |
+    | 1 | PostalAddressIdPrefix | dize | Bu parametre, yeni oluşturulan posta adreslerine bir seri numarası öneki ekler. Finans ve operasyon uygulamaları ve Customer Engagement uygulamalarında, posta adresleriyle çakışmayan bir dize sağladığınızdan emin olun. Örneğin, **ADF-PAD-** kullanın. |
 
     ![PostalAddressIdPrefix genel parametresi, Yönet sekmesinde oluşturulur.](media/ADF-2.png)
 
@@ -142,8 +142,8 @@ Bu bölümde, Taraf posta adresi ve Taraf elektronik adres Data Factory şablonl
 
     | Numara | Ad | Tür | Değer |
     |---|---|---|---|
-    | 1 | IsFOSource | bool | Bu parametre, çakışmalar durumunda hangi birincil sistem adreslerinin değiştirildiğini belirler. Değer **doğru** ise, Finans ve Operasyon uygulamalarındaki birincil adresler, Customer Engagement uygulamalarındaki birincil adreslerin yerini alır. Değer **yanlış** ise, Finans ve Operasyon uygulamalarındaki birincil adresler, Customer Engagement uygulamalarındaki birincil adreslerin yerini alır. |
-    | 2 | ElectronicAddressIdPrefix | dize | Bu parametre, yeni oluşturulan elektronik adreslere bir seri numarası öneki ekler. Finans ve Operasyon uygulamaları ve Customer Engagement uygulamalarında, elektronik adreslerle çakışmayan bir dize sağladığınızdan emin olun. Örneğin, **ADF-EAD-** kullanın. |
+    | 1 | IsFOSource | bool | Bu parametre, çakışmalar durumunda hangi birincil sistem adreslerinin değiştirildiğini belirler. Değer **doğru** ise finans ve operasyon uygulamalarındaki birincil adresler, Customer Engagement uygulamalarındaki birincil adreslerin yerini alır. Değer **yanlış** ise finans ve operasyon uygulamalarındaki birincil adresler, Customer Engagement uygulamalarındaki birincil adreslerin yerini alır. |
+    | 2 | ElectronicAddressIdPrefix | dize | Bu parametre, yeni oluşturulan elektronik adreslere bir seri numarası öneki ekler. Finans ve operasyon uygulamaları ve müşteri etkileşimi uygulamalarında, elektronik adreslerle çakışmayan bir dize sağladığınızdan emin olun. Örneğin, **ADF-EAD-** kullanın. |
 
     ![Yönet sekmesinde oluşturulan IsFOSource ve ElectronicAddressIdPrefix genel parametreleri.](media/ADF-4.png)
 
@@ -167,7 +167,7 @@ Bu bölümde, Taraf posta adresi ve Taraf elektronik adres Data Factory şablonl
 
 2. Dataverse'de haritaların **msdy_dualwriteruntimeconfig** tablosundan kaldırıldığından emin olun.
 3. AppSource'tan [Çift Yazma Taraf ve Genel Adres Defteri Çözümleri](https://aka.ms/dual-write-gab)'ni yükleyin.
-4. Finance and Operations uygulamasında, aşağıdaki tablolar veri içeriyorsa bu tablolar için **Başlangıç Eşitlemesi**'ni çalıştırın.
+4. Finans ve operasyon uygulamasında, aşağıdaki tablolar veri içeriyorsa bu tablolar için **Başlangıç Eşitlemesi**'ni çalıştırın.
 
     + Selamlamalar
     + Kişisel karakter türleri
@@ -267,10 +267,10 @@ Bu bölümde, Taraf posta adresi ve Taraf elektronik adres Data Factory şablonl
     > [!NOTE]
     > **Hesap**, **İlgili Kişi** ve **Satıcı** için özelleştirmeleriniz varsa, şablonu değiştirmeniz gerekir.
 
-8. Finance and Operations uygulamasına yeni **Taraf** kayıtlarını içe aktarın.
+8. Finans ve operasyon uygulamasına yeni **Taraf** kayıtlarını içe aktarın.
 
     1. Azure Blob depolamadan **FONewParty.csv** dosyasını indirin. Yol şöyledir: **partybootstrapping/output/FONewParty.csv**.
-    2. **FONewParty.csv** dosyasını bir Excel dosyasına dönüştürüp Excel dosyasını Finance and Operations uygulamasına aktarın. Alternatif olarak, CSV içe aktarma işlemi sizin için uygunsa, .csv dosyasını doğrudan içe aktarabilirsiniz. Bu adımın tamamlanması, veri hacmine göre birkaç saat sürebilir. Daha fazla bilgi için bkz. [Verileri içeri ve dışarı aktarma işlerine genel bakış](../data-import-export-job.md).
+    2. **FONewParty.csv** dosyasını bir Excel dosyasına dönüştürüp Excel dosyasını finans ve operasyon uygulamasına aktarın. Alternatif olarak, CSV içe aktarma işlemi sizin için uygunsa, .csv dosyasını doğrudan içe aktarabilirsiniz. Bu adımın tamamlanması, veri hacmine göre birkaç saat sürebilir. Daha fazla bilgi için bkz. [Verileri içeri ve dışarı aktarma işlerine genel bakış](../data-import-export-job.md).
 
     ![Dataverse Taraf kayıtlarını içe aktarma.](media/data-factory-import-party.png)
 
@@ -281,7 +281,7 @@ Bu bölümde, Taraf posta adresi ve Taraf elektronik adres Data Factory şablonl
 
     ![Taraf posta adresi ve Taraf elektronik adres şablonlarını çalıştırma.](media/ADF-7.png)
 
-10. Bu verilerle Finance and Operations uygulamasını güncelleştirmek için .csv dosyalarını bir Excel çalışma kitabına dönüştürmeniz ve bunu [Finance and Operations uygulamasına aktarmanız](../data-import-export-job.md) gerekir. Alternatif olarak, CSV içe aktarma işlemi sizin için uygunsa, .csv dosyalarını doğrudan içe aktarabilirsiniz. Bu adımın tamamlanması, hacme göre birkaç saat sürebilir.
+10. Bu verilerle finans ve operasyon uygulamasını güncelleştirmek için .csv dosyalarını bir Excel çalışma kitabına dönüştürmeniz ve bunu [finans ve operasyon uygulamasına aktarmanız](../data-import-export-job.md) gerekir. Alternatif olarak, CSV içe aktarma işlemi sizin için uygunsa, .csv dosyalarını doğrudan içe aktarabilirsiniz. Bu adımın tamamlanması, hacme göre birkaç saat sürebilir.
 
     ![İçe aktarma başarılı.](media/ADF-8.png)
 
@@ -364,9 +364,9 @@ Bu bölüm, sizi her bir Data Factory şablonundaki adımlara götürür.
 ### <a name="steps-in-the-party-template"></a>Taraf şablonundaki adımlar
 
 1. 1 ile 6 arasındaki adımlar, çift yazma için etkinleştirilen şirketleri tanımlar ve bunlar için bir filtre yan tümcesi oluşturur.
-2. 7-1 ile 7-9 arasındaki adımlar, hem Finance and Operations uygulaması hem de Customer Engagement uygulamasından verileri alır ve bu verileri yükseltme için aşamalandırır.
-3. 8 ile 9 arasındaki adımlar; Finance and Operations uygulaması ve Customer Engagement uygulaması arasında **Firma**, **İlgili Kişi** ve **Satıcı** kayıtları için taraf numarasını kıyaslar. Taraf numarası olmayan kayıtlar atlanır.
-4. Adım 10, Customer Engagement uygulamasında ve Finance and Operations uygulamasında oluşturulması gereken taraf kayıtları için iki .csv dosyası oluşturur.
+2. 7-1 ile 7-9 arasındaki adımlar, hem finans ve operasyon uygulaması hem de müşteri etkileşimi uygulamasından verileri alır ve bu verileri yükseltme için aşamalandırır.
+3. 8 ile 9 arasındaki adımlar; finans ve operasyon uygulaması ve müşteri etkileşimi uygulaması arasında **Firma**, **İlgili Kişi** ve **Satıcı** kayıtları için taraf numarasını kıyaslar. Taraf numarası olmayan kayıtlar atlanır.
+4. Adım 10, müşteri etkileşimi uygulamasında ve finans ve operasyon uygulamasında oluşturulması gereken taraf kayıtları için iki .csv dosyası oluşturur.
 
     - **FOCDSParty.csv** – Bu dosya, şirketin çift yazma için etkinleştirilmiş olup olmamasına bakmaksızın her iki sistemde bulunan tüm taraf kayıtlarını içerir.
     - **FONewParty.csv** – Bu dosya, Dataverse'ün bilincinde olduğu taraf kayıtlarının bir alt kümesini oluşturur (örneğin **Aday müşteri** türünün hesapları).
@@ -376,18 +376,18 @@ Bu bölüm, sizi her bir Data Factory şablonundaki adımlara götürür.
 7. Adım 13, **Firma**, **İlgili kişi** ve **Satıcı** kayıtlarını taraf GUID'leri ile ilişkilendirir.
 8. 14-1-ile 14-3 arası adımlar Customer Engagement uygulamasında **Firma**, **İlgili kişi** ve **Satıcı** kayıtlarını taraf GUID'leri ile güncelleştirir.
 9. 15-1-ile 15-3 arası adımlar; **Firma**, **İlgili kişi** ve **Satıcı** kayıtları için **Taraf için İlgili Kişi**'yi hazırlar.
-10. 16-1 ile 16-7 arasındaki adımlar, selamlama ve kişisel karakter türleri gibi başvuru verilerini alır ve **Taraf için İlgili Kişi** kayıtlarıyla ilişkilendirir.
+10. 16-1 ile 16-7 arasındaki adımlar, selamlama ve kişisel karakter türleri gibi referans verilerini alır ve **Taraf için İlgili Kişi** kayıtlarıyla ilişkilendirir.
 11. Adım 17; **Firma**, **İlgili kişi** ve **Satıcı** kayıtları için **Taraf için İlgili Kişi**'yi birleştirir.
 12. Adım 18, **Taraf için İlgili Kişi** kayıtlarını, Customer Engagement uygulamasına aktarır.
 
 ### <a name="steps-in-the-party-postal-address-template"></a>Taraf posta adresi şablonundaki adımlar
 
-1. 1-1 ile 1-10 arasındaki adımlar, hem Finance and Operations uygulaması hem de Customer Engagement uygulamasından verileri alır ve bu verileri yükseltme için aşamalandırır.
-2. Adım 2'de, posta adresi ve taraf posta adresini birleştirerek Finance and Operations uygulamasındaki posta adresi verileri normalleştirilir.
+1. 1-1 ile 1-10 arasındaki adımlar, hem finans ve operasyon uygulaması hem de müşteri etkileşimi uygulamasından verileri alır ve bu verileri yükseltme için aşamalandırır.
+2. Adım 2'de, posta adresi ve taraf posta adresini birleştirerek finans ve operasyon uygulamasındaki posta adresi verileri normalleştirilir.
 3. Adım 3, Customer Engagement uygulamasından hesap, ilgili kişi ve satıcı adresi verilerinde yinelenleri siler ve birleştirir.
-4. Adım 4; firma, ilgili kişi ve satıcı adreslerine dayalı yeni adres verileri oluşturmak üzere Finance and Operations uygulaması için .csv dosyaları oluşturur.
-5. Adım 5-1, Customer Engagement uygulaması için, hem Finance and Operations uygulamasına hem de Customer Engagement uygulamasına dayalı olarak tüm adres verilerini oluşturmak üzere .csv dosyaları oluşturur.
-6. Adım 5-2, .csv dosyalarını el ile içe aktarmak için Finance and Operations içe aktarma biçimine dönüştürür.
+4. Adım 4; firma, ilgili kişi ve satıcı adreslerine dayalı yeni adres verileri oluşturmak üzere finans ve operasyon uygulaması için .csv dosyaları oluşturur.
+5. Adım 5-1, müşteri etkileşimi uygulaması için, hem finans ve operasyon uygulamasına hem de müşteri etkileşimi uygulamasına dayalı olarak tüm adres verilerini oluşturmak üzere .csv dosyaları oluşturur.
+6. Adım 5-2, .csv dosyalarını el ile içe aktarmak için finans ve operasyon uygulamaları içe aktarma biçimine dönüştürür.
 
     - ImportFONewPostalAddressLocation.csv
     - ImportFONewPartyPostalAddress.csv
@@ -401,13 +401,13 @@ Bu bölüm, sizi her bir Data Factory şablonundaki adımlara götürür.
 
 ### <a name="steps-in-the-party-electronic-address-template"></a>Taraf elektronik adres şablonundaki adımlar
 
-1. 1-1 ile 1-5 arasındaki adımlar, hem Finance and Operations uygulaması hem de Customer Engagement uygulamasından verileri alır ve bu verileri yükseltme için aşamalandırır.
+1. 1-1 ile 1-5 arasındaki adımlar, hem finans ve operasyon uygulaması hem de müşteri etkileşimi uygulamasından verileri alır ve bu verileri yükseltme için aşamalandırır.
 2. Adım 2; elektronik adresleri firma, ilgili kişi ve satıcı varlıklarından alınan Customer Engagement uygulamasında birleştirir.
-3. Adım 3, Customer Engagement uygulaması ve Finance and Operations uygulamasından alınan birincil elektronik adres verilerini birleştirir.
+3. Adım 3, müşteri etkileşimi uygulaması ve finans ve operasyon uygulamasından alınan birincil elektronik adres verilerini birleştirir.
 4. Adım 4, .csv dosyaları oluşturur.
 
-    - Firma, ilgili kişi ve satıcı adreslerine göre Finance and Operations uygulaması için yeni elektronik adres verileri oluşturun.
-    - Finance and Operations uygulamasındaki elektronik adrese, firmaya, ilgili kişiye ve satıcı adreslerine göre, Customer Engagement uygulaması için yeni elektronik adres verileri oluşturun.
+    - Firma, ilgili kişi ve satıcı adreslerine göre finans ve operasyon uygulaması için yeni elektronik adres verileri oluşturun.
+    - Finans ve operasyon uygulamasındaki elektronik adrese, firmaya, ilgili kişiye ve satıcı adreslerine göre, Customer Engagement uygulaması için yeni elektronik adres verileri oluşturun.
 
 5. Adım 5-1, elektronik adresleri Customer Engagement uygulamasına aktarır.
 6. Adım 5-2, Customer Engagement uygulamasında firmaların ve ilgili kişilerin birincil adreslerini güncelleştirmek için .csv dosyaları oluşturur.
@@ -425,3 +425,4 @@ Bu bölüm, sizi her bir Data Factory şablonundaki adımlara götürür.
 ## <a name="learn-more-about-the-template"></a>Şablon hakkında daha fazla bilgi edinin
 
 Şablon hakkında ek bilgiler için bkz. [Azure Data Factory için Yorumlar şablonu beni oku](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).
+

@@ -7,24 +7,24 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user, IT Pro
-ms.reviewer: kfend
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fba78f091a9e1ba209489b0e324027c4885a198d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b06821f02e6a80f2e15db7d0dd95ef6c9a30d5bc
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884563"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206431"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Power BI Embedded kullanarak çalışma alanlarına analiz ekleme
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Bu özellik Finance and Operations (sürüm 7.2 ve sonrası) için desteklenir.
+> Bu özellik finans ve operasyon uygulamaları (sürüm 7.2 ve sonrası) için desteklenir.
 
 ## <a name="introduction"></a>Giriş
 Bu makalede, bir Microsoft Power BI raporunun bir çalışma alanının **Analizler** sekmesine nasıl ekleneceği gösterilmektedir. Burada verilen örnek için Filo Yönetimi uygulamasındaki **Rezervasyon yönetimi** çalışma alanını, bir **Analizler** sekmesinde bir analitik çalışma alanı katıştırmak üzere genişleteceğiz.

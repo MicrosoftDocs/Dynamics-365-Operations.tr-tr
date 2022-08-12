@@ -1,27 +1,28 @@
 ---
 title: Maliyet yönetimi Power BI içeriği
 description: Bu makalede, Maliyet yönetimi Power BI içeriğinde nelerin bulunduğu açıklanmaktadır.
-author: ShylaThompson
+author: JennySong-SH
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 270314
-ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
+ms.reviewer: kamaybac
 ms.search.region: Global
-ms.search.industry: Manufacturing
-ms.author: kfend
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98c0097c2df25bafc842c9828d8ff282f5f683a5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "270314"
+ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
+ms.search.industry: Manufacturing
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
+ms.openlocfilehash: 7dcc8b2df62b250c59e343e0def5840f1b4f5432
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876877"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205713"
 ---
 # <a name="cost-management-power-bi-content"></a>Maliyet yönetimi Power BI içeriği
 
@@ -164,11 +165,11 @@ Aşağıdaki tablolar **Yönetim maliyeti** Power BI içeriğindeki görselleşt
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
 
-Uygulamadan alınan veriler, **Maliyet yönetimi** Power BI içeriğinin rapor sayfalarını doldurmak için kullanılır. Bu veri, analytics için en iyi duruma getirilen bir Microsoft SQL Server olan varlık mağazasında hazırlanmış toplam ölçümler olarak temsil edilir. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesi](power-bi-integration-entity-store.md).
+Uygulamadan alınan veriler, **Maliyet yönetimi** Power BI içeriğinin rapor sayfalarını doldurmak için kullanılır. Bu veri, analytics için en iyi duruma getirilen bir Microsoft SQL Server olan varlık mağazasında hazırlanmış toplam ölçümler olarak temsil edilir. Daha fazla bilgi için bkz. [Varlık mağazası ile Power BI tümleştirmesi](power-bi-integration-entity-store.md).
 
 Aşağıdaki nesnelerin başlıca toplama ölçümleri Power BI içeriğinin temeli olarak kullanılır.
 
-| Nesne                          | Önemli toplam ölçümler | Finance and Operations için veri kaynağı | Alan               |
+| Nesne                          | Önemli toplam ölçümler | Finans ve operasyon uygulamaları için veri kaynağı | Alan               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
 | CostObjectStatementCacheMonthly | Tutar                     | CostObjectStatementCache               | Tutar              |
 | CostObjectStatementCacheMonthly | Miktar                   | CostObjectStatementCache               | Miktar                 |
@@ -203,3 +204,4 @@ Aşağıda belirtilen temel boyutlar daha büyük hassasiyet ve daha derin anali
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

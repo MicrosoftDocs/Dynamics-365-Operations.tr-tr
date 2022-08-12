@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
-ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
+ms.openlocfilehash: 463a66002ec7a6536c9ff829f9ea2c3734138eae
+ms.sourcegitcommit: 6221a25f81aa83ab335de7cb6b6c3014dbec0116
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9013569"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177163"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Global Stok Muhasebesi kullanmaya başlama
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 Global Stok Muhasebesi, ayarlamış olduğunuz Global Stok Muhasebesi defterlerinde çoklu stok muhasebesi yapmanıza olanak tanır. Her bir Global Stok Muhasebesi genel defterini bir *kural* ile ilişkilendirmeniz gerekir. Kural, aşağıdaki muhasebe ilkesi türlerinin bir koleksiyondur:
 
@@ -69,28 +67,34 @@ Eklenti işlevselliğini etkinleştirebilmek için, aşağıdaki adımları izle
 
 Daha fazla bilgi için bkz. [Ortam dağıtımından sonra etkinleştirme](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-## <a name="install-the-add-in"></a><a name="install"></a>Eklentiyi yükleme
+## <a name="install-or-update-the-add-in-and-solution"></a><a name="install"></a>Eklenti ve çözümü yükleme veya güncelleştirme
 
-Global Stok Muhasebesi kullanabilmeniz için eklentiyi yüklemek üzere bu adımları izleyin.
+Genel Stok Muhasebesi eklentisini ve çözümünü yüklemek veya güncelleştirmek için aşağıdaki yordamı kullanın. Yordamın izlemeniz gereken bölümü çözümü ilk defa yükleyip yüklemediğinize ya da var olan bir kurulumda çözümü güncelleştirmek istediğinize bağlıdır.
+
+- Eklentiyi daha önce yüklemediyseniz, eklentiyi ve çözümü yüklemek için yordamın tamamını izleyin.
+- Genel Stok Muhasebesi'ni zaten kullanıyorsanız ancak çözümü [Power Platform yönetim merkezinden](https://admin.powerplatform.microsoft.com) güncelleştirmeniz gerekiyorsa, yalnızca adım 6'daki işlemleri gerçekleştirip diğer adımları atlayın.
+
+Eklenti ve çözümü yüklemek veya güncelleştirmek için:
 
 1. [LCS](https://lcs.dynamics.com/Logon/Index)'de oturum açın
 1. Hizmeti eklemek istediğiniz LCS ortamını açın.
 1. **Tüm ayrıntılar**'a gidin.
 1. **Power Platform Tümleştirmesi**'ne gidin **Kurulum**'u seçin.
 1. **Power Platform ortam kurulumu** iletişim kutusunda, onay kutusunu seçin ve sonra **Kurulum**'u seçin. Kurulum genellikle 60 ila 90 dakika arasında sürer.
-1. Microsoft Power Platform ortam kurulumu tamamlandıktan sonra, [Power Platform yönetim merkezinde](https://admin.powerplatform.microsoft.com) oturum açın ve aşağıdaki adımları gerçekleştirerek Genel Stok Muhasebesi eklentisini yükleyin:
-   1. Eklentiyi yüklemek istediğiniz ortamı seçin.
+1. Microsoft Power Platform ortam kurulumu tamamlandıktan sonra, [Power Platform yönetim merkezinde](https://admin.powerplatform.microsoft.com) oturum açın ve aşağıdaki adımları gerçekleştirerek Genel Stok Muhasebesi eklentisini yükleyin veya güncelleştirin:
+   1. Çözümü yüklemek veya güncelleştirmek istediğiniz ortamı seçin.
    1. **Dynamics 365 uygulamaları**'nı seçin.
    1. **Uygulamayı Yükle**'yi seçin.
    1. **Dynamics 365 Genel Stok Muhasebesi**'ni seçin.
    1. Yüklemek için **İleri**'yi seçin.
-1. LCS ortamına geri dönün. **Ortam eklentileri** hızlı sekmesinde, **Yeni eklenti yükle**'yi seçin.
+1. Çözüm tamamen yüklendikten sonra, LCS ortamına geri dönün. **Ortam eklentileri** hızlı sekmesinde, **Yeni eklenti yükle**'yi seçin.
 1. **Global stok muhasebesi**'ni seçin.
 1. Yükleme kılavuzunu izleyin ve hüküm ve koşulları kabul edin.
 1. **Yükle**'yi seçin.
 1. **Ortam eklentileri** hızlı sekmesinde, Global Stok Muhasebesi'nin yüklenmekte olduğunu görmelisiniz. Birkaç dakika sonra, durum *Yükleniyor* yerine *Yüklü* olarak değişmelidir. (Bu değişikliği görmek için sayfayı yenilemeniz gerekebilir.) Bu noktada, Global Stok Muhasebesi kullanıma hazırdır.
 
 Dataverse yüklemenizin varsayılan dili İngilizce değilse, aşağıdaki adımları izleyin:
+
 1. **Gelişmiş Ayar \> Yönetim \>Diller**'e gidin.
 1. *İngilizce* (*LanguageCode=1033*) dilini ve **Uygula**'yı seçin.
 

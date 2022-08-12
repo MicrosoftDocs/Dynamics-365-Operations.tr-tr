@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3d1a45ad00e59581f27f2e822ccb47430219c501
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857387"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070484"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>İş kartı cihazından tamamlandı olarak bildirme
 
@@ -50,7 +50,7 @@ Son operasyonda tamamlandı olarak rapor edilen miktarların stoğa eklenmesi ge
 
 ## <a name="report-batch-controlled-items-as-finished"></a>Toplu denetimli maddeleri tamamlandı olarak raporla
 
-İş kartı aygıtı toplu iş maddelerini raporlamak için üç senaryoyu destekler. Bu senaryolar, hem Gelişmiş ambar süreçleri için etkinleştirilen maddelere hem de Gelişmiş ambar işlemleri için etkinleştirilmemiş maddelere uygulanır.
+İş kartı aygıtı toplu iş maddelerini raporlamak için üç senaryoyu destekler. Bu senaryolar, hem ambar yönetimi işlemleri (WMS) için etkinleştirilen maddelere hem de WMS için etkinleştirilmemiş maddelere uygulanır.
 
 - **El ile atanan toplu iş numaraları:** Çalışanlar özel bir toplu iş numarası girin. Bu toplu iş numarası, sistemde bilinmeyen bir harici kaynaktan gelebilir.
 - **Önceden tanımlı toplu iş numaraları:** Çalışanlar, üretim emri iş kartı aygıtında serbest bırakılmadan önce sistemin otomatik olarak oluşturduğu toplu iş numaraları listesinde bir toplu iş numarası seçer.
@@ -129,7 +129,7 @@ Bu senaryoyu kullandığınızda, iş kartı aygıtında **durumu raporla** sayf
 
 ## <a name="report-serial-controlled-items-as-finished"></a>Seri denetimli kalemleri tamamlandı olarak bildirme
 
-İş kartı cihazı seri denetimli kalemleri bildirmek için üç senaryoyu destekler. Bu senaryolar, hem Gelişmiş ambar süreçleri için etkinleştirilen maddelere hem de Gelişmiş ambar işlemleri için etkinleştirilmemiş maddelere uygulanır.
+İş kartı cihazı seri denetimli kalemleri bildirmek için üç senaryoyu destekler. Bu senaryolar, hem ambar yönetimi işlemleri (WMS) için etkinleştirilen maddelere hem de WMS için etkinleştirilmemiş maddelere uygulanır.
 
 - **El ile atanan seri numaralar:** Çalışanlar özel bir seri numarası girin. Bu seri numarası, sistemde bilinmeyen bir harici kaynaktan gelebilir.
 - **Önceden tanımlı seri numaraları:** Çalışanlar, üretim emri iş kartı cihazında serbest bırakılmadan önce sistemin otomatik olarak oluşturduğu seri numaraları listesinde bir seri numarası seçer.
@@ -212,7 +212,7 @@ Bu senaryoyu kullandığınızda, iş kartı cihazında **Durumu bildir** sayfas
 
 ## <a name="report-as-finished-to-a-license-plate"></a>Lisans plakasına tamamlandı olarak raporlama
 
-Gelişmiş ambar işlemleri, bu amaçla ayarlanmış ambar yerleşimlerinde bulunan stoğu izlemek için, lisans levhası boyutunu kullanabilir. Bu durumda, bir çalışanın tamamlandığı miktarları raporladığında, lisans levhası numarası gereklidir.
+Ambar yönetimi işlemleri (WMS), bu amaçla ayarlanmış ambar yerleşimlerinde bulunan stoğu izlemek için, lisans levhası boyutunu kullanabilir. Bu durumda, bir çalışanın tamamlandığı miktarları raporladığında, lisans levhası numarası gereklidir.
 
 ### <a name="enable-license-plate-reporting-and-label-printing"></a>Raporlama ve Plaka etiketi yazdırmayı etkinleştirme
 
@@ -235,7 +235,7 @@ Bu bölümde anlatılan özellikleri kullanmak için, [özellik yönetimi](../..
 ![Cihazlar için iş kartını yapılandırma sayfası.](media/config-job-card-raf.png "Cihazlar için iş kartını yapılandırma sayfası")
 
 > [!NOTE]
-> Etiekt yapılandırmak içni **Ambar Yönetimi \> Kurulum \> Belge yönlendirme \> Belge yönlendirme**'ye gidin. Daha fazla bilgi için, bkz [Lisans plaka etiket yazdırmayı etkinleştir](../warehousing/tasks/license-plate-label-printing.md).
+> Etiekt yapılandırmak içni **Ambar Yönetimi \> Kurulum \> Belge yönlendirme \> Belge yönlendirme**'ye gidin. Daha fazla bilgi için bkz. [Lisans plaka etiket yazdırmayı etkinleştir](../warehousing/tasks/license-plate-label-printing.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

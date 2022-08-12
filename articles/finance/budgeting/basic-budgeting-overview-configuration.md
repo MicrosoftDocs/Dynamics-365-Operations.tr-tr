@@ -1,6 +1,6 @@
 ---
 title: Bütçelemeye genel bakış
-description: Microsoft Dynamics 365 Finance içerisinde Finansal işlevleri kullanan hemen her şirket, bütçe - fiili karşılaştırma raporlarını oluşturmak zorunda olacaktır. Bu makale, Finance and Operations içerisinde bütçeler oluşturmak veya bunları bir üçüncü taraf programdan yüklemek için gereken asgari yapılandırmayı açıklar.
+description: Microsoft Dynamics 365 Finance içerisinde Finansal işlevleri kullanan hemen her şirket, bütçe - fiili karşılaştırma raporlarını oluşturmak zorunda olacaktır. Bu makale, finans ve operasyon uygulamaları içerisinde bütçeler oluşturmak veya bunları bir üçüncü taraf programdan yüklemek için gereken asgari yapılandırmayı açıklar.
 author: panolte
 ms.date: 04/29/2021
 ms.topic: overview
@@ -17,20 +17,20 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48fcfec7126b4835b7d05e431bbc6ad7b9176bbe
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 380afc399a050215bb2d7b1e5ddb20088226f654
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710427"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068975"
 ---
-# <a name="budgeting-overview"></a>Bütçelemeye genel bakış 
+# <a name="budgeting-overview"></a>Bütçelemeye genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 Finance içerisinde Finansal işlevleri kullanan hemen her şirket, bütçe - fiili karşılaştırma raporlarını oluşturmak zorunda olacaktır. Bu makale, Finance and Operations içerisinde bütçeler oluşturmak veya bunları bir üçüncü taraf programdan yüklemek için gereken asgari yapılandırmayı açıklar.
+Microsoft Dynamics 365 Finance içerisinde Finansal işlevleri kullanan hemen her şirket, bütçe - fiili karşılaştırma raporlarını oluşturmak zorunda olacaktır. Bu makale, finans ve operasyon uygulamaları içerisinde bütçeler oluşturmak veya bunları bir üçüncü taraf programdan yüklemek için gereken asgari yapılandırmayı açıklar.
 
-## <a name="overview"></a>Özet
+## <a name="overview"></a>Genel Bakış
 
 Tüzel kişilik için onaylanan bütçe *bütçe kayıt girişi* olarak bilinen bir belge içinde tutulur. Bütçe kaydı giriş belgesindeki satırlar *bütçe hesabı* girişleri olarak bilinir ve mali boyut bilgileri, tarihler ve onaylanan bütçelerin tutarlarını içerir. Bütçe kayıt giriş belgesi, genel muhasebe fiili tutarların bütçe tutarlarıyla karşılaştırıldığı temel mali raporlar ve sorgu sayfaları ile tümleşiktir. 
 
@@ -89,3 +89,4 @@ Bütçe planlama işlevselliği kullanan bir şirket **genel muhasebe bütçeler
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8db8faefaec4afe208344492ec91375531cb9cd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19337b2651830d79543361d525bf24c4f794e825
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906369"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065761"
 ---
 # <a name="dual-currency"></a>Çift para birimi
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations 8.1 (Ekim 2018) sürümünde tanıtılan işlev, raporlama para biriminin başka amaçla ve ikinci muhasebe para birimi olarak kullanılmasını sağlar. Bu işlevselliğe *çift para birimi* de denir. Çift para birimi değişiklikleri, bir parametre veya konfigürasyon anahtarı ile devre dışı bırakılamaz. Raporlama para birimi ikinci muhasebe para birimi olarak kullanıldığından, raporlama para biriminin yayın mantığında hesaplanma yöntemi değişti.
+Microsoft Dynamics 365 Finance 8.1 (Ekim 2018) sürümünde tanıtılan işlev, raporlama para biriminin başka amaçla ve ikinci muhasebe para birimi olarak kullanılmasını sağlar. Bu işlevselliğe *çift para birimi* de denir. Çift para birimi değişiklikleri, bir parametre veya konfigürasyon anahtarı ile devre dışı bırakılamaz. Raporlama para birimi ikinci muhasebe para birimi olarak kullanıldığından, raporlama para biriminin yayın mantığında hesaplanma yöntemi değişti.
 
 Ayrıca çeşitli modüller, farklı süreçlerde raporlama para birimini izleme, bildirme ve kullanmak için geliştirilmiştir. Etkilenen modüller şunlardır:
 
@@ -209,3 +209,4 @@ Genel muhasebe konsolidasyona göre, muhasebe veya muhasebe para birimi tutarlar
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

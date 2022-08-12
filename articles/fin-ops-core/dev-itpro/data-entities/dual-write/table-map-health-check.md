@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-10-04
-ms.openlocfilehash: 3ae78077fc716311c38620b14665af3983a44c2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 16c79a788b66830b77b2cdfb33fd2416c530f7d2
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884097"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111581"
 ---
 # <a name="errors-codes-for-the-table-map-health-check"></a>Tablo eşlemesi sistem durumu denetimi için hata kodları
 
@@ -26,37 +26,37 @@ Bu makalede, tablo eşlemesi durum denetimi için hata kodları açıklanmaktad�
 
 ## <a name="error-100"></a>Hata 100
 
-Hata iletisi şudur: "Finans ve Operasyon önerilerini çalıştırmak için gereken minimum Finans ve Operasyon platformu sürümü PU 43'dür."
+Hata iletisi şudur: "finans ve operasyon önerilerini çalıştırmak için gereken minimum finans ve operasyon platformu sürümü PU 43'tür."
 
-Bu özellik, Finans ve Operasyon uygulamalarının 10.0.19 veya sonraki sürümü için platform güncelleştirmeleri gerektirir.
+Bu özellik, finans ve operasyon uygulamalarının 10.0.19 veya sonraki sürümü için platform güncelleştirmeleri gerektirir.
 
 ## <a name="error-400"></a>Hata 400
 
-Hata iletisi şudur: "\{Finans ve Operasyon UniqueEntityName\} varlığı için hiçbir iş olayı kayıt verisi bulunamadı, bu da eşlemenin çalışmadığı veya tüm alan eşlemesinin tek yönlü olduğu anlamına gelir."
+Hata iletisi şudur: "\{finance and operations UniqueEntityName\} varlığı için hiçbir iş olayı kayıt verisi bulunamadı, bu da eşlemenin çalışmadığı veya tüm alan eşlemesinin tek yönlü olduğu anlamına gelir."
 
 ## <a name="error-500"></a>Hata 500
 
-Hata iletisi: "\{proje adı\} projesi için proje konfigürasyonu bulunamadı. Bunun nedeni projenin etkinleştirilmemesi veya tüm alan eşlemelerinin müşteri etkileşiminden Finance and Operations'a tek yönlü olmasıdır."
+Hata iletisi: "\{proje adı\} projesi için proje konfigürasyonu bulunamadı. Bunun nedeni projenin etkinleştirilmemesi veya tüm alan eşlemelerinin müşteri etkileşiminden finans ve operasyon uygulamalarına tek yönlü olmasıdır."
 
-Tablo haritası için eşlemeleri denetleyin. Müşteri etkileşimi uygulamalarından Finans ve Operasyon uygulamalarına tek yönlü ise Finans ve Operasyon uygulamalarından Dataverse'e canlı eşitleme için trafik oluşturulmaz.
+Tablo haritası için eşlemeleri denetleyin. Müşteri etkileşimi uygulamalarından finans ve operasyon uygulamalarına tek yönlü ise finans ve operasyon uygulamalarından Dataverse'e canlı eşitleme için trafik oluşturulmaz.
 
 ## <a name="error-900"></a>Hata 900
 
-Hata iletisi şudur: "\{Finans ve Operasyon UniqueEntityName\} varlığı için geçersiz kaynak filtresi \{sourceFilter\} biçimi."
+Hata iletisi şudur: "\{finance and operations UniqueEntityName\} varlığı için geçersiz kaynak filtresi \{sourceFilter\} biçimi."
 
-Finans ve Operasyon uygulamaları için tablo eşlemesinde belirtilen kaynak filtre sözdizimsel olarak doğru değildir. Filtre ölçütlerini doğrulamak için, bkz. [Dinamik eşitleme sorunlarını giderme](dual-write-troubleshooting-live-sync.md#live-synchronization-issues-that-are-caused-by-incorrect-query-filter-syntax-on-the-dual-write-maps).
+Finans ve operasyon uygulamaları için tablo eşlemesinde belirtilen kaynak filtre sözdizimsel olarak doğru değildir. Filtre ölçütlerini doğrulamak için bkz. [Dinamik eşitleme sorunlarını giderme](dual-write-troubleshooting-live-sync.md#live-synchronization-issues-that-are-caused-by-incorrect-query-filter-syntax-on-the-dual-write-maps).
 
 ## <a name="error-1000"></a>Hata 1000
 
-Hata iletisi şudur: "Çift yazma canlı eşitlemesi için kullanılan \{Finans ve Operasyon UniqueEntityName\} varlığı sorgusu, \{Finans ve Operasyon EntityFilterQueryString\}'dir. Sorgu ölçütlerine uyan kayıtlar canlı eşitleme için oluşturulacak."
+Hata iletisi şudur: "Çift yazma canlı eşitlemesi için kullanılan Varlık \{finance and operations UniqueEntityName\} sorgusu, \{finance and operations EntityFilterQueryString\}'dir. Sorgu ölçütlerine uyan kayıtlar canlı eşitleme için oluşturulacak."
 
 Döndürülen varlık sorgusu, varlık için yedekleme SQL sorgusudur. Dinamik eşitleme için kullanıma açılan iş verilerini belirleyen sorgudaki iç birleştirmeleri veya filtreleri denetleyin. İç birleştirmeler ve süzgeçler, çift yazılabilir canlı eşitleme için çekilen her kayıt için yerine getirilmesi gereken zorunlu koşullardır.
 
 ## <a name="error-1300"></a>Hata 1300
 
-Hata iletisi şudur: "\{Finans ve Operasyon EntityMetadata.EntityProperties.LogicalEntityName\} için \{s.EntityFieldName\} sanal alanları çift yazma için izlenmeyebilir."
+Hata iletisi şudur: "\{finance and operations EntityMetadata.EntityProperties.LogicalEntityName\} için \{s.EntityFieldName\} sanal alanları çift yazma için izlenmeyebilir."
 
-Finans ve Operasyon tablolarındaki sanal alanlar izleme için etkinleştirilmemiştir. Canlı eşitleme verileri eşitleyebilir, ancak sütunlarda yapılan değişiklikleri çekemez.
+Finans ve operasyon tablolarındaki sanal alanlar izleme için etkinleştirilmemiştir. Canlı eşitleme verileri eşitleyebilir, ancak sütunlarda yapılan değişiklikleri çekemez.
 
 ## <a name="error-1500"></a>Hata 1500
 
@@ -66,9 +66,9 @@ Varlıktaki veri kaynağında çift yazılabilir olarak eşlenen herhangi bir al
 
 ## <a name="error-1600"></a>Hata 1600
 
-Hata iletisi şudur: "Veri kaynağı: \{Finans ve Operasyon EntityMetadata.EntityProperties.LogicalEntityName\} için \{datasource.DataSourceName\} varlığının bir aralığı var. Yalnızca aralık koşuluna uyan kayıtlar çıkış için çekilir."
+Hata iletisi şudur: "Veri kaynağı: \{finance and operations EntityMetadata.EntityProperties.LogicalEntityName\} için \{datasource.DataSourceName\} varlığının bir aralığı var. Yalnızca aralık koşuluna uyan kayıtlar çıkış için çekilir."
 
-Finans ve Operasyon uygulamalarındaki varlıkların filtre aralıklarının etkinleştirildiği veri kaynakları olabilir. Bu aralıklar, canlı eşitlemenin bir parçası olarak çekilen kayıtları tanımlar. Finans ve Operasyon uygulamalarından bazı kayıtlar Dataverse'e atlanırsa, kayıtların varlıktaki aralık ölçütlerini karşılayıp karşılamadığını denetleyin. Bu denetimi yapmanın basit bir yolu, aşağıdaki örneğe benzeyen bir SQL sorgusu çalıştırmaktır.
+Finans ve operasyon uygulamalarındaki varlıkların filtre aralıklarının etkinleştirildiği veri kaynakları olabilir. Bu aralıklar, canlı eşitlemenin bir parçası olarak çekilen kayıtları tanımlar. Finans ve operasyon uygulamalarından bazı kayıtlar Dataverse'e atlanırsa, kayıtların varlıktaki aralık ölçütlerini karşılayıp karşılamadığını denetleyin. Bu denetimi yapmanın basit bir yolu, aşağıdaki örneğe benzeyen bir SQL sorgusu çalıştırmaktır.
 
 ```sql
 select * from <EntityName> where <filter criteria for the records> on SQL.
@@ -81,12 +81,12 @@ Hata iletisi: "\{datasourceTable.Key.entityName\} varlığı için Tablo: \{Data
 Aynı tablo birden çok varlık tarafından izleniyorsa, tabloda yapılan tüm değişiklikler bağlantılı varlıklar için çift-yazılır değerlendirmeyi tetikler. Filtre yan tümceleri yalnızca geçerli kayıtları gönderebilse de, uzun süre çalışan sorgular veya iyileştirilmemiş sorgu planları varsa, değerlendirme performans sorununa neden olabilir. Bu sorun iş açısından anlaşılabilir olmayabilir. Ancak, birden fazla varlık arasında birçok kesişen tablo varsa, varlığı basitleştirmeyi veya varlık sorguları için en iyi duruma getirme işlemlerini düşünmelisiniz.
 
 ## <a name="error-1800"></a>Hata 1800
-Hata iletisi şudur: "CustCustomerV3Entity varlığı için veri kaynağı ({}) aralık değeri içeriyor. Dataverse'ten Finance and Operations'a gelen kayıt eklemeleri varlıktaki aralık değerlerinden etkilenebilir. Lütfen ayarlarınızı doğrulamak için filtre ölçütüne uymayan kayıtlar ile Dataverse-Finance and Operations yönlü kayıt güncelleştirmelerini sınayın."
+Hata iletisi şudur: "CustCustomerV3Entity varlığı için veri kaynağı ({}) aralık değeri içeriyor. Dataverse'ten finans ve operasyon uygulamalarından gelen kayıt eklemeleri varlıktaki aralık değerlerinden etkilenebilir. Lütfen ayarlarınızı doğrulamak için filtre ölçütüne uymayan kayıtlar ile Dataverse finans ve operasyon uygulamaları yönlü kayıt güncelleştirmelerini sınayın."
 
 Finans ve operasyonlar uygulamalarındaki varlıkta belirtilen bir aralık varsa Dataverse'ten finans ve operasyon uygulamalarına gelen eşleştirme, bu aralık ölçütüyle eşleşmeyen kayıtlarda güncelleştirme davranışı için sınanmalıdır. Aralıkla eşleşmeyen tüm kayıtlar, varlık tarafından bir ekleme işlemi olarak kabul edilir. Temel tabloda mevcut bir kayıt varsa ekleme işlemi başarısız olur. Üretime dağıtmadan önce bu kullanım durumunu tüm senaryolarda sınamanızı öneririz.
 
 ## <a name="error-1900"></a>Hata 1900
-Hata iletisi şudur: "Varlık, giden çift yazma için izlenmeyen {} veri kaynağına sahiptir. Bu, canlı eşitleme sorgusu performansını etkileyebilir. Lütfen, kullanılmayan veri kaynaklarını ve tabloları kaldırmak için Finance and Operations'da varlığı yeniden modelleyin veya çalışma zamanı sorgularını iyileştirmek için getEntityRecordIdsImpactedByTableChange işlemini uygulayın."
+Hata iletisi şudur: "Varlık, giden çift yazma için izlenmeyen {} veri kaynağına sahiptir. Bu, canlı eşitleme sorgusu performansını etkileyebilir. Lütfen, kullanılmayan veri kaynaklarını ve tabloları kaldırmak için finans ve operasyon uygulamalarında varlığı yeniden modelleyin veya çalışma zamanı sorgularını iyileştirmek için getEntityRecordIdsImpactedByTableChange işlemini uygulayın."
 
 Finans ve Operasyon uygulamalarından gerçek canlı eşitlemede izleme için kullanılmayan birçok veri kaynağı varsa varlık performansı canlı eşitlemeyi etkileyebilir. İzlenen tabloları iyileştirmek için getEntityRecordIdsImpactedByTableChange yöntemini kullanın.
 
@@ -96,3 +96,4 @@ Hata iletisi "Zaman uyumlu eklentiler, varlık hesaplarının veri yönetimi ola
 Dataverse varlığındaki zaman uyumlu eklentiler, hareket yükünü artırdığı için canlı eşitleme ve ilk eşitleme performansını etkileyebilir. Önerilen yaklaşım, eklentileri kapatmak veya belirli bir varlık için ilk eşitlemede veya canlı eşitlemede yükleme zamanı yavaşsa eklentileri zaman uyumsuz hale getirmektir.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

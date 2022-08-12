@@ -2,19 +2,19 @@
 title: Başlangıç eşitlemesi sırasında sorunları giderme
 description: Bu makalede, ilk eşitlemede olabilecek sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlanmaktadır.
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 06/24/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: bb3db4c651aaac521974d92753be5a8219bfe1ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f8fb27a6af2962be31288a3d2260110e5fe6a201
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892371"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112097"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Başlangıç eşitlemesi sırasında sorunları giderme
 
@@ -22,12 +22,12 @@ ms.locfileid: "8892371"
 
 
 
-Bu makalede, Finans ve Operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında sorun giderme bilgileri sağlanmaktadır. Bu konu, ilk eşitlemede olabilecek sorunları çözmenize yardımcı olabilecek bilgileri sağlar.
+Bu makalede, finans ve operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında sorun giderme bilgileri sağlanmaktadır. Bu konu, ilk eşitlemede olabilecek sorunları çözmenize yardımcı olabilecek bilgileri sağlar.
 
 > [!IMPORTANT]
 > Bu makalede ele alınan bazı sorunlar için sistem yöneticisi rolü veya Microsoft Azure Active Directory (Azure AD) kiracı yöneticisi kimlik bilgileri gerekebilir. Her konunun bölümünde belirli bir rol veya kimlik bilgilerinin gerekli olup olmadığı açıklanmaktadır.
 
-## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Finans ve Operasyon uygulamasında başlangıçtaki eşitleme hatalarını denetleme
+## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Finans ve operasyon uygulamasında başlangıçtaki eşitleme hatalarını denetleme
 
 Eşleme şablonları etkinleştirildikten sonra, haritaların durumu **çalışıyor** olmalıdır. Durum **çalışmıyorsa**, ilk eşitleme sırasında hata meydana geldi. Hataları görüntülemek için **çift-yazma** sayfasında **ilk eşitleme ayrıntıları** sekmesini seçin.
 
@@ -63,7 +63,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 Bu hata sürekli olarak oluşuyorsa ve ilk eşitlemeyi tamamlayamıyorsa, sorunu düzeltmek için aşağıdaki adımları izleyin.
 
-1. Finans ve Operasyon uygulamanın sanal makinesine (VM) oturum açın.
+1. Finans ve operasyon uygulamasının sanal makinesinde (VM) oturum açın.
 2. Microsoft Yönetim Konsolu 'Nu açın.
 3. **Hizmetler** bölmesinde, Microsoft Dynamics 365 veri alma verme çerçevesi hizmetinin çalışmakta olduğundan emin olun. Durdurulmuşsa, ilk eşitleme gerektirdiğinden yeniden Başlat.
 
@@ -75,7 +75,7 @@ Bu hata sürekli olarak oluşuyorsa ve ilk eşitlemeyi tamamlayamıyorsa, sorunu
 
 Sorunu düzeltmek için şu adımları izleyin.
 
-1. Finans ve Operasyon uygylamasında oturum açın.
+1. Finans ve operasyon uygulamasında oturum açın.
 2. **Azure Active Directory uygulamalar** sayfasında **DtAppID** istemcisini silin ve sonra yeniden ekleyin.
 
 ![Azure AD uygulamaları listesinde DtAppID istemcisi.](media/aad_applications.png)
@@ -93,18 +93,18 @@ Tabloların, **PrimaryContactPersonId** ve **InvoiceVendorAccountNumber** sütun
 
 Aldığınız hata iletileri aşağıdaki şekilde olacaktır.
 
-*Alan için GUID çözümlenemedi: \<field\>. Arama bulunamadı: \<value\>. Başvuru verilerinin var olup olmadığını denetlemek için bu URL'yi deneyin: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>`*
+*Alan için GUID çözümlenemedi: \<field\>. Arama bulunamadı: \<value\>. Referans verilerinin var olup olmadığını denetlemek için bu URL'yi deneyin: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>`*
 
 Burada bazı örnekler verilmiştir:
 
-- *Alan için GUID çözümlenemedi: msdyn\_vendorprimarycontactperson.msdyn\_contactpersonid. Arama bulunamadı: 000056. Başvuru verilerinin var olup olmadığını denetlemek için bu URL'yi deneyin: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
-- *Alan için GUID çözümlenemedi: msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber. Arama bulunamadı: V24-1. Başvuru verilerinin var olup olmadığını denetlemek için bu URL'yi deneyin: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
+- *Alan için GUID çözümlenemedi: msdyn\_vendorprimarycontactperson.msdyn\_contactpersonid. Arama bulunamadı: 000056. Referans verilerinin var olup olmadığını denetlemek için bu URL'yi deneyin: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
+- *Alan için GUID çözümlenemedi: msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber. Arama bulunamadı: V24-1. Referans verilerinin var olup olmadığını denetlemek için bu URL'yi deneyin: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
 Satıcı tablosunda **PrimaryContactPersonId** ve **InvoiceVendorAccountNumber** sütunlarında değerleri bulunan satırlarınız varsa ilk eşitlemeyi tamamlamak için aşağıdaki adımları takip edin.
 
-1. Finans ve Operasyon uygulamasında, **PrimaryContactPersonId** ve **InvoiceVendorAccountNumber** sütunlarını eşlemeden silin ve eşlemeyi kaydedin.
+1. Finans ve operasyon uygulamasında, **PrimaryContactPersonId** ve **InvoiceVendorAccountNumber** sütunlarını eşlemeden silin ve eşlemeyi kaydedin.
 
-    1. **Satıcılar V2 (msdynvendors\_)** için çift yazma eşleme sayfasında, **Tablo eşlemeleri** sekmesinde, soldaki filtrede **Finans ve Operasyon uygulamaları.Satıcılar V2**'yi seçin. Sağ filtrede, **Sales.Vendor**'u seçin.
+    1. **Satıcılar V2 (msdynvendors\_)** için çift yazma eşleme sayfasında, **Tablo eşlemeleri** sekmesinde, soldaki filtrede **Finans ve operasyon uygulamaları.Satıcılar V2**'yi seçin. Sağ filtrede, **Sales.Vendor**'u seçin.
     2. **primarycontactperson** öğesini arayıp **PrimaryContactPersonId** kaynak sütununu bulun.
     3. **Eylemler**'i ve sonra **Sil**'i seçin.
 
@@ -140,18 +140,18 @@ Tabloların, **ContactPersonID** ve **InvoiceAccount** sütunlarında değerleri
 
 Aldığınız hata iletileri aşağıdaki şekilde olacaktır.
 
-*Alan için GUID çözümlenemedi: \<field\>. Arama bulunamadı: \<value\>. Başvuru verilerinin var olup olmadığını denetlemek için bu URL'yi deneyin: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>`*
+*Alan için GUID çözümlenemedi: \<field\>. Arama bulunamadı: \<value\>. Referans verilerinin var olup olmadığını denetlemek için bu URL'yi deneyin: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>`*
 
 Burada bazı örnekler verilmiştir:
 
-- *Alan için GUID çözümlenemedi: primarycontactid.msdyn\_contactpersonid. Arama bulunamadı: 000056. Başvuru verilerinin var olup olmadığını denetlemek için bu URL'yi deneyin: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
-- *Alan için GUID çözümlenemedi: msdyn\_billingaccount.accountnumber. Arama bulunamadı: 1206-1. Başvuru verilerinin var olup olmadığını denetlemek için bu URL'yi deneyin: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
+- *Alan için GUID çözümlenemedi: primarycontactid.msdyn\_contactpersonid. Arama bulunamadı: 000056. Referans verilerinin var olup olmadığını denetlemek için bu URL'yi deneyin: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
+- *Alan için GUID çözümlenemedi: msdyn\_billingaccount.accountnumber. Arama bulunamadı: 1206-1. Referans verilerinin var olup olmadığını denetlemek için bu URL'yi deneyin: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
 
 Müşteri tablosunda **ContactPersonID** ve **InvoiceAccount** sütunlarında değerler bulunan satırlar varsa ilk eşitlemeyi tamamlamak için aşağıdaki adımları takip edin. Bu yaklaşımı, **Hesaplar** ve **İlgili kişiler** gibi kullanıma hazır tüm tablolar için kullanabilirsiniz.
 
-1. Finans ve Operasyon uygulamasında, **Müşteriler V3 (hesaplar)** eşlemesinden **ContactPersonID** ve **InvoiceAccount** sütunlarını silin ve eşlemeyi kaydedin.
+1. Finans ve operasyon uygulamasında, **Müşteriler V3 (hesaplar)** eşlemesinden **ContactPersonID** ve **InvoiceAccount** sütunlarını silin ve eşlemeyi kaydedin.
 
-    1. **Müşteriler V3 (hesaplar)** için çift yazma eşleme sayfasında, **Tablo eşlemeleri** sekmesinde, sol filtrede **Finans ve Operasyon.Müşteriler V3**'ü seçin. Sağ filtrede, **Dataverse.Firma**'yı seçin.
+    1. **Müşteriler V3 (hesaplar)** için çift yazma eşleme sayfasında, **Tablo eşlemeleri** sekmesinde, sol filtrede **finans ve operasyon uygulaması.Customers V3**'ü seçin. Sağ filtrede, **Dataverse.Firma**'yı seçin.
     2. **contactperson** öğesini arayıp **ContactPersonID** kaynak sütununu bulun.
     3. **Eylemler**'i ve sonra **Sil**'i seçin.
 
@@ -182,16 +182,16 @@ Müşteri tablosunda **ContactPersonID** ve **InvoiceAccount** sütunlarında de
     > Aynı ada sahip iki eşleme var. **Ayrıntılar** sekmesinde şu açıklama bulunan eşlemeyi seçtiğinizden emin olun: **FO.CDS Satıcı İlgili Kişileri V2 ile CDS.İlgili Kişileri arasında eşitleme için çift yazma şablonu. \[Dynamics365SupplyChainExtended\] yeni paketini gerektirir.**
 
 5. **Müşteriler V3 (Hesaplar)** eşlemesinden **InvoiceAccount** ve **ContactPersonId** sütunlarını silin ve değişiklikleri kaydedin. Şimdi, hem **InvoiceAccount** sütunu hem de **ContactPersonId** sütunu yeniden canlı eşitleme modunun parçası olarak kullanılır. Sonraki adımda, bu sütunlar için başlangıç eşitlemesini tamamlayacaksınız.
-6. **Müşteriler V3 (Hesaplar)** eşlemesi için başlangıç eşitlemesini yeniden çalıştırın. Değişiklik izleme kapalı olduğundan, **InvoiceAccount** ve **ContactPersonId** verileri Finans ve Operasyon uygulamasından Dataverse'e eşitlenir.
-7. **InvoiceAccount** ve **ContactPersonId** verilerini Dataverse'ten Finans ve Operasyon uygulamasına eşitlemek için bir veri tümleştirme projesi kullanmanız gerekir.
+6. **Müşteriler V3 (Hesaplar)** eşlemesi için başlangıç eşitlemesini yeniden çalıştırın. Değişiklik izleme kapalı olduğundan, **InvoiceAccount** ve **ContactPersonId** verileri finans ve operasyon uygulamasından Dataverse'e eşitlenir.
+7. **InvoiceAccount** ve **ContactPersonId** verilerini Dataverse'ten finans ve operasyon uygulamasına eşitlemek için bir veri tümleştirme projesi kullanmanız gerekir.
 
-    1. Power Apps'te, **Satış.Hesabı** ve **Finans ve Operasyon.Müşteriler V3** tabloları arasında bir veri tümleştirme projesi oluşturun. Veri yönü Dataverse'ten Finans ve Operasyon uygulamasına doğru olmalıdır. **InvoiceAccount** çift yazmada yeni bir öznitelik olduğundan, bunun için ilk eşitlemeyi atlamak isteyebilirsiniz. Daha fazla bilgi için bkz. [Dataverse'e veri entegre edin](/power-platform/admin/data-integrator).
+    1. Power Apps'te, **Satış.Hesabı** ve **finans ve operasyon uygulaması.Customers V3** tabloları arasında bir veri tümleştirme projesi oluşturun. Veri yönü Dataverse'ten finans ve operasyon uygulamasına doğru olmalıdır. **InvoiceAccount** çift yazmada yeni bir öznitelik olduğundan, bunun için ilk eşitlemeyi atlamak isteyebilirsiniz. Daha fazla bilgi için bkz. [Dataverse'e veri entegre edin](/power-platform/admin/data-integrator).
 
         Aşağıdaki resimde **CustomerAccount** ve **ContactPersonId**'yi güncelleştiren bir proje gösterilmektedir .
 
         ![CustomerAccount ve ContactPersonId alanını güncelleştirmek için veri tümleştirme projesi.](media/cust_selfref6.png)
 
-    2. Şirket ölçütlerini Dataverse tarafındaki filtreye ekleyin, böylece Finans ve Operasyon uygulamasında yalnızca filtre ölçütleriyle eşleşen satırlar güncelleştirilir. Filtre eklemek için filtre düğmesini seçin. Ardından, **Sorguyu düzenle** iletişim kutusunda **\_msdyn\_company\_value eq '\<guid\>'** gibi bir filtre sorgusu ekleyebilirsiniz.
+    2. Şirket ölçütlerini Dataverse tarafındaki filtreye ekleyin, böylece finans ve operasyon uygulamasında yalnızca filtre ölçütleriyle eşleşen satırlar güncelleştirilir. Filtre eklemek için filtre düğmesini seçin. Ardından, **Sorguyu düzenle** iletişim kutusunda **\_msdyn\_company\_value eq '\<guid\>'** gibi bir filtre sorgusu ekleyebilirsiniz.
 
         > [NOT] Filtre düğmesi yoksa, veri tümleştirme ekibinin kiracınızda filtre yeteneğini etkinleştirmesini istemek için bir destek bileti oluşturun.
 
@@ -201,7 +201,7 @@ Müşteri tablosunda **ContactPersonID** ve **InvoiceAccount** sütunlarında de
 
     Satırların ilk eşitlenme işlemi şimdi tamamlandı.
 
-8. Finans ve Operasyon uygulamasında, **Müşteriler V3** tablosu için değişiklik izlemeyi tekrar açın.
+8. Finans ve operasyon uygulamasında, **Müşteriler V3** tablosu için değişiklik izlemeyi tekrar açın.
 
 ## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>10'dan fazla arama alanına sahip eşlemelerde ilk eşitleme hataları
 
@@ -227,12 +227,21 @@ Taraf posta adreslerinin ve taraf elektronik adreslerinin ilk eşitlemesini çal
 
 *Taraf numarası Dataverse uygulamasında bulunamadı.*
 
-Finans ve Operasyon uygulamalarında **DirPartyCDSEntity** üzerinde **Kişi** ve **Kuruluş** türündeki tarafları filtreleyen bir aralık kümesi vardır. Sonuç olarak, **CDS Tarafları – msdyn_parties** eşlemesinin ilk eşitlemesi, **Tüzel Kişilik** ve **Faaliyet Birimi** dahil olmak üzere diğer türdeki tarafları eşitlemez. İlk eşitleme **CDS Taraf posta adresleri (msdyn_partypostaladdresses)** veya **Taraf İlgili Kişileri V3 (msdyn_partyelectronicaddresses)** için çalıştığında bu hatayla karşılaşabilirsiniz.
+Finans ve operasyon uygulamalarında **DirPartyCDSEntity** üzerinde **Kişi** ve **Kuruluş** türündeki tarafları filtreleyen bir aralık kümesi vardır. Sonuç olarak, **CDS Tarafları – msdyn_parties** eşlemesinin ilk eşitlemesi, **Tüzel Kişilik** ve **Faaliyet Birimi** dahil olmak üzere diğer türdeki tarafları eşitlemez. İlk eşitleme **CDS Taraf posta adresleri (msdyn_partypostaladdresses)** veya **Taraf İlgili Kişileri V3 (msdyn_partyelectronicaddresses)** için çalıştığında bu hatayla karşılaşabilirsiniz.
 
-Her türden tarafın Dataverse'e başarıyla eşitlenebilmesi için Finans ve Operasyon varlığındaki taraf türü aralığını kaldırmak için bir düzeltme üzerinde çalışıyoruz.
+Her türden tarafın Dataverse'e başarıyla eşitlenebilmesi için finans ve operasyon varlığındaki taraf türü aralığını kaldırmak için bir düzeltme üzerinde çalışıyoruz.
 
 ## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>Müşteriler veya İlgili Kişiler verileri için ilk eşitlemeyi çalıştırırken herhangi bir performans sorunu yaşıyor musunuz?
 
 **Müşteri** verileri için ilk eşitlemeyi çalıştırdıysanız ve **Müşteri** eşlemelerini çalıştırıp ardından da **İlgili Kişiler** verileri için ilk eşitlemeyi çalıştırırsanız **İlgili Kişi** adresleri için **LogisticsPostalAddress** ve **LogisticsElectronicAddress** tablolarına yapılan eklemeler ve güncelleştirmeler sırasında performans sorunlarıyla karşılaşabilirsiniz. Aynı genel posta adresi ve elektronik adres tabloları **CustCustomerV3Entity** ve **VendVendorV2Entity** için izlenir ve çift yazma, diğer tarafa veri yazmak için daha fazla sorgu oluşturmaya çalışır. **Müşteri** için ilk eşitlemeyi zaten çalıştırdıysanız **İlgili Kişiler** verileri için ilk eşitlemeyi çalıştırmadan önce ilgili eşlemeyi durdurun. **Satıcı** verileri için de aynısını yapın. İlk eşitleme tamamlandığında ilk eşitlemeyi atlayarak tüm eşlemeleri çalıştırabilirsiniz.
 
+## <a name="float-data-type-that-has-a-zero-value-cant-be-synchronized"></a>Sıfır değerine sahip kayan noktalı veri türü eşitlenemiyor
+
+**Sabit ödeme tutarı** veya hareket para birimindeki **Tutar** gibi fiyat alanlarında sıfır değerine sahip kayıtlar için ilk eşitleme başarısız olabilir. Bu durumda, aşağıdaki örneğe benzer bir hata iletisi alırsınız:
+
+*Giriş parametreleri doğrulanırken hata oluştu: Microsoft.OData.ODataException: '000000' değişmez değeri 'Edm.Decimal' beklenen türüne dönüştürülemiyor,...*
+
+Bu sorun, **Veri yönetimi** modülündeki **Kaynak veri biçimleri** altında bulunan **Dil yerel ayarları** işlevinden kaynaklanmaktadır. **Dil yerel ayarları** alanındaki değeri **en-us** olarak değiştirip tekrar deneyin.
+
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

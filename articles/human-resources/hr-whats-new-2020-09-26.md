@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b7a89ae8a2132c8548d9451aa235d1bccb88809
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f78201585101e2848eded69e03d5eb4c22d7e9a
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874260"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066777"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler 26 Eylül 2020
 
@@ -39,7 +39,7 @@ Bu sürüm aşağıdaki yeni özellikleri ve hata düzeltmelerini içerir. Deği
 
 Aşağıdaki özellik genellikle bu sürümde mevcuttur:
 
-- **Platform güncelleştirmesi 10.0.13 kullanıma sunuldu**: Güncelleştirme hakkında daha fazla bilgi için bkz. [Finans ve Operasyon uygulamalarının 10.0.13 sürümü için platform güncelleştirmeleri (2020 Ekim)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
+- **Platform güncelleştirmesi 10.0.13 kullanıma sunuldu**: Güncelleştirme hakkında daha fazla bilgi için bkz. [Finans ve operasyon uygulamalarının 10.0.13 sürümü için platform güncelleştirmeleri (2020 Ekim)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 
@@ -75,7 +75,7 @@ Aşağıdaki yeni özellik gelecekteki bir sürüm için planlanmıştır:
 
 - [Yönetici self servisindeki özel bağlantılar](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service)
 
-Planlanan özelliklerin tam listesi ve bunların zamanlanmış sürümleri için, bkz. [Dynamics 365 Human Resources 2019 sürümü 2. Dalga'ya genel bakış](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
+Planlanan özelliklerin tam listesi ve bunların zamanlanmış sürümleri için bkz. [Dynamics 365 Human Resources 2019 sürümü 2. Dalga'ya genel bakış](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

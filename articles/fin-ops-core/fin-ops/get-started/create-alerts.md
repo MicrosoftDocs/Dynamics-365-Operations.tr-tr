@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: f523680f3d71ffd75c6cd2df284d2fd3610cef96
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a420c5b2a036ac63a1a179f93462d152c3941fda
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853631"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124239"
 ---
 # <a name="create-alert-rules"></a>Uyarı kuralları oluşturma
 
@@ -75,7 +75,7 @@ Daha sonra, hangi satınalma siparişleri hakkında uyarı almak istediğinize k
 
 ## <a name="alerts-as-business-events"></a>İş olayları olarak uyarılar
 
-İş olayları çerçevesini kullanarak uyarıları harici olarak gönderebilirsiniz. Bir uyarı oluştururken, **Organizasyon genelinde** **Hayır**'ı ayarlayın ve **harici gönder**'i **Evet** olarak ayarlayın. Uyarı iş olayını tetikledikten sonra, Finance and Operations bağlayıcısındaki **Bir iş olayı gerçekleştiğinde** tetikleyicisini kullanarak Power Automate'teki yerleşik bir akışı tetikleyebilir veya **İş olayları kataloğu** aracılığıyla olayı iş olayları uç noktasına açıkça gönderebilirsiniz.
+İş olayları çerçevesini kullanarak uyarıları harici olarak gönderebilirsiniz. Bir uyarı oluştururken, **Organizasyon genelinde** **Hayır**'ı ayarlayın ve **harici gönder**'i **Evet** olarak ayarlayın. Uyarı iş olayını tetikledikten sonra, finans ve operasyon bağlayıcısındaki **Bir iş olayı gerçekleştiğinde** tetikleyicisini kullanarak Power Automate'teki yerleşik bir akışı tetikleyebilir veya **İş olayları kataloğu** aracılığıyla olayı iş olayları uç noktasına açıkça gönderebilirsiniz.
 
 ## <a name="create-an-alert-rule"></a>Uyarı kuralı oluşturma
 
@@ -101,7 +101,7 @@ Formlardaki bazı ikincil veri kaynakları için uyarılar oluşturamazsınız. 
 2. SysTableBrowser formundan bir uyarı oluşturun.
 
 ### <a name="change-based-alerts-do-not-work-for-batch-status-changes"></a>Değişiklik tabanlı uyarılar toplu iş durum değişikliklerinde çalışmaz
-Performans nedenleriyle kapatıldıkları için değişiklik tabanlı uyarılar toplu iş durum değişikliklerinde çalışmaz. Bunun yerine, **Toplu iş uyarıları** özelliğini ayarlamalısınız. Daha fazla bilgi için bkz [Geliştirilmiş toplu iş formları için uyarı ayarlama](../../dev-itpro/sysadmin/alerts.md#set-up-alerts-for-batch-enhanced-forms).
+Performans nedenleriyle kapatıldıkları için değişiklik tabanlı uyarılar toplu iş durum değişikliklerinde çalışmaz. Bunun yerine, **Toplu iş uyarıları** özelliğini ayarlamalısınız. Daha fazla bilgi için bkz. [Geliştirilmiş toplu iş formları için uyarı ayarlama](../../dev-itpro/sysadmin/alerts.md#set-up-alerts-for-batch-enhanced-forms).
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

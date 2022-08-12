@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03d1304c39628323c6d6e15181263a73ba965930
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 00e536241710fc8a75158472688757320abf4247
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710371"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067223"
 ---
 # <a name="collections-in-accounts-receivable"></a>Alacak hesaplarındaki tahsilatlar
 
@@ -65,7 +65,7 @@ Aşağıdaki liste sayfaları tahsilat bilgilerini düzenlemenize yardımcı olu
 
 > [!NOTE]
 > Bu liste sayfalarında bilgileri görebilmeniz için yaşlandırma anlık görüntüsünün oluşturulmuş olması gerekir. Bilgiler yalnızca yaşlandırma anlık görüntüsü oluşturulan müşteriler için gösterilir. Liste sayfasında gösterilen kayıtlara ek olarak aşağıdaki gibi filtre uygulanabilir:
-> <li>Varsayılan olarak, Finance and Operations kullanıcısı bir yaşlandırma anlık görüntüsü bulunan tüm müşterilere erişebilir.</li>
+> <li>Varsayılan olarak, finans ve operasyon uygulamaları kullanıcısı bir yaşlandırma anlık görüntüsü bulunan tüm müşterilere erişebilir.</li>
 > <li>Müşteri havuzları varsa, tahsilat liste sayfalarındaki bilgilerin filtreleneceği havuzları kullanmak için kullanıcının tahsilat temsilcisi olarak ayarlanması gerekir. Bilgiler, seçili müşteri havuzuna dahil olan müşterilerle sınırlıdır.</li>
 > <li>Bir kullanıcı tahsilat temsilcisi olarak ayarlanırsa, yalnızca bu tahsilat temsilcisi için seçilen havuzlar liste sayfasında kullanılabilir. Tahsilat temsilcisi için Tahsilatlar sayfasında Temsilcinin tüm müşteri havuzlarını görmesine izin ver seçeneği seçilirse, söz konusu temsilci tüm havuzları görebilir.</li>
 
@@ -110,3 +110,4 @@ Tahsilatlar sayfasındaki NSF ödemesine tıklayarak NSF ödemelerini işleyebil
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

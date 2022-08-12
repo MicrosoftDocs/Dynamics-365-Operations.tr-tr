@@ -1,8 +1,8 @@
 ---
 title: Klavye kısayolları
-description: Bu makale, Finans ve Operasyon uygulamalarıyla çalışırken kullanabileceğiniz kısayol tuş bileşimlerine dair genel bir bakış sağlar.
+description: Bu makalede, finans ve operasyon uygulamalarıyla çalışırken kullanabileceğiniz kısayol tuş bileşimlerine dair genel bir bakış sağlanmaktadır.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f0f833e3a6d45329fd8a69af658f392df32e4db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
+ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866131"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9140454"
 ---
 # <a name="keyboard-shortcuts"></a>Klavye kısayolları
 
@@ -27,7 +27,7 @@ ms.locfileid: "8866131"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Klavye kısayolları, verileri hızlı ve etkili şekilde Finans ve Operasyon uygulamalarında girmenize yardımcı olabilir. 
+Klavye kısayolları, verileri finans ve operasyon uygulamalarına hızlı ve etkili şekilde girmenize yardımcı olabilir. 
 
 > [!NOTE]
 > Burada anlatılan klavye kısayolları, ABD klavye düzenine göredir. Diğer klavye düzenlerindeki tuşlar ABD klavyedeki tuşlara tam olarak karşılık gelmeyebilir.
@@ -197,6 +197,7 @@ Kullanıcılar kullanılabilir kısayolları doğrudan kullanıcı arabiriminden
 | Ayrıntılar formunda gezinme listesini kapatma (odak gezinme listesindeyken) | Esc                        |
 | Ana sayfa içeriğine taşı (başka bir panoda odak ile)                    | Alt+M,M                    |
 | FactBox bölmesine taşı (açmayı içerebilir)                       | Alt+M,B veya Ctrl+F2         |
+| Sonraki özellik açıklamasına git                                              | Alt+M,C                    |
 
 > [!NOTE]
 > Sürüm 10.0.26'da kullanıma sunulan **Tam sayfa biçimli formlarda sekme geçişi davranışını sadeleştir** özelliği, kullanıcıların fare veya özel bir klavye kısayolu ile bölgeler arasında hareket etmesine gerek kalmadan bir sayfanın tüm bölgelerinde sekme geçişi yapmasına olanak tanır. Sayfadaki bölgeler arasında hızla hareket ettirmek için varolan klavye kısayollarını (örneğin, alt + M tuş birleşimi) kullanabilirsiniz.
@@ -259,13 +260,14 @@ Kullanıcılar kullanılabilir kısayolları doğrudan kullanıcı arabiriminden
 | Animasyonlu açılır istemde daha fazla/daha az bilgi göster (görev kılavuzu yürütülürken) | Alt+R,M                    |
 
 ## <a name="focus-management"></a>Odak yönetimi 
-Odak yönetimi, bir uygulamada kullanıcı odağının nasıl işlendiğini tanımlar. Finans ve Operasyon uygulamaları, özellikle veri girişi senaryoları için kullanıcı üretkenliğini en iyi duruma getirmeye yönelik özel odak davranışlarına sahiptir. Odak davranışları aşağıdakileri içerir:  
+Odak yönetimi, bir uygulamada kullanıcı odağının nasıl işlendiğini tanımlar. Finans ve operasyon uygulamaları, özellikle veri girişi senaryoları için kullanıcı üretkenliğini en iyi duruma getirmeye yönelik özel odak davranışlarına sahiptir. Odak davranışları aşağıdakileri içerir:  
 
 -  Bir sayfa yüklendiğinde, sayfadaki ilk düzenlenebilir giriş denetimi odağa sahip olacak ve kullanıcı girişini hemen kabul edebilecek. Sayfada düzenlenebilir giriş denetimi yoksa, ilk odak için geri dönüş seçeneği sayfa üzerindeki ilk giriş denetimidir ve arkasından sayfadaki ilk odaklanabilir denetim gelir.   
--  Genellikle bir düğme seçildiğinde, eylem işlenir ve odak sayfaya dönebilir. Bu gerçekleştiğinde, odak seçilen düğme denetimine geri dönme eğilimindedir. Bu, Finans ve Operasyon uygulamalarında, düğmenin Eylem bölmesinde veya bir araç çubuğunda olduğu durumlar **hariç** geçerlidir. Bu durumlarda, eylem tamamlandığında odak, düğme seçilmeden önce odağın sahibi olan Eylem Bölmesi (veya araç çubuğu) *dışındaki* son denetime döner.
+-  Genellikle bir düğme seçildiğinde, eylem işlenir ve odak sayfaya dönebilir. Bu gerçekleştiğinde, odak seçilen düğme denetimine geri dönme eğilimindedir. Bu, finans ve operasyon uygulamalarında, düğmenin Eylem bölmesinde veya bir araç çubuğunda olduğu durumlar **hariç** geçerlidir. Bu durumlarda, eylem tamamlandığında odak, düğme seçilmeden önce odağın sahibi olan Eylem Bölmesi (veya araç çubuğu) *dışındaki* son denetime döner.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Eksik hesap analiz için klavye kısayolları](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

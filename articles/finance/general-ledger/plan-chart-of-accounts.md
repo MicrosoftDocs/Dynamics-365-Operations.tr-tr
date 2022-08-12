@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e797117199ff57cb4d3beae187ae7649579d33b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 10906d7b30628dfe69907cfa69ae1022fde33243
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853362"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070649"
 ---
 # <a name="plan-your-chart-of-accounts"></a>Hesap planınızı planlama
 
@@ -43,7 +43,7 @@ Burada kurumunuz için hesap planının yapısını planlarken mutlaka göz ön�
 **Hesap planı** sayfasından hesap planınızı oluşturun. Ana hesapları **Hesap planı** sayfasından veya **Ana hesaplar** sayfasından oluşturabilirsiniz. Ana hesaplarınız, hesap planı sınırlayıcıları olarak kullanılan hiçbir özel karakteri kullanmamalıdır. Aksi takdirde, tutarsızlıkla karşılaşabilir veya hesap ve boyut birleşimleri girerken her zaman aramaları veya iletişim kutusunu kullanmak zorunda kalabilirsiniz. Daha fazla bilgi için bkz. [Ana hesap oluşturma](tasks/create-main-account.md).
 
 > [!NOTE]
-> Dynamics 365 for Finance and Operations sürüm 8.0'da (Nisan 2018), hesap planı sınırlayıcısını **Genel muhasebe parametreleri** sayfasından değiştirebilirsiniz.
+> Dynamics 365 Finance sürüm 8.0'da (Nisan 2018), hesap planı sınırlayıcısını **Genel muhasebe parametreleri** sayfasından değiştirebilirsiniz.
 
 Ana hesapların ana hesap kategorileriyle ilişkilendirilmesi iyi bir fikirdir, böylece herhangi bir değişiklik yapmak zorunda kalmadan varsayılan finansal raporları istediğiniz gibi kullanabilirsiniz. Böylece, raporları daha hızlı ve kolay bir şekilde tasarlayabilir ve tutabilirsiniz.
 
@@ -60,3 +60,4 @@ Daha fazla bilgi için aşağıdaki konulara bakın:
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

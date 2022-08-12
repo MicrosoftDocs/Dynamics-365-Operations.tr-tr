@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.25'daki yenilikler veya değişiklikler (Nisan 2022)
-description: Bu makalede, Microsoft Dynamics 365 Supply Chain Management 10.0.25'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Supply Chain Management 10.0.25'taki yenilikler veya değişiklikler (Nisan 2022)
+description: Bu makalede, Microsoft Dynamics 365 Supply Chain Management 10.0.25'taki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
 ms.date: 03/14/2022
 ms.topic: article
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: c54534ae32aa037f36a16600a058bca6d433002c
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954510"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167746"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Dynamics 365 Supply Chain Management 10.0.25'daki yenilikler veya değişiklikler (Nisan 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Dynamics 365 Supply Chain Management 10.0.25'taki yenilikler veya değişiklikler (Nisan 2022)
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,8 +36,7 @@ Aşağıdaki tabloda, bu sürüme dahil edilen özellikler listelenmektedir. Bu 
 | Stok&nbsp;ve&nbsp;lojistik | [Tehlikeli maddeler geliştirmeleri](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Çok yakında | Özellik yönetimi:<br>*Tehlikeli maddeler geliştirmeleri* |
 | Stok&nbsp;ve&nbsp;lojistik | [Sevk istasyonları için sevk işi](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | Çok yakında | Özellik yönetimi:<br>*Sevk istasyonları için sevk işi* |
 | Stok&nbsp;ve&nbsp;lojistik | [GS1 biçimi standartlarını kullanarak ambarda barkodları tarama](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 barkodları ve QR kodları](../warehousing/gs1-barcodes.md) | Özellik yönetimi:<br>*GS1 barkodlarını tara* |
-| İmalat | [Üretim katı yürütme arabiriminde malzeme tüketimi ve ayırmalar](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?](../production-control/production-floor-execution-use.md) | Özellik yönetimi:<br>*(Önizleme) Üretim katı yürütme arabiriminde malzeme tüketimini kaydetme (WMS dışı)*<br><br>Ve/veya:<br><br>Özellik yönetimi:<br>*(Önizleme) Üretim katı yürütme arabiriminde (WMS özellikli) malzeme tüketimini kaydet* |
-| İmalat | [Malzeme tüketimini ölçek birimlerinde kaydetme](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Bulut ve uç ölçek birimleri için üretim yürütme iş yükleri](../cloud-edge/cloud-edge-workload-manufacturing.md) | Özellik yönetimi:<br>*Mobil uygulamadaki malzeme tüketimini bir ölçek birimine kaydet* |
+| İmalat | [Üretim katı yürütme arabiriminde malzeme tüketimi ve ayırmalar](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?](../production-control/production-floor-execution-use.md) | Özellik yönetimi:<br>*Üretim katı yürütme arabiriminde malzeme tüketimini kaydetme (WMS dışı)*<br><br>Ve/veya:<br><br>Özellik yönetimi:<br>*(Önizleme) Üretim katı yürütme arabiriminde (WMS özellikli) malzeme tüketimini kaydet* |
 | Planlama | [Planlama Optimizasyonu Merkezi takvim Bakımı](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [Takvimler ve master planlama](../master-planning/supply-chain-calendars-master-planning.md) | Varsayılan olarak etkin |
 | Planlama | [Mevcut arzı iyileştirmek için Planlama İyileştirmesi önerileri](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Eylem iletileri](../master-planning/action-messages.md) | Varsayılan olarak etkin |
 | Planlama | Basitleştirilmiş planlı siparişler | [Basitleştirilmiş planlı siparişler](../master-planning/planning-optimization/planned-orders-simplified.md ) | Özellik yönetimi:<br>*Basitleştirilmiş planlı siparişler* |
@@ -183,9 +182,9 @@ Tablo ayrıca, daha önce genel önizlemede bulunan, ancak 10.0.25'te genel kull
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance ve Operations uygulamaları için Platform güncelleştirmeleri
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finans ve operasyon uygulamaları için platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.25 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance ve Operations uygulamalarının 10.0.25 sürümü için platform güncelleştirmeleri (Nisan 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-25.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.25 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finans ve operasyon uygulamalarının 10.0.25 sürümü için platform güncelleştirmeleri (Nisan 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-25.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 
@@ -209,3 +208,4 @@ Herhangi bir özellik üründen kaldırılmadan önce, kullanım dışı bırakm
 Yalnızca derleme zamanını etkileyen ancak korumalı alan ve üretim ortamlarıyla ikili uyumlu olan son dakika değişiklikleri için kullanım dışı bırakma süresi 12 aydan kısa olacaktır. Genellikle, bunlar derleyiciye yapılması gereken işlevsel güncelleştirmelerdir.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

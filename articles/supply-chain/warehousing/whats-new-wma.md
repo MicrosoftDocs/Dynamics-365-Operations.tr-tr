@@ -10,18 +10,35 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ac750ede78bb4547f90b57426cc9cb10d2a282b3
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 19193cc445bc9c7d79463734d7d5787737ecc4f7
+ms.sourcegitcommit: 6989ac8a20c16d384b8307b707eeaf498c32d64e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954677"
+ms.lasthandoff: 07/25/2022
+ms.locfileid: "9189006"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasındaki yenilikler veya değişiklikler
 
 [!include [banner](../includes/banner.md)]
 
 Bu makale, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni özellikleri, iyileştirmeleri ve bilinen sorunları listeler.
+
+## <a name="version-20300"></a>Sürüm 2.0.30.0
+
+Bu sürüm aşağıdaki yeni özellikleri, düzeltmeleri ve iyileştirmeleri içerir.
+
+- İyileştirilmiş kararlılık.
+
+## <a name="version-20280"></a>Sürüm 2.0.28.0
+
+Bu sürüm aşağıdaki yeni özellikleri, düzeltmeleri ve iyileştirmeleri içerir.
+
+- İyileştirilmiş kararlılık.
+- Ekranda bir hata iletişim kutusu gösterilirken bile taramaya devam etme yeteneği sunuldu.
+- Barkodlarda ASCII 10 desteği eklendi.
+- Adım talimatı iletişim kutularının kullanılabilirliği iyileştirildi.
+- Bazen boş bir ekranın gösterilebileceği bir sorun düzeltildi.
+- Microsoft Windows'ta çalışırken iş listelerinin doğru şekilde kaydırılmaması sorunu düzeltildi.
 
 ## <a name="version-20250"></a>Sürüm 2.0.25.0
 

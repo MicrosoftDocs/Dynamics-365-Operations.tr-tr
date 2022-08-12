@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba80c4c3eac703ba96a4f2741fcc19bceeb24ed0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 519932854dfd3e872433b0fb304e683c57cea1cb
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898505"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108512"
 ---
 # <a name="datetodatetime-er-function"></a>DATETODATETIME ER işlevi
 
@@ -47,7 +47,7 @@ Sonuç tarih/saat değeri.
 
 ## <a name="example-1"></a>Örnek 1
 
-`DATETODATETIME (CompInfo. 'getCurrentDate()')`, 24 Aralık 2015 olan geçerli Microsoft Dynamics 365 Finance oturumunun tarihini **12/24/2015 12:00:00** olarak döndürür. Bu örnekte, **CompInfo** **Finance and Operations/Table** türünde bir elektronik raporlama (ER) veri kaynağıdır ve CompanyInfo tablosuna referans verir.
+`DATETODATETIME (CompInfo. 'getCurrentDate()')`, 24 Aralık 2015 olan geçerli Microsoft Dynamics 365 Finance oturumunun tarihini **12/24/2015 12:00:00** olarak döndürür. Bu örnekte, **CompInfo** **finans ve operasyon/Tablo** türünde bir elektronik raporlama (ER) veri kaynağıdır ve CompanyInfo tablosuna başvurur.
 
 ## <a name="example-2"></a>Örnek 2
 

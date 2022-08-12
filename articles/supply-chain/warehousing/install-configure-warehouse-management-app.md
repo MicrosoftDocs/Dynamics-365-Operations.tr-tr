@@ -16,19 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9bd208ba78d28046782d03221b0f23471f56b574
-ms.sourcegitcommit: 3f544f8671821be915b289a614e4e440bd38994f
+ms.openlocfilehash: ec2a9f5ca6d6735e675defda6782738da7814c01
+ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "8941780"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "9171470"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasını yükleme ve bağlama
 
 [!include [banner](../includes/banner.md)]
-
-> [!NOTE]
-> Bu konuda, yeni Ambar Yönetimi mobil uygulamasının nasıl yapılandırılacağı açıklanmaktadır. Eski ambar uygulamasını (şimdi kullanım dışı) nasıl yapılandıracağınız hakkında bilgi arıyorsanız bkz. [Ambar uygulamasını yükleme ve bağlama](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
 Bu konuda, Ambar Yönetimi uygulamasının mobil cihazlarınızın her birine nasıl indirilip yükleneceği ve uygulamanın Supply Chain Management ortamınıza bağlanacak şekilde nasıl yapılandırılacağı açıklanmaktadır. Her cihazı el ile yapılandırabilir veya bir dosya ya da bir QR kodunu tarayarak bağlantı ayarlarını içe aktarabilirsiniz.
 

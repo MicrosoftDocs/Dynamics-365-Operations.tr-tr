@@ -1,6 +1,6 @@
 ---
-title: Finans ve Operasyon uygulamaları ve Dataverse'teki çift yazma yapılandırmasını doğrulama
-description: Bu makalede, çift yazmanın Finans ve Operasyon uygulamalarında ve Dataverse'te yapılandırılıp yapılandırılmadığını nasıl belirleyebileceğiniz açıklanmaktadır.
+title: Finans ve operasyon uygulamaları ve Dataverse'teki çift yazma yapılandırmasını doğrulama
+description: Bu makalede, çift yazmanın finans ve operasyon uygulamalarında ve Dataverse'te yapılandırılıp yapılandırılmadığını nasıl belirleyebileceğiniz açıklanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,14 +9,14 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 7131e6c2c4ca4d9c6bb84ad74bf425faf28bd92c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d5191f5dd9c3a286abac622aede07d04fb72a8f7
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884473"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111407"
 ---
-# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Finans ve Operasyon uygulamaları ve Dataverse'teki çift yazma yapılandırmasını doğrulama
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Finans ve operasyon uygulamaları ve Dataverse'teki çift yazma yapılandırmasını doğrulama
 
 [!include [banner](../../includes/banner.md)]
 
@@ -24,21 +24,21 @@ ms.locfileid: "8884473"
 
 
 
-Bu makalede, Finans ve Operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında sorun giderme bilgileri sağlanmaktadır. Bu konu, Çift yazma'nın Finans ve Operasyon uygulamalarında ve Dataverse'te yapılandırılıp yapılandırılmadığını nasıl belirleyebileceğinizi açıklamaktadır.
+Bu makalede, finans ve operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında sorun giderme bilgileri sağlanmaktadır. Bu konu, Çift yazma'nın finans ve operasyon uygulamalarında ve Dataverse'te yapılandırılıp yapılandırılmadığını nasıl belirleyebileceğinizi açıklamaktadır.
 
-## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Finans ve Operasyon uygulamasında çift yazma özelliğinin yapılandırıldığını doğrulama
+## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Finans ve operasyon uygulamasında çift yazma özelliğinin yapılandırıldığını doğrulama
 
 Güncelleştirme için satırları kaydetmeye çalıştığınızda gördüğünüz hataların çift yazma işleminden kaynaklanıp kaynaklanmadığını belirlemek için, önce çift yazma işleminin yapılandırıldığından emin olun.
 
-+ Finans ve Operasyon uygulamasında yönetici ayrıcalıklarınız varsa **Çalışma alanları \> Veri yönetimi**'ne gidin ve **Çift Yazma** kutucuğunu seçin. Bağlı ortamların ayrıntıları ve çalışmakta olan tablo eşlemeleri listesi gösteriliyorsa çift yazma hizmeti yapılandırılmıştır.
++ Finans ve operasyon uygulamasında yönetici ayrıcalıklarınız varsa **Çalışma alanları \> Veri yönetimi**'ne gidin ve **Çift Yazma** kutucuğunu seçin. Bağlı ortamların ayrıntıları ve çalışmakta olan tablo eşlemeleri listesi gösteriliyorsa çift yazma hizmeti yapılandırılmıştır.
 
-    ![Yönetici ayrıcalıklarınız olduğunda Finans ve Operasyon uygulama bağlantısı doğrulanır.](media/verify_fin_ops_1.png)
+    ![Yönetici ayrıcalıklarınız olduğunda finans ve operasyon uygulama bağlantısı doğrulanır.](media/verify_fin_ops_1.png)
 
-+ Yönetici ayrıcalıklarınız yoksa, *\<entity name\> varlığına veri yazılamıyor* hata iletisi alırsınız. Aşağıdaki çizimde yer alan örnekte, çift yazma yapılandırılmış olmasına rağmen müşteri grubu ve ödeme koşulları başvuru verileri Dataverse'te bulunmadığından Finans ve Operasyon uygulamasında müşteri satırı oluşturamazsınız.
++ Yönetici ayrıcalıklarınız yoksa, *\<entity name\> varlığına veri yazılamıyor* hata iletisi alırsınız. Aşağıdaki çizimde yer alan örnekte, çift yazma yapılandırılmış olmasına rağmen müşteri grubu ve ödeme koşulları referans verileri Dataverse'te bulunmadığından finans ve operasyon uygulamasında müşteri satırı oluşturamazsınız.
 
-    ![Yönetici ayrıcalıklarınız olmadığında Finans ve Operasyon uygulama bağlantısı doğrulanır.](media/verify_fin_ops_2.png)
+    ![Yönetici ayrıcalıklarınız olmadığında finans ve operasyon uygulama bağlantısı doğrulanır.](media/verify_fin_ops_2.png)
 
-Finans ve Operasyon uygulamalarında veri oluştururken sorunları nasıl giderileceğine ilişkin bilgi için, bkz. [Canlı eşitleme sorunlarını giderme](dual-write-troubleshooting-live-sync.md).
+Finans ve operasyon uygulamalarında veri oluştururken sorunları nasıl giderileceğine ilişkin bilgi için bkz. [Canlı eşitleme sorunlarını giderme](dual-write-troubleshooting-live-sync.md).
 
 ## <a name="verify-that-dual-write-is-configured-in-dataverse"></a>Çift yazmanın Dataverse'ta yapılandırıldığını denetleme
 
@@ -46,7 +46,7 @@ Veri oluşturduğunuzda, Dataverse içindeki sayfalarda **Şirket** sütununu g�
 
 ![Dataverse bağlantı doğrulanıyor.](media/verify_cds.png)
 
-Dataverse'te veri oluştururken sorunları nasıl giderileceğine ilişkin bilgi için, bkz [Canlı eşitleme sorunlarını giderme](dual-write-troubleshooting-live-sync.md).
+Dataverse'te veri oluştururken sorunları nasıl giderileceğine ilişkin bilgi için bkz. [Canlı eşitleme sorunlarını giderme](dual-write-troubleshooting-live-sync.md).
 
 Hata ayrıntılarının nasıl görüntüleneceği hakkında bilgi için Dataverse'de veri oluştururken herhangi bir hatayla karşılaşırsanız, bkz. [Hata ayrıntılarını görüntülemek için Dataverse'te eklenti izleme günlüklerini etkinleştirin ve görüntüleyin](dual-write-troubleshooting.md#enable-view-trace).
 

@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ed6f53d79e273ecc938ee8bd1a8c0990e60bc997
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 654ea18b3cb22bbdfad061f38653f654cef83bdc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883976"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066527"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-functional-consultants"></a>Dynamics 365 Commerce işlevsel danışmanları için öğrenme kataloğu
 
@@ -27,7 +27,7 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 
 İşlevsel danışmanlar için iş-görev analizi araştırmamız, herkesin temel içerik setinin yanı sıra etki alanını da bilmesi gerektiğini göstermektedir.
 
-Diğer Finans ve Operasyon uygulamalarıyla paylaşılan özellikler hakkında eğitim için bkz. [Dynamics 365 Finance Öğrenme Kataloğu](../../finance/get-started/learning-catalog-functional-consultant.md).
+Diğer finans ve operasyon uygulamalarıyla paylaşılan özellikler hakkında eğitim için bkz. [Dynamics 365 Finance Öğrenme Kataloğu](../../finance/get-started/learning-catalog-functional-consultant.md).
 
 ## <a name="get-started"></a>Başlayın<a name="get-started"></a>
 
@@ -56,3 +56,4 @@ Diğer Finans ve Operasyon uygulamalarıyla paylaşılan özellikler hakkında e
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

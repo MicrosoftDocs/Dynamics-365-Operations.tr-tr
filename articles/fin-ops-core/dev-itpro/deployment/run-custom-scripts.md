@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: ff01e2ff8ec105603bb91e0b555301f36e8985b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aad48fbd3ee2f28f39f6061b5e922f5c4f47c8f6
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867343"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103535"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>Özel X++ komut dosyalarını sıfır kapalı kalma süresiyle çalıştırma
 
@@ -120,7 +120,7 @@ Aşağıdaki listede, komut dosyasını başarıyla yazmak, uygulamak ve çalı�
 
 Komut dosyasını yüklemek ve çalıştırmak için aşağıdaki yordamı kullanın.
 
-1. Finans ve Operasyon uygulamanızda, **Sistem yönetimi \> Periyodik görevler \> Veritabanı \> Özel komut dosyaları**'na gidin.
+1. Finans ve operasyon uygulamanızda, **Sistem yönetimi \> Periyodik görevler \> Veritabanı \> Özel komut dosyaları**'na gidin.
 1. **Yükle**'yi seçin.
 1. Bu makalede daha önce açıklandığı gibi oluşturduğunuz dağıtılabilir paketi seçin. Komut dosyasının amacını belirtmeniz istenecektir.
 1. Komut dosyası artık dosyayı yükleyen kullanıcı dışında bir kullanıcı tarafından onaylanmalıdır. Onaylayan kullanıcı aşağıdaki adımları izlemelidir:
@@ -149,6 +149,7 @@ Son adımdaki seçiminiz komut dosyasının son durumunu tanımlar. Süreci ihti
 
 ## <a name="upload-and-run-a-deployable-package-through-lcs"></a>LCS aracılığıyla dağıtılabilir bir paket yükleme ve çalıştırma
 
-Dağıtılabilir paketinizi önceki bölümde açıklandığı gibi Finans ve Operasyon uygulamanız için kullanıcı arabirimi üzerinden dağıtmak yerine, LCS'ye yükleyebilir ve dağıtmak için normal yordamı kullanabilirsiniz. Daha fazla bilgi için bkz. [Dağıtılabilir paketleri komut satırından yükleme](../deployment/install-deployable-package.md).
+Dağıtılabilir paketinizi önceki bölümde açıklandığı gibi Finans ve operasyon uygulamanız için kullanıcı arabirimi üzerinden dağıtmak yerine, LCS'ye yükleyebilir ve dağıtmak için normal yordamı kullanabilirsiniz. Daha fazla bilgi için bkz. [Dağıtılabilir paketleri komut satırından yükleme](../deployment/install-deployable-package.md).
 
 Bu yaklaşım daha az kısıtlamaya sahip olsa da, daha az hata koruması sağlar. Ayrıca, tüm sunucuların yeniden başlatılması gerektiğinden, bazı kapalı kalma sürelerine neden olur.
+

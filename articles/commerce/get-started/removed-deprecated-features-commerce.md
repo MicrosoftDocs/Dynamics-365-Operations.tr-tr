@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce'te kaldırılan veya kullanım dışı bırakılan özellikler
 description: Bu makale Dynamics 365 Commerce'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: josaw
-ms.date: 04/27/2022
+ms.date: 07/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 2725ff2b8bfbaadbca1bc070e32cee7c5d2754be
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a59d62ad846eed659fa4e70390ebafc40127df0f
+ms.sourcegitcommit: ef56b5d0ed26e373add5dec63168e08ade40573e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910536"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9138599"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce'te kaldırılan veya kullanım dışı bırakılan özellikler
 
@@ -31,7 +31,20 @@ Bu makale Dynamics 365 Commerce'dan kaldırılmış veya kaldırılması planlan
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
 > [!NOTE]
-> Finans ve Operasyon uygulamalarındaki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](/dynamics/s-e/) altından ulaşabilirsiniz. Finans ve Operasyon uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+> Finans ve operasyon uygulamalarındaki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](/dynamics/s-e/) altından ulaşabilirsiniz. Finans ve operasyon uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="feature-deprecation-effective-july-2022"></a>Temmuz 2022'den itibaren geçerli olmak üzere özellik kullanımdan kaldırma bildirimi
+
+### <a name="commerce-analytics-preview"></a>Commerce analizleri (Önizleme)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Dynamics 365 Commerce ekibi, Ticari analiz (Önizleme) özelliğinin kullanımını ve alımını analiz etti ve özelliğin genel kullanılabilirliği konusunda artık ilerlememe kararı aldı.   |
+| **Başka bir özellikle mi değiştirildi?**   | Bu aşamada, Ticari analiz (Önizleme) başka bir özellik veya çözümle değiştirilmeyecektir. Finans ve operasyon uygulamalarındaki ham işlemlerin ve ana verilerin Azure Data Lake'e dışa aktarılması, [Finans ve operasyon uygulamalarında Data Lake öğesine dışa aktarma](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md) bölümünde açıklandığı gibi kullanılabilir olmaya devam eder. İş ortakları ve müşteriler, iş gereksinimlerine ilişkin amaçlanan analiz raporları yazmak için bu veri akışını geliştirebilir.
+| **Etkilenen ürün alanları**         | Commerce analizleri (Önizleme) |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Bu özelliği 30 Ağustos 2022 tarihine kadar devre dışı bırakmak istiyorsunuz.  Bu tarihten itibaren Ticari analiz (Önizleme) tarafından sağlanan geçerli Power BI raporlarda herhangi bir yenileme yapılmayacaktır.     |
+
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Commerce 10.0.25 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 
@@ -73,7 +86,7 @@ Retail SDK, Lifecycle Services (LCS) ile birlikte gelir. Bu dağıtım modu, 10.
 | **Başka bir özellikle mi değiştirildi?**   |  [GitHub ve NuGet'ten Retail SDK örnekleri ve başvuru paketleri indirme](../dev-itpro/retail-sdk/sdk-github.md) |
 | **Etkilenen ürün alanları**         | Retail SDK'si |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kullanım dışı: 10.0.21 sürümünden itibaren LCS VM'leri aracılığıyla gönderilen SDK, Ekim 2023'de kaldırılacaktır. |
+| **Durum**                         | Kullanım dışı: 10.0.21 sürümünden itibaren LCS VM'leri aracılığıyla gönderilen SDK, Ekim 2023'te kaldırılacaktır. |
 
 ### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Perakende dağıtılabilir paketi ve birleşik POS, Donanım istasyonu ve Bulut Ölçeği birimi yükleyicileri
 
@@ -106,7 +119,7 @@ ModernPos.sln, CloudPos.sln, POS.Extension.csproj ve POS klasörünü kullanarak
 | **Başka bir özellikle mi değiştirildi?**   | [POS bağımsız paketleme SDK'si](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
 | **Etkilenen ürün alanları**         | Dynamics 365 Commerce POS uzantısı ve dağıtımı |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kullanım dışı: 10.0.21 sürümünden itibaren, Retail SDK'de ModernPos.Sln, CloudPOs.sln ve POS.Extensons.csproj kullanan birleşik POS paketleri ve uzantı modeli desteği Ekim 2023'de kaldırılacaktır. |
+| **Durum**                         | Kullanım dışı: 10.0.21 sürümünden itibaren, Retail SDK'de ModernPos.Sln, CloudPOs.sln ve POS.Extensons.csproj kullanan birleşik POS paketleri ve uzantı modeli desteği Ekim 2023'te kaldırılacaktır. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Commerce 10.0.17 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 
@@ -146,7 +159,7 @@ ModernPos.sln, CloudPos.sln, POS.Extension.csproj ve POS klasörünü kullanarak
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Visual Studio 2015 için Retail SDK desteği kullanım dışı bırakıldı ve VS 2017, msbuild 15.0 desteğine güncelleştirildi; RetailSDK\Referanslar klasöründeki tüm referans kitaplıkları ve ticaret ara sunucu oluşturucu araçları uzantı modeli ve SDK yükseltme işlemini kolaylaştırmak için NuGet paketlerine taşındı.|
-| **Başka bir özellikle mi değiştirildi?**   | Sisteminizi güncelleştirmek için [Retail SDK'yı Visual Studio 2015'den Visual Studio 2017'ye taşıma](../dev-itpro/retail-sdk/migrate-sdk.md) bölümündeki bilgileri izlemenizi öneririz. |
+| **Başka bir özellikle mi değiştirildi?**   | Sisteminizi güncelleştirmek için [Retail SDK'yı Visual Studio 2015'ten Visual Studio 2017'ye taşıma](../dev-itpro/retail-sdk/migrate-sdk.md) bölümündeki bilgileri izlemenizi öneririz. |
 | **Etkilenen ürün alanları**         | Retail SDK uzantıları |
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Kullanımdan kaldırıldı: 10.0.11 sürümü itibarıyla |
@@ -195,3 +208,4 @@ ModernPos.sln, CloudPos.sln, POS.Extension.csproj ve POS klasörünü kullanarak
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

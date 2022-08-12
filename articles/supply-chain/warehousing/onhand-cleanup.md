@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a82a3b26f2bf7cb546383da047d18c2997569ca5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900520"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065164"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Ambar yönetimi eldeki stok girişlerini temizleme işi
 
@@ -26,11 +26,11 @@ ms.locfileid: "8900520"
 
 Eldeki stoğu hesaplamak için kullanılan sorguların performansı, söz konusu tablolardaki kayıt sayısından etkilenir. Performansı iyileştirmeye yardımcı olmanın bir yolu, veritabanının dikkate alınması gereken kayıt sayısını azaltmaktır.
 
-Bu makale, InventSum ve WHSInventReserve servis tablolarında gerekmeyen kayıtları silen eldeki girişler temizleme işini açıklamaktadır. Bu tablolar, ambar yönetimi işlemleri için etkinleştirilen maddeler için eldeki bilgileri depolar. (Bu öğelere, duman maddeleri olarak başvurulur.) Bu kayıtların silinmesi, eldeki hesaplamaların performansını önemli ölçüde artırabilir.
+Bu makalede, `InventSum` ve `WHSInventReserve` tablolarında gerekmeyen kayıtları silen eldeki girişler temizleme işi açıklanmaktadır. Bu tablolar, ambar yönetimi işlemleri için etkinleştirilen maddeler için eldeki bilgileri depolar. (Bu öğeler, WMS öğeleri olarak adlandırılır.) Bu kayıtların silinmesi, mevcut hesaplamaların performansını önemli ölçüde artırabilir.
 
 ## <a name="what-the-cleanup-job-does"></a>Temizleme işi ne yapar
 
-Eldeki girişler temizleme işi, WHSInventReserve ve InventSum tablolarındaki tüm alan değerlerinin *0* (sıfır) olduğu tüm kayıtları siler. Bu kayıtlar, eldeki bilgilere katkıda bulunmadığından silinebilir. İş, yalnızca **konum** düzeyinin altında olan kayıtları siler.
+Mevcut girişleri temizleme işi, `WHSInventReserve` ve `InventSum` tablolarındaki tüm alan değerlerinin *0* (sıfır) olduğu tüm kayıtları siler. Bu kayıtlar, eldeki bilgilere katkıda bulunmadığından silinebilir. İş, yalnızca **konum** düzeyinin altında olan kayıtları siler.
 
 Negatif fiziksel stoka izin veriliyorsa, temizleme işi ilgili tüm girişleri silememeyebilir. Bu sınırlamanın nedeni işin, lisans kalıbının birden çok seri numarası olduğu ve bu seri numaralarından biri negatif hale geldiği özel bir senaryoya izin vermesi gerekir. Örneğin, bir lisans kalıbının -1 seri numarasından ve %2 seri numarasından 1 PC 'ye sahip olduğu durumlarda sistem, lisans levhası düzeyinde sıfır elindedir sahip olacaktır. Bu özel senaryo için iş, öncelikle daha düşük düzeylerden silmeye çalıştığı, birinci düzey silme işlemi yapar.
 

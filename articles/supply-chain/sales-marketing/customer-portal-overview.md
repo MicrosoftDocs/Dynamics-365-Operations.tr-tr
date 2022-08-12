@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ff074e62489fe74f0c2de6dae0e02d1da7e7f6ae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f34acd78966cc9f26242653e9d0d16fdf22e0b2
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901922"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103845"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Dynamics 365 Supply Chain Management için Müşteri portalına genel bakış
 
@@ -42,7 +42,7 @@ Müşteri Portalı şablonu, Power Apps'in sunduğu tüm özelleştirme yetenekl
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
 
-[Dynamics 365 Supply Chain Management'ta Müşteri portalı şablonuna genel bakış](https://youtu.be/nPrqoLuHfV8) videosu (yukarıda gösterilen), YouTube'daki [Finance ve Operations çalma listesinde](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) yer almaktadır.
+[Dynamics 365 Supply Chain Management'ta Müşteri portalı şablonuna genel bakış](https://youtu.be/nPrqoLuHfV8) videosu (yukarıda gösterilen), YouTube'daki [finans ve operasyon oynatma listesinde](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) yer almaktadır.
 
 ## <a name="who-should-use-it"></a>Kimler kullanacak?
 
@@ -62,7 +62,7 @@ Müşteri Portalı, Power Apps portal şablonu olarak sağlanır. Bunlar Power A
 
 [Power Apps portallar](/powerapps/maker/portals/overview), kullanıcıların, kuruluş dışından kişilerin oturum açmasını sağlayan dışarıdan bakan bir Web sitesi oluşturmalarına olanak tanıyan bir özelliktir. Portalları yapmak için bir kod oluşturma gerekmez. Müşteri Portalı, Microsoft tarafından kullanılabilen birçok [Dynamics 365 Portal şablonlarından](/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) biridir.
 
-[Çift yazma](/powerapps/maker/portals/overview), Customer Engagement uygulamaları ile Finance ve Operations uygulamaları arasında gerçek zamanlıya yakın etkileşim sağlayan hazır bir altyapı ürünüdür. Çift-yazma, Finance ve Operations uygulamaları ve Microsoft Dataverse arasında çift yönlü tümleştirme sağlar. Bu nedenle, uygulamalar arasında tümleşik bir kullanıcı deneyimi sağlar. Müşteri portalı, çift yazma ile eşitlenen tablolara bağlıdır. Supply Chain Management'tan alınan verilerin Müşteri portalında gösterilebilmesi için uygun tüm tablolarda çift yazmanın etkinleştirilmiş olması gerekir.
+[Çift yazma](/powerapps/maker/portals/overview), Customer Engagement uygulamaları ile finans ve operasyon uygulamaları arasında gerçek zamanlıya yakın etkileşim sağlayan hazır bir altyapı ürünüdür. Çift yazma, finans ve operasyon uygulamaları ile Microsoft Dataverse arasında çift yönlü tümleştirme sağlar. Bu nedenle, uygulamalar arasında tümleşik bir kullanıcı deneyimi sağlar. Müşteri portalı, çift yazma ile eşitlenen tablolara bağlıdır. Supply Chain Management'tan alınan verilerin Müşteri portalında gösterilebilmesi için uygun tüm tablolarda çift yazmanın etkinleştirilmiş olması gerekir.
 
 ![Müşteri portalı bağımlılıkları.](media/customer-portal-elements.png "Müşteri portalına bağımlılıklar")
 

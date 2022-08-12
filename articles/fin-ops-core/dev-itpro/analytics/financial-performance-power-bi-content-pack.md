@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcbe41d113ee41734020546388851afb7fc27bbf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7b6fb9643873178f1cb93e3da15e83598af51de0
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910429"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109565"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Mali performans PowerBI.com çözümü
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Bu PowerBI.com çözümü [Finance and Operations için kaldırılan veya kullanımına son verilen özellikler](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource) başlıklı konuda belirtildiği üzere kullanım dışı bırakılmıştır.
+> Bu PowerBI.com çözümü [Finans ve operasyon için kaldırılan veya kullanımına son verilen özellikler](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource) başlıklı konuda belirtildiği üzere kullanım dışı bırakılmıştır.
 
 Bu makalede, **Mali performans** PowerBI.com çözümü açıklanmaktadır. Panoyu ve içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve çözümü oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 

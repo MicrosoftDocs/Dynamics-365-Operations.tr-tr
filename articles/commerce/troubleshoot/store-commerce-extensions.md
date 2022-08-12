@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: rassadi
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: ff26bb76e04c60a9cb975e106456fd781f9300c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b440183e255e05c4f93a4f11106be2967163ff74
+ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870530"
+ms.lasthandoff: 07/16/2022
+ms.locfileid: "9169030"
 ---
 # <a name="troubleshoot-store-commerce-extension-issues"></a>Store Commerce uzantısı sorunlarını giderme
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Bu makalede, Microsoft Dynamics 365 Commerce Store Commerce uygulamasındaki uzantı sorunlarının nasıl giderileceği açıklanmaktadır.
 

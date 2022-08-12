@@ -6,21 +6,22 @@ ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 272953
-ms.assetid: 4e4d4323-78cf-4ffa-8d5a-05e856c33db6
+ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
-ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d43cef4970cdf180d0db39086220def56b08f280
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.dyn365.ops.version: Version 1611
+ms.custom:
+- "272953"
+ms.assetid: 4e4d4323-78cf-4ffa-8d5a-05e856c33db6
+ms.search.form: WHSWarehousePerformancePowerBI
+ms.openlocfilehash: 667f085aa37be0d3a9ea490cf35ea4f22ef3120e
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851936"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206045"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>Ambar performansı Power BI içeriği
 
@@ -75,7 +76,7 @@ Ambar yöneticileri, **Ambar performansı** Power BI içeriğini aşağıdaki ü
 | Sevkiyat performansı        | Tesise / ambara göre sevkiyat              | Tesis veya ambara göre erken, zamanında veya geç sevkiyatın yüzdesi. |
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Veri modellerini ve hesaplamalarını anlama
-Aşağıdaki veriler **Ambar performansı** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Server veritabanıdır. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesi](power-bi-integration-entity-store.md).
+Aşağıdaki veriler **Ambar performansı** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Server veritabanıdır. Daha fazla bilgi için bkz. [Varlık mağazası ile Power BI tümleştirmesi](power-bi-integration-entity-store.md).
 
 Aşağıdaki önemli toplam ölçümler, içeriğin temeli olarak kullanılır.
 

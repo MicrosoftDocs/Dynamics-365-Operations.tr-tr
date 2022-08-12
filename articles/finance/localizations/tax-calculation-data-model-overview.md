@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79296a452e146bb17b197e9ca40db016664df6f9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859709"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068863"
 ---
 # <a name="tax-calculation-data-model"></a>Vergi hesaplama veri modeli
 
 Bu makalede, vergi veri modelinde alan değerlerinin vergi hesaplama hareketlerinde nasıl belirlendiği hakkında bilgi sağlanmaktadır.
 
-*Vergi veri modeli*, vergi hesaplamaları için gerekli alanlardan oluşur. Microsoft, *vergi hesaplama veri modeli* sağlar ve bu, Finans ve Operasyon uygulamalarında hareket belgelerinin üst bilgi alanlarını ve satır alanlarını içerir. Vergi hesaplama veri modelinde tanımlanan alanlar, vergi hesaplama özelliği yapılandırmasında uygulanabilirlik kural tablolarının kullanılabilir sütunlarıdır.
+*Vergi veri modeli*, vergi hesaplamaları için gerekli alanlardan oluşur. Microsoft, *vergi hesaplama veri modeli* sağlar ve bu, finans ve operasyon uygulamalarında hareket belgelerinin üst bilgi alanlarını ve satır alanlarını içerir. Vergi hesaplama veri modelinde tanımlanan alanlar, vergi hesaplama özelliği yapılandırmasında uygulanabilirlik kural tablolarının kullanılabilir sütunlarıdır.
 
 > [!NOTE] 
 > Veri modelinde tanımlanan **Kayıt Kimliği** ve **Tablo Kimliği** gibi bazı düğümler, teknik amaçlara yöneliktir. Bunlar, vergi hesaplama özelliği yapılandırmasında kullanılabilir sütunlar değildir.
@@ -54,7 +54,7 @@ Uygulanabilirlik kuralları tablosunda ayrıca vergi hesaplama veri modelini ve 
 
     [![Sütunları yönet.](./media/tax-calculation-model-mapping-3.png)](./media/tax-calculation-model-mapping-3.png)
 
-Vergi hesaplama veri modeli, Finans ve Operasyon uygulamalarıyla tümleşiktir. Vergi hesaplamayla ilgili her hareket sırasında, uygulanabilirlik kuralları tablolarında tanımlanan alanların değerleri toplanır ve hesaplama için vergi hesaplama hizmetine gönderilir. Sürüm 40.46'da, şu hareket türleri için 57 adet önceden tanımlanmış veri modeli kullanılabilir: satın alma siparişleri, satış siparişleri, transfer emirleri, satın alma talepleri, teklif talepleri ve satış teklifleri.
+Vergi hesaplama veri modeli, finans ve operasyon uygulamalarıyla tümleşiktir. Vergi hesaplamayla ilgili her hareket sırasında, uygulanabilirlik kuralları tablolarında tanımlanan alanların değerleri toplanır ve hesaplama için vergi hesaplama hizmetine gönderilir. Sürüm 40.46'da, şu hareket türleri için 57 adet önceden tanımlanmış veri modeli kullanılabilir: satın alma siparişleri, satış siparişleri, transfer emirleri, satın alma talepleri, teklif talepleri ve satış teklifleri.
 
 ## <a name="version-updates-and-restrictions"></a>Sürüm güncelleştirmeleri ve sınırlamaları
 
@@ -134,3 +134,4 @@ Yirmi altı adet veri modeli, hareketin satırlarındaki alanlar olarak dahil ed
 | Birim                          | <ul><li>**Satış siparişi:** Birim</li><li>**Satın alma siparişi:** Birim</li><li>**Transfer emri - Sevk:** Birim</li><li>**Transfer emri - Teslim alma:** Birim</li><li>**Satın alma talebi:** Birim</li><li>**Teklif talebi:** Birim</li><li>**Satış teklifi:** Birim</li></ul> |
 | Çeşit numarası                | <ul><li>**Satış siparişi:** Çeşit numarası</li><li>**Satın alma siparişi:** Çeşit numarası</li><li>**Satış teklifi:** Çeşit numarası</li></ul> |
 | Ambar                     | <ul><li>**Satış siparişi:**<ol><li>Satır &gt; Ambar</li><li>Ürün &gt; Ambar</li></ol></li><li>**Satın alma siparişi:**<ol><li>Satır &gt; Ambar</li><li>Ürün &gt; Ambar</li></ol></li><li>**Transfer emri - Sevk:** Kaynak ambar</li><li>**Transfer emri - Teslim alma:** Hedef ambar</li><li>**Satın alma talebi:** Satır &gt; Ambar</li><li>**Teklif talebi:** Satır &gt; Ambar</li><li>**Satış teklifi:**<ol><li>Satır &gt; Ambar</li><li>Ürün &gt; Ambar</li></ol></li></ul> |
+

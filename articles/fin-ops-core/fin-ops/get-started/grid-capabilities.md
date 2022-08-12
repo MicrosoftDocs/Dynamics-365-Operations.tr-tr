@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5259e1d7d6c95074337164d8427d7f035e00dbd9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 07791afb2de670a5b9b910e441395c2949460394
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890072"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124725"
 ---
 # <a name="grid-capabilities"></a>Kılavuz yetenekleri
 
@@ -35,10 +35,10 @@ Yeni ızgara denetimi, kullanıcı üretkenliğini artırmak, verilerinizin daha
 - Uzatılabilir sütunlar
 
 ## <a name="calculating-totals"></a>Toplamların hesaplanması
-Finance ve Operations uygulamalarında kullanıcılar toplamları ızgaralardaki sayısal sütunların alt kısmında görebilme yeteneğine sahiptir. Izgaranın altındaki alt bilgi bölümü bu toplamları gösterir. 
+Finans ve operasyon uygulamalarında kullanıcılar toplamları ızgaralardaki sayısal sütunların alt kısmında görebilme yeteneğine sahiptir. Izgaranın altındaki alt bilgi bölümü bu toplamları gösterir. 
 
 ### <a name="showing-the-grid-footer"></a>Kılavuz alt bilgisini gösterme
-Finance ve Operations uygulamalarda her sekmeli kılavuzun altında altbilgi alanı vardır. Altbilgi, kılavuzda görülen verilerle ilgili değerli bilgileri gösterebilir. Aşağıda bu bilgilerin örnekleri verilmiştir:
+Finans ve operasyon uygulamalarda her sekmeli kılavuzun altında altbilgi alanı vardır. Altbilgi, kılavuzda görülen verilerle ilgili değerli bilgileri gösterebilir. Aşağıda bu bilgilerin örnekleri verilmiştir:
 
 - Tablodaki seçili satır sayısı (birden fazla kayıt seçtiğinizde)
 - Yapılandırılan sayısal sütunların en altındaki genel toplamlar
@@ -86,7 +86,7 @@ Bu yeni davranışı desteklemek için, satır seçim sütunu düzenleme modunda
 Kullanıcılar, sunucunun işlediği yerin önüne veri girerken arama eksikliği, denetim düzeyinde doğrulama ve varsayılan değerlerin girişi gibi veri giriş deneyimlerinde bazı aksaklıklarla karşılaşabilirler. Bir değerin bulunması için açılan listeye gereksinim duyan kullanıcıların, sunucunun geçerli satırı yakalamasını beklemeleri önerilir. Sunucu o satırı işlediğinde, denetim düzeyinde doğrulama ve varsayılan değerlerin girişi de gerçekleşir.
 
 ### <a name="pasting-from-excel"></a>Excel'den yapıştırma
-Kullanıcılar her zaman Finance ve Operations uygulamalarındaki kılavuzlardan Microsoft Excel'e **Excel'e aktar** mekanizmasını kullanarak veri aktarabiliyordu. Ancak, sistemden önce veri girebilme özelliği, yeni kılavuzun Excel'den tablo kopyalanmasına ve onları Finance ve Operations uygulamalarında doğrudan ızgaralara yapıştırmasına olanak tanır. Yapıştırma işleminin başlatıldığı kılavuz hücresi kopyalanan tablonun nereye yapıştırılacağını belirler. Şu iki durum dışında, kılavuzun içeriği üzerine kopyalanan tablonun içeriği yazılır:
+Kullanıcılar her zaman finans ve operasyon uygulamalarındaki kılavuzlardan Microsoft Excel'e **Excel'e aktar** mekanizmasını kullanarak veri aktarabiliyordu. Ancak, sistemden önce veri girebilme özelliği, yeni kılavuzun Excel'den tablo kopyalanmasına ve onları finans ve operasyon uygulamalarında doğrudan ızgaralara yapıştırmasına olanak tanır. Yapıştırma işleminin başlatıldığı kılavuz hücresi kopyalanan tablonun nereye yapıştırılacağını belirler. Şu iki durum dışında, kılavuzun içeriği üzerine kopyalanan tablonun içeriği yazılır:
 
 - Kopyalanan tablodaki sütun sayısı, yapıştırma konumundan başlayarak kılavuzda kalan sütun sayısını aşarsa, kullanıcıya ek sütunların yok sayıldığı bildirilir. 
 - Kopyalanan tablodaki satır sayısı, yapıştırma konumundan başlayarak kılavuzdaki satır sayısını aşarsa, yapıştırılan içerik için varolan hücrelerin üzerine yazılır ve kopyalanan tablodaki tüm ek satırlar kılavuzun en altına yeni satırlar olarak eklenir. 
@@ -97,7 +97,7 @@ Verimlilik rampa olarak, kullanıcılar bir kılavuzdaki sayısal hücrelere mat
 Sistemin bir değeri ifade olarak tanımasını sağlamak için, değeri bir eşittir işaretiyle (**=**) başlatın. Desteklenen işleçler ve söz dizimi hakkında daha fazla bilgi edinmek için bkz. [Desteklenen matematik simgeleri](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Sekmeli verileri gruplandırma
-İş kullanıcılarının sıklıkla anlık olarak veri analizi yapmaları gerekir. Bu işlem Microsoft Excel'e veri aktararak ve özet tablolar kullanarak yapılırken, yeni kılavuz denetim özelliğine bağlı olan **Kılavuzlarda gruplandırma** özelliği sayesinde kullanıcılar sekmeli verilerini Finance ve Operations uygulamalarında ilginç yollarla organize edebilirler. Bu özellik **Toplamlar** özelliğini genişlettiği için, **Gruplandırma** da grup düzeyinde alt toplamlar sunarak verilere anlamlı bilgiler yüklemenize olanak sağlar.
+İş kullanıcılarının sıklıkla anlık olarak veri analizi yapmaları gerekir. Bu işlem Microsoft Excel'e veri aktararak ve özet tablolar kullanarak yapılırken, yeni kılavuz denetim özelliğine bağlı olan **Kılavuzlarda gruplandırma** özelliği sayesinde kullanıcılar sekmeli verilerini finans ve operasyon uygulamalarında ilginç yollarla organize edebilirler. Bu özellik **Toplamlar** özelliğini genişlettiği için, **Gruplandırma** da grup düzeyinde alt toplamlar sunarak verilere anlamlı bilgiler yüklemenize olanak sağlar.
 
 Bu özelliği kullanmak için, gruplandırmada kullanmak istediğiniz sütuna sağ tıklayın ve **Bu sütuna göre gruplandır**'ı seçin. Bu eylem, verileri, seçilen sütuna göre sıralar, kılavuzun başına yeni bir **Gruplandırma ölçütü** sütunu ve her grubun başına "üst bilgi satırları" ekler. Bu üst bilgi satırları her grup hakkında aşağıdaki bilgileri sağlar:
 
@@ -168,7 +168,7 @@ Yeni ızgaranın tek bir sayfada kullanılmamasını seçtiyseniz ilgili sorunla
 ## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Geliştirici] Sistemden önce kılavuzları tek tek Yazma'dan çıkarma özelliği
 Kılavuzun *Sistemden önce yazma* özelliği ile iyi çalışmayan bazı senaryolar ortaya çıkmıştır. (Örneğin, bir satır doğrulandığında tetiklenen bazı kodlar veri kaynağı araştırmasının tetiklenmesine neden oluyor ve araştırma daha sonra varolan satırlardaki kaydedilmemiş düzenlemeleri bozabiliyor.) Kuruluşunuz böyle bir senaryo keşfederse, geliştiricinin zaman uyumsuz satır doğrulamasından tek bir kılavuzu seçmesine ve eski davranışa geri dönmesine olanak sağlayan bir API kullanılabilir.
 
-Bir kılavuzda zaman uyumsuz satır doğrulaması devre dışı bırakıldığında, geçerli satırda doğrulama sorunları varken kullanıcılar yeni bir satır oluşturamaz veya kılavuzda varolan farklı bir satıra geçemez. Bu eylemin bir yan etkisi olarak, tablolar Excel'den Finans ve Operasyon kılavuzlarına yapıştırılamaz.
+Bir kılavuzda zaman uyumsuz satır doğrulaması devre dışı bırakıldığında, geçerli satırda doğrulama sorunları varken kullanıcılar yeni bir satır oluşturamaz veya kılavuzda varolan farklı bir satıra geçemez. Bu eylemin bir yan etkisi olarak, tablolar Excel'den finans ve operasyon kılavuzlarına yapıştırılamaz.
 
 Tek bir kılavuzu zaman uyumsuz satır doğrulamasının dışında tutmak için formun `run()` yönteminde `super()` sonrasında aşağıdaki çağrıyı ekleyin.
 
@@ -193,10 +193,11 @@ Bu bölüm, yeni ızgara denetimiyle ilgili bilinen sorunların listesini içeri
 
     Bir kullanıcı bu durumlardan biriyle karşılaştığında, sayfayı yenileme hakkında bir ileti görüntülenecektir. Bu ileti görüntülendikten sonra, bir sonraki ürün sürümü güncelleştirilinceye kadar, sayfa tüm kullanıcılar için varolan kılavuzla çalışmaya devam eder. Yeni kılavuzun kullanılabilmesi amacıyla gelecekteki bir güncelleştirme için bu senaryoların daha iyi işlenmesi dikkate alınacaktır.
 
-- [KB 4582758] Yakınlaştırmayı 100'den başka bir yüzdeye değiştirdiğinizde kayıtlar bulanıklaşır
-- [KB 4592012] Excel'den birden çok satır yapıştırırken IE11 içinde beklenmeyen istemci hatası
+- [BB 4582758] Yakınlaştırmayı 100'den başka bir yüzdeye değiştirdiğinizde kayıtlar bulanıklaşır
+- [BB 4592012] Excel'den birden çok satır yapıştırırken IE11 içinde beklenmeyen istemci hatası
 
     Microsoft bu sorun için bir düzeltme aramamaktadır
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

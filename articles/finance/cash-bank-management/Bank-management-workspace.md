@@ -1,7 +1,7 @@
 ---
 title: Banka yönetimi çalışma alanı
 description: Bu makalede, Banka yönetimi çalışma alanı hakkında bilgiler sağlanmaktadır. Bu çalışma alanı, şirket banka hesaplarıyla ilgili bilgileri gösterir.
-author: kweekley
+author: angelad116
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: kweekley
+ms.author: angelading
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f9dd4eb55f20c2d22c9ec9955bbefd094732cc34
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f9880928281e704edcd24a75f99d4562761b7c82
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861487"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151566"
 ---
 # <a name="bank-management-workspace"></a>Banka yönetimi çalışma alanı
 

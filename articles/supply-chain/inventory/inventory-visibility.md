@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 782545ea38a209eb4430607f5bca96e4e930efdc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 274f9b368a6074725d1938de5f2172d2810a5985
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897646"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066655"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Stok Görünürlüğü Eklentisi'ne genel bakış
 
@@ -61,9 +61,9 @@ Yakın gelecekteki tahmini stoğunuza yönelik görünürlük (arz, talep ve tah
 
 KM özelliği, günlük sipariş karşılama sürecinize kolaylıkla dahil edilebilir. En önemlisi, diğer Stok Görünürlüğü teklifleri gibi KM özelliği de *global ve gerçek zamanlıdır*. Bu nedenle, tüm iş kanallarınızı ve veri kaynaklarınızı kapsayan tam stok kullanılabilirlik sorgusu yapabilmek için birden çok KM hesaplama formülü ayarlayabilirsiniz. Daha fazla bilgi için bkz. [Stok Görünürlüğü eldeki değişiklik zamanlamaları ve karşılanabilir miktarı](inventory-visibility-available-to-promise.md).
 
-### <a name="compatibility-with-advanced-warehouse-management-items"></a>Gelişmiş ambar yönetimi maddeleriyle uyumluluk
+### <a name="compatibility-with-warehouse-management-processes-wms-items"></a>Ambar yönetimi süreçleri (WMS) öğeleriyle uyumluluk
 
-Microsoft, WHS müşterilerinin de Stok Görünürlüğü hizmetinden faydalanması için gelişmiş ambar yönetimi (WHS) ile hazır tümleştirme sağlamayı amaçlamaktadır. 2022 1. Dalga'nın yayınlanması (genel önizlemesi Mart ayında) ile stok hizmeti, WHS eldeki stok sorgularını ve KM'yi destekler. Geçici rezervasyon ve tahsisat özelliği, WHS müşterileri için bir sonraki dalgada desteklenecektir. Daha fazla bilgi için bkz. [WHS öğeleri için Stok Görünürlüğü desteği](inventory-visibility-whs-support.md).
+Microsoft, WMS müşterilerinin de Stok Görünürlüğü hizmetinden faydalanması için ambar yönetimi süreçleri (WMS) ile hazır tümleştirme sağlamayı amaçlamaktadır. 2022 1. Dalga'nın yayımlanması (genel önizlemesi Mart ayında) ile stok hizmeti, WMS eldeki stok sorgularını ve KM'yi destekler. Geçici rezervasyon ve tahsisat özelliği, WMS müşterileri için bir sonraki dalgada desteklenecektir. Daha fazla bilgi için bkz. [WMS öğeleri için Stok Görünürlüğü desteği](inventory-visibility-whs-support.md).
 
 ## <a name="licensing"></a>Lisans
 

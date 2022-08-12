@@ -10,18 +10,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: dc88d095c039b22ac347db949f6b61d5a89dc4b1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0dee558de2defa7baae4bc4097c750e974c12a14
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875437"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135704"
 ---
 # <a name="business-documents-supported-by-global-inventory-accounting"></a>Global Stok Muhasebesi tarafından desteklenen iş belgeleri
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 Global Stok Muhasebesi Eklentisi tam olarak ayarlandıktan sonra, Microsoft Dynamics 365 Supply Chain Management'a girilen stokla ilgili belgeleri işlemeye hazırdır.
 

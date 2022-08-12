@@ -12,18 +12,18 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 54a3dfe64d46b082db12ef05b88075831c9f525e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 473977a7a75bb7bbe493225c6455a918ba5f748e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898557"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070801"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-administrators"></a>Dynamics 365 Commerce Yöneticileri için öğrenme kataloğu
 
 Sistemleri ve veri akışını, sağlanan ve güvenli gidiş-saatini saklamanız gerekiyor mu?
 
-Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli etki alanlarına ilişkin temel bilgilerden düzenlenmiştir. İçerik birden fazla biçimde bulunuyorsa ihtiyaçlarınızı en iyi karşılayan eğitim biçimini seçebilmeniz için sizi bilgilendireceğiz. Bu Katalog yalnızca Dynamics 365 Commerce'e özgü özellikler içerir. Diğer Finans ve Operasyon uygulamalarıyla paylaşılan özellikler hakkında eğitim için bkz. [Dynamics 365 Finance Öğrenme Kataloğu](../../finance/get-started/learning-catalog-administrator.md).
+Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli etki alanlarına ilişkin temel bilgilerden düzenlenmiştir. İçerik birden fazla biçimde bulunuyorsa ihtiyaçlarınızı en iyi karşılayan eğitim biçimini seçebilmeniz için sizi bilgilendireceğiz. Bu Katalog yalnızca Dynamics 365 Commerce'e özgü özellikler içerir. Diğer finans ve operasyon uygulamalarıyla paylaşılan özellikler hakkında eğitim için bkz. [Dynamics 365 Finance Öğrenme Kataloğu](../../finance/get-started/learning-catalog-administrator.md).
 
 ## <a name="get-started"></a>Başlayın<a name="get-started"></a>
 
@@ -49,3 +49,4 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

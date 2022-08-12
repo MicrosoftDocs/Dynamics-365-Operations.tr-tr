@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 172f49c13c183eb4df986dc3e30ff3955bc1a605
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 838e3affd4e782bea463638e28da3943329671d4
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861000"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111871"
 ---
 # <a name="target-entities"></a>Hedef varlıklar
 
@@ -30,7 +30,7 @@ ms.locfileid: "8861000"
 
 **Veri yönetimi** çalışma alanında, hedef varlıkların, ilgili varlık tiplerinin ve **Varlık Yönetimi** modülüyle ilgili hazırlama tablolarının genel bir görünümünü alabilirsiniz. 
 
-1. Ekranın sol üst köşesindeki **Finance and Operations** düğmesini tıklatın ve **veri yönetimi**'ni tıklatın.
+1. Ekranın sol üst köşesindeki **Finans ve operasyon** düğmesini ve ardından **Veri yönetimi**'ni tıklatın.
 
 2. **İçe/Dışa aktarma** bölümünde **Veri varlıkları**'nı tıklatın. 
 

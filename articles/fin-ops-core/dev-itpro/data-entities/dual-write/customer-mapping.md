@@ -1,6 +1,6 @@
 ---
 title: Tümleşik müşteri aslı
-description: Bu makalede, Finance and Operations ile Dataverse arasında müşteri verisi tümleştirmesi açıklanmaktadır.
+description: Bu makalede, finans ve operasyon ile Dataverse arasında müşteri verisi tümleştirmesi açıklanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 042042bb19b32d3c96b4e0c8521a8b1d65e7ab22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1b16eab5c107a3176f0890372d397947698e71de
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890470"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111739"
 ---
 # <a name="integrated-customer-master"></a>Tümleşik müşteri aslı
 
@@ -30,9 +30,9 @@ Müşteri verileri birden fazla Dynamics 365 uygulamasında ana kopyalı olabili
 
 ![Müşteri veri akışı.](media/dual-write-customer-data-flow.png)
 
-Müşteriler, geniş anlamda iki türde sınıflandırılabilir: ticari/kuruluş müşterileri ve tüketiciler/son kullanıcılar. Bu iki tür müşteri Finans ve Operasyon ve Dataverse uygulamasında 'da farklı şekilde saklanır ve işlenir.
+Müşteriler, geniş anlamda iki türde sınıflandırılabilir: ticari/kuruluş müşterileri ve tüketiciler/son kullanıcılar. Bu iki tür müşteri finans ve operasyon ve Dataverse'te farklı şekilde saklanır ve işlenir.
 
-Finans ve Operasyon'ta, ticari/kuruluş müşterileri ve tüketiciler/son kullanıcılar **CustTable** (CustCustomerV3Entity) adlı tek bir tabloda yönetilir ve **Tür** özniteliğine göre sınıflandırılır. ( **Tür** **Kuruluş** olarak ayarlanırsa, müşteri ticari/kurumsal müşteridir; **Tür** **Kişi** olarak ayarlanırsa, müşteri bir tüketici/son kullanıcıdır.) Birincil ilgili kişi bilgileri SMMContactPersonEntity tablosu aracılığıyla işlenir.
+Finans ve operasyon uygulamasında ticari/kuruluş müşterileri ve tüketiciler/son kullanıcılar **CustTable** (CustCustomerV3Entity) adlı tek bir tabloda yönetilir ve **Tür** özniteliğine göre sınıflandırılır. ( **Tür** **Kuruluş** olarak ayarlanırsa, müşteri ticari/kurumsal müşteridir; **Tür** **Kişi** olarak ayarlanırsa, müşteri bir tüketici/son kullanıcıdır.) Birincil ilgili kişi bilgileri SMMContactPersonEntity tablosu aracılığıyla işlenir.
 
 Dataverse'te, ticari/kurumsal müşteriler Hesap tablosunda yönetilir ve **RelationshipType** özniteliği **Müşteri** olarak ayarlandığında, müşteri olarak tanımlanır. Hem tüketiciler/son kullanıcılar hem de ilgili kişi, İlgili Kişi tablosuyla temsil edilir. Bir tüketici/son kullanıcı ve bir ilgili kişi arasında net bir ayrım sağlamak için **İlgili Kişi** tablosunda **Satış yapılabilir** adlı bir Boole bayrağı bulunur. **Satış yapılabilir** için değer **Doğru** olduğunda, ilgili kişi bir tüketici/son kullanıcıdır ve bu ilgili kişi için teklifler ve siparişler oluşturulabilir. **Satış yapılabilir** için değer **Yanlış** olduğunda, ilgili kişi yalnızca bir müşterinin birincil ilgili kişisidir.
 
@@ -57,3 +57,4 @@ Finans ve Operasyon uygulamaları | Müşteri etkileşimi uygulamaları         
 [Ödeme koşulları](mapping-reference.md#161) | msdyn_paymentterms | Bu şablon, müşterilerin ve satıcıların ödeme koşulları (ödeme koşulları) referans verilerini eşitler.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

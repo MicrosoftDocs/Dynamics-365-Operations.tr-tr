@@ -1,6 +1,6 @@
 ---
 title: Mobil uygulama giriş sayfası
-description: Bu makalede, Finance and Operations (Dynamics 365) mobil uygulaması açıklanmakta ve bu uygulamayı kuruluşunuzda uygulamanıza yardımcı olabilecek kaynakların bağlantıları sunulmaktadır.
+description: Bu makalede, finans ve operasyon (Dynamics 365) mobil uygulaması açıklanmakta ve bu uygulamayı kuruluşunuzda uygulamanıza yardımcı olabilecek kaynakların bağlantıları sunulmaktadır.
 author: ChrisGarty
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: d73a8d3cf8a7899f16db87148456671dea773636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 973fdcd81a83b6b70e8fa941c4f0c9d24b5cb559
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868773"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066468"
 ---
 # <a name="mobile-app-home-page"></a>Mobil uygulama giriş sayfası
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Bu makalede **Finance and Operations (Dynamics 365)** mobil uygulaması açıklanmakta ve bu uygulamayı kuruluşunuzda uygulamanıza yardımcı olabilecek kaynakların bağlantıları sunulmaktadır.
+Bu makalede **Finans ve operasyon (Dynamics 365)** mobil uygulaması açıklanmakta ve bu uygulamayı kuruluşunuzda uygulamanıza yardımcı olabilecek kaynakların bağlantıları sunulmaktadır.
 
 ## <a name="overview"></a>Genel bakış
 
@@ -77,13 +77,13 @@ Aşağıdaki tablo, Microsoft ve özel mobil çalışma alanlarından sağlanan 
 <tr class="odd">
 <td>1</td>
 <td>Sistem yöneticisi</td>
-<td>Kuruluşunuzda Finance and Operations uygulamasını uygulayın.</td>
+<td>Kuruluşunuzda finans ve operasyon uygulamasını uygulayın.</td>
 <td><ul><li>Henüz bir Microsoft Dynamics 365 sürümünü dağıtmadıysanız, bkz. <a href="../deployment/deploy-demo-environment.md">Bir gösteri sürümü dağıtmak</a>.</li><li>Kullanılabilir mobil çalışma alanlarının bir listesini görmek için bkz. <a href="mobile-workspaces-released.md">Yakın zamanda yayımlanmış olan mobil çalışma alanları</a>.</li></ul></td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td>Sistem yöneticisi</td>
-<td><strong>Microsoft Dynamics 365 for Operations sürüm 1611 kullanıyorsanız:</strong> Microsoft tarafından sağlanan mobil çalışma alanlarını etkinleştiren KB'leri indirin ve yükleyin.</td>
+<td><strong>Microsoft Dynamics 365 for Operations sürüm 1611 kullanıyorsanız:</strong> Microsoft tarafından sağlanan mobil çalışma alanlarını etkinleştiren BB'leri indirin ve yükleyin.</td>
 <td>Daha fazla bilgi için aşağıdaki konulara göz atın:
 <ul>
 
@@ -132,8 +132,8 @@ Aşağıdaki tablo, Microsoft ve özel mobil çalışma alanlarından sağlanan 
 <td>Kullanıcı</td>
 <td>Mobil uygulamayı indirin ve yükleyin.</td>
 <td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Android için Finance and Operations uygulaması</a><BR/>
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">iOS için Finance and Operations uygulaması</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Android için finans ve operasyon uygulaması</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">iOS için finans ve operasyon uygulaması</a><BR/>
 (Windows Phone desteklenmemektedir)
 </td>
 </tr>
@@ -152,3 +152,4 @@ Aşağıdaki tablo, Microsoft ve özel mobil çalışma alanlarından sağlanan 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

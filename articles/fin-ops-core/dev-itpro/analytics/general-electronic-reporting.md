@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65f7a642d3b2c2ddfca1e2d92570b49ef2f8c2b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869271"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109595"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektronik raporlamaya (ER) genel bakış
 
@@ -66,7 +66,7 @@ ER şu anda TEXT, XML, JSON, PDF, Microsoft Word, Microsoft Excel, and OPENXML �
 
 ER altyapısı aşağıdaki yeteneklere sahiptir:
 
-- Farklı etki alanlarında elektronik raporlama için tek bir paylaşımlı aracı temsil eder ve Finance and Operations için bir tür elektronik raporlama yapan 20'den fazla farklı altyapının yerini alır.
+- Farklı etki alanlarında elektronik raporlama için tek bir paylaşımlı aracı temsil eder ve finans ve operasyon için bir tür elektronik raporlama yapan 20'den fazla farklı altyapının yerini alır.
 - Rapor biçiminin şu anki uygulamadan yalıtılmasını sağlar. Diğer bir deyişle, biçim farklı sürümler için geçerlidir.
 - Özgün biçime dayalı özel bir biçim oluşturulmasını destekler. Yerelleştirme/özelleştirme gereklilikleri yüzünden özgün biçim değişmiş olduğundan özelleştirilmiş biçimi otomatik olarak yükseltme yeteneğini de içerir.
 - Microsoft ve Microsoft ortakları için elektronik raporlamada yerelleştirme gerekliliklerini desteklemek amacıyla birincil standart araç haline dönüşür.
@@ -126,7 +126,7 @@ ER yapılandırması uygulama şirketleri için paylaşılır.
 
 #### <a name="provider"></a><a name="Provider"></a>Sağlayıcı
 
-ER sağlayıcısı her bir ER konfigürasyonunun yazarını (sahibini) göstermek için kullanılan taraf tanımlayıcısıdır. ER, konfigürasyon sağlayıcıları listesini yönetmenizi sağlar. Elektronik belgeler için Finance and Operations çözümünün parçası olarak sevk edilen biçim konfigürasyonlarının sahibi olarak **Microsoft** konfigürasyon sağlayıcısı işaretlenir.
+ER sağlayıcısı her bir ER konfigürasyonunun yazarını (sahibini) göstermek için kullanılan taraf tanımlayıcısıdır. ER, konfigürasyon sağlayıcıları listesini yönetmenizi sağlar. Elektronik belgeler için finans ve operasyon çözümünün parçası olarak sevk edilen biçim konfigürasyonlarının sahibi olarak **Microsoft** yapılandırma sağlayıcısı işaretlenir.
 
 Yeni bir ER sağlayıcısını kaydetmeyi öğrenmek için **ER Bir yapılandırma sağlayıcısı oluşturmak ve bunu etkin olarak işaretlemek** (**7.5.4.3 Al/BT hizmeti geliştir/çözüm bileşenleri (10677)** iş işleminin parçası olan) görev kılavuzunu yürütün.
 
@@ -143,7 +143,7 @@ ER havuzu ER konfigürasyonlarını depolar. Aşağıdaki ER havuzu türleri şu
 
 Bir **LCS paylaşımlı kitaplık** deposu Lifecycle Services (LCS) içindeki Paylaşılan varlık kitaplığındaki yapılandırmaların listesine erişim sağlar. Bu türde bir ER deposu, yalnızca Microsoft sağlayıcısı için kaydedilebilir. LCS Paylaşılan varlık kitaplığından ER yapılandırmalarının en güncel sürümlerini mevcut kuruluma aktarabilirsiniz.
 
-**LCS projesi** havuzu, havuz kaydedildiğinde seçilen belirli bir LCS projesinin (LCS proje varlıkları kitaplığı) konfigürasyonlar listesine erişim sağlar. ER, belirli bir **LCS projesi** havuzu için geçerli kurulumdan paylaşılan konfigürasyonları karşıya yüklemenizi sağlar. Konfigürasyonları bir **LCS projesi** deposundan geçerli Finance ve Operations uygulamalarının kurulumuna da aktarabilirsiniz.
+**LCS projesi** havuzu, havuz kaydedildiğinde seçilen belirli bir LCS projesinin (LCS proje varlıkları kitaplığı) konfigürasyonlar listesine erişim sağlar. ER, belirli bir **LCS projesi** havuzu için geçerli kurulumdan paylaşılan konfigürasyonları karşıya yüklemenizi sağlar. Yapılandırmaları bir **LCS projesi** deposundan geçerli finans ve operasyon uygulamalarının kurulumuna da aktarabilirsiniz.
 
 Bir **Dosya sistemi** havuzu, AOS servisinin barındırıldığı makinede xml dosyaları olarak yerel dosya sisteminin belirli bir klasöründe bulunan yapılandırmalar listesine erişim sağlar. Gerekli klasör, havuz kayıt aşamasında seçilir. Yapılandırmaları bir **Dosya sistemi** deposundan geçerli kuruluma da aktarabilirsiniz. 
 
@@ -270,3 +270,4 @@ Finance için ER yapılandırmalarının listesi sürekli olarak güncelleştiri
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

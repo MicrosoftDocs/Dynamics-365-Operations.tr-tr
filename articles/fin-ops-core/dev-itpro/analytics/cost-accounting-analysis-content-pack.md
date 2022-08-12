@@ -7,19 +7,20 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 270274
-ms.assetid: b74549df-35d5-4f2f-b3c7-405b0d38ea78
+ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d5e595c910e237481b8124cb2a0333697344b9ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "270274"
+ms.assetid: b74549df-35d5-4f2f-b3c7-405b0d38ea78
+ms.openlocfilehash: 19dd250141894d1551fc4e54257f05ab5008d110
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876906"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205981"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Maliyet muhasebesi analizi Power BI içeriği
 
@@ -45,7 +46,7 @@ Maliyet muhasebesi erişim seviyesi güvenliğini tanımlayarak ve bunu satır d
 Kullanmakta olduğunuz Microsoft Dynamics 365 sürümü için geçerli **Maliyet muhasebesi analizi** içeriğini indirdiğinizden emin olun.
 
 > [!NOTE]
-> KB 4011327 bu Power BI içeriği için bir önkoşuldur. LCS'de oturum açtıktan sonra BB'ye buradan erişebilirsiniz: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+> BB 4011327 bu Power BI içeriği için bir önkoşuldur. LCS'de oturum açtıktan sonra BB'ye buradan erişebilirsiniz: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içerik paketinde bulunan ölçümler
 İçerik bir dizi rapor sayfası içermektedir. Her sayfa grafikler, döşemeler ve tablolar ile görselleştirilen bir dizi ölçüm kümesinden oluşur. Aşağıdaki tablo **Yönetim maliyeti analizi** Power BI içeriğindeki görselleştirmelere bir bakış sağlar.
@@ -69,7 +70,7 @@ Kullanmakta olduğunuz Microsoft Dynamics 365 sürümü için geçerli **Maliyet
 |                                  | Maliyet nesnesi boyut üye adına ve Maliyeti öğesi boyut üye adına göre Fiili maliyet                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
-Aşağıdaki veriler **Maliyet muhasebesi analizi** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Server veritabanıdır. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesi](power-bi-integration-entity-store.md).
+Aşağıdaki veriler **Maliyet muhasebesi analizi** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Server veritabanıdır. Daha fazla bilgi için bkz. [Varlık mağazası ile Power BI tümleştirmesi](power-bi-integration-entity-store.md).
 
 Aşağıdaki önemli toplam ölçümler, içeriğin temeli olarak kullanılır.
 

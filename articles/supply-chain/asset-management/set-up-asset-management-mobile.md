@@ -1,6 +1,6 @@
 ---
 title: Kıymet yönetimi mobil çalışma alanını ayarlama
-description: Bu makale, çalışanların kıymet yönetimi görevlerini gerçekleştirmek üzere kullanabileceği bir Kıymet yönetimi mobil çalışma alanı çalıştırmak için Microsoft Dynamics 365 Supply Chain Management ve Finans ve Operasyon (Dynamics 365) mobil uygulamasını ayarlamayı açıklar.
+description: Bu makalede, çalışanların kıymet yönetimi görevlerini gerçekleştirmek üzere kullanabileceği bir Kıymet yönetimi mobil çalışma alanı çalıştırmak için Microsoft Dynamics 365 Supply Chain Management ve Finance and Operations (Dynamics 365) mobil uygulamasını ayarlama açıklanmaktadır.
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ee92ed2c0e2a59adaebe20ed3d426ac03c056dac
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef4e6bf2ae59adb05c7d4aacc3f5675a5adcafc9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870856"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070068"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Kıymet yönetimi mobil çalışma alanını ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu makale, çalışanların kıymet yönetimi görevlerini gerçekleştirmek üzere kullanabileceği bir **Kıymet yönetimi** mobil çalışma alanı çalıştırmak için Microsoft Dynamics 365 Supply Chain Management ve Finans ve Operasyon (Dynamics 365) mobil uygulamasını ayarlamayı açıklar.
+Bu makalede, çalışanların kıymet yönetimi görevlerini gerçekleştirmek üzere kullanabileceği bir **Kıymet yönetimi** mobil çalışma alanı çalıştırmak için Microsoft Dynamics 365 Supply Chain Management ve Finance and Operations (Dynamics 365) mobil uygulamasını ayarlama açıklanmaktadır.
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>Supply Chain Management'ta bakım görevlisi kullanıcılarını ayarlama
 
@@ -41,7 +41,7 @@ Bu makale, çalışanların kıymet yönetimi görevlerini gerçekleştirmek üz
 
 ## <a name="publish-the-asset-management-mobile-workspace"></a>Kıymet yönetimi mobil çalışma alanını yayımlama
 
-Finance and Operations (Dynamics 365) mobil uygulamasında kıymet yönetimi özelliklerini kullanılabilir hale getirmek için **Kıymet yönetimi** mobil uygulamasını yayımlamanız gerekir.
+Finance and Operations (Dynamics 365) mobil uygulamasında kıymet yönetimi özelliklerini kullanılabilir hale getirmek için **Kıymet yönetimi** mobil çalışma alanını yayımlamanız gerekir.
 
 1. Supply Chain Management'ta **Ayarlar** düğmesini (sağ üst köşedeki dişli simgesi) seçin ve ardından menüdeki **Mobil uygulama**'yı seçin.
 1. **Mobil uygulamayı yönet** iletişim kutusunda **Kıymet Yönetimi** kutucuğunu bulun. "Meta veride - yayımlanmadı" metnini içeriyorsa çalışma alanı henüz yayımlanmamıştır. "Meta veride - yayımlandı" metnini içeriyorsa çalışma alanı zaten yayımlanmıştır ve bu yordamın geri kalanını atlayabilirsiniz.

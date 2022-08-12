@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 28ebf1b4fb966fd6801e75e7b3a6c8741114938d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f379b3cdb6830f989199afde7d751842047df79
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863693"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070304"
 ---
 # <a name="planned-cross-docking"></a>Planlanmış çapraz sevk
 
@@ -118,7 +118,7 @@ Planlanmış çapraz sevk, bir yükleme deftere nakil yöntemi olarak uygulanır
     - **Tedarik kaynağı:** *Satınalma siparişi*
 
 > [!NOTE]
-> Belirli bir çapraz sevk şablonu kullanıldığında kontrol etmek için bir sorgu ayarlayabilirsiniz. Çapraz sevk şablonları için sorguda yalnızca *InventTable* (öğeler) tablosu ve içten birleştirilen *WHSInventTable* (WHS öğeleri) tablosu vardır. Sorguya başka tablolar eklemek isterseniz bunları yalnızca *birleştirmelerden çık* veya *birleştirmelerden çıkma* kullanarak birleştirebilirsiniz. Birleştirilmiş tablolara filtre uyguladığınızda birleştirilen tabloda eşleşen her kayıt için ana tablodan bir kayıt alınır. Birleştirme türü *birleştirmeden çık* ise arama, ilk eşleştirme bulunduğunda sonlanır. Örneğin, satış siparişi satırı tablosunu öğeler tablosuyla birleştirirseniz sistem, en az bir satış siparişi satırında tanımlanan koşulun bulunduğu öğeleri doğrular ve döndürür. Esas olarak, veriler alt (satış siparişi satırı) tablodan değil, üst (öğeler) tablodan alınır. Bu nedenle, satış siparişi satırları veya müşteriler gibi kaynak belgelere göre filtre uygulama işlemi kullanıma hazır olarak gerçekleştirilemez.
+> Belirli bir çapraz sevk şablonu kullanıldığında kontrol etmek için bir sorgu ayarlayabilirsiniz. Çapraz sevk şablonları için sorguda yalnızca *InventTable* (öğeler) tablosu ve içten birleştirilen *WHSInventTable* (WMS öğeleri) tablosu vardır. Sorguya başka tablolar eklemek isterseniz bunları yalnızca *birleştirmelerden çık* veya *birleştirmelerden çıkma* kullanarak birleştirebilirsiniz. Birleştirilmiş tablolara filtre uyguladığınızda birleştirilen tabloda eşleşen her kayıt için ana tablodan bir kayıt alınır. Birleştirme türü *birleştirmeden çık* ise arama, ilk eşleştirme bulunduğunda sonlanır. Örneğin, satış siparişi satırı tablosunu öğeler tablosuyla birleştirirseniz sistem, en az bir satış siparişi satırında tanımlanan koşulun bulunduğu öğeleri doğrular ve döndürür. Esas olarak, veriler alt (satış siparişi satırı) tablodan değil, üst (öğeler) tablodan alınır. Bu nedenle, satış siparişi satırları veya müşteriler gibi kaynak belgelere göre filtre uygulama işlemi kullanıma hazır olarak gerçekleştirilemez.
 
 ### <a name="create-a-work-class"></a>İş sınıfı oluşturma
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b4817cd6370166b6dfdf17b3d733b13374db8f49
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2fb5f5b0b50f407f58193aafd79f28dd1fd432ee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694921"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066807"
 ---
 # <a name="configure-deductions"></a>Kesintileri yapılandırma
 
@@ -41,11 +41,11 @@ Varsa, her bir avantaj için bir çalışanın maaşından düşmelerini belirle
    | **Kesinti** | Kazanç kesintiyi tanımlamak için kullanılan benzersiz kod. |
    | **Tanım** | Kesintinin bir açıklaması. |
    | **Yürürlüğe giriş** | Başlangıç tarihi. Geçerli değer varsayılan sistem tarihidir. |
-   | **Bitiş tarihi** | Bitiş tarihi. Varsayılan değer 12/31/2154'dir ve hiçbir zaman bunu belirtir. |
+   | **Bitiş tarihi** | Bitiş tarihi. Varsayılan değer 12/31/2154'tir ve hiçbir zaman bunu belirtir. |
    | **Başlık** | Bu kesintinin, bordroya ait kazançların çalışan kısmı için kullanacağı Bordro sistemindeki başlık Kodu. Bu, bir üçüncü taraf bordro sağlayıcı kullanırken kullanılır. |
    | **Personel bordro kesintisi referansı** | Kazançlar bordrolara işlenirken bu kesinti tutarında personel bölümü için kullanılan, bordro sistemindeki kesinti kodu. |
    | **Tutar başlığı** | Bu kesinti miktarının, bordroya ait kazançların çalışan kısmı için kullanacağı Bordro sistemindeki başlık Kodu. Bu, bir üçüncü taraf bordro sağlayıcı kullanırken kullanılır. |
-   | **Silinebilir** | Dynamics 365 for Finance and Operations'tan aktarılan bir değerin Bordro sistemindeki değerin silinmesine neden olmasını belirtir. |
+   | **Silinebilir** | Dynamics 365 Finance'tan aktarılan bir değerin Bordro sistemindeki değerin silinmesine neden olmasını belirtir. |
    | **Eşleştirilmiş sütunlar** | Bitişik sütunların eşleştirilmiş olduğu başlık ve kesinti tutarının bordro sistemine verip vermeyeceğini belirtir. |
    | **Yürürlük tarihini değiştir** | Kazanç kesinti değişikliğinin yürürlüğe gireceği tarih. Bu tarihte, **Kesinti değişikliği güncelleştirmesi** işlemini çalıştırdığınız sürece kazanç kesintisi değişiklikleri ve bu kesintiyle ilişkili tüm kazanç planları güncelleştirilir. |
    | **Kesinti değişikliği tamamlandı** | Kazanç kesintisi değişiklikleri kesinti ile yapılan güncelleştirme değişikliği işlemesi ile tamamlandıktan sonra **Kesinti değişikliği tamamlandı** onay kutusu otomatik olarak seçilir. |
@@ -56,3 +56,4 @@ Varsa, her bir avantaj için bir çalışanın maaşından düşmelerini belirle
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

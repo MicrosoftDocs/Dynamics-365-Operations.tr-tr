@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 34283422bafaeabef9ac454957b60db84eb5a9c7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c7199f5a5a401e627bb5fac9dece3950900e5f97
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903796"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067926"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>çapraz sevk için sevkiyatı otomatik serbest bırakma
 
@@ -40,8 +40,8 @@ Bu çapraz sevk işlevinin iki yararı vardır:
 
 | Önkoşul | Tanım |
 |---|---|
-| Öğe | Madde mutlaka ambar yönetimi süreçleri için etkinleştirilmelidir.<p>**Not:** Fiili ağırlığın etkin olduğu maddeler çapraz sevk işlemlerine eklenemez.</p> |
-| Ambar | Ambar mutlaka ambar yönetimi süreçleri için etkinleştirilmelidir. |
+| Öğe | Öğenin ambar yönetimi süreçleri (WMS) için etkinleştirilmesi gerekir.<p>**Not:** Fiili ağırlığın etkin olduğu maddeler çapraz sevk işlemlerine eklenemez.</p> |
+| Ambar | Ambarın ambar yönetimi süreçleri (WMS) için etkinleştirilmesi gerekir. |
 | Çapraz sevk şablonları | Belirli bir ambar için **Tedarik girişinde** talep serbest bırakma ilkesini kullanan en az bir çapraz sevk şablonunun ayarlanması gerekir. |
 | İş sınıfı | **Çapraz sevk** iş emri türü için bir çapraz sevk iş sınıfı kodu oluşturulmalıdır. |
 | İş şablonları | **Çapraz sevk** iş emri türünün çalışma şablonları, çapraz sevk çekme ve yerine koyma işi oluşturmak için gereklidir. |

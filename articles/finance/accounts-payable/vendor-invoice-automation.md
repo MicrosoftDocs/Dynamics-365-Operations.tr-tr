@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0449a13989bad45cf0456a2678e5724036d2af3d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883430"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070709"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Taranan belgeler için fatura otomasyonu
 
@@ -58,7 +58,7 @@ Veri paketi, fatura başlıklarının, fatura satırlarının ve fatura eklerini
 
 Satıcı fatura belgesi eki bu özelliğin bir parçası olarak sunulan yeni bir veri varlığıdır. Satıcı fatura başlığı varlığı ekleri desteleyecek şekilde değiştirilmiştir. Satıcı fatura satırı varlığı bu özellik için değiştirilmiştir.
 
-Veri paketleri hakkında ayrıntılı bilgi için bkz. [Veri yönetimine genel bakış](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Veri paketlerinin veri yönetimi çalışma alanını kullanılarak nasıl oluşturulacağı hakkında bilgi için bkz. [Dynamics 365 Finans ve Operasyon uygulamaları çözümünde veri paketlerini işleme ve kullanma](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
+Veri paketleri hakkında ayrıntılı bilgi için bkz. [Veri yönetimine genel bakış](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Veri paketlerinin veri yönetimi çalışma alanını kullanılarak nasıl oluşturulacağı hakkında bilgi için bkz. [Dynamics 365 finans ve operasyon uygulamaları çözümünde veri paketlerini işleme ve kullanma](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Faturaları ve ekleri içeren test verilerini hızla oluşturmak için aşağıdaki adımları izleyin.
 
@@ -86,7 +86,7 @@ Veri paketleriyle içe aktarılan faturalar ait oldukları tüzel kişilikle iki
 
 ## <a name="exception-processing"></a>Özel durum işleme
 
-Satıcı faturalarının Finance and Operations'a tümleştirme yoluyla geldiği senaryolarda, Borç hesapları ekibi üyesinin özel durumları veya başarısız olan faturaları işlemesi ve başarısız faturalardan bekleyen faturalar oluşturması için kolay bir yol olması gerekir. Satıcı faturaları için bu özel durum işleme özelliği artık Finance and Operations'ın bir parçasıdır.
+Satıcı faturalarının finans ve operasyon uygulamalarına tümleştirme yoluyla geldiği senaryolarda, Borç hesapları ekibi üyesinin özel durumları veya başarısız olan faturaları işlemesi ve başarısız faturalardan bekleyen faturalar oluşturması için kolay bir yol olması gerekir. Satıcı faturaları için bu özel durum işleme özelliği artık finans ve operasyon uygulamalarının bir parçasıdır.
 
 ### <a name="vendor-invoices-that-failed-to-import-list-page"></a>İçe aktarılamayan satıcı faturaları liste sayfası
 
@@ -225,3 +225,4 @@ Varsayılan olarak, kullanıcı rolü herhangi bir sayfada düzenleme hakları s
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

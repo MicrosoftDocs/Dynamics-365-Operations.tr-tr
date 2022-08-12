@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adaed1d5a4f1ac62df35bcc1497610ce0f44043c
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: da7aef93cf994c40410598ab9c4ff2b21f4750e7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902234"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065943"
 ---
 # <a name="cycle-counting"></a>Döngü sayımı
 
@@ -52,11 +52,11 @@ Aşağıdaki tabloda, döngü sayımını kullanmadan önce yerine getirilmesi g
 <tbody>
 <tr class="odd">
 <td>Madde</td>
-<td>Madde mutlaka ambar yönetimi süreçleri için etkinleştirilmelidir.</td>
+<td>Öğenin ambar yönetimi süreçleri (WMS) için etkinleştirilmesi gerekir.</td>
 </tr>
 <tr class="even">
 <td>Ambar</td>
-<td>Ambar mutlaka ambar yönetimi süreçleri için etkinleştirilmelidir. Ambarı ambar yönetim süreçleri için etkinleştirmek üzere, <strong>Ambarlar</strong> sayfasında ambarı seçin, ardından <strong>Ambar yönetim süreçlerini kullan</strong> seçeneğini belirleyin. Bir döngü sayımı sırasında işçilerin paletleri taşımasına imkan vermek için, <strong>Ambar yönetimi</strong> FastTab'inde <strong>Paletlerin döngü sayımı sırasında taşınmasına izin ver</strong> seçeneğini belirleyin.</td>
+<td>Ambarın ambar yönetimi süreçleri (WMS) için etkinleştirilmesi gerekir. Ambarı WMS için etkinleştirmek üzere, <strong>Ambarlar</strong> sayfasında ambarı seçin, ardından <strong>Ambar yönetim süreçlerini kullan</strong> seçeneğini belirleyin. Bir döngü sayımı sırasında işçilerin paletleri taşımasına imkan vermek için, <strong>Ambar yönetimi</strong> FastTab'inde <strong>Paletlerin döngü sayımı sırasında taşınmasına izin ver</strong> seçeneğini belirleyin.</td>
 </tr>
 <tr class="odd">
 <td>İş havuzları</td>

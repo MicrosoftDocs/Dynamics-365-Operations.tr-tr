@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f44574abddb71e1a994ae60960e8c9c79242aff0
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860123"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112127"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Çift yazmada aday müşteriden nakde
 
@@ -29,7 +29,7 @@ Uygulama arabirimlerinde, işleme durumlarına ve fatura bilgilerine gerçek zam
 Müşteri ve ilgili kişi tümleştirmesi hakkında bilgi için bkz. [Tümleşik müşteri aslı](customer-mapping.md). Ürün tümleştirmesi hakkında bilgi için bkz. [Birleşik ürün deneyimi](product-mapping.md).
 
 > [!NOTE]
-> Dynamics 365 Sales'da, hem aday müşteri hem de müşteri, **RelationshipType** sütununun **Aday Müşteri** ya da **Müşteri** olduğu bir **Hesap** tablosundaki kayda başvurur. İş mantığınız, **Hesap** kaydının önce aday müşteri olarak ve sonra müşteri olarak oluşturulup nitelendirildiği bir **Hesap** niteleme işlemi içeriyorsa, söz konusu kayıt yalnızca müşteriyse (`RelationshipType=Customer`) Finance and Operations uygulamasıyla eşitlenir. **Hesap** satırının aday müşteri olarak eşitlenmesini istiyorsanız, aday müşteri verilerini tümleştirmek için özel bir eşlemeye ihtiyacınız vardır.
+> Dynamics 365 Sales'da, hem aday müşteri hem de müşteri, **RelationshipType** sütununun **Aday Müşteri** ya da **Müşteri** olduğu bir **Hesap** tablosundaki kayda başvurur. İş mantığınız, **Hesap** kaydının önce destekçi adayı olarak ve sonra müşteri olarak oluşturulup nitelendirildiği bir **Hesap** niteleme işlemi içeriyorsa, söz konusu kayıt yalnızca müşteriyse (`RelationshipType=Customer`) finans ve operasyon uygulamasıyla eşitlenir. **Hesap** satırının aday müşteri olarak eşitlenmesini istiyorsanız, aday müşteri verilerini tümleştirmek için özel bir eşlemeye ihtiyacınız vardır.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Önkoşullar ve eşleme kurulumu
 
@@ -122,7 +122,7 @@ Aday müşteriden nakde, aşağıdaki tabloda gösterildiği gibi veri etkileşi
 [CDS satış teklifi başlığı](mapping-reference.md#215) | teklifler | |
 [CDS satış teklifi satırları](mapping-reference.md#214) | quotedetails | |
 [Serbest bırakılan ürünler V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
-[Satış faturası başlıkları V2](mapping-reference.md#118) | faturalar | Finance and Operations uygulamasındaki Satış faturası başlıkları V2 tablosu, satış siparişleri için faturalar ve serbest metin faturaları içerir. Dataverse'te çift yazma için serbest metin fatura belgelerini filtreleyecek bir filtre uygulanır. |
+[Satış faturası başlıkları V2](mapping-reference.md#118) | faturalar | Finans ve operasyon uygulamasındaki Satış faturası başlıkları V2 tablosu, satış siparişleri için faturalar ve serbest metin faturaları içerir. Dataverse'te çift yazma için serbest metin fatura belgelerini filtreleyecek bir filtre uygulanır. |
 [Satış faturası satırları V2](mapping-reference.md#117) | invoicedetails | |
 [Satış siparişi kaynak kodları](mapping-reference.md#186) | msdyn_salesorderorigins | |
 
@@ -135,3 +135,4 @@ Fiyat listeleri hakkında bilgi için bkz. [Birleşik ürün deneyimi](product-m
 - Ana veriler için müşteri veya satıcı gibi mali boyutlar ayarlanmalıdır. Bir teklife veya satış siparişine müşteri eklendiğinde müşteri kaydıyla ilişkilendirilmiş mali boyutlar otomatik olarak siparişe aktarılır. Şu anda çift yazma, ana veriler için mali boyut verilerini içermez.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

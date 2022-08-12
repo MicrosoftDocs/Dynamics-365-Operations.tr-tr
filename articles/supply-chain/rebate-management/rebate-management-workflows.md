@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2b1611ff7877efc4a2f98b8f84a1ef91971902ab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f0590c4c906e746b54ac30fd6531b8c1cd67915
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869531"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067347"
 ---
 # <a name="rebate-management-deal-workflows"></a>İndirim yönetimi anlaşması iş akışları
 
 [!include [banner](../includes/banner.md)]
 
-İndirim anlaşmalarını onaylamak için İndirim yönetimi, diğer Finans ve Operasyon uygulamalarıyla aynı iş akışı platformunu kullanır. İki iş işlemi her iş akışı ile ilişkilendirilmiştir:
+İndirim anlaşmalarını onaylamak için İndirim yönetimi, diğer finans ve operasyon uygulamalarıyla aynı iş akışı platformunu kullanır. İki iş işlemi her iş akışı ile ilişkilendirilmiştir:
 
 - İş akışının bir öğesi anlaşmayı onaylar.
 - İş akışının bir öğesi, Kullanıcı veya iş akışı işleminin hareketleri onaylaması için, anlaşmayı etkinleştirir.
@@ -55,3 +55,4 @@ Bir anlaşma etkinleştirildikten sonra aşağıdaki ayarları değiştirebilirs
 - Bitiş tarihi
 
 Ayrıca, indirim satırları kaldırılabilir.
+

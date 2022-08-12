@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 323dde332364a26ec5b0d3f48a0d6ae831656108
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f12943800328a0ca1a36f20ee63c576432c4428
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879119"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123883"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Dynamics 365 Supply Chain Management 10.0.16'deki yenilikler veya değişiklikler (Şubat 2021)
 
@@ -39,7 +39,7 @@ Bu sürümde aşağıdaki özellikler bulunmaktadır. Her bir özelliğin resmi 
 
 - [Dynamics 365 Supply Chain Management için Stok Görünürlüğü Eklentisi](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Daha fazla bilgi için bkz. [Stok Görünürlüğü Eklentisi](../inventory/inventory-visibility.md)
 
-- İş kimlikleri için birleşik numara serisi<br> - Daha fazla bilgi için, bkz. [İş kodları için birleşik numara serisine bakın](../production-control/unified-job-ids.md).
+- İş kimlikleri için birleşik numara serisi<br> - Daha fazla bilgi için bkz. [İş kodları için birleşik numara serisine bakın](../production-control/unified-job-ids.md).
 
 - [Kaynak belge satırlarında plakaları doğrulama](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Daha fazla bilgi için bkz. [Ambar yapılandırmaya genel bakış](../warehousing/warehouse-configuration.md).
 
@@ -63,9 +63,9 @@ Aşağıdaki yardım makalelerini yakın bir zamanda ekledik veya önemli ölç�
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finans ve Operasyon uygulamaları için Platform güncelleştirmeleri
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finans ve operasyon uygulamaları için platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.16 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance ve Operations uygulamalarının 10.0.16 sürümü için platform güncelleştirmeleri (Şubat 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.16 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finans ve operasyon uygulamalarının 10.0.16 sürümü için platform güncelleştirmeleri (Şubat 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 

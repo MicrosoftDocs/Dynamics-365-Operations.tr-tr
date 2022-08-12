@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0154faec8a9f3e968ea1b665e2a815cc9ec02379
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45155dba5063981eb3aeeed4dda1d79a57b7c8af
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899744"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067113"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Dataverse sanal tablolarını yapılandırma
 
@@ -121,10 +121,10 @@ Sonraki adım, sanal tablo veri kaynağını Power Apps ortamında yapılandırm
 
 4. **Çözüm Durumu Merkezi**'nde, uygulama sayfasının sağ üst kısmında **Gelişmiş Bul** simgesini seçin.
 
-5. **Gelişmiş Bul** sayfasında, **Ara** açılan listesinde **Finance and Operations Sanal Veri Kaynağı Yapılandırmaları**'nı seçin.
+5. **Gelişmiş Bul** sayfasında, **Ara** açılan listesinde **Finans ve operasyon Sanal Veri Kaynağı Yapılandırmaları**'nı seçin.
 
    > [!NOTE]
-   > Sanal tablo uygulamasının önceki kurulum adımından yüklenmesi birkaç dakika sürebilir. **Finance and Operations Sanal Veri Kaynağı Yapılandırmaları** listede yoksa, bir dakika bekleyip listeyi yenileyin.
+   > Sanal tablo uygulamasının önceki kurulum adımından yüklenmesi birkaç dakika sürebilir. **Finans ve operasyon Sanal Veri Kaynağı Yapılandırmaları** listede yoksa, bir dakika bekleyip listeyi yenileyin.
 
 6. **Sonuçlar**'ı seçin.
 
@@ -218,3 +218,4 @@ Yan taraftaki bölme işlemle ilgili en son yürütme sonuçlarını görüntül
 [Power Apps'ta uygulamalar oluşturmaya genel bakış](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

@@ -1,6 +1,6 @@
 ---
 title: Dataverse'da kuruluş hiyerarşisi
-description: Bu makalede, Finans ve Operasyon uygulamaları ile Dataverse arasında kuruluş verileri tümleştirmesi açıklanmaktadır.
+description: Bu makalede, finans ve operasyon uygulamaları ile Dataverse arasında kuruluş verileri tümleştirmesi açıklanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a4edaf5b9c50e9d8781ff703328ac786d71ee782
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f900637855bee3e21916652a373c683e6bf1392
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884746"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112033"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Dataverse'da kuruluş hiyerarşisi
 
@@ -28,11 +28,11 @@ Dataverse'da kuruluş hiyerarşisi kavramı bulunmasa da, toplam satış geliri 
 
 ## <a name="data-flow"></a>Veri akışı
 
-Finans ve Operasyon uygulamaları ve Dataverse'dan olan işletme ekosistemi bir kuruluş hiyerarşisine sahip olmaya devam edecektir. Bu kuruluş hiyerarşisi Finans ve Operasyon uygulamaları üzerinde oluşturulur ancak bilgi ve genişletilebilirlik amaçları Dataverse'da kullanıma sunulur. Aşağıdaki örnekte Dataverse'ta Finans ve Operasyon uygulamalarından Dataverse'a tek yönlü veri akışı olarak sunulan kuruluş hiyerarşisi bilgileri gösterilmektedir.
+Finans ve operasyon uygulamaları ve Dataverse'ten olan işletme ekosistemi bir kuruluş hiyerarşisine sahip olmaya devam edecektir. Bu kuruluş hiyerarşisi finans ve operasyon uygulamaları üzerinde oluşturulur ancak bilgi ve genişletilebilirlik amaçları Dataverse'te kullanıma sunulur. Aşağıdaki örnekte Dataverse'te finans ve operasyon uygulamalarından Dataverse'e tek yönlü veri akışı olarak sunulan kuruluş hiyerarşisi bilgileri gösterilmektedir.
 
 ![Mimari resmi.](media/dual-write-data-flow.png)
 
-Kuruluş hiyerarşisi tablo eşlemeleri, Finans ve Operasyon uygulamalarından Dataverse'e tek yönlü veri eşitleme için kullanılabilir.
+Kuruluş hiyerarşisi tablo eşlemeleri, finans ve operasyon uygulamalarından Dataverse'e tek yönlü veri eşitleme için kullanılabilir.
 
 ## <a name="templates"></a>Şablonlar
 
@@ -52,3 +52,4 @@ Finans ve Operasyon uygulamaları | Müşteri etkileşimi uygulamaları     | A�
 Dataverse'teki dahili kuruluş bilgileri, **Faaliyet birimi** ve **Tüzel kişilikler** olmak üzere iki tablodan gelir.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

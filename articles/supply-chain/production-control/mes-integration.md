@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 208ed2d6c8b411d12888966d9c175730e828eb44
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860652"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068046"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Üçüncü taraf üretim yürütme sistemleriyle tümleştirme
 
@@ -55,7 +55,7 @@ Tümleştirme için aşağıdaki işlemlerin herhangi birini veya tümünü etki
 
 | İşlem adı | Tanım |
 |---|---|
-| Üretim emirlerini ve üretim emri durumu değişikliği iş olaylarını serbest bırakma | Bu işlem, MES'nin dinleyebileceği ve üretilmesi gereken üretim emirleriyle ilgili bilgi edinebileceği bir iş olayı sağlar. Üretim emriyle ilgili başvuru verilerinin, Açık Veri Protokolü (OData) veya veri varlıkları aracılığıyla Supply Chain Management'tan MES'e paylaşılabilecek olması beklenir. |
+| Üretim emirlerini ve üretim emri durumu değişikliği iş olaylarını serbest bırakma | Bu işlem, MES'nin dinleyebileceği ve üretilmesi gereken üretim emirleriyle ilgili bilgi edinebileceği bir iş olayı sağlar. Üretim emriyle ilgili referans verilerinin, Açık Veri Protokolü (OData) veya veri varlıkları aracılığıyla Supply Chain Management'tan MES'e paylaşılabilecek olması beklenir. |
 | Üretim emrini başlat | Bu süreç, MES kullanılarak başlatılan üretim emirleri hakkındaki bilgileri Supply Chain Management'a sağlar. Her iki sistemde tüm üretim faaliyetlerinin güncel görünümü olmasını sağlar. |
 | Üretilen veya ıskartaya çıkan miktarı raporla | Bu süreç, MES kullanılarak üretim emrinde bildirilen mal ve hata miktarları bilgilerini Supply Chain Management'a sağlar. Atölye amirlerinin, üretim planı ilerlemesinin güncel görünümüne sahip olmasını sağlar. |
 | Hammadde tüketimini bildir | Bu işlem, tüketilen malzeme miktarları hakkında bilgileri MES'ten alarak Supply Chain Management'a sağlar. Güncel stok kayıtları planlama ve satış gibi diğer önemli işlemler tarafından kullanılabilir. |
@@ -154,7 +154,7 @@ Aşağıdaki tabloda, `ProdProductionOrderReportFinished` iletisinin `ReportFini
 | `ProductionWarehouseLocationId` | İsteğe bağlı | Dize |
 | `InventoryDimension1` - `InventoryDimension12` | İsteğe bağlı | Dize |
 
-12 genişletilebilir boyut ( `InventoryDimension1` - `InventoryDimension12`) özelleştirme gerektirir ve her zaman kullanılmaz. Bunlar hakkında daha fazla bilgi için, bkz. [Genişletme aracılığıyla yeni stok boyutları ekleme](../../fin-ops-core/dev-itpro/extensibility/inventory-dimensions.md).
+12 genişletilebilir boyut ( `InventoryDimension1` - `InventoryDimension12`) özelleştirme gerektirir ve her zaman kullanılmaz. Bunlar hakkında daha fazla bilgi için bkz. [Genişletme aracılığıyla yeni stok boyutları ekleme](../../fin-ops-core/dev-itpro/extensibility/inventory-dimensions.md).
 
 ### <a name="material-consumption-picking-list-message"></a>Malzeme tüketimi (malzeme çekme listesi) iletisi
 
@@ -252,9 +252,10 @@ MES, Supply Chain Management'a bir ileti gönderdikten sonra, Supply Chain Manag
 Bu gibi durumlarda, Supply Chain Management'ta standart uyarı özelliğinden yararlanabilirsiniz. Standart uyarıların nasıl çalıştığı hakkında bilgi için, aşağıdaki kaynaklara bakın:
 
 - Yardım makalesi: [Uyarılara genel bakış](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
-- Video [Dynamics 365 for Finance and Operations'ta uyarı kuralı seçenekleri](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
+- Video: [Finans ve operasyon uygulamalarında uyarı kuralı seçenekleri](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 Örneğin, bir iletinin durumu hakkında geribildirim sağlamak için aşağıdaki uyarıları ayarlayabilirsiniz:
 
 - İleti *Başarısız* olduğunda kullanılan bir iş olayı ("Harici gönder") oluşturun.
 - BT yöneticisine veya atölye yöneticisine bir bildirim ve e-posta gönderin.
+

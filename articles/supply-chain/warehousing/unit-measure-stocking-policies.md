@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0de12620bca54c7e43713138d7a152c2bd6edff3453f81cf779f9b875cf77eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca1c18a293d66ab78f41cac857461249826ce4c9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714848"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069137"
 ---
 # <a name="unit-of-measure-and-stocking-policies"></a>Ölçü birimi ve stoklama politikaları
 
@@ -28,7 +28,7 @@ ms.locfileid: "6714848"
 
 Bu makalede depo süreçlerinde varsayılan ünitelerin, ünite sıralarının ve ünite çevrimlerinin nasıl kullanıldığı açıklanmıştır.
 
-Birim sıra grupları, ambar operasyonlarında kullanılabilecek birimlerin sırasını tanımlar. Bunlar **Birim sıra grupları** sayfasında oluşturulur. Sıra çeşitli birimlerin ilişkisini gösterir. Örneğin, maddelerin ayrı ayrı parçalarını içeren kutular içeren paletler depolarsınız. Bu durumda, üç farklı birim ve mantıksal katmanların sırası sağlamanız gerekir. Birim sıra grupları, plakaları gruplamak için politikalar ve çeşitli ambar süreçleri için kullanılması gereken varsayılan birimler tanımlamanıza imkan verir. Bu makale, hem Ambar yönetiminde sunulan gelişmiş ambar çözümleri için hem de Stok yönetiminde sunulan daha temel ambar çözümleri için geçerlidir.
+Birim sıra grupları, ambar operasyonlarında kullanılabilecek birimlerin sırasını tanımlar. Bunlar **Birim sıra grupları** sayfasında oluşturulur. Sıra çeşitli birimlerin ilişkisini gösterir. Örneğin, maddelerin ayrı ayrı parçalarını içeren kutular içeren paletler depolarsınız. Bu durumda, üç farklı birim ve mantıksal katmanların sırası sağlamanız gerekir. Birim sıra grupları, plakaları gruplamak için politikalar ve çeşitli ambar süreçleri için kullanılması gereken varsayılan birimler tanımlamanıza imkan verir. Bu makale, hem Ambar yönetimi modülünde sunulan ambar yönetimi işlemleri (WMS) için hem de Stok yönetimi modülünde sunulan daha temel ambar çözümleri için geçerlidir.
 
 ## <a name="unit-sequence-groups-for-released-products"></a>Serbest bırakılan ürünler için birim sıra grupları
 Serbest bırakılan ürünleri ambar iş süreçlerinde kullanmaz istiyorsanız, bunlara bir birim sıra grubu atanmalıdır. Depolama boyutu grubu ile ilişkilendirilmiş bir ürünü doğrulamak istiyorsanız ve Depolama boyutu grubu için **Ambar yönetimi süreçlerini kullan** seçeneği **Evet** olarak ayarlıysa, ürüne bir birim sıra grubu kodu tanımlı değilse bir hata iletisi alırsınız. Kullandığınız birim sıra grubu birden fazla satır (ve dolayısıyla birden fazla birim) içeriyorsa birimler arasında bir birim dönüştürmesi ayarlamanız gerekir. Bu kurulumu **Birim dönüştürmeleri** sayfasında tamamlarsınız. Serbest bırakılan ürünle ilişkilendirdiğiniz bir sıra grubundaki en küçük birim, karşılık gelen ürün için tanımlanan stok birimi ile eşleşmelidir. Stok birimi, eldeki stokun hesaplanmasında temel alınan birimdir. Aynı zamanda, **Ölçü birimi dönüştürmelerini etkinleştir** seçeneğini kullanarak ana ürünlerin ürün varyantları için ölçü birimi dönüştürmeleri de ayarlayabilirsiniz.

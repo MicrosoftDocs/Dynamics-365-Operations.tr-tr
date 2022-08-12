@@ -1,6 +1,6 @@
 ---
 title: Oluşturulan ER raporları sonuçlarının izlenmesini temel değerlerle karşılaştırmak için iyileştirme
-description: Bu makalede, Microsoft Dynamics 365 for Finance and Operations 10.0.3 sürümündeki (Haziran 2019) ER temel özelliğiyle ilgili iyileştirmeler açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Finance 10.0.3 sürümündeki (Haziran 2019) ER temel özelliğiyle ilgili iyileştirmeler açıklanmaktadır.
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb2e76492ac9f6feb71811d0fbfd25919b59ac4d
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847415"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109157"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Oluşturulan ER raporları sonuçlarının izlenmesini temel değerlerle karşılaştırmak için iyileştirme
 
 [!include[banner](../includes/banner.md)]
 
-Bu makalede, Elektronik raporlama (ER) çerçevesinin temel özelliğinde yapılan ilk iyileştirmeler kümesi açıklanmaktadır. Bu iyileştirmeler Microsoft Dynamics 365 for Finance and Operations 10.0.3 (Haziran 2019) sürümünde ve sonrasında kullanılabilir.
+Bu makalede, Elektronik raporlama (ER) çerçevesinin temel özelliğinde yapılan ilk iyileştirmeler kümesi açıklanmaktadır. Bu iyileştirmeler Microsoft Dynamics 365 Finance 10.0.3 (Haziran 2019) ve sonraki sürümlerde kullanılabilir.
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>Temel kuralları ayarını otomatikleştirme
 
@@ -208,3 +208,4 @@ Geçerli belge yönetimi ayarları ve seçili belge türü temel alınarak Micro
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

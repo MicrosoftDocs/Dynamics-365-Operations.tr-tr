@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2963589562e2d646670183e9db35df33255e8894
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e5816a7cddf509260511368b74655a9fd5bfc485
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903767"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067896"
 ---
 # <a name="shipment-auto-updates"></a>Sevkiyat otomatik güncelleştirmeleri
 
@@ -30,7 +30,7 @@ Sevkiyat otomatik güncelleştirme işlevi, yük bir ambara serbest bırakıldı
 
 Sevkiyatı otomatik güncelleştirme işlevi kullanılmazsa, ambar işi oluşturuluncaya kadar yalnızca miktardaki azalma ambara otomatik olarak akabilir. Kullanıcılar satırları el ile güncelleştirmeli veya silmeli ve sipariş miktarları artarsa veya yeni sipariş satırları eklenirse satırları yeniden serbest bırakmalıdır. Sevkiyatı otomatik güncelleştirme işlevini kullanarak, işletmeler ilgili sevkiyatların ve yüklerin sipariş satırı güncelleştirmelerini yansıtmayacağı endişesi taşımadan ambara güncelleştirmeleri sorunsuz şekilde sağlayabilir.
 
-Sevkiyatı otomatik güncelleştirme işlevi hem satış siparişi satırları, hem de transfer emri satırları için geçerlidir ve belirli bir ambar için açıktır. Bu nedenle, şirketler gerektiğinde ambarlarda farklı sevkiyatı otomatik güncelleştirme ilkeleri uygulayabilir. Varsayılan olarak, miktar azalmaları için sevkiyatı otomatik güncelleştirme ilkesi ambar yönetimi işlemlerini kullanan tüm ambarlar için uygulanır. Bu varsayılan ilke ayarı kullanıldığında, ambar işi oluşturuluncaya kadar yalnızca miktar azalmaları otomatik olarak bir sevkiyat ve yükleme arasında akar. Bu davranış, sevkiyatı otomatik güncelleştirme işlevi sunulmadan önce kullanılan davranışa benzer.
+Sevkiyatı otomatik güncelleştirme işlevi hem satış siparişi satırları, hem de transfer emri satırları için geçerlidir ve belirli bir ambar için açıktır. Bu nedenle, şirketler gerektiğinde ambarlarda farklı sevkiyatı otomatik güncelleştirme ilkeleri uygulayabilir. Varsayılan olarak, miktar azalmaları için sevkiyatı otomatik güncelleştirme ilkesi ambar yönetimi işlemlerini (WMS) kullanan tüm ambarlar için uygulanır. Bu varsayılan ilke ayarı kullanıldığında, ambar işi oluşturuluncaya kadar yalnızca miktar azalmaları otomatik olarak bir sevkiyat ve yükleme arasında akar. Bu davranış, sevkiyatı otomatik güncelleştirme işlevi sunulmadan önce kullanılan davranışa benzer.
 
 ## <a name="main-elements-of-the-functionality"></a>İşlevlerin ana öğeleri
 

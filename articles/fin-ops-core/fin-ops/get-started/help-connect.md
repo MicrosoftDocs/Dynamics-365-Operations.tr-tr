@@ -1,5 +1,5 @@
 ---
-title: Finans ve Operasyon uygulamaları için Yardım deneyimini yönetme
+title: Finans ve operasyon uygulamaları için Yardım deneyimini yönetme
 description: Bu makalede, bazı Microsoft Dynamics 365 uygulamaları için Yardım sisteminin bileşenleri hakkında bilgi verilmektedir.
 author: margoc
 ms.date: 08/11/2021
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b002b374e5da619460c496b8f0d7a70b7194afd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 35f5d73075d118079ccb0616fbd1c5e1a8e00424
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900143"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123639"
 ---
-# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Finans ve Operasyon uygulamaları için Yardım deneyimini yönetme
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Finans ve operasyon uygulamaları için Yardım deneyimini yönetme
 
 [!include [banner](../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Bu makalede; Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce ve Dynamics 365 Human Resources gibi Finans ve Operasyon uygulamaları için Yardım sisteminin bileşenlerine dair genel bir bakış sunulmaktadır. Bu makalede, bu bileşenlerin nasıl bağlanacağı açıklanmakta ve özel Yardım oluşturma sürecinin bir özetini sağlanmaktadır.
+Bu makalede; Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce ve Dynamics 365 Human Resources gibi finans ve operasyon uygulamaları için Yardım sisteminin bileşenlerine dair genel bir bakış sunulmaktadır. Bu makalede, bu bileşenlerin nasıl bağlanacağı açıklanmakta ve özel Yardım oluşturma sürecinin bir özetini sağlanmaktadır.
 
 ## <a name="help-architecture"></a>Yardım mimarisi
 
-Finans ve Operasyon uygulamaları, [Microsoft Dynamics 365 belgeleri](/dynamics365/) sitesinde yayınlanan kavramsal genel bakışları ve diğer konuları içerir. Bu içeriğe daha sonra ürün içi **Yardım** bölmesinden erişilebilir. Aşağıdaki örnek Yardım sisteminin bölümlerini gösterir.
+Finans ve operasyon uygulamaları, [Microsoft Dynamics 365 belgeleri](/dynamics365/) sitesinde yayınlanan kavramsal genel bakışları ve diğer konuları içerir. Bu içeriğe daha sonra ürün içi **Yardım** bölmesinden erişilebilir. Aşağıdaki örnek Yardım sisteminin bölümlerini gösterir.
 
 [![Yardım mimarisi.](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -63,7 +63,7 @@ Finans ve Operasyon uygulamaları, [Microsoft Dynamics 365 belgeleri](/dynamics3
 2. Görev kayıtlarını almak için BPM kitaplıkları (Seçili proje içinde) seçin.
 3. BPM kitaplıklarının görüntülenme sırasını ayarlayın. Görüntüleme sırası, kitaplıklardaki görev kayıtlarının **Yardım** bölmesinde hangi sırayla görüneceğini belirler.
 
-Bu adımları tamamladıktan sonra, **Yardım** bölmesini açabilir ve **Görev kılavuzları** sekmesini seçebilirsiniz. Şimdi, Finans ve Operasyon uygulamalarında içinde bulunduğunuz sayfa için geçerli olan görev kılavuzlarını göreceksiniz. Görev kılavuzu bulunamadıysa, anahtar sözcükler girerek aramanızı daraltabilirsiniz.
+Bu adımları tamamladıktan sonra, **Yardım** bölmesini açabilir ve **Görev kılavuzları** sekmesini seçebilirsiniz. Şimdi, finans ve operasyon uygulamalarında içinde bulunduğunuz sayfa için geçerli olan görev kılavuzlarını göreceksiniz. Görev kılavuzu bulunamadıysa, anahtar sözcükler girerek aramanızı daraltabilirsiniz.
 
 ### <a name="showing-translated-task-guides"></a>Çevrilmiş görev kılavuzları gösteriliyor
 
@@ -87,7 +87,7 @@ Bir ortaksanız ve bir kitaplığı şirket kitaplığına yükseltirseniz ve bi
 
 ### <a name="connect-a-custom-help-site"></a>Özel bir Yardım sitesini bağlama
 
-Finans ve Operasyon uygulamaları, nadiren kullanıma hazır biçimlerinde kullanılır. Bunun yerine çözüm, kuruluşun ihtiyaçlarına göre özelleştirilir ve genişletilir. Yardım deneyimini de özelleştirebilir ve genişletebilirsiniz. Örneğin, ürün içi **Yardım** bölmesine özel Yardım ekleyebilirsiniz.
+Finans ve operasyon uygulamaları, nadiren kullanıma hazır biçimlerinde kullanılır. Bunun yerine çözüm, kuruluşun ihtiyaçlarına göre özelleştirilir ve genişletilir. Yardım deneyimini de özelleştirebilir ve genişletebilirsiniz. Örneğin, ürün içi **Yardım** bölmesine özel Yardım ekleyebilirsiniz.
 
 Microsoft, özel Yardım'ı **Yardım** bölmesine dağıtmanıza ve bağlamanıza yardımcı olacak bir araç seti sağlamıştır. **Yardım** bölmesine bağlı özel bir Yardım çözümünü nasıl ayarlayabileceğiniz hakkında bilgi için bkz. [Özel Yardım'a genel bakış](../../dev-itpro/help/custom-help-overview.md).
 
@@ -103,3 +103,4 @@ Yardım'ı özelleştirmek için araçlar ve işlemler konusunda Microsoft ile i
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

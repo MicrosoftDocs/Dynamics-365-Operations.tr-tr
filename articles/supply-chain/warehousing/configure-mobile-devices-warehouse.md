@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efbf9072c3bbcb20f38e144f9a15d8178d96d708
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef392fd744a68c54bc0438152b3487233ac5c7f3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905587"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070364"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Ambar işi için mobil cihazları ayarlama
 
@@ -63,7 +63,7 @@ Bir menü öğesine yönelik **Mod** alanı **Dolaylı** olarak ayarlı ise, iş
 | Numara serisi önbelleğini temizle | Numara serisi numaralarını numara serisi önbelleğinden silin. Bu etkinlik genellikle mobil cihazlar kullanıldığında önbelleğe alma sorunları çözmek için bir sistem yöneticisi tarafından gerçekleştirilir. |
 | Toplu iş değerlendirmesini değiştir | Bir çalışanın bir madde veya toplu iş için bir toplu iş değerlendirme kodu belirlemesine izin verin. Bu seçim, toplu iş için belirtilen değerlendirme kodunu günceller. |
 | Açık iş listesini görüntüle | Belirli bir kullanıcı için kullanılabilir iş listesini gösterir. Kullanıcı bunun ardından gerçekleştirilecek işi seçebilir ve ona yönlendirilir. Bu liste, 7 inç veya daha geniş ekran boyutuna sahip tablet cihazlarda görüntülenmek üzere hazırlanmıştır. Bu seçeneği belirlediğinizde, **Sorguyu düzenle** ve **Alan listesi** menü öğeleri kullanılabilir olur. **Sorguyu düzenle** sayfası, listede görünen iş için ölçütleri ayarlamanıza imkan verir. **Alan listesi** sayfası, iş listesinde görüntülenecek alanları seçmenize olanak sağlar. Örneğin, görüntülenen alanların sayısını, kullanıcının en uygun iş öğesini daha hızlı seçebileceği şekilde azaltabilirsiniz. **Genel** FastTab'inde, **Sayfa başına kayıt** alanında, sayfa başına kaç iş kaydı gösterileceğini de seçebilirsiniz. **Kullanıcıların işi hareket türüne göre filtrelemesine izin ver** seçeneği belirlendiğinde, iş listesi, kullanıcının hareket türüne göre filtre kullanabileceği bir **İşi filtrele** denetimi içerecektir. İş listesinde, kullanıcılar yalnızca erişim iznine sahip oldukları işi görür. Kullanıcıların, erişebilmeleri gereken belirli iş sınıfı türlerini destekleyen kullanıcı yönlendirmeli bir veya daha fazla menü öğesi için izni olduğundan emin olmanız gerekir. İzinler, kullanıcı listeden iş yapmaya çalıştığında doğrulanır.|
-| Plakadan transfer emri oluştur | Ambar çalışanlarının doğrudan Warehouse Management mobil uygulamasından transfer emirleri oluşturmasına ve işlemesine olanak tanır. Ambar çalışanları, hedef ambarı seçerek başlar ve uygulamayı kullanarak bir veya daha fazla plaka tarayabilir. Ambar çalışanı **Siparişi tamamla**'yı seçtiğinde, bir toplu iş bu plakalar için kaydedilen eldeki stoğu temel alan gerekli transfer emri ve sipariş satırlarını oluşturur. Daha fazla bilgi için, bkz. [Ambar uygulamasından transfer emri oluşturma](create-transfer-order-from-warehouse-app.md)
+| Plakadan transfer emri oluştur | Ambar çalışanlarının doğrudan Warehouse Management mobil uygulamasından transfer emirleri oluşturmasına ve işlemesine olanak tanır. Ambar çalışanları, hedef ambarı seçerek başlar ve uygulamayı kullanarak bir veya daha fazla plaka tarayabilir. Ambar çalışanı **Siparişi tamamla**'yı seçtiğinde, bir toplu iş bu plakalar için kaydedilen eldeki stoğu temel alan gerekli transfer emri ve sipariş satırlarını oluşturur. Daha fazla bilgi için bkz. [Ambar uygulamasından transfer emri oluşturma](create-transfer-order-from-warehouse-app.md)
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Başka bir iş veya sürece yönelik iş oluşturmak için menü öğelerini yapılandırma
 
@@ -123,13 +123,13 @@ Bir menü öğesine yönelik **Mod** alanı **Dolaylı** olarak ayarlı ise, iş
 <td>Transfer emri madde teslim alma</td>
 <td>Belirli bir miktardaki madde girişini kayda geçirin ve başka bir çalışan için yerine koyma işi oluşturun.
 
-<strong>Not:</strong> Bu seçeneği, yalnızca maddeler ambar yönetimi süreçlerinin etkinleştirilmediği bir ambardan sevk edildiyse kullanın.</td>
+<strong>Not:</strong> Bu seçeneği, yalnızca maddeler ambar yönetimi süreçlerinin (WMS) etkinleştirilmediği bir ambardan sevk edildiyse kullanın.</td>
 </tr>
 <tr>
 <td>Transfer emri maddesini teslim alma ve yerine koyma</td>
 <td>Belirli bir miktardaki madde girişini kayda geçirin ve maddeleri yerine koyun. Aynı çalışan iki eylemi de gerçekleştirir.
 
-<strong>Not:</strong> Bu seçeneği, yalnızca maddeler ambar yönetimi süreçlerinin etkinleştirilmediği bir ambardan sevk edildiyse kullanın.</td>
+<strong>Not:</strong> Bu seçeneği, yalnızca maddeler ambar yönetimi süreçlerinin (WMS) etkinleştirilmediği bir ambardan sevk edildiyse kullanın.</td>
 </tr>
 <tr>
 <td>Transfer emri satırı teslim alma</td>
@@ -401,7 +401,7 @@ Aşağıdaki tablo bu seçenekleri açıklar.
 <td>Bir işlem için işi oluşturacak iş şablonunu seçin. Örneğin, bir satınalma siparişi için bir ürün alırsanız, yerine koyma işi iş şablonuna dayalı olarak oluşturulur. Bir iş şablonu seçmezseniz, Supply Chain Management sorgu kriterine dayanarak bir şablon atar. İş Şablonları hakkında daha fazla bilgi için bkz. <a href="control-warehouse-location-directives.md">İş şablonları ve konum yönergeleri ile ambar çalışmasını denetleme</a>.</td>
 <tr class="even">
 <td>İş satırı listesini göster</td>
-<td>Çalışanların şu anda seçili malzeme çekme çalışmasının satırlarını nasıl görüntüleyebileceğini ve etkileşimde bulunabileceğini seçmek için bir seçenek belirleyin. Bu seçenek hakkında daha fazla bilgi edinmek için, bkz. <a href="pick-line-overview.md">Bir mobil cihaz menü öğesini malzeme çekme satırı özeti sağlayacak şekilde ayarlama</a>.</td>
+<td>Çalışanların şu anda seçili malzeme çekme çalışmasının satırlarını nasıl görüntüleyebileceğini ve etkileşimde bulunabileceğini seçmek için bir seçenek belirleyin. Bu seçenek hakkında daha fazla bilgi edinmek için bkz. <a href="pick-line-overview.md">Bir mobil cihaz menü öğesini malzeme çekme satırı özeti sağlayacak şekilde ayarlama</a>.</td>
 </tr>
 </tbody>
 </table>

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 6f8f43bcdaae9a14350c66039d204caf38d33768
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5c8fa259e51f024d19c1f2f7e84ed7edd0ddb7e1
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906985"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069043"
 ---
 # <a name="wave-execution-notifications"></a>Dalga yürütme bildirimleri
 
@@ -28,7 +28,7 @@ ms.locfileid: "8906985"
 
 Gezinti çubuğunun sağ tarafındaki **iletileri göster** düğmesi (çan sembolü), geçerli kullanıcı için bir Eylem Merkezi iletisinin ne zaman kullanılabileceğini gösterir. Kullanıcı, eylem merkezini açmak ve iletileri incelemek için **iletileri göster** düğmesini seçebilir.
 
-İş olayları, iş süreçleri çalıştırıldığında oluşur. İş süreçleri görevlerden oluşur. Bir iş süreci sırasında, buna katılan kullanıcılar bu görevleri tamamlamak için iş eylemlerini gerçekleştirirler. İş olayları, dış sistemlerin Finans ve Operasyonlar uygulamalarından bildirimler almasına olanak tanıyan bir mekanizma sağlar. Bu şekilde, sistemler iş olaylarına yanıt olarak iş eylemlerini gerçekleştirebilir. Daha fazla bilgi için bkz. [İş olaylarına genel bakış](../../fin-ops-core/dev-itpro/business-events/home-page.md).
+İş olayları, iş süreçleri çalıştırıldığında oluşur. İş süreçleri görevlerden oluşur. Bir iş süreci sırasında, buna katılan kullanıcılar bu görevleri tamamlamak için iş eylemlerini gerçekleştirirler. İş olayları, dış sistemlerin finans ve operasyon uygulamalarından bildirimler almasına olanak tanıyan bir mekanizma sağlar. Bu şekilde, sistemler iş olaylarına yanıt olarak iş eylemlerini gerçekleştirebilir. Daha fazla bilgi için bkz. [İş olaylarına genel bakış](../../fin-ops-core/dev-itpro/business-events/home-page.md).
 
 ## <a name="turn-the-wave-execution-notifications-feature-on-or-off"></a>Dalga yürütme bildirimleri özelliğini açma veya kapatma
 
@@ -125,3 +125,4 @@ Dalga şablonları, belirli dalga yöntemi örneklerini ilgili dalga etiketi şa
 > Dalga ayrıntılarını aç
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

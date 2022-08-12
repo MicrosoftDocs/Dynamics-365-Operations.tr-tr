@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2ca847f6f11d5d849ea570cc3886e6470021e451
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 635e7152bece91d5dee47f82cef7052730eb0c82
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880407"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108967"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER şablonlarının yedekleme depolaması
 
@@ -28,11 +28,11 @@ ms.locfileid: "8880407"
 
 [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md) iş kullanıcılarının giden belgelerin biçimini çeşitli ülkelerin/bölgelerin yasal gereksinimlerine uygun şekilde yapılandırmasına olanak tanır. Yapılandırılan ER biçimleri Microsoft Excel çalışma kitapları, Microsoft Word belgeleri veya PDF belgeleri gibi çeşitli biçimlerde giden belgeler oluşturmak için önceden tanımlanmış şablonları kullanılabilir. Şablonlar, oluşturulan belgeler için yapılandırılan veri akışının gerektirdiği verilerle doldurulur.
 
-Yapılandırılan her biçim, bir ER çözümünün parçası olarak yayımlanabilir. Her ER çözümü, Finance and Operations'ın bir örneğinden dışa aktarılabilir ve başka bir örneğin içine aktarılabilir.
+Yapılandırılan her biçim, bir ER çözümünün parçası olarak yayımlanabilir. Her ER çözümü, finans ve operasyon uygulamasının bir kurulumundan dışarı aktarılabilir ve başka bir kuruluma içeri aktarılabilir.
 
-ER çerçevesi, geçerli Finance and Operations kurulumu için gerekli şablonları korumak amacıyla [Belge yönetimini yapılandırma](../../fin-ops/organization-administration/configure-document-management.md) özelliğini kullanır. ER çerçevesinin ayarlarına bağlı olarak, Microsoft Azure Blob depolama veya Microsoft SharePoint klasörü, şablonların fiziksel birincil depolama konumu olarak seçilebilir. (Daha fazla bilgi için bkz. [Elektronik raporlama (ER) çerçevesini yapılandırma](electronic-reporting-er-configure-parameters.md).) DocuValue tablosu her şablon için tek bir kayıt içerir. Her kayıtta, **AccessInformation** alanı yapılandırılmış depolama konumunda bulunan bir şablon dosyasının yolunu depolar.
+ER çerçevesi, geçerli finans ve operasyon kurulumu için gerekli şablonları korumak amacıyla [Belge yönetimini yapılandırma](../../fin-ops/organization-administration/configure-document-management.md) özelliğini kullanır. ER çerçevesinin ayarlarına bağlı olarak, Microsoft Azure Blob depolama veya Microsoft SharePoint klasörü, şablonların fiziksel birincil depolama konumu olarak seçilebilir. (Daha fazla bilgi için bkz. [Elektronik raporlama (ER) çerçevesini yapılandırma](electronic-reporting-er-configure-parameters.md).) DocuValue tablosu her şablon için tek bir kayıt içerir. Her kayıtta, **AccessInformation** alanı yapılandırılmış depolama konumunda bulunan bir şablon dosyasının yolunu depolar.
 
-Finance and Operations örneklerinizi yönetirken, geçerli örneği başka bir konuma geçirmeye karar verebilirsiniz. Örneğin, üretim örneğinizi yeni bir korumalı alan ortamına geçirebilirsiniz. ER çerçevesini Blob depolamada şablon depolamak üzere yapılandırırsanız, yeni korumalı alan ortamındaki DocuValue tablosu, üretim ortamındaki Blob depolama örneğine başvurur. Ancak, geçiş işlemi Blob depolamadaki yapıların geçirilmesini desteklemediğinden, bu örneğe korumalı alan ortamından erişilemez. Bu nedenle, iş belgeleri oluşturmak için şablon kullanan bir ER biçimini çalıştırmaya çalışırsanız bir özel durum oluşur ve eksik şablon hakkında bilgilendirilirsiniz. Ayrıca, şablonu içeren ER biçimi yapılandırmasını silmek ve yeniden içe aktarmak için ER temizleme aracını da kullanabilirsiniz. Birden fazla ER biçimi yapılandırmanız olabileceğinden bu işlem uzun sürebilir.
+Finans ve operasyon kurulumlarınızı yönetirken, geçerli kurulumu başka bir konuma geçirmeye karar verebilirsiniz. Örneğin, üretim örneğinizi yeni bir korumalı alan ortamına geçirebilirsiniz. ER çerçevesini Blob depolamada şablon depolamak üzere yapılandırırsanız, yeni korumalı alan ortamındaki DocuValue tablosu, üretim ortamındaki Blob depolama örneğine başvurur. Ancak, geçiş işlemi Blob depolamadaki yapıların geçirilmesini desteklemediğinden, bu örneğe korumalı alan ortamından erişilemez. Bu nedenle, iş belgeleri oluşturmak için şablon kullanan bir ER biçimini çalıştırmaya çalışırsanız bir özel durum oluşur ve eksik şablon hakkında bilgilendirilirsiniz. Ayrıca, şablonu içeren ER biçimi yapılandırmasını silmek ve yeniden içe aktarmak için ER temizleme aracını da kullanabilirsiniz. Birden fazla ER biçimi yapılandırmanız olabileceğinden bu işlem uzun sürebilir.
 
 ER şablonlarının Yedek depolaması şablonlarının iş belgeleri oluşturmak üzere daima kullanılabilir olmasını sağlamanıza yardımcı olabilir.
 
@@ -46,7 +46,7 @@ Bu özellik için, geçerli ortamdaki yeni bir ER biçimi yapılandırmasının 
 - Şablon içeren yeni bir ER biçimi yapılandırmasını içe aktardığınızda.
 - Şablon içeren bir ER biçimi yapılandırmasının taslak sürümünü tamamladığınızda.
 
-Şablonların yedek kopyaları, uygulama veritabanının bir parçası olarak yeni Finance and Operations örneğine geçirilir.
+Şablonların yedek kopyaları, uygulama veritabanının bir parçası olarak yeni finans ve operasyon kurulumuna geçirilir.
 
 Örneğin, ödeme önerisi ve denetim raporları dahil olmak üzere satıcı ödemelerini işlemek amacıyla giden belgelerin oluşturulması için bir ER biçimi şablonu gerekliyse, ancak gerekli şablon birincil depolama konumunda bulunamazsa, aşağıdaki olaylar gerçekleşir:
 
@@ -58,7 +58,7 @@ Bu özellik için, geçerli ortamdaki yeni bir ER biçimi yapılandırmasının 
 
 **Toplu işte bozuk şablonları geri yükleme yordamını otomatik olarak çalıştır** parametresini ayarlamak için aşağıdaki adımları uygulayın:
 
-1. Finance and Operations içinde, **Kuruluş yönetimi \> Elektronik raporlama \> Yapılandırma sayfaları**'nı açın.
+1. Finans ve operasyon içinde, **Kuruluş yönetimi \> Elektronik raporlama \> Yapılandırma sayfası**'nı açın.
 2. **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
 3. **Kullanıcı parametreleri** iletişim kutusunda, **Toplu işte bozuk şablonları geri yükleme yordamını otomatik olarak çalıştır** parametresi için gereken değeri ayarlayın.
 
@@ -83,7 +83,7 @@ Varsayılan olarak, ER biçim yapılandırmalarında şablonların yedek kopyala
 
 **Şablonların yedek kopyalarını yapmayı durdur** seçeneğini **Evet** olarak ayarlasanız ve şablonların önceden yapılan yedek kopyalarını saklamak istemiyorsanız, **Elektronik raporlama parametreleri** sayfasında **Yedek depolamayı temizle** seçeneğini seçin.
 
-Ortamınızı Finance and Operations 10.0.5 (2019 Ekim) sürümüne yükselttiyseniz ve çalıştırılabilir ER biçimi yapılandırmalarını içeren yeni bir ortama geçiş yapmak istiyorsanız, geçiş işlemi gerçekleşmeden önce **Elektronik raporlama parametreleri** sayfasında **Yedek depolamayı doldur** seçeneğini seçin. Bu düğme, tüm kullanılabilir şablonların yedek kopyalarını oluşturma işlemini başlatır, böylece şablonlar ER yedekleme depolaması alanında depolanabilir.
+Ortamınızı finans ve operasyon 10.0.5 (2019 Ekim) sürümüne yükselttiyseniz ve çalıştırılabilir ER biçimi yapılandırmalarını içeren yeni bir ortama geçiş yapmak istiyorsanız, geçiş işlemi gerçekleşmeden önce **Elektronik raporlama parametreleri** sayfasında **Yedek depolamayı doldur** seçeneğini belirleyin. Bu düğme, tüm kullanılabilir şablonların yedek kopyalarını oluşturma işlemini başlatır, böylece şablonlar ER yedekleme depolaması alanında depolanabilir.
 
 ![Elektronik raporlama parametreleri sayfası.](./media/GER-BackupTemplates-5.png)
 
@@ -93,7 +93,7 @@ Ortamınızı Finance and Operations 10.0.5 (2019 Ekim) sürümüne yükselttiys
 
 ## <a name="supported-deployments"></a>Desteklenen dağıtımlar
 
-Finance and Operations 10.0.5 sürümünde, ER şablonlarını yedekleme depolama alanı özelliği yalnızca bulut dağıtımlarında kullanılabilir.
+Finans ve operasyon 10.0.5 sürümünde, ER şablonları için yedekleme alanı özelliği yalnızca bulut dağıtımlarında kullanılabilir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

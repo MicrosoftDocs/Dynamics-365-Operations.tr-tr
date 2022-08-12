@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5bb0b306cca715cad64d62fff843987a8e98eb99
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771884"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108779"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Kuruluş hiyerarşinizi planlama
 
@@ -42,7 +42,7 @@ Hiyerarşileri planlarken, aynı zamanda kuruluş hiyerarşisi ile mali boyutlar
 
 İşletmenizi temsil etmek için en az bir tüzel kişilik olması gerekir. Tüzel kişilik yasal sözleşmelere girebilir ve performanslarını raporlayacak mali tablolar hazırlaması gerekir.
 
-Tüzel kişilikler, hareketsel işler veya konsolidasyon için kullanılabilir. Bu, Finance and Operations'daki bir tüzel kişinin mutlaka işletmenizdeki gerçek bir varlığı temsil etmesi gerekmediği anlamına gelir. Örneğin, hareketlerde yer alan bir şirket bağlı tüzel kişiliklere sahip olabilir. Bu senaryoda, hareketler için bir tüzel kişilik gereklidir ve bağlı tüzel kişiliklerin sonuçlarını ve bakiyelerini konsolide etmek için sanal bir tüzel kişilik gereklidir.
+Tüzel kişilikler, hareketsel işler veya konsolidasyon için kullanılabilir. Bu, finans ve operasyon uygulamalarında bir tüzel kişinin mutlaka işletmenizdeki gerçek bir varlığı temsil etmesi gerekmediği anlamına gelir. Örneğin, hareketlerde yer alan bir şirket bağlı tüzel kişiliklere sahip olabilir. Bu senaryoda, hareketler için bir tüzel kişilik gereklidir ve bağlı tüzel kişiliklerin sonuçlarını ve bakiyelerini konsolide etmek için sanal bir tüzel kişilik gereklidir.
 
 İşletmenizdeki bölge ofisleri gibi dahili organizasyonlar ek tüzel kişilikler veya ana tüzel kişiliğin işletme birimleri olarak temsil edilebilir. Yasal olarak tanımlanmış bir organizasyon olmak için bir işletme birimi gerekli değildir. İşletme birimleri işletmedeki ekonomik kaynakları ve operasyonel işlemleri denetlemek için kullanılır. Örneğin, departmanlar ve maliyet merkezleri işletme birimleridir.
 
@@ -171,7 +171,7 @@ Desteklenen ülkeler/bölgeler için yasal raporların çoğu oluşturulabilir.
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Organizasyon bir işletme birimi olarak modellenmişse
 
-Yasal raporlar başka bir uygulama kullanılarak oluşturulmalıdır. Genel merkez gereksinimlerinden farklılık gösteren her işletme biriminin gereksinimlerini desteklemek amacıyla bu verilerin Finance and Operations uygulamaları tarafından alındığından emin olmanız gerekir.
+Yasal raporlar başka bir uygulama kullanılarak oluşturulmalıdır. Genel merkez gereksinimlerinden farklılık gösteren her işletme biriminin gereksinimlerini destelemek amacıyla bu verilerin finans ve operasyon uygulamaları tarafından alındığından emin olmanız gerekir.
 
 ### <a name="currency"></a>Para Birimi
 
@@ -242,3 +242,4 @@ Bir organizasyon hiyerarşisi uygularken aşağıdaki en iyi uygulamaları dikka
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

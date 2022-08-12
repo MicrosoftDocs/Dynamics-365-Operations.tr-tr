@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ea6901f8d9632b021c35b9ee899385e688fc77e
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851965"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108875"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izle
 
@@ -84,7 +84,7 @@ Oluşturulan ER performans izlemeleri, ER biçim Tasarımcısı ve ER eşleme Ta
 Satıcı hareketleri sunan yeni bir rapor oluşturmak üzere yeni bir ER çözümü tasarladığınızı varsayın. Şu anda, seçilen satıcı için hareketleri **Satıcı hareketleri** sayfasında bulabilirsiniz (**Borç hesapları \> Satıcılar \> Tüm satıcılar**'a gidin, bir satıcı seçin ve Eylem Panosu üzerinde, **Satıcı** sekmesinde, **Hareketler** grubunda, **Hareketler**'i seçin). Ancak, tüm satıcı hareketinin elektronik bir belgede XML biçiminde aynı anda olmasını istersiniz. Bu çözüm, gerekli veri modelini, meta verileri, model eşlemeyi ve biçim bileşenlerini içeren birkaç ER yapılandırmasından oluşur.
 
 1. Şirketiniz için sağlanan RCS örneğine oturum açın.
-2. Bu kılavuzda, **Litware, Inc.** örnek şirket için yapılandırmalar oluşturacak ve değiştireceksiniz. Bu nedenle, bu konfigürasyon sağlayıcısının RCS'ye eklenmiş olduğundan ve etkin olarak seçildiğinden emin olun. Yönergeler için, bkz. [Yapılandırma sağlayıcıları oluşturmak ve bunları etkin olarak işaretlemek yordamına](tasks/er-configuration-provider-mark-it-active-2016-11.md) bakın.
+2. Bu kılavuzda, **Litware, Inc.** örnek şirket için yapılandırmalar oluşturacak ve değiştireceksiniz. Bu nedenle, bu konfigürasyon sağlayıcısının RCS'ye eklenmiş olduğundan ve etkin olarak seçildiğinden emin olun. Yönergeler için bkz. [Yapılandırma sağlayıcıları oluşturmak ve bunları etkin olarak işaretlemek yordamına](tasks/er-configuration-provider-mark-it-active-2016-11.md) bakın.
 3. **Elektronik raporlama** çalışma alanında **Raporlama yapılandırmaları** kutucuğunu seçin.
 4. **Yapılandırmalar** sayfasında, önkoşul olarak karşıdan yüklediğiniz ER yapılandırmalarını aşağıdaki sırada içe aktarın: veri modeli, meta veriler, model eşleme, biçim. Her bir yapılandırma için şu adımları izleyin:
 
@@ -98,7 +98,7 @@ Satıcı hareketleri sunan yeni bir rapor oluşturmak üzere yeni bir ER çözü
 
 ER çözümünün ilk sürümünü tasarlamayı bitirdiğinizi varsayalım. Şimdi bunu örneğinizde test etmek ve yürütme performansını analiz etmek istiyorsunuz.
 
-### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Bir ER yapılandırmasını RCS'ten Finance and Operations'a içe aktarın
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>ER yapılandırmasını RCS'ten Finans ve operasyon'a içeri aktarma
 
 1. Uygulama örneğinizde oturum açın.
 2. Bu kılavuzda, yapılandırmaları RCS örneğinizden (ER bileşenlerinizi tasarladığınız yerden) örneğinize (test edeceğiniz ve son olarak kullanacağınız) içe aktarırsınız. Bu nedenle, gerekli tüm yapıların hazırlandığından emin olmalısınız. Talimatlar için bkz. [Düzenleyici Yapılandırma Hizmeti'nden (RCS) Elektronik raporlama (ER) yapılandırmalarını içe aktarma](rcs-download-configurations.md) yordamı.
@@ -305,7 +305,7 @@ LedgerTransTypeList veri kaynağına yapılan çağrıların sayısını azaltma
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>Değiştirilen ER model eşleme yapılandırmasını RCS'den uygulamada içe aktarma
 
-**Performans izleme eşleştirme** yapılandırması 1.2 sürümünü içeri aktarmak için bu makalenin önceki kısımlarında yer alan [Bir ER yapılandırmasını RCS'ten Finance and Operations'a içe aktarma](#import-configuration) bölümündeki adımları yineleyin.
+**Performans izleme eşleştirme** yapılandırması 1.2 sürümünü içeri aktarmak için bu makalenin önceki kısımlarında yer alan [ER yapılandırmasını RCS'ten Finans ve operasyon'a içeri aktarma](#import-configuration) bölümündeki adımları yineleyin.
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Çalışmayı izlemek için değiştirilmiş ER çözümünü çalıştırın
 
@@ -363,7 +363,7 @@ Web tarayıcısının karşıdan yüklenmek üzere bir zip dosyası sunduğuna d
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Veritabanı sorgularını içeren bir yürütme izlemesini gözden geçirmek için harici araçlar kullanın
 
-ER çerçevesinde yapılan geliştirmeler sayesinde, PerfView formatında oluşturulan performans izleme, şimdi ER biçimi yürütme hakkında daha ayrıntılı bilgi sunmaktadır. Microsoft Dynamics 365 for Finance and Operations 10.0.4 sürümünde (2019 Temmuz) yürütülen bu izleme, SQL sorgularının ayrıntılarını uygulama veritabanına da ekleyebilir.
+ER çerçevesinde yapılan geliştirmeler sayesinde, PerfView formatında oluşturulan performans izleme, şimdi ER biçimi yürütme hakkında daha ayrıntılı bilgi sunmaktadır. Microsoft Dynamics 365 Finance 10.0.4 sürümünde (2019 Temmuz) yürütülen bu izleme, SQL sorgularının ayrıntılarını uygulama veritabanına da ekleyebilir.
 
 ### <a name="configure-user-parameters"></a>Kullanıcı parametrelerini yapılandırma
 
@@ -392,3 +392,4 @@ Web tarayıcısının karşıdan yüklenmek üzere bir zip dosyası sunduğuna d
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

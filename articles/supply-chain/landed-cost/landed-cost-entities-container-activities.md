@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: b69d26ee8abaa403f6a0ef3b03d9015fe507dd5b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6a518003f8624ef05ac86be1b963c3f916420278
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873970"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167588"
 ---
 # <a name="container-activities-entity"></a>Konteyner etkinlikleri varlığı
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!-- KFM: Preview until GA with 10.0.28 -->
 
 Konteyner etkinlikleri, sevkiyat konteynerlerinin ilerleme durumunu izlemek için kullanılır. Sevkiyat konteyneri oluşturma sırasında seçilen yolculuk şablonuna atanan her bir durak için bir kayıt oluşturulur. Veri varlığı aracılığıyla sevkiyat konteyneri oluşturulduğunda da kayıtlar oluşturulur.
 

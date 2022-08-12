@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28e026b01bbc2b2534556ce6018eec66fc5517d6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7643a333c269a7e1976563ff0f10b89c1fb91674
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983016"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065202"
 ---
 # <a name="warehouse-configuration-overview"></a>Ambar yapılandırmasına genel bakış
 
@@ -31,10 +31,10 @@ ms.locfileid: "7983016"
 Bu makalede, bir ambarın nasıl yapılandırılacağı açıklanmaktadır. Konu, ambar düzeninin ve ambar süreçlerinin nasıl etkinleştirileceği hakkında bilgiler içermektedir.
 
 > [!NOTE]
-> Bu makale **Ambar yönetimi** modülündeki (gelişmiş ambarlama) özellikler için geçerlidir. **Stok yönetimi** modülündeki ambar özellikleri için geçerli değildir.
+> Bu makale, **Ambar yönetimi** modülündeki özellikler için geçerlidir. **Stok yönetimi** modülündeki ambar özellikleri için geçerli değildir.
 
 ## <a name="warehouse-layout"></a>Ambar düzeni
-Supply Chain Management'taki Ambar yönetim sistemi, değişen gereksinimleri karşılayacak şekilde ambar düzeninizi tanımlamak için esnek yollar sağlar ve bu sayede en iyi ambar verimliliğini elde edebilirsiniz.
+Supply Chain Management'taki ambar yönetimi işlemleri (WMS), değişen gereksinimleri karşılayacak şekilde ambar düzeninizi tanımlamak için esnek yollar sağlar ve bu sayede en iyi ambar verimliliğini elde edebilirsiniz.
 
 -   Malların en iyi şekilde yerleştirilmesi için yüksek öncelikli ve düşük öncelikli depolama alanları kurabilirsiniz.
 -   Ambarınızı çeşitli depolama ihtiyaçlarını karşılayacak şekilde bölgelere ayırabilirsiniz; maddelerin sıcaklık gereksinimleri veya çeşitli dönüşüm oranları gibi.
@@ -42,7 +42,7 @@ Supply Chain Management'taki Ambar yönetim sistemi, değişen gereksinimleri ka
 -   Fiziksel kapasite kısıtlama ayarlarını kullanarak konumları gruplandırabilirsiniz.
 -   Maddelerin nasıl depolandığını ve çekildiğini, sorgu tarafından tanımlanan kurallara dayalı olarak denetleyebilirsiniz.
 
-Ambar Yönetimi'ni Supply Chain Management'ta kullanmak için, bir ambar oluşturmalı ve daha gelişmiş veya özelleştirilmiş ambar yönetimi faaliyetleri için bunu etkinleştirmelisiniz. **Ambarlar** sayfasında, **Ambar yönetimi işlemlerini kullanın** seçeneğini seçin.
+Supply Chain Management'ta WMS'yi kullanmak için bir ambar oluşturup WMS için etkinleştirmeniz gerekir. **Ambarlar** sayfasında, **Ambar yönetimi işlemlerini kullanın** seçeneğini seçin.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Bölge grupları, bölgeler, konum türleri ve konumlar
 

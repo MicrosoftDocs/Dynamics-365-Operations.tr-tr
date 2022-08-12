@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 953a3bfec70235524067a47b8764f6dbb40d3c7b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849314"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065569"
 ---
 # <a name="flushing-principles"></a>Otomatik tüketim kuralları
 
@@ -50,9 +50,9 @@ Otomatik tüketim ilkeleri varsayılan değerler hiyerarşisi içerisinde yapıl
 ## <a name="description-of-the-flushing-principles"></a>Otomatik tüketim ilkelerinin açıklaması
 
 ### <a name="manual"></a>El ile
-El ile otomatik tüketim ilkesi, malzeme tüketiminin el ile yapılan bir işlem olduğunu gösterir. Bu ilke, örneğin zamanı izlemek istiyorsanız ve tüketilen toplu iş miktarlarını ve seri numaralarının izleme amacıyla takip edilmesi gerekiyorsa uygundur. El ile tüketim, bir üretim malzeme çekme listesi günlüğünde kayıtlıdır. Gelişmiş ambar işlemleri için etkinleştirilmiş maddeler için, bir el ile akış uygulanabilir.
+El ile otomatik tüketim ilkesi, malzeme tüketiminin el ile yapılan bir işlem olduğunu gösterir. Bu ilke, örneğin zamanı izlemek istiyorsanız ve tüketilen toplu iş miktarlarını ve seri numaralarının izleme amacıyla takip edilmesi gerekiyorsa uygundur. El ile tüketim, bir üretim malzeme çekme listesi günlüğünde kayıtlıdır. Ambar yönetim süreçleri (WMS) için etkinleştirilmiş öğeler için el ile akış uygulanabilir.
 
-### <a name="start"></a>Başlat
+### <a name="start"></a>Başlangıç
 Otomatik tüketme başla ilkesi, malzemenin üretim emri başladığında otomatik olarak tüketileceğini belirtir. Tüketilen malzeme tutarı, başlatılan miktar ile orantılıdır. Otomatik tüketime başla ilkesi, üretim yürütme sistemiyle birlikte kullanıldığında, bir operasyon veya işlem işi başladığında malzemeleri otomatik tüketmek için de kullanılabilir. Bu ilke, örneğin tüketim farkı düşükse, malzemeler düşük değerli malzemelerse, izleme gereksinimleri yoksa veya operasyonlarda kısa çalışma zamanı varsa uygundur. 
 
 ### <a name="finish"></a>Son

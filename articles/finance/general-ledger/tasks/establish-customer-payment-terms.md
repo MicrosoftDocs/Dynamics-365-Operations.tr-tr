@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 16d861294a80ddb44c78760b329e544bc4665130
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 6069d28d84ab1705fd62a33cea7e0b923f0e0705
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716985"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065723"
 ---
 # <a name="establish-customer-payment-terms"></a>Müşteri ödeme koşulları oluşturma
 
@@ -35,11 +35,11 @@ Bu prosedürde bir nakit iskontosu ve vade tarihi kurulumu tanımlanmaktadır. B
 7. **Kaydet**'e tıklayın.
 8. Sayfayı kapatın.
 9. **Gezinti bölmesi > Modüller > Alacak hesapları > Ödemeler kurulumu > Ödeme koşulları**'na gidin.
-10. **Yeni**'ye tıklayın. Ödeme şartları, vade tarihlerinin nasıl hesaplanacağını tanımlamak için kullanılır. Nakit iskontosu tarihi kurulumu ayrı bir sayfada tanımlanır. 
+10. **Yeni**'ye tıklayın. **Ödeme şartları**, vade tarihlerinin nasıl hesaplanacağını tanımlamak için kullanılır. Nakit iskontosu tarihi kurulumu ayrı bir sayfada tanımlanır. 
 11. **Ödeme koşulları** alanına bir kod girin.
 12. **Açıklama** alanına bir açıklama girin.
-13. COD, Net, Geçerli ay, vb. gibi bir **Ödeme yöntemi** seçin. Ödeme yöntemi, vade tarihinin nasıl hesaplanacağını tanımlamak için kullanılır. Örneğin, vade tarihi, fatura tarihinden sonra mutlaka bir dizi ay veya gün sayısıysa Net kullanılır. Fatura üzerine ödeme gerekiyorsa TÖ kullanılabilir ve böylece vade tarihi hesaplanmaz. Bu görev kılavuzu için 'Geçerli ay'ı seçin.  
-14. Hesaplamaya belirli bir hafta günü veya tarih eklendiyse bir **Ödeme tarihi** seçin. Ödeme şartlarınıza bağlı olarak bir tutarı Ay veya Gün olarak girebilirsiniz. Veya, Ödeme yönteminin sonuna 'eklemek' için **Ödeme planını** veya **Ödeme gününü** kullanabilirsiniz. Vade tarihi daima sonraki ayın 10'u olacaksa **Ödeme günü** olarak 10'unu seçin. 
+13. **TÖ**, **Net**, **Geçerli ay** gibi bir **Ödeme yöntemi** seçin. **Ödeme yöntemi**, vade tarihinin nasıl hesaplanacağını tanımlamak için kullanılır. Örneğin, vade tarihi, fatura tarihinden sonra mutlaka bir dizi ay veya gün sayısıysa **Net** kullanılır. Fatura üzerine ödeme gerekiyorsa **TÖ** kullanılabilir ve böylece vade tarihi hesaplanmaz. Bu görev kılavuzu için **Geçerli ay**'ı seçin.  
+14. Hesaplamaya belirli bir hafta günü veya tarih eklendiyse bir **Ödeme tarihi** seçin. Ödeme şartlarınıza bağlı olarak bir tutarı Ay veya Gün olarak girebilirsiniz. Alternatif olarak, **Ödeme yönteminin** sonuna "eklemek" için **Ödeme planını** veya **Ödeme gününü** kullanabilirsiniz. Vade tarihi daima sonraki ayın 10'u olacaksa **Ödeme günü** olarak 10'unu seçin. **Ödeme takvimi** kullanıyorsanız hesaplanan tarih iş günü olmayan bir güne geldiğinde vade tarihinin nasıl belirleneceğini tanımlayabilirsiniz. Başlangıç vade tarihi, takvim günleri kullanılarak hesaplanır. Hesaplanan tarih iş günü olmayan bir güne gelirse hesaplanan vade tarihini bir sonraki veya bir önceki iş gününe ayarlayabilirsiniz.
 15. **Kaydet**'e tıklayın.
 16. Sayfayı kapatın.
 17. **Alacak hesapları > Ödemeler kurulumu > Nakit iskontoları**'na gidin.
@@ -50,7 +50,7 @@ Bu prosedürde bir nakit iskontosu ve vade tarihi kurulumu tanımlanmaktadır. B
 22. **Günler** alanına nakit iskontosu tarihini hesaplamak için kullanılacak gün sayısını girin. **Net** ilkesi seçilirse, nakit iskontosu tarihini hesaplamak için fatura tarihine gün sayısı eklenecektir.  
 23. **İskonto yüzdesi** alanına nakit iskontosunun yüzdesini girin.
 24. **Müşteri iskontoları için ana hesap**'ta nakit iskontosunun müşteri faturalarına nakil olacağı ana hesabı girin.
-25. **İskonto mahsup hesapları** alanında bir seçenek belirtin. "Fatura satırlarındaki hesaplar"ı seçerseniz, nakit iskontosu, satıcı faturası satırlarındaki aynı kıymet/gider ana hesabına nakledilir. "Satıcı faturaları için ana hesabı kullan"ı seçerseniz, nakit iskontosu, "Satıcı faturaları için ana hesap"ta tanımladığınız ana hesaba nakledilir. Bu örnek için, 'Satıcı faturaları için ana hesabı kullan'ı seçin. 
+25. **İskonto mahsup hesapları** alanında bir seçenek belirtin. "Fatura satırlarındaki hesaplar"ı seçerseniz, nakit iskontosu, satıcı faturası satırlarındaki aynı kıymet/gider ana hesabına nakledilir. **Satıcı faturaları için ana hesabı kullan** seçeneğini belirlerseniz nakit iskontosu, **Satıcı faturaları için ana hesap**'ta tanımladığınız ana hesaba nakledilir. Bu örnek için **Satıcı faturaları için ana hesabı kullan** seçeneğini belirleyin. 
 26. **Satıcı iskontoları için ana hesap** alanında nakit iskontosunun satıcı faturalarına nakil olacağı ana hesabı girin.
 27. **Kaydet**'e tıklayın.
 

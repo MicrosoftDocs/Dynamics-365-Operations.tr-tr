@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7ef3be13e82ff3722fc81247b5cd581b0b571b0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91078352b6376ee99e7d9ce4546ed200cb80a25a
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876138"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135858"
 ---
 # <a name="posting-profiles-overview"></a>Deftere nakil profillerine genel bakış
 
-Finans ve Operasyon uygulamalarında, yardımcı defter hesaplarının ana hesaplara nasıl dönüştürüldüğünü kontrol eden konfigürasyonları açıklamak için *deftere nakil profilleri* kullanılır; böylece, muhasebe defterine nakledilen hareketlerde kullanılabilirler. Örneğin, bir fatura deftere nakledildiğinde, müşterinin Alacak hesapları ana hesabına nasıl dönüştürüleceğini denetler.
+Finans ve operasyon uygulamalarında, yardımcı defter hesaplarının ana hesaplara nasıl dönüştürüldüğünü kontrol eden konfigürasyonları açıklamak için *deftere nakil profilleri* kullanılır; böylece, muhasebe defterine nakledilen hareketlerde kullanılabilirler. Örneğin, bir fatura deftere nakledildiğinde, müşterinin Alacak hesapları ana hesabına nasıl dönüştürüleceğini denetler.
 
 Bazı modüller ve özellikler, adda "deftere nakil profili" sözcüklerini içeren bir sayfaya sahiptir (örneğin, **Müşteri deftere nakil profili** veya **Satıcı deftere nakil profili**). Ek olarak, bazı modüllerin, yardımcı defterden oluşturulan hareketler için deftere nakilleri konfigüre etme seçenekleri vardır. Örneğin, **Üretim denetim** modülünde deftere nakil işlemini üretim grubuna, kaynağa veya kaynak grubuna göre ayarlayabilirsiniz.
 
@@ -34,7 +34,7 @@ Deftere nakil profilleri, deftere nakil tanımları veya **Otomatik hareketler s
 
 ## <a name="posting-types"></a>Deftere nakil türleri
 
-Finans ve Operasyon uygulamalarında deftere nakil tipi bir borç veya alacak için genel kategori tanımlamak amacıyla kullanılır. Bu kategori, genel muhasebedeki ana hesaptan bağımsızdır. Genel muhasebede her borç veya alacak için deftere nakil türleri vardır.
+Finans ve operasyon uygulamalarında deftere nakil tipi bir borç veya alacak için genel kategori tanımlamak amacıyla kullanılır. Bu kategori, genel muhasebedeki ana hesaptan bağımsızdır. Genel muhasebede her borç veya alacak için deftere nakil türleri vardır.
 
 Tek bir fişin bir veya daha fazla deftere nakil türü olabilir. Örneğin, hesap ve mahsup hesabın **Genel muhasebe** olarak ayarlandığı bir yevmiye defterinde deftere nakledilen bir hareket, hem borç, hem de alacak için **Genel muhasebe günlüğü** türünde olacaktır. Bunun tersine, satıcı faturası birden çok deftere nakil türüne sahip olacaktır. Bu deftere nakil türleri için, satıcı bakiyesi ve **Genel muhasebe günlüğü** gibi mahsup girişine ait ek satırlar için bir satır yer alır.
 
@@ -111,13 +111,14 @@ Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerc
 - Gider yönetimi deftere nakli (Çok yakında)
 - [Sabit kıymet deftere nakil profili](../fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md)
 - Şirketlerarası muhasebe nakli (Çok yakında)
-- Stok deftere nakil profili (Çok yakında)
+- [Stok deftere nakil işlemi](inventory-posting.md)
 - [Son teslim alma maliyeti deftere nakli](../../supply-chain/landed-cost/costing-parameters-setup.md)
 - [Nakil tanımlarının genel bakışı](posting-definitions.md)
-- Üretim denetim deftere nakli (Çok yakında)
+- [Üretimin deftere nakli](production-posting.md)
 - Proje yönetimi ve muhasebe nakli (Çok yakında)
 - Hizmet yönetimi deftere nakli (Çok yakında)
 - Vergi deftere nakli (Çok yakında)
 - Zaman ve katılım deftere nakli (Çok yakında)
 - Ulaşım yönetimi deftere nakli (Çok yakında)
 - İndirim yönetimi deftere nakil profilleri (Çok yakında)
+

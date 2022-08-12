@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 591d4269a1188ed8f098a342729ba49b9772f42d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 75c044d1133e1c4765cd97f4ab7e2a08ba998c35
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851666"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112165"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Satıcı işbirliği mobil çalışma alanı
 
@@ -28,7 +28,7 @@ ms.locfileid: "8851666"
 
 Bu makale, **Satıcı işbirliği** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı satıcılarınızın, onay için onlara gönderilen satınalma siparişleri hakkında güncel kalmasını sağlar. Ayrıca yeni ve güncelleştirilmiş satınalma siparişleri ve kişiler hakkında bilgileri görebilirler.
 
-Bu mobil çalışma alanı, Finance and Operations (Dynamics 365) mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
+Bu mobil çalışma alanı, finans ve operasyon (Dynamics 365) mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
 
 ## <a name="overview"></a>Genel Bakış 
 **Satıcı işbirliği** mobil çalışma alanı, satıcıları web istemcisinde satınalma siparişlerini görüp yanıtlayabilmeleri için yeni satınalma siparişleri hakkında bilgilendirir. 
@@ -73,18 +73,18 @@ Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 3
 </thead>
 <tbody>
 <tr class="odd">
-<td>Platform Güncelleştirmesi 3 kullanıyorsanız, KB 3216943 uygulanmalıdır.</td>
+<td>Platform Güncelleştirmesi 3 kullanıyorsanız, BB 3216943 uygulanmalıdır.</td>
 <td>Sistem yöneticisi</td>
-<td>Platform Güncelleştirmesi 3 kullanıyorsanız, KB 3216943 gerekli bir ikili güncelleştirmedir. Bu KB'yi uygulamak için sistem yöneticinizin bu adımları izlemesi gerekir.
+<td>Platform Güncelleştirmesi 3 kullanıyorsanız, BB 3216943 gerekli bir ikili güncelleştirmedir. Bu BB'yi uygulamak için sistem yöneticinizin bu adımları izlemesi gerekir.
 <ol>
-<li>Microsoft Dynamics Lifecycle Services (LCS) içerisinden KB 3216943 indirin.</li>
+<li>Microsoft Dynamics Lifecycle Services (LCS) içerisinden BB 3216943 indirin.</li>
 <li>Dağıtılabilir bir paket olarak teslim edilen ikili güncelleştirmeyi yükleyin. Dağıtılabilir paket uygulama hakkında bilgi için bkz. <a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Dağıtılabilir paket uygulama</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>KB 4013633 uygulanmış olmalıdır.</td>
+<td>BB 4013633 uygulanmış olmalıdır.</td>
 <td>Sistem yöneticisi</td>
-<td>KB 4013633, <strong>Eldeki stok</strong> mobil çalışma alanını içeren bir X++ güncelleştirmesi veya meta veri düzeltmesidir. KB 4013633 uygulamak için sistem yöneticiniz bu adımları atması gerekir.
+<td>BB 4013633, <strong>Eldeki stok</strong> mobil çalışma alanını içeren bir X++ güncelleştirmesi veya meta veri düzeltmesidir. BB 4013633 uygulamak için sistem yöneticiniz bu adımları atması gerekir.
 <ol>
 <li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Meta veri düzeltmesini LCS'den indirme</a>.</li>
 <li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Meta veri düzeltmesini kurun</a>.</li><li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Şunu içeren bir dağıtılabilir paket oluşturun:</a> <strong>SCMMobile</strong> modeli ve daha sonra dağıtılabilir paketi LCS'ye yükleyin.</li>
@@ -110,7 +110,7 @@ Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 3
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobil uygulamayı indirin ve yükleyin
 
-Finance and Operations (Dynamics 365 ) mobil uygulamasını indirin ve yükleyin:
+Finans ve operasyon (Dynamics 365) mobil uygulamasını indirin ve yükleyin:
 
 -   [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [İPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -171,3 +171,4 @@ Satın alma siparişi müşteri tarafından onaylandığında, (yani satınalma 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -1,6 +1,6 @@
 ---
 title: Ambar işlemleri için kalite yönetimi
-description: Bu makalede, ambar işlemleri özelliği için Kalite yönetimi hakkında bilgiler verilmektedir. Bu özellik kalite yönetimi yeteneklerini genişletir ve kullanıcıların gelişmiş ambar yönetimini kullanarak madde örnekleme kontrollerini ambar teslim alma işlemiyle tümleştirmelerini sağlar.
+description: Bu makalede, ambar işlemleri özelliği için Kalite yönetimi hakkında bilgiler verilmektedir. Bu özellik kalite yönetimi yeteneklerini genişletir ve kullanıcıların ambar yönetimi işlemlerini (WMS) kullanarak madde örnekleme kontrollerini ambar teslim alma işlemiyle tümleştirmelerini sağlar.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13c9bf522ededb5896c5f8462bfe123e9a9edb2c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857851"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069257"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Ambar işlemleri için kalite yönetimi
 
 [!include [banner](../includes/banner.md)]
 
-_Ambar işlemleri için kalite yönetimi_ özelliği kalite yönetimi yeteneklerini genişletmenize ve gelişmiş ambar yönetimini kullanarak madde örnekleme kontrollerini ambar teslim alma işlemiyle tümleştirmenize olanak tanır. Ambar işi, yüzdeyi veya sabit miktarı ya da her *n*'înci plakayı temel alarak stoğu kalite kontrol konumuna taşımak için otomatik olarak oluşturulabilir. Bir kalite emri tamamlandıktan sonra, kalite sonuçlarına göre stoku sürecin bir sonraki konumuna taşımak için iş otomatik olarak oluşturulabilir.
+_Ambar işlemleri için kalite yönetimi_ özelliği kalite yönetimi yeteneklerini genişletmenize ve ambar yönetimi işlemlerini (WMS) kullanarak madde örnekleme kontrollerini ambar teslim alma işlemiyle tümleştirmenize olanak tanır. Ambar işi, yüzdeyi veya sabit miktarı ya da her *n*'înci plakayı temel alarak stoğu kalite kontrol konumuna taşımak için otomatik olarak oluşturulabilir. Bir kalite emri tamamlandıktan sonra, kalite sonuçlarına göre stoku sürecin bir sonraki konumuna taşımak için iş otomatik olarak oluşturulabilir.
 
 _Ambar işlemleri için kalite yöntemleri_ özelliği, temel kalite yönetimi özelliğinin yeteneklerini uzatır. Kalite kontrol yerleşimine gönderilen stok için kalite emirleri oluşturma seçeneği sunar, ancak kalite emirleri her zaman gerekli değildir. Bu nedenle, ambar işine dayalı hafif bir kalite kontrol süreci sağlar.
 
@@ -77,7 +77,7 @@ Belirli bir ambar için _Ambar işlemleri için kalite yönetimi özelliği_ uyg
 
 1. **Ambar yönetimi \> Kurulum \> Ambar  \> Ambarlar**'a gidin.
 1. Kalite yönetimi için etkinleştirilecek ambarı seçin.
-1. **Ambar** hızlı sekmesinde **Ambar işlemleri için kalite emrini etkinleştir** seçeneğini _Evet_ olarak ayarlayın. (Bu seçenek yalnızca ambar yönetimi işlemlerini kullanan ambarlar için _Evet_ olarak ayarlanabilir.)
+1. **Ambar** hızlı sekmesinde **Ambar işlemleri için kalite emrini etkinleştir** seçeneğini _Evet_ olarak ayarlayın. (Bu seçenek yalnızca ambar yönetimi işlemlerini (WMS) kullanan ambarlar için _Evet_ olarak ayarlanabilir.)
 
 **Ambar işlemleri için kalite emrini etkinleştir** seçeneği _Evet_ olarak ayarlandığında, kalite ilişkisi kurulumu _Ambar işlemleri için kalite yönetimi_ özelliğinin seçili ambar için geçerli olup olmadığını kontrol eder. Seçeneğin ayarını istediğiniz zaman _Hayır_ olarak değiştirebilirsiniz. Bu durumda, kalite ilişkisi kurulumuna bakılmaksızın özellik artık ambar için geçerli olmayacaktır.
 
@@ -97,7 +97,7 @@ Her [kalite ilişkisi kaydı](enable-quality-management.md) aynı zamanda oluşt
     - **Tümü** - _Ambar işlemleri için kalite yönetimi_ özelliğini devre dışı bırakın. *Satınalma* ve *Üretim* dışındaki tüm referans türleri için bu değeri seçin.
 
 > [!NOTE]
-> _Ambar işlemleri için kalite yönetimi_ özelliği, yalnızca kaynak belge satırındaki madde gelişmiş ambar yönetimi işlemlerini kullanıyorsa ve **Ambar işlemleri için kalite emrini etkinleştir** seçeneği kaynak belge satırındaki ambar için _Evet_ olarak ayarlanmışsa etkinleşir.
+> _Ambar işlemleri için kalite yönetimi_ özelliği, yalnızca kaynak belge satırındaki madde ambar yönetimi işlemlerini (WMS) kullanıyorsa ve **Ambar işlemleri için kalite emrini etkinleştir** seçeneği kaynak belge satırındaki ambar için _Evet_ olarak ayarlanmışsa etkinleşir.
 
 Her madde kayıtlı (veya tamamlandı olarak bildirildi) olduğundan, sistem hangi kalite ilişkilerinin uygulanacağını saptar.
 
@@ -240,7 +240,7 @@ Aşağıdaki örnekte **Referans türü** değeri _Satınalma_'dır.
 
 Satıcı 104 için A0001 maddesinden 10 adetlik miktar için bir satınalma siparişi oluşturulur. Daha sonra, miktarı 10 olan bir satın alma siparişi satırı Ambar Yönetimi mobil uygulaması kullanılarak bir plakaya alındı olarak kaydedilir. Sonuç aşağıdaki gibidir:
 
-- *Kutu* test grubu için ilk kalite ilişkisinden bir kalite emri vardır. Miktar 5'dir. İlk kalite ilişkisinin ölçütleri, *Kutu* test grubuna göre daha özel olduğundan, ikinci kalite ilişkisinden herhangi bir kalite emri yoktur.
+- *Kutu* test grubu için ilk kalite ilişkisinden bir kalite emri vardır. Miktar 5'tir. İlk kalite ilişkisinin ölçütleri, *Kutu* test grubuna göre daha özel olduğundan, ikinci kalite ilişkisinden herhangi bir kalite emri yoktur.
 - *Empedans* test grubu için üçüncü kalite ilişkisinden bir kalite emri vardır. Miktar 10'dir. İlk kalite ilişkisinin ölçütleri, *Empedans* test grubuna göre daha özel olduğundan, dördüncü kalite ilişkisinden herhangi bir kalite emri yoktur.
 - *Koni* test grubu için beşinci kalite ilişkisinden bir kalite emri vardır. Miktar 1'dir.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2c31e8b8b8022e5dfdb1f8dc4836d3d95174078
-ms.sourcegitcommit: d9d111d7420ca8f1071689afe38a1ccf4b8051f4
+ms.openlocfilehash: 9d0c2e821ee504cd62a536674ef91ee89a25c0a9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/21/2022
-ms.locfileid: "9033674"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066432"
 ---
 # <a name="get-started-with-financial-reporting"></a>Mali raporlamayı kullanmaya başlama 
 
@@ -151,7 +151,7 @@ Kuruluşunuzun verilerini çeşitli şekillerde görüntülemek için sınırsı
 
 ## <a name="update-the-financial-reporting-version-through-slipstreaming"></a>Mali raporlama sürümünü birleştirilmiş yükleme yoluyla güncelleştirme
 
-Finans ve Operasyon uygulamaları her ay güncellenir. Ancak, Mali raporlamanın bu hızda güncelleştirilmesi gerekmez. Ayrıca müşteriler, Finans ve Operasyon uygulamaları güncelleştirmelerini ne zaman uygulayacakları konusunda daha fazla seçeneğe sahiptir. Mali raporlama güncelleştirmeleri otomatik olarak yüklenir. Mali raporlamanın hizmet güncelleştirmesi uygulandığında, kesinti süresi başlatıldığında veya bir müşterinin ortamı Bakım modundayken müşteri ortamında çalışan belirlenmiş bir sürümü bulunur. Tüm müşteri uygulamaları aynı Mali raporlama sürümüne ayarlandığından bu süreç *birleştirilmiş yükleme* veya *doğrultma* olarak bilinir.
+Finans ve operasyon uygulamaları her ay güncellenir. Ancak, Mali raporlamanın bu hızda güncelleştirilmesi gerekmez. Ayrıca müşteriler, finans ve operasyon uygulamaları güncelleştirmelerini ne zaman uygulayacakları konusunda daha fazla seçeneğe sahiptir. Mali raporlama güncelleştirmeleri otomatik olarak yüklenir. Mali raporlamanın hizmet güncelleştirmesi uygulandığında, kesinti süresi başlatıldığında veya bir müşterinin ortamı Bakım modundayken müşteri ortamında çalışan belirlenmiş bir sürümü bulunur. Tüm müşteri uygulamaları aynı Mali raporlama sürümüne ayarlandığından bu süreç *birleştirilmiş yükleme* veya *doğrultma* olarak bilinir.
 
 Her sürümde yayınlanan değişiklikler [Dynamics 365 Finance uygulamasındaki yenilikler veya değişiklikler](../../finance/get-started/whats-new-home-page.md) bölümünde bulunabilir. Platform güncelleştirmeleri ve hata düzeltmeleri, her sürüm için sayfanın altındaki "Ek Kaynaklar" bölümünde bulunabilir.
 
@@ -254,3 +254,4 @@ Sorun: "Financial Reporting sunucusuna bağlanılamıyor" hatasını alıyorsunu
 - [Mali raporlarda raporlama ağacı tanımları](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

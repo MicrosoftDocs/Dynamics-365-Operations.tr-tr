@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f15ac24e5c32a42863cac8a9c9754c95aa4ff734
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 11a4b1667e3d97b651b8019c9dbe577ab30aed67
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868712"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068214"
 ---
 # <a name="my-team-mobile-workspace"></a>Takımım mobil çalışma alanı
 
@@ -26,9 +26,9 @@ ms.locfileid: "8868712"
 
 Bu makalede, **Ekibim** mobil çalışma alanı hakkında bilgi sağlanmaktadır. Bu çalışma alanı, yöneticilerin dorudan rapor verenlerini ve genişletilmiş personellerini görüntülemelerine olanak sağlar. Raporlama zincirlerindeki bireylere övgü de gönderebilirler.
 
-Bu mobil çalışma alanı, Finance and Operations mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
+Bu mobil çalışma alanı, finans ve operasyon mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
 
-## <a name="overview"></a>Genel bakış 
+## <a name="overview"></a>Genel Bakış 
 **Ekibim** mobil çalışma alanı, yöneticilerin şu görevleri yerine getirmesini sağlar:
 
 - Yöneticinin doğrudan rapor verenlerinin bir listesini görüntüle.
@@ -50,12 +50,12 @@ Bu mobil çalışma alanını kullanmadan önce, aşağıdaki gereksinimleri kar
 <tbody>
 <tr class="odd">
 <td>Aşağıdaki ürünlerden birinin kuruluşunuzda dağıtılmış olması gerekir:
-<ul><li>Bir Finance and Operations uygulaması</li>
+<ul><li>Bir finans ve operasyon uygulaması</li>
 <li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Sistem yöneticisi</td>
-<td>Kuruluşunuzda halihazırda dağıtılmış bir Finance and Operations uygulamanız yoksa <a href="../deployment/deploy-demo-environment.md">Bir tanıtım ortamı dağıtma</a> başlıklı makaleye bakın. Kuruluşunuzda Human Resources dağıtılmamışsa sistem yöneticisi <a href="https://dynamics.microsoft.com/human-resources/overview/">Human Resources web sayfasından</a> bir deneme sürümüne erişim sağlayabilir.
+<td>Kuruluşunuzda halihazırda dağıtılmış bir finans ve operasyon uygulamanız yoksa&#39; <a href="../deployment/deploy-demo-environment.md">Bir tanıtım ortamı dağıtma</a> başlıklı makaleye bakın. Kuruluşunuzda Human Resources dağıtılmamışsa sistem yöneticisi <a href="https://dynamics.microsoft.com/human-resources/overview/">Human Resources web sayfasından</a> bir deneme sürümüne erişim sağlayabilir.
 </td>
 </tr>
 <tr class="even">
@@ -68,7 +68,7 @@ Bu mobil çalışma alanını kullanmadan önce, aşağıdaki gereksinimleri kar
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobil uygulamayı indirin ve yükleyin
 
-Finance and Operations mobil uygulamasını indirip yükleyin:
+Finans ve operasyon mobil uygulamasını indirip yükleyin:
 
 -   [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [İPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -99,3 +99,4 @@ Finance and Operations mobil uygulamasını indirip yükleyin:
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

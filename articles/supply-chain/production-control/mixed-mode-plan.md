@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 186dcdca9d6db5ca16d84f084c66700ddfe8bb5d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 335bdc9690b3111f4a04adc7e82d62de36ff4caf
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857445"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066003"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Karışık mod planlama - Ayrık, işlem ve yalın kaynak birleştirme
 
@@ -33,7 +33,7 @@ Bir ürün sağlamak için, ürün yapısı ne olursa olsun, genel strateji seç
 
 Örneğin, malzeme montaj alanı için üretim emirleri, kanban, transferler, toplu sıralar, kaynağı olan bir derleme veya özelliklerini, tedarik zinciri için uygun olan herhangi bir birleşimi olan kanban denetimine sahip olabilirsiniz, ancak hâlâ kaynakları arasında tam görünürlük olabilir. Bu özellik için en iyi duruma getirilmiş tedarik zinciri süreçlerine ve tedarik zincirinize geliştirilmiş görünürlük yol açar.  
 
-Master planlamada kullanılan tedarik ilkelerinin parçalı yapısı kapsamı boyutları olarak etkin depolama boyutlarına bağlıdır. Stok yenilemeyi ve konumları farklı türde tedariği (örneğin, üretim kat için farklı üretim birimleri ayırarak veya malzeme ve mamuller Ambarlar farklı türde ayırarak) kontrol etmek için Master çizelgeleme etkinleştirmek için kapsam boyutları olarak tesis ve ambar etkinleştirmenizi öneririz. Alternatif olarak, bir Karşılama boyutu olara ambar atlanabilir. Bu durumda, Gelişmiş ambar yönetimi kullandığınızda, ambarlar arasında tüm taşımalar mevzuatı çekme kanbanları tarafından kontrol edilebilirken bir ambarın içindeki tüm taşımalar ambar çalışma tarafından denetlenir.
+Master planlamada kullanılan tedarik ilkelerinin parçalı yapısı kapsamı boyutları olarak etkin depolama boyutlarına bağlıdır. Stok yenilemeyi ve konumları farklı türde tedariği (örneğin, üretim kat için farklı üretim birimleri ayırarak veya malzeme ve mamuller Ambarlar farklı türde ayırarak) kontrol etmek için Master çizelgeleme etkinleştirmek için kapsam boyutları olarak tesis ve ambar etkinleştirmenizi öneririz. Alternatif olarak, bir Karşılama boyutu olara ambar atlanabilir. Bu durumda, ambar yönetimi süreçlerini (WMS) kullandığınızda, ambarlar arasında tüm taşımalar mevzuatı çekme kanbanları tarafından denetlenebilirken bir ambarın içindeki tüm taşımalar ambar çalışma tarafından denetlenir.
 
 ## <a name="supply-policies"></a>Malzeme ilkeleri
 Karma mod planlama, bir ürününün nasıl sağlandığını ve tedariği temel alarak türetilmiş gereksinimlerin (ürün reçetesinden \[BOM\] maddelerin tüketimi) nasıl çıkarıldığını denetler. Sipariş türüne bağlı olarak, sistem otomatik olarak gereksinimlerine göre malzeme kaynaklandırır.  

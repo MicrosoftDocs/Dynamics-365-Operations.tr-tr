@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d85f4e5c44db511970b3e22490341228fa0d1abd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7a88c5a615ec860890578873eaee736fabbeaf08
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857097"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065825"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Ambar yönetimini Microsoft Dynamics AX 2012'den Supply Chain Management'a yükseltme 
 
@@ -37,11 +37,11 @@ Yükseltme sırasında, Palet kodu stok boyutu kullanan depolama boyutu grubuyla
 Yükseltmenin ardından, yükseltme sırasında engellenen ürünlerin engelini kaldırmak için **Maddeler için depolama boyutu grubunu değiştir** formundaki seçenek kümesini kullanabilir ve bu ürünler için hareketleri işleyebilirsiniz.
 
 ### <a name="enabling-items-in-supply-chain-management"></a>Supply Chain Management'ta maddeleri etkinleştirme 
-Supply Chain Management'ta madde izleme ambar yönetimi işlemlerinin bir parçası olduğundan bu değişikliğin yapılması gerekmiştir. Bu işlemler için tüm ambarların ve yerleşimlerinin bir yerleşim profiliyle eşleştirilmesi gerekir. Ambar yönetimi işlemlerini kullanmak istiyorsanız, aşağıdakilerin yapılandırılması gerekir:
--   Mevcut ambarlar ambar yönetimi işlemlerini kullanmak üzere etkinleştirilmelidir. 
--   Mevcut serbest bırakılan ürünler, ambar yönetimi işlemlerini kullanan bir depolama boyutu grubu ile ilişkilendirilmelidir. 
+Supply Chain Management'ta madde izleme ambar yönetimi işlemlerinin bir parçası olduğundan bu değişikliğin yapılması gerekmiştir. Bu işlemler için tüm ambarların ve yerleşimlerinin bir yerleşim profiliyle eşleştirilmesi gerekir. WMS'yi kullanmak istiyorsanız, aşağıdakilerin yapılandırılması gerekir:
+-   Mevcut ambarlar WMS'yi kullanmak üzere etkinleştirilmelidir 
+-   Mevcut serbest bırakılan ürünler, WMS kullanan bir depolama boyutu grubu ile ilişkilendirilmelidir 
 
-Kaynak depolama boyut grupları Palet Kodu stok boyutunu kullanıyorsa, Palet Kodu stok boyutunu kullanan mevcut eldeki stokların konumları **Plaka izlemeyi kullan** parametresinin seçili olduğu bir yerleşim profiliyle ilişkilendirilmelidir. Mevcut ambarların ambar yönetimi işlemlerini kullanmak üzere etkinleştirilmemesi gerekiyorsa, mevcut eldeki stok depolama boyutu gruplarını yalnızca Tesis, Ambar ve Yerleşim stok boyutlarını işleyen gruplarla değiştirebilirsiniz. 
+Kaynak depolama boyut grupları Palet Kodu stok boyutunu kullanıyorsa, Palet Kodu stok boyutunu kullanan mevcut eldeki stokların konumları **Plaka izlemeyi kullan** parametresinin seçili olduğu bir yerleşim profiliyle ilişkilendirilmelidir. Mevcut ambarların WMS kullanmak üzere etkinleştirilmemesi gerekiyorsa, mevcut eldeki stok depolama boyutu gruplarını yalnızca Tesis, Ambar ve Yerleşim stok boyutlarını işleyen gruplarla değiştirebilirsiniz. 
 
 > [!NOTE] 
 >  Açık stok hareketleri olsa bile maddeler için depolama boyutu grubunu değiştirebilirsiniz.
@@ -56,12 +56,12 @@ Ambar yönetimi işlemlerinin parçası olarak kullanılacak bir maddenin Yerle�
 Yükseltme sırasında engellenen ürünlerin engelini kaldırmak üzere ürünler için yeni bir depolama boyut grubunu seçmeniz gerekir. Açık stok hareketleri olsa bile depolama boyutu grubunu değiştirebilirsiniz. Yükseltme sırasında engellenen öğeleri kullanmak için iki seçeneğiniz vardır:
 
 -   Madde için depolama boyut grubunu yalnızca Tesis, Ambar ve Yerleşim stok boyutlarını kullanan bir depolama boyutu grubuyla değiştirin. Bu değişikliğin bir sonucu olarak Palet Kodu stok boyutu artık kullanılmamaktadır.
--   Madde için depolama boyut grubunu ambar yönetimi işlemlerini kullanan bir depolama boyutu grubuyla değiştirin. Bu değişikliğin bir sonucu olarak artık Plaka stok boyutu kullanılmaktadır.
+-   Madde için depolama boyut grubunu WMS kullanan bir depolama boyutu grubuyla değiştirin. Bu değişikliğin bir sonucu olarak artık Plaka stok boyutu kullanılmaktadır.
 
-## <a name="configure-warehouse-management-processes"></a>Ambar yönetimi işlemlerini yapılandırma
+## <a name="configure-wms"></a>WMS'yi yapılandır
 **Ambar yönetimi** modülünde serbest bırakılan ürünleri kullanabilmeniz için ürünlerin **Ambar yönetimi işlemlerini kullan** parametresinin seçili olduğu bir depolama boyutu kullanması gerekir.
 
-### <a name="enable-warehouses-to-use-warehouse-management-processes"></a>Ambarları ambar yönetimi süreçlerini kullanmak üzere etkinleştirme
+### <a name="enable-warehouses-to-use-wms"></a>Ambarları WMS kullanacak şekilde etkinleştirin
 
 1.  En az bir yeni konum profili oluşturun.
 2.  **Ambar yönetimi** &gt; **Kurulum** &gt; **Ambar yönetimi işlemlerini etkinleştir** &gt; **Ambar kurulumunu etkinleştir**'i tıklayın.
@@ -70,7 +70,7 @@ Yükseltme sırasında engellenen ürünlerin engelini kaldırmak üzere ürünl
 5.  Değişiklikleri doğrulayın. Doğrulama işleminin bir parçası olarak çeşitli veri bütünlüğünü doğrulamaları oluşur. Daha büyük bir yükseltme işleminin bir parçası olarak, oluşan sorunların kaynak uygulamasında düzeltilmesi gerekebilir. Bu durumda, ek veri yükseltme gerekir.
 6.  Değişiklikleri işleyin.
 
-### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-warehouse-management-processes"></a>Maddeler için depolama boyutu grubunu, ambar yönetimi işlemlerini kullanacak şekilde değiştirin.
+### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-wms"></a>Maddeler için depolama boyutu grubunu, WMS kullanacak şekilde değiştirin
 
 1.  Yeni **Stok durumu** değeri oluşturun ve değeri **Ambar yönetimi parametreleri** ayarlarında **Varsayılan stok durum kodu** değeri olarak atayın.
 2.  **Ambar yönetimi işlemleri kullan** parametresinin seçili olduğu yeni depolama boyut grubu oluşturun.

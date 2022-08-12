@@ -1,6 +1,6 @@
 ---
 title: Genel sorun giderme
-description: Bu makalede, Finans ve Operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında genel sorun giderme bilgileri sağlanmaktadır.
+description: Bu makalede, finans ve operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında genel sorun giderme bilgileri sağlanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 620f6f999859eff0ccd8aeb1cff12ddd56fa9926
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f263e331d23ce0ddf60a4abc2467513aa342445
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853669"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112379"
 ---
 # <a name="general-troubleshooting"></a>Genel sorun giderme
 
@@ -22,7 +22,7 @@ ms.locfileid: "8853669"
 
 
 
-Bu makalede, Finans ve Operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında genel sorun giderme bilgileri sağlanmaktadır.
+Bu makalede, finans ve operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında genel sorun giderme bilgileri sağlanmaktadır.
 
 > [!IMPORTANT]
 > Bu makalede ele alınan bazı sorunlar için sistem yöneticisi rolü veya Microsoft Azure Active Directory (Azure AD) kiracı yöneticisi kimlik bilgileri gerekebilir. Her konunun bölümünde belirli bir rol veya kimlik bilgilerinin gerekli olup olmadığı açıklanmaktadır.
@@ -55,28 +55,28 @@ Etkinleştirildiğinde, eklenti izleme günlükleri, bu konuma dönüp **Kapalı
 
 Tüm içeriği daha kolay görebilmek üzere günlükleri veya metin dosyalarını görüntülemek için izleme günlüklerinin içeriğini kopyalayabilir ve Not Defteri gibi başka bir uygulamaya veya diğer araçlara yapıştırabilirsiniz. 
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Finans ve Operasyon uygulamalarındaki canlı eşitleme sorunlarını gidermek için hata ayıklama modunu etkinleştirme
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Finans ve operasyon uygulamalarındaki canlı eşitleme sorunlarını gidermek için hata ayıklama modunu etkinleştirme
 
 **Hataları görüntülemek için gerekli rol:** Sistem Yöneticisi
 
-Dataverse'te ortaya çıkan çift yazma hataları Finans ve Operasyon uygulamasında görünebilir. Hatalar için ayrıntılı günlük kaydını etkinleştirmek üzere aşağıdaki adımları izleyin:
+Dataverse'te ortaya çıkan çift yazma hataları finans ve operasyon uygulamasında görünebilir. Hatalar için ayrıntılı günlük kaydını etkinleştirmek üzere aşağıdaki adımları izleyin:
 
-1. Finans ve Operasyon uygulamasındaki tüm proje yapılandırmaları için **DualWriteProjectConfiguration** tablosunda bir **IsDebugMode** bayrağı vardır.
-2. Excel eklentisini kullanarak **DualWriteProjectConfiguration** öğesini açın. Eklentiyi kullanmak Finans ve Operasyon Excel eklentisinde tasarım modunu etkinleştirin ve sayfaya **DualWriteProjectConfiguration** öğesini ekleyin. Daha fazla bilgi için bkz. [Varlık verilerini Excel ile görüntüleme ve güncelleştirme](../../office-integration/use-excel-add-in.md).
+1. Finans ve operasyon uygulamasındaki tüm proje yapılandırmaları için **DualWriteProjectConfiguration** tablosunda bir **IsDebugMode** bayrağı vardır.
+2. Excel eklentisini kullanarak **DualWriteProjectConfiguration** öğesini açın. Eklentiyi kullanmak finans ve operasyon Excel eklentisinde tasarım modunu etkinleştirin ve sayfaya **DualWriteProjectConfiguration** öğesini ekleyin. Daha fazla bilgi için bkz. [Varlık verilerini Excel ile görüntüleme ve güncelleştirme](../../office-integration/use-excel-add-in.md).
 3. Projede **IsDebugMode** öğesini **Evet** olarak ayarlayın.
 4. Hata oluşturan senaryoyu çalıştırın.
 5. Ayrıntılı günlükler **DualWriteErrorLog** tablosunda saklanır.
 6. Tablo tarayıcısında veri aramak için şu bağlantıyı kullanın: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`, gerektiğinde `999` değiştirilir.
-7. 37 ve sonraki platform güncelleştirmeleri için kullanılabilen [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe)'ten sonra yeniden güncelleştirin. Bu düzeltmeyi yüklediyseniz hata ayıklama modu daha fazla günlük yakalar.  
+7. 37 ve sonraki platform güncelleştirmeleri için kullanılabilen [BB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe)'ten sonra yeniden güncelleştirin. Bu düzeltmeyi yüklediyseniz hata ayıklama modu daha fazla günlük yakalar.  
 
-## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Finans ve Operasyon uygulamasına ilişkin sanal makinedeki eşitleme hatalarını denetleme
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Finans ve operasyon uygulamasına ilişkin sanal makinedeki eşitleme hatalarını denetleme
 
 **Hataları görüntülemek için gerekli rol:** Sistem yöneticisi
 
 1. Microsoft Dynamics Lifecycle Services (LCS)'de oturum açın.
 2. Çift yazma sınaması gerçekleştirmek için seçtiğiniz LCS projesini açın.
 3. **Bulutta barındırılan ortamlar** kutucuğunu seçin.
-4. Finans ve Operasyon uygulamasının sanal makinesine (VM) oturum açmak için Uzak Masaüstü'nü kullanın. LCS içinde gösterilen yerel hesabı kullanın.
+4. Finans ve operasyon uygulamasının sanal makinesine (VM) oturum açmak için Uzak Masaüstü'nü kullanın. LCS içinde gösterilen yerel hesabı kullanın.
 5. Olay Görüntüleyiciyi açın.
 6. **Uygulamalar ve Hizmetler günlükleri \> Microsoft \> Dynamics \> AX-DualWriteSync \> İşletim**'e gidin.
 7. En son hataların listesini gözden geçirin.
@@ -109,11 +109,11 @@ Kullanıcı arabirimi, giriş sayfasını yüklemek için bazı özellik değerl
 1.  Ayarlar -> Site izinleri -> Tanımlama bilgileri ve site verileri'ne gidin.
 2.  'Üçüncü taraf tanımlama bilgilerini engelle' seçeneğini kapatın.  
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Finans ve Operasyon uygulamasından başka bir Dataverse ortam bağlantısını kaldırma
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Finans ve operasyon uygulamasından başka bir Dataverse ortam bağlantısını kaldırma
 
-**Ortamın bağlantısını kaldırmak için gerekli rol:** Finans ve Operasyon uygulaması veya Dataverse için sistem yöneticisi.
+**Ortamın bağlantısını kaldırmak için gerekli rol:** Finans ve operasyon uygulaması veya Dataverse için sistem yöneticisi.
 
-1. Finans ve Operasyon uygylamasında oturum açın.
+1. Finans ve operasyon uygulamasında oturum açın.
 2. **Çalışma alanları \> veri yönetimi**'ne gidin ve **ikili yazma** kutucuğunu seçin.
 3. Çalışan tüm eşlemeleri seçin ve **Durdur**'u tıklatın.
 4. **Ortam bağlantısını kaldırma**'yı seçin.
@@ -132,23 +132,23 @@ Dynamics 365 Sales içinde bir satış siparişi oluşturduğunuzda, **+ Ürün 
 3. **Bilgi** formunu seçin ve **Güvenlik rollerini etkinleştir**'e tıklayın.
 4. Güvenlik ayarını **Herkese göster** olarak değiştirin.
 
-## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Veri tümleştirmenin en güncel Finans ve Operasyon şemasını kullandığı nasıl emin olunur
+## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Veri tümleştirmenin en güncel finans ve operasyon şemasını kullandığı nasıl emin olunur
 
 En güncel şema kullanılmıyorsa, veri tümleştirmede veri sorunları yaşayabilirsiniz. Aşağıdaki adımlar, finans ve operasyon uygulamalarındaki varlık listesini ve veri tümleştiricisi içindeki varlıkları yenilediğiniz konusunda size yardımcı olur.
 
-### <a name="refresh-entity-list-in-finance-and-operations-environment"></a>Finans ve Operasyon ortamınızda varlık listesini yenileme
-1.  Finans ve Operasyon ortamınızda oturum açın.
+### <a name="refresh-entity-list-in-finance-and-operations-environment"></a>Finans ve operasyon ortamınızda varlık listesini yenileme
+1.  Finans ve operasyon ortamınızda oturum açın.
 2.  **Veri yönetimi**'ni seçin.
 3.  Veri yönetimi içinde, **Çerçeve parametreleri**'ni seçin.
 4.  **Veri içe/dışa aktarma çerçevesi parametreleri** sayfasında, **Varlık ayarları** sekmesini seçin ve ardından **Varlık listesini yenile** sekmesini seçin. Bu işlem, ilgili varlık sayısına bağlı olarak 30 dakikadan fazla sürebilir.
-5.  **Veri Yönetimi**'ne gidin ve beklenen varlıkların listelendiğini doğrulamak için **Veri varlıkları**'nı seçin. Beklenen varlıklar listelenmemişse, varlıkların finans ve operasyonlar ortamınızda göründüğünü doğrulayın ve gerektiği şekilde eksik varlıkları geri yükleyin.
+5.  **Veri Yönetimi**'ne gidin ve beklenen varlıkların listelendiğini doğrulamak için **Veri varlıkları**'nı seçin. Beklenen varlıklar listelenmemişse, varlıkların finans ve operasyon uygulamaları ortamınızda göründüğünü doğrulayın ve gerektiği şekilde eksik varlıkları geri yükleyin.
 
 #### <a name="if-the-refresh-fails-to-resolve-the-issue-delete-and-re-add-the-entities"></a>Yenileme sorunu çözemezse, varlıkları silin ve yeniden ekleyin
 
 > [!NOTE]
 > Silmeden önce, varlıkları etkin şekilde kullanan tüm işlem gruplarını durdurmanız gerekebilir.
 
-1.  Finans ve operasyonlar ortamınızda **Veri yönetimi**'ni seçin ve **Veri varlıklarını** seçin.
+1.  Finans ve operasyon uygulamaları ortamınızda **Veri yönetimi**'ni seçin ve **Veri varlıklarını** seçin.
 2.  Sorun olan varlıkları arayın ve hedef varlığı, hazırlama tablosunu, varlık adını ve diğer ayarları not alın. Varlık veya varlıkları listeden silin.
 3.  **Yeni**'yi seçin ve 2. adımdaki verileri kullanarak varlığı veya varlıkları yeniden ekleyin. 
 
@@ -174,3 +174,4 @@ Destek ekibinin bazı sorunları gidermek için ağ izlemeyi incelemesi gerekebi
 4. Sonuçları HAR olarak dışarı aktarmak için **kaydet**'i seçin.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

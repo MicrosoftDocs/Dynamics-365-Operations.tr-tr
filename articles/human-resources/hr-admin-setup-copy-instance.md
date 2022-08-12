@@ -14,17 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d0da71c87364eacf60b9a82a200996292b863b6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692436"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178548"
 ---
 # <a name="copy-an-instance"></a>Örnek kopyala
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Uygulandığı Öğe** tek başına çalışan altyapıda İnsan Kaynakları_ 
 
+> [!NOTE]
+> Haziran 2022'den başlayarak İnsan Kaynakları ortamları yalnızca finans ve operasyon uygulama altyapısı üzerinden dağıtılabilir. Daha fazla bilgi için bkz. [Finans ve operasyon altyapısında İnsan Kaynakları sağlama](hr-admin-setup-provision-fo.md).
+
+> [!IMPORTANT]
+> Finans ve operasyon altyapısı bir kopya örneği işlevini desteklemiyor. Yeni ortamlar dağıtabilir ve veritabanı hareketlerini, kopyalar oluşturmak için kullanabilirsiniz. Personel self servis dağıtımları hakkında daha fazla bilgi için bkz. [Self servisi dağıtımına genel bakış](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md). Finans ve operasyon altyapısında veritabanı taşımaları hakkında daha fazla bilgi için bkz. [Veritabanı taşıma operasyonu ana sayfası](../fin-ops-core/dev-itpro/database/dbmovement-operations.md).
 
 Microsoft Dynamics 365 Human Resources veritabanını bir korumalı alan ortamına kopyalamak için Microsoft Dynamics Lifecycle Services'i (LCS) kullanabilirsiniz. Başka bir korumalı alan ortamınız varsa veritabanını bu ortamdan hedeflenen korumalı alan ortamına da kopyalayabilirsiniz.
 
@@ -36,7 +41,7 @@ Microsoft Dynamics 365 Human Resources veritabanını bir korumalı alan ortamı
 
 - Örneği kopyaladıktan sonra oturum açmak için hedef ortamda bir yönetici olmanız gerekir.
 
-- İnsan Kaynakları veritabanını kopyaladığınızda, bir Microsoft Power Apps ortamda bulunan öğeleri (uygulamalar veya veriler) kopyalamayın. Bir Power Apps ortamdaki öğelerin nasıl kopyalanacağı hakkında bilgi için, bkz. [Ortam kopyalama](/power-platform/admin/copy-environment). Üzerine yazmak istediğiniz Power Apps ortamı bir korumalı alan ortamı olmalıdır. Power Apps üretim ortamını korumalı alan ortamına dönüştürmek için genel bir kiracı yöneticisi olmanız gerekir. Power Apps ortamın değiştirilmesi hakkında daha fazla bilgi için, bkz. [Örneği değiştirme](/dynamics365/admin/switch-instance).
+- İnsan Kaynakları veritabanını kopyaladığınızda, bir Microsoft Power Apps ortamda bulunan öğeleri (uygulamalar veya veriler) kopyalamayın. Bir Power Apps ortamdaki öğelerin nasıl kopyalanacağı hakkında bilgi için bkz. [Ortam kopyalama](/power-platform/admin/copy-environment). Üzerine yazmak istediğiniz Power Apps ortamı bir korumalı alan ortamı olmalıdır. Power Apps üretim ortamını korumalı alan ortamına dönüştürmek için genel bir kiracı yöneticisi olmanız gerekir. Power Apps ortamın değiştirilmesi hakkında daha fazla bilgi için bkz. [Örneği değiştirme](/dynamics365/admin/switch-instance).
 
 - Örneği korumalı alan ortamınıza kopyalayıp sandbox ortamınızı Dataverse ile birleştirmek isterseniz Dataverse tablolarına özel alanları yeniden uygulamanız gerekir. [Özel alanları Dataverse'e uygulama](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service) konusuna bakın.
 
@@ -50,7 +55,7 @@ Bir İnsan Kaynakları veritabanını kopyaladığınızda aşağıdaki olaylar 
 
 - Microsoft Azure Blob depolama birimindeki belgeler bir ortamdan diğerine kopyalanmaz. Bunun sonucunda, ekli tüm belge ve şablonlar kopyalanmaz ve kaynak ortamda kalır.
 
-- "Sistem Yöneticisi" güvenlik rolüne ve diğer iç hizmet kullanıcı hesaplarına sahip olanlar haricindeki tüm kullanıcılar kullanılamaz. Yönetici kullanıcı, diğer kullanıcılar sisteme geri dönmeden önce verileri silebilir veya karartırabilir.
+- "Sistem Yöneticisi" güvenlik rolüne ve diğer iç hizmet kullanıcı hesaplarına sahip olanlar haricindeki tüm kullanıcılar kullanılamaz. Yönetici kullanıcı, diğer kullanıcılar sisteme geri dönmeden önce verileri silebilir.
 
 - "Sistem Yöneticisi" güvenlik rolüne sahip kullanıcılar, tümleştirme uç noktalarını belirli hizmetlere veya URL'lere yeniden bağlama gibi gerekli yapılandırma değişikliklerini yapmalıdır.
 
@@ -67,15 +72,17 @@ Bu görevi tamamlamak için, önce bir örneği kopyalayın ve sonra Power Apps 
 
 3. Kopyalanacak örneği seçin ve sonra **Kopyala**'yı seçin.
 
-4. **Örneği kopyala** görev bölmesinde, üzerine yazılacak örneği seçin ve sonra **Kopyala**'yı seçin. **Kopyalama durumu** alanı değerinin **tamamlandı** olarak güncelleştirilmesini bekleyin.
+4. **Örneği kopyala** görev bölmesinde, üzerine yazılacak örneği seçin ve sonra **Kopyala**'yı seçin. **Kopyalama durumu** alanı için **Tamamlandı** olarak güncelleştirilmesini bekleyin.
 
-   ![[Üzerine yazılacak örneği seçme.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Üzerine yazılacak örneği seçin.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. **Power Platform**'u seçin ve Microsoft Power Platform Yönetim Merkezi'nde oturum açın.
 
-   ![[Power Platform'u seçme.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Power Platform'u seçin.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Kopyalanacak Power Apps ortamını seçin ve sonra **Kopyala**'yı seçin.
+
+Power Apps ortamları kopyalama hakkında daha fazla bilgi için bkz. [Bir ortam kopyala](/power-platform/admin/copy-environment#copy-an-environment-1).
 
 7. Kopyalama işlemi tamamlandığında, hedef örneğe oturum açın ve Dataverse tümleştirmeyi etkinleştirin. Daha fazla bilgi ve talimatlar için bkz. [Dataverse entegrasyonunu yapılandırma](./hr-admin-integration-common-data-service.md).
 
@@ -115,7 +122,7 @@ Bir örneği kopyaladığınızda aşağıdaki durumlar da değişir:
 
 ## <a name="environment-admin"></a>Ortam yöneticisi
 
-Yöneticiler dahil olmak üzere hedef korumalı alan ortamındaki tüm kullanıcılar yerine kaynak ortam kullanıcıları tarafından değiştirilir. Bir kurulumu kopyalamadan önce, kaynak ortamda bir yönetici olduğunuzdan emin olun. Değilseniz kopyalama işlemi tamamlandıktan sonra hedef korumalı alan ortamında oturum açamazsınız.
+Yöneticiler dahil olmak üzere hedef korumalı alan ortamındaki tüm kullanıcılar yerine kaynak ortam kullanıcıları tarafından değiştirilir. Bir kurulumu kopyalamadan önce, kaynak ortamda bir yönetici olduğunuzdan emin olun. Değilseniz kopyalama işleminin tamamlanmasından sonra hedef korumalı alan ortamında oturum açamazsınız.
 
 Hedef korumalı alan ortamındaki yönetici olmayan tüm kullanıcılar, korumalı alan ortamında istenmeyen oturum açma yapılmasını engelleyecek şekilde devre dışı bırakılmıştır. Yöneticiler gerektiğinde kullanıcıları yeniden değiştirebilir.
 

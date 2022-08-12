@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c407b45f3df91d569c2bf043ff9f83b640837bb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e0c0e283189998473469164398fa6f43c8e8825e
+ms.sourcegitcommit: 3a882de1f1c27654a8e92ebc1999c75678cc9a53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899454"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9201881"
 ---
 # <a name="reserve-inventory-quantities"></a>Stok miktarlarını rezerve etme
 
@@ -75,7 +75,7 @@ Otomatik olarak rezerve edilmesi gereken ve 4 Nisan 2016 tarihinde teslim edilen
 
 **Stok ve ambar yönetim parametreleri** sayfasındaki rezervasyonlarla ilgili iki seçenek bulunmaktadır:
 -   **General** sekmesindeki **Sipariş edilen maddeleri rezerve et** seçeneği Alacak hesapları, Proje yönetimi ve muhasebe ile Üretim denetimi içindeki madde çıkışlarına karşı sipariş edilen madde girişlerini rezerve etmenize olanak tanır. Bu seçimi kaldırdığınızda yalnızca fiziksel olarak girişi yapılan maddeleri rezerve edebilirsiniz. Belirli bir madde negatif stoku kabul edecek şekilde ayarlandığında, bu alan ilgisizdir.
--   **Taşıma** sekmesindeki **Maddeleri otomatik olarak ayır** seçeneği, maddeler transfer emirleri için otomatik olarak rezerve edilmişse varsayılan ayarı belirler. Varsayılan ayar tek tek transfer emirlerinden geçersiz kılınabilir.
+-   **Transfer** sekmesindeki **Maddeleri otomatik olarak ayır** seçeneği, maddeler transfer emirleri için otomatik olarak rezerve edilmişse varsayılan ayarı belirler. Varsayılan ayar tek tek transfer emirlerinden geçersiz kılınabilir.
 
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Üretim parametreleri sayfasındaki stok rezervasyonu ilkeleri
 

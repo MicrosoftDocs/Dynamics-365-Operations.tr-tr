@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 304cf3f6c913586e08e0a3771ebfe40bc5d2b102
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: 21d7d045c812c54d6776394ad9a0b025b55df8e1
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464923"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109127"
 ---
 # <a name="financial-analysis"></a>Mali Analiz
 
@@ -78,7 +78,7 @@ Varlıklardaki verileri düzenli olarak güncelleştirmek için tekrarlayan bir 
 | Vergi                                    | Roller | Tanım |
 |-----------------------------------------|-------|------------|
 | Geçerli şirketin mali analizini görüntüle | <ul><li>Muhasebeci</li><li>Muhasebe müdürü</li><li>Muhasebe gözetmeni</li><li>Denetçi</li><li>Bütçe yöneticisi</li><li>Yönetim kurulu başkanı</li><li>Mali işler müdürü</li><li>Mali denetleyici</li></ul> | Bu görev Mali analize erişim olanağı sağlar. Varsayılan olarak, etkin şirket filtre olarak kullanılır. Başka tüzel kişilikler ekleyemezsiniz. |
-| Tüm şirketin mali analizini görüntüle   | Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 içinde bu göreve bir rol atanmamıştır. Sonraki sürümde, bu görev Mali işler müdürü rolüne atanacaktır. | Bu görev, CFO'ya genel bakış çalışma alanı için menü öğesine erişim sağlar. Varsayılan olarak, etkin şirket filtre olarak kullanılır. Ancak, kullanıcının diğer tüzel kişiliklere erişimi olup olmadığına bakılmaksızın tüm tüzel kişilikleri ekleyebilirsiniz. |
+| Tüm şirketin mali analizini görüntüle   | Microsoft Dynamics 365 Finance, Enterprise Edition 7.3 içinde bu göreve bir rol atanmamıştır. Sonraki sürümde, bu görev Mali işler müdürü rolüne atanacaktır. | Bu görev, CFO'ya genel bakış çalışma alanı için menü öğesine erişim sağlar. Varsayılan olarak, etkin şirket filtre olarak kullanılır. Ancak, kullanıcının diğer tüzel kişiliklere erişimi olup olmadığına bakılmaksızın tüm tüzel kişilikleri ekleyebilirsiniz. |
 
 
 ## <a name="financial-reporting-vs-financial-analysis"></a>Mali raporlama ile Mali analizin karşılaştırılması
@@ -96,7 +96,7 @@ Aşağıdaki karşılaştırma grafiği iki seçeneğin ayrılmasına yardımcı
 | **Raporlama hiyerarşisini/Kuruluş hiyerarşisini destekle**   | Evet                                                               | Hayır |
 | **Yardımcı defter verilerini raporla**                             | Evet Yalnızca satıcı, müşteri ile sınırlı                              | Evet Satıcı, müşteri, satıcı/müşteri grupları, satıcı/müşteri adresleri vb. |
 | **Raporlama para birimi**                                   | Evet Muhasebe para birimi ve raporlama para birimine çevirme       | Hayır Yalnızca muhasebe para birimi |
-| **Güvenlik**                                             | Evet Finance ile raporlama ağacı güvenliğine uyar | Sınırlı Tüm şirketler (Finance and Operations güvenliği ne olursa olsun) veya aktif şirket için raporları görüntüle |
+| **Güvenlik**                                             | Evet Finance ile raporlama ağacı güvenliğine uyar | Tüm şirketler (finans ve operasyon güvenliği ne olursa olsun) veya aktif şirket için raporları Sınırlı Görüntüleme |
 | **Farklı hesap planlarını ve mali yılları destekle** | Evet                                                               | Hayır |
 | **harici verileri raporla**                              | Hayır                                                                | Hayır |
 | **Konsolidasyonları destekle**                               | Evet                                                               | Sınırlı Birden çok şirketle ilgili rapor verebilir ancak yalnızca muhasebe para birimini kullanır |
@@ -244,3 +244,4 @@ Aşağıda yer alan kaynaklardaki bilgiler, bir üretim ortamındaki **Mali anal
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

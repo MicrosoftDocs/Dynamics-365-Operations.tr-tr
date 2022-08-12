@@ -1,26 +1,27 @@
 ---
 title: Satış ve karlılık performansı Power BI içeriği
 description: Bu makale, Satış ve karlılık performansı Power BI içeriğinde nelerin bulunduğunu açıklar.
-author: ShylaThompson
+author: Henrikan
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: SalesProfitabilityPerformancePowerBI
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 260674
-ms.assetid: ab457f02-929e-4d34-b813-335be3092287
+ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kfend
+ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8433250efad467e92aeaa851f0b60c3c1eced99c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "260674"
+ms.assetid: ab457f02-929e-4d34-b813-335be3092287
+ms.search.form: SalesProfitabilityPerformancePowerBI
+ms.openlocfilehash: 2a3e0a46656f54a423a3bdfb05b87e3b7ad68efd
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898696"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205616"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Satış ve karlılık performansı Power BI içeriği
 
@@ -74,7 +75,7 @@ Karlılık analiz aşağıdaki şekillerde analiz edilebilir:
 \* Bu yılki ve geçen yılki gelir ve büyüme, satış kategorisine göre.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
-Aşağıdaki veriler **Satış ve karlılık performansı** Power BI içeriğindeki raporu doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Server veritabanıdır. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesi](power-bi-integration-entity-store.md).
+Aşağıdaki veriler **Satış ve karlılık performansı** Power BI içeriğindeki raporu doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Server veritabanıdır. Daha fazla bilgi için bkz. [Varlık mağazası ile Power BI tümleştirmesi](power-bi-integration-entity-store.md).
 
 Bu içerik paketindeki toplama ölçümler, Microsoft Dynamics AX 2012 ve Microsoft Dynamics AX 2012 R3'teki Satış Küpü'nde bulunan toplama ölçümlerin alt kümesidir. Varlık deposundaki küpün toplama ölçülerini hazırlamak için bu ölçümleri dağıtılabilir yapmanız gerekir. Daha fazla bilgi için, şu blog yazısındaki toplama ölçümlerini Varlık Deposuna ekleme yordamına bakın: [Dynamics'te Power BI ile Varlık deposu tümleştirmesi](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update).
 

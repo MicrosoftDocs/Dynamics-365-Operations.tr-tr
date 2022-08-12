@@ -2,7 +2,7 @@
 title: Hesap yapıları yapılandır
 description: Bu makalede, hesap yapıları ve mali boyutlar hakkında bilgi sağlanmaktadır.
 author: aprilolson
-ms.date: 06/03/2019
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0a3febf8d269caec847ad879f60ac042e5fec9e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0f816f0fc894b902c444a3113abfd48d4146d485
+ms.sourcegitcommit: e59990780830ac8e3382fea5df851abe86fbf496
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907994"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9141293"
 ---
 # <a name="configure-account-structures"></a>Hesap yapıları yapılandır
 
@@ -91,6 +91,8 @@ Bir günlük girerken ve kar ve zarar aralığında bir hesap seçtiğinizde, de
 Hesap yapılarınızı ayarlarken takip edebileceğiniz bazı iyi uygulama örnekleri vardır. Ancak, iş bu yalnızca bir kılavuz niteliği taşımakta olup, işletmeniz, büyüme planınız ve bakım planınız hakkındaki bütünsel bir tartışma, o tartışmanın bir parçası olarak değerlendirilmelidir.
 
 - Hesap girişi sırasında kullanıcıların en iyi destek sağlanan deneyimi elde etmeleri için, ana hesabı ilk sıraya getirin veya hesap yapısında mümkün olduğunca en öne yerleştirin.
+  
+  - Kullanmayı düşündüğünüz üçüncü taraf çözümlerin ilk konumdaki ana hesabı desteklediğinden emin olun.
 
 - Tüzel kişiliklerinizde bakım yükünü azaltmak için hesap yapılarının mümkün olduğu kadar yeniden kullanın.
 

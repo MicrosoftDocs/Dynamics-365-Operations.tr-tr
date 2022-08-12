@@ -1,26 +1,27 @@
 ---
 title: Finansal rapor tasarımcısında rapor tanımları
 description: Bu makalede rapor tanımları hakkında bilgi verilmektedir.
-author: ShylaThompson
+author: aprilolson
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
-ms.custom: 59131
-ms.assetid: 966a3f1d-c59c-4a84-acd4-5bb7e65144c8
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fed19d541af1ef6a55f09127f08d73b1301eefb6369f6d76314463e18fb273c8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom:
+- "59131"
+ms.assetid: 966a3f1d-c59c-4a84-acd4-5bb7e65144c8
+ms.search.form: FinancialReports
+ms.openlocfilehash: 0c581637b9c122f4cf34279f7f0b030041c0ac48
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747653"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206147"
 ---
 # <a name="report-definitions-in-financial-report-designer"></a>Finansal rapor tasarımcısında rapor tanımları
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 2ee316a3e6a6baef7aa8b5d46b04a2d1bb07a641
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.openlocfilehash: 0d857ef31e0fed2a0d7550197209fac9251d8812
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022537"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069801"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
 
@@ -217,7 +217,7 @@ Aşağıdaki işlemler gerçekleştirilebilir:
 
 **Malzemeyi ayarla** iletişim kutusunda, bir çalışan **Malzemeyi ayır**'ı seçerek malzeme rezervasyonları yapabilir ve ayarlayabilir. Görüntülenen **Malzemeyi ayır** iletişim kutusu, her depolama ve izleme boyutu için madde için fiziksel olarak kullanılabilir stoku gösterir.
 
-Malzeme gelişmiş ambar işlemleri için etkinleştirilmişse liste malzemenin üretim giriş konumu için yalnızca fiziksel olarak kullanılabilir stoku gösterir. Üretim giriş konumu, üretim işinin planlandığı kaynakta tanımlanır. Madde numarası toplu iş veya seri numarası kontrollüyse, fiziksel olarak kullanılabilir toplu iş ve seri numaralarının tam listesi gösterilir. Rezerve edilecek miktarı belirtmek için, çalışan **Malzemeyi ayır**'ı seçebilir. Varolan bir ayırmayı kaldırmak için, çalışan **Ayırmayı kaldır**'ı seçebilir.
+Malzeme ambar yönetimi işlemleri (WMS) için etkinleştirilmişse liste malzemenin üretim giriş konumu için yalnızca fiziksel olarak kullanılabilir stoku gösterir. Üretim giriş konumu, üretim işinin planlandığı kaynakta tanımlanır. Madde numarası toplu iş veya seri numarası kontrollüyse, fiziksel olarak kullanılabilir toplu iş ve seri numaralarının tam listesi gösterilir. Rezerve edilecek miktarı belirtmek için, çalışan **Malzemeyi ayır**'ı seçebilir. Varolan bir ayırmayı kaldırmak için, çalışan **Ayırmayı kaldır**'ı seçebilir.
 
 Üretim giriş konumunu ayarlama hakkında daha fazla bilgi için şu blog yazısına bakın: [Üretim giriş konumunu ayarlama](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
 

@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 00da7c69ff18abd02ca0cd7984e9b2de5e453a0c
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595398"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103340"
 ---
 # <a name="create-new-users"></a>Yeni kullanıcılar oluşturma
 
 [!include [banner](../../includes/banner.md)]
 
-Finance and Operations uygulamalarına erişmeden önce, **Kullanıcılar** sayfasına (**Sistem yönetimi \> Kullanıcılar \> Kullanıcılar**) eklenmeniz gerekir. Kullanıcılar, kuruluşunuzun şirket içi çalışanlarını veya şirket dışı müşterileri ve satıcıları içerir. Kullanıcılar, içeri aktarılabilir veya el ile eklenebilir. Uyumlu kullanım için tüm kullanıcılar doğru lisansa sahip olmalıdır.
+Finans ve operasyon uygulamalarına erişebilmek için, **Kullanıcılar** sayfasına (**Sistem yönetimi \> Kullanıcılar \> Kullanıcılar**) eklenmeniz gerekir. Kullanıcılar, kuruluşunuzun şirket içi çalışanlarını veya şirket dışı müşterileri ve satıcıları içerir. Kullanıcılar, içeri aktarılabilir veya el ile eklenebilir. Uyumlu kullanım için tüm kullanıcılar doğru lisansa sahip olmalıdır.
 
-Finance and Operations uygulamalarını satın alma ve lisanslama hakkında bilgi için bkz. [Microsoft Dynamics 365 Lisanslama Kılavuzu](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
+Finans ve operasyon uygulamalarını satın alma ve lisanslama hakkında bilgi için bkz. [Microsoft Dynamics 365 Lisanslama Kılavuzu](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Kullanıcıya lisans atama
-Sistem yöneticileri [Microsoft 365 yönetim merkezinden](/office365/admin/admin-overview/about-the-admin-center) [kullanıcılara lisans atayabilir](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) .
+Sistem yöneticileri [Microsoft 365 yönetim merkezinden](/office365/admin/admin-overview/about-the-admin-center) [kullanıcılara lisans atayabilir](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Harici kullanıcıyı Azure AD'ye ekleme ve lisans atama 
-Harici kullanıcılara lisans atayabilmeniz için bu kullanıcıların kiracı dizininizde (Azure Active Directory (Azure AD)) temsil edilmeleri gerekir. Bu harici kullanıcılar Azure AD'de kiracıya konuk kullanıcı olarak eklenmeli ve sonra uygun lisanslara atanmalıdırlar. Finance and Operations uygulamaları için şartlardan biri, konuk kullanıcının şirketinin Azure AD kullanmasıdır. Daha fazla bilgi için bkz. [Azure portalında Azure Active Directory B2B işbirliği kullanıcıları ekleme](/azure/active-directory/b2b/add-users-administrator).
+Harici kullanıcılara lisans atayabilmeniz için bu kullanıcıların kiracı dizininizde (Azure Active Directory (Azure AD)) temsil edilmeleri gerekir. Bu harici kullanıcılar Azure AD'de kiracıya konuk kullanıcı olarak eklenmeli ve sonra uygun lisanslara atanmalıdırlar. Finans ve operasyon uygulamaları için şartlardan biri, konuk kullanıcının şirketinin Azure AD kullanmasıdır. Daha fazla bilgi için bkz. [Azure portalında Azure Active Directory B2B işbirliği kullanıcıları ekleme](/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Azure AD'den yeni kullanıcıları içeri aktarma 
 1. **Sistem yönetimi** \> **Kullanıcı** \> **Kullanıcılar** öğesine gidin.

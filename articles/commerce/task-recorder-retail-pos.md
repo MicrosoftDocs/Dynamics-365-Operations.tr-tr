@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f9f3e17a6c67dc1cc1d4ba423ce258f2ed1d1ec0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0b8723da9b80d007cd0a3196affdfa854eff095f
+ms.sourcegitcommit: 45bb77244a31fa174adf85d1b54e9700109ca0c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847613"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9198393"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) ve Cloud POS için görev kaydedici ve Yardım
 
@@ -107,7 +107,7 @@ Duraklattıktan sonra kayıt oturumuna devam etmek için **Devam et** üzerine t
 Görev kaydedici, Retail Modern POS arabirimi ekran görüntülerini, siz bir iş işlemini kaydederken yakalayabilir. Ekran görüntüsü yakalama özelliğini açmak için **Ekran görüntüsü yakala** seçeneğini **Evet** olarak ayarlayın ve ardından kaydı yapın. Kayıt tamamlandıktan sonra **Durdur**'a tıklayın ve Word belgesini indirin. Belge ilgili ekran görüntüleriyle birlikte adımları içerecektir.
 
 > [!NOTE]
-> Ekran görüntüsü yakalama işlevi Bulut POS içerisinde desteklenmez.
+> Ekran görüntüsü yakalama işlevi Store Commerce, Commerce Modern POS ve Cloud POS'ta desteklenmez.
 
 ### <a name="start-task-and-end-task"></a>Görevi başlat ve bitir
 

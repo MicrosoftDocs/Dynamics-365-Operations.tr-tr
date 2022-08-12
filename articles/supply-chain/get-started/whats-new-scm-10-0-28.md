@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.28 önizlemesi (2022 Ağustos)
+title: Dynamics 365 Supply Chain Management'deki yenilikler veya değişiklikler 10.0.28 (Ağustos 2022)
 description: Bu makalede, Microsoft Dynamics 365 Supply Chain Management 10.0.28'deki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
 ms.date: 05/27/2022
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 2b129481399897337e960ec2d708d69a563b5435
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e17127ff6ef6c52034b8aa5e0c8404772363ca9
+ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902067"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9186534"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10028-august-2022"></a>Dynamics 365 Supply Chain Management 10.0.28 önizlemesi (2022 Ağustos)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Dynamics 365 Supply Chain Management'deki yenilikler veya değişiklikler 10.0.28 (Ağustos 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Bu makalede, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10.0.28'daki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.1264 derleme numarasına sahiptir ve aşağıdaki planlamaya göre kullanıma sunulmuştur:
+Bu makalede, Microsoft Dynamics 365 Supply Chain Management sürümü 10.0.28'teki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.1264 derleme numarasına sahiptir ve aşağıdaki planlamaya göre kullanıma sunulmuştur:
 
 - **Sürümün önizlemesi:** Mayıs 2022
 - **Sürüm genel kullanılabilirliği (kendi kendine güncelleştirme):** Temmuz 2022
@@ -35,7 +34,7 @@ Aşağıdaki tabloda, bu sürüme dahil edilen özellikler listelenmektedir. Bu 
 | Özellik alanı | Özellik | Daha fazla bilgi | Etkinleştiren |
 |---|---|---|---|
 | Stok ve lojistik | [Üçüncü taraf nakliye aracıları için Son teslim alma maliyeti tümleştirmesi varlıkları](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [Son teslim alma varlıklarına genel bakış](../landed-cost/landed-cost-entities-overview.md) | Varsayılan olarak etkin |
-| Planlama | [Talep Temelli Materyal Gereksinimleri Planlaması (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | Çok yakında | Özellik yönetimi:<br>*(Önizleme) Planlama Optimizasyonu için DDMRP* |
+| Planlama | [Talep Temelli Materyal Gereksinimleri Planlaması (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [Talep Temelli Malzeme Gereksinimleri Planlamasına genel bakış](../master-planning/planning-optimization/ddmrp-overview.md) | Özellik yönetimi:<br>*(Önizleme) Planlama Optimizasyonu için DDMRP* |
 | Planlama | [Taahhüt verilebilir plan (CTP) için Planlama İyileştirmesi desteği](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | Çok yakında | Özellik yönetimi:<br>*(Önizleme) Planlama Optimizasyonu için CTP* |
 | Planlama | [Raf ömrü için Planlama İyileştirmesi desteği](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | Çok yakında | Varsayılan olarak etkin |
 
@@ -66,9 +65,9 @@ Aşağıdaki Yardım makalelerini yakın bir zamanda ekledik veya önemli ölç�
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finans ve Operasyon uygulamaları için Platform güncelleştirmeleri
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finans ve operasyon uygulamaları için platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.28 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finans ve Operasyon uygulamalarının 10.0.28 sürümü için platform güncelleştirmeleri (Haziran 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.28 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finans ve operasyon uygulamalarının 10.0.28 sürümü için platform güncelleştirmeleri (Haziran 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 
@@ -92,3 +91,4 @@ Herhangi bir özellik üründen kaldırılmadan önce, kullanım dışı bırakm
 Yalnızca derleme zamanını etkileyen ancak korumalı alan ve üretim ortamlarıyla ikili uyumlu olan son dakika değişiklikleri için kullanım dışı bırakma süresi 12 aydan kısa olacaktır. Genellikle, bunlar derleyiciye yapılması gereken işlevsel güncelleştirmelerdir.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

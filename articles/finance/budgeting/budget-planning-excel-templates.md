@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8996ad5d03327b9273be7860a3905dc25efa7e90
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872513"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070679"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Excel için bütçe planlama şablonları
 
@@ -79,7 +79,7 @@ Seçili alan grubu, şablonda kullanılan sütunları görüntüler. Yeni bir s�
 [![Sütun ekleme.](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Formülü tanımlamak için, formülü elektronik tabloda oluşturun ve sonra **Tasarım** penceresine yapıştırın. Finance and Operations'a bağlı bir tablo genellikle "AXTable1" olarak adlandırılır. Örneğin, İstek Q1 : İstek Q4 sütunlarını elektronik sayfada özetlemk için, formül = AxTable1\[İstek Q1\]+AxTable1\[İstek Q2\]+AxTable1\[İstek Q3\]+AxTable1\[İstek Q4\].
+> Formülü tanımlamak için, formülü elektronik tabloda oluşturun ve sonra **Tasarım** penceresine yapıştırın. Finans ve operasyon uygulamalarına bağlı bir tablo genellikle "AXTable1" olarak adlandırılır. Örneğin, İstek Q1 : İstek Q4 sütunlarını elektronik sayfada özetlemk için, formül = AxTable1\[İstek Q1\]+AxTable1\[İstek Q2\]+AxTable1\[İstek Q3\]+AxTable1\[İstek Q4\].
 
 **Ayarlama** sütununu eklemek için bu adımları tekrarlayın. Şu formülü kullanın = AxTable1\[Toplam istek\]\*$I$1 bu sütun için. Bu, hücre I1 içindeki değeri alır ve **Toplam istek** içindeki değerleri, ayarlama tutarlarını hesaplamak için çarpar.
 
@@ -129,3 +129,4 @@ Bütçe verisinin ek gruplama ve görselleştirmeleri için özet tabloları ve 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

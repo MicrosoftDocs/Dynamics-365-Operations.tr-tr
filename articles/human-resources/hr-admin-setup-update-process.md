@@ -14,18 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b9ab27b443e5ec675ea03e13aa7be4ea84bfb45
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722255"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178459"
 ---
 # <a name="update-process"></a>Güncelleştirme işlemi
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Uygulandığı Öğe** tek başına çalışan altyapıda İnsan Kaynakları_ 
 
+> [!NOTE]
+> Temmuz 2022 tarihinden başlayarak tek başına İnsan Kaynakları altyapısında yeni İnsan Kaynakları ortamları sağlanamaz ve burada yeni Microsoft Dynamics Lifecycle Services (LCS) projeleri oluşturulamaz. Müşteriler, İnsan Kaynakları ortamları yalnızca finans ve operasyon altyapısı üzerinden dağıtılabilir. Daha fazla bilgi için bkz. [Finans ve operasyon altyapısında İnsan Kaynakları sağlama](/hr-admin-setup-provision-fo.md).
 
+> [!IMPORTANT]
+> Finans ve operasyon uygulama altyapısındaki güncelleştirme ve düzeltme işlemi süreci İnsan Kaynakları bağımsız güncelleştirme ve düzeltme sürecinden farklıdır. Güncelleştirme süreci hakkında daha fazla bilgi için bkz. [Finans ve operasyonu en son güncelleştirmeye taşıma işlemi](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md). Düzeltmeler hakkında daha fazla bilgi için bkz. [Lifecycle Services'den (LCS) güncelleştirme indirme](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md). 
 
 Microsoft Dynamics 365 Human Resources, sürekli, temassız servis güncelleştirmeleri sağlayan gerçek bir hizmet olarak yazılımdır (SaaS). Bu güncelleştirmeler, yasal güncelleştirmeler de dahil olmak üzere hizmette kritik geliştirmeler sağlayan uygulama ve platform değişikliklerini içerir.
 
@@ -37,16 +41,14 @@ Güncelleştirmeler düzenli aralıklarla yayımlanır ve tüm ortamlar için ya
 
 İnsan Kaynakları güncelleştirmeler otomatik olarak tüm ortamlara uygulanır. İnsan Kaynakları iki tür sürüm sağlar:
 
-- **Hizmet güncelleştirmeleri**: Güncellemeler, hata düzeltmeleri ve yeni özellikler içererek iki haftada bir yapılır. Hizmet güncelleştirmeleri, yayınlandıklarında uygun platform güncelleştirmelerini de içerir. Platform güncelleştirmeleri hakkında daha fazla bilgi için bkz. [Platform güncelleştirmelerindeki yenilikler veya değişiklikler](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). İki Haftalık Güncelleştirmeler, bölgeler arasında aşamalı genel bir piyasaya sahiptir. İki Haftalık güncellemeler hakkında daha fazla bilgi için bkz. [Dynamics 365 Human Resources'ta yenilikler veya değişiklikler](hr-admin-whats-new.md).
+- **Hizmet güncelleştirmeleri**: Güncellemeler, hata düzeltmeleri ve yeni özellikler içererek iki haftada bir yapılır. Hizmet güncelleştirmeleri, yayınlandıklarında uygun platform güncelleştirmelerini de içerir. Platform güncelleştirmeleri hakkında daha fazla bilgi için bkz. [Platform güncelleştirmelerindeki yenilikler veya değişiklikler](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Güncelleştirmeler, bölgeler arasında aşamalı genel bir piyasaya sahiptir. Güncelleştirmeler hakkında daha fazla bilgi için bkz. [Dynamics 365 Human Resources'ta yenilikler veya değişiklikler](hr-admin-whats-new.md).
 
-    Aksi belirtilmedikçe, tüm desteklenen veri merkezleri iki haftalık olarak güncelleştirilir. ABD, Avustralya, Avrupa, Birleşik Krallık, Asya ve Kanada bölgeleri iki haftalık güncelleştirmelere dahil edilmiştir. 
-
-- **Dataverse çözüm güncelleştirmeleri**: Bu güncelleştirmeler gerektiğinde yaklaşık altı haftada bir gerçekleşir. Bunlar yeni varlıkları ve Dataverse'deki varolan varlıklara yapılan değişiklikleri içerir. Bu güncelleştirmeler iki haftalık güncelleştirmelerle aynı bölgeler için serbest çalışırlar ve tüm veri merkezleri arasında yineleme yapmak için altı hafta sürer. Çözüm güncelleştirmeleri iki haftalık hizmet güncelleştirmelerine göre hizalanmayabilir veya bunları hizalamayabilir.
+- **Dataverse çözüm güncelleştirmeleri**: Bu güncelleştirmeler gerektiğinde yaklaşık altı haftada bir gerçekleşir. Bunlar yeni varlıkları ve Dataverse'deki varolan varlıklara yapılan değişiklikleri içerir. Bu güncelleştirmeler iki haftalık güncelleştirmelerle aynı bölgelerde yayınlanır ve tüm veri merkezlerinde çoğaltılmaları altı hafta sürer. Çözüm güncelleştirmeleri iki haftalık hizmet güncelleştirmelerine göre hizalanmayabilir veya bunları hizalamayabilir.
 
 > [!NOTE]
 > Çözüm güncelleştirmeleri, serbest bırakıldıktan sonra tüm veri merkezlerinde kullanılabilir. Güncelleştirmelerin otomatik olarak çoğaltılmasını beklemek istemezseniz, bu güncelleştirmeleri herhangi bir veri merkezindeki herhangi bir ortama el ile uygulayabilirsiniz.
 
-Gerektiğinde, İnsan Kaynakları aşağıdaki düzeltme türlerini de sağlar:
+Gerektiğinde, İnsan Kaynakları aşağıdaki düzeltme türlerini sağlar:
 
 - **Düzeltme (düzeltme)**: İki haftada bir hizmet güncelleştirme sürümü ile veya bu sürümden ayrı olarak oluşabilecek hata düzeltmeleri
 
@@ -83,15 +85,15 @@ Tatilleri hesaba eklemek için, Kasım ve Aralık 2021 için sürüm planı aşa
 
 Bir korumalı alan ortamındaki Önizleme özelliklerini, üretim ortamınızda etkinleştirmeden önce doğrulayabilirsiniz. Yeni özellikleri etkinleştirme hakkında daha fazla bilgi için [Özellik yönetimine genel bakış](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'a bakın.
 
-Tüm yeni özellikler en az 30 gün boyunca ve genellikle 30-60 gün önizlemede kalır. Önemli özellikler genellikle önizleme dönemini izleyen her yılın Ekim ve Nisan ayında kullanılabilir. Özellik yönetimi çalışma alanında yeni yetenekleri gördüğünüz anda bunları açabilirsiniz. Bazı özellikler varsayılan olarak açık olabilir.
+Tüm yeni özellikler en az 30 gün boyunca ve genellikle 30-60 gün önizlemede kalır. Önemli özellikler genellikle önizleme dönemini izleyen her yılın Ekim ve Nisan ayında kullanılabilir. **Özellik yönetimi** çalışma alanında yeni yetenekleri gördüğünüz anda bunları açabilirsiniz. Bazı özellikler varsayılan olarak açık olabilir.
 
 Bazen bir tümleştirme özelliği varsayılan olarak açıktır ve kapatılamaz (örneğin, Özellik yönetimi çalışma alanı).
 
-Bir özellik genel olarak kullanılabilir olduğunda üretim ortamlarında açılıp kapatılamayabilir. Özellik yönetimi çalışma alanı bir önizleme özelliğinin zorunlu hale gelme zamanını belirtir. Bu tarih genellikle yarıyıllık sürüm planlarına uygun olacak şekilde 1 Ekim veya 1 Nisandır. Zorunlu özellikleri kapatamazsınız. Bir özelliği zorunlu olana kadar tüm ortamlarda kapatıp açabilirsiniz.
+Bir özellik genel olarak kullanılabilir olduğunda üretim ortamlarında açılıp kapatılamayabilir. **Özellik yönetimi** çalışma alanı bir önizleme özelliğinin zorunlu hale gelme zamanını belirtir. Bu tarih genellikle yarıyıllık sürüm planlarına uygun olacak şekilde 1 Ekim veya 1 Nisandır. Zorunlu özellikleri kapatamazsınız. Bir özelliği zorunlu olana kadar tüm ortamlarda kapatıp açabilirsiniz.
 
 Korumalı alan veya deneme ortamındaki özelliklerin önizlenmesini önemle öneririz. Verileriniz ile yeni özelliklerin eksiksiz deneyimini elde edebilmeniz için, geçerli üretim ortamınızın veya veritabanınızın bir kopyasını bir sandbox ortamına oluşturmak en iyisidir.
 
-Korumalı alan ortamının sağlanması hakkında daha fazla bilgi için, bkz. [İnsan Kaynakları projesi hazırlama](hr-admin-setup-provision.md). Test ortamını kaldırmak için, bkz. [Örnek kaldırma](hr-admin-setup-remove-instance.md#remove-a-test-drive-environment). 
+Korumalı alan ortamının sağlanması hakkında daha fazla bilgi için bkz. [İnsan Kaynakları projesi hazırlama](hr-admin-setup-provision.md). Test ortamını kaldırmak için bkz. [Örnek kaldırma](hr-admin-setup-remove-instance.md#remove-a-test-drive-environment). 
 
 ## <a name="report-bugs"></a>Hataları raporla
 

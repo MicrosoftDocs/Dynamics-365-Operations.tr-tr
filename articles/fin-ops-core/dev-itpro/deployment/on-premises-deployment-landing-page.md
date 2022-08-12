@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87bab110d99bd756038b9f556aa15ed9fd02fb97
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867426"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103987"
 ---
 # <a name="on-premises-deployment-home-page"></a>Şirket içi dağıtım giriş sayfası
 
@@ -53,7 +53,7 @@ Dynamics 365 Finance + Operations (on-premises)'ı dağıtabilirsiniz. Bir şirk
 - [Elektronik raporlama (ER) yapılandırmalarını içe aktarma](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Şirket içi dağıtımlarda belge oluşturma, yayınlama ve yazdırma](../analytics/printing-capabilities-on-premises.md)
 - [Şirket içi ortamlar için proxy'ler yapılandırma](onprem-reverseproxy.md)
-- [Finance and Operations uygulamaları için teknik destek ayarlama](../lifecycle-services/support-experience.md)
+- [Finans ve operasyon uygulamaları için teknik destek ayarlama](../lifecycle-services/support-experience.md)
 - [İstemci İnternet bağlantısı](../user-interface/client-disconnected.md)
 - [Şirket içi dağıtımlara güncelleştirmeleri uygulama](apply-updates-on-premises.md)
 - [Şirket içi ortamlarını yeniden dağıtma](redeploy-on-prem.md)
@@ -73,9 +73,10 @@ Dynamics 365 Finance + Operations (on-premises)'ı dağıtabilirsiniz. Bir şirk
 - [Şirket içi ortamlarda sorun çözme için komut dosyaları](onprem-tsg-implementations.md)
 - [Sertifika rotasyonu](certificate-rotation-on-prem.md)
 - [Şirket içi tanılama](on-premises-diagnostics.md)
-- [Finance and Operations için kaldırılan veya kullanımına son verilen özellikler](../migration-upgrade/deprecated-features.md)
+- [Finans ve operasyon için kaldırılan veya kullanımına son verilen özellikler](../migration-upgrade/deprecated-features.md)
 - [Yazılım yaşam döngüsü ilkesi ve şirket içi sürümler](../migration-upgrade/on-prem-version-update-policy.md)
  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

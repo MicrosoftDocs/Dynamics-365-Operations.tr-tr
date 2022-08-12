@@ -1,6 +1,6 @@
 ---
-title: Finans ve Operasyon uygulamaları giriş sayfasındaki yenilikler veya değişiklikler
-description: Bu sayfa sizi en son Finans ve Operasyon uygulamalarındaki yeni özellikler hakkında bilgi almanıza yardımcı olabilecek konulara yönlendirir.
+title: Finans ve operasyon uygulamaları giriş sayfasındaki yenilikler veya değişiklikler
+description: Bu sayfa sizi en son finans ve operasyon uygulamalarındaki yeni özellikler hakkında bilgi almanıza yardımcı olabilecek konulara yönlendirir.
 author: josaw1
 ms.date: 02/14/2020
 ms.topic: article
@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2430e75897a8ddc78a6b1b9288b23458aa44108a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0dc3b9b39fb5cb3aaae1247f0229d802410ea5f8
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908241"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125131"
 ---
-# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Finans ve Operasyon uygulamaları giriş sayfasındaki yenilikler veya değişiklikler
+# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Finans ve operasyon uygulamaları giriş sayfasındaki yenilikler veya değişiklikler
 
 [!include [banner](../includes/banner.md)]
 
 
 ## <a name="application-releases"></a>Uygulama sürümleri
 
-Bir Finans ve Operasyon uygulamasının her sürümünde nelerin yeni veya değiştirilmiş olduğunu görmek için aşağıdaki konulara bakın:
+Bir finans ve operasyon uygulamasının her serbest bırakılmasında nelerin yeni veya değiştirilmiş olduğunu görmek için aşağıdaki konulara bakın:
 
 - **Finance:** [Dynamics 365 Finance'teki yenilikler veya değişiklikler](../../../finance/get-started/whats-new-home-page.md)
 - **Human Resources (birleştirilmiş altyapı):** [Microsoft Dynamics 365 Human Resources'daki yenilikler veya değişiklikler](../../../human-resources/get-started/hr-whats-new-changed-10-0-26.md)  
@@ -47,7 +47,7 @@ Bağımsız Dynamics 365 Human Resources'daki yenilik ve değişiklikleri görme
 
 ## <a name="platform-updates"></a>Platform güncelleştirmeleri
 
-Finans ve Operasyon uygulamalarının platform güncelleştirmelerinde nelerin yeni veya değiştirilmiş olduğunu görmek için aşağıdaki makaleye bakın:
+Finans ve operasyon uygulamalarının Platform güncelleştirmelerinde nelerin yeni veya değiştirilmiş olduğunu görmek için aşağıdaki makaleye bakın:
 
 - [Platform güncelleştirmelerinde yenilikler veya değişiklikler](../../dev-itpro/get-started/whats-new-home-page.md)
 
@@ -60,3 +60,4 @@ Lifecycle Services'da nelerin yeni veya değiştirilmiş olduğunu görmek için
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

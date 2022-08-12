@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d8c79057c157f9f0244ea11ad5c3563dcdb21a5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ea9355b040c6431f5ddcccc4aaa0de73e21ad299
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866199"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124573"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
 
@@ -310,7 +310,7 @@ Kullanımdan kaldırılan API'lerin tam listesine erişmek için bkz. [Yöntemle
 ## <a name="finance-and-operations-81-with-platform-update-20"></a>Finans ve Operasyon 8.1, Platform güncelleştirmesi 20 ile
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Muavin defteri günlüğü hesap girişleri için toplu transfer kuralları
-Zaman uyumlu aktarım modunu genel muhasebe parametrelerinde kaldırılıyor.  Bu mod, halihazırda transfer için seçenek olarak mevcut olan Asenkron ve zamanlanan toplu iş ile değiştiriliyor. Ek bilgi için bkz [Genel muhasebe parametreleri – transfer toplu işi kuralları](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules) Web günlüğü.
+Zaman uyumlu aktarım modunu genel muhasebe parametrelerinde kaldırılıyor.  Bu mod, halihazırda transfer için seçenek olarak mevcut olan Asenkron ve zamanlanan toplu iş ile değiştiriliyor. Ek bilgi için bkz. [Genel muhasebe parametreleri – transfer toplu işi kuralları](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules) Web günlüğü.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -377,7 +377,7 @@ Personel idari bilgilerini yönetmek, çalışanların zaman çizelgesi ayrınt�
 | **Durum**                         | Kullanımı sonlandırıldı: İşlevin kaldırılması hedeflenen zaman aralığı 10.0 sürümünün gelecekteki güncelleştirmelerinden biridir. |
 
 ## <a name="finance-and-operations-80-with-platform-update-15"></a>Finans ve Operasyon 8.0, Platform güncelleştirmesi 15 ile
-Bu sürümle hiçbir özellik kaldırılmamış veya kullanım dışı bırakılmamıştır. Platform Güncelleştirmesi 15 toplu güncelleştirmedir ve Platform Güncelleştirmesi 13, Platform Güncelleştirmesi 14 ve Platform Güncelleştirmesi 15'deki yeni veya değiştirilmiş özellikleri içerir.
+Bu sürümle hiçbir özellik kaldırılmamış veya kullanım dışı bırakılmamıştır. Platform Güncelleştirmesi 15 toplu güncelleştirmedir ve Platform Güncelleştirmesi 13, Platform Güncelleştirmesi 14 ve Platform Güncelleştirmesi 15'teki yeni veya değiştirilmiş özellikleri içerir.
 
 ## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Finans ve Operasyon, Enterprise edition 7.3, Platform güncelleştirmesi 12 ile
 
@@ -848,7 +848,7 @@ Finlandiya için ödemeleri dışa aktarmak üzere iki biçim kullanılabilir. Y
 
 |  &nbsp; |&nbsp;  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | **Stok yönetimi** modülündeki Ambar Yönetimi II çözümü (WMS II) Dynamics AX 2012 R3'de yayımlanmış olan **Ambar yönetimi** modülündeki işlevleri tekrarlar.                                                                         |
+| **Kullanımı sonlandırma/kaldırma nedeni** | **Stok yönetimi** modülündeki Ambar Yönetimi II çözümü (WMS II) Dynamics AX 2012 R3'te yayımlanmış olan **Ambar yönetimi** modülündeki işlevleri tekrarlar.                                                                         |
 | **Başka bir özellikle mi değiştirildi?**   | AX 2012 R3, Dynamics AX 2012 R3 CU8 ve Dynamics AX 2012 R3 CU9'da yayınlanmış olan **Ambar yönetimi** modülü, Ambar yönetimi II özelliklerinin yerini almıştır. Yeni modül Ambar yönetimi II'dekinden daha gelişmiş özelliklere ve daha esnek ambar yönetim süreçlerine sahiptir. |
 | **Etkilenen ürün alanları**         | Stok Yönetimi, satış ve pazarlama, tedarik ve kaynak atama   |
 | **Durum**                         | Dynamics 365 for Operations sürüm 1611 itibarıyla kaldırıldı.    |
@@ -1417,3 +1417,4 @@ Windows 8 tablet uygulaması, gider girişi ve onayı için işlevler sağlardı
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

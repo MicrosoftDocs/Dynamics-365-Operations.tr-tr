@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f150c87b6d4e6575bc61a8f36bdf344ebba9c571
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f57e995dfcc04de8384d15f238c45290b3c3cbd
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879293"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067631"
 ---
 # <a name="integration-with-finance-faq"></a>Finans ile tümleştirme SSS
 
@@ -88,7 +88,7 @@ Ek veriler Power Apps ile doldurulabilir.
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Çift yönlü tümleştirme ayarlayabilir miyim?
 
-Hayır, tümleştirme şu anda yalnızca tek yönlüdür (Human Resources'dan Finance and Operations'a). Bununla birlikte, İnsan Kaynakları'ndan Finance'e veri göndermek için bir varsayılan şablon vardır.
+Hayır, tümleştirme şu anda yalnızca tek yönlüdür (İnsan Kaynakları'ndan finans ve operasyon uygulamalarına). Bununla birlikte, İnsan Kaynakları'ndan Finance'e veri göndermek için bir varsayılan şablon vardır.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Tümleştirmemin bir parçası olarak kayıt silinmesine izin verebilir miyim?
 
@@ -118,7 +118,7 @@ Bu hatanın nedenleri arasında şunlar olabilir:
 
 - Veri aktarma, kaynakta (Dataverse) yinelenen kayıtların ayıklanmasıyla sonuçlandı.
 
-- Veri aktarımı, Finance and Operations'ta ihtiyaç duyulan alanlar için boş değerlere sahip. Verinin Dataverse içindeki olduğundan ve Finance and Operations gereksinimlerini karşıladığından emin olun.
+- Veri aktarımı, finans ve operasyon uygulamalarına ihtiyaç duyulan alanlar için boş değerlere sahip. Verinin Dataverse içindeki olduğundan ve Finance and Operations gereksinimlerini karşıladığından emin olun.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Yürütme hataları varsa ve Çalışan kimliği eşitlenmediyse, hatalı çalışan kaydına sahip geçmiş işi nasıl bulabilirim?
 
@@ -150,7 +150,7 @@ Varlık destekleniyorsa ve veri Dataverse içinde kullanılabilirse, Veri Tümle
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Çalışanlarımın adresleri Finance'e aktardıktan sonra doğru görünmüyor. Ne yapmalıyım?
 
-**Konum Kodu** için numara serisi, İnsan Kaynakları'ta ve Finance'te aynı düzeni kullanır. Numara serisinin her iki tarafta da benzersiz olması gerekir, bu sayede veriyi Dataverse'ten Finance and Operations'a tümleştirirken adres çakışmaları gerçekleşmez.
+**Konum Kodu** için numara serisi, İnsan Kaynakları'ta ve Finance'te aynı düzeni kullanır. Numara sırasının her iki tarafta da benzersiz olması gerekir, bu sayede veriyi Dataverse'den finans ve operasyon uygulamalarına tümleştirirken adres çakışmaları gerçekleşmez.
 
 İnsan Kaynakları tümleştirmesi sırasında, numara serilerinin İnsan Kaynakları ve Finance içinde aynı olmadığını doğrulayın. Tüm numara serilerinin, verinin her iki sistemde de tutulabildiği yerlerde aynı olmadığını doğrulayın.
 
@@ -184,3 +184,4 @@ Finance'te veri varlıklarını **Veri yönetimi \> Çerçeve Parametreleri \> V
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

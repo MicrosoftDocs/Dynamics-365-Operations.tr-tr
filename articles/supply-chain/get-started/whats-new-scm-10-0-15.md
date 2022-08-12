@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Supply Chain Management 10.0.15 sürümündeki yenilikler veya değişiklikler (Ocak 2021)
-description: Bu makalede, Dynamics 365 Supply Chain Management 10.0.15'daki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, Dynamics 365 Supply Chain Management 10.0.15'taki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
 ms.date: 10/13/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3141cea22b6ab80f36f5562fd450b0cd547d235d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b9f372cfd36dc0a764c1fa01be5fe59e088e4728
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879148"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124603"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Dynamics 365 Supply Chain Management 10.0.15 sürümündeki yenilikler veya değişiklikler (Ocak 2021)
 
@@ -49,7 +49,7 @@ Bu sürümde aşağıdaki özellikler bulunmaktadır. Her bir özelliğin resmi 
 
 - [Ambar uygulaması olaylarını işle](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Daha fazla bilgi için bkz. [Ambar uygulaması olayı işleme](../warehousing/warehouse-app-events.md).
 
-- [Bırakılan ürünler için kaydedilmiş görünümler sayfası](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - Daha fazla bilgi için, bkz. [Kayıtlı görünümler](../../fin-ops-core/fin-ops/get-started/saved-views.md).
+- [Bırakılan ürünler için kaydedilmiş görünümler sayfası](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - Daha fazla bilgi için bkz. [Kayıtlı görünümler](../../fin-ops-core/fin-ops/get-started/saved-views.md).
 
 - USMCA kaynak sertifikasyonu belgesi<br> - Daha fazla bilgi için bkz. [USMCA menşe sertifikası](../transportation/usmca-certification-of-origin.md).
 
@@ -57,9 +57,9 @@ Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fi
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finans ve Operasyon uygulamaları için Platform güncelleştirmeleri
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finans ve operasyon uygulamaları için platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.15 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finans ve Operasyon uygulamalarının 10.0.15 sürümü için platform güncelleştirmeleri (Ekim 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-15.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.15 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finans ve operasyon uygulamalarının 10.0.15 sürümü için platform güncelleştirmeleri (Ekim 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-15.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 

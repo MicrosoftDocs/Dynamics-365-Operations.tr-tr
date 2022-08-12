@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855946"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070334"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Satınalma siparişleri için gelen yüklerin ambarda işlenmesi
 
@@ -56,7 +56,7 @@ Aşağıdaki şekil, ambarınıza ulaştığında satınalma siparişi miktarlar
 
 ## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>Gelen madde miktarlarını gelen yüke kaydetme
 
-Microsoft Dynamics 365 Supply Chain Management, sipariş edilen ürünlerin gelişini kaydetmek için birçok işlemsel yaklaşımı destekler. Bu nedenle, sistemi belirli iş gereksinimlerinize uyacak şekilde konfigüre edebilirsiniz. Bu bölümde, sistemde Gelişmiş ambar yönetimi açık olduğunda, bir mobil cihaz kullanılarak gelen madde miktarlarının nasıl kaydedileceği açıklanır. Ancak, mobil cihaz yerine, madde varış günlüğünü kullanmayı temel alan alternatif bir akış vardır. Bu akış hakkında daha fazla bilgi için bkz. [Gelişmiş ambar işlemleri etkinleştirilmiş madde için madde varış günlüğü kullanarak maddeleri kaydetme](tasks/register-items-advanced-warehousing.md).
+Microsoft Dynamics 365 Supply Chain Management, sipariş edilen ürünlerin gelişini kaydetmek için birçok işlemsel yaklaşımı destekler. Bu nedenle, sistemi belirli iş gereksinimlerinize uyacak şekilde konfigüre edebilirsiniz. Bu bölümde, sistemde ambar yönetimi süreçleri (WMS) açık olduğunda, bir mobil cihaz kullanılarak gelen öğe miktarlarının nasıl kaydedileceği açıklanır. Ancak, mobil cihaz yerine, madde varış günlüğünü kullanmayı temel alan alternatif bir akış vardır. Bu akış hakkında daha fazla bilgi için bkz. [Öğe varış günlüğü kullanarak ambar yönetim süreçleri etkinleştirilmiş öğeleri kaydetme](tasks/register-items-advanced-warehousing.md).
 
 Bir gelen yük ambara ilk kez ulaştığında, ambar çalışanları sevkiyata dahil edilen madde miktarlarını kaydetmelidir. Normal olarak, el tarayıcılarını kullanırlar. Bu iş akışı yalnızca sistemde aşağıdaki öğeler varsa kullanılabilir:
 

@@ -6,19 +6,19 @@ ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
-ms.reviewer: kfend
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cf0d2bdc37efb66f7aee40f237413a2ef5d9f9f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ProductionPerformancePowerBI
+ms.openlocfilehash: e1b8afcc3d1b64c6828e4081b41a74d3b76731bc
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881475"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205748"
 ---
 # <a name="production-performance-power-bi-content"></a>Üretim performansı Power BI içeriği
 
@@ -63,7 +63,7 @@ Aşağıdaki veriler **Üretim performansı** Power BI içeriğindeki rapor sayf
 
 Aşağıdaki tabloda Power BI içeriğinin temeli olarak kullanılan başlıca toplama ölçümleri gösterilmektedir.
 
-| Varlık                   | Önemli toplam ölçümler  | Finance and Operations uygulamaları için veri kaynağı | Alan              |
+| Varlık                   | Önemli toplam ölçümler  | Finans ve operasyon uygulamaları için veri kaynağı | Alan              |
 |--------------------------|-----------------------------|----------------------------------------|--------------------|
 | CostCalculation          | CostAmount                  | ProdCalcTransExpanded                  | CostAmount         |
 | CostCalculation          | CostMarkup                  | ProdCalcTransExpanded                  | CostMarkup         |

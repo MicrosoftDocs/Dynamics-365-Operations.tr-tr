@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d098aa77b4eb87118692c18ecd1b09a5de2c53d6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7d8d59def24fd138b4cf1d36e286b786e13b096e
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890420"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124043"
 ---
 # <a name="upgrade-budget-planning"></a>Bütçe planlamayı yükselt
 
@@ -30,7 +30,7 @@ Microsoft Dynamics AX 2012 ve Dynamics 365 Finance arasında bütçe planlamada 
 Finance'teki bütçe planlama, Dynamics AX 2012'de bulunmayan pek çok geliştirme içermektedir. Bu makale, yükseltme yapacak müşterilerin gerçekleştirmesi gereken değişiklikleri açıklar. Yükseltme işleminde dikkate alınması gereken yeni özellikleri de ortaya koyar. Değişikliklerin kapsamı nedeniyle, bu makalede altı çizilen değişiklikler gerçekleştirilene kadar mevcut bütçe planlarından hiçbiri açılamayacaktır. Ancak, raporlar çalışmaya devam edecektir ve ek değişiklikler gerektirmemektedir.
 
 ## <a name="overview-of-changes"></a>Değişimlerin özeti
-Finance and Operations için Bütçeleme içerisinde pek çok önemli değişiklik yapılmıştır. Bu değişiklikler Bütçe planlamanın yapılandırmasını daha kolay hale getirmek ve yeniden kullanılabilirliği artırarak yıldan yıla bakımı ve kurulumu azaltmak amacıyla yapılmıştır. AX 2012'deki şu alanlar Finance'te artık bulunmamaktadır:
+Finans ve operasyon için Bütçeleme içerisinde pek çok önemli değişiklik yapılmıştır. Bu değişiklikler Bütçe planlamanın yapılandırmasını daha kolay hale getirmek ve yeniden kullanılabilirliği artırarak yıldan yıla bakımı ve kurulumu azaltmak amacıyla yapılmıştır. AX 2012'deki şu alanlar Finance'te artık bulunmamaktadır:
 
 -   Bütçe planı şablonları (Bütçe planlama yapılandırması)
 -   Bütçe planı klasörleri (Bütçe planlama yapılandırması)
@@ -47,7 +47,7 @@ Sütunlar, Excel şablonu ve matris alanlarının bazı parçalarının yerini a
 
 ### <a name="layouts"></a>Düzenler
 
-Düzenler, Excel şablonunun yerini alan yeni bir kavramdır. Düzenler, hangi bütçe veya gerçek verilerin ve dönemlerin gösterilmesi gerektiğini tanımlayan sütunları içerir. Sütunlar, istemci ve Excel eklentisi arasında da paylaşılır. Bu nedenle, Finance and Operations istemcisi içinde veri girdiğinizde veya görüntülediğinizdeki kullanıcı deneyimi, AX 2012'den daha iyidir. Finance istemcisinde veri girmek için, hareket görünümde tek bir senaryo görüntüleme ve girmeyle artık sınırlı değilsiniz. Bunun yerine, bir karşılaştırma görünümü, birden fazla dönem ve hesap için aynı anda kolayca tutar girmenizi ve görmenize izin verir. Düzenler para birimi, açıklamalar ve diğer isteğe bağlı verileri girebilmeniz veya görüntüleyebilmeniz için de tanımlanabilir. Düzenler hangi genel muhasebe boyutlarının ve boyut açıklamalarının gösterileceğini de tanımlamanızı sağlar. Düzenler ayrıca senaryo kısıtlamalarını, bir şablondaki hangi sütunların düzenlenebileceğini ve hangilerinin Excel içerisinde kullanılabilir olacağını tanımlamak için kullanır. Bir düzeni tanımladıktan sonra, bunun için bir şablon oluşturulur. Artından bu şablon, karşılık gelen Excel şablonunu oluşturur. Daha sonra Excel şablonunu daha fazla formül ve biçimlendirme kullanmak üzere düzenleyebilir ve yeniden yükleyebilirsiniz. Düzenler, **Bütçe planlama işlemi** sayfasındaki her bir aşama kuralına atanır. Düzenle bu nedenle benzer şekilde atanan ve kullanılan şablonların yerini alır.
+Düzenler, Excel şablonunun yerini alan yeni bir kavramdır. Düzenler, hangi bütçe veya gerçek verilerin ve dönemlerin gösterilmesi gerektiğini tanımlayan sütunları içerir. Sütunlar, istemci ve Excel eklentisi arasında da paylaşılır. Bu nedenle, Finans ve operasyon istemcisi içinde veri girdiğinizde veya görüntülediğinizdeki kullanıcı deneyimi, AX 2012'den daha iyidir. Finance istemcisinde veri girmek için, hareket görünümde tek bir senaryo görüntüleme ve girmeyle artık sınırlı değilsiniz. Bunun yerine, bir karşılaştırma görünümü, birden fazla dönem ve hesap için aynı anda kolayca tutar girmenizi ve görmenize izin verir. Düzenler para birimi, açıklamalar ve diğer isteğe bağlı verileri girebilmeniz veya görüntüleyebilmeniz için de tanımlanabilir. Düzenler hangi genel muhasebe boyutlarının ve boyut açıklamalarının gösterileceğini de tanımlamanızı sağlar. Düzenler ayrıca senaryo kısıtlamalarını, bir şablondaki hangi sütunların düzenlenebileceğini ve hangilerinin Excel içerisinde kullanılabilir olacağını tanımlamak için kullanır. Bir düzeni tanımladıktan sonra, bunun için bir şablon oluşturulur. Artından bu şablon, karşılık gelen Excel şablonunu oluşturur. Daha sonra Excel şablonunu daha fazla formül ve biçimlendirme kullanmak üzere düzenleyebilir ve yeniden yükleyebilirsiniz. Düzenler, **Bütçe planlama işlemi** sayfasındaki her bir aşama kuralına atanır. Düzenle bu nedenle benzer şekilde atanan ve kullanılan şablonların yerini alır.
 
 ### <a name="budget-planning-processes"></a>Bütçe planlama süreçleri
 
@@ -69,7 +69,7 @@ Yükseltilmiş sistemi nasıl yapılandıracağınızı belirlemeye yardımcı o
    -   Bütçe planı senaryoları: Fiili değerler, Temel, Bütçe İsteği, Bütçe Onaylandı
    -   2017 içindeki tüm senaryolar için Bütçe planı satırları ve hem 2017 hem de 2016 için Fiili değerler
 
-   Aşağıdaki sütunlar Finance and Operations içerisinde oluşturulur:
+   Aşağıdaki sütunlar Finans ve operasyon içerisinde oluşturulur:
 
    | Sütun adı    | Bütçe planı senaryosu | Sütun dönemi | Yıl denkleştirme |
    |----------------|----------------------|--------------------|-------------|

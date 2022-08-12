@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8f46a4d4e087a99c00ab7b4eabc74f60043cbf21
+ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873825"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9186498"
 ---
 # <a name="priority-based-planning"></a>Öncelik tabanlı planlama
 
 [!include [banner](../../includes/banner.md)]
 
-Bu makalede, Microsoft Dynamics 365 Supply Chain Management'ın öncelik tabanlı planlama özelliği açıklanmaktadır. Özellik, Talep Temelli Malzeme Gereksinimleri Planlaması (DDMRP) adımı olan talep temelli planlamaya destek ekler. Önceliğe dayalı planlama, Planlama Optimizasyonu için, gereksinim tarihleri yerine öncelikler planlama ile çalışan planlı siparişler oluşturma olanağı sağlar.
+Bu makalede, Microsoft Dynamics 365 Supply Chain Management'ın öncelik tabanlı planlama özelliği açıklanmaktadır. Özellik, [Talep Temelli Malzeme Gereksinimleri Planlaması (DDMRP)](ddmrp-overview.md) adımı olan talep temelli planlamaya destek ekler. Önceliğe dayalı planlama, Planlama Optimizasyonu için, gereksinim tarihleri yerine öncelikler planlama ile çalışan planlı siparişler oluşturma olanağı sağlar.
 
 Önceliğe dayalı planlama, acil talebin, daha az önemli talebe göre öncelik uygulandığından emin olmak için stok yenileme emirlerinin önceliğini belirlemenizi sağlar. Örneğin, bir stok bitimi yenileme siparişinin standart bir dolum stok yenileme siparişi üzerinden öncelikli olması gerekir. Sistem, daha büyük siparişleri otomatik olarak sipariş satırlarının önceliğine göre gruplandırıldığında farklı küçük siparişlere bölebilir. Daha sonra, tüm yüksek öncelikli siparişleri önce işleyebilir.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dd645dcc79672e7f69afe47b803b90a04c22305d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13a25d3f1f72d8053ed3951b036522cfa3a15959
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856294"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065659"
 ---
 # <a name="configure-human-resources-parameters"></a>Human Resources parametrelerini yapılandırma
 
@@ -27,7 +27,7 @@ ms.locfileid: "8856294"
 
 Human Resources parametrelerinin ayarları şirketler arasında paylaşılır ancak diğer parametrelerin ayarları şirkete özeldir. Bu makalede, şirkete özgü Human Resources parametrelerinin nasıl ayarlanacağı açıklanmaktadır.
 
-İki sayfa Human Resources parametrelerini ayarlamak için kullanılır. Şirketler arasında paylaşılan parametreler için **İnsan Kaynakları paylaşılan parametreleri** sayfasını kullanırsınız. Şirkete özgü parametreler için (diğer bir deyişle, tek bir şirket için uygulanan ayarlar) **İnsan Kaynakları parametreleri** sayfasını kullanırsınız.
+İki sayfa Human Resources parametrelerini ayarlamak için kullanılır. Şirketler arasında paylaşılan parametreler için **İnsan Kaynakları paylaşılan parametreleri** sayfasını kullanırsınız. Şirkete özel parametreler için **İnsan kaynakları parametreleri** sayfasını kullanırsınız.
 
 ![Human Resources parametrelerini yapılandır'a gidin.](./media/hr-employee-self-service-human-resources-parameters.png)
 
@@ -74,9 +74,10 @@ Dynamics 365 Finance'te **Ücret** sekmesindeki ayarlar, kullanıcının bir sab
 
 Human Resources'da, ücret planlarına erişimi kısıtlamayı ve varsayılan bir para birimi ayarlamayı seçmek için **Ücret** sekmesini kullanabilirsiniz.
 
-Ücret hakkında daha fazla bilgi için bkz. [Ücret planlarına genel bakış](hr-compensation-overview.md).
+> [!NOTE]
+> Birleştirilmiş altyapıda **İnsan kaynakları parametreleri** sayfasının **Ücret** sekmesindeki varsayılan **Para birimi** parametresi kaldırıldı. İleriye dönük olarak mevcut finans ve operasyonlar işlevleriyle ilgili çakışma olmamasını ve tekrarlanan öğe oluşmasını önlemek için para birimi, **Kayıt defteri para birimi** parametresini ele alınır. Kayıt defteri para birimi işlevlerinin nasıl kullanılacağı hakkında daha fazla bilgi için bkz. [Kayıt defterleri yapılandırma](/general-ledger/configure-ledger#configuring-currencies-for-the-ledger.md). 
 
-![Ücret sekmesi.](./media/hr-setup-parameters-compensation.png)
+Ücret hakkında daha fazla bilgi için bkz. [Ücret planlarına genel bakış](hr-compensation-overview.md).
 
 ## <a name="number-sequences"></a>Numara serileri
 

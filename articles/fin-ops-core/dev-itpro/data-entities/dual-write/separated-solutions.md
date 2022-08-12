@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 28c321ee2815b2886c07bfb0996870e536458145
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874826"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111675"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Ayrılmış Dual-write Application Orchestration paketi
 
@@ -247,7 +247,7 @@ Dual-write Notes paketi, not veya ek açıklama verilerini eşitlemek için gere
 
 Bu pakette aşağıdaki eşlemeler mevcuttur.
 
-| Finance and Operations                     | Customer Engagement |
+| Finans ve operasyon                     | Customer Engagement |
 |--------------------------------------------|---------------------|
 | Satış siparişi başlığı belge ekleri    | ek açıklamalar         |
 | Müşteri ekleri                       | ek açıklamalar         |
@@ -344,3 +344,4 @@ Bu pakette aşağıdaki eşlemeler mevcuttur.
 - Dual-write Application Core paketi
 - Dual-write Finance paketi
 - Dual-write Supply Chain paketi
+

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 588da2a217a56d2bc25f85c9a10c6589f90b16a1
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 729ef6aae228ad1e528945031567b92c44cdf256
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015099"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111769"
 ---
 # <a name="register-consumption"></a>Tüketimi kaydetme
 
@@ -90,7 +90,7 @@ Tüketim kayıtları yaptığınızda, farklı kayıt türleriyle ilgili mali bo
 - *Madde kayıtları:* Önce, varsa günlük başlığındaki mali boyutlar eklenir. Ardından ilgili iş emri projesindeki mali boyutlar eklenir. Bundan sonra, tesisteki mali boyutlar eklenir. Son olarak, maddedeki mali boyutlar eklenir.
 
 >[!NOTE]
->Üç kayıt türü için, mali boyut birleşimi doğrulanır ve geçersiz birleşimler boş bırakılır. Bu, diğer Finance and Operations uygulamalarıyla standart bir kurulumdır.
+>Üç kayıt türü için, mali boyut birleşimi doğrulanır ve geçersiz birleşimler boş bırakılır. Bu, diğer finans ve operasyon uygulamalarıyla standart bir kurulumdur.
 
 
 

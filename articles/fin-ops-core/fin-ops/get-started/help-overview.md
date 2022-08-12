@@ -1,6 +1,6 @@
 ---
 title: Yardım sistemi (video içerir)
-description: Bu makalede, Finans ve Operasyon uygulamaları için Yardım sistemine dair bir genel bakış sunulmaktadır.
+description: Bu makalede, finans ve operasyon uygulamaları için Yardım sistemine dair bir genel bakış sunulmaktadır.
 author: edupont04
 ms.date: 07/20/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 57c17cab920c531b3eb125260064d01dd8662576
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898383"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124209"
 ---
 # <a name="help-system"></a>Yardım sistemi
 
@@ -53,7 +53,7 @@ Herhangi bir arama motorunu kullanarak docs.microsoft.com adresinde içerik bula
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>RSS akışı aracılığıyla değişiklikler hakkında bildirim alma
 
-Finance ve Operations uygulamaları genelinde docs.microsoft.com üzerindeki içeriklerde yapılan tüm güncelleştirmelerin RSS akışına abone olmak için aşağıdaki bağlantıyı kullanın:
+Finans ve operasyon uygulamaları genelinde docs.microsoft.com üzerindeki içeriklerde yapılan tüm güncelleştirmelerin RSS akışına abone olmak için aşağıdaki bağlantıyı kullanın:
 
 [RSS akışı](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -98,7 +98,7 @@ Daha fazla bilgi için, docs.microsoft.com sitesini oluşturan ekip tarafından 
 
 Bir görev kılavuzu size bir görevin veya iş işlemin adımları boyunca yol gösteren denetimli, destekli, etkileşimli bir deneyimdir. **Yardım** bölmesinden bir görev kılavuzunu açabilirsiniz (oynatabilirsiniz). Görev kılavuzunu ilk defa seçtiğinizde **Yardım** bölmesi görev için talimatları adım adım gösterecektir. Yerelleştirilmiş görev kılavuzları hazır.
 
-Microsoft, Dynamics 365 for Finance and Operations uygulamasının Aralık 2017 sürümünden itibaren ürün sürümleri için görev kılavuzu kitaplıkları yayımladı. Bu makalenin [Yardım bölmesinden görev kılavuzlarına erişme](#accessing-task-guides-from-the-help-pane) bölümünde, ürününüz için doğru görev kılavuzlarını nasıl bulacağınız açıklanmaktadır.
+Microsoft, Dynamics 365 Finance and Operations uygulamasının Aralık 2017 sürümünden itibaren ürün sürümleri için görev kılavuzu kitaplıkları yayımladı. Bu makalenin [Yardım bölmesinden görev kılavuzlarına erişme](#accessing-task-guides-from-the-help-pane) bölümünde, ürününüz için doğru görev kılavuzlarını nasıl bulacağınız açıklanmaktadır.
 
 ![Görev kılavuzu okuma görünümü.](./media/task-guide-ops.png)
 
@@ -128,7 +128,7 @@ Yardım içeriğine erişmek için **Yardım** düğmesini (**?**) ve ardından 
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Yardım Bölmesi'nden görev kılavuzlarına erişme
 
-Görev kılavuzlarına **Yardım** bölmesinden erişebilmeniz için sistem yöneticisinin Finance, Supply Chain Management veya Commerce'teki **Sistem parametreleri** sayfasında bazı ayarları yapılandırması gerekir. Daha fazla bilgi için bkz [Görev kılavuzları ekleme](help-connect.md#adding-task-guides).
+Görev kılavuzlarına **Yardım** bölmesinden erişebilmeniz için sistem yöneticisinin Finance, Supply Chain Management veya Commerce'teki **Sistem parametreleri** sayfasında bazı ayarları yapılandırması gerekir. Daha fazla bilgi için bkz. [Görev kılavuzları ekleme](help-connect.md#adding-task-guides).
 
 <!-- > [!NOTE]
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
@@ -182,3 +182,4 @@ Aşağıdaki tablo web sitelerimizi listeler. Adının yanında bir yıldız iş
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

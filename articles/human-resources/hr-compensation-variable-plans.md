@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 22788dff1ee29b6920426d8ff00d412c3d5564e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f2f51a095a23b651dca645b14e652519f20037e2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853088"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070573"
 ---
 # <a name="create-variable-compensation-plans"></a>Değişken ücret planları oluşturma
 
@@ -42,7 +42,11 @@ Değişken ücret, çalışanın düzenli almadığı, prim, hisse senedi ikrami
 İsteğe bağlı olarak, şirketler **Hakediş ödeme kuralları** ayarlayabilir. **Hakediş ödeme kuralları**, değişken ikramiyenin zaman içerisinde nasıl tahsis edilmesi gerektiğini açıklar. Örneğin, bir hakediş ödeme kuralı, çalışanın toplam ikramiyenin yüzde 25'ini, sonraki dört yıl boyunca için alacağını belirtebilir. Hakediş ödeme kuralları yalnızca bilgilendirme amaçlıdır.
 
 ## <a name="variable-compensation-plans"></a>Değişken maaş planları
-**Değişken ücret planı** kurallar, hesaplama yöntemleri ve kayıtlı çalışanlar için değişken ücret hesaplamasına ilişkin varsayılan değerleri içerir. Bir değişken ücret planı oluşturduğunuzda, değişken ücret türünü ayarlamanız gerekir. Değişken ücret türü, ikramiye olarak sistem para birimi tutarını mı yoksa birim sayısını mı ikramiye olarak hesaplayacağını belirler. Ayrıca, hesaplama yöntemini de ayarlamanız gerekir:
+**Değişken ücret planı** kurallar, hesaplama yöntemleri ve kayıtlı çalışanlar için değişken ücret hesaplamasına ilişkin varsayılan değerleri içerir. Bir değişken ücret planı oluşturduğunuzda, değişken ücret türünü ayarlamanız gerekir. Değişken ücret türü, ikramiye olarak sistem para birimi tutarını mı yoksa birim sayısını mı ikramiye olarak hesaplayacağını belirler. 
+
+**Seçili rollere erişimi kısıtla** parametreleri ücret planında erişimi, İnsan Kaynakları içinde bu plana atanmış olan seçili güvenlik rolleriyle kısıtlar. Örneğin yöneticiler için olan ve İK'ya özel tüm rollerde görülmemesi gereken ücret planları oluşturduğunuzda, bu ücret planlarına erişimi kısıtlamak için bu parametreyi kullanabilirsiniz. 
+
+Ayrıca, hesaplama yöntemini de ayarlamanız gerekir:
 
 -   **Bir zaman noktasına** – Değişken ikramiyenin hesaplanması, belirli bir tarihte çalışanın sahip olduğu sabit maaşa dayanır. Yeni ücret tutarları işleme alındığında, tarih işlemde belirtilir.
 -   **Bileşik** – Bir ikramiye tutarı, çalışanın süreç olayındaki döngü başlangıç tarihi ile döngü bitiş tarihi arasında sahip olduğu her bir özgün sabit ücret ödeme oranı için hesaplanır. Tarihler son ikramiyeyi belirlemek için daha sonra eklenir. Örneğin, döngü sırasında bir personel farklı ödeme oranı olan başka bir konuma transfer olur. Bu durumda değişken ikramiye, çalışanın her bir ödeme oranına sahip olduğu zaman uzunluğuna göre ayarlanır.

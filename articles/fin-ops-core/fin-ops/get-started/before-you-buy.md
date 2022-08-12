@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9c2f658fbf7fd4db38d572ff80e9d500b5548e0a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: fc3cf3b5d28a4e512f921db6ba090dd5731391cc
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713290"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123997"
 ---
 # <a name="before-you-buy"></a>Satın almadan önce
 
@@ -26,13 +26,13 @@ ms.locfileid: "8713290"
 
 Dynamics 365 Finance, Dynamics 365 Supply Chain Management veya Dynamics 365 Commerce ile yeni mi tanışıyorsunuz? Satın almayı düşündüğünüz veya satın almaya hazır olduğunuz zamanlar için adım adım yönergeler hazırladık.
 
-## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Adım bir: Finance and Operations'ı 30 gün ücretsiz deneyin
+## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Adım bir: Finans ve operasyon uygulamalarını 30 gün ücretsiz deneyin
 
-Dynamics 365 for Finance, Dynamics 365 Supply Chain Management veya Dynamics 365 Commerce'i e-postayla basitçe kaydolarak 30 gün deneyebilirsiniz. Finans ve Operasyon uygulamalarının deneme sürümü, çeşitli senaryoları görmenize olanak veren adım adım yönergeler sağlayan Başlarken görev kılavuzlarını içerir. Ürünün senaryoları keşfedilebilir ve denenebilir, ancak özelleştirilemez. Eklenmiş olan demo verileri, ürünün kullanımını kolaylaştırır ve deneyimi daha anlamlı hale getirir. Deneme süresinin sona ermesinden 3 gün önce bir anımsatıcı e-posta gönderilir. [Önizleme abonelikleri için kaydolma](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe) başlıklı makaleden ayrıntıları öğrenin.
+Dynamics 365 for Finance, Dynamics 365 Supply Chain Management veya Dynamics 365 Commerce'i e-postayla basitçe kaydolarak 30 gün deneyebilirsiniz. Finans ve operasyon uygulamalarının deneme sürümü, çeşitli senaryoları görmenize olanak veren adım adım yönergeler sağlayan Başlarken görev kılavuzlarını içerir. Ürünün senaryoları keşfedilebilir ve denenebilir, ancak özelleştirilemez. Eklenmiş olan demo verileri, ürünün kullanımını kolaylaştırır ve deneyimi daha anlamlı hale getirir. Deneme süresinin sona ermesinden 3 gün önce bir anımsatıcı e-posta gönderilir. [Önizleme abonelikleri için kaydolma](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe) başlıklı makaleden ayrıntıları öğrenin.
 
 ## <a name="step-two-choose-a-deployment-option"></a>Adım iki: Bir dağıtım seçeneği belirleme
 
-Finans ve Operasyon uygulamalarını artık bulutta veya şirket içinde dağıtabilirsiniz. Bulut dağıtımları, tümüyle Microsoft tarafından yönetilen bir ERP hizmeti sunarken, şirket içi dağıtımlar, müşterinin veri merkezinde yerel olarak dağıtılır.
+Finans ve operasyon uygulamalarını artık bulutta veya şirket içinde dağıtabilirsiniz. Bulut dağıtımları, tümüyle Microsoft tarafından yönetilen bir ERP hizmeti sunarken, şirket içi dağıtımlar, müşterinin veri merkezinde yerel olarak dağıtılır.
 
 Dağıtım seçeneği olarak şirket içini seçtiğinizde aşağıdaki önemli noktaların dikkate alınması gerekir:
 
@@ -62,13 +62,13 @@ Bir Microsoft Bulut Çözüm Sağlayıcı, işletmenizin veya kuruluşunuzun iht
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Bir Dynamics ortağı üzerinden satın alın (şirket içi)
 
-Finance and Operations şirket içi satın almak için bir ortak ile birlikte çalışmalısınız. Daha fazla bilgi için bkz. [Finance + Operations (şirket içi) satın alma](purchase-on-premises.md).
+Finance + Operations (on-premises) satın almak için bir ortak ile birlikte çalışmalısınız. Daha fazla bilgi için bkz. [Finance + Operations (şirket içi) satın alma](purchase-on-premises.md).
 
 ### <a name="buy-through-volume-licensing-cloud-or-on-premises"></a>Toplu lisanslamayla (bulut veya şirket içi) satın alın.
 
 Kuruluşunuz 250 veya daha fazla Dynamics 365 kullanıcısına sahipse, [Toplu lisans anlaşması](https://www.microsoft.com/Licensing/product-licensing/dynamics365) ilginizi çekebilir.
 
-Toplu lisanslamada, Finans ve Operasyon uygulamaları şunlar aracılığıyla kullanılabilir:
+Toplu lisanslamada, finans ve operasyon uygulamaları şunlar aracılığıyla kullanılabilir:
 
 - Kurumsal Sözleşme
 - Kurumsal Sözleşme Aboneliği
@@ -94,3 +94,4 @@ Microsoft Dynamics AX 2012'den yükseltme veya Microsoft Dynamics AX 2009'dan ge
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

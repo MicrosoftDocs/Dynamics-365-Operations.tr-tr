@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76ad64c19fe088ec85fafba4a3276a4d8c23a18c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9b0b53da17bd106be60966d856d29d81a1e57f91
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852374"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065539"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Ürün yapılandırması için Çözücü stratejisi
 
@@ -29,7 +29,7 @@ ms.locfileid: "8852374"
 
 Bu makale çözücü stratejisini ürün yapılandırmasının performansını artırmak üzere nasıl kullanabileceğinizi açıklar.
 
-Çözücü stratejileri kavramı ilk olarak Microsoft Dynamics AX 2012 R2 için Toplu güncelleştirme 7'de (CU7) kullanılmıştır. Microsoft Dynamics AX 2012 R3 ve Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 için kümülatif güncelleştirme 8 (CU8) içinde genişletildi.
+Çözücü stratejileri kavramı ilk olarak Microsoft Dynamics AX 2012 R2 için Toplu güncelleştirme 7'de (CU7) kullanılmıştır. Microsoft Dynamics AX 2012 R3 ve finans ve operasyon uygulamaları, Enterprise edition 7.3 için Kümülatif güncelleştirme 8 (CU8) içinde genişletildi.
 
 Çözücü stratejisi kavramı şu anda aşağıdaki stratejileri içermektedir:
 

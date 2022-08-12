@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9adbf8f5baa829fb28977d618a4f8beee31ef080
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4d423b149957e624269231aede510190f0c14c7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870147"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068795"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Sabit kıymet ileri taşıma raporu
 
@@ -30,11 +30,11 @@ ms.locfileid: "8870147"
 
 **Sabit kıymet ileri taşıma** raporu Elektronik raporlama (ER) altyapısını kullanır. Raporu çalıştırmadan önce Sabit kıymet modeli ve Sabit kıymet ileri taşıma yapılandırmalarının Microsoft Dynamics Lifecycle Services'dan (LCS) içe aktarılması gerekir. Yönergeler için bkz. [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını karşıdan yükle](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
-Bu rapor, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 içinde veya bir düzeltme olarak Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017)'de kullanılabilir. Temmuz 2017 sürümüne sahip ortamlara üç düzeltme uygulanması gerekir:
+Bu rapor, Microsoft Dynamics 365 Finance, Enterprise edition 7.3 içinde veya bir düzeltme olarak Microsoft Dynamics 365 Finance, Enterprise edition (Temmuz 2017) içinde kullanılabilir. Temmuz 2017 sürümüne sahip ortamlara üç düzeltme uygulanması gerekir:
 
-- **KB 4041754:** Elektronik raporlama (ER) yapılandırması, platform güncelleştirme paketi uygulandıktan sonra geçerli sürüm için uygun olmadığından LCS'den indirilemez.
-- **KB 4056107:** Elektronik raporlama (GER) toplu güncelleştirmesi 5
-- **KB 4056353:** Sabit Kıymet Ekstre ve Notlar raporu GAAP ve IFRS'deki gereklilikleri karşılamamaktadır
+- **BB 4041754:** Elektronik raporlama (ER) yapılandırması, platform güncelleştirme paketi uygulandıktan sonra geçerli sürüm için uygun olmadığından LCS'den indirilemez.
+- **BB 4056107:** Elektronik raporlama (GER) toplu güncelleştirmesi 5
+- **BB 4056353:** Sabit Kıymet Ekstre ve Notlar raporu GAAP ve IFRS'deki gereklilikleri karşılamamaktadır
 
 Aşağıdaki tabloda, raporda kullanılabilecek alanlar açıklanmıştır.
 
@@ -67,3 +67,4 @@ Aşağıdaki tabloda, raporda kullanılabilecek alanlar açıklanmıştır.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -2,7 +2,7 @@
 title: İtalyan FatturaPA'yı doğrudan SDI ile tümleştirmeyi ayarlama
 description: Bu makalede, İtalya için Elektronik faturalamayı kullanmaya başlamanıza ve İtalyan FatturaPA'yı Exchange sistemi (SDI) ile doğrudan tümleştirmeyi ayarlamanıza yardımcı olacak bilgiler yer alır.
 author: abaryshnikov
-ms.date: 01/15/2022
+ms.date: 07/27/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 510cf05e7bbc925478f9a1a4ea2ea27fe397c570
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 363b7b5e3d5abbb990fea8f8ad4d0c1bebf80102
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853206"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203184"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>İtalyan FatturaPA'yı doğrudan SDI ile tümleştirmeyi ayarlama
 
@@ -69,10 +69,13 @@ Bu bölüm, "Elektronik faturalamayı kullanmaya başlama" makalesinin [Uygulama
     - **Belgeyi imzala** eylemi için **Sertifika adı** alanında Dijital imza sertifikasını belirtin.
     - **Gönder** eylemi için **URL adresi** ve **Sertifikalar** alanlarını ayarlayın. **Sertifikalar** alanının değeri, birincisi kök CA sertifikası (caentrate.cer) ve ikincisi İstemciler sertifikası olan bir sertifika zinciridir.
 
-4. Gerekli tüm alanların ayarlandığından emin olmak için **Doğrula**'yı seçin.
-5. Değişikliklerinizi kaydedin ve sayfayı kapatın.
-6. **Kurulumlar** sekmesinde, **Proje faturaları** ve ardından **Düzenle**'yi seçin.
-7. Proje faturaları için 3 ile 5 arasındaki adımları tekrarlayın.
+4. **Uygulanabilirlik kuralları** bölümünde, tümceleri inceleyip gerekli alanları gözden geçirin veya ayarlayın:
+    - **LegalEntityID** tümcesini gözden geçirin ve tüzel varlığınızdaki doğru değerle güncelleştirin.
+
+5. Gerekli tüm alanların ayarlandığından emin olmak için **Doğrula**'yı seçin.
+6. Değişikliklerinizi kaydedin ve sayfayı kapatın.
+7. **Kurulumlar** sekmesinde, **Proje faturaları** ve ardından **Düzenle**'yi seçin.
+8. Proje faturaları için 3 ile 6 arasındaki adımları tekrarlayın.
 
 ### <a name="configure-the-processing-pipeline-for-import"></a>İçe aktarma için işleme ardışık düzenini yapılandırma
 

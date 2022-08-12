@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 2db4c2606936222fcd1a97cf2814fbfbc41df113
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d4f54c06a07b3cdd0b8fe2cc52614189ff31ba7f
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891045"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135614"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>"Yeterli kapasite bulunamadı" planlama altyapısı hatasını düzeltme
 
@@ -99,17 +99,53 @@ Sonsuz kapasite planlaması gerçekleştirmek için şu adımları izleyin.
 Kaynaktaki kullanılabilir kapasiteyi incelemek için şu adımları izleyin.
 
 1. **Kuruluş yönetimi \> Kaynaklar \> Kaynaklar** bölümüne gidin ve planlanamayan emre uygun bir kaynağı seçin.
-1. Eylem Bölmesi'nde, **Kaynak** sekmesinde, **Görüntüle** grubunda,**Kapasite yükü** veya **Kapasite yükü, grafik olarak** seçeneğini belirleyin ve kullanılabilir kapasite olduğundan emin olun.
+1. Eylem Bölmesi'nde, **Kaynak** sekmesinde, **Görüntüle** grubunda, **Kapasite yükü** veya **Kapasite yükü, grafik olarak** seçeneğini belirleyin ve kullanılabilir kapasite olduğundan emin olun.
 
 Kaynak grubundaki kullanılabilir kapasiteyi incelemek için şu adımları izleyin.
 
 1. **Kuruluş yönetimi \> Kaynaklar \> Kaynak grupları** bölümüne gidin ve planlanamayan emre uygun bir kaynak grubu seçin.
-1. Eylem Bölmesi'nde, **Kaynak grubu** sekmesinde, **Görüntüle** grubunda,**Kapasite yükü** veya **Kapasite yükü, grafik olarak** seçeneğini belirleyin ve kullanılabilir kapasite olduğundan emin olun.
+1. Eylem Bölmesi'nde, **Kaynak grup** sekmesinde, **Görüntüle** grubunda,**Kapasite yükü** veya **Kapasite yükü, grafik olarak** seçeneğini belirleyin ve kullanılabilir kapasite olduğundan emin olun.
 
 ## <a name="master-planning-books-a-resource-when-the-resource-calendar-is-closed"></a>Ana planlama, kaynak takvim kapatıldığında bir kaynağı ayırır
 
 Operasyon planlama kullanırken master planlama, birincil kaynak grubunun takvimine göre kapasite planlayacaktır. İkincil operasyonu birincil işlemle aynı zamanda kitap içine alıp, ikincil operasyonun takvimlerini veya kapasitesini dikkate almaz. Bu, üretim emrinin kapalı bir takvimde veya ikincil operasyonun kullanılabilir olmadığı bir zamanda zamanlanmasına (takvim kapalı, kapasite yok) neden olabilir.
 
 İş planlama kullanırken, master planlama sipariş planlarken hem birincil hem de ikincil operasyonun kapasitesini ve takvimini dikkate alır. Siparişin planlanması için her iki operasyonun kaynakları için takvimler açık olması ve kullanılabilir kapasiteye sahip olması gerekir.
+
+## <a name="maximum-job-lead-time-is-too-short"></a>Maksimum iş bekleme süresi çok kısa
+
+Planlama altyapısı, siteniz için belirlenen **Maksimum iş teslim süresi** varsayılan sipariş ayarlarında veya kapsam ayarlarında bir öğe için belirtilen müşteri adayı süresinden daha kısa ise bir sipariş planlayamaz.
+
+Siteniz için **Maksimum iş müşteri adayı süresi** ayarını görüntülemek veya düzenlemek için **Üretim denetimi \> Kurulum \> Üretim denetimi parametreleri** bölümüne gidin **Genel** sekmesini açın.
+
+Bir öğeyle ilgili olarak varsayılan sipariş ayarlarını görüntülemek veya düzenlemek için aşağıdaki adımları izleyin:
+
+1. Sırasıyla **Ürün bilgi yönetimi \> Ürünler \> Serbest bırakılmış ürünler**'e gidin.
+1. Listede, ilgili ürünü bulun ve seçin.
+1. Eylem Bölmesinde, **Stok yönetimi** sekmesini açın ve **Varsayılan sipariş ayarları** nı seçin.
+1. **Stok** hızlı sekmesini genişletin ve **Stok müşteri adayı süresi** ayarını gerektiği şekilde düzenleyin.
+
+Bir öğeyle ilgili olarak kapsam ayarlarını görüntülemek veya düzenlemek için aşağıdaki adımları izleyin:
+
+1. Sırasıyla **Ürün bilgi yönetimi \> Ürünler \> Serbest bırakılmış ürünler**'e gidin.
+1. Listede, ilgili ürünü bulun ve seçin.
+1. Eylem Bölmesi'nde **Plan** sekmesini açın ve **Öğe kapsamı** nı seçin.
+1. **Müşteri adayı süresi** sekmesini açın **Üretim süresi** değerini gerektiği gibi görüntüleyin veya düzenleyin.
+
+## <a name="excessive-quantity-of-required-resources"></a>Gerekli kaynakların aşırı miktarda olması
+
+Planlama sırasında altyapı, bir rota işlemi için gerekli kaynak miktarı setini operasyon kaynak gereksinimlerine göre uygulanabilir kaynaklarla eşleştirmeye çalışır. Kaynak miktarını çok yüksek ayarlanması bir rotanın gerçekleştirilemez olmasına yol açabilir ve bu da planlama hatasına neden olur.
+
+Seçili bir ürün, rota ve rota işlemiyle ilgili belirtilen miktarı ve uygulanabilir kaynakları denetlemek için aşağıdaki yordamı kullanın:
+
+1. Sırasıyla **Ürün bilgi yönetimi \> Ürünler \> Serbest bırakılmış ürünler**'e gidin.
+1. Kılavuzda, ilgili ürünü bulun ve seçin.
+1. Eylem Bölmesinde, **Mühendis** sekmesini açın ve **Rota**'yı seçin.
+1. Kılavuzda, ilgili rotayı bulun ve seçin.
+1. Sayfanın altındaki **Genel bakış** sekmesine açın.
+1. Seçilen rota işlemleri listesinden bir işlem seçin.
+1. Seçili rota operasyonuyla ilgili uygulanabilir kaynakları görüntüleyebileceğiniz bir iletişim kutusu açmak için **Uygulanabilir kaynakları** seçin.
+1. **Kaynak yükü** sekmesini açın. Buradaki **Miktar** alanı, seçilen rota işlemi için gerekli kaynak miktarını gösterir. Gerektiği gibi görüntüleyin ve/veya düzenleyin.
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

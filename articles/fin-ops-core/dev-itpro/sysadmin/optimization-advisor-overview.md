@@ -1,6 +1,6 @@
 ---
 title: En iyi duruma getirme danışmanına genel bakış
-description: Bu makalede, Finance and Operations'ın optimum yapılandırmasını sağlamaya yardımcı olacak İyileştirme danışmanı'nı nasıl kullanabileceğiniz açıklanmaktadır.
+description: Bu makalede, finans ve operasyon uygulamalarının optimum yapılandırmasını sağlamaya yardımcı olacak İyileştirme danışmanını nasıl kullanabileceğiniz açıklanmaktadır.
 author: roxanadiaconu
 ms.date: 07/23/2019
 ms.topic: overview
@@ -15,20 +15,20 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1dd66e27098b4125b03c4fe6b52825afe2ff34cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fb71453c37572c4956d98d4309d3526a7fbc1124
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865875"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109055"
 ---
 # <a name="optimization-advisor-overview"></a>En iyi duruma getirme danışmanına genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede, Finance and Operations'ın optimum yapılandırmasını sağlamaya yardımcı olacak İyileştirme danışmanı'nı nasıl kullanabileceğiniz açıklanmaktadır.
+Bu makalede, finans ve operasyon uygulamalarının optimum yapılandırmasını sağlamaya yardımcı olacak İyileştirme danışmanını nasıl kullanabileceğiniz açıklanmaktadır.
 
-## <a name="overview"></a>Genel bakış
+## <a name="overview"></a>Genel Bakış
 
 Bir modülün hatalı yapılandırılması ve ayarlanması, uygulama özelliklerinin kullanılmasını, sistem performansını ve iş süreçlerinin sorunsuz işlemesini olumsuz etkileyebilir. İş verilerinin kalitesi (örneğin doğruluk, tamlık ve verilerin açıklığı) de sistem performansını ve kuruluşun karar verme yeteneklerini, verimliliğini etkiler.
 
@@ -44,7 +44,7 @@ En iyi duruma getirme fırsatlarına standart güvenlik ilkeleri uygulanır. Ör
 
 Bazı en iyi durumu getirme fırsatlarıyla ilgili eylem gerçekleştirdiğinizde, sistem iş süreçlerinin çalışma zamanında azalma açısından fırsatın etkisini hesaplar. Ne yazık ki, bu özellik tüm en iyi duruma getirme iş fırsatları için kullanılamaz.
 
-İyileştirme danışmanı hakkında daha fazla bilgi almak için kısa [Dynamics 365 for Finance and Operations içindeki İyileştirme danışmanı](https://www.youtube.com/watch?v=MRsAzgFCUSQ) videosunu izleyin.
+İyileştirme danışmanı hakkında daha fazla bilgi almak için [Dynamics 365 Finance'te İyileştirme danışmanı](https://www.youtube.com/watch?v=MRsAzgFCUSQ) başlıklı kısa videoyu izleyin.
 
 ## <a name="optimization-rules"></a>En iyi duruma getirme kuralları
 
@@ -90,7 +90,7 @@ Belirli kuralların değerlendirmesini devre dışı bırakmak için kural taraf
 
 [En iyi duruma getirme danışmanı için kurallar oluşturma](./create-rules-optimization-advisor.md)
 
-[Dynamics 365 for Finance and Operations içindeki İyileştirme danışmanı (Video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+[Dynamics 365 Finance'te İyileştirme danışmanı (Video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

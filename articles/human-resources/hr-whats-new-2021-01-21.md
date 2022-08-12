@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9f1f660b7993804901f5fc9d3b608c141882bff5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f1daf630d3a9354012db9b5b487d8a5ed11e0ed
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901103"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066715"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Dynamics 365 Human Resources'daki yenilikler veya değişiklikler (21 Ocak 2021)
 
@@ -42,7 +42,7 @@ Aşağıdaki özellikler genel olarak bu sürümde mevcuttur.
 
 | Özellik | Sürüm planı | Belgeler |
 | --- | --- | --- |
-| Platform güncelleştirmesi 10.0.16(40) | -- | [Finans ve Operasyon uygulamalarının 10.0.16 sürümü için platform güncelleştirmeleri (Şubat 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
+| Platform güncelleştirmesi 10.0.16(40) | -- | [Finans ve operasyon uygulamalarının 10.0.16 sürümü için platform güncelleştirmeleri (Şubat 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
 | Geliştirilmiş iş akışı istekleri ve onaylar | [Kuruluş ve personel yönetimi iş akışı deneyimi geliştirmeleri](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Bana atanan iş öğeleri listesini konumlandırmak için yapılandırma seçeneği](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 | 1095-C, Form 1095-B ve eski Yan Haklar'da elektronik raporlama için Uygun Fiyatlı Bakım uyumluluk güncelleştirmeleri | -- | -- | 
 | Yan Haklar yönetimi artık ABD merkezlik tüzel kişilikler için ACA uyumluluk raporlamasını desteklemektedir | -- | [Yan Haklar Yönetiminde ACA raporları oluşturma](hr-benefits-management-aca-reports.md) |
@@ -92,7 +92,7 @@ Aşağıdaki yeni özellikler önizlemededir. Özellikleri açma hakkında daha 
 | Yan hak kayıtları için e-posta onayı | Bu özellik, Employee Self-Service'deki sosyal haklar kayıt deneyiminden çıktığında çalışanlara bir onay e-postası gönderme seçeneği sunar. Daha fazla bilgi için bkz. [Şirket başına Yan haklar yönetimi parametrelerini yapılandırma](hr-benefits-setup-parameters-per-company.md). |
 | Çalışanları için bir yönetici tarafından girilen yetenekler, bir iş akışı tarafından otomatik olarak onaylanabilir | Çok yakında sunulacak. |
 
-Planlanan özelliklerin tam listesi ve bunların zamanlanmış sürümleri için, bkz. [Dynamics 365 Human Resources 2020 sürümü 2. Dalga'ya genel bakış](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+Planlanan özelliklerin tam listesi ve bunların zamanlanmış sürümleri için bkz. [Dynamics 365 Human Resources 2020 sürümü 2. Dalga'ya genel bakış](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="terminology-updates-for-microsoft-dataverse"></a>Microsoft Dataverse için terminoloji güncelleştirmeleri
 

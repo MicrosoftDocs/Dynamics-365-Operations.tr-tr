@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93d25a260cfc94e898ef50c618b2cbc640c963bc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 04c26eec8be61d60908bef67c75958287e7e1a01
+ms.sourcegitcommit: 85141b21ac90f3db1b378c21f9c7f3d8f74e182f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876339"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129527"
 ---
 # <a name="create-a-customer-invoice"></a>Müşteri faturası oluşturma
 
@@ -76,7 +76,7 @@ Faturayı deftere naklettiğinizde, her madde için **Faturan kalan** miktarı, 
 
 Stok hareketleri fatura numarasıyla güncelleştirilir ve satış siparişindeki **Satır durumu** alanı **Faturalandı** olarak değiştirilir. 
 
-Satış siparişlerinin durumunu **Tüm satış siparişleri** listesi sayfasından görüntüleyin.
+Satış siparişlerinin durumunu **Tüm satış siparişleri** listesi sayfasında görüntüleyin.
 
 ## <a name="consolidate-sales-orders-or-packing-slips-for-posting"></a>Satış siparişlerini veya sevk irsaliyelerini deftere nakletmek için konsolide edin.
 Bu işlemi, bir veya daha fazla satış siparişi faturalanmaya hazır durumda olduğunda ve bunları tek bir faturada birleştirmek istediğinizde kullanın. 
@@ -90,6 +90,14 @@ Satış siparişi müşteri faturalarını tesise göre veya teslimat adresine g
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Fiyatı ve masrafı olmayan satış siparişi fatura satırları için Gelir hesabına nakletme
 Fiyat ve masraf içermeyen satış siparişi satırları için **Genel muhasebe**'deki **Gelir** hesabını güncelleştirme seçeneğiniz olacaktır. Bu bilgileri ayarlamak veya görüntülemek için, **Alacak hesapları parametreleri** sayfasının **Genel muhasebe ve satış vergisi** sekmesindeki **Sıfır fiyatlı ve sıfır masraflı satış siparişi fatura satırları için Gelir hesabına naklet** parametresine gidin. (**Alacak hesapları > Kurulum > Alacak hesapları parametreleri**). Fiyat ve masraf içermeyen satış siparişi faturası satırları için **Gelir** hesabını güncelleştirmek üzere **Evet**'i seçin. Bu seçenek işaretliyse fiş, **Müşteri bakiyesi** ve **Gelir** deftere nakil türleri için 0,00 girişlerini içerir. Bir gelir hesabı, **Satış siparişi** hesabı tanımı sekmesindeki **Stok deftere nakil** parametresi sayfasında tanımlanır. Bu seçenek belirlenmezse, fiyat veya masraf bilgisi içermeyen satırlar **Gelir** nakledilmez. Bunun yerine fiş, **Müşteri bakiyesi** deftere nakil türü için 0,00 girişi içerir.
+
+## <a name="line-creation-sequence-number-information"></a>Satır oluşturma sıra numarası bilgileri
+Müşteri fatura satırlarını deftere naklettiğinizde, sıralı satır oluşturma sıra numaraları oluşturabilirsiniz. Satır oluşturma sıra numaraları deftere nakil işlemi sırasında atanır. Sıralı olmayan numaralandırmaya izin vererek, müşteri faturası deftere nakletme işleminin performansını artırmaya yardımcı olabilirsiniz. Satır oluşturma sıra numaraları, sıralı sıralama bekleyen üçüncü taraf tümleştirmeler tarafından kullanılabilir. Satır oluşturma sıra numaralarıyla entegre olabilecek uzantılar hakkında BT departmanınıza danışın.
+
+Bu bilgileri ayarlamak veya görüntülemek için, **Alacak hesapları parametreleri** sayfasında, **Güncelleştirmeler** sekmesinde, **Müşteri fatura satırları deftere nakledilirken sıralı satır numaraları ata** seçeneğini belirleyin.
+
+- Satır oluşturma sıra numaraları için sıralı olmayan numaralandırma kullanmak üzere **Hayır** seçeneğini belirleyin.
+- Sıralı numaralandırmayı kullanmak için seçeneği **Evet** olarak ayarlayın. Seçeneği İtalya'da birincil adresi olan tüzel kişilikler için **Evet** ayarlamalısınız. **CustInvoiceTransRandLineCreationSeqNumFlight** sınırlı biçimde dağıtma özelliği devre dışı bırakılırsa **Evet** olarak ayarlamanız gerekir.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Deftere nakil davranışını değiştiren ek ayarlar
 Aşağıdaki alanlar deftere nakil işleminin davranışını değiştirir.

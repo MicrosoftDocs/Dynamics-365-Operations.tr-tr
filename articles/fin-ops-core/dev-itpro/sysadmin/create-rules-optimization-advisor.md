@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1b1d9b14cb67b1dd0a961f6f8618de37147a2c52
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2774d18611b10a1f627d5fb6e109696a3ca5e5f8
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850919"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108578"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>En iyi duruma getirme danışmanı için kurallar oluşturma
 
@@ -251,7 +251,7 @@ public final class SkeletonSelfHealingRule extends SelfHealingRule implements ID
 }
 ```
 
-Daha fazla bilgi için kısa YouTube videosunu izleyin: [Dynamics 365 for Finance and Operations içinde iyileştirme danışmanı](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+Daha fazla bilgi için YouTube'daki [Dynamics 365 Finance'te İyileştirme danışmanı](https://www.youtube.com/watch?v=MRsAzgFCUSQ) başlıklı kısa videoyu izleyin
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

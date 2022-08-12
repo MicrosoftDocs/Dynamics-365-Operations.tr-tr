@@ -1,6 +1,6 @@
 ---
 title: Tümleşik satıcı aslı
-description: Bu makale, Finans ve Operasyon uygulamaları ile Dataverse arasında satıcı verisi tümleştirmesini açıklar.
+description: Bu makale, finans ve operasyon uygulamaları ile Dataverse arasında satıcı verisi tümleştirmesini açıklar.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 394bb19000076eace6377e07bb3a939c8345da8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a2c32ef546a5bc74e090591c0ac9d51529299041
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905329"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112217"
 ---
 # <a name="integrated-vendor-master"></a>Tümleşik satıcı aslı
 
@@ -32,12 +32,12 @@ Dataverse'teki **Hesap/İlgili Kişi** tablosunda satıcı verilerini saklamak i
 
 ![Satıcı veri akışı.](media/dual-write-vendor-data-flow.png)
 
-**Hesap/İlgili Kişi** tablosunda satıcı verilerini saklamaya devam etmek istiyorsanız genişletilmiş satıcı tasarımını kullanabilirsiniz. Genişletilmiş satıcı tasarımını kullanmak için çift yazan çözüm paketindeki satıcı iş akışlarını konfigüre etmelisiniz. Daha fazla bilgi için, bkz. [Satıcı tasarımları arasında geçiş yap](vendor-switch.md).
+**Hesap/İlgili Kişi** tablosunda satıcı verilerini saklamaya devam etmek istiyorsanız genişletilmiş satıcı tasarımını kullanabilirsiniz. Genişletilmiş satıcı tasarımını kullanmak için çift yazan çözüm paketindeki satıcı iş akışlarını konfigüre etmelisiniz. Daha fazla bilgi için bkz. [Satıcı tasarımları arasında geçiş yap](vendor-switch.md).
 
 ![Genişletilmiş satıcı veri akışı.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Self Servis satıcıları için Power Apps portalları kullanıyorsanız satıcı bilgileri doğrudan Finans ve Operasyon uygulamalarına akabilir.
+> Self Servis satıcıları için Power Apps portalları kullanıyorsanız satıcı bilgileri doğrudan Finans ve operasyon uygulamalarına akabilir.
 
 ## <a name="templates"></a>Şablonlar
 
@@ -52,8 +52,9 @@ Finans ve Operasyon uygulamaları | Müşteri etkileşimi uygulamaları     | Ta
 [Ödeme planı satırları](mapping-reference.md#159) | msdyn_paymentschedulelines | Müşterilerin ve satıcıların ödeme planı satırları referans verilerini eşitler.
 [Ödeme planı](mapping-reference.md#160) | msdyn_paymentschedules | Bu şablon, müşterilerin ve satıcıların ödeme planı referans verilerini eşitler.
 [Ödeme koşulları](mapping-reference.md#161) | msdyn_paymentterms | Bu şablon, müşterilerin ve satıcıların ödeme koşulları (ödeme koşulları) referans verilerini eşitler.
-[Satıcılar V2](mapping-reference.md#202) | msdyn_vendors | Satıcılar için özel bir çözüm kullanan işletmeler, Finans ve Operasyon uygulamaları tümleştirmesi nedeniyle Dataverse'da sunulmakta olan kullanıma hazır satıcı kavramından yararlanabilir.
+[Satıcılar V2](mapping-reference.md#202) | msdyn_vendors | Satıcılar için özel bir çözüm kullanan işletmeler, finans ve operasyon uygulamaları tümleştirmesi nedeniyle Dataverse'te sunulmakta olan kullanıma hazır satıcı kavramından yararlanabilir.
 [Satıcı grupları](mapping-reference.md#200) | msdyn_vendorgroups | Bu şablon satıcı grubu bilgilerini eşitler.
 [Satıcı ödeme yöntemi](mapping-reference.md#201) | msdyn_vendorpaymentmethods | Bu şablon, satıcı ödeme yöntemi bilgilerini eşitler.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

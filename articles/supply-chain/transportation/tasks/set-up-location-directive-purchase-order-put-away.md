@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d973d1cdb530a031ca8a5caf621f9bebced4842
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25484efd7be026bfc3a209fb52822b87d6b76cc2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873506"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065531"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Satın alma siparişini yerine koyma için yerleşim yönergesi ayarlama
 
 [!include [banner](../../includes/banner.md)]
 
-Bu makale, bir basit konum yönergesini kurmayı açıklar. Gösterilen örnek, bir satınalma siparişi için alınan maddelerin yerleştirileceği yeri belirlemekte kullanılacak bir konum yönergesini oluşturmayı anlatmaktadır. Bu görev kılavuzunu belirtilen verilerle yürütmek için demo verileri şirketi USMF'yi kullanabilirsiniz. Ön koşullar: Değerlendirme kodu oluşturmanız gerekir. Bu yordamda yeniden etiketleme olarak adlandırılan bir değerlendirme kodunu kullanıyoruz. Kendi verinizde bir konum yönergesi oluşturuyorsanız, ambar ve maddeleriniz için gelişmiş ambar yönetimini ayarlamış olmanız gerekir. Bu yordam ambar yöneticisi için hazırlanmıştır.
+Bu makale, bir basit konum yönergesini kurmayı açıklar. Gösterilen örnek, bir satınalma siparişi için alınan maddelerin yerleştirileceği yeri belirlemekte kullanılacak bir konum yönergesini oluşturmayı anlatmaktadır. Bu görev kılavuzunu belirtilen verilerle yürütmek için demo verileri şirketi USMF'yi kullanabilirsiniz. Ön koşullar: Değerlendirme kodu oluşturmanız gerekir. Bu yordamda yeniden etiketleme olarak adlandırılan bir değerlendirme kodunu kullanıyoruz. Kendi verinizde bir konum yönergesi oluşturuyorsanız, ambar ve maddeleriniz için ambar yönetimi işlemlerini (WMS) ayarlamış olmanız gerekir. Bu yordam ambar yöneticisi için hazırlanmıştır.
 
 1. Gezinti bölmesinde **Modüller > Ambar yönetimi > Kurulum > Konum yönergeleri**'ne gidin.
 2. **İş siparişi türü** alanında **Satınalma siparişi**'ni seçin.

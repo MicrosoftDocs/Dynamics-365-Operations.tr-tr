@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: yufeihuang
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d493164b754b86a9df9ce4dcf9df8b20eeb55c5c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 640a45e29627ffe56535c7d05419309688e8ecb6
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859444"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069831"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Eldeki stok mobil çalışma alanı
 
@@ -29,7 +29,7 @@ ms.locfileid: "8859444"
 
 Bu makale, **Eldeki stok** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, ayrılmış ve kullanılabilir stok hakkında bilgileri her yerde ve her zaman edinebilmenizi sağlar.
 
-Bu mobil çalışma alanı, Finance and Operations (Dynamics 365) mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
+Bu mobil çalışma alanı, finans ve operasyon (Dynamics 365) mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
 
 ## <a name="overview"></a>Genel Bakış
 Genellikle, şirketler her gün birden fazla sevkiyata ve birden fazla stok girişine sahiptirler. Bu hareketler eldeki stok durumunu sürekli olarak değiştirir. **Eldeki stok** mobil çalışma alanı, şirketler arası eldeki stok durumunu görmenizi sağlar, böylece stok verisi hakkında en son bilgileri istediğiniz mobil cihazdan edinebilirsiniz. İster ambarda, satın almada, satışta, üretimde veya yönetimde çalışıyor isterseniz de başka bir role sahip olun, eldeki stok verisine her zaman ve her yerde erişebilirsiniz. 
@@ -72,10 +72,10 @@ Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri dağıtıldıysa sistem 
 </thead>
 <tbody>
 <tr class="odd">
-<td>KB 4013633 uygulayın.</td>
+<td>BB 4013633 uygulayın.</td>
 <td>Sistem yöneticisi</td>
 
-<td>KB 4013633, <strong>Eldeki stok</strong> mobil çalışma alanını içeren bir X++ güncelleştirmesi veya meta veri düzeltmesidir. KB 4013633 uygulamak için sistem yöneticiniz bu adımları atması gerekir.
+<td>BB 4013633, <strong>Eldeki stok</strong> mobil çalışma alanını içeren bir X++ güncelleştirmesi veya meta veri düzeltmesidir. BB 4013633 uygulamak için sistem yöneticiniz bu adımları atması gerekir.
 <ol>
 <li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Meta veri düzeltmesini Microsoft Dynamics Lifecycle Services (LCS) üzerinden indirin</a>.</li>
 <li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Meta veri düzeltmesini kurun</a>.</li>
@@ -94,7 +94,7 @@ Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri dağıtıldıysa sistem 
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobil uygulamayı indirin ve yükleyin
 
-Finance and Operations (Dynamics 365 ) mobil uygulamasını indirin ve yükleyin:
+Finans ve operasyon (Dynamics 365) mobil uygulamasını indirin ve yükleyin:
 
 -   [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [İPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -131,3 +131,4 @@ Finance and Operations (Dynamics 365 ) mobil uygulamasını indirin ve yükleyin
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

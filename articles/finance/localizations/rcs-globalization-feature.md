@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: cf08f25f7d092e0f93284a4019096378543adb9d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4981d72d76d6f865b919e90994a0ce1b0bcba494
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888908"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066122"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Service (RCS) - Küreselleşme özellikleri
 
@@ -40,7 +40,7 @@ Yordamları gerçekleştirmeden önce, aşağıdaki görevlerle ilgili adımlar�
 - RCS örneğine erişme.
 - Bir konfigürasyon sağlayıcısı oluşturma ve etkinleştirme. Daha fazla bilgi için bkz. [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Finans ve Operasyon uygulamaları örneğinizde aşağıdaki adımları izleyin.
+Finans ve operasyon uygulamaları örneğinizde aşağıdaki adımları izleyin.
 
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 2. Şirketiniz için hiçbir RCS ortamı sağlanmamışsa **Regulatory services -Yapılandırma**'yı seçin ve ardından bir ortam sağlamak için yönergeleri izleyin.

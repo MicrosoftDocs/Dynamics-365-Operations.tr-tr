@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c9efae1061e96c0c42d5ca6a100bb36889ce56b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9640f460ed7b0b1a0cfdffb7c318bf833f8627fc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859680"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065322"
 ---
 # <a name="create-links-from-human-resources-to-another-finance-environment"></a>Human Resources uygulamasından başka bir Finance ortamına bağlantılar oluşturma
 
@@ -53,7 +53,7 @@ Oluşturduğunuz her bağlantının aşağıdaki bilgileri tanımlanması gereki
 
    Gerekli menü öğesini bulmak için:
    1. Finance ortamına gidin ve gezintinin hedefi olan sayfayı açın. 
-   2. Menü öğesini URL'den kopyalayın. Örneğin, bağlantının sizi Finance and Operations'ta personele götürmesini isterseniz URL'de "&mi" sonrasında görünen değeri girin. 
+   2. Menü öğesini URL'den kopyalayın. Örneğin, bağlantının sizi finans ve operasyon uygulamalarında personele götürmesini isterseniz URL'de "&mi" sonrasında görünen değeri girin. 
    3. Bu örnekte personel listesi sayfasına gitmek için menü öğesi: HcmWorkerListPage_Employees.
 
  - **Veri kaynağına bağlantı**: Bağlantı referansı olan veri kaynağını seçin. En sık kullanılan kaynaklar, **Çalışan** ve **Konum** gibi, kullanılabilirdir.
@@ -63,4 +63,5 @@ Oluşturduğunuz her bağlantının aşağıdaki bilgileri tanımlanması gereki
 Sistem yöneticileri, **Bu bağlantıyı etkinleştir** seçeneği **Hayır** olarak ayarlanmış olsa bile yeni oluşturulan bağlantıları tanımlanan sayfalarda gösterir. Bu, bağlantıları diğer çalışanlara sunmadan önce test etmek için kullanılabilir. Tüm diğer roller yapılandırılmış bağlantıları yalnızca **Bu bağlantıyı etkinleştir** seçeneği **Evet** olarak ayarlandıktan sonra görür. Bağlantıların yer aldığı sayfalara erişimi olan personeller, bağlantılara erişime sahiptir.
 
 Ayrıca kullanıcıların, o ortamdaki sayfalara erişmek için tanımlanmış ikincil ortam içinde güvenlik hakları da olmalıdır. Yoksa, bağlantıyı kullanırken güvenlik iletişim kutusu görüntülenir.
+
 

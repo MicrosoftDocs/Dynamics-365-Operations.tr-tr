@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 308dd4fc75ab656359e80b518cec00fc74d42ea6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a139134fe5122e29b7087bca5ff2ee998fd4669
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852970"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070157"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (14 Mayız 2020)
 
@@ -31,7 +31,7 @@ Bu makalede Dynamics 365 Human Resources'te yeni veya değişen özellikler aç�
 
 ## <a name="platform-changes"></a>Platform değişiklikleri
 
-Platform değişiklikleri, bu haftaki sürüme dahil edildi. Daha fazla bilgi için bkz. [Finans ve Operasyon uygulamalarının 10.0.10 sürümü için platform güncelleştirmeleri (Mayıs 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Bu sürümde, hata düzeltmeleri ve kaydedilmiş görünümlerde değişiklikler bulunmaktadır.
+Platform değişiklikleri, bu haftaki sürüme dahil edildi. Daha fazla bilgi için bkz. [Finans ve operasyon uygulamalarının 10.0.10 sürümü için platform güncelleştirmeleri (Mayıs 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Bu sürümde, hata düzeltmeleri ve kaydedilmiş görünümlerde değişiklikler bulunmaktadır.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Dataverse seçim listelerinin İzin sabit listeleriyle tutarlı olduğundan emin olma (436343)
 

@@ -1,26 +1,27 @@
 ---
 title: Rapor Tasarımcısı arayüzü
 description: Bu makalede, Rapor Tasarımcısı'nda nasıl gezineceğiniz ve belirli gereksinimlerinizi karşılamak için çeşitli seçenekleri nasıl kullanacağınız açıklanmaktadır.
-author: ShylaThompson
+author: aprilolson
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
-ms.custom: 59041
-ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2af539e9201456c46d1dd5fef5f31f9c4f225cdd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "59041"
+ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
+ms.search.form: FinancialReports
+ms.openlocfilehash: 2376f0a7e64398d9180f9074f532270487dbeec0
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844604"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206109"
 ---
 # <a name="report-designer-interface"></a>Rapor Tasarımcısı arayüzü
 

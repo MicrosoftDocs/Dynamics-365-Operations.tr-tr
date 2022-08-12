@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 281ee90b7cae2d24d37d0684ad9975118560bb3e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b611abb2d68d93178d0c26ba40b22f1b8d26b191
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869995"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203124"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Transfer emirleri için vergi özelliği desteği
 
@@ -111,7 +111,10 @@ Bir transfer emrine dahil olan vergiyi ayarlamak için bu adımları izleyin. Bu
 6. Madde vergi grubunun uygulanabilirliğini tanımlayın.
 
     1. **Sütunları Yönet**'i seçin ve sonra uygulanabilirlik tablosunu oluşturmak için kullanılacak sütunları seçin.
-    2. Uygulanabilirlik kuralları ekleyin. **Madde Vergi grubu** alanını boş bırakmayın.
+    2. Uygulanabilirlik kuralları ekleyin.
+        
+       > [!NOTE]
+       > Vergilendirilebilir belge satırlarınızın varsayılan madde satış vergisi grubu zaten doğruysa, bu matrisi boş bırakın. 
         
         Transfer emri sevkiyatı ve makbuzu için yeni bir kural ekleyin.
         1. **Uygulanabilirlik kuralları** sayfasında **Ekle**'yi seçin.

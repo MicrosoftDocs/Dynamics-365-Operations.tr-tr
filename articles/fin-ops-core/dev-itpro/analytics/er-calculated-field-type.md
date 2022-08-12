@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a4eb70144957ecdbeba4246fb8c7cd6a20cb08c
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934714"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108344"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Hesaplanan alan türünün ER veri kaynaklarının parametreleştirilmiş çağrılarını destekleme
 
@@ -36,7 +36,7 @@ Bu makaledeki örnekleri tamamlamak için şu erişimlere sahip olmanız gerekir
     - Elektronik raporlama işlev danışmanı
     - Sistem yöneticisi
 
-- Aşağıdaki rollerden biri için, Finance and Operations ile aynı kiracı için sağlanan Regulatory Configuration Services'a (RCS) erişim:
+- Aşağıdaki rollerden biri için, finans ve operasyon ile aynı kiracı için sağlanan Regulatory Configuration Services'a (RCS) erişim:
 
     - Elektronik raporlama geliştirici
     - Elektronik raporlama işlev danışmanı
@@ -84,7 +84,7 @@ Bu örnekte, Litware, Inc. adlı örnek şirket için bir yapılandırma oluştu
             - Vergi değerlerinin toplamı.
             - Uygulanan vergi oranının minimum değeri.
 
-    Bu yapılandırmadaki model eşlemesi, bu model için oluşturulan ve Finance and Operations'da yürütülen ER biçimleri için temel veri modelini uygular. Sonuç olarak **Vergi** ve **Gr** veri kaynaklarının içeriği soyut veri kaynakları gibi ER biçimleri için sunulur.
+    Bu yapılandırmadaki model eşlemesi, bu model için oluşturulan ve finans ve operasyon uygulamasında yürütülen ER biçimleri için temel veri modelini uygular. Sonuç olarak **Vergi** ve **Gr** veri kaynaklarının içeriği soyut veri kaynakları gibi ER biçimleri için sunulur.
 
     ![Vergi ve Gr veri kaynaklarını gösteren model eşleme tasarımcısı sayfası.](media/er-calculated-field-type-01.png)
 
@@ -343,3 +343,4 @@ Yapılandırılmış parametreli hesaplanan alanların doğru çalıştığında
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

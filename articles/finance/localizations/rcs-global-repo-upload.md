@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8cfbcfea3c6056d87eb600c9a2f9e0d1727c30ff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f73f7189ad82d85169a4e0df573dd26dab8bb009
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894757"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070615"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>Regulatory Configuration Services (RCS) içinde ER yapılandırmaları oluşturma ve bunları Genel depoya yükleme
 
@@ -37,7 +37,7 @@ Bu yordamları tamamlamadan önce aşağıdaki önkoşulları tamamlamanız gere
 
 Ayrıca, kuruluşunuz için bir RCS ortamının sağlandığından da emin olmalısınız. Kuruluşunuz için sağlanmış bir RCS örneğiniz yoksa, aşağıdaki adımları kullanarak bunu yapabilirsiniz:
 
-1. Finance ve Operations uygulamasında, **Kuruluş yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
+1. Finans ve operasyon uygulamasında, **Kuruluş yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 2. **İlgili bağlantılar / Harici bağlantılar**'da , **Regulatory services – Konfigürasyon**'u seçin ve bir tane sağlamak üzere **Kaydolmak** için yönergeleri izleyin.
 
 Kuruluşunuz için zaten bir RCS ortamı sağlanmışsa **oturum açma** seçeneğini belirleyerek bu URL'ye erişmek için sayfa URL'sini kullanın.
@@ -105,3 +105,4 @@ Yapılandırma sürümü silindi ve onay iletisi gösteriliyor.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

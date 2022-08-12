@@ -1,6 +1,6 @@
 ---
 title: İstemciyle ilgili SSS
-description: Bu makalede, Finans ve Operasyon istemcisi hakkında sık sorulan soruların yanıtlarını verilmektedir.
+description: Bu makalede, finans ve operasyon istemcisi hakkında sık sorulan soruların yanıtlarını verilmektedir.
 author: jasongre
 ms.date: 09/11/2019
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e64fb2453f17760b17ca2a7d3f593ac34cde0cc9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ca763f388bfc59951febf93f314d3df7e12c50cf
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071045"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124443"
 ---
 # <a name="client-faq"></a>İstemciyle ilgili SSS
 
@@ -28,7 +28,7 @@ ms.locfileid: "8071045"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Bu makalede, Finans ve Operasyon istemcisi hakkında sık sorulan soruların yanıtlarını verilmektedir.
+Bu makalede, finans ve operasyon istemcisi hakkında sık sorulan soruların yanıtlarını verilmektedir.
 
 ## <a name="why-arent-symbols-loaded"></a>Simgeler niçin yüklenmedi?
 

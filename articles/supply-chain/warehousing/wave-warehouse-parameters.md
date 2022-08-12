@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2a64cba837faf84f3e8470a9831d1641213a5cc4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e02cd80a3b7692f496fc70e50b812fae358103bc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909626"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067866"
 ---
 # <a name="warehouse-parameters-for-wave-processing"></a>Dalga işleme için ambar parametreleri
 
@@ -41,7 +41,7 @@ Dalga işleme için ambar parametrelerini ayarlamak üzere şu adımları izleyi
     - **Dalga işleme toplu il grubu**: Toplu işleri kullanarak dalgaları işlediğinizde kullanılacak toplu iş grubunu seçin. Toplu iş grubu toplu işlemlerinin çalıştırılacağı sunucuyu belirtir.
     - **Dalgaları toplu işle**: Dalgaların toplu iş tarafından otomatik olarak işlenmesinin etkinleştirilip etkinleştirilmeyeceğini seçin. Paralel işlemeyi kullanmak için bunu *Evet* olarak ayarlamalısınız. Toplu işi **Dalgaları işle** sayfasında ayarlarsınız. (Ayrıca bu listenin sonundaki nota bakın.)
     - **Dalga ilerlemesi günlüğü oluştur**: Sistemin bir maddenin her tahsisatında ve boyutlarının başlayıp sona erdiğinde günlük kaydı oluşturup oluşturmayacağını seçin. Bu günlüğü yalnızca gereksinim duyduğunuzda (örneğin, ilk test sırasında veya sorun giderme için) etkinleştirmelisiniz. Daha fazla bilgi için bkz. [Dalga tahsisatı](wave-allocation-method.md).
-    - **Dalga işleme geçmişi günlüğü oluştur**: Bekleyen ayırmaların paralel işlemi sırasında dahil olmak üzere dalga işlendikten sonra bir dalga ile ilgili bilgilerin günlük dosyasına otomatik olarak kaydedilip kaydedilmeyeceğini seçin. Genellikle bunu sorun giderme sırasında etkinleştirmeniz gerekir çünkü ek yük ekler. Günlüğü görüntülemek için, **Ambar Yönetimi \> giden dalgalar \> dalga işleme geçmişi günlüğü**'ne gidin. Daha fazla bilgi için, bkz. [dalga oluşturma ve işleme](wave-processing.md).
+    - **Dalga işleme geçmişi günlüğü oluştur**: Bekleyen ayırmaların paralel işlemi sırasında dahil olmak üzere dalga işlendikten sonra bir dalga ile ilgili bilgilerin günlük dosyasına otomatik olarak kaydedilip kaydedilmeyeceğini seçin. Genellikle bunu sorun giderme sırasında etkinleştirmeniz gerekir çünkü ek yük ekler. Günlüğü görüntülemek için, **Ambar Yönetimi \> giden dalgalar \> dalga işleme geçmişi günlüğü**'ne gidin. Daha fazla bilgi için bkz. [dalga oluşturma ve işleme](wave-processing.md).
     - **Konteyner kullanımı geçmiş günlüğü oluştur**: Dalga işlendikten sonra dalga için konteyner kullanımı hakkındaki bilgilerin bir günlük dosyasına otomatik olarak kaydedilip kaydedilmeyeceğini seçin. Günlüğü görüntülemek için, **Ambar Yönetimi \> Paketleme ve Konteyner kullanımı \> Konteyner kullanımı geçmişi**'ne gidin.
     - **Kilidi bekle (ms)**: Tahsisat adımının, başka bir tahsisat kaynağı tarafından kilitlenmiş olan bir sistem kaynağı için bekleyeceği zamanı, milisaniye cinsinden girin. Bu süre aşıldığında, dalga işlenmez ve bir hata iletisi görüntülenir.
 
@@ -52,7 +52,7 @@ Dalga işleme için ambar parametrelerini ayarlamak üzere şu adımları izleyi
 > [!NOTE]
 > Dalgayı işlemek için kullanılan dalga şablonunda, dalga işlemeyi otomatikleştiren ayarları belirtebilirsiniz. Toplu iş için bir zamanlama ayarladıysanız, dalga şablonunda zamanlama ile otomasyon ayarlarını koordine etmeniz gerekir. Daha fazla bilgi için [Dalga şablonu oluşturma](wave-templates.md) konusuna bakın.
 >
-> *Taşıma Yönetimi* ve *Gelişmiş ambar yönetimi kullanıyorsanız*, bir dalga işlemi gerçekleştirdiğinizde yükleri konsolide etmek isteyip istemediğiniz belirtebilirsiniz. Örneğin, birkaç küçük yük aynı anda sevk edilebilir olduğunda bu kullanışlı bir seçenektir. Bir dalgayı işlerken yükleri konsolide etmek için, **yükler** sekmesinde, **dalga işleme sırasında yükleri konsolide et** onay kutusunu seçin.</P>
+> *Taşıma yönetimi* ve *ambar yönetimi işlemleri (WMS)* kullanıyorsanız bir dalga işlemi gerçekleştirdiğinizde yükleri konsolide etmek isteyip istemediğiniz belirtebilirsiniz. Örneğin, birkaç küçük yük aynı anda sevk edilebilir olduğunda bu kullanışlı bir seçenektir. Bir dalgayı işlerken yükleri konsolide etmek için, **yükler** sekmesinde, **dalga işleme sırasında yükleri konsolide et** onay kutusunu seçin.</P>
 
 ## <a name="set-up-full-or-partial-reservation-for-production-waves"></a>Üretim dalgaları için tam veya kısmi rezervasyonu yapma
 

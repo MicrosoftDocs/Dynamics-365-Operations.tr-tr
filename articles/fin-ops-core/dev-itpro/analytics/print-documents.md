@@ -7,21 +7,21 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: IT Pro, Application User
-ms.reviewer: kfend
-ms.custom:
-- "69161"
-- intro-internal
-ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.custom:
+- "69161"
+- intro-internal
+ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.openlocfilehash: d8d40f7cb94e17370f04b0c97365600f68eb5090
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984920"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206740"
 ---
 # <a name="document-printing-overview"></a>Belge yazdırmaya genel bakış
 
@@ -54,7 +54,7 @@ Aşağıdaki tabloda üç birincil yazdırma senaryosu açıklanmaktadır.
 - **Senaryo 2** istemci uygulamalarını ve Microsoft 365 hizmetlerini kullanır.
 - **Senaryo 3** istemci uygulamalarının ve Microsoft Azure içinde barındırılan hizmetlerin desteğini gerektirir.
 
-Azure aboneliğine dağıtılan platformun yanı sıra, Finance and Operations uygulamaları müşterilere etki alanında barındırılan hizmetleri belgeleri yazdırmak üzere daha kolay kullanma konusunda yardımcı olan tümleşik, birinci taraf bir Azure uygulaması sunar.
+Azure aboneliğine dağıtılan platformun yanı sıra, finans ve operasyon uygulamaları müşterilere etki alanında barındırılan hizmetleri belgeleri yazdırmak üzere daha kolay kullanma konusunda yardımcı olan tümleşik, birinci taraf bir Azure uygulaması sunar.
 
 ## <a name="service-overview"></a>Hizmete genel bakış
 Barındırılan uygulamalar tarafından üretilen belgeler ağa bağlı cihazda yazdırılmayı beklerken, Azure blob depolamada depolanırlar. [Ağdan yazdırmayı etkinleştirmek için Belge Yönlendirme Aracısı'nı yükleme](install-document-routing-agent.md) Azure hizmetleri için güvenli bir kanal oluşturmak üzere Azure kimlik doğrulaması kullanılır.

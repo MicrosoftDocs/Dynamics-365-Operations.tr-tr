@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.24'deki yenilikler veya değişiklikler (Şubat 2022)
-description: Bu makalede, Microsoft Dynamics 365 Supply Chain Management 10.0.24'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Supply Chain Management 10.0.24'teki yenilikler veya değişiklikler (Şubat 2022)
+description: Bu makalede, Microsoft Dynamics 365 Supply Chain Management 10.0.24'taki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
 ms.date: 12/03/2021
 ms.topic: article
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 94e465616338b0c905ccf6b8244324c18c7a59e8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f8864ac22153908492b5e7c30a03617e6dc9d05a
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849459"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166890"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Dynamics 365 Supply Chain Management 10.0.24'deki yenilikler veya değişiklikler (Şubat 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Dynamics 365 Supply Chain Management 10.0.24'teki yenilikler veya değişiklikler (Şubat 2022)
 
 [!include [banner](../includes/banner.md)]
 
@@ -46,7 +46,7 @@ Bu özelliklerden herhangi birini açmak veya kapatmak istiyorsanız bunu [özel
 | Modül | Özellik yönetiminde özellik adı | Daha fazla bilgi |
 |---|---|---|
 | Üretim denetimi | Üretim emirleri için isteğe bağlı malzeme kullanılabilirliği kontrolü | Bu özellik, **Üretim katı yönetimi** çalışma alanından kullanılabilen **Üretim emirlerini serbest bırak** sayfasını açmayı hızlandırır. Bu özellik olmadan, sistem, sayfayı açar açmaz listelenen tüm üretim emirleri için malzemelerin kullanılabilir olup olmadığını otomatik olarak kontrol eder ve bu da çok sayıda siparişiniz varsa önemli zaman alabilir. Bu özellik etkinleştirildiğinde, sistem bunun yerine, malzemeleri yalnızca seçili siparişler için ve gerektiğinde denetlemeyi başlatmak için kullanabileceğiniz bir araç çubuğu düğmesi sağlar. |
-| Üretim denetimi | (Önizleme) Üretim katı yürütme arabiriminde malzeme tüketimini kaydetme (WMS dışı) | Bu özellik, çalışanların malzeme tüketimini, toplu iş numaralarını ve seri numaralarını kaydetmek için üretim katı yürütme arabirimini kullanmalarını sağlar. Bu özellik yalnızca gelişmiş ambar işlemlerini (WMS) kullanmak üzere etkinleştirilmemiş maddeleri destekler. WMS etkin maddeler için destek gelecekteki bir sürüm için planlanmıştır.<p>Özellikle proses endüstrilerindekiler olmak üzere bazı üreticilerin, her bir toplu iş veya üretim emri için tüketilen malzeme miktarını açıkça kaydetmesi gerekir. Örneğin, çalışanlar çalışırken tüketilen malzeme miktarını tartmak için bir ölçek kullanabilir. Tam malzeme izlenebilirliğini sağlamak için bu kuruluşların her ürünü üretirken hangi parti numaralarının tüketildiğini de kaydetmeleri gerekir. |
+| Üretim denetimi | Üretim katı yürütme arabiriminde malzeme tüketimini kaydetme (WMS dışı) | Bu özellik, çalışanların malzeme tüketimini, toplu iş numaralarını ve seri numaralarını kaydetmek için üretim katı yürütme arabirimini kullanmalarını sağlar. Bu özellik yalnızca ambar yönetimi işlemlerini (WMS) kullanmak için etkinleştirilmeyen maddeleri destekler. WMS etkin maddeler için destek gelecekteki bir sürüm için planlanmıştır.<p>Özellikle proses endüstrilerindekiler olmak üzere bazı üreticilerin, her bir toplu iş veya üretim emri için tüketilen malzeme miktarını açıkça kaydetmesi gerekir. Örneğin, çalışanlar çalışırken tüketilen malzeme miktarını tartmak için bir ölçek kullanabilir. Tam malzeme izlenebilirliğini sağlamak için bu kuruluşların her ürünü üretirken hangi parti numaralarının tüketildiğini de kaydetmeleri gerekir. |
 | Üretim denetimi | Bulut ve uç ölçek birimleri için ambar yönetimi iş yükünde tamamlandı olarak bildirme | Bu özellik, uygulama bir bulut veya kenar ölçeği birimindeki ambar yönetimi iş yüküne karşı çalışırken bir üretim veya toplu iş siparişini tamamlandı olarak bildirmek için çalışanların Warehouse Management mobil uygulamasını kullanmasına olanak tanır. Daha fazla bilgi için bkz. [Ölçek biriminde tamamlandı ve yerine kondu olarak bildirme](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
 | Ambar yönetimi | Yeni yük planlama workbench'i sayfaları | İki yeni yük planlama workbench'i sayfasını etkinleştirir: **Gelen yük planlama workbench'i** ve **Giden yük planlama workbench'i**. |
 
@@ -68,9 +68,9 @@ Aşağıdaki yardım makalelerini yakın bir zamanda ekledik veya önemli ölç�
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance ve Operations uygulamaları için Platform güncelleştirmeleri
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finans ve operasyon uygulamaları için platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.24 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance ve Operations uygulamalarının 10.0.24 sürümü için platform güncelleştirmeleri (Şubat 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.24 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finans ve operasyon uygulamalarının 10.0.24 sürümü için platform güncelleştirmeleri (Şubat 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 
@@ -94,3 +94,4 @@ Herhangi bir özellik üründen kaldırılmadan önce, kullanım dışı bırakm
 Yalnızca derleme zamanını etkileyen ancak korumalı alan ve üretim ortamlarıyla ikili uyumlu olan son dakika değişiklikleri için kullanım dışı bırakma süresi 12 aydan kısa olacaktır. Genellikle, bunlar derleyiciye yapılması gereken işlevsel güncelleştirmelerdir.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

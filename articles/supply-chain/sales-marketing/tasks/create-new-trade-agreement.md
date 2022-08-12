@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a16a39d95605900be0fa1e339b8cd0755ba85189
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 24290ec873da9e871c001bcdc97e14dcad0e3d1e
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573429"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111125"
 ---
 # <a name="create-a-new-trade-agreement"></a>Yeni bir ticari sözleşme oluşturma
 
@@ -78,7 +78,7 @@ Daha fazla bilgi için, aşağıdaki teknik incelemeyi indirin (AX2012'yi destek
 
 ### <a name="community-blogs"></a>Topluluk blogları
 
-- [Dynamics 365 for Finance and Operations içindeki satış fiyatları](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
+- [Finans ve operasyon uygulamalarında satış fiyatları](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

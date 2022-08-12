@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Supply Chain Management 10.0.14 sürümündeki yenilikler veya değişiklikler (Ekim 2020)
-description: Bu makalede, Dynamics 365 Supply Chain Management 10.0.14'daki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu makalede, Dynamics 365 Supply Chain Management 10.0.14'taki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
 ms.date: 08/31/2020
 ms.topic: article
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fbb3e3b5569ec3c77c132a068202d496b2bd8a3d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ac5fcf4ccaac06eb58c1bc0915766e6aa0b13a6a
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865222"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124776"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Dynamics 365 Supply Chain Management 10.0.14'daki yenilikler veya değişiklikler (Kasım 2020)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Dynamics 365 Supply Chain Management 10.0.14'taki yenilikler veya değişiklikler (Kasım 2020)
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,13 +33,13 @@ Bu makalede, Microsoft Dynamics 365 Supply Chain Management sürümü 10.0.14'te
 
 ## <a name="features-included-in-this-release"></a>Bu sürümdeki özellikler
 
-Bu sürüm, güncelleştirilmiş bir platform ve genel iyileştirmeler içerir, ancak Supply Chain Management uygulamasına özgü yeni özellikleri içermez. Yakında sunulacak özellikler hakkında daha fazla bilgi için, bkz. [Sürüm planları](/dynamics365/release-plans/) sitesi.
+Bu sürüm, güncelleştirilmiş bir platform ve genel iyileştirmeler içerir, ancak Supply Chain Management uygulamasına özgü yeni özellikleri içermez. Yakında sunulacak özellikler hakkında daha fazla bilgi için bkz. [Sürüm planları](/dynamics365/release-plans/) sitesi.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finans ve Operasyon uygulamaları için Platform güncelleştirmeleri
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finans ve operasyon uygulamaları için platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.14 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finans ve Operasyon uygulamalarının 10.0.14 sürümü için platform güncelleştirmeleri (Ekim 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-14.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.14 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finans ve operasyon uygulamalarının 10.0.14 sürümü için platform güncelleştirmeleri (Ekim 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-14.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 

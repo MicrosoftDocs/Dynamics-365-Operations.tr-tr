@@ -1,7 +1,7 @@
 ---
 title: Banka ekstresi dosyasını içeri aktarma sorunlarını giderme
 description: Bu makalede, banka ekstresi dosyasındaki küçük farklılıklar nedeniyle ortaya çıkan sorunların nasıl düzeltileceği açıklanır.
-author: panolte
+author: angelad116
 ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
@@ -12,19 +12,22 @@ ms.reviewer: kfend
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 422b2df6c4de3a948b0e62bfb70f99b12e04a8f9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 44658ea48b9f7dae76c34c5f3d8828c9e8c4ac32
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711187"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151775"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>Banka ekstresi dosyasını içeri aktarma sorunlarını giderme
 
 [!include [banner](../includes/banner.md)]
+
+>[!NOTE]
+>Bu işlevler, Eylül 2022'de kullanımdan kaldırılacağından yeni kullanıcılar elektronik raporlama kullanmalıdır.
 
 Bankadan gelen banka ekstresi dosyasının, Microsoft Dynamics 365 Finance tarafından desteklenen düzenle eşleşmesi önemlidir. Banka ekstreleri için sıkı standartlar bulunduğundan çoğu tümleştirme doğru şekilde çalışacaktır. Ancak, bazen ekstre dosyası alınamayabilir veya hatalı sonuçlara sahip olabilir. Genellikle, bu sorunlar banka ekstresi dosyasındaki küçük farklılıklar nedeniyle ortaya çıkar. Bu makale, bu farklılıkları gidermeyi ve sorunların nasıl çözüleceğini açıklar.
 
@@ -39,7 +42,7 @@ Bir banka ekstresi doyasını içe aktarmaya çalıştıktan sonra, hatayı bulm
 Banka dosya düzeni tanımını, Finance içe aktarma tanımıyla kıyaslayın ve alanlar ve öğelerdeki farklılıkları not edin. Banka ekstreleri dosyasını ilgili örnek Finance dosyasıyla karşılaştırın. ISO20022 dosyalarında farkları görmek kolaydır.
 
 ## <a name="time-zone-differences-on-imported-bank-statements"></a>İçe aktarılan banka ekstrelerindeki saat dilimi farklılıkları
-İçe aktarma dosyasındaki tarih-saat değerleri, Finance and Operations'da gösterilen tarih-saat değerlerinden farklı olabilir. Bu tutarsızlığı önlemek için **Veri kaynaklarını yapılandır** sayfasına bir saat dilimi tercihi girin. Bir saat dilimi tercihi girme hakkında daha fazla bilgi için bkz. [Gelişmiş banka mutabakatı içe aktarma işlemi](set-up-advanced-bank-reconciliation-import-process.md).
+İçeri aktarma dosyasındaki tarih-saat değerleri, finans ve operasyon uygulamasında gösterilen tarih-saat değerlerinden farklı olabilir. Bu tutarsızlığı önlemek için **Veri kaynaklarını yapılandır** sayfasına bir saat dilimi tercihi girin. Bir saat dilimi tercihi girme hakkında daha fazla bilgi için bkz. [Gelişmiş banka mutabakatı içe aktarma işlemi](set-up-advanced-bank-reconciliation-import-process.md).
 
 ## <a name="transformations"></a>Dönüşümler
 Genellikle, bu değişiklikler üç dönüşümden birinde yapılmalıdır. Her bir dönüşüm belirli bir standart için yazılır.
@@ -109,3 +112,4 @@ Aşağıdaki tablo gelişmiş banka mutabakatı içe alma dosyaları ve üç ilg
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

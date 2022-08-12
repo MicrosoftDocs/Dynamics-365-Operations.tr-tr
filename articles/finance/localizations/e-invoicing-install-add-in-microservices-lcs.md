@@ -1,8 +1,8 @@
 ---
 title: Lifecycle Services'te mikro hizmetler eklentisini yükleme
 description: Bu makalede, Microsoft Dynamics Lifecycle Services'daki (LCS) Elektronik Faturalama eklentisinin nasıl yükleneceği açıklanmaktadır.
-author: dkalyuzh
-ms.date: 02/11/2022
+author: gionoder
+ms.date: 07/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 26f92262eff07ded3e894ee5513dd8dbaa6f94a4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 849d450ddb538e83a4aa6375fc99c705af154c61
+ms.sourcegitcommit: 7a03b336d3c1c90770cc9913668c476e34ebf24a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849819"
+ms.lasthandoff: 07/29/2022
+ms.locfileid: "9209002"
 ---
 # <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Lifecycle Services'de mikro hizmetler için eklentiyi yükleme
 

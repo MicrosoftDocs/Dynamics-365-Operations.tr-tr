@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9e7d220639f5f3af26e892461928c646746963bb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2d6d3fdcc0b0387a92f138b0ba7cf537f473b91a
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874681"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069578"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Mobil çalışma alanının maliyet denetimi
 
@@ -29,7 +29,7 @@ ms.locfileid: "8874681"
 
 Bu makalede, **Maliyet kontrolü** mobil çalışma alanı hakkında bilgi sağlanmaktadır. Bu çalışma alanı, maliyet merkezi yöneticilerinin maliyet merkezi performansı hakkındaki bilgileri her zaman ve her yerde görebilmelerini sağlar.
 
-Bu mobil çalışma alanı, Finance and Operations (Dynamics 365) mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
+Bu mobil çalışma alanı, finans ve operasyon (Dynamics 365) mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
 
 ## <a name="overview"></a>Genel Bakış
 **Maliyet denetleme** mobil çalışma alanı, maliyet merkezlerinin mevcut performansı hakkında anında bilgiyi, ffili maliyetleri, bütçelendirilmiş maliyete kıyaslayarak sağlar. Tekil maliyet öğelerinin durumunun detayına inebilirsiniz.
@@ -92,10 +92,10 @@ Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile 1611 sürümü dağ�
 </thead>
 <tbody>
 <tr class="odd">
-<td>KB 4013633 uygulayın.</td>
+<td>BB 4013633 uygulayın.</td>
 <td>Sistem yöneticisi</td>
 
-<td>KB 4013633, <strong>Maliyet denetleme</strong> mobil çalışma alanını içeren bir X++ güncelleştirmesi veya meta veri düzeltmesidir. KB 4013633 uygulamak için sistem yöneticiniz bu adımları atması gerekir.
+<td>BB 4013633, <strong>Maliyet denetleme</strong> mobil çalışma alanını içeren bir X++ güncelleştirmesi veya meta veri düzeltmesidir. BB 4013633 uygulamak için sistem yöneticiniz bu adımları atması gerekir.
 <ol>
 <li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Meta veri düzeltmesini Microsoft Dynamics Lifecycle Services (LCS) üzerinden indirin</a>.</li>
 <li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Meta veri düzeltmesini kurun</a>.</li>
@@ -114,7 +114,7 @@ Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile 1611 sürümü dağ�
 
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobil uygulamayı indirin ve yükleyin
-Finance and Operations (Dynamics 365 ) mobil uygulamasını indirin ve yükleyin:
+Finans ve operasyon (Dynamics 365) mobil uygulamasını indirin ve yükleyin:
 
 -   [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [İPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -146,3 +146,4 @@ Finance and Operations (Dynamics 365 ) mobil uygulamasını indirin ve yükleyin
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

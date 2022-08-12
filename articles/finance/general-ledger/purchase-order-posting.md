@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventTrans
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 0793c58b07d2c0a133e1a5bc0607483f22206b95
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38a9e2740232b18255109ba867fcdddd5b890774
+ms.sourcegitcommit: 9310c943ac76896663e5604209034da9f8d6139c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849945"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151047"
 ---
 # <a name="purchase-order-posting"></a>Satın alma siparişi deftere naklediliyor
 
@@ -93,10 +93,10 @@ Aşağıdaki tabloda örnek ana hesapları ve açıklamaları olan varsayılan d
 
 | Deftere nakil türü | Temel hesap örneği | Temel hesap adı örneği | Hesap türü | Borç/Alacak? | Kliring hesabı | P/F | İzle | Açıklama |
 |--------------|---------------------|-------------------------|----------------|----------------|--------------------|----|----------|-----------|
-| Stoğa giren satın alınmış malzemelerin maliyeti | 140100</br>140101 | Malzeme stoğu</br>Sevk edilip faturalanmayan malzemeler | Varlık | Borç | Evet | P | Faturalanan satın alınmış malzemelerin maliyeti | Satınalma siparişi deftere nakledildiğinde kullanılır. Hesaba mahsup, Faturalanmamış satınalma harcaması hesabıdır. Bir satınalma siparişi faturası deftere nakledildiğinde, bu hesaptaki tutar için ters işlem uygulanır. |
+| Stoğa giren satın alınmış malzemelerin maliyeti | 140100</br>140101 | Malzeme stoğu</br>Sevk edilip faturalanmayan malzemeler | Varlık | Borç | Evet | P | Faturalanan satın alınmış malzemelerin maliyeti | Bir satınalma siparişi ürün girişi deftere nakledildiğinde ve hesaba mahsup, faturalanmayan Satınalma harcaması olduğunda kullanılır. Bir satınalma siparişi faturası deftere nakledildiğinde, bu hesaptaki tutar için ters işlem uygulanır. |
 | Faturalanmamış satınalma harcaması | 600180 | Malzeme girişleri | Gider | Borç | Evet | P | |Satınalma siparişi deftere nakledildiğinde kullanılır. Standart maliyet kullanıldığında satınalma fiyatı farklarını takip etmek için iki fiş oluşturulur. İlk fişteki hesabın mahsubu, Satınalma tahakkuk hesabıdır. İkinci fişteki mahsup, Stoğa giren satın alınmış malzemelerin maliyeti ve Satın alma fiyat farkı hesaplarının toplamıdır. Bir satınalma siparişi faturası deftere nakledildiğinde bu hesaba nakledilen tutarlara ters işlem uygulanır. |
 | Faturalanan satın alınmış malzemelerin maliyeti | 140100 | Malzeme stoğu | Varlık | Borç | No. | C  |Stoğa giren satın alınmış malzemelerin maliyeti | Bir satınalma siparişi faturası deftere nakledildiğinde kullanılır. Bu hesaba mahsup, Ürün için satınalma harcaması hesabıdır. Bu hesap bilançonuzdaki stoğu temsil eder. Kullanılan hesap, genellik satış siparişinde Birimlerin maliyeti, teslim edilen ve Birimlerin maliyeti, faturalanan için kullanılan hesapla aynıdır. |
-| Ürün için satınalma harcaması | 600180 | Malzeme girişi | Gider | Kredi | No. | C  | |Bir satınalma siparişi faturası deftere nakledildiğinde kullanılır. Bu hesaba mahsup, Satın alınan malzemelerin maliyeti hesabıdır. Bu hesap bilançonuzdaki stoğu temsil eder. |
+| Ürün için satınalma harcaması | 600180 | Malzeme girişi | Gider | Kredi | Evet | C  | |Bir satınalma siparişi faturası deftere nakledildiğinde kullanılır. Standart maliyet kullanıldığında satınalma fiyatı farklarını takip etmek üzere fatura için iki fiş oluşturulur. Bu hesaba mahsup, giriş deftere naklinde kullanılan ve fatura deftere nakli sırasında tersine çevrilen faturalanmayan Satınalma harcaması hesabıdır. Faturalama sırasında satın alınan ve bilançodaki stok hesabına yansıtılmayan stok maliyetlerini temsil eder. Bu, standart maliyet maddesi satınalma işlemlerinde sıklıkla görülen satınalma fiyatı farkı için kâr ve zarar deftere naklidir.|
 | Sabit giriş fiyatı karı (Satınalma, sabit giriş fiyatı karı*) | 510310 | Satın alma fiyat farkı | Gider | Kredi | No. | C | Sabit giriş fiyatı zararı | Bir satınalma siparişi faturası deftere nakledildiğinde ve maddenin faturalanan fiyatıyla varsayılan maliyeti arasında fark olduğunda kullanılır. Fark daha yüksek olduğunda bu hesap kullanılır. Bu hesaba mahsup, Sabit giriş fiyatı mahsup işlemidir. |
 | Sabit giriş fiyatı zararı (Satınalma, sabit giriş fiyatı zararı*) | 510310 | Satın alma fiyat farkı | Gider | Borç | No. | C | Sabit giriş fiyatı karı | Bir satınalma siparişi faturası deftere nakledildiğinde ve maddenin faturalanan fiyatıyla varsayılan maliyeti arasında fark olduğunda kullanılır. Fark daha düşük olduğunda bu hesap kullanılır. Bu hesaba mahsup, Sabit giriş fiyatı mahsup işlemidir. |
 | Sabit giriş fiyatı mahsup işlemi (Satınalma, sabit giriş fiyatı mahsup işlemi*) | 140900 | Stok değişimi | Varlık | İkisi birden | No. | C  | |Bir satınalma siparişi faturası deftere nakledildiğinde ve maddenin faturalanan fiyatıyla varsayılan maliyeti arasında fark olduğunda kullanılır. Bu hesap, Sabit giriş fiyatı kar ve zarar hesaplarının mahsup hesabıdır. |

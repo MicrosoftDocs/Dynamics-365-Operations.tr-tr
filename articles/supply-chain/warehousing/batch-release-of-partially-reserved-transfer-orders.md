@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 591c93eef61992507188323909f37e3f33550a7d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e0b21c0000f6bf1cbbb318c898a519e51ca7e9b8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888397"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068649"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Kısmen rezerve edilen transfer emirleri için toplu iş serbest bırakma
 
@@ -28,7 +28,7 @@ ms.locfileid: "8888397"
 Kısmi rezerve edilmiş transfer emirlerini toplu serbest bırakma işlevi, bir transfer emrini bir ambara, bir toplu iş kullanarak kısmi serbest bırakmanıza olanak sağlar.
 Kısmi bir miktarı serbest bırakma seçeneğine sahip olduğunuz için bir siparişi serbest bırakmadan önce tüm miktarın ambarda kullanılabilir olmasını beklemenize gerek yoktur.
 
-Siparişlerin bir ambara serbest bırakılması, gelişmiş bir ambar yönetimi işlemidir. Bu işlem çekme, paketleme, sevkiyat gibi bir ambar çalışanının bir mobil cihaz kullanarak gerçekleştirebileceği etkinlikleri içerir.
+Siparişlerin bir ambara serbest bırakılması, bir ambar yönetimi işlemleridir (WMS). Bu işlem çekme, paketleme, sevkiyat gibi bir ambar çalışanının bir mobil cihaz kullanarak gerçekleştirebileceği etkinlikleri içerir.
 
 ## <a name="where-it-applies"></a>Uygulandığı yerler
 

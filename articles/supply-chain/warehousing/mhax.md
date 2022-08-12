@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c4b0d991d320d5a679d0ed60880c56a6cb849e2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dc46c9fea94c3d86f9511c2bea4ea64455c936f9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907101"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068374"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Malzeme işleme ekipmanı arabirimi (MHAX)
 
 [!include [banner](../../includes/banner.md)]
 
-Harici fiziksel malzeme işleme (MH) sistemlerini Microsoft Dynamics 365 Supply Chain Management'ta gelişmiş ambar yönetimi (WMS) tarafından yönetilen bir ambara bağlamak için *malzeme işleme ekipmanı arabirimini* (MHAX) kullanabilirsiniz. WMS ve MH sistemleri arasındaki arabirim iki kuyruktan oluşur: biri giden olaylar (WMS'den MH'ye) ve diğeri gelen olaylar için (MH'den WMS'ye). WMS sistemi, çeşitli iş oluşturma ve yürütme işlemleri sırasında oluşturulan iş satırlarına dayalı giden olaylar oluşturur. MH sistemi daha sonra WMS sistemini düzenli olarak yeni olaylar için yoklar ve yanıtları işler. MH sistemi olayları iş talimatlarına uygun olarak işlemeyi tamamladıktan sonra, iş satırının tamamlanması ve kısa malzeme çekme gibi gelen olayları gönderir.
+Harici fiziksel malzeme işleme (MH) sistemlerini Microsoft Dynamics 365 Supply Chain Management'ta ambar yönetimi süreçleri (WMS) tarafından yönetilen bir ambara bağlamak için *malzeme işleme ekipmanı arabirimini* (MHAX) kullanabilirsiniz. WMS ve MH sistemleri arasındaki arabirim iki kuyruktan oluşur: biri giden olaylar (WMS'den MH'ye) ve diğeri gelen olaylar için (MH'den WMS'ye). WMS sistemi, çeşitli iş oluşturma ve yürütme işlemleri sırasında oluşturulan iş satırlarına dayalı giden olaylar oluşturur. MH sistemi daha sonra WMS sistemini düzenli olarak yeni olaylar için yoklar ve yanıtları işler. MH sistemi olayları iş talimatlarına uygun olarak işlemeyi tamamladıktan sonra, iş satırının tamamlanması ve kısa malzeme çekme gibi gelen olayları gönderir.
 
 Aşağıdaki şekilde, MHAX tümleştirmesini kullandığınızda çeşitli maddeler ve işlemlerin gerçekleşme kuyruğu gösterilir.
 

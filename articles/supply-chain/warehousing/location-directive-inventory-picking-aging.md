@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 34ce119ca70596f0e40797c4b44a8fba4d5b7e0e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8b75907d01a029da1ed6a8224f8a7c0ca0230550
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885710"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068685"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Yerleşim yönergesi stoktan çekme yaşlandırma
 
@@ -82,7 +82,7 @@ Demo verileri, senaryoları desteklemek için kurulum ve stok ayarlamaları gere
 
 1. Ayarlarınızı uygulayıp sorgu iletişim kutusunu kapatmak için **Tamam**'ı seçin.
 1. Yerleşim yönergenizde yaptığınız değişiklikleri kaydetmek için **Kaydet**'i seçin.
-1. Bir mobil cihazda veya bilgisayarınızdaki *Dynamics 365 for Finance and Operations - Ambarlama* uygulamasında, senaryoları desteklemek üzere mevcut stoğu ambar yerleşiminden kaldırmak için aşağıdaki adımları izleyin:
+1. Bir mobil cihazda veya bilgisayarınızdaki *Dynamics 365 Supply Chain Management - Ambarlama* uygulamasında, senaryoları desteklemek üzere mevcut stoğu ambar yerleşiminden kaldırmak için aşağıdaki adımları izleyin:
 
     1. Ambar *63* için uygun bir kullanıcı kimliği ve parola kullanarak oturum açın.
     1. Ana menüde **Kalite**'yi seçin.

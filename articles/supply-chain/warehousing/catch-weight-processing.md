@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d0f0e44cfafec722f6eed3d18ba8be4739be30c1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 881c3c4aa655a5ad30adffce108ba2fc3e6691c5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900694"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070424"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Ambar yönetimi ile Fiili ağırlık ürün işlemi
 
@@ -82,7 +82,7 @@ Gerçek ağırlık paketleme istasyonunda konteyner paketleme işlemleri sıras�
 > [!NOTE]
 > **Ambalaj** seçeneği stokun ortalama çekilen ağırlıkla güncelleştirilmesini sağladığından, bu, eldeki stok ağırlığı ile fiili ağırlık etiket ağırlığı arasındaki bir fiili ağırlık kar/zarar ayarlamasına ve/veya farkına neden olabilecek bir uyuşmazlığı tetikleyebilir.
 
-Sayım ve ayarlama düzeltmeleri gibi dahili ambar yönetimi işlemleri için, ağırlığın yakalanması gerekip gerekmediğini tanımlayabilirsiniz. Yakalanmamışsa nominal ağırlık kullanılır. Diğer seçenekler, her fiili ağırlık birimi ve her sayım miktarı için ağırlık yakalamanızı sağlar.
+Sayım ve ayarlama düzeltmeleri gibi dahili işlemler için, ağırlığın yakalanması gerekip gerekmediğini tanımlayabilirsiniz. Yakalanmamışsa nominal ağırlık kullanılır. Diğer seçenekler, her fiili ağırlık birimi ve her sayım miktarı için ağırlık yakalamanızı sağlar.
 
 Ayrıca ağırlığın nasıl yakalanacağını da tanımlayabilirsiniz. İki ana akıştan birinde, fiili ağırlık etiketleri izlenir ve ağırlığı yakalamak için kullanılır. Diğer akışta, fiili ağırlık etiketleri izlenmez.
 
@@ -183,7 +183,7 @@ Her iş akışı ambar yönetimi ile fiili ağırlık ürün işlemeyi desteklem
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>Ambar yönetimi ile fiili ağırlık ürün işleme için diğer kısıtlamalar ve davranışlar
 
 - Kullanıcının izleme boyutlarını belirlemesi istenmediği malzeme çekme işlemleri sırasında, ağırlık ataması ortalama ağırlığa dayalı olarak yapılır. Bu davranış, örneğin bir izleme boyutu kombinasyonu aynı konumda kullanıldığında ve bir kullanıcı çekmeyi işledikten sonra konumda yalnızca bir izleme boyutu değeri kalırsa ortaya çıkar.
-- Stok bir ambar yönetimi işleminde yapılandırılmış bir fiili ağırlık ürünü için rezerve edilirse, rezervasyon tanımlanan minimum ağırlığa dayanarak gerçekleştirilir, bu miktar eldeki son işlem miktarı olsa bile. Bu davranış, ambar yönetimi işlemleri için yapılandırılmamış ögelerin davranışından farklıdır. Bu kısıtlamanın bir istisnası vardır. Üretim için çekme işlemi için, seri numarası denetimli bir fiili ağırlık ürününün son işleme miktarı çekilirken gerçek ağırlık kullanılır.
+- Stok bir ambar yönetimi işlemlerinde (WMS) yapılandırılmış bir fiili ağırlık ürünü için rezerve edilirse, rezervasyon tanımlanan minimum ağırlığa dayanarak gerçekleştirilir, bu miktar eldeki son işlem miktarı olsa bile. Bu davranış, WMS için yapılandırılmamış ögelerin davranışından farklıdır. Bu kısıtlamanın bir istisnası vardır. Üretim için çekme işlemi için, seri numarası denetimli bir fiili ağırlık ürününün son işleme miktarı çekilirken gerçek ağırlık kullanılır.
 - Ağırlığı kapasite hesaplamalarının parçası olarak kullanan işlemlerde (dalga eşikleri, iş maksimum molalar, konteyner maksimumları, konum yük kapasiteleri ve benzeri), stokun gerçek ağırlığını kullanmayın. Bunun yerine, işlemler ürün için tanımlanmış fiziksel işleme ağırlığına dayanır.
 - Genel olarak, Ticaret işlevi, fiili ağırlık ürünleri için desteklenmez.
 - Fiili ağırlık ürünleri için, stok durumu, **Ambar durumu değişikliği**'nden güncelleştirilemez.

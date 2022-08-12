@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14369b02f1d7553be5c732f3bdf768825267998b
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845427"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125165"
 ---
 # <a name="saved-views"></a>Kayıtlı görünümler
 
@@ -215,7 +215,7 @@ Kaydedilmiş görünümlerle ilgili bilinen sorunların listesi için bkz. [Kayd
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kaydedilmiş görünümleri ortamımda nasıl etkinleştirebilirim?
 
 > [!NOTE]
-> **Kaydedilmiş görünümler** özelliği, Kişiselleştirme sisteminin Finans ve Operasyon'da etkinleştirilmesini gerektirir. Tüm ortam için kişiselleştirme kapatılmışsa, aşağıdaki adımları izleseniz bile görünümler devre dışı bırakılır. 
+> **Kaydedilmiş görünümler** özelliği, finans ve operasyon uygulamalarında Kişiselleştirme sisteminin etkinleştirilmesini gerektirir. Tüm ortam için kişiselleştirme kapatılmışsa, aşağıdaki adımları izleseniz bile görünümler devre dışı bırakılır. 
 
 **Kayıtlı görünümler** özelliğini herhangi bir ortamda Özellik yönetimi ile etkinleştirebilir veya devre dışı bırakabilirsiniz. Etkinleştirildiğinde kayıtlı görünümler sonraki tüm kullanıcı oturumlarında etkinleştirilir.
 
@@ -255,3 +255,4 @@ Belirli bir tüzel kişiliğe bir görünüm yayımlayıp bu görünümü varsay
 - **Sürüm 10.0.21 veya sonrası:** **Kaydedilmiş görünümler için geliştirilmiş tüzel kişilik desteği** özelliği etkinleştirildiğinde görünüm seçici yalnızca belirtilen tüzel kişilikler için görünümü gösterir. Bu davranış, özellik sayesinde görünümlerin (kişisel görünümler dahil) belirli tüzel kişiliklere bağlanması nedeniyle oluşur.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

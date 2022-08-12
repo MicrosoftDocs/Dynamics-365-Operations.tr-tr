@@ -1,6 +1,6 @@
 ---
 title: Dataverse'ta şirket kavramı
-description: Bu makalede, Finance and Operations ve Dataverse arasında şirket verisi tümleştirmesi açıklanmaktadır.
+description: Bu makalede, finans ve operasyon uygulamaları ve Dataverse arasında şirket verisi tümleştirmesi açıklanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
@@ -9,29 +9,31 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 11355031714b7e046f70bd5840297d66aa7d32e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ad0075e2b92ebeb9fba879bcae503100dc7adb47
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873192"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205951"
 ---
-# <a name="company-concept-in-dataverse"></a>Dataverse'da şirket kavramı
+# <a name="company-concept-in-dataverse"></a>Dataverse'ta şirket kavramı
 
 [!include [banner](../../includes/banner.md)]
 
 
 
 
-Finans ve Operasyon'da *şirket kavramı* hem yasal bir yapı hem de bir işletme yapısıdır. Ayrıca veriler için bir güvenlik ve görünürlük sınırıdır. Kullanıcılar her zaman tek bir şirket bağlamında çalışır ve verilerin çoğu şirket tarafından çıkarılır.
+Finans operasyon uygulamalarında *şirket kavramı* hem yasal bir yapı hem de bir işletme yapısıdır. Ayrıca veriler için bir güvenlik ve görünürlük sınırıdır. Kullanıcılar her zaman tek bir şirket bağlamında çalışır ve verilerin çoğu şirket tarafından çıkarılır.
 
 Dataverse'da eşdeğer bir kavram yoktur. En yakın kavram, birincil olarak kullanıcı verileri için bir güvenlik ve görünürlük sınırı olan *iş birimidir*. Bu kavram, şirket kavramıyla aynı yasal veya iş etkilerine sahip değildir.
 
 İş birimi ve şirket eşdeğer kavramlar olmadığından, Dataverse tümleştirmesi amacıyla aralarında bire bir (1:1) eşlemesini zorlamak mümkün değildir. Ancak, kullanıcılar varsayılan olarak, uygulamada ve Dataverse'te aynı satırları görebilmelidir; bu nedenle Microsoft, Dataverse'te cdm\_Company adlı yeni bir tabloyu kullanıma sundu. Bu tablo uygulamadaki Şirket tablosuna eşdeğerdir. Satır görünürlüğünün uygulama ve Dataverse'te başlangıçtan itibaren eşdeğer olmasını sağlamaya yardımcı olmak için Dataverse'te veriler için aşağıdaki kurulumu öneriyoruz:
 
-+ Çift yazma için etkinleştirilmiş her Finans ve Operasyon Şirket satırı için ilişkili bir cdm\_Şirket satırı oluşturulur.
-+ cdm\_Company satırı oluşturulduğunda ve çift yazma için etkinleştirildiğinde, aynı ada sahip bir varsayılan iş birimi oluşturulur. Bu iş birimi için otomatik olarak varsayılan bir ekip oluşturulsa da, iş birimi kullanılmaz.
-+ Aynı ada sahip ayrı bir sahip olan takım oluşturulur. Ayrıca iş birimi ile de ilişkilidir.
++ Çift yazma için etkinleştirilmiş her finans ve operasyon uygulamaları Şirket satırı için ilişkili bir cdm\_Şirket satırı oluşturulur.
+
++ cdm\_Company satırı oluşturulduğunda ve çift yazma için etkinleştirildiğinde, aynı ada sahip bir varsayılan iş birimi oluşturulur. Bu iş birimi için otomatik olarak varsayılan bir sahip ekip oluşturulsa da, iş birimi kullanılmaz.
++ Çift Yazma son ekiyle aynı ada sahip ayrı bir sahip olan takım oluşturulur. Ayrıca iş birimi ile de ilişkilidir.
+
 + Varsayılan olarak, oluşturulan ve Dataverse'e çift yazılan herhangi bir satırın sahibi, ilişkili iş birimine bağlı "DW Sahibi" ekibine ayarlanır.
 
 Aşağıdaki şekilde, Dataverse'daki bu veri ayarının bir örneğini gösterir.
@@ -43,7 +45,7 @@ Bu yapılandırma nedeniyle, USMF şirketiyle ilgili herhangi bir satır, Datave
 + "Satış Yöneticisi" rolü "USMF Satış" takımı üyelerine atanır.
 + "Satış Yöneticisi" rolüne sahip kullanıcılar, üye oldukları aynı işi birimine üye olan hesap satırlarına erişebilir.
 + "USMF Satış" ekibi, daha önce bahsedilen USMF iş birimine bağlıdır.
-+ Bu nedenle, "USMF Satış" ekibinin üyeleri Finans ve Operasyon'taki USMF Şirket tablosundan gelen "USMF DW" kullanıcısı tarafından sahip olunan herhangi bir hesabı görebilir.
++ Bu nedenle, "USMF Satış" ekibinin üyeleri finans ve operasyon uygulamalarındaki USMF Şirket tablosundan gelen "USMF DW" kullanıcısı tarafından sahip olunan herhangi bir hesabı görebilir.
 
 ![Takımlar nasıl kullanılabilir.](media/dual-write-company-2.png)
 

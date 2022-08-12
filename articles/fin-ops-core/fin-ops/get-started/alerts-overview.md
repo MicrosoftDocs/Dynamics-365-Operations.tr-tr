@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 4b63ac8a09efb9ab449b651d030bd14a24d5cc36
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b81eb8e0be4c7d7357a6b8b7b5f0ac025b9ab8ca
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850092"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124273"
 ---
 # <a name="alerts-overview"></a>Uyarılara genel bakış
 
@@ -77,13 +77,13 @@ Uyarı kuralının beş bileşeni vardır:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-[Filtrelenmiş verileri izlemek için uyarıları kullanma](https://youtu.be/ZYKMcv6kl9s) videosu (yukarıda gösterilir) YouTube'daki [Finance and Operations oynatma listesine](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) eklenmiştir.
+[Filtrelenmiş verileri izlemek için uyarıları kullanma](https://youtu.be/ZYKMcv6kl9s) videosu (yukarıda gösterilir) YouTube'daki [Finans ve operasyon uygulamaları oynatma listesine](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) eklenmiştir.
 
 ### <a name="alert-rule-options"></a>Uyarı kuralı seçenekleri
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-[Uyarı kuralı seçenekleri](https://youtu.be/cpzimwOjicM) videosu (yukarıda gösterilen), YouTube'da bulunan [Finance and Operations oynatma listesinde](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) bulunmaktadır.
+[Uyarı kuralı seçenekleri](https://youtu.be/cpzimwOjicM) videosu (yukarıda gösterilen), YouTube'da bulunan [Finans ve operasyon uygulamaları oynatma listesinde](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) bulunmaktadır.
 
 
 

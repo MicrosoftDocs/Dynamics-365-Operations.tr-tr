@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: fc04a90c0c071508c9ebee57862a029de0e58f9a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38971f2a5f3f3d2692de0e52365e2215170101cc
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844778"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103195"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Satış siparişleri mobil çalışma alanı
 
@@ -29,7 +29,7 @@ ms.locfileid: "8844778"
 
 Bu makale, **Satış siparişleri** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, satış siparişleri konusunda her zaman ve her yerde güncel kalmanıza yardımcı olur. 
 
-Bu mobil çalışma alanı, Finance and Operations (Dynamics 365) mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
+Bu mobil çalışma alanı, finans ve operasyon (Dynamics 365) mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
 
 ## <a name="overview"></a>Genel Bakış
 **Satış siparişleri** mobil çalışma alanı her satış siparişi ile ilgili ayrıntılı bilgileri görüntülemenizi sağlar. Bu bilgi siparişin durumunu, müşteri için iletişim numarasını ve siparişi alanın iletişim numarasını içerir. **Satış siparişleri** mobil çalışma alanı, satış siparişlerinin anlık görünümünü sağlar. Müşteri bazında satış siparişlerini, tüm satış siparişlerini ya da belirli bir satış siparişiyle ilgili bilgileri görüntüleyebilirsiniz. 
@@ -97,10 +97,10 @@ Kuruluşunuza platform güncelleştirmesi 3 veya üzeri ile Dynamics 365 for Ope
 </thead>
 <tbody>
 <tr class="odd">
-<td>KB 4013633 uygulayın.</td>
+<td>BB 4013633 uygulayın.</td>
 <td>Sistem yöneticisi</td>
 
-<td>KB 4013633, <strong>Satış siparişleri</strong> mobil çalışma alanını içeren bir X++ güncelleştirmesi veya meta veri düzeltmesidir. KB 4013633 uygulamak için sistem yöneticiniz bu adımları atması gerekir.
+<td>BB 4013633, <strong>Satış siparişleri</strong> mobil çalışma alanını içeren bir X++ güncelleştirmesi veya meta veri düzeltmesidir. BB 4013633 uygulamak için sistem yöneticiniz bu adımları atması gerekir.
 <ol>
 <li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Meta veri düzeltmesini Microsoft Dynamics Lifecycle Services (LCS) üzerinden indirin</a>.</li>
 <li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Meta veri düzeltmesini kurun</a>.</li>
@@ -118,7 +118,7 @@ Kuruluşunuza platform güncelleştirmesi 3 veya üzeri ile Dynamics 365 for Ope
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobil uygulamayı indirin ve yükleyin
-Finance and Operations (Dynamics 365 ) mobil uygulamasını indirin ve yükleyin:
+Finans ve operasyon (Dynamics 365) mobil uygulamasını indirin ve yükleyin:
 
 -   [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [İPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -143,3 +143,4 @@ Finance and Operations (Dynamics 365 ) mobil uygulamasını indirin ve yükleyin
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

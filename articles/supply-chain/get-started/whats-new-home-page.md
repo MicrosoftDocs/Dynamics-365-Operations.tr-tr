@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 18d73550ed3b9546102f719530e05a29aeb6f3fa
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.openlocfilehash: 9426693e864f6b78f436890cc2aa970bfe0d410c
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022544"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166724"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management içindeki Yenilikler veya değişiklikler
 
@@ -31,12 +31,12 @@ Dynamics 365 Supply Chain Management'ın her sürümündeki yenilikleri veya de�
 
 | Sürüm | Yapı numarası | Otomatik güncelleştirme kullanılabilirliği | Daha fazla bilgi |
 |---|---|---|---|
-| 10.0.28 | 10.0.1264 | Temmuz 2022 | [Dynamics 365 Supply Chain Management 10.0.28 önizlemesi](whats-new-scm-10-0-28.md) |
+| 10.0.28 | 10.0.1264 | Temmuz 2022 | [Dynamics 365 Supply Chain Management 10.0.28'daki yenilikler veya değişiklikler](whats-new-scm-10-0-28.md) |
 | 10.0.27 | 10.0.1227 | Temmuz 2022 | [Dynamics 365 Supply Chain Management 10.0.27'daki yenilikler veya değişiklikler](whats-new-scm-10-0-27.md) |
 | 10.0.26 | 10.0.1192 | Mayıs 2022 | [Dynamics 365 Supply Chain Management 10.0.26'daki yenilikler veya değişiklikler](whats-new-scm-10-0-26.md) |
-| 10.0.25 | 10.0.1149 | Nisan 2022 | [Dynamics 365 Supply Chain Management 10.0.25'daki yenilikler veya değişiklikler](whats-new-scm-10-0-25.md) |
-| 10.0.24 | 10.0.1084 | Şubat 2022 | [Dynamics 365 Supply Chain Management 10.0.24'daki yenilikler veya değişiklikler](whats-new-scm-10-0-24.md) |
-| 10.0.23 | 10.0.1037 | 2022 Ocak | [Dynamics 365 Supply Chain Management 10.0.23'daki yenilikler veya değişiklikler](whats-new-scm-10-0-23.md) |
+| 10.0.25 | 10.0.1149 | Nisan 2022 | [Dynamics 365 Supply Chain Management 10.0.25'taki yenilikler veya değişiklikler](whats-new-scm-10-0-25.md) |
+| 10.0.24 | 10.0.1084 | Şubat 2022 | [Dynamics 365 Supply Chain Management 10.0.24'taki yenilikler veya değişiklikler](whats-new-scm-10-0-24.md) |
+| 10.0.23 | 10.0.1037 | 2022 Ocak | [Dynamics 365 Supply Chain Management 10.0.23'taki yenilikler veya değişiklikler](whats-new-scm-10-0-23.md) |
 | 10.0.22 | 10.0.995 | Kasım 2021 | [Dynamics 365 Supply Chain Management 10.0.22'daki yenilikler veya değişiklikler](whats-new-scm-10-0-22.md) |
 | 10.0.21 | 10.0.960 | 2021 Ekim | [Dynamics 365 Supply Chain Management 10.0.21'daki yenilikler veya değişiklikler](whats-new-scm-10-0-21.md) |
 | 10.0.20 | 10.0.886 | Ağustos 2021 | [Dynamics 365 Supply Chain Management'ın 10.0.20 sürümündeki yenilikler veya değişiklikler](whats-new-scm-10-0-20.md) |
@@ -61,22 +61,23 @@ Kasım 2019 öncesi sürümlerdeki yenilikleri veya değişiklikleri görmek iç
 
 | Serbest Bırak | Sürüm | Yapı numarası | Kullanılabilirlik | Daha fazla bilgi |
 |---|---|---|---|---|
-| Microsoft Dynamics 365 for Finance and Operations                     | 10.0.5      | 10.0.197         | 2019 Ekim     | [Dynamics 365 for Finance and Operations sürüm 10.0.5'teki yenilikler veya değişiklikler (Ekim 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md)                 |
-| Microsoft Dynamics 365 for Finance and Operations                     | 10.0.4      | 10.0.136         | Temmuz 2019        | [ Dynamics 365 for Finance and Operations sürüm 10.0.4'teki yenilikler ve değişiklikler (Temmuz 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md)                    |
-| Microsoft Dynamics 365 for Finance and Operations                     | 10.0.3      | 10.0.107         | 2019 Haziran        | [ Dynamics 365 for Finance and Operations sürüm 10.0.3'teki yenilikler ve değişiklikler (Haziran 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-3.md)                    |
-| Microsoft Dynamics 365 for Finance and Operations                     | 10.0.2      | 10.0.80          | Mayıs 2019         | [Dynamics 365 for Finance and Operations sürüm 10.0.2'daki yenilikler ve değişiklikler (Mayıs 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-2.md)                     |
-| Microsoft Dynamics 365 for Finance and Operations                     | 10.0.1      | 10.0.51          | Nisan 2019       | [Dynamics 365 for Finance and Operations sürüm 10.0.1'daki yenilikler ve değişiklikler (Nisan 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md)                   |
-| Microsoft Dynamics 365 for Finance and Operations                     | 10.0        | 10.0.8           | Nisan 2019       | [Finance and Operations sürüm 10.0'da neler yeni veya değişti (Nisan 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md)                                      |
-| Microsoft Dynamics 365 for Finance and Operations                     | 8.1.3       | 8.1.227          | Ocak 2019     | [Dynamics 365 for Finance and Operations sürüm 8.1.3'teki değişiklikler (Ocak 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-3.md)                   |
-| Microsoft Dynamics 365 for Finance and Operations                     | 8,1,2       | 8,1,195          | 2018 Aralık    | [Dynamics 365 for Finance and Operations sürüm 8.1.2'deki yenilikler veya değişiklikler (Aralık 2018)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-2.md)                  |
-| Microsoft Dynamics 365 for Finance and Operations                     | 8,1,1       | 8,1,170          | 2018 Ekim     | [Dynamics 365 for Finance and Operations sürüm 8.1.1'deki yenilikler veya değişiklikler (Ekim 2018)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-1.md)                   |
-| Microsoft Dynamics 365 for Finance and Operations                     | 8,1         | 8,1,136          | 2018 Ekim     | [Dynamics 365 for Finance and Operations sürüm 8.1'deki yenilikler veya değişiklikler (Ekim 2018)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-october-2018.md)          |
-| Microsoft Dynamics 365 for Finance and Operations                     | 8.0         | 8.0.30, 8.0.35   | Nisan 2018       | [Dynamics 365 for Finance and Operations sürüm 8.0'daki yenilikler ve değişiklikler (Nisan 2018)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-0-april-2018.md)              |
-| Microsoft Dynamics 365 for Finance and Operations, Enterprise edition | 7.3         | 7.3.11971.56116  | 2017 Aralık    | [Dynamics 365 for Finance and Operations, Enterprise Edition 7.3'teki yenilikler veya değişiklikler](../../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md)               |
-| Microsoft Dynamics 365 for Finance and Operations, Enterprise edition | Temmuz 2017   | 7.2.11792.56024  | 2017 Haziran        | [Dynamics 365 for Finance and Operations, Enterprise Edition'daki (Temmuz 2017) yenilikler veya değişiklikler](../../fin-ops-core/fin-ops/get-started/whats-new-application-july-2017-update.md) |
+| Microsoft Dynamics 365 Finans ve Operasyonlar                    | 10.0.5      | 10.0.197         | 2019 Ekim     | [Dynamics 365 for Finance and Operations sürüm 10.0.5'teki (Ekim 2019) yenilikler veya değişiklikler](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md)                 |
+| Microsoft Dynamics 365 Finans ve Operasyonlar                     | 10.0.4      | 10.0.136         | Temmuz 2019        | [Dynamics 365 for Finance and Operations sürüm 10.0.4'teki (Temmuz 2019) yenilikler veya değişiklikler](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md)                    |
+| Microsoft Dynamics 365 Finans ve Operasyonlar                     | 10.0.3      | 10.0.107         | 2019 Haziran        | [Dynamics 365 for Finance and Operations sürüm 10.0.3'teki (Haziran 2019) yenilikler veya değişiklikler](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-3.md)                    |
+| Microsoft Dynamics 365 Finans ve Operasyonlar                     | 10.0.2      | 10.0.80          | Mayıs 2019         | [Dynamics 365 for Finance and Operations sürüm 10.0.2'deki (Mayıs 2019) yenilikler veya değişiklikler](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-2.md)                     |
+| Microsoft Dynamics 365 Finans ve Operasyonlar                     | 10.0.1      | 10.0.51          | Nisan 2019       | [Dynamics 365 for Finance and Operations sürüm 10.0.1'deki (Nisan 2019) yenilikler veya değişiklikler](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md)                   |
+| Microsoft Dynamics 365 Finans ve Operasyonlar                     | 10.0        | 10.0.8           | Nisan 2019       | [Dynamics 365 for Finance and Operations sürüm 10.0'daki (Nisan 2019) yenilikler veya değişiklikler](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md)                                      |
+| Microsoft Dynamics 365 Finans ve Operasyonlar                     | 8.1.3       | 8.1.227          | Ocak 2019     | [Dynamics 365 for Finance and Operations sürüm 8.1.3'teki (Ocak 2019) yenilikler veya değişiklikler](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-3.md)                   |
+| Microsoft Dynamics 365 Finans ve Operasyonlar                     | 8,1,2       | 8,1,195          | 2018 Aralık    | [Dynamics 365 for Finance and Operations sürüm 8.1.2'deki (Aralık 2018) yenilikler veya değişiklikler](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-2.md)                  |
+| Microsoft Dynamics 365 Finans ve Operasyonlar                     | 8,1,1       | 8,1,170          | 2018 Ekim     | [Dynamics 365 for Finance and Operations sürüm 8.1.1'deki (Ekim 2018) yenilikler veya değişiklikler](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-1.md)                   |
+| Microsoft Dynamics 365 Finans ve Operasyonlar                     | 8.1         | 8,1,136          | 2018 Ekim     | [Dynamics 365 for Finance and Operations sürüm 8.1'deki (Ekim 2018) yenilikler veya değişiklikler](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-october-2018.md)          |
+| Microsoft Dynamics 365 Finans ve Operasyonlar                     | 8.0         | 8.0.30, 8.0.35   | Nisan 2018       | [Dynamics 365 for Finance and Operations sürüm 8.0'daki (Nisan 2018) yenilikler veya değişiklikler](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-0-april-2018.md)              |
+| Microsoft Dynamics 365 Finance and Operations, Enterprise edition | 7.3         | 7.3.11971.56116  | 2017 Aralık    | [Dynamics 365 Finance and Operations, Enterprise edition 7.3'teki yenilikler veya değişiklikler](../../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md)               |
+| Microsoft Dynamics 365 Finance and Operations, Enterprise edition | Temmuz 2017   | 7.2.11792.56024  | 2017 Haziran        | [Dynamics 365 Finance and Operations, Enterprise edition yenilikleri veya değişiklikleri (Temmuz 2017)](../../fin-ops-core/fin-ops/get-started/whats-new-application-july-2017-update.md) |
 | Microsoft Dynamics 365 for Operations                                 | 1611        | 7.1.1541.3036    | Kasım 2016    | [Dynamics 365 for Operations sürüm 1611'deki yenilikler veya değişiklikler (Kasım 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-dynamics-365-operations-1611.md)                |
 | Microsoft Dynamics AX                                                 | 7.0.1       | 7.0.1265.23014   | Mayıs 2016         | [Dynamics AX uygulama sürümü 7.0.1'deki yenilikler ve değişiklikler (Mayıs 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-application-version-7-0-1-may-2016.md)          |
 | Microsoft Dynamics AX                                                 | 7.0         | 7.0.1265.3015    | Şubat 2016    | [Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-7-0-february-2016.md)                                            |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

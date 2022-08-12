@@ -6,21 +6,22 @@ ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PurchaseSpendAnalysisPowerBI
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 265434
-ms.assetid: 3cd9dfce-2687-4303-bc78-349e7cb5ea75
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 08937d36be27f7b21ab50473715cc155e4fd0c9e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "265434"
+ms.assetid: 3cd9dfce-2687-4303-bc78-349e7cb5ea75
+ms.search.form: PurchaseSpendAnalysisPowerBI
+ms.openlocfilehash: 3befeb2b53f6b47cb23edbf520f49f88bd978d76
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892754"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206706"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Satınalma ve harcama analizi Power BI içeriği
 
@@ -125,7 +126,7 @@ Bu sayfa bu yılki ve geçen yılki satınalmayı ve tedarik kategorisine göre 
 
 
 ## <a name="data-model-and-entities"></a>Veri modeli ve varlıklar
-Aşağıdaki veriler **Satınalma harcaması analizi** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Server veritabanıdır. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesi](power-bi-integration-entity-store.md).
+Aşağıdaki veriler **Satınalma harcaması analizi** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Server veritabanıdır. Daha fazla bilgi için bkz. [Varlık mağazası ile Power BI tümleştirmesi](power-bi-integration-entity-store.md).
 
 Bu içerik paketindeki toplama ölçümler, Microsoft Dynamics AX 2012 ve Microsoft Dynamics AX 2012 R3'teki Satınalma Küpü'nde bulunan toplama ölçümlerin alt kümesidir. Varlık deposundaki küpün toplama ölçülerini hazırlamak için bu ölçümleri dağıtılabilir yapmanız gerekir. Daha fazla bilgi için [Power BI ile Varlık deposu tümleştirmesi](power-bi-integration-entity-store.md) bölümündeki toplanan ölçümleri Varlık Deposuna ekleme prosedürüne bakın. Aşağıda verilen önemli toplanan ölçümleri doğrudan Fatura satırları varlığından kullanılabilir ve içeriğin temeli olarak kullanılır.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79aee04527eea5b673555f9c7de893a400a5c617
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2c542684642e4f6eda0f862623889a68f85b2b20
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887819"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068893"
 ---
 # <a name="choose-a-data-integration-technology"></a>Veri tümleştirme teknolojisi seçme
 
@@ -70,7 +70,7 @@ Dataverse tabloları ve ilişkili API'leri; web uygulamalarından, web hizmetler
 
 ### <a name="dmfdixf-entities"></a>DMF/DIXF varlıkları
 
-Temelde Finans ve Operasyon uygulamalarıyla aynı platformda oluşturulan Human Resources, bir [Veri Yönetimi Çerçevesi (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json) sağlar. DMF, Veri İçe Dışa Aktarma Çerçevesi (DIXF) olarak da bilinir. Human Resources, Human Resources verilerini içe aktarmak ve dışa aktarmak için kullanabileceğiniz bir veri varlıkları kümesi sağlar. Dataverse tabloları, Human Resources için tercih edilen veri tümleştirme arabirimi olsa da, DMF varlıkları aşağıdakiler gibi bazı durumlarda yararlıdır:
+Temelde finans ve operasyon uygulamalarıyla aynı platformda oluşturulan Human Resources, bir [Veri Yönetimi Çerçevesi (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json) sağlar. DMF, Veri İçe Dışa Aktarma Çerçevesi (DIXF) olarak da bilinir. Human Resources, Human Resources verilerini içe aktarmak ve dışa aktarmak için kullanabileceğiniz bir veri varlıkları kümesi sağlar. Dataverse tabloları, Human Resources için tercih edilen veri tümleştirme arabirimi olsa da, DMF varlıkları aşağıdakiler gibi bazı durumlarda yararlıdır:
 
 - Dataverse tabloları şu anda kullanılamıyor.
 
@@ -113,7 +113,7 @@ BYOD, bir [Azure Data Factory](/azure/data-factory/) ardışık düzeni için ve
 
 ### <a name="odata-enabled-entities"></a>OData etkin varlıklar
 
-Çoğu DMF varlığı İnsan Kaynakları veri hizmetine (OData) erişimi etkinleştirilmiş durumdadır. [Finance and Operations OData hizmeti](/dynamics365/unified-operations/dev-itpro/data-entities/odata) için sağlanan belgeler, kendi OData tarafından sağlanan varlıklarınızı oluşturmak dışında Human Resources için geçerlidir.
+Çoğu DMF varlığı İnsan Kaynakları veri hizmetine (OData) erişimi etkinleştirilmiş durumdadır. [Finans ve operasyon OData hizmeti](/dynamics365/unified-operations/dev-itpro/data-entities/odata) için sağlanan belgeler, kendi OData tarafından sağlanan varlıklarınızı oluşturmak dışında Human Resources için geçerlidir.
 
 Dataverse ve Dataverse'in sağladığı OData uygulaması ([Dynamics 365 Web API](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8)) üzerinden), İnsan Kaynakları veri hizmetine tercih edilmekle birlikte, İnsan Kaynakları veri hizmeti şu anda İnsan Kaynakları verileri için daha eksiksiz varlık kapsamına sahiptir.
 
@@ -153,3 +153,4 @@ Bunca çeşitli tümleştirme teknolojileri mevcutken, kullanılacak tümleştir
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

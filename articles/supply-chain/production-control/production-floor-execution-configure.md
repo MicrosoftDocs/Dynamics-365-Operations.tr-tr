@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 14a49d1d6c956b37ff9b2bec387615dc75d060e1
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.openlocfilehash: f740b68128b90fc7c9ce2f74edc4f3c06f03debd
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022579"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167776"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimini yapılandırma
 
@@ -92,9 +92,9 @@ Supply Chain Management sürüm 10.0.25 itibariyle, bu özellik varsayılan olar
 
 Bu özellik, çalışanların malzeme tüketimini, toplu iş numaralarını ve seri numaralarını kaydetmek için üretim katı yürütme arabirimini kullanmalarını sağlar. Özellikle proses endüstrilerindekiler olmak üzere bazı üreticilerin, her bir toplu iş veya üretim emri için tüketilen malzeme miktarını açıkça kaydetmesi gerekir. Örneğin, çalışanlar çalışırken tüketilen malzeme miktarını tartmak için bir ölçek kullanabilir. Tam malzeme izlenebilirliğini sağlamak için bu kuruluşların her ürünü üretirken hangi parti numaralarının tüketildiğini de kaydetmeleri gerekir.
 
-Bu özelliğin iki versiyonu vardır. Yalnızca gelişmiş ambar işlemlerini (WMS) kullanmak üzere *etkinleştirilmemiş* maddeleri destekler. Diğeri, WMS'yi kullanacak şekilde *etkinleştirilen* öğeleri destekler. Bu işlevi kullanmak için, WMS'de etkinleştirilen öğelere sahip olup olmadığınıza bağlı olarak, [Özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özelliklerden birini veya her ikisini etkinleştirin (bu sırada):
+Bu özelliğin iki versiyonu vardır. Yalnızca ambar yönetimi işlemlerini (WMS) kullanmak üzere *etkinleştirilmemiş* maddeleri destekler. Diğeri, WMS'yi kullanacak şekilde *etkinleştirilen* öğeleri destekler. Bu işlevi kullanmak için, WMS'de etkinleştirilen öğelere sahip olup olmadığınıza bağlı olarak, [Özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özelliklerden birini veya her ikisini etkinleştirin (bu sırada):
 
-- *(Önizleme) Üretim katı yürütme arabiriminde malzeme tüketimini kaydetme (WMS dışı)*
+- *Üretim katı yürütme arabiriminde malzeme tüketimini kaydetme (WMS dışı)*
 - *(Önizleme) Üretim katı yürütme arabiriminde (WMS özellikli) malzeme tüketimini kaydet*
 
 > [!IMPORTANT]

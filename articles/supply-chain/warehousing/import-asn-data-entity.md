@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-04
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 0ac45e070d0473547c48da1380377de3d4bf60bd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 66ed258ebddaadb5a306f41dea3e439e9b5a7be3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907130"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065883"
 ---
 # <a name="import-inbound-asns-through-the-v3-data-entity"></a>Gelen ÖSB'leri V3 veri varlığı üzerinden içe aktarma
 
@@ -29,7 +29,7 @@ ms.locfileid: "8907130"
 Bu makale, örnekler aracılığıyla, ÖSB dosyalarının nasıl kullanılacağını gösteren bir dizi senaryoyu göstermektedir.
 
 > [!IMPORTANT]
-> *Gelen ÖSB*'yi içe aktarma, yalnızca Gelişmiş ambar yönetimi (WMS) için etkinleştirilen maddelere uygulanır. Bir ÖSB almadan önce, bir satınalma siparişinin söz konusu ÖSB'yi gönderen satıcıya karşı sisteme kaydedilmiş olması gerekir.
+> *Gelen ÖSB*'yi içeri aktarma, yalnızca Gelişmiş ambar yönetimi süreçleri (WMS) için etkinleştirilen öğelere uygulanır. Bir ÖSB almadan önce, bir satınalma siparişinin söz konusu ÖSB'yi gönderen satıcıya karşı sisteme kaydedilmiş olması gerekir.
 
 ## <a name="inbound-asn-v3-entity"></a>Gelen ÖSB V3 varlığı
 

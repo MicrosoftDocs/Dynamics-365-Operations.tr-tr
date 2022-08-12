@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 90e64fec512307af209ace128d5897475de7aee5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 41789d574cc7348dbf8a18db97da9c428da09602
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867287"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103953"
 ---
 # <a name="dynamics-365-finance-supply-chain-management-and-commerce-in-us-government-community-cloud-gcc"></a>US Government Community Cloud (GCC) için Dynamics 365 Finance, Supply Chain Management ve Commerce
 
@@ -38,9 +38,9 @@ Microsoft Dynamics Lifecycle Services (LCS) içindeki uygulama projesi için ilk
 
 ## <a name="environment-deployment"></a>Ortam dağıtımı
 
-Proje ekleme işlemi tamamlandıktan sonra, [Finans ve Operasyon uygulamaları müşterileri için Lifecycle Services](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md)'de (LCS) açıklanan LCS'nin ek yeteneklerini gözden geçirebilirsiniz. Sonra ortam dağıtımına geçin.
+Proje ekleme işlemi tamamlandıktan sonra, [finans ve operasyon uygulamaları müşterileri için Lifecycle Services](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md)'de (LCS) açıklanan LCS'nin ek yeteneklerini gözden geçirebilirsiniz. Sonra ortam dağıtımına geçin.
 
-- Microsoft tarafından yönetilen ortamları LCS aracılığıyla dağıtmak için [Finans ve Operasyon uygulamaları müşterileri için Lifecycle Services](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience)'deki (LCS) yönergeleri izleyin.
+- Microsoft tarafından yönetilen ortamları LCS aracılığıyla dağıtmak için [Finans ve operasyon uygulamaları müşterileri için Lifecycle Services](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience)'deki (LCS) yönergeleri izleyin.
 - Bulutta barındırılan ortamlar için bkz. [Dağıtım ve erişim geliştirme ortamları](../../../fin-ops-core/dev-itpro/dev-tools/access-instances.md). [ABD hükümeti Lifecycle Services projeleri için Azure Resource Manager ekleme işlemini tamamlama](arm-onbarding-us-goverment.md) bölümünde açıklandığı gibi, bağlayıcılarınız için Kaynak Yöneticisi ekleme işlemini tamamlamanız da gerekir.
 
 > [!NOTE]
@@ -48,7 +48,7 @@ Proje ekleme işlemi tamamlandıktan sonra, [Finans ve Operasyon uygulamaları m
 
 ## <a name="features-that-arent-available"></a>Kullanılamayan özellikler
 
-Bazı özellikler GCC'de dağıtım için kullanılamaz veya GCC'de Dynamics 365 ile kullanılmak için kullanılamaz. Örneğin, Azure DevOps Hizmetleri GCC'de kullanılamaz. Ancak, şirket içi Azure DevOps veya ortak Azure DevOps servisleri kullanılabilir. Özellik kullanılabilirliği hakkında ayrıntılı bilgi için, bkz. [Business Applications ABD Hükümeti Özellik Kullanılabilirliği](https://aka.ms/BAPFunctionalParity).
+Bazı özellikler GCC'de dağıtım için kullanılamaz veya GCC'de Dynamics 365 ile kullanılmak için kullanılamaz. Örneğin, Azure DevOps Hizmetleri GCC'de kullanılamaz. Ancak, şirket içi Azure DevOps veya ortak Azure DevOps servisleri kullanılabilir. Özellik kullanılabilirliği hakkında ayrıntılı bilgi için bkz. [Business Applications ABD Hükümeti Özellik Kullanılabilirliği](https://aka.ms/BAPFunctionalParity).
 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
 
@@ -84,3 +84,4 @@ Evet. Ancak, ortağınız GCC olmayan bir kimlik kullanıyorsa, destek bileti or
 - [Bulut dağıtımına genel bakış](../../../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

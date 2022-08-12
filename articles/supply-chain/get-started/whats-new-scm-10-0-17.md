@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 35e71fd35b0f98f856f432658505dea1f8dbf6a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e45031901efde105ad5ac4ed7c7d0ad3c578a077
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870680"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124835"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Dynamics 365 Supply Chain Management 10.0.17'daki yenilikler veya değişiklikler (Nisan 2021)
 
@@ -79,7 +79,7 @@ Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fi
 
 - [Üretim denetimi için kayıtlı görünümler](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - Daha fazla bilgi için bkz. [Supply Chain Management için standart kayıtlı görünümler](saved-views-scm.md).
 
-- İş kimlikleri için birleşik numara serisi<br> - Daha fazla bilgi için, bkz. [İş kodları için birleşik numara serisine bakın](../production-control/unified-job-ids.md).
+- İş kimlikleri için birleşik numara serisi<br> - Daha fazla bilgi için bkz. [İş kodları için birleşik numara serisine bakın](../production-control/unified-job-ids.md).
 
 ### <a name="planning"></a>Planlama
 
@@ -129,9 +129,9 @@ Aşağıdaki yardım makalelerini yakın bir zamanda ekledik veya önemli ölç�
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finans ve Operasyon uygulamaları için Platform güncelleştirmeleri
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finans ve operasyon uygulamaları için platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.17 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance ve Operations uygulamalarının 10.0.17 sürümü için platform güncelleştirmeleri (Nisan 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.17 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finans ve operasyon uygulamalarının 10.0.17 sürümü için platform güncelleştirmeleri (Nisan 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 
@@ -156,3 +156,4 @@ Yalnızca derleme zamanını etkileyen ancak korumalı alan ve üretim ortamlar�
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

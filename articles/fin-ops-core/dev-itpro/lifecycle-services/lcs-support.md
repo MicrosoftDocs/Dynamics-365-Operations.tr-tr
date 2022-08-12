@@ -1,6 +1,6 @@
 ---
-title: Finans ve Operasyon uygulamaları veya Lifecycle Services (LCS) için destek alma
-description: Bu makalede, Finans ve Operasyon uygulamaları veya Microsoft Dynamics Lifecycle Services (LCS) için nasıl yardım alınacağı açıklanmaktadır.
+title: Finans ve operasyon uygulamaları veya Lifecycle Services (LCS) için destek alma
+description: Bu makalede, finans ve operasyon uygulamaları veya Microsoft Dynamics Lifecycle Services (LCS) için nasıl yardım alınacağı açıklanmaktadır.
 author: EricMoos
 ms.date: 08/02/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 278a62c0393be503352db39dddeca1095e7e4a5a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f36709ddc2a64c31fe3c2d63fbe073fd9bc159bb
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866445"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103418"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Finans ve Operasyon uygulamaları veya Lifecycle Services (LCS) için destek alma
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Finans ve operasyon uygulamaları veya Lifecycle Services (LCS) için destek alma
 
 [!include [banner](../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../includes/peap-2.md)]
 
-Bu makalede, Finans ve Operasyon uygulamaları veya Microsoft Dynamics Lifecycle Services (LCS) için nasıl yardım alınacağı açıklanmaktadır. 
+Bu makalede, finans ve operasyon uygulamaları veya Microsoft Dynamics Lifecycle Services (LCS) için nasıl yardım alınacağı açıklanmaktadır. 
 
 <table>
 <thead>
@@ -48,10 +48,10 @@ Bu makalede, Finans ve Operasyon uygulamaları veya Microsoft Dynamics Lifecycle
 </tr>
 <tr>
 <td><strong>Konu arama</strong> aracını kullanın.</td>
-<td><a href="https://lcs.dynamics.com/">LCS'de</a>, Microsoft Bilgi Bankası (KB) makalelerini, düzeltmeleri ve bildirilen sorunlara yönelik geçici çözümleri hızlıca aramak için <strong>Konu arama'yı</strong> kullanın. Raporlanan belirli bir işlev alanı için hangi sorunlar düzeltilme aşamasında olduğunu veya halihazırda düzeltilmiş olduğunu görebilirsiniz. Daha fazla bilgi için bkz. <a href="issue-search-lcs.md">Konu arama (Lifecycle Services, LCS)</a>.</td>
+<td><a href="https://lcs.dynamics.com/">LCS'de</a>, Microsoft Bilgi Bankası (BB) makalelerini, düzeltmeleri ve bildirilen sorunlara yönelik geçici çözümleri hızlıca aramak için <strong>Konu arama'yı</strong> kullanın. Raporlanan belirli bir işlev alanı için hangi sorunlar düzeltilme aşamasında olduğunu veya halihazırda düzeltilmiş olduğunu görebilirsiniz. Daha fazla bilgi için bkz. <a href="issue-search-lcs.md">Konu arama (Lifecycle Services, LCS)</a>.</td>
 </tr>
 <tr>
-<td>Finans ve Operasyon uygulamanızdan destek alın.</td>
+<td>Finans ve operasyon uygulamanızdan destek alın.</td>
 <td>Uygulamanın sağ üst köşesindeki <strong>Yardım</strong> (<strong>?</strong>) düğmesini seçin ve sonra <strong>Destek</strong>'i seçin. Sorunlar, LCS içindeki <strong>Etkin sorunlar</strong> sekmesinde raporlanır. Yöneticiler orada, şirket içinde destek sağlayıp sağlamadıklarını belirleyebilir veya sorunları Microsoft 'a gönderebilir.</td>
 </tr>
 <tr>
@@ -72,3 +72,4 @@ Bu makalede, Finans ve Operasyon uygulamaları veya Microsoft Dynamics Lifecycle
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

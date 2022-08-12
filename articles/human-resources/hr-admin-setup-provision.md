@@ -14,18 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d13372d8cc1f1f0f1407ea69bee4f98ae5065c2
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 6fc44b52e2f7662fc6be609562cec903a8755d1b
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015360"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178518"
 ---
 # <a name="provision-human-resources"></a>Human Resources'ı sağla
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Uygulandığı Öğe** tek başına çalışan altyapıda İnsan Kaynakları_ 
 
-
+> [!NOTE]
+> Haziran 2022'den başlayarak İnsan Kaynakları ortamları yalnızca finans ve operasyon uygulama altyapısı üzerinden dağıtılabilir. Daha fazla bilgi için bkz. [Finans ve operasyon altyapısında İnsan Kaynakları sağlama](hr-admin-setup-provision-fo.md).
 
 Bu makalede, Microsoft Dynamics 365 Human Resources için yeni bir üretim ortamı hazırlama işlemi açıklanmaktadır. 
 
@@ -40,14 +41,14 @@ Yeni bir üretim ortamını hazırlamaya başlayabilmeniz için aşağıdaki ön
 ## <a name="provision-a-human-resources-trial-environment"></a>Human Resources deneme ortamı sağlama
 
 >[!NOTE]
-> Nisan 2022'den itibaren, tek başına çalışan uygulamada Human Resources deneme ortamları kullanılamaz. Finans ve Operasyon uygulamalarındaki İnsan Kaynakları özelliklerini değerlendirmeyle ilgilenen potansiyel müşteriler bunu, demo verileriyle birlikte ücretsiz 30 günlük deneme sürümünü kullanarak yapabilir. Dynamics 365 Finance, tek başına çalışan uygulamanın birleştirilmesi yoluyla Finance altyapısına getirilen İnsan Kaynakları özelliklerini içerecektir. Daha fazla bilgi için bkz. [HR tekliflerinin birleştirilmesi müşteriler için özellikleri bir araya getiriyor](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Dynamics 365 Finance deneme sürümleri hakkında daha fazla bilgi için adım adım [kılavuza](../fin-ops-core/fin-ops/get-started/before-you-buy.md) bakın. 
+> Nisan 2022'den itibaren, tek başına çalışan uygulamada Human Resources deneme ortamları kullanılamaz. Finans ve operasyon uygulamalarındaki İnsan Kaynakları özelliklerini değerlendirmeyle ilgilenen potansiyel müşteriler bunu, demo verileriyle birlikte ücretsiz 30 günlük deneme sürümünü kullanarak yapabilir. Dynamics 365 Finance, tek başına çalışan uygulamanın birleştirilmesi yoluyla Finance altyapısına getirilen İnsan Kaynakları özelliklerini içerecektir. Daha fazla bilgi için bkz. [İK tekliflerinin birleştirilmesi müşteriler için özellikleri bir araya getirir](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers). Dynamics 365 Finance denemeleri hakkında daha fazla bilgi için [bu adım adım kılavuza](../fin-ops-core/fin-ops/get-started/before-you-buy.md) bakın. 
 
 
 İlk korumalı alanınızı veya üretim ortamınızı sağlamadan önce, Human Resources işlevselliğini doğrulamak için bir [Human Resources deneme ortamı](https://go.microsoft.com/fwlink/p/?LinkId=2115962) sağlamak isteyebilirsiniz. Deneme ortamları, programı güvenli bir şekilde keşfetmek için kullanılabilen hayali veriler içerir. Deneme ortamı, talep eden kullanıcıya ait olmakla birlikte, diğer kullanıcılar İnsan Kaynakları için sistem yönetimi deneyimi aracılığıyla davet edilebilir. 
 
-Deneme ortamları, bir İnsan Kaynakları ortamına erişimi olmayan kişiler için insan kaynakları işlevini değerlendirme olanağı sağlar. Deneme ortamı sağlıyorsanız ve kimliği doğrulanmış kullanıcının mevcut bir veya daha fazla İnsan Kaynakları ortamına erişimi zaten varsa Kullanıcı mevcut ortama ya da ortam listesine yeniden yönlendirilir.
+Deneme ortamları, bir İnsan Kaynakları ortamına erişimi olmayan kişiler için insan kaynakları işlevini değerlendirmeye yardımcı olur. Deneme ortamı sağlıyorsanız ve kimliği doğrulanmış kullanıcının mevcut bir veya daha fazla İnsan Kaynakları ortamına erişimi zaten varsa Kullanıcı mevcut ortama ya da ortam listesine yeniden yönlendirilir.
 
-Deneme ortamlarının üretim ortamı olarak kullanılmaları amaçlanmamıştır. 30 günlük deneme süresi ile sınırlıdır. Deneme süresi sona erdiğinde, ortam ve ortamdaki tüm verilerin silinir ve kurtarılamaz. Ortam bir korumalı alana veya üretim ortamına dönüştürülemez. Mevcut ortam geçersiz olduktan sonra yeni bir deneme ortamına kaydolabilirsiniz.
+Deneme ortamlarının üretim ortamı olarak kullanılmaları amaçlanmamıştır. 30 günlük deneme süresi ile sınırlıdır. Deneme süresi sona erdiğinde, ortam ve ortamdaki tüm verileri silinir ve kurtarılamaz. Ortam bir korumalı alana veya üretim ortamına dönüştürülemez. Mevcut ortam geçersiz olduktan sonra yeni bir deneme ortamına kaydolabilirsiniz.
 
 Human Resources deneme ortamı oluştururken kiracıda ayrıca bir Power Apps deneme ortamı oluşturulur ve Human Resources ortamına bağlanır. "TestDrive" adlı Power Apps ortamı, Human Resources ortamı ile aynı deneme süresine sahiptir.
 
@@ -56,14 +57,14 @@ Human Resources deneme ortamı oluştururken kiracıda ayrıca bir Power Apps de
 
 ## <a name="plan-human-resources-environments"></a>Human Resources ortamlarını planlama
 
-İlk Human Resources ortamınızı oluşturmadan önce, projeniz için ortam ihtiyaçlarını dikkatlice planlamalısınız. Human Resources'a temel abonelikte iki ortam bulunur: üretim ortamı ve korumalı alan ortamı. Projenizin karmaşıklığına bağlı olarak, proje etkinliklerini desteklemek için ek korumalı alan ortamları satın almanız gerekebilir. 
+İlk Human Resources ortamınızı oluşturmadan önce, projeniz için ortam ihtiyaçlarını dikkatlice planlamalısınız. Human Resources'a temel abonelikte iki ortam bulunur: üretim ortamı ve korumalı alan ortamı. Projenizin karmaşıklığına bağlı olarak, proje etkinliklerini desteklemek için ek korumalı alan ortamlarının satın alınması gerekebilir. 
 
 Ek ortamlar için dikkat edilmesi gereken hususlar:
 
-- **Veri taşıma**: Korumalı alan ortamınızın proje boyunca test amacıyla kullanılmasına izin vermek için veri taşıma etkinlikleri için ek bir ortam düşünmeniz gerekebilir. Ek bir ortama sahip olduğunuzda, test ve yapılandırma etkinlikleri aynı anda farklı bir ortamda gerçekleşirken veri geçişleri etkinliklerinin devam etmesine olanak tanır.
-- **Tümleştirme**: Tümleştirmeleri yapılandırmak ve test etmek için ek bir ortam düşünmeniz gerekebilir. Bu, Ceridian Dayforce veya LinkedIn Talent Hub tümleştirmeleri gibi yerel tümleştirmeleri veya bordro, başvuran izleme sistemleri veya yan hak sistemleri ve sağlayıcıları gibi özel tümleştirmeleri içerebilir.
-- **Eğitim**: Çalışanlarınızı yeni sistemin kullanımı konusunda eğitmek için bir dizi eğitim verisiyle yapılandırılmış ayrı bir ortama ihtiyacınız olabilir. 
-- **Çok aşamalı proje**: Projenin ilk yayınlanmasından sonra planlanan bir proje aşamasında yapılandırmayı, veri geçişini, testi veya diğer etkinlikleri desteklemek için ek bir ortama ihtiyacınız olabilir.
+- **Veri taşıma**: Korumalı alan ortamınızın proje boyunca test amacıyla kullanılmasına izin vermek için veri taşıma etkinlikleri. Ek bir ortama sahip olduğunuzda, test ve yapılandırma etkinlikleri aynı anda farklı bir ortamda gerçekleşirken veri geçişleri etkinliklerinin devam etmesine olanak tanır.
+- **Tümleştirme**: Ceridian Dayforce veya özel tümleştirmeler gibi yerel tümleştirmeler içerebilen tümleştirmeleri yapılandırın ve test edin.
+- **Eğitim**: Personelinizi yeni sistemin kullanımı konusunda eğitmek için bir dizi eğitim verisiyle yapılandırılmış ayrı bir ortama ihtiyacınız olabilir. 
+- **Çok aşamalı proje**: Projenin ilk yayınlanmasından sonra planlanan bir proje aşamasında yapılandırmayı, veri geçişini, testi veya diğer etkinlikleri destekleyin.
 
  > [!IMPORTANT]
  > Ortamınızı değerlendirirken aşağıda belirtilenleri uygulamanızı öneririz:
@@ -111,7 +112,7 @@ Bir LCS projesi oluşturduktan sonra, bir ortama İnsan Kaynakları sağlayabili
 
 6. Koşulları kabul etmek için **Evet**'i seçin ve dağıtıma başlayın.
 
-   Yeni ortamınız, soldaki gezinti bölmesinde bulunan ortam listesinde görüntülenir. Bununla birlikte, dağıtım durumunu **Dağıtıldı** olarak güncelleştirilene kadar ortamı kullanmaya başlayamazsınız. Tipik olarak bu işlem birkaç dakika sürebilir. Sağlama işlemi başarısız olursa Desteğe başvurmanız gerekir.
+   Yeni ortamınız, soldaki gezinti bölmesinde bulunan ortam listesinde görüntülenir. Bununla birlikte, dağıtım durumunu **Dağıtıldı** olana kadar ortamı kullanmaya başlayamazsınız. Tipik olarak bu işlem birkaç dakika sürebilir. Sağlama işlemi başarısız olursa Desteğe başvurun.
 
 7. Yeni ortamı kullanmak için **Human Resources'ta oturum aç**'ı seçin.
 
@@ -140,7 +141,7 @@ Human Resources veri kullanımını, Power Apps araçlarını kullanarak tümle�
    
     - **Desteklenmeyen coğrafyalar** - Ortam, desteklenen bir coğrafyada olmalıdır. Daha fazla bilgi için bkz. [Desteklenen coğrafyalar](hr-admin-setup-provision.md#supported-geographies).
 
-6. Ortam için **Dynamics 365 uygulamalarını etkinleştir** seçeneği belirlenirse İnsan Kaynakları verilerini Power Apps ortamı ile tümleştirmek üzere yalnızca çift yazma özellikleri kullanılabilir. Çift yazma hakkında daha fazla bilgi için bkz. [Çift yazma giriş sayfası](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md).
+6. Ortam için **Dynamics 365 uygulamalarını etkinleştir** seçeneği belirlenirse İnsan Kaynakları verilerini Power Apps ortamı ile tümleştirmek üzere yalnızca çift yazma özellikleri kullanılabilir. Daha fazla bilgi için bkz. [Çift yazma giriş sayfası](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md).
 
     > [!NOTE]
     > Power Apps ortamı oluşturulduğunda **Dynamics 365 uygulamalarını etkinleştir** seçeneği belirlenmelidir. Sağlama sırasında bu seçenek belirlenmezse verileri Dynamics 365 Human Resources ile Power Apps ortamı arasında tümleştirmek veya ortamda Dynamics 365 Sales ve Field Service gibi Dynamics 365 uygulamalarını yüklemek için Çift yazmayı kullanamazsınız. Bu seçenek geri alınamaz. 
@@ -175,3 +176,4 @@ Varsayılan olarak, ortamı oluşturan genel yöneticinin ortama erişimi vardı
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

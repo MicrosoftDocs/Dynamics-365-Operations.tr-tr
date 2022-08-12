@@ -1,6 +1,6 @@
 ---
 title: Örneği kaldırma
-description: Bu konuda, Microsoft Dynamics 365 Human Resources için bir test sürüşü kaldırma yeni bir üretim ortam işlemi adım adım anlatılmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Human Resources için bir test sürüşünün veya üretim ortamının kaldırılması süreci tanımlanmaktadır.
 author: twheeloc
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,16 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4256938be70f301d3d7b7663f10addb19725b048
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0ce676c93e133cc04ad9c49417ed2ca0d6791e93
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859647"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178487"
 ---
 # <a name="remove-an-instance"></a>Örneği kaldırma
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Uygulandığı Öğe** tek başına çalışan altyapıda İnsan Kaynakları_ 
+
+> [!NOTE]
+> Temmuz 2022 tarihinden başlayarak tek başına İnsan Kaynakları altyapısında yeni İnsan Kaynakları ortamları sağlanamaz ve burada yeni Microsoft Dynamics Lifecycle Services (LCS) projeleri oluşturulamaz. Müşteriler, İnsan Kaynakları ortamları yalnızca finans ve operasyon altyapısı üzerinden dağıtılabilir. Daha fazla bilgi için bkz. [Finans ve operasyon altyapısında İnsan Kaynakları sağlama](/hr-admin-setup-provision-fo.md).
+
+> [!IMPORTANT]
+> Finans ve operasyon uygulama altyapısı bir ortamın silinmesini destekler. Bir ortamın nasıl silineceği hakkında daha fazla bilgi için bkz. [Bir ortam silme](../fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure.md#delete-an-environment).
 
 Bu makalede, Microsoft Dynamics 365 Human Resources için bir test sürüşünün veya üretim ortamının kaldırılması süreci açıklanmaktadır.
 
@@ -42,10 +48,13 @@ Var olan test ortamı kaldırılır. Kaldırıldığında, yeni bir test ortamı
 
 Bu konuda, İnsan Kaynaklarını bir Bulut Çözümü Sağlayıcısı (CSP) veya kurumsal mimari (EA) sözleşmesi aracılığıyla aldığınız varsayılır. 
 
-Tek bir İnsan Kaynakları ortamı tek bir Power Apps ortamı içinde "yer aldığından", dikkate alınması gereken iki seçenek vardır. İlk seçenek tüm Power Apps ortamını kaldırmayı, ikinci seçenek yalnızca İnsan Kaynakları'nı kaldırmayı içerir. İlk seçenek, Power Apps ortamını özellikle İnsan Kaynakları sağlamak için oluşturmuş, uygulamaya henüz başlamış veya herhangi bir tümleştirme yapmamış olmanız durumunda tercih edilir. İkinci seçenek Power Apps ve Power Automate'ten alınan zengin verilerle doldurulan bir Power Apps ortamınız olması durumunda uygundur.
+Tek bir İnsan Kaynakları ortamı tek bir Power Apps ortamı içinde yer aldığından, bir ortamı kaldırırken dikkate alınması gereken iki seçenek vardır. 
+- **Tüm Power Apps ortamını kaldırın.** Bu seçenek, Power Apps ortamını özellikle İnsan Kaynakları sağlamak için oluşturulmuş, uygulamaya henüz başlamış veya herhangi bir tümleştirme yapmamış olmanız durumunda tercih edilir.  
+- **Yalnızca İnsan Kaynakları'nı kaldırın.** Bu seçenek Microsoft Power Apps ve Power Automate 'içinde kullanılan verilerle doldurulan bir Power Apps ortamı olması durumunda uygundur.
+
 
 > [!Important]
-> Power Apps ortamını kaldırmadan önce, İnsan Kaynakları kapsamı dışındaki zengin veri tümleştirmeleri için kullanılmadığından emin olun. Varsayılan Power Apps ortamlarının da kaldırılamayacağını unutmayın. 
+> Power Apps ortamını kaldırmadan önce, İnsan Kaynakları kapsamı dışındaki veri tümleştirmeleri için kullanılmadığından emin olun. Varsayılan Power Apps ortamlarının da kaldırılamayacağını unutmayın. 
 
 İnsan Kaynakları ve ilişkili uygulamalar ve akışlar dahil tüm Power Apps ortamını kaldırmak için:
 
@@ -73,7 +82,7 @@ Tek bir İnsan Kaynakları ortamı tek bir Power Apps ortamı içinde "yer aldı
 
 ## <a name="recover-a-soft-deleted-environment"></a>Geçici olarak silinen bir ortamı kurtarma
 
-Human Resources ortamınızın bağlı olduğu Power Apps ortamını yazılımla silerseniz, Lifecycle Services'te İnsan Kaynakları ortamının durumu **Geçici olarak silindi** olur. Bu durumda, kullanıcılar Human Resources'a bağlanamaz.
+Human Resources ortamınızın bağlı olduğu Power Apps ortamını yazılımla silerseniz, LCS'de İnsan Kaynakları ortamının durumu **Geçici olarak silindi** olur. Bu durumda, kullanıcılar Human Resources'a bağlanamaz.
 
 Ortamı geri yüklemek için:
 

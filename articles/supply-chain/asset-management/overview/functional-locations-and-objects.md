@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 274e80136ee303af9d0fe5fd04095f575a345d19
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d8d155b8bbf981408f6f15e914fc3bb1da25c9c
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875669"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111091"
 ---
 # <a name="functional-locations-and-assets"></a>İşlem yapılacak yerleşimler ve kıymetler
 
@@ -32,7 +32,7 @@ Bu makalede Varlık Yönetimi'ndeki işlem yapılacak yerleşimler ve varlıklar
 
 ## <a name="overview"></a>Genel bakış
 
-Varlık Yönetimi, diğer Finance and Operations uygulamalarındaki çeşitli modüller ile sorunsuz şekilde tümleştirilir. Aşağıdaki örnekte diğer modüllerle olan arabirimler gösterilmektedir.
+Varlık Yönetimi, diğer finans ve operasyon uygulamalarındaki çeşitli modüller ile sorunsuz şekilde tümleştirilir. Aşağıdaki örnekte diğer modüllerle olan arabirimler gösterilmektedir.
 
 ![Varlık Yönetiminin diğer modüllerle olan arabirimlerini gösteren diyagram.](media/01-overview-image.png)
 

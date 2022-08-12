@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 520c8b32099024e9a9619a6ecdcd3ba7b97c7ecf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 89175763357f4309c4eb7874d0068586c5d9e726
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856932"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123963"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Gelişmiş filtreleme ve sorgu sözdizimi
 
@@ -122,9 +122,9 @@ Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusunu veya Filtre böl
 <td>İki ardışık çift tırnak (<strong>""</strong>), geçerli sütun için değer içermeyen satırları bulur.</td>
 </tr>
 <tr>
-<td>( <span class="code">Finans ve Operasyon sorgusu</span>) (Parantez içinde Finans ve Operasyon sorgusu)</td>
+<td>(<span class="code">Finans ve operasyon sorgusu</span>) (Parantez içinde finans ve operasyon sorgusu)</td>
 <td>Tanımlanan bir sorgulamayı eşleştirir.</td>
-<td>Finans ve Operasyon sorgu dilini kullanarak parantez içinde SQL deyimi olarak bir sorgu yazın.</td>
+<td>Finans ve operasyon sorgu dilini kullanarak parantez içinde SQL deyimi olarak bir sorgu yazın.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        kök veri kaynağındaki bir alanda filtre koşulu için sözdizimi örneği ve farklı bir veri kaynağındaki bir alan (Tüm müşteriler sayfası için)</td>
 </tr>

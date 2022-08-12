@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7d6524cb9109263ad62d221ec98e546b962b89ee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850452"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067543"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Ambar hareketleri için ürün filtrelerini yapılandırma
 
@@ -95,7 +95,7 @@ Madde gruplarında filtre kodlarını ayarlamak için aşağıdaki adımları iz
     Örneğin, **Filtre kodu 1 kullan** ve **Filtre kodu 2 kullan** onay kutuları seçiliyse, filtre grubunun seçilmesi için maddenin hem filtre kodu 1'inin hem de filtre kodu 2'sinin madde grubunun filtre grubu kurulumuyla eşleşmesi gerekir. Yeni bir madde oluşturduğunuzda seçili filtre grubu, **Serbest bırakılan ürün ayrıntıları** sayfasının **Ambar** hızlı sekmesindeki **Grup 1** ve **Grup 2** alanlarında varsayılan filtre grubu olur.
 
 > [!IMPORTANT]
-> Ürün filtresi kodları yalnızca gelişmiş ambar yönetimini kullanan maddeler için etkinleştirilir.
+> Ürün filtresi kodları yalnızca ambar yönetimi süreçlerini (WMS) kullanan öğeler için etkinleştirilir.
 
 ## <a name="specify-filter-codes-for-released-products"></a>Serbest bırakılan ürünler için filtre kodları belirtme
 
@@ -158,7 +158,7 @@ Satıcı filtre kodlarını ayarlamak için aşağıdaki adımları izleyin.
 1. **Kod 1**-**Kod 10** alanlarında, seçili madde grubundaki satıcılara kullanılabilir olarak sunulacak maddeleri sınırlandırırken ölçüt olarak kullanmak üzere filtre kodlarını seçin. Madde grubu için ayarlanmış her filtre kodu için bir seçim yapmalısınız.
 
 > [!NOTE]
-> Satıcı ürün filtrelerinin kurulumu, ilişkili depolama boyutu grubu için ambar yönetimi işlemlerinin etkinleştirildiği serbest bırakılan ürünler için geçerlidir. Sistemin, kullanıcıların satınalma siparişi satırları oluşturduğu sırada belirli bir maddeyi belirli bir satıcıdan almalarına izin verip vermeyeceğini belirlemek için filtre kodları kullanılır. Microsoft Dynamics 365 Supply Chain Management, satıcı onayını işlemek için iki yönteme sahiptir. **Onaylanan satıcı denetim yöntemi** alanının *Yalnızca uyarı* veya *İzin verilmez* olarak ayarlandığı bir durumda bir veya daha fazla serbest bırakılan ürün varsa, her iki satıcı onayı yöntemi de bu maddeler için etkinleştirilebilir. Bu durum, kullanıcılar satınalma siparişi satırları oluştururken sorunlara neden olabilir.
+> Satıcı ürün filtrelerinin kurulumu, ilişkili depolama boyutu grubu için ambar yönetimi süreçlerinin (WMS) etkinleştirildiği serbest bırakılan ürünler için geçerlidir. Sistemin, kullanıcıların satınalma siparişi satırları oluşturduğu sırada belirli bir maddeyi belirli bir satıcıdan almalarına izin verip vermeyeceğini belirlemek için filtre kodları kullanılır. Microsoft Dynamics 365 Supply Chain Management, satıcı onayını işlemek için iki yönteme sahiptir. **Onaylanan satıcı denetim yöntemi** alanının *Yalnızca uyarı* veya *İzin verilmez* olarak ayarlandığı bir durumda bir veya daha fazla serbest bırakılan ürün varsa, her iki satıcı onayı yöntemi de bu maddeler için etkinleştirilebilir. Bu durum, kullanıcılar satınalma siparişi satırları oluştururken sorunlara neden olabilir.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

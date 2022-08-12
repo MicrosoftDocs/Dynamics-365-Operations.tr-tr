@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6a00bdae34e2aebcc4a015626eb044d90cd2887
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: db15c52ddde08bcc9d390c51efc676c20aac0a7e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864411"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067448"
 ---
 # <a name="budgeting-home-page"></a>Bütçeleme giriş sayfası
 
@@ -38,7 +38,7 @@ Bir şirketin kaynak planlama döngüsü genellikle planlama, bütçeleme ve tah
 
 Hem uzun vadeli stratejik planlama hem de yıllık bütçe planlama işlemleri bir bütçe planı belgesiyle desteklenir. Bütçe planı belgeleri, Microsoft Excel ile sıkı şekilde tümleşiktir. Kullanıcılar sınırsız parasal ve nicel senaryoları yapılandırabilir. Ayrıca hem yukarıdan aşağıya hem de aşağıdan yukarıya bütçeleme yöntemlerini desteklemek üzere bir bütçeleme kuruluş hiyerarşisi tanımlayabilir. Uygulamada bir bütçe oluşturulup onaylandıktan sonra bütçe planını bir bütçe kayıt girişine dönüştürürsünüz. Bütçe kayıt girişleri, bütçeyi korumak ve bütçe kodlarıyla tutarları izlenebilir tutmak için araçlar sağlar. Bütçe kayıt girişleri, orijinal bütçeleri gözden geçirmenize, transferler yapmanıza, önceki yıldan bütçe tutarlarını nakletmenize olanak sağlar. Bir şirket, oluşturulan bütçeye bağlı olarak bütçe kontrolünü etkinleştirebilir. Kontrol düzeyi, kuruluşun kültürüne ve gelişim düzeyine bağlıdır. Daha düşük bir gelişim düzeyindeki kuruluşlar bütçeyi "olduğu gibi" bırakabilir ve bütçe beklentilerini karşılamıyorsa proaktiften çok, reaktif olabilirler. Diğer kuruluşlar bütçe fonları olmadığı zaman kullanıcıların satın almalarını önleyen bütçe kontrolü ilkeleri kullanabilir.
 
-Son olarak, çok olgun kuruluşlar, personelin kuruluş hedefleri hakkında eğitim gördükleri ve bu hedefleri "Seyahat yerine çevrimiçi toplantı tercih et" gibi ilkeler sayesinde izledikleri bir kuruluş kültürüne sahip olabilir. Uygulama, şirketin yönetiminin sıkı denetim (bütçeyi aşacak deftere nakilleri önleyen) veya gevşek denetim (kullanıcıların mevcut bütçe fonlarını aştıklarında uyarıldıkları ancak nasıl devam edeceklerini kendileri seçtikleri) arasından seçim yapmasına olanak sağlayan bir bütçe kontrolü çerçevesi içerir. Son olarak, aktarmalı tahminler kullanabilirsiniz. Aktarmalı tahmin, bütçenin fiili değerlerle düzenli olarak karşılaştırılmasıdır ve şirket bütçeye göre ne kadar iyi faaliyet gösterdiğini tanımlamak için kullanılır. Aktarmalı tahmin, eğilimleri belirlemek için de kullanılır. Finance and Operations'ta aktarmalı tahminler, ilk planlama etkinlikleri olarak bir bütçe planı belgesi üzerinden desteklenir. Aktarmalı tahminler, gelecek bütçe döngüsü için planlamayla paralel olarak yürütülebilir.
+Son olarak, çok olgun kuruluşlar, personelin kuruluş hedefleri hakkında eğitim gördükleri ve bu hedefleri "Seyahat yerine çevrimiçi toplantı tercih et" gibi ilkeler sayesinde izledikleri bir kuruluş kültürüne sahip olabilir. Uygulama, şirketin yönetiminin sıkı denetim (bütçeyi aşacak deftere nakilleri önleyen) veya gevşek denetim (kullanıcıların mevcut bütçe fonlarını aştıklarında uyarıldıkları ancak nasıl devam edeceklerini kendileri seçtikleri) arasından seçim yapmasına olanak sağlayan bir bütçe kontrolü çerçevesi içerir. Son olarak, aktarmalı tahminler kullanabilirsiniz. Aktarmalı tahmin, bütçenin fiili değerlerle düzenli olarak karşılaştırılmasıdır ve şirket bütçeye göre ne kadar iyi faaliyet gösterdiğini tanımlamak için kullanılır. Aktarmalı tahmin, eğilimleri belirlemek için de kullanılır. Finans ve operasyon uygulamalarında aktarmalı tahminler, ilk planlama etkinlikleri olarak bir bütçe planı belgesi üzerinden desteklenir. Aktarmalı tahminler, gelecek bütçe döngüsü için planlamayla paralel olarak yürütülebilir.
 
 -   [Bütçelemeye genel bakış](basic-budgeting-overview-configuration.md)
 -   [Bütçe denetimine genel bakış](budget-control-overview-configuration.md)
@@ -72,3 +72,4 @@ Kullanıcılar bütçe planlarını doğrudan istemcide (yapılandırılabilir b
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

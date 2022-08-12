@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 23805a88fab34d925241c51ae449bd81e15d5337
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 3948fff15108568df514406ad443d4f538653e62
+ms.sourcegitcommit: 1af2b01aea6b5a4d88ee3fae6faa0eaf1976c5dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027295"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9146498"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri
 
@@ -271,7 +271,7 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 | 1218 | Çevre biriminin kilidini açmaya zorla                           | Sistem bu işlemi POS çevre birimlerinin kilidini açmak için dahili olarak kullanır.                                                                                                                                           | Uygulanamaz | Uygulanamaz     | Uygulanamaz | Uygulanamaz    | No.              |
 | 1219 | POS'ta URL Aç                                   | POS'ta yönetici tarafından yapılandırılmış bir URL'yi açın.                                                                                                                                                                           | Evet            | Evet                | Evet            | Evet               | No.              |
 | 1220 | Kasayı Yönet                                       | Farklı kasaların güvenliğini yönetin.                                                                                                                                                                       | Evet            | Evet                | Evet            | Evet               | No.              |
-| 1221 | Askıya Alınan Hareketleri Hükümsüz Kıl                       | Askıya alınan hareketleri hükümsüz kılın.                                                                                                                                                                               | Evet            | Evet                | Evet            | Evet               | No.              |
+| 1221 | Askıya Alınan Hareketleri Hükümsüz Kıl                       | Askıya alınan hareketleri hükümsüz kılın.                                                                                                                                                                               | Evet            | No.                | No.            | Evet               | No.              |
 | 1300 | Mali kaydı atla                          | Mali kaydı atlayın.                                                                                                                                                                                       | No.            | No.                | No.            | Evet               | No.             |
 | 1301 | Mali olayı kaydedildi olarak işaretle                      |  Mali olayı kaydedildi olarak işaretleyin.                                                                                                                                                                                  | No.            | No.                | No.            | Evet               | No.             |
 | 1302 | Mali kayıt işlemini tamamla              | Mali kayıt işlemini tamamlayın.                                                                                                                                                                           | No.            | No.                | Evet            | Evet               | Evet             |

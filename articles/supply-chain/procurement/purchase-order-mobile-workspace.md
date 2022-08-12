@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 224d3ce5c9163e95de817a3446a57f07c85df757
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b5336549937edca6beb94137896f84b460f257f7
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863867"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111345"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Satın alma siparişi onayı mobil çalışma alanı
 
@@ -52,9 +52,9 @@ Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 3
 </thead>
 <tbody>
 <tr class="odd">
-<td>KB 4017918 uygulayın.</td>
+<td>BB 4017918 uygulayın.</td>
 <td>Sistem yöneticisi</td>
-<td>KB 4017918, <strong>Satınalma siparişi onayı</strong> mobil çalışma alanını içeren bir X++ güncelleştirmesi veya meta veri düzeltmesidir. KB 4017918 uygulamak için sistem yöneticiniz bu adımları atması gerekir.
+<td>BB 4017918, <strong>Satınalma siparişi onayı</strong> mobil çalışma alanını içeren bir X++ güncelleştirmesi veya meta veri düzeltmesidir. BB 4017918 uygulamak için sistem yöneticiniz bu adımları atması gerekir.
 <ol>
 <li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Meta veri düzeltmesini Microsoft Dynamics Lifecycle Services (LCS) üzerinden indirin</a>.</li>
 <li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Meta veri düzeltmesini kurun</a>.</li>
@@ -71,7 +71,7 @@ Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 3
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobil uygulamayı indirin ve yükleyin
-Finance and Operations mobil uygulamasını indirip yükleyin:
+Finans ve operasyon mobil uygulamasını indirip yükleyin:
 
 - [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
 - [İPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -114,3 +114,4 @@ Size atanan satınalma siparişini görüntüledikten ve iş akışı talimatlar
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

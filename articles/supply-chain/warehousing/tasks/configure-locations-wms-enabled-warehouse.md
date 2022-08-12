@@ -1,6 +1,6 @@
 ---
 title: WMS özellikli bir ambarda yerleşimleri yapılandırma
-description: Bu kılavuz, yeni bir WMS etkin ambarın (gelişmiş ambar yönetimi süreçleri kullanan bir ambarın) konum kurulumunun nasıl yapılandırılacağını gösterir.
+description: Bu kılavuz, yeni bir WMS etkin ambarın (gelişmiş ambar yönetimi süreçleri (WMS) kullanan bir ambarın) konum kurulumunun nasıl yapılandırılacağını gösterir.
 author: perlynne
 ms.date: 06/26/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
-ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
+ms.openlocfilehash: 45195698b48d6a22697f99044a8ae49beaf7156e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599360"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067288"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>WMS özellikli bir ambarda yerleşimleri yapılandırma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu kılavuz, yeni bir WMS etkin ambarın (gelişmiş ambar yönetimi süreçleri kullanan bir ambarın) konum kurulumunun nasıl yapılandırılacağını gösterir. Bu işlem genellikle ambar yöneticisi tarafından yapılır. Bu kılavuzu, demo verileri şirketi USMF'yi veya kendi verilerinizi kullanarak yerine getirebilirsiniz. Bir önkoşul, yapılandırılmış en az bir tesis olmasıdır.
+Bu kılavuz, yeni bir WMS etkin ambarın (gelişmiş ambar yönetimi süreçleri (WMS) kullanan bir ambarın) konum kurulumunun nasıl yapılandırılacağını gösterir. Bu işlem genellikle ambar yöneticisi tarafından yapılır. Bu kılavuzu, demo verileri şirketi USMF'yi veya kendi verilerinizi kullanarak yerine getirebilirsiniz. Bir önkoşul, yapılandırılmış en az bir tesis olmasıdır.
 
 
 ## <a name="create-a-new-warehouse"></a>Yeni bir ambar oluşturun
@@ -35,7 +35,7 @@ Bu kılavuz, yeni bir WMS etkin ambarın (gelişmiş ambar yönetimi süreçleri
 4. **Ad** alanına bir değer yazın.
 5. **Site** alanında, varolan bir site değerini seçin veya yazın.
 6. **Ambar** bölümünü genişletin.
-7. **Ambar yönetimi süreçlerini kullan** seçeneğini Evet olarak ayarlayın. Bu ayar, ambar çalışma ve mobil aygıtları kullanarak gelişmiş ambar işlemleri çalıştırmanızı sağlar.
+7. **Ambar yönetimi süreçlerini kullan** seçeneğini Evet olarak ayarlayın. Bu ayar, ambar çalışma ve mobil cihazları kullanarak ambar yönetimi işlemleri (WMS) çalıştırmanızı sağlar.
 8. Sayfayı kapatın.
 
 ## <a name="define-a-location-format"></a>Konum biçimi tanımlayın.
@@ -68,8 +68,8 @@ Bu kılavuz, yeni bir WMS etkin ambarın (gelişmiş ambar yönetimi süreçleri
 5. Sayfayı kapatın.
 
 ## <a name="define-location-profile"></a>Konum profilleri tanımlayın
-1. **Gezinti bölmesi > Modüller > Ambar yönetimi > Kurulum > Ambar > Konum profilleri**'ne gidin. Konum profillerinin tanımı çok önemlidir. Gruplandırılmış konum kapasitelerinin yanı sıra, hangi stokun depolanacağı ve nasıl depolandığına dair ilgili ilkeler buradan kontrol edilebilir. Yerleşim profilleri farklı ambar yönetimi işlemlerini denetlemek için filtreleme seçenekleri olarak kullanılabilir. En düşük gereksinim olarak ambar yönetimi işlemlerini etkinleştirmek için bir kullanıcı konumu profili oluşturmanız gerekir.
-2. **Yeni**'ye tıklayın.
+1. **Gezinti bölmesi > Modüller > Ambar yönetimi > Kurulum > Ambar > Konum profilleri**'ne gidin. Konum profillerinin tanımı çok önemlidir. Gruplandırılmış konum kapasitelerinin yanı sıra, hangi stokun depolanacağı ve nasıl depolandığına dair ilgili ilkeler buradan kontrol edilebilir. Yerleşim profilleri farklı ambar yönetimi işlemlerini denetlemek için filtreleme seçenekleri olarak kullanılabilir. En düşük gereksinim olarak WMS'yi etkinleştirmek için bir kullanıcı konumu profili oluşturmanız gerekir.
+2. **Yeni**'yi tıklatın.
 3. **Konum profili numarası** alanına bir değer yazın.
 4. **Ad** alanına bir değer yazın.
 5. **Konum biçimi** alanında, aramayı açmak için açılır menü düğmesine tıklayın.
@@ -81,7 +81,7 @@ Bu kılavuz, yeni bir WMS etkin ambarın (gelişmiş ambar yönetimi süreçleri
 11. **Karışık stok durumlarına izin ver** onay kutusunu işaretleyin veya onay kutusundaki işareti kaldırın. Bu konum profiline göre gruplandırılacak konumlarda karışık stok durum değerlerine izin vermek istiyorsanız bu seçeneği etkinleştirin. 
 12. **Toplu günler için kuralları geçersiz kıl** onay kutusunu işaretleyin veya onay kutusundaki işareti kaldırın. Bu kurala uymayan stok toplu işlerinin karıştırılmasına izin vermek istiyorsanız, stok toplu sona erme tarihlerinin kaç gün farklılık gösterebileceğine dair kuralı geçersiz kılmak için bu seçeneği etkinleştirin.  
 13. **Döngü sayımına izin ver** onay kutusunu işaretleyin veya onay kutusundaki işareti kaldırın. Bu konum profiline göre gruplandırılacak tüm konumlarda döngü sayımı işlemesine izin vermek istiyorsanız bu seçeneği etkinleştirin. 
-14. **Boyutlar** bölümünü genişletin veya daraltın. Boyutlar sekmesi, konumlardan her birinin içindeki yük kapasitesini hassas şekilde hesaplamak için parametreler ve yöntemler tanımlamanıza olanak sağlar.  
+14. **Boyutlar** bölümünü genişletin veya daraltın. Boyutlar sekmesi, konumlardan her birinin içindeki kapasite yükünü hassas şekilde hesaplamak için parametreler ve yöntemler tanımlamanıza olanak sağlar.  
 15. Sayfayı kapatın.
 
 ## <a name="enable-warehouse-management-parameters"></a>Ambar yönetim parametrelerini etkinleştirin
