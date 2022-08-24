@@ -1,24 +1,24 @@
 ---
 title: Vergi Hesaplamaya genel bakış
 description: Bu makalede, Vergi Hesaplama özelliğinin tüm kapsamı ve özellikleri açıklanmaktadır.
-author: wangchen
+author: EricWangChen
 ms.date: 03/02/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.search.form: TaxIntegrationTaxServiceParameters
+ms.openlocfilehash: c6dabb9d2aae6f1fc759c40f870c66304d7f7c8d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9166854"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270684"
 ---
 # <a name="tax-calculation-overview"></a>Vergi Hesaplamaya genel bakış
 
@@ -54,10 +54,15 @@ Vergi Hesaplama aşağıdaki Azure bölgelerinde dağıtılır. Müşteri gereks
 
 - Asya Pasifik
 - Avustralya
+- Brezilya
 - Kanada
 - Avrupa
+- Fransa
+- Hindistan
 - Japonya
+- Güney Afrika
 - İsviçre
+- Birleşik Arap Emirlikleri
 - Birleşik Krallık
 - Amerika Birleşik Devletleri
 
@@ -149,11 +154,15 @@ Aşağıdaki hareketler sürüm 10.0.28'de desteklenmektedir:
 - Satıcı ödeme günlüğü
 - Müşteri ödeme günlüğü
 
+Aşağıdaki hareketler sürüm 10.0.29'te desteklenmektedir: 
+
+- Periyodik günlük
+
 ## <a name="supported-countriesregions"></a>Desteklenen ülkeler/bölgeler
 
-Vergi Hesaplama, tüzel kişilik tarafından etkinleştirilebilir. 
+Vergi hesaplaması, bir tüzel kişiliğin birincil adresi için aşağıdaki ülkelerde/bölgelerde bulunan desteklenen yerelleştirme özellikleriyle çalıştırılabilir: 
 
-Tüzel kişiliğin birincil adresi için aşağıdaki ülkeler/bölgeler 10.0.21 sürümünde desteklenir:
+10.0.21 sürümünde desteklenenler:
 
 - Avusturya
 - Belçika
@@ -176,7 +185,7 @@ Tüzel kişiliğin birincil adresi için aşağıdaki ülkeler/bölgeler 10.0.21
 - Birleşik Krallık
 - Amerika Birleşik Devletleri
 
-Tüzel kişiliğin birincil adresi için aşağıdaki ülkeler/bölgeler 10.0.22 sürümünde desteklenir:
+10.0.22 sürümünde desteklenenler:
 
 - Avustralya
 - Bahreyn
@@ -191,22 +200,24 @@ Tüzel kişiliğin birincil adresi için aşağıdaki ülkeler/bölgeler 10.0.22
 - Güney Afrika
 - Birleşik Arap Emirlikleri
 
-Tüzel kişiliğin birincil adresi için aşağıdaki ülkeler/bölgeler 10.0.23 sürümünde desteklenir:
+10.0.23 sürümünde desteklenenler:
 
 - Tayland
 - Japonya
 - Malezya
 - Singapur
 
-Tüzel kişiliğin birincil adresi için aşağıdaki ülkeler/bölgeler 10.0.24 sürümünde desteklenir:
+10.0.24 sürümünde desteklenenler:
 
 - Meksika
 
-Tüzel kişiliğin birincil adresi için aşağıdaki ülkeler/bölgeler 10.0.26 sürümünde desteklenir:
+10.0.26 sürümünde desteklenenler:
 
 - Çin
 - Çek Cumhuriyeti
 - İspanya
+
+Microsoft tarafından yerelleştirilmemiş herhangi bir ülke/bölge için vergi hesaplaması diğer global özelliklerle de etkinleştirilebilir ve çalıştırılabilir.
 
 ## <a name="related-resources"></a>İlgili kaynaklar
 

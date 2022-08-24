@@ -1,26 +1,26 @@
 ---
 title: Çalışma zamanı sorunlarını önlemek için yapılandırılmış ER bileşenini denetleme
 description: Bu makalede, oluşabilecek çalışma zamanı sorunlarını önlemek için yapılandırılmış elektronik raporlama (ER) bileşenlerinin nasıl denetleneceği açıklamaktadır.
-author: NickSelin
+author: kfend
 ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
+ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864850"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277865"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Çalışma zamanı sorunlarını önlemek için yapılandırılmış ER bileşenini denetleme
 
@@ -30,8 +30,8 @@ Her yapılandırılmış [Elektronik raporlama (ER)](general-electronic-reportin
 
 Varsayılan olarak, aşağıdaki durumlarda yukarıda belirtilen ER bileşenlerini içeren bir ER yapılandırması için doğrulama otomatik olarak uygulanır:
 
-- Microsoft Dynamics 365 Finance örneğinize yeni bir ER yapılandırması [sürümü](general-electronic-reporting.md#component-versioning) [içeri aktardığınızda](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally).
-- Düzenlenebilir ER yapılandırmasının [durumunu](general-electronic-reporting.md#component-versioning) **Taslak**'tan **Tamamlandı** olarak değiştirdiğinizde.
+- Microsoft Dynamics 365 Finance örneğinize yeni bir ER yapılandırması sürümü [içeri aktardığınızda](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally).
+- Düzenlenebilir ER yapılandırmasının durumunu **Taslak**'tan **Tamamlandı** olarak değiştirdiğinizde.
 - Yeni bir taban sürümü uygulayarak düzenlenebilir bir ER yapılandırmasını [yeniden temellendirdiğinizde](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase).
 
 Bu doğrulamayı açıkça çalıştırabilirsiniz. Aşağıdaki üç seçenekten birini seçin ve belirtilen adımları izleyin:
@@ -770,7 +770,7 @@ Bu sorunu otomatik olarak düzeltme seçeneği bulunmaz.
 
 ## <a name="not-linked-template"></a><a id="i12"></a>Bağlanmamış şablon
 
-Bir ER biçimi bileşenini giden belge oluşturmak için şablon kullanacak şekilde [el ile](er-fillable-excel.md#manual-entry) yapılandırdığınızda **Excel\\Dosya** bileşenini el ile eklemeniz, gerekli şablonu düzenlenebilir bileşeninin eki olarak eklemeniz ve eklenen **Excel\\Dosya** bileşeninde eki seçmeniz gerekir. Bu şekilde, eklenen öğenin çalışma zamanında seçili şablonu dolduracağını belirtirsiniz. **Taslak** [durumundaki](general-electronic-reporting.md#component-versioning) bir biçim bileşeni sürümünü yapılandırdığınızda, düzenlenebilir bileşene birkaç şablon ekleyebilirsiniz ve ER biçimini çalıştırmak için **Excel\\Dosya** öğesinde her bir şablonu seçebilirsiniz. Bu şekilde çalışma zamanında farklı şablonların nasıl doldurulduğunu görebilirsiniz. Herhangi bir **Excel\\Dosya** öğesi içinde seçili olmayan şablonlarınız varsa ER biçim tasarımcısı, düzenlenebilir ER biçim bileşeni sürümünün durumu **Taslak** iken **Tamamlandı** olarak değiştirildiğinde bu şablonların düzenlenebilir ER biçimi bileşeni sürümünden silineceği hakkında sizi uyarır.
+Bir ER biçimi bileşenini giden belge oluşturmak için şablon kullanacak şekilde [el ile](er-fillable-excel.md#manual-entry) yapılandırdığınızda **Excel\\Dosya** bileşenini el ile eklemeniz, gerekli şablonu düzenlenebilir bileşeninin eki olarak eklemeniz ve eklenen **Excel\\Dosya** bileşeninde eki seçmeniz gerekir. Bu şekilde, eklenen öğenin çalışma zamanında seçili şablonu dolduracağını belirtirsiniz. **Taslak** durumundaki bir biçim bileşeni sürümünü yapılandırdığınızda, düzenlenebilir bileşene birkaç şablon ekleyebilirsiniz ve ER biçimini çalıştırmak için **Excel\\Dosya** öğesinde her bir şablonu seçebilirsiniz. Bu şekilde çalışma zamanında farklı şablonların nasıl doldurulduğunu görebilirsiniz. Herhangi bir **Excel\\Dosya** öğesi içinde seçili olmayan şablonlarınız varsa ER biçim tasarımcısı, düzenlenebilir ER biçim bileşeni sürümünün durumu **Taslak** iken **Tamamlandı** olarak değiştirildiğinde bu şablonların düzenlenebilir ER biçimi bileşeni sürümünden silineceği hakkında sizi uyarır.
 
 Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 

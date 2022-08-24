@@ -1,25 +1,25 @@
 ---
 title: Teslimat şekline göre işlem tabanlı e-postaları özelleştirme
 description: Bu makale, Microsoft Dynamics 365 Commerce'ta belirli bildirim türleri ve teslimat modları için özel e-posta şablonları ayarlamayı açıklamaktadır .
-author: stuharg
+author: bicyclingfool
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: f16bc23e3527f57bd61d73e92506946067c6eeb9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 0c0bd218c10a373d142ddcc7780c5339569f7a07
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850316"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275717"
 ---
 # <a name="customize-transactional-emails-by-mode-of-delivery"></a>Teslimat şekline göre işlem tabanlı e-postaları özelleştirme
 

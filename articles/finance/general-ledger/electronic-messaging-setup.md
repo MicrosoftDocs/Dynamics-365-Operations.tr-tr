@@ -1,7 +1,7 @@
 ---
 title: Elektronik iletileri ayarlama
 description: Bu makalede, Elektronik iletiler (EM) işlevinin nasıl ayarlanacağı hakkında bilgiler sağlanmaktadır.
-author: liza-golub
+author: AdamTrukawka
 ms.date: 11/18/2021
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: elgolu
+ms.author: atrukawk
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 6ac6e4fbc37165a3126de3b1f937a43c980410b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 12beb1adbfa4e2f235c8a7c69e786d342c4a4f68
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874594"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279317"
 ---
 # <a name="set-up-electronic-messages"></a>Elektronik iletileri ayarlama
 

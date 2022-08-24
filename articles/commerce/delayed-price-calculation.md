@@ -5,16 +5,16 @@ author: boycezhu
 ms.date: 09/09/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: boycez
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 6926c288a91dbe66b6ffc2e6c06f866d3ebd7652
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 66c7c5a61648ba0423b27b74a1c4e42bc1b22b8b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845909"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267603"
 ---
 # <a name="delay-exact-price-and-discount-calculation-for-improved-performance"></a>İyileştirilmiş performans için kesin fiyat ve iskonto hesaplamasını geciktirme
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 6d04ca43895935329b711f2658360c41f611975e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 2b3c408f5a5e4ce85a235ac83c15b648e43b5e10
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065479"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220072"
 ---
 # <a name="warehouse-location-status"></a>Ambar yerleşimi durumu
 
@@ -42,10 +42,7 @@ Microsoft Dynamics 365 Supply Chain Management'ta, yerleşimler üzerinde çalı
 
 ## <a name="turn-on-the-warehouse-location-status-feature"></a>Ambar konum durumu özelliğini açma
 
-*Ambar konum durumu* özelliğini kullanabilmeniz için sisteminizde etkinleştirilmesi gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
-
-- **Modül:** *Ambar yönetimi*
-- **Özellik adı:** *Ambar konum durumu*
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.29 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Ambar konumu durumu* özelliğini bularak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="set-up-warehouse-location-status"></a>Ambar konumu durumunu ayarlama
 
@@ -55,7 +52,7 @@ Senaryo üzerinden çalışmaya başlamadan önce, örnek verileri etkinleştirm
 
 #### <a name="use-the-usmf-legal-entity"></a>Tüzel kişilik olarak USMF'yi kullanın
 
-Burada belirtilen örnek kayıtları ve değerleri kullanarak örnek senaryo üzerinden çalışmak için, standart [tanıtım verilerinin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) yüklenmiş olduğu bir sistemde olmanız gerekir. Ek olarak, başlamadan önce **USMF** tüzel kişiliğini seçmeniz gerekir.
+Burada belirtilen örnek kayıtları ve değerleri kullanarak örnek senaryo üzerinden çalışmak için, standart [tanıtım verilerinin](../../fin-ops-core/fin-ops/get-started/demo-data.md) yüklenmiş olduğu bir sistemde olmanız gerekir. Ek olarak, başlamadan önce **USMF** tüzel kişiliğini seçmeniz gerekir.
 
 #### <a name="set-up-location-profiles"></a>Yerleşim profillerini ayarla
 

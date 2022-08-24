@@ -1,27 +1,27 @@
 ---
 title: İadeler için fişsiz ödeme yöntemlerini kısıtlama
 description: Bu makale, çeşitli ödeme türlerinin, iadeler bir giriş olmadan yapıldığında bir iade için nasıl kısıtlanabileceğini açıklar.
-author: rapraj
+author: josaw1
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 15831
-ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
-ms.search.industry: Retail
-ms.author: yabinl
+ms.author: josaw
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: 091d39ea9fe41d78b7f34f85ecd1894047e022d6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 15831
+ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
+ms.search.industry: Retail
+ms.search.form: RetailTenderTypeTable
+ms.openlocfilehash: 9b14d7d8f6a2d9209ad6a12cd53bce4a9b50178d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896965"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281409"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>İadeler için fişsiz ödeme yöntemlerini kısıtlama
 

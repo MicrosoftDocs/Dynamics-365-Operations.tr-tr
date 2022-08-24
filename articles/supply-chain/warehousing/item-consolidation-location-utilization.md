@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c78954659c125c919ed0debbd81023a3da02db3
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849198"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219457"
 ---
 # <a name="item-consolidation---location-utilization"></a>Madde konsolidasyonu - yerleşim kullanımı
 
@@ -30,8 +30,8 @@ Bu makale, ambar yöneticilerinin ambar içindeki yerleşimlerin hacimsel kullan
 
 Bu makalede açıklanan özellikleri kullanabilmeniz için, önce bunları sisteminizde açmanız gerekir. Yöneticiler bu özelliklerin durumunu denetlemek ve gerekirse etkinleştirmek için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanabilir. Aşağıdaki özelliklerin her ikisini de listelendikleri sırayla açın. (Her iki özellik de **Ambar Yönetimi** modülünde yer alır.)
 
-1. Ambar yerleşimi durumu
-2. Madde konsolidasyon yerleşimi kullanımı
+1. *Ambar yerleşimi durumu* (sürüm 10.0.29 itibariyle bu özellik varsayılan olarak açıktır. Daha fazla bilgi için bkz. [Ambar yerleşimi durumu](warehouse-location-status.md)).
+2. *Madde konsolidasyon yerleşimi kullanımı*
 
 ## <a name="warehouse-location-status"></a>Ambar yerleşimi durumu
 

@@ -1,28 +1,26 @@
 ---
 title: Elektronik bir belge oluşturmak için elektronik raporlama yapılandırmalarını özelleştirme
 description: Bu makalede, Microsoft tarafından sağlanan ve özel elektronik belge oluşturmak için kullanılan elektronik raporlama (ER) yapılandırmalarının nasıl özelleştirileceği açıklanmaktadır.
-author: NickSelin
+author: kfend
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30ef9a0fa9b61b1e2016f85407ec0ec8fb70a6c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: cd3200bea07d622632dc5781638ec825c21233e4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854712"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278961"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Elektronik bir belge oluşturmak için elektronik raporlama yapılandırmalarını özelleştirme
 
@@ -310,7 +308,7 @@ Elektronik raporlama işlevsel danışmanı rolünde bir kullanıcı olarak, öz
 5. **Ad** alanına **Fatura modeli (Litware)** değerini girin.
 6. Yeni ER yapılandırmasını eklemek için **Yapılandırma oluştur**'u seçin.
 
-**Taslak** [durumundaki](general-electronic-reporting.md#component-versioning) **fatura modeli (Litware)** ER yapılandırmasının 50.1. sürümünü düzenlemek için artık ER veri modeli tasarımcısını kullanabilirsiniz.
+**Taslak** durumundaki **Fatura modeli (Litware)** ER yapılandırmasının 50.1. sürümünü düzenlemek için artık ER veri modeli tasarımcısını kullanabilirsiniz.
 
 ![Yapılandırmalar sayfasındaki ER yapılandırmasının 50.1 sürümü.](./media/er-quick-start3-added-custom-model.png)
 
@@ -337,7 +335,7 @@ Federal vergi kimlik kodu değerini sağlamak üzere yeni bir alan ekleyerek öz
 
 #### <a name="complete-a-custom-data-model-configuration"></a>Özel bir veri modeli yapılandırması tamamlama
 
-Diğer özel ER yapılandırmalarının eklenebilmesi için, özel ER veri modeli yapılandırmanızın 50.1 sürümü ile çalışmanızı [tamamlamanız](general-electronic-reporting.md#component-versioning) gerekir.
+Diğer özel ER yapılandırmalarının eklenebilmesi için, özel ER veri modeli yapılandırmanızın 50.1 sürümü ile çalışmanızı tamamlamanız gerekir.
 
 1. **Kuruluş yönetimi** \> **Elektronik raporlama** \> **Yapılandırmalar**'a gidin.
 2. **Yapılandırmalar** sayfasında soldaki yapılandırma ağacında, **Fatura modeli**'ni genişletin ve **Fatura modeli (Litware)**'i seçin.
@@ -394,7 +392,7 @@ Elektronik raporlama geliştiricisi rolünde bir kullanıcı olarak, özel ER mo
 
 #### <a name="complete-a-custom-model-mapping-configuration"></a>Özel bir model eşleme yapılandırması tamamlama
 
-Çalışmanızı kullanıma uygun hale getirmek için özel ER model eşleme yapılandırmanızın 50.19.1 sürümü ile [tamamlamanız](general-electronic-reporting.md#component-versioning) gerekir.
+Çalışmanızı kullanıma uygun hale getirmek için özel ER model eşleme yapılandırmanızın 50.19.1 sürümü ile tamamlamanız gerekir.
 
 1. **Kuruluş yönetimi** \> **Elektronik raporlama** \> **Yapılandırmalar**'a gidin.
 2. **Yapılandırmalar** sayfasında sol bölmedeki yapılandırma ağacında, **Müşteri Fatura modeli** \> **Müşteri Fatura modeli eşleme**'yi genişletin ve **Fatura modeli eşleme (Litware)**'i seçin.
@@ -428,7 +426,7 @@ Elektronik raporlama işlevsel danışmanı rolünde bir kullanıcı olarak, öz
 
 ![Yapılandırmalar sayfasında özel biçim yapılandırması ekleme.](./media/er-quick-start3-adding-custom-format.png)
 
-**Taslak** [durumundaki](general-electronic-reporting.md#component-versioning) **Peppol Satış faturası (Litware)** ER yapılandırmasının 11.2.2.1. sürümünü düzenlemek için artık ER Operasyonları tasarımcısını kullanabilirsiniz.
+**Taslak** durumundaki **Peppol Satış Faturası (Litware)** ER yapılandırmasının 11.2.2.1. sürümünü düzenlemek için artık ER Operasyonları tasarımcısını kullanabilirsiniz.
 
 ![Yapılandırmalar sayfasındaki ER yapılandırmasının 11.2.2.1 sürümü.](./media/er-quick-start3-added-custom-format.png)
 
@@ -463,7 +461,7 @@ Faturalandırılmış bir müşterinin federal vergi kimlik kodu değerini doldu
 
 #### <a name="complete-a-custom-format-configuration"></a>Özel biçim yapılandırması tamamlama
 
-Çalışmanızı kullanıma uygun hale getirmek için özel ER biçim yapılandırmanızın 11.2.2.1 sürümü ile [tamamlamanız](general-electronic-reporting.md#component-versioning) gerekir.
+Çalışmanızı kullanıma uygun hale getirmek için özel ER biçim yapılandırmanızın 11.2.2.1 sürümü ile tamamlamanız gerekir.
 
 1. **Kuruluş yönetimi** \> **Elektronik raporlama** \> **Yapılandırmalar**'a gidin.
 2. **Yapılandırmalar** sayfasında sol bölmedeki yapılandırma ağacında, **Müşteri Fatura modeli** \> **UBL Satış Faturası** \> **Peppol Satış Faturası**'nı genişletin ve **Peppol Satış Faturası (Litware)**'i seçin.
@@ -650,7 +648,7 @@ Sürüm 32.6.7.2 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sür
 3. Eylem bölmesinde, **Belge** grubunda **Gönder** \> **Orijinal**'i seçin.
 
     > [!NOTE] 
-    > Artık **PEPPOL Satış Faturası (Litware)** ER biçim yapılandırmasının iki sürümüne sahip olduğunuzdan ve her iki sürüm de [geçerlilik tarihi](general-electronic-reporting.md#component-date-effectivity) değeri içermediğinden bir e-fatura oluşturmak için en son sürüm kullanılır.
+    > Artık **Peppol Satış Faturası (Litware)** ER biçim yapılandırmasının iki sürümüne sahip olduğunuzdan ve her iki sürüm de geçerlilik tarihi değeri içermediğinden bir e-fatura oluşturmak için en son sürüm kullanılır.
 
 4. **Serbest metin faturası** sayfasını kapatın.
 

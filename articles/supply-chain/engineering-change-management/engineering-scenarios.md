@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e66cda6e529a70d40e599718332152bac95b061e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889649"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220042"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Mühendislik değişikliği yönetimi özelliği kılavuzu
 
@@ -45,7 +45,7 @@ Bu makalenin geri kalanında herhangi bir alıştırma yapmaya başlamadan önce
 
 ### <a name="make-standard-demo-data-available"></a>Standart demo verilerini kullanılabilir hale getirme
 
-[Standart demo verilerinin yüklü olduğu](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) bir sistem üzerinde çalışın. Standart demo verileri, çeşitli demo tüzel kişilikler (şirketler ve kuruluşlar) için veri ekler. Alıştırmalarda ilerlerken, bir *mühendislik kuruluşu* olarak ayarlanmış bir şirket *(DEMF)* ile *operasyonel kuruluş* olarak ayarlanmış başka bir şirket *(USMF)* arasında geçiş yapmak için gezinti çubuğunun sağ tarafındaki şirket seçici kullanacaksınız.
+Standart [demo verilerinin](../../fin-ops-core/fin-ops/get-started/demo-data.md) yüklü olduğu bir sistem üzerinde çalışın. Standart demo verileri, çeşitli demo tüzel kişilikler (şirketler ve kuruluşlar) için veri ekler. Alıştırmalarda ilerlerken, bir *mühendislik kuruluşu* olarak ayarlanmış bir şirket *(DEMF)* ile *operasyonel kuruluş* olarak ayarlanmış başka bir şirket *(USMF)* arasında geçiş yapmak için gezinti çubuğunun sağ tarafındaki şirket seçici kullanacaksınız.
 
 ### <a name="set-up-an-engineering-organization"></a>Mühendislik kuruluşunu ayarlama
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2f1902ba76db59b61b0437eb3cd68ee94018b7c5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 55c83cdbc144f194fe80e8281a35ec7ff43d551e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844482"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219952"
 ---
 # <a name="inventory-marking-with-planning-optimization"></a>Planlama İyileştirmesi ile stok işaretleme
 
@@ -43,9 +43,15 @@ Bu makalede, Planlama İyileştirmesi'ni kullandığınızda, kesinleştirilmiş
 
 Planlı bir siparişi kesinleştirirken, **Kesinleştirme** iletişim kutusu kesinleştirme sırasında oluşturulan siparişler için işaretleme seçeneklerini ayarlamak amacıyla kullanabileceğiniz bir **İşaretlemeyi güncelleştir** alanı sağlar. Aşağıdaki değerlerden birini seçin:
 
-- **Hayır**: Stok işaretleme uygulanmaz.
-- **Standart**: Stok işaretleme ilişkilendirmeye göre güncelleştirilir. Bir karşılama siparişi (arz) karşılığında bir gereksinim siparişi (talep) işaretlenir. Bazı miktarlar, karşılama siparişinde kalırsa işaretlenmez ve başvuru bilgileri boş bırakılır. Örneğin, 100 ea değerinde bir satış siparişi 150 ea değerinde bir satın alma siparişiyle ilişkilendirildirse, başvuru bilgileri yalnızca satış siparişine atanır.
-- **Genişletilmiş**: Herhangi bir miktarın karşılama siparişinde kalıp kalmadığına bakılmaksızın, hem gereksinim siparişi (talep) hem karşılama siparişi (arz) işaretlenir. Örneğin, 100 ea değerinde bir satış siparişi 150 ea değerinde bir satın alma siparişiyle ilişkilendirildirse, başvuru bilgileri hem satış siparişine hem de satın alma siparişine atanır.
+- *Hayır*: Stok işaretleme uygulanmaz.
+- *Standart*: Stok işaretleme ilişkilendirmeye göre güncelleştirilir. Bir karşılama siparişi (arz) karşılığında bir gereksinim siparişi (talep) işaretlenir. Bazı miktarlar, karşılama siparişinde kalırsa işaretlenmez ve başvuru bilgileri boş bırakılır. Örneğin, 100 ea değerinde bir satış siparişi 150 ea değerinde bir satın alma siparişiyle ilişkilendirildirse, başvuru bilgileri yalnızca satış siparişine atanır.
+- *Genişletilmiş*: Herhangi bir miktarın karşılama siparişinde kalıp kalmadığına bakılmaksızın, hem gereksinim siparişi (talep) hem karşılama siparişi (arz) işaretlenir. Örneğin, 100 ea değerinde bir satış siparişi 150 ea değerinde bir satın alma siparişiyle ilişkilendirildirse, başvuru bilgileri hem satış siparişine hem de satın alma siparişine atanır.
+- *Tek düzeyli standart* – Tek düzeyli işaretleme kullanılır. Tek düzeyli işaretleme, ürün reçetesi (BOM) bileşenlerini değil yalnızca ana maddeyi işaretler. Bu nedenle, kesinleştirme sonrasında üretime yönelik bileşen atamasını esnek tutabilirsiniz. Tek düzeyli işaretleme, sistemin son dakikada gelen talep değişiklikleri için optimizasyon yapmasına olanak tanır. Tek düzeyli *standart* işaretlemede, gereksinim siparişleri karşılama emirlerine göre işaretlenir, ancak kalan miktarı olan karşılama siparişleri işaretlenmez.
+- *Tek düzeyli genişletilmiş* – Tek düzeyli işaretleme kullanılır. Tek düzeyli *genişletilmiş* işaretlemede, gereksinim siparişleri karşılama emirlerine göre işaretlenir ve kalan miktar bulunmasından bağımsız olarak karşılama siparişleri her zaman işaretlenir.
 
+Sisteminiz için varsayılan işaretleme seçeneğini ayarlamak için **Master planlama \> Kurulum \> Master planlama parametreleri**'ne gidin. Sonra, **Standart güncelleştirme** sekmesinde, **İşaretlemeyi güncelleştir** alanını tercih ettiğiniz seçeneğe ayarlayın.
+
+> [!NOTE]
+> *Tek düzeyli standart* ve *Tek düzeyli genişletilmiş* seçenekleri yalnızca, sisteminizde *Siparişe göre tedarik otomasyonu* özelliği etkinse kullanılabilir. Bu özellik ve nasıl etkinleştirileceği hakkında daha fazla bilgi için bkz. [Siparişe göre tedarik otomasyonu](../make-to-order-supply-automation.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

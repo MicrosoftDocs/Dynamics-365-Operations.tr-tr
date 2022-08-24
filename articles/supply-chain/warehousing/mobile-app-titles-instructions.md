@@ -4,19 +4,19 @@ description: Bu makalede, Warehouse Management mobil uygulaması için ayarladı
 author: Mirzaab
 ms.date: 08/11/2021
 ms.topic: article
-ms.search.form: ''
+ms.search.form: WHSMobileAppFlowStepListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 289a3735133919ae7dbad05c40ba9ccf0e8f57ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 40b2115126aae28a41feaec4d3aabd73595107cd
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895510"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220164"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulaması için adım başlıklarını ve yönergeleri özelleştirme
 
@@ -30,10 +30,7 @@ Bu makalede, Warehouse Management mobil uygulaması için ayarladığınız tüm
 
 ## <a name="turn-on-the-warehouse-app-step-instructions-feature"></a>Ambar uygulaması adım yönergeleri özelliğini açma
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
-
-- **Modül:** *Ambar yönetimi*
-- **Özellik adı:** *Ambar uygulaması adım yönergeleri*
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.29 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Ambar uygulaması adım yönergeleri* özelliğini bularak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="step-titles-and-step-instructions-in-the-app"></a>Uygulamadaki adım başlıkları ve adım yönergeleri
 

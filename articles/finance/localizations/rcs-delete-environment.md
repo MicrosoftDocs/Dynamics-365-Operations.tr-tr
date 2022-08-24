@@ -1,26 +1,26 @@
 ---
 title: Regulatory Configuration Service (RCS) - RCS ortamını silme
 description: Bu makalede, Regulatory Configuration Service (RCS) sistem yöneticisinin bir RCS ortamını ve ilgili verileri nasıl silebileceği açıklanmaktadır.
-author: JaneA07
+author: kfend
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RCS, Regulatory Configuration Services, Localization, Global
 audience: Application User, System Admin
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: filatovm
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 21e7ee546bb2b712d9424c6bd95e9f9227831bd1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: ''
+ms.search.form: RCS, Regulatory Configuration Services, Localization, Global
+ms.openlocfilehash: bdcb6820ead72fce0f89bf80cc5e474cb3942724
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908904"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277255"
 ---
 # <a name="regulatory-configuration-service-rcs---delete-an-rcs-environment"></a>Regulatory Configuration Service (RCS) - RCS ortamını silme
 

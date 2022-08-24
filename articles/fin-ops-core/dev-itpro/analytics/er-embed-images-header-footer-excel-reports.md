@@ -1,26 +1,26 @@
 ---
 title: Sayfa üst bilgilerinde veya alt bilgilerinde katıştırılmış görüntülerle Excel biçiminde bir rapor oluşturmak için bir ER biçimi tasarlama
 description: Bu makalede, sayfa üst bilgilerine veya alt bilgilerine eklenmiş resim ve şekillere sahip iş belgeleri oluşturmak için Elektronik raporlamanın (ER) nasıl kullanılacağı açıklanmaktadır.
-author: NickSelin
+author: kfend
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: EROperationDesigner, ERParameters
+ms.openlocfilehash: 5b46d92094bb3f2dab67a5cb2f0e1a34b05d52f0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854857"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281827"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Sayfa üst bilgilerinde veya alt bilgilerinde katıştırılmış görüntülerle Excel biçiminde bir rapor oluşturmak için bir ER biçimi tasarlama
 
@@ -196,7 +196,7 @@ Bu durumda, Litware, Inc. temsilcisi olarak, Microsoft tarafından sağlanan bir
 
 ![Yapılandırma oluştur açılan iletişim kutusunda özel ödeme biçimi için yapılandırma oluşturma.](./media/er-embed-images-header-footer-excel-reports-add-derived-format.png)
 
-**Serbest metin faturası (Excel) özel** Er biçimi yapılandırmasının 240.112.1 sürümü oluşturulur. Bu sürüm **taslak** [durumuna](general-electronic-reporting.md#component-versioning) sahip ve düzenlenebilir. Özel ER biçiminizin geçerli içeriğinin,  Microsoft tarafından sağlanan biçimin içeriğiyle aynıdır.
+**Serbest metin faturası (Excel) özel** Er biçimi yapılandırmasının 240.112.1 sürümü oluşturulur. Bu sürüm **Taslak** durumuna sahiptir ve düzenlenebilir. Özel ER biçiminizin geçerli içeriğinin,  Microsoft tarafından sağlanan biçimin içeriğiyle aynıdır.
 
 ![Yapılandırmalar sayfasında oluşturulan ER biçimi yapılandırmasının yeni sürümü.](./media/er-embed-images-header-footer-excel-reports-derived-format-configuration1.png)
 
@@ -244,7 +244,7 @@ Bu durumda, Litware, Inc. temsilcisi olarak, Microsoft tarafından sağlanan bir
 
 ### <a name="mark-the-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>Özel biçimi çalıştırılabilir olarak işaretleme
 
-Özel biçimin ilk sürümü oluşturulduğundan ve **Taslak** durumunda olduğundan, biçimi test amacıyla çalıştırabilirsiniz. Raporu çalıştırmak için, özel işlem biçiminizi ifade eden ödeme yöntemini kullanarak bir satıcı ödemesini işleyin. Varsayılan olarak, uygulamadan ER biçimini çağırdığınızda yalnızca **Tamamlandı** ve **Paylaşıldı** durumuna sahip sürümler [dikkate alınır](general-electronic-reporting.md#component-versioning). Bu davranış, bitmemiş tasarımları bulunan ER biçimlerinin kullanılmasını önlemeye yardımcı olur. Ancak, test çalışmalarınız için, uygulamayı **taslak** durumunda olan ER formatının biçimini kullanmaya zorlayabilirsiniz. Bu şekilde, herhangi bir değişiklik gerekiyorsa geçerli biçim sürümünü ayarlayabilirsiniz. Daha fazla bilgi için bkz. [Uygulanabilirlik](electronic-reporting-destinations.md#applicability).
+Özel biçimin ilk sürümü oluşturulduğundan ve **Taslak** durumunda olduğundan, biçimi test amacıyla çalıştırabilirsiniz. Raporu çalıştırmak için, özel işlem biçiminizi ifade eden ödeme yöntemini kullanarak bir satıcı ödemesini işleyin. Varsayılan olarak, uygulamadan ER biçimini çağırdığınızda yalnızca **Tamamlandı** ve **Paylaşıldı** durumuna sahip sürümler dikkate alınır. Bu davranış, bitmemiş tasarımları bulunan ER biçimlerinin kullanılmasını önlemeye yardımcı olur. Ancak, test çalışmalarınız için, uygulamayı **taslak** durumunda olan ER formatının biçimini kullanmaya zorlayabilirsiniz. Bu şekilde, herhangi bir değişiklik gerekiyorsa geçerli biçim sürümünü ayarlayabilirsiniz. Daha fazla bilgi için bkz. [Uygulanabilirlik](electronic-reporting-destinations.md#applicability).
 
 ER biçiminin taslak sürümünü kullanmak için, ER biçimini açık olarak işaretlemeniz gerekir.
 

@@ -12,16 +12,15 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.custom:
-- "106601"
+ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.form: FinancialReports
-ms.openlocfilehash: 30d00f50844f7ad040d3c054726b7cc1a7e85d01
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: d23d6afde0daa44b8527c624305bdfd0fb4cbd53
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206397"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291903"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Finansal raporlarda sütun tanımları
 
@@ -583,7 +582,7 @@ Bir sütun harfi ve bir satır kodu girerek belirli bir rapor hücresine başvur
 
 #### <a name="multiply-or-divide-a-column-by-a-base-row"></a>Bir sütunu bir temel satırla çarpma veya bu satıra bölme
 
-Tüm değerleri belirli bir sütunda temel sayının yüzdesi olarak görüntüleyen bir sütun oluşturabilirsiniz. Bu nedenle, satırlar arasındaki ilişkileri bir satış satırının ya da bir toplam giderler satırının yüzdesi olarak gösterebilirsiniz. Belirli bir sütundaki her bir satırı bir temel satırla çarpmak veya bir temel satıra bölmek için, hesaplamada kullanılacak sütunu girin ve ardından **\*BASEROW** veya **BASEROW** seçimini yapın. Örneğin, **C\*BASEROW** veya **C/BASEROW** girin.
+Tüm değerleri belirli bir sütunda temel sayının yüzdesi olarak görüntüleyen bir sütun oluşturabilirsiniz. Bu nedenle, satırlar arasındaki ilişkileri bir satış satırının ya da bir toplam giderler satırının yüzdesi olarak gösterebilirsiniz. Belirli bir sütundaki her bir satırı bir temel satırla çarpmak veya bir temel satıra bölmek için, hesaplamada kullanılacak sütunu girin ve ardından **\*BASEROW** veya **/BASEROW** seçimini yapın. Örneğin, **C\*BASEROW** veya **C/BASEROW** girin.
 
 > [!NOTE]
 > Sütun tanımında bir temel satır hesaplaması kullandığınızda, bu sütun tanımında kullanılan her satır tanımının hesaplamalara ait en az bir temel satır içerdiğinden emin olun.

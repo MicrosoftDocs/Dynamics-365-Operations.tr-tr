@@ -1,26 +1,26 @@
 ---
 title: Görüntüleri karşıya yükleme
 description: Bu makalede, Microsoft Dynamics 365 Commerce' site oluşturucuda görüntüleri karşıya yükleme yöntemi açıklanmaktadır.
-author: psimolin
+author: josaw1
 ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e0f5cdd0381932cffc64f1c7e83eecd4662d8c9f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.openlocfilehash: d937e8c0e00ce28b0e4a4c2feab3ac1c8f075916
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892846"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283392"
 ---
 # <a name="upload-images"></a>Görüntüleri karşıya yükleme
 

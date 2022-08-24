@@ -2,7 +2,7 @@
 title: Kaldırılan veya kullanım dışı bırakılan platform özellikleri
 description: Bu makale, finans ve operasyon uygulamalarının platform güncellemelerinde kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
-ms.date: 05/24/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 16c77d719171e8e5cfef71178f8917d462f6d84b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b2eec4dd71baef54877b4139a331288bf37f4960
+ms.sourcegitcommit: e4b6521337dfff3515f70086b0125d4c23308c71
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069937"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262313"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Kaldırılan veya kullanım dışı bırakılan platform özellikleri
 
@@ -31,6 +31,50 @@ Bu makale, finans ve operasyon uygulamalarının platform güncellemelerinde kal
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
 Finans ve operasyon uygulamalarındaki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](/dynamics/s-e/global/axtechrefrep_61) altından ulaşabilirsiniz. Finans ve operasyon uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="feature-deprecation-effective-august-2022"></a>Ağustos 2022'den itibaren geçerli olmak üzere özellik kullanımdan kaldırma bildirimi
+
+### <a name="lifecycle-services-lcs-features-deprecated-in-august-2022"></a>Lifecycle Services (LCS) özellikleri Ağustos 2022'de kullanım dışı bırakıldı
+
+[Tek bir Dynamics One platformu](/dynamics365-release-plan/2022wave2/finance-operations/finance-operations-crossapp-capabilities/one-dynamics-one-platform) çalışma çabası kapsamında, aşağıdaki LCS özellikleri kullanım dışı bırakılmıştır.
+
+| Özellik adı | AX 2012 ile kullanıldı mı? | Finans ve operasyon uygulamaları ile kullanıldı mı? | Başka bir özellik ile değiştirildi? |
+|--------------|--------------------|----------------------------------------|------------------------------|
+| Duyurular | Evet | Evet | Evet: Başlık sayfaları bildirimlere yönelik ayrı proje ve ortam sayfalarında mevcuttur. |
+| Yapılandırma yöneticisi | Evet | No. | No. |
+| Kilitlenme bilgi dökümü analizi | Evet | No. | No. |
+| Geri bildirim ve hatalar | Evet | Evet | No. |
+| Aboneliklerim | Evet | Evet | No. |
+| Office 365 | Evet | Evet | Evet: Azure Active Directory veya Microsoft yönetici portalı. |
+| Etki analizi | No. | Evet | No. |
+| Toplam ekonomik etki tahmin aracı | No. | Evet | No. |
+| Servis talepleri | No. | Evet | Evet: [Self servis dağıtımlar](../deployment/infrastructure-stack.md) |
+| SharePoint tümleştirmesi | Evet | Evet | No. |
+| Yapılandırma ve veri yöneticisi | No. | Evet | No. |
+| İşlem verileri paketleri | No. | Evet | Evet: Veri İçe/Dışa Aktarma Çerçevesi (DIXF) |
+| Ortamı yükseltme | No. | Evet | Evet: [One Version](../lifecycle-services/oneversion-overview.md) hizmet güncelleştirmeleri mevcuttur. |
+| Altyapı tahmin aracı | Evet | No. | No. |
+| Lisans boyutlandırma | Evet | No. | No. |
+| Kullanım profili oluşturma aracı | Evet | No. | No. |
+| Özelleştirme analizi | Evet | No. | No. |
+| Sistem tanılama | Evet | Evet | No. |
+| İş süreci modelleyici Visio yönetimi | Evet | Evet | No. |
+| AX 2012 bulut ortamı yönetimi | Evet | No. | No. |
+| RDFE Azure bağlayıcıları | Evet | Evet | No. |
+| AX 2012 sürümleri | Evet | No. | No. |
+| LCS depolama alanında depolanan iş öğeleri | Evet | Evet | No. |
+| Düzeltme istekleri | Evet | Evet | No. |
+
+
+### <a name="transport-layer-security-tls-rsa-cipher-suites"></a>Aktarım Katmanı Güvenliği (TLS) RSA şifre paketleri
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Geçerli güvenlik protokollerimize uymak için aşağıdaki şifre paketleri listesini kaldırıyoruz.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
+| **Başka bir özellikle mi değiştirildi?**   | 30 Kasım 2022 tarihinden başlayarak, müşteriler yalnızca [standart şifre paketlerimizi](/power-platform/admin/server-cipher-tls-requirements) kullanabilecektir. Bu değişiklik, sunucularımızla iletişim kuran istemcilerinizi ve sunucularınızı etkiler. Örneğin, standart şifre paketlerimize uymayan üçüncü taraf tümleştirmelerinizi etkileyebilir. |
+| **Etkilenen ürün alanları**         | Finans ve Operasyon uygulamaları |
+| **Dağıtım seçeneği**              | Bulut dağıtımları |
+| **Çalıştırma Durumu**                         | Kaldırıldı. Müşteriler 30 Kasım 2022 tarihinden önce sunucularını yükseltmelidir. TLS Şifre Paketi sırasını yapılandırma hakkında daha fazla bilgi için bkz. [Aktarım Katmanı Güvenliğini (TLS) yönetme](/windows-server/security/tls/manage-tls).  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Haziran 2022'den itibaren geçerli olmak üzere özellik kullanımdan kaldırma bildirimi

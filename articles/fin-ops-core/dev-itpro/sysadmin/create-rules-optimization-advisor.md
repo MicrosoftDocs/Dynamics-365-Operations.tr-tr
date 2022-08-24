@@ -1,27 +1,27 @@
 ---
 title: En iyi duruma getirme danışmanı için kurallar oluşturma
 description: Bu makalede, İyileştirme danışmanı'na nasıl yeni kurallar ekleneceğini açıklanmaktadır.
-author: roxanadiaconu
+author: kamaybac
 ms.date: 02/04/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: kamaybac
 ms.search.region: global
-ms.search.industry: ''
-ms.author: sericks
+ms.author: kamaybac
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 2774d18611b10a1f627d5fb6e109696a3ca5e5f8
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.search.form: SelfHealingWorkspace
+ms.openlocfilehash: a4addc98e3d5496bc8d2fafb3918931da876739f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9108578"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273932"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>En iyi duruma getirme danışmanı için kurallar oluşturma
 

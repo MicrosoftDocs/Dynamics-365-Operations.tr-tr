@@ -1,26 +1,26 @@
 ---
 title: Elektronik raporlama (ER) hedefleri
 description: Bu makalede, Elektronik raporlama hedeflerinin yönetimi, desteklenen hedef türleri ve güvenlik konuları hakkında bilgi verilmektedir.
-author: nselin
+author: kfend
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
-ms.author: mrolecki
+ms.author: filatovm
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc8ef4a5299e6daba79702fadd37284f752a54a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
+ms.search.form: DocuType, ERSolutionTable
+ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851091"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281982"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektronik raporlama (ER) hedefleri
 
@@ -118,7 +118,7 @@ Seçilen biçimin dosya hedeflerini yapılandırırken, bunları tüm biçim iç
 
 [![Yapılandırma bağlantısı.](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
-Aynı zamanda, geçerli Finance kurulumuna aktarılmış olan biçimin birden çok [sürümüne](general-electronic-reporting.md#component-versioning) sahip olabilirsiniz. **Referans** alanını seçerken sunulan **Yapılandırma** bağlantısını seçerseniz bunları görüntüleyebilirsiniz.
+Aynı zamanda, geçerli Finance kurulumuna aktarılmış olan biçimin birden çok sürümüne sahip olabilirsiniz. **Referans** alanını seçerken sunulan **Yapılandırma** bağlantısını seçerseniz bunları görüntüleyebilirsiniz.
 
 [![Yapılandırma sürümleri.](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
@@ -180,6 +180,16 @@ Finance **10.0.9 sürümü** itibarıyla, PDF dönüştürme seçeneği yalnızc
 Finance **10.0.9 sürümü** itibarıyla, Excel çıktısından üretilen PDF belgesinde şu anda yalnızca yatay sayfa yönü desteklenmektedir. Finance **10.0.10 sürümünden** başlayarak, ER hedefi yapılandırırken Excel çıktısından oluşturulan PDF belgesindeki [sayfa yönünü belirtebilirsiniz](#SelectPdfPageOrientation).
 
 Katıştırılmış yazı tipi içermeyen bir çıktıyı dönüştürmek için yalnızca Windows işletim sisteminin ortak sistem yazı tipleri kullanılır.
+
+### <a name="resources"></a>Kaynaklar
+
+Finance sürüm 10.0.29'dan önce, PDF dönüştürmesi yalnızca geçerli Finance örneği dışında yapılabiliyordu. Oluşturulan bir dosya, Finance'ten dönüştürme hizmetine gönderilir ve daha sonra bu hizmet, dönüştürülen belgeyi geri gönderirdi. Ancak, **10.0.29 ve sonraki** sürümlerde, **Elektronik raporlama giden belgelerini Microsoft Office biçimlerinden PDF'e dönüştür** özelliğine ek olarak, **CBD belgelerini Word'den PDF biçimine dönüştürmek için uygulama kaynaklarını kullan** özelliğini de etkinleştirebilirsiniz. Bu özellik, oluşturulan Word belgelerini geçerli Finance örneğindeki uygulama sunucusu kaynaklarını kullanarak yerel olarak PDF formatına dönüştürmenize olanak sağlar. 
+
+**CBD belgelerini Word'den PDF biçimine dönüştürmek için uygulama kaynaklarını kullan** özelliği etkinleştirildiğinde yerel PDF dönüştürmenin avantajları şunlardır:
+
+- Üretilen PDF belgesi, maksimum sayfa sayısıyla [sınırlı](#limitations) değildir.
+- Dönüştürülen Word belgesi [çok sayıda içerik denetimi](https://fix.lcs.dynamics.com/Issue/Details?bugId=647877&dbType=3) içerebilir.
+- Şirket içi dağıtımlarda internet bağlantısı gerekli değildir.
 
 ### <a name="use-the-pdf-conversion-option"></a>PDF dönüştürme seçeneğini kullanma
 

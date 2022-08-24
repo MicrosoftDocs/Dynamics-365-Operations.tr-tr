@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 15060d8bdd598476081c22d7280319da3db0cb31
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 2fd8176d16178ecc4ba667e5937f2cec2e0af2c3
+ms.sourcegitcommit: bd3b55e1af28e592c97b540de1e87cd8ba9c35a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178427"
+ms.lasthandoff: 08/03/2022
+ms.locfileid: "9221609"
 ---
 # <a name="provision-human-resources-in-the-finance-and-operations-infrastructure"></a>Finans ve operasyon altyapısında İnsan Kaynakları sağlama
 
@@ -52,8 +52,8 @@ Ek isteğe bağlı ortamlar için dikkat edilmesi gereken bazı hususlar:
 - **Tümleştirme**: Yerel tümleştirmeleri veya bordro, başvuran izleme sistemleri veya yan hak sistemleri ve sağlayıcıları gibi özel tümleştirmeleri içerebilen tümleştirmeleri yapılandırın ve test edin.
 - **Eğitim**: Personelinizi yeni sistemin kullanımı konusunda eğitmek için bir dizi eğitim verisiyle yapılandırılmış ayrı bir ortama ihtiyacınız olabilir. 
 - **Çok aşamalı proje**: Projenin ilk yayınlanmasından sonra planlanan bir proje aşamasında yapılandırmayı, veri geçişini, testi veya diğer etkinlikleri desteklemek için ek bir ortama ihtiyacınız olabilir.
-- **Geliştirme**: Finans ve operasyonlar altyapısında, artık çözümü genişletebilir ve kendi özelleştirmelerinizi geliştirebilirsiniz. Her geliştiricinin kendi geliştirme ortamını kullanması gereklidir. Daha fazla bilgi için bkz. [Dağıtım ve erişim geliştirme ortamları](/fin-ops-core/dev-itpro/dev-tools/access-instances).
-- **GOLD**: Yeni dağıtımlar için, yapılandırma ve veri geçişi için bozulmadan tutulan ayrı bir GOLD ortam kullanmak yaygın bir uygulamadır. Bu ortam, uygulama boyunca diğer ortamları yenilemek için kullanılabilir. Bu, temel yapılandırmaya ve veri geçişine sahip yeni üretim ortamını oluşturmak için kullanılır. Kullanıma almaya hazırlık sürecini tamamlayana kadar finans ve operasyon altyapısında bir üretim ortamı dağıtamazsınız. Daha fazla bilgi için bkz. [Kullanıma alma için hazırlık](/fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live).
+- **Geliştirme**: Finans ve operasyonlar altyapısında, artık çözümü genişletebilir ve kendi özelleştirmelerinizi geliştirebilirsiniz. Her geliştiricinin kendi geliştirme ortamını kullanması gereklidir. Daha fazla bilgi için bkz. [Dağıtım ve erişim geliştirme ortamları](../fin-ops-core/dev-itpro/dev-tools/access-instances.md).
+- **GOLD**: Yeni dağıtımlar için, yapılandırma ve veri geçişi için bozulmadan tutulan ayrı bir GOLD ortam kullanmak yaygın bir uygulamadır. Bu ortam, uygulama boyunca diğer ortamları yenilemek için kullanılabilir. Bu, temel yapılandırmaya ve veri geçişine sahip yeni üretim ortamını oluşturmak için kullanılır. Kullanıma almaya hazırlık sürecini tamamlayana kadar finans ve operasyon altyapısında bir üretim ortamı dağıtamazsınız. Daha fazla bilgi için bkz. [Kullanıma alma için hazırlık](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md).
 
 <!--NOTE: Need to come back and verify Tier-1 can be used and if a customer cannot purchase tier 3-5 need specific documentation about this.-->
 
@@ -66,24 +66,24 @@ Ek isteğe bağlı ortamlar için dikkat edilmesi gereken bazı hususlar:
 
 ## <a name="create-an-lcs-project"></a>LCS projesi oluşturma
 
-İnsan Kaynakları ortamlarınızı yönetmek üzere LCS'yi kullanmak için öncelikle bir LCS projesi oluşturmanız gerekir. İnsan Kaynakları ortamınızı finans ve operasyon altyapısına aktarıyorsanız finans ve operasyon uygulamaları için yeni bir LCS projesi oluşturmanız gerekir. Daha fazla bilgi için bkz: [İnsan Kaynakları ortamınızı taşıma](hr-admin-migrate-overview). Diğer finans ve operasyon uygulamaları için zaten bir LCS projeniz varsa **Özellik yönetimi** çalışma alanındaki İnsan Kaynakları özellikleri etkinleştirebilirsiniz. Daha fazla bilgi için bkz. [Özellik yönetimine genel bakış](/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+İnsan Kaynakları ortamlarınızı yönetmek üzere LCS'yi kullanmak için öncelikle bir LCS projesi oluşturmanız gerekir. İnsan Kaynakları ortamınızı finans ve operasyon altyapısına aktarıyorsanız finans ve operasyon uygulamaları için yeni bir LCS projesi oluşturmanız gerekir. Diğer finans ve operasyon uygulamaları için zaten bir LCS projeniz varsa **Özellik yönetimi** çalışma alanındaki İnsan Kaynakları özellikleri etkinleştirebilirsiniz. Daha fazla bilgi için bkz. [Özellik yönetimine genel bakış](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Yeni bir müşteri İnsan Kaynakları için kaydolduğunda, bu abonelik bir uygulama projesi çalışma alanı içerir. Müşteri, hizmeti etkinleştirdikten sonra, kiracı yöneticisinin kiracı hesabını kullanarak <https://lcs.dynamics.com> adresinde oturum açması gerekir. Proje çalışma alanı, kuruluş için otomatik olarak oluşturulur. Daha fazla bilgi için bkz. [Finans ve Operasyon uygulamaları müşterileri için Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs).
+Yeni bir müşteri İnsan Kaynakları için kaydolduğunda, bu abonelik bir uygulama projesi çalışma alanı içerir. Müşteri, hizmeti etkinleştirdikten sonra, kiracı yöneticisinin kiracı hesabını kullanarak <https://lcs.dynamics.com> adresinde oturum açması gerekir. Proje çalışma alanı, kuruluş için otomatik olarak oluşturulur. Daha fazla bilgi için bkz. [Finans ve Operasyon uygulamaları müşterileri için Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md).
 
 > [!NOTE]
 > Sağlamanın başarılı olmasını sağlamak amacıyla, İnsan Kaynakları ortamını sağlamak için kullandığınız hesap, İnsan kaynakları ortamıyla ilişkilendirilmiş Power Apps ortamındaki **Sistem Yöneticisi** rolü veya **Sistem Özelleştirici** rolüne atanmalıdır. Microsoft Power Platform'da kullanıcılara güvenlik rollerinin nasıl atanacağı hakkında daha fazla bilgi için bkz. [Kaynaklara kullanıcı güvenliği yapılandırma](/power-platform/admin/database-security).
 
-Ortamları dağıtmaya başlamadan önce LCS proje ekleme işlemini tamamlamanız gerekir. Daha fazla bilgi için bkz. [Proje ekleme](/fin-ops-core/dev-itpro/lifecycle-services/project-onboarding). LCS 'yi kullanma hakkında daha fazla bilgi için bkz. [Lifecycle Services (LCS) kullanıcı kılavuzu](/fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide).
+Ortamları dağıtmaya başlamadan önce LCS proje ekleme işlemini tamamlamanız gerekir. Daha fazla bilgi için bkz. [Proje ekleme](../fin-ops-core/dev-itpro/lifecycle-services/project-onboarding.md). LCS 'yi kullanma hakkında daha fazla bilgi için bkz. [Lifecycle Services (LCS) kullanıcı kılavuzu](../fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md).
 
 ## <a name="deploy-human-resources-environments"></a>Human Resources ortamlarını dağıtma
 
 İnsan Kaynakları de dahil olmak üzere finans ve operasyon uygulamalarının bulut içinde dağıtımı, dağıtım yaptığınız ortamı ve aboneliği, hangi görevlerin kimin gerçekleştirebileceğini ve hangi verileri ve özelleştirmeleri yönetmeniz gerektiğini anlamanıza gerek duyar. Yeni ortamları dağıtırken adlandırılmış bir kullanıcı yerine bir hizmet hesabı kullanmanızı öneririz. Finans ve operasyon altyapısında ortam dağıtma hakkında daha fazla bilgi için bkz. [Bulut dağıtımına genel bakış](/fin-ops-core/dev-itpro/deployment/cloud-deployment-overview).
 
-Finans ve operasyon altyapısında İnsan Kaynakları için bir üretim ortamı dağıtmak için kullanıma almaya hazırlık sürecini tamamlamanız gerekir. Daha fazla bilgi için bkz. [Kullanıma alma için hazırlık](/fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live). Bu işlem LCS'deki abonelik tahmin aracını içerir. Daha fazla bilgi için bkz. [Abonelik tahmin aracı](/fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator).
+Finans ve operasyon altyapısında İnsan Kaynakları için bir üretim ortamı dağıtmak için kullanıma almaya hazırlık sürecini tamamlamanız gerekir. Daha fazla bilgi için bkz. [Kullanıma alma için hazırlık](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md). Bu işlem LCS'deki abonelik tahmin aracını içerir. Daha fazla bilgi için bkz. [Abonelik tahmin aracı](../fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator.md).
 
 ## <a name="integrate-microsoft-power-platform-with-human-resources"></a>Human Resources ile Microsoft Power Platform tümleştirme
 
-Microsoft Power Platform, Power Platform yönetici merkezi yoluyla Dynamics 365 uygulamaları için bir yetenek seti sağlar. Human Resources veri kullanımını, Microsoft Power Platform'u kullanarak tümleştirebilir ve genişletebilirsiniz. Microsoft Power Platform ile Human Resources'ı tümleştirme hakkında daha fazla bilgi için bkz. [Finans ve Operasyon uygulamaları ile Microsoft Power Platform tümleştirme](/fin-ops-core/dev-itpro/power-platform/overview).
+Microsoft Power Platform, Power Platform yönetici merkezi yoluyla Dynamics 365 uygulamaları için bir yetenek seti sağlar. Human Resources veri kullanımını, Microsoft Power Platform'u kullanarak tümleştirebilir ve genişletebilirsiniz. Microsoft Power Platform ile Human Resources'ı tümleştirme hakkında daha fazla bilgi için bkz. [Finans ve Operasyon uygulamaları ile Microsoft Power Platform tümleştirme](../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ## <a name="supported-geographies"></a>Desteklenen coğrafyalar
 
@@ -96,8 +96,8 @@ Varsayılan olarak, ortamı oluşturan genel yöneticinin ortama erişimi vardı
 ## <a name="additional-resources"></a>Ek kaynaklar
 Aşağıdaki kaynakları kullanarak, finans ve operasyon uygulama altyapısında LCS içindeki projelerin nasıl kullanılacağı ve yönetileceği hakkında daha fazla bilgi edinebilirsiniz:
 
-- [Lifecycle Services kaynakları](/fin-ops-core/dev-itpro/lifecycle-services/lcs.md)
-- [Lifecycle Services (LCS) kullanıcı kılavuzu](/fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md)
+- [Lifecycle Services kaynakları](../fin-ops-core/dev-itpro/lifecycle-services/lcs.md)
+- [Lifecycle Services (LCS) kullanıcı kılavuzu](../fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md)
 - [Self servis dağıtıma genel bakış](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md)
 - [Veritabanı taşıma işlemleri ana sayfası](../fin-ops-core/dev-itpro/database/dbmovement-operations.md)
 

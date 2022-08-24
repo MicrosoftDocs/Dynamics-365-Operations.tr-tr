@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 67c54f344ff7091f4a25198fdafa745c6c84d5d0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 34f74c2a889b3a659831897897e2086b277256e0
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907159"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219793"
 ---
 # <a name="gs1-bar-codes"></a>GS1 barkodları
 
@@ -115,7 +115,7 @@ Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yön
 
 ### <a name="turn-on-the-enhanced-parser-for-gs1-barcodes-feature"></a>GS1 barkodları için geliştirilmiş ayrıştırıcı özelliğini açma
 
-GS1 barkodları kullanıyorsanız *GS1 barkodları için geliştirilmiş ayrıştırıcı* özelliğin de etkinleştirmeniz önerilir. Bu özellik GS1 barkod ayrıştırıcısının gelişmiş bir uygulamasını sağlar. Aşağıdaki geliştirmeleri ekler:
+GS1 barkodları kullanıyorsanız *GS1 barkodları için geliştirilmiş ayrıştırıcı* özelliğini de açmanız önerilir. Bu özellik GS1 barkod ayrıştırıcısının gelişmiş bir uygulamasını sağlar. Aşağıdaki geliştirmeleri ekler:
 
 - Sembol verilerinin ayrıştırılması için GS1 Genel Şartname algoritmasını izler ve semboldeki verilerin şartnameye göre geçerli olduğunu doğrular.
 - **Tanımlayıcının maksimum uzunluğu** değeri ayarlamanızı gerektirmez ve yapılandırılan uygulama tanımlayıcıları arasından en uzun önek eşleşmesini kullanır.

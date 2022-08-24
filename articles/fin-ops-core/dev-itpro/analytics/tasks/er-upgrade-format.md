@@ -1,24 +1,24 @@
 ---
 title: ER Biçiminizi, o biçimin yeni bir temel sürümünü benimseyerek yükseltin.
 description: Bu makalede, Elektronik raporlama (ER) biçim yapılandırmasının nasıl korunacağı açıklanmaktadır.
-author: NickSelin
+author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6c4c2a0954c8554da0b4c859d837ab6ca4839b36
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
+ms.openlocfilehash: 2cac3a88b62198bd5d85529dc27acb7a06c34b77
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111945"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290109"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Biçiminizi, o biçimin yeni bir temel sürümünü benimseyerek yükseltin.
 

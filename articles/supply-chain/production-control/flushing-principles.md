@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 89fd38ea6d2c1635e9d8974ab99c2e4cdae4d6be
+ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065569"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9266443"
 ---
 # <a name="flushing-principles"></a>Otomatik tüketim kuralları
 
@@ -56,7 +56,10 @@ El ile otomatik tüketim ilkesi, malzeme tüketiminin el ile yapılan bir işlem
 Otomatik tüketme başla ilkesi, malzemenin üretim emri başladığında otomatik olarak tüketileceğini belirtir. Tüketilen malzeme tutarı, başlatılan miktar ile orantılıdır. Otomatik tüketime başla ilkesi, üretim yürütme sistemiyle birlikte kullanıldığında, bir operasyon veya işlem işi başladığında malzemeleri otomatik tüketmek için de kullanılabilir. Bu ilke, örneğin tüketim farkı düşükse, malzemeler düşük değerli malzemelerse, izleme gereksinimleri yoksa veya operasyonlarda kısa çalışma zamanı varsa uygundur. 
 
 ### <a name="finish"></a>Son
-Otomatik tüketimi tamamla ilkesi, malzemenin üretim emri tamamlandı olarak raporlandığında veya malzemeleri tüketmek üzere ayarlanmış bir operasyon tamamlandı olarak kaydedildiğinde otomatik olarak tüketileceğini belirtir. Tüketilen malzeme tutarı, tamamlandı olarak raporlanan miktar ile orantılıdır. Otomatik tüketimi tamamla ilkesi, üretim yürütme sistemiyle birlikte kullanıldığında, bir operasyon veya işlem işi tamamlandığında malzemeleri otomatik tüketmek için de kullanılabilir. Bu ilke, Başlat ilkesi ile aynı durumlarda geçerlidir. Ancak, Tamamla ilkesi, malzemenin operasyon tamamlanmadan önce WIP olarak ayarlanmaması gereken daha uzun çalışma süresine sahip operasyonlar içindir. 
+Otomatik tüketimi tamamla ilkesi, malzemenin üretim emri tamamlandı olarak raporlandığında veya malzemeleri tüketmek üzere ayarlanmış bir operasyon tamamlandı olarak kaydedildiğinde otomatik olarak tüketileceğini belirtir. Tüketilen malzeme tutarı, tamamlandı olarak raporlanan miktar ile orantılıdır. Otomatik tüketimi tamamla ilkesi, üretim yürütme sistemiyle birlikte kullanıldığında, bir operasyon veya işlem işi tamamlandığında malzemeleri otomatik tüketmek için de kullanılabilir. Bu ilke, Başlat ilkesi ile aynı durumlarda geçerlidir. Ancak, Tamamla ilkesi, malzemenin operasyon tamamlanmadan önce WIP olarak ayarlanmaması gereken daha uzun çalışma süresine sahip operasyonlar içindir.
+
+> [!NOTE]
+> Otomatik tüketimi tamamla ilkesini planlama maddeleriyle birlikte kullanamazsınız. Bunun yerine, Otomatik tüketime başla ilkesini kullanmanızı öneririz. Planlama maddeleri, *planlama maddesi* üretim türüne sahiptir ve yalnızca ortak ürünler ve yan ürünler, planlama maddeleri için oluşturulan toplu iş emirlerinde tamamlandı olarak raporlanabilir.
 
 ### <a name="available-at-location"></a>Yerleşimde kullanılabilir
 Konum otomatik tüketimde kullanılabilir ilkesi, malzeme üretim için çekildi olarak kaydedildiğinde malzemenin otomatik olarak tüketileceğini belirtir. Malzeme, hammadde çekme işi tamamlandığında veya malzeme üretim giriş konumunda kullanılabilir olduğunda ve malzeme hattı ambara serbest bırakıldığında konumdan çekildi olarak kaydedilir. İşlem içinde oluşturulan malzeme çekme listesi, toplu iş içerisinde deftere nakledilir. Bu örnek, örneğin bir üretim emrine karşılık birden fazla malzeme çekme etkinliği varsa uygundur. Bu durumda malzeme çekme listesini el ile güncelleştirmeniz gerekmez ve WIP bakiyesinin geçerli görünümünü elde edebilirsiniz.

@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: 1f2e4eb8825dd690f926f7f0bdfc39f1eb5fb83c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881864"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276386"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Varsayılan kategori açılış sayfası ve arama sonuçları sayfasına genel bakış
 
@@ -46,6 +46,12 @@ Kategori için aşağıdaki bileşenler gereklidir:
     - Ürün adı - \[Z-A\]
     - Puanlar - düşükten yükseğe
     - Puanlar - yüksekten düşüğe
+
+- **Gelişmiş Sıralama seçenekleri**, web sitesi ziyaretçileri tarafından akıllı ölçütleri kullanarak ürünleri sıralamak amacıyla kullanılır. [Ürün önerileri](product-recommendations.md) etkinleştirildiğinde aşağıdaki sıralama seçenekleri kullanılabilir. Daha fazla bilgi için bkz. [Ürün önerileri türleri](product-recommendations.md#types-of-product-recommendations).
+
+    - Yeni
+    - Çok satan
+    - Popüler
 
 - **Sayfalandırma**, web sitesi ziyaretçileri, kategorilere ayrılmış bir ürün sonuçları sayfasından başka bir sayfaya gitmesini sağlar.
 - **Toplam sayı**, bir kategoride tanımlanan toplam ürün sayısını sağlar.
@@ -78,7 +84,7 @@ Arama sonuçları sayfası için aşağıdaki bileşenler gereklidir:
 
 - **Ürün yerleştirme döşemeleri** kullanıcının araması için ürünleri gösterir. Varsayılan olarak, bu döşemeler kullanıcı aramasının bulut destekli arama puanı tarafından sıralanır.
 - **İyileştiriciler ve seçim özeti**, sayıları sağlayan ve öğeleri iyileştirmek için kullanılabilecek filtrelerdir. Ticaret yöneticisi, kanal kategorileri ve ürün öznitelikleriyle ilgili meta verilerin konfigürasyonunun bir parçası olarak bunları yapılandırır.
-- **Sıralama seçenekleri**, Web sitesi ziyaretçileri tarafından ürünleri sıralamak amacıyla kullanılır. Varsayılan olarak aşağıdaki sıralama seçenekleri kullanılabilir:
+- **Standart Sıralama seçenekleri**, web sitesi ziyaretçileri tarafından ürünleri sıralamak amacıyla kullanılır. Varsayılan olarak aşağıdaki sıralama seçenekleri kullanılabilir:
 
     - Fiyat: düşükten yükseğe
     - Fiyat: yüksekten düşüğe
@@ -86,7 +92,16 @@ Arama sonuçları sayfası için aşağıdaki bileşenler gereklidir:
     - Ürün adı - \[Z-A\]
     - Puanlar - düşükten yükseğe
     - Puanlar - yüksekten düşüğe
-    - Varsayılan
+    - Varsayılan 
+    
+    > [!NOTE]
+    > Gezinti hiyerarşisindeki ürünler için **Görüntüleme sırası** değerleri tanımlanmışsa, kategori sayfasındaki varsayılan olarak sıralama, **Görüntüleme sırası**'nda tanımlanan değerleri kabul eder. Aksi takdirde sıralama, **Ürün numarası** ile yapılır.)
+    
+- **Gelişmiş Sıralama seçenekleri**, web sitesi ziyaretçileri tarafından akıllı ölçütleri kullanarak ürünleri sıralamak amacıyla kullanılır. [Ürün önerileri](product-recommendations.md) etkinleştirildiğinde aşağıdaki sıralama seçenekleri kullanılabilir. Daha fazla bilgi için bkz. [Ürün önerileri türleri](product-recommendations.md#types-of-product-recommendations).
+
+    - Yeni
+    - Çok satan
+    - Popüler
 
 - **Sayfalandırma**, web sitesi ziyaretçileri, kategorilere ayrılmış bir ürün sonuçları sayfasından başka bir sayfaya gitmesini sağlar.
 - **Toplam sayı**, bir kategoride tanımlanan ve arama kriterlerine uyan toplam ürün sayısını sağlar.
@@ -94,6 +109,8 @@ Arama sonuçları sayfası için aşağıdaki bileşenler gereklidir:
 >[!NOTE]
 >Bu bulut destekli arama özellikleri 10.0.8 sürümünden başlayarak kullanılabilir. **Commerce parametreleri > konfigürasyon parametrelerinin** altında "ProductSearch.UseAzureSearch set to 'true'" olduğundan emin olun. 
 ![Bulut destekli arama için yapılandırma parametreleri.](./media/CloudPoweredSearchConfigurationParameters.png)
+
+>Ek olarak, yeni, çok satan ve popüler gibi gelişmiş sıralama seçeneklerini kullanmak için, ortamınız için [ürün önerilerini](product-recommendations.md) etkinleştirmelisiniz. Commerce SDK sürüm 9.35+ ve Commerce sürünm 10.0.20'de gelişmiş sıralama seçenekleri kullanılabilir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

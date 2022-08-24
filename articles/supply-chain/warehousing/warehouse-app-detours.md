@@ -4,19 +4,19 @@ description: Bu makalede, çalışanların geçerli görevi park edebilmesi, ba�
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
-ms.search.form: ''
+ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8106dd600e8eadbaafcaa4cbc27ec179899318f7
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863606"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219019"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Mobil cihaz menü öğelerindeki adımların deturlarını konfigüre etme
 
@@ -34,20 +34,8 @@ Sapma, ana görevdeki bir adımdan açılabilen ayrı bir menü öğesidir. Sapm
 Mobil aygıt menü öğelerindeki adımların sapmalarını konfigüre etmeden önce, gerekli özellikleri etkinleştirmek ve Warehouse Management mobil uygulamasında gerekli alan adlarını oluşturmak için aşağıdaki yordamı tamamlamanız gerekir.
 
 1. **Sistem yönetimi \> Çalışma alanları \> Özellik yönetimi**'ne gidin.
-1. [**Özellik yönetimi** çalışma alanında](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) bu özelliği aşağıdaki şekilde etkinleştirin:
-
-    - **Modül:** *Ambar yönetimi*
-    - **Özellik adı:** *Ambar uygulaması adım yönergeleri*
-
-    *Ambar uygulaması adım yönergeleri* özelliği hakkında daha fazla bilgi için , [Warehouse Management mobil uygulaması ile ilgili adım başlıklarını ve yönergeleri özelleştirme](mobile-app-titles-instructions.md) konusuna bakın. Bu özellik, *Warehouse Management uygulaması sapmaları* özelliği için bir önkoşuldur.
-
-1. Özelliği, aşağıdaki şekilde etkinleştirin:
-
-    - **Modül:** *Ambar yönetimi*
-    - **Özellik adı:** *Warehouse Management uygulama sapmaları*
-
-    Bu özellik, bu makalede açıklanan özelliktir.
-
+1. Sistem için *Ambar uygulaması adım yönergeleri* özelliğinin açık olduğundan emin olun. Supply Chain Management sürüm 10.0.29 itibariyle, bu özellik varsayılan olarak açıktır. *Ambar uygulaması adım yönergeleri* özelliği hakkında daha fazla bilgi için , [Warehouse Management mobil uygulaması ile ilgili adım başlıklarını ve yönergeleri özelleştirme](mobile-app-titles-instructions.md) konusuna bakın. Bu özellik, *Warehouse Management uygulaması sapmaları* özelliği için bir önkoşuldur.
+1. *Warehouse Management uygulama sapmaları* özelliğini açın. Bu özellik, bu makalede açıklanan özelliktir.
 1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Ambar uygulaması alan adları**'na gidip **Varsayılan kurulum oluştur**'u seçerek Warehouse Management mobil uygulamasında alan adlarını güncelleştirin. - Daha fazla bilgi için bkz. [Ambar Yönetimi mobil uygulaması için alanları yapılandırma](configure-app-field-names-priorities-warehouse.md).
 1. Warehouse Management mobil uygulamasını kullandığınız her yasal varlık (şirket) için önceki adımı yineleyin.
 
@@ -65,7 +53,7 @@ Bu senaryo, çalışanların yönlendirilmiş satış malzeme çekme görev akı
 
 ### <a name="enable-sample-data"></a>Örnek verileri etkinleştirme
 
-Belirtilen örnek kayıtlarını ve değerlerini kullanarak bu senaryoda çalışmak için standart demo verilerinin yüklü olduğu bir sistem kullanmanız gerekir. Ayrıca başlamadan önce **USMF** tüzel kişiliğini seçmeniz gerekir.
+Belirtilen örnek kayıtlarını ve değerlerini kullanarak bu senaryoda çalışmak için standart [demo verilerinin](../../fin-ops-core/fin-ops/get-started/demo-data.md) yüklü olduğu bir sistem kullanmanız gerekir. Ayrıca başlamadan önce **USMF** tüzel kişiliğini seçmeniz gerekir.
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-1"></a>Menüye özel geçersiz kılma oluşturma ve senaryo 1 için sapmayı konfigüre etme
 
@@ -118,7 +106,7 @@ Konum sorgulamasını, bir lisans levha sorgusu veya gereksinim duyduğunuz bir 
 
 ### <a name="enable-sample-data"></a>Örnek verileri etkinleştirme
 
-Belirtilen örnek kayıtlarını ve değerlerini kullanarak bu senaryoda çalışmak için standart demo verilerinin yüklü olduğu bir sistem kullanmanız gerekir. Ayrıca başlamadan önce **USMF** tüzel kişiliğini seçmeniz gerekir.
+Belirtilen örnek kayıtlarını ve değerlerini kullanarak bu senaryoda çalışmak için standart [demo verilerinin](../../fin-ops-core/fin-ops/get-started/demo-data.md) yüklü olduğu bir sistem kullanmanız gerekir. Ayrıca başlamadan önce **USMF** tüzel kişiliğini seçmeniz gerekir.
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-2"></a>Menüye özel geçersiz kılma oluşturma ve senaryo 2 için sapmayı konfigüre etme
 

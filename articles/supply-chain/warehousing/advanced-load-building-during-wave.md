@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3a630a7f388e0bbb6fee96e4de753b2380d305c3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 76aee3a736efa9ed7431d4e5127cd0abaccd659f
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863780"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218863"
 ---
 # <a name="advanced-load-building-during-wave"></a>Dalga sırasında gelişmiş yük oluşturma
 
@@ -50,7 +50,7 @@ Dalga işleme sırasında, sistem genellikle, yükleme atanmamış her sevkiyat 
 
 ### <a name="make-sample-data-available"></a>Örnek verilerini kullanılabilir hale getirme
 
-Burada belirtilen örnek kayıtları ve değerleri kullanarak bu tanıtım üzerinden çalışmak için, standart [tanıtım verilerinin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) yüklenmiş olduğu bir sistemde olmanız gerekir. Ek olarak, başlamadan önce **USMF** tüzel kişiliğini seçmeniz gerekir.
+Burada belirtilen örnek kayıtları ve değerleri kullanarak bu tanıtım üzerinden çalışmak için, standart [tanıtım verilerinin](../../fin-ops-core/fin-ops/get-started/demo-data.md) yüklenmiş olduğu bir sistemde olmanız gerekir. Ek olarak, başlamadan önce **USMF** tüzel kişiliğini seçmeniz gerekir.
 
 Bu gösteriyi, üretim sisteminde çalışırken bu özelliği kullanmaya yönelik kılavuz olarak da kullanabilirsiniz. Ancak, bu durumda kendi değerlerinizi değiştirmeniz gerekir ve standart tanıtım verilerinin sağladığı bazı gerekli kayıt türleri kaybolabilir.
 

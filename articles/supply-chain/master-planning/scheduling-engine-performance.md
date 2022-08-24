@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5ece3672bba352e02808248c91366539423d682
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ddc22bdd223eff513ff571501c599712ac78a7da
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854311"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219922"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Planlama altyapısı performansını iyileştirme
 
@@ -294,7 +294,9 @@ Paralel operasyonları kullanmaya alternatif olarak, çiftler "sanal" kaynaklar 
 
 ### <a name="route-with-quantity-of-resources-higher-than-1"></a>Kaynak miktarı 1'den yüksek olan rotalar
 
-Operasyon için 1'den yüksek olan kaynak miktarını ayarlamak gerekiyorsa, altyapıya birden fazla paralel gönderildiği için birincil/ikincil operasyonları kullanmayla aynı sonuç elde edilir. Ancak, bu durumda belirli kaynak atamalarını kullanma seçeneği yoktur, çünkü birden yüksek bir miktar, operasyon için birden fazla kaynağın uygun olmasını gerektirir.
+Operasyon için gereken kaynak miktarı 1'den büyükse sonuç, altyapıya birden fazla paralel iş gönderildiği için birincil/ikincil operasyonları kullanmayla elde edilen sonuçla aynıdır. Ancak, bu durumda belirli kaynak atamalarını kullanmak mümkün değildir, çünkü birden daha yüksek bir miktar, operasyon için birden fazla kaynağın uygun olmasını gerektirir.
+
+Kaynak yük miktarı birden büyük olan ikincil bir operasyon, belirtilen ikincil kaynak miktarının birincil operasyonun her kaynağı için gerekli olduğu anlamına gelir. Örneğin, bir birincil operasyonun kaynak miktarı iki olarak ayarlanmışsa ve ikincil operasyonun kaynak miktarı üç olarak ayarlanmışsa, ikincil operasyon için toplam altı kaynak gereklidir.
 
 ### <a name="excessive-use-of-finite-capacity"></a>Sınırlı kapasitenin aşırı kullanımı
 

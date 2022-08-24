@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3465866df0d766b2300eb4fd1989c034cedbbb22
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: d99a7a7d0261ba0afd19efbb237dff329527723d
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9123823"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219169"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Dynamics 365 Supply Chain Management'deki yenilikler veya değişiklikler 10.0.20 (Ağustos 2021)
 
@@ -49,7 +49,7 @@ Aşağıdaki tabloda, bu sürümde yer alan özellik iyileştirmeleri yer almakt
 | Modül | Özellik&nbsp;yönetiminde&nbsp;özellik&nbsp;adı | Daha fazla bilgi |
 |---|---|---|
 | Master planlama | Ayarlanan talep tahmininin paralel yetkilendirmesi | Bu özellik, ayarlanmış talep tahmin sayfasından **ayarlanmış talep tahmininin** paralel olarak yetkilendirilmeye olanak tanır. Yüksek sayıda tahminlerde yetki bulunduğunda, bu özelliğin amacı performansı artırmakla aynıdır. Yetkilendirilme sırasında, Kullanıcı, Yetkilendirme iletişim kutusundaki **iş parçacığı sayısını** belirtebilir. |
-| Master planlama | (Önizleme) Planlı toplu ve paketli siparişler için toplu iş olarak yürütülebilen kesinleştirme ve konsolidasyon | Bu özellik sayesinde planlı toplu paketli siparişleri kesinleştirmek ve konsolide etmek için toplu işleri kullanabilirsiniz. |
+| Master planlama | Planlı toplu ve paketli siparişler için toplu iş olarak yürütülebilen kesinleştirme ve konsolidasyon | Bu özellik sayesinde planlı toplu paketli siparişleri kesinleştirmek ve konsolide etmek için toplu işleri kullanabilirsiniz. |
 | Üretim denetimi | Genel rotaları kopyala | Bu özellik, madde özel olmayan rotaları kullanıcıların kopyalamasına olanak tanımak için rotayı Kopyala işlevini geliştirir. Bir maddeye henüz atanmamış bir rotanın üzerine yazmak için rota işlevini Kopyala işlevi kullanıldıktan sonra, sistemin tüm ilgili bilgileri (tesis, rota grubu, kaynak gereksinimleri ve çeşitli saatler gibi) güncelleştirmesi için olanak tanır. |
 | Üretim denetimi | Bir rota işlemi değiştirildiğinde ilgili kaynak gereksinimlerini güncelleştir | Bu özellik, bir kullanıcı mevcut bir rota adımının işlemini değiştirdikten sonra sistemin ilgili kaynak gereksinimlerini güncelleştirmesini sağlar. |
 | Ürün bilgileri yönetimi | Ürün reçetesi raporu zaman aşımını önleme için ön işlem | Bu özellik, ürün reçetesi raporunun önceden işlenmesine neden olur. Bu, rapor için büyük bir veri yükü olduğunda zaman aşımı sorunlarını ortadan kaldıracak. |

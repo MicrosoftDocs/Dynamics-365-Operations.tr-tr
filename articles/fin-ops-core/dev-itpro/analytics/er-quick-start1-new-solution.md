@@ -1,28 +1,26 @@
 ---
 title: Özel rapor yazdırmak için yeni bir ER çözümü tasarlama
 description: Bu makalede, özel rapor yazdırmak için bir Elektronik raporlama (ER) çözümünün nasıl tasarlanacağı açıklanmaktadır.
-author: NickSelin
+author: kfend
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7194fa9243362d4eb61d6ce706e30a66c9cf3217
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: 114de2e7a3e40f45e5e46ddcb29e9fc626f89ad6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847502"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281797"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Özel rapor yazdırmak için yeni bir ER çözümü tasarlama
 
@@ -289,7 +287,7 @@ Bu yapılandırmanın sürüm 1 durumu **Taslak** yerine **Tamamlandı** olarak 
 
 ![Yapılandırmalar sayfasındaki düzenlenebilir yapılandırmanın sürümleri.](./media/er-quick-start1-model-configuration.png)
 
-ER yapılandırmaları için sürüm oluşturma hakkında daha fazla bilgi için bkz. [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md#component-versioning).
+ER yapılandırmaları için sürüm oluşturma hakkında daha fazla bilgi için bkz. [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md).
 
 > [!NOTE]
 > Yapılandırılan veri modeli, **Soru formu** iş etki alanının soyut gösterimidir ve Microsoft Dynamics 365 Finance'e özel yapıtlarla herhangi bir ilişki içermez.

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e5d0a93a4c628d4867161d082b0f0e177ddb95c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4a8dd322446843af41214e8daa0822939d0468f0
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863751"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219823"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Manuel stok hareketinin ertelenmiş işlemesi
 
@@ -33,7 +33,7 @@ Arka planda işleme, [İşlem ambarı uygulama olayları özelliği](warehouse-a
 Bu özellikleri kullanılabilir hale getirmek için, [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin. Bu özellikleri şu sırada etkinleştirmeniz gerekir:
 
 1. *Kuruluş çapında işi engelleme*<br>(Supply Chain Management sürüm 10.0.21 itibariyle bu özellik zorunludur; bu nedenle varsayılan olarak açıktır ve yeniden kapatılamaz.)
-1. *Ambar uygulaması olaylarını işle*<br>(Supply Chain Management sürüm 10.0.25 itibariyle, bu özellik varsayılan olarak açıktır.)
+1. *Ambar uygulaması olaylarını işle*<br>(Supply Chain Management sürüm 10.0.25 itibarıyla, bu özellik varsayılan olarak açıktır. Supply Chain Management sürüm 10.0.29 itibarıyla, bu özellik zorunludur. Bu nedenle, varsayılan olarak açıktır ve yeniden kapatılamaz.)
 1. *Ertelenen yerine koyma işlemleri*
 1. *El ile stok hareketi işlemini ertelenmiş olarak işleme*<br>(Supply Chain Management sürüm 10.0.25 itibariyle bu özellik zorunludur; bu nedenle varsayılan olarak açıktır ve yeniden kapatılamaz.)
 

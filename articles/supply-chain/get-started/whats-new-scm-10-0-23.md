@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: ded645ebaea1230b68525c247ee91e3893211774
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 1b45cc2ba26f60ab444edca6c513c581e8332a2a
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124543"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219139"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Dynamics 365 Supply Chain Management 10.0.23 sürümündeki yenilikler veya değişiklikler (Ocak 2022)
 
@@ -55,7 +55,7 @@ Bu özelliklerden herhangi birini etkinleştirmek veya devre dışı bırakmak i
 | Stok ve ambar yönetimi | (Rusya) Stok yönetiminde ülkeye veya bölgeye özgü birincil formlarda yerel dildeki çevirileri kullan | Supply Chain Management'ın Rus yerelleştirmeleri için bu özellik Rusya'ya özgü şu stok belgesi çıktılarında ürün/madde adları ve ölçü birimleri için Rusça çevirilerin kullanılmasını sağlar: Sayım listesi (INV-3), Sayım listesi (INV-5) ve Sayım listesi (INV-6). |
 | Master planlama | Talep tahmini için Azure Machine Learning Hizmeti | Bu özellik, Azure Machine Learning Hizmeti'nin tarihsel verilere dayalı olarak talep tahminleri oluşturmasına olanak tanır. Daha fazla bilgi için bkz. [Talep tahmini kurulumu](../master-planning/demand-forecasting-setup.md). |
 | Tedarik ve kaynak atama | Satınalma siparişi güncelleştirme geçmişini temizle | Bu özellik, satınalma siparişi güncelleştirmeleri ile ilgili geçici geçmiş kayıtları temizlemenizi sağlar. **Tüm satınalma siparişleri** sayfasındaki eylem bölmesine **Satınalma güncelleştirme geçmişini temizle** adı verilen yeni bir düğme ekler. Varsayılan olarak bu özellik etkindir. |
-| Üretim denetimi | (Önizleme) Otomatik olarak deftere nakledilen malzeme çekme listeleri için ambarın etkinleştirildiği malzemeleri otomatik çekme | Bu özellik, otomatik olarak deftere nakledilen, türetilen ve geriye dönük malzeme çekme listesi günlükleri için stok boyutlarını otomatik olarak çekmenize ve çözümlemenize olanak tanır. |
+| Üretim denetimi | Otomatik olarak deftere nakledilen malzeme çekme listeleri için ambarın etkinleştirildiği malzemeleri otomatik çekme | Bu özellik, otomatik olarak deftere nakledilen, türetilen ve geriye dönük malzeme çekme listesi günlükleri için stok boyutlarını otomatik olarak çekmenize ve çözümlemenize olanak tanır. |
 | Üretim denetimi | Planlanan tüketim tarihine göre hammadde son tarihlerini doğrula | Bu özellik, üretim sırasında kullanılmak üzere toplu iş hariç bir madde rezerve edildiğinde toplu sona erme tarihlerinin nasıl doğrulanacağını değiştirir. Bu özellik etkinleştirildiğinde, toplu iş sona erme tarihi, üretim ürün reçetesi satırında veya toplu iş emri formülü satırında belirlendiği şekilde planlanan tüketim tarihine (hammadde tarihi) göre doğrulanır. Bu özellik devre dışı bırakıldığında toplu iş sona erme tarihi, üretim emri veya toplu iş emrinin planlanan teslim tarihine (daha önce) göre doğrulanır. |
 | Satış ve pazarlama | Yaşına göre satış güncelleştirme geçmişini temizle | Bu özellik, **Satış güncelleştirme geçmişi temizliği** periyodik görevini çalıştırırken tutulacak maksimum kayıt yaş kaydını ayarlamanızı sağlar. Eski kayıtlar silinecek. Bu, geçerlilik süresi her zaman görevin çalıştırıldığı tarihe göre hesaplandığı için, görevi belirli aralıklarla çalışacak şekilde ayarladığınızda yararlıdır. Bu özellik olmadan, yalnızca tutulacak en eski kayıtlar için belirli bir tarih ayarlayabilirsiniz. Daha fazla bilgi için bkz. [Satış geçmişi verilerini temizleme işlemini zamanlama](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Satış ve pazarlama | "İlk 100" müşteri raporunun performansını iyileştir | Bu özellik, raporu özel sorgulara izin verilmektense raporu her zaman tüm müşteriler genelinde her çalıştırarak **İlk 100** müşterini raporunun performansını artırır. Bu özellik etkinleştirildiğinde, tüm **Dahil edilecek kayıtlar** ayarları, **İlk 100** rapor iletişim kutusunda devre dışı bırakılır. |

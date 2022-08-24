@@ -1,28 +1,26 @@
 ---
 title: SharePoint kanalı yapılandırma
 description: Bu makalede, Microsoft SharePoint kanalının gelen elektronik faturaları işleyecek şekilde nasıl yapılandırılacağı açıklanmaktadır.
-author: dkalyuzh
+author: gionoder
 ms.date: 02/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "97423"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: gionoder
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 89538adde4d14212fb0deccad05f828d146f16db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 92eaa357c6d72cc637d4ce353702e5d41ecf4338
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910055"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272319"
 ---
 # <a name="configure-a-sharepoint-channel"></a>SharePoint kanalı yapılandırma
 

@@ -1,25 +1,25 @@
 ---
 title: " Çalışanı yapılandırma"
 description: Bu yordam bir çalışanını POS'ta satışlar üzerinden komisyon için uygun bir satış temsilcisi olarak yapılandırmayı gösterir.
-author: jblucher
+author: josaw1
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, HcmWorker
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: Retail
-ms.author: jeffbl
+ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a21d5f2d5963db2a92b653e8e520f96f11ba1bf6acbb238812211154d5b39fc0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.industry: Retail
+ms.search.form: CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, HcmWorker
+ms.openlocfilehash: 8bbd3899da8e289dcf82fabc0fd21370655f38e0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726395"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276060"
 ---
 # <a name="configure-a-worker"></a> Çalışanı yapılandırma
 

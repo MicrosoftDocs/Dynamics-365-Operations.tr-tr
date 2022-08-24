@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 109adcc4e8b49c665bd14ecab2b7cc56cebd2291
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: db6c46d471e3b54982132df3e4819236833cf4a8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878498"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292148"
 ---
 # <a name="set-up-an-email-notification-profile"></a>E-posta bildirimi profili ayarlama
 
@@ -31,17 +31,9 @@ Kanalları oluştururken, bir e-posta bildirim profili ayarlayabilirsiniz. E-pos
 
 E-posta yapılandırma hakkında daha fazla bilgi için bkz. [E-posta yapılandırma ve gönderme](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
-## <a name="create-an-email-notification-profile"></a>E-posta bildirimi profili oluşturma
 
-E-posta bildirim profili oluşturmak için bu adımları izleyin.
 
-1. Gezinti bölmesinde **Modüller \> Retail and commerce \> Headquarters kurulumu \> Commerce E-posta bildirimi profili**'ne gidin.
-1. Eylem bölmesinde **Yeni**'ye tıklayın.
-1. **E-posta bildirimi profili** alanında, profili tanımlayacak bir ad girin.
-1. **Açıklama** alanına ilgili bir açıklama girin.
-1. **Etkin** anahtarını **Evet**'e çevirin.
-
-### <a name="create-an-email-template"></a>Bir e-posta şablonu oluştur
+## <a name="create-an-email-template"></a>Bir e-posta şablonu oluştur
 
 Desteklemek istediğiniz her bildirim türü için bir e-posta bildirim türünü etkinleştirmeden önce, Commerce genel merkezinde bir kuruluş e-posta şablonu oluşturmanız gerekir. Bu şablon, desteklenen her bir dil için e-posta konusu, gönderen, varsayılan dil ve e-posta gövdesini tanımlar.
 
@@ -63,14 +55,24 @@ Aşağıdaki resimde bazı örnek e-posta şablonu ayarları gösteriliyor.
 
 E-posta şablonlarının nasıl oluşturulacağı hakkında bilgi için bkz. [İşlem olayları için e-posta şablonları oluşturma](email-templates-transactions.md). 
 
-### <a name="create-an-email-event"></a>Bir e-posta olayı oluşturma
+## <a name="create-an-email-notification-profile"></a>E-posta bildirimi profili oluşturma
+
+Headquarters'da e-posta bildirim profili oluşturmak için bu adımları izleyin.
+
+1. Gezinti bölmesinde **Modüller \> Retail and commerce \> Headquarters kurulumu \> Commerce E-posta bildirimi profili**'ne gidin.
+1. Eylem bölmesinde **Yeni**'yi seçin.
+1. **E-posta bildirimi profili** alanında, profili tanımlayacak bir ad girin.
+1. **Açıklama** alanına ilgili bir açıklama girin.
+1. **Etkin** anahtarını **Evet**'e çevirin.
+
+## <a name="add-a-notification-type"></a>Bildirim türü ekleme
 
 Bir e-posta olayı oluşturmak için bu adımları izleyin.
 
 1. Gezinti bölmesinde **Modüller \> Retail and commerce \> Headquarters kurulumu \> Commerce E-posta bildirimi profili**'ne gidin.
-1. Listede, istenen kaydı bulun ve seçin. 
-1. **E-posta kodu** açılır listesinden e-posta şablonunu seçin.
+1. **Perakende e-posta bildirim ayarları** altında **Yeni**'yi seçin.
 1. Açılır listeden uygun **E-posta bildirimi türünü** seçin.
+1. Yukarıda **E-posta Kimliği** açılır listesinden oluşturduğunuz e-posta şablonunu seçin.
 1. **Etkin** onay kutusunu işaretleyin.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 
@@ -78,14 +80,12 @@ Aşağıdaki resimde bazı örnek olay bildirimi ayarları gösteriliyor.
 
 ![Olay bildirim ayarları.](media/email-notification-profile.png)
 
-> [!NOTE]
-> Müşteri tarafından oluşturulan bildirim türü bir e-posta bildiriminin gönderilebilmesi için önce özelleştirmenin uygulanmasını gerektirir.
 
-### <a name="schedule-a-recurring-email-notification-process-job"></a>Yinelenen e-posta bildirim işlemi işi zamanla
+## <a name="schedule-a-recurring-email-notification-process-job"></a>Yinelenen e-posta bildirim işlemi işi zamanla
 
 E-posta bildirimleri göndermek için **Perakende sipariş e-posta bildirimini işle** işinin çalışıyor olması gerekir.
 
-Daha önce yapmadıysanız Commerce Headquarters'da **Perakende sipariş e-posta bildirimini işle** işini ayarlamak için şu adımları izleyin.
+İşlem tabanlı e-postaları göndermek üzere Headquarters'da bir toplu iş ayarlamak için aşağıdaki adımları izleyin.
 
 1. **Retail ve Commerce \> Retail ve Commerce BT \> E-posta ve bildirimler \> E-posta bildirimi gönder**'e gidin.
 1. **Perakende sipariş e-posta bildirimini işle** iletişim kutusunda **Yineleme**'yi seçin.
@@ -94,9 +94,9 @@ Daha önce yapmadıysanız Commerce Headquarters'da **Perakende sipariş e-posta
 1. **Perakende sipariş e-posta bildirimini işle** iletişim kutusuna dönmek için **Tamam**'ı seçin.
 1. İş kurulumunu tamamlamak için **Tamam**'ı seçin.
 
-### <a name="next-steps"></a>Sonraki adımlar
+## <a name="next-steps"></a>Sonraki adımlar
 
-Posta gönderebilmek için önce giden posta hizmetinizi yapılandırmanız ve bir toplu iş ayarlamanız gerekir. Daha fazla bilgi için bkz. [E-posta yapılandırma ve gönderme](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
+E-posta gönderebilmek için önce giden posta hizmetinizi yapılandırmanız gerekir. Daha fazla bilgi için bkz. [E-posta yapılandırma ve gönderme](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

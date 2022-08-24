@@ -1,26 +1,26 @@
 ---
 title: Store Commerce ve Cloud POS arasında seçim yapma
 description: Bu makale, Store Commerce ve bulut POS arasındaki önemli farklılıkları açıklar ve Dynamics 365 Commerce uygulayan perakendeciler tarafından gereksinimler için en iyi seçimi yapmaya yardımcı olmak için dikkate alınması gereken çeşitli faktörleri açıklar.
-author: jblucher
+author: josaw1
 ms.date: 04/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail
-ms.author: jeffbl
+ms.author: josaw
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 26f6e94b13b3058ac42c4c7b83dcf7179bae18e3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.openlocfilehash: bbb5f3d4c61907243bed404f3ab7bea05c78b1c0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854018"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276467"
 ---
 # <a name="choose-between-store-commerce-and-cloud-pos"></a>Store Commerce ve Cloud POS arasında seçim yapma
 

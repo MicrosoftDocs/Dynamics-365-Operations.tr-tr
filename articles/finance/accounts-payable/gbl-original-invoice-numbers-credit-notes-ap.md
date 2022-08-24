@@ -1,24 +1,24 @@
 ---
 title: Alacak dekontlarında özgün faturalara referans verme (satıcı faturaları)
 description: Bu makalede, alacak dekontu oluşturduğunuzda özgün faturaya nasıl referans oluşturabileceğiniz açıklanmaktadır.
-author: v-oloski
+author: AdamTrukawka
 ms.date: 09/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-oloski
+ms.author: atrukawk
 ms.search.validFrom: 2021-09-23
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e05dddf056d86513d86ea925349f60ca25f191ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: ed07ae9784da3ca721fcb25a9c5a14c4f75f2e59
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901503"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277385"
 ---
 # <a name="reference-original-invoices-in-credit-notes-vendor-invoices"></a>Alacak dekontlarında özgün faturalara referans verme (satıcı faturaları)
 

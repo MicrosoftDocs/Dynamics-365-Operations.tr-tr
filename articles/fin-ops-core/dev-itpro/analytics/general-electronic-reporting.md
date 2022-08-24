@@ -1,28 +1,26 @@
 ---
 title: Elektronik raporlamaya (ER) genel bakış
 description: Bu makalede, Elektronik raporlama (ER) aracına dair genel bir bakış sağlanmaktadır. Anahtar kavramlar, desteklenen senaryolar ve çözümün parçası olan biçimler açıklanmaktadır.
-author: NickSelin
+author: kfend
 ms.date: 11/02/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "58941"
-- intro-internal
-ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 58941,  ""intro-internal
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.form: ERWorkspace
+ms.openlocfilehash: e94846dd565abb6de2c1f07532d285e28307e9a2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109595"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269706"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektronik raporlamaya (ER) genel bakış
 
@@ -78,7 +76,7 @@ ER altyapısı aşağıdaki yeteneklere sahiptir:
 
 [![ER ana veri akışı.](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
 
-### <a name="components"></a>Bileşenler
+### <a name="component"></a>Bileşen
 
 ER, aşağıdaki bileşen türlerini destekler:
 
@@ -89,32 +87,7 @@ ER, aşağıdaki bileşen türlerini destekler:
 
 Daha fazla bilgi için bkz: [Elektronik raporlama bileşenleri](er-overview-components.md).
 
-
-#### <a name="component-versioning"></a>Bileşen sürüm oluşturma
-
-Sürüm Oluşturma ER bileşenleri için desteklenir. Aşağıdaki iş akışı ER bileşenlerindeki değişiklikleri yönetmek için sağlanır:
-
-1. Başlangıçta oluşturulan sürüm **Taslak** sürüm olarak işaretlenir. Bu sürüm düzenlenebilir ve test çalıştırmaları için kullanılabilir.
-2. **Taslak** sürümü **Tamamlandı** sürümüne dönüştürülebilir. Bu sürüm yerel raporlama işlemlerinde kullanılabilir.
-3. **Tamamlandı** sürümü **Paylaşımlı** sürümüne dönüştürülebilir. Sürüm LCS üzerinde yayımlanır ve küresel raporlama işlemlerinde kullanılabilir.
-4. **Paylaşılan** sürümü **Devam ettirilmeyen** sürümüne dönüştürülebilir. Daha sonra bu sürüm silinebilir.
-
-**Tamamlandı** veya **Paylaşılan** durumuna sahip sürümler diğer veri değişimleri için kullanılabilir. Aşağıdaki eylemler, şu durumlara sahip bir bileşen üzerinde gerçekleştirilebilir:
-
-- Bileşen, XML biçiminde sıralanabilir ve XML biçiminde bir dosya olarak dışa aktarılabilir.
-- Bileşen bir XML dosyasından tekrar sıralanabilirler ve ER bileşeninin yeni bir sürümü olarak uygulamadan içe aktarılabilirler.
-
-#### <a name="component-date-effectivity"></a>Bileşen tarihi geçerlilik
-
-ER bileşen sürümleri tarih etkilidir. **Yürürlük başlangıcı** tarihini, raporlama işlemleri için bileşenin geçerlilik kazandığı tarihi belirtmek amacıyla bir ER bileşeni için ayarlayabilirsiniz. Uygulama oturum tarihi bir bileşenin yürütme için geçerli olup olmadığını tanımlamak için kullanılır. Belirli bir tarih için birden fazla sürüm geçerliyse raporlama işlemleri için en son sürüm kullanılır.
-
-#### <a name="component-access"></a>Bileşen erişim
-
-ER biçimli bileşenlere erişilmesi ISO ülke/bölge kodu ayarlarına bağlıdır. Bu ayar bir biçim konfigürasyonunun seçilen sürümü için boş ise çalışma zamanında herhangi bir şirketinden biçim bileşenine erişilebilir. Bu ayar ISO ülke/bölge kodları içeriyorsa biçim bileşenine yalnızca biçim bileşeninin ISO ülke/bölge kodlarının biri için tanımlanan birincil adrese sahip şirketlerinden ulaşılabilir.
-
-Bir veri biçimi bileşeninin farklı sürümleri ISO ülke/bölge kodları için farklı ayarlara sahip olabilir.
-
-#### <a name="configuration"></a><a name="Configuration"></a>Yapılandırma
+### <a name="configuration"></a><a name="Configuration"></a>Yapılandırma
 
 Bir ER yapılandırması, belirli bir ER bileşeninin sarmalayıcısıdır. Bu bileşen bir veri modeli bileşeni ya da biçim bileşeni olabilir. Bir konfigürasyon bir ER bileşeninin farklı sürümlerini içerebilir. Her yapılandırma belirli bir yapılandırma sağlayıcı tarafından sahip olunan olarak işaretlenir. Bir yapılandırma bileşeninin **Taslak** sürümü, yapılandırma sahibi uygulamadaki ER ayarlarında etkin sağlayıcı olarak seçilmişse düzenlenebilir.
 
@@ -124,13 +97,13 @@ Oluşturulan biçim konfigürasyonu bir biçim bileşeni içerir. Orijinal model
 
 ER yapılandırması uygulama şirketleri için paylaşılır.
 
-#### <a name="provider"></a><a name="Provider"></a>Sağlayıcı
+### <a name="provider"></a><a name="Provider"></a>Sağlayıcı
 
 ER sağlayıcısı her bir ER konfigürasyonunun yazarını (sahibini) göstermek için kullanılan taraf tanımlayıcısıdır. ER, konfigürasyon sağlayıcıları listesini yönetmenizi sağlar. Elektronik belgeler için finans ve operasyon çözümünün parçası olarak sevk edilen biçim konfigürasyonlarının sahibi olarak **Microsoft** yapılandırma sağlayıcısı işaretlenir.
 
 Yeni bir ER sağlayıcısını kaydetmeyi öğrenmek için **ER Bir yapılandırma sağlayıcısı oluşturmak ve bunu etkin olarak işaretlemek** (**7.5.4.3 Al/BT hizmeti geliştir/çözüm bileşenleri (10677)** iş işleminin parçası olan) görev kılavuzunu yürütün.
 
-#### <a name="repository"></a><a name="Repository"></a>Depo
+### <a name="repository"></a><a name="Repository"></a>Depo
 
 ER havuzu ER konfigürasyonlarını depolar. Aşağıdaki ER havuzu türleri şu anda desteklenir: 
 
@@ -145,7 +118,7 @@ Bir **LCS paylaşımlı kitaplık** deposu Lifecycle Services (LCS) içindeki Pa
 
 **LCS projesi** havuzu, havuz kaydedildiğinde seçilen belirli bir LCS projesinin (LCS proje varlıkları kitaplığı) konfigürasyonlar listesine erişim sağlar. ER, belirli bir **LCS projesi** havuzu için geçerli kurulumdan paylaşılan konfigürasyonları karşıya yüklemenizi sağlar. Yapılandırmaları bir **LCS projesi** deposundan geçerli finans ve operasyon uygulamalarının kurulumuna da aktarabilirsiniz.
 
-Bir **Dosya sistemi** havuzu, AOS servisinin barındırıldığı makinede xml dosyaları olarak yerel dosya sisteminin belirli bir klasöründe bulunan yapılandırmalar listesine erişim sağlar. Gerekli klasör, havuz kayıt aşamasında seçilir. Yapılandırmaları bir **Dosya sistemi** deposundan geçerli kuruluma da aktarabilirsiniz. 
+Bir **Dosya sistemi** havuzu, AOS servisinin barındırıldığı makinede XML dosyaları olarak yerel dosya sisteminin belirli bir klasöründe bulunan yapılandırmalar listesine erişim sağlar. Gerekli klasör, havuz kayıt aşamasında seçilir. Yapılandırmaları bir **Dosya sistemi** deposundan geçerli kuruluma da aktarabilirsiniz. 
 
 Bu havuz türünün aşağıdaki ortamlarda erişilebilir olduğunu unutmayın:
 
@@ -162,7 +135,7 @@ Daha fazla bilgi için bkz: [RCS'den Elektronik raporlama (ER) yapılandırmalar
 
 Daha fazla bilgi için bkz. [Yapılandırma Hizmeti Global deposundan Elektronik raporlama (ER) yapılandırmalarını içe aktarma](./er-download-configurations-global-repo.md).
 
-**Operations kaynakları** havuzu Microsoft'un bir ER konfigürasyonu sağlayıcısı olarak ilk başta uygulama çözümünün parçası olarak yayımladığı konfigürasyonlar listesine erişim sağlar. Bu yapılandırmalar geçerli kuruluma aktarılabilir ve elektronik raporlama veya basit görev kılavuzları için kullanılabilir. Bunlar ek yerelleştirmeler ve özelleştirmeler için de kullanılabilir. Microsoft ER yapılandırmaları tarafından sağlanan en güncel sürümlerin LCS Paylaşımlı varlık kitaplığından, karşılık gelen ER deposu kullanılarak içe aktarılması gerekir.
+**Operations kaynakları** havuzu Microsoft'un bir ER konfigürasyonu sağlayıcısı olarak ilk başta uygulama çözümünün parçası olarak yayımladığı konfigürasyonlar listesine erişim sağlar. Bu yapılandırmalar geçerli kuruluma aktarılabilir ve elektronik raporlama veya basit görev kılavuzları için kullanılabilir. Bunlar ek yerelleştirmeler ve özelleştirmeler için de kullanılabilir. Microsoft ER yapılandırmaları tarafından sağlanan en güncel sürümlerin LCS Paylaşılan varlık kitaplığından, karşılık gelen ER deposu kullanılarak içe aktarılması gerekir.
 
 Gerekli **LCS projesi**, **Dosya sistemi** ve **Düzenleyici Yapılandırma Servisleri (RCS)** depoları her bir geçerli kurulumun yapılandırma sağlayıcısı için ayrı ayrı kaydedilebilir. Her depo belirli bir konfigürasyon sağlayıcısına ayrılabilir.
 
@@ -265,6 +238,7 @@ Finance için ER yapılandırmalarının listesi sürekli olarak güncelleştiri
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
+- [Elektronik raporlama bileşenleri](er-overview-components.md)
 - [Elektronik raporlama (ER) yapılandırmaları oluşturma](electronic-reporting-configuration.md)
 - [Elektronik raporlama (ER) yapılandırması yaşam döngüsünü yönetme](general-electronic-reporting-manage-configuration-lifecycle.md)
 

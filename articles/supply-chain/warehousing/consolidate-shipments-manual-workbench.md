@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 388066b9c81ecb63ac1f81b70dc4b168f3f4a71d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a33189cdcbb66304eef80558e931209ea236f576
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888339"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218633"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Sevkiyat konsolidasyonu çalışma ekranı kullanılarak sevkiyatları konsolide etme
 
@@ -41,7 +41,7 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 - **Modül:** *Ambar yönetimi*
 - **Özellik adı:** *Manuel sevkiyat konsolidasyonu*
 
-[Sevkiyat konsolidasyon ilkelerini yapılandırma](configure-shipment-consolidation-policies.md) konusunda bahsedildiği gibi ilkeleri oluşturabilmeniz için önce *Sevkiyatı konsolide et* özelliğini de etkinleştirmeniz gerekir. Ancak, o adımı zaten tamamlamış olmalısınız.
+İlke oluşturabilmeniz için *Sevkiyatı konsolide et* özelliğini de açmanız gerekir. Daha fazla bilgi için bkz. [Sevkiyat konsolidasyonu ilkelerini yapılandırma](configure-shipment-consolidation-policies.md).
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>Bu senaryo için satış siparişleri oluşturma
 

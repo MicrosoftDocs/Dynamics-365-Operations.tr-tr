@@ -1,24 +1,24 @@
 ---
 title: Dosyaları isteğe bağlı özniteliklerle XML biçiminde içeri aktarma
 description: Bu makalede, gelen elektronik belgelerin XML biçiminde ayrıştırılacağı XML özniteliklerini belirleyen ER biçimleri tasarlama hakkında bilgi sağlanmaktadır.
-author: NickSelin
+author: kfend
 ms.date: 07/03/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.region: global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5b25b51a4f59bf9c308bcaeb140e2737597798e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: EROperationDesigner
+ms.openlocfilehash: bd4e2d75a598dd36de8b2ce89e83789d87b3a72e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873236"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276641"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>Dosyaları isteğe bağlı özniteliklerle XML biçiminde içe aktarma
 

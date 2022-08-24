@@ -1,27 +1,27 @@
 ---
 title: Çakışan iskontoları için en uygun birleşimi belirleme
 description: İskontolar çakıştığında, en düşük hareket toplamını veya en yüksek toplam iskontoyu oluşturacak çakışan iskonto birleşimi belirlemeniz gerekir. Yaygın olarak kullanılan '1 satın al, 1 al X yüzdesi' (BOGO) perakende iskontosunda olduğu gibi, iskonto tutarı satın alınan ürünlerin fiyatına göre değişiklik gösterdiğinde, bu işlem birleşimsel iyileştirme konusu durumuna gelir.
-author: kfend
+author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.custom: 89643
-ms.assetid: 09843c9a-3e19-4e4a-a8ce-80650f2095f9
 ms.search.region: global
-ms.search.industry: Retail
-ms.author: kfend
+ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 69475643a522a89ca4b58cf0ad1cc1f2db6325ff1d3f11830bf5f813290d6240
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: 89643
+ms.assetid: 09843c9a-3e19-4e4a-a8ce-80650f2095f9
+ms.search.industry: Retail
+ms.search.form: RetailParameters, RetailPeriodicDiscount,
+ms.openlocfilehash: 64137b877ff1250770ec0794167ba494970bc10e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733929"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269121"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Çakışan iskontoları için en uygun birleşimi belirleme
 

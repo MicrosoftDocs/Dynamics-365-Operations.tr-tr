@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bec96131326b3162b3d1a138b896e85982ad3aa5
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845938"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219547"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Sevkiyat konsolidasyon ilkelerini yapılandırma
 
@@ -61,7 +61,6 @@ Ambarların zaten çapraz sipariş konsolidasyonu için yapılandırıldığı b
 1. **Ambar** hızlı sekmesinde, **Ambara serbest bırakmada sevkiyatı konsolide et** seçeneğini *Evet* olarak ayarlayın.
 1. Konsolidasyonun gerekli olduğu tüm diğer ambarlar için 2 ile 4 arasındaki adımları yineleyin.
 1. Sayfayı kapatın.
-1. *Sevkiyat konsolidasyon ilkeleri* özelliğini açmak için [özellik yönetimini](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanın. **Özellik yönetimi** çalışma alanında, bu özellik *Sevkiyatı konsolide etme* olarak adlandırılır.
 1. **Ambar yönetimi \> Kurulum \> Ambara serbest bırakma \> Sevkiyat konsolidasyon ilkeleri** seçeneğine gidin. Özelliği açtıktan sonra, yeni **Sevkiyat konsolidasyonu ilkeleri** menü öğesini görmek için tarayıcınızı yenilemeniz gerekebilir.
 1. Eylem Bölmesi'nde, aşağıdaki ilkeleri oluşturmak için **Varsayılan kurulum oluştur**'u seçin:
 
@@ -81,7 +80,6 @@ Ambarların zaten çapraz sipariş konsolidasyonu için yapılandırıldığı b
 
 Yepyeni bir ortamda varsayılan sevkiyat konsolidasyon ilkelerini ayarlamak için bu adımları izleyin.
 
-1. Daha önce açmadıysanız *Sevkiyat konsolidasyon ilkeleri* özelliğini açmak için [özellik yönetimini](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanın. **Özellik yönetimi** çalışma alanında, bu özellik *Sevkiyatı konsolide etme* olarak adlandırılır.
 1. **Ambar yönetimi \> Kurulum \> Ambara serbest bırakma \> Sevkiyat konsolidasyon ilkeleri** seçeneğine gidin.
 1. Eylem Bölmesi'nde, aşağıdaki ilkeleri oluşturmak için **Varsayılan kurulum oluştur**'u seçin:
 

@@ -1,25 +1,25 @@
 ---
 title: SEO meta verilerini yönetme
 description: Bu makalede, Microsoft Dynamics 365 Commerce'ta arama motoru optimizasyonu (SEO) meta verilerinin nasıl yönetileceği açıklanmaktadır.
-author: psimolin
+author: josaw1
 ms.date: 04/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 99c28c2bff7b683f3e92dea4ba24d8bead556443
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 4b04d675a903279e667e1f5fcee387f05d979e81
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027321"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276841"
 ---
 # <a name="manage-seo-metadata"></a>SEO meta verilerini yönetme
 

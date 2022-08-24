@@ -2,19 +2,19 @@
 title: Taraf ve genel adres defteri
 description: Bu makalede, çift yazmanın taraf ve genel adres defteri işlevleri açıklanmaktadır.
 author: RamaKrishnamoorthy
-ms.date: 04/25/2022
+ms.date: 08/02/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 91b56d091f549838092bdefe1a6a763fde79a32c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f06b6e69b76bf12092fdceca5b45a6750b52233
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892207"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9229005"
 ---
 # <a name="party-and-global-address-book"></a>Taraf ve genel adres defteri
 
@@ -119,11 +119,11 @@ Izgara aşağıdaki sütunları içerir:
 
 İstediğiniz sayıda posta adresi oluşturmak için ızgaranın üzerindeki **Yeni Adres** düğmesini kullanabilirsiniz.
 
-**Firma** sayfasının **Özet** sekmesindeki **Adres 1** ve **Adres 2** alanları sırasıyla **teslim** ve **fatura** adreslerine karşılık gelir.
+Müşteri etkileşimi uygulamalarında bir kullanıcı, **Firmalar** sayfasının **Özet** sekmesine adresleri girdiğinde, **Adres 1** ve **Adres 2** alanları sırasıyla **Teslim** ve **Fatura** adreslerine karşılık gelir. Ancak bir kullanıcı, finans ve operasyonlar uygulamalarında bir posta adresi oluşturduğunda, müşteri kaydının ilk iki adresi **Adres 1** ve **Adres 2** alanlarında görünür ve kullanıcının, adres amacını **Teslimat** ve **Fatura** olarak değiştirme seçeneği olur.
 
 ![Posta adresleri için özet sekmesi.](media/party-gab-image5.png)
 
-**İlgili kişi** sayfasının **Özet** sekmesindeki **Adres1**, **Adres 2** ve **Adres 3** alanları sırasıyla **İşletme**, **Teslim** ve **fatura** adreslerine karşılık gelir.
+Benzer şekilde, **İlgili kişi** sayfasının **Özet** sekmesindeki **Adres1**, **Adres 2** ve **Adres 3** alanları sırasıyla **İşletme**, **Teslim** ve **fatura** adreslerine karşılık gelir.
 
 ## <a name="electronic-addresses"></a>Elektronik adresler
 

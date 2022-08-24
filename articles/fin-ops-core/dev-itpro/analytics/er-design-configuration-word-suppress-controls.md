@@ -1,24 +1,26 @@
 ---
 title: Oluşturulan raporlarda Word içerik denetimlerini gizleme
 description: Bu makalede, içerik denetimlerinin gizlendiği Microsoft Word dosyaları olarak raporlar oluşturmak üzere elektronik raporlama (ER) biçiminin nasıl yapılandırılacağı açıklanmaktadır.
-author: NickSelin
+author: kfend
 ms.date: 02/11/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: e11b697b78c89a1758fa9e81c901bd29fe281539
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form:
+- ERWorkspace, ERSolutionTable, EROperationDesigner
+- LedgerJournalTable, LedgerJournalTransVendPaym
+ms.openlocfilehash: 8787d43a0c453d49dd1d0efcbb7b5d276721be9e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882127"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267329"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Oluşturulan raporlarda Word içerik denetimlerini gizleme
 
@@ -42,7 +44,7 @@ Bu adımları tamamlamak için önce şu görev kılavuzlarındaki adımları ta
 Bu görev kılavuzlarının adımlarını tamamladığınızda, aşağıdaki öğeler hazırlanır:
 
 - Word biçiminde belge oluşturmak üzere yapılandırılan **örnek çalışma sayfası raporu** ER biçimi
-- **Çalıştırılabilir** olarak işaretlenmiş **örnek çalışma sayfası raporu** ER biçiminin bir [taslak](general-electronic-reporting.md#component-versioning) versiyonu
+- **Çalıştırılabilir** olarak işaretlenmiş **Örnek çalışma sayfası raporu** ER biçiminin bir taslak versiyonu
 - Satıcı ödeme işlemleri için **örnek çalışma sayfası raporu** ER biçimini kullanmak üzere yapılandırılan bir **elektronik** ödeme yöntemi
 
 Ayrıca örnek rapor için aşağıdaki şablonu indirmeli ve kaydetmelisiniz:

@@ -1,26 +1,26 @@
 ---
 title: Azure portalda Azure depolama hesabı oluşturma
 description: Bu makalede, Elektronik faturalama için bir Azure depolama hesabı oluşturma yöntemi açıklanmaktadır.
-author: dkalyuzh
+author: gionoder
 ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4380261140086bcb278162f8dc70b39eaa7078fe
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 5eca23985c48f4e577bd4567cc2e324df5aa9690
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898032"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291651"
 ---
 # <a name="create-an-azure-storage-account-in-the-azure-portal"></a>Azure portalda Azure depolama hesabı oluşturma
 

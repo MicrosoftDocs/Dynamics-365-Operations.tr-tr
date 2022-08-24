@@ -1,25 +1,25 @@
 ---
 title: POS izin grupları oluşturma
 description: Bu makale POS izin grubunun nasıl oluşturulacağını açıklar.
-author: scott-tucker
+author: josaw1
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailPosPermissionGroup, HcmJob
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: Retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 009f311dd00f48edb8c0f6622f0a5107881ab2ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: Retail
+ms.search.form: RetailPosPermissionGroup, HcmJob
+ms.openlocfilehash: 0aa394e5dc6685954c31cdddae7cdc042b80af29
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905436"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277973"
 ---
 # <a name="create-pos-permission-groups"></a>POS izin grupları oluşturma
 

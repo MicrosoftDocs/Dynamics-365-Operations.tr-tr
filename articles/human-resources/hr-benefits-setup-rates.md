@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 039b4aa3f044cda29944bcd4f5c42fc35818c58b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aae3d53c1005f096551b107c46ddafb37357f03c
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868173"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219853"
 ---
 # <a name="configure-rates"></a>Oranları yapılandırma
 
@@ -84,7 +84,7 @@ Oran çeşitli etkenlere bağlı olarak farklılık gösterdiği takdirde, katma
    | **Açıklama** | **Açıklama** alanının değeri Kur ayarlama kaydındaki tanımlamadan uygulanacak. Bu, katman fiyatlarının hangi fiyat kurulumunda bağlantılı olduğunu belirlemenize yardımcı olur. |
    | **Katman kodu** | Katman kodu seçin. Katman kodları, **Katman kodları** sayfasında tanımlanmıştır. Sistem, kılavuzdaki katman kodunun açıklamasını otomatik olarak görüntüleyecektir. |
    | **Katman türü** | Katman oranı hesaplama işlemi için seçim ölçütü olarak kullanılacak alanı belirtir. Örneğin:</br></br><ul><li>**Yaş** kullanılırsa, sistem çalışanın ilk tarihini yan hak oranı hesaplama sürecinde kullanır.</li><li>**Maaş** kullanılırsa, sistem çalışanın yıllık yan hak maaşı kazanç oranı hesaplama sürecinde kullanır.</li><li>**İş türü** kullanılıyorsa pozisyonla bağlantılı iş kaydına göre iş türünü belirlemek için çalışanın geçerli etkin pozisyon kaydı kullanılır.</li></ul></br></br>Katman türleri **yaş**, **maaş**, **fiziksel**, **cinsiyet**, **tam zaman eşdeğeri**, **iş türü**, **ücret bölgesi** ve **düzeydir**. | 
-   | **Raf** | Kazanç oranı hesaplama işlemi sırasında katman türüyle kullanılacak değer. Örneğin:</br></br><ul><li>Katman türü **yaş** ise, bu yaş değeri olacaktır.</li><li>Katman türü **Maaş** ise, bu maaş tutarı olacaktır.</li><li> Katman türü **İş türü** ise, bu iş türü olacaktır.</li></ul></br></br>**Yaş** veya **maaş** katman türü ile , **düzey** alanındaki değer katmanın üst sınırını temsil eder. **İş türü** katman türünde, katman hızı seçimi sırasında tam eşleşme yaklaşımı kullanılır. |
+   | **Raf** | Kazanç oranı hesaplama işlemi sırasında katman türüyle kullanılacak değer. Örneğin:</br></br><ul><li>Katman türü **yaş** ise, bu yaş değeri olacaktır.</li><li>Katman türü **Maaş** ise, bu maaş tutarı olacaktır.</li><li> Katman türü **İş türü** ise, bu iş türü olacaktır.</li></ul></br></br>**Yaş** veya **Maaş** katman türünde, **Düzey** alanındaki değer katmanın alt sınırını temsil eder. **İş türü** katman türünde, katman hızı seçimi sırasında tam eşleşme yaklaşımı kullanılır. |
    | **Hesaplama türü** | Hesaplama Tutarı alanında tutarın nasıl kullanılacağını ve gerektiğinde hangi matematik hesaplamasının gerçekleştirileceğini belirtir. Hesaplama türü sabit bir tutarsa tutar alanları olduğu gibi kullanılır. Hesaplama türü maaş veya kapsamın dolar tutarı başınaysa kendi matematik hesaplamasında hesaplama tutarı ve hesaplama yönü kullanılır.</br></br>Hesaplama türü, maaşın dolar tutarı başınaysa aşağıdaki matematik denklemi kullanılır:</br></br>Hesaplama tutarıyla (yukarı veya aşağı yuvarlanmış) bölünen yıllık kazanç maaşı sigara içen veya içmeye bir çalışan ya da işveren için tutarla çarpılır.</br></br>Hesaplama türü kapsamı, dolar tutarı başınaysa aşağıdaki matematik denklemi kullanılır:</br></br>Hesaplama tutarıyla (yukarı veya aşağı yuvarlanmış) bölünen kapsam miktarı sigara içen veya içmeye bir çalışan ya da işveren için tutarla çarpılır.</br></br>Her iki hesaplamada de, yıllık kazanç maaş veta Kapsam tutarının hesaplama tutarı yukarı veya aşağı bölünmesiyle ayrılmayacağını belirlemek için hesaplama yönü kullanılır. |
    | **Hesaplama tutarı** | Kazanç oranı hesaplamasında kullanılacak tutar. Bu tutar, katman oranının matematik hesaplaması sırasında bölendir olur. |
    | **Hesaplama yönü** | Hesaplanan sonuç tutarının yuvarlanması gereken yönü gösteren yön. Sistem üç hesaplama yönü destekliyor: boş (tam Yöntem), **artış** ve **azalma**.</br></br><ul><li>Boş bırakılırsa, sistem maaş/kapsam tutarının hesaplama tutarına bölünmesiyle elde edilen tam hesaplamayı kullanır. Bu değerin bir kesri varsa kendi hesaplamasında bu kullanır.</li><li>**Artış** ise matematiksel hesaplama, maaş/kapsam tutarının hesaplama tutarına bölünmesinden sonraki tamsayıya artırır. Yani, 12,25'in 13 olarak artacağı anlamına gelir.</li><li>**Azalt** ise matematiksel hesaplama, maaş/kapsam tutarının hesaplama tutarına bölünmesinden sonraki geçerli tamsayıya azaltır. Yani, 12,25'in 12 olarak azaltılacağı anlamına gelir.</li></ul> |

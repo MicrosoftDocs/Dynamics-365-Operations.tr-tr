@@ -1,24 +1,24 @@
 ---
 title: Maliyet dağıtım ilkesi oluşturma ve bir maliyet kontrol birimine atama
 description: Maliyet dağıtım kuralları, bir maliyet merkezinde mali olarak sayılmış maliyetleri dağıtmak için kullanılır.
-author: ShylaThompson
+author: kfend
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CAMCostDistributionRule
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e581ca4d5c06e015ef815c78f49f8c731e43c160
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.search.form: CAMCostDistributionRule
+ms.openlocfilehash: 23adea279cad3fcf69cc6926d6f8dee485150221
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565804"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272413"
 ---
 # <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a>Maliyet dağıtım ilkesi oluşturma ve bir maliyet kontrol birimine atama
 

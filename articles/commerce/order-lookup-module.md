@@ -1,25 +1,25 @@
 ---
 title: Sipariş arama modülü
 description: Bu makalede, sipariş arama modülü kapsanmaktadır ve bunun Microsoft Dynamics 365 Commerce'te nasıl yapılandırılacağı açıklanmaktadır.
-author: stuharg
+author: bicyclingfool
 ms.date: 09/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: c83463d9a0ece9605b0d22bee2a1c76057c8ed05
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 8c60ed0c334bf09916dd633302c6d813ea6f16b6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869442"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281467"
 ---
 # <a name="order-lookup-module"></a>Sipariş arama modülü
 

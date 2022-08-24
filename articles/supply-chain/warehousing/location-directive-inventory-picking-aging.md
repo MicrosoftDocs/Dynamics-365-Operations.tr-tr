@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8b75907d01a029da1ed6a8224f8a7c0ca0230550
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: fc4348f8207f4f6c8a0b694bc3e57beb29449a15
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068685"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219487"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Yerleşim yönergesi stoktan çekme yaşlandırma
 
@@ -34,8 +34,8 @@ Stok ambara ilk alındığında veya oluşturulduğunda, sistem ilgili plakayı 
 
 Bu özelliği kullanılabilir hale getirmek için, [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri bu sırayla etkinleştirin:
 
-1. Ambar yerleşimi durumu
-1. Yerleşim yönergesi stoktan çekme yaşlandırma
+1. *Ambar yerleşimi durumu* (Sürüm 10.0.29 itibariyle bu özellik varsayılan olarak açıktır. Daha fazla bilgi için bkz. [Ambar yerleşimi durumu](warehouse-location-status.md)).
+1. *Yerleşim yönergesi stoktan çekme yaşlandırma*
 
 ## <a name="feature-requirements"></a>Özellik gereksinimleri
 
@@ -50,7 +50,7 @@ Bu bölüm, FIFO ve LIFO stratejilerinin nasıl ayarlanacağını ve kullanılac
 
 ### <a name="make-sample-data-available"></a>Örnek verilerini kullanılabilir hale getirme
 
-Burada belirtilen örnek kayıtları ve değerleri kullanarak bu senaryolar üzerinden çalışmak için, standart [tanıtım verilerinin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) yüklenmiş olduğu bir sistemde olmanız gerekir. Ek olarak, başlamadan önce **USMF** tüzel kişiliğini seçmeniz gerekir.
+Burada belirtilen örnek kayıtları ve değerleri kullanarak bu senaryolar üzerinden çalışmak için, standart [tanıtım verilerinin](../../fin-ops-core/fin-ops/get-started/demo-data.md) yüklenmiş olduğu bir sistemde olmanız gerekir. Ek olarak, başlamadan önce **USMF** tüzel kişiliğini seçmeniz gerekir.
 
 Bu senaryoları, özelliği üretim sisteminde kullanmaya yönelik bir kılavuz olarak da kullanabilirsiniz. Ancak, bu durumda, burada açıklanan her ayar için kendi değerlerinizi kullanmanız gerekir.
 

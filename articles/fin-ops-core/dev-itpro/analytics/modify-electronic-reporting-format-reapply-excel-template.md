@@ -1,26 +1,26 @@
 ---
 title: Excel şablonlarını yeniden uygulayarak Elektronik raporlama biçimlerini değiştirme
 description: Bu makalede, değiştirilen bir Excel şablonunu yeniden uygulayarak iş belgeleri oluşturmak için kullanılan Elektronik raporlama biçimini nasıl değiştirebileceğiniz açıklanmaktadır.
-author: NickSelin
+author: kfend
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Developer, IT Pro, Application user
 ms.reviewer: kfend
-ms.custom: 27621
-ms.assetid: e3f7960d-2e01-46a7-9ac8-c355ac933cd6
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50b115448bc89bba7e9abeb8062d03d31a163b64
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 27621
+ms.assetid: e3f7960d-2e01-46a7-9ac8-c355ac933cd6
+ms.search.form: ERSolutionTable, ERVendorTable, ERWorkspace
+ms.openlocfilehash: 02423a75d96bef0452b8555f8c7a9f0aca0b6771
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906745"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283543"
 ---
 # <a name="modify-electronic-reporting-formats-by-reapplying-excel-templates"></a>Excel şablonlarını yeniden uygulayarak Elektronik raporlama biçimlerini değiştirme
 

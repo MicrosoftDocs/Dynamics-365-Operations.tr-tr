@@ -1,7 +1,7 @@
 ---
 title: Elektronik mesajlaşma
 description: Bu makalede, Microsoft Dynamics 365 Finance'te elektronik mesajlaşma ile ilgili kurulum bilgileri ve sürece genel bir bakış sağlanmaktadır.
-author: liza-golub
+author: AdamTrukawka
 ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: elgolu
+ms.author: atrukawk
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4e765c6d56e0ab6d209c27a70fd4b7e52273c103
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 3e2fe6a70d449adea07f5aa0db9e625f0378d8c2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069895"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283469"
 ---
 # <a name="electronic-messaging"></a>Elektronik mesajlaşma
 

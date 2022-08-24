@@ -1,25 +1,25 @@
 ---
 title: Dynamics 365 Commerce'taki etki alanları
 description: Bu makalede, etki alanlarının Microsoft Dynamics 365 Commerce uygulamasında nasıl yönetildiği açıklanmaktadır.
-author: BrShoo
+author: BrianShook
 ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: c48c8bd57d90a8c7d47bfa4263cd9ab38002629b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: ''
+ms.openlocfilehash: 9bd925b7bf27748b3c17946de72a76bc0d0200d7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848966"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288462"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Dynamics 365 Commerce'taki etki alanları
 

@@ -1,23 +1,23 @@
 ---
 title: Dynamics 365 Commerce'i düşünen teknik karar yetkilileri için öğrenme kataloğu
 description: Dynamics 365 Commerce'i düşünen BDM'ler ve TDM'ler için tüm eğitim seçeneklerini bulun.
-author: margoc
+author: josaw1
 ms.date: 07/27/2020
 ms.topic: article
-ms.author: margoc
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: josaw
 ms.search.region: Global
+ms.author: josaw
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: cca34e28ebee1863cbc97b0ed518f84b900a4019
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: e10d4708415c7f2035154205fdd7095cb9df1b5e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070774"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284287"
 ---
 # <a name="learning-catalog-for-business-and-technical-decision-makers-considering-dynamics-365-commerce"></a>Dynamics 365 Commerce'i düşünen teknik karar yetkilileri için öğrenme kataloğu
 

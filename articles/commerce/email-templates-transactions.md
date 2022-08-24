@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: cc3ad01c60324d751ee52d83d93fe59593775a00
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910562"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279581"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Hareket olayları için e-posta şablonları oluşturma
 
@@ -117,7 +117,29 @@ Hediye kartları hakkında daha fazla bilgi için bkz. [E-ticaret dijital hediye
 
 ### <a name="customer-created"></a>Müşteri oluşturuldu
 
-*Müşteri oluşturuldu* bildirim türü, Commerce Headquarters'ta yeni bir müşteri varlığı oluşturulduğunda tetiklenir.
+*Müşteri oluşturuldu* bildirim türü, Commerce Headquarters'ta yeni bir müşteri varlığı oluşturulduğunda tetiklenir. 
+
+Müşteri tarafından oluşturulan bildirimleri etkinleştirmek için Commerce headquarters'da **Retail ve Commerce \> Headquarters kurulumu \> Parametreler \> Commerce parametreleri \> Genel**'e gidin. **E-posta bildirimi profili** açılan listesinde, müşteri tarafından oluşturulan bildirim türünü içeren e-posta bildirim profilini seçin. 
+
+Varsayılan olarak, müşteri tarafından oluşturulan olaylar, **Müşterileri ve kanal isteklerini eşitle** toplu işi ile Headquarters'a yüklenir. Bu olayları göndermek için gerçek zamanlı servis çağrısı kullanmak istiyorsanız, müşteri tarafından oluşturulan şablon e-posta kodunu **newCust** olarak ayarlayın. Ancak, gerçek zamanlı servis çağrıları "başlat ve unut" çağrıları olduğundan ve toplu işlerin sağladığı geri dönüş veya yeniden deneme mantığına sahip olmadığından bu önerilmez.
+
+> [!NOTE] 
+> Müşteri tarafından oluşturulan bildirimleri etkinleştirdiğinizde, tüzel kişilik içindeki tüm kanallarda oluşturulan müşteriler müşteri tarafından oluşturulan bir e-posta alır. Şu anda, müşteri tarafından oluşturulan bildirimler tek bir kanalla sınırlanamamaktadır.  
+
+Toplu iş aracılığıyla çağrıldığında, müşteri tarafından oluşturulan bildirim türü aşağıdaki yer tutucuyu destekler.
+
+| Yer tutucu adı | Açıklama                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| customername     | Hesabı oluşturan müşterinin adı ve soyadı. |
+
+Gerçek zamanlı servis çağrısı aracılığıyla çağrıldığında, müşteri tarafından oluşturulan bildirim türü aşağıdaki yer tutucuları destekler.
+
+| Yer tutucu adı | Açıklama                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| Adı             | Hesabı oluşturan müşterinin adı ve soyadı. |
+| E-posta            | Hesabı oluşturan müşterinin e-posta adresi.    |
+| Telefon            | Hesabı oluşturan müşterinin telefon numarası.      |
+| URL              | Hesabı oluştururken müşteri tarafından sağlanan URL. |
 
 ### <a name="b2b-prospect-approved"></a>B2B aday müşterisi onaylandı
 

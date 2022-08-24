@@ -1,26 +1,26 @@
 ---
 title: VERİ TOPLAMA veri kaynaklarını Elektronik raporlama biçimlerinde kullanma
 description: Bu makalede, VERİ TOPLAMA veri kaynaklarının Elektronik raporlama (ER) biçimlerinde nasıl kullanılacağı açıklanmaktadır.
-author: NickSelin
+author: kfend
 ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 7591bed5d01ce2c2f434f0e7c81e441eda98483e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: ''
+ms.search.form: EROperationDesigner
+ms.openlocfilehash: 221cefc1880cdd88a952140424daf24975a575aa
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883860"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286194"
 ---
 # <a name="use-data-collection-data-sources-in-electronic-reporting-formats"></a>VERİ TOPLAMA veri kaynaklarını Elektronik raporlama biçimlerinde kullanma
 

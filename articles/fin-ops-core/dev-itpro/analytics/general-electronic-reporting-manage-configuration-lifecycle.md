@@ -1,32 +1,32 @@
 ---
 title: Elektronik raporlama (ER) yapılandırması yaşam döngüsünü yönetme
 description: Bu makalede, Dynamics 365 Finance çözümü için Elektronik raporlama (ER) yapılandırmalarının yaşam döngüsünün nasıl yönetileceği açıklanmaktadır.
-author: NickSelin
+author: kfend
 ms.date: 07/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58801
-ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6a64908a167c09089a95f1d3faa825dcc63f064
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 58801
+ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
+ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
+ms.openlocfilehash: fe23d4cb2b293af466df2236b153974f95f636f8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109097"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271598"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektronik raporlama (ER) yapılandırması yaşam döngüsünü yönetme
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede, Dynamics 365 Finance çözümü için Elektronik raporlama (ER) yapılandırmalarının yaşam döngüsünün nasıl yönetileceği açıklanmaktadır.
+Bu makalede, Dynamics 365 Finance çözümü için [Elektronik raporlama](general-electronic-reporting.md) (ER) [yapılandırmalarının](general-electronic-reporting.md#Configuration) yaşam döngüsünün nasıl yönetileceği açıklanmaktadır.
 
 ## <a name="overview"></a>Genel Bakış
 
@@ -105,6 +105,41 @@ Bazı durumlarda, ER yapılandırmalarının yeni sürümlerini içeri aktardı�
 
     > [!NOTE]
     > Bu parametre kullanıcıya özel ve şirkete özeldir.
+
+## <a name="dependencies-on-other-components"></a>Diğer bileşenlerde bağımlılıklar
+
+ER yapılandırmaları diğer yapılandırmalara [bağımlı](er-download-configurations-global-repo.md#import-filtered-configurations) olarak yapılandırılabilir. Örneğin, bir ER [veri modeli](er-overview-components.md#data-model-component) yapılandırmasını Genel depodan [Microsoft Regulatory Configuration Services'inize (RCS)](../../../finance/localizations/rcs-overview.md) veya Dynamics 365 Finance örneğinize [aktarabilir](er-download-configurations-global-repo.md) ve sonra, içe aktarılan ER veri modeli yapılandırmasından [türetilen](er-quick-start2-customize-report.md#DeriveProvidedFormat) yeni bir ER [biçimi](er-overview-components.md#format-component) yapılandırması oluşturabilirsiniz. Türetilmiş ER biçimi yapılandırması, temel ER veri modeli yapılandırmasına bağımlı olacaktır.
+
+![Yapılandırmalar sayfasındaki türetilen ER biçimi yapılandırması.](./media/ger-configuration-lifecycle-img1.png)
+
+Biçimi tasarlamayı bitirdiğinizde, ER biçim yapılandırmasının başlangıç [sürümünün](general-electronic-reporting.md#component-versioning) durumunu **Taslak** iken **Tamamlandı** olarak değiştirebilirsiniz. Böylece, ER biçim yapılandırmasının tamamlanmış sürümünü Genel depoda [yayımlayarak](../../../finance/localizations/rcs-global-repo-upload.md) paylaşabilirsiniz. Daha sonra, Genel depoya herhangi bir RCS veya Finance bulut örneğinden erişebilirsiniz. Böylece, uygulamada geçerli olan tüm ER yapılandırma sürümlerini Genel depodan bu uygulamaya alabilirsiniz.
+
+![Yapılandırma deposu sayfasındaki yayımlanan ER biçimi yapılandırması.](./media/ger-configuration-lifecycle-img2.png)
+
+Yapılandırma bağımlılığına dayalı olarak, Genel depodaki bir ER biçim yapılandırmasını yeni dağıtılmış bir RCS veya Finance örneğine içe aktarmak üzere seçtiğinizde, temel ER veri modeli yapılandırması Genel depoda otomatik olarak bulunur ve temel yapılandırma olarak seçilen ER biçimi yapılandırması ile birlikte içe aktarılır.
+
+Ayrıca, ER biçimi yapılandırma sürümünüzü geçerli RCS veya Finance örneğinizden dışa aktarabilir ve bunu yerel olarak XML dosyası halinde saklayabilirsiniz.
+
+![Yapılandırma sayfasında bir ER biçimi yapılandırma sürümünü XML olarak dışa aktarma.](./media/ger-configuration-lifecycle-img3.png)
+
+**Sürüm 10.0.29'dan önceki** Finance sürümlerinde, ER biçimi yapılandırma sürümünü ilgili XML dosyasından veya Genel depo dışındaki başka herhangi bir depodan, henüz bir ER yapılandırması içermeyen yeni dağıtılmış bir RCS veya Finance örneğine aktarmaya çalıştığınızda, bir temel yapılandırmanın elde edilemeyeceğini bildirmek için aşağıdaki özel durum oluşur:
+
+> Çözülmemiş referanslar kaldı<br>
+"\<imported configuration name\>" nesnesinin "Temel" (\<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>) nesnesine referansı belirlenemiyor
+
+![Yapılandırma deposu sayfasındaki ER biçimi yapılandırma sürümünü içe aktarma.](./media/ger-configuration-lifecycle-img4.gif)
+
+**10.0.29 ve sonraki sürümlerde**, aynı yapılandırma içe aktarma işlemini yapmayı denediğinizde, geçerli uygulama örneğinde veya şu anda kullanmakta olduğunuz kaynak deposunda (varsa) bir temel yapılandırma bulunamıyorsa ER çerçevesi otomatik olarak Genel depo önbelleğinde eksik olan temel yapılandırmanın adını bulmaya çalışır. Daha sonra, oluşturulan özel durum metninde eksik temel yapılandırmanın adını ve genel benzersiz tanımlayıcısını (GUID) sunar.
+
+> Çözülmemiş referanslar kaldı<br>
+"\<imported configuration name\>" nesnesinin "Temel" (\<name of the missed base configuration\>\<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>) nesnesine referansı belirlenemiyor
+
+![Temel yapılandırma bulunamadığında, Yapılandırma deposu sayfasında özel durum.](./media/ger-configuration-lifecycle-img5.png)
+
+Temel yapılandırmayı bulmak ve daha sonra el ile içe aktarmak için sağlanan adı kullanabilirsiniz.
+
+> [!NOTE]
+> Bu yeni seçenek yalnızca, en az bir kullanıcı [Yapılandırma depoları](er-download-configurations-global-repo.md#open-configurations-repository) sayfasını veya geçerli Finance örneğindeki Genel depo [arama](er-extended-format-lookup.md) alanlarından birini kullanarak Genel depoda zaten oturum açmışsa ve Genel depo içeriği önbelleğe alındığında çalışır.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

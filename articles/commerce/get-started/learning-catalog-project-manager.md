@@ -1,23 +1,23 @@
 ---
 title: Dynamics 365 Commerce ile çalışan uygulama proje yöneticileri için öğrenme kataloğu
 description: Uygulama proje yöneticisi olarak Dynamics 365 Commerce ile çalışan kişilere yönelik tüm eğitim seçeneklerini bulun.
-author: margoc
-ms.topic: article
+author: josaw1
 ms.date: 07/27/2020
-ms.author: margoc
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: josaw
 ms.search.region: Global
+ms.author: josaw
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 0688282c11b1276bfeeffa778558604e6527dd8d
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: f754f889f573a77d0511646989c85c26a692e5e3
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066919"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269236"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-commerce"></a>Dynamics 365 Commerce ile çalışan uygulama proje yöneticileri için öğrenme kataloğu
 

@@ -1,26 +1,26 @@
 ---
 title: Elektronik raporlama bileşenleri
 description: Bu makalede, Elektronik raporlama (ER) bileşenleri açıklanmaktadır.
-author: nselin
+author: kfend
 ms.date: 09/28/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
-ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
-ms.topic: overview
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2b8b197fdea0cd49fc5161a12b8f547cc1a27bf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58941
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.form: ERWorkspace
+ms.openlocfilehash: 4851374ca4943a84d35f063e0ee65b537ec3b6cd
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892464"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285046"
 ---
 # <a name="electronic-reporting-components"></a>Elektronik raporlama bileşenleri
 
@@ -123,15 +123,37 @@ Sürüm Oluşturma ER bileşenleri için desteklenir. Aşağıdaki iş akışı 
 - Bileşen, XML biçiminde sıralanabilir ve XML biçiminde bir dosya olarak dışa aktarılabilir.
 - Bileşen bir XML dosyasından tekrar sıralanabilirler ve ER bileşeninin yeni bir sürümü olarak uygulamadan içe aktarılabilirler.
 
+Daha fazla bilgi için bkz. [Yeni bir veri modeli yapılandırmasını içe aktarma](er-quick-start1-new-solution.md#ImportDataModel) ve [Türetilmiş bir biçimin tamamlanmış sürümünü dışa aktarma](er-calculated-field-type.md#export-completed-version-of-a-derived-format).
+
+### <a name="draft-versions-at-runtime"></a>Çalışma zamanında taslak sürümleri
+
+ER çerçevesi için kişisel kullanıcı parametreleriniz içinde, çalışma zamanında ER yapılandırmasının taslak sürümünün kullanılması gerektiğini belirtmenize olanak tanıyan seçeneği etkinleştirebilirsiniz. Kendi ER yapılandırmalarınız için **Taslak Çalıştır** seçeneğini kullanılabilir hale getirme hakkında bilgi için bkz. [Özel bir biçimi çalıştırılabilir olarak işaretleme](er-quick-start2-customize-report.md#MarkFormatRunnable).
+
+> [!NOTE]
+> ER kullanıcı parametreleri şirkete özgü ve kullanıcıya özgüdür.
+
+### <a name="draft-format-versions-at-runtime"></a>Çalışma zamanında taslak biçimi sürümleri
+
+Varsayılan olarak, bir ER çözümü çalıştırdığınızda, denetimin biçim bileşenlerinin taslak sürümleri dikkate alınmaz. Bunun yerine, yalnızca **Taslak** dışında bir durumu olan ilgili sürüm kullanılır. Bazen, çalışma zamanında, ER'yi biçim yapılandırmanızın taslak sürümünü kullanmaya zorlamak isteyebilirsiniz. Örneğin, taslak sürümünüze gerekli değişiklikleri sunduktan sonra, test çalıştırması yapmak için söz konusu taslak sürümünü kullanabilirsiniz. Bu şekilde, değişikliklerinizin doğruluğunu teyit edebilirsiniz. Taslak biçimi sürümünü kullanmaya başlamak için ilgili ER yapılandırmasının **Taslak Çalıştır** seçeneğini **Evet** olarak [ayarlamanız](er-quick-start2-customize-report.md#MarkFormatRunnable) gerekir.
+
+### <a name="draft-model-mapping-versions-at-runtime"></a>Çalışma zamanında taslak modeli eşleme sürümleri
+
+Varsayılan olarak, bir ER çözümü çalıştırdığınızda, çözümün model eşleme bileşenlerinin taslak sürümleri her zaman kullanılır. Bazen, çalışma zamanında, ER'yi ER modeli eşleme yapılandırmanızın taslak sürümünü kullanmaya zorlamak isteyebilirsiniz. **Sürüm 10.0.29 ve sonrasında**, çalışma zamanında kullanılan model eşleme sürümünü denetlemek üzere **ER model eşlemeleri için her zaman "Taslak çalıştır" seçeneğini dikkate al** özelliğini etkinleştirebilirsiniz. Bu özellik etkinleştirildiğinde, aşağıdaki davranış ortaya çıkar:
+
+- Bir model eşleme yapılandırması için **Taslak Çalıştır** seçeneği **Hayır** olarak ayarlandığında, çalışma zamanında o yapılandırmanın taslak olmayan en yüksek sürümü kullanılır. Yapılandırma geçerli Finance örneğinde yoksa, özel durum oluşur.
+- Bir model eşleme yapılandırması için **Taslak Çalıştır** seçeneği **Evet** olarak ayarlandığında, çalışma zamanında o yapılandırmanın taslak sürümü kullanılır.
+
 ## <a name="component-date-effectivity"></a>Bileşen tarihi geçerlilik
 
-ER bileşen sürümleri tarih etkilidir. ER bileşeninin raporlama süreçleri için etkin hale geldiği tarihi belirtmek üzere "geçerlilik başlangıç tarihini" ayarlayabilirsiniz. Uygulama oturum tarihi bir bileşenin yürütme için geçerli olup olmadığını tanımlamak için kullanılır. Belirli bir tarih için birden fazla sürüm geçerliyse raporlama işlemleri için en son sürüm kullanılır.
+ER biçimi bileşen sürümlerinin geçerlilik tarihi vardır. ER biçim bileşeninin raporlama süreçleri için etkin hale geldiği tarihi belirtmek üzere "geçerlilik başlangıç tarihini" ayarlayabilirsiniz. Uygulama oturum tarihi bir bileşenin yürütme için geçerli olup olmadığını tanımlamak için kullanılır. Belirli bir tarih için birden fazla sürüm geçerliyse raporlama işlemleri için en son sürüm kullanılır.
 
 ## <a name="component-access"></a>Bileşen erişim
 
-ER biçimi bileşenlerine erişim Uluslararası Standartlar Teşkilatı (ISO) ülke/bölge kodu ayarına bağlıdır. Bu ayar bir biçim yapılandırmasının seçili sürümü için boşsa çalışma zamanında herhangi bir şirketten biçim bileşenine erişilebilir. Ayar ISO ülke/bölge kodlarını içeriyorsa biçim bileşeni yalnızca biçim bileşeninin ISO ülke/bölge kodlarından biri için tanımlanmış birincil adresi olan şirketlerde kullanılabilir.
+ER biçimi ve model eşleme bileşenlerine çalışma zamanında erişim Uluslararası Standartlar Teşkilatı (ISO) ülke/bölge kodu ayarına bağlıdır. Bu ayar bir biçim veya model eşleme yapılandırmasının seçili sürümü için boşsa çalışma zamanında herhangi bir şirketten biçim veya model eşleme bileşenine erişilebilir. Ayar ISO ülke/bölge kodlarını içeriyorsa biçim veya model eşleme bileşeni yalnızca biçim bileşeninin ISO ülke/bölge kodlarından biri için tanımlanmış birincil adresi olan şirketlerde kullanılabilir.
 
-Bir veri biçimi bileşeninin farklı sürümleri ISO ülke/bölge kodları için farklı ayarlara sahip olabilir.
+Bir biçim veya model eşleme bileşeninin farklı sürümleri ISO ülke/bölge kodları için farklı ayarlara sahip olabilir.
+
+Daha fazla bilgi için bkz. [Ülke bağlamına bağımlı ER model eşlemelerini yapılandırma](er-country-dependent-model-mapping.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

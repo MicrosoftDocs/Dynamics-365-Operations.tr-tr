@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 85e40a0768174dcdc5d0fa2647b24cddccf01bdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ebea86e5ea63ab4f5a844cd3d0936c0d65bbe2b
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905500"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220257"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Paketleme ve depolama için farklı boyutlar ayarlama
 
@@ -50,7 +50,7 @@ Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yön
 
 #### <a name="enable-demo-data"></a>Tanıtım verilerini etkinleştirme
 
-Burada belirtilen tanıtım kayıtlarını ve değerlerini kullanarak bu senaryo üzerinde çalışmak için standart [tanıtım verilerinin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) yüklenmiş olduğu bir sistemde olmanız gerekir. Ek olarak, başlamadan önce *USMF* tüzel kişiliğini seçmeniz gerekir.
+Burada belirtilen tanıtım kayıtlarını ve değerlerini kullanarak bu senaryo üzerinde çalışmak için standart [tanıtım verilerinin](../../fin-ops-core/fin-ops/get-started/demo-data.md) yüklenmiş olduğu bir sistemde olmanız gerekir. Ek olarak, başlamadan önce *USMF* tüzel kişiliğini seçmeniz gerekir.
 
 #### <a name="add-a-new-physical-dimension-to-a-product"></a>Ürüne yeni fiziksel boyut ekleme
 

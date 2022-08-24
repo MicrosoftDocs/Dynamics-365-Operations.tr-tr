@@ -2,7 +2,7 @@
 title: Dynamics 365 Supply Chain Management'tan kaldırılan veya kullanım dışı bırakılan özellikler
 description: Bu makale Dynamics 365 Supply Chain Management'taki kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: kamaybac
-ms.date: 04/27/2021
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
-ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
+ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "9171530"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218821"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management'tan kaldırılan veya kullanım dışı bırakılan özellikler
 
@@ -33,6 +33,17 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 > [!NOTE]
 > Finans ve operasyon uygulamalarındaki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](/dynamics/s-e/) altından ulaşabilirsiniz. Finans ve operasyon uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
 
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10029-release"></a>Supply Chain Management 10.0.29 sürümünden kaldırılan veya kullanım dışı bırakılan özellikler
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>Transfer fiyatı vergi içeren stok transfer emirleri
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Kullanımı sonlandırma/kaldırma nedeni** | [Transfer fiyatı vergi içeren stok transfer emirleri](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) işlevi [Hindistan için stok transfer emirleri](../../finance/localizations/apac-ind-stock-transfer.md) işleviyle değiştiriliyor. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet, [Transfer fiyatı vergi içeren stok transfer emirleri](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) işlevi [Hindistan için stok transfer emirleri](../../finance/localizations/apac-ind-stock-transfer.md) işleviyle değiştiriliyor. |
+| **Etkilenen ürün alanları** | Supply Chain Management - stok |
+| **Dağıtım seçeneği** | Bulut ve Şirket içi |
+| **Çalıştırma Durumu** | <p>Kullanım dışı bırakılıyor. *Transfer fiyatı vergi içeren stok transfer emirleri* işlevi artık hata düzeltmeleri ve güvenlik düzeltmeleriyle ilgili destek almayacaktır.</p><p>Nisan 2023 tarihinden sonra müşterilerin varsayılan olarak *Hindistan için stok transfer emirleri* iyileştirilmiş işlevini kullanmaları istenecektir. 2023 Ekim tarihinden sonra, *Transfer fiyatı vergi içeren stok transfer emirleri* işlevi artık kullanılamayacak ve müşterilerin *Hindistan için stok transfer emirleri* geliştirilmiş işlevine geçiş yapması istenecektir.</p><p>Daha fazla bilgi için bkz. [Hindistan için stok transfer emirleri](../../finance/localizations/apac-ind-stock-transfer.md).</p> |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Supply Chain Management 10.0.19 sürümünden kaldırılan veya kullanım dışı bırakılan özellikler
 

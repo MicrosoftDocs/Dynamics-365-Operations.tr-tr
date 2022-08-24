@@ -2,7 +2,7 @@
 title: Dynamics 365 Finance'te kaldırılan veya kullanım dışı bırakılan özellikler
 description: Bu makale, Dynamics 365 Finance'ten kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: kfend
-ms.date: 03/21/2022
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ee084e84c052366bdf34fe1a1e697a32e456914b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 4f2a1984d39713daa84f15422d7e0680b7f6c601
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068937"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219583"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'te kaldırılan veya kullanım dışı bırakılan özellikler
 
@@ -32,6 +32,20 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 > [!NOTE]
 > Finans ve operasyon uygulamalarındaki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](/dynamics/s-e/global/axtechrefrep_61) altından ulaşabilirsiniz. Finans ve operasyon uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Finance 10.0.29 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>Transfer fiyatı vergi içeren stok transfer emirleri
+
+[Transfer fiyatı vergi içeren stok transfer emirleri](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Kullanımı sonlandırma/kaldırma nedeni** | İyileştirilmiş işlevsellik olan [Hindistan için stok transfer emirleri](../../finance/localizations/apac-ind-stock-transfer.md) ile değiştirildi|
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları** | Uygulama |
+| **Dağıtım seçeneği** | Tümü |
+| **Çalıştırma Durumu** | Kullanım dışı bırakıldı: 2023 Nisan tarihinden sonra, **Transfer fiyatı vergi içeren stok transfer emirleri** işlevi artık hata düzeltmeleri ve güvenlik düzeltmeleriyle ilgili destek almayacaktır. Müşterilerin [Hindistan için stok transfer emirleri](../../finance/localizations/apac-ind-stock-transfer.md) iyileştirilmiş işlevini kullanmaları istenecektir. 2023 Ekim tarihinden sonra, **Transfer fiyatı vergi içeren stok transfer emirleri** işlevi artık kullanılamayacak ve müşterilerin geliştirilmiş işleve geçiş yapması istenecektir. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Finance 10.0.26 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 

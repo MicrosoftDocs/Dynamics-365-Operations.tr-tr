@@ -1,26 +1,26 @@
 ---
 title: Videoları karşıya yükleme
 description: Bu makalede, Microsoft Dynamics 365 Commerce site oluşturucuda videoları karşıya yükleme yöntemi açıklanmaktadır.
-author: psimolin
+author: josaw1
 ms.date: 06/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a48c6cbdd5898a2156f60dada40e94cd402df9c5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.openlocfilehash: 3f6c426984c84e657e99b12e9522080c3042db4a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890553"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278556"
 ---
 # <a name="upload-videos"></a>Videoları karşıya yükleme
 

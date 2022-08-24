@@ -2,7 +2,7 @@
 title: Alım satım varlıkların sıralama düzenini değiştirme
 description: Bu makale, alım satım ilgili çeşitli kuruluşlar için Dynamics 365 Commerce'deki görüntüleme sırasını denetlemeyle ilgili kavramları açıklamaktadır.
 author: josaw1
-ms.date: 08/05/2019
+ms.date: 08/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,27 +15,27 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4e7a7bd42b0ef72ae6bc3f52a8857602b6282907
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 80586597f4f60476b341e4cf1cfd90f3681e15c0
+ms.sourcegitcommit: 52e31b1ef2b3ed8675de931d06090cd57e057fc2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847666"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9265849"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Alım satım varlıkların sıralama düzenini değiştirme
 
 
 [!Include [banner](includes/banner.md)]
 
-Perakendeciler, tüm kanallarda müşteri etkileşimi için ürün keşfini bir ana araç olarak kabul edin. Çeşitli işlevler müşterilerin ürünleri kolayca bulmasına yardımcı olabilir. Örneğin kategorilerine, aramaya ve filtreye göz atabilirler.
+Perakendeciler, tüm kanallarda müşteri etkileşimi için ürün keşfini bir ana araç olarak kabul edin. Müşterilerin ürünleri kolayca bulmasına yardımcı olabilecek çeşitli özellikler vardır. Örneğin müşteriler, kategorilere göz atabilir, arayabilir ve filtreleyebilir.
 
 Bu makale, alım satım ilgili çeşitli kuruluşlar için görüntüleme sırasını denetlemeyle ilgili kavramları açıklamaktadır. Sıralama düzenini nasıl değiştireceğinizi de açıklar.
 
-## <a name="overview"></a>Genel bakış
+## <a name="overview"></a>Genel Bakış
 
-Çeşitli alım satım ilişkili varlıkları sıralama desteği geliştirilmiştir. Bu destek şimdi, daha önce uygulama ortaklarından eklenti gerektiren mevcut müşteri senaryoları ile daha uyumludur.
+Commerce'te, alım satımla ilgili çeşitli varlıkları sıralama işlemi, varolan müşteri senaryolarıyla uyumlu hale getirilmiştir ve artık uygulama ortaklarından gelen uzantıları gerektirmez.
 
-Sürüm 10.0.5'ten önceki Retail sürümlerinde, gezinti hiyerarşisindeki kategorilerin sıralama düzeni alfabetik idi. Yeni özel sıralama düzeni işlevi alım ve satım yöneticilerinin tüm Son Kullanıcı istemcileri üzerinde Merchandising ile ilgili çeşitli varlıklar için sıralama düzenini konfigüre etmenize olanak tanır. Bu istemciler Yönetim Merkezleri (HQ) ve çağrı merkezleri içerirler.
+10.0.5 ve önceki Commerce sürümlerinde, gezinti hiyerarşisindeki kategorilerin sıralama düzeni alfabetik idi. Mevcut özel sıralama düzeni işlevi, alım satım yöneticilerinin tüm son kullanıcı istemcileri genelinde alım satım ile ilgili çeşitli varlıklar için sıralama düzenini yapılandırmasına olanak tanır. Bu istemciler Yönetim Merkezleri (HQ) ve çağrı merkezleri içerirler.
 
 ## <a name="configure-the-display-order-for-categories-in-the-product-hierarchy"></a>Ürün hiyerarşisindeki kategorilerin görüntülenme sırasını yapılandırma
 
@@ -63,11 +63,11 @@ Bu yordamı tamamlayabilmek için, demo verilerinin çalışma ortamınıza yük
 2. Listesinde, **Moda göre gezinti** hiyerarşisini seçin.
 3. **Kategori hiyerarşisi düzenle**'ye tıklayın.
 4. **Düzenle**'yi tıklatın.
-5. Ağaçta **Moda \> Womenswear \> Kadın Ayakkabısı**'nı seçin.
+5. Ağaçta **Moda \> Kadın Giyim \> Kadın Ayakkabıları**'nı seçin.
 6. **Görüntüleme sırası** alanına bir sayı girin.
 7. Ağaçta **Moda \> Womenswear \> Üstler**'i seçin.
 
-    Benzer şekilde, alt kategorilerin sıralama düzenini de tanımlayabilirsiniz.
+Benzer şekilde, alt kategorilerin sıralama düzenini de tanımlayabilirsiniz.
 
 8. Ağaçta **Moda \> Menswear \> Günlük Gömlekler**'i seçin.
 9. **Görüntüleme sırası** alanına bir sayı girin.
@@ -84,7 +84,7 @@ Kanal gezinme hiyerarşisinin görüntüleme sırası HQ, Katalog ve kanallarda 
 ![Özel sıralı kategorileri olan POS.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> Varsayılan olarak, özel sıralama düzeni özelliği kapalıdır. Bu özelliği ve diğer özellikleri nasıl açacağınızı öğrenmek için [Özellik Yönetimi](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview)'ne bakın.
-
+> Varsayılan olarak, **Alım satım varlıkları için görüntüleme düzenini etkinleştir** özelliği kapalıdır. Etkinleştirmek için [özellik yönetimini](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanın. Özelliği etkinleştirdikten sonra, dağıtım zamanlamasından **Genel yapılandırma -1110** CDX işini çalıştırın.
+> POS'taki kategori sıranız güncelleştirilmemişse, aygıtı yeniden etkinleştirin. Kategori bilgileri, aygıt etkinleştirme işlemi gerçekleştiğinde getiriliyorsa aygıtın, kategori bilgilerini güncelleştirilmiş görüntüleme sıralarıyla yeniden alması gerekebilir. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,27 +1,27 @@
 ---
 title: POS'ta gelen stok işlemi
 description: Bu makale satış noktası (POS) gelen stok operasyonunun yeteneklerini açıklar.
-author: hhaines
+author: hhainesms
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fbabcaafee74b4d0a1ca8ef79de94376a7764aa3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.search.form: ''
+ms.openlocfilehash: 3099f03ba2da8a367953ad0d25ee884e41ff9deb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858894"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288365"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>POS'ta gelen stok işlemi
 
@@ -141,7 +141,7 @@ Satınalma siparişi satırı için eksik teslimat tolerans yüzdeleri, Commerce
 
 Bir kuruluş satınalma siparişinin eksik teslimatını yapılandırmayı tamamladıktan sonra, POS kullanıcıları **Giden işlem** operasyonunda seçilen giden satınalma siparişi satırını seçtiklerinde, **Ayrıntılar** bölmesinde yeni bir **Kalan miktarı kapat** seçeneği görür. Kullanıcı kalan miktarı kapatırsa POS kapatılan miktarın satınalma siparişi satırında tanımlanan eksik teslimat yüzdesi toleransı dahilinde olduğunu bir doğrulama işlemiyle doğrular. Eksik teslimat toleransı aşılırsa, bir hata iletisi görüntülenir ve teslim alınan miktar artı **Şİmdi alınıyor** miktarı, eksik teslimat tolerans yüzdesine göre alınması gereken minimum miktarı karşılayana veya geçene kadar kullanıcı kalan miktarı kapatamaz. 
 
-Bir satınalma siparişi satırı için **kalan miktarı Kapat** seçeneği açık olduğunda, Kullanıcı **Teslim almayı sonlandır** eylemini kullanarak girişi tamamladığında, Commerce Headquarters'a bir kapatma isteği gönderilir ve bu sipariş satırının alınmamış miktarı iptal edilir. Bu noktada satır tam olarak alındı olarak kabul edilir. 
+Bir satınalma siparişi satırı için **Kalan miktarı kapat** seçeneği açık olduğunda, Kullanıcı **Teslim almayı sonlandır** eylemini kullanarak girişi tamamladığında, Commerce Headquarters'a bir kapatma isteği gönderilir ve bu sipariş satırının alınmamış miktarı iptal edilir. Bu noktada satır tam olarak alındı olarak kabul edilir. 
 
 ### <a name="receiving-location-controlled-items"></a>Yerleşim denetimli maddeleri alma
 
@@ -155,15 +155,13 @@ Tüm belge satırları için **Şimdi alınıyor** miktarını bu satırlar içi
 
 ### <a name="receipt-of-unplanned-items-on-purchase-orders"></a>Satınalma siparişlerindeki plansız maddeler girişi
 
-Commerce 10.0.14 sürümü ve sonraki sürümler, kullanıcılar başlangıçta satınalma siparişinde olmayan bir ürünü alabilir. Bu işlevi etkinleştirmek için **Satış Noktasında teslim alma sırasında Satınalma Siparişine satır ekleyin** seçeneğini açın.  
-
-Bu özellik, yalnızca satınalma siparişi teslim alma için geçerlidir. Maddeler daha önce sipariş edilmemiş ve giden ambardan sevk edilmemişse transfer emirlerinden farklı maddeler teslim alınması mümkün değildir.
+Commerce 10.0.14 sürümü ve sonraki sürümler, kullanıcılar başlangıçta satınalma siparişinde olmayan bir ürünü alabilir. Bu özellik, yalnızca satınalma siparişi teslim alma için geçerlidir. Maddeler daha önce sipariş edilmemiş ve giden ambardan sevk edilmemişse transfer emirlerinden farklı maddeler teslim alınması mümkün değildir.
 
 Satınalma siparişi [değişiklik yönetimi iş akışı](../supply-chain/procurement/purchase-order-approval-confirmation.md) Commerce Headquarters'ta (HQ) etkinse kullanıcılar POS sırasında satın alma siparişine yeni ürün ekleyemez. Değişiklik yönetimini etkinleştirmek için satınalma siparişindeki tüm değişikliklerin teslim almadan önce onaylanması gerekir seçeneğine izin verilmelidir. Bu işlem bir alıcının satınalma siparişine yeni satırlar eklemesine izin verdiğinden değişiklik yönetimi iş akışı etkinleştirilmişse teslim alma işlemi başarısız olur. Tüm satınalma siparişleri veya POS'ta etkin olarak teslim alınan satın alma siparişiyle ilişkili satıcı için değişiklik yönetimi etkinse kullanıcı, POS'ta teslim alma sırasında satın alam siparişine yeni ürün ekleyemez.
 
 Satınalma siparişinde mevcut olan ürünlerin miktarını artırmaya yönelik geçici bir çözüm olarak satır eklemeye izin veren işlev kullanılamaz. Fazla alma, satınalma siparişindeki ürün satırı için standart [fazla alma](#over-receiving-validations) ayarları üzerinden yönetilir.
 
-**Satış Noktasında teslim alma sırasında Satınalma Siparişine satır ekleyin** etkinse ve kullanıcı POS'ta **Gelen işlem** ile teslim alıyorsa, kullanıcı mevcut satın alma siparişinde madde olarak tanınmasa da geçerli bir madde olarak tanınan ürün kodunu veya ürün numarasını taratıyor veya giriyorsa; kullanıcı, maddeyi satınalma siparişine ekleme hakkında bir ileti alır. Kullanıcı maddeyi satınalma siparişine eklerse **Şimdi alınıyor**'a girilen miktar satınalma siparişi satırı için sipariş edilen miktar kabul edilir.
+Bir kullanıcı, POS'ta **Gelen işlem** ile teslim alıyorsa, geçerli bir madde olarak tanınan ancak mevcut satın alma siparişinde madde olarak tanınmayan bir ürün kodunu veya ürün numarasını taratırsa veya girerse, maddeyi satınalma siparişine eklemesinin istendiği bir ileti alır. Kullanıcı maddeyi satınalma siparişine eklerse **Şimdi alınıyor**'a girilen miktar satınalma siparişi satırı için sipariş edilen miktar kabul edilir.
 
 Satınalma siparişi girişi tamamlanıp işlenmek üzere HQ'ya gönderildiğinde eklenen satırlar satınalma siparişi ana belgesinde oluşturulur. HQ'daki satınalma siparişi satırında, satınalma siparişi satırının **Genel** sekmesinde **POS tarafından eklendi** bayrağı olur. **POS tarafından eklendi** bayrağı, satınalma siparişi satırının POS alma işlemi tarafından eklendiğini ve alımdan önce satınalma siparişinde bulunmayan bir satır olduğunu gösterir.
 

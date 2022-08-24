@@ -1,7 +1,7 @@
 ---
 title: Ülkeye özel mevzuat güncelleştirmelerini arama
 description: Bu makalede, Microsoft Dynamics 365 Finance için planlanan ve yayımlanan ülkeye özel mevzuat güncelleştirmelerinin bağlantısı bulunmaktadır.
-author: AKroshkina
+author: AdamTrukawka
 ms.date: 01/20/2022
 ms.topic: article
 ms.prod: ''
@@ -11,12 +11,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kfend
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2a272c5310375007b65f54501b9770610504f72a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2542d32194b5e01a92f205167a3c1d339507fec0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896196"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287782"
 ---
 # <a name="search-for-country-specific-regulatory-updates"></a>Ülkeye özel mevzuat güncelleştirmelerini arama
 

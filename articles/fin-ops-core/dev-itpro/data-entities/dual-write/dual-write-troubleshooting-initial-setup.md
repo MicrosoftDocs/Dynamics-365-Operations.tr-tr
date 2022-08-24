@@ -5,22 +5,20 @@ author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: d33fc6f4895b53f16cc6957a3a2fc6b1abe90a2f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111215"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289529"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Başlangıç kurulumu sırasında sorunları giderme
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Bu makalede, finans ve operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında sorun giderme bilgileri sağlanmaktadır. Bu konu, çift-yazma tümleştirmesinin ilk kurulumu sırasında oluşabilecek sorunları gidermenize yardımcı olabilecek bilgileri sağlar.
 
@@ -87,6 +85,19 @@ Ortamın bulunamaması sorununa neden olabilecek iki sebep vardır:
 
 + Oturum açmak için kullanılan kullanıcı, finans ve operasyon kurulumuyla aynı kiracıda değil.
 + Microsoft tarafından barındırılan bazı eski finans ve operasyon kurulumlarının bulunmalarıyla ilgili sorunlar vardır. Bu sorunu gidermek için finans ve operasyon kurulumunu güncelleştirin. Ortam, herhangi bir güncelleştirmeyle bulunabilir hale gelir.
+
+## <a name="403-forbidden-error-while-connections-are-being-created"></a>403 (Yasak) bağlantılar oluşturulurken hata oluştu
+
+Çift-yazma bağlama işleminin bir parçası olarak, bağlantılı Dataverse ortamında kullanıcı adına iki Power Apps bağlantısı (*Apihub* bağlantıları olarak da bilinir) oluşturulur. Müşterinin Power Apps ortamı için lisansı yoksa, ApiHub bağlantıları oluşturma işlemi başarısız olur ve 403 (yasak) hatası gösterilir. Burada hata mesajının bir örneği verilmiştir:
+
+> MSG=\[Çift yazma ortamı ayarlanamadı. Hata Ayrıntıları: Yanıt durum kodu başarıyı göstermiyor: 403 (Yasak). - Yanıt durum kodu başarıyı göstermiyor: 403 (Yasak).\] STACKTRACE=\[   at Microsoft.Dynamics.Integrator.ProjectManagementService.DualWrite.DualWriteConnectionSetProcessor.\<CreateDualWriteConnectionSetAsync\>d\_\_29.MoveNext() in X:\\bt\\1158727\\repo\\src\\ProjectManagementService\\DualWrite\\DualWriteConnectionSetProcessor.cs:line 297 --- End of stack trace from previous location where exception was thrown --- at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task) at Microsoft.Dynamics.Integrator.ProjectManagementService.Controllers.DualWriteEnvironmentManagementController.\<SetupDualWriteEnvironmentAsync\>d\_\_34.MoveNext() in X:\\bt\\1158727\\repo\\src\\ProjectManagementService\\Controllers\\DualWriteEnvironmentManagementController.cs:line 265\]
+
+Bu hata bir Power Apps lisansı olmaması nedeniyle oluşur. Kullanıcıya, bağlantıları oluşturma izni olacak şekilde uygun bir lisans atayın (örneğin, Power Apps Deneme 2 Planı). Müşteri, lisansı doğrulamak için, kullanıcıya o anda atanmış olan lisansları görüntülemek üzere [Hesabım](https://portal.office.com/account/?ref=MeControl#subscriptions) sitesine gidebilir.
+
+Power Apps lisansı hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
+
+- [Kullanıcılara lisans atama](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+- [Kuruluşunuz için Power Apps satın alma](/power-platform/admin/signup-for-powerapps-admin)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
 

@@ -1,24 +1,24 @@
 ---
 title: Tek bir model kökü için türetilmiş eşlemeleri yönetme
 description: Bu makalede, tek bir model kökü için yapılandırılmış birden fazla türetilmiş eşlemenin nasıl yönetileceği açıklanmaktadır.
-author: NickSelin
+author: kfend
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERSolutionTable, ERModelMappingTable
+ms.openlocfilehash: 868d47ccfebb9a9753d93344c72b10ae4353b0e6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892493"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277523"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Tek bir model kökü için türetilmiş eşlemeleri yönetme
 
@@ -106,7 +106,7 @@ Bu bölümde, Microsoft tarafından sağlanan model eşlemelerinin nasıl [özel
 3. **Yapılandırma oluştur** açılır iletişim kutusundaki **Yeni** alanında **Addan türet: Fatura modeli eşleme, Microsoft** seçeneğini belirleyin.
 4. **Ad** alanına **Fatura modeli eşleme Litware** değerini girin.
 5. **Yapılandırma oluştur**'u seçin.
-6. Türetilmiş eşlemenin [taslak](general-electronic-reporting.md#component-versioning) sürümünü çalışma zamanında kullanılabilir olarak [işaretleyin](er-quick-start2-customize-report.md#MarkFormatRunnable):
+6. Türetilmiş eşlemenin [taslak](general-electronic-reporting.md) sürümünü çalışma zamanında kullanılabilir olarak [işaretleyin](er-quick-start2-customize-report.md#MarkFormatRunnable):
 
     1. Eylem Bölmesindeki **Yapılandırmalar** sekmesinde yer alan **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
     2. **Kullanıcı parametreleri** iletişim kutusunda, **Çalıştırma ayarları** seçeneğini **Evet** olarak ayarlayıp **Tamam**'ı seçin.

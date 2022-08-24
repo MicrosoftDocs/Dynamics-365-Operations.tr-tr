@@ -1,24 +1,26 @@
 ---
 title: Word biçiminde raporlar oluşturmak için yeni bir ER yapılandırması tasarlama
 description: Bu makalede, kullanıcıların Microsoft Word belgeleri olarak rapor oluşturmak için yeni bir Elektronik raporlama (ER) biçimini nasıl yapılandırabileceği açıklanmaktadır.
-author: NickSelin
+author: kfend
 ms.date: 12/17/2020
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: caf87659ca4ceb7b25aa43e09893d2a0ef014884
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form:
+- ERWorkspace, ERSolutionTable, EROperationDesigner
+- LedgerJournalTable, LedgerJournalTransVendPaym
+ms.openlocfilehash: b56b328aa2a2b53dc177a02a4d453e5dbcb8340c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893026"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273353"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Word biçiminde raporlar oluşturmak için yeni bir ER yapılandırması tasarlama
 
@@ -35,7 +37,7 @@ Word biçimindeki raporlar için şablon olarak Word belgesi kullanmak için yen
 
 ![Yapılandırmalar sayfasında özel biçim yapılandırması oluşturma.](./media/er-design-configuration-word-image2.gif)
 
-Çözümün ER biçimi bileşeni, **Excel\\File** biçim öğesini içermeli ve söz konusu biçim öğesi çalıştırma zamanında oluşturulan raporlar için şablon olarak kullanılacak Word belgesine bağlanmalıdır. ER biçim bileşenini yapılandırmak için ER biçim tasarımcısında oluşturulan ER yapılandırmasının [taslak](general-electronic-reporting.md#component-versioning) sürümünü açmanız gerekir. Ardından **Excel\\File** öğesini ekleyin, Word şablonunuzu düzenlenebilir ER biçimine ekleyin ve söz konusu şablonu eklediğiniz **Excel\\File** öğesine bağlayın.
+Çözümün ER biçimi bileşeni, **Excel\\File** biçim öğesini içermeli ve söz konusu biçim öğesi çalıştırma zamanında oluşturulan raporlar için şablon olarak kullanılacak Word belgesine bağlanmalıdır. ER biçim bileşenini yapılandırmak için ER biçim tasarımcısında oluşturulan ER yapılandırmasının taslak sürümünü açmanız gerekir. Ardından **Excel\\File** öğesini ekleyin, Word şablonunuzu düzenlenebilir ER biçimine ekleyin ve söz konusu şablonu eklediğiniz **Excel\\File** öğesine bağlayın.
 
 > [!NOTE]
 > Şablonu eklediğinizde, ER biçimleri şablonlarını depolamak için ER parametrelerinde daha önce [yapılandırılmış](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) olan [belge türünü](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) kullanmanız gerekir.

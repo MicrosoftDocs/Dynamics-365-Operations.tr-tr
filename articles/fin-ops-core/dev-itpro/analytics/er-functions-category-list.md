@@ -1,25 +1,25 @@
 ---
 title: Liste kategorisindeki ER işlevlerinin listesi
 description: Bu makalede, Elektronik raporlama (ER) uygulamasında desteklenen liste işlevleri hakkında bilgi sağlanmaktadır.
-author: NickSelin
+author: kfend
 ms.date: 04/01/2020
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b39da482578636d94faaa3117bd40a579f3ae636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 6c28445f731393857cdb0c75c1244e557b5ff4a4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869069"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277707"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Liste kategorisindeki ER işlevlerinin listesi
 
@@ -47,6 +47,7 @@ ms.locfileid: "8869069"
 | [ListOfFields](er-functions-list-listoffields.md)         | Bu işlev,*numaralandırmanın* veya *konteyner (kayıt)* türünün belirtilen bağımsız değişkeninin yapısına göre oluşturulan bir *kayıt listesi* değeri döndürür. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Bu işlevi, belirtilen listenin yalnızca ilk kayıttan oluşan bir *kayıt listesi* değeri döndürür.|
 | [OrderBy](er-functions-list-orderby.md)                   | Bu işlev belirtilen bağımsız değişkenlere göre sıralandıktan sonra belirtilen listeyi *kayıt listesi* değeri olarak döndürür. Bu bağımsız değişkenler ifadeler olarak tanımlanabilir. |
+| [Yineleme](er-functions-list-repeat.md)                     | Bu işlev, belirtilen girişle eşleşen bir değeri olan alanı içeren bir kayıt oluşturur. Sonra, belirtilen sayıda yinelenen bir kaydın yeni *Kayıt listesini* döndürür. |
 | [Ters kaydet](er-functions-list-reverse.md)                   | Bu işlev, ters sırada sıralama düzeninde *kayıt listesi* değeri olarak belirtilen listeyi döndürür. |
 | [Böl](er-functions-list-split.md)                       | Bu işlev, belirtilen girdi dizesini alt dizelere böler ve sonucu yeni bir *kayıt listesi* değeri olarak döndürür. |
 | [SplitList](er-functions-list-splitlist.md)               | Bu işlev, belirtilen listeyi, her biri belirtilen sayıda kayıt içeren toplu işleri bölün. Sonra sonucu, toplu işlemlerden oluşan yeni *bir kayıt listesi* değeri olarak döndürür. |

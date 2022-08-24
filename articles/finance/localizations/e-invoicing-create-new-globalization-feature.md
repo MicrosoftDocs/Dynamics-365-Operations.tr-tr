@@ -1,26 +1,26 @@
 ---
 title: Genelleştirme özelliği oluşturma
 description: Bu makalede, Genelleştirme özelliğinin nasıl oluşturulacağı açıklanmaktadır.
-author: dkalyuzh
+author: gionoder
 ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c622b350f79d36b8fda12598ceae57ee9c7095e9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 5432de8f8a70a4e6a0facd546083b37fd8690556
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889844"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283190"
 ---
 # <a name="create-a-globalization-feature"></a>Genelleştirme özelliği oluşturma
 

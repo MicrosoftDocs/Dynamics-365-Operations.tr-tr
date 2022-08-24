@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 5f5f24f47d0a2376be714f9208cd383cf3aacc07
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ecca2d00b8753a405faa8d4c67c3cbb1eef6907
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857068"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218989"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasında tanıtılan alanların adımlarını yapılandırma
 
@@ -32,13 +32,7 @@ Bu makalede, Warehouse Management mobil uygulaması için görev akışlarındak
 Tanıtılan alanları ayarlamadan önce, gerekli özellikleri etkinleştirmek ve Warehouse Management mobil uygulamasında gerekli alan adlarını oluşturmak için aşağıdaki yordamı tamamlamanız gerekir.
 
 1. **Sistem yönetimi \> Çalışma alanları \> Özellik yönetimi**'ne gidin.
-1. [**Özellik yönetimi** çalışma alanında](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) bu özelliği aşağıdaki şekilde etkinleştirin:
-
-    - **Modül:** *Ambar yönetimi*
-    - **Özellik adı:** *Ambar uygulaması adım yönergeleri*
-
-    *Ambar uygulaması adım yönergeleri* özelliği hakkında daha fazla bilgi için , [Warehouse Management mobil uygulaması ile ilgili adım başlıklarını ve yönergeleri özelleştirme](mobile-app-titles-instructions.md) konusuna bakın. Bu özellik, *Ambar uygulaması tanıtılan alanlar* özelliği için bir önkoşuldur.
-
+1. Sistem için *Ambar uygulaması adım yönergeleri* özelliğinin açık olduğundan emin olun. Supply Chain Management sürüm 10.0.29 itibariyle, bu özellik varsayılan olarak açıktır. *Ambar uygulaması adım yönergeleri* özelliği hakkında daha fazla bilgi için , [Warehouse Management mobil uygulaması ile ilgili adım başlıklarını ve yönergeleri özelleştirme](mobile-app-titles-instructions.md) konusuna bakın. Bu özellik, *Ambar uygulaması tanıtılan alanlar* özelliği için bir önkoşuldur.
 1. Özelliği, aşağıdaki şekilde etkinleştirin:
 
     - **Modül:** *Ambar yönetimi*
@@ -67,7 +61,7 @@ Tanıtılan alanları ayarlamak için aşağıdaki yordamı kullanın.
 
 ### <a name="enable-sample-data"></a>Örnek verileri etkinleştirme
 
-Belirtilen örnek kayıtlarını ve değerlerini kullanarak bu senaryoda çalışmak için standart demo verilerinin yüklü olduğu bir sistem kullanmanız gerekir. Ayrıca başlamadan önce **USMF** tüzel kişiliğini seçmeniz gerekir.
+Belirtilen örnek kayıtlarını ve değerlerini kullanarak bu senaryoda çalışmak için standart [demo verilerinin](../../fin-ops-core/fin-ops/get-started/demo-data.md) yüklü olduğu bir sistem kullanmanız gerekir. Ayrıca başlamadan önce **USMF** tüzel kişiliğini seçmeniz gerekir.
 
 ### <a name="configure-sales-picking-with-promoted-steps-on-the-license-plate-step"></a>Lisans levhası adımındaki yükseltilen adımlarla satış çekmeyi konfigüre edin
 

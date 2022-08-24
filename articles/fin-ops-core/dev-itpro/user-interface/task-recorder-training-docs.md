@@ -1,26 +1,26 @@
 ---
 title: Görev Kaydedici'yle belge veya eğitim oluşturma
 description: Bu makalede, Görev kaydedici ve görev kılavuzlarının neler olduğu, kayıtların nasıl oluşturulacağı ve Microsoft görev kılavuzlarının özelleştirilip bunların Yardım bölümünüze nasıl ekleneceği açıklanmaktadır.
-author: josaw1
+author: jasongre
 ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
-ms.reviewer: tfehr
-ms.custom: 25391
-ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
+ms.reviewer: josaw
 ms.search.region: Global
-ms.author: josaw
+ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b556003edf2fe186f6b095e538f142fcf5a0bba5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 25391
+ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
+ms.search.form: SysHelpSetup
+ms.openlocfilehash: 175eb31c0ae4730544450ff8e073a73717e4207e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891828"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284926"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Görev Kaydedici'yle belge veya eğitim oluşturma
 

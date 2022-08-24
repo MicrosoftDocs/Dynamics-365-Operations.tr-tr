@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a420a0a366e454df14d5fe994691829bc7950306
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 901683f2176189ce2f4186b4f9b3b5c64ec9f2b1
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895210"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227790"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Peşinat faturaları ve ön ödemeler karşılaştırması
 
@@ -78,6 +78,8 @@ Bir satın alma siparişinde birden fazla ön ödeme tanımına izin verilmediğ
 Satıcının ön ödeme faturasını kaydetmek için, **Satın alma siparişleri** sayfasında **ön ödeme faturası** seçeneğini seçerek **satıcı faturası** sayfasına gidin (**Borç hesapları \> ortak \> Satın alma siparişleri \> tüm satın alma siparişleri \> Fatura sekmesi \> ön ödeme faturası**). Fatura numarası dahil olmak üzere, ön ödeme faturasıyla ilgili bilgileri girin. Bir ön ödeme faturasının miktarlarını değiştiremezsiniz. Satıcı, satın alma siparişinde tanımlanan ön ödeme değerinde kısmi bir tutar faturalanmışsa, birim fiyatı kısmi değeri yansıtacak şekilde güncelleştirebilirsiniz.
 
 Ön ödeme faturası deftere nakledildiğinde, satıcı bakiyesi ve ön ödeme hesabı güncelleştirilir. Satın alma siparişinde yer alan ön ödeme tanımındaki **ön ödeme uygulaması** değeri de güncelleştirilecektir. Deftere nakledilen ön ödeme fişi için varsayılan mali boyut girişleri satın alma siparişindeki başlık bilgilerinden alınır.
+
+**Özellik Yönetimi** sayfasındaki **Satıcı ön ödeme faturasındaki fatura satırlarındaki mali boyutları kilitle** özelliği açıksa, ön ödeme başlığındaki veya satırlardaki boyutlar güncelleştirilemez. 
 
 ## <a name="post-and-settle-payments-for-the-prepayment-invoice"></a>Ön ödeme faturası için ödemeleri deftere nakletme ve Kapatma
 Sonra, ön ödeme faturası **ödeme günlüğü** sayfasından ödenir. Ödeme günlüklerine erişmek için, **Borç hesapları \> günlükler \> ödemeler \> Ödeme günlüğü**'ne tıklayın. Ödeme kapanışını ön ödeme faturasına kaydettikten sonra, satın alma siparişinin **Kalan ön ödeme uygulaması** değeri güncelleştirilir.

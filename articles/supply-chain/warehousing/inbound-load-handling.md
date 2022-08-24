@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: c48d240b346acacf2988fbaac69308ee655dced6
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070334"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219517"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Satınalma siparişleri için gelen yüklerin ambarda işlenmesi
 
@@ -279,7 +279,7 @@ Bu senaryolar, _Yük başına birden fazla ürün girişine izin ver_ özelliği
 
 #### <a name="enable-sample-data"></a>Örnek verileri etkinleştirme
 
-Belirtilen örnek kayıtları ve değerleri kullanarak bu senaryolar arasında çalışmak için, standart demo verisinin yüklenmiş olduğu bir sistem kullanmanız gerekir. Ayrıca başlamadan önce **USMF** tüzel kişiliğini seçmeniz gerekir.
+Belirtilen örnek kayıtları ve değerleri kullanarak bu senaryolar arasında çalışmak için, standart [demo verisinin](../../fin-ops-core/fin-ops/get-started/demo-data.md) yüklenmiş olduğu bir sistem kullanmanız gerekir. Ayrıca başlamadan önce **USMF** tüzel kişiliğini seçmeniz gerekir.
 
 #### <a name="add-a-menu-item-for-receiving-load-items-when-a-mobile-device-is-used"></a>Mobil cihaz kullanıldığında yük maddelerini teslim almak için bir menü öğesi ekleme
 

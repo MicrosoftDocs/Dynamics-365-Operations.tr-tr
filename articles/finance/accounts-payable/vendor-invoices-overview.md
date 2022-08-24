@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b88390085d86956c38c0fc167395509d0c54f860
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 565e45a1c396b9144b4a6437056a0040b2fbde1d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894185"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228766"
 ---
 # <a name="vendor-invoices-overview"></a>Satıcı faturalarına genel bakış
 
@@ -71,10 +71,10 @@ Kuruluşunuz, satıcı faturalarını gözden geçirme işlemini yönetmek için
 
 Bir faturanın iş akışına gönderilmesini engelleyebilmenizin çeşitli yolları aşağıda verilmiştir.
 
-- **Fatura toplamı ve kaydedilen toplam eşit değil.** Faturayı gönderen kişi, toplamların eşit olmadığına dair bir uyarı alır. Uyarı, faturayı iş akışına yeniden göndermeden önce bakiyeleri düzeltmek için bir fırsat sağlar. Bu özellik, **Özellik yönetimi** sayfasındaki  **Fatura toplamı ve kaydedilen fatura toplamı eşit olmadığında iş akışına göndermeyi engelle** parametresi etkin olduğunda kullanılabilir. 
-- **Fatura tahsis edilmemiş masraflar içeriyor.** Faturayı gönderen kişi, faturada tahsis edilmemiş masraflar olduğunu belirten bir uyarı alacak ve faturayı iş akışına yeniden göndermeden önce düzeltebilecektir. Bu özellik, **Özellik yönetimi** sayfasındaki  **Satıcı faturasında tahsis edilmemiş masraflar olduğunda iş akışına göndermeyi engelle** parametresi etkin olduğunda kullanılabilir.
-- **Fatura, deftere nakledilen başka bir faturayla aynı fatura numarasını içeriyor.** Faturayı gönderen kişi, yinelenen numaraya sahip bir faturanın bulunduğunu belirten bir ileti alır. Yinelenen numara, faturayı iş akışına yeniden göndermeden önce düzeltilebilir. Borç hesaplarında, **Kullanılan fatura numarasını denetle** parametresi, **Yineleneni reddet** olarak ayarlandığında bu uyarı görüntülenir. Bu özellik, **Özellik yönetimi** sayfasındaki **Fatura numarası deftere nakledilmiş bir faturada zaten varsa ve sisteminiz yinelenen fatura numaralarını kabul etmek üzere yapılandırılmadıysa iş akışına gönderimi engelle** parametresi etkin olduğunda kullanılabilir.
-- **Fatura, fatura miktarının eşleşen ürün giriş miktarından az olduğu bir satır içerir.** Faturayı gönderen veya deftere nakletmeye çalışan kişi, miktarların eşit olmadığını belirten bir ileti alır. Bu mesaj, faturayı iş akışına yeniden göndermeden önce değerleri düzeltmek için bir fırsat sağlar. Bu özellik, **Özellik yönetimi** sayfasında **satıcı faturalarının deftere naklini ve iş akışına gönderilmesini engelle** parametresi açıksa ve **Borç hesapları parametreleri** sayfasındaki **Deftere Nakil ve İş Akışına Gönderimi Engelle** parametresi açıksa kullanılabilir.
+- **Fatura toplamı ve kaydedilen toplam eşit değil.** Faturayı gönderen kullanıcı, toplamların eşit olmadığına dair bir uyarı alır. Bu uyarı, kullanıcıya faturayı iş akışı sistemine yeniden göndermeden önce bakiyeleri düzeltmek için bir fırsat sağlar. Bu özellik, **Özellik Yönetimi** sayfasındaki eşit **Fatura toplamı ve kaydedilen fatura toplamı eşit olmadığında iş akışına göndermeyi engelle** parametresi ve **Borç hesapları parametreleri** sayfasındaki **Fatura ve kayıtlı toplam eşit olmadığında kullanılacak iş akışı seçeneği** parametresi açıksa kullanılabilir. 
+- **Fatura tahsis edilmemiş masraflar içeriyor.** Faturayı gönderen kullanıcı, faturanın tahsis edilmemiş masraflar içerdiğine dair bir uyarı alır. Bu şekilde kullanıcı, iş akışı sistemine yeniden göndermeden önce faturayı düzeltebilir. Bu özellik, **Özellik yönetimi** sayfasında **Satıcı faturasında tahsis edilmemiş masraflar olduğunda iş akışına göndermeyi engelle** parametresi açıksa ve **Borç hesapları parametreleri** sayfasındaki **Tahsis edilmemiş masraflar olduğunda kullanılacak iş akışı seçeneği** parametresi açıksa kullanılabilir.
+- **Fatura, deftere nakledilen başka bir faturayla aynı fatura numarasını içeriyor.** Faturayı gönderen kullanıcı, yinelenen numaraya sahip bir faturanın bulunduğunu belirten bir uyarı alır. Kullanıcı, faturayı iş akışı sistemine yeniden göndermeden önce yinelenen numarayı düzeltebilir. Borç hesaplarındaki **Kullanılan fatura numarasını denetle** parametresi, **Yineleneni reddet** olarak ayarlandığında bu uyarı gösterilir. Bu özellik, **Özellik yönetimi** sayfasındaki **Fatura numarası deftere nakledilmiş bir faturada zaten varsa ve sisteminiz yinelenen fatura numaralarını kabul etmek üzere yapılandırılmadıysa iş akışına gönderimi engelle** parametresi etkin olduğunda kullanılabilir.
+- **Fatura, fatura miktarının eşleşen ürün giriş miktarından az olduğu bir satır içerir.** Faturayı gönderen veya deftere nakletmeyi deneyen kullanıcı, miktarların eşit olmadığını belirten bir ileti alır. Bu ileti, kullanıcıya faturayı iş akışı sistemine yeniden göndermeden önce değerleri düzeltmek için bir fırsat sağlar. Bu özellik, **Özellik yönetimi** sayfasında **satıcı faturalarının deftere naklini ve iş akışına gönderilmesini engelle** parametresi açıksa ve **Borç hesapları parametreleri** sayfasındaki **Deftere Nakil ve İş Akışına Gönderimi Engelle** parametresi açıksa kullanılabilir.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Satıcı faturalarını ürün girişlerine eşleştirmek
 
@@ -142,7 +142,7 @@ Her hareket için rapor aşağıdaki ayrıntıları içerir:
 **Satıcı açık hareketleri** raporunu oluşturduğunuz zaman aşağıdaki varsayılan parametreler kullanılabilir. Bu parametreleri, rapora dahil edilecek verileri filtrelemek için kullanabilirsiniz.
 
 - **Gelecekteki kapanışı hariç tut** – **Açık hareketlere göre** her alana girilen tarihten sonra kapatılan hareketleri hariç tutmak için bu onay kutusunu seçin.
-- **Başına açık hareket sayısı** – Bu tarihte açık olan hareketleri dahil etmek için bir tarih girin. Bir tarih girmezseniz, bu alan maksimum tarihe ayarlanır. (Maksimum tarih, sistemin kabul edeceği en son tarih olan 31 Aralık 2154'tür.) Varsayılan olarak, raporun bir sonraki çalışmasında, bu alan en son girilen tarihi ayarlar.
+- **Başına açık hareket sayısı** – Bu tarihte açık olan hareketleri dahil etmek için bir tarih girin. Bir tarih girmezseniz, bu alan maksimum tarihe ayarlanır. (Maksimum tarih, sistemin kabul edeceği en son tarih olan 31 Aralık 2154'tür.) Varsayılan olarak, raporun bir sonraki çalışmasında, bu alan en son girilen tarihe ayarlanır.
 
 Rapora dahil edilen hareket verilerini daha fazla sınırlandırmak için, **Dahil edilecek kayıt** alanı altındaki filtreleri kullanabilirsiniz.
 

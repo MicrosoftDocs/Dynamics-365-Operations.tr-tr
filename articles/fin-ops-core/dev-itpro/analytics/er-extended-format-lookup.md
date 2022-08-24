@@ -1,26 +1,26 @@
 ---
 title: Elektronik raporlama (ER) genişletilmiş biçim araması
 description: Bu makalede, gerekli biçim Global depoda depolandığı zaman, ER biçim aramasında bir ER biçim başvurusunun nasıl ayarlanacağı açıklanmaktadır.
-author: NickSelin
+author: kfend
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERWorkspace
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ae544b8ed4e280ffcaf58d893056a4bf5169e379
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERWorkspace
+ms.openlocfilehash: 624f5c347c27cc2075f9602087c1c49e84340565
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901662"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274934"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Kullanıcıların, Global havuzdan bir biçim sorgulayan ER biçimi başvurusu ayarlamalarına izin verme
 

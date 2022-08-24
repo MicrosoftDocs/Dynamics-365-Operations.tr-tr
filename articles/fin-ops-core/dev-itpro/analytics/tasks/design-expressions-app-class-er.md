@@ -1,7 +1,7 @@
 ---
 title: Uygulama sınıfı yöntemlerini çağırmak için ER ifadeleri tasarlama
 description: Bu makalede, gerekli uygulama sınıfları yöntemlerini çağırarak Elektronik raporlama yapılandırmalarında mevcut uygulama mantığının nasıl yeniden kullanılabileceği açıklanmaktadır.
-author: NickSelin
+author: kfend
 ms.date: 11/02/2021
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0fb0a9725d882fdc330d7adbb49bd3dcadf7805f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 21c24cee15e9a0fd11838b5b8fd816e4aaed9a93
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883639"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267857"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Uygulama sınıfı yöntemlerini çağırmak için ER ifadeleri tasarlama
 

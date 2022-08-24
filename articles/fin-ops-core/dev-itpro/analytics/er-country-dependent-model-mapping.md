@@ -1,26 +1,26 @@
 ---
 title: Ülke bağlamına bağımlı ER model eşlemelerini yapılandırma
 description: Bu makalede, ER model eşlemelerini kullanımlarını, denetleyen tüzel kişiliğin ülke/bölge bağlamına bağlı olacak şekilde nasıl ayarlayabileceğiniz açıklanmaktadır.
-author: NickSelin
+author: kfend
 ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 771b14662638838ac1f39d85b19ac58a47352c79
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERSolutionTable
+ms.openlocfilehash: 5db0936682e0cc052622658ac14046013bc4fd87
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883889"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277771"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Ülke bağlamına bağımlı ER model eşlemelerini yapılandırma
 

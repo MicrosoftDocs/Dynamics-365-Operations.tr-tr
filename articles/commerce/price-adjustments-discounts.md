@@ -1,27 +1,27 @@
 ---
 title: Fiyat ayarlamaları ve iskontolar
 description: Bu makale, Dynamics 365 Commerce içinde fiyat ayarlaması ve iskontolar hakkında bilgi sağlar.
-author: scott-tucker
+author: josaw1
 ms.date: 06/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailParameters, RetailPeriodicDiscount
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 15891
-ms.assetid: bab5adf3-ddf0-4c22-a2eb-b4d25b88de99
 ms.search.region: global
-ms.search.industry: Retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 96a695df250cda514b7bd8b9716c0f03fb2bfd28d3af4daedaf1335c3099fbb6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: 15891
+ms.assetid: bab5adf3-ddf0-4c22-a2eb-b4d25b88de99
+ms.search.industry: Retail
+ms.search.form: RetailParameters, RetailPeriodicDiscount
+ms.openlocfilehash: ff90df814d6930b5cf92772e430625943e0ae983
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748510"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279102"
 ---
 # <a name="price-adjustments-and-discounts"></a>Fiyat ayarlamaları ve iskontolar
 

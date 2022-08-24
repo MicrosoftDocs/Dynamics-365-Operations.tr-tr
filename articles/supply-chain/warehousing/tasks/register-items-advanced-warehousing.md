@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5241c982675d6b9a9bc9596b8ac9ed2798903287
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 66fc9e21b79d70ec14750440c74d354bb8ec0695
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066982"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219613"
 ---
 # <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>Ambar yönetimi işlemleri için etkinleştirilmiş maddeleri madde varış günlüğü kullanarak kaydetme
 
@@ -29,7 +29,7 @@ Bu makale, ambar yönetimi işlemlerini (WMS) kullanırken maddelerin madde var�
 
 ## <a name="enable-sample-data"></a>Örnek verileri etkinleştirme
 
-Bu makalede belirtilen örnek kayıtları ve değerleri kullanarak bu senaryo aracılığıyla çalışmak için, standart gösteri verilerinin yüklendiği bir sistem kullanıyor olmanız ve başlamadan önce *USMF* hukuk varlığını seçmeniz gerekir.
+Bu makalede belirtilen örnek kayıtları ve değerleri kullanarak bu senaryo aracılığıyla çalışmak için, standart [demo verilerinin](../../../fin-ops-core/fin-ops/get-started/demo-data.md) yüklendiği bir sistem kullanıyor olmanız ve başlamadan önce *USMF* tüzel kişiliğini seçmeniz gerekir.
 
 Bunun yerine, aşağıdaki veriler kullanılabilir olduğu takdirde değerleri kendi verilerinizde değiştirerek bu senaryoya göre çalışabilirsiniz:
 

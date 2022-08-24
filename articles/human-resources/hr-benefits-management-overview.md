@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 261d71e955e4cb1a4a461d59725c631248e10b17
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901161"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227912"
 ---
 # <a name="benefits-management-overview"></a>Kazanç yönetimine genel bakış
 
@@ -147,6 +147,16 @@ Yaşam olaylarını işleyebilmeniz için işe alma zaman dilimi sırasında aç
 - [Yaşam olaylarını işleme](hr-benefits-process-life-events.md)
 - [Yaşam olayı değişikliklerini işleme](hr-benefits-process-life-event-changes.md)
 - [Yaşam olayı uygunluğunu işleme](hr-benefits-process-life-event-eligibility.md)
+
+Yaşam olayı işlemi tamamlandıktan sonra ve yaşam olayı kayıt dönemi açık olduğu sürece, çalışanlar yaşam olayından etkilenen plan seçeneklerinde değişiklikler yapabilirler. Yöneticiler, çalışanların adına değişiklikler yapabilir. Kayıt dönemi sona erdikten sonra ve hiçbir teyit edilmemiş plan türü, yaşam olayı hareketiyle ilişkili değilse, hareket kapatılır.
+
+Yaşam olayından etkilenen tüm planlar seçilmeli ya da iptal edilmeli ve sonra onaylanmalıdır. Bir plan seçilmemişse, iptal edilmemişse ve dolayısıyla onaylanmamışsa, yaşam olayı hareketi kapatılmaz.
+
+Yöneticiler, bir yaşam olayı hareketini gereken şekilde seçip **Kapat**'ı seçerek bu hareketi el ile kapatabilir. Harekette teyit edilmemiş planlar varsa ve bir yönetici bunları kapatmak isterse, yaşam olayının kapatılması bu planlardaki düzenlemeleri kısıtlayabilir.
+
+Kapatılan yaşam olayları silinemez.
+
+Yöneticiler, bir yaşam olayı hareketini gereken şekilde seçip **Yeniden Aç**'ı seçerek bu hareketi yeniden açabilir.
 
 ## <a name="rate-updates-optional"></a>Ücret güncelleştirmeleri (isteğe bağlı)
 

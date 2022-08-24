@@ -10,28 +10,35 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4bd6042f9dd33ba15773b251911e965cb870c5aa
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e1c9a9b618184303efe2bd10975e46423cca9ccc
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865135"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219982"
 ---
 # <a name="delay-tolerance-negative-days"></a>Gecikme toleransı (negatif günler)
 
 [!include [banner](../../includes/banner.md)]
 
-Gecikme toleransı işlevi, Planlamayı En İyi Duruma Getirme özelliğinin karşılama grupları için ayarlanan **Negatif günler** değerini dikkate almasını sağlar. Master planlama sırasında uygulanan gecikme toleransı süresini uzatmak için kullanılır. Bu şekilde, mevcut tedarik talebi kısa bir gecikmeyle karşılayabilecekse yeni tedarik emirleri oluşturmaktan kaçınabilirsiniz. İşlev'n amacı, belirli bir talep için yeni bir tedarik emri oluşturmanın mantıklı olup olmadığını belirlemektir.
+Gecikme toleransı işlevi, Planlamayı En İyi Duruma Getirme özelliğinin karşılama grupları, madde karşılaması ve/veya master planları için **Negatif günler** değerini dikkate almasını sağlar. Master planlama sırasında uygulanan gecikme toleransı süresini uzatmak için kullanılır. Bu şekilde, mevcut tedarik talebi kısa bir gecikmeyle karşılayabilecekse yeni tedarik emirleri oluşturmaktan kaçınabilirsiniz. İşlev'n amacı, belirli bir talep için yeni bir tedarik emri oluşturmanın mantıklı olup olmadığını belirlemektir.
 
 ## <a name="turn-on-the-feature-in-your-system"></a>Sisteminizdeki özelliği etkinleştirme
 
-Gecikme toleransı işlevini sisteminizde kullanılabilir yapmak için, [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve *Planlamayı En İyi Duruma Getirme için negatif günler* özelliğini etkinleştirin.
+Gecikme toleransı işlevini sisteminizde kullanılabilir yapmak için, [Özellik yönetimine](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gidin ve aşağıdaki özellikleri etkinleştirin:
+
+- *Planlamayı En İyi Duruma Getirme için negatif günler* – Bu özellik, kapsam grupları ve madde karşılaması için negatif gün ayarlarını etkinleştirir.
+- *Siparişe göre üretim tedarik otomasyonu* – Bu özellik master planlar için negatif gün ayarlarını etkinleştirir. (Daha fazla bilgi için bkz. [Siparişe göre üretim tedarik otomasyonu](../make-to-order-supply-automation.md).)
 
 ## <a name="delay-tolerance-in-planning-optimization"></a>Planlamayı En İyi Duruma Getirmede gecikme toleransı
 
 Gecikme toleransı, mevcut tedarik zaten planlandığında yeni stok yenileme istemeden önce beklemeye istekli olduğunuz sağlama süresi ötesindeki gün sayısını temsil eder. Gecikme toleransı, iş günleri değil takvim günleri kullanılarak tanımlanır.
 
-Master planlama sırasında, sistem gecikme toleransını hesapladığında, **Negatif günler** ayarını dikkate alır. **Negatif günler** değerini, **Karşılama grupları** sayfasında veya **Madde karşılama** sayfasında ayarlayabilirsiniz.
+Master planlama sırasında, sistem gecikme toleransını hesapladığında, **Negatif günler** ayarını dikkate alır. **Negatif günler** değerini, **Karşılama grupları** sayfasında veya **Madde karşılama** sayfasında veya **Master planlar** sayfasında ayarlayabilirsiniz. Negatif günler birden fazla düzeye atanırsa, hangi ayarın kullanılacağının kararını vermek için sistem aşağıdaki hiyerarşiyi uygular:
+
+- **Master planlar** sayfasında negatif günler etkinse, bu ayar plan çalıştığı zaman diğer tüm negatif günlerin ayarlarını geçersiz kılar.
+- **Madde karşılama** sayfasında negatif günler yapılandırılmışsa bu ayar karşılama grubu ayarını geçersiz kılar.
+- **Karşılama grupları** sayfasında yapılandırılan negatif günler yalnızca, ilgili madde veya plan için negatif günler yapılandırılmamış ise geçerlidir.
 
 Sistem gecikme toleransı hesaplamasını *en erken stok yenileme tarihine* bağlar; bu da bugünün tarihi + sağlama süresine eşittir. Gecikme toleransı, *maks()* öğesinin iki değerden daha büyük olanı bulduğu aşağıdaki formül kullanılarak hesaplanır:
 

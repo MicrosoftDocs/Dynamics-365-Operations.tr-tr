@@ -1,26 +1,26 @@
 ---
 title: ZPL etiketleri yazdırmak için yeni bir ER çözümü tasarlama
 description: Bu makalede, Zebra Programlama Dili (ZPL) etiketleri yazdırmak için yeni bir Elektronik raporlama (ER) çözümünün nasıl tasarlanacağı açıklanmaktadır.
-author: NickSelin
+author: kfend
 ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERFormatDestinationTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: f861fe63c6d7d00d0a9f84d33c0d1b1b23735b61
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
+ms.search.form: ERSolutionTable, ERFormatDestinationTable
+ms.openlocfilehash: 7ef83cf4822ca129af3ca01fa6ddd05219fee0d7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845729"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271778"
 ---
 # <a name="design-a-new-er-solution-to-print-zpl-labels"></a>ZPL etiketleri yazdırmak için yeni bir ER çözümü tasarlama
 

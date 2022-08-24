@@ -1,26 +1,26 @@
 ---
 title: Excel'de oluşturulan belgeleri sayfalandırmak için ER biçimi tasarlama
 description: Bu makalede, Microsoft Excel'de oluşturulan bir belgeyi sayfalandıran Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı açıklanmaktadır.
-author: NickSelin
+author: kfend
 ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: Version 10.0.22
-ms.openlocfilehash: e8edc8bba62f74b4f81d423cf75b5fb87c01e43f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
+ms.search.form: EROperationDesigner
+ms.openlocfilehash: e4a34dffda9e9b95f5d6c7ee382723663817ec6b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909292"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285016"
 ---
 # <a name="design-an-er-format-to-paginate-generated-documents-in-excel"></a>Excel'de oluşturulan belgeleri sayfalandırmak için ER biçimi tasarlama
 
@@ -58,11 +58,11 @@ Bu senaryoda, şu anda etkin ER yapılandırması sağlayıcısı olarak seçile
 5. **Ad** alanına **Intrastat raporu Litware** ifadesini girin.
 6. Yeni biçimi oluşturmak için **Yapılandırma oluştur**'u seçin.
 
-**Intrastat raporu Litware** ER biçimi yapılandırmasına dair sürüm 1.9.1 oluşturulur. Bu sürüm **taslak** [durumuna](general-electronic-reporting.md#component-versioning) sahip ve düzenlenebilir. Özel ER biçiminizin geçerli içeriğinin,  Microsoft tarafından sağlanan biçimin içeriğiyle aynıdır.
+**Intrastat raporu Litware** ER biçimi yapılandırmasına dair sürüm 1.9.1 oluşturulur. Bu sürüm **Taslak** durumuna sahiptir ve düzenlenebilir. Özel ER biçiminizin geçerli içeriğinin,  Microsoft tarafından sağlanan biçimin içeriğiyle aynıdır.
 
 ### <a name="make-the-custom-format-runnable"></a>Özel biçimi çalıştırılabilir hale getirme
 
-Artık özel biçiminizin ilk sürümü oluşturulduğundan ve **Taslak** durumunda olduğundan biçimi test amacıyla çalıştırabilirsiniz. Raporu çalıştırmak için, özel işlem biçiminizi ifade eden ödeme yöntemini kullanarak bir satıcı ödemesini işleyin. Varsayılan olarak, uygulamadan ER biçimini çağırdığınızda yalnızca **Tamamlandı** ve **Paylaşıldı** durumuna sahip sürümler [dikkate alınır](general-electronic-reporting.md#component-versioning). Bu davranış, bitmemiş tasarımları bulunan ER biçimlerinin kullanılmasını önlemeye yardımcı olur. Ancak, test çalışmalarınız için, uygulamayı **taslak** durumunda olan ER formatının biçimini kullanmaya zorlayabilirsiniz. Bu şekilde, herhangi bir değişiklik gerekiyorsa geçerli biçim sürümünü ayarlayabilirsiniz. Daha fazla bilgi için bkz. [Uygulanabilirlik](electronic-reporting-destinations.md#applicability).
+Artık özel biçiminizin ilk sürümü oluşturulduğundan ve **Taslak** durumunda olduğundan biçimi test amacıyla çalıştırabilirsiniz. Raporu çalıştırmak için, özel işlem biçiminizi ifade eden ödeme yöntemini kullanarak bir satıcı ödemesini işleyin. Varsayılan olarak, uygulamadan ER biçimini çağırdığınızda yalnızca **Tamamlandı** ve **Paylaşıldı** durumuna sahip sürümler dikkate alınır. Bu davranış, bitmemiş tasarımları bulunan ER biçimlerinin kullanılmasını önlemeye yardımcı olur. Ancak, test çalışmalarınız için, uygulamayı **taslak** durumunda olan ER formatının biçimini kullanmaya zorlayabilirsiniz. Bu şekilde, herhangi bir değişiklik gerekiyorsa geçerli biçim sürümünü ayarlayabilirsiniz. Daha fazla bilgi için bkz. [Uygulanabilirlik](electronic-reporting-destinations.md#applicability).
 
 ER biçiminin taslak sürümünü kullanmak için, ER biçimini açık olarak işaretlemeniz gerekir.
 

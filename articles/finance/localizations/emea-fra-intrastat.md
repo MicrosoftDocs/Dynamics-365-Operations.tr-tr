@@ -1,20 +1,20 @@
 ---
 title: Fransızca İntrastat
 description: Bu makalede, Fransa'daki İntrastat bildirimi hakkında bilgiler yer almaktadır.
-author: anasyash
-ms.date: 07/9/2021
+author: AdamTrukawka
+ms.date: 07/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: e86d7c8f28b1b3df0066a588d380965c21dc98a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83af3cf304772085c5a6f0943ab5196fcc0208c9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887867"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287032"
 ---
 # <a name="french-intrastat"></a>Fransızca İntrastat
 

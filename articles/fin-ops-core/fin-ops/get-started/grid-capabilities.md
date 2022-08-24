@@ -2,7 +2,7 @@
 title: Kılavuz yetenekleri
 description: Bu makalede, kılavuz denetiminin çeşitli güçlü özellikleri açıklanmaktadır. Bu özelliklere erişebilmek için yeni ızgara özelliğini etkinleştirmeniz gerekir.
 author: jasongre
-ms.date: 04/25/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,20 +13,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 07791afb2de670a5b9b910e441395c2949460394
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: a8968a1263dfafd67b07b4beb78c51493e95756e
+ms.sourcegitcommit: 47534a943f87a9931066e28f5d59323776e6ac65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124725"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9258962"
 ---
 # <a name="grid-capabilities"></a>Kılavuz yetenekleri
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Yeni ızgara denetimi, kullanıcı üretkenliğini artırmak, verilerinizin daha ilginç görünümlerini elde etmek ve verilerinize anlamlı bilgiler yüklemek için kullanılabileceğiniz çeşitli yararlı ve güçlü yetenekler sağlar. Bu makalede aşağıdaki yetenekler ele alınıyor: 
 
-- Toplamların hesaplanması
+- Hesaplanmış değerleri gösterme 
 - Sistemi önceden hazırlama
 - Matematik ifadelerini değerlendirme 
 - Tablo verilerini gruplandırma (**Kılavuzlarda gruplandırma** özelliği kullanılarak ayrı olarak etkinleştirilir)
@@ -34,47 +35,60 @@ Yeni ızgara denetimi, kullanıcı üretkenliğini artırmak, verilerinizin daha
 - Otomatik olarak sütun genişliğine sığdır
 - Uzatılabilir sütunlar
 
-## <a name="calculating-totals"></a>Toplamların hesaplanması
-Finans ve operasyon uygulamalarında kullanıcılar toplamları ızgaralardaki sayısal sütunların alt kısmında görebilme yeteneğine sahiptir. Izgaranın altındaki alt bilgi bölümü bu toplamları gösterir. 
+## <a name="showing-calculated-values"></a>Hesaplanmış değerleri gösterme
+Finans ve operasyon uygulamalarında kullanıcılar bir kılavuzdaki her bir sayısal sütun için bir hesaplanmış değeri görüntüleyebilirler. Kılavuzun altındaki alt bilgi bölümü bu hesaplanmış değerleri gösterir.
+
+[![Kılavuzlarda hesaplanmış değerleri gösterme.](./media/grids-aggregation.png)](./media/grids-aggregation.png)
+
+10.0.29'dan önceki sürümlerde toplam, desteklenen tek hesaplanmış değerdir. Ancak 10.0.29 sürümden sonra kullanıcılar, **Genişletilmiş kılavuz toplam yetenekleri** özelliğini etkinleştirdikten sonra, aşağıdaki dört hesaplanmış değer arasından seçim yapabilirler:
+
+- Minimum
+- Maksimum
+- Toplam
+- Ortalama
+
+Tek bir sütun, yalnızca bir hesaplanmış değer türü gösterebilir. Ancak kılavuzdaki her sütun, farklı bir hesaplanmış değer türü gösterecek şekilde yapılandırılabilir.
 
 ### <a name="showing-the-grid-footer"></a>Kılavuz alt bilgisini gösterme
 Finans ve operasyon uygulamalarda her sekmeli kılavuzun altında altbilgi alanı vardır. Altbilgi, kılavuzda görülen verilerle ilgili değerli bilgileri gösterebilir. Aşağıda bu bilgilerin örnekleri verilmiştir:
 
 - Tablodaki seçili satır sayısı (birden fazla kayıt seçtiğinizde)
-- Yapılandırılan sayısal sütunların en altındaki genel toplamlar
+- Yapılandırılan sayısal sütunların en altındaki hesaplanmış değerler (örneğin, genel toplamlar)
 - Veri kümesindeki satır sayısı 
 
 Bu altbilgi varsayılan olarak gizlidir ancak açabilirsiniz. Bir kılavuzun alt bilgisini göstermek için, kılavuz başlığında **Kılavuz seçenekleri** düğmesini seçin ve **Alt bilgiyi göster** seçeneğini belirleyin. Belirli bir ızgara için alt bilgiyi açtıktan sonra, kullanıcı alt bilgiyi gizlemeyi seçene kadar bu ayar hatırlanır. Alt bilgiyi gizlemek için **Kılavuz seçenekleri** menüsünde **Alt bilgiyi gizle**'yi seçin.
 
-### <a name="specifying-columns-with-totals"></a>Sütunları toplamlarla belirtme
-Şu anda hiçbir sütun varsayılan olarak toplamları göstermez. Bunun yerine, bu, ızgaralardaki sütunların genişliklerini ayarlamaya benzer şekilde bir kerelik kurulum faaliyeti olarak görülüyor. Bir sütunun toplamlarını görmek istediğinizi belirttiğinizde, sayfayı bir sonraki ziyaretinizde bu ayar hatırlanır.
+### <a name="specifying-columns-with-calculated-values"></a>Hesaplanmış değerleri olan sütunları belirtme
+Şu anda hiçbir sütun varsayılan olarak hesaplanmış değerleri göstermez. Bunun yerine kurulum, kılavuzlardaki sütunların genişliklerini ayarlamaya benzer şekilde bir kerelik etkinlik olarak değerlendirilir. Bir sütunun hesaplanmış bir değerini görmek istediğinizi belirttikten sonra, sayfayı bir sonraki ziyaretinizde bu ayar hatırlanır.
 
-Bir sütunu toplam gösterecek şekilde yapılandırmanın iki yolu vardır: 
+Bir sütunu hesaplanmış değeri gösterecek şekilde yapılandırmanın iki yolu vardır:
 
-- Bir toplam görmek istediğiniz sütuna sağ tıklayın ve **Bu sütunun toplamını al**'ı seçin. Bu eylem üç olayın oluşmasına neden olur:
+- Hesaplanmış değerini görüntülemek istediğiniz sütunu seçin ve basılı tutun (veya sağ tıklayın). **Genişletilmiş kılavuz toplam yetenekleri** özelliği etkinse, **Sütun toplamlarını görüntüle**'yi seçin ve sonra istediğiniz hesaplanmış değeri seçin. Bu özellik etkinleştirilmemişse, **Bu sütunun toplamını al**'ı seçin. Bu eylem üç olayın oluşmasına neden olur:
 
-    1. Altbilgi görünür hale gelir. 
-    2. Bu sütunda bir toplam görme tercihiniz kaydedilir. 
-    3. Bu sütun ve toplamlarını görmek istediğiniz diğer sütunlar için bir toplam hesaplaması başlatır. Bir toplamı göstermek için gerekli olan zaman, topladığınızdan önce veri kümesinin boyutuna bağlıdır.
+    1. Kılavuz altbilgisi görünür hale gelir. 
+    2. Sütunun hesaplanmış değerini görüntüleme tercihiniz kaydedilir. 
+    3. Bu sütun ve hesaplanmış değerlerini göstermek üzere daha önce yapılandırdığınız diğer sütunlar için istenen hesaplama başlatılır. Hesaplanmış değerleri göstermek için gerekli olan zaman, veri kümesinin boyutuna bağlıdır.
 
-- Altbilgi görünür olduktan sonra, toplam görmek istediğiniz sütunun alt bilgi alanında **toplamı göster** 'i seçin. Yapılandırılmış sütun yoksa, **Toplamı göster** düğmesi tüm sayısal sütunlarda görünür. 
+- Altbilgi görünür olduktan sonra, hesaplanmış bir değerini görüntülemek istediğiniz sütunun en altındaki altbilgi alanında, **Toplamı göster** (veya **Genişletilmiş kılavuz toplam yetenekleri** özelliği etkinse, **Hesaplanan değeri seç**) seçeneğini belirleyin. Yapılandırılmış sütun yoksa, bu düğme tüm sayısal sütunlardaki altbilgide görünür.
 
-    Toplamlar için en az bir sütun yapılandırıldıktan sonra, **Toplamı göster** düğmeleri yalnızca üzerine gelindiği veya odaklanıldığı zaman ortaya çıkacaktır. **Toplamı göster** eylemi, yalnızca bu sütunda bir toplamı görmek için tercihlerinizi kaydeder; böylece, daha sonra sayfaya yapılan ziyaretlerin tercihi uygulanır. Altbilgide, bu durum sütunda görünen bir çizgiyle belirtilir. (Alternatif olarak, veri kümesi yeterince küçükse, toplam olarak derhal gösterilir.)
+    Hesaplanmış bir değeri göstermek için en az bir sütun yapılandırıldıktan sonra, **Toplamı göster** (veya **Hesaplanan değeri seç**) düğmesi yalnızca üzerine gelindiği veya odaklanıldığı zaman ortaya çıkacaktır. Düğmeyi seçme eylemi, yalnızca sütundaki bir hesaplanmış değeri görmek için tercihlerinizi kaydeder; böylece, daha sonra sayfaya yapılan ziyaretler sırasında söz konusu tercih uygulanır. Altbilgide, bu durum sütunda görünen bir çizgiyle belirtilir. (Veri kümesi yeterince küçükse hesaplanan değerin hemen görüneceğini unutmayın.)
 
-Bir hata yapar ve artık belirli bir sütundaki toplamı artık görmek istemezseniz, sütuna sağ tıklayın ve **Toplamı gizle**'yi seçin veya bu sütundaki alt bilgide bulunan **Toplamı gizle** düğmesini seçin. Bu tercih, sayfaya ileride yapılacak ziyaretler için de kaydedilecektir. 
+Bir hata yaptıysanız ve artık belirli bir sütundaki hesaplanmış değeri görüntülemek istemiyorsanız, sütunu seçin ve basılı tutun (veya sağ tıklayın) ve sonra **Toplamı gizle** (veya **Genişletilmiş kılavuz toplam yetenekleri** özelliği etkinse **Sütun toplamlarını görüntüle \> Hiçbiri**) seçeneğini belirleyin. Alternatif olarak, o sütundaki altbilgide **Toplamı gizle** (veya **Hesaplanan değeri gizle**) seçeneğini belirleyin. Bu tercih, sayfaya ileride yapılacak ziyaretler için de kaydedilecektir. 
 
-### <a name="calculating-totals"></a>Toplamlar hesaplanıyor
-Alt bilginin görünür olduğu ve sütunların toplamlar için daha önce yapılandırıldığı bir sayfaya geldiğiniz zaman, toplamlar alt bilgide gösterilebilir veya gösterilmeyebilir. Bu durum sayfadaki veri kümesinin boyutuna bağlıdır. Veri kümesi yeterince küçükse, veri kümesindeki satır sayısıyla birlikte toplamlar otomatik olarak gösterilecektir. Toplamlar için yapılandırdığınız sütunların altındaki alt bilgide tireler varsa, veri kümesi sistemin toplamları hemen gösteremeyeceği kadar büyüktür ve toplamları hesaplamak için belirli bir eylem gerekir. Bunu yapmak için, alt bilgideki **Hesapla** düğmesine tıklayın veya toplamını almak istediğiniz bir sütuna sağ tıklayın ve **Bu sütunun toplamını al**'ı seçin.
+### <a name="calculating-aggregate-values"></a>Toplam değerleri hesaplama
+Altbilginin görünür olduğu ve sütunların önceden hesaplanan değerleri gösterecek şekilde yapılandırıldığı bir sayfaya gittiğinizde, bu değerler altbilgide gösterilmeyebilir. Bu davranış sayfadaki veri kümesinin boyutuna bağlıdır. Veri kümesi yeterince küçükse, hesaplanmış değerler veri kümesindeki satır sayısıyla birlikte otomatik olarak gösterilecektir. Yapılandırdığınız sütunların altındaki alt bilgide tireler varsa, veri kümesi sistemin hesaplanmış değerleri hemen gösteremeyeceği kadar büyüktür. Bu durumda, değerleri hesaplamak için açık bir eylem gereklidir. Değerleri hesaplamak için altbilgide **Hesapla** düğmesini seçin. Alternatif olarak, toplamını görmek istediğiniz sütunu seçin ve basılı tutun (veya sağ tıklayın) ve sonra **Bu sütunun toplamını al** seçeneğini (veya **Genişletilmiş kılavuz toplam yetenekleri** özelliği etkinse **Sütun toplamlarını görüntüle**'yi ve sonra istenen hesaplanmış değeri) seçin.
 
-Hesaplama çok uzun sürüyorsa, **İptal** düğmesini seçerek işlemi iptal edebilirsiniz. Bazen veri kümesi toplamları hesaplamak için çok büyük olur (kuruluşunuz tarafından uygulanan bir sınıra göre) ve bunun yerine size verilerinizi daha fazla filtrelemeniz gerektiği bildirilir. 
+Hesaplamanın tamamlanması çok uzun sürüyorsa, **İptal**'i seçerek işlemi istediğiniz iptal edebilirsiniz. Bazı durumlarda veri kümesi, toplam değerlerini hesaplayamayacak kadar büyük olur (kuruluşunuz tarafından uygulanan bir sınır). Bu durumda, bunun yerine verilerinize daha fazla filtre uygulamanız istenir.
 
 > [!NOTE]
-> Sistem yöneticileri, **İstemci performans seçenekleri** sayfasındaki her bir **Kılavuz parametresi için en fazla yerel kayıt sayısını** ayarlayarak, toplamları hesaplamak için kullanılabilen kayıt sayısı sınırını değiştirebilir. Varsayılan değer 25.000 kayıttır. Yöneticiler bu değeri ayarlarken dikkatli olmalıdır çünkü, büyük bir değer kullanıcının makinesinde kullanılabilir belleği yorabilir. 50.000 kaydı aşmamanızı öneririz.   
+> Sistem yöneticileri, **İstemci performans seçenekleri** sayfasındaki her bir **Kılavuz parametresi için en fazla yerel kayıt sayısı** parametresini ayarlayarak, toplamları hesaplamak için kullanılabilen kayıt sayısı sınırını değiştirebilir. Varsayılan değer 25.000 kayıttır. Yöneticiler bu değeri ayarlarken dikkatli olmalıdır çünkü büyük bir değer kullanıcının makinesindeki kullanılabilir belleği tüketebilir. Değerin 50.000 kaydı aşmamanızı öneririz.
 
-Siz veri kümesinde güncelleştirme, silme veya satır oluşturma işlemleri yaptıkça toplamlar otomatik olarak güncelleştirilir.
+Siz veri kümesinde satır güncelleştirme, silme veya oluşturma işlemleri yaptıkça hesaplanmış değerler otomatik olarak güncelleştirilir.
 
 ## <a name="typing-ahead-of-the-system"></a>Sistemi önceden hazırlama
-Birçok iş senaryosunda, sisteme verileri hızlı şekilde girebilme çok önemlidir. Yeni kılavuz denetimi tanıtılmadan önce, kullanıcılar yalnızca geçerli satırdaki verileri değiştirebiliyordu. Yeni bir satır oluşturmadan veya farklı bir satıra geçiş yapmadan önce, sistemin herhangi bir değişikliği başarıyla doğrulamasını beklemek zorundaydılar. Kullanıcıların bu doğrulamaların tamamlanmasını beklediği süreyi azaltmak ve kullanıcı üretkenliğini artırmak için, yeni kılavuz bu doğrulamaları zaman uyumsuz olacak şekilde ayarlıyor. Bu nedenle, kullanıcı önceki satır doğrulamaları beklenirken değişiklik yapmak için diğer satırlara geçebiliyor. 
+Birçok iş senaryosunda, sisteme verileri hızlı şekilde girebilme çok önemlidir. Yeni kılavuz denetimi tanıtılmadan önce, kullanıcılar yalnızca geçerli satırdaki verileri değiştirebiliyordu. Bu nedenle, bir satırda değişiklikler yaptıktan sonra kullanıcılar, sistem geçerli satırdaki değişiklikleri başarılı bir şekilde doğrulayana ve yeni bir satırın oluşturulmasıyla ilişkili tüm mantığı çalıştırana (satır oluşturulması durumunda) kadar başka bir satıra geçiş yapamayabilir veya yeni bir satır oluşturamayabilir. Kullanıcıların bu işlemlerin tamamlanmasını beklediği süreyi azaltmaya ve kullanıcı üretkenliğini artırmaya yardımcı olmak için, yeni kılavuz bu işlemleri zaman uyumsuz olacak şekilde ayarlar. Kullanıcılar önceki satır doğrulamaları ve satır oluşturma mantığı beklenirken değişiklik yapmak için yeni satırlar oluşturabilir veya diğer satırlara geçebilir. 
+
+[![Sistemden önce yazma.](./media/gridFastEntry-07-25-2022.gif)](./media/gridFastEntry-07-25-2022.gif)
 
 Bu yeni davranışı desteklemek için, satır seçim sütunu düzenleme modundayken, satır durumu için yeni bir sütun kılavuzun en sağına eklenir. Bu sütun aşağıdaki durumlardan birini gösterir:
 
@@ -83,7 +97,11 @@ Bu yeni davranışı desteklemek için, satır seçim sütunu düzenleme modunda
 - **Geçersiz durum** – Bu durum, satırın işlenmesi sırasında bazı uyarı veya iletinin tetiklenmesini ve sistemin bu satırdaki değişiklikleri kaydetmesini engellemiş olabileceğini gösterir. Eski kılavuzda, kaydetme işlemi başarısızsa sorunu hemen düzeltmek için satıra geri dönmeniz gerekiyordu. Ancak, yeni kılavuzda bir doğrulama sorunuyla karşılaşıldığı size bildirilir, ancak satırdaki sorunları ne zaman düzeltmek istediğinize karar verebilirsiniz. Sorunu düzeltmeye hazır olduğunuzda, odağı yeniden el ile satıra taşıyabilirsiniz. Alternatif olarak, **Bu sorunu düzelt** eylemini seçebilirsiniz. Bu eylem, odağı hemen sorunun bulunduğu satıra geri taşır ve kılavuzun içinde veya dışında düzenlemeler yapmanıza olanak sağlar. Bu doğrulama uyarısı giderilene kadar sonraki bekleyen satırların işlenmesinin durdurulduğunu unutmayın. 
 - **Duraklatıldı** – Bu durum, bir satırın doğrulanması kullanıcı girişi gerektiren bir açılan iletişim kutusunu tetiklediği için işlemin sunucu tarafından duraklatıldığını belirtir. Kullanıcı başka bir satıra veri giriyor olabileceğinden açılır iletişim kutusu o kullanıcıya hemen sunulmayacaktır. Bunun yerine, kullanıcı işlemeyi sürdürmeyi seçtiğinde gösterilecektir. Bu durum, kullanıcıyı durumla ilgili bilgilendiren bir bildirimle birlikte gösterilir. Bildirim, açılır iletişim kutusunu tetikleyecek bir **İşlemeyi sürdür** eylemi içerir.
 
-Kullanıcılar, sunucunun işlediği yerin önüne veri girerken arama eksikliği, denetim düzeyinde doğrulama ve varsayılan değerlerin girişi gibi veri giriş deneyimlerinde bazı aksaklıklarla karşılaşabilirler. Bir değerin bulunması için açılan listeye gereksinim duyan kullanıcıların, sunucunun geçerli satırı yakalamasını beklemeleri önerilir. Sunucu o satırı işlediğinde, denetim düzeyinde doğrulama ve varsayılan değerlerin girişi de gerçekleşir.
+### <a name="differences-when-entering-data-ahead-of-the-system"></a>Sistemden önce veri girerken farklılıklar
+Sistemin işlediği yerden önce veri girdiğinizde, veri giriş deneyiminde birkaç değişiklik bekleyebilirsiniz:
+
+- Arama açılan listeleri olmadığını, aynı satırdaki farklı bir sütuna geçtiğinizde alan değerlerinin doğrulanmadığını ve sütunların başlangıçta varsayılan değerleri göstermediğini göreceksiniz. Bu davranış, sistemden önce oluşturma veya güncelleştirme yapmanız sırasında oluşur. Ancak sistem, şu anda düzenlemekte olduğunuz yere yetiştiğinde standart deneyim devam ettirilecektir. Genellikle varsayılan bir değer alan bir alanda değişiklik yaptıysanız, yaptığınız değişiklikler sunucu satırı işlemeye başladığında varsayılan alan değerini geçersiz kılar.
+- **Aşağı ok** tuşunu kullanarak yeni bir satır oluşturursanız, kılavuzdaki tüm sütunlar düzenlenebilir olarak görünür. Varsayılan olarak, odak yeni satırdaki ilk sütuna kayar. Bu sütun, eski kılavuzda ilk odağı alan sütunla veya **Yeni** düğmesini seçtikten sonra odağı alan sütunla aynı olmayabilir. Kuruluşunuz sistemi özelleştirebilir ve **Aşağı ok** tuşu seçildiğinde ilk odağı alan sütunu değiştirebilir. Daha fazla bilgi için [Aşağı ok tuşu kullanılarak yeni satırlar oluşturulurken ilk odağı alan sütunu belirtme](#developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key) bölümüne bakın. Ne olursa olsun, her bir kılavuzu veri girişi için en iyi duruma getirmek amacıyla kişiselleştirmeyi kullanabilirsiniz. Özellikle, alanları yeniden sıralayabilirsiniz böylece ilk sütun, içine veri girmek için başlatmak istediğiniz sütun olur. Ayrıca, sekme duraklarını azaltmak ve bu görünümde veri girişi için gerekli olmayan alanları gizlemek amacıyla, veri girişi için genel olarak alanları yeniden sıralamak isteyebilirsiniz.
 
 ### <a name="pasting-from-excel"></a>Excel'den yapıştırma
 Kullanıcılar her zaman finans ve operasyon uygulamalarındaki kılavuzlardan Microsoft Excel'e **Excel'e aktar** mekanizmasını kullanarak veri aktarabiliyordu. Ancak, sistemden önce veri girebilme özelliği, yeni kılavuzun Excel'den tablo kopyalanmasına ve onları finans ve operasyon uygulamalarında doğrudan ızgaralara yapıştırmasına olanak tanır. Yapıştırma işleminin başlatıldığı kılavuz hücresi kopyalanan tablonun nereye yapıştırılacağını belirler. Şu iki durum dışında, kılavuzun içeriği üzerine kopyalanan tablonun içeriği yazılır:
@@ -94,17 +112,23 @@ Kullanıcılar her zaman finans ve operasyon uygulamalarındaki kılavuzlardan M
 ## <a name="evaluating-math-expressions"></a>Matematik ifadelerini değerlendirme
 Verimlilik rampa olarak, kullanıcılar bir kılavuzdaki sayısal hücrelere matematiksel formüller girebilecek. Bu kullanıcılar, sistem dışındaki bir uygulamada hesaplama yapmaları gerekmez. Örneğin **= 15\*4** girerseniz ve alanın dışına gitmek için **sekme** tuşuna basarsanız, sistem ifadeyi değerlendirir ve alan için **60** değerini kaydeder.
 
+[![Matematik ifadelerini değerlendirme.](./media/gridMathExpression-07-25-2022.gif)](./media/gridMathExpression-07-25-2022.gif)
+
 Sistemin bir değeri ifade olarak tanımasını sağlamak için, değeri bir eşittir işaretiyle (**=**) başlatın. Desteklenen işleçler ve söz dizimi hakkında daha fazla bilgi edinmek için bkz. [Desteklenen matematik simgeleri](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
+Sürüm 10.0.29 itibariyle, sayısal denetimlerde matematiksel ifadeleri değerlendirme özelliği artık kılavuzun dışında da kullanılabilir.
+
 ## <a name="grouping-tabular-data"></a>Sekmeli verileri gruplandırma
-İş kullanıcılarının sıklıkla anlık olarak veri analizi yapmaları gerekir. Bu işlem Microsoft Excel'e veri aktararak ve özet tablolar kullanarak yapılırken, yeni kılavuz denetim özelliğine bağlı olan **Kılavuzlarda gruplandırma** özelliği sayesinde kullanıcılar sekmeli verilerini finans ve operasyon uygulamalarında ilginç yollarla organize edebilirler. Bu özellik **Toplamlar** özelliğini genişlettiği için, **Gruplandırma** da grup düzeyinde alt toplamlar sunarak verilere anlamlı bilgiler yüklemenize olanak sağlar.
+İş kullanıcılarının sıklıkla anlık olarak veri analizi yapmaları gerekir. Bu analiz Microsoft Excel'e veri aktararak ve özet tabloları kullanarak yapılabilse de yeni kılavuz denetim özelliğine bağlı olan **Kılavuzlarda gruplandırma** özelliği sayesinde kullanıcılar, tablosal verilerini finans ve operasyon uygulamalarında ilginç yollarla organize edebilirler. Bu özellik **Hesaplanmış değerler** özelliğini genişlettiği için, **Gruplandırma** da grup düzeyinde hesaplanmış değerler (örneğin, alt toplamlar) sunarak verilere dair anlamlı bilgiler edinmenize olanak sağlar.
+
+[![Kılavuzdaki verileri gruplandırma.](./media/grids-groupingWithTotals.png)](./media/grids-groupingWithTotals.png)
 
 Bu özelliği kullanmak için, gruplandırmada kullanmak istediğiniz sütuna sağ tıklayın ve **Bu sütuna göre gruplandır**'ı seçin. Bu eylem, verileri, seçilen sütuna göre sıralar, kılavuzun başına yeni bir **Gruplandırma ölçütü** sütunu ve her grubun başına "üst bilgi satırları" ekler. Bu üst bilgi satırları her grup hakkında aşağıdaki bilgileri sağlar:
 
 - Grubun veri değeri 
 - Sütun adı (bu bilgi özellikle birden çok gruplandırma düzeyine sahip olduğunuzda yararlıdır)
 - Bu gruptaki veri satırlarının sayısı
-- Toplamları gösterecek şekilde yapılandırılan sütunların alt toplamları
+- Yapılandırılmış herhangi bir sütun (örneğin, sütun bir toplamı gösterecek şekilde yapılandırılmışsa alt toplamlar) için hesaplanan değerler
 
 [Kaydedilmiş görünümler](saved-views.md) etkinken, sorguların görünümlere kaydedilmesine izin veren sayfalardaki görünümün bir parçası olarak gruplandırmayı kaydedebilirsiniz. Örneğin, büyük görünüm seçicileri olanlar. Daha fazla bilgi için [Görünümler arasında değiştirme](saved-views.md#switching-between-views) bölümüne bakın. 
 
@@ -116,10 +140,7 @@ Dilediğiniz zaman, bir sütuna sağ tıklayıp **Grubu Çöz**'ü seçerek söz
 ### <a name="sorting-grouped-data"></a>Gruplanmış verileri sıralama
 Verileri bir veya daha fazla sütuna göre gruplandırma yaptıktan sonra, ilgili sütun başlığı üzerinden herhangi bir gruplandırma sütununun sıralama yönünü değiştirebilirsiniz. 
 
-Gruplandırılmamış sütunlarda sıralama yaptığınızda davranış ürün sürümünüze bağlıdır:
-
-- Sürüm 10.0.24 ve önceki sürümlerinde, gruplandırılmamış bir sütunda sıralarsanız gruplandırma tüm sütunlardan kaldırılır ve veriler seçili sütunda sıralanır. 
-- Sürüm 10.0.25 ve sonraki sürümlerinde, gruplandırılmamış bir sütunda sıralarsanız gruplandırma bozulmadan kalır ve veriler seçilen sütuna göre her grubun içinde sıralanır.
+Gruplandırılmamış bir sütunda sıralama yaparsanız, gruplandırma değişmeden kalır. Veriler, seçilen sütuna göre her bir grubun içinde sıralanır.
 
 ### <a name="expanding-and-collapsing-groups"></a>Grupları genişletme ve daraltma
 Verilerin ilk gruplandırmasında tüm gruplar genişletilmiş olacaktır. Tek grupları daraltarak verilerin özetlenmiş görünümlerini oluşturabilir veya verilerde gezinmeye yardımcı olması için grup genişletme ve daraltma özelliklerini kullanabilirsiniz. Bir grubu genişletmek veya daraltmak için, ilgili grup üst bilgisi satırında çift ayraç (>) düğmesini seçin. Bireysel grupların genişletme/daraltma durumunun kişiselleştirme bölümünde **kaydedilmeyeceğini** unutmayın.
@@ -131,10 +152,15 @@ Kılavuzdaki ilk sütunun en üstündeki onay kutusunu seçerek kılavuzdaki tü
 Veriler gruplandırılırken, varsayılan davranış sütun adını grup başlık satırında göstermektir. **Izgara seçenekleri** > **Grup sütun adını gizle** seçeneğini belirleyerek grup üst bilgisi satırlarında sütun adını gizlemeyi seçebilirsiniz.
 
 ### <a name="grouping-on-date-and-time-columns"></a>Tarih ve saat sütunlarında gruplandırma
-Sürüm 10.0.24'ten itibaren, Tarih veya Tarih Saat alanları için bu seçenek yıla, aya veya güne göre gruplamaya eklenmiştir. İlgili başlık satırı içindeki "değer" grubu, o alandaki biçimle eşleşir. Ayrıca, Tarih Saat ve Saat alanları için saat, dakika veya saniyeye göre gruplayabilirsiniz. 
+Tarih veya Tarih Saat alanlarında gruplandırma yaptığınızda, yıla, aya veya güne göre gruplama seçeneğine sahip olursunuz. İlgili başlık satırı içindeki "değer" grubu, o alandaki biçimle eşleşir. Ayrıca, Tarih Saat ve Saat alanları için saat, dakika veya saniyeye göre gruplayabilirsiniz.
+
+> [!IMPORTANT]
+> Kullanıcılar şu anda bir tarih veya saat sütunundaki bir segmentte gruplandırma yaptıktan sonra gruplandırma sütunu ekleyemez.
 
 ## <a name="freezing-columns"></a>Sütunları dondurma
 Izgaradaki bazı sütunlar, bağlam açısından görünümün dışında kalmalarını istemeyeceğiniz kadar önemli olabilir. Bunun yerine, bu sütunlardaki değerlerin her zaman görünür olmasını isteyebilirsiniz. **Kılavuzdaki sütunları dondurma** özelliği kullanıcılara bu esnekliği sağlar. 
+
+[![Kılavuzdaki sütunları dondurma.](./media/gridFreezingColumns-07-25-2022.gif)](./media/gridFreezingColumns-07-25-2022.gif)
 
 Bir sütunu dondurmak için sütunun üst bilgisine sağ tıklayın ve **Sütunu dondur**'u seçin. Bu adımı ilk kez tamamladığınızda, seçili sütun ilk sütun olur ve artık görünümden kaymaz. Dondurulan sonraki sütunlar son dondurulmuş sütunun sağına eklenir. Dondurulmuş sütunları gereken şekilde yeniden sıralamak için standart taşıma işlevini kullanabilirsiniz. Ancak, dondurulmuş sütunlar, dondurulmamış sütunlar kümesi arasında görünecek şekilde taşınamaz. Benzer şekilde, dondurulmamış sütunlar, dondurulmuş sütunlar kümesi arasında görünecek şekilde taşınamaz.
 
@@ -143,21 +169,21 @@ Bir sütunu çözmek için donmuş sütunun üst bilgisine sağ tıklayın ve **
 Yeni ızgaradaki satır seçimi ve satır durumu sütunlarının, her zaman ilk iki sütun olarak dondurulduğunu unutmayın. Bu nedenle, bu sütunlar bir ızgaraya dahil edildiğinde, kılavuzdaki yatay kaydırma konumundan bağımsız olarak her zaman kullanıcılar tarafından görülecektir. Bu iki sütun yeniden sıralanamaz.
 
 ## <a name="autofit-column-width"></a>Otomatik olarak sütun genişliğine sığdır
-Excel'e benzer şekilde, kullanıcılar bir sütunu o sütunda o anda gösterilen içeriğe göre yeniden boyutlandırmaya otomatik olarak zorlayabilir. Bunu yapmak için, sütundaki boyutlandırma tutamaçlarını çift tıklatın veya odağı sütun başlığına yerleştirin ve **A**'ya basın (otomatik sığdırma için). Bu özellik 10.0.23 sürümünden itibaren sunulmaktadır.
+Excel'de olduğu gibi kullanıcılar, bir sütunu sütun içinde o anda gösterilen içeriğe göre otomatik olarak yeniden boyutlandırılmaya zorlayabilir. Yalnızca sütunda boyutlandırma tutamaçlarına iki kez dokunmanız (veya çift tıklatmanız) yeterlidir. Alternatif olarak, odağı sütun başlığına yerleştirip **A** tuşunu (otomatik sığdırma için) seçebilirsiniz.
 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Yeni kılavuz denetimini ortamımda nasıl etkinleştirebilirim? 
 
 **Yeni kılavuz denetimi** özelliği, herhangi bir ortamda doğrudan Özellik yönetiminde kullanılabilir. Özellik yönetiminde özelliği etkinleştirdikten sonra, sonraki tüm kullanıcı oturumları yeni ızgara denetimini kullanır. 
 
-Bu özellik, 10.0.21 sürümünden itibaren varsayılan olarak etkinleştirilir ve Ekim 2022'de zorunlu hale gelmesi hedeflenmiştir.  
+Bu özellik 10.0.21 sürümünde varsayılan olarak etkinleştirilmeye başlanmıştır. 2022 Ekim'de zorunlu hale gelmesi hedeflenmiştir.
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Geliştirici] Ayrı sayfalar için yeni ızgarayı kullanmayı devre dışı bırakma 
 Kuruluşunuz yeni kılavuzla ilgili bazı sorunlar içeren bir sayfayı saptadığı zaman, tek bir formun, sistemin geri kalanında yeni kılavuz denetimiyle yararlanmaya devam ederken, eski kılavuz denetimini kullanmasına izin veren bir API kullanılabilir. Ayrı bir sayfayı yeni kılavuzdan geri çevirmek için forma ait `run()` yöntemine aşağıdaki `super()` çağrı gönderisini ekleyin.
 
 ```this.forceLegacyGrid();```
 
-Bu API, yeni kılavuz denetimi zorunlu hale gelene kadar geçerli olacaktır. Bu değişiklik şu anda Ekim 2022 için hedeflenmiştir. Herhangi bir sorun bu API'nin kullanılmasını gerektiriyorsa, bunları Microsoft'a bildirin.
+Bu API, eski kılavuz denetiminin kaldırılmasına izin vermek için kullanım dışı kalacaktır. Ancak, kullanım dışı bırakma duyurusu yapıldıktan sonra en az 12 ay kullanılabilir durumda kalacaktır. Herhangi bir sorun bu API'nin kullanılmasını gerektiriyorsa, bunları Microsoft'a bildirin.
 
 ### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Daha önce ızgarayı devre dışı bıraktıktan sonra bir sayfayı yeni ızgarayı kullanmaya zorlama
 Yeni ızgaranın tek bir sayfada kullanılmamasını seçtiyseniz ilgili sorunlar çözüldükten sonra yeni ızgarayı yeniden etkileştirmek isteyebilirsiniz. Bunu yapmak üzere `forceLegacyGrid()` için çağrıyı kaldırmanız gerekir. Değişiklik, aşağıdakilerden biri gerçekleşene kadar etkili olmaz:
@@ -181,6 +207,11 @@ Tek bir kılavuzu zaman uyumsuz satır doğrulamasının dışında tutmak için
 ## <a name="developer-size-to-available-width-columns"></a>[Geliştirici] Boyutlandırılabilir sütunlar
 Bir geliştirici yeni kılavuzun içindeki sütunlar için **WidthMode** özelliğini **SizeToAvailable** olarak ayarladığında, bu sütunlar, özelliğin **SizeToContent** olarak ayarlanmış olması durumunda, ilk başta sahip olacakları aynı genişliğe sahip olurlar. Ancak, kılavuzun içinde kullanılabilen ek bir genişliği kullanmak için genişler. Özellik birden çok sütun için **SizeToAvailable** olarak ayarlandıysa, tüm bu sütunlar kılavuzun içinde kullanılabilir olan ek bir genişliği paylaşır. Ancak, bir kullanıcı bu sütunlardan birini el ile yeniden boyutlandırırsa, sütun statik hale gelir. Bu genişlikte kalacak ve artık fazladan kullanılabilir kılavuz genişliği kaplamayacak şekilde genişlemeyecek.
 
+## <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Geliştirici] Aşağı ok tuşu kullanılarak yeni satırlar oluşturulurken ilk odağı alan sütunu belirtme
+[Sistemden önce veri girerken farklılıklar](#differences-when-entering-data-ahead-of-the-system) konusunda ele alındığı gibi, "Sistemden önce yazma" özelliği etkinse ve bir kullanıcı **Aşağı ok** tuşunu kullanarak yeni bir satır oluşturursa varsayılan davranış, odağı yeni satırdaki ilk sütuna almaktır. Bu deneyim eski kılavuzdaki deneyimden veya **Yeni** düğmesi seçildiğindeki deneyimden farklılık gösterebilir.
+
+Kullanıcılar ve kuruluşlar veri girişi için en iyi duruma getirilmiş, kaydedilmiş görünümler oluşturabilir. (Örneğin, ilk sütunun veri girmeye başlamak istediğiniz ilk sütun olması için sütunları yeniden sıralayabilirsiniz.) Ek olarak, sürüm 10.0.29 itibariyle kuruluşlar, **selectedControlOnCreate()** yöntemini kullanarak bu davranışı ayarlayabilir. Bu yöntem, **Aşağı ok** tuşu kullanılarak yeni bir satır oluşturulurken geliştiricilerin ilk odağı alacak sütunu belirtmesine olanak tanır. Giriş olarak bu API, ilk odağı alması gereken sütuna karşılık gelen denetim kimliğini alır.
+
 ## <a name="known-issues"></a>Bilinen sorunlar
 Bu bölüm, yeni ızgara denetimiyle ilgili bilinen sorunların listesini içerir.
 
@@ -194,10 +225,6 @@ Bu bölüm, yeni ızgara denetimiyle ilgili bilinen sorunların listesini içeri
     Bir kullanıcı bu durumlardan biriyle karşılaştığında, sayfayı yenileme hakkında bir ileti görüntülenecektir. Bu ileti görüntülendikten sonra, bir sonraki ürün sürümü güncelleştirilinceye kadar, sayfa tüm kullanıcılar için varolan kılavuzla çalışmaya devam eder. Yeni kılavuzun kullanılabilmesi amacıyla gelecekteki bir güncelleştirme için bu senaryoların daha iyi işlenmesi dikkate alınacaktır.
 
 - [BB 4582758] Yakınlaştırmayı 100'den başka bir yüzdeye değiştirdiğinizde kayıtlar bulanıklaşır
-- [BB 4592012] Excel'den birden çok satır yapıştırırken IE11 içinde beklenmeyen istemci hatası
-
-    Microsoft bu sorun için bir düzeltme aramamaktadır
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

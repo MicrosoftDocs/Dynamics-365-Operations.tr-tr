@@ -1,26 +1,26 @@
 ---
 title: ER geçiş temizleme
 description: Bu makalede, ER şablonları ile ilgili sorunları gidermek için ER geçiş temizleme işlevini nasıl kullanabileceğiniz açıklanmaktadır.
-author: NickSelin
+author: kfend
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERWorkspace, ERParameters, ERMigrationCleanup
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 0b81f2f83209807f0d095bb7114b2361f3ce6154
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERWorkspace, ERParameters, ERMigrationCleanup
+ms.openlocfilehash: bf32981ed5f43647038018bf2cd98e55ce233b3f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892522"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285106"
 ---
 # <a name="er-migration-cleanup"></a>ER geçişi temizleme 
 

@@ -1,26 +1,26 @@
 ---
 title: Genelleştirme özelliği bileşenleri
 description: Bu makalede, Genelleştirme özellik bileşenlerine dair genel bir bakış sağlanmaktadır.
-author: dkalyuzh
+author: gionoder
 ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5525332fe3f1a3ea96da630dc34bab82e4117f99
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 94e2d118c332a15f41f33184f5e44b0fdaccd000
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891502"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275241"
 ---
 # <a name="globalization-feature-components"></a>Genelleştirme özelliği bileşenleri
 

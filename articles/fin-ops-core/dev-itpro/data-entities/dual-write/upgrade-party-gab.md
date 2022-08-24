@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 02ab3675db0d78efa1e4e43188d79bb1e763a713
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 7141f9c7ae4e27013bd655ce78892fc44c181315
+ms.sourcegitcommit: e14648b01549bdc17998ffdef6cde273d4e78560
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111833"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "9242997"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Taraf ve genel adres defteri modeline yükseltme
 
@@ -274,7 +274,7 @@ Bu bölümde, Taraf posta adresi ve Taraf elektronik adres Data Factory şablonl
 
     ![Dataverse Taraf kayıtlarını içe aktarma.](media/data-factory-import-party.png)
 
-9. Data Factory'de, Taraf posta adresi ve Taraf elektronik adres şablonlarını art arda çalıştırın.
+9. Veri fabrikasında, Taraf elektronik adresi ve ardından Taraf posta adresi şablonlarını art arda çalıştırın.
 
     + Taraf posta adresi şablonu, Customer Engagement uygulamasında bulunan tüm posta adresi kayıtlarını çıkarır ve bunları ilgili **Firma**, **İlgili kişi** ve **Satıcı** kayıtlarıyla ilişkilendirir. Ayrıca üç .csv dosyası da oluşturur: ImportFONewPostalAddressLocation.csv, ImportFONewPartyPostalAddress.csv ve ImportFONewPostalAddress.csv.
     + Taraf elektronik adres şablonu, Customer Engagement uygulamasında bulunan tüm elektronik adres kayıtlarını çıkarır ve bunları ilgili **Firma**, **İlgili kişi** ve **Satıcı** kayıtlarıyla ilişkilendirir. Ayrıca bir .csv dosyası oluşturur: ImportFONewElectronicAddress.csv.

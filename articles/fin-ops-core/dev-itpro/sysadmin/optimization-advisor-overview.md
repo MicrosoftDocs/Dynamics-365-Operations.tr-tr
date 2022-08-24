@@ -1,26 +1,26 @@
 ---
 title: En iyi duruma getirme danışmanına genel bakış
 description: Bu makalede, finans ve operasyon uygulamalarının optimum yapılandırmasını sağlamaya yardımcı olacak İyileştirme danışmanını nasıl kullanabileceğiniz açıklanmaktadır.
-author: roxanadiaconu
+author: kamaybac
 ms.date: 07/23/2019
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
-ms.assetid: ''
+ms.reviewer: kamaybac
 ms.search.region: global
-ms.search.industry: ''
-ms.author: sericks
+ms.author: kamaybac
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: fb71453c37572c4956d98d4309d3526a7fbc1124
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.assetid: ''
+ms.search.industry: ''
+ms.search.form: SelfHealingWorkspace
+ms.openlocfilehash: f24e8dfecb04f928994bb5a197d32a7279022512
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109055"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281370"
 ---
 # <a name="optimization-advisor-overview"></a>En iyi duruma getirme danışmanına genel bakış
 
