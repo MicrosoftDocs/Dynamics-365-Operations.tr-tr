@@ -2,7 +2,7 @@
 title: Giden iş yükü görselleştirmesi
 description: Bu makalede giden iş yükü görselleştirmesi hakkında bilgiler verilmiştir. Bu işlevsellik, ambar yöneticilerinin ve denetçilerinin geçerli işin ilerlemesini ve kalan miktarını izlemek için kullanılabilecek özel iş yükü grafikleri oluşturmasına olanak tanır. Ambar yöneticileri birden çok görünüm oluşturabilir ve istedikleri gibi otomatik yenileme ayarlayabilir.
 author: Mirzaab
-ms.date: 08/28/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0e5a2cd2aa458217ff212d45c0dd13c9d0623bd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 78d0d81095bb52a314936dd7590a5690d94ecb15
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851347"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334430"
 ---
 # <a name="outbound-workload-visualization"></a>Giden iş yükü görselleştirmesi
 
@@ -29,7 +29,7 @@ Bu işlevsellik, malzeme çekme işinin ilerlemesini izlemek için kullanılabil
 
 ## <a name="turn-the-outbound-workload-visualization-feature-on-or-off"></a>Giden iş yükü görselleştirmesi özelliğini açma veya kapatma
 
-Supply Chain Management sürüm 10.0.25 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Giden iş yükü görselleştirmesi* özelliğini bularak bu işlevi açabilir veya kapatabilir.
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.25 itibarıyla özellik varsayılan olarak açıktır. Supply Chain Management sürüm 10.0.29 itibarıyla, özellik zorunludur ve kapatılamaz. 10.0.29 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Giden iş yükü görselleştirmesi* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="set-up-outbound-workload-visualizations"></a>Giden iş yükü görselleştirmesi görselleştirmesini ayarlama
 

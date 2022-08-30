@@ -2,7 +2,7 @@
 title: Madde konsolidasyonu - yerleşim kullanımı
 description: Bu makale, ambar yöneticilerinin ambar içindeki yerleşimlerin hacimsel kullanımını görüntülemesini ve filtrelemesini kolaylaştıran işlev hakkında bilgi sağlar. Yöneticiler yerleşimleri seçip maddeleri konsolide etmek ve böylece ambar alanını daha iyi kullanabilmek için Madde Konsolidasyonu sayfasından doğrudan stok hareketi işi oluşturabilirler.
 author: Mirzaab
-ms.date: 07/16/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 7c78954659c125c919ed0debbd81023a3da02db3
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d0e52769de3f200e2bb3060b3d9cb19dc0847b69
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219457"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336438"
 ---
 # <a name="item-consolidation---location-utilization"></a>Madde konsolidasyonu - yerleşim kullanımı
 
@@ -30,8 +30,8 @@ Bu makale, ambar yöneticilerinin ambar içindeki yerleşimlerin hacimsel kullan
 
 Bu makalede açıklanan özellikleri kullanabilmeniz için, önce bunları sisteminizde açmanız gerekir. Yöneticiler bu özelliklerin durumunu denetlemek ve gerekirse etkinleştirmek için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanabilir. Aşağıdaki özelliklerin her ikisini de listelendikleri sırayla açın. (Her iki özellik de **Ambar Yönetimi** modülünde yer alır.)
 
-1. *Ambar yerleşimi durumu* (sürüm 10.0.29 itibariyle bu özellik varsayılan olarak açıktır. Daha fazla bilgi için bkz. [Ambar yerleşimi durumu](warehouse-location-status.md)).
-2. *Madde konsolidasyon yerleşimi kullanımı*
+1. *Ambar yerleşimi durumu*<br>(Supply Chain Management sürüm 10.0.29 itibarıyla, bu özellik zorunludur ve kapatılamaz. Daha fazla bilgi için bkz. [Ambar yerleşimi durumu](warehouse-location-status.md)).
+2. *Madde konsolidasyon yerleşimi kullanımı*<br>(Supply Chain Management sürüm 10.0.29 itibariyle, bu özellik varsayılan olarak açıktır.)
 
 ## <a name="warehouse-location-status"></a>Ambar yerleşimi durumu
 

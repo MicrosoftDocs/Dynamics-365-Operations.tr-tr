@@ -2,7 +2,7 @@
 title: Dalga yürütme bildirimleri
 description: Bu makale, dalga yürütme bildirimlerini ve bunları nasıl ayarlayabileceğinizi açıklamaktadır.
 author: Mirzaab
-ms.date: 04/03/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 5c8fa259e51f024d19c1f2f7e84ed7edd0ddb7e1
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: a6a554965c11eea3b4fa53fe4dbc4bac04624026
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069043"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336590"
 ---
 # <a name="wave-execution-notifications"></a>Dalga yürütme bildirimleri
 
@@ -32,7 +32,7 @@ Gezinti çubuğunun sağ tarafındaki **iletileri göster** düğmesi (çan semb
 
 ## <a name="turn-the-wave-execution-notifications-feature-on-or-off"></a>Dalga yürütme bildirimleri özelliğini açma veya kapatma
 
-Supply Chain Management sürüm 10.0.25 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Dalga yürütme bildirimleri* özelliğini bularak bu işlevi açabilir veya kapatabilir.
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.25 itibarıyla özellik varsayılan olarak açıktır. Supply Chain Management sürüm 10.0.29 itibarıyla, özellik zorunludur ve kapatılamaz. 10.0.29 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Dalga yürütme bildirimleri* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="scenario-send-wave-batch-execution-notifications-to-the-action-center"></a>Senaryo: İşlem merkezine dalga toplu iş yürütme bildirimleri gönderme
 

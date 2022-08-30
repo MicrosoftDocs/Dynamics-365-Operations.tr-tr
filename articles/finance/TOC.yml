@@ -8,10 +8,12 @@
           items:
             - name: Finans ve operasyon uygulamalarındaki yenilikler veya değişiklikler
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?context=/dynamics365/context/finance
-            - name: Finance'taki yenilikler veya değişiklikler
+            - name: Finance uygulamasındaki yenilikler veya değişiklikler
               items:
-                - name: Finance'taki yenilikler ve değişiklikler giriş sayfası
+                - name: Finance uygulamasındaki yenilikler veya değişiklikler giriş sayfası
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.29 (Ekim)
+                  href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (Ağustos)
                   href: get-started/whats-new-changed-10-0-28.md
                 - name: Finance 10.0.27 (Temmuz)
@@ -62,9 +64,11 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/finance
                 - name: Hizmet güncelleştirmeleri hakkında bilgilendirilme
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/finance
+                - name: Proaktif kalite güncelleştirmeleri
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/finance
                 - name: Veri görevi otomasyonu
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/finance
-                - name: One Version'ı kullanarak ISV çözümlerini sunma
+                - name: One Version'ı kullanarak ISV (Bağımsız Yazılım Satıcısı) çözümlerini sunma
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?context=/dynamics365/context/finance
                 - name: Kullanıcı kabul testlerini oluşturma ve otomatikleştirme
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?context=/dynamics365/context/finance
@@ -1114,6 +1118,8 @@
                       href: general-ledger/tasks/process-ledger-allocation-journal.md
                     - name: Yevmiye defteri girişlerini veya hareketlerini görüntüleme
                       href: general-ledger/tasks/view-journal-entries-or-transactions.md
+                    - name: Genel muhasebe fişlerindeki dahili verilere yapılan düzenlemelere izin verme
+                      href: general-ledger/allow-edits-internal-data-gl-vouchers.md
                     - name: Yevmiye defterinden ilgili şirketlerarası fişi görüntüleme
                       href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
                     - name: Excel'den yevmiye defteri satırlarını ve belgeleri yayımlama
@@ -1568,14 +1574,20 @@
                           href: localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/finance
                         - name: Mısır için Elektronik Faturalamayı kullanmaya başlama
                           href: localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/finance
+                        - name: Fransa için Elektronik Faturalamayı kullanmaya başlama
+                          href: localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/finance
                         - name: Meksika için Elektronik Faturalamayı kullanmaya başlama
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
+                        - name: Polonya için Elektronik Faturalamayı kullanmaya başlama
+                          href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
                         - name: Suudi Arabistan için Elektronik faturalamayı kullanmaya başlama
-                          href: localizations/e-invoicing-sa-get-started.md
+                          href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
+                        - name: Suudi Arabistan'da Elektronik Faturalamayı ekleme
+                          href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance
                         - name: SDI ile İtalyan FatturaPA doğrudan tümleştirmesini ayarlama
-                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md?context=/dynamics365/context/finance
                         - name: Satıcı faturalarını içeri aktarmak için elektronik faturalama servisini kullanma
-                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md?context=/dynamics365/context/finance
                     - name: Elektronik Faturalama ile ilgili SSS
                       href: localizations/e-invoicing-faq.md?context=/dynamics365/context/finance
                 - name: Vergi Hesaplama
@@ -1648,6 +1660,10 @@
                           items:
                             - name: KDV beyannamesi
                               href: localizations/emea-nor-vat-declaration.md
+                        - name: Polonya için raporlama
+                          items:
+                            - name: KDV beyannamesi
+                              href: localizations/emea-pol-vat-declaration.md
                         - name: İspanya için raporlama
                           items:
                             - name: 'KDV Hakkında Hemen Bilgi Sağlama (Suministro Inmediato de Información del IVA, SII)'
@@ -1714,6 +1730,8 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Satıcı faturasındaki satış vergisini hesaplama ve ayarlama
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: Yevmiye defterleri aracılığıyla satış vergisini ayarlama
+                      href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: Günlükte ertelenen vergi hesaplamasını etkinleştirme
                       href: general-ledger/enable-delayed-tax-calculation.md
                     - name: Satış vergisi ödemesi oluşturma
@@ -1766,10 +1784,12 @@
                       href: general-ledger/tasks/set-up-withholding-tax.md
                     - name: Genel stopaj vergisi
                       items:
-                        - name: Global stopaj vergisine genel bakış
+                        - name: Genel stopaj vergisine genel bakış
                           href: general-ledger/global-withholding-tax-overview.md
-                        - name: Global stopaj vergisini ayarlama
+                        - name: Genel stopaj vergisini ayarlama
                           href: general-ledger/set-up-global-withholding-tax.md
+                        - name: Genel stopaj vergisi para birimi döviz kuru türü ve tarih türü kurulumunu etkinleştirme
+                          href: general-ledger/global-withholding-tax-currency-exchange-rate-date-type-setup.md
                         - name: Satın alma hareketlerinde stopaj vergisi
                           href: general-ledger/withholding-tax-in-purchase-transactions.md
                         - name: Satış hareketlerinde stopaj vergisi
@@ -1948,7 +1968,9 @@
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
                     - name: NF-e XML dosyalarını ek olarak taşıma
                       href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
-                    - name: NT2020.005 – Elektronik mali belgesinde (NF-e) düzen ve doğrulama güncellemeleri
+                    - name: NT2021.004 – Elektronik mali belgede (NF-e) düzen ve doğrulama güncelleştirmeleri
+                      href: localizations/latam-bra-nfe-nt2021.004.md
+                    - name: NT2020.005 – Elektronik mali belgede (NF-e) düzen ve doğrulama güncelleştirmeleri
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 – NF-e için aracı satışları dijital platformu
                       href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
@@ -2552,11 +2574,13 @@
                       href: localizations/apac-ind-news-letter-10-0-00.md
                 - name: Muhasebe yazılımı için denetim kaydı ve düzenleme günlükleri
                   href: localizations/apac-ind-audit-trail-edit-logs-accounting-software.md
+                - name: Hindistan'da elektronik faturalar
+                  href: localizations/apac-ind-e-invoices.md
                 - name: Dolaylı vergiler
                   items:
-                    - name: Hindistan GST'si
+                    - name: Hindistan'da GST
                       items:
-                        - name: Hindistan GST'sine genel bakış
+                        - name: Hindistan'da GST'ye genel bakış
                           href: localizations/apac-ind-gst.md
                         - name: Vergi altyapısı
                           items:
@@ -3548,6 +3572,10 @@
                           href: localizations/rus-set-up-inventory-profile.md
                         - name: Belgeler ve sorgularda stok profili kullanma
                           href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: Gümrükleme
+                      items:
+                        - name: Gümrükleme ile çalışma
+                          href: localizations/rus-work-with-customs-clearance.md
                 - name: Raporlama
                   items:
                     - name: Mali raporlama
@@ -3574,13 +3602,15 @@
                       href: localizations/rus-officials.md
                     - name: Şirket bölümleri
                       href: localizations/rus-company-divisions.md
-                    - name: Rusça adres biçimleri ve FIAS'dan içeri aktarma
+                    - name: Rusça adres biçimleri ve FIAS'tan içeri aktarma
                       href: localizations/rus-russian-address-format-and-import-from-FIAS.md
+                    - name: Resmi Adres Kayıt Makamı'ndan (GAR) içe aktarma
+                      href: localizations/rus-russian-address-format-import-gar.md
                 - name: Ertelemeler
                   items:
                     - name: Ertelemeleri ayarlama
                       href: localizations/rus-set-up-deferrals.md
-                    - name: Ertelemeler oluşturma veya üretme
+                    - name: Ertelemeler oluşturma
                       href: localizations/rus-create-generate-deferrals.md
                     - name: Erteleme girişi
                       href: localizations/rus-deferral-transactions.md
@@ -4069,6 +4099,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/finance
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/finance
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/finance
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/finance
                         - name: Split

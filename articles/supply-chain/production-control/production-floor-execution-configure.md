@@ -2,7 +2,7 @@
 title: Üretim katı yürütme arabirimini yapılandırma
 description: Bu makale, üretim katı yürütme arabirimi için bir veya daha fazla konfigürasyon oluşturmayı açıklamaktadır. Üretim katı yürütme arabirimini açtığınızda, seçilen bir konfigürasyon ve tarayıcıya ve cihaza özel iş filtresini otomatik olarak yükler. Konfigürasyonda, belirli bir kullanım için geçerli olması gereken ilkeleri ayarlayabilirsiniz.
 author: johanhoffmann
-ms.date: 10/05/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2a77924e6133158d538a3eb8365def92c9354b0e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: ae574e25c5ef0c1736ec13e2ee3fcc11b323721f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220377"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336200"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimini yapılandırma
 
@@ -63,29 +63,32 @@ Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olar
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimi için varlık yönetim işlevi
 
-Bu özellik, üretim tabanı yürütme arabirimine bir kıymet yönetimi sekmesi ekler. Çalışanlar bu sekmeyi, iş listesinin seçili filtresinde bulunan makine kaynağına bağlı bir kıymeti seçmek için kullanabilir. Çalışan, seçili makine kıymeti için en fazla dört seçili sayaçtaki sayaç değerlerinden kıymetin durumunu ve sistem durumunu görebilir. Bu özelliği kullanmak için [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) bulunan şu özelliği açın:
+Bu özellik, üretim tabanı yürütme arabirimine bir kıymet yönetimi sekmesi ekler. Çalışanlar bu sekmeyi, iş listesinin seçili filtresinde bulunan makine kaynağına bağlı bir kıymeti seçmek için kullanabilir. Çalışan, seçili makine kıymeti için en fazla dört seçili sayaçtaki sayaç değerlerinden kıymetin durumunu ve sistem durumunu görebilir.
 
-- *Üretim katı yürütme arabirimi için varlık yönetim işlevi*<br>(Supply Chain Management sürüm 10.0.25 itibariyle, bu özellik varsayılan olarak açıktır.)
+Supply Chain Management sürüm 10.0.25 itibariyle, bu özellik varsayılan olarak açıktır. Supply Chain Management sürüm 10.0.29 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.29 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Üretim katı yürütme arabirimi için varlık yönetim işlevi* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
-### <a name="enable-job-search"></a>İş aramasını etkinleştir
+### <a name="job-search"></a>İş arama
 
-Bu özellik, iş listesine bir arama alanı eklemeyi mümkün kılar. Çalışanlar iş kimliği girerek belirli bir iş bulabilir veya sipariş kimliği girerek belirli bir sipariş için tüm işleri bulabilirler. Çalışanlar kimliği tuş takımı kullanarak veya barkod tarayarak girebilir. Kullanmak için [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) bulunan şu özellikleri açın:
+Bu özellik, iş listesine bir arama alanı eklemeyi mümkün kılar. Çalışanlar iş kimliği girerek belirli bir iş bulabilir veya sipariş kimliği girerek belirli bir sipariş için tüm işleri bulabilirler. Çalışanlar kimliği tuş takımı kullanarak veya barkod tarayarak girebilir.
 
-- *Üretim katı yürütme arabiriminde iş arama*<br>(Supply Chain Management sürüm 10.0.25 itibariyle, bu özellik varsayılan olarak açıktır.)
+Supply Chain Management sürüm 10.0.25 itibariyle, bu özellik varsayılan olarak açıktır. Supply Chain Management sürüm 10.0.29 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.29 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Üretim katı yürütme arabiriminde iş arama* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
-### <a name="enable-reporting-on-co-products-and-by-products"></a>Ortak ürünlerde ve yan ürünlerde raporlamayı etkinleştir
+### <a name="report-on-co-products-and-by-products"></a>Ortak ürünler ve yan ürünler bildirme
 
-Bu özellik, çalışanların toplu iş emirleriyle ilgili ilerlemeyi bildirmek için üretim tabanı yürütme arabirimini kullanmasına olanak tanır. Bu raporlama, ortak ürünlerde ve yan ürünlerde raporlamayı içerir. Bu işlevi kullanmak getirmek için, [Özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin:
+Bu özellik, çalışanların toplu iş emirleriyle ilgili ilerlemeyi bildirmek için üretim tabanı yürütme arabirimini kullanmasına olanak tanır. Bu raporlama, ortak ürünlerde ve yan ürünlerde raporlamayı içerir.
 
-- *Üretim katı yürütme arabiriminden ortak ve yan ürünler raporu*
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.29 itibarıyla özellik varsayılan olarak açıktır. Yöneticiler, [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Üretim katı yürütme arabiriminden ortak ve yan ürünler raporu* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
-### <a name="enable-the-display-of-full-serial-batch-and-license-plate-numbers"></a>Tam seri, toplu iş ve plaka numarası gösterilmesini etkinleştir
+### <a name="display-full-serial-batch-and-license-plate-numbers"></a>Tam seri, toplu iş ve plaka numarası gösterme
 
 Bu özellik, üretim katı yürütme arabiriminde seri numara, toplu iş ve plaka numarası listelerini görüntülemek için iyileştirilmiş bir deneyim sağlar. Ekran, sınırlı sayıda karakter bulunan bir kart görünümünden tam değerleri göstermek için yeterli alan sağlayan bir liste görünümüne dönüşür. Liste ayrıca belirli numaraları arama olanağı da sağlar.
 
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.25 itibarıyla özellik varsayılan olarak açıktır. Supply Chain Management sürüm 10.0.29 itibarıyla, özellik zorunludur ve kapatılamaz. 10.0.29'dan eski bir sürüm kullanıyorsanız yöneticiler, [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Üretim katı yürütme arabiriminde tam seri, toplu iş ve plaka numarası gösterilmesini etkinleştir* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
+
+
 Supply Chain Management sürüm 10.0.25 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler, [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Üretim katı yürütme arabiriminde tam seri, toplu iş ve plaka numarası gösterilmesini etkinleştir* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
-### <a name="enable-registering-of-material-consumption"></a>Malzeme tüketimini kaydetmeyi etkinleştirme
+### <a name="register-material-consumption"></a>Malzeme tüketimini kaydet
 
 Bu özellik, çalışanların malzeme tüketimini, toplu iş numaralarını ve seri numaralarını kaydetmek için üretim katı yürütme arabirimini kullanmalarını sağlar. Özellikle proses endüstrilerindekiler olmak üzere bazı üreticilerin, her bir toplu iş veya üretim emri için tüketilen malzeme miktarını açıkça kaydetmesi gerekir. Örneğin, çalışanlar çalışırken tüketilen malzeme miktarını tartmak için bir ölçek kullanabilir. Tam malzeme izlenebilirliğini sağlamak için bu kuruluşların her ürünü üretirken hangi parti numaralarının tüketildiğini de kaydetmeleri gerekir.
 
@@ -97,7 +100,7 @@ Bu özelliğin iki versiyonu vardır. Yalnızca ambar yönetimi işlemlerini (WM
 > [!IMPORTANT]
 > WMS olmayan özelliğini tek başına kullanabilirsiniz. Ancak, WMS kullanırsanız, her iki özelliği de etkinleştirmeniz gerekir.
 
-### <a name="enable-reporting-on-catch-weight-items"></a>Fiili ağırlık maddelerinde raporlamayı etkinleştirme
+### <a name="report-on-catch-weight-items"></a>Fiili ağırlık maddeleri raporlama
 
 Çalışanlar, fiili ağırlık maddeleri için toplu iş emirleriyle ilgili ilerlemeyi bildirmek için üretim tabanı yürütme arabirimini kullanabilir. Toplu iş emirleri formüllerden oluşturulur ve bu formüller, formül maddeleri, ortak ürünler ve ürünler olarak fiili ağırlığa sahip olacak şekilde tanımlanabilir. Bir formül, fiili ağırlık olarak tanımlanan malzemeler için formül satırlarına sahip olacak şekilde de tanımlanabilir. Fiili ağırlık maddeleri stoğu izlemek için iki ölçü birimi kullanır: fiili ağırlık miktarı ve stok miktarı. Örneğin, yiyecek endüstrisinde kutulanmış et, fiili ağırlık miktarının kutu sayısını izlemek için kullanıldığı ve kutuların ağırlığını izlemek için stok miktarının kullanıldığı bir fiili ağırlık maddesi olarak tanımlanabilir.
 
@@ -105,15 +108,13 @@ Bu işlevi kullanmak getirmek için, [Özellik yönetiminde](../../fin-ops-core/
 
 - *Üretim katı yürütme arabiriminden elde edilen fiili ağırlık öğeleriyle ilgili rapor*
 
-### <a name="enable-the-my-day-dialog"></a>"Günüm" iletişim kutusunu etkinleştirin
+### <a name="the-my-day-dialog"></a>"Günüm" iletişim kutusu
 
 **Günüm** iletişim kutusu, çalışanlara günlük kayıtlarına ve ücretli zaman, ücretli fazla mesai, devamsızlık ve ücretli devamsızlık için geçerli bakiyelerine genel bir bakış sağlar.
 
-Bu işlevi kullanmak getirmek için, [Özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin:
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.29 itibarıyla özellik varsayılan olarak açıktır. Yöneticiler, [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Üretim katı yürütme arabirimi için "Günüm" görünümü* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
-- *Üretim katı yürütme arabirimi için "Günüm" görünümü*
-
-### <a name="enable-teams"></a>Takımları etkinleştir
+### <a name="teams"></a>Takımlar
 
 Aynı üretim işine birden fazla işçi atandığında, bir ekip oluşturabilirler. Ekip, bir çalışanı pilot olarak aday gösterebilir. Kalan işçiler ardından otomatik olarak bu pilotun asistanı olurlar. Ortaya çıkan ekip için, yalnızca pilot iş durumunu kaydetmelidir. Zaman kayıtları tüm ekip üyeleri için geçerlidir.
 
@@ -121,7 +122,7 @@ Bu işlevi kullanmak getirmek için, [Özellik yönetiminde](../../fin-ops-core/
 
 - *Üretim katı yürütme arabiriminde üretim takımları*
 
-### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimindeki ek yapılandırmayı etkinleştirme
+### <a name="additional-configuration-in-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimindeki ek yapılandırma
 
 Bu özellik, **Üretim taban yürütmesini konfigüre et** sayfasına aşağıdaki işlev için ayarlar ekler:
 
@@ -136,7 +137,6 @@ Ayarların nasıl kullanılacağı hakkında bilgi bu makalenin ilerleyen bölü
 Bu işlevi kullanmak getirmek için, [Özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin:
 
 - *Üretim katı yürütme arabirimindeki ek yapılandırma*
-
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Üretim katı yürütme arabirimi yapılandırmalarıyla çalışma
 

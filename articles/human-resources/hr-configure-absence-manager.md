@@ -14,17 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40f9607fb6fc16b96373141d8d2610538e3fdec7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b752b722bf63958fc35b10a4612f7f02e2e8e717
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886116"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337107"
 ---
 # <a name="configure-the-absence-manager-role"></a>Devamsızlık yöneticisi rolünü yapılandırma
 
->[!Important]
->Bu makalede belirtilen işlevler şu anda tek başına Dynamics 365 Human Resources uygulamasını kullanan müşteriler için kullanıma sunulmaktadır. İşlevlerin bazıları veya tümü, Finance 10.0.26 sürümünden sonra Finance altyapısında ileride yayınlanacak bir sürümünün parçası olarak kullanılabilir.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -37,7 +35,6 @@ Bazı kuruluşlarda, çalışan yöneticileri ekiplerinin iznini yönetmeyebilir
 ## <a name="turn-on-the-feature"></a>Özelliği etkinleştirme
 
 1. **Sistem yönetimi** çalışma alanında **Özellik yönetimi**'ni seçin.
-
 2. **Özellik yönetimi** sekmesinde, **İzinleri devamsızlık yöneticisi yönetsin** özelliğini etkinleştirin.
 
 ## <a name="define-a-custom-hierarchy"></a>Özel hiyerarşi tanımlama
@@ -45,37 +42,26 @@ Bazı kuruluşlarda, çalışan yöneticileri ekiplerinin iznini yönetmeyebilir
 Devamsızlık yöneticisi işlevi, yapılandırılması gereken özel bir hiyerarşi kullanır.
 
 1. **Kuruluş yönetimi** çalışma alanında **Pozisyon hiyerarşisi türleri**'ni seçin.
-
 2. **İzin** adlı bir pozisyon hiyerarşisi türü oluşturun.
-
 3. **İzin ve devamsızlık** çalışma alanında, **Bağlantılar** altında **İzin ve devamsızlık parametreleri**'ni seçin.
-
 4. **Genel** sekmesinde, **Devamsızlık hiyerarşisi** açılan listesinde, daha önce oluşturduğunuz hiyerarşi türünden **İzin**'i seçin. Bu İzin hiyerarşisi ilişkilendirmesi, devamsızlık yöneticisi işlevselliğinin kullanılacağı her tüzel kişilik için tamamlanmalıdır.
 
 Hiyerarşi türü tanımlandıktan sonra, pozisyon hiyerarşisi raporu pozisyona atanmalıdır.
 
 1. **Kuruluş Yönetimi** çalışma alanında **Tüm pozisyonlar**'ı seçin.
-
 2. İzin hiyerarşisinin ekleneceği konumu seçin.
-
 3. **İlişkiler** sekmesinde **Ekle**'yi seçin.
-
 4. **Hiyerarşi adı** alanında **İzin**'i seçin.
-
 5. **Raporlama yapacağı pozisyon** alanında bir pozisyon seçin. Bir pozisyon seçtikten sonra çalışan adı otomatik olarak doldurulur.
 
 ## <a name="assign-the-absence-manager-role-to-a-user"></a>Devamsızlık yöneticisi rolünü kullanıcıya atama
 
 İzin isteklerini onaylamalarını veya reddetmelerini sağlamak için personele Devamsızlık yöneticisi rolü atanmalıdır.
 
-1. **Sistem yöneticisi** çalışma alanında **Bağlantılar**'ı seçin.
-
+1. **Sistem yönetimi** çalışma alanında **Bağlantılar**'ı seçin.
 2. **Kullanıcılar** bölümünde, **Kullanıcılar** bağlantısını seçin.
-
 3. Kullanıcı listesinde, Devamsızlık yöneticisi rolünün atanacağı kullanıcıyı seçin.
-
 4. **Kullanıcının rolü** sekmesinde, **Rol ata**'ya tıklayın.
-
 5. Listeden **Devamsızlık yöneticisi** rolünü seçin. Daha sonra **Tamam**'ı seçin.
 
     > [!IMPORTANT]
@@ -84,7 +70,6 @@ Hiyerarşi türü tanımlandıktan sonra, pozisyon hiyerarşisi raporu pozisyona
 6. İzin hiyerarşisini oluşturduktan sonra şu adımları izleyerek görüntüleyebilirsiniz:
 
     1. **Kuruluş Yönetimi** çalışma alanında **Pozisyon hiyerarşisi**'ni seçin.
-    
     2. **Hiyerarşi türü** alanında **İzin**'i seçin.
 
 ## <a name="absence-manager-workspace"></a>Devamsızlık yöneticisi çalışma alanı
@@ -115,9 +100,7 @@ Devamsızlık yöneticileri, personelin izin isteklerini onaylayabilir veya redd
 > İzin isteği iş akışını oluşturma hakkında bilgi için bkz. [İzin isteği iş akışı oluşturma](hr-leave-and-absence-workflow.md).
 
 1. **Çalışan self servisi** çalışma alanında, **İzin yönetimi** sekmesini seçin.
-
 2. **İzin istekleri** sekmesinde, işlem yapmak istediğiniz izin isteklerini seçin. Bu liste görünümünde birden fazla kayıt seçebilirsiniz.
-
 3. İzin isteğini Onaylamak, Reddetmek veya Devretmek için ızgaranın üst kısmındaki eylem düğmelerini kullanın. 
 
 Alternatif olarak, kullanıcı ayrıca soldaki **İzin istekleri** kutucuğunu kullanarak izin isteği iş öğelerinin listesine de gidebilir. 
@@ -130,9 +113,7 @@ Devamsızlık yöneticisi rolündeki kullanıcılar izin isteklerini takvimlerin
 > Sistem yöneticisi, devamsızlık yöneticisi takvimi için görünüm seçeneklerini yapılandırmalıdır. **İzin ve devamsızlık parametreleri** sayfasında, **Takvim** sekmesinde, doğum günlerini, ayrıntı içermeyen devamsızlıkları, devamsızlıkları ve bekleyen izin isteklerini gizleme veya gösterme seçenekleri vardır. Takvim görünümü seçeneğini çalışan türüne göre filtreleme seçeneği de vardır.
 
 1. **Personel self servisi** çalışma alanında, **İzin yönetimi**'ni ve ardından **Devamsızlık yöneticisi takvimi**'ni seçin.
-
 2. **Tarih** alanına istediğiniz tarihleri girin.
-
 3. Görünüm seçeneklerini gerektiği gibi güncelleştirin.
 
 Devamsızlık yöneticisi takvimi, İzin hiyerarşisinde devamsızlık yöneticisine rapor veren çalışanların tüm kayıtlarını gösterir.

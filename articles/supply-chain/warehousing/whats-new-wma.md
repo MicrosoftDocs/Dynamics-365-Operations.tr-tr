@@ -10,18 +10,26 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 19193cc445bc9c7d79463734d7d5787737ecc4f7
-ms.sourcegitcommit: 6989ac8a20c16d384b8307b707eeaf498c32d64e
+ms.openlocfilehash: 115708ce9e71c35feb1cf370ead556847e04cbd2
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/25/2022
-ms.locfileid: "9189006"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324218"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasındaki yenilikler veya değişiklikler
 
 [!include [banner](../includes/banner.md)]
 
 Bu makale, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni özellikleri, iyileştirmeleri ve bilinen sorunları listeler.
+
+## <a name="version-20310"></a>Sürüm 2.0.31.0
+
+Bu sürüm aşağıdaki yeni özellikleri, düzeltmeleri ve iyileştirmeleri içerir.
+
+-   Gelişmiş performans ve kararlılık.
+-   Uzun seçim listeleriyle çalışmayı daha hızlı ve kolay kılan kullanıcı arabirimi geliştirildi. Çalışanlar şimdi liste öğesini tam listede gezinmek yerine ada göre arayabilir.
+-   Karaktere göre tarama yapılırken önceden girilmiş değerlerin üzerine yazılamama sorunu düzeltildi.
 
 ## <a name="version-20300"></a>Sürüm 2.0.30.0
 

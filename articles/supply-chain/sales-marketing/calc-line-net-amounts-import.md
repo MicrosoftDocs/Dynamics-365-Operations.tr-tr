@@ -2,7 +2,7 @@
 title: Satış siparişlerini, teklifleri ve iadeleri içe aktarırken satır net tutarlarını yeniden hesaplama
 description: Bu makalede, satış siparişleri, teklifler ve iadeler içe aktarıldığında sistemin satır net tutarlarını yeniden hesaplayıp hesaplamayacağı ve bunu nasıl yapacağı açıklanır. Ayrıca, Microsoft Dynamics 365 Supply Chain Management'ın farklı sürümlerindeki davranışı nasıl denetleyebileceğinizi de açıklar.
 author: Henrikan
-ms.date: 06/08/2022
+ms.date: 08/05/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2022-06-08
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: ce34a6be7bc3d14e23bdd8769aa71dc035b983b3
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 08b30044a93e46c9c83848b60d69c595bc774570
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220636"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335570"
 ---
 # <a name="recalculate-line-net-amounts-when-importing-sales-orders-quotations-and-returns"></a>Satış siparişlerini, teklifleri ve iadeleri içe aktarırken satır net tutarlarını yeniden hesaplama
 
@@ -36,7 +36,7 @@ Bu belirli senaryolarda ticari sözleşme değerlendirme ilkesinin etkisi, satı
 
 ## <a name="control-calculations-of-line-net-amounts-in-versions-10029-and-later"></a>10.0.29 ve sonraki sürümlerdeki satır net tutarlarının hesaplamalarını kontrol etme
 
-Supply Chain Management 10.0.29, *İçeri aktarma sırasında satır net tutarını hesapla* adlı bir özellik kullanıma sunmuştur. Bu özellik, **Alacak hesapları parametreleri** sayfasına **Satır net tutarını hesapla** adlı bir seçenek ekler. Bu seçenek içe aktarma sırasında satır net tutarlarını hesaplamada kullanılacak yeni ve eski davranışlar arasından seçim yapmanızı sağlar.
+Supply Chain Management sürüm 10.0.29 ile *İçeri aktarma sırasında satır net tutarını hesapla* adlı bir özellik kullanıma sunmuştur. Bu özellik, **Alacak hesapları parametreleri** sayfasına **Satır net tutarını hesapla** adlı bir seçenek ekler. Bu seçenek içe aktarma sırasında satır net tutarlarını hesaplamada kullanılacak yeni ve eski davranışlar arasından seçim yapmanızı sağlar.
 
 ### <a name="turn-the-calculate-line-net-amount-on-import-feature-on-or-off"></a>İçeri aktarma sırasında satır net tutarını hesapla özelliğini açma veya kapatma
 

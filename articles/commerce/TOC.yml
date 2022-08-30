@@ -10,8 +10,10 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?context=/dynamics365/context/commerce
             - name: Commerce'teki yenilikler veya değişiklikler
               items:
-                - name: Commerce'teki yenilikler ve değişiklikler giriş sayfası
+                - name: Commerce'teki yenilikler veya değişiklikler giriş sayfası
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.29 (Ekim 2022)
+                  href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (Temmuz 2022)
                   href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27 (Temmuz 2022)
@@ -60,9 +62,11 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/commerce
                 - name: Hizmet güncelleştirmeleri hakkında bilgilendirilme
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/commerce
+                - name: Proaktif kalite güncelleştirmeleri
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/commerce
                 - name: Veri görevi otomasyonu
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/commerce
-                - name: One Version'ı kullanarak ISV çözümlerini sunma
+                - name: One Version'ı kullanarak ISV (Bağımsız Yazılım Satıcısı) çözümlerini sunma
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?context=/dynamics365/context/commerce
                 - name: Kullanıcı kabul testlerini oluşturma ve otomatikleştirme
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?context=/dynamics365/context/commerce
@@ -418,10 +422,12 @@
                       href: dev-itpro/gift-card-cash-out.md
                     - name: Siparişleri başka bir mağazadan sevk etme
                       href: charge-send.md
-                    - name: POS sevkiyat iletişim kutusundan taşıyıcı dışındaki teslimat modlarını gizle
+                    - name: POS sevkiyat iletişim kutusundan taşıyıcı dışındaki teslimat modlarını gizleme
                       href: hide-non-carrier-modes.md
                     - name: MPOS ve Cloud POS için Görev kaydedici ve Yardım
                       href: task-recorder-retail-pos.md
+                    - name: CPOS'u özel bir Azure AD uygulaması kullanacak şekilde yapılandırma
+                      href: cpos-custom-aad.md
                     - name: Donanım çevre birimleri
                       items:
                         - name: Çevre birimleri
@@ -694,13 +700,13 @@
                   href: optimal-combination-overlapping-discounts.md
                 - name: Kanala özel iskontolar tanımlama
                   href: define-channel-specific-discounts.md
-                - name: Perakende ürün iskontolarını önlemek için seçenekler
+                - name: Perakende ürün iskontolarını önlemeye yönelik seçenekler
                   href: prevent-discounts.md
                 - name: Ödeme tabanlı iskontolar
                   href: tender_based_discounts.md
-                - name: Sevkiyat iskontosuna genel bakış
-                  href: retail-shipping-discount.md
-                - name: Hediyeyi satın alma promosyonlarıyla yapılandırma
+                - name: Sevkiyat iskontosu
+                  href: shipping-discount.md
+                - name: Satın alma promosyonlarıyla hediye yapılandırma
                   href: gift-with-purchase.md
                 - name: Kuponları ayarlama
                   href: retail-coupons.md
@@ -710,10 +716,14 @@
                   href: price-report.md
                 - name: Kanala özel ticari sözleşmeler oluşturma
                   href: tasks/base-price-trade-agreements.md
-                - name: Kategori fiyatlandırma kuralları kullanarak ticaret sözleşmeleri oluşturma
+                - name: Kategori fiyatlandırma kurallarını kullanarak ticari sözleşmeler oluşturma
                   href: tasks/category-pricing-rules-trade-agreements.md
                 - name: Tam fiyat ve iskonto hesaplamasını erteleme
                   href: delayed-price-calculation.md
+                - name: POS'taki fiyatlandırma işlevleri
+                  href: pos-pricing-functions.md
+                - name: Commerce fiyatlandırma API'leri
+                  href: pricing-apis.md
             - name: Öneriler
               items:
                 - name: Ürün önerilerine genel bakış
@@ -872,13 +882,15 @@
               href: async-customer-mode.md
             - name: Zaman uyumsuz müşterileri zaman uyumlu müşterilere dönüştürme
               href: convert-async-to-sync.md
+            - name: Zaman uyumsuz müşteri oluşturma modu hakkında SSS
+              href: async-customer-mode-faq.md
             - name: Müşteri rehberliği
               items:
                 - name: Müşteri rehberliğine genel bakış
                   href: clienteling-overview.md
-            - name: Bağlılık
+            - name: Bağlılık programı
               items:
-                - name: Bağlılığa genel bakış
+                - name: Bağlılık programına genel bakış
                   href: set-up-customer-loyalty-program.md
                 - name: Bağlılık programları tanımlama
                   href: tasks/define-loyalty-programs.md
@@ -1252,6 +1264,10 @@
                       href: product-collection-module-overview.md
                     - name: Hızlı görünüm modülü
                       href: quick-view-module.md
+                - name: Ürün karşılaştırma modülleri
+                  items:
+                    - name: Ürün karşılaştırma modülleri
+                      href: product-comparison-modules.md
                 - name: Gezinti modülleri
                   items:
                     - name: İçerik haritası modülü
@@ -1272,7 +1288,11 @@
                   items:
                     - name: Tanımlama bilgisi onay modülü
                       href: cookie-consent-module.md
-            - name: Arama yapma
+                - name: Sohbet modülleri
+                  items:
+                    - name: Commerce sohbet modülü
+                      href: commerce-chat-module.md
+            - name: Arama
               items:
                 - name: Varsayılan kategori açılış sayfası ve arama sonuçları sayfasına genel bakış
                   href: category-search-page-overview.md
@@ -1404,8 +1424,6 @@
               items:
                 - name: Avusturya için mali kayıt hizmeti tümleştirme örneği
                   href: localizations/emea-aut-fi-sample.md
-                - name: Avusturya için yazar kasalara ilişkin dağıtım kılavuzları
-                  href: localizations/emea-aut-deployment.md
                 - name: Avusturya için mali tümleştirme örneğine yönelik dağıtım kılavuzları (eski)
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brezilya
@@ -1502,6 +1520,8 @@
                   href: localizations/emea-nor-cash-registers.md
                 - name: Yazar kasalara ilişkin dağıtım kılavuzları
                   href: localizations/emea-nor-fi-deployment.md
+                - name: Norveç için eski işlevlerden geçiş yapma
+                  href: localizations/emea-nor-fi-migration.md
                 - name: Yazar kasalara ilişkin dağıtım kılavuzları (eski)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Rusya
@@ -1764,6 +1784,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/commerce
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/commerce
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/commerce
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/commerce
                         - name: Split
@@ -2480,11 +2502,11 @@
           items:
             - name: Çapraz çözüm
               items:
-                - name: Commerce SDK'sine genel bakış
+                - name: Commerce SDK'ye genel bakış
                   items:
-                    - name: Örnekler ve referans paketleri
+                    - name: Commerce SDK örneklerini ve referans paketlerini indirme
                       href: dev-itpro/retail-sdk/sdk-github.md
-                    - name: Eski Retail SDK'si geçişi
+                    - name: Eski Retail SDK geçişi
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
                     - name: 'Geçersiz ve kaldırılan API''ler, sınıflar ve yöntemler'
                       href: dev-itpro/obsolete-apis-classes-methods.md

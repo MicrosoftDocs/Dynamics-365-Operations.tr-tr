@@ -2,7 +2,7 @@
 title: Stok değeri raporları
 description: Bu makale stok değer rporlarıın nasıl kurulacağı, oluşturulacağı ve kullanılacağını açıklar. Bu raporlar, stoğunuzun fiziksel ve mali miktarları ve tutarlarınız hakkında ayrıntılar sağlar.
 author: JennySong-SH
-ms.date: 10/19/2021
+ms.date: 08/05/2022
 ms.topic: article
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3128abb25fdb8f8e01b4d1fe153f5b5fff6cb706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f97b5bd228c6f769438d50bb27950b8d8fbda3e8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854572"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334940"
 ---
 # <a name="inventory-value-reports"></a>Stok değeri raporları
 
@@ -55,7 +55,7 @@ Rapor sonuçları **Stok değeri** veri varlığında depolanır. Bu nedenle, so
 
 ## <a name="turn-the-inventory-value-report-storage-feature-on-or-off"></a>Stok değeri raporu depolama özelliğini açma veya kapatma
 
-Supply Chain Management sürüm 10.0.25 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Stok değeri raporu depolama* özelliğini bularak bu işlevi açabilir veya kapatabilir.
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.25 itibarıyla özellik varsayılan olarak açıktır. Supply Chain Management sürüm 10.0.29 itibarıyla, özellik zorunludur ve kapatılamaz. 10.0.29 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Stok değeri raporu depolama alanı* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="define-inventory-value-report-configurations"></a><a name="report-configuration"></a>Stok değeri rapor yapılandırmalarını tanımla
 

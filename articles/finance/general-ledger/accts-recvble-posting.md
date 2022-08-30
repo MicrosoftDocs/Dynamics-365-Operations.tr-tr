@@ -15,18 +15,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 492bbd31cae08a93cd68e5ce120d02a62141241b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d679595a1f702c4e3ade138a87c817d245fcf79
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874588"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324344"
 ---
 # <a name="accounts-receivable-posting"></a>Alacak hesaplarının deftere nakli
 
 [!include [banner](../includes/banner.md)]
 
 **Alacak hesapları** modülünün birincil deftere nakil profili müşteri deftere nakil profilidir. Bu deftere nakil profili, müşteri bakiyeleri genel muhasebeye nakledildiğinde kullanılan özet hesabı belirler. Özet hesabı bir ana hesaptır. Alacak hesapları ticari hesabı olarak da adlandırılır.
+
+Müşteri ve genel muhasebe hesaplarının bakiyelerinin mutabakatına yardımcı olmak üzere deftere nakilden sonra **Müşteri - genel muhasebe mutabakatı** raporu kullanılabilir. Rapor, müşteri deftere nakil profili için özet hesapta bulunan bilgileri kullanır. Belge için oluşturulan muhasebeden özet hesabı kullanmaz. Hareketleri deftere naklettikten sonra müşteri deftere nakil profilinde veya müşteriye atanan müşteri grubunda değişiklik yaparsanız rapor, müşteri ve genel muhasebe hesabı bakiyesi arasındaki farkları görüntüleyebilir. Yalnızca farkları olan satırları ve müşteri hesaplarının ve genel muhasebe hesabının sıfır olduğu satırların tümünü görmek için raporu yazdırırken **Yalnızca farklar** parametresini seçin.
 
 Daha fazla bilgi için [Müşteri deftere nakil profilleri](../accounts-receivable/customer-posting-profiles.md) konusuna bakın.
 

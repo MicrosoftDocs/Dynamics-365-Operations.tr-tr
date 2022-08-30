@@ -2,7 +2,7 @@
 title: Yeteneğe dayalı kaynak seçimi ile zamanlama
 description: Bu makalede, bir işlem için kaynak gereksinimleri olarak yetenekler belirterek sonsuz kapasite zamanlaması gerçekleştirilirken kaynak seçimi açıklanmaktadır.
 author: t-benebo
-ms.date: 9/3/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: RouteInventProd, WrkCtrTable, WrkCtrCapability
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 26b2b65a2d565052b188f4d70f0cc0a773cd7b43
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4a3c8236183b81ad015b43d7dbf869c177eafd44
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847976"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335420"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Yeteneğe dayalı kaynak seçimi ile zamanlama
 
@@ -24,12 +24,9 @@ ms.locfileid: "8847976"
 
 Üretim rotası işlemi için kaynak gereksinimlerini belirterek o işlemi gerçekleştirmek için neyin gerekli olduğunu tanımlarsınız. Örneğin, bir işlem belirli bir kaynağı veya kaynak grubunu ya da beceri veya yeteneklerin bir birleşimini gerektirebilir. Bu makalede, bir işlem için kaynak gereksinimleri olarak yetenekler belirterek sonsuz kapasite zamanlaması gerçekleştirilirken kaynak seçimi açıklanmaktadır.
 
-## <a name="turn-on-the-capability-based-scheduling-feature"></a>Yetenek tabanlı zamanlama özelliğini açma
+## <a name="turn-the-capability-based-scheduling-feature-on-or-off"></a>Yetenek tabanlı planlama özelliğini açma veya kapatma
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
-
-- **Modül:** *Master planlama*
-- **Özellik adı:** *Planlama Optimizasyonu için sonsuz kapasite zamanlaması*
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.29 itibarıyla özellik varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Planlamayı En İyi Duruma Getirme için sonsuz kapasite planlaması* özelliğini bularak bu işlevi açabilir veya kapatabilir.
 
 Bu özellik hakkında daha fazla bilgi için bkz. [Sonsuz kapasiteyle zamanlama](infinite-capacity-planning.md).
 

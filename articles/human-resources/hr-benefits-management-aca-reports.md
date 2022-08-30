@@ -13,17 +13,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: d51e16345ab18904ebe55c1ec802446fc89d46d6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a56fe2b3a25a300687d81702c52614a78f2a6f61
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889736"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337082"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Sosyal Haklar yönetiminde ACA raporları oluşturma
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

@@ -1,24 +1,24 @@
 ---
 title: Gelir kabulü yeniden tahsisatı - Senaryo 4
 description: Bu makalede bir satırın var olan, kısmen faturalandırılmış bir satış siparişinden kaldırıldığı yeniden tahsisat senaryosu ele alınmaktadır. Bu senaryo, satırın satış siparişinden kaldırılıp kaldırılmadığına veya iptal edildi durumuna ayarlanmış olup olmamasına bakılmaksızın aynı sonucu verir.
-author: kweekley
+author: bking
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 06e6322ff55259b5c59d570b73199591ab46c767
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ec28460319e7bfabe82261ee4ed7861c4b6eb11
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891680"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348282"
 ---
 # <a name="revenue-recognition-reallocation--scenario-4"></a>Gelir kabulü yeniden tahsisatı – Senaryo 4
 

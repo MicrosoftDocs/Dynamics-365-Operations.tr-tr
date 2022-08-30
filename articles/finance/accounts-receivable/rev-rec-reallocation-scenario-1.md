@@ -1,24 +1,24 @@
 ---
 title: Gelir kabulü yeniden tahsisatı - Senaryo 1
 description: Bu makalede, iki satış siparişinin girildiği ancak yalnızca onaylandığı bir yeniden tahsisat senaryosu ele alınmaktadır. İkiden fazla satış siparişi onaylanmış durumdaysa aynı senaryo benzer sonuçlar doğurur.
-author: kweekley
+author: bking
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 597c83388937cff689748889eff29d6be1b8341a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 92af49d9446fd9ed3310d8d0d50af902e7a7e693
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876282"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348340"
 ---
 # <a name="revenue-recognition-reallocation--scenario-1"></a>Gelir kabulü yeniden tahsisatı – Senaryo 1
 

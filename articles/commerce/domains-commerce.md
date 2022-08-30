@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce'taki etki alanları
 description: Bu makalede, etki alanlarının Microsoft Dynamics 365 Commerce uygulamasında nasıl yönetildiği açıklanmaktadır.
 author: BrianShook
-ms.date: 05/10/2022
+ms.date: 08/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
 ms.search.industry: retail
 ms.search.form: ''
-ms.openlocfilehash: 9bd925b7bf27748b3c17946de72a76bc0d0200d7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 08d6d52175bb7a77259cbd38b15f466deeab0846
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9288462"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336758"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Dynamics 365 Commerce'taki etki alanları
 
@@ -109,6 +109,10 @@ commerce.dynamics.com uç noktasının kendisi üzerindeki etki alanı sorgulama
 Bir front door hizmeti veya CDN kullanarak özel etki alanları ayarlamak için iki seçeneğiniz vardır:
 
 - Ön uç trafiği yönetmek ve Commerce ortamınıza bağlamak için, Azure Front Door gibi bir front door hizmeti kurun. Bu, etki alanı ve sertifika yönetimi ve daha ayrıntılı güvenlik ilkeleri üzerinde daha fazla denetim sağlar.
+
+> [!NOTE]
+> Harici bir CDN veya Front Door hizmeti kullanıyorsanız, isteğin Commerce tarafından sağlanan ana bilgisayar adı ile Commerce platformunda yer aldığından ancak X-Forwarded-Host (XFH) başlığıyla \<custom-domain\> bulunduğundan emin olun. Örneğin Commerce uç noktanız `xyz.dynamics365commerce.ms` ve özel etki alanınız `www.fabrikam.com` olduğunda iletilen isteğin ana bilgisayar adının `xyz.dynamics365commerce.ms` ve XFH başlığının `www.fabrikam.com` olması gerekir.
+
 - Commerce tarafından sağlanan Azure Front Door örneğini kullanın. Bu, etki alanı doğrulaması için Dynamics 365 Commerce ekibi ile eşgüdümlü eylemi ve üretim etki alanınız için SSL sertifikaları elde etmeyi gerektirir.
 
 CDN hizmetinin doğrudan nasıl kurulacağı hakkında bilgi için, bkz. [İçerik teslim ağı (CDN) için destek ekleme](add-cdn-support.md).
@@ -141,14 +145,18 @@ Var olan/etkin etki alanları için:
 
 ## <a name="apex-domains"></a>Zirve etki alanları
 
-Commerce tarafından sağlanan Azure Front Door örneği zirve etki alanlarını (alt etki alanı içermeyen kök etki alanları) desteklemez. Zirve etki alanları çözümlemek için bir IP adresi gerektirir ve Commerce Azure Front Door örneği yalnızca sanal uç noktalarda bulunur. Zirve bir etki alanı kullanmak için iki seçeneğiniz vardır:
+Commerce tarafından sağlanan Azure Front Door örneği zirve etki alanlarını (alt etki alanı içermeyen kök etki alanları) desteklemez. Zirve etki alanları çözümlemek için bir IP adresi gerektirir ve Commerce Azure Front Door örneği yalnızca sanal uç noktalarda bulunur. Zirve bir etki alanı kullanmak için aşağıdaki seçenekleriniz vardır:
 
 - **Seçenek 1:** Zirve etki alanını bir "www" etki alanına yönlendirmek için DNS sağlayıcınızı kullanın. Örneğin, `www.fabrikam.com` Commerce tarafından barındırılan Azure Front Door örneğine işaret eden CNAME kaydının olduğu `www.fabrikam.com` adresine yönlendirilir.
 
-- **Seçenek 2:** Zirve etki alanını barındırmak için kendi kendinize bir CDN/Front Door örneği kurun.
+- **Seçenek 2** - DNS sağlayıcınız DİĞER AD kayıtlarını destekliyorsa, Apex etki alanını Front Door uç noktasına yöneltebilirsiniz. Bu, front door uç noktası tarafından yapılan IP değişikliğinin yansıtılmasını sağlar.
+  
+- **Seçenek 3** - DNS sağlayıcınız DİĞER AD kayıtlarını desteklemiyorsa, Apex etki alanını barındırmak için bir CDN veya front door örneği kurmanız gerekir.
 
 > [!NOTE]
 > Azure Front Door kullanıyorsanız, aynı abonelikte bir Azure DNS'yi de ayarlamanız gerekir. Azure DNS'de barındırılan zirve etki alanı, bir diğer ad kaydı olarak Azure Front Door hizmetine işaret edebilir. Bu, zirve etki alanlarının her zaman bir IP adresine işaret etmesi gerektiğinden geçici bir çözümdür.
+  
+Apex etki alanlarıyla ilgili herhangi bir sorunuz varsa lütfen [Microsoft Desteğine](https://support.microsoft.com/) başvurun.
 
   ## <a name="additional-resources"></a>Ek kaynaklar
 

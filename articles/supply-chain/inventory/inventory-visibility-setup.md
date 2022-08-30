@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ce81ed2ed79bfe5c7fff9724e14af150817af11f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895713"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306069"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Inventory Visibility'yi yükleme ve ayarlama
 
@@ -88,20 +88,6 @@ Azure AD'ye uygulama kaydedip istemci gizli anahtarı ekledikten sonra şu adım
 >
 > 1. Yükleme tamamlandıktan sonra, LCS sayfasına geri dönün ve **Stok Görünürlüğü** eklentisini yeniden yüklemeyi deneyin.
 
-## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Stok Görünürlüğü Eklentisi'ni kaldırma
-
-Stok Görünürlüğü Eklentisi'ni kaldırmak için LCS sayfasında **Kaldır**'ı seçin. Kaldırma işlemi, Stok Görünürlüğü Eklentisi'ni sonlandırır, LCS'den eklentinin kaydını iptal eder ve Stok Görünürlüğü Eklentisi veri önbelleğinde depolanan geçici verileri siler. Ancak Dataverse aboneliğinizde depolanan birincil stok verileri silinmez.
-
-Dataverse aboneliğinizde depolanan stok verilerini kaldırmak için [Power Apps](https://make.powerapps.com) uygulamasını açın, gezinti çubuğunda **Ortam** seçeneğini belirleyin ve LCS ortamınızla bağlantılı Dataverse ortamını seçin. Ardından **Çözümler**'e gidin ve aşağıdaki beş çözümü şu sırayla silin:
-
-1. Dynamics 365 çözümlerinde Stok Görünürlüğü uygulaması için bağlayıcı çözümü
-1. Dynamics 365 FNO SCM Stok Görünürlüğü Uygulamalar Çözümü
-1. Stok Hizmeti Yapılandırması
-1. Tek Başına Stok Görünürlüğü
-1. Dynamics 365 FNO SCM Stok Görünürlüğü Temel Çözümü
-
-Bu çözümler silindikten sonra tablolarda depolanan veriler de silinir.
-
 ## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Supply Chain Management uygulamasında Stok Görünürlüğü'nü ayarlama
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Stok Görünürlüğü tümleştirme paketini dağıtma
@@ -135,10 +121,45 @@ Eklentiyi yükledikten sonra aşağıdaki adımları uygulayarak Supply Chain Ma
 
 1. İsteğe bağlı *Rezervasyon denkleştirme ile Stok Görünürlüğü tümleştirmesi* özelliğini etkinleştirdiyseniz **Reservasyon denkleştirme** sekmesini açın ve aşağıdaki ayarları yapın:
     - **Rezervasyon denkleştirmeyi etkinleştir**: Bu işlevi etkinleştirmek için *Evet* olarak ayarlayın.
-    - **Rezervasyon denkleştirme değiştirici**: Stok Görünürlüğü'nde yapılan rezervasyonları denkleştirecek stok hareketi durumunu seçin. Bu ayar, denkleştirme işlemlerini tetikleyen sipariş işleme aşamasını belirler. Aşama, siparişin stok hareketi durumuna göre izlenir. Aşağıdakilerden birini seçin:
+    - **Rezervasyon denkleştirme değiştirici**: Stok Görünürlüğü'nde yapılan rezervasyonları denkleştirecek stok hareketi durumunu seçin. Bu ayar, denkleştirme işlemlerini tetikleyen sipariş işleme aşamasını belirler. Aşama, siparişin stok hareketi durumuna göre izlenir. Aşağıdaki seçeneklerden birini belirleyin:
         - *Siparişte*: *Harekette* durumu için sipariş oluşturulduğunda bir denkleştirme isteği gönderir. Denkleştirme miktarı, oluşturulan siparişin miktarıdır.
         - *Rezerve edilmiş*: *Rezerve edilmiş siparişli hareket* durumu için sipariş, rezerve edildiğinde, alındığında, sevk irsaliyesi deftere nakledildiğinde veya faturalandığında bir denkleştirme isteği gönderir. İstek, belirtilen işlem gerçekleştiğinde ilk adım için yalnızca bir kez tetiklenir. Denkleştirme miktarı, ilgili sipariş satırında stok hareketi durumunun *Siparişte* yerine *Siparişli rezerve miktar* (veya sonraki durum) olarak değiştirildiği miktardır.
 
 1. **Stok Yönetimi \> Periyodik \> Stok Görünürlüğü Tümleştirmesi**'ne gidin ve işi etkinleştirin. Supply Chain Management'taki tüm stok değişikliği olayları artık Stok Görünürlüğü'ne nakledilecektir.
+
+## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Stok Görünürlüğü Eklentisi'ni kaldırma
+
+Stok Görünürlüğü Eklentisi'ni kaldırmak için aşağıdaki adımları izleyin:
+
+1. Supply Chain Management'ta oturun açın.
+1. **Stok Yönetimi \> Periyodik \> Stok Görünürlüğü Tümleştirmesi**'ne gidin ve işi devre dışı bırakın.
+1. LCS'ye gidin ve eklentiyi kaldırmak istediğiniz ortam sayfasını açın (ayrıca bkz. [Stok Görünürlüğü Eklentisini yükleme](#install-add-in)).
+1. **Kaldır**'ı seçin.
+1. Kaldırma işlemi, Stok Görünürlüğü Eklentisi'ni sonlandırır, LCS'den eklentinin kaydını iptal eder ve Stok Görünürlüğü Eklentisi veri önbelleğinde depolanan geçici verileri siler. Ancak, Dataverse aboneliğinize eşitlenmiş olan birincil stok verileri burada depolanmaya devam eder. Bu verileri silmek için bu yordamın geri kalan bölümünü tamamlayın.
+1. [Power Apps](https://make.powerapps.com)'i açın.
+1. Gezinti çubuğunda **Ortam**'ı seçin
+1. LCS ortamınız ile ilgili olan Dataverse ortamını seçin.
+1. **Çözümler**'e gidin ve aşağıdaki çözümleri şu sırayla silin:
+    1. Dynamics 365 çözümlerindeki Inventory Visibility uygulamasına yönelik bağlayıcı çözümü
+    1. Dynamics 365 FNO SCM Stok Görünürlüğü Uygulamalar Çözümü
+    1. Stok Hizmeti Yapılandırması
+    1. Tek Başına Stok Görünürlüğü
+    1. Dynamics 365 FNO SCM Stok Görünürlüğü Temel Çözümü
+
+    Bu çözümler silindikten sonra tablolarda depolanan veriler de silinir.
+
+> [!NOTE]
+> Stok Görünürlüğü Eklentisini kaldırdıktan sonra bir Supply Chain Management veritabanını geri yüklerseniz ve sonra eklentiyi yeniden yüklemek isterseniz, eklentiyi yeniden yüklemeden önce Dataverse aboneliğinizde depolanan eski Stok Görünürlük verilerini (önceki yordamda açıklandığı gibi) sildiğinizden emin olun. Bu durum, aksi takdirde ortaya çıkabilecek veri tutarsızlığı sorunlarını engeller.
+
+## <a name="clean-inventory-visibility-data-from-dataverse-before-restoring-the-supply-chain-management-database"></a><a name="restore-environment-database"></a>Supply Chain Management veritabanını geri yüklemeden önce Dataverse'den Stok Görünürlük verilerini temizleme
+
+Stok Görünürlüğünü kullanıyor olmanız ve sonra Supply Chain Management veritabanınızı geri yüklemeniz durumunda geri yüklenen veritabanınız daha önce Stok Görünürlüğü ile Dataverse'e eşitlenen veriler ile artık tutarlı olmayan veriler içerebilir. Bu veri tutarsızlığı sistem hatalarına ve diğer sorunlara neden olabilir. Bu nedenle, bir Supply Chain Management veritabanını geri yüklemeden önce daima tüm Stok Görünürlük verilerini Dataverse'den temizlemeniz önemlidir.
+
+Bir Supply Chain Management veritabanını geri yüklemeniz gerekiyorsa, aşağıdaki yordamı kullanın:
+
+1. Stok Görünürlüğü Eklentisini kaldırın ve [Stok Görünürlüğü Eklentisi](#uninstall-add-in) bölümünde açıklandığı şekilde Dataverse'deki tüm ilgili verileri kaldırın
+1. Supply Chain Management veritabanınızı [Veritabanını belirli noktaya geri yükleme (PITR)](../../fin-ops-core/dev-itpro/database/database-point-in-time-restore.md) veya [Üretim veritabanını korumalı alan ortamında belirli bir noktaya geri yükleme](../../fin-ops-core/dev-itpro/database/database-pitr-prod-sandbox.md) bölümünde açıklandığı şekilde geri yükleyin.
+1. Yine de kullanmak istiyorsanız yeniden yükleyin ve Stok Görünürlüğü Eklentisini [Stok Görünürlüğü Eklentisini Yükleme](#install-add-in) ve [Stok Görünürlüğü tümleştirmesini ayarlama](#setup-inventory-visibility-integration) bölümünde açıklandığı şekilde ayarlayın
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

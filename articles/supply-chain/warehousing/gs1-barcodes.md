@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 34f74c2a889b3a659831897897e2086b277256e0
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: e1c1c274054ed1c14c9b3fc0595baa029bf3124d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219793"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336380"
 ---
 # <a name="gs1-bar-codes"></a>GS1 barkodları
 
@@ -111,7 +111,7 @@ Veriler barkoddan ayrıştırıldıktan sonra, mobil aygıt akış denetimlerine
 Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
 
 - **Modül:** *Ambar yönetimi*
-- **Özellik adı:** *GS1 barkodlarını tara*
+- **Özellik adı:** *GS1 barkodlarını tarama*
 
 ### <a name="turn-on-the-enhanced-parser-for-gs1-barcodes-feature"></a>GS1 barkodları için geliştirilmiş ayrıştırıcı özelliğini açma
 

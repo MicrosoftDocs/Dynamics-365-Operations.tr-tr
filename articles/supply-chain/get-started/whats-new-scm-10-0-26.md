@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: b44b044bf10115a7fcaf347a3b6f1759c2a68cb6
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: dd98b22a2dfcd8cad62bdef2d31ac2880b3422f8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219079"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334730"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Dynamics 365 Supply Chain Management'daki yenilikler veya değişiklikler 10.0.26 (Mayıs 2022)
 
@@ -51,7 +51,6 @@ Bu özelliklerden herhangi birini açmak veya kapatmak istiyorsanız bunu [özel
 | Ürün bilgileri yönetimi | Ürün öznitelik değerlerini temizle | Bu özellik, **Ürün öznitelik değerlerini temizle** adlı bir periyodik görev ekler. Bu görev, artık ürün kategorisi aracılığıyla herhangi bir ürünle ilişkili olmayan ürün özniteliği değer kayıtlarını temizler. |
 | Stok ve ambar yönetimi | (Rusya) WMS'nin etkin olduğu öğeleri içeren satınalma siparişleri için GTD'ler verilirken ortaya çıkabilecek tutarsızlıkları engelle | Bu özellik yalnızca Rusya yerelleştirmesi içindir. Depo yönetimi süreçleri (WMS) için etkinleştirilen maddeleri içeren ithalat satınalma siparişleri için Rus gümrük beyannamesi numaraları (GTD'ler) düzenlenirken ortaya çıkan uyuşmazlıkları önler. GTD sağlama işlemi, özel günlükte yer alan faturalar için ilgili stok hareketlerinde yer alan ve satınalma siparişi için iş kayıtları ve satınalmayla ilgili stok hareketleri arasında tutarsızlık bulunan fatura boyut değerlerini değiştirir. Bu özellik etkinleştirildiğinde, GTD sağlayan işlem, bu tür tutarsızlıkları ortadan kaldıran düzeltme çalışması oluşturur. |
 | Ambar yönetimi | GS1 barkodları için geliştirilmiş ayrıştırıcı | Bu özellik, GS1 sembol verileri için gelişmiş bir Ayrıştırıcı ekler. Yeni ayrıştırıcı, GS1 sembolleri ayrıştırmak için GS1 Genel Belirtim algoritmasını uygular ve daha güçlü veri doğrulaması sağlar. Daha fazla bilgi için bkz. [GS1 barkod taraması](../warehousing/gs1-barcodes.md). |
-| Ambar yönetimi | Yeni yük planlama workbench'i sayfaları | İki yeni yük planlama workbench'i sayfasını ekler: **Gelen yük planlama workbench'i** ve **Giden yük planlama workbench'i**. |
 | Ambar yönetimi | Ambar yönetimi uygulaması - boş GTD | Bu özellik yalnızca Rusya yerelleştirmesi içindir. Gerektiğinde, Warehouse Management mobil uygulamasını kullanan çalışanların Rusça gümrük beyanname numaralarını (GTD'ler) boş bırakmasını sağlar. GTD izleme boyutu boş değerlere izin verecek şekilde ayarlandıysa, sistem sağlanan eldeki stok operasyonları için GTD için boş değerleri kabul eder. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Yeni ve güncelleştirilmiş belge kaynakları

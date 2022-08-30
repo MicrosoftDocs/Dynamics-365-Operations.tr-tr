@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: af7f4b09fd624aeda2ff002292e11cf84fd02991
-ms.sourcegitcommit: e4b6521337dfff3515f70086b0125d4c23308c71
+ms.openlocfilehash: 633daba553b1544c2caa788f4cec1da4c1da6960
+ms.sourcegitcommit: 7af116c60f3a94671a7a80c04097d70180754930
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262343"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9347302"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planlamayı En İyi Duruma Getirme uygunluk analizi
 
@@ -77,10 +77,10 @@ Aşağıdaki tabloda, bir uygunluk analizinin ardından gösterilebilecek çeşi
 | Dondurma zaman dilimi | Dondurma zaman dilimi ayarlanmış madde karşılama kayıtları: *\#* | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın, Planlamayı En İyi Duruma Getirme özelliği etkinleştirildiğinde, dondurma zaman dilimi ayarı yok sayılır. | 2022 sürüm 2 |
 | Dondurma zaman dilimi | Dondurma zaman dilimi ayarlanmış master planlar: *\#* | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın, Planlamayı En İyi Duruma Getirme özelliği etkinleştirildiğinde, dondurma zaman dilimi ayarı yok sayılır. | 2022 sürüm 2 |
 | Şirketlerarası | Planlanmış aşağı akış talebi dahil master planlar: *\#* | Bu özellik şimdi desteklenmektedir. Ek bilgi için bkz. [Şirketlerarası planlama](Intercompany-planning.md) | Destekleniyor |
-| Kanban | Planlanan sipariş türü kanban olan madde karşılama kayıtları: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, Kanban olarak ayarlanmış madde karşılama yok sayılır. Kanban planlı sipariş türü Master planlama sırasında bir uyarı oluşturacak ve planlanan satınalma siparişleri ilgili talebi kapsayacak şekilde oluşturulacaktır. | 2023 veya üstü |
-| Kanban | Varsayılan sipariş türü kanban olan maddeler: *\#* | Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, Kanban olarak ayarlanmış varsayılan sipariş türü yok sayılır. Kanban varsayılan sipariş türü Master planlama sırasında bir uyarı oluşturacak ve planlanan satınalma siparişleri ilgili talebi kapsayacak şekilde oluşturulacaktır. | 2023 veya üstü |
+| Kanban | Planlanan sipariş türü kanban olan madde karşılama kayıtları: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, Kanban olarak ayarlanmış madde karşılama yok sayılır. Kanban planlı sipariş türü Master planlama sırasında bir uyarı oluşturacak ve planlanan satınalma siparişleri ilgili talebi kapsayacak şekilde oluşturulacaktır. | Gelecekteki dalga |
+| Kanban | Varsayılan sipariş türü kanban olan maddeler: *\#* | Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, Kanban olarak ayarlanmış varsayılan sipariş türü yok sayılır. Kanban varsayılan sipariş türü Master planlama sırasında bir uyarı oluşturacak ve planlanan satınalma siparişleri ilgili talebi kapsayacak şekilde oluşturulacaktır. | Gelecekteki dalga |
 | Ürün yaşam döngüsü durumu | Ürün yaşam döngüsü durumları planlama için etkin değil: *\#* | Bu özellik şimdi desteklenmektedir. Ek bilgi için bkz. [Belirli ürün yaşam döngüsü durumlarına sahip ürünleri hariç tutma](product-lifecycle-state.md) | Destekleniyor |
-| Üretim | Yuvarlama veya birden fazla kurulum içeren ürün reçetesi satırları: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, ürün reçetesi satırlarında yuvarlama ve birden çok kurulum bu ayara bakılmaksızın yok sayılır. | 2023 veya üstü |
+| Üretim | Yuvarlama veya birden fazla kurulum içeren ürün reçetesi satırları: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, ürün reçetesi satırlarında yuvarlama ve birden çok kurulum bu ayara bakılmaksızın yok sayılır. | Gelecekteki dalga|
 | Üretim | Formül ölçümü içeren ürün reçetesi/formül satırları: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, ürün reçetesi ve formül satırlarında formül ölçümü bu ayara bakılmaksızın yok sayılır. | 2022 sürüm 2 |
 | Üretim | Madde alternatifi olan ürün reçetesi/formül satırları (plan grupları): *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, ürün reçetesi ve formül satırlarında madde alternatifi (plan grupları) bu ayara bakılmaksızın yok sayılır. | 2022 sürüm 2 |
 | Üretim | Negatif miktara sahip ürün reçetesi/formül satırları: *\#* | Bu özellik beklemededir. Negatif miktarı olan ürün reçetesi ve formül satırları 0 (sıfır) miktarıyla dahil edilir ve Planlamayı En İyi Duruma Getirme etkinleştirildiğinde bir uyarı verilir. Uyarılardan kaçınmak için ana verileri güncelleştirin. | 2022 sürüm 2 |
@@ -93,11 +93,11 @@ Aşağıdaki tabloda, bir uygunluk analizinin ardından gösterilebilecek çeşi
 | Üretim | Ortak/Yan ürünlere içeren formül sürümleri: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, formül sürümüyle ilişkilendirilmiş ortak ürünler ve yan ürünler yok sayılır. | 2022 sürüm 2 |
 | Üretim | Verim içeren Formül sürümleri: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, formül sürümüyle ilişkilendirilmiş verim yok sayılır. | 2022 sürüm 2 |
 | Üretim | Sıralama içeren planlar: *\#* | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın, Planlamayı En İyi Duruma Getirme özelliği etkinleştirildiğinde, sıralama yok sayılır. | 2022 sürüm 2 |
-| Üretim | Planlanan başlangıcı bugünden önce olan başlatılmamış serbest bırakılan üretim emirleri: *\#* | Bu özellik beklemededir. Şu anda, bir üretim emri gecikirse, master planlama bunun bugün tamamlanacağını varsayar. Bu, teslimat tarihi geçmişte olan, ancak henüz tamamlanmamış olan yayımlanmış üretim emirleriyle ilgilidir. | 2023 veya üstü |
+| Üretim | Planlanan başlangıcı bugünden önce olan başlatılmamış serbest bırakılan üretim emirleri: *\#* | Bu özellik beklemededir. Şu anda, bir üretim emri gecikirse, master planlama bunun bugün tamamlanacağını varsayar. Bu, teslimat tarihi geçmişte olan, ancak henüz tamamlanmamış olan yayımlanmış üretim emirleriyle ilgilidir. | Gelecekteki dalga |
 | Üretim | Sınırlı kapasiteyle planlanan kaynaklar: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde sınırlı kapasiteyle zamanlanan kaynaklar yok sayılır. Planlama, üründen alınan varsayılan sağlama süresine göre yapılır. | 2022 sürüm 2 |
 | Üretim | Planlamada kullanılan rotalar: *\#* | Bu özellik desteklenmektedir. | Destekleniyor |
-| Üretim | Açılım kullanılarak satış satırı rezervasyonu: *\#* | Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, açılım kullanan satış satırı rezervasyonu desteklenmez. | 2023 veya üstü |
-| Üretim | Üretim emirlerinin açılımı ile planlama: *\#* | Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, üretim emirlerinin açılımını kullanan planlama desteklenmez. Üretim emirleri ayrı olarak zamanlanabilir. | 2023 veya üstü |
+| Üretim | Açılım kullanılarak satış satırı rezervasyonu: *\#* | Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, açılım kullanan satış satırı rezervasyonu desteklenmez. | Gelecekteki dalga |
+| Üretim | Üretim emirlerinin açılımı ile planlama: *\#* | Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, üretim emirlerinin açılımını kullanan planlama desteklenmez. Üretim emirleri ayrı olarak zamanlanabilir. | Gelecekteki dalga |
 | Teklif talepleri | Teklif talepleri etkin olan master planlar: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde teklif talepleri (RFQs) talep olarak değerlendirilmez. Bu ayar ne olursa olsun yok sayılır. | 2022 sürüm 2 |
 | Talepler | Taleplerin etkin olduğu master planlar: *\#* | Bu özellik şimdi desteklenmektedir. Ek bilgi için bkz. [Satın alma talepleri](purchase-requisitions.md) | Destekleniyor |
 | Emniyet marjları | Güvenlik marjına sahip karşılama grupları: *\#* | Bu özellik şimdi desteklenmektedir. Ek bilgi için bkz. [Güvenlik marjları](safety-margins.md) | Destekleniyor |

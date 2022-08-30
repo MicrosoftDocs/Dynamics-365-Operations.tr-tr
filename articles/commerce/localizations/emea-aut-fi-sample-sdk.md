@@ -2,25 +2,29 @@
 title: Avusturya için mali tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)
 description: Bu makale, Microsoft Dynamics 365 Commerce Retail yazılım geliştirme setinden (SDK) Avusturya için mali tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 203904f60888464a473cb2997652db497fba6f57
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: f5f12dbd638c8228dbc63c1fae8f3dfffc7bfe9c
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276115"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313787"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Avusturya için mali tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Bu makale, Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) Microsoft Dynamics 365 Commerce Retail yazılım geliştirme setinden (SDK) Avusturya için mali kayıt hizmeti tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar. Bu mali tümleştirme örneği hakkında daha fazla bilgi için bkz. [Avusturya için mali kayıt hizmeti tümleştirme örneği](emea-aut-fi-sample.md). 
+> [!IMPORTANT]
+> Bu makaledeki yönergeleri yalnızca Microsoft Dynamics 365 Commerce 10.0.28 veya önceki bir sürümü kullanıyorsanız uygulamalısınız. Commerce 10.0.29 sürümü itibarıyla Avusturya için mali kayıt hizmeti tümleştirme örneği, Commerce yazılım geliştirme setinde (SDK) bulunur. Daha fazla bilgi için bkz. [Kanal bileşenlerini yapılandırma](./emea-aut-fi-sample.md#configure-channel-components).
+
+Bu makale, Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) Dynamics 365 Commerce Retail SDK'dan Avusturya için mali kayıt hizmeti tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar. Bu mali tümleştirme örneği hakkında daha fazla bilgi için bkz. [Avusturya için mali kayıt hizmeti tümleştirme örneği](emea-aut-fi-sample.md). 
 
 Avusturya için mali tümleştirme örneği, Retail SDK'nin bir parçasıdır. SDK'yi yükleme ve kullanma hakkında daha fazla bilgi için bkz. [Retail yazılım geliştirme seti (SDK) mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md). Mali tümleştirme örneği, Commerce Runtime (CRT), Hardware station ve satış noktası (POS) uzantılarından oluşur. Bu örneği çalıştırmak için CRT, Hardware station ve POS projelerini değiştirip derlemeniz gerekir. Bu makalede açıklanan değişiklikleri yapmak için değiştirilmemiş bir Retail SDK kullanmanızı öneririz. Henüz değiştirilmiş bir dosya olmadığı durumlarda, Azure DevOps gibi bir kaynak denetimi sistemi kullanmanızı öneririz.
 

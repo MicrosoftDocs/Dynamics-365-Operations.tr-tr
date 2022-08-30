@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 7f5691c5784b7b381ff805b0431d8adb1a25f1cb
-ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
+ms.openlocfilehash: d95cd9b55f473bed2e3fe69e63837040385f03ac
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9266413"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334760"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Dynamics 365 Supply Chain Management 10.0.29 önizlemesi (Ekim 2022)
 
@@ -74,10 +74,7 @@ Tablo ayrıca, daha önce genel önizlemede bulunan, ancak 10.0.29 sürümünde 
 
 | Modül | Özellik adı | Yeni özellik durumu |
 | --- | --- | --- |
-| Kıymet yönetimi | [Bir bakım planı çalıştırırken iş emirlerini gruplama kuralları uygula](../asset-management/preventive-and-reactive-maintenance/creating-work-orders.md) | Zorunlu |
 | Kıymet yönetimi | [Üretim katı yürütme arabirimi için varlık yönetim işlevi](../production-control/production-floor-execution-configure.md) | Zorunlu |
-| Kıymet yönetimi | [Sayaç tabanlı bakım geliştirmeleri](../asset-management/preventive-and-reactive-maintenance/maintenance-plans.md) | Varsayılan olarak açık |
-| Kıymet yönetimi | [İş emri faturalama](../asset-management/integration-to-project-management-and-accounting/customer-billing.md) | Zorunlu |
 | Maliyet yönetimi | [Kapatmada İptal ve ayarlama etiketini Tersine çevir olarak değiştir](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse) | Zorunlu |
 | Maliyet yönetimi | Ürün reçetesi hesaplama ayrıntıları çapraz maliyetlendirme sürümlerini temizleme | Zorunlu |
 | Maliyet yönetimi | [Madde fiyatları depolamasını karşılaştır](../cost-management/compare-item-price.md) | Zorunlu |
@@ -102,7 +99,7 @@ Tablo ayrıca, daha önce genel önizlemede bulunan, ancak 10.0.29 sürümünde 
 | Stok ve ambar yönetimi | Stok günlüklerinde ölçü birimi ve birim miktarı kullanılıyor | Zorunlu |
 | Stok ve ambar yönetimi | Stok günlüğünün kilidini açma | Zorunlu |
 | İmalat | [Otomatik olarak deftere nakledilen malzeme çekme listeleri için ambarın etkinleştirildiği malzemeleri otomatik çekme](whats-new-scm-10-0-23.md) | Genel kullanılabilir |
-| İmalat | Üretim rotası işlemleri için malzeme listesinde stok boyutlarının görüntülenmesini etkinleştir | Varsayılan olarak açık |
+| İmalat | Üretim rotası işlemleri için malzeme listesinde stok boyutlarının görüntülenmesini etkinleştir | Zorunlu |
 | İmalat | [İş Kartı Cihazında iş sona erdi bildirimi yaparken toplu iş ve seri numaralarını girmek için etkinleştirin](../production-control/report-finished-job-device.md) | Varsayılan olarak açık |
 | İmalat | İyileştirilmiş üretim fiili ağırlık miktarı çekme | Varsayılan olarak açık |
 | İmalat | [Üretim katı yürütme arabiriminde iş arama](../production-control/production-floor-execution-configure.md) | Zorunlu |
@@ -127,20 +124,19 @@ Tablo ayrıca, daha önce genel önizlemede bulunan, ancak 10.0.29 sürümünde 
 | Master planlama | [Filtreleme ile planlı sipariş kesinleştirici](../master-planning/planning-optimization/planned-order-firming.md) | Zorunlu |
 | Master planlama | [Planlama Optimizasyonu için planlı üretim emirleri](../master-planning/planning-optimization/production-planning.md) | Zorunlu |
 | Master planlama | [Planlamayı En İyi Duruma Getirme için satınalma ticari sözleşmeleri](../master-planning/planning-optimization/purchase-trade-agreement.md) | Zorunlu |
-| Master planlama | Bakım ile kaynak planlama | Zorunlu |
 | Master planlama | [Planlı siparişler için kayıtlı görünümler](saved-views-scm.md) | Zorunlu |
 | Tedarik ve kaynak atama | Satınalma siparişlerindeki masraf başlangıç ve bitiş tutarları | Zorunlu |
 | Tedarik ve kaynak atama | Satınalma talebi dağıtımı sıfırlama düğmesini devre dışı bırakma | Varsayılan olarak açık |
 | Tedarik ve kaynak atama | [Tedarikle ilgili iş akışlarını sıfırlamayı etkinleştir](whats-new-scm-10-0-20.md) | Varsayılan olarak açık |
 | Tedarik ve kaynak atama | [Toplu iş görevi başına satınalma siparişi satırlarının sayısını sınırla](whats-new-scm-10-0-27.md) | Varsayılan olarak açık |
 | Tedarik ve kaynak atama | [Satınalma siparişinde etkin boyut bağlantısı mali boyutuyla satıcıdan alınan mali boyutları birleştir](whats-new-scm-10-0-25.md) | Zorunlu |
+| Tedarik ve kaynak atama | [Stoğu tutulan ürünlerin miktarları ve stoğu tutulmayan ürünlerin kalanlarını, girişler ve satıcı faturaları için deftere naklet](whats-new-scm-10-0-26.md) | Genel kullanılabilir |
 | Tedarik ve kaynak atama | [İş akışında birden fazla satın alma talebi olduğunda genel bütçe ayırmalarının aşırı kullanımını engelle](whats-new-scm-10-0-21.md) | Varsayılan olarak açık |
 | Tedarik ve kaynak atama | [Satınalma sözleşmesi sorumlu taraf](../procurement/purchase-agreements.md) | Zorunlu |
 | Tedarik ve kaynak atama | [Satın alma siparişleri için kayıtlı görünümler](saved-views-scm.md) | Zorunlu |
 | Ürün bilgileri yönetimi | Zaman aşımını önlemek için ürün reçetesi raporunu ön işleme | Zorunlu |
 | Ürün bilgileri yönetimi | Madde şablonları kullanılırken varsayılan mali boyutlar ayrı ayrı kullanılır | Zorunlu |
 | Ürün bilgileri yönetimi | Madde şablonları için ürün boyutu gruplarını etkinleştir | Zorunlu |
-| Ürün bilgileri yönetimi | [Mühendislik Değişikliği Yönetimi'nde geliştirilmiş öznitelik devralma](../engineering-change-management/engineering-attributes-and-search.md) | Zorunlu |
 | Ürün bilgileri yönetimi | Madde - barkod varlığı geliştirmeleri | Zorunlu |
 | Ürün bilgileri yönetimi | Ürün çeşidi adlarını terminolojiye göre yeniden oluştur | Zorunlu |
 | Ürün bilgileri yönetimi | [Serbest bırakılan ürünler için kayıtlı görünümler](saved-views-scm.md) | Zorunlu |
@@ -161,27 +157,30 @@ Tablo ayrıca, daha önce genel önizlemede bulunan, ancak 10.0.29 sürümünde 
 | Satış ve pazarlama | [Tek tıklamayla satış siparişi onayı](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation) | Zorunlu |
 | Taşıma yönetimi | Deftere nakledilen satıcı faturası günlüğü olmayan navlun faturası satırları ile navlun faturalarının farklı olmasına izin ver | Varsayılan olarak açık |
 | Taşıma yönetimi | [Navlun faturası atarken satıcı fatura günlüğü oluşturmayı etkinleştir](whats-new-scm-10-0-20.md) | Varsayılan olarak açık |
-| Taşıma yönetimi | [Küçük Paket Sevkiyatı](../warehousing/small-parcel-shipping.md) | Varsayılan olarak açık |
+| Taşıma yönetimi | [Küçük Paket Sevkiyatı](../warehousing/small-parcel-shipping.md) | Zorunlu |
 | Taşıma yönetimi | [USMCA kaynak sertifikasyonu belgesi](../transportation/usmca-certification-of-origin.md) | Varsayılan olarak açık |
 | Ambar yönetimi | [Ek yerleşim bölgesi](../warehousing/additional-location-zones.md) | Zorunlu |
 | Ambar yönetimi | [İşi iptal et](../warehousing/cancel-warehouse-work.md) | Zorunlu |
-| Ambar yönetimi | [Sevkiyatı konsolide et](../warehousing/configure-shipment-consolidation-policies.md) | Varsayılan olarak açık |
+| Ambar yönetimi | [Sevkiyatı konsolide et](../warehousing/configure-shipment-consolidation-policies.md) | Zorunlu |
 | Ambar yönetimi | [Transfer emirlerini ambar uygulamasından oluştur ve işle](../warehousing/create-transfer-order-from-warehouse-app.md) | Zorunlu |
 | Ambar yönetimi | Yerleşim yönergeleri olan çapraz sevk şablonları | Varsayılan olarak açık |
-| Ambar yönetimi | [Yerine koyma işini ÖSB'lerden ayır](whats-new-scm-10-0-21.md) | Varsayılan olarak açık |
-| Ambar yönetimi | [Ertelenen yerine koyma işlemleri](../warehousing/deferred-processing-manual-inventory-movement.md) | Varsayılan olarak açık |
+| Ambar yönetimi | [Yerine koyma işini ÖSB'lerden ayır](whats-new-scm-10-0-21.md) | Zorunlu |
+| Ambar yönetimi | [Ertelenen yerine koyma işlemleri](../warehousing/deferred-processing-manual-inventory-movement.md) | Zorunlu |
 | Ambar yönetimi | Ertelenen yerine koyma - konteyner | Varsayılan olarak açık |
 | Ambar yönetimi | Ertelenmiş yerine koyma: Tetikleyici olayı Önceki olarak ayarlanan denetim şablonu özelliği için etkinleştirin | Zorunlu |
 | Ambar yönetimi | [Durdurulan stoktan örnek alan kalite emirlerinden gelen beklenen girişleri devre dışı bırak](../inventory/inventory-blocking.md) | Varsayılan olarak açık |
 | Ambar yönetimi | Ambar mobil cihazları için hızlı doğrulamayı etkinleştir | Zorunlu |
-| Ambar yönetimi | [Esnek ambar düzeyinde boyut rezervasyonu](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Varsayılan olarak açık |
-| Ambar yönetimi | [Esnek siparişle taahhüt edilen plaka rezervasyonu](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Varsayılan olarak açık |
-| Ambar yönetimi | [Giden iş yükü görselleştirmesi](../warehousing/outbound-workload-visualization.md) | Zorunlu |
+| Ambar yönetimi | [GS1 barkodları için geliştirilmiş ayrıştırıcı](../warehousing/gs1-barcodes.md) | Genel kullanılabilir |
+| Ambar yönetimi | [Esnek siparişle taahhüt edilen plaka rezervasyonu](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Zorunlu |
+| Ambar yönetimi | [Esnek ambar düzeyinde boyut rezervasyonu](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Zorunlu |
 | Ambar yönetimi | [Madde konsolidasyon yerleşimi kullanımı](../warehousing/item-consolidation-location-utilization.md) | Varsayılan olarak açık |
 | Ambar yönetimi | Plaka alımı geçmişi | Varsayılan olarak açık |
 | Ambar yönetimi | [El ile sevkiyat konsolidasyonu](../warehousing/consolidate-shipments-manual-workbench.md) | Varsayılan olarak açık |
+| Ambar yönetimi | [Yönetici veya benzer güvenilen kullanıcılar için el ile transfer satırı çekme hizmeti](whats-new-scm-10-0-28.md) | Genel kullanılabilir |
 | Ambar yönetimi | [Malzeme işleme ekipmanı arabirimi](../warehousing/mhax.md) | Zorunlu |
-| Ambar yönetimi | [Planlanmış çapraz sevk](../warehousing/planned-cross-docking.md) | Varsayılan olarak açık |
+| Ambar yönetimi | [Yeni yük planlama workbench'i sayfaları](whats-new-scm-10-0-24.md) | Genel kullanılabilir |
+| Ambar yönetimi | [Giden iş yükü görselleştirmesi](../warehousing/outbound-workload-visualization.md) | Zorunlu |
+| Ambar yönetimi | [Planlanmış çapraz sevk](../warehousing/planned-cross-docking.md) | Zorunlu |
 | Ambar yönetimi | [Ambar uygulaması olaylarını işle](../warehousing/warehouse-app-events.md) | Zorunlu |
 | Ambar yönetimi | Ortak ürün ve yan ürün yerine koyma işi şablonu için sorgu iyileştirmesi | Zorunlu |
 | Ambar yönetimi | [Ambara serbest bırakırken miktarları en yakın satış birimine indirgenecek şekilde yuvarla](whats-new-scm-10-0-19.md) | Zorunlu |
@@ -190,13 +189,14 @@ Tablo ayrıca, daha önce genel önizlemede bulunan, ancak 10.0.29 sürümünde 
 | Ambar yönetimi | [Dalga işleme için kayıtlı görünüm](saved-views-scm.md) | Zorunlu |
 | Ambar yönetimi | [Yük işleme için kayıtlı görünümler](saved-views-scm.md) | Zorunlu |
 | Ambar yönetimi | [Sevkiyat işleme için kayıtlı görünümler](saved-views-scm.md) | Zorunlu |
-| Ambar yönetimi | Sevkiyat dalgası etiket ayrıntıları | Varsayılan olarak açık |
+| Ambar yönetimi | [GS1 barkodlarını tara](../warehousing/gs1-barcodes.md) | Genel kullanılabilir |
+| Ambar yönetimi | Sevkiyat dalgası etiket ayrıntıları | Zorunlu |
 | Ambar yönetimi | [Karışık birimleri yerleştir](whats-new-scm-10-0-21.md) | Zorunlu |
 | Ambar yönetimi | [Sevk istasyonunda konteyner kapatma/yeniden açma için daha hızlı API kullanın](whats-new-scm-10-0-21.md) | Varsayılan olarak açık |
 | Ambar yönetimi | [Stok yenileme işleri için seçilen şablonları doğrula](whats-new-scm-10-0-20.md) | Varsayılan olarak açık |
-| Ambar yönetimi | [Ambar uygulaması yükseltilen alanları](../warehousing/warehouse-app-promoted-fields.md) | Varsayılan olarak açık |
-| Ambar yönetimi | [Ambar uygulaması adım yönergeleri](../warehousing/mobile-app-titles-instructions.md) | Varsayılan olarak açık |
-| Ambar yönetimi | [Ambar yerleşimi durumu](../warehousing/warehouse-location-status.md) | Varsayılan olarak açık |
+| Ambar yönetimi | [Ambar uygulaması yükseltilen alanları](../warehousing/warehouse-app-promoted-fields.md) | Zorunlu |
+| Ambar yönetimi | [Ambar uygulaması adım yönergeleri](../warehousing/mobile-app-titles-instructions.md) | Zorunlu |
+| Ambar yönetimi | [Ambar yerleşimi durumu](../warehousing/warehouse-location-status.md) | Zorunlu |
 | Ambar yönetimi | [Warehouse Management uygulaması sapmaları](../warehousing/warehouse-app-detours.md) | Varsayılan olarak açık |
 | Ambar yönetimi | [Dalga toplu iş ayrıntıları](../warehousing/wave-processing.md) | Zorunlu |
 | Ambar yönetimi | [Dalga yürütme bildirimleri](../warehousing/wave-execution-notifications.md) | Zorunlu |

@@ -2,7 +2,7 @@
 title: Kesinleşmiş planlı siparişler
 description: Bu makale, planlı siparişlerin nasıl kesinleştirileceğini açıklar. Planlı siparişler kesinleştirildiğinde, gerçek satınalma siparişlerine, transfer emirlerine veya üretim emirlerine dönüştürülür.
 author: t-benebo
-ms.date: 04/22/2021
+ms.date: 08/09/2022
 ms.search.form: ReqTransPo, ReqTransFirmLog
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857561"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335360"
 ---
 # <a name="firm-planned-orders"></a>Kesinleşmiş planlı siparişler
 
@@ -37,19 +37,21 @@ Bu makalede her yöntem ayrıntılı olarak açıklanmaktadır.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Planlı siparişler için paralel kesinleştirmeyi açma veya kapatma
 
-Paralel kesinleştirme, birden fazla iş parçacığı arasında paralel olarak çalışarak kesinleştirme işlemini hızlandırır. Bu yaklaşım, birçok plan kesinleştirilirken yararlı olabilir. Bu işlevi kullanmak için *Planlı siparişler için paralel kesinleştirme* özelliğinin sisteminiz için açık olması gerekir. Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanına gidip *Planlı siparişler için pararlel kesinleştirme* özelliğini bularak bu işlevi açabilir veya kapatabilirsiniz.
+Paralel kesinleştirme, birden fazla iş parçacığı arasında paralel olarak çalışarak kesinleştirme işlemini hızlandırır. Bu yaklaşım, birçok plan kesinleştirilirken yararlı olabilir. Bu işlevi kullanmak için *Planlı siparişler için paralel kesinleştirme* özelliğinin sisteminiz için açık olması gerekir. 
 
-### <a name="enable-planned-order-firming-with-filtering"></a>Filtre ile planlı sipariş kesinleştirmesini etkinleştirme
+Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanına gidip *Planlı siparişler için pararlel kesinleştirme* özelliğini bularak bu işlevi açabilir veya kapatabilirsiniz.
+
+### <a name="turn-planned-order-firming-with-filtering-on-or-off"></a>Filtre ile planlı sipariş kesinleştirmesini açma veya kapatma
 
 Süzme ile yapılan planlı sipariş kesinleştirilmesi, hangi Planlı siparişlerin kesinleştirilmesi gerektiğini belirlemek için mantıksal ölçütler tanımlamanıza olanak sağlar. Ayrıca, hangi planlı siparişlerin seçildiği önizleyebilir, işlemi arka planda çalıştırabilir ve/veya bir toplu iş olarak zamanlayabilirsiniz.
 
-Supply Chain Management sürüm 10.0.25 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Filtreleme ile planlı sipariş kesinleştirme* özelliğini bularak bu işlevi açabilir veya kapatabilir.
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.25 itibarıyla özellik varsayılan olarak açıktır. Supply Chain Management sürüm 10.0.29 itibarıyla, özellik zorunludur ve kapatılamaz. 10.0.29 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Filtreleme ile planlı sipariş kesinleştirici* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
-### <a name="enable-auto-firming-for-planning-optimization"></a>Planlama Optimizasyonu için otomatik kesinleştirmeyi etkinleştirme
+### <a name="turn-auto-firming-for-planning-optimization-on-or-off"></a>Planlamayı En İyi Duruma Getirme için otomatik kesinleştirmeyi açma veya kapatma
 
 Otomatik kesinleştirme, kesinleştirme zaman dilimi sırasında planlı siparişleri master planlama işleminin parçası olarak kesinleştirmenize olanak tanır. Otomatik kesinleştirme, Supply Chain Management'ta dahili olarak yer alan planlama altyapısında her zaman desteklenir. Ancak, bunu Planlama Optimizasyonuyla birlikte kullanmak için özelliği etkinleştirmelisiniz.
 
-Bu işlevi sisteminizde kullanmak için, [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve *Planlama Optimizasyonu için otomatik kesinleştirme* özelliğini etkinleştirin. (Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır.)
+Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır. Supply Chain Management 10.0.29 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.29 sürümünden daha eski bir sürümü çalıştırıyorsanız, [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanına gidip *Planlama En İyi Duruma Getirme için otomatik kesinleştirme* özelliğini bularak bu işlevi açabilir veya kapatabilirsiniz.
 
 ## <a name="manually-firm-planned-orders"></a>Planlı siparişleri el ile kesinleştirme
 

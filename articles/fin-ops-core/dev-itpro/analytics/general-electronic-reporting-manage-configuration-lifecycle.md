@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 58801
 ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
-ms.openlocfilehash: fe23d4cb2b293af466df2236b153974f95f636f8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0209679c9882d87edab68d043fba9e7b3400a2a2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9271598"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337206"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektronik raporlama (ER) yapılandırması yaşam döngüsünü yönetme
 
@@ -84,7 +84,7 @@ Geliştirme ortamı içinde tasarlanan ER yapılandırmaları, yapılandırma de
 
 ## <a name="data-persistence-consideration"></a>Veri kalıcılığının dikkate alınması
 
-Bir ER [yapılandırmasının](general-electronic-reporting.md#Configuration) farklı [sürümlerini](general-electronic-reporting.md#component-versioning) Finance kurulumunuza ayrı ayrı [aktarabilirsiniz](tasks/er-import-configuration-lifecycle-services.md). ER yapılandırmasının yeni bir sürümü içeri aktarıldığında sistem, bu yapılandırmanın taslak sürümünün içeriğini denetler:
+Bir ER [yapılandırmasının](general-electronic-reporting.md#Configuration) farklı sürümlerini Finance kurulumunuza ayrı ayrı [aktarabilirsiniz](tasks/er-import-configuration-lifecycle-services.md). ER yapılandırmasının yeni bir sürümü içeri aktarıldığında sistem, bu yapılandırmanın taslak sürümünün içeriğini denetler:
 
 - Geçerli Finance kurulumunda içe aktarılan sürüm bu yapılandırmanın en yüksek sürümünden daha düşükse, bu yapılandırmanın taslak sürümünün içeriği değişmeden kalır.
 - İçeri aktarılan sürüm bu yapılandırmanın geçerli Finance kurulumundaki diğer herhangi bir sürümünden daha yüksek olduğunda, içeri aktarılan sürümün içeriği bu yapılandırmanın taslak sürümüne kopyalanır ve son tamamlanan sürümü düzenlemeye devam etmenize olanak tanır.
@@ -112,7 +112,7 @@ ER yapılandırmaları diğer yapılandırmalara [bağımlı](er-download-config
 
 ![Yapılandırmalar sayfasındaki türetilen ER biçimi yapılandırması.](./media/ger-configuration-lifecycle-img1.png)
 
-Biçimi tasarlamayı bitirdiğinizde, ER biçim yapılandırmasının başlangıç [sürümünün](general-electronic-reporting.md#component-versioning) durumunu **Taslak** iken **Tamamlandı** olarak değiştirebilirsiniz. Böylece, ER biçim yapılandırmasının tamamlanmış sürümünü Genel depoda [yayımlayarak](../../../finance/localizations/rcs-global-repo-upload.md) paylaşabilirsiniz. Daha sonra, Genel depoya herhangi bir RCS veya Finance bulut örneğinden erişebilirsiniz. Böylece, uygulamada geçerli olan tüm ER yapılandırma sürümlerini Genel depodan bu uygulamaya alabilirsiniz.
+Biçimi tasarlamayı bitirdiğinizde, ER biçim yapılandırmasının başlangıç sürümünün durumunu **Taslak** iken **Tamamlandı** olarak değiştirebilirsiniz. Böylece, ER biçim yapılandırmasının tamamlanmış sürümünü Genel depoda [yayımlayarak](../../../finance/localizations/rcs-global-repo-upload.md) paylaşabilirsiniz. Daha sonra, Genel depoya herhangi bir RCS veya Finance bulut örneğinden erişebilirsiniz. Böylece, uygulamada geçerli olan tüm ER yapılandırma sürümlerini Genel depodan bu uygulamaya alabilirsiniz.
 
 ![Yapılandırma deposu sayfasındaki yayımlanan ER biçimi yapılandırması.](./media/ger-configuration-lifecycle-img2.png)
 

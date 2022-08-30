@@ -14,18 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 35fcb7c4068ff2f68970d9c0127491e4a63dab4c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dac3ad583be9e4cbd6eacbc6d228819bd298628b
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861087"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9323588"
 ---
 # <a name="create-a-working-time-calendar"></a>Çalışma zamanı takvimi oluşturma
 
-
-> [!Important]
-> Bu makalede belirtilen işlevler şu anda tek başına Dynamics 365 Human Resources uygulamasını kullanan müşteriler için kullanıma sunulmaktadır. İşlevlerin bazıları veya tümü, Finance 10.0.26 sürümünden sonra Finance altyapısında ileride yayınlanacak bir sürümünün parçası olarak kullanılabilir.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -49,7 +46,7 @@ Günlerinizi ve operasyon saatlerinizi gösteren en az bir çalışma zamanı ta
 
 3. **Oluşturma seçenekleri** altında, organizasyonunuzun iş günlerini seçin ve çalışma sürelerini girin. 
    - Tatil veya kapanış eklemek için, **tatiller ve kapanışlar** yanında **Ekle** düğmesini seçin.
-   - Yarım ve daha fazla mola gibi çalışma dışı zamanı eklemek için **çalışma dışı süresi** altında **Ekle**'yi seçin ve ad ve zaman aralığını girin.
+   - Yarım ve daha fazla mola gibi çalışma dışı zamanı eklemek için **İŞ DIŞI ZAMAN** altında **Ekle**'yi seçin ve ad ve zaman aralığını girin.
 
 4. **Günler** altında, takviminizde günleri oluşturmak için **Oluştur** üzerine tıklayın. Takviminizin tarih aralığını girin ve **gün oluştur** seçeneğini belirleyin.
 
@@ -67,7 +64,7 @@ Tatilleri ve kapanışları, çalışma zamanı takviminden ayrı olarak ekleyeb
 
 Çalışmama süreleri çalışma zamanı takviminden ayrı olarak ekleyebilir veya değiştirebilirsiniz.
 
-1. **Kuruluş yönetimi** sayfasında **İŞ DIŞI ZAMAN** üzerine tıklayın.
+1. **Kuruluş yönetimi** sayfasında **Çalışmama süresi** üzerine tıklayın.
 
 2. **Yeni**'yi seçin ve çalışmama süresi ad ve zaman aralığı girin.
 

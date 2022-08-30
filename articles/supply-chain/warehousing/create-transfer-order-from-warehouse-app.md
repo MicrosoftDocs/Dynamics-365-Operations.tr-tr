@@ -2,7 +2,7 @@
 title: Ambar uygulamasından transfer emirleri oluşturma
 description: Bu makale, Ambar Yönetimi mobil uygulaması özelliğinden transfer emirlerinin nasıl oluşturulacağını ve işleneceğini açıklamaktadır
 author: perlynne
-ms.date: 09/02/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b9edc2d94aa1f4850d2e7fe2b4bdd1b092be944f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45cbf7aca431c19e58de75355579304baef3cf7d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877464"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336470"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Ambar uygulamasından transfer emirleri oluşturma
 
@@ -26,14 +26,14 @@ ms.locfileid: "8877464"
 
 Bu özellik, ambar çalışanlarının doğrudan Ambar Yönetimi mobil uygulamasından transfer emirleri oluşturmasına ve işlemesine olanak tanır. Çalışan hedef ambarı seçerek başlar ve sonra transfer emrine plakalar eklemek için uygulamayı kullanarak bir veya daha fazla plaka tarayabilir. Ambar çalışanı **Siparişi tamamla**'yı seçtiğinde, bir toplu iş bu plakalar için kaydedilen eldeki stoğu temel alan gerekli transfer emri ve sipariş satırlarını oluşturur.
 
-## <a name="turn-this-feature-on-or-off"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Bu özelliği açma veya kapatma
+## <a name="turn-on-this-feature-and-its-prerequisites"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Bu özelliği açma ve özelliğin önkoşulları
 
 Bu özelliği kullanabilmeniz için, özelliği ve önkoşullarını sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sayfasını kullanabilir.
 
 1. [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında aşağıdaki iki özelliği (sırayla) etkinleştirin. Supply Chain Management sürüm 10.0.25 itibarıyla her iki özellik de varsayılan olarak açıktır.
-    1. *Ambar uygulaması olaylarını işle*
-    1. *Transfer emirlerini ambar uygulamasından oluştur ve işle*
-1. Giden sevkiyatların işlenmesini otomatikleştirmek için, [Giden sevkiyatları toplu işlerden onayla](confirm-outbound-shipments-from-batch-jobs.md) özelliğini de etkinleştirmeniz gerekir.
+    1. *Ambar uygulaması olaylarını işle*<br>(Supply Chain Management sürüm 10.0.29 itibarıyla, özellik zorunludur ve kapatılamaz.)
+    1. *Transfer emirlerini ambar uygulamasından oluştur ve işle*<br>(Supply Chain Management sürüm 10.0.29 itibarıyla, özellik zorunludur ve kapatılamaz.)
+1. Giden sevkiyatların işlenmesini otomatikleştirmek için [*Giden sevkiyatları toplu işlerden onayla özelliğini*](confirm-outbound-shipments-from-batch-jobs.md) de etkinleştirmeniz gerekir. (Supply Chain Management sürüm 10.0.21 itibarıyla, bu özellik varsayılan olarak açıktır. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz.)
 
 ## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>Transfer emirleri oluşturmak için bir mobil cihaz menü öğesi ayarlama
 
@@ -307,11 +307,11 @@ Hayır, **Transfer emrini tamamla** ambar uygulaması olayına sahip bir transfe
 
 #### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Sipariş henüz arka uç sisteminde oluşturulmadıysa, Ambar Yönetimi mobil uygulamasında "Transfer emri seç" düğmesiyle kullanılacak mevcut transfer emirlerini nasıl bulabilirim?
 
-Şu anda uygulamada transfer emirleri üzerinde arama yapamazsınız ancak **Ambar uygulama olayları** sayfasında transfer emri numaralarını bulabilirsiniz. Daha fazla bilgi için bkz. [Ambar uygulaması olaylarını sorgulama](#inquire-the-warehouse-app-events).
+Çalışanların [veri sorgulama](warehouse-app-data-inquiry.md) yeteneklerini kullanarak Ambar yönetimi mobil uygulamasında transfer emri numaralarını aramasına olanak sağlayabilirsiniz. Örneğin, web istemcisinin **Ambar uygulaması olayları** sayfasında (`WHSMobileDeviceQueueMessageCollection`) *Sipariş seç - MobileDeviceQueueMessageCollectionIdentifierId* adımının parçası olarak görüntülenen verileri sorgulayan bir [sapma](warehouse-app-detours.md) mobil cihaz menü öğesi oluşturabilirsiniz. Transfer emri numarası,**Tanımlayıcı** alanında gösterilen değerle eşleşir. Ayrıca bkz. [Ambar uygulaması olaylarını sorgulama](#inquire-the-warehouse-app-events).
 
 #### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulamasıdan kullanılacak transfer emri numarasını el ile seçebilir miyim?
 
-Yalnızca numara serileri ile otomatik olarak oluşturulan transfer emri numaraları desteklenir.
+Yalnızca numara serileri ile otomatik olarak oluşturulan transfer emri numaraları desteklenir. Ayrıca, **Transfer emri seç** düğmesinin nasıl ayarlanacağı ile ilgili önceki sorunun yanıtını da bakabilirsiniz. Transfer emri numaralarını bulma hakkında daha fazla bilgi için bkz. [Ambar uygulaması olaylarını sorgulama](#inquire-the-warehouse-app-events).
 
 ### <a name="background-processing"></a>Arka planda işleme
 

@@ -2,23 +2,24 @@
 title: Avusturya için mali kayıt hizmeti tümleştirme örneği
 description: Bu makale, Microsoft Dynamics 365 Commerce'taki Avusturya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 7f4f1d796028330d2d655b1e13d3e36bbef95403
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: da4deb37b260ffa2a68e2a36aef01965cbf098b2
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287578"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313814"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>Avusturya için mali kayıt hizmeti tümleştirme örneği
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Bu makale, Microsoft Dynamics 365 Commerce'taki Avusturya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
 
@@ -102,6 +103,13 @@ Avusturya'ya özel işlevleri kullanmak için aşağıdaki ayarları belirtmeniz
 - Avusturya'da bulunan her mağazanın POS işlevi profilinde, **ISO kodu** alanını **AT** (Avusturya) olarak ayarlayın.
 
 Avusturya için aşağıdaki ayarları da belirtmeniz gerekir. Kurulumu tamamladıktan sonra uygun dağıtım işlerini çalıştırmanız gerektiğini unutmayın.
+
+### <a name="enable-features-for-austria"></a>Avusturya için özellikleri etkinleştirme
+
+**Özellik yönetimi** çalışma alanında aşağıdaki özellikleri etkinleştirmeniz gerekir:
+
+- (Avusturya) POS'de ek denetim olaylarını etkinleştir
+- (Avusturya) POS'de gün sonu beyannamelerinde ek bilgileri etkinleştir
 
 ### <a name="set-up-vat-per-austrian-requirements"></a>Avusturya gereksinimleri uyarınca KDV'yi ayarlama
 
@@ -204,10 +212,10 @@ Makbuz biçimleriyle nasıl çalışılacağı hakkında daha fazla bilgi için 
 
 ## <a name="set-up-fiscal-integration-for-austria"></a>Avusturya için mali tümleştirmeyi ayarlama
 
-Avusturya için mali kayıt hizmeti tümleştirme örneği, [mali tümleştirme işlevine](fiscal-integration-for-retail-channel.md) dayanır ve Retail SDK'nin bir parçasıdır. Örnek, [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunun **src\\FiscalIntegration\\Efr** klasöründe bulunur (örneğin, [sürüm/9.33'teki örnek](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Örnek, Commerce Runtime'ın (CRT) uzantısı olan bir mali belge sağlayıcısından ve Commerce Hardware Station'ın uzantısı olan bir mali bağlayıcıdan [oluşur](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services). Retail SDK'yi kullanma hakkında daha fazla bilgi için [Retail SDK mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md) ve [Bağımsız paketleme SDK'si için derleme işlem hattı ayarlama](../dev-itpro/build-pipeline.md) konularına bakın.
+Avusturya için mali kayıt hizmeti tümleştirme örneği, [mali tümleştirme işlevine](fiscal-integration-for-retail-channel.md) dayanır ve Commerce SDK'nin bir parçasıdır. Örnek, [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunun **src\\FiscalIntegration\\Efr** klasöründe bulunur. [Örnek](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services), Commerce Runtime'ın (CRT) uzantısı olan bir mali belge sağlayıcısından ve Commerce Hardware Station'ın uzantısı olan bir mali bağlayıcıdan oluşur. Commerce SDK'yı kullanma hakkında dah afazla bilgi için bkz. [GitHub ve NuGet'ten Retail SDK örnekleri ve başvuru paketleri indirme](../dev-itpro/retail-sdk/sdk-github.md) ve [Bağımsız paketleme SDK'sı için derleme işlem hattı ayarlama](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> [Yeni bağımsız paketleme ve uzantı modelinin](../dev-itpro/build-pipeline.md) sınırlamaları nedeniyle bu mali tümleştirme örneği için şu anda kullanılamaz. Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) Retail SDK'nin önceki sürümünü kullanmalısınız. Daha fazla bilgi için bkz. [Avusturya için mali tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)](emea-aut-fi-sample-sdk.md). Mali tümleştirme örnekleri için yeni bağımsız paketleme ve uzantı modeli desteği, sonraki sürümler için planlanmaktadır.
+> [!NOTE]
+> Avusturya için mali kayıt hizmeti tümleştirme örneği, Commerce SDK 10.0.29 sürümü itibarıyla Commerce SDK'da bulunur. Commerce 10.0.28 veya öncesi sürümlerde, Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) Retail SDK'nin önceki sürümünü kullanmalısınız. Daha fazla bilgi için bkz. [Avusturya için mali tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)](emea-aut-fi-sample-sdk.md).
 
 [Commerce kanalları için mali tümleştirmeyi ayarlama](setting-up-fiscal-integration-for-retail-channel.md) konusunda açıklandığı şekilde mali tümleştirme ayarlama adımlarını tamamlayın:
 
@@ -223,18 +231,20 @@ Kayıt işlemini etkinleştirmek üzere Commerce Headquarters'ı ayarlamak için
 1. Mali belge sağlayıcısı ve mali bağlayıcı için yapılandırma dosyalarını indirin:
 
     1. [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunu açın.
-    1. SDK/uygulama sürümünüze göre doğru dal sürümünü seçin (örneğin, **[sürüm/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. SDK/uygulama sürümünüze göre doğru dal sürümünü seçin.
     1. **src \> FiscalIntegration \> Efr**'yi açın.
-    1. **Configurations \> DocumentProviders**'ı açın ve şu mali belge sağlayıcısı yapılandırma dosyalarını indirin: **DocumentProviderFiscalEFRSampleAustria.xml** ve **DocumentProviderNonFiscalEFRSampleAustria.xml** (örneğin, [sürüm/9.33 dosyalarının konumu](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr/Configurations/DocumentProviders)).
-    1. Mali bağlayıcı yapılandırma dosyasını **Configurations \> Connectors \> ConnectorEFRSample.xml** (örneğin, [sürüm/9.33 dosyası](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/Connectors/ConnectorEFRSample.xml)) kısmından indirin.
+    1. **Configurations \> DocumentProviders**'ı açın ve mali belge sağlayıcısı yapılandırma dosyalarını indirin: 
 
-    > [!WARNING]
-    > [Yeni bağımsız paketleme ve uzantı modelinin](../dev-itpro/build-pipeline.md) sınırlamaları nedeniyle bu mali tümleştirme örneği için şu anda kullanılamaz. LCS'deki bir geliştirici VM'sinde Retail SDK'nin önceki sürümünü kullanmalısınız. Bu mali tümleştirme örneğinin yapılandırma dosyaları, LCS'deki bir geliştirici VM'sinde Retail SDK'nin aşağıdaki klasörlerinde bulunur:
+        - DocumentProviderFiscalEFRSampleAustria.xml
+        - DocumentProviderNonFiscalEFRSampleAustria.xml
+
+    1. Mali bağlayıcı yapılandırma dosyasını **Configurations \> Connectors \> ConnectorEFRSample.xml** kısmından indirin.
+
+    > [!NOTE]
+    > Commerce 10.0.28 veya öncesi sürümlerde, LCS'de bir geliştirici sanal makinesinde Retail SDK'nin önceki sürümünü kullanmalısınız. Bu mali tümleştirme örneğinin yapılandırma dosyaları, LCS'deki bir geliştirici VM'sinde Retail SDK'nin aşağıdaki klasörlerinde bulunur:
     >
     > - **Mali belge sağlayıcısı yapılandırma dosyaları:** RetailSdk\\SampleExtensions\\CommerceRuntime\\Extensions.DocumentProvider.EFRSample\\Configuration
     > - **Mali bağlayıcı yapılandırma dosyası:** RetailSdk\\SampleExtensions\\HardwareStation\\Extension.EFRSample\\Configuration
-    > 
-    > Mali tümleştirme örnekleri için yeni bağımsız paketleme ve uzantı modeli desteği, sonraki sürümler için planlanmaktadır.
 
 1. **Retail ve Commerce \> Headquarters ayarı \> Parametreler \> Paylaşılan Commerce parametreleri**'ne gidin. **Genel** hızlı sekmesinde, **Mali tümleştirmeyi etkinleştir** seçeneğini **Evet** olarak ayarlayın.
 1. **Retail ve Commerce \> Kanal kurulumu \> Mali tümleştirme \> Mali belge sağlayıcıları**'na gidin ve daha önce indirdiğiniz mali belge sağlayıcısı yapılandırma dosyalarını yükleyin.
@@ -244,7 +254,7 @@ Kayıt işlemini etkinleştirmek üzere Commerce Headquarters'ı ayarlamak için
 1. **Retail ve Commerce \> Kanal kurulumu \> Mali tümleştirme \> Mali bağlayıcı grupları**'na gidin. Daha önce oluşturduğunuz her bir bağlayıcı işlev profili için bir tane olmak üzere iki yeni mali bağlayıcı grubu oluşturun.
 1. **Retail ve Commerce \> Kanal kurulumu \> Mali tümleştirme \> Mali kayıt işlemleri**'ne gidin. Yeni bir mali kayıt işlemi ve iki mali kayıt işlem adımı oluşturun, ardından daha önce oluşturduğunuz mali bağlayıcı gruplarını seçin.
 1. **Retail ve Commerce \> Kanal kurulumu \> POS kurulumu \> POS profilleri \> İşlevsellik profilleri** öğesine tıklayın. Kayıt işleminin etkinleştirilmesi gereken mağazaya bağlı bir işlev profili seçin. **Mali kayıt işlemi** hızlı sekmesinde, daha önce oluşturduğunuz mali kayıt işlemini seçin. Mali olmayan olayların POS'a kaydını etkinleştirmek için **İşlevler** hızlı sekmesinde, **POS** altında **Denetim** seçeneğini **Evet** olarak ayarlayın.
-1. **Retail ve Commerce \> Kanal kurulumu \> POS kurulumu \> POS profilleri \> Donanım profilleri**'ne gidin. Mali yazıcının bağlanacağı Hardware station'a bağlı bir donanım profili seçin. **Mali çevre birimleri** hızlı sekmesinde, daha önce oluşturduğunuz bağlayıcı teknik profilini seçin.
+1. **Retail ve Commerce \> Kanal kurulumu \> POS kurulumu \> POS profilleri \> Donanım profilleri**'ne gidin. Mali kayıt hizmetinin bağlanacağı Hardware station'a bağlı bir donanım profili seçin. **Mali çevre birimleri** hızlı sekmesinde, daha önce oluşturduğunuz bağlayıcı teknik profilini seçin.
 1. Kanal veritabanına verileri aktarmak için dağıtım planını (**Retail ve Commerce \> Retail ve Commerce IT \> Dağıtım planı**) açın ve **1070** ile **1090** işlerini seçin.
 
 #### <a name="default-data-mapping"></a>Varsayılan veri eşlemesi
@@ -269,16 +279,15 @@ Aşağıdaki ayarlar, mali tümleştirme örneğinin bir parçası olarak sağla
 
 ### <a name="configure-channel-components"></a>Kanal bileşenlerini yapılandırma
 
-> [!WARNING]
-> [Yeni bağımsız paketleme ve uzantı modelinin](../dev-itpro/build-pipeline.md) sınırlamaları nedeniyle bu mali tümleştirme örneği için şu anda kullanılamaz. LCS'deki bir geliştirici VM'sinde Retail SDK'nin önceki sürümünü kullanmalısınız. Daha fazla bilgi için bkz. [Avusturya için mali tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)](emea-aut-fi-sample-sdk.md).
->
-> Mali tümleştirme örnekleri için yeni bağımsız paketleme ve uzantı modeli desteği, sonraki sürümler için planlanmaktadır.
+> [!NOTE]
+> - Avusturya için mali kayıt hizmeti tümleştirme örneği, Commerce SDK 10.0.29 sürümü itibarıyla Commerce SDK'da bulunur. Commerce 10.0.28 veya öncesi sürümlerde, LCS'de bir geliştirici sanal makinesinde Retail SDK'nin önceki sürümünü kullanmalısınız. Daha fazla bilgi için bkz. [Avusturya için mali tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)](emea-aut-fi-sample-sdk.md).
+> - Commerce bileşenlerine hizmet veya kalite güncelleştirmeleri uyguladığınızda, ortamınızda dağıtılan Commerce kurulumları otomatik olarak güncelleştirilmez. Gerekli örnekleri el ile güncelleştirmeniz gerekir.
 
 #### <a name="set-up-the-development-environment"></a>Geliştirme ortamını ayarlama
 
 Örneği test etmek ve genişletmek üzere bir geliştirme ortamı ayarlamak için aşağıdaki adımları izleyin.
 
-1. [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions) deposunu klonlayın veya indirin. SDK/uygulama sürümünüze göre doğru dal sürümünü seçin. Daha fazla bilgi için bkz. [GitHub ve NuGet'ten Retail SDK örnekleri ve başvuru paketleri indirme](../dev-itpro/retail-sdk/sdk-github.md).
+1. [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions) deposunu klonlayın veya indirin. SDK/uygulama sürümünüze göre doğru dal sürümünü seçin. Daha fazla bilgi için bkz. [GitHub ve NuGet'ten Commerce SDK örnekleri ve başvuru paketleri indirme](../dev-itpro/retail-sdk/sdk-github.md).
 1. **Dynamics365Commerce.Solutions\\FiscalIntegration\\Efr\\EFR.sln** kısmından EFR çözümünü açın ve derleyin.
 1. CRT uzantılarını yükleyin:
 
@@ -330,10 +339,10 @@ Mali tümleştirme örneği için Cloud Scale Unit'i ve self servis dağıtılab
 
 ## <a name="design-of-extensions"></a>Uzantıların tasarımı
 
-Avusturya için mali kayıt hizmeti tümleştirme örneği, [mali tümleştirme işlevine](fiscal-integration-for-retail-channel.md) dayanır ve Retail SDK'nin bir parçasıdır. Örnek, [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunun **src\\FiscalIntegration\\Efr** klasöründe bulunur (örneğin, [sürüm/9.33'teki örnek](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Örnek, CRT'nin uzantısı olan bir mali belge sağlayıcısından ve Commerce Hardware Station'ın uzantısı olan bir mali bağlayıcıdan [oluşur](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services). Retail SDK'yi kullanma hakkında daha fazla bilgi için [Retail SDK mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md) ve [Bağımsız paketleme SDK'si için derleme işlem hattı ayarlama](../dev-itpro/build-pipeline.md) konularına bakın.
+Avusturya için mali kayıt hizmeti tümleştirme örneği, [mali tümleştirme işlevine](fiscal-integration-for-retail-channel.md) dayanır ve Commerce SDK'nin bir parçasıdır. Örnek, [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunun **src\\FiscalIntegration\\Efr** klasöründe bulunur. Örnek, CRT'nin uzantısı olan bir mali belge sağlayıcısından ve Commerce Hardware Station'ın uzantısı olan bir mali bağlayıcıdan [oluşur](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services). Commerce SDK'yı kullanma hakkında dah afazla bilgi için bkz. [GitHub ve NuGet'ten Retail SDK örnekleri ve başvuru paketleri indirme](../dev-itpro/retail-sdk/retail-sdk-overview.md) ve [Bağımsız paketleme SDK'sı için derleme işlem hattı ayarlama](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> [Yeni bağımsız paketleme ve uzantı modelinin](../dev-itpro/build-pipeline.md) sınırlamaları nedeniyle bu mali tümleştirme örneği için şu anda kullanılamaz. LCS'deki bir geliştirici VM'sinde Retail SDK'nin önceki sürümünü kullanmalısınız. Daha fazla bilgi için bkz. [Avusturya için mali tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)](emea-aut-fi-sample-sdk.md). Mali tümleştirme örnekleri için yeni bağımsız paketleme ve uzantı modeli desteği, sonraki sürümler için planlanmaktadır.
+> [!NOTE]
+> Avusturya için mali kayıt hizmeti tümleştirme örneği, Commerce SDK 10.0.29 sürümü itibarıyla Commerce SDK'da bulunur. Commerce 10.0.28 veya öncesi sürümlerde, LCS'de bir geliştirici sanal makinesinde Retail SDK'nin önceki sürümünü kullanmalısınız. Daha fazla bilgi için bkz. [Avusturya için mali tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)](emea-aut-fi-sample-sdk.md).
 
 ### <a name="commerce-runtime-extension-design"></a>Commerce Runtime uzantı tasarımı 
 

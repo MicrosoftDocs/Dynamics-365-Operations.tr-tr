@@ -10,8 +10,10 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?context=/dynamics365/context/supply-chain
             - name: Supply Chain Management'taki yenilikler veya değişiklikler
               items:
-                - name: Supply Chain Management giriş sayfasındaki yenilikler veya değişiklikler
+                - name: Supply Chain Management'taki yenilikler veya değişiklikler giriş sayfası
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.29 (Ekim 2022)
+                  href: get-started/whats-new-scm-10-0-29.md
                 - name: Supply Chain Management 10.0.28 (Ağustos 2022)
                   href: get-started/whats-new-scm-10-0-28.md
                 - name: Supply Chain Management 10.0.27 (Temmuz 2022)
@@ -62,9 +64,11 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/supply-chain
                 - name: Hizmet güncelleştirmeleri hakkında bilgilendirilme
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/supply-chain
+                - name: Proaktif kalite güncelleştirmeleri
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/supply-chain
                 - name: Veri görevi otomasyonu
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/supply-chain
-                - name: One Version'ı kullanarak ISV çözümlerini sunma
+                - name: One Version'ı kullanarak ISV (Bağımsız Yazılım Satıcısı) çözümlerini sunma
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?context=/dynamics365/context/supply-chain
                 - name: Kullanıcı kabul testlerini oluşturma ve otomatikleştirme
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?context=/dynamics365/context/supply-chain
@@ -330,6 +334,8 @@
                           href: ../finance/localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/supply-chain
                         - name: Mısır için Elektronik Faturalamayı kullanmaya başlama
                           href: ../finance/localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/supply-chain
+                        - name: Fransa için Elektronik Faturalamayı kullanmaya başlama
+                          href: ../finance/localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/supply-chain
                         - name: Meksika için Elektronik Faturalamayı kullanmaya başlama
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/supply-chain
                         - name: Suudi Arabistan için Elektronik faturalamayı kullanmaya başlama
@@ -1053,6 +1059,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/supply-chain
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/supply-chain
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/supply-chain
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/supply-chain
                         - name: Split
@@ -1763,6 +1771,8 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Üretim planlaması
                   href: master-planning/planning-optimization/production-planning.md
+                - name: Sınırlı raf ömrüne sahip ürünler için master planlama
+                  href: master-planning/planning-optimization/shelf-life.md
                 - name: Sonsuz kapasiteyle planlama
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Yeteneğe dayalı kaynak seçimiyle planlama
@@ -1809,6 +1819,8 @@
                   href: master-planning/planning-optimization/cancel-planning-job.md
                 - name: Eylem iletileri
                   href: master-planning/action-messages.md
+                - name: CTP (Teslim edilebilir miktar) işlevini kullanarak satış siparişi teslimat tarihlerini hesaplama
+                  href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
                 - name: Planlama Optimizasyonu sorunlarını giderme
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
                 - name: Planlama Optimizasyonu genişletilebilirliği
@@ -1879,6 +1891,8 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: Yerleşik master planlama ile net gereksinimler ve ilişkilendirme bilgileri
                   href: master-planning/net-requirements-built-in-master-planning.md
+                - name: Siparişe göre tedarik otomasyonu
+                  href: master-planning/make-to-order-supply-automation.md
             - name: Tahmin
               items:
                 - name: Talep ve tedarik tahmini
@@ -2463,13 +2477,15 @@
           items:
             - name: Üretim sürecine genel bakış
               href: production-control/production-process-overview.md
-            - name: 'Karma modda planlama: Ayrık kaynaklar, işlem kaynakları ve yalın kaynakları birleştirme'
+            - name: 'Karma modda planlama: Ayrık kaynakları, işlem kaynaklarını ve yalın kaynakları birleştirme'
               href: production-control/mixed-mode-plan.md
             - name: Üretimde alt sözleşme işini yönetme
               href: production-control/manage-subcontract-work-production.md
+            - name: Günlüklere deftere nakletmeden önce tamamlanan malları fiziksel olarak kullanılabilir şeklinde işaretleme
+              href: production-control/deferred-posting.md
             - name: İş kimlikleri için birleşik numara serisi
               href: production-control/unified-job-ids.md
-            - name: Kalite emirleri oluşturmak için proses otomasyon akışlarını çağırma
+            - name: Kalite emirleri oluşturmak için süreç otomasyon akışlarını çağırma
               href: production-control/process-automation-quality-orders.md
             - name: Üçüncü taraf üretim yürütme sistemleriyle tümleştirme
               href: production-control/mes-integration.md
@@ -2809,7 +2825,9 @@
               items:
                 - name: Sipariş taahhüdü
                   href: sales-marketing/delivery-dates-available-promise-calculations.md
-                - name: Sipariş son giriş tarihleri
+                - name: CTP (Teslim edilebilir miktar) işlevini kullanarak satış siparişi teslimat tarihlerini hesaplama
+                  href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
+                - name: Sipariş girişi son tarihleri
                   href: sales-marketing/order-entry-deadlines.md
                 - name: Teslimat alternatifleri
                   href: sales-marketing/delivery-alternatives.md
@@ -2945,6 +2963,8 @@
               href: sales-marketing/trade-allowance.md
             - name: Yeni bir ticari sözleşme oluşturma
               href: sales-marketing/tasks/create-new-trade-agreement.md
+            - name: İçe aktarma sırasında satır net tutarlarını yeniden hesaplama
+              href: sales-marketing/calc-line-net-amounts-import.md
             - name: Satış geçmişi verilerini temizleme işlemini zamanlama
               href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: Hizmet yönetimi
@@ -3383,12 +3403,14 @@
                       href: warehousing/tasks/license-plate-label-printing.md
                     - name: Ambar uygulamasından transfer emirleri oluşturma
                       href: warehousing/create-transfer-order-from-warehouse-app.md
-                    - name: Malzeme çekme onayı
+                    - name: Parça çekme onayı
                       href: warehousing/piece-picking-confirmation.md
                     - name: Ambalaj malzemeleri ve ücretleri
                       href: warehousing/pack-materials-packing-material-fees.md
-                    - name: El ile ambalajlamayı ayarlama (yalnızca Şubat ve Mayıs 2016)
-                      href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
+                    - name: Sevkiyat için konteynerleri paketleme
+                      href: warehousing/packing-containers.md
+                    - name: Giden konteynerleri paketlemeye ve sevkiyatları işlemeye yönelik paketleme işi
+                      href: warehousing/packing-work.md
                     - name: Eksik çekilen madde yeniden tahsisini ayarlama
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: Özel durum işleme için ambar işini iptal etme
@@ -3545,7 +3567,9 @@
                       href: warehousing/warehouse-app-promoted-fields.md
                     - name: Mobil cihaz menü öğelerindeki adımlar için sapmaları yapılandırma
                       href: warehousing/warehouse-app-detours.md
-                    - name: Warehouse Management mobil uygulaması aracılığıyla plaka alma
+                    - name: Warehouse Management mobil uygulaması sapmalarını kullanarak verileri sorgulama
+                      href: warehousing/warehouse-app-data-inquiry.md
+                    - name: Warehouse Management mobil uygulaması aracılığıyla plaka teslim alma
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Satınalma siparişindeki işin tamamlanması için bir mobil cihaz menü öğesi ayarlama
                       href: warehousing/tasks/set-up-mobile-device-menu.md

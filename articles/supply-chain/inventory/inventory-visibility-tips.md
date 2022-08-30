@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9f571d353f99c91776424bc2fa3405f73b2bae0a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3bdd161815a15d5c39b3c0afc176a288c8d9055a
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885971"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306100"
 ---
 # <a name="inventory-visibility-tips"></a>Stok Görünürlüğü ipuçları
 
@@ -35,5 +35,8 @@ Stok Görünürlüğü eklentisini ayarlayıp kullanırken dikkate almanız gere
 - Şu anda [bölüm yapılandırması](inventory-visibility-configuration.md#partition-configuration), verilerin nasıl dağıtıldığını gösteren iki temel boyuttan (`SiteId` ve `LocationId`) oluşur. Aynı bölüm altındaki işlemler daha düşük maliyetle daha yüksek performans sağlayabilir. Çözüm varsayılan olarak bu bölüm yapılandırmasını içerir. Bu nedenle, *kendiniz tanımlamak zorunda değilsiniz*. Varsayılan bölüm yapılandırmasını özelleştirmeyin. Yapılandırmayı siler veya değiştirirseniz beklenmeyen bir hataya neden olabilirsiniz.
 - Bölüm yapılandırmasında tanımlanan temel boyutlar, [ürün dizini hiyerarşi yapılandırmasında](inventory-visibility-configuration.md#index-configuration) tanımlanmamalıdır.
 - [Ürün dizini hiyerarşi yapılandırmanızda](inventory-visibility-configuration.md#index-configuration) en az bir dizin hiyerarşiniz olmalıdır (örneğin, `Empty` temel boyutunu içeren), aksi takdirde sorgular "dizin hiyerarşisi ayarlanmadı" hatasıyla başarısız olur.
+- Veri kaynağı `@iv`, önceden tanımlanmış bir veri kaynağıdır ve `@` önekiyle `@iv` içinde tanımlanan fiziksel ölçümlerdir. Bu ölçümler tahsisat özelliği için önceden tanımlanmış bir yapılandırmadır; bu nedenle onları değiştirmeyin veya silmeyin. Aksi durumda, tahsisat özelliğini kullanırken beklenmedik hatalarla karşılaşabilirsiniz.
+- Önceden tanımlanmış hesaplanan `@iv.@available_to_allocate` ölçümüne yeni fiziksel ölçümler ekleyebilirsiniz ancak adını değiştirmemeniz gerekir.
+- Supply Chain Management veritabanınızı geri yüklemeniz durumunda geri yüklenen veritabanınız daha önce Stok Görünürlüğü ile Dataverse'e eşitlenen veriler ile artık tutarlı olmayan veriler içerebilir. Bu veri tutarsızlığı sistem hatalarına ve diğer sorunlara neden olabilir. Bu nedenle, bir Supply Chain Management veritabanını geri yüklemeden önce daima tüm ilgili Stok Görünürlük verilerini Dataverse'den temizlemeniz önemlidir. Ayrıntılar için bkz. [Supply Chain Management veritabanını geri yüklemeden önce Dataverse'den Stok Görünürlük verilerini temizleme](inventory-visibility-setup.md#restore-environment-database).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

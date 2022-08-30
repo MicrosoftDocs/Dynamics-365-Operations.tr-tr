@@ -14,6 +14,8 @@
               items:
                 - name: Platform güncelleştirmelerindeki yenilikler veya değişiklikler giriş sayfası
                   href: get-started/whats-new-home-page.md
+                - name: 10.0.29 sürümü için platform güncelleştirmeleri (Ekim 2022)
+                  href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: 10.0.28 sürümü için platform güncelleştirmeleri (Ağustos 2022)
                   href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: 10.0.27 sürümü için platform güncelleştirmeleri (Temmuz 2022)
@@ -1090,6 +1092,8 @@
                           href: data-entities/dual-write/link-your-environment.md
                         - name: Çift yazma için varlık eşlemeyi etkinleştirme
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: Çift yazma oturumları için beş dakikalık oturum zaman aşımı aralığını etkinleştirme
+                      href: data-entities/dual-write/5-minute-mode.md
                     - name: Ayrılmış çift yazma uygulama düzenleme paketi
                       href: data-entities/dual-write/separated-solutions.md
                     - name: Çift yazma için para birimi veri türü geçişi

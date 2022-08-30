@@ -2,7 +2,7 @@
 title: Satın alma ticari sözleşmeleri ile master planlama
 description: Bu makalede, planlama Iyileştirmenin planlı bir sipariş için satıcı ve/veya sağlama süresini, satınalma ticari anlaşmalarında bulunan en iyi fiyat veya sağlama süresine göre nasıl bulabileceği açıklanmaktadır.
 author: t-benebo
-ms.date: 06/29/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3797ee584cdb059a97670d532cf7e1a1163cc7ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873767"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335240"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Satın alma ticari sözleşmeleri ile master planlama
 
@@ -29,12 +29,9 @@ ms.locfileid: "8873767"
 
 Bu makalede, planlama iyileştirmenin planlı bir sipariş için satıcı ve/veya sağlama süresini, belirli bir ürün için belirtilen tüm satınalma ticari anlaşmalarında bulunan en iyi fiyat veya sağlama süresine göre nasıl bulabileceği açıklanmaktadır.
 
-## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>Planlama için iyileştirme özelliği için satınalma ticari anlaşmalarını açın
+## <a name="turn-the-purchase-trade-agreements-for-planning-optimization-feature-on-or-off"></a>Planlamayı En İyi Duruma Getirme özelliği için Satınalma ticari anlaşmalarını açma veya kapatma
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
-
-- **Modül:** *Master planlama*
-- **Özellik adı:** *Planlama için iyileştirme için satınalma ticari anlaşmalarını açın*
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.29 itibarıyla, özellik zorunludur ve kapatılamaz. 10.0.29 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Planlamayı En İyi Duruma Getirme için satınalma ticari sözleşmeleri* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="prepare-your-system-to-evaluate-purchase-trade-agreements-during-master-planning"></a>Sisteminizi Master planlama sırasında satınalma ticari anlaşmalarını değerlendirmek için hazırlayın
 

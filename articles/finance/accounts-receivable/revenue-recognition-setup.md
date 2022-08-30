@@ -1,24 +1,24 @@
 ---
 title: Gelir kabulü kurulumu
 description: Bu makalede, Gelir kabulü için kurulum seçenekleri ve bunların etkileri açıklanmaktadır.
-author: kweekley
+author: bking
 ms.date: 04/28/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ef294af8d3a8f39a80b98aeba293267dcca1f29b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 00acb795b05d01136cc154f697e7c955b0c6b620
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900027"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348425"
 ---
 # <a name="revenue-recognition-setup"></a>Gelir kabulü kurulumu
 [!include [banner](../includes/banner.md)]

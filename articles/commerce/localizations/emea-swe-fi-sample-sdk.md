@@ -1,188 +1,115 @@
 ---
-ms.openlocfilehash: a20971ac9a44c409363bbce6cd8b8343f16d800f
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+title: İsveç için kontrol birimi tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)
+description: Bu makale, Retail SDK'den İsveç için kontrol birimi tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar
+author: EvgenyPopovMBS
+ms.date: 12/20/2021
+ms.topic: article
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
+ms.search.region: Global
+ms.author: josaw
+ms.search.validFrom: 2019-3-1
+ms.openlocfilehash: fcc35a2203641b24fe4edd2ab34f2e4d5db9bb53
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274218"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324310"
 ---
 # <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>İsveç için kontrol birimi tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)
----
 
-title: İsveç için kontrol birimi tümleştirme örneğine ilişkin dağıtım kılavuzları (eski) [!include [banner](../includes/banner.md)]
-description: Bu makale, Retail SDK'den İsveç için kontrol birimi tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar
+[!include [banner](../includes/banner.md)]
 
-author: EvgenyPopovMBS Bu makale, Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) Retail yazılım geliştirme setinden (SDK) İsveç için kontrol birimi tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar. Bu mali tümleştirme örneği hakkında daha fazla bilgi için bkz. [İsveç için kontrol birimi tümleştirme örneği](emea-swe-fi-sample.md). ms.date: 20.12.2021
+Bu makale, Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) Retail yazılım geliştirme setinden (SDK) İsveç için kontrol birimi tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar. Bu mali tümleştirme örneği hakkında daha fazla bilgi için bkz. [İsveç için kontrol birimi tümleştirme örneği](emea-swe-fi-sample.md). 
 
-ms.topic: article İsveç için mali tümleştirme örneği, Retail SDK'nin bir parçasıdır. SDK'yi yükleme ve kullanma hakkında daha fazla bilgi için bkz. [Retail yazılım geliştirme seti (SDK) mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md). Bu örnek, Commerce Runtime ( CRT) ve satış noktasına (POS) yönelik uzantılardan oluşur. Bu örneği çalıştırmak için CRT, Hardware station ve POS projelerini değiştirip derlemeniz gerekir. Bu makalede açıklanan değişiklikleri yapmak için değiştirilmemiş bir Retail SDK kullanmanızı öneririz. Henüz değiştirilmiş bir dosya olmadığı durumlarda, Azure DevOps gibi bir kaynak denetimi sistemi kullanmanızı öneririz.
-hedef kitle: Uygulama Kullanıcısı, Geliştirici, BT Uzmanı
+İsveç için mali tümleştirme örneği, Retail SDK'nin bir parçasıdır. SDK'yi yükleme ve kullanma hakkında daha fazla bilgi için bkz. [Retail yazılım geliştirme seti (SDK) mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md). Bu örnek, Commerce Runtime ( CRT) ve satış noktasına (POS) yönelik uzantılardan oluşur. Bu örneği çalıştırmak için CRT, Hardware station ve POS projelerini değiştirip derlemeniz gerekir. Bu makalede açıklanan değişiklikleri yapmak için değiştirilmemiş bir Retail SDK kullanmanızı öneririz. Henüz değiştirilmiş bir dosya olmadığı durumlarda, Azure DevOps gibi bir kaynak denetimi sistemi kullanmanızı öneririz.
 
-ms.reviewer: v-chgriffin
 ## <a name="development-environment"></a>Geliştirme ortamı
-ms.search.region: Global
 
-ms.author: josaw Örneği sınayabilmeniz ve genişletebilmeniz için bir geliştirme ortamı ayarlamak amacıyla bu adımları izleyin.
-ms.search.validFrom: 2019-03-01
+Örneği sınayabilmeniz ve genişletebilmeniz için bir geliştirme ortamı ayarlamak amacıyla bu adımları izleyin.
 
 ### <a name="enable-crt-extensions"></a>CRT uzantılarını etkinleştirme
----
-
 
 CRT uzantısı bileşenleri, CRT örneklerine dahil edilmiştir. Aşağıdaki yordamları tamamlamak için **RetailSdk\\SampleExtensions\\CommerceRuntime** bölümündeki **CommerceRuntimeSamples.sln** çözümünü açın.
-2. **HardwareStation.Extension.config** yapılandırma dosyasındaki **composition** bölümüne aşağıdaki satırı ekleyerek güncel örnek Hardware station uzantısını etkinleştirin.
-
 
 #### <a name="documentprovidercleancashsample-component"></a>DocumentProvider.CleanCashSample bileşeni
-    ``` xml
 
-    <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
 1. **Runtime.Extensions.DocumentProvider.CleanCashSample** projesini bulun ve derleyin.
-    ```
-2. In the **Runtime.Extensions.DocumentProvider.CleanCashSample\\bin\\Debug** folder, find the **Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll** assembly file.
+2. **Runtime.Extensions.DocumentProvider.CleanCashSample\\bin\\Debug** klasöründe **Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll** derleme dosyasını bulun.
+3. Derleme dosyasını CRT uzantılar klasörüne kopyalayın:
 
-3. Copy the assembly file to the CRT extensions folder:
-3. Make the following changes in the **Customization.settings** package customization configuration file under the **BuildTools** folder:
+    - **Commerce Scale Unit:** Dosyayı Internet Information Services (IIS) Commerce Scale Unit site konumundaki **\\bin\\ext** klasörüne kopyalayın.
+    - **Modern POS'taki yerel CRT:** Dosyayı yerel CRT istemci aracısı konumunda yer alan **\\ext** klasörüne kopyalayın.
 
-
-    - **Commerce Scale Unit:** Copy the file to the **\\bin\\ext** folder under the Internet Information Services (IIS) Commerce Scale Unit site location.
-    - Remove the following line to exclude the earlier Hardware station extension from deployable packages.
-    - **Local CRT on Modern POS:** Copy the file to the **\\ext** folder under the local CRT client broker location.
-
-
-        ``` xml
-4. Find the extension configuration file for CRT:
-        <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample.dll" />
-
-        ```
-    - **Commerce Scale Unit:** The file is named **commerceruntime.ext.config**, and it's in the **bin\\ext** folder under the IIS Commerce Scale Unit site location.
-
-    - **Local CRT on Modern POS:** The file is named **CommerceRuntime.MPOSOffline.Ext.config**, and it's under the local CRT client broker location.
-    - Add the following lines to include the current sample Hardware station extension in deployable packages.
-
-
-5. Register the CRT change in the extension configuration file.
-        ``` xml
-
-        <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.CleanCashSample.dll" />
-    ``` xml
-        <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Interop.CleanCash_1_1.dll" />
-    <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample" />
-        ```
-    ```
-
-
-#### <a name="update-modern-pos"></a>Modern POS'u güncelleştirme
-#### <a name="extension-configuration-file"></a>Uzantı yapılandırma dosyası
-
-
-1. **RetailSdk\\POS** bölümündeki **CloudPOS.sln** çözümünü açın.
-1. CRT için uzantı yapılandırma dosyasını bulun:
-2. Önceki POS uzantısını devre dışı bırakın:
-
+4. CRT için uzantı yapılandırma dosyasını bulun:
 
     - **Commerce Scale Unit:** Dosya, **commerceruntime.ext.config** olarak adlandırılmıştır ve IIS Commerce Scale Unit site konumundaki **bin\\ext** klasöründe yer alır.
-    - **tsconfig.json** dosyasında, **FiscalRegisterSample** klasörünü hariç tutma listesine ekleyin.
     - **Modern POS'taki yerel CRT:** Dosya, **CommerceRuntime.MPOSOffline.Ext.config** olarak adlandırılmıştır ve yerel CRT istemci aracısı konumunda yer alır.
-    - **RetailSDK\\POS\\Extensions** klasöründeki **extensions.json** dosyasından aşağıdaki satırları kaldırın.
 
+5. CRT değişikliğini uzantı yapılandırma dosyasına kaydedin.
+
+    ``` xml
+    <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample" />
+    ```
+
+#### <a name="extension-configuration-file"></a>Uzantı yapılandırma dosyası
+
+1. CRT için uzantı yapılandırma dosyasını bulun:
+
+    - **Commerce Scale Unit:** Dosya, **commerceruntime.ext.config** olarak adlandırılmıştır ve IIS Commerce Scale Unit site konumundaki **bin\\ext** klasöründe yer alır.
+    - **Modern POS'taki yerel CRT:** Dosya, **CommerceRuntime.MPOSOffline.Ext.config** olarak adlandırılmıştır ve yerel CRT istemci aracısı konumunda yer alır.
 
 2. CRT değişikliğini uzantı yapılandırma dosyasına kaydedin.
-        ``` json
 
-        {
     ``` xml
-            "baseUrl": "FiscalRegisterSample"
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsSweden" />
-        }
     ```
-        ```
-
 
 ### <a name="enable-hardware-station-extensions"></a>Hardware Station uzantılarını etkinleştirme
-3. **RetailSDK\\POS\\Extensions** klasöründeki **extensions.json** dosyasına aşağıdaki satırları ekleyerek güncel örnek POS uzantısını etkinleştirin.
-
 
 Hardware station uzantı bileşenleri, Hardware station örneklerine dahil edilmiştir. Aşağıdaki yordamları tamamlamak için **RetailSdk\\SampleExtensions\\HardwareStation** bölümündeki **HardwareStationSamples.sln** çözümünü açın.
-    ``` json
 
-    {
 #### <a name="cleancash-component"></a>CleanCash bileşeni
-        "extensionPackages": [
 
-            {
 1. **HardwareStation.Extension.CleanCashSample** projesini bulun ve derleyin.
-                "baseUrl": "Microsoft/AuditEvent.SE"
 2. **Extension.CleanCashSample\\bin\\Debug** klasöründe **Contoso.Commerce.HardwareStation.CleanCashSample.dll** ve **Interop.CleanCash\_1\_1.dll** derleme dosyalarını bulun.
-            }
-3. Derleme dosyalarını Hardware station uzantılar klasörüne kopyalayın:      ]
+3. Derleme dosyalarını Hardware station uzantılar klasörüne kopyalayın:
 
-    }
     - **Paylaşılan hardware station:** Dosyaları IIS Hardware station site konumundaki **bin** klasörüne kopyalayın.
-    ```
-    - **Dedicated hardware station on Modern POS:** Copy the files to the Modern POS client broker location.
+    - **Modern POS'taki ayrılmış hardware station:** Dosyaları Modern POS istemci aracısı konumuna kopyalayın.
 
+4. Hardware station'ın uzantıları için uzantı yapılandırma dosyasını bulun. Dosya, **HardwareStation.Extension.config** olarak adlandırılmıştır.
 
-#### Update Cloud POS
-4. Find the extension configuration file for the Hardware station's extensions. The file is named **HardwareStation.Extension.config**.
+    - **Paylaşılan hardware station:** Dosya, IIS Hardware station site konumunda yer alır.
+    - **Modern POS'taki ayrılmış hardware station:** Dosya, Modern POS istemci aracısı konumunda yer alır.
 
-
-1. Open the **ModernPOS.sln** solution under **RetailSdk\\POS**.
-    - **Shared hardware station:** The file is under the IIS Hardware station site location.
-2. Disable the earlier POS extension:
-    - **Dedicated hardware station on Modern POS:** The file is under the Modern POS client broker location.
-
-
-    - In the **tsconfig.json** file, add the **FiscalRegisterSample** folder to the exclude list.
-5. Add the following line to the **composition** section of the configuration file.
-    - Remove the following lines from the **extensions.json** file under the **RetailSDK\\POS\\Extensions** folder.
-
+5. Yapılandırma dosyasının **composition** bölümüne aşağıdaki satırı ekleyin.
 
     ``` xml
-        ``` json
     <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
-        {
     ```
-            "baseUrl": "FiscalRegisterSample"
 
-        }
 ### <a name="enable-modern-pos-extension-components"></a>Modern POS uzantı bileşenlerini etkinleştirme
-        ```
-
 
 1. **RetailSdk\\POS** kısmından **ModernPOS.sln** çözümünü açın ve çözümün hatasız şekilde derlenebildiğinden emin olun. Ayrıca, **Çalıştır** komutunu kullanarak Visual Studio'dan Modern POS'u çalıştırabildiğinizden emin olun.
-3. **RetailSDK\\POS\\Extensions** klasöründeki **extensions.json** dosyasına aşağıdaki satırları ekleyerek güncel örnek POS uzantısını etkinleştirin.
-
 
     > [!NOTE]
+    > Modern POS özelleştirilmemelidir. Kullanıcı Hesabı Denetimi'ni (UAC) etkinleştirmeniz ve Modern POS'un önceden yüklenmiş olan örneklerini gerektiği gibi kaldırmanız gerekir.
+
+2. Yüklenmesi gereken uzantıları etkinleştirmek için **extensions.json** dosyasına aşağıdaki satırları ekleyin.
+
     ``` json
-    > Modern POS must not be customized. You must enable User Account Control (UAC), and you must uninstall previously installed instances of Modern POS as required.
     {
-
         "extensionPackages": [
-2. Enable the extensions that must be loaded by adding the following lines in the **extensions.json** file.
             {
-
                 "baseUrl": "Microsoft/AuditEvent.SE"
-    ``` json
             }
-    {
         ]
-        "extensionPackages": [
     }
-            {
-    ```
-                "baseUrl": "Microsoft/AuditEvent.SE"
-
-            }
-#### <a name="create-deployable-packages"></a>Dağıtılabilir paketler oluşturma
-        ]
-
-    }
-Dağıtılabilir paketler oluşturmak üzere tüm Retail SDK için **msbuild**'i çalıştırın. Paketleri LCS aracılığıyla veya el ile uygulayın. Daha fazla bilgi için bkz. [Retail SDK paketlemesi](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
     ```
 
     > [!NOTE]
-    > For more information, and for samples that show how to include source code folders and enable extensions to be loaded, see the instructions in the readme.md file in the **Pos.Extensions** project.
+    > Kaynak kodu klasörlerinin nasıl dahil edileceğini ve yüklenecek uzantıların nasıl etkinleştirileceğini gösteren örneklerle birlikte daha fazla bilgi için **Pos.Extensions** projesindeki readme.md dosyasındaki talimatlara bakın.
 
 3. Çözümü yeniden oluşturun.
 4. Hata ayıklayıcıda Modern POS'u çalıştırın ve işlevi sınayın.
@@ -511,3 +438,80 @@ Geçiş işlemi aşağıdaki adımlardan oluşmalıdır.
     <add source="assembly" value="Contoso.Commerce.HardwareStation.FiscalRegisterSample" />
     ```
     ---
+
+2. **HardwareStation.Extension.config** yapılandırma dosyasındaki **composition** bölümüne aşağıdaki satırı ekleyerek güncel örnek Hardware station uzantısını etkinleştirin.
+
+    ``` xml
+    <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
+    ```
+
+3. **BuildTools** klasöründeki **Customization.settings** paket özelleştirme yapılandırma dosyasında aşağıdaki değişiklikleri yapın:
+
+    - Önceki Hardware station uzantısını dağıtılabilir paketlerden hariç tutmak için aşağıdaki satırı kaldırın.
+
+        ``` xml
+        <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample.dll" />
+        ```
+
+    - Güncel örnek Hardware station uzantısını dağıtılabilir paketlere dahil etmek için aşağıdaki satırları ekleyin.
+
+        ``` xml
+        <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.CleanCashSample.dll" />
+        <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Interop.CleanCash_1_1.dll" />
+        ```
+
+#### <a name="update-modern-pos"></a>Modern POS'u güncelleştirme
+
+1. **RetailSdk\\POS** bölümündeki **CloudPOS.sln** çözümünü açın.
+2. Önceki POS uzantısını devre dışı bırakın:
+
+    - **tsconfig.json** dosyasında, **FiscalRegisterSample** klasörünü hariç tutma listesine ekleyin.
+    - **RetailSDK\\POS\\Extensions** klasöründeki **extensions.json** dosyasından aşağıdaki satırları kaldırın.
+
+        ``` json
+        {
+            "baseUrl": "FiscalRegisterSample"
+        }
+        ```
+
+3. **RetailSDK\\POS\\Extensions** klasöründeki **extensions.json** dosyasına aşağıdaki satırları ekleyerek güncel örnek POS uzantısını etkinleştirin.
+
+    ``` json
+    {
+        "extensionPackages": [
+            {
+                "baseUrl": "Microsoft/AuditEvent.SE"
+            }
+        ]
+    }
+    ```
+
+#### <a name="update-cloud-pos"></a>Bulut POS'u güncelleştirme
+
+1. **RetailSdk\\POS** bölümündeki **ModernPOS.sln** çözümünü açın.
+2. Önceki POS uzantısını devre dışı bırakın:
+
+    - **tsconfig.json** dosyasında, **FiscalRegisterSample** klasörünü hariç tutma listesine ekleyin.
+    - **RetailSDK\\POS\\Extensions** klasöründeki **extensions.json** dosyasından aşağıdaki satırları kaldırın.
+
+        ``` json
+        {
+            "baseUrl": "FiscalRegisterSample"
+        }
+        ```
+
+3. **RetailSDK\\POS\\Extensions** klasöründeki **extensions.json** dosyasına aşağıdaki satırları ekleyerek güncel örnek POS uzantısını etkinleştirin.
+
+    ``` json
+    {
+        "extensionPackages": [
+            {
+                "baseUrl": "Microsoft/AuditEvent.SE"
+            }
+        ]
+    }
+    ```
+
+#### <a name="create-deployable-packages"></a>Dağıtılabilir paketler oluşturma
+
+Dağıtılabilir paketler oluşturmak üzere tüm Retail SDK için **msbuild**'i çalıştırın. Paketleri LCS aracılığıyla veya el ile uygulayın. Daha fazla bilgi için bkz. [Retail SDK paketlemesi](../dev-itpro/retail-sdk/retail-sdk-packaging.md).

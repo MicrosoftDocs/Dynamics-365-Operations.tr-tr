@@ -2,7 +2,7 @@
 title: Satış geçmişi verilerini temizleme işlemini zamanlama
 description: Bu makalede, periyodik Satış güncelleştirme geçmişi temizleme görevini düzenli aralıklarla çalışacak şekilde zamanlayarak sistem performansının artırılmasına nasıl yardımcı olacağınız açıklanmaktadır.
 author: myvakalo
-ms.date: 03/21/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1b2c9436fbb5020065f8f6ec30eedeca342d8aa9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e9a4dd5372afa8a0452449d1cb9121107e6e1610
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900839"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335518"
 ---
 # <a name="schedule-sales-history-data-cleanup"></a>Satış geçmişi verilerini temizleme işlemini zamanlama
 
@@ -51,10 +51,7 @@ Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yön
 
 *Yaşına göre satış güncelleştirme geçmişini temizle* özelliği, periyodik *Satış güncelleştirme geçmişi temizleme* görevini çalıştırırken tutulacak kayıtların maksimum yaşını belirtmenizi sağlar. Eski kayıtlar silinecek. Bu özellik, geçerlilik süresi her zaman görevin çalıştırıldığı tarihe göre hesaplandığı için, görevi belirli aralıklarla çalışacak şekilde ayarladığınızda yararlıdır. Bu özelliği kullanmazsanız, yalnızca tutulacak en eski kayıtlar için belirli bir tarih ayarlayabilirsiniz.
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanında bu özellik aşağıdaki şekilde listelenir:
-
-- **Model:** *Satış ve pazarlama*
-- **Özellik adı:** *Yaşına göre satış güncelleştirme geçmişini temizle*
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.29 itibarıyla, özellik zorunludur ve kapatılamaz. 10.0.29 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Yaşına göre satış güncelleştirme geçmişini temizle* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="set-up-and-schedule-the-sales-history-cleanup-periodic-task"></a>Satış geçmişi temizleme periyodik görevini ayarlama ve zamanlama
 

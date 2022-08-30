@@ -1,25 +1,25 @@
 ---
 title: Globalleştirme kaynakları
 description: Bu makale, ülke/bölgeye özgü işlevler ve teklifler hakkında daha fazla bilgi edinmenize yardımcı olabilecek kaynakların listesini içerir.
-author: kfend
+author: sericks007
 ms.date: 02/19/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
-ms.custom: 104173
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abfba49c1b5e410cdc47db9965ffee26fbaebb9e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.custom: 104173
+ms.search.form: ERWorkspace
+ms.openlocfilehash: 22b81f93a6879e1a380c8d6c3b5c554ca6bd5dc5
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067697"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288715"
 ---
 # <a name="globalization-resources"></a>Globalleştirme kaynakları
 

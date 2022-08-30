@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cd5d2cf112a9d2ccdf6226ee79f0ff488d51066b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 576d8d5d0cad09aed40f1ceb9ce5682816c0f666
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066685"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306333"
 ---
 # <a name="configure-inventory-visibility"></a>Inventory Visibility'yi yapılandırma
 
@@ -52,7 +52,7 @@ Stok Görünürlüğü Eklentisi, Power Apps kurulumunuza birkaç yeni özellik 
 | Özellik Yönetimi adı | Açıklama |
 |---|---|
 | *OnHandReservation* | Bu özellik, Stok Görünürlüğü'nü kullanarak rezervasyon oluşturmanızı, rezervasyonları tüketmenizi ve/veya belirtilen stok miktarlarının rezervasyonunu kaldırmanızı sağlar. Daha fazla bilgi için bkz. [Stok Görünürlüğü rezervasyonları](inventory-visibility-reservations.md). |
-| *OnHandMostSpecificBackgroundService* | Bu özellik, tüm boyutlarla birlikte ürünler için bir stok özeti sağlar. Stok özeti verileri, Stok Görünürlüğü'nden periyodik olarak eşitlenir. Daha fazla bilgi için bkz. [Stok özeti](inventory-visibility-power-platform.md#inventory-summary). |
+| *OnHandMostSpecificBackgroundService* | Bu özellik, tüm boyutlarla birlikte ürünler için bir stok özeti sağlar. Stok özeti verileri, Stok Görünürlüğü'nden periyodik olarak eşitlenir. Varsayılan eşitleme sıklığı 15 dakikada birdir ve en çok 5 dakikada bir olarak ayarlanabilir. Daha fazla bilgi için bkz. [Stok özeti](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | Bu isteğe bağlı özellik, eldeki değişiklik zamanlamasını etkinleştirir ve karşılanabilir miktar (KM) özelliklerini sunar. Daha fazla bilgi için bkz. [Stok Görünürlüğü eldeki değişiklik zamanlaması ve karşılanabilir miktarı](inventory-visibility-available-to-promise.md). |
 | *Tahsisat* | Bu isteğe bağlı özellik Stok Görünürlüğünün stok koruması (sınırlama) ve fazla satış yapma denetimi yeteneğine sahip olmasını sağlar. Daha fazla bilgi için bkz. [Stok Görünürlüğü stok tahsisatı](inventory-visibility-allocation.md). |
 | *Stok Görünürlüğünde ambar maddelerini etkinleştir* | Bu isteğe bağlı özellik, Stok Görünürlüğü'nün ambar yönetim süreçleri (WMS) için etkinleştirilen öğeleri desteklemesini sağlar. Daha fazla bilgi için bkz. [WMS öğeleri için Stok Görünürlüğü desteği](inventory-visibility-whs-support.md). |

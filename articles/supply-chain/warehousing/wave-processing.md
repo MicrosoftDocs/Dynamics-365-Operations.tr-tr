@@ -2,7 +2,7 @@
 title: Dalga oluşturma ve işleme
 description: Bu makale, bir yükleme, Sevkiyat, üretim emri veya Kanban siparişi için malzeme çekme işi oluşturmak amacıyla bir dalga oluşturma, işleme ve serbest bırakma yöntemini açıklamaktadır.
 author: Mirzaab
-ms.date: 03/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 60bf4ab6944bd982e022ead6431adae417ddfb43
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 0466019990773ee93e063a255c15a7d64eecdf78
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9014633"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336020"
 ---
 # <a name="wave-creation-and-processing"></a>Dalga oluşturma ve işleme
 
@@ -191,7 +191,7 @@ Bir dalgaya ilişkin toplu işleri ve ilgili görevleri denetlemek için **dalga
 
 ### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>Dalga toplu iş ayrıntıları sayfasını açma veya kapatma
 
-Supply Chain Management sürüm 10.0.25 itibarıyla **Dalga toplu iş ayrıntıları** özelliği varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Dalga toplu iş ayrıntıları* özelliğini bularak bu işlevi açabilir veya kapatabilir.
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.25 itibarıyla özellik varsayılan olarak açıktır. Supply Chain Management sürüm 10.0.29 itibarıyla, özellik zorunludur ve kapatılamaz. 10.0.29 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Dalga toplu iş ayrıntıları* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ### <a name="use-the-wave-batch-job-details-page"></a>Dalga toplu iş ayrıntıları sayfasını kullanma
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3642bb88d5b0570014513b64eef5fdab6d1ee9d3
-ms.sourcegitcommit: 5b721f6fc1ba4350b5bd0eae457f71d80246db42
+ms.openlocfilehash: 2f9d882340171173e5e503f8b5e3aa856e8544b0
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9181139"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306218"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Vergi hesaplama konfigürasyonu için master veri aramasını etkinleştir 
 
@@ -108,7 +108,7 @@ Dataverse, finans ve operasyon uygulamalarını çağırmak için oluşturduğun
     - **Sağlayıcı** – Bu alanı **NonAAD** olarak ayarlayın.
     - **E-posta** – **dataverseintegration** veya başka bir değer girin. (Değerin geçerli bir e-posta hesabı olması gerekmez.)
 
-3. Kullanıcıya **CDS sanal varlık uygulaması** güvenlik rolünü atayın.
+3. Kullanıcıya **Dataverse sanal varlık tümleştirme uygulaması** güvenlik rolünü atayın.
 4. **Sistem kullanıcısı** dahil diğer tüm rolleri kaldırın.
 5. **Sistem Yönetimi** \> **Kurulum** \> **Azure Active Directory uygulamaları**'na giderek Dataverse'i kaydedin. 
 6. Satır ekleyin ve **İstemci Kimliği** alanında, daha önce not ettiğiniz **Uygulama (istemci) kimliği** değerini girin.
@@ -199,17 +199,11 @@ Daha fazla bilgi için bkz. [Microsoft Dataverse sanal varlıklarını etkinleş
 
 ## <a name="set-up-the-connected-application-for-tax-calculation"></a><a name='set-up'></a>Vergi Hesaplama için bağlı uygulamayı ayarlama
 
-1. RCS'de, **Özellik yönetimi** çalışma alanını açın ve aşağıdaki özellikleri etkinleştirin:
-
-    - Elektronik raporlama Dataverse veri kaynakları desteği
-    - Vergi Hizmeti Dataverse veri kaynakları desteği
-    - Globalleştirme özellikleri
-
-2. **Elektronik raporlama**'ya gidin, ardından **İlgili bağlantılar** bölümünde, **Bağlı uygulamalar**'ı seçin.
+1. **Elektronik raporlama**'ya gidin, ardından **İlgili bağlantılar** bölümünde, **Bağlı uygulamalar**'ı seçin.
 
     [![Bağlı uygulamalar.](./media/tcs-dataverse-master-data-lookup-12.png)](./media/tcs-dataverse-master-data-lookup-12.png)
 
-3. Kayıt eklemek için **Yeni**'yi seçin ve aşağıdaki bilgileri girin.
+2. Kayıt eklemek için **Yeni**'yi seçin ve aşağıdaki bilgileri girin.
 
     - **Ad**: Ad girin.
     - **Tür** – **Dataverse**'ü seçin.
@@ -217,12 +211,18 @@ Daha fazla bilgi için bkz. [Microsoft Dataverse sanal varlıklarını etkinleş
     - **Kiracı** – Kiracınızı girin.
     - **Özel URL** – Dataverse URL'nizi girin ve bu URL'ye **/api/data/v9.1** ekleyin.
 
-4. **Bağlantıyı denetle**'yi seçin ve ardından görüntülenen iletişim kutusunda, **Seçili uzak uygulamaya bağlanmak için buraya tıklayın**'ı seçin.
+3. **Bağlantıyı denetle**'yi seçin ve ardından iletişim kutusunda **Seçili uzak uygulamaya bağlanmak için buraya tıklayın**'ı seçin.
 
     [![Bağlantıyı denetleme.](./media/tcs-dataverse-master-data-lookup-13.png)](./media/tcs-dataverse-master-data-lookup-13.png)
-5. Bağlantının başarıyla kurulduğunu gösteren "Başarılı!" iletisi aldığınızdan emin olun.
+4. Bağlantının başarıyla kurulduğunu gösteren "Başarılı!" iletisi aldığınızdan emin olun.
 
     [![Başarılı iletisi.](./media/tcs-dataverse-master-data-lookup-14.png)](./media/tcs-dataverse-master-data-lookup-14.png)
+    
+5. RCS'de, **Özellik yönetimi** çalışma alanını açın ve aşağıdaki özellikleri etkinleştirin:
+
+    - Globalleştirme özellikleri
+    - Elektronik raporlama Dataverse veri kaynakları desteği
+    - Vergi Hizmeti Dataverse veri kaynakları desteği
 
 ## <a name="import-and-set-up-the-dataverse-model-mapping-configuration"></a><a name='import'></a>Dataverse Model Eşleme yapılandırmasını içeri aktarma ve ayarlama
 

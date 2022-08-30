@@ -14,19 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 998511bd87fa5e1dbd7cdae2d6cd912d61dc29ae
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d6a4ceb6607ca397b8d755abb1c6645cebc7f660
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691708"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9323405"
 ---
 # <a name="set-up-tier-codes"></a>Katman kodlarını ayarlama
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources çalışanlar ve işveren tarafından ödenen kazanç oranlarıyla katman kodlarını kullanır. Sınırsız sayıda katman kodu tanımlayabilir ve şirketinizin gereksinimlerini karşılayacak şekilde fiyat hesaplamaları ayarlayabilirsiniz.
 

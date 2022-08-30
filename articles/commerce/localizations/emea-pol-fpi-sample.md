@@ -2,23 +2,24 @@
 title: Polonya için yazar kasa tümleştirme örneği
 description: Bu makale, Microsoft Dynamics 365 Commerce'taki Polonya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
-ms.search.validFrom: 2019-02-01
-ms.openlocfilehash: 1466532099820abcdf4496db80f9a34682e2ed5a
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.search.validFrom: 2019-02-01.
+ms.openlocfilehash: 52710252d78d34c444de2d40e16423868b12b5c1
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274245"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336751"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>Polonya için yazar kasa tümleştirme örneği
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Bu makale, Microsoft Dynamics 365 Commerce'taki Polonya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
 
@@ -97,12 +98,10 @@ Mali yazıcı tümleştirme örneği, müşteri havaleleri ve müşteri sipariş
 
 ## <a name="set-up-fiscal-integration-for-poland"></a>Polonya için mali tümleştirmeyi ayarlama
 
-Polonya için mali yazıcı tümleştirme örneği, [mali tümleştirme işlevine](fiscal-integration-for-retail-channel.md) dayanır ve Retail SDK'nin bir parçasıdır. Örnek, [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunun **src\\FiscalIntegration\\Posnet** klasöründe bulunur (örneğin, [sürüm/9.33'teki örnek](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Posnet)). Örnek, Commerce Runtime'ın (CRT) uzantısı olan bir mali belge sağlayıcısından ve Commerce Hardware Station'ın uzantısı olan bir mali bağlayıcıdan [oluşur](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services). Retail SDK'yi kullanma hakkında daha fazla bilgi için [Retail SDK mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md) ve [Bağımsız paketleme SDK'si için derleme işlem hattı ayarlama](../dev-itpro/build-pipeline.md) konularına bakın.
+Polonya için mali yazıcı tümleştirme örneği, [mali tümleştirme işlevine](fiscal-integration-for-retail-channel.md) dayanır ve Commerce SDK'nin bir parçasıdır. Örnek, [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunun **src\\FiscalIntegration\\Posnet** klasöründe bulunur. [Örnek](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services), Commerce Runtime'ın (CRT) uzantısı olan bir mali belge sağlayıcısından ve Commerce Hardware Station'ın uzantısı olan bir mali bağlayıcıdan oluşur. Commerce SDK'yı kullanma hakkında dah afazla bilgi için bkz. [GitHub ve NuGet'ten Retail SDK örnekleri ve başvuru paketleri indirme](../dev-itpro/retail-sdk/sdk-github.md) ve [Bağımsız paketleme SDK'sı için derleme işlem hattı ayarlama](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> [Yeni bağımsız paketleme ve uzantı modelinin](../dev-itpro/build-pipeline.md) sınırlamaları nedeniyle bu mali tümleştirme örneği için şu anda kullanılamaz. Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) Retail SDK'nin önceki sürümünü kullanmalısınız. Daha fazla bilgi için bkz. [Polonya için mali yazıcı tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)](emea-pol-fpi-sample-sdk.md).
->
-> Mali tümleştirme örnekleri için yeni bağımsız paketleme ve uzantı modeli desteği, sonraki sürümler için planlanmaktadır.
+> [!NOTE]
+> Polonya için mali yazıcı hizmeti tümleştirme örneği, Commerce SDK 10.0.29 sürümü itibarıyla Commerce SDK'da bulunur. Commerce 10.0.28 veya öncesi sürümlerde, Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) Retail SDK'nin önceki sürümünü kullanmalısınız. Daha fazla bilgi için bkz. [Polonya için mali yazıcı tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)](emea-pol-fpi-sample-sdk.md).
 
 [Commerce kanalları için mali tümleştirmeyi ayarlama](setting-up-fiscal-integration-for-retail-channel.md) konusunda açıklandığı şekilde mali tümleştirme ayarlama adımlarını tamamlayın.
 
@@ -119,18 +118,16 @@ Kayıt işlemini etkinleştirmek üzere Commerce Headquarters'ı ayarlamak için
 1. Mali belge sağlayıcısı ve mali bağlayıcı için yapılandırma dosyalarını indirin:
 
     1. [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunu açın.
-    1. SDK/uygulama sürümünüze göre doğru dal sürümünü seçin (örneğin, **[sürüm/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. SDK/uygulama sürümünüze göre doğru dal sürümünü seçin.
     1. **src \> FiscalIntegration \> Posnet**'i açın.
-    1. Mali belge sağlayıcısı yapılandırma dosyasını **CommerceRuntime \> DocumentProvider.PosnetSample \> Configuration \> DocumentProviderPosnetSample.xml** (örneğin, [sürüm/9.33 dosyası](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Posnet/CommerceRuntime/DocumentProvider.PosnetSample/Configuration/DocumentProviderPosnetSample.xml)) kısmından indirin.
-    1. Mali bağlayıcı yapılandırma dosyasını **HardwareStation \> ThermalDeviceSample \> Configuration \> ConnectorPosnetThermalFVEJ.xml** (örneğin, [sürüm/9.33 dosyası](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Posnet/HardwareStation/ThermalDeviceSample/Configuration/ConnectorPosnetThermalFVEJ.xml)) kısmından indirin.
+    1. Mali belge sağlayıcısı yapılandırma dosyasını **CommerceRuntime \> DocumentProvider.PosnetSample \> Configuration \> DocumentProviderPosnetSample.xml** kısmından indirin.
+    1. Mali bağlayıcı yapılandırma dosyasını **HardwareStation \> ThermalDeviceSample \> Configuration \> ConnectorPosnetThermalFVEJ.xml** kısmından indirin.
 
-    > [!WARNING]
-    > [Yeni bağımsız paketleme ve uzantı modelinin](../dev-itpro/build-pipeline.md) sınırlamaları nedeniyle bu mali tümleştirme örneği için şu anda kullanılamaz. LCS'deki bir geliştirici VM'sinde Retail SDK'nin önceki sürümünü kullanmalısınız. Bu mali tümleştirme örneğinin yapılandırma dosyaları, LCS'deki bir geliştirici VM'sinde Retail SDK'nin aşağıdaki klasörlerinde bulunur:
+    > [!NOTE]
+    > Commerce 10.0.28 veya öncesi sürümlerde, LCS'de bir geliştirici sanal makinesinde Retail SDK'nin önceki sürümünü kullanmalısınız. Bu mali tümleştirme örneğinin yapılandırma dosyaları, LCS'deki bir geliştirici VM'sinde Retail SDK'nin aşağıdaki klasörlerinde bulunur:
     >
     > - **Mali belge sağlayıcısı yapılandırma dosyası:** RetailSdk\\SampleExtensions\\CommerceRuntime\\Extension.DocumentProvider.PosnetSample\\Configuration\\DocumentProviderPosnetSample.xml
     > - **Mali bağlayıcı yapılandırma dosyası:** RetailSdk\\SampleExtensions\\HardwareStation\\Extension.Posnet.ThermalDeviceSample\\Configuration\\ConnectorPosnetThermalFVEJ.xml
-    > 
-    > Mali tümleştirme örnekleri için yeni bağımsız paketleme ve uzantı modeli desteği, sonraki sürümler için planlanmaktadır.
 
 1. **Retail ve Commerce \> Headquarters ayarı \> Parametreler \> Paylaşılan Commerce parametreleri**'ne gidin. **Genel** hızlı sekmesinde, **Mali tümleştirmeyi etkinleştir** seçeneğini **Evet** olarak ayarlayın.
 1. **Retail ve Commerce \> Kanal kurulumu \> Mali tümleştirme \> Mali belge sağlayıcıları**'na gidin ve daha önce indirdiğiniz mali belge sağlayıcısı yapılandırma dosyasını yükleyin.
@@ -173,16 +170,15 @@ Aşağıdaki ayarlar, mali tümleştirme örneğinin bir parçası olarak sağla
 
 ### <a name="configure-channel-components"></a>Kanal bileşenlerini yapılandırma
 
-> [!WARNING]
-> [Yeni bağımsız paketleme ve uzantı modelinin](../dev-itpro/build-pipeline.md) sınırlamaları nedeniyle bu mali tümleştirme örneği için şu anda kullanılamaz. LCS'deki bir geliştirici VM'sinde Retail SDK'nin önceki sürümünü kullanmalısınız. Daha fazla bilgi için bkz. [Polonya için mali yazıcı tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)](emea-pol-fpi-sample-sdk.md).
->
-> Mali tümleştirme örnekleri için yeni bağımsız paketleme ve uzantı modeli desteği, sonraki sürümler için planlanmaktadır.
+> [!NOTE]
+> - Polonya için mali yazıcı hizmeti tümleştirme örneği, Commerce SDK 10.0.29 sürümü itibarıyla Commerce SDK'da bulunur. Commerce 10.0.28 veya öncesi sürümlerde, LCS'de bir geliştirici sanal makinesinde Retail SDK'nin önceki sürümünü kullanmalısınız. Daha fazla bilgi için bkz. [Polonya için mali yazıcı tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)](emea-pol-fpi-sample-sdk.md).
+> - Commerce bileşenlerine hizmet veya kalite güncelleştirmeleri uyguladığınızda, ortamınızda dağıtılan Commerce kurulumları otomatik olarak güncelleştirilmez. Gerekli örnekleri el ile güncelleştirmeniz gerekir.
 
 #### <a name="set-up-the-development-environment"></a>Geliştirme ortamını ayarlama
 
 Örneği test etmek ve genişletmek üzere bir geliştirme ortamı ayarlamak için aşağıdaki adımları izleyin.
 
-1. [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions) deposunu klonlayın veya indirin. SDK/uygulama sürümünüze göre doğru dal sürümünü seçin. Daha fazla bilgi için bkz. [GitHub ve NuGet'ten Retail SDK örnekleri ve başvuru paketleri indirme](../dev-itpro/retail-sdk/sdk-github.md).
+1. [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions) deposunu klonlayın veya indirin. SDK/uygulama sürümünüze göre doğru dal sürümünü seçin. Daha fazla bilgi için bkz. [GitHub ve NuGet'ten Commerce SDK örnekleri ve başvuru paketleri indirme](../dev-itpro/retail-sdk/sdk-github.md).
 1. **Dynamics365Commerce.Solutions\\FiscalIntegration\\Posnet\\Posnet.sln** kısmından mali yazıcı tümleştirme çözümünü açın ve derleyin.
 1. CRT uzantılarını yükleyin:
 
@@ -220,10 +216,10 @@ Mali tümleştirme örneği için Cloud Scale Unit'i ve self servis dağıtılab
 
 ## <a name="design-of-extensions"></a>Uzantıların tasarımı
 
-Polonya için mali yazıcı tümleştirme örneği, [mali tümleştirme işlevine](fiscal-integration-for-retail-channel.md) dayanır ve Retail SDK'nin bir parçasıdır. Örnek, [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunun **src\\FiscalIntegration\\Posnet** klasöründe bulunur (örneğin, [sürüm/9.33'teki örnek](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Posnet)). Örnek, CRT'nin uzantısı olan bir mali belge sağlayıcısından ve Commerce Hardware Station'ın uzantısı olan bir mali bağlayıcıdan [oluşur](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services). Retail SDK'yi kullanma hakkında daha fazla bilgi için [Retail SDK mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md) ve [Bağımsız paketleme SDK'si için derleme işlem hattı ayarlama](../dev-itpro/build-pipeline.md) konularına bakın.
+Polonya için mali yazıcı tümleştirme örneği, [mali tümleştirme işlevine](fiscal-integration-for-retail-channel.md) dayanır ve Commerce SDK'nin bir parçasıdır. Örnek, [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunun **src\\FiscalIntegration\\Posnet** klasöründe bulunur. [Örnek](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services), CRT'nin uzantısı olan bir mali belge sağlayıcısından ve Commerce Hardware Station'ın uzantısı olan bir mali bağlayıcıdan oluşur. Commerce SDK'yı kullanma hakkında dah afazla bilgi için bkz. [GitHub ve NuGet'ten Retail SDK örnekleri ve başvuru paketleri indirme](../dev-itpro/retail-sdk/sdk-github.md) ve [Bağımsız paketleme SDK'sı için derleme işlem hattı ayarlama](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> [Yeni bağımsız paketleme ve uzantı modelinin](../dev-itpro/build-pipeline.md) sınırlamaları nedeniyle bu mali tümleştirme örneği için şu anda kullanılamaz. LCS'deki bir geliştirici VM'sinde Retail SDK'nin önceki sürümünü kullanmalısınız. Daha fazla bilgi için bkz. [Polonya için mali yazıcı tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)](emea-pol-fpi-sample-sdk.md). Mali tümleştirme örnekleri için yeni bağımsız paketleme ve uzantı modeli desteği, sonraki sürümler için planlanmaktadır.
+> [!NOTE]
+> Polonya için mali yazıcı hizmeti tümleştirme örneği, Commerce SDK 10.0.29 sürümü itibarıyla Commerce SDK'da bulunur. Commerce 10.0.28 veya öncesi sürümlerde, LCS'de bir geliştirici sanal makinesinde Retail SDK'nin önceki sürümünü kullanmalısınız. Daha fazla bilgi için bkz. [Polonya için mali yazıcı tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)](emea-pol-fpi-sample-sdk.md).
 
 ### <a name="commerce-runtime-extension-design"></a>Commerce Runtime uzantı tasarımı
 

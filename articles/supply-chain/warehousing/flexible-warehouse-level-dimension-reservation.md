@@ -2,7 +2,7 @@
 title: Ambar düzeyinde esnek boyut rezervasyonu ilkesi
 description: Bu makale, toplu işle izlenen ürünler satan ve lojistiklerini WMS-etkin operasyonlar olarak çalıştıran işletmelerin, ürünlerle ilişkili rezervasyon hiyerarşisi belirli toplu işlerin rezervasyonuna izin vermese bile, belirli toplu işleri rezerve etmelerine izin veren stok rezervasyon ilkesini açıklar.
 author: perlynne
-ms.date: 07/31/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d515fb46dcc2d135412d140b98f0578cae89c409
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 64855460ddf015f936fe695fc68938067f31b0cc
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065913"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335720"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Esnek ambar düzeyi boyut rezervasyonu ilkesi
 
@@ -196,12 +196,12 @@ Bu senaryoda, bir şirket ambar yönetimi ve iş işlemeyi kullanır ve iş olu�
 - Bir plaka, satış işlemcisi tarafından sipariş alınırken kaydedilip rezerve edilebilir ve başka taleplerle alınamaz. Bu davranış, planlanan plakanın müşteriye sevk edilmesini garantilemeye yardımcı olur.
 - Plaka henüz bir satış siparişi satırına atanmamışsa, satış siparişi kaydı ve rezervasyon tamamlandıktan sonra, ambar personeli malzeme çekme işi sırasında bir plaka seçebilir.
 
-### <a name="turn-on-flexible-license-plate-reservation"></a>Esnek plaka rezervasyonunu etkinleştirme
+### <a name="turn-flexible-license-plate-reservation-on-or-off"></a>Esnek plaka rezervasyonunu açma veya kapatma
 
 Esnek plaka rezervasyonunu kullanabilmeniz için sisteminizde iki özelliğin etkinleştirilmesi gerekir. Yöneticiler bu özelliklerin durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. Özellikleri aşağıdaki sırada açmanız gerekir:
 
-1. **Özellik adı:** *Esnek ambar düzeyi boyut rezervasyonu*
-1. **Özellik adı:** *Esnek sipariş taahhütlü plaka rezervasyonu*
+1. *Esnek ambar düzeyinde boyut rezervasyonu*<br>(Supply Chain Management sürüm 10.0.29 itibarıyla, bu özellik zorunludur ve kapatılamaz.)
+1. *Esnek siparişle taahhüt edilen plaka rezervasyonu*<br>(Supply Chain Management sürüm 10.0.29 itibarıyla, bu özellik zorunludur ve kapatılamaz.)
 
 ### <a name="reserve-a-specific-license-plate-on-the-sales-order"></a>Satış siparişi üzerinde belirli bir plakayı rezerve etme
 

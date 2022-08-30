@@ -2,7 +2,7 @@
 title: Warehouse Management mobil uygulamasında tanıtılan alanların adımlarını yapılandırma
 description: Bu makalede, Warehouse Management mobil uygulaması için görev akışlarındaki addımlar için belirli bilgileri nasıl tanıtıp vurgulayacağınız açıklanır.
 author: Mirzaab
-ms.date: 10/15/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8ecca2d00b8753a405faa8d4c67c3cbb1eef6907
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 3451b1aec525cd0738af558b183f8676d20294a0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218989"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336080"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasında tanıtılan alanların adımlarını yapılandırma
 
@@ -29,19 +29,12 @@ Bu makalede, Warehouse Management mobil uygulaması için görev akışlarındak
 
 ## <a name="enable-promoted-fields-in-your-system"></a>Sisteminizdeki tanıtılan alanları etkinleştir
 
-Tanıtılan alanları ayarlamadan önce, gerekli özellikleri etkinleştirmek ve Warehouse Management mobil uygulamasında gerekli alan adlarını oluşturmak için aşağıdaki yordamı tamamlamanız gerekir.
+Supply Chain Management 10.0.28 veya daha önceki sürümlerini kullanıyorsanız tanıtılan alanları ayarlamadan önce, gerekli özellikleri etkinleştirmek ve Warehouse Management mobil uygulamasında gerekli alan adlarını oluşturmak için aşağıdaki yordamı tamamlamanız gerekir. Supply Chain Management 10.0.29 veya daha sonraki bir sürümünü çalıştırıyorsanız, bu özellikler zorunludur ve kapatılamaz, bu nedenle bu yordamı atlayabilirsiniz.
 
-1. **Sistem yönetimi \> Çalışma alanları \> Özellik yönetimi**'ne gidin.
-1. Sistem için *Ambar uygulaması adım yönergeleri* özelliğinin açık olduğundan emin olun. Supply Chain Management sürüm 10.0.29 itibariyle, bu özellik varsayılan olarak açıktır. *Ambar uygulaması adım yönergeleri* özelliği hakkında daha fazla bilgi için , [Warehouse Management mobil uygulaması ile ilgili adım başlıklarını ve yönergeleri özelleştirme](mobile-app-titles-instructions.md) konusuna bakın. Bu özellik, *Ambar uygulaması tanıtılan alanlar* özelliği için bir önkoşuldur.
-1. Özelliği, aşağıdaki şekilde etkinleştirin:
-
-    - **Modül:** *Ambar yönetimi*
-    - **Özellik adı:** *Ambar uygulaması tanıtılan alanlar*
-
-    Bu özellik, bu makalede açıklanan özelliktir.
-
-1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Ambar uygulaması alan adları**'na gidip **Varsayılan kurulum oluştur**'u seçerek Warehouse Management mobil uygulamasında alan adlarını güncelleştirin. - Daha fazla bilgi için bkz. [Ambar Yönetimi mobil uygulaması için alanları yapılandırma](configure-app-field-names-priorities-warehouse.md).
-1. Warehouse Management mobil uygulamasını kullandığınız her yasal varlık (şirket) için önceki adımı yineleyin.
+1. **Sistem yönetimi \> Çalışma alanları \> Özellik yönetimi**'ne gidin. (Bu sayfa hakkında daha fazla bilgi için bkz. [Özellik yönetimine genel bakış](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
+1. Sistem için *Ambar uygulaması adım yönergeleri* özelliğinin açık olduğundan emin olun. Bu özellik, *Ambar uygulaması tanıtılan alanlar* özelliği için bir önkoşuldur. Supply Chain Management 10.0.29 sürümü itibarıyla zorunludur ve kapatılamaz. *Ambar uygulaması adım yönergeleri* özelliği hakkında daha fazla bilgi için , [Warehouse Management mobil uygulaması ile ilgili adım başlıklarını ve yönergeleri özelleştirme](mobile-app-titles-instructions.md) konusuna bakın.
+1. Sistem için *Ambar uygulaması yükseltilen alanları* özelliğinin açık olduğundan emin olun. Bu, bu makalede açıklanan özelliktir. Supply Chain Management 10.0.29 sürümü itibarıyla zorunludur ve kapatılamaz.
+1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Ambar uygulaması alan adları**'na gidip **Varsayılan kurulum oluştur**'u seçerek Warehouse Management mobil uygulamasında alan adlarını güncelleştirin. Warehouse Management mobil uygulamasını kullandığınız her yasal varlık (şirket) için bu adımı yineleyin. - Daha fazla bilgi için bkz. [Ambar Yönetimi mobil uygulaması için alanları yapılandırma](configure-app-field-names-priorities-warehouse.md).
 
 ## <a name="configure-promoted-fields-from-a-menu-specific-override"></a>Menüye özel bir geçersiz kılmadan tanıtılan alanları konfigüre etme
 

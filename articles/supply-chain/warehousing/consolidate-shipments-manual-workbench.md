@@ -2,7 +2,7 @@
 title: Sevkiyat konsolidasyonu çalışma ekranı kullanılarak sevkiyatları konsolide etme
 description: Bu makale, çoklu siparişlerin aynı yükte yer alarak ambara serbest bırakıldığı ve ardından, sevkiyat konsolidasyon çalışma ekranı kullanılarak sevkiyatlar halinde konsolide edildiği bir senaryo sunar.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: a33189cdcbb66304eef80558e931209ea236f576
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: db8dc5101b223a0033284d8e6c494721871809d8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218633"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335810"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Sevkiyat konsolidasyonu çalışma ekranı kullanılarak sevkiyatları konsolide etme
 
@@ -34,14 +34,11 @@ Bu makaledeki senaryo, Microsoft Dynamics 365 Supply Chain Management için sağ
 
 Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsolidasyonu ilkelerini yapılandırma](configure-shipment-consolidation-policies.md) alıştırmalarını yaptığınız ve burada açıklanan ilkeleri ve diğer kayıtları oluşturduğunuz varsayımına dayanır. Bu senaryoya devam etmeden önce söz konusu alıştırmaları yaptığınızdan emin olun.
 
-## <a name="turn-on-the-manual-shipment-consolidation-feature"></a>Manuel sevkiyat konsolidasyon özelliğini açma
+## <a name="turn-the-manual-shipment-consolidation-feature-on-or-off"></a>Manuel sevkiyat konsolidasyon özelliğini açma veya kapatma
 
-*Manuel sevkiyat konsolidasyon* özelliğini kullanabilmeniz için önce sisteminizde bu özelliği açmanız gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
+Manuel sevkiyat konsolidasyonu özelliğini kullanabilmeniz için önce sisteminizde bu özelliği açmanız gerekir. Supply Chain Management sürüm 10.0.29 itibarıyla özellik varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Manuel sevkiyat konsolidasyonu* özelliğini bularak bu işlevi açabilir veya kapatabilir.
 
-- **Modül:** *Ambar yönetimi*
-- **Özellik adı:** *Manuel sevkiyat konsolidasyonu*
-
-İlke oluşturabilmeniz için *Sevkiyatı konsolide et* özelliğini de açmanız gerekir. Daha fazla bilgi için bkz. [Sevkiyat konsolidasyonu ilkelerini yapılandırma](configure-shipment-consolidation-policies.md).
+Ayrıca, ilkeler oluşturabilmek için de *Sevkiyatı konsolide et* özelliğini etkinleştirmeniz gerekir (Supply Chain Management sürüm 10.0.29 itibarıyla özellik zorunludur ve kapatılamaz). Daha fazla bilgi için bkz. [Sevkiyat konsolidasyonu ilkelerini yapılandırma](configure-shipment-consolidation-policies.md).
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>Bu senaryo için satış siparişleri oluşturma
 

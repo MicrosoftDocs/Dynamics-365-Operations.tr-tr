@@ -2,7 +2,7 @@
 title: Küçük paket sevkiyatı
 description: Bu makalede, küçük paket sevkiyatı (SPS) özelliğiyle ilgili bilgiler verilir. Bu özellik, paketlenmiş konteyner hakkındaki ayrıntıların taşıyıcıya gönderilmesi ve ardından söz konusu taşıyıcıdan gönderim etiketi, sevkiyat ücreti ve izleme numarası almak için Microsoft Dynamics 365 Supply Chain Management'ı etkinleştirmeyi sağlar.
 author: Mirzaab
-ms.date: 01/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 6ccc9c795e2da121acf9c0809aef99a5f9d5889e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: b2adde2b81ed881a3c81193a2220fbe569069c7c
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219733"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336170"
 ---
 # <a name="small-parcel-shipping"></a>Küçük paket sevkiyatı
 
@@ -34,12 +34,9 @@ Döndürülen sevkiyat ücreti, ilişkili satış siparişine sair gider olarak 
 
 SPS işlevini kullanmaya başlamadan önce, Özellik yönetimi'nde SPS özelliğini açmanız, değerlendirme altyapınızı eklemeniz ve bunu desteklemek için **Taşıma yönetimi** ve **Ambar yönetimi** modüllerini ayarlamanız gerekir.
 
-### <a name="turn-on-the-sps-feature"></a>SPS özelliğini açma
+### <a name="turn-the-sps-feature-on-or-off"></a>SPS özelliğini açma veya kapatma
 
-SPS özelliğini kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
-
-- **Modül:** *Taşıma yönetimi*
-- **Özellik adı:** *Küçük paket sevkiyatı*
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.29 itibarıyla, özellik zorunludur ve kapatılamaz. 10.0.29 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Küçük paket sevkiyatı* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ### <a name="deploy-and-set-up-rate-engines"></a>Değerlendirme altyapılarını dağıtma ve ayarlama
 

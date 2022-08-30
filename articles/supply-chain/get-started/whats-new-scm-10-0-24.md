@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f8864ac22153908492b5e7c30a03617e6dc9d05a
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.openlocfilehash: 9b4b538e6d50013626739e19fee2a050b630bf7f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9166890"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334820"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Dynamics 365 Supply Chain Management 10.0.24'teki yenilikler veya değişiklikler (Şubat 2022)
 
@@ -48,7 +48,7 @@ Bu özelliklerden herhangi birini açmak veya kapatmak istiyorsanız bunu [özel
 | Üretim denetimi | Üretim emirleri için isteğe bağlı malzeme kullanılabilirliği kontrolü | Bu özellik, **Üretim katı yönetimi** çalışma alanından kullanılabilen **Üretim emirlerini serbest bırak** sayfasını açmayı hızlandırır. Bu özellik olmadan, sistem, sayfayı açar açmaz listelenen tüm üretim emirleri için malzemelerin kullanılabilir olup olmadığını otomatik olarak kontrol eder ve bu da çok sayıda siparişiniz varsa önemli zaman alabilir. Bu özellik etkinleştirildiğinde, sistem bunun yerine, malzemeleri yalnızca seçili siparişler için ve gerektiğinde denetlemeyi başlatmak için kullanabileceğiniz bir araç çubuğu düğmesi sağlar. |
 | Üretim denetimi | Üretim katı yürütme arabiriminde malzeme tüketimini kaydetme (WMS dışı) | Bu özellik, çalışanların malzeme tüketimini, toplu iş numaralarını ve seri numaralarını kaydetmek için üretim katı yürütme arabirimini kullanmalarını sağlar. Bu özellik yalnızca ambar yönetimi işlemlerini (WMS) kullanmak için etkinleştirilmeyen maddeleri destekler. WMS etkin maddeler için destek gelecekteki bir sürüm için planlanmıştır.<p>Özellikle proses endüstrilerindekiler olmak üzere bazı üreticilerin, her bir toplu iş veya üretim emri için tüketilen malzeme miktarını açıkça kaydetmesi gerekir. Örneğin, çalışanlar çalışırken tüketilen malzeme miktarını tartmak için bir ölçek kullanabilir. Tam malzeme izlenebilirliğini sağlamak için bu kuruluşların her ürünü üretirken hangi parti numaralarının tüketildiğini de kaydetmeleri gerekir. |
 | Üretim denetimi | Bulut ve uç ölçek birimleri için ambar yönetimi iş yükünde tamamlandı olarak bildirme | Bu özellik, uygulama bir bulut veya kenar ölçeği birimindeki ambar yönetimi iş yüküne karşı çalışırken bir üretim veya toplu iş siparişini tamamlandı olarak bildirmek için çalışanların Warehouse Management mobil uygulamasını kullanmasına olanak tanır. Daha fazla bilgi için bkz. [Ölçek biriminde tamamlandı ve yerine kondu olarak bildirme](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
-| Ambar yönetimi | Yeni yük planlama workbench'i sayfaları | İki yeni yük planlama workbench'i sayfasını etkinleştirir: **Gelen yük planlama workbench'i** ve **Giden yük planlama workbench'i**. |
+| Ambar yönetimi | Yeni yük planlama workbench'i sayfaları | İki yeni yük planlama workbench'i sayfasını ekler: **Gelen yük planlama workbench'i** ve **Giden yük planlama workbench'i**. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Yeni ve güncelleştirilmiş belge kaynakları
 

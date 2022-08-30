@@ -2,7 +2,7 @@
 title: Mühendislik değişikliği yönetimine genel bakış (video içerir)
 description: Bu makalede, ürün sürümü oluşturma ve yönetme, ürün yaşam döngüleri ve mühendislik değişikliklerini yönetmenize yardımcı olan mühendislik değişikliği yönetimine genel bir bakış sağlanmaktadır.
 author: t-benebo
-ms.date: 01/11/2022
+ms.date: 08/09/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3a27548fff9728c74814fb92438da1d0c17b5e2b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b494e15488bed148119aed0e9d62ab1740f38add
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067407"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334880"
 ---
 # <a name="engineering-change-management-overview"></a>Mühendislik değişikliği yönetimine genel bakış
 
@@ -76,16 +76,16 @@ Sonra, aşağıdaki adımları izleyerek yapılandırma anahtarını açın. Bun
 
 ### <a name="turn-on-additional-engineering-change-management-features"></a>Ek mühendislik değişikliği yönetimi özelliklerini açma
 
-Mühendislik değişikliği yönetimi temel özelliklerini açtıktan ve yapılandırma anahtarlarını etkinleştirdikten sonra özellik yönetimine çeşitli ek ve isteğe bağlı mühendislik değişikliği yönetimi özellikleri eklenir. Bu özelliklerin her biri **Mühendislik değişikliği yönetimi** modülü altında listelenmiştir. Aşağıdaki tablo isteğe bağlı tüm özellikleri açıklar ve daha fazla bilgi için bağlantılar sağlar. Supply Chain Management sürüm 10.0.25 itibarıyla, tüm bu özellikler varsayılan olarak açıktır ancak yine de devre dışı bırakabilirsiniz.
+Mühendislik değişikliği yönetimi temel özelliklerini açtıktan ve yapılandırma anahtarlarını etkinleştirdikten sonra özellik yönetimine çeşitli ek ve isteğe bağlı mühendislik değişikliği yönetimi özellikleri eklenir. Bu özelliklerin her biri **Mühendislik değişikliği yönetimi** modülü altında listelenmiştir. Aşağıdaki tablo isteğe bağlı tüm özellikleri açıklar ve daha fazla bilgi için bağlantılar sağlar.
 
 | Özellik yönetiminde özellik adı | Açıklama | Özellik durumu |
 |---|---|---|
-| Mevcut ürünlerde değişiklik yönetimini etkinleştirme | <p>Bu özellik, mühendislik değişikliği yönetimini kullanarak yönetmeye başlayabilmeniz için var olan ürünleri mühendislik ürünlerine dönüştürmenizi sağlar.</p><p>Daha fazla bilgi için bkz. [Mevcut ürünlerde değişiklik yönetimini etkinleştirme](change-management-existing-products.md).</p> |
-| Üretim bölümü için mühendislik bildirimleri | <p>Mühendislikte bir ürün değiştirildiğinde bu değişiklikler hakkında üretime bilgi vermek önemli olabilir. Bu şekilde, üretim çalışanları bileşen değiştirme, ürün reçetesi (BOM) değiştirme veya rota değiştirme gibi uygun önlemleri alabilir. Bu özellik, üretilmekte olan ürünlerde yapılan değişiklikler hakkında üretime bildirimde bulunmanızı sağlar.</p><p>Daha fazla bilgi için bkz. [Mühendislik ürünlerindeki değişiklikleri yönetme](engineering-change-management.md).</p> |
-| Mühendislik Değişikliği Yönetimi'nde geliştirilmiş öznitelik devralma | <p>Bu özellik, bitmiş ürünler veya ara ürünlerin özniteliklerinin yönetimini basitleştirir. Bu özellik açık duruma getirildiğinde bir maddeye ait olan tüm öznitelikleri belirlemek daha kolaydır ve o maddeden ana maddeye yayılması gereken öznitelikleri seçebilirsiniz. Bu özellik, örneğin bitmiş bir ürünün bir bileşeni kırılabilir, zehirli veya yanıcı olduğunda kullanışlıdır çünkü kırılabilir, zehirli veya yanıcı özniteliği bu sayede kolayca tanımlayabilir ve bunu bitmiş ürüne yayabilirsiniz.</p><p>Daha fazla bilgi için bkz. [Mühendislik öznitelikleri ve mühendislik özniteliği araması](engineering-attributes-and-search.md).</p> |
-| Ürün hazır olma denetimleri | <p>Bu özellik, standart (mühendislik dışı) ürünler için hazırlık denetimleri uygulamanıza olanak tanır. Ürün kullanılabilir duruma getirilmeden ve hareketlerde kullanılmadan önce her ürünün tam olarak tanımlandığından ve gerekli tüm ilkelerin yapılandırıldığından emin olmak için ürün hazırlık denetimleri kullanın. Bu özelliği bir süre kullandıktan sonra devre dışı bırakırsanız standart ürünler için var olan tüm hazırlık denetimleri silinir.</p><p>Daha fazla bilgi için bkz. [Ürün hazırlığı](product-readiness.md).</p> |
-| Formüllerdeki ve formül içeriklerindeki değişiklikleri yönet | <p>Bu özellik, formül bileşenlerinde, ortak ürünlerde ve yan ürünlerde yapılan değişiklikleri izlemenizi sağlar.</p><p>Daha fazla bilgi için bkz. [Formüllerde ve içeriklerindeki değişiklikleri yönetme](manage-formula-changes.md).</p> |
-| Mühendislik ürünleri için çeşit oluşturma | <p>Bu özellik, mühendislik ürünleri için kullanılabilir boyut değerlerine göre çeşitler oluşturmanıza olanak tanır.</p><p>Daha fazla bilgi için bkz. [Mühendislik ürünleri için çeşitler oluşturma](engineering-variants.md).</p> |
+| Mevcut ürünlerde değişiklik yönetimini etkinleştirme | <p>Bu özellik, mühendislik değişikliği yönetimini kullanarak yönetmeye başlayabilmeniz için var olan ürünleri mühendislik ürünlerine dönüştürmenizi sağlar.</p><p>Daha fazla bilgi için bkz. [Mevcut ürünlerde değişiklik yönetimini etkinleştirme](change-management-existing-products.md).</p> | 10.0.25 sürümü itibarıyla varsayılan olarak açık. |
+| Üretim bölümü için mühendislik bildirimleri | <p>Mühendislikte bir ürün değiştirildiğinde bu değişiklikler hakkında üretime bilgi vermek önemli olabilir. Bu şekilde, üretim çalışanları bileşen değiştirme, ürün reçetesi (BOM) değiştirme veya rota değiştirme gibi uygun önlemleri alabilir. Bu özellik, üretilmekte olan ürünlerde yapılan değişiklikler hakkında üretime bildirimde bulunmanızı sağlar.</p><p>Daha fazla bilgi için bkz. [Mühendislik ürünlerindeki değişiklikleri yönetme](engineering-change-management.md).</p> |  10.0.25 sürümü itibarıyla varsayılan olarak açık. |
+| Mühendislik Değişikliği Yönetimi'nde geliştirilmiş öznitelik devralma | <p>Bu özellik, bitmiş ürünler veya ara ürünlerin özniteliklerinin yönetimini basitleştirir. Bu özellik açık duruma getirildiğinde bir maddeye ait olan tüm öznitelikleri belirlemek daha kolaydır ve o maddeden ana maddeye yayılması gereken öznitelikleri seçebilirsiniz. Bu özellik, örneğin bitmiş bir ürünün bir bileşeni kırılabilir, zehirli veya yanıcı olduğunda kullanışlıdır çünkü kırılabilir, zehirli veya yanıcı özniteliği bu sayede kolayca tanımlayabilir ve bunu bitmiş ürüne yayabilirsiniz.</p><p>Daha fazla bilgi için bkz. [Mühendislik öznitelikleri ve mühendislik özniteliği araması](engineering-attributes-and-search.md).</p> |  10.0.25 sürümü itibarıyla varsayılan olarak açık. |
+| Ürün hazır olma denetimleri | <p>Bu özellik, standart (mühendislik dışı) ürünler için hazırlık denetimleri uygulamanıza olanak tanır. Ürün kullanılabilir duruma getirilmeden ve hareketlerde kullanılmadan önce her ürünün tam olarak tanımlandığından ve gerekli tüm ilkelerin yapılandırıldığından emin olmak için ürün hazırlık denetimleri kullanın. Bu özelliği bir süre kullandıktan sonra devre dışı bırakırsanız standart ürünler için var olan tüm hazırlık denetimleri silinir.</p><p>Daha fazla bilgi için bkz. [Ürün hazırlığı](product-readiness.md).</p> |  10.0.25 sürümü itibarıyla varsayılan olarak açık. |
+| Formüllerdeki ve formül içeriklerindeki değişiklikleri yönet | <p>Bu özellik, formül bileşenlerinde, ortak ürünlerde ve yan ürünlerde yapılan değişiklikleri izlemenizi sağlar.</p><p>Daha fazla bilgi için bkz. [Formüllerde ve içeriklerindeki değişiklikleri yönetme](manage-formula-changes.md).</p> |  10.0.25 sürümü itibarıyla varsayılan olarak açık. |
+| Mühendislik ürünleri için çeşit oluşturma | <p>Bu özellik, mühendislik ürünleri için kullanılabilir boyut değerlerine göre çeşitler oluşturmanıza olanak tanır.</p><p>Daha fazla bilgi için bkz. [Mühendislik ürünleri için çeşitler oluşturma](engineering-variants.md).</p> |  10.0.25 sürümü itibarıyla varsayılan olarak açık. |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

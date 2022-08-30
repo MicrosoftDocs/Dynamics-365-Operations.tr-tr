@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0f0419f1a109f043cb1af6a575704c24420639f1
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: a48e6a81299badf4b811e1cf905beb06099e5a24
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218929"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335990"
 ---
 # <a name="wave-template-grouping"></a>Dalga şablonu gruplandırması
 
@@ -31,7 +31,7 @@ Dalga şablonu gruplandırması, sistemin serbest bırakılan satırları nasıl
 
 ## <a name="turn-on-the-wave-template-grouping-feature"></a>Dalga şablonu gruplandırması özelliğini açma
 
-*Dalga şablonu gruplandırması* özelliğini kullanabilmeniz için sisteminizde etkinleştirilmesi gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
+*Dalga şablonu gruplandırması* özelliğini kullanabilmeniz için sisteminizde etkinleştirilmiş olması gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
 
 - **Modül:** *Ambar yönetimi*
 - **Özellik adı:** *Dalga şablonu gruplandırması*

@@ -2,7 +2,7 @@
 title: Üretim planlama
 description: Bu makalede üretim planlaması açıklanır ve Planlamayı En İyi Duruma Getirme kullanılarak planlı üretim emirlerinin nasıl değiştirileceği anlatılır.
 author: t-benebo
-ms.date: 06/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 151aa3688c570ea6ec282c297ed18288dd886131
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5c8169a8d2c3e45304142fb6b4d504e620c545a4
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873796"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335270"
 ---
 # <a name="production-planning"></a>Üretim planlama
 
@@ -26,9 +26,9 @@ Planlamayı En İyi Duruma Getirme, birçok üretim senaryosunu destekler. Mevcu
 
 Aşağıdaki video, bu makalede ele alınan bazı kavramlara kısa bir giriş sağlar: [Dynamics 365 Supply Chain Management: Planlamayı İyileştirme'deki geliştirmeler](https://youtu.be/u1pcmZuZBTw).
 
-## <a name="turn-on-this-feature-for-your-system"></a>Sisteminiz için bu özelliği etkinleştirme
+## <a name="turn-this-feature-on-or-off-for-your-system"></a>Sisteminiz için bu özelliği açma veya kapatma
 
-Sisteminiz bu makalede açıklanan özellikleri zaten içermiyorsa [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve *Planlama Optimizasyonu için planlı üretim emirleri* özelliğini açın.
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.29 itibarıyla, özellik zorunludur ve kapatılamaz. 10.0.29 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Planlamayı En İyi Duruma Getirme için planlı üretim emirleri* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="planned-production-orders"></a>Planlı üretim emirleri
 

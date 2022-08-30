@@ -2,7 +2,7 @@
 title: Warehouse Management mobil uygulaması için adım başlıklarını ve yönergeleri özelleştirme
 description: Bu makalede, Warehouse Management mobil uygulaması için ayarladığınız her bir görev akışının tüm adımları için özel yönergelerin nasıl oluşturulacağı ve gösterileceği açıklanmaktadır.
 author: Mirzaab
-ms.date: 08/11/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 40b2115126aae28a41feaec4d3aabd73595107cd
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: faa9bfa320823664603153601c56654170e7e23a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220164"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334491"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulaması için adım başlıklarını ve yönergeleri özelleştirme
 
@@ -28,9 +28,9 @@ Bu makalede, Warehouse Management mobil uygulaması için ayarladığınız tüm
 - **Her görev adımı için basit yönergeler izlemelerini sağlayarak çalışanları işe daha hızlı alıştırın.** Akışın her adımı, ön saflardaki çalışanların görevi anlamasını sağlayan yönergeler sağlar.
 - **Kendi süreçlerinizle eşleşen yönergeler sağlayın.** İş ve ambar süreçlerinizle eşleşecek kendi yönergelerinizi yazın. Örneğin, terminolojiyi fiziksel alanınıza ve yerel kısaltmalara uygun hale getirebilirsiniz.
 
-## <a name="turn-on-the-warehouse-app-step-instructions-feature"></a>Ambar uygulaması adım yönergeleri özelliğini açma
+## <a name="turn-the-warehouse-app-step-instructions-feature-on-or-off"></a>Ambar uygulaması adım yönergeleri özelliğini açma veya kapatma
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.29 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Ambar uygulaması adım yönergeleri* özelliğini bularak bu işlevi açabilir veya kapatabilir.
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.29 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.29 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Ambar uygulaması adım yönergeleri* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="step-titles-and-step-instructions-in-the-app"></a>Uygulamadaki adım başlıkları ve adım yönergeleri
 

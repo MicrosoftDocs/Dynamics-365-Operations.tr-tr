@@ -2,7 +2,7 @@
 title: İş kartı cihazından tamamlandı olarak bildirme
 description: Bu makalede, bir iş kartı kullanıcıları bir üretim emrinden stoka bitmiş ürünleri raporlenebilecek şekilde sistemi konfigüre etme yöntemi açıklanmıştır.
 author: johanhoffmann
-ms.date: 07/31/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 56d19a966d93202668c34ffaaef561d72b7669ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070484"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334640"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>İş kartı cihazından tamamlandı olarak bildirme
 
@@ -56,13 +56,12 @@ Son operasyonda tamamlandı olarak rapor edilen miktarların stoğa eklenmesi ge
 - **Önceden tanımlı toplu iş numaraları:** Çalışanlar, üretim emri iş kartı aygıtında serbest bırakılmadan önce sistemin otomatik olarak oluşturduğu toplu iş numaraları listesinde bir toplu iş numarası seçer.
 - **Sabit toplu iş numaraları:** Çalışanlar toplu iş numarası girmez veya seçmez. Bunun yerine, sistem üretim emrine serbest bırakılmadan önce bir toplu iş numarası atar.
 
-
 ### <a name="enable-the-feature-on-your-system"></a>Sisteminizde özelliği etkinleştirme
 
-İş kartı aygıtlarınızın tamamlandı bildirimi sırasında bir toplu iş numarası kabul etmesini sağlamak için, [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ni kullanarak aşağıdaki özellikleri (Bu sırada) açmanız gerekir:
+İş kartı aygıtlarınızın tamamlandı bildirimi sırasında bir toplu iş numarası kabul etmesini sağlamak için, [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ni kullanarak aşağıdaki özellikleri açmanız gerekir:
 
-1. İş Kartı Cihazındaki Rapor ilerlemesi iletişim kutusu için geliştirilmiş kullanıcı deneyimi.
-1. İş Kartı Cihazında iş sona erdi bildirimi yaparken toplu iş ve seri numaralarını girmek için etkinleştirin
+- *İş Kartı Cihazındaki Rapor ilerlemesi iletişim kutusu için geliştirilmiş kullanıcı deneyimi.*
+- *İş Kartı Cihazında iş sona erdi bildirimi yaparken toplu iş ve seri numaralarını girmek için etkinleştirin*<br>(Supply Chain Management sürüm 10.0.29 itibariyle, bu özellik varsayılan olarak açıktır.)
 
 ### <a name="configure-products-that-require-batch-number-reporting"></a>Toplu numara bildirimi gerektiren ürünleri yapılandırma
 
@@ -137,10 +136,10 @@ Bu senaryoyu kullandığınızda, iş kartı aygıtında **durumu raporla** sayf
 
 ### <a name="enable-the-feature-on-your-system"></a>Sisteminizde özelliği etkinleştirme
 
-İş kartı aygıtlarınızın tamamlandı bildirimi sırasında bir seri numarası kabul etmesini sağlamak için, [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ni kullanarak aşağıdaki özellikleri (Bu sırada) açmanız gerekir:
+İş kartı aygıtlarınızın tamamlandı bildirimi sırasında bir seri numarası kabul etmesini sağlamak için, [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ni kullanarak aşağıdaki özellikleri açmanız gerekir:
 
-1. İş Kartı Cihazındaki Rapor ilerlemesi iletişim kutusu için geliştirilmiş kullanıcı deneyimi.
-1. İş Kartı Cihazında iş sona erdi bildirimi yaparken toplu iş ve seri numaralarını girmek için etkinleştirin
+- *İş Kartı Cihazındaki Rapor ilerlemesi iletişim kutusu için geliştirilmiş kullanıcı deneyimi.*
+- *İş Kartı Cihazında iş sona erdi bildirimi yaparken toplu iş ve seri numaralarını girmek için etkinleştirin*<br>(Supply Chain Management sürüm 10.0.29 itibariyle, bu özellik varsayılan olarak açıktır.)
 
 ### <a name="configure-products-that-require-serial-number-reporting"></a>Seri numarası bildirimi gerektiren ürünleri yapılandırma
 

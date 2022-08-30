@@ -2,7 +2,7 @@
 title: Warehouse Management mobil uygulaması sapmalarını kullanarak verileri sorgulama
 description: Bu makalede, veri sorgulama mobil cihaz menü öğelerinin nasıl yapılandırılacağı ve sapmaların bir parçası olarak nasıl kullanılacağı açıklanır.
 author: perlynne
-ms.date: 08/01/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c3ea53379badb3cb2ed71b7f102956d71c3f047a
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: cc013e962b4da803764f16e451b1d433666e75c2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220631"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336620"
 ---
 # <a name="query-data-using-warehouse-management-mobile-app-detours"></a>Warehouse Management mobil uygulaması sapmalarını kullanarak verileri sorgulama
 
@@ -35,19 +35,19 @@ Warehouse Management mobil uygulaması, barkod tarama yeteneği sağlayarak size
 Bu makalede açıklanan işlevleri kullanabilmeniz için, gerekli özellikleri etkinleştirmek üzere aşağıdaki yordamı tamamlamanız gerekir.
 
 1. **Sistem yönetimi \> Çalışma alanları \> Özellik yönetimi**'ne gidin. (**Özellik yönetimi** çalışma alanını kullanma hakkında daha fazla bilgi için bkz. [Özellik yönetimine genel bakış](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
-1. Özelliği, aşağıdaki şekilde açın:
+1. Supply Chain Management 10.0.28 veya öncesi bir sürümü kullanıyorsanız listelenen özelliği aşağıdaki şekilde açın:
 
     - **Modül:** *Ambar yönetimi*
     - **Özellik adı:** *Ambar uygulaması adım yönergeleri*
 
-    Bu özellik, *Warehouse Management uygulaması veri sorgusu akışı* özelliği için bir önkoşuldur. *Ambar uygulaması adım yönergeleri* özelliği hakkında daha fazla bilgi için , [Warehouse Management mobil uygulaması ile ilgili adım başlıklarını ve yönergeleri özelleştirme](mobile-app-titles-instructions.md) konusuna bakın.
+    Bu özellik, *Warehouse Management uygulaması veri sorgusu akışı* özelliği için bir önkoşuldur. Supply Chain Management 10.0.29 sürümü itibarıyla zorunludur ve kapatılamaz. *Ambar uygulaması adım yönergeleri* özelliği hakkında daha fazla bilgi için , [Warehouse Management mobil uygulaması ile ilgili adım başlıklarını ve yönergeleri özelleştirme](mobile-app-titles-instructions.md) konusuna bakın.
 
 1. Özelliği, aşağıdaki şekilde açın:
 
     - **Modül:** *Ambar yönetimi*
     - **Özellik adı:** *Warehouse Management uygulama sapmaları*
 
-    Bu özellik, *Warehouse Management uygulaması veri sorgusu akışı* özelliği için bir önkoşuldur. *Warehouse Management uygulama sapmaları* özelliği hakkında daha fazla bilgi için bkz. [Mobil aygıt menü öğelerindeki adımlar için sapmaları yapılandırma](warehouse-app-detours.md).
+    Bu özellik, *Warehouse Management uygulaması veri sorgusu akışı* özelliği için bir önkoşuldur. Supply Chain Management sürüm 10.0.29 itibariyle, varsayılan olarak açıktır. *Warehouse Management uygulama sapmaları* özelliği hakkında daha fazla bilgi için bkz. [Mobil aygıt menü öğelerindeki adımlar için sapmaları yapılandırma](warehouse-app-detours.md).
 
 1. *Warehouse Management uygulama sapmaları* özelliği zaten açık değilse **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Ambar uygulaması alan adları**'na gidip **Varsayılan kurulum oluştur**'u seçerek Warehouse Management mobil uygulamasında alan adlarını güncelleştirin. Warehouse Management mobil uygulamasını kullandığınız her yasal varlık (şirket) için bu adımı yineleyin. - Daha fazla bilgi için bkz. [Ambar Yönetimi mobil uygulaması için alanları yapılandırma](configure-app-field-names-priorities-warehouse.md).
 1. Özelliği, aşağıdaki şekilde açın:

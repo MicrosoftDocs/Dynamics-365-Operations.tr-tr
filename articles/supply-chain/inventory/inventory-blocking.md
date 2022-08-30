@@ -2,7 +2,7 @@
 title: Stok durdurma
 description: Bu makalede, Supply Chain Management'ın kalite denetim sürecinin bir parçası olan stok engellemeye genel bakış sunulmuştur. Stok engellemeyi kullanarak maddelerin işlenmesini veya tüketilmesini engelleyebilirsiniz.
 author: yufeihuang
-ms.date: 03/02/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7a16c41b56b30098945a6fbdb02577624b6e173
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83b5417dc24af85f09e6713f2b12fdc358f61d54
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857822"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334700"
 ---
 # <a name="inventory-blocking"></a>Stok durdurma
 
@@ -96,11 +96,11 @@ Aşağıdaki örnekte, bir satınalma siparişi sevk irsaliyesi deftere nakledil
 
 İki durum arasındaki hareket durumu ve boyut farklılığına dikkat edin. Bu nedenle, **Sipariş edilen maddeleri rezerve et** seçeneğini etkinleştirmenizi öneririz.
 
-### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>Durdurulan stoktan örnek alan kalite emirlerinden gelen beklenen girişleri devre dışı bırak özelliği
+## <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory"></a>Durdurulan stoktan örnek alan kalite emirlerinden gelen beklenen girişleri devre dışı bırak
 
 Stok durumunun sonucu olarak gerçekleşen durdurulan stoktan örnek alan kalite emirleri durumunda stok hareketlerini basitleştirmek için sistem, bu tür kalite emirlerinden beklenen girişleri devre dışı bırakan bir özellik sağlar. Beklenen giriş stok durumu engelleme işlemi tarafından hemen engellendiğinden, bu değişiklik nedeniyle eldeki stokta bir azaltma olmaz.
 
-Bu özellik, varsayılan olarak kapalıdır. Yöneticiler, [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Durdurulan stoktan örnek alan kalite emirlerinden gelen beklenen girişleri devre dışı bırak* özelliğini bularak bunu açabilir veya kapatabilir.
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.29 itibarıyla özellik varsayılan olarak açıktır. Yöneticiler, [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Durdurulan stoktan örnek alan kalite emirlerinden gelen beklenen girişleri devre dışı bırak* özelliğini bularak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

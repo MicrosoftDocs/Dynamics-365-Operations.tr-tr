@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce'te kaldırılan veya kullanım dışı bırakılan özellikler
 description: Bu makale Dynamics 365 Commerce'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: josaw1
-ms.date: 07/11/2022
+ms.date: 08/23/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 541e21999884a2d51b27009d72a2f8bc9084557f
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 59ffcc00d67f6538980dec8965f894eb51f7230d
+ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287636"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337609"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce'te kaldırılan veya kullanım dışı bırakılan özellikler
 
@@ -26,12 +26,44 @@ ms.locfileid: "9287636"
 Bu makale Dynamics 365 Commerce'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 
 - *Kaldırılan* özellik artık üründe bulunmaz.
-- *Kullanımına son verilen* özellik etkin geliştirmede değildir ve sonraki güncellemede kaldırılabilir.
+- *Kullanım dışı bırakılan* özellik etkin geliştirmede değildir ve sonraki güncelleştirmede kaldırılabilir.
 
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
 > [!NOTE]
 > Finans ve operasyon uygulamalarındaki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](/dynamics/s-e/) altından ulaşabilirsiniz. Finans ve operasyon uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10029-release"></a>Commerce 10.0.29 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
+
+### <a name="commerce-parameters-setting---allow-price-adjustments-to-increase-product-price"></a>Commerce parametreleri ayarı - Fiyat ayarlamalarının ürün fiyatını artırmasına izin ver
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Fiyat ayarlaması işlevinin ürün fiyatını arttırmaya izin verip vermeyeceğini kontrol etmek için bu ayar kullanılıyordu. Bu parametre kapatıldığında, kuruluşlar fiyat ayarlaması işlevini kullanırken yalnızca taban fiyatından ve ticaret sözleşmesi satış fiyatından daha düşük bir ürün birim fiyatı ayarlayabilir. Fiyat ayarlaması işlevi, kullanıma hazır iki yönlü ayarlamaları (artış veya azaltma) destekleyecek şekilde güncelleştirildiği için bu ayarı kullanım dışı bıraktık. |
+| **Başka bir özellikle mi değiştirildi?**   | No. |
+| **Etkilenen ürün alanları**         | Fiyatlandırma ve iskontolar |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Kullanım dışı: Bu ayar, Commerce 10.0.29 sürümü itibarıyla varsayılan olarak açıktır ve Ekim 2023 Ekim'de kaldırılacaktır. |
+
+### <a name="commerce-parameters-setting---enable-price-report-for-retail-store"></a>Commerce parametreleri ayarı - Perakende mağazası için fiyat raporunu etkinleştir
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Bu ayar, fiyat raporu işlevinin mağaza yapılandırma formunda kullanıma uygun olup olmayacağını kontrol etmek için kullanılıyordu. Mağaza yapılandırma formu her zaman fiyat raporu işlevini standart işlev olarak sağlayacak şekilde güncelleştirildiği için bu ayarı kullanım dışı bıraktık. |
+| **Başka bir özellikle mi değiştirildi?**   | No. |
+| **Etkilenen ürün alanları**         | Fiyatlandırma ve iskontolar |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Kullanım dışı: Bu ayar Ekim 2023'te kaldırılacaktır. |
+
+### <a name="commerce-parameters-setting---use-todays-date-to-calculate-prices"></a>Commerce parametreleri ayarı - Fiyatları hesaplamak için bugünün tarihini kullan
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Supply Chain Management (SCM) fiyatlandırma altyapısı, bugünün tarihiyle talep edilen sevk tarihi veya talep edilen giriş tarihi temel alınarak verilen fiyatlandırma hesaplamasını destekler. Commerce fiyatlandırma altyapısı yalnızca bugünün tarihine dayalı fiyatlandırma hesaplamalarını destekler. Hem SCM 'yi hem de Commerce yeteneklerini kullanan müşteriler için bu ayarı sunmuş ve İki fiyatlandırma altyapısının birlikte çalışabilmesi için müşterilerin bu ayarı her zaman bunları **Evet** olarak ayarlamasını önermiştik. Hesaplama davranışını değiştirmediği ve gereksiz olduğu için bu ayarı kullanım dışı bıraktık. |
+| **Başka bir özellikle mi değiştirildi?**   | No. |
+| **Etkilenen ürün alanları**         | Fiyatlandırma ve iskontolar |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Kullanım dışı: Bu ayar, Commerce 10.0.29 sürümü itibarıyla varsayılan olarak açıktır ve Ekim 2023 Ekim'de kaldırılacaktır. |
 
 ## <a name="feature-deprecation-effective-july-2022"></a>Temmuz 2022'den itibaren geçerli olmak üzere özellik kullanımdan kaldırma bildirimi
 
@@ -39,26 +71,11 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Dynamics 365 Commerce ekibi, Ticari analiz (Önizleme) özelliğinin kullanımını ve alımını analiz etti ve özelliğin genel kullanılabilirliği konusunda artık ilerlememe kararı aldı.   |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Dynamics 365 Commerce takımı, Commerce analiz (Önizleme) özelliğinin kullanımını ve alımını analiz etti ve özelliğin genel kullanılabilirliği konusunda artık ilerlememe kararı aldı.   |
 | **Başka bir özellikle mi değiştirildi?**   | Bu aşamada, Ticari analiz (Önizleme) başka bir özellik veya çözümle değiştirilmeyecektir. Finans ve operasyon uygulamalarındaki ham işlemlerin ve ana verilerin Azure Data Lake'e dışa aktarılması, [Finans ve operasyon uygulamalarında Data Lake öğesine dışa aktarma](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md) bölümünde açıklandığı gibi kullanılabilir olmaya devam eder. İş ortakları ve müşteriler, iş gereksinimlerine ilişkin amaçlanan analiz raporları yazmak için bu veri akışını geliştirebilir.
 | **Etkilenen ürün alanları**         | Commerce analizleri (Önizleme) |
 | **Dağıtım seçeneği**              | Tümü |
 | **Çalıştırma Durumu**                         | Bu özelliği 30 Ağustos 2022 tarihine kadar devre dışı bırakmak istiyorsunuz.  Bu tarihten itibaren Ticari analiz (Önizleme) tarafından sağlanan geçerli Power BI raporlarda herhangi bir yenileme yapılmayacaktır.     |
-
-
-## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Commerce 10.0.25 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
-
-### <a name="modern-point-of-sale-mpos"></a>Modern Satış Noktası (MPOS)
-
-Modern Satış Noktası (MPOS) uygulaması, Commerce sürüm 10.0.25'te kullanımdan kalkacaktır ve bunun yerini Store Commerce uygulaması alacaktır.
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Mağaza içi uygulamalar, Dynamics 365 Commerce çok kanallı sunumunun kenar taşı. Modern ve akıllı depolama deneyimlerinden sürekli olarak yenilik yapma ve çözümlerimizi daha iyi modernize, Windows'ta varolan yerleşik uygulamalarımız ile BT işlemlerini ve kullanıcı deneyimlerini önemli ölçüde artıran yeni değişiklikler sağlıyor. Yeni Store Commerce uygulaması, varolan MPOS'nin teknolojisini yükseltir. Windows platformunda gelişmiş performans, güvenilirlik ve uzun süreli destek sağlar ve uygulamanın her güncelleştirmeyle yeniden paketliğinin gerekli olduğunu ortadan kaldırır. |
-| **Başka bir özellikle mi değiştirildi?**   |  [Store Commerce](../dev-itpro/store-commerce.md) |
-| **Etkilenen ürün alanları**         | Modern Satış Noktası |
-| **Dağıtım seçeneği**              | Tümü |
-| **Çalıştırma Durumu**                         | Kullanım dışı: Commerce sürüm 10.0.25 ile, LCS sanal makineleri (VM'ler) aracılığıyla gönderilen MPOS yükleyicisi, Ekim 2023'te kaldırılacak. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Commerce 10.0.21 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 
@@ -131,7 +148,7 @@ ModernPos.sln, CloudPos.sln, POS.Extension.csproj ve POS klasörünü kullanarak
 | **Başka bir özellikle mi değiştirildi?**   | Hayır |
 | **Etkilenen ürün alanları**         | Dynamics 365 Commerce |
 | **Dağıtım seçeneği**              | Tümü|
-| **Durum**                         | Kaldırıldı. Bu alanı kullanmayın veya içindeki değeri değiştirmeyin.|
+| **Çalıştırma Durumu**                         | Kaldırıldı. Bu alanı kullanmayın veya içindeki değeri değiştirmeyin.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10015-release"></a>Commerce 10.0.15 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 
@@ -194,11 +211,11 @@ ModernPos.sln, CloudPos.sln, POS.Extension.csproj ve POS klasörünü kullanarak
 
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-1007-release"></a>Commerce 10.0.7 sürümünden kaldırılan veya kullanım dışı bırakılan özellikler
-### <a name="commerce-getproductavailabilities-and-getavailableinventorynearby-apis"></a>Commerce GetProductAvailabilities ve GetAvailableInventoryNearby API'ları
+### <a name="commerce-getproductavailabilities-and-getavailableinventorynearby-apis"></a>Commerce GetProductAvailabilities ve GetAvailableInventoryNearby API'leri
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | GetProductAvailabilities ve GetAvailableInventoryNearby API'larının yerini almak üzere yeni optimize edilmiş API'lar oluşturuldu. |
-| **Başka bir özellikle mi değiştirildi?**   | Evet: GetEstimatedAvailabilty ve GetEstimatedProductWarehouseAvailability API'ları ile değiştirildi. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet: GetEstimatedAvailabilty ve GetEstimatedProductWarehouseAvailability API'leri ile değiştirildi. |
 | **Etkilenen ürün alanları**         | e-Ticaret uygulaması SDK |
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Kullanım dışı: 10.0.7 sürümü itibarıyla, GetProductAvailabilities ve GetAvailableInventoryNearby için mühendislik yatırımlar yapılmayacaktır. E-ticaret dağıtımlarında bu API'ları kullanan kuruluşların yeni GetProductAvailabilities ve GetAvailableInventoryNearby API'larına geçiş yapması ve [En iyi duruma getirilmiş ürün kullanılabilirliği hesaplama özelliğini](../calculated-inventory-retail-channels.md) etkinleştirmesi gerekir.  |

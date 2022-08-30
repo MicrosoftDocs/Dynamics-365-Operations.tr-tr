@@ -2,7 +2,7 @@
 title: Stok günlüğü onay iş akışları
 description: Bu makalede, çeşitli fiziksel stok hareketi türleri için stok günlüklerini onaylama iş akışlarını nasıl oluşturup kullanabileceğiniz açıklanmaktadır. Stok günlüğü iş akışları yalnızca onaylanmış stok günlüklerinin hareketlere nakledilebilmesine yardımcı olur.
 author: yufeihuang
-ms.date: 07/21/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3a97eaeae24850282c39196a61e3baa29307aa93
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873999"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334670"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Stok günlüğü onay iş akışları
 
@@ -29,12 +29,9 @@ Bu makalede, sorunlar ve girişler, stok hareketleri, ürün reçeteleri (BOM) v
 > [!NOTE]
 > Stok günlüğü onay iş akışları yalnızca, Stok Yönetimi modülü kullanılarak kaydedilen hareketlere uygulanır. Bunlar Ambar Yönetimi modülünden tetiklenen stok günlükleri ile çalışmaz.
 
-## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Stok günlüğü onay iş akışları özelliğini etkinleştirme
+## <a name="turn-the-inventory-journal-approval-workflows-feature-on-or-off"></a>Stok günlüğü onay iş akışları özelliğini açma veya kapatma
 
-Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek veya devre dışı bırakmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sayfasını kullanabilir. Burada, özellik şu şekilde listelenmiştir:
-
-- **Modül:** *Stok ve ambar yönetimi*
-- **Özellik adı:** *Stok günlüğü onay iş akışı*
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.21 itibarıyla özellik varsayılan olarak açıktır. Supply Chain Management sürüm 10.0.29 itibarıyla, özellik zorunludur ve kapatılamaz. 10.0.29 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Stok günlüğü onaylama iş akışı* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Kendi stok günlüğü onay iş akışlarınızı oluşturma
 

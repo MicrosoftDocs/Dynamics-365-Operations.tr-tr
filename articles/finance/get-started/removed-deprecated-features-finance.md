@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 4f2a1984d39713daa84f15422d7e0680b7f6c601
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219583"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313898"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'te kaldırılan veya kullanım dışı bırakılan özellikler
 
@@ -46,6 +46,17 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 | **Etkilenen ürün alanları** | Uygulama |
 | **Dağıtım seçeneği** | Tümü |
 | **Çalıştırma Durumu** | Kullanım dışı bırakıldı: 2023 Nisan tarihinden sonra, **Transfer fiyatı vergi içeren stok transfer emirleri** işlevi artık hata düzeltmeleri ve güvenlik düzeltmeleriyle ilgili destek almayacaktır. Müşterilerin [Hindistan için stok transfer emirleri](../../finance/localizations/apac-ind-stock-transfer.md) iyileştirilmiş işlevini kullanmaları istenecektir. 2023 Ekim tarihinden sonra, **Transfer fiyatı vergi içeren stok transfer emirleri** işlevi artık kullanılamayacak ve müşterilerin geliştirilmiş işleve geçiş yapması istenecektir. |
+
+### <a name="bank-statement-import-and-export-of-positive-pay-file"></a>Pozitif ödeme dosyası banka ekstresi içe ve dışa aktarma işlemi
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Kullanımı sonlandırma/kaldırma nedeni** |Geliştirilmiş işlevlerle değiştirildi, banka ekstrelerini içe aktar ve artı ödeme dosyalarını dışa aktar.| 
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Kullanım dışı: Dosyaları içe ve dışa aktarmaya yönelik XSLT işlevi artık hata düzeltmeleri ve güvenlik düzeltmeleri ile ilgili destek almayacaktır. Müşterilerden geliştirilmiş işlevi kullanmaları istenecektir: [Electronic raporlama kullanarak pozitif ödeme dosyaları aarlama](../../finance/accounts-payable/set-up-positive-pay-er.md) ve [Elektronik raporlamayı kullanarak gelişmiş banka mutabakatı içe aktarmayı ayarlama](../../finance/accounts-payable/import-bai2-er.md). Eylül 2022'den sonra XSLT işlevleri artık kullanılamayacak ve müşterilerden geliştirilmiş işlevlere geçiş yapmaları istenecektir.|
+
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Finance 10.0.26 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 

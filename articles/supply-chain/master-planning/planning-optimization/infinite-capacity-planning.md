@@ -2,7 +2,7 @@
 title: Sonsuz kapasiteyle planlama
 description: Bu konu, Planlamayı En İyi Duruma Getirme için sonsuz kapasite planlaması hakkında bilgi sağlar. Geçerli özellik sınırlamaları da açıklanmaktadır.
 author: t-benebo
-ms.date: 09/21/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: RouteInventProd
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 3646a7ca1f9a3a87a2f130783dc4961a61335f1d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c6e0190899abb544b559bb5f26ba974155989c3a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873883"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335330"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Sonsuz kapasiteyle planlama
 
@@ -24,12 +24,9 @@ ms.locfileid: "8873883"
 
 *Planlamayı En İyi Duruma Getirme için sonsuz kapasite planlama* özelliği rota bilgilerine dayalı planlama olanağı sunar. İşleri, çeşitli rota kurulumları aralığını temel alarak planlamanızı sağlar. Planlamayı En İyi Duruma Getirme için Planlama rota operasyon sırası veya rota operasyon kaynaklarıyla ilgili gereksinimler dahil olmak üzere sık kullanılan rota ayarlarını kapsar.
 
-## <a name="turn-on-the-infinite-capacity-scheduling-feature"></a>Sonsuz kapasite planlama özelliğini açma
+## <a name="turn-the-infinite-capacity-scheduling-feature-on-or-off"></a>Sonsuz kapasite planlama özelliğini açma veya kapatma
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
-
-- **Modül:** *Master planlama*
-- **Özellik adı:** *Planlama Optimizasyonu için sonsuz kapasite zamanlaması*
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.29 itibarıyla özellik varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Planlamayı En İyi Duruma Getirme için sonsuz kapasite planlaması* özelliğini bularak bu işlevi açabilir veya kapatabilir.
 
 Bu özellik hakkında daha fazla bilgi için bkz. [Yeteneğe dayalı kaynak seçimi ile zamanlama](capability-based-scheduling.md).
 

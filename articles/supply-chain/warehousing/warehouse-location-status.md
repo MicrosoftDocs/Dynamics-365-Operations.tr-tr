@@ -2,7 +2,7 @@
 title: Ambar yerleşimi durumu
 description: Bu makale Ambar konumu durumu özelliğine genel bakış sunmaktadır.
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 2b3c408f5a5e4ce85a235ac83c15b648e43b5e10
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 9b12a7d6a7ce388c8fd049c4aef79ea57c82ae60
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220072"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336110"
 ---
 # <a name="warehouse-location-status"></a>Ambar yerleşimi durumu
 
@@ -40,9 +40,9 @@ Microsoft Dynamics 365 Supply Chain Management'ta, yerleşimler üzerinde çalı
     - **Malzeme çekme** – Son boş olduğu zamandan sonra yerleşime karşı giden hareketler gerçekleştirilmiştir.
     - **Depolama** – Son boş olduğu zamandan sonra yerleşime karşı gelen hareketler gerçekleştirilmiştir.
 
-## <a name="turn-on-the-warehouse-location-status-feature"></a>Ambar konum durumu özelliğini açma
+## <a name="turn-the-warehouse-location-status-feature-on-or-off"></a>Ambar yerleşimi durumu özelliğini açma veya kapatma
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.29 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Ambar konumu durumu* özelliğini bularak bu işlevi açabilir veya kapatabilir.
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.29 itibarıyla, özellik zorunludur ve kapatılamaz. 10.0.29 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Ambar yerleşimi durumu* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="set-up-warehouse-location-status"></a>Ambar konumu durumunu ayarlama
 

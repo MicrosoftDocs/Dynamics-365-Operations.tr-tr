@@ -2,7 +2,7 @@
 title: Emniyet marjları
 description: Bu makalede, Microsoft Dynamics 365 Supply Chain Management güvenlik boşluklarının uygulamasında Planlamayı En İyi Duruma Getirme Eklentisi ile nasıl kullanılabileceği açıklanmaktadır.
 author: t-benebo
-ms.date: 09/14/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: c792c33edea9a7f4e2973383b1fcce5b4e8ec998
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854253"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335210"
 ---
 # <a name="safety-margins"></a>Emniyet marjları
 
@@ -79,12 +79,9 @@ Bir çıkış marjı uygulandığında, ilgili tedarik ve talep gereksinim tarih
 
 ## <a name="set-up-safety-margins"></a>Emniyet marjlarını ayarlama
 
-### <a name="turn-on-safety-margins-in-feature-management"></a>Özellik yönetiminde Emniyet marjlarını açma
+### <a name="turn-safety-margins-on-or-off"></a>Emniyet marjlarını açma veya kapatma
 
-Bu özelliği Planlama Optimizasyonu ile kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
-
-- **Modül:** _Master planlama_
-- **Özellik adı:** _Planlama Optimizasyonu_ için Marjlar
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.29 itibarıyla, özellik zorunludur ve kapatılamaz. 10.0.29 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Planlamayı En İyi Duruma Getirme Marjları* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ### <a name="define-safety-margins"></a>Emniyet marjlarını tanımlama
 

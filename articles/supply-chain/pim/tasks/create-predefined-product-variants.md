@@ -2,7 +2,7 @@
 title: Önceden tanımlanmış ürün çeşitleri oluşturma
 description: Bu prosedürde ürün boyutları kombinasyonları kullanılarak bir ana ürün için ürün seçeneklerinin nasıl oluşturulacağı adım adım açıklanmıştır.
 author: t-benebo
-ms.date: 04/22/2021
+ms.date: 08/09/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 6d3a4ae8efd438e01c263af1c0a1746d9484e491
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: a26439b8c7346cdce2b4c9804493fea94c29ac31
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103110"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335930"
 ---
 # <a name="predefined-product-variants"></a>Önceden tanımlanmış ürün varyantları
 
@@ -86,7 +86,7 @@ Bu özellikle birlikte aşağıdaki iyileştirmeler sağlanır:
 
 ### <a name="turn-the-variant-suggestions-page-improvements-feature-on-or-off"></a>Varyant önerileri sayfa iyileştirmeleri özelliğini açma veya kapatma
 
-Supply Chain Management sürüm 10.0.25 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Varyant önerileri sayfa iyileştirmeleri* özelliğini bularak bu işlevi açabilir veya kapatabilir.
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.25 itibarıyla özellik varsayılan olarak açıktır. Supply Chain Management sürüm 10.0.29 itibarıyla, özellik zorunludur ve kapatılamaz. 10.0.29 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Çeşit önerileri sayfa geliştirmeleri* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ### <a name="work-with-the-improved-variant-suggestions"></a>İyileştirilmiş varyant önerileriyle çalışma
 

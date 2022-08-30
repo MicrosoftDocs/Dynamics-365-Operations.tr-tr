@@ -1,24 +1,24 @@
 ---
 title: Gelir kabulü yeniden tahsisatı
 description: Bu makalede, kuruluşların sözleşmeden doğan satış koşulları değiştirildiğinde gelir fiyatlarını yeniden hesaplamasına olanak tanıyan yeniden tahsisat hakkında bilgi sağlanmaktadır. Birden çok senaryoda gelir kabulünün nasıl gerçekleştiğini açıklayan diğer konu başlıklarına bağlantılar içermektedir.
-author: kweekley
+author: bking
 ms.date: 09/09/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a79288fd69a2e7780ff03952b05b99db2ed88e41
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c7e2149058ebbff85cbc2ac86dac3231fbcc41d
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903434"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348168"
 ---
 # <a name="revenue-recognition-reallocation"></a>Gelir kabulü yeniden tahsisatı
 

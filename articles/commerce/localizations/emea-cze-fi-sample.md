@@ -2,30 +2,28 @@
 title: Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği
 description: Bu makale, Microsoft Dynamics 365 Commerce'taki Çek Cumhuriyeti'ne yönelik mali tümleştirme örneğine genel bakış sağlar.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-04-01
-ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: dc7ef27954de2bb10bbaf91fc5a3aa14d6ee6ffd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 3838792c0a420fb88ea9daab0a67c2e644c80681
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280346"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313761"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Bu makale, Microsoft Dynamics 365 Commerce'taki Çek Cumhuriyeti'ne yönelik mali tümleştirme örneğine genel bakış sağlar.
 
-Çek Cumhuriyeti'nde yazar kasalara yönelik yerel mali gereksinimlerin karşılanması amacıyla Çek Cumhuriyeti için Dynamics 365 Commerce işlevi, satış noktasının (POS) harici bir mali kayıt hizmetiyle örnek tümleştirmesini içerir. Bu örnek, [mali tümleştirme işlevini](fiscal-integration-for-retail-channel.md) genişletir. [EFSTA'nın](https://efsta.org/) [EFR (Elektronik Yazar Kasa)](https://efsta.org/sicherheitsloesungen/) çözümüne dayalıdır ve HTTPS protokolü üzerinden EFR hizmetiyle iletişim kurulmasını sağlar. EFR hizmeti, Elektronik Satış Kaydını (EET - Elektronická evidence tržeb), diğer bir deyişle, satış verilerinin vergi makamlarının mali web hizmetine çevrimiçi olarak iletilmesini sağlar.
-
-EFR hizmeti, Commerce Hardware station'da veya Hardware station'dan bağlanılabilecek ayrı bir makinede barındırılmalıdır. Örnek, kaynak kodu biçiminde sağlanır ve Commerce yazılım geliştirme setinin (SDK) bir parçasıdır.
+Çek Cumhuriyeti'nde yazar kasalara yönelik yerel mali gereksinimlerin karşılanması amacıyla Çek Cumhuriyeti için Dynamics 365 Commerce işlevi, satış noktasının (POS) harici bir mali kayıt hizmetiyle örnek tümleştirmesini içerir. Bu örnek, [mali tümleştirme işlevini](fiscal-integration-for-retail-channel.md) genişletir. [EFSTA'nın](https://efsta.org/) [EFR (Elektronik Yazar Kasa)](https://efsta.org/sicherheitsloesungen/) çözümüne dayalıdır ve HTTPS protokolü üzerinden EFR hizmetiyle iletişim kurulmasını sağlar. EFR hizmeti Elektronik Satış Kaydının (Elektronická evidence tržeb \[EET\]) yapılmasını sağlar. Başka bir deyişle, satış verilerinin bir vergi dairesinin mali web hizmetine çevrimiçi iletimini sağlar. EFR hizmeti, Commerce Hardware station'da veya Hardware station'dan bağlanılabilecek ayrı bir makinede barındırılmalıdır. Örnek, kaynak kodu biçiminde sağlanır ve Commerce yazılım geliştirme setinin (SDK) bir parçasıdır.
 
 Microsoft, EFSTA'dan herhangi bir donanım, yazılım veya belge yayınlamaz. EFR çözümünü edinme ve çalıştırma hakkında bilgi için [EFSTA](https://efsta.org/kontakt/) ile iletişime geçin.
 
@@ -114,7 +112,7 @@ POS işlevi profillerini ayarlayın.
 1. **Kuruluş yönetimi \> Genel adres defteri \> Kayıt türleri \> Kayıt türleri**'ne gidin. Yeni bir kayıt türü oluşturun. **Ülke/bölge** alanını **CZE** (Çek Cumhuriyeti) olarak belirleyin ve kuruluşla sınırlı hale getirin.
 2. **Kuruluş yönetimi \> Genel adres defteri \> Kayıt türleri \> Kayıt kategorileri**'ne gidin. Yeni bir kayıt kategorisi oluşturun. Önceki adımdan kayıt türünü seçin ve **Kayıt kategorisi**'ni **İş Alanı Kodu** olarak ayarlayın.
 3. **Kuruluş yönetimi \> Kuruluşlar \> İşletme birimleri** seçeneğine gidin. Çek Cumhuriyeti'nde bulunan her mağaza için mağazayla ilişkili birimi seçin. **Adres** hızlı sekmesinde, **Diğer seçenekler** açılır listesini genişletin ve **Gelişmiş**'i seçin. 
-4. Açılan **Adresleri yönet** sayfasında aşağıdaki ayarı belirtmeniz gerekir.
+4. Açılan **Adresleri yönet** sayfasında aşağıdaki ayarları belirtmeniz gerekir:
 
     - **Adres** hızlı sekmesinde, **Ülke/bölge** alanını **CZE** olarak ayarlayın.
     - **Kayıt Kodu** hızlı sekmesinde yeni bir kayıt oluşturun. Daha önce oluşturulan kayıt türünü seçin ve kayıt numarasını ayarlayın.
@@ -181,12 +179,10 @@ Makbuz biçimleriyle nasıl çalışılacağı hakkında daha fazla bilgi için 
 
 ## <a name="set-up-fiscal-integration-for-the-czech-republic"></a>Çek Cumhuriyeti için mali tümleştirmeyi ayarlama
 
-Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği, [mali tümleştirme işlevine](fiscal-integration-for-retail-channel.md) dayanır ve Retail SDK'nin bir parçasıdır. Örnek, [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunun **src\\FiscalIntegration\\Efr** klasöründe bulunur (örneğin, [sürüm/9.33'teki örnek](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Örnek, Commerce Runtime'ın (CRT) uzantısı olan bir mali belge sağlayıcısından ve Commerce Hardware Station'ın uzantısı olan bir mali bağlayıcıdan [oluşur](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services). Retail SDK'yi kullanma hakkında daha fazla bilgi için [Retail SDK mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md) ve [Bağımsız paketleme SDK'si için derleme işlem hattı ayarlama](../dev-itpro/build-pipeline.md) konularına bakın.
+Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği, [mali tümleştirme işlevine](fiscal-integration-for-retail-channel.md) dayanır ve Commerce SDK'nin bir parçasıdır. Örnek, [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunun **src\\FiscalIntegration\\Efr** klasöründe bulunur. [Örnek](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services), Commerce Runtime'ın (CRT) uzantısı olan bir mali belge sağlayıcısından ve Commerce Hardware Station'ın uzantısı olan bir mali bağlayıcıdan oluşur. Commerce SDK'yı kullanma hakkında dah afazla bilgi için bkz. [GitHub ve NuGet'ten Retail SDK örnekleri ve başvuru paketleri indirme](../dev-itpro/retail-sdk/sdk-github.md) ve [Bağımsız paketleme SDK'sı için derleme işlem hattı ayarlama](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> [Yeni bağımsız paketleme ve uzantı modelinin](../dev-itpro/build-pipeline.md) sınırlamaları nedeniyle bu mali tümleştirme örneği için şu anda kullanılamaz. Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) Retail SDK'nin önceki sürümünü kullanmalısınız. Daha fazla bilgi için bkz. [Çek Cumhuriyeti için mali tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)](emea-cze-fi-sample-sdk.md).
->
-> Mali tümleştirme örnekleri için yeni bağımsız paketleme ve uzantı modeli desteği, sonraki sürümler için planlanmaktadır.
+> [!NOTE]
+> Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği, Commerce SDK 10.0.29 sürümü itibarıyla Commerce SDK'da bulunur. Commerce 10.0.28 veya öncesi sürümlerde, Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) Retail SDK'nin önceki sürümünü kullanmalısınız. Daha fazla bilgi için bkz. [Çek Cumhuriyeti için mali tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)](emea-cze-fi-sample-sdk.md).
 
 [Commerce kanalları için mali tümleştirmeyi ayarlama](setting-up-fiscal-integration-for-retail-channel.md) konusunda açıklandığı şekilde mali tümleştirme ayarlama adımlarını tamamlayın:
 
@@ -202,18 +198,16 @@ Kayıt işlemini etkinleştirmek üzere Commerce Headquarters'ı ayarlamak için
 1. Mali belge sağlayıcısı ve mali bağlayıcı için yapılandırma dosyalarını indirin:
 
     1. [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunu açın.
-    1. SDK/uygulama sürümünüze göre doğru dal sürümünü seçin (örneğin, **[sürüm/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. SDK/uygulama sürümünüze göre doğru dal sürümünü seçin.
     1. **src \> FiscalIntegration \> Efr**'yi açın.
-    1. Mali belge sağlayıcısı yapılandırma dosyasını **Configurations \> DocumentProviders \> DocumentProviderFiscalEFRSampleCzech.xml** (örneğin, [sürüm/9.33 dosyası](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/DocumentProviders/DocumentProviderFiscalEFRSampleCzech.xml)) kısmından indirin.
-    1. Mali bağlayıcı yapılandırma dosyasını **Configurations \> Connectors \> ConnectorEFRSample.xml** (örneğin, [sürüm/9.33 dosyası](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/Connectors/ConnectorEFRSample.xml)) kısmından indirin.
+    1. Mali belge sağlayıcısı yapılandırma dosyasını **Configurations \> DocumentProviders \> DocumentProviderFiscalEFRSampleCzech.xml** kısmından indirin.
+    1. Mali bağlayıcı yapılandırma dosyasını **Configurations \> Connectors \> ConnectorEFRSample.xml** kısmından indirin.
 
-    > [!WARNING]
-    > [Yeni bağımsız paketleme ve uzantı modelinin](../dev-itpro/build-pipeline.md) sınırlamaları nedeniyle bu mali tümleştirme örneği için şu anda kullanılamaz. LCS'deki bir geliştirici VM'sinde Retail SDK'nin önceki sürümünü kullanmalısınız. Bu mali tümleştirme örneğinin yapılandırma dosyaları, LCS'deki bir geliştirici VM'sinde Retail SDK'nin aşağıdaki klasörlerinde bulunur:
+    > [!NOTE]
+    > Commerce 10.0.28 veya öncesi sürümlerde, LCS'de bir geliştirici sanal makinesinde Retail SDK'nin önceki sürümünü kullanmalısınız. Bu mali tümleştirme örneğinin yapılandırma dosyaları, LCS'deki bir geliştirici VM'sinde Retail SDK'nin aşağıdaki klasörlerinde bulunur:
     >
     > - **Mali belge sağlayıcısı yapılandırma dosyası:** RetailSdk\\SampleExtensions\\CommerceRuntime\\Extensions.DocumentProvider.EFRSample\\Configuration\\DocumentProviderFiscalEFRSampleCzech.xml
     > - **Mali bağlayıcı yapılandırma dosyası:** RetailSdk\\SampleExtensions\\HardwareStation\\Extension.EFRSample\\Configuration\\ConnectorEFRSample.xml
-    > 
-    > Mali tümleştirme örnekleri için yeni bağımsız paketleme ve uzantı modeli desteği, sonraki sürümler için planlanmaktadır.
 
 1. **Retail ve Commerce \> Headquarters ayarı \> Parametreler \> Paylaşılan Commerce parametreleri**'ne gidin. **Genel** hızlı sekmesinde, **Mali tümleştirmeyi etkinleştir** seçeneğini **Evet** olarak ayarlayın.
 1. **Retail ve Commerce \> Kanal kurulumu \> Mali tümleştirme \> Mali belge sağlayıcıları**'na gidin ve daha önce indirdiğiniz mali belge sağlayıcısı yapılandırma dosyasını yükleyin.
@@ -223,7 +217,7 @@ Kayıt işlemini etkinleştirmek üzere Commerce Headquarters'ı ayarlamak için
 1. **Retail ve Commerce \> Kanal kurulumu \> Mali tümleştirme \> Mali bağlayıcı grupları**'na gidin. Daha önce oluşturduğunuz bağlayıcı işlev profili için yeni bir mali bağlayıcı grubu oluşturun.
 1. **Retail ve Commerce \> Kanal kurulumu \> Mali tümleştirme \> Mali kayıt işlemleri**'ne gidin. Yeni bir mali kayıt işlemi ve mali kayıt işlem adımı oluşturun, ardından daha önce oluşturduğunuz mali bağlayıcı grubunu seçin.
 1. **Retail ve Commerce \> Kanal kurulumu \> POS kurulumu \> POS profilleri \> İşlevsellik profilleri** öğesine tıklayın. Kayıt işleminin etkinleştirilmesi gereken mağazaya bağlı bir işlev profili seçin. **Mali kayıt işlemi** hızlı sekmesinde, daha önce oluşturduğunuz mali kayıt işlemini seçin.
-1. **Retail ve Commerce \> Kanal kurulumu \> POS kurulumu \> POS profilleri \> Donanım profilleri**'ne gidin. Mali yazıcının bağlanacağı Hardware station'a bağlı bir donanım profili seçin. **Mali çevre birimleri** hızlı sekmesinde, daha önce oluşturduğunuz bağlayıcı teknik profilini seçin.
+1. **Retail ve Commerce \> Kanal kurulumu \> POS kurulumu \> POS profilleri \> Donanım profilleri**'ne gidin. Mali kayıt hizmetinin bağlanacağı Hardware station'a bağlı bir donanım profili seçin. **Mali çevre birimleri** hızlı sekmesinde, daha önce oluşturduğunuz bağlayıcı teknik profilini seçin.
 1. Kanal veritabanına verileri aktarmak için dağıtım planını (**Retail ve Commerce \> Retail ve Commerce IT \> Dağıtım planı**) açın ve **1070** ile **1090** işlerini seçin.
 
 #### <a name="default-data-mapping"></a>Varsayılan veri eşlemesi
@@ -259,16 +253,15 @@ Aşağıdaki ayarlar, mali tümleştirme örneğinin bir parçası olarak sağla
 
 ### <a name="configure-channel-components"></a>Kanal bileşenlerini yapılandırma
 
-> [!WARNING]
-> [Yeni bağımsız paketleme ve uzantı modelinin](../dev-itpro/build-pipeline.md) sınırlamaları nedeniyle bu mali tümleştirme örneği için şu anda kullanılamaz. LCS'deki bir geliştirici VM'sinde Retail SDK'nin önceki sürümünü kullanmalısınız. Daha fazla bilgi için bkz. [Çek Cumhuriyeti için mali tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)](emea-cze-fi-sample-sdk.md).
->
-> Mali tümleştirme örnekleri için yeni bağımsız paketleme ve uzantı modeli desteği, sonraki sürümler için planlanmaktadır.
+> [!NOTE]
+> - Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği, Commerce SDK 10.0.29 sürümü itibarıyla Commerce SDK'da bulunur. Commerce 10.0.28 veya öncesi sürümlerde, LCS'de bir geliştirici sanal makinesinde Retail SDK'nin önceki sürümünü kullanmalısınız. Daha fazla bilgi için bkz. [Çek Cumhuriyeti için mali tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)](emea-cze-fi-sample-sdk.md).
+> - Commerce bileşenlerine hizmet veya kalite güncelleştirmeleri uyguladığınızda, ortamınızda dağıtılan Commerce kurulumları otomatik olarak güncelleştirilmez. Gerekli örnekleri el ile güncelleştirmeniz gerekir.
 
 #### <a name="set-up-the-development-environment"></a>Geliştirme ortamını ayarlama
 
 Örneği test etmek ve genişletmek üzere bir geliştirme ortamı ayarlamak için aşağıdaki adımları izleyin.
 
-1. [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions) deposunu klonlayın veya indirin. SDK/uygulama sürümünüze göre doğru dal sürümünü seçin. Daha fazla bilgi için bkz. [GitHub ve NuGet'ten Retail SDK örnekleri ve başvuru paketleri indirme](../dev-itpro/retail-sdk/sdk-github.md).
+1. [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions) deposunu klonlayın veya indirin. SDK/uygulama sürümünüze göre doğru dal sürümünü seçin. Daha fazla bilgi için bkz. [GitHub ve NuGet'ten Commerce SDK örnekleri ve başvuru paketleri indirme](../dev-itpro/retail-sdk/sdk-github.md).
 1. **Dynamics365Commerce.Solutions\\FiscalIntegration\\Efr\\EFR.sln** kısmından EFR çözümünü açın ve derleyin.
 1. CRT uzantılarını yükleyin:
 
@@ -320,10 +313,10 @@ Mali tümleştirme örneği için Cloud Scale Unit'i ve self servis dağıtılab
 
 ## <a name="design-of-extensions"></a>Uzantıların tasarımı
 
-Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği, [mali tümleştirme işlevine](fiscal-integration-for-retail-channel.md) dayanır ve Retail SDK'nin bir parçasıdır. Örnek, [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunun **src\\FiscalIntegration\\Efr** klasöründe bulunur (örneğin, [sürüm/9.33'teki örnek](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Örnek, CRT'nin uzantısı olan bir mali belge sağlayıcısından ve Commerce Hardware Station'ın uzantısı olan bir mali bağlayıcıdan [oluşur](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services). Retail SDK'yi kullanma hakkında daha fazla bilgi için [Retail SDK mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md) ve [Bağımsız paketleme SDK'si için derleme işlem hattı ayarlama](../dev-itpro/build-pipeline.md) konularına bakın.
+Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği, [mali tümleştirme işlevine](fiscal-integration-for-retail-channel.md) dayanır ve Commerce SDK'nin bir parçasıdır. Örnek, [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunun **src\\FiscalIntegration\\Efr** klasöründe bulunur. [Örnek](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services), CRT'nin uzantısı olan bir mali belge sağlayıcısından ve Commerce Hardware Station'ın uzantısı olan bir mali bağlayıcıdan oluşur. Commerce SDK'yı kullanma hakkında dah afazla bilgi için bkz. [GitHub ve NuGet'ten Retail SDK örnekleri ve başvuru paketleri indirme](../dev-itpro/retail-sdk/retail-sdk-overview.md) ve [Bağımsız paketleme SDK'sı için derleme işlem hattı ayarlama](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> [Yeni bağımsız paketleme ve uzantı modelinin](../dev-itpro/build-pipeline.md) sınırlamaları nedeniyle bu mali tümleştirme örneği için şu anda kullanılamaz. LCS'deki bir geliştirici VM'sinde Retail SDK'nin önceki sürümünü kullanmalısınız. Daha fazla bilgi için bkz. [Çek Cumhuriyeti için mali tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)](emea-cze-fi-sample-sdk.md). Mali tümleştirme örnekleri için yeni bağımsız paketleme ve uzantı modeli desteği, sonraki sürümler için planlanmaktadır.
+> [!NOTE]
+> Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği, Commerce SDK 10.0.29 sürümü itibarıyla Commerce SDK'da bulunur. Commerce 10.0.28 veya öncesi sürümlerde, LCS'de bir geliştirici sanal makinesinde Retail SDK'nin önceki sürümünü kullanmalısınız. Daha fazla bilgi için bkz. [Çek Cumhuriyeti için mali tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)](emea-cze-fi-sample-sdk.md).
 
 ### <a name="commerce-runtime-extension-design"></a>Commerce Runtime uzantı tasarımı
 

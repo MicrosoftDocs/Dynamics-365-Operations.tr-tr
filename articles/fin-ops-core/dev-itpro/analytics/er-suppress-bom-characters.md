@@ -13,18 +13,18 @@ ms.author: filatovm
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: EROperationDesigner
-ms.openlocfilehash: fa66edef7e39c72d4859a21a1474096f7bc1c1dd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: a2ea132b51f2f451fbe81a9c7869bea84bf4017a
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9278811"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324035"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Oluşturulan dosyalardaki BOM karakterlerini gizlemek için ER yapılandırmaları tasarlama
 
 [!include [banner](../includes/banner.md)]
 
-Giden belgeler oluşturmak için bir [Elektronik raporlama (ER)](general-electronic-reporting.md) [çözümü](er-quick-start1-new-solution.md) tasarlayabilirsiniz. Belgeleri metin veya XML dosyaları olarak oluşturmak için çözümde, ER biçimi içeren bir ER [yapılandırması](general-electronic-reporting.md#Configuration) bulunmalıdır. Oluşturulan dosyalardaki karakter kümesini temsil eden [karakter kodlamasını](/windows/win32/intl/character-sets) belirtmek için ER biçimi, **Common\\File** biçim öğesini içermelidir. ER biçim bileşenini yapılandırmak için ER biçim tasarımcısında ER yapılandırmasının [taslak](general-electronic-reporting.md#component-versioning) sürümünü açın ve **Common\\File** öğesini ekleyin. **Kodlama** alanında, bu bileşen kullanılarak çalışma zamanında oluşturulan giden dosyaların kodlamasını belirtin.
+Giden belgeler oluşturmak için bir [Elektronik raporlama (ER)](general-electronic-reporting.md) [çözümü](er-quick-start1-new-solution.md) tasarlayabilirsiniz. Belgeleri metin veya XML dosyaları olarak oluşturmak için çözümde, ER biçimi içeren bir ER [yapılandırması](general-electronic-reporting.md#Configuration) bulunmalıdır. Oluşturulan dosyalardaki karakter kümesini temsil eden [karakter kodlamasını](/windows/win32/intl/character-sets) belirtmek için ER biçimi, **Common\\File** biçim öğesini içermelidir. ER biçim bileşenini yapılandırmak için ER biçim tasarımcısında ER yapılandırmasının taslak sürümünü açın ve **Common\\File** öğesini ekleyin. **Kodlama** alanında, bu bileşen kullanılarak çalışma zamanında oluşturulan giden dosyaların kodlamasını belirtin.
 
 > [!NOTE]
 > Biçim yanlış bir kodlama adı içeriyorsa değişikliklerinizi biçim ayarlarında kaydettiğinizde hata oluşur.

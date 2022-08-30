@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a360b8beaad2bf6916c22765131e37f90e40282b
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895771"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306188"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Inventory Visibility uygulamasını kullanma
 
@@ -70,10 +70,24 @@ Rezervasyon isteğini deftere nakletmek için talep gövdesine bir değer girmel
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Stok özeti
 
-**Stok özeti**, *Eldeki Stok Toplamı* varlığı için özelleştirilmiş bir görünümdür. Tüm boyutlarla birlikte ürünler için bir stok özeti sağlar. Stok özeti verileri, her 15 dakikada bir Stok Görünürlüğü'nden periyodik olarak eşitlenir. **Stok özeti** sekmesindeki verileri görüntüleyebilmeniz için **Özellik Yönetimi** sekmesinde *OnHandMostSpecificBackgroundService* özelliğini açmanız ve **Yapılandırmayı güncelleştir**'i seçmeniz gerekir.
+**Stok özeti** sayfası tüm boyutlarla birlikte ürünler için bir stok özeti sağlar. *Eldeki Stok Toplamı* varlığı için özelleştirilmiş bir görünümdür. Stok özeti verileri, Stok Görünürlüğü'nden periyodik olarak eşitlenir.
+
+### <a name="enable-the-inventory-summary-and-set-the-synchronization-frequency"></a>Stok özetini etkinleştirin ve eşitleme sıklığını ayarlayın
+
+**Stok özeti** sayfasını etkşnleştirmek ve eşitleme sıklığını ayarlamak için şu adımları izleyin:
+
+1. **Yapılandırma** sayfasını açın.
+1. **Özellik Yönetimi ve Ayarlar** sekmesini açın.
+1. **OnHandMostSpecificBackgroundService** özelliğinin düğmesini *Evet* olarak ayarlayın.
+1. Özellik etkinleştirildiğinde **Hizmet Yapılandırması** bölümü kullanılabilir hale gelir ve **OnHandMostSpecificBackgroundService** özelliğini yapılandırma için bir satır içerir. Bu ayar, stok özeti verilerinin eşitlendiği sıklığı seçmenize olanak tanır. Eşitlemeler arasındaki zamanı değiştirmek için (en az 5 dakika olabilir) **Değer** sütunundaki **Yukarı** ve **Aşağı** düğmelerini kullanın. Sonra **Kaydet**'i seçin.
+1. Tüm değişiklikleri kaydetmek için **Yapılandırmayı güncelleştir**'i seçin.
+
+![OnHandMostSpecificBackgroundService Ayarı](media/inventory-visibility-ohms-freq.PNG "OnHandMostSpecificBackgroundService Ayarı")
 
 > [!NOTE]
 > *OnHandMostSpecificBackgroundService* özelliği yalnızca özelliği açtıktan sonra oluşan eldeki ürün değişikliklerini izler. Özelliği açtığınızdan bu yana değiştirilemeyen ürünlere ait veriler, stok hizmeti önbelleğinden Dataverse ortamına eşitlenmez. **Stok özeti** sayfanız beklediğiniz eldeki ürün bilgilerinin tümünü göstermiyorsa **Stok Yönetimi > Periyodik görevler > Stok görünürlüğü tümleştirmesi**'ne gidin, toplu işi devre dışı bırakın ve yeniden etkinleştirin. Bu işlemi, ilk gönderimi yapacak ve tüm veriler sonraki 15 dakika içinde *Stok Eldeki Toplam* varlığıyla eşitlenecektir. Bu özelliği kullanmak istiyorsanız herhangi bir eldeki miktar değişikliği oluşturmadan ve **Stok Görünürlüğü tümleştirmesi** toplu işlemini etkinleştirmeden önce bunu etkinleştirmenizi öneririz.
+
+### <a name="work-with-the-inventory-summary"></a>Stok özeti ile çalışma
 
 Dataverse'in sağladığı **Gelişmiş filtre**'yi kullanarak sizin için önemli olan satırları gösteren bir kişisel görünüm oluşturabilirsiniz. Gelişmiş filtre seçenekleri, basitten karmaşığa doğru geniş aralıklı görünümler oluşturmanıza olanak tanır. Ayrıca filtrelere gruplanmış ve iç içe koşullar eklemenize de olanak tanır. **Gelişmiş filtre**'nin nasıl kullanılacağı hakkında daha fazla bilgi edinmek için bkz. [Gelişmiş ızgara filtrelerini kullanarak kişisel görünümleri düzenleme veya oluşturma](/powerapps/user/grid-filters-advanced).
 

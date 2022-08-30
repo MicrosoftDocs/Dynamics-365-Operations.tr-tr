@@ -2,25 +2,29 @@
 title: İtalya için mali yazıcı tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)
 description: Bu makale, Microsoft Dynamics 365 Commerce Retail yazılım geliştirme setinden (SDK) İtalya için mali yazıcı tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 9e951c1a1ee5c967d2bd67941ff3d19c62b59ba6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 46d42a2c2a5f8f40fc8b9693f26a182c8f2e6352
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279552"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336752"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>İtalya için mali yazıcı tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Bu makale, Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) Microsoft Dynamics 365 Commerce Retail yazılım geliştirme setinden (SDK) İtalya için mali yazıcı tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar. Bu mali tümleştirme örneği hakkında daha fazla bilgi için bkz. [İtalya için mali yazıcı tümleştirme örneği](emea-ita-fpi-sample.md). 
+> [!IMPORTANT]
+> Bu makaledeki yönergeleri yalnızca Microsoft Dynamics 365 Commerce 10.0.28 veya önceki bir sürümü kullanıyorsanız uygulamalısınız. Commerce 10.0.29 sürümü itibarıyla İtalya için mali yazıcı hizmeti tümleştirme örneği, Commerce yazılım geliştirme setinde (SDK) bulunur. Daha fazla bilgi için bkz. [Kanal bileşenlerini yapılandırma](./emea-ita-fpi-sample.md#configure-channel-components).
+
+Bu makale, Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) Dynamics 365 Commerce Retail SDK'dan İtalya için mali yazıcı tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar. Bu mali tümleştirme örneği hakkında daha fazla bilgi için bkz. [İtalya için mali yazıcı tümleştirme örneği](emea-ita-fpi-sample.md). 
 
 İtalya için mali tümleştirme örneği, Retail SDK'nin bir parçasıdır. SDK'yi yükleme ve kullanma hakkında daha fazla bilgi için bkz. [Retail yazılım geliştirme seti (SDK) mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md). Bu örnek, Commerce Runtime ( CRT) ve Hardware station'a yönelik uzantılardan oluşur. Bu örneği çalıştırmak için CRT ve Hardware station projelerini değiştirip derlemeniz gerekir. Bu makalede açıklanan değişiklikleri yapmak için değiştirilmemiş bir Retail SDK kullanmanızı öneririz. Henüz değiştirilmiş bir dosya olmadığı durumlarda, Azure DevOps gibi bir kaynak denetimi sistemi kullanmanızı öneririz.
 

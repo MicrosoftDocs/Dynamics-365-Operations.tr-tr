@@ -2,7 +2,7 @@
 title: Malzeme işleme ekipmanı arabirimi (MHAX)
 description: Bu makalede, harici fiziksel malzeme işleme (MH) sistemlerine bağlanabilmeniz için malzeme işleme ekipmanı arabiriminin (MHAX) nasıl ayarlanacağı açıklanmaktadır.
 author: Mirzaab
-ms.date: 03/04/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: dc46c9fea94c3d86f9511c2bea4ea64455c936f9
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 1056c7aee3ea96ddcb012704be40bef6c363f323
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068374"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334370"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Malzeme işleme ekipmanı arabirimi (MHAX)
 
@@ -41,12 +41,13 @@ Aşağıdaki şekilde, MHAX tümleştirmesini kullandığınızda çeşitli madd
 
 MHAX özelliğini kullanabilmeniz için önce hem özelliği hem de yapılandırma anahtarını açmanız gerekir.
 
-1. **Sistem yönetimi \> Çalışma alanları \> Özellik yönetimi**'ne gidin.
-2. **[Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** çalışma alanında, *Malzeme işleme ekipmanı arabirimi* adlı özelliği açın.
-3. Sisteminizi [Bakım modu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) bölümünde anlatıldığı şekilde bakım moduna alın.
-4. **Sistem yönetimi \> Kurulum \> Lisans yapılandırma** seçeneğine gidin.
-5. **Ticaret \> Ambar ve Taşıma yönetimi**'ni genişletin ve **malzeme işleme ekipmanı arabirimi** onay kutusunu seçin.
-6. [Bakım modu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) bölümünde anlatıldığı şekilde bakım modunu kapatın.
+1. Supply Chain Management 10.0.28 veya daha önceki bir sürümü çalıştırıyorsanız aşağıdaki adımları gerçekleştirin:
+    1. **Sistem yönetimi \> Çalışma alanları \> Özellik yönetimi**'ne gidin.
+    1. **[Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** çalışma alanında, *Malzeme işleme ekipmanı arabirimi* adlı özelliği açın. (Supply Chain Management 10.0.29 itibarıyla, bu özellik zorunludur ve kapatılamaz.)
+1. Sisteminizi [Bakım modu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) bölümünde anlatıldığı şekilde bakım moduna alın.
+1. **Sistem yönetimi \> Kurulum \> Lisans yapılandırma** seçeneğine gidin.
+1. **Ticaret \> Ambar ve Taşıma yönetimi**'ni genişletin ve **malzeme işleme ekipmanı arabirimi** onay kutusunu seçin.
+1. [Bakım modu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) bölümünde anlatıldığı şekilde bakım modunu kapatın.
 
 ## <a name="set-mhax-parameters"></a>MHAX parametrelerini ayarlama
 

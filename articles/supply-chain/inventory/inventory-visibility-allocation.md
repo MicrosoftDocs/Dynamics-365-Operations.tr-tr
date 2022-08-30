@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f79497a24a5b4dd501bb0d13d9eaca7e98672533
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852519"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306129"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>Stok Görünürlüğü stok tahsisatı
 
@@ -63,12 +63,11 @@ Stok tahsisatı özelliği aşağıdaki bileşenlerden oluşur:
 - Önceden tanımlanmış, tahsisat ile ilgili veri kaynağı, fiziksel ölçüler ve hesaplanan ölçüler.
 - Maksimum sekiz düzeye sahip özelleştirilebilir tahsisat grupları.
 - Tahsisat uygulama programlama arabirimleri (API) kümesi:
-
-    - allocate
-    - reallocate
-    - unallocate
-    - consume
-    - query
+  - allocate
+  - reallocate
+  - unallocate
+  - consume
+  - query
 
 Tahsisat özelliğini yapılandırma işleminin iki adımı vardır:
 
@@ -84,23 +83,26 @@ Veri kaynağı `@iv` olarak adlandırılır.
 Başlangıçtaki fiziksel ölçüler şunlardır:
 
 - `@iv`
-
-    - `@allocated`
-    - `@cumulative_allocated`
-    - `@consumed`
-    - `@cumulative_consumed`
+  - `@allocated`
+  - `@cumulative_allocated`
+  - `@consumed`
+  - `@cumulative_consumed`
 
 Başlangıçtaki hesaplanan ölçüler şunlardır:
 
 - `@iv`
-
-    - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
+  - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>Tahsisata uygun hesaplanan ölçüsüne diğer fiziksel ölçüleri ekleme
 
 Tahsisatı kullanmak için, tahsisata uygun hesaplanan ölçüsünü ayarlamanız gerekir (`@iv.@available_to_allocate`). Örneğin, `fno` veri kaynağına ve `onordered` ölçüsüne; `pos` veri kaynağına ve `inbound` ölçüsüne sahip olduğunuzu ve `fno.onordered` ve `pos.inbound` toplamı için eldeki stokta tahsisat yapmak istediğinizi varsayalım. Bu durumda `@iv.@available_to_allocate`, formülünde `pos.inbound` ve `fno.onordered` öğelerini içermelidir. Aşağıda bir örnek verilmiştir:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound` – `@iv.@allocated`
+
+> [!NOTE]
+> Veri kaynağı `@iv`, önceden tanımlanmış bir veri kaynağıdır ve `@` önekiyle `@iv` içinde tanımlanan fiziksel ölçümlerdir. Bu ölçümler tahsisat özelliği için önceden tanımlanmış bir yapılandırmadır; bu nedenle onları değiştirmeyin veya silmeyin. Aksi durumda, tahsisat özelliğini kullanırken beklenmedik hatalarla karşılaşabilirsiniz.
+>
+> Önceden tanımlanmış hesaplanan `@iv.@available_to_allocate` ölçümüne yeni fiziksel ölçümler ekleyebilirsiniz ancak adını değiştirmemeniz gerekir.
 
 ### <a name="change-the-allocation-group-name"></a>Tahsisat grubu adını değiştirme
 
@@ -136,7 +138,7 @@ Belirli boyutlara sahip bir ürünü tahsis etmek için `Allocate` API'sini ça�
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -157,7 +159,7 @@ Belirli boyutlara sahip bir ürünü tahsis etmek için `Allocate` API'sini ça�
 {
     "id": "???",
     "productId": "Bike",
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -192,7 +194,7 @@ Tahsis edilen miktarın bir kısmını başka bir grup birleşimine taşımak i�
         "groupB": "string",
         "groupC": "string"
     },
-    "targetGroups": {
+    "groups": {
         "groupD": "string",
         "groupE": "string",
         "groupF": "string"
@@ -218,7 +220,7 @@ Tahsis edilen miktarın bir kısmını başka bir grup birleşimine taşımak i�
         "customerGroup": "VIP",
         "region": "US"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "EU"
@@ -242,7 +244,7 @@ Tahsisata karşılık tüketim miktarını deftere nakletmek için `Consume` API
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -280,7 +282,7 @@ Sekiz bisiklet, `pos.inbound` ölçüsünden atanır.
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -326,7 +328,7 @@ Miktar olarak 3 adet tüketmek ve bu miktar için doğrudan rezervasyon yapmak i
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"

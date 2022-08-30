@@ -2,7 +2,7 @@
 title: Planlanmış çapraz sevk
 description: Bu makalede, bir sipariş için gereken stok miktarının kabulden veya oluşturma aşamasından doğru çıkış noktasına veya hazırlama alanına kadar yönlendirildiği, ileri düzeyde planlanmış çapraz sevk açıklanmaktadır. Gelen kaynaktan kalan tüm stok, normal yerine koyma işlemiyle doğru depolama yerleşimine yönlendirilir.
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 4f379b3cdb6830f989199afde7d751842047df79
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b530cc1403458775fd330e826a32417d3b03bf25
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070304"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334580"
 ---
 # <a name="planned-cross-docking"></a>Planlanmış çapraz sevk
 
@@ -37,10 +37,10 @@ Her gelen sipariş alındığında, çapraz sevk kurulumu çapraz sevk gereksini
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>Planlanmış merkezden dağıtım özelliklerini açma
 
-Sisteminiz bu makalede açıklanan özellikleri zaten içermiyorsa [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve aşağıdaki özellikleri aşağıdaki sırayla açın:
+Supply Chain Management 10.0.28 veya önceki bir sürümü çalıştırıyorsanız, kullanmabilmek için Planlı çapraz sevkiyatı etkinleştirmeniz gerekebilir. Aşağıdaki özellikleri aşağıdaki sırayla açmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin:
 
-1. *Planlanmış çapraz sevk*
-1. *Yerleşim yönergeleri olan çapraz sevk şablonları*
+1. *Planlanmış çapraz sevk*<br>(Supply Chain Management sürüm 10.0.29 itibarıyla, bu özellik zorunludur ve kapatılamaz.)
+1. *Yerleşim yönergeleri olan çapraz sevk şablonları*<br>(Supply Chain Management sürüm 10.0.29 itibariyle, bu özellik varsayılan olarak açıktır.)
     > [!NOTE]
     > Bu özellik, çapraz sevk şablonunda, stok yenileme şablonlarını ayarlama şeklinize benzer şekilde **Yönerge kodu** alanının belirtilmesini sağlar. Bu özelliği etkinleştirmek, son *Yerine koyma* satırı için çapraz sevk iş şablonu satırlarına bir yönerge kodu eklemenizi engeller. Bu, iş şablonlarını dikkate almadan önce son yerine koyma konumunun iş oluşturma sırasında belirlenebilmesini sağlar.
 
@@ -92,7 +92,7 @@ Planlanmış çapraz sevk, bir yükleme deftere nakil yöntemi olarak uygulanır
 
     - **Yönerge kodu:** Bu alanı boş bırakın
 
-        Bu seçenek, *Konum yönergelerine sahip çapraz sevk şablonları* özelliği tarafından etkinleştirilir. Sistem, geçici stoku taşımak için en iyi konumu belirlemeye yardımcı olmak üzere konum yönergelerini kullanır. İlgili her merkezden dağıtım şablonuna bir yönerge kodu atayarak ayarlayabilirsiniz. Yönerge kodu ayarlanırsa, iş oluşturulduğunda sistem yerleşim yönergelerini yönerge koduna göre arar. Bu şekilde, belirli bir çapraz sevk şablonu için kullanılan konum yönergelerini sınırlayabilirsiniz.
+        Bu seçenek, *Yerleşim yönergeleri olan çapraz sevk şablonları* özelliği tarafından etkinleştirilir (Supply Chain Management 10.0.29 sürümü itibarıyla özellik varsayılan olarak açıktır). Sistem, geçici stoku taşımak için en iyi konumu belirlemeye yardımcı olmak üzere konum yönergelerini kullanır. İlgili her merkezden dağıtım şablonuna bir yönerge kodu atayarak ayarlayabilirsiniz. Yönerge kodu ayarlanırsa, iş oluşturulduğunda sistem yerleşim yönergelerini yönerge koduna göre arar. Bu şekilde, belirli bir çapraz sevk şablonu için kullanılan konum yönergelerini sınırlayabilirsiniz.
 
     - **Zaman aralığını doğrula:** *Evet*
 

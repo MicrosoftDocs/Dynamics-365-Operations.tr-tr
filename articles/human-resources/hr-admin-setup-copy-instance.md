@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 20a2ffb44f9b99800146e3365e6f0d6df8e9a75e
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178548"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324275"
 ---
 # <a name="copy-an-instance"></a>Örnek kopyala
 
@@ -47,13 +47,14 @@ Microsoft Dynamics 365 Human Resources veritabanını bir korumalı alan ortamı
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>İnsan Kaynakları veritabanını kopyalama etkileri
 
+> [!Note]
+> Ağustos 2022'den itibaren Microsoft Azure Blob depolamadaki Belgeler bir üretim ortamı korumalı alan ortamına kopyalanırken dahil edilecektir. Ekli tüm belge ve şablonlar kaynak ortamdan hedef ortama kopyalanacaktır.
+
 Bir İnsan Kaynakları veritabanını kopyaladığınızda aşağıdaki olaylar oluşur:
 
 - Kopyalama işlemi hedef ortamdaki varolan veritabanını siler. Kopyalama işlemi tamamlandıktan sonra, varolan veritabanını kurtaramazsınız.
 
 - Kopyalama işlemi tamamlanana kadar hedef ortam kullanılamayacak.
-
-- Microsoft Azure Blob depolama birimindeki belgeler bir ortamdan diğerine kopyalanmaz. Bunun sonucunda, ekli tüm belge ve şablonlar kopyalanmaz ve kaynak ortamda kalır.
 
 - "Sistem Yöneticisi" güvenlik rolüne ve diğer iç hizmet kullanıcı hesaplarına sahip olanlar haricindeki tüm kullanıcılar kullanılamaz. Yönetici kullanıcı, diğer kullanıcılar sisteme geri dönmeden önce verileri silebilir.
 

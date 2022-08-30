@@ -2,7 +2,7 @@
 title: Madde fiyatları depolama raporunu karşılaştırma
 description: Madde fiyatlarını karşılaştırma depolama raporunun nasıl oluşturulacağını öğrenin ve sonucu bulun ve/veya dışa aktarın.
 author: JennySong-SH
-ms.date: 01/30/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c6373679299b68413d75236ca8cc18ceba03e091
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846227"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335000"
 ---
 # <a name="compare-item-prices-storage-report"></a>Madde fiyatları depolama raporunu karşılaştırma
 
@@ -35,12 +35,9 @@ Rapor sonuçları, sonuçları filtreleyerek CSV veya Microsoft Excel gibi bir b
 
 **Madde fiyatlarını karşılaştırma depolama** raporu, çıktının birçok satır içerdiği durumlarda yararlıdır. Örneğin, maliyetlendirme sürümünde bekleyen bir madde fiyatını tutan 40.000'den fazla maddeye sahipseniz çıkış birçok satır içerir.
 
-## <a name="enable-compare-item-prices-storage"></a>Madde fiyatları depolamasını etkinleştirme
+## <a name="turn-the-compare-item-prices-storage-feature-on-or-off"></a>Madde fiyatlarını karşılaştır özelliğini açma veya kapatma
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. Burada, özellik şu şekilde listelenmiştir:
-
-- **Modül**: Maliyet yönetimi
-- **Özellik adı**: Madde fiyatı depolamasını karşılaştır
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.29 itibarıyla, özellik zorunludur ve kapatılamaz. 10.0.29 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Madde fiyatı depolamasını karşılaştır* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="generate-a-compare-item-prices-storage-report"></a>Madde fiyatlarını karşılaştırma depolama raporu oluşturma
 

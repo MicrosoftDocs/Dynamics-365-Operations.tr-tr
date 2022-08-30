@@ -1,83 +1,65 @@
 ---
-ms.openlocfilehash: b17bd56f9f3e4def341658626915adbd7f5aada6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+title: Norveç için yazar kasalara ilişkin dağıtım kılavuzları (eski)
+description: Bu makale, Norveç için Microsoft Dynamics 365 Commerce yerelleştirmesinin nasıl etkinleştirileceğini gösteren bir dağıtım kılavuzudur.
+author: EvgenyPopovMBS
+ms.date: 08/23/2022
+ms.topic: article
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
+ms.search.region: Global
+ms.author: josaw
+ms.search.validFrom: 2018-2-28
+ms.openlocfilehash: fb597add48ac3508a88142e63d80f405b6b5f8b4
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281551"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9346058"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway-legacy"></a>Norveç için yazar kasalara ilişkin dağıtım kılavuzları (eski)
----
 
-title: Norveç için yazar kasalara ilişkin dağıtım kılavuzları (eski) [!include [banner](../includes/banner.md)]
-description: Bu makale, Norveç için Microsoft Dynamics 365 Commerce yerelleştirmesinin nasıl etkinleştirileceğini gösteren bir dağıtım kılavuzudur.
+[!include [banner](../includes/banner.md)]
 
-author: EvgenyPopovMBS Bu makale, Norveç için Microsoft Dynamics 365 Commerce yerelleştirmesinin nasıl etkinleştirileceğini gösteren bir dağıtım kılavuzudur. Yerelleştirme, çeşitli Commerce bileşeni uzantılarından oluşur. Uzantılar örneğin; makbuzlara özel alanlar yazdırmanıza, Satış Noktasına (POS) ek denetim olayları, satış hareketleri ve ödeme hareketleri kaydetmenize, satış hareketlerini dijital olarak imzalamanıza ve X ve Z raporlarını yerel biçimlerde yazdırmanıza olanak sağlar. Norveç yerelleştirmesi hakkında daha fazla bilgi için bkz. [Norveç için yazar kasa işlevi](./emea-nor-cash-registers.md).
-ms.date: 20.12.2021
+> [!WARNING]
+> Bu örnek mali tümleştirme işlevi [mali tümleştirme çerçevesinin](./fiscal-integration-for-retail-channel.md) avantajlarından yararlanmaz ve sonraki güncelleştirmelerde kullanım dışı bırakılacaktır. Bunun yerine [mali tümleştirme çerçevesini temel alan işlevi](./emea-nor-fi-deployment.md) kullanmanız gerekir.
 
-ms.topic: article Bu örnek, Retail yazılım geliştirme setinin (SDK) bir parçasıdır. SDK hakkında bilgi için bkz. [Retail yazılım geliştirme seti (SDK) mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md).
-hedef kitle: Uygulama Kullanıcısı, Geliştirici, BT Uzmanı
+Bu makale, Norveç için Microsoft Dynamics 365 Commerce yerelleştirmesinin nasıl etkinleştirileceğini gösteren bir dağıtım kılavuzudur. Yerelleştirme, çeşitli Commerce bileşeni uzantılarından oluşur. Uzantılar örneğin; makbuzlara özel alanlar yazdırmanıza, Satış Noktasına (POS) ek denetim olayları, satış hareketleri ve ödeme hareketleri kaydetmenize, satış hareketlerini dijital olarak imzalamanıza ve X ve Z raporlarını yerel biçimlerde yazdırmanıza olanak sağlar. Norveç yerelleştirmesi hakkında daha fazla bilgi için bkz. [Norveç için yazar kasa işlevi](./emea-nor-cash-registers.md).
 
-ms.reviewer: v-chgriffin Bu örnek; Commerce Runtime (CRT), Retail Server ve POS'a yönelik uzantılardan oluşur. Bu örneği çalıştırmak için CRT, Retail Server ve POS projelerini değiştirip derlemeniz gerekir. Bu makalede açıklanan değişiklikleri yapmak için değiştirilmemiş bir Retail SDK kullanmanızı öneririz. Henüz değiştirilmiş bir dosya olmadığı durumlarda, Microsoft Visual Studio Online (VSO) gibi bir kaynak denetimi sistemi kullanmanızı öneririz.
-ms.search.region: Global
+Bu örnek, Retail yazılım geliştirme setinin (SDK) bir parçasıdır. SDK hakkında bilgi için bkz. [Retail yazılım geliştirme seti (SDK) mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
-ms.author: josaw
+Bu örnek; Commerce Runtime ( CRT), Retail Server ve POS'a yönelik uzantılardan oluşur. Bu örneği çalıştırmak için CRT, Retail Server ve POS projelerini değiştirip derlemeniz gerekir. Bu makalede açıklanan değişiklikleri yapmak için değiştirilmemiş bir Retail SDK kullanmanızı öneririz. Henüz değiştirilmiş bir dosya olmadığı durumlarda, Microsoft Visual Studio Online (VSO) gibi bir kaynak denetimi sistemi kullanmanızı öneririz.
+
 > [!NOTE]
-ms.search.validFrom: 2018-02-28 Commerce 10.0.8 ve üzeri sürümlerde Retail Server, Commerce Scale Unit olarak bilinir. Bu makale uygulamanın önceki birden çok sürümü için geçerli olduğundan, makale genelinde *Retail Server* kullanılmıştır.
+> Commerce 10.0.8 ve üzeri sürümlerde Retail Server, Commerce Scale Unit olarak bilinir. Bu makale uygulamanın önceki birden çok sürümü için geçerli olduğundan, makale genelinde *Retail Server* kullanılmıştır.
 >
----
 > Bu makaledeki yordamlarda yer alan bazı adımlar, kullandığınız Commerce sürümüne bağlı olarak farklılık gösterir. Daha fazla bilgi için bkz. [Dynamics 365 Retail'deki yenilikler veya değişiklikler](../get-started/whats-new.md).
 
-
-6. Retail Server yapılandırma dosyasını güncelleştirin. **RetailSDK\\Packages\\RetailServer\\Code\\web.config** dosyasında, **extensionComposition** bölümüne aşağıdaki satırları ekleyin.
 ### <a name="using-certificate-profiles-in-commerce-channels"></a>Commerce kanallarında sertifika profillerini kullanma
 
-
-    ``` xml
 Commerce 10.0.15 ve sonraki sürümlerde, Key Vault veya Commerce Headquarters kullanılabilir olmadığında çevrimdışı duruma yük devretmeyi destekleyen, [Perakende mağazalarına yönelik kullanıcı tanımlı sertifika profillerini](./certificate-profiles-for-retail-stores.md) kullanabilirsiniz. Özellik, [Perakende kanalları için gizli dizileri yönetme](../dev-itpro/manage-secrets.md) özelliğini genişletir.
-    <add source="assembly" value="Contoso.RetailServer.SalesTransactionSignatureSample" />
 
-    ```
 CRT uzantısında bu işlevi uygulamak için aşağıdaki adımları izleyin.
 
-
-7. Dağıtılabilir paketler oluşturmak üzere tüm Retail SDK için **msbuild**'i çalıştırın.
 1. Yeni bir CRT uzantı projesi (C# sınıf kitaplığı proje türü) oluşturun. Retail yazılım geliştirme setindeki (SDK) örnek şablonları kullanın (RetailSDK\SampleExtensions\CommerceRuntime).
-8. Paketleri Microsoft Dynamics Lifecycle Services (LCS) aracılığıyla veya el ile uygulayın. Daha fazla bilgi için bkz. [Dağıtılabilir paketler oluşturma](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
-
 
 2. CertificateSignatureServiceRequest için özel işleyiciyi SequentialSignatureRegister projesine ekleyin.
-### <a name="enable-the-digital-signature-in-offline-mode-for-modern-pos"></a>Modern POS için çevrimdışı modda dijital imzayı etkinleştirme
-
 
 3. Bir gizli dizi çağrısını okumak için, profileId parametresiyle bir oluşturucu kullanarak `GetUserDefinedSecretCertificateServiceRequest` komutunu verin. Bu, Sertifika profillerindeki ayarlarla çalışma işlevini başlatır. Ayarlara bağlı olarak sertifika, Azure Key Vault'tan veya yerel makine depolama alanından alınır.
-Modern POS'un çevrimdışı modunda dijital imzayı etkinleştirmek için, yeni bir cihazda Modern POS'u etkinleştirdikten sonra aşağıdaki adımları izlemeniz gerekir.
-
 
     ```csharp
-1. Sign in to POS.
     GetUserDefinedSecretCertificateServiceRequest getUserDefinedSecretCertificateServiceRequest = new GetUserDefinedSecretCertificateServiceRequest(profileId: "ProfileId", secretName: null, thumbprint: null, expirationInterval: null);
-2. On the **Database connection status** page, make sure that the offline database is fully synchronized. When the value of the **Pending downloads** field is **0** (zero), the database is fully synchronized.
     GetUserDefinedSecretCertificateServiceResponse getUserDefinedSecretCertificateServiceResponse = request.RequestContext.Execute<GetUserDefinedSecretCertificateServiceResponse>(getUserDefinedSecretCertificateServiceRequest);
-3. Sign out of POS.
 
-4. Wait a while for the offline database to be fully synchronized.
     X509Certificate2 Certificate = getUserDefinedSecretCertificateServiceResponse.Certificate;
-5. Sign in to POS.
     ```
-6. **Veritabanı bağlantı durumu** sayfasında, çevrimdışı veritabanının tamamen eşitlendiğinden emin olun. **Çevrimdışı veritabanında bekleyen hareketler** alanının değeri **0** (zero) olduğunda veritabanı tamamen eşitlenmiş demektir.
 
-7. Modern POS'u yeniden başlatın.
 4. Sertifika alındığında veri imzalaması işlemiyle devam edin.
 
-
-
 5. CRT uzantı projesini derleyin.
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
-6. Çıktı sınıfı kitaplığını kopyalayın ve el ile test işlemi için ...\RetailServer\webroot\bin\Ext dizinine yapıştırın.
+6. Çıktı sınıfı kitaplığını kopyalayın ve el ile test işlemi için ...\RetailServer\webroot\bin\Ext dizinine yapıştırın.
 
-7. CommerceRuntime.Ext.config dosyasında, uzantı bileşimi bölümünü özel kitaplık bilgileriyle güncelleştirin.
+7. CommerceRuntime.Ext.config dosyasında, uzantı bileşimi bölümünü özel kitaplık bilgileriyle güncelleştirin.
 
 ## <a name="development-environment"></a>Geliştirme ortamı
 
@@ -1633,3 +1615,27 @@ Commerce bileşenleri içeren dağıtılabilir paketler oluşturmak ve bu paketl
     Dosya, **Contoso.Commerce.Runtime.SequentialSignatureRegister.dll.config** olarak adlandırılmıştır ve **Extensions.SequentialSignatureRegister\\bin\\Debug** klasöründe yer alır.
 
     ---
+
+6. Retail Server yapılandırma dosyasını güncelleştirin. **RetailSDK\\Packages\\RetailServer\\Code\\web.config** dosyasında, **extensionComposition** bölümüne aşağıdaki satırları ekleyin.
+
+    ``` xml
+    <add source="assembly" value="Contoso.RetailServer.SalesTransactionSignatureSample" />
+    ```
+
+7. Dağıtılabilir paketler oluşturmak üzere tüm Retail SDK için **msbuild**'i çalıştırın.
+8. Paketleri Microsoft Dynamics Lifecycle Services (LCS) aracılığıyla veya el ile uygulayın. Daha fazla bilgi için bkz. [Dağıtılabilir paketler oluşturma](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
+
+### <a name="enable-the-digital-signature-in-offline-mode-for-modern-pos"></a>Modern POS için çevrimdışı modda dijital imzayı etkinleştirme
+
+Modern POS'un çevrimdışı modunda dijital imzayı etkinleştirmek için, yeni bir cihazda Modern POS'u etkinleştirdikten sonra aşağıdaki adımları izlemeniz gerekir.
+
+1. POS'de oturum açın
+2. **Veritabanı bağlantı durumu** sayfasında, çevrimdışı veritabanının tamamen eşitlendiğinden emin olun. **Bekleyen indirmeler** alanının değeri **0** (zero) olduğunda veritabanı tamamen eşitlenmiş demektir.
+3. POS oturumunu kapatın.
+4. Çevrimdışı veritabanının tamamen eşitlenmesi için bir süre bekleyin.
+5. POS'de oturum açın
+6. **Veritabanı bağlantı durumu** sayfasında, çevrimdışı veritabanının tamamen eşitlendiğinden emin olun. **Çevrimdışı veritabanında bekleyen hareketler** alanının değeri **0** (zero) olduğunda veritabanı tamamen eşitlenmiş demektir.
+7. Modern POS'u yeniden başlatın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

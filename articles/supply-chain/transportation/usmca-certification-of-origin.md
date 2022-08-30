@@ -2,7 +2,7 @@
 title: USMCA kaynak sertifikası
 description: Bu özellik, ABD-Meksika-Kanada Anlaşması (USMCA) tarafından gerekli olan kaynak belgelerinin sertifikasını yazdırmanızı sağlar.
 author: Weijiesa
-ms.date: 10/23/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 2a87e1aa27085f1b4821d27cece782dffbcd2096
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: edf235351fc7cbffc6bf80c7e05c53159c1e8a7f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851376"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336560"
 ---
 # <a name="usmca-certification-of-origin"></a>USMCA kaynak sertifikası
 
@@ -33,12 +33,9 @@ Belgeye yalnızca tüzel kişiliğin birincil adresindeki ülke/bölge ABD oldu�
 
 Belge yazdırma seçimine bağlı olarak belge, sisteminizden gelen verilerle önceden doldurulabilir. Yazdırılan belgeyi Microsoft Word gibi bir düzenleme biçimine dışarı aktararak yazdırılan belgeye veri değiştirmek veya eklemek mümkündür. Dışarı aktarmadan sonra, bir beyan yapmadan önce gerekli değişiklikleri uygulayabilirsiniz.
 
-## <a name="turn-on-the-usmca-feature"></a>USMCA özelliğini etkinleştirme
+## <a name="turn-the-usmca-feature-on-or-off"></a>USMCA özelliğini açma veya kapatma
 
-USMCA özelliğini kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
-
-- **Modül:** *Taşıma yönetimi*
-- **Özellik adı:** *USMCA kaynak sertifikasyonu belgesi*
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.29 itibarıyla özellik varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *USMCA kaynak sertifikasyonu belgesi* özelliğini bularak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="document-content"></a>Belge içeriği
 

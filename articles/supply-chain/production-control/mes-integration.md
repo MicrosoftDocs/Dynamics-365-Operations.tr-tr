@@ -2,7 +2,7 @@
 title: Üçüncü taraf üretim yürütme sistemleriyle tümleştirme
 description: Bu makale, Microsoft Dynamics 365 Supply Chain Management'ın üçüncü taraf bir üretim yürütme sistemi (MES) ile nasıl tümleştirileceğini açıklamaktadır.
 author: johanhoffmann
-ms.date: 10/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 8629ef2581a114609d14999a3c1fc48b49c988e0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068046"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336230"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Üçüncü taraf üretim yürütme sistemleriyle tümleştirme
 
@@ -45,9 +45,7 @@ Aşağıdaki prosedürde açıklandığı şekilde, bu özelliği kullanabilmede
     1. **Lisans yapılandırması** sayfasında, **zaman ve katılım** onay kutusunu seçin.
     1. [Bakım modu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) bölümünde anlatıldığı şekilde bakım modunu kapatın
 1. **Sistem yönetimi \> Çalışma alanları \> Özellik yönetimi**'ne gidin.
-1. Listelenen özelliği aşağıdaki şekilde açın (ayrıca bkz. [Özellik yönetimi genel bakışı](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)):
-    - **Modül:** *Üretim denetimi*
-    - **Özellik adı:** *Üretim yürütme sistemi tümleştirmesi*
+1. *Üretim yürütme sistemi tümleştirmesi* özelliğini açmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanın. (Supply Chain Management sürüm 10.0.29 itibariyle, bu özellik varsayılan olarak açıktır.)
 
 ## <a name="processes-available-for-mes-integration"></a>MES entegrasyonu için kullanılabilen işler
 

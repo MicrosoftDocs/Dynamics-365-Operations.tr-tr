@@ -2,7 +2,7 @@
 title: Yerleşim yönergesi stoktan çekme yaşlandırma
 description: Bu makalede malzeme çekme sırasında ilk giren ilk çıkar (FIFO) ve son giren ilk çıkar (LIFO) konum yönergesi stratejilerinin nasıl kullanılacağı açıklanmaktadır.
 author: Mirzaab
-ms.date: 07/15/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: fc4348f8207f4f6c8a0b694bc3e57beb29449a15
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 4ed1308ea36b731b156b518182846b60a59528d5
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219487"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335630"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Yerleşim yönergesi stoktan çekme yaşlandırma
 
@@ -34,7 +34,7 @@ Stok ambara ilk alındığında veya oluşturulduğunda, sistem ilgili plakayı 
 
 Bu özelliği kullanılabilir hale getirmek için, [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri bu sırayla etkinleştirin:
 
-1. *Ambar yerleşimi durumu* (Sürüm 10.0.29 itibariyle bu özellik varsayılan olarak açıktır. Daha fazla bilgi için bkz. [Ambar yerleşimi durumu](warehouse-location-status.md)).
+1. *Ambar yerleşimi durumu* (Sürüm 10.0.29 itibariyle bu özellik zorunludur ve kapatılamaz. Daha fazla bilgi için bkz. [Ambar yerleşimi durumu](warehouse-location-status.md)).
 1. *Yerleşim yönergesi stoktan çekme yaşlandırma*
 
 ## <a name="feature-requirements"></a>Özellik gereksinimleri
