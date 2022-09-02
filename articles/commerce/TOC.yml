@@ -466,6 +466,8 @@
                           items:
                             - name: Harici hediye kartları için destek
                               href: dev-itpro/gift-card.md
+                            - name: Hediye kartları için şirketler arası veri paylaşımı
+                              href: dev-itpro/data-sharing-gift-cards.md
                     - name: RSAT
                       items:
                         - name: Cloud POS için kaydediciyi ve Regression Suite Automation Tool'u test etme
