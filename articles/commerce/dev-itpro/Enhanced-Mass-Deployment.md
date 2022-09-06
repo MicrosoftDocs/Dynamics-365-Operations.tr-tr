@@ -2,19 +2,19 @@
 title: Mühürlü Commerce self servis bileşenlerinin toplu dağıtımı
 description: Bu makale, dağıtımların sessizce yüklenmesi ve dağıtımlara hizmet sunulması için self servis bileşen yükleyicileri altyapısının nasıl kullanıldığını açıklamaktadır.
 author: jashanno
-ms.date: 05/11/2022
+ms.date: 08/31/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: a679d78db3ad5bd9cccbd4ab6a7026bd07890f55
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 66a711aff90221e594f4b2a0df3735eac93d0c9b
+ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898591"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "9387032"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Mühürlü Commerce self servis bileşenlerinin toplu dağıtımı
 
@@ -34,53 +34,53 @@ Aşağıdaki tablo, komut satırı yürütmesinde kullanılabilecek sınırlayı
 
 | Ayırıcı                 | Açıklama |
 |---------------------------|-------------|
-| --AadTokenIssuerPrefix | Microsoft Azure Active Directory (Azure AD) belirteci veren için önek. |
-| --AsyncClientAadClientId | Headquarters ile iletişim sırasında Async Client'ın kullanması gereken Azure AD istemci kimliği. |
-| --AsyncClientAppInsightsInstrumentationKey | Async Client AppInsights izleme anahtarı. |
-| --AsyncClientCertFullPath | Headquarters iletişimlerinde Azure AD ile kimlik doğrulaması yapmak üzere kullanılması gereken Async Client kimlik sertifikası konumunun arama ölçümü olarak parmak izini kullanan tam biçimlendirilmiş URN yolu. Örneğin, `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` doğru biçimlendirilmiş bir URN'dir. **\<MyThumbprint\>** değeri, kullanılacak sertifika parmak izi ile değiştirilir. **-AsyncClientCertThumbprint** parametresi ile birlikte bu parametreyi kullanmayın. |
-| --AsyncClientCertThumbprint | Headquarters iletişimlerinde Azure AD ile kimlik doğrulaması yapmak üzere kullanılması gereken Async Client kimlik sertifikasının parmak izi. Bu parmak izi, kullanılacak doğru sertifikayı bulmak için **LocalMachine/My store** konumunda ve adında arama yapmak amacıyla kullanılacaktır. **-AsyncClientCertFullPath** parametresi ile birlikte bu parametreyi kullanmayın. |
-| --ClientAppInsightsInstrumentationKey | İstemci AppInsights izleme anahtarı. |
-| --CloudPosAppInsightsInstrumentationKey | Cloud POS AppInsights izleme anahtarı. |
-| --Config | Yükleme sırasında kullanılması gereken yapılandırma dosyası. **Contoso.CommerceScaleUnit.xml**, bir dosya adı örneğidir. |
-| --CposAadClientId | Cloud POS'un cihaz etkinleştirme sırasında kullanması gereken Azure AD istemci kimliği. Bu parametre, şirket içi dağıtımlar için gerekli değildir. |
-| --Device | Headquarters'da **Cihazlar** sayfasında gösterilen cihaz kimliği. |
-| --EnvironmentId | Ortam kimliği. |
-| --HardwareStationAppInsightsInstrumentationKey | Hardware Station AppInsights izleme anahtarı. |
-| --Install | Bu yükleyicinin sağladığı bileşenin yüklenip yüklenmeyeceğini belirten bir parametre. Bu parametre zorunlu değildir. |
-| --InstallOffline | Modern POS için bu parametre, çevrimdışı veritabanının da yüklenip yapılandırılacağını belirtir. **-SQLServerName** parametresini de kullanın. Aksi durumda yükleyici, önkoşullara uyan varsayılan bir örneği bulmaya çalışır. |
-| --Port | Retail Server sanal dizini ile ilişkilendirilmesi ve tarafından kullanılması gereken bağlantı noktası. Bağlantı noktası ayarlanmamışsa 443 numaralı varsayılan bağlantı noktası kullanılır. |
-| --Register | Headquarters'da **Kayıtlar** sayfasında gösterilen kayıt kimliği. |
-| --RetailServerAadClientId | Headquarters ile iletişim sırasında Retail Server'ın kullanması gereken Azure AD istemci kimliği. |
-| --RetailServerAadResourceId | Cihaz etkinleştirme sırasında kullanılması gereken Retail Server Azure AD uygulaması kaynak kodu. Bu parametre, şirket içi dağıtımlar için gerekli değildir. |
-| --RetailServerCertFullPath | Headquarters ile iletişimlerde Azure AD ile kimlik doğrulaması için kullanılması gereken Retail Server kimlik sertifikasının arama ölçümü olarak parmak izini kullanan tam biçimlendirilmiş URN yolu. Örneğin, `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` doğru biçimlendirilmiş bir URN olup **\<MyThumbprint\>** değeri, kullanılması gereken sertifika parmak izi ile değiştirilir. **-RetailServerCertThumbprint** parametresi ile birlikte bu parametreyi kullanmayın. |
-| --RetailServerCertThumbprint | Headquarters ile iletişimler için Azure AD ile kimlik doğrulaması yapmak üzere kullanılması gereken Retail Server kimlik sertifikasının parmak izi. Bu parmak izi, kullanılacak doğru sertifikayı bulmak için **LocalMachine/My store** mağaza konumunda ve adında arama yapmak amacıyla kullanılacaktır. **-RetailServerCertFullPath** parametresi ile birlikte bu parametreyi kullanmayın. |
-| --RetailServerURL | Yükleyicinin kullanması gereken Retail Server URL'si. (Bu URL, Commerce Scale Unit \[CSU\] URL'si olarak da bilinir.) Modern POS için bu değer, cihaz etkinleştirme sırasında kullanılır. |
-| --SkipAadCredentialsCheck| Azure AD kimlik bilgileri önkoşul denetimlerinin atlanıp atlanmayacağını belirten anahtar. Varsayılan değer **yanlış** değeridir. |
-| --SkipCertCheck | Sertifika önkoşul denetimlerinin atlanıp atlanmayacağını belirten anahtar. Varsayılan değer **yanlış** değeridir. |
-| --SkipIisCheck | Internet Information Services (IIS) önkoşul denetimlerinin atlanıp atlanmayacağını belirten anahtar. Varsayılan değer **yanlış** değeridir. |
-| --SkipNetFrameworkCheck | .NET Framework önkoşul denetimlerinin atlanıp atlanmayacağını belirten anahtar. Varsayılan değer **yanlış** değeridir. |
-| --SkipScaleUnitHealthcheck | Yüklü bileşenlerdeki sistem durumu denetiminin atlanması gerekip gerekmediğini belirten bir anahtar. Varsayılan değer **yanlış** değeridir. |
-| --SkipSChannelCheck | Güvenli kanal önkoşul denetimlerinin atlanıp atlanmayacağını belirten anahtar. Varsayılan değer **yanlış** değeridir. |
-| --SkipSqlFullTextCheck | Tam metin araması gerektiren SQL Server önkoşul doğrulamasının atlanıp atlanmayacağını belirten bir anahtar. Varsayılan değer **yanlış** değeridir. |
-| --SkipSqlServerCheck | SQL Server önkoşul denetimlerinin atlanıp atlanmayacağını belirten anahtar. Varsayılan değer **yanlış** değeridir. |
-| --SqlServerName | SQL Server adı. Ad belirtilmezse yükleyici, varsayılan örneği bulmaya çalışır. |
-| --SslcertFullPath | Ölçek birimine HTTP trafiğini şifrelemek için kullanılması gereken sertifika konumunun arama ölçümü olarak izi kullanan tam biçimlendirilmiş URN yolu. Örneğin, `store:\/\/My\/LocalMachine\?FindByThumbprint\=\<MyThumbprint\>` doğru biçimlendirilmiş bir URN olup **\<MyThumbprint\>** değeri, kullanılması gereken sertifika parmak izi ile değiştirilir. **-SslCertThumbprint** parametresi ile birlikte bu parametreyi kullanmayın. |
-| --SslCertThumbprint | HTTP trafiğini ölçek birimine şifrelemek için kullanılması gereken sertifikanın parmak izi. Bu parmak izi, kullanılacak doğru sertifikayı bulmak için **LocalMachine/My store** konumunda ve adında arama yapmak amacıyla kullanılacaktır. **-SslCertFullPath** parametresi ile birlikte bu parametreyi kullanmayın. |
-| --StoreSystemAosUrl | Headquarters (AOS) URL'si. |
-| --StoreSystemChannelDatabaseId | Kanal veritabanı kodu (ad). |
-| --TenantId | Azure AD kiracı kodu. |
-| --TransactionServiceAzureAuthority | Transaction Service Azure AD yetkilisi. |
-| --TransactionServiceAzureResource | Transaction Service Azure AD kaynağı. |
-| --TrustSqlServerCertificate | SQL Server'a bağlantı kurulurken sunucu sertifikasının güvenilir olup olmayacağını belirten anahtar. Güvenlik risklerini önlemenize yardımcı olmak için, üretim dağıtımlarında hiçbir zaman **doğru** değeri sağlanmamalıdır. Varsayılan değer **yanlış** değeridir. |
-| --Verbosity | Yükleme sırasında istenen günlük düzeyi. Genellikle, bu değer kullanılmamalıdır. |
-| --WindowsPhoneAppInsightsInstrumentationKey | Hardware Station AppInsights izleme anahtarı. |
+| -AadTokenIssuerPrefix | Microsoft Azure Active Directory (Azure AD) belirteci veren için önek. |
+| -AsyncClientAadClientId | Headquarters ile iletişim sırasında Async Client'ın kullanması gereken Azure AD istemci kimliği. |
+| -AsyncClientAppInsightsInstrumentationKey | Async Client AppInsights izleme anahtarı. |
+| -AsyncClientCertFullPath | Headquarters iletişimlerinde Azure AD ile kimlik doğrulaması yapmak üzere kullanılması gereken Async Client kimlik sertifikası konumunun arama ölçümü olarak parmak izini kullanan tam biçimlendirilmiş URN yolu. Örneğin, `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` doğru biçimlendirilmiş bir URN'dir. **\<MyThumbprint\>** değeri, kullanılacak sertifika parmak izi ile değiştirilir. **-AsyncClientCertThumbprint** parametresi ile birlikte bu parametreyi kullanmayın. |
+| -AsyncClientCertThumbprint | Headquarters iletişimlerinde Azure AD ile kimlik doğrulaması yapmak üzere kullanılması gereken Async Client kimlik sertifikasının parmak izi. Bu parmak izi, kullanılacak doğru sertifikayı bulmak için **LocalMachine/My store** konumunda ve adında arama yapmak amacıyla kullanılacaktır. **-AsyncClientCertFullPath** parametresi ile birlikte bu parametreyi kullanmayın. |
+| -ClientAppInsightsInstrumentationKey | İstemci AppInsights izleme anahtarı. |
+| -CloudPosAppInsightsInstrumentationKey | Cloud POS AppInsights izleme anahtarı. |
+| -Config | Yükleme sırasında kullanılması gereken yapılandırma dosyası. **Contoso.CommerceScaleUnit.xml**, bir dosya adı örneğidir. |
+| -CposAadClientId | Cloud POS'un cihaz etkinleştirme sırasında kullanması gereken Azure AD istemci kimliği. Bu parametre, şirket içi dağıtımlar için gerekli değildir. |
+| -Device | Headquarters'da **Cihazlar** sayfasında gösterilen cihaz kimliği. |
+| -EnvironmentId | Ortam kimliği. |
+| -HardwareStationAppInsightsInstrumentationKey | Hardware Station AppInsights izleme anahtarı. |
+| Yükle | Bu yükleyicinin sağladığı bileşenin yüklenip yüklenmeyeceğini belirten bir parametre. Bu parametre, yükleme gerçekleştirmek için gereklidir ve başında tire karakteri yoktur. |
+| -InstallOffline | Modern POS için bu parametre, çevrimdışı veritabanının da yüklenip yapılandırılacağını belirtir. **-SQLServerName** parametresini de kullanın. Aksi durumda yükleyici, önkoşullara uyan varsayılan bir örneği bulmaya çalışır. |
+| -Port | Retail Server sanal dizini ile ilişkilendirilmesi ve tarafından kullanılması gereken bağlantı noktası. Bağlantı noktası ayarlanmamışsa 443 numaralı varsayılan bağlantı noktası kullanılır. |
+| -Register | Headquarters'da **Kayıtlar** sayfasında gösterilen kayıt kimliği. |
+| -RetailServerAadClientId | Headquarters ile iletişim sırasında Retail Server'ın kullanması gereken Azure AD istemci kimliği. |
+| -RetailServerAadResourceId | Cihaz etkinleştirme sırasında kullanılması gereken Retail Server Azure AD uygulaması kaynak kodu. Bu parametre, şirket içi dağıtımlar için gerekli değildir. |
+| -RetailServerCertFullPath | Headquarters ile iletişimlerde Azure AD ile kimlik doğrulaması için kullanılması gereken Retail Server kimlik sertifikasının arama ölçümü olarak parmak izini kullanan tam biçimlendirilmiş URN yolu. Örneğin, `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` doğru biçimlendirilmiş bir URN olup **\<MyThumbprint\>** değeri, kullanılması gereken sertifika parmak izi ile değiştirilir. **-RetailServerCertThumbprint** parametresi ile birlikte bu parametreyi kullanmayın. |
+| -RetailServerCertThumbprint | Headquarters ile iletişimler için Azure AD ile kimlik doğrulaması yapmak üzere kullanılması gereken Retail Server kimlik sertifikasının parmak izi. Bu parmak izi, kullanılacak doğru sertifikayı bulmak için **LocalMachine/My store** mağaza konumunda ve adında arama yapmak amacıyla kullanılacaktır. **-RetailServerCertFullPath** parametresi ile birlikte bu parametreyi kullanmayın. |
+| -RetailServerURL | Yükleyicinin kullanması gereken Retail Server URL'si. (Bu URL, Commerce Scale Unit \[CSU\] URL'si olarak da bilinir.) Modern POS için bu değer, cihaz etkinleştirme sırasında kullanılır. |
+| -SkipAadCredentialsCheck| Azure AD kimlik bilgileri önkoşul denetimlerinin atlanıp atlanmayacağını belirten anahtar. Varsayılan değer **yanlış** değeridir. |
+| -SkipCertCheck | Sertifika önkoşul denetimlerinin atlanıp atlanmayacağını belirten anahtar. Varsayılan değer **yanlış** değeridir. |
+| -SkipIisCheck | Internet Information Services (IIS) önkoşul denetimlerinin atlanıp atlanmayacağını belirten anahtar. Varsayılan değer **yanlış** değeridir. |
+| -SkipNetFrameworkCheck | .NET Framework önkoşul denetimlerinin atlanıp atlanmayacağını belirten anahtar. Varsayılan değer **yanlış** değeridir. |
+| -SkipScaleUnitHealthcheck | Yüklü bileşenlerdeki sistem durumu denetiminin atlanması gerekip gerekmediğini belirten bir anahtar. Varsayılan değer **yanlış** değeridir. |
+| -SkipSChannelCheck | Güvenli kanal önkoşul denetimlerinin atlanıp atlanmayacağını belirten anahtar. Varsayılan değer **yanlış** değeridir. |
+| -SkipSqlFullTextCheck | Tam metin araması gerektiren SQL Server önkoşul doğrulamasının atlanıp atlanmayacağını belirten bir anahtar. Varsayılan değer **yanlış** değeridir. |
+| -SkipSqlServerCheck | SQL Server önkoşul denetimlerinin atlanıp atlanmayacağını belirten anahtar. Varsayılan değer **yanlış** değeridir. |
+| -SqlServerName | SQL Server adı. Ad belirtilmezse yükleyici, varsayılan örneği bulmaya çalışır. |
+| -SslcertFullPath | Ölçek birimine HTTP trafiğini şifrelemek için kullanılması gereken sertifika konumunun arama ölçümü olarak izi kullanan tam biçimlendirilmiş URN yolu. Örneğin, `store:\/\/My\/LocalMachine\?FindByThumbprint\=\<MyThumbprint\>` doğru biçimlendirilmiş bir URN olup **\<MyThumbprint\>** değeri, kullanılması gereken sertifika parmak izi ile değiştirilir. **-SslCertThumbprint** parametresi ile birlikte bu parametreyi kullanmayın. |
+| -SslCertThumbprint | HTTP trafiğini ölçek birimine şifrelemek için kullanılması gereken sertifikanın parmak izi. Bu parmak izi, kullanılacak doğru sertifikayı bulmak için **LocalMachine/My store** konumunda ve adında arama yapmak amacıyla kullanılacaktır. **-SslCertFullPath** parametresi ile birlikte bu parametreyi kullanmayın. |
+| -StoreSystemAosUrl | Headquarters (AOS) URL'si. |
+| -StoreSystemChannelDatabaseId | Kanal veritabanı kodu (ad). |
+| -TenantId | Azure AD kiracı kodu. |
+| -TransactionServiceAzureAuthority | Transaction Service Azure AD yetkilisi. |
+| -TransactionServiceAzureResource | Transaction Service Azure AD kaynağı. |
+| -TrustSqlServerCertificate | SQL Server'a bağlantı kurulurken sunucu sertifikasının güvenilir olup olmayacağını belirten anahtar. Güvenlik risklerini önlemenize yardımcı olmak için, üretim dağıtımlarında hiçbir zaman **doğru** değeri sağlanmamalıdır. Varsayılan değer **yanlış** değeridir. |
+| -Verbosity | Yükleme sırasında istenen günlük düzeyi. Genellikle, bu değer kullanılmamalıdır. |
+| -WindowsPhoneAppInsightsInstrumentationKey | Hardware Station AppInsights izleme anahtarı. |
 
 ## <a name="general-overview"></a>Genel bakış
 
 Self servis yükleyicileri için yeni çerçeve çeşitli özelliklere ve gelişmelere sahiptir. Yeni çerçeve şu anda yalnızca Modern POS, hardware station ve CSU (şirket içinde barındırılan) için yükleyicileri oluşturur. Mühürlenmiş yükleyicilerin, aşağıdaki örnekte kullanılanlara benzer şekilde görünen temel komut satırı kullanımını anlamanız önemlidir. 
  
 ```Console
-<Component Installer Name>.exe install --<Parameter Name> "<Parameter Information>"
+<Component Installer Name>.exe install -<Parameter Name> "<Parameter Information>"
 ```
 
 Yükleyici **install** (veya yüklemeyi kaldırmak için **uninstall**) parametresini ve o yüklemeye özel parametreleri gerektirir. **Parameter Name**, kayıt, CSU URL'si veya sertifika bilgileri gibi gerekli parametreleri içermelidir. **Parameter Information**, parametrelerle ilgili ek bilgiler içermelidir.
@@ -110,6 +110,9 @@ Eski self-servis çerçeve bileşeni yükleyicilerinden yeni çerçeve bileşeni
 
 Eski, self-servis Modern POS bileşenini kaldırmanız kritik önem taşır. Daha fazla bilgi için bu makalenin önceki kısımlarında yer alan geçiş adımlarına bakın.
 
+> [!NOTE]
+> Geliştirici topolojisi veya demo ortam gibi tek bilgisayarlı sistemde veya aynı bilgisayara Commerce Scale Unit ve Modern POS yüklü olduğunda, Store Commerce cihaz etkinleştirme işllemini tamamlayamama olasılığı vardır. Bu sorun, Store Commerce aynı bilgisayara ağ araması yapamadığı için (yani, kendisine yapılan çağrılar) oluşur. Bu kesinlikle üretim ayarındaki bir senaryo olmamalıdır; iletişimin aynı bilgisayara gerçekleşmesi için bir AppContainer geri döngü özel durumu etkinleştirilerek sorun önlenebilir. Bu geri döngüyü etkinleştirmeye yardımcı olmak için çeşitli uygulamalar genel kullanıma sunulmuştur. Geri döngü hakkında daha fazla bilgi için bkz. [Geri döngüyü etkinleştirme ve ağ yalıtımı sorununu giderme](/previous-versions/windows/apps/hh780593(v=win.10)). Geri döngünün bir güvenlik riski olabileceğini anlamanız önemlidir; bu nedenle kesinlikle gerekli olmadıkça bir geri döngü kullanmanız önerilmez.
+
 ### <a name="examples-of-silent-deployment"></a>Sessiz dağıtım örnekleri
 
 Bu bölüm, Modern POS'u yüklemek için kullanılan komutların örneklerini gösterir.
@@ -121,7 +124,7 @@ Aşağıdaki komut, Modern POS'u sessizce yükler (veya güncelleştirir). Şu a
 Aşağıdaki temel komut, yükleme isteğinde bulunulduğunda kullanılabilir seçenekleri gösterir. Bu komutun, yükleyiciyi ilk kez sınarken veya kullanırken kullanılması önemle tavsiye edilir.
 
 ```Console
-CommerceModernPOS.exe --help install
+CommerceModernPOS.exe -help install
 ```
 
 > [!NOTE]
@@ -130,13 +133,13 @@ CommerceModernPOS.exe --help install
 Aşağıdaki komut, Modern POS uygulaması yüklendikten sonra cihaz etkinleştirme sırasında kullanılması gereken tüm parametreleri belirtir. Bu örnekte, Dynamics 365 Commerce demo verilerinde yaygın olarak kullanılan bir değer olan **Houston-3** kaydı kullanılır.
 
 ```Console
-CommerceModernPOS.exe install --Register "Houston-3" --Device "Houston-3" --RetailServerURL "https://MyDynamics365CommerceURL.dynamics.com/Commerce"
+CommerceModernPOS.exe install -Register "Houston-3" -Device "Houston-3" -RetailServerURL "https://MyDynamics365CommerceURL.dynamics.com/Commerce"
 ```
 
 Aşağıdaki komut, çevrimdışı veritabanını yüklemek ve yapılandırmak için kullanılması gereken parametreleri belirtir. SQL Server, kullanılması gereken yapılandırma dosyası ile birlikte belirtilir.
 
 ```Console
-CommerceModernPOS.exe install --InstallOffline --SQLServerName "SQLExpress" --Config "ModernPOS.Houston-3.xml"
+CommerceModernPOS.exe install -InstallOffline -SQLServerName "SQLExpress" -Config "ModernPOS.Houston-3.xml"
 ```
 
 İstediğiniz yükleme sonuçlarını elde etmek için bu kavramları birlikte kullanabilir ve eşleştirebilirsiniz.
@@ -148,7 +151,7 @@ CommerceModernPOS.exe install --InstallOffline --SQLServerName "SQLExpress" --Co
 Eski, self-servis hardware station bileşenini kaldırmanız kritik önem taşır. Daha fazla bilgi için bu makalenin önceki kısımlarında yer alan geçiş adımlarına bakın. Artık bir Satıcı Hesap Bilgileri Aracı yok. Bunun yerine, satıcı hesap bilgileri, bir POS terminali hardware station ile eşlendiğinde yüklenir. Bu yükleyiciyi ilk kez sınarken aşağıdaki komutu çalıştırmanız önemle tavsiye edilir:
 
 ```Console
-CommerceHardwareStation.exe --help install
+CommerceHardwareStation.exe -help install
 ```
 
 ### <a name="examples-of-silent-deployment"></a>Sessiz dağıtım örnekleri
@@ -162,7 +165,7 @@ Aşağıdaki komut, hardware station'ı sessizce yükler (veya güncelleştirir)
 Aşağıdaki temel komut, yürütülebilir dosya yükleyicisini çalıştırır.
 
 ```Console
-HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics365CommerceURL.dynamics.com/" --StoreSystemChannelDatabaseID "Houston" --SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers"
+HardwareStation.exe install -Port 443 -StoreSystemAOSURL "https://MyDynamics365CommerceURL.dynamics.com/" -StoreSystemChannelDatabaseID "Houston" -SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers"
 ```
 
 > [!NOTE]
@@ -174,7 +177,7 @@ Aşağıdaki komut, standart yükleme sırasında önkoşul denetimlerini atlama
 > Denetimleri atlamak, önceden tam test etmeden veya geliştirme durumlarında önerilmez.
 
 ```Console
-HardwareStation.exe install --SkipFirewallUpdate --SkipOPOSCheck --SkipVersionCheck --SkipURLCheck --Config "HardwareStation.Houston.xml"
+HardwareStation.exe install -SkipFirewallUpdate -SkipOPOSCheck -SkipVersionCheck -SkipURLCheck -Config "HardwareStation.Houston.xml"
 ```
 
 Her zaman olduğu gibi, istediğiniz yükleme sonuçlarını elde etmek için bu kavramları birlikte kullanmak ve eşleştirmek yaygın bir durumdur.
@@ -184,7 +187,7 @@ Her zaman olduğu gibi, istediğiniz yükleme sonuçlarını elde etmek için bu
 Bu yükleyiciyi ilk kez sınarken aşağıdaki komutu çalıştırmanız önemle tavsiye edilir:
 
 ```Console
-CommerceStoreScaleUnitSetup.exe --help install
+CommerceStoreScaleUnitSetup.exe -help install
 ```
 
 ### <a name="before-you-begin"></a>Başlamadan önce
@@ -202,7 +205,7 @@ Aşağıdaki komut, CSU'yu (şirket içinde barındırılan) sessizce yükler (v
 Diğer self servis yükleyicilerle karşılaştırıldığında, Commerce Scale Unit (CSU) daha karmaşıktır ve daha fazla miktarda ek bilgi gerektirir. Aşağıdaki komut, herhangi bir yapılandırma dosyası bulunmadığı sırada yürütülebilir dosya yükleyicisini çalıştırmak için gerekli olan minimum komuttur (parametrelerle).
 
 ```Console
-CommerceScaleUnit.exe install --port 446 --SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate --Config "Contoso.StoreSystemSetup.xml"
+CommerceScaleUnit.exe install -port 446 -SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers" -RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" -AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" -RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" -CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" -RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" -TrustSqlServerCertificate -Config "Contoso.StoreSystemSetup.xml"
 ```
 
 > [!NOTE]
@@ -211,7 +214,7 @@ CommerceScaleUnit.exe install --port 446 --SSLCertThumbprint "MySSLCertificateTh
 Aşağıdaki komut, yürütülebilir dosya yükleyicisini bazı alternatif parametrelerle çalıştıran daha kapsamlı bir komuttur.
 
 ```Console
-CommerceScaleUnit.exe install --Port 446 --SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate --Verbosity 0 --Config "Contoso.StoreSystemSetup.xml"
+CommerceScaleUnit.exe install -Port 446 -SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" -AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" -RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" -CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" -RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" -TrustSqlServerCertificate -Verbosity 0 -Config "Contoso.StoreSystemSetup.xml"
 ```
 
 Aşağıdaki komut, standart yükleme sırasında önkoşul denetimlerini atlamak için gerekli parametreleri belirtir. 
@@ -221,7 +224,7 @@ Aşağıdaki komut, standart yükleme sırasında önkoşul denetimlerini atlama
 
 
 ```Console
-CommerceScaleUnit.exe installer --skipscaleunithealthcheck --skipcertcheck --skipaadcredentialscheck --skipschannelcheck --skipiischeck --skipnetcorebundlecheck --skipsqlservercheck --skipnetframeworkcheck --skipversioncheck --skipurlcheck --Config "Contoso.StoreSystemSetup.xml" --SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate
+CommerceScaleUnit.exe installer -skipscaleunithealthcheck -skipcertcheck -skipaadcredentialscheck -skipschannelcheck -skipiischeck -skipnetcorebundlecheck -skipsqlservercheck -skipnetframeworkcheck -skipversioncheck -skipurlcheck -Config "Contoso.StoreSystemSetup.xml" -SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" -AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" -RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" -CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" -RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" -TrustSqlServerCertificate
 ```
 
 İstediğiniz yükleme sonuçlarını elde etmek için bu kavramları birlikte kullanabilir ve eşleştirebilirsiniz.

@@ -2,7 +2,7 @@
 title: Veri içe ve dışa aktarma işlerine genel bakış
 description: Veri yönetimi çalışma alanını veri içe aktarma ve dışa aktarma işlerini oluşturmak ve yönetmek için kullanın.
 author: peakerbl
-ms.date: 04/25/2022
+ms.date: 08/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18a15928eef4d7158f778729506d691dd587e013
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109477"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357617"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Veri içe ve dışa aktarma işlerine genel bakış
 
@@ -76,6 +76,19 @@ Bir varlık seçtiğinizde, içe veya dışa aktarılacak verinin biçimini seç
 
 > [!NOTE]
 > XML tabanlı dosya formatları için yalnızca geçerli karakterleri kullandığınızdan emin olun. Geçerli karakterler hakkında daha fazla ayrıntı için bkz. [XML 1.0'daki geçerli Karakterler](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0, sekmeler, satır başları ve satır beslemeleri dışında herhangi bir denetim karakterine izin vermez. Geçersiz karaktere örnek olarak köşeli parantezler, süslü ayraçlar ve ters eğik çizgi verilebilir. 
+
+Verileri içeri veya dışarı aktarmak için belirli bir kod sayfası yerine Unicode kullanın. Bu, en tutarlı sonuçları sağlamaya ve veri yönetimi işlerinin Unicode karakterleri içerdiği için başarısız olmasını önlemeye yardımcı olur. Unicode kullanan sistem tanımlı kaynak veri biçimlerinde kaynak adında **Unicode** bulunur. Unicode biçimi, **Bölgesel ayarlar** sekmesinde **Kod sayfası** olarak Unicode kodlama ANSI kod sayfası seçilerek uygulanır. Unicode için aşağıdaki kod sayfalarından birini seçin:
+
+| Kod sayfası | Görünen ad                |
+|-----------|-----------------------------|
+| 1200      | Unicode                     |
+| 12000     | Unicode (UTF-32)            |
+| 12001     | Unicode (UTF-32 Big-Endian) |
+| 1201      | Unicode (Big-Endian)        |
+| 65000     | Unicode (UTF-7)             |
+| 65001     | Unicode (UTF-8)             |
+
+Kod sayfaları hakkında daha fazla ayrıntı için bkz. [Kod Sayfası Tanımlayıcıları](/windows/win32/intl/code-page-identifiers/).
 
 ### <a name="sequence-the-entities"></a>Varlıkları sıralayın
 Varlıklar bir veri şablonunda veya içe veya dışa aktarma işlerinde sıralanabilir. Birden fazla veri varlığı içeren bir iş çalıştırdığınızda, veri varlıklarının doğru sıralandığından emin olmanız gerekir. Öncelikli olarka, varlıklar arasında işlevsel bağımlılıkları adreslendirebilmek için varlıkları sıralarsınız. Varlıklar işlevsel bağımlılıklara sahip değilse, paralel içe veya dışa aktarma için zamanlanabilirler. 

@@ -11,12 +11,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: 6b42252a37f01a2b387c2393760998a6b2e4761d
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 25ca054df6422370b1e61dff7965189ad90d7fcc
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9271530"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357671"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Commerce Scale Unit'i (bulut) başlatma
 
@@ -69,8 +69,8 @@ Commerce Scale Unit aşağıdaki bölgelerde dağıtım için kullanılabilir.
 | APAC            | Doğu Asya           | Sınırlı kapasite    |   Yorum yok.                           |
 | APAC            | Güney Hindistan         | Sınırlı kapasite | Dağıtıma izin verilmiyor.    |
 | APAC            | Hindistan Orta       | Sınırlı kapasite    | Onay süreci gerekiyor. |
-| EMEA            | Batı Avrupa         | Sınırlı kapasite    | Şu anda LCS'de kullanılamıyor. |
-| EMEA            | Kuzey Avrupa        | Sınırlı kapasite    | Şu anda LCS'de kullanılamıyor. |
+| EMEA            | Batı Avrupa         | Genel kullanılabilir    |  Yorum yok. |
+| EMEA            | Kuzey Avrupa        | Genel kullanılabilir    |  Yorum yok. |
 | EMEA            | Birleşik Krallık Güney            | Genel kullanılabilir |    Yorum yok.                          |
 | EMEA            | Batı Birleşik Krallık             | Genel kullanılabilir |    Yorum yok.                          |
 | İsviçre     | Kuzey İsviçre   | Sınırlı kapasite    | Onay süreci gerekiyor. |

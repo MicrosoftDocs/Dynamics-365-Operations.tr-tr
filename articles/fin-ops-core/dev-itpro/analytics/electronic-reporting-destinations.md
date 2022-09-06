@@ -2,7 +2,7 @@
 title: Elektronik raporlama (ER) hedefleri
 description: Bu makalede, Elektronik raporlama hedeflerinin yönetimi, desteklenen hedef türleri ve güvenlik konuları hakkında bilgi verilmektedir.
 author: kfend
-ms.date: 05/18/2022
+ms.date: 08/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.form: DocuType, ERSolutionTable
-ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: b1bf6289e80769dfe8858f307cbb9b217b42dbb4
+ms.sourcegitcommit: f2edc193003564c5bee1747f9c2b800feee342bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281982"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9360992"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektronik raporlama (ER) hedefleri
 
@@ -247,6 +247,52 @@ ER biçiminizin **Klasör** bileşeni için bir hedef yapılandırdığınızda,
 ### <a name="limitations"></a>Sınırlamalar
 
 **Klasörü farklı gönder** alanını, iç içe geçmiş diğer **Klasör** bileşenlerini içeren bir **Klasör** bileşeninin **dosyalarını ayır** olarak ayarlarsanız, ayar iç içe geçmiş **Klasör** bileşenlerine özyinelemeli olarak uygulanmaz.
+
+## <a name="change-page-layout-properties-of-a-template"></a><a name="change-page-layout-properties-of-a-template"></a> Şablonun sayfa düzeni özelliklerini değiştirme
+
+Rapor oluşturma işlemi için Microsoft Office (Excel veya Word) biçimindeki bir şablonu kullanmak üzere tasarlanmış bir ER biçimi bileşeni için bir ER hedefi yapılandırabilirsiniz. Bu biçimin sahibi değilseniz ve biçimin şablonunun sayfa düzeni özelliklerini değiştirmeniz gerekiyorsa, 10.0.29 öncesi Finance sürümlerinde, türetilmiş bir biçim oluşturmanız ve şablon özelliklerini değiştirmeniz gerekir. Daha sonra, türetilmiş biçim yapılandırmasını korumanız gerekir. Ancak, 10.0.29 ve sonraki sürümlerde, türetilmiş biçim yapılandırması oluşturmayı ve bu yapılandırmayı korumayı önlemek için çalışma zamanında şablonun sayfa düzeni özelliklerini değiştirebilirsiniz. Bunu yapmak için, istenen özellikleri yapılandırılan ER hedefi ayarlarının bir parçası olarak ayarlayın. ER biçimi çalıştırıp belirli sayfa düzeni özelliklerini kullanacak şekilde yapılandırılmış bir ER hedefi çalıştırdığınızda, yürütülen hedefin sayfa düzeni özelliklerinin değerleri, kullandığınız şablona uygulanır ve orijinal şablonun özelliklerini değiştirir. Kullanılmakta olan şablon için farklı sayfa düzeni özellikleri yapılandırarak aynı biçim bileşeni için farklı hedefler yapılandırabilirsiniz.
+
+Excel veya Word biçimindeki bir şablonu kullanmak üzere tasarlanmış bir biçimi bileşeni için bir ER hedefinde aşağıdaki özellikleri yapılandırabilirsiniz:
+
+- Sayfa yönü
+    - Dikey
+    - Yatay
+- Kağıt boyutu
+    - A3
+    - A4
+    - A5
+    - B4
+    - B5
+    - Executive
+    - Yasal
+    - Letter
+    - Statement
+    - Tabloid
+- Sayfa kenar boşlukları
+    - Üst
+        - Üst bilgi
+    - Alt
+        - Altbilgi
+    - Sol
+    - Sağ
+
+> [!NOTE]
+> PDF dönüştürme yapılandırılmışsa bu şekilde yapılandırılan şablonun sayfa yönü [PDF dönüştürme sayfa yönü](#select-a-page-orientation-for-pdf-conversion) ile uyumlu olmalıdır.
+
+Sayfa kenar boşluklarını ayarlamak için uzunluk birimini seçmeniz gerekir:
+
+- İnç
+- Santimetre
+- Milimetre
+
+![Elektronik raporlama hedef sayfasında sayfa düzeni özelliklerini ayarlayın.](./media/er_destinations-set-page-layout-properties.png)
+
+> [!TIP]
+> Bir kenar boşluğu değeri santimetre cinsinden ve birden çok ondalıkla belirtildiğinde, çalışma zamanında 1 ondalık noktayla en yakın değere yuvarlanır.
+>
+> Bir kenar boşluğu değeri milimetre cinsinden ve ondalık basamaklarla belirtildiğinde, çalışma zamanında Excel için ondalık basamağı olmayan en yakın tamsayı değerine yuvarlanır.
+>
+> Bir kenar boşluğu değeri milimetre cinsinden ve birden çok ondalık basamakla belirtildiğinde, çalışma zamanında Word için bir ondalık basamğı en yakın değere yuvarlanır.
 
 ## <a name="security-considerations"></a>Güvenlik ile ilgili hususlar
 

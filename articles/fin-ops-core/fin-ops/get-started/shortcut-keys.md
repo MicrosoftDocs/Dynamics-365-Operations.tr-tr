@@ -2,7 +2,7 @@
 title: Klavye kısayolları
 description: Bu makalede, finans ve operasyon uygulamalarıyla çalışırken kullanabileceğiniz kısayol tuş bileşimlerine dair genel bir bakış sağlanmaktadır.
 author: jasongre
-ms.date: 07/12/2022
+ms.date: 08/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
-ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
+ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "9140454"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357605"
 ---
 # <a name="keyboard-shortcuts"></a>Klavye kısayolları
 
@@ -135,10 +135,10 @@ Kullanıcılar kullanılabilir kısayolları doğrudan kullanıcı arabiriminden
 | Yatay kaydırma                                                                                                   | Shift + Fare tekerleği             |
 | Sonraki/önceki sütuna gitme                                                                                       | Tab / Shift+Tab                 |
 | Sonraki/önceki satıra gitme                                                                                          | Aşağı ok / Yukarı ok           |
-| Seçim yapmadan sonraki/önceki satıra taşı<blockquote>[!NOTE] Bu kısayol yalnızca çoklu seçim senaryoları için geçerlidir.</blockquote> | Ctrl+Yukarı ok / Ctrl+Aşağı ok |
-| Geçerli satırı seç/temizle<blockquote>[!NOTE] Bu kısayol yalnızca çoklu seçim senaryoları için geçerlidir.</blockquote>                    | Ctrl+Boşluk / Ctrl+Tıklama         |
-| Önceki/sonraki satırı seçili kümeye ekle<blockquote>[!NOTE] Bu kısayol yalnızca çoklu seçim senaryoları için geçerlidir.</blockquote>   | Shift+Boşluk                     |
-| Bir satır aralığını seçilen kümeye ekle<blockquote>[!NOTE] Bu kısayol yalnızca çoklu seçim senaryoları için geçerlidir.</blockquote>         | Shift+Tıklama                     |
+| Seçim yapmadan sonraki/önceki satıra taşı<br><br>**Not:** Bu kısayol yalnızca çoklu seçim senaryoları için geçerlidir. | Ctrl+Yukarı ok / Ctrl+Aşağı ok |
+| Geçerli satırı seç/temizle<br><br>**Not:** Bu kısayol yalnızca çoklu seçim senaryoları için geçerlidir.                   | Ctrl+Boşluk / Ctrl+Tıklama         |
+| Önceki/sonraki satırı seçili kümeye ekle<br><br>**Not:** Bu kısayol yalnızca çoklu seçim senaryoları için geçerlidir.  | Shift+Boşluk                     |
+| Bir satır aralığını seçilen kümeye ekle<br><br>**Not:** Bu kısayol yalnızca çoklu seçim senaryoları için geçerlidir.         | Shift+Tıklama                     |
 | Sonraki/önceki veri sayfasına gitme                                                                                   | Sayfa yukarı / Sayfa aşağı             |
 | Kılavuzun altında yeni bir satır oluştur                                                                             | Aşağı ok (son satırdan)  |
 | İlk kayda taşı                                                                                               | Ctrl+Home                       |
@@ -148,7 +148,7 @@ Kullanıcılar kullanılabilir kısayolları doğrudan kullanıcı arabiriminden
 | Sonraki işaretli satıra taşı                                                                                            | Alt+Shift+M, L                  |
 | Önceki işaretli satıra taşı                                                                                        | Alt+Shift+M, P                  |
 | Son işaretli satıra taşındı                                                                                           | Alt+Shift+M, N                  |
-| Bir kılavuzda varsayılan eylemi yürüt<blockquote>[!NOTE] Bu kısayol odak köprü içeren bir hücre ve o sütundaki tüm hücreleri köprüler etkinleştirilir.</blockquote> | Gir                           |
+| Bir kılavuzda varsayılan eylemi yürüt<br><br>**Not:** Bu kısayol, odak bir köprü içeren bir hücre olduğunda ve o sütundaki tüm hücrelerde köprüler olduğunda etkinleştirilir. | Gir                           |
 | Seçilen satır ile başlık satırı arasında odağı değiştirme                                                               | Alt+Shift+H                     |
 | Geçerli sütunu daha büyük/daha küçük yapma (odakta başlık satırı varken)                                                  | Sağ ok / Sol ok        |
 | Geçerli sütunu sonraki/önceki konuma taşıyın (üst bilgi satırına odaklanarak)                                   | Ctrl+Shift+Sağ ok / Ctrl+Shift+Sol ok |
