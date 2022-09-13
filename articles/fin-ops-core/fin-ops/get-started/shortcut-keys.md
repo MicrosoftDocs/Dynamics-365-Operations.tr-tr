@@ -2,7 +2,7 @@
 title: Klavye kısayolları
 description: Bu makalede, finans ve operasyon uygulamalarıyla çalışırken kullanabileceğiniz kısayol tuş bileşimlerine dair genel bir bakış sağlanmaktadır.
 author: jasongre
-ms.date: 08/26/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357605"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405451"
 ---
 # <a name="keyboard-shortcuts"></a>Klavye kısayolları
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -87,6 +88,8 @@ Kullanıcılar kullanılabilir kısayolları doğrudan kullanıcı arabiriminden
 | Filtre bölmesini açma (veya Filtre bölmesi zaten açıksa odağı Filtre bölmesi ile ana form arasında değiştirme) | Alt+M,F veya Ctrl+F3       |
 | Filtre bölmesini kapatma (odak Filtre bölmesindeyken)                                                               | Esc                      |
 | Gelişmiş filtrelemeyi/sıralamayı açma                                                                                        | Ctrl+Shift+F3            |
+| Hızlı Filtre uygulama (odak Hızlı Filtrede olduğunda)                                                              | Enter                    |
+| Kılavuz filtresini uygulama (odak sütun başlığının filtre alanında olduğunda)                                             | Enter                    |
 
 ## <a name="form-shortcuts"></a>Form kısayolları
 
@@ -157,12 +160,13 @@ Kullanıcılar kullanılabilir kısayolları doğrudan kullanıcı arabiriminden
 
 ## <a name="input-control-shortcuts"></a>Giriş denetimi kısayolları
 
-| Bunu yapmak için                                                                   | Şuna basın:                         |
+| Bunun için                                                                   | Bas                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Köprüyü aç                                                           | Ctrl+Enter                    |
+| Köprüyü açma (odak salt okunur bir denetimdeyse)<br><br>**Not:** Bu kısayol yalnızca **Açılan kutu ve arama kontrolleri için klavye etkileşimlerini standartlaştırın** özelliği etkinleştirildiğinde geçerlidir                   | Enter    |
 | Tarih alanına oturum tarihini girme                                       | B                             |
 | Tarih alanına geçerli tarihi girme                                       | A                             |
-| Arama, açılan kutu, tarih seçici, açılır iletişim kutusu açma                         | Alt+Aşağı ok                |
+| Arama, açılan kutu, tarih seçici, açılır iletişim kutusu açma                         | Alt+Aşağı ok<br><br>Enter (**Açılan kutu ve arama kontrolleri için klavye etkileşimlerini standartlaştırın** özelliği etkinleştirildiğinde)                |
 | Aramayı, açılan kutuyu, tarih seçiciyi, açılır iletişim kutusunu kapatma                        | Esc                           |
 | Odağı bir aramaya taşıma (arama zaten açıkken)                   | Alt+Aşağı ok                |
 | Denetimin gelişmiş önizlemesini açma                                          | Alt+Yukarı ok                  |

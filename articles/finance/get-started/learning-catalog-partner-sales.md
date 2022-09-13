@@ -1,23 +1,23 @@
 ---
 title: Dynamics 365 Finance için satış ve pazarlama rollerine yönelik öğrenme kataloğu
 description: Dynamics 365 Finance ile çalışan satış ve pazarlama rollerindeki kişilere yönelik tüm eğitim seçeneklerini bulun.
-author: margoc
+author: cstorega
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: cstorega
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a53522acb89fc2b766e5b245a5b095a038d1b282
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 2adacf9a3408b0cc4ee62204e50fceedf740b8fa
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067163"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9424574"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-finance"></a>Dynamics 365 Finance için satış ve pazarlama rollerine yönelik öğrenme kataloğu
 
@@ -27,9 +27,8 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 
 ## <a name="get-started"></a>Başlayın<a name="get-started"></a>
 
-| İçerik  | Tanım  | Biçim  | Uzunluk    |
+| İçerik  | Açıklama  | Biçim  | Uzunluk    |
 |-------------|-----------------|-------------|------------|
-| [Microsoft Dynamics 365 ve Power Platform'un iş değerini öğrenin](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | İş uygulamaları hakkında bilgi edinmeye ilgi mi duyuyorsunuz? Belki Microsoft Dynamics 365 ve Power Platform uygulamalarını kullanmaya nereden başlayacağınızı bilmiyorsunuz? İş uygulamalarının gücününün işinizi dönüştürmeye nasıl yardımcı olabileceğini öğrenin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 7 saat |
 | [Dynamics 365 ve Power Platform Temel Bilgileri](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | İş uygulamaları hakkında bilgi edinmeye ilgi mi duyuyorsunuz? Dynamics 365 uygulamalarının nasıl kullanıldığını görmek için bu öğrenme yoluyla işe başlayın. Bulut kavramları, Power Platform ve Dynamics 365 uygulamalarını kullanmaya başlamak hakkında bilgi edinin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 5.5 saat |
 | [Finans ve operasyon uygulamalarını kullanmaya başlama](/learn/paths/get-started-finance-operations/) | Finans ve operasyon uygulamalarının, çalışanları hızlı ve bilinçli kararlar vermeye teşvik etmek için işletmeleri; küresel finans sistemlerini, operasyonel iş süreçlerini ve kolaylaştırılmış tedarik zincirlerini yönetme konusunda nasıl desteklediğini öğrenin. Finans ve operasyon uygulamaları ile çalışma kariyerinizin ilk adımı olarak, istediğiniz rolden bağımsız olarak uygulamaların özellik ve işlevleri hakkında bilgi edinmeniz gerekir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 2 saat |
 | [Dynamics 365 Finance'i kullanmaya başlama](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance, işletme kullanıcılarının hızla değişen iş ortamlarına uyum sağlamasını destekler. İşletmelere mali planlama ve tahminlere yönelik doğru bilgilerle finansmanları denetleyip fonları yönetmelerini ve analiz araçlarıyla güncel kalmaları için ihtiyaç duydukları her şeyi sağlar. Finans her işletmenin temelinde yer aldığından Dynamics 365 Finance'in özellikleriyle tanışmanız önemlidir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme modülü | 1 saat |

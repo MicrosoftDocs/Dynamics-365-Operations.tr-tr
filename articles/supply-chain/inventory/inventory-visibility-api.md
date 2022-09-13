@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 23f4c52b6d1d8c1af927a2c21455d6e24b24408a
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: 14812fc201ba1038a78ea3317686dbe189ffa687
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357654"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423609"
 ---
 # <a name="inventory-visibility-public-apis"></a>Inventory Visibility genel API'leri
 
@@ -41,6 +41,8 @@ Aşağıdaki tabloda, şu anda kullanılabilen API'ler listelenmektedir:
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Naklet | [Eldeki miktarları ayarlama/geçersiz kılma](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Naklet | [Bir rezervasyon olayı oluşturma](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Naklet | [Birden fazla rezervasyon olayı oluşturma](#create-multiple-reservation-events) |
+| /api/environment/{environmentId}/onhand/unreserve | Deftere naklet | [Bir rezervasyon olayını tersine çevirme](#reverse-one-reservation-event) |
+| /api/environment/{environmentId}/onhand/unreserve/bulk | Deftere naklet | [Birden fazla rezervasyon olayını tersine çevirme](#reverse-multiple-reservation-events) |
 | /api/environment/{environmentId}/onhand/changeschedule | Deftere naklet | [Bir zamanlanan eldeki değişiklik oluşturma](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/changeschedule/bulk | Deftere naklet | [Birden fazla zamanlanan eldeki değişiklik oluşturma](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Deftere naklet | [Post yöntemini kullanarak sorgulama](#query-with-post-method) |
@@ -56,7 +58,7 @@ Aşağıdaki tabloda, şu anda kullanılabilen API'ler listelenmektedir:
 > 
 > Toplu API, her istek için en fazla 512 kayıt döndürebilir.
 
-Microsoft, hazır bir *Postman* istek koleksiyonu sağlamıştır. Şu paylaşılan bağlantıyı kullanarak bu koleksiyonu *Postman* yazılımınıza içeri aktarabilirsiniz: <https://www.getpostman.com/collections/ad8a1322f953f88d9a55>.
+Microsoft, hazır bir *Postman* istek koleksiyonu sağlamıştır. Şu paylaşılan bağlantıyı kullanarak bu koleksiyonu *Postman* yazılımınıza içeri aktarabilirsiniz: <https://www.getpostman.com/collections/95a57891aff1c5f2a7c2>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Lifecycle Services ortamınıza göre uç noktayı bulma
 
@@ -83,7 +85,7 @@ Bölge kısa adı, Microsoft Dynamics Lifecycle Services (LCS) ortamında buluna
 | Güney Brezilya        | sbr               |
 | Güney Orta ABD    | scus              |
 
-Ada numarası, LCS ortamınızın Service Fabric'te dağıtıldığı yerdir. Şu anda bu bilgileri kullanıcı tarafında almanın yolu yoktur.
+Ada numarası, LCS ortamınızın Service Fabric'te dağıtıldığı yerdir. Şu anda bu bilgileri kullanıcı tarafından almanın yolu yoktur.
 
 Microsoft, Power Apps'te bir kullanıcı arabirimi (UI) oluşturmuştur, böylece mikro hizmetin tam uç noktasını alabilirsiniz. Daha fazla bilgi için bkz. [Hizmet uç noktasını bulma](inventory-visibility-configuration.md#get-service-endpoint).
 
@@ -168,9 +170,9 @@ Eldeki değişiklik olayları oluşturmak için iki API vardır:
 
 Aşağıdaki tabloda, JSON gövdesindeki her bir alanın anlamı özetlenmektedir.
 
-| Alan kodu | Tanım |
+| Alan kodu | Açıklama |
 |---|---|
-| `id` | Belirli bir değişiklik olayı için benzersiz bir kimlik. Bu kimlik, deftere nakil sırasında hizmetle iletişim başarısız olursa aynı olayın yeniden gönderilmesi durumunda sistemde iki kez sayılmamasını sağlamak için kullanılır. |
+| `id` | Belirli bir değişiklik olayı için benzersiz bir kimlik. Bir hizmet hatası nedeniyle yeniden gönderim meydana gelirse bu kimlik, aynı olayın sistemde iki kez sayılmamasını sağlamak için kullanılır. |
 | `organizationId` | Olayla bağlantılı kuruluşun tanımlayıcısı. Bu değer, Supply Chain Management'ta bir kuruluş veya veri alanı kimliğiyle eşlenir. |
 | `productId` | Ürünün tanımlayıcısı. |
 | `quantities` | Eldeki miktarın değiştirilmesi gereken miktar. Örneğin, bir rafa 10 yeni kitap eklenirse bu değer `quantities:{ shelf:{ received: 10 }}` olur. Üç kitap raftan kaldırılırsa veya satılırsa bu değer `quantities:{ shelf:{ sold: 3 }}` olur. |
@@ -178,7 +180,7 @@ Aşağıdaki tabloda, JSON gövdesindeki her bir alanın anlamı özetlenmektedi
 | `dimensions` | Dinamik bir anahtar-değer çifti. Değerler, Supply Chain Management'ta bazı boyutlarla eşleştirilir. Ancak olayın Supply Chain Management'tan veya harici bir sistemden geldiğini belirtmek için özel boyutlar da (örneğin, _Kaynak_) ekleyebilirsiniz. |
 
 > [!NOTE]
-> `SiteId` ve `LocationId` parametreleri [bölüm yapılandırmasını](inventory-visibility-configuration.md#partition-configuration) oluşturur. Bu nedenle, eldeki değişiklik olayları oluşturduğunuzda, eldeki miktarları ayarladığınızda veya geçersiz kıldığınızda ya da rezervasyon olayları oluşturduğunuzda bunları boyutlarda belirtmeniz gerekir.
+> `siteId` ve `locationId` parametreleri [bölüm yapılandırmasını](inventory-visibility-configuration.md#partition-configuration) oluşturur. Bu nedenle, eldeki değişiklik olayları oluşturduğunuzda, eldeki miktarları ayarladığınızda veya geçersiz kıldığınızda ya da rezervasyon olayları oluşturduğunuzda bunları boyutlarda belirtmeniz gerekir.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Eldeki değişiklik olayı oluşturma
 
@@ -216,14 +218,14 @@ Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir. Bu örnekte, *
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
+    "organizationId": "SCM_IV",
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "PosMachineId": "0001",
-        "ColorId": "Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "posMachineId": "0001",
+        "colorId": "red"
     },
     "quantities": {
         "pos": {
@@ -238,12 +240,12 @@ Aşağıdaki örnekte, `dimensionDataSource` olmadan örnek gövde içeriği gö
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red"
     },
     "quantities": {
         "pos": {
@@ -293,13 +295,13 @@ Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir.
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
-        "productId": "T-shirt",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_1",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId&quot;: &quot;0001"
+            "posSiteId": "posSite1",
+            "posLocationId": "posLocation1",
+            "posMachineId&quot;: &quot;0001"
         },
         "quantities": {
             "pos": { "inbound": 1 }
@@ -307,12 +309,12 @@ Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir.
     },
     {
         "id": "654321",
-        "organizationId": "usmf",
-        "productId": "Pants",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_2",
         "dimensions": {
-            "SiteId": "1",
-            "LocationId": "11",
-            "ColorId&quot;: &quot;black"
+            "siteId": "iv_postman_site",
+            "locationId": "iv_postman_location",
+            "colorId&quot;: &quot;black"
         },
         "quantities": {
             "pos": { "outbound": 3 }
@@ -362,13 +364,13 @@ Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir. Bu API'nin dav
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
+        "organizationId": "SCM_IV",
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-             "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId": "0001"
+            "posSiteId": "iv_postman_site",
+            "posLocationId": "iv_postman_location",
+            "posMachineId": "0001"
         },
         "quantities": {
             "pos": {
@@ -389,7 +391,7 @@ Rezervasyon, farklı veri kaynağı ayarları için yapılabilir. Bu tür bir re
 
 Rezervasyon API'sini çağırdığınızda istek gövdesinde Boolean `ifCheckAvailForReserv` parametresini belirterek rezervasyon doğrulamasını denetleyebilirsiniz. `True` değeri, doğrulamanın gerekli olduğu anlamına ve `False` değeri, doğrulamanın gerekli olmadığı anlamına gelir. Varsayılan değer `True` değeridir.
 
-Rezervasyonu iptal etmek veya belirtilen stok miktarlarının rezervasyonunu kaldırmak istiyorsanız miktarı negatif bir değere ayarlayın ve doğrulamayı atlamak için `ifCheckAvailForReserv` parametresini `False` olarak ayarlayın.
+Rezervasyonu tersine çevirmek veya belirtilen stok miktarlarının rezervasyonunu kaldırmak istiyorsanız miktarı negatif bir değere ayarlayın ve doğrulamayı atlamak için `ifCheckAvailForReserv` parametresini `False` olarak ayarlayın. Ayrıca, aynı işlemi gerçekleştirmek için adanmış bir rezervasyonu kaldırma API'si de vardır. Fark yalnızca iki API'nin çağrılma biçimindedir. *Rezervasyonu kaldırma* API'si ile `reservationId` öğesini kullanarak belirli bir rezervasyon olayını tersine çevirmek daha kolaydır. Daha fazla bilgi için, [_Bir rezervasyon olayının rezervasyonunu kaldırma_](#reverse-reservation-events) bölümüne bakın.
 
 ```txt
 Path:
@@ -427,24 +429,36 @@ Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir.
 ```json
 {
     "id": "reserve-0",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "quantity": 1,
     "quantityDataSource": "iv",
-    "modifier": "softreservordered",
+    "modifier": "softReservOrdered",
     "ifCheckAvailForReserv": true,
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red",
-        "SizeId&quot;: &quot;Small"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red",
+        "sizeId&quot;: &quot;small"
     }
 }
 ```
 
+Aşağıdaki örnekte başarılı bir yanıt gösterilmektedir.
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "id": "ohre~id-822-232959-524",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+``` 
+
 ### <a name="create-multiple-reservation-events"></a><a name="create-multiple-reservation-events"></a>Birden fazla rezervasyon olayı oluşturma
 
-Bu API, [tek olay API'sinin](#create-one-reservation-event) toplu bir sürümüdür.
+Bu API, [tek olay API'sinin](#create-reservation-events) toplu bir sürümüdür.
 
 ```txt
 Path:
@@ -480,9 +494,107 @@ Body:
     ]
 ```
 
+## <a name="reverse-reservation-events"></a>Rezervasyon olaylarını tersine çevirme
+
+*Rezervasyonu kaldırma* API'si, [*Rezervasyon*](#create-reservation-events) olayları için ters işlem görevi görür. Bu, `reservationId` ile belirtilen bir rezervasyon olayını tersine çevirmek veya rezervasyon miktarını azaltmak için bir yol sağlar.
+
+### <a name="reverse-one-reservation-event"></a><a name="reverse-one-reservation-event"></a>Bir rezervasyon olayını tersine çevirme
+
+Bir rezervasyon oluşturulduğunda, yanıt gövdesine bir `reservationId` dahil edilir. Rezervasyonu iptal etmek için aynı `reservationId` öğesini sağlamalısınız ve rezervasyon API çağrısı için kullanılan aynı `organizationId` ve `dimensions` öğelerini dahil etmelisiniz. Son olarak, önceki rezervasyondan serbest bırakılacak maddelerin sayısını temsil eden bir `OffsetQty` değeri belirtin. Rezervasyon, belirtilen `OffsetQty` değerine göre tamamen veya kısmen tersine çevrilebilir. Örneğin, bir maddenin *100* birimi rezerve edilmişse, başlangıçtaki rezerve edilen miktarın *10*'unun rezervasyonunu kaldırmak için `OffsetQty: 10` belirtebilirsiniz.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        reservationId: string,
+        dimensions: {
+            [key:string]: string,
+        },
+        OffsetQty: number
+    }
+```
+
+Aşağıdaki kodda, örnek bir gövde içeriği gösterilmektedir.
+
+```json
+{
+    "id": "unreserve-0",
+    "organizationId": "SCM_IV",
+    "reservationId": "RESERVATION_ID",
+    "dimensions": {
+        "siteid":"iv_postman_site",
+        "locationid":"iv_postman_location",
+        "ColorId": "red",
+        "SizeId&quot;: &quot;small"
+    },
+    "OffsetQty": 1
+}
+```
+
+Aşağıdaki kodda başarılı bir yanıt gövdesi örneği gösterilmektedir.
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "totalInvalidOffsetQtyByReservId": 0,
+    "id": "ohoe~id-823-11744-883",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+```
+
+> [!NOTE]
+> Yanıt gövdesinde, `OffsetQty` değeri rezervasyon miktarından küçük veya bu değere eşit olduğunda `processingStatus` "*success*" durumunda ve `totalInvalidOffsetQtyByReservId` *0* olur.
+>
+> `OffsetQty` değeri rezerve edilen miktardan büyükse, `processingStatus` "*partialSuccess*" durumunda olur ve `totalInvalidOffsetQtyByReservId`, `OffsetQty` ile rezerve edilen miktar arasındaki farka eşit olur.
+>
+>Örneğin, rezervasyonun miktarı *10* ve `OffsetQty` değeri *12* ise `totalInvalidOffsetQtyByReservId` *2* olur.
+
+### <a name="reverse-multiple-reservation-events"></a><a name="reverse-multiple-reservation-events"></a>Birden fazla rezervasyon olayını tersine çevirme
+
+Bu API, [tek olay API'sinin](#reverse-one-reservation-event) toplu bir sürümüdür.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [      
+        {
+            id: string,
+            organizationId: string,
+            reservationId: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            OffsetQty: number
+        }
+        ...
+    ]
+```
+
 ## <a name="query-on-hand"></a>Eldekini sorgulama
 
-Ürünlerinize ait mevcut eldeki stok verilerini getirmek için _Eldekini sorgulama_ API'sını kullanın. API şu anda `ProductID` değerine göre en çok 100 ayrı öğeye kadar sorgulamayı desteklemektedir. Her sorguda birden çok `SiteID` ve `LocationID` değeri de belirtilebilir. Maksimum sınır `NumOf(SiteID) * NumOf(LocationID) <= 100` olarak tanımlanmıştır.
+Ürünlerinize ait mevcut eldeki stok verilerini getirmek için *Eldekini sorgulama* API'sını kullanın. API şu anda `productID` değerine göre en çok 5000 ayrı öğeye kadar sorgulamayı desteklemektedir. Her sorguda birden çok `siteID` ve `locationID` değeri de belirtilebilir. Maksimum sınır aşağıdaki denklemle tanımlanır:
+
+*NumOf(SiteID) \* NumOf(LocationID) <= 100*.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Post yöntemini kullanarak sorgulama
 
@@ -517,7 +629,7 @@ Bu isteğin gövde kısmında, `dimensionDataSource` isteğe bağlı bir paramet
 - `productId` bir veya daha fazla değer içerebilir. Bu boş bir diziyse tüm ürünler döndürülür.
 - `siteId` ve `locationId`, Stok Görünürlüğü'nde bölümleme için kullanılır. *Eldekini sorgulama* isteğinde birden fazla `siteId` ve `locationId` değeri belirtebilirsiniz. Geçerli sürümde hem `siteId` hem de `locationId` değerlerini belirtmelisiniz.
 
-`groupByValues` parametresi, dizin oluşturma yapılandırmanızı takip etmelidir. Daha fazla bilgi için bkz. [Ürün dizini hiyerarşi yapılandırması](./inventory-visibility-configuration.md#index-configuration).
+Dizin oluşturma yapılandırmanızı takip etmek için `groupByValues` parametresini kullanmanızı öneririz. Daha fazla bilgi için bkz. [Ürün dizini hiyerarşi yapılandırması](./inventory-visibility-configuration.md#index-configuration).
 
 `returnNegative` parametresi, sonuçların negatif girişler içerip içermediğini denetler.
 
@@ -530,13 +642,13 @@ Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir.
 {
     "dimensionDataSource": "pos",
     "filters": {
-        "organizationId": ["usmf"],
-        "productId": ["T-shirt"],
-        "siteId": ["1"],
-        "LocationId": ["11"],
-        "ColorId": ["Red"]
+        "organizationId": ["SCM_IV"],
+        "productId": ["iv_postman_product"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
+        "colorId": ["red"]
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -546,12 +658,12 @@ Aşağıdaki örnekte, belirli bir tesis ve yerleşimdeki tüm ürünlerin nası
 ```json
 {
     "filters": {
-        "organizationId": ["usmf"],
+        "organizationId": ["SCM_IV"],
         "productId": [],
-        "siteId": ["1"],
-        "LocationId": ["11"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -577,7 +689,7 @@ Query(Url Parameters):
 Aşağıda, örnek bir alma URL'si bulunmaktadır. Bu alma isteği, daha önce sağlanan deftere nakletme örneği ile tam olarak aynıdır.
 
 ```txt
-/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
 ```
 
 ## <a name="available-to-promise"></a>Karşılanabilir miktar

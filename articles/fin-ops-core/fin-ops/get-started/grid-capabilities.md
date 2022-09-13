@@ -2,7 +2,7 @@
 title: Kılavuz yetenekleri
 description: Bu makalede, kılavuz denetiminin çeşitli güçlü özellikleri açıklanmaktadır. Bu özelliklere erişebilmek için yeni ızgara özelliğini etkinleştirmeniz gerekir.
 author: jasongre
-ms.date: 08/09/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a8968a1263dfafd67b07b4beb78c51493e95756e
-ms.sourcegitcommit: 47534a943f87a9931066e28f5d59323776e6ac65
+ms.openlocfilehash: 096f441d39dde0f322ed117ab35a6a4641a38a93
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9258962"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405478"
 ---
 # <a name="grid-capabilities"></a>Kılavuz yetenekleri
 
@@ -178,20 +178,22 @@ Excel'de olduğu gibi kullanıcılar, bir sütunu sütun içinde o anda gösteri
 
 Bu özellik 10.0.21 sürümünde varsayılan olarak etkinleştirilmeye başlanmıştır. 2022 Ekim'de zorunlu hale gelmesi hedeflenmiştir.
 
-## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Geliştirici] Ayrı sayfalar için yeni ızgarayı kullanmayı devre dışı bırakma 
+## <a name="developer-topics"></a>Geliştirici konuları
+
+### <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Geliştirici] Ayrı sayfalar için yeni ızgarayı kullanmayı devre dışı bırakma 
 Kuruluşunuz yeni kılavuzla ilgili bazı sorunlar içeren bir sayfayı saptadığı zaman, tek bir formun, sistemin geri kalanında yeni kılavuz denetimiyle yararlanmaya devam ederken, eski kılavuz denetimini kullanmasına izin veren bir API kullanılabilir. Ayrı bir sayfayı yeni kılavuzdan geri çevirmek için forma ait `run()` yöntemine aşağıdaki `super()` çağrı gönderisini ekleyin.
 
 ```this.forceLegacyGrid();```
 
 Bu API, eski kılavuz denetiminin kaldırılmasına izin vermek için kullanım dışı kalacaktır. Ancak, kullanım dışı bırakma duyurusu yapıldıktan sonra en az 12 ay kullanılabilir durumda kalacaktır. Herhangi bir sorun bu API'nin kullanılmasını gerektiriyorsa, bunları Microsoft'a bildirin.
 
-### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Daha önce ızgarayı devre dışı bıraktıktan sonra bir sayfayı yeni ızgarayı kullanmaya zorlama
+#### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Daha önce ızgarayı devre dışı bıraktıktan sonra bir sayfayı yeni ızgarayı kullanmaya zorlama
 Yeni ızgaranın tek bir sayfada kullanılmamasını seçtiyseniz ilgili sorunlar çözüldükten sonra yeni ızgarayı yeniden etkileştirmek isteyebilirsiniz. Bunu yapmak üzere `forceLegacyGrid()` için çağrıyı kaldırmanız gerekir. Değişiklik, aşağıdakilerden biri gerçekleşene kadar etkili olmaz:
 
 - **Ortam yeniden dağıtımı**: Ortam güncelleştirilip yeniden dağıtıldığında yeni ızgaranın devre dışı bırakıldığı sayfaları depolayan tablo (FormControlReactGridState) otomatik olarak temizlenir.
 - **Tabloyu el ile temizleme**: Geliştirme senaryoları için FormControlReactGridState tablosunu temizlemek üzere SQL kullanmanız ve ardından AOS'u yeniden başlatmanız gerekir. Bu eylem birleşimi, yeni ızgaranın kullanım dışı bırakıldığı sayfaların önbelleğe alınmasını sıfırlar.
 
-## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Geliştirici] Sistemden önce kılavuzları tek tek Yazma'dan çıkarma özelliği
+### <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Geliştirici] Sistemden önce kılavuzları tek tek Yazma'dan çıkarma özelliği
 Kılavuzun *Sistemden önce yazma* özelliği ile iyi çalışmayan bazı senaryolar ortaya çıkmıştır. (Örneğin, bir satır doğrulandığında tetiklenen bazı kodlar veri kaynağı araştırmasının tetiklenmesine neden oluyor ve araştırma daha sonra varolan satırlardaki kaydedilmemiş düzenlemeleri bozabiliyor.) Kuruluşunuz böyle bir senaryo keşfederse, geliştiricinin zaman uyumsuz satır doğrulamasından tek bir kılavuzu seçmesine ve eski davranışa geri dönmesine olanak sağlayan bir API kullanılabilir.
 
 Bir kılavuzda zaman uyumsuz satır doğrulaması devre dışı bırakıldığında, geçerli satırda doğrulama sorunları varken kullanıcılar yeni bir satır oluşturamaz veya kılavuzda varolan farklı bir satıra geçemez. Bu eylemin bir yan etkisi olarak, tablolar Excel'den finans ve operasyon kılavuzlarına yapıştırılamaz.
@@ -204,13 +206,18 @@ Tek bir kılavuzu zaman uyumsuz satır doğrulamasının dışında tutmak için
 > - Bu çağrı yalnızca istisnai durumlarda çağrılmalıdır ve tüm kılavuzlar için standart olmamalıdır.
 > - Form yüklendikten sonra çalışma zamanında bu API'ye geçiş yapmanızı önermiyoruz.
 
-## <a name="developer-size-to-available-width-columns"></a>[Geliştirici] Boyutlandırılabilir sütunlar
+### <a name="developer-size-to-available-width-columns"></a>[Geliştirici] Boyutlandırılabilir sütunlar
 Bir geliştirici yeni kılavuzun içindeki sütunlar için **WidthMode** özelliğini **SizeToAvailable** olarak ayarladığında, bu sütunlar, özelliğin **SizeToContent** olarak ayarlanmış olması durumunda, ilk başta sahip olacakları aynı genişliğe sahip olurlar. Ancak, kılavuzun içinde kullanılabilen ek bir genişliği kullanmak için genişler. Özellik birden çok sütun için **SizeToAvailable** olarak ayarlandıysa, tüm bu sütunlar kılavuzun içinde kullanılabilir olan ek bir genişliği paylaşır. Ancak, bir kullanıcı bu sütunlardan birini el ile yeniden boyutlandırırsa, sütun statik hale gelir. Bu genişlikte kalacak ve artık fazladan kullanılabilir kılavuz genişliği kaplamayacak şekilde genişlemeyecek.
 
-## <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Geliştirici] Aşağı ok tuşu kullanılarak yeni satırlar oluşturulurken ilk odağı alan sütunu belirtme
+### <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Geliştirici] Aşağı ok tuşu kullanılarak yeni satırlar oluşturulurken ilk odağı alan sütunu belirtme
 [Sistemden önce veri girerken farklılıklar](#differences-when-entering-data-ahead-of-the-system) konusunda ele alındığı gibi, "Sistemden önce yazma" özelliği etkinse ve bir kullanıcı **Aşağı ok** tuşunu kullanarak yeni bir satır oluşturursa varsayılan davranış, odağı yeni satırdaki ilk sütuna almaktır. Bu deneyim eski kılavuzdaki deneyimden veya **Yeni** düğmesi seçildiğindeki deneyimden farklılık gösterebilir.
 
 Kullanıcılar ve kuruluşlar veri girişi için en iyi duruma getirilmiş, kaydedilmiş görünümler oluşturabilir. (Örneğin, ilk sütunun veri girmeye başlamak istediğiniz ilk sütun olması için sütunları yeniden sıralayabilirsiniz.) Ek olarak, sürüm 10.0.29 itibariyle kuruluşlar, **selectedControlOnCreate()** yöntemini kullanarak bu davranışı ayarlayabilir. Bu yöntem, **Aşağı ok** tuşu kullanılarak yeni bir satır oluşturulurken geliştiricilerin ilk odağı alacak sütunu belirtmesine olanak tanır. Giriş olarak bu API, ilk odağı alması gereken sütuna karşılık gelen denetim kimliğini alır.
+
+### <a name="developer-handling-grids-with-non-react-extensible-controls"></a>[Geliştirici] React olmayan genişletilebilir kontrollerle kılavuzları işleme
+Bir kılavuz yüklenirken sistem, React olmayan bir genişletilebilir denetimle karşılaşırsa, bunun yerine eski kılavuzu işlemeye zorlayacaktır. Bir kullanıcı bu durumla ilk kez karşılaştığında, sayfanın yenilenmesi gerektiğini belirten bir ileti gösterilecektir. Daha sonra bu sayfa, bir sonraki sistem güncelleştirmesine kadar kullanıcılara daha fazla bildirim vermeden eski kılavuzu otomatik olarak yükler. 
+
+Bu durumu kalıcı olarak çözmek için, genişletilebilir denetim yazarları, kılavuzda kullanılmak üzere denetimin bir React sürümünü oluşturabilir.  Denetime ilişkin X++ sınıfı, geliştirildikten sonra, bu denetim için yüklenecek React paket konumunu belirtmek için **FormReactControlAttribute** özniteliğiyle donatılabilir. Örnek olarak `SegmentedEntryControl` sınıfına bakın.  
 
 ## <a name="known-issues"></a>Bilinen sorunlar
 Bu bölüm, yeni ızgara denetimiyle ilgili bilinen sorunların listesini içerir.
@@ -218,9 +225,12 @@ Bu bölüm, yeni ızgara denetimiyle ilgili bilinen sorunların listesini içeri
 ### <a name="open-issues"></a>Açık sorunlar
 - **Yeni kılavuz denetimi** özelliğini etkinleştirdikten sonra, bazı sayfalar varolan kılavuz denetimini kullanmaya devam eder. Bu, aşağıdaki durumlarda ortaya çıkar:
  
-    - Çoklu sütunlarda işlenen sayfada bir kart listesi vardır.
-    - Sayfada gruplanmış bir kart listesi vardır.
-    - Tepki olmayan genişletilebilir bir denetimi olan kılavuz sütunu.
+    - [Çözüldü] Çoklu sütunlar halinde işlenen sayfada bir kart listesi vardır.
+        - Bu tür bir kart listesi 10.0.30 sürümünden başlayarak **Yeni kılavuz denetimi** tarafından desteklenir. forceLegacyGrid() öğesinin bu amaçla tüm kullanımları kaldırılabilir. 
+    - [Çözüldü] Sayfada gruplanmış bir kart listesi vardır.
+        - Gruplanmış kart listeleri 10.0.30 sürümünden başlayarak **Yeni kılavuz denetimi** tarafından desteklenir. forceLegacyGrid() öğesinin bu amaçla tüm kullanımları kaldırılabilir. 
+    - [Çözüldü] React olmayan genişletilebilir bir denetimi olan kılavuz sütunu.
+        - Genişletilebilir denetimler, ilgili denetimin kılavuza yerleştirildiğinde yüklenecek olan bir React sürümünü sağlayabilir ve kılavuzda kullanıldığı zaman bu denetimi yükleyecek şekilde denetim tanımını ayarlayabilir. Daha ayrıntılı bilgi için ilgili geliştirici bölümüne bakın. 
 
     Bir kullanıcı bu durumlardan biriyle karşılaştığında, sayfayı yenileme hakkında bir ileti görüntülenecektir. Bu ileti görüntülendikten sonra, bir sonraki ürün sürümü güncelleştirilinceye kadar, sayfa tüm kullanıcılar için varolan kılavuzla çalışmaya devam eder. Yeni kılavuzun kullanılabilmesi amacıyla gelecekteki bir güncelleştirme için bu senaryoların daha iyi işlenmesi dikkate alınacaktır.
 

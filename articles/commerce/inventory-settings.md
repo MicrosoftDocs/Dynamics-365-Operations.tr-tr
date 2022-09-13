@@ -2,7 +2,7 @@
 title: Stok ayarlarını uygula
 description: Bu makale, stok ayarlarını kapsamaktadır ve Microsoft Dynamics 365 Commerce'ta bunların nasıl uygulanacağını açıklar .
 author: anupamar-ms
-ms.date: 10/15/2021
+ms.date: 08/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: ''
-ms.openlocfilehash: bc55715b7c74f3b572459dd1aa7d409b7175535b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 49310a44f8b9c636734e04d4eed9445384b55791
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287605"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405333"
 ---
 # <a name="apply-inventory-settings"></a>Stok ayarlarını uygula
 
@@ -51,12 +51,12 @@ Commerce'da stok ayarları, site oluşturucuda **Site Ayarlar \> Uzantılar \> E
     > [!IMPORTANT] 
     > **Birden çok ambar için stok düzeyi**, Commerce sürüm 10.0.19'dan itibaren mevcuttur. Commerce'ün eski sürümlerinden birini güncelleştiriyorsanız, appsettings.json dosyasını el ile güncelleştirmeniz gerekir. Talimatlar için bkz. [SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
-- **Ürün listesi sayfaları için stok ayarları** – Bu ayar, ürün toplama ve arama sonuçları modülleri tarafından işlenen ürün listelerinde stok dışı ürünlerin nasıl gösterileceğini tanımlar. Kullanılabilir değerler: **Diğer ürünlerle aynı sırada görüntülenir**, **Listeden stokta bulunan ürünleri gizler** ve **Listenin sonunda stok dışı ürünleri görüntüler**. Bu ayarı kullanmak için, önce Commerce Headquarters'da bazı önkoşul ayarlarını konfigüre etmelisiniz. Daha fazla bilgi için bkz. [Arama sonuçları modülü için stok farkındalığını etkinleştirme](search-result-module.md#enable-inventory-awareness-for-the-search-results-module).
+- **Ürün listesi sayfaları için stok ayarları** – Bu ayar, ürün toplama ve arama sonuçları modülleri tarafından işlenen ürün listelerinde stok dışı ürünlerin nasıl gösterileceğini tanımlar. Kullanılabilir değerler: **Diğer ürünlerle aynı sırada görüntülenir**, **Listeden stokta bulunan ürünleri gizler** ve **Listenin sonunda stok dışı ürünleri görüntüler**. Bu ayarı kullanmak için, önce Commerce Headquarters'da bazı önkoşul ayarlarını konfigüre etmelisiniz. Daha fazla bilgi için bkz. [Stoğa duyarlı ürün listelemesi](inventory-aware-product-listing.md).
 
     > [!IMPORTANT] 
     > **Ürün listesi sayfaları için envanter ayarları**, Commerce sürüm 10.0.20'dan itibaren mevcuttur. Commerce'ün eski sürümlerinden birini güncelleştiriyorsanız, appsettings.json dosyasını el ile güncelleştirmeniz gerekir. Talimatlar için bkz. [SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
-- **Stok aralıkları** – Bu ayar, site modüllerinde iletinin gösterildiği stok aralıklarını tanımlar. Yalnızca, **Toplam kullanılabilir** değer veya **stok düzeyi ayar temel alınarak** ayarı için **fiziksel kullanılabilir** değer seçildiğinde uygulanabilir. Kullanılabilir değerler **tümü**, **düşük ve stok dışı** ve **Stok dışında**.
+- **Stok aralıkları** – Bu ayar, site modüllerinde gösterilen stok aralığı iletilerini tanımlar. Yalnızca, **Toplam kullanılabilir** değer veya **stok düzeyi ayar temel alınarak** ayarı için **fiziksel kullanılabilir** değer seçildiğinde uygulanabilir. Kullanılabilir değerler **tümü**, **düşük ve stok dışı** ve **Stok dışında**.
 
     - **Tümü** seçildiğinde, tüm stok aralıklarına ait iletiler ("kullanılabilir" iletisiyle) stokta değil ("stok dışı" iletisi) görüntülenir.
     - **Düşük ve stok dışı** seçildiğinde, tüm stok aralıklarına ait iletiler ("kullanılabilir" iletisiyle) görüntülenir.

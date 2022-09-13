@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: eb17f24b90933dac0f875bb0ef2d5039a240b197
+ms.sourcegitcommit: 1ca4ad100f868d518f3634dca445c9878962108e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306069"
+ms.lasthandoff: 09/01/2022
+ms.locfileid: "9388554"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Inventory Visibility'yi yükleme ve ayarlama
 
@@ -56,7 +56,9 @@ Azure AD'ye uygulama kaydedip istemci gizli anahtarı ekledikten sonra şu adım
 1. Ortam sayfasında, **Power Platform tümleştirmesi** bölümünde aşağı kaydırarak **Ortam eklentileri** bölümünü bulun. Burada, Dataverse ortam adını bulabilirsiniz. Dataverse ortam adının Stok Görünürlüğü için kullanmak istediğiniz ad olduğunu onaylayın.
 
     > [!NOTE]
-    > Şu anda yalnızca LCS'yi kullanarak oluşturulan Dataverse ortamları desteklenmektedir. Dataverse ortamınız başka bir yolla (örneğin, Power Apps yönetim merkezini kullanarak) oluşturulduysa ve Supply Chain Management ortamınıza bağlıysa eşleşme sorununu çözmek için ilk olarak [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) adresinden Stok Görünürlüğü ürün takımına başvurmanız gerekir. Ardından Stok Görünürlüğü'nü yükleyebilirsiniz.
+    > Şu anda yalnızca LCS'yi kullanarak oluşturulan Dataverse ortamları desteklenmektedir. Dataverse ortamınız başka bir yolla (örneğin, PowerApps Yönetim Merkezini kullanarak) oluşturulduysa ve Supply Chain Management ortamınıza bağlıysa Stok Görünürlüğü eklentisini yüklemeden önce ilk olarak eşleşme sorununu çözmeniz gerekir.
+    >
+    > Çift yazma ortamınız Dataverse örneğine bağlıyken LCS, Power Platform tümleştirmesi için ayarlanmamış olabilir. Bu bağlama uyuşmazlığı, beklenmeyen davranışlara neden olabilir. Aynı bağlantının iş olayları, sanal tablolar ve eklentiler tarafından kullanılabilmesi için LCS ortam ayrıntılarının bağlı olduğunuz çift yazma ortamının ayrıntılarıyla eşleşmesi önerilir. Eşleme sorununun nasıl düzeltileceği hakkında bilgi için bkz. [Bağlama uyumsuzluğu](../../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#linking-mismatch). Eşleme sorunu çözümlendikten sonra, Stok Görünürlüğü'nü yüklemeye devam edebilirsiniz.
 
 1. **Ortam eklentileri** bölümünde, **Yeni bir eklenti yükleyin**'i seçin.
 
@@ -140,11 +142,11 @@ Stok Görünürlüğü Eklentisi'ni kaldırmak için aşağıdaki adımları izl
 1. Gezinti çubuğunda **Ortam**'ı seçin
 1. LCS ortamınız ile ilgili olan Dataverse ortamını seçin.
 1. **Çözümler**'e gidin ve aşağıdaki çözümleri şu sırayla silin:
-    1. Dynamics 365 çözümlerindeki Inventory Visibility uygulamasına yönelik bağlayıcı çözümü
-    1. Dynamics 365 FNO SCM Stok Görünürlüğü Uygulamalar Çözümü
-    1. Stok Hizmeti Yapılandırması
-    1. Tek Başına Stok Görünürlüğü
-    1. Dynamics 365 FNO SCM Stok Görünürlüğü Temel Çözümü
+    1. Dynamics 365 Inventory Visibility - Bağlayıcı
+    1. Dynamics 365 Inventory Visibility - Uygulama
+    1. Dynamics 365 Inventory Visibility - Denetimler
+    1. Dynamics 365 Inventory Visibility - Eklentiler
+    1. Dynamics 365 Inventory Visibility - Temel
 
     Bu çözümler silindikten sonra tablolarda depolanan veriler de silinir.
 

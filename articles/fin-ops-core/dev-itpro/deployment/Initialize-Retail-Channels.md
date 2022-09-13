@@ -11,12 +11,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: 25ca054df6422370b1e61dff7965189ad90d7fcc
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: a4a36d773e0790747c017dca35492af5caf410ab
+ms.sourcegitcommit: 61be5f43c9678e9f12b4a90410876b4a179ac585
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357671"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427089"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Commerce Scale Unit'i (bulut) başlatma
 
@@ -73,8 +73,6 @@ Commerce Scale Unit aşağıdaki bölgelerde dağıtım için kullanılabilir.
 | EMEA            | Kuzey Avrupa        | Genel kullanılabilir    |  Yorum yok. |
 | EMEA            | Birleşik Krallık Güney            | Genel kullanılabilir |    Yorum yok.                          |
 | EMEA            | Batı Birleşik Krallık             | Genel kullanılabilir |    Yorum yok.                          |
-| İsviçre     | Kuzey İsviçre   | Sınırlı kapasite    | Onay süreci gerekiyor. |
-| BAE             | Kuzey BAE           | Sınırlı kapasite    | Onay süreci gerekiyor. |
 
 Sınırlı kapasite bölgelerinde dağıtım kapasitesi son derece kısıtlanmıştır. Dağıtım istekleri duruma göre değerlendirilir. Sınırlı kapasite bölgelerinde dağıtım için yeterli bir ticari gerekçeniz varsa bekleme listesine eklenecek bir destek isteğinde bulunabilirsiniz. Kapasitenin sınırlandığı alanlar, şu anda Commerce Scale Unit dağıtımına izin vermiyor. 
 

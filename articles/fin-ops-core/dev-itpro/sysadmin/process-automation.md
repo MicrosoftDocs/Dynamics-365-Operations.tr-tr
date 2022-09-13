@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: c0015b65f1ff00cfce19139cb8aaa248512d070b
-ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
+ms.openlocfilehash: 1a1d152a01e0ebe6a20e2e6b31f12ed7b8deb024
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9114950"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423972"
 ---
 # <a name="process-automation"></a>İşlem otomasyonu
 
@@ -30,7 +30,9 @@ ms.locfileid: "9114950"
 
 Tüm işlem otomasyonlarının merkezi yönetim sayfası, **Kurulum** menüsünün altında Sistem Yönetimi modülünde bulunur. Bu sayfa, sistemde ayarlanan tüm otomatik işlemleri (serileri) listeler. Bu sayfa, ayrıca, doğrudan bu sayfadan yeni işlem otomasyonları eklemenize olanak tanır. Bir seri ayarladıktan sonra, bu listeden her bir seriyi yönetebilirsiniz. Tüm seriyi düzenlemeyi, silmeyi veya tüm oluşumları liste görünümünde görüntülemeyi ya da zamanlanan işi bir süre duraklatmak istiyorsanız seriyi devre dışı bırakmayı seçebilirsiniz. 
 
-Özellik yönetiminde devre dışı bırakılan tüm işlemler, özellik devre dışı bırakıldığında gösterilmez. Ek olarak, süreç otomasyonu zamanlama altyapısı devre dışı bırakılan bir özellik için herhangi bir oluşum veya arka plan işlemi zamanlamaz. Özelliğin yeniden etkinleştirilmesi, geçmişte zamanlanmış oluşumların veya arka plan işlemlerinin hemen çalışmasına neden olur. İşlem otomasyonu planlama altyapısı,**İşlem otomasyonu yoklama sistem işi** sistem toplu işinin çalışmasına dayanır. İş, herhangi bir anda değiştirilmemelidir veya üzerinde değişiklik yapılmamalıdır. Bu toplu iş çalışmıyorsa veya hata durumundaysa toplu işi sıfırlamak için **Süreç otomasyonlarını başlat** seçin. Bu sıfırlama işlemi, uygulamanın daha yeni bir sürümünde yayınlanan tüm yeni otomasyonların başlatılmasını sağlar. 
+Ortamınızda çalışan tüm arka plan işlemlerini yönetmek için bu sayfadaki **Arka plan işlemleri** sekmesini kullanın. Herhangi bir arka plan işleminde zamanlama değişikliği yapmak için **Düzenle**'yi seçin. Bu değişiklikler, işlemin "uykuya geçmesine" veya her gün belirli bir dönem için çalışmayı duraklatmasına neden olacak bir uyku süresi dönemi içerebilir. Her bir arka plan işlemi için yürütme sonuçlarını görüntülemek amacıyla **En son sonuçları görüntüle**'yi seçin.
+
+Özellik yönetiminde devre dışı bırakılan tüm işlemler, özellik devre dışı bırakıldığında gösterilmez. Ek olarak, süreç otomasyonu zamanlama altyapısı devre dışı bırakılan bir özellik için herhangi bir oluşum veya arka plan işlemi zamanlamaz. Özelliğin yeniden etkinleştirilmesi, geçmişte zamanlanmış oluşumların veya arka plan işlemlerinin hemen çalışmasına neden olur. İşlem otomasyonu planlama altyapısı,**İşlem otomasyonu yoklama sistem işi** sistem toplu işinin çalışmasına dayanır. İş, herhangi bir anda değiştirilmemelidir veya üzerinde değişiklik yapılmamalıdır. Bu toplu iş çalışmıyor veya hata durumundaysa, toplu işi sıfırlamak için **İşlem otomasyonunu başlat**'ı seçin. Bu sıfırlama, uygulamanın daha yeni bir sürümünde yayınlanan tüm yeni değerlerin başlatılmasını sağlar. 
 
 ## <a name="calendar-view"></a>Takvim görünümü
 

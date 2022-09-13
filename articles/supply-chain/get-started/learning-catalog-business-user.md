@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d43b9b331a8a88ac1282acc33dabe7b71bca57b7
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 82420ad8dae12e4a47290599a5bbd0d15a7f3c29
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124311"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423867"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management kullanıcıları için öğrenme kataloğu
 
@@ -27,9 +27,8 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 
 ## <a name="get-started"></a>Başlayın<a name="get-started"></a>
 
-| İçerik | Tanım | Biçim | Uzunluk |
+| İçerik | Açıklama | Biçim | Uzunluk |
 |---------|-------------|--------|--------|
-| [Microsoft Dynamics 365 ve Power Platform'un iş değerini öğrenin](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | İş uygulamaları hakkında bilgi edinmeye ilgi mi duyuyorsunuz? Belki Microsoft Dynamics 365 ve Power Platform uygulamalarını kullanmaya nereden başlayacağınızı bilmiyorsunuz? İş uygulamalarının gücününün işinizi dönüştürmeye nasıl yardımcı olabileceğini öğrenin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 8 saat |
 | [Dynamics 365 ve Power Platform Temel Bilgileri](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | İş uygulamaları hakkında bilgi edinmeye ilgi mi duyuyorsunuz? Dynamics 365 uygulamalarının nasıl kullanıldığını görmek için bu öğrenme yoluyla işe başlayın. Bulut kavramları, Power Platform ve Dynamics 365 uygulamalarını kullanmaya başlamak hakkında bilgi edinin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 5.5 saat |
 | [Finans ve operasyon uygulamalarını kullanmaya başlama](/learn/paths/get-started-finance-operations/) | Finans ve operasyon uygulamalarının, çalışanları hızlı ve bilinçli kararlar vermeye teşvik etmek için işletmeleri; küresel finans sistemlerini, operasyonel iş süreçlerini ve kolaylaştırılmış tedarik zincirlerini yönetme konusunda nasıl desteklediğini öğrenin. Finans ve operasyon uygulamaları ile çalışma kariyerinizin ilk adımı olarak, istediğiniz rolden bağımsız olarak uygulamaların özellik ve işlevleri hakkında bilgi edinmeniz gerekir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 2 saat |
 | [Dynamics 365 Supply Chain Management için Varlık Yönetimini kullanmaya başlama](/learn/modules/get-started-asset-management/index) | Varlık Yönetimi, Dynamics 365 Supply Chain Management'da varlıkların ve bakım işlerinin yönetilmesine yönelik bir modüldür. Varlık Yönetimi, şirketinizdeki makineler, üretim ekipmanları ve araçlar gibi birçok ekipman türünü yönetmek ve bakım hizmeti vermek için ilgili görevleri verimli bir şekilde yönetmenize ve gerçekleştirmenize olanak tanır. Varlık Yönetimi birçok sektördeki çözümleri destekler. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme modülü | 1 saat |

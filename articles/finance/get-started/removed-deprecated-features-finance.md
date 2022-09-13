@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
+ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313898"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410463"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'te kaldırılan veya kullanım dışı bırakılan özellikler
 
@@ -32,6 +32,20 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 > [!NOTE]
 > Finans ve operasyon uygulamalarındaki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](/dynamics/s-e/global/axtechrefrep_61) altından ulaşabilirsiniz. Finans ve operasyon uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>Finance 10.0.30 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
+
+### <a name="revenue-recognition"></a>Gelir kabul
+
+[Gelir kabul](../../finance/accounts-receivable/revenue-recognition-overview.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Kullanımı sonlandırma/kaldırma nedeni** |Geliştirilmiş işlevsellik olan [Abonelik faturalaması](../../finance/accounts-receivable/subscription-billing-summary.md) ile değiştirildi
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları** | Uygulama |
+| **Dağıtım seçeneği** | Tümü |
+| **Çalıştırma Durumu** | Kullanım dışı: Nisan 2023 tarihinden sonra, Dynamics 365 Finance içindeki Gelir kabul işlevi artık hata onarımları desteği almayacaktır. Müşterilerin [Abonelik faturalaması](../../finance/accounts-receivable/subscription-billing-summary.md) iyileştirilmiş işlevini kullanmaları istenecektir. Ekim 2023'te, Gelir kabulü özelliği artık kullanılamaz. Müşterilerin Abonelik faturalaması iyileştirilmiş işlevine geçiş yapmaları istenecektir.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Finance 10.0.29 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 89036920cc8738e2948ec1a78aafc4b35fff87fa
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d6aa5a0cb49e5871a50a2ac5ac2c29cc09e232fc
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219109"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403716"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Dynamics 365 Supply Chain Management 10.0.25'taki yenilikler veya değişiklikler (Nisan 2022)
 
@@ -161,7 +161,7 @@ Tablo ayrıca, daha önce genel önizlemede bulunan, ancak 10.0.25'te genel kull
 | Ambar yönetimi | [Yerleşim plakası konumlandırması](../warehousing/location-license-plate-positioning.md) | Zorunlu |
 | Ambar yönetimi | [Yerleşim ürün boyutu karıştırması](../warehousing/location-product-dimension-mixing.md) | Zorunlu |
 | Ambar yönetimi | Mobil cihaz stok hareketi stok durumu alanını düzenlenebilir yap | Zorunlu |
-| Ambar yönetimi | Yönetici veya benzer güvenilen kullanıcılar için el ile satış satırı çekme hizmeti | Zorunlu |
+| Ambar yönetimi | [Yönetici veya benzer güvenilen kullanıcılar için el ile satış satırı çekme hizmeti](../warehousing/manual-order-line-picking-exception-handling.md) | Zorunlu |
 | Ambar yönetimi | [Transfer emri sevk edilen plakalarının hedef ambarlardan farklı ambarlarda kullanılmasını engelle](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md) | Zorunlu |
 | Ambar yönetimi | Belirsiz "Konun / Plaka" adlarını çözmek için uyar | Zorunlu |
 | Ambar yönetimi | [Kalite denetimi](../warehousing/quality-check.md) | Zorunlu |

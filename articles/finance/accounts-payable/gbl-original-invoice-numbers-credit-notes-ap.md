@@ -13,18 +13,18 @@ ms.author: atrukawk
 ms.search.validFrom: 2021-09-23
 ms.dyn365.ops.version: 10.0.20
 ms.search.form: ''
-ms.openlocfilehash: ed07ae9784da3ca721fcb25a9c5a14c4f75f2e59
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 39cf4eb7eef1a83abeb7bd44fa7b2abefee0806e
+ms.sourcegitcommit: 8eb0cafe5ad20be2c4fff684e88d7d3f2249f820
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277385"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "9409677"
 ---
 # <a name="reference-original-invoices-in-credit-notes-vendor-invoices"></a>Alacak dekontlarında özgün faturalara referans verme (satıcı faturaları)
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede, alacak dekontu oluşturduğunuzda özgün faturaya nasıl referans oluşturabileceğiniz açıklanmaktadır.
+Bazı ülke ve bölgelerde, yazdırılan alacak dekontlarının veya raporlama rutinlerinin orijinal faturalara referanslar içermesine yönelik yasal bir gereksinim vardır. Bu makalede, alacak dekontu oluşturduğunuzda özgün faturaya nasıl referans oluşturabileceğiniz açıklanmaktadır.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
@@ -44,11 +44,17 @@ Bu makalede açıklanan işlevsellik aşağıdaki iş belgeleri için geçerlidi
 
 ## <a name="define-a-reference-to-an-original-invoice"></a>Özgün faturaya referans tanımlama
 
+Orijinal bir faturaya yapılan bir başvuruyu tanımlama işlemi aşağıdaki üst düzey adımları içerir:
+1. Bir satıcı faturası oluşturma ve deftere nakletme.
+2. Satıcı alacak dekontu oluşturma.
+3. Faturayı alacak dekontuyla bağlantılandırmak için Alacak Faturalama işlevini kullanma.
+4. Alacak dekontunu deftere nakletme.
+
 Belirtilen iş belgesi türlerinde özgün faturaya bir referans tanımlamak için aşağıdaki yordamları kullanın.
 
 ### <a name="vendor-credit-note-purchase-order"></a>Satıcı alacak dekontu (satın alma siparişi)
 
-1. **Borç hesapları** \> **Satın alma siparişleri** \> **Tüm satın alma siparişleri**'ne gidin.
+1. **Borç hesapları** > **Satınalma siparişleri** > **Tüm satınalma siparişleri**'ne gidin.
 2. Yeni bir satın alma siparişi oluşturun veya bir alacak dekontu oluşturmak için var olanı kullanın.
 3. Eylem Bölmesi'nde, **Fatura** sekmesindeki **Tanıt** grubunda **Alacak faturalaması**'nı seçin.
 4. Düzeltme nedenini ve özgün faturaya olan referansı girin.

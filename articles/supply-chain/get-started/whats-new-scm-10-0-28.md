@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 5cca06517fbdcbdae6e54c106b113a83851240c8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: bbbd524020690b84fce34facaaa3047853fb2641
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334790"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403719"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Dynamics 365 Supply Chain Management'deki yenilikler veya değişiklikler 10.0.28 (Ağustos 2022)
 
@@ -50,7 +50,7 @@ Bu özelliklerden herhangi birini açmak veya kapatmak istiyorsanız bunu [özel
 | Stok ve ambar yönetimi | (Hindistan) Transfer fiyat kuralları ile ilgili olarak "Ambar kodundan" alanı "Tümü" olarak ayarlandığında görmezden gelin | <p>Bu özellik yalnızca Hindistan yerelleştirmeleri için geçerlidir. Stok transferlerindeki maddelerin transfer fiyatlarını ayarlama işlemini daha kolay hale getirir.</p><p>Transfer fiyatlarını, her maddeyi transfer fiyatlandırması kurallarıyla yapılandırarak ayarlarsınız. Bu işlemi gerçekleştirmenin bir yolu, **Ambar kodundan** alanının *Tümü* olarak ayarlandığı bir satır kuralı eklemektir. Bu ayarla birlikte ilgili satır tarafından belirlenen transfer fiyatı, maddenin hangi ambardan çekildiğinden bağımsız olarak geçerli olur. Bu özellik etkinleştirildiğinde **Ambar kodundan** alanının *Tümü* olarak ayarlandığı transfer fiyatı kuralları **Yerleşim** ayarını yoksayar. Böylece kural, transfer emrinde belirtilen yerleşimden bağımsız olarak geçerli olur. Depolama boyutu hiyerarşisinde yerleşim, ambarın altında olduğu için beklenen davranışın bu olması muhtemeldir.</p><p>Bu özellik olmadığında sistem, bu ve benzeri kuralları yalnızca transfer emrindeki yerleşim, kural için belirlenen yerleşim ile tamamen uyuştuğunda uygular. (Kural için boş bir yerleşim ayarlandıysa sistem, yalnızca yerleşim değeri boş olan transfer emirleri için geçerli olur).</p> |
 | Stok ve ambar yönetimi | Stok eldeki değer raporu verilerini temizleme | Bu özellik, *Eldeki stok rapor depolama alanı* raporları oluşturmak için kullanılan verileri temizlemeye yönelik bir yöntem sunar. |
 | Üretim denetimi | Servis sözleşmesi ve servis sipariş satırları için proje faaliyetleri ata | Bu özellik, servis anlaşmasına ve servis siparişi satırlarına **Proje faaliyeti** adlı bir alan ekler; böylece bunlar için proje faaliyeti ayarlayabilirsiniz. Özellik, bir proje faaliyeti belirlenmesi gereken servis yönetimi proje günlüklerini deftere naklederken durdurma hataları almanızı önler.  |
-| Ambar yönetimi | Yönetici veya benzer güvenilen kullanıcılar için el ile transfer satırı çekme hizmeti | Bu özellik, yöneticilerin transfer satırlarıyla ilgili stok hareketlerini el ile çekmesine olanak tanır. Bu satırlar, daha önce ambara serbest bırakılmış olan satırları içerir. Yöneticiler bu çekme işlemini, yalnızca sistemin bozuk olduğu durumlar gibi olağanüstü durumlarda uygulamalıdır. |
+| Ambar yönetimi | Yönetici veya benzer güvenilen kullanıcılar için el ile transfer satırı çekme hizmeti | Bu özellik, yöneticilerin transfer satırlarıyla ilgili stok hareketlerini el ile çekmesine olanak tanır. Bu satırlar, daha önce ambara serbest bırakılmış olan satırları içerir. Yöneticiler bu çekme işlemini, yalnızca sistemin bozuk olduğu durumlar gibi olağanüstü durumlarda uygulamalıdır. Daha fazla bilgi için bkz. [Satış ve transfer satırı çekme özel durumlarını el ile işleme](../warehousing/manual-order-line-picking-exception-handling.md). |
 
 ## <a name="new-and-updated-documentation-resources"></a>Yeni ve güncelleştirilmiş belge kaynakları
 

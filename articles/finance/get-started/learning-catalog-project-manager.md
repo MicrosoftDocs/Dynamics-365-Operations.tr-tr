@@ -1,23 +1,23 @@
 ---
 title: Dynamics 365 Finance ile çalışan uygulama proje yöneticileri için öğrenme kataloğu
 description: Uygulama proje yöneticisi olarak Dynamics 365 Finance ile çalışan kişilere yönelik tüm eğitim seçeneklerini bulun.
-author: margoc
+author: cstorega
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: cstorega
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9b4c0a108c581eafee45fa3ab31d532d3acc7ed2
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 9f75a7f6fad3fb8a204c579083b9ffaca46e7592
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067668"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9424556"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Dynamics 365 Finance ile çalışan uygulama proje yöneticileri için öğrenme kataloğu
 
@@ -27,9 +27,8 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 
 ## <a name="get-started"></a>Başlayın<a name="get-started"></a>
 
-| İçerik | Tanım  | Biçim  | Uzunluk    |
+| İçerik | Açıklama  | Biçim  | Uzunluk    |
 |-------------|-----------------|-------------|------------|
-| [Microsoft Dynamics 365 ve Power Platform'un iş değerini öğrenin](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | İş uygulamaları hakkında bilgi edinmeye ilgi mi duyuyorsunuz? Belki Microsoft Dynamics 365 ve Power Platform uygulamalarını kullanmaya nereden başlayacağınızı bilmiyorsunuz? İş uygulamalarının gücününün işinizi dönüştürmeye nasıl yardımcı olabileceğini öğrenin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 7 saat |
 | [Dynamics 365 ve Power Platform Temel Bilgileri](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | İş uygulamaları hakkında bilgi edinmeye ilgi mi duyuyorsunuz? Dynamics 365 uygulamalarının nasıl kullanıldığını görmek için bu öğrenme yoluyla işe başlayın. Bulut kavramları, Power Platform ve Dynamics 365 uygulamalarını kullanmaya başlamak hakkında bilgi edinin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 5.5 saat |
 | [Finans ve operasyon uygulamalarını kullanmaya başlama](/learn/paths/get-started-finance-operations/) | Finans ve operasyon uygulamalarının, çalışanları hızlı ve bilinçli kararlar vermeye teşvik etmek için işletmeleri; küresel finans sistemlerini, operasyonel iş süreçlerini ve kolaylaştırılmış tedarik zincirlerini yönetme konusunda nasıl desteklediğini öğrenin. Finans ve operasyon uygulamaları ile çalışma kariyerinizin ilk adımı olarak, istediğiniz rolden bağımsız olarak uygulamaların özellik ve işlevleri hakkında bilgi edinmeniz gerekir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 2 saat |
 | [Satın almadan önce](/dynamics365/unified-operations/fin-and-ops/get-started/before-you-buy) | İster hala finans ve operasyonu değerlendiriyor olun, isterse satın almaya hazır olun, adım adım kılavuza göz atın. | Belgeler | |
@@ -58,13 +57,8 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | [finans ve operasyon: Regression Suite Automation Tool -- Arka Plan ve Kurulum (DYN646PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-background-amp-setup-may-28-2019) | Bu, Regression Suite Automation Testing'de (RSAT) bulunan iki parçalı dizinin birincisidir. Bu oturumda, RSAT ile otomatikleştirilmiş testleri kullanarak sürekli güncelleştirmeleri nasıl takip edebileceğinizi ele alacağız. Kurulum ve ayarlamayı adım adım incelemenin yanı sıra görev kayıtları oluşturma ve RSAT'yi kullanarak testleri yürütmeye ilişkin bilgi ve önerilerden de bahsedeceğiz. | Teknik Sohbet (kaydedilmiş web semineri) | 70 dakika |
 | [finans ve operasyon: Regression Suite Automation Tool -- Yaşam Döngüsü Testi Tanıtımı (DYN647PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-testing-lifecycle-demo-may-29-2019) | Bu, Regression Suite Automation Testing'de (RSAT) bulunan iki parçalı dizinin ikincisidir. Bu oturumda görev kayıtlarını oluşturup finans ve operasyondan LCS'deki BPM kitaplığına kaydetme, Azure DevOps'ta test örnek olayları oluşturmak için BPM kitaplığını eşitleme, test örnek olaylarını test paketleri olarak gruplandırma ve test paketlerini RSAT'ye yükleyip yürütme döngüsünün tamamına ilişkin bir tanıtım bulunmaktadır. | Teknik Sohbet (kaydedilmiş web semineri) | 70 dakika |
 | [Performans Testi Yaklaşımı (DYN449PAL2)](https://community.dynamics.com/365/b/techtalks/posts/performance-testing-approach-april-30-2018) | Performans Testlerine yönelik yaklaşımın nasıl olması gerektiğine ilişkin bu teknik sohbette lütfen bize katılın. Temel bilgiler, testler için en iyi uygulamalar, testleri çalıştırmak ve performansı ölçmek için kullanılabilecek araç ve teknikler ile optimizasyon sonuçlarının nasıl kullanılacağı hakkında bilgi edinin. | Teknik Sohbet (kaydedilmiş web semineri) | 45 dakika |
-| [7.0 (RTW)/7.1 (Sürüm 1611) sürümünden 7.2 (Temmuz 2017) sürümüne yükseltme yapma (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | Bu oturumda, Dynamics 365 Finance and Operations uygulaması v7.0 (RTW) ve v7.1 (1611) sürümlerinden v7.2 (Temmuz 2017) sürümüne yükseltme işlemini açıklayacağız. Canlı müşteriler ile devam eden projeler (henüz canlı olmayan) arasında net bir ayrım yaparız. | Teknik Sohbet (kaydedilmiş web semineri) | 58 dakika |
-| [Finans ve operasyon uygulamaları: 7.x sürümünden 8+ sürümüne yükseltme (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | 7.X sürümünden 8.X sürümüne yükseltme işlemini ele alacağımız bir sonraki Teknik Sohbet'te lütfen bize katılın. Kod yükseltme ve veri yükseltme için uygulanacak çeşitli senaryo ve adımları ele alacağız. Ayrıca, genişletilebilirlik talebi senaryolarını ve uygun durumlarda bu taleplerin nasıl oluşturulacağını ele alacağız. Bölüm 1/2. | Teknik Sohbet (kaydedilmiş web semineri) | 61 dakika |
-| [AX2012'den finans ve operasyona yükseltme (VIR817PAL2)](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Bu Teknik Sohbet'te, kod ve verileri Dynamics AX 2012'den Dynamics 365 for Operations'a yükseltmeye genel bir bakış sunacağız. | Teknik Sohbet (kaydedilmiş web semineri) | 45 dakika |
+| [AX2012'den Finans ve Operasyon Uygulamalarına Yükseltme - 3 Eylül 2020](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/tax2012-to-finance-and-operations-apps-upgrade-september-3-2020) | Bu Teknik Sohbette, kod ve verileri Dynamics AX 2012'den Finans ve Operasyon uygulamalarına yükseltmeye genel bir bakış sunacağız. | Teknik Sohbet (kaydedilmiş web semineri) | 66 dakika |
 | [Analizler ve Raporlama Seçenekleri: Yazdırma ve Belge Yönlendirme Aracısı](https://community.dynamics.com/365/b/techtalks/posts/analytics-amp-reporting-options-printing-and-the-document-routing-agent-february-8-2018)| İki alakalı konuya ilişkin bu teknik sohbette lütfen bize katılın. Önce, Dynamics 365 Finance, Enterprise Edition için Analiz ve Raporlama çözümü modellerini ve araçlarını tartışacağız. Ardından, yazdırma senaryolarını ve Document Routing Agent'ı tartışacağız. | Teknik Sohbet (kaydedilmiş web semineri) | 45 dakika |
-| [Kurs MB-300T01-A: Dynamics 365 Finance'in temel ortak özellikleri](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | Bu kursta Microsoft Dynamics 365 Finance'in temel ortak özellikleri ele alınacaktır. | Maliyeti bölgeye ve iş ortağına göre değişkenlik gösteren, eğitmen tarafından yönetilen, bizzat katılımlı veya çevrimiçi eğitimler | 1 gün |
-| [Kurs MB-300T02-A: Dynamics 365 Finance'te temel yapılandırma](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | Bu kursta Microsoft Dynamics 365 Finance'in temel yapılandırma görevleri açıklanmaktadır. | Maliyeti bölgeye ve iş ortağına göre değişkenlik gösteren, eğitmen tarafından yönetilen, bizzat katılımlı veya çevrimiçi eğitimler | 1 gün |
-| [Kurs MB-300T03-A: Veri geçişi ve Dynamics 365 Finance ile uygulamaya geçirme için hazırlanma](https://www.microsoft.com/learning/course.aspx?cid=MB-300T03) | Bu kursta veri geçişi ve Microsoft Dynamics 365 Finance ile uygulamaya geçirme için hazırlanma ele alınacaktır. | Maliyeti bölgeye ve iş ortağına göre değişkenlik gösteren, eğitmen tarafından yönetilen, bizzat katılımlı veya çevrimiçi eğitimler | 1 gün |
 | [Uygulama Yaşam Döngüsü giriş sayfası](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | Bu konularda Microsoft Dynamics 365 Finance projenizin uygulama yaşam döngüsü ile ilgili olan program, araç ve işlemler açıklanmaktadır. | Belgeler | |
 
 ## <a name="financial-management"></a>Mali yönetim<a name="financial-management"></a>
@@ -81,13 +75,10 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | [Kamu sektörü için Dynamics 365 Finance'i yapılandırma](/learn/modules/configure-public-sector-dyn365-finance/) | Dynamics 365 Finance, kamu sektörüne ve özel sektöre bütçeleme, satın alma, borç hesapları ve alacak hesapları gibi yaygın olarak kullanılan iş süreçlerini sağlar. Kamu sektörüne hizmet veren kuruluşların kurallara, düzenlemelere ve raporlama gerekliliklerine uymak için Kamu sektörü işlevini kullanın. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi modül | 1 saat |
 | [Mali Raporlama (DYN305PAL)](https://community.dynamics.com/365/b/techtalks/posts/financial-reporting-april-25-2017) | Bu Teknik Sohbet'te, Dynamics 365 for Operations'taki mali raporlama ayarı ve rapor listeleri ele alınacaktır. Ayrıca bu oturumda, UAT ortamında veri reyonu sıfırlamanın yanı sıra sorun giderme ve LCS'yi kullanarak düzeltme arama gibi konulardan da bahsedilecektir. | Bir web konferansını ücretsiz olarak kaydetme | 57 dakika |
 | [finans ve operasyon: Birleşik Krallık Dijital Vergisi - Dynamics 365 For Finance and Operations'ta KDV Beyannamesi (DYN599PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) | Bu oturumda, Birleşik Krallık'ta KDV beyannameleri için HMRC tarafından lanse edilen yeni bildirim sürecinden bahsedeceğiz. Dynamics 365 Finance'te KDV beyannamesini yapılandırmayı ve elektronik mesajları ayarlamayı açıklayacağız. Korumalı alan ortamında HMRC uygulamasına bildirim sürecini tanıtacağız. Bu oturum, özellikle bu özelliği uygulayacak ve kullanıcılara eğitim verecek danışmanlar için uygundur. | Bir web konferansını ücretsiz olarak kaydetme | 63 dakika |
-| [Kurs MB-310T01-A: Dynamics 365 Finance'te mali yönetimin temel bileşenlerini yapılandırma ve kullanma](https://www.microsoft.com/learning/course.aspx?cid=MB-310T01) | Sabit kıymetler için satın alma bilgileri oluşturup girebilir, daha sonra amortisman ayırarak ve bir aktifleştirme eşiği ayarlayarak bunları yönetebilirsiniz. Sabit kıymetlerin işlenme şekli, hem uluslararası muhasebe standartlarına hem de her ülke veya bölgedeki muhasebe mevzuatına uygun olmalıdır. | Maliyeti bölgeye ve iş ortağına göre değişkenlik gösteren, eğitmen tarafından yönetilen, bizzat katılımlı veya çevrimiçi eğitimler | 2 gün |
-| [Kurs MB-310T02-A: Finans ve operasyonda borç hesaplarını, alacak hesaplarını ve tahsilatları yapılandırma ve kullanma](https://www.microsoft.com/learning/course.aspx?cid=MB-310T02) | Maliyet muhasebesi; genel muhasebe, muavin defterler, bütçeler ve istatistiksel bilgiler gibi çeşitli kaynaklardan veri toplamanıza olanak sağlar. Maliyet verilerini analiz edebilir, özetleyebilir ve değerlendirebilirsiniz. Böylece yönetim; fiyat güncelleştirmeleri, bütçeler, maliyet kontrolü ve benzer konularda en iyi kararları verebilir. | Maliyeti bölgeye ve iş ortağına göre değişkenlik gösteren, eğitmen tarafından yönetilen, bizzat katılımlı veya çevrimiçi eğitimler | 1 gün |
-| [Kurs MB-310T03-A: Finans ve operasyonda bütçelemeyi, sabit kıymetleri ve ek işlevleri yapılandırma ve kullanma](https://www.microsoft.com/learning/course.aspx?cid=MB-310T03) | Bir dönem veya bir yıl için kapanış prosedürlerini tamamlayabilirsiniz. Kapanış işlemleri, sistemi yeni bir dönem için hazırlar. Dynamics 365 Finance'te dönemsel işlemleri hazırlama, yapılandırma ve gerçekleştirmeyi öğrenin. | Maliyeti bölgeye ve iş ortağına göre değişkenlik gösteren, eğitmen tarafından yönetilen, bizzat katılımlı veya çevrimiçi eğitimler | 1 gün |
 
 ## <a name="exams"></a>Sınavlar<a name="exams"></a>
 
-| İçerik | Tanım | Biçim |
+| İçerik | Açıklama | Biçim |
 |---|---|---|
 | [Sınav MB-300: Microsoft Dynamics 365 Unified Operations Core](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Bu sınav; yaygın işlev ve uygulama araçlarını kullanma; güvenliği, işlem ve seçenekleri yapılandırma; veri geçişini gerçekleştirme ve çözümü uygulayıp destekleme gibi teknik görevleri gerçekleştirme becerinizi ölçer. | Maliyeti bölgeye göre değişkenlik gösteren sınav |
 | [Sınav MB-310: Microsoft Dynamics 365 Finance, Mali İşlemler](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Bu sınav; mali yönetimi ayarlama ve yapılandırma; ortak işlemleri yönetme ve uygulama; borç hesaplarını uygulama ve yönetme ile bütçeleme ve sabit kıymetleri yönetme gibi teknik görevleri yerine getirme becerinizi ölçer. | Maliyeti bölgeye göre değişkenlik gösteren sınav |

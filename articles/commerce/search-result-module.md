@@ -2,7 +2,7 @@
 title: Arama sonuçları modülü
 description: Bu makale arama sonuçları modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 05/18/2022
+ms.date: 08/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: d10e9ed78dfc90833ff3c09021f863f6ef0b80d9
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: eeb7cd0769fcb866a3d7dcc03e8e87daf24b2c5d
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286823"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405306"
 ---
 # <a name="search-results-module"></a>Arama sonuçları modülü
 
@@ -86,48 +86,16 @@ Site oluşturucuda bir kategoriye arama sonuçları modülünü eklemek için a�
 1. **İnceleyin ve bitirin** bölümünde, sayfa yapılandırmasını gözden geçirin. Sayfa bilgilerini düzenlemeniz gerekiyorsa, **Geri**'yi seçin. Sayfa bilgileri doğruysa, **Sayfa oluştur**'u seçin.
 1. Sayfayı iade etmek için **Düzenlemeyi bitir**'i seçin, ardından yayımlamak için **Yayımla**'yı seçin.
 
-## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Arama sonuçları modülü için stok farkındalığını etkinleştirme
+## <a name="inventory-aware-search-results-module"></a>Stoğa duyarlı arama sonuçları modülü
 
-Müşteriler genellikle bir e-ticaret web sitesinin göz atma deneyiminin tamamında stok bilinçli olmasını bekler, böylece bir ürün için stok olmadığında ne yapılacağına karar verebilirsiniz. Arama sonuçları modülü, envanter verilerini içerecek ve aşağıdaki deneyimleri sağlayacak şekilde yapılandırılabilir:
+Arama sonuçları modülü, envanter verilerini içerecek ve aşağıdaki deneyimleri sağlayacak şekilde yapılandırılabilir:
 
-- Ürünle birlikte stok kullanılabilirliği etiketini göster.
+- Stok düzeyi etiketlerini ürünlerle birlikte görüntüleme.
 - Stok dışı ürünleri ürün listesinden gizleyin.
-- Ürün listesinin sonundaki stok dışı ürünleri gösterin.
-- Arama sonuçlarındaki ürünleri stok düzeyine göre filtreleyin.
+- Ürün listesinin sonunda stok dışı ürünleri gösterme.
+- Stok tabanlı ürün filtrelemeyi destekleme.
 
-Bu deneyimleri etkinleştirmek için, öncelikle **Stok duyarlılığı özelliğine sahip gelişmiş e-ticaret ürün bulma** özelliğini, **Özellik yönetimi** çalışma alanında etkinleştirmeniz gerekir.
-
-> [!NOTE]
-> **Stok duyarlılığı özelliğine sahip gelişmiş e-ticaret ürün bulma** özelliği, Commerce sürüm 10.0.20 ve sonrasında kullanılabilir.
-
-Stok duyarlı ürün arama, stok kullanılabilirlik bilgilerini elde etmek için ürün özniteliklerini kullanır. Özellik için ön koşul olarak, adanmış ürün öznitelikleri oluşturulmalıdır, bunlar için stok verileri girilmelidir ve bunlar çevrimiçi kanala eklenmelidir. 
-
-Stok duyarlı arama sonuçları modülünü desteklemek üzere adanmış ürün öznitelikleri oluşturmak için aşağıdaki adımları izleyin.
-
-1. Headquarters'da **Perakende ve Ticaret \> Perakende ve Ticaret BT \> Ürünler ve stok** bölümüne gidin.
-1. **Ürün özniteliklerini stok düzeyiyle doldur**'u seçin ve açın.
-1. İletişim kutusuna, aşağıdaki bilgileri girin:
-
-    1. **Ürün özniteliği ve tür adı** alanında, stok verilerini yakalamak için oluşturulacak adanmış ürün özniteliği için bir ad belirtin.
-    1. **Stok kullanılabilirliği ölçütü** alanında, stok düzeyi hesaplamasının temel alınması gereken (örneğin, **Kullanılabilir fiziksel**) miktar türünü seçin. 
-
-1. İşi arka planda çalıştırın. Ürün stoku çok yönlü kanal ortamında sürekli olarak değiştiği için, bu işi, toplu işlem olarak planlamanızı öneririz.
-
-> [!NOTE]
-> Sayfalar ve modüller arasında, e-ticaret web sitenizdeki tutarlı stok düzeyi hesaplaması için, Commerce genel merkezinde hem **Stok kullanılabilirliği ölçütü** hem de Commerce site oluşturucudaki ayara göre **Stok düzeyi ölçütü** miktar türünü seçtiğinizden emin olun. Site oluşturucuda stok ayarlarının nasıl uygulanacağı hakkında bilgi için bkz. [Envanter ayarları uygula](inventory-settings.md).
-
-Çevrimiçi kanalın ürün özniteliklerini yapılandırmak için aşağıdaki adımları izleyin. 
-
-1. Headquarters'da **Retail ve Commerce \> Kanal Kurulumu \> Kanal kategorileri ve ürün öznitelikleri**'ne gidin.
-1. Modül için stok duyarlı arama sonuçlarını etkinleştirmek üzere bir çevrimiçi kanal seçin.
-1. İlişkili bir öznitelik grubunu seçin ve açın, ardından yeni oluşturulan ürün özniteliğini buna ekleyin.
-1. 10.0.27 sürümünden önceki Commerce sürümleri için, **Öznitelik meta verilerini ayarla**'yı seçin, yeni eklenen ürün özniteliğini seçin ve sonra **Özniteliği kanal üzerinde göster**, **Alınabilir**, **Ayrıntılandırılabilir** ve **Sorgulanabilir** seçeneklerini etkinleştirin.
-1. **Retail ve Commerce \> Retail ve Commerce BT \> Dağıtım planı**'na gidin ve **1150 (Katalog)** işini yürütün. **Ürün özniteliklerini, stok düzeyiyle doldur** işini toplu işlem olarak zamanlarsanız, 1150 işini ayrıca aynı frekansta çalışacak bir toplu işlem olarak zamanlamanızı öneririz.
-
-> [!NOTE]
-> Arama sonuçları modülünde gösterilen ürünler için, stok düzeyi bağımsız değişken düzeyi yerine ana ürün düzeyinde gösterilir. Yalnızca iki olası değere sahiptir: "kullanılabilir" ve "stokta yok". Değerin gerçek etiketi, [Stok düzeyi profili](inventory-buffers-levels.md) tanımından alınır. Bir ana ürün, yalnızca tüm varyantlar stokta olmadığı zaman stokta değil olarak değerlendirilir.
-
-Önceki tüm yapılandırma adımları tamamlandıktan sonra, arama sonuçları sayfalarındaki iyileştiriciler stok tabanlı filtre gösterecektir ve arama sonuçları modülü arka plandaki stok verilerini geri alır. Daha sonra, Commerce site oluşturucuda **Ürün listesi sayfaları ayarı için stok ayarlarını**, arama sonuçları modülünün stok dışı ürünleri nasıl göstereceğini denetlemek üzere konfigüre edebilirsiniz. Daha fazla bilgi için, [Envanter ayarları uygula](inventory-settings.md) konusuna bakın.
+Bu deneyimleri etkinleştirmek için, öncelikle Commerce headquarters'ta **Stoğa duyarlı olacak şekilde geliştirilmiş e-Ticaret ürün keşfi** özelliğini ve ardından bazı önkoşul ayarlarını etkinleştirmeniz gerekir. Daha fazla bilgi için bkz. [Stoğa duyarlı ürün listelemesi](inventory-aware-product-listing.md).
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

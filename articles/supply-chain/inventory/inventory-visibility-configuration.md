@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 576d8d5d0cad09aed40f1ceb9ce5682816c0f666
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: 8d8fe042d7c56b86a5a7c92cc24480f573a2ea8a
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306333"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423582"
 ---
 # <a name="configure-inventory-visibility"></a>Inventory Visibility'yi yapılandırma
 
@@ -303,13 +303,13 @@ Bu hesaplama formülü kullanıldığında, yeni sorgu sonucu özelleştirilmiş
 
 Çoğu zaman, eldeki stok sorgusu yalnızca en yüksek "toplam" düzeyinde olmaz. Bunun yerine, stok boyutlarına göre toplanan sonuçları da görmek isteyebilirsiniz.
 
-Stok Görünürlüğü, _dizinleri_ ayarlamanıza izin vererek esneklik sağlar. Bu dizinler bir boyutu veya boyutların birleşimini temel alır. Bir dizin, aşağıdaki tabloda tanımlandığı gibi bir *küme numarası*, bir *boyut* ve bir *hiyerarşi*'den oluşur.
+Stok Görünürlüğü, sorgularınızın performansını artırmak için _dizinleri_ ayarlamanıza izin vererek esneklik sağlar. Bu dizinler bir boyutu veya boyutların birleşimini temel alır. Bir dizin, aşağıdaki tabloda tanımlandığı gibi bir *küme numarası*, bir *boyut* ve bir *hiyerarşi*'den oluşur.
 
 | Kuruluş adı | Tanım |
 |---|---|
 | Küme numarası | Aynı kümeye (dizin) ait boyutlar birlikte gruplanır ve bunlara aynı küme numarası atanır. |
 | Boyut | Sorgu sonucunun toplandığı temel boyutlar. |
-| Hiyerarşi | Hiyerarşi sorgulanabilen desteklenen boyut birleşimlerini tanımlamak için kullanılır. Örneğin, hiyerarşi sırası `(ColorId, SizeId, StyleId)` olan bir boyut kümesi ayarlarsınız. Bu durumda sistem, dört boyutlu birleşimlerde sorguları destekler. İlk birleşim boş, ikincisi `(ColorId)`, üçüncüsü `(ColorId, SizeId)` ve dördüncüsü `(ColorId, SizeId, StyleId)` birleşimidir. Diğer birleşimler desteklenmez. Daha fazla bilgi için aşağıdaki örneğe bakın. |
+| Hiyerarşi | Hiyerarşi, filtre ve gruplandırma sorgusu parametrelerinde kullanıldığında, belirli boyut birleşimlerinin performansını artırmanıza olanak sağlar. Örneğin, bir boyut kümesini `(ColorId, SizeId, StyleId)` hiyerarşi sırasıyla ayarlarsanız sistem, dört boyut birleşimi ile ilgili sorguları daha hızlı işleyebilir. İlk birleşim boş, ikincisi `(ColorId)`, üçüncüsü `(ColorId, SizeId)` ve dördüncüsü `(ColorId, SizeId, StyleId)` birleşimidir. Diğer birleşimler hızlanmaz. Filtreler sıraya göre kısıtlanmaz, ancak performanslarını artırmak istiyorsanız bu boyutların içinde olması gerekir. Daha fazla bilgi için aşağıdaki örneğe bakın. |
 
 Ürün hiyerarşi dizininizi ayarlamak için şu adımları izleyin.
 
@@ -319,14 +319,13 @@ Stok Görünürlüğü, _dizinleri_ ayarlamanıza izin vererek esneklik sağlar.
 1. Varsayılan olarak, dizinlerin bir listesi sağlanır. Var olan bir dizini değiştirmek için ilgili dizin bölümünde **Düzenle** veya **Ekle**'yi seçin. Yeni bir dizin kümesi oluşturmak için **Yeni dizin kümesi**'ni seçin. Her dizin kümesindeki her bir satır için **Boyut** alanında, temel boyutlar listesinden seçim yapın. Aşağıdaki alanlar için değerler otomatik olarak oluşturulur:
 
     - **Küme numarası**: Aynı kümeye (dizin) ait boyutlar birlikte gruplanır ve bunlara aynı küme numarası atanır.
-    - **Hiyerarşi**: Hiyerarşi, bir boyut grubunda (dizin) sorgulanabilen desteklenen boyut birleşimlerini tanımlamak için kullanılır. Örneğin, *Stil*, *Renk* ve *Boyut* hiyerarşi sırasına sahip bir boyut grubu ayarlarsanız sistem üç sorgu grubunun sonucunu destekler. İlk grup sadece stildir. İkinci grup stil ve renk birleşimidir. Üçüncü grup stil, renk ve boyutun bir birleşimidir. Diğer birleşimler desteklenmez.
+    - **Hiyerarşi** – Hiyerarşi, filtre ve gruplandırma sorgusu parametrelerinde kullanıldığında, belirli boyut birleşimlerinin performansını artırır.
 
 > [!TIP]
 > Dizin hiyerarşinizi ayarlarken aklınızda tutmanız gereken birkaç ipucu:
 >
 > - Bölüm yapılandırmasında tanımlanan temel boyutlar, dizin yapılandırmalarında tanımlanmamalıdır. Dizin yapılandırmasındaki bir temel boyut tekrar tanımlanmışsa bu dizinle sorgu yapamazsınız.
 > - Yalnızca tüm boyut kombinasyonları tarafından toplanan stoku sorgulamanız gerekiyorsa `Empty` temel boyutunu içeren tek bir dizin ayarlayın.
-> - En az bir dizin hiyerarşiniz olmalıdır (örneğin, `Empty` temel boyutunu içeren), aksi takdirde sorgular "dizin hiyerarşisi ayarlanmadı" hatasıyla başarısız olur.
 
 ### <a name="example"></a>Örnek
 

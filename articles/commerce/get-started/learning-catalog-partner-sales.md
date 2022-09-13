@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f80acca743ed3abc39e93b9d37f658cb9c24a88e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 56fe7fb4bb9d66f0ebb9be32be7569c31ca9ec11
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291495"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423880"
 ---
 # <a name="learning-catalog-for-commerce-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-commerce"></a>Commerce Microsoft İş Ortağı Dynamics 365 Commerce satış ve pazarlama rolleri için öğrenme kataloğu
 
@@ -29,12 +29,9 @@ Diğer finans ve operasyon uygulamalarıyla paylaşılan özellikler hakkında e
 
 ## <a name="get-started"></a>Başlayın<a name="get-started"></a>
 
-| İçerik  | Açıklama  | Biçim  | Uzunluk    |
-|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
-| [Microsoft Dynamics 365 ve Power Platform'un iş değerini öğrenin](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/)   | Bu öğrenme deneyimi, sizi bir yolculuğa çıkaracak. Bu yolculukta önce size dijital dönüşümün ve iş uygulamalarının gücünün işletmenizi nasıl dönüştürebileceği gösterilecek. Dynamics 365 ve Power Platform'un, dijital dönüşümün modern, birleşik, akıllı ve uyarlanabilir olmak üzere dört temel taşı yoluyla, kuruluşunuzun ihtiyaç ve hedeflerine göre bilinçli kararlar vermenize nasıl yardımcı olabileceğini ele alacağız. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 6.5 saat |
+| İçerik | Açıklama | Biçim | Uzunluk |
+|---------|-------------|--------|--------|
 | [Dynamics 365 Commerce kullanmaya başlama](/learn/paths/get-started-dynamics-365-commerce/) | Dynamics 365 Commerce (kanıtlanmış Dynamics 365 Retail yetenekleri üzerine kurulu), arka ofis, mağaza, çağrı merkezi ve dijital deneyimlerini birleştiren kapsamlı bir çok yönlü kanal çözümü sunar. Dynamics 365 Commerce, kişiselleştirilmiş müşteri görevlendirmelerinde marka bağlılık programı oluşturmanıza olanak tanır, üretkenliği geliştirilmiş çalışanla gelirleri artırmanıza, maliyetleri azaltmak ve tedarik zinciri verimliliğini artırmak için operasyonları optimize etmenize ve böylece daha iyi iş sonuçları elde etmenize olanak sağlar. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 2 saat   |
 | [Dynamics 365 Fraud Protection kullanmaya başlama](/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection, sahtekarlık ve kötüye kullanımı azaltmak için araç ve özellikler sağlayarak, gelirlerinin ve saygınlığın korunmasına yardımcı olmak için e-ticaret, fiziksel mağazalar ve çok yönlü kanal tüccarları için tasarlanmış olan bulut tabanlı bir çözümdür, kullanıcı hesaplarını dolandırıcılıktan korumak için operasyon giderlerini azaltır ve kabul hızlarını artırır. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 35 dakika |
 
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-
