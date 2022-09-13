@@ -10,8 +10,10 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?context=/dynamics365/context/commerce
             - name: Commerce'teki yenilikler veya değişiklikler
               items:
-                - name: Commerce'teki yenilikler veya değişiklikler giriş sayfası
+                - name: Commerce'teki yenilikler ve değişiklikler giriş sayfası
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.30 (Kasım 2022)
+                  href: get-started/whats-new-commerce-10-0-30.md
                 - name: Commerce 10.0.29 (Ekim 2022)
                   href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (Temmuz 2022)
@@ -702,18 +704,16 @@
                   href: optimal-combination-overlapping-discounts.md
                 - name: Kanala özel iskontolar tanımlama
                   href: define-channel-specific-discounts.md
-                - name: Perakende ürün iskontolarını önlemeye yönelik seçenekler
-                  href: prevent-discounts.md
                 - name: Ödeme tabanlı iskontolar
                   href: tender_based_discounts.md
                 - name: Sevkiyat iskontosu
                   href: shipping-discount.md
                 - name: Satın alma promosyonlarıyla hediye yapılandırma
                   href: gift-with-purchase.md
-                - name: Kuponları ayarlama
-                  href: retail-coupons.md
-                - name: POS'ta iskontoları gösterme
-                  href: discounts-pos.md
+                - name: Kuponlar
+                  href: coupons.md
+                - name: Fiyatlandırma ayarları
+                  href: price-settings.md
                 - name: Fiyat raporları
                   href: price-report.md
                 - name: Kanala özel ticari sözleşmeler oluşturma
@@ -800,11 +800,13 @@
                       href: calculated-inventory-retail-channels.md
                     - name: POS'ta stok arama işlemi
                       href: pos-inventory-lookup-operation.md
+                    - name: Stoğa duyarlı ürün listesi
+                      href: inventory-aware-product-listing.md
                 - name: Satın alma siparişleri
                   items:
                     - name: Satın alma siparişine genel bakış
                       href: ../supply-chain/procurement/purchase-order-overview.md?context=/dynamics365/context/commerce
-                    - name: Satın alma siparişleri oluşturma
+                    - name: Satınalma siparişleri oluşturma
                       href: ../supply-chain/procurement/purchase-order-creation.md?context=/dynamics365/context/commerce
                     - name: Ürün girişi ve satın alma siparişleri karşılaştırması
                       href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md?context=/dynamics365/context/commerce

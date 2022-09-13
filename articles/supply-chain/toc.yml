@@ -3413,8 +3413,6 @@
                       href: warehousing/packing-work.md
                     - name: Eksik çekilen madde yeniden tahsisini ayarlama
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                    - name: Özel durum işleme için ambar işini iptal etme
-                      href: warehousing/cancel-warehouse-work.md
                     - name: Sistem tarafından yönlendirilen iş sıralaması
                       href: warehousing/system-directed-work-sequencing.md
                     - name: Malzeme çekme satırı gruplandırması
@@ -3431,6 +3429,10 @@
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: Giden iş yükü görselleştirmesi
                       href: warehousing/outbound-workload-visualization.md
+                    - name: Satış ve transfer satırı malzeme çekme özel durumlarını el ile işleme
+                      href: warehousing/manual-order-line-picking-exception-handling.md
+                    - name: Özel durum işleme için ambar işini iptal etme
+                      href: warehousing/cancel-warehouse-work.md
                 - name: Stok yenileme
                   items:
                     - name: Stok yenilemeye genel bakış

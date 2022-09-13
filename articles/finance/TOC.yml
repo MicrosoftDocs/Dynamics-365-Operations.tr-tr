@@ -12,6 +12,8 @@
               items:
                 - name: Finance uygulamasındaki yenilikler veya değişiklikler giriş sayfası
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.30 (Kasım)
+                  href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29 (Ekim)
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (Ağustos)
@@ -1138,6 +1140,8 @@
                       href: general-ledger/subledger-transfer.md
                     - name: Muhasebe kaynağı gezgini
                       href: accounts-payable/accounting-source-explorer.md
+                    - name: Muhasebe bekleyen belgeler
+                      href: general-ledger/documents-pending-accounting.md
             - name: Raporlar ve sorgular
               items:
                 - name: Yevmiye defteri girişlerini ve hareketlerini görüntüleme

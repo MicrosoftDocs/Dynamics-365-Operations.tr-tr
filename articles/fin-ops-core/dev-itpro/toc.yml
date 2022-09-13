@@ -12,8 +12,10 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Platform güncelleştirmelerinde yenilikler veya değişiklikler
               items:
-                - name: Platform güncelleştirmelerindeki yenilikler veya değişiklikler giriş sayfası
+                - name: Platform güncellemeleri giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
+                - name: 10.0.30 sürümü için platform güncelleştirmeleri (Kasım 2022)
+                  href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: 10.0.29 sürümü için platform güncelleştirmeleri (Ekim 2022)
                   href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: 10.0.28 sürümü için platform güncelleştirmeleri (Ağustos 2022)
