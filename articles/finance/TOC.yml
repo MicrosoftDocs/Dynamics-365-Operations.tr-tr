@@ -3578,6 +3578,8 @@
                           href: localizations/rus-use-inventory-profile-documents-queries.md
                     - name: Gümrükleme
                       items:
+                        - name: Gümrüklemeyi ayarlama
+                          href: localizations/rus-set-up-customs-clearance.md
                         - name: Gümrükleme ile çalışma
                           href: localizations/rus-work-with-customs-clearance.md
                 - name: Raporlama
@@ -4642,7 +4644,7 @@
                 - name: Maliyet kontrolü
                   href: cost-accounting/cost-controlling-mobile-workspace.md?context=/dynamics365/context/finance
                 - name: Gider yönetimi
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=/dynamics365/finance/toc.json
                 - name: Eldeki stok
                   href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?context=/dynamics365/context/finance
                 - name: Fatura onayları
@@ -4650,11 +4652,11 @@
                 - name: Takımım
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?context=/dynamics365/context/finance
                 - name: Project mobil uygulamalarına genel bakış
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=/dynamics365/finance/toc.json
                 - name: Proje süresi girişi
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=/dynamics365/finance/toc.json
                 - name: Project Timesheet
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=/dynamics365/finance/toc.json
                 - name: Satınalma siparişi onayı
                   href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?context=/dynamics365/context/finance
                 - name: Satış siparişleri

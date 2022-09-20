@@ -10,8 +10,10 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?context=/dynamics365/context/supply-chain
             - name: Supply Chain Management'taki yenilikler veya değişiklikler
               items:
-                - name: Supply Chain Management'taki yenilikler veya değişiklikler giriş sayfası
+                - name: Supply Chain Management giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.30 (Kasım 2022)
+                  href: get-started/whats-new-scm-10-0-30.md
                 - name: Supply Chain Management 10.0.29 (Ekim 2022)
                   href: get-started/whats-new-scm-10-0-29.md
                 - name: Supply Chain Management 10.0.28 (Ağustos 2022)
@@ -1719,6 +1721,28 @@
                   href: inventory/inventory-visibility-api.md
                 - name: Inventory Visibility ipuçları
                   href: inventory/inventory-visibility-tips.md
+        - name: Sensor Data Intelligence
+          items:
+            - name: Sensor Data Intelligence giriş sayfası
+              href: sensor-data-intelligence/sdi-home-page.md
+            - name: Sisteminiz için Sensor Data Intelligence'ı etkinleştirme
+              href: sensor-data-intelligence/sdi-enable-feature.md
+            - name: Azure'da IoT çözümü dağıtma
+              href: sensor-data-intelligence/sdi-deploy-iot-solution-on-azure.md
+            - name: Sensor Data Intelligence parametreleri
+              href: sensor-data-intelligence/sdi-parameters.md
+            - name: Test için sensör simülasyonu ayarlama
+              href: sensor-data-intelligence/sdi-set-up-simulated-sensor.md
+            - name: Varlık kapalı kalma süresi senaryosu
+              href: sensor-data-intelligence/sdi-scenario-asset-downtime.md
+            - name: Varlık bakımı senaryosu
+              href: sensor-data-intelligence/sdi-scenario-asset-maintenance.md
+            - name: Makine durumu senaryosu
+              href: sensor-data-intelligence/sdi-scenario-equipment-downtime.md
+            - name: Ürün kalitesi senaryosu
+              href: sensor-data-intelligence/sdi-scenario-product-quality.md
+            - name: Üretim gecikmeleri senaryosu
+              href: sensor-data-intelligence/sdi-scenario-production-delays.md
         - name: IoT Zekası
           items:
             - name: IoT Zekası giriş sayfası
@@ -1940,7 +1964,7 @@
                 - name: Maliyet kontrolü
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Gider yönetimi
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: Eldeki stok
                   href: inventory/inventory-on-hand-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Fatura onayları
@@ -1948,11 +1972,11 @@
                 - name: Takımım
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Project mobil uygulamalarına genel bakış
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=/dynamics365/supply-chain/toc.json
                 - name: Proje süresi girişi
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: Project Timesheet
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=/dynamics365/supply-chain/toc.json
                 - name: Satınalma siparişi onayı
                   href: procurement/purchase-order-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Satış siparişleri
@@ -3463,9 +3487,9 @@
                       href: warehousing/small-parcel-shipping.md
                 - name: Sevkiyat konsolidasyonu ilkeleri
                   items:
-                    - name: Sevkiyat konsolidasyonu ilkeleri
+                    - name: Sevkiyat konsolidasyonu ilkelerine genel bakış
                       href: warehousing/about-shipment-consolidation-policies.md
-                    - name: Sevkiyat konsolidasyonu ilkelerini yapılandırma
+                    - name: Sevkiyat konsolidasyonu ilkeleri yapılandırma
                       href: warehousing/configure-shipment-consolidation-policies.md
                     - name: 'Senaryo 1: Satış siparişlerini otomatik serbest bırakma özelliğini kullanarak ambara serbest bırakılan sevkiyatları konsolide etme'
                       href: warehousing/consolidate-shipments-automatic.md

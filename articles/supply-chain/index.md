@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dbf77b57f7a107918c3b8a03290e208ed1c4803b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 18cbcf3ddcfab1f26b0006676f1da8b395e876f4
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066072"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475550"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Management giriş sayfası
 
@@ -102,8 +102,6 @@ Aşağıdaki teknik konferans kayıtlarında, finans ve operasyon uygulamaların
 
 ## <a name="elearning-courses"></a>e-Öğrenme kursları
 
-Çevrimiçi kurslar ve eğitim için [Microsoft Learn'de Dynamics 365 Supply Chain Management](/learn/browse/?products=dynamics-scm&resource_type=learning+path) konusuna bakın.
-
+Çevrimiçi kurslar ve eğitim için bkz. [Dynamics 365 Supply Chain Management](/learn/browse/?products=dynamics-scm&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-

@@ -734,6 +734,8 @@
                   href: enable-ADLS-environment.md
                 - name: Ürün önerilerini etkinleştirme
                   href: enable-product-recommendations.md
+                - name: Alternatif bir veri akışı ayarlama
+                  href: set-up-alternate-data-flow.md
                 - name: Kişiselleştirilmiş öneriler
                   items:
                     - name: Kişiselleştirilmiş önerileri etkinleştirme
@@ -2319,7 +2321,7 @@
                 - name: Maliyet kontrolü
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?context=/dynamics365/context/commerce
                 - name: Gider yönetimi
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fcommerce%2ftoc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=/dynamics365/commerce/toc.json
                 - name: Eldeki stok
                   href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?context=/dynamics365/context/commerce
                 - name: Fatura onayları
@@ -2327,11 +2329,11 @@
                 - name: Takımım
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?context=/dynamics365/context/commerce
                 - name: Project mobil uygulamalarına genel bakış
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fcommerce%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=/dynamics365/commerce/toc.json
                 - name: Proje süresi girişi
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fcommerce%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=/dynamics365/commerce/toc.json
                 - name: Project Timesheet
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fcommerce%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=/dynamics365/commerce/toc.json
                 - name: Satınalma siparişi onayı
                   href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?context=/dynamics365/context/commerce
                 - name: Satış siparişleri

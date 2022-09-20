@@ -8,8 +8,10 @@
           items:
             - name: Finans ve operasyon uygulamalarındaki yenilikler veya değişiklikler
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-            - name: Human Resources uygulamasındaki yenilikler veya değişiklikler
+            - name: Human Resources'daki yenilikler veya değişiklikler
               items:
+                - name: Human Resources 10.0.30 (birleştirilmiş altyapı)
+                  href: ./get-started/whats-new-changed-10-0-30.md
                 - name: Human Resources 10.0.29 (birleştirilmiş altyapı)
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (birleştirilmiş altyapı)
@@ -478,6 +480,8 @@
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: Kolaylaştırılmış personel girişi
               href: stream-employee-entry.md
+            - name: Başlık denetimini kişiselleştirme
+              href: hr-worker-header-control.md
             - name: Çalışan bilgilerini girme
               href: hr-personnel-enter-worker-information.md
             - name: İstihdamı bulunmayan çalışanlar

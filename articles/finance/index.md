@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9299a0ef4def8a41620ada24e8b13d7b41ed7cb7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a51a601f6e283c5f6d7298b1cf342056707ebbb8
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887904"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475597"
 ---
 # <a name="finance-home-page"></a>Finance giriş sayfası
 
@@ -41,7 +41,7 @@ Daha fazla bilgi edinmek için bir özellik alanı seçin.
         - [Maliyet muhasebesi](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Mali raporlama](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
+        - [Mali raporlama](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Sabit kıymetler](fixed-assets/fixed-assets.md)
         - [Finance Insights](finance-insights/finance-insights-home-page.md)
         - [Genel muhasebe ve Mali raporlama](general-ledger/general-ledger.md) 
@@ -64,7 +64,7 @@ Daha fazla bilgi edinmek için bir özellik alanı seçin.
 
 ### <a name="countryregion-functionality"></a>Ülke/bölge işlevi
 
-Ülke/bölge düzenlemeleri vergi ayarını ve mali yönetimin diğer alanlarını etkiler. Ülkeye/bölgeye özel işlevler hakkında bilgi edinmek için [yerelleştirme ve mevzuat özellikleri](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json) bölümüne bakın.
+Ülke/bölge düzenlemeleri vergi ayarını ve mali yönetimin diğer alanlarını etkiler. Ülkeye/bölgeye özel işlevler hakkında bilgi edinmek için [yerelleştirme ve mevzuat özellikleri](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) bölümüne bakın.
 
 ### <a name="additional-content"></a>Ek içerik
 
@@ -80,6 +80,6 @@ Satın almaları, stoğu ve imalatı yönetmeye yönelik özellikler hakkında b
 
 ## <a name="elearning-courses"></a>e-Öğrenme kursları
 
-Çevrimiçi kurslar ve eğitim için [Microsoft Learn'de Dynamics 365 Finance](/learn/browse/?products=dynamics-finance&resource_type=learning+path) konusuna bakın.
+Çevrimiçi kurslar ve eğitim için [Dynamics 365 Finance öğrenme yolları](/learn/browse/?products=dynamics-finance&resource_type=learning+path) konusuna bakın.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
