@@ -2,7 +2,7 @@
 title: Vergi Hesaplamaya genel bakış
 description: Bu makalede, Vergi Hesaplama özelliğinin tüm kapsamı ve özellikleri açıklanmaktadır.
 author: EricWangChen
-ms.date: 03/02/2022
+ms.date: 09/08/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 2765b922bcc58837c32973b7ca96e0d63eb8b9d6
-ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
+ms.openlocfilehash: a193db82b2b079c1e10fbfb6bfde7aa43b18bc4a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9296008"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465179"
 ---
 # <a name="tax-calculation-overview"></a>Vergi Hesaplamaya genel bakış
 
@@ -74,18 +74,10 @@ Vergi hesaplama yapılandırmanızı, Finance veya Supply Chain Management sür�
 
 | Finance veya Supply Chain Management sürümü | Vergi yapılandırması sürümü               |
 | --------------- | --------------------------------------- |
-| 10.0.18         | Vergi Yapılandırması - Avrupa 30.12.82     |
-| 10.0.19         | Vergi Hesaplama Yapılandırması 36.38.193 |
-| 10.0.20         | Vergi Hesaplama Yapılandırması 40.43.208 |
-| 10.0.21         | Vergi Hesaplama Yapılandırması 40.48.215 |
-| 10.0.22         | Vergi Hesaplama Yapılandırması 40.48.215 |
-| 10.0.23         | Vergi Hesaplama Yapılandırması 40.50.221 |
-| 10.0.24         | Vergi Hesaplama Yapılandırması 40.50.225 |
-| 10.0.25         | Vergi Hesaplama Yapılandırması 40.50.225 |
-| 10.0.26         | Vergi Hesaplama Yapılandırması 40.54.234 |
-| 10.0.27         | Vergi Hesaplama Yapılandırması 40.54.234 |
-| 10.0.28         | Vergi Hesaplama Yapılandırması 40.54.234 |
+| 10.0.30         | Vergi Hesaplama Yapılandırması 40.55.239 |
 | 10.0.29         | Vergi Hesaplama Yapılandırması 40.55.236 |
+| 10.0.28         | Vergi Hesaplama Yapılandırması 40.54.234 |
+| 10.0.27         | Vergi Hesaplama Yapılandırması 40.54.234 |
 
 
 ## <a name="data-flow"></a>Veri akışı
@@ -104,120 +96,27 @@ Vergi Hesaplama için veri akışı işleminin bir özetini burada bulabilirsini
 
 Vergi Hesaplama, hareketlere göre etkinleştirilebilir. 
 
-Aşağıdaki hareketler sürüm 10.0.21'de desteklenmektedir: 
+Aşağıdaki tabloda, ilgili sürümde desteklenen işlemler listelenmektedir.
 
-- Satışlar
-
-    - Satış teklifi
-    - Satış siparişi
-    - Onay
-    - Malzeme çekme listesi
-    - Sevk irsaliyesi
-    - Satış faturası
-    - Alacak dekontu
-    - Sipariş iadesi
-    - Başlık sair masrafları
-    - Satır sair masrafları
-
-- Satınalma
-
-    - Satın alma siparişi
-    - Onay
-    - Giriş listesi
-    - Ürün girişi
-    - Satınalma faturası
-    - Başlık sair masrafları
-    - Satır sair masrafları
-    - Alacak dekontu
-    - Sipariş iadesi
-    - Satınalma talebi
-    - Satın alma talebi satır sair masrafı
-    - Teklif talebi
-    - Teklif talebi başlık sair masrafı
-    - Teklif talebi satır sair masrafı
-
-- Stok
-
-    - Transfer emri - sevk
-    - Transfer emri - al
-
-Aşağıdaki hareketler sürüm 10.0.23'te desteklenmektedir: 
-
-- Serbest metin faturası
-
-Aşağıdaki hareketler sürüm 10.0.26'de desteklenmektedir: 
-
-- Yevmiye defterleri
-- Satıcı fatura günlüğü
-
-Aşağıdaki hareketler sürüm 10.0.28'de desteklenmektedir: 
-
-- Satıcı ödeme günlüğü
-- Müşteri ödeme günlüğü
-
-Aşağıdaki hareketler sürüm 10.0.29'te desteklenmektedir: 
-
-
-- Periyodik günlükler
+| Sürüm | Hareketler |
+|---------|--------------|
+| 10.0.29 | Periyodik günlükler |
+| 10.0.28 | Satıcı ödeme günlüğü<br> Müşteri ödeme günlüğü | 
+| 10.0.26 | Yevmiye defterleri<br> Satıcı fatura günlüğü |
+| 10.0.23 | Serbest metin faturası |
+| 10.0.21| Satış<br><ul><li>Satış teklifi</li><li>Satış siparişi</li><li>Onay</li><li>Malzeme çekme listesi</li><li>Sevk irsaliyesi</li><li>Satış faturası</li><li>Alacak dekontu</li><li>Sipariş iadesi</li><li>Başlık sair masrafları</li><li>Satır sair masrafları</li></ul>Satınalma<br><ul><li>Satın alma siparişi</li><li>Onay</li><li>Giriş listesi</li><li>Ürün girişi</li><li>Satınalma faturası</li><li>Başlık sair masrafları</li><li>Satır sair masrafları</li><li>Alacak dekontu</li><li>Sipariş iadesi</li><li>Satınalma talebi</li><li>Satın alma talebi satır sair masrafı</li><li>Teklif talebi</li><li>Teklif talebi başlık sair masrafı</li><li>Teklif talebi satır sair masrafı</li></ul>Stok<ul><li>Transfer emri - sevk</li><li>Transfer emri - al</li></ul>|
 
 ## <a name="supported-countriesregions"></a>Desteklenen ülkeler/bölgeler
 
-Vergi hesaplaması, bir tüzel kişiliğin birincil adresi için aşağıdaki ülkelerde/bölgelerde bulunan desteklenen yerelleştirme özellikleriyle çalıştırılabilir: 
+Vergi Hesaplaması, desteklenen yerelleştirme özellikleriyle çalıştırılabilir. Aşağıdaki tabloda, tüzel kişiliğin birincil adresi için ülkeler/bölgeler listelenmektedir.
 
-10.0.21 sürümünde desteklenenler:
-
-- Avusturya
-- Belçika
-- Danimarka
-- Estonya
-- Finlandiya
-- Fransa
-- Almanya
-- Macaristan
-- İzlanda
-- İrlanda
-- İtalya
-- Letonya
-- Litvanya
-- Hollanda
-- Norveç
-- Polonya
-- İsveç
-- İsviçre
-- Birleşik Krallık
-- Amerika Birleşik Devletleri
-
-10.0.22 sürümünde desteklenenler:
-
-- Avustralya
-- Bahreyn
-- Kanada
-- Mısır
-- Hong Kong Çin ÖİB
-- Kuveyt
-- Yeni Zelanda
-- Umman
-- Katar
-- Suudi Arabistan
-- Güney Afrika
-- Birleşik Arap Emirlikleri
-
-10.0.23 sürümünde desteklenenler:
-
-- Tayland
-- Japonya
-- Malezya
-- Singapur
-
-10.0.24 sürümünde desteklenenler:
-
-- Meksika
-
-10.0.26 sürümünde desteklenenler:
-
-- Çin
-- Çek Cumhuriyeti
-- İspanya
+| Sürüm | Ülke/bölge |
+|---------|----------------|
+| 10.0.26 | - Çin <br>- Çek Cumhuriyeti<br>- İspanya |
+| 10.0.24 | Meksika |
+| 10.0.23 | - Tayland <br>- Japonya <br>- Malezya <br>- Singapur |
+| 10.0.22 | - Avustralya<br>- Bahreyn <br>- Kanada<br>- Mısır <br>- Hong Kong ÖİB <br>- Kuveyt <br>- Yeni Zelanda <br>- Umman <br>- Katar <br>- Suudi Arabistan Arapçası <br>- Güney Afrika <br>- Birleşik Arap Emirlikleri |
+| 10.0.21 | - Avusturya <br>- Belçika <br>- Danimarka <br>- Estonya <br>- Finlandiya <br>- Fransa <br>- Almanya <br>- Macaristan <br>- İzlanda <br>- İrlanda <br>- İtalya <br>- Letonya <br>- Litvanya <br>- Hollanda <br>- Norveç <br>- Polonya <br>- İsveç <br>- İsviçre <br>- Birleşik Krallık <br>- ABD |
 
 Microsoft tarafından yerelleştirilmemiş herhangi bir ülke/bölge için vergi hesaplaması diğer global özelliklerle de etkinleştirilebilir ve çalıştırılabilir.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 36eb5e788d0473e2fec2214e9aa7e245304347e3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ba8e9790a5b7eb00b20fba19f452118e1f05fed0
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875086"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428267"
 ---
 # <a name="consolidate-shipments-released-to-the-warehouse-using-automatic-release-of-sales-orders"></a>Satış siparişlerinin otomatik serbest bırakılması kullanılarak ambara serbest bırakıldıklarında sevkiyatları konsolide etme
 
@@ -313,7 +313,7 @@ Bitirdiğinizde, dört sevkiyatın oluşturulduğunu görmelisiniz:
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-- [Sevkiyat konsolidasyonu ilkeleri](about-shipment-consolidation-policies.md)
+- [Sevkiyat konsolidasyon ilkelerine genel bakış](about-shipment-consolidation-policies.md)
 - [Sevkiyat konsolidasyon ilkelerini yapılandırma](configure-shipment-consolidation-policies.md)
 
 

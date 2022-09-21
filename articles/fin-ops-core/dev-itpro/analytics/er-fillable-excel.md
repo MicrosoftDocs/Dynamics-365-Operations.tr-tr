@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.form: EROperationDesigner, ERParameters
-ms.openlocfilehash: 2feadf8e196936220cf557989cae40b742447d99
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: ff44226b7deb15bc673d121d62cad44309b5d78b
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280939"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476840"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Excel biçiminde belgeler oluşturmak için bir yapılandırma tasarlama
 
@@ -186,6 +186,9 @@ ER İşlem tasarımcısının **Eşleme** sekmesinde, nesnenin oluşturulan bir 
 
 > [!NOTE]
 > Her Excel resmi ve şekli, sol üst köşesi tarafından belirli bir Excel hücresine veya aralığına tutturulmuş olarak kabul edilir. Excel resmini veya şeklini yinelemek istiyorsanız tutturulduğu hücreyi veya aralığı yinelenmiş hücre veya aralık olarak yapılandırmanız gerekir.
+
+> [!TIP]
+> Çalışma zamanında özel ölçeklendirme ve en boy oranına sahip bir görüntü kullanmayı planlıyorsanız kullandığınız Excel şablonunda bu görüntünün yer tutucusu olarak ölçekleme ve en boy oranını uygulamak için üst [Excel dosyası bileşeninin](#excel-file-component) **Resim ölçeklendirmesini uygula** seçeneğini **Evet** olarak ayarlamanızı öneririz.
 
 Görüntüleri ve şekilleri gömme hakkında daha fazla bilgi için, bkz. [ER kullanarak oluşturduğunuz belgelere resimler ve şekiller katıştırma](electronic-reporting-embed-images-shapes.md)
 

@@ -2,7 +2,7 @@
 title: Çevre birimleri
 description: Bu makale, Commerce çevre birimleriyle ilgili kavramları açıklar.
 author: BrianShook
-ms.date: 03/01/2022
+ms.date: 09/08/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -12,12 +12,12 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3113626b18ad7f074c808d7631d13b09071bef2
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880093"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460007"
 ---
 # <a name="peripherals"></a>Çevre birimleri
 
@@ -141,6 +141,9 @@ POS çevre birimleri durumunda, pek çok USB cihazı takılabilir ve Windows bun
 Modern POS UWP MSR'leri ve tarayıcıları destekler. Bu nedenle, Modern POS, bu cihazların birinden gelen bir giriş için hazır olduğunda ve bu cihaz sınıflarının birine ait bir cihaz bağlandığında, cihaz kullanılabilir. Örneğin, bir tak ve kullan barkod tarayıcı Windows 10 bilgisayara takılırsa ve barkod oturum açma Modern POS için yapılandırılırsa, barkod tarayıcı oturum açma sayfası üzerinde etkin hale gelir. Ek kurulum gerekli değildir.
 
 Windows'a, örneğin nakit çekmeceleri ve makbuz yazıcılarıne yönelik sınıflar gibi ek POS çevre birimleri sınıfları eklenmektedir. Modern POS'ta bu yeni sınıflar için destek beklemededir.
+
+> [!NOTE] 
+> Bazı USB cihazları, [USB Seçmeli Askıya Alma](/windows-hardware/drivers/usbcon/usb-selective-suspend) adı verilen bir Windows 10 güç yönetimi özelliği tarafından yönetildiğinde yanıt vermeyebilir veya güvenilir olmayabilir. Bir USB çevre birimi yanıt vermemeye başlarsa bu cihaz için seçmeli askıya alma özelliğini devre dışı bırakmak gerekebilir. Daha fazla bilgi için bkz. [Seçmeli Askıya Almayı Etkinleştirme](/windows-hardware/drivers/usbcon/usb-selective-suspend#enabling-selective-suspend). 
 
 ### <a name="keyboard-wedge"></a>Klavye emülasyonu
 

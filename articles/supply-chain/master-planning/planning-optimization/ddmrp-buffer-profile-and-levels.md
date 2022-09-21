@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: dd72332abefd31fd391ff66931a5abae0efb08de
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 57ee6206da926d0dbf62f562197538bfcdd41148
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186756"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428157"
 ---
 # <a name="buffer-profile-and-levels"></a>Tampon profili ve düzeyleri
 
@@ -77,6 +77,14 @@ Son ADU, belirli sayıda geçmiş gün boyunca her gün kullanılan miktarların
 
 - **ADU (geçmiş)** = (29 + 11 + 23) ÷ 3 = 21
 
+Ortalama günlük kullanım (geriye dönük) hesaplaması için aşağıdaki hareketler dikkate alınır:
+
+- Maddenin miktarını azaltan hareketler (miktarın sıfırdan küçük olduğu `inventtrans` tablosuda)
+- Durumu *Sipariş üzerine*, *Rezerve sipariş edildi*, *Fiziksel rezerve edildi* *Teslim alındı*, *Düşüldü* veya *Satıldı* olan işlemler
+- Seçilen geriye dönük dönem içinde tarihlenen işlemler (geçmiş dönemin ortalama günlük kullanımı)
+- Ambar işi, karantina, satış teklifleri veya ekstreler (`WHSWork`, `WHSQuarantine`, `SalesQuotation` veya `Statement`) dışındaki hareketler
+- Aynı kapsam boyutunda olan transfer günlükleri dışındaki hareketler
+
 ### <a name="average-daily-usage-forward"></a>Günlük ortalama kullanım (ileri)
 
 Yeni bir ürünle ilgili geçmiş kullanım veriniz bulunmayabilir. Bu nedenle, ileriye dönük tahmini ADU'yu (örneğin, tahmini talebe göre) kullanabilirsiniz. Aşağıdaki çizimde ileriye dönük üç güne (bugün dahil) bakılarak hesaplama yapıldığında yaklaşımın nasıl çalıştığı gösterilmektedir.
@@ -86,6 +94,11 @@ Yeni bir ürünle ilgili geçmiş kullanım veriniz bulunmayabilir. Bu nedenle, 
 Önceki çizimde bugün 11 Haziran ise önümüzdeki üç günün (11, 12 ve 13 Haziran) ADU'su 21,66 olarak hesaplanır.
 
 - **ADU (ileri)** = (18 + 18 + 29) ÷ 3 = 21,66
+
+Ortalama günlük kullanım (ileriye dönük) hesaplaması için aşağıdaki hareketler dikkate alınır:
+
+- Ana planda tahminin seçildiği öğe için tahmin hareketleri
+- Seçilen ileriye dönük dönem içinde tarihlenen işlemler (ileriye dönük dönemin ortalama günlük kullanımı)
 
 ### <a name="average-daily-usage-blended"></a>Ortalama günlük kullanım (karma)
 

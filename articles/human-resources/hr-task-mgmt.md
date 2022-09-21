@@ -2,7 +2,7 @@
 title: Görev yönetimi
 description: Bu makalede, Microsoft Dynamics 365 Human Resources'da kullanılabilen görev yönetimi işlevleri açıklanmaktadır.
 author: twheeloc
-ms.date: 12/20/2021
+ms.date: 09/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,14 +12,14 @@ ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2021-29-11
+ms.search.validFrom: 2022-06-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c567f6d74e6ff87a72ff3b8663ca3a291dff3abb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 29b547ff4f55b572ab774e7e70949ec8cb53ef42
+ms.sourcegitcommit: 167f73a834629752c6b79c312d744e52df7f0927
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897878"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9445907"
 ---
 # <a name="task-management"></a>Görev yönetimi
 
@@ -69,7 +69,13 @@ Her üç sekmede İK asistanları ve yöneticiler aşağıdaki faaliyetleri tama
 
 Görevleri tek olarak oluşturup birden çok denetim listesinde yeniden kullanabilirsiniz. Görev oluşturmak için, **Ekleme kurulumu** sayfasında, **Görevler** sekmesinde, **Yeni**'yi seçin.
 
+Oluşturulan bir görevi, görevi seçip ardından menüden **Denetim listelerine uygula**'yı seçerek birden çok denetim listesine atayabilirsiniz.
+
 Alternatif olarak, görevleri doğrudan bir denetim listesine ekleyebilirsiniz. Bir denetim listesine görev eklemek için, **Ekleme kurulumu** sayfasında, **Denetim listesi** sekmesinde, görevi eklemek için yeni bir denetim listesi oluşturun veya görevi varolan bir denetim listesine ekleyin.
+
+Kitaplıktaki bir görevi düzenlemek için görev kitaplığı menüsünden **Düzenle**'yi seçin. Görev herhangi bir denetim listesiyle ilişkiliyse bu denetim listeleri **Görevi düzenle** sayfasında gösterilir. Denetim listelerindeki görevlerin düzenlemelerle güncelleştirilmesini istiyorsanız **Denetim listelerine uygula** bölümünden bu denetim listelerini seçin.
+
+Kitaplıktan görevleri silmek için **Sil** seçeneğini belirleyin. Görev herhangi bir denetim listesiyle ilişkiliyse bu eylem görevi denetim listesinden silmez. Görevin denetim listesinden ayrı bir eylemle kaldırılması gerekir.
 
 > [!NOTE]
 > Bir görevi doğrudan bir denetim listesine eklerseniz diğer denetim listelerinde bunu yeniden kullanamazsınız.
@@ -133,7 +139,15 @@ Karmaşık görevler için birden fazla adım gerekebilir veya görevleri uygula
 
 ## <a name="setting-up-checklists"></a>Denetim listelerini ayarlama
 
-Denetim listesi bir görev grubudur. Gereksinim duyduğunuz kadar çok sayıda denetim listesi oluşturabilir ve aynı görevleri birden çok denetim listesine atayabilirsiniz. Bir denetim listesi oluşturduğunuzda, bir sahip ve takvim belirtirsiniz.
+Denetim listesi bir görev grubudur. Gereksinim duyduğunuz kadar çok sayıda denetim listesi oluşturabilir ve aynı görevleri birden çok denetim listesine atayabilirsiniz.
+
+Denetim listesinde yeni bir görev oluşturmak için **Görevler** menü çubuğundan **Yeni**'yi seçin. Yeni bir görev oluşturduğunuzda, birden çok denetim listesi arasında paylaşılabilmesi için görev kitaplığına eklemeyi seçebilirsiniz. Görevi kitaplığa yalnızca **Görevi kitaplığa uygula** seçeneği **Evet** olarak ayarlanmışsa ekleyebilirsiniz. Görevi görev kitaplığına eklerseniz **Denetim listelerine uygula** bölümünde bu denetim listelerini seçerek aynı anda diğer denetim listelerine de ekleyebilirsiniz. Görevi kitaplığa eklemezseniz yalnızca görevi oluşturduğunuz denetim listesinde bulunur.
+
+Denetim listesindeki bir görevi düzenlemek için **Düzenle**'yi seçin. Görev herhangi bir denetim listesiyle ilişkiliyse bu denetim listeleri **Görevi düzenle** sayfasında gösterilir. Diğer denetim listelerindeki görevlerin düzenlemelerle güncelleştirilmesini istiyorsanız **Denetim listelerine uygula** bölümünde bu denetim listelerini seçin.
+
+Denetim listesinden görevleri kaldırmak için **Kaldır**'ı seçin. Bu eylem yalnızca görevleri denetim listesinden kaldırır. Bunları görev kitaplığından silmez. Kitaplıktan bir görevi silmek için görev kitaplığı sayfasına gidin ve **Sil**'i seçin.
+
+Bir denetim listesi oluşturduğunuzda, bir sahip ve takvim belirtirsiniz.
 
 Görevin **Atama türü** alanı **Pozisyon**, **Yönetici** veya **Grup** olarak ayarlanmışsa ancak atama türünden belirli bir kişi türetilemiyorsa görev, denetim listesi sahibine atanır. Aşağıda, görevlerin denetim listesi sahibine atanacağı durumlara örnek verilmiştir:
 

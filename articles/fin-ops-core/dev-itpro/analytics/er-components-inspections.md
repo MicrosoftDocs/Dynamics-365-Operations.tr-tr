@@ -2,7 +2,7 @@
 title: Çalışma zamanı sorunlarını önlemek için yapılandırılmış ER bileşenini denetleme
 description: Bu makalede, oluşabilecek çalışma zamanı sorunlarını önlemek için yapılandırılmış elektronik raporlama (ER) bileşenlerinin nasıl denetleneceği açıklamaktadır.
 author: kfend
-ms.date: 01/03/2022
+ms.date: 09/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
-ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1ca59d6c26dbcf065adb952409da30002d951f62
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277865"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476867"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Çalışma zamanı sorunlarını önlemek için yapılandırılmış ER bileşenini denetleme
 
@@ -243,6 +243,15 @@ Aşağıdaki tabloda, ER tarafından sağlanan denetlemeler hakkında genel bilg
 <td>
 <p>ORDERBY işlevinin liste ifadesi sorgulanabilir değil.</p>
 <p><b>Çalışma zamanı hatası:</b> Sıralama desteklenmiyor. Bu konuda daha fazla ayrıntı öğrenmek için yapılandırmayı doğrulayın.</p>
+</td>
+</tr>
+<tr>
+<td><a href='#i19'>Eski uygulama yapıtı</a></td>
+<td>Veri bütünlüğü</td>
+<td>Uyarı</td>
+<td>
+<p>&lt;path&gt; öğesi eski olarak işaretlenmiştir.<br>veya<br>&lt;path&gt; öğesi, &lt;ileti metni&gt; ile eski olarak işaretlenmiştir.</p>
+<p><b>Çalışma zamanı hata örneği:</b> "&lt;path&gt;" sınıfı bulunamadı.</p>
 </td>
 </tr>
 </tbody>
@@ -942,6 +951,36 @@ Bu sorunu otomatik olarak düzeltme seçeneği bulunmaz.
 #### <a name="option-2"></a>Seçenek 2
 
 **FilteredVendors** veri kaynağı ifadesini, `ORDERBY("Query", Vendor, Vendor.AccountNum)` yerine `ORDERBY("InMemory", Vendor, Vendor.AccountNum)` olacak şekilde değiştirin. Büyük bir veri hacmi bulunan bir tablo (işlem tablosu) için ifadeyi değiştirmenizi önermeyiz çünkü bu durumda tüm kayıtlar getirilir ve gerekli kayıtların sıralanması işlemi bellekte yapılır. Bu nedenle, bu yaklaşım düşük performansa neden olabilir.
+
+## <a name="obsolete-application-artifact"></a><a id="i19"></a>Eski uygulama yapıtı
+
+Bir ER model eşleme bileşeni veya ER biçimi bileşeni tasarladığınızda, ER'de veritabanı tablosu, sınıf yöntemi vb. gibi bir uygulama yapıtını çağırmak için bir ER ifadesi yapılandırabilirsiniz. Finance 10.0.30 ve sonraki sürümlerde, ER'yi başvurulan uygulama yapıtının kaynak kodunda eski olarak işaretlendiği konusunda sizi uyarmaya zorlayabilirsiniz. Bu uyarı yararlı olabilir çünkü genellikle eski yapıtlar sonunda kaynak kodundan kaldırılır. Bir yapıtın durumu hakkında bilgi sahibi olmak, kaynak kodundan kaldırılmadan önce düzenlenebilir ER bileşenindeki eski yapıtı kullanmanızı durdurabilir ve çalışma zamanında bir ER bileşeninden var olmayan uygulama yapıtlarını çağırma hatalarını önlemeye yardımcı olur.
+
+Düzenlenebilir bir ER bileşeninin incelenmesi sırasında uygulama yapıtlarının eski özniteliğini değerlendirmeye başlamak için **Özellik yönetimi** çalışma alanındaki **Elektronik Raporlama veri kaynaklarının eski öğelerini doğrulama** özelliğini etkinleştirin. Eski özniteliği şu anda aşağıdaki uygulama yapıtı türleri için değerlendirilmektedir:
+
+- Veritabanı tablosu
+    - Tablonun alanı
+    - Tablo yöntemi
+- Uygulama sınıfı
+    - Bir sınıfın yöntemi
+
+> [!NOTE]
+> Eski bir yapıta başvuran bir veri kaynağı için düzenlenebilir ER bileşeninin incelenmesi sırasında, yalnızca bu veri kaynağı bu ER bileşeninin en az bir bağlamasında kullanıldığında bir uyarı oluşur.
+
+> [!TIP]
+> [SysObsoleteAttribute](../dev-ref/xpp-attribute-classes.md#sysobsoleteattribute) sınıfı, derleyiciyi hata yerine uyarı iletileri vermesi için bilgilendirmek amacıyla kullanıldığında, inceleme uyarısı, **Model eşleme tasarımcısı** veya **Biçim tasarımcısı** sayfasındaki **Ayrıntılar** hızlı sekmesinde tasarım zamanında kaynak kodunda belirtilen uyarıyı sunar.
+
+Aşağıdaki çizimde, `CompanyInfo` uygulama tablosunun eski `DEL_Email` alanı yapılandırılmış `company` veri kaynağı kullanılarak bir veri modeli alanına bağlandığında oluşan doğrulama uyarısı gösterilmektedir.
+
+![Model eşleme tasarımcısı sayfasındaki Ayrıntılar hızlı sekmesindeki doğrulama uyarılarını gözden geçirin.](./media/er-components-inspections-19a.png)
+
+### <a name="automatic-resolution"></a>Otomatik çözüm
+
+Bu sorunu otomatik olarak düzeltme seçeneği bulunmaz.
+
+### <a name="manual-resolution"></a>El ile çözüm
+
+Eski bir uygulama yapıtına başvuran bir veri kaynağına olan tüm bağları kaldırarak yapılandırılmış model eşlemesini veya biçimini değiştirin.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

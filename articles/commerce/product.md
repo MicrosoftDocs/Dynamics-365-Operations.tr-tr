@@ -2,7 +2,7 @@
 title: POS'ta ürün önerileri ekleme
 description: Bu makalede bir satış noktasında (POS) ürün önerilerinin nasıl kullanılacağı açıklanmaktadır.
 author: bebeale
-ms.date: 05/26/2020
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 442ae540b04588afd9aeb37a92c6ceb92c05a9ba
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 170e2bf18aefc79a796620818c7100ff8e6e689a
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872811"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460069"
 ---
 # <a name="add-product-recommendations-on-pos"></a>POS'ta ürün önerileri ekleme
 
@@ -37,7 +37,7 @@ Temel olarak ürün önerileri; zengin, çekici ve özel ürün keşfi deneyimle
 
 1. **Ürün ayrıntıları** sayfasında:
 
-    - Mağaza çalışanı farklı kanallardan gerçekleştirilen önceki hareketlere bakarken **Ürün ayrıntıları** sayfasını ziyaret ederse öneriler hizmeti, birlikte satın alınabilecek ek maddeleri önerir.
+    - Mağaza çalışanı farklı kanallardan gerçekleştirilen önceki hareketlere bakarken **Ürün ayrıntıları** sayfasını ziyaret ederse öneriler hizmeti, birlikte satın alınabilecek ek maddeleri önerir. Hizmetin eklentilerine bağlı olarak, perakendeciler daha önce satın alma geçmişi olan kullanıcılar için kişiselleştirilmiş önerilere ek olarak, ürünlere yönelik **Benzer görünümleri araştır** ve **Benzer açıklamaları araştır** önerileri gösterebilir.
 
     [![Ürün ayrıntıları sayfasında öneriler.](./media/proddetails.png)](./media/proddetails.png)
 
@@ -50,21 +50,17 @@ Temel olarak ürün önerileri; zengin, çekici ve özel ürün keşfi deneyimle
 
     [![Hareketler sayfasında öneriler.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-## <a name="configure-commerce-to-enable-pos-recommendations"></a>POS önerilerini etkinleştirmek için Commerce yapılandırma
+## <a name="configure-commerce-to-enable-pos-recommendations"></a>POS önerilerini etkinleştirmek için Commerce yapılandırma 
 
-Ürün önerilerini ayarlamak için aşağıdaki adımları izleyin:
+Ürün önerilerini ayarlamak için [Ürün önerilerini etkinleştirme](../commerce/enable-product-recommendations.md) bölümündeki adımları izleyerek Commerce ürün önerileri için sağlama işlemini tamamladığınızı onaylayın. Varsayılan olarak, öneriler, sağlama adımları tamamlandıktan ve veriler başarıyla işlendikten sonra hem **Ürün ayrıntıları** sayfasında hem de **Müşteri ayrıntıları** sayfasında görünür. 
 
-1. Hizmetinizin **10.0.6 derlemesine** güncelleştirildiğinden emin olun.
-2. İşletmeniz için [ürün önerilerini etkinleştirme](../commerce/enable-product-recommendations.md) yönergelerini izleyin.
-3. İsteğe bağlı: Hareket ekranında önerileri görüntülemek için **Ekran düzeni**'ne gidin ekran düzeninizi seçin, **Ekran düzeni tasarımcısı**'nı başlatın ve sonra **öneriler** denetimini gereken yere bırakın.
-4. **Commerce parametreleri**'ne gidin, **Makine öğrenimi**'ni seçin, **POS önerilerini etkinleştir** altından **Evet** seçeneğini seçin.
-5. Önerileri POS'ta görmek için genel yapılandırma işini **1110** çalıştırın. Yapılan değişiklikleri POS ekran düzeni tasarımcısına yansıtmak için, kanal yapılandırma işini **1070** çalıştırın.
+## <a name="add-recommendations-to-the-transaction-screen"></a>Hareket ekranına öneriler ekleme
 
-## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Zaten etkinleştirilmiş ürün önerileriyle ilgili sorunları giderme
+1. Hareket ekranına öneriler eklemek için [Hareket ekranına öneri ekleme](add-recommendations-control-pos-screen.md) bölümündeki adımları izleyin.
+1. POS ekran düzeni tasarımcısında yapılan değişiklikleri yansıtmak için Commerce headquarters'da kanal yapılandırma işi **1070**'i çalıştırın.
 
-- **Commerce Parametreleri** \> **Öneri listeleri** \> **Ürün önerilerini devre dışı bırak**'a gidip **Genel yapılandırma işi \[9999\]**'u çalıştırın. 
-- **Öneriler denetimini** hareket ekranınıza **Ekran düzeni tasarımcısını** kullanarak eklediyseniz bunu da kaldırın.
-- Başka sorularınız olursa daha fazla bilgi edinmek için [Ürün önerileri SSS](../commerce/faq-recommendations.md) başlıklı makaleye göz atın.
+> [!NOTE] 
+> RecoMock virgülle ayrılmış değerler (CSV) dosyasını kullanarak POS önerilerini etkinleştirmek istiyorsanız düzen yöneticisini yapılandırmadan önce CSV dosyasını Microsoft Dynamics Lifecycle Services (LCS) varlık kitaplığına dağıtmanız gerekir. RecoMock CSV dosyasını kullanıyorsanız önerileri etkinleştirmeniz gerekmez. CSV dosyası yalnızca demo amacıyla kullanılabilir. Bir eklenti stok tutma birimi (SKU) satın almak zorunda kalmadan demo amacıyla öneri listelerinin görünümünü taklit etmek isteyen müşteriler veya çözüm mimarları için önerilir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

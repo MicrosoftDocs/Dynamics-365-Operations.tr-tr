@@ -2,7 +2,7 @@
 title: Ürün önerilerini etkinleştir
 description: Bu makale, Microsoft Dynamics 365 Commerce müşterileri için yapay bilgi destek sistemi öğrenme (AI-ML) tabanlı ürün önerilerinin nasıl yapılacağını açıklamaktadır.
 author: bebeale
-ms.date: 08/31/2021
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dceec9e8e994a81b43cd5d1bd13970f2d246f40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc1b43fa70e6652d38b1141e2d93cf323f70a756
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892083"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460034"
 ---
 # <a name="enable-product-recommendations"></a>Ürün önerilerini etkinleştir
 
@@ -36,12 +36,19 @@ Bu makale, Microsoft Dynamics 365 Commerce müşterileri için yapay bilgi deste
 1. Azure AD Kimlik yapılandırmasının Öneriler için bir giriş içerdiğini onaylayın. Bu eylemin nasıl yapılacağı ile ilgili daha fazla bilgi aşağıda verilmektedir.
 1. Varlık deposunun Azure Data Lake Storage Gen2 için günlük yenilemesinin planlandığından emin olun. Daha fazla bilgi için bkz. [Varlık deposu yenilemesinin otomatik yapıldığından emin olun](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 1. Varlık mağazası için RetailSale ölçümlerini etkinleştirin. Bu işlemin ayarlanması hakkında daha fazla bilgi için bkz. [Ölçümlerle çalışma](/dynamics365/ai/customer-insights/pm-measures).
+1. Ortamınızın şu anda desteklenen bölgelerdeki servis ve pişirme bölgelerini aşağıdaki gibi yapılandırdığından emin olun:
+
+    - **Desteklenen pişirme bölgeleri:** AB/ABD/CA/AU.
+    - **Desteklenen hizmet bölgeleri:** ABD/CA/AU. Sunulan bölge mevcut desteklenen bölgelerden biriyle eşleşmiyorsa öneriler hizmeti desteklenen en yakın hizmet bölgesini seçer.
 
 Yukarıdaki adımlar tamamlandıktan sonra, önerileri etkinleştirmeye hazır olursunuz.
 
+> [!NOTE]
+> Aşağıdaki adımlar tamamlandıktan sonra önerilerin görünmemesine yol açan bilinen bir sorun vardır. Bu sorun, ortamdaki veri akışı sorunları nedeniyle oluşur. Ortamınız öneri sonuçlarını göstermiyorsa [Öneriler için alternatif veri akışı ayarlama](set-up-alternate-data-flow.md) bölümündeki adımları izleyerek öneriler hizmeti için alternatif verileri yapılandırın. Bu adımları tamamlamak için Azure yöneticisi izinlerine sahip olmanız gerekir. Yardıma ihtiyacınız varsa FastTrack temsilcinizle iletişime geçin.
+
 ## <a name="azure-ad-identity-configuration"></a>Azure AD Kimlik yapılandırması
 
-Bu adım yalnızca hizmet olarak altyapı (IaaS) yapılandırması çalıştıran müşteriler için gereklidir. Azure AD Kimlik yapılandırması, Azure Service Fabric üzerinde çalışan müşteriler için otomatiktir ancak ayarın beklendiği gibi yapılandırıldığını doğrulamanız önerilir.
+Bu adım yalnızca hizmet olarak altyapı (IaaS) yapılandırması çalıştıran müşteriler için gereklidir. Azure AD kimlik yapılandırması, Azure Service Fabric üzerinde çalışan müşteriler için otomatiktir ancak ayarın beklendiği gibi yapılandırıldığını doğrulamanız önerilir.
 
 ### <a name="setup"></a>Kurulum
 
@@ -94,9 +101,11 @@ Kişiselleştirilmiş ürün önerileri hakkında daha fazla bilgi için bkz. [K
 
 [Dynamics 365 Commerce ortamında Azure Data Lake Storage'yi etkinleştirme](enable-adls-environment.md)
 
-[Kişiselleştirilmiş önerileri etkinleştirme](personalized-recommendations.md)
+[Öneriler için alternatif veri akışı ayarlama](set-up-alternate-data-flow.md)
 
-["Benzer görünümleri araştır" önerilerini etkinleştirme](shop-similar-looks.md)
+[Kişiselleştirilmiş önerileri etkinleştir](personalized-recommendations.md)
+
+["Benzer görünümdeki mağaza" önerilerini etkinleştirme](shop-similar-looks.md)
 
 [Kişiselleştirilmiş önerilerden vazgeçme](personalization-gdpr.md)
 
@@ -111,6 +120,7 @@ Kişiselleştirilmiş ürün önerileri hakkında daha fazla bilgi için bkz. [K
 [Demo verileriyle öneriler oluşturma](product-recommendations-demo-data.md)
 
 [Ürün önerileri SSS](faq-recommendations.md)
+
 
 
 

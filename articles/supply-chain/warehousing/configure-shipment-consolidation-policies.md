@@ -2,7 +2,7 @@
 title: Sevkiyat konsolidasyon ilkelerini yapılandırma
 description: Bu makale, varsayılan ve özel sevkiyat konsolidasyon ilkelerinin nasıl ayarlanacağını açıklar.
 author: Mirzaab
-ms.date: 08/09/2022
+ms.date: 09/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 4583d523811cb41518a0a4dae0d67398d64cab44
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 0312d425d2ebc5311e894030423a916b90f1881a
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336507"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427995"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Sevkiyat konsolidasyon ilkelerini yapılandırma
 
@@ -28,75 +28,49 @@ Otomatik ve el ile gerçekleştirilen ambara serbest bırakma sırasında, sevki
 
 Bu makalede sunulan senaryolar, varsayılan ve özel sevkiyat konsolidasyon ilkelerinin nasıl ayarlanacağını gösterir.
 
-## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Sevkiyat konsolidasyon ilkeleri özelliğini açma
+> [!WARNING]
+> Eski sevkiyat konsolidasyonu özelliğini kullandığınız bir Microsoft Dynamics 365 Supply Chain Management sistemini yükseltirseniz burada verilen önerileri izlemediğiniz sürece konsolidasyon beklediğiniz gibi çalışmayabilir.
+>
+> *Sevkiyat konsolidasyon ilkeleri* özelliğinin kapalı olduğu Supply Chain Management kurulumlarında, her bir ambar için **Ambara serbest bırakma sırasında sevkiyatı konsolide et** ayarını kullanarak sevkiyat konsolidasyonunu etkinleştirirsiniz. Bu özellik, 10.0.29 sürümünden itibaren zorunludur. Etkinleştirildiğinde, **Ambara serbest bırakma sırasında sevkiyatı konsolide et** ayarı gizlenir ve işlev, bu makalede açıklanan *sevkiyat konsolidasyon ilkeleri* tarafından değiştirilir. Her ilke konsolidasyon kuralları oluşturur ve ilkenin nerede uygulanacağını denetlemek için bir sorgu içerir. Özelliği ilk açtığınızda, **Sevkiyat konsolidasyon ilkeleri** sayfasında hiçbir sevkiyat konsolidasyon ilkesi tanımlanmaz. Hiçbir ilke tanımlanmadığında, sistem eski davranışı kullanır. Bu nedenle, mevcut her ambar, bu ayar artık gizlenmiş olsa bile, **Smbara serbest bırakma sırasında sevkiyatı konsolide et** ayarına uymaya devam eder. Ancak en az bir sevkiyat konsolidasyon ilkesi oluşturduktan sonra, **Ambara serbest bırakma sırasında sevkiyatı konsolide et** ayarlarının artık herhangi bir etkisi olmaz ve konsolidasyon işlevi tamamen ilkeler tarafından denetlenir.
+>
+> En az bir sevkiyat konsolidasyon ilkesi tanımladıktan sonra, bir siparişin ambara her serbest bırakılışında sistem konsolidasyon ilkelerini kontrol eder. Sistem, her politikanın **İlke sırası** değeri tarafından tanımlanan sıralamayı kullanarak ilkeleri işler. Sorgunun yeni siparişle eşleştiği ilk ilkeyi uygular. Hiçbir sorgu siparişle eşleşmezse her sipariş satırı tek bir yükleme satırına sahip olan ayrı bir sevkiyat oluşturur. Bu nedenle, bir geri dönüş olarak, sipariş numarasına göre tüm ambarlar ve gruplar için geçerli olan varsayılan bir ilke oluşturmanızı öneririz. En son işlenmesi için bu geri dönüş ilkesine en yüksek **İlke sırası** değerini sağlayın.
+>
+> Eski davranışı yeniden oluşturmak için sipariş numarasına göre gruplandırılmayan ve ilgili tüm ambarları içeren sorgu ölçütlerine sahip bir ilke oluşturmanız gerekir.
 
-> [!IMPORTANT]
-> Bu makalede açıklanan [ilk senaryoda](#scenario-1), ilk olarak önceki sevkiyat konsolidasyon özelliğini kullanacak şekilde bir ambar ayarlarsınız. Daha sonra, sevkiyat konsolidasyon ilkelerinin kullanılabilmesini sağlayabilirsiniz. Böylece, yükseltme senaryosunun nasıl çalıştığını görebilirsiniz. İlk senaryo üzerinden gitmek için demo veri ortamı kullanmayı planlıyorsanız senaryoyu yapmadan önce özelliği açmayın.
+## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Sevkiyat konsolidasyon ilkeleri özelliğini açma
 
 *Sevkiyat konsolidasyon ilkeleri* özelliğini kullanabilmeniz için önce sisteminizde bu özelliği açmanız gerekir. Supply Chain Management sürüm 10.0.29 itibarıyla, özellik zorunludur ve kapatılamaz. 10.0.29 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Sevkiyat konsolidasyonu ilkeleri* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
-## <a name="make-demo-data-available"></a>Tanıtım verilerini kullanılabilir hale getirme
+## <a name="set-up-your-initial-consolidation-policies"></a><a name="initial-policies"></a>İlk konsolidasyon politikalarınızı ayarlama
 
-Bu makaledeki her senaryo, Microsoft Dynamics 365 Supply Chain Management için sağlanan standart tanıtım verilerinde bulunan değerlere ve kayıtlara başvurur. Alıştırmaları yaparken burada sağlanan değerleri kullanmak isterseniz tanıtım verisinin yüklü olduğu bir ortamda çalıştığınızdan ve başlamadan önce tüzel kişiliği **USMF** olarak ayarladığınızdan emin olun.
-
-## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>Senaryo 1: Varsayılan sevkiyat konsolidasyon ilkelerini yapılandırma
-
-*Sevkiyat konsolidasyon ilkeleri* özelliğini açtıktan sonra minimum varsayılan ilke sayısını yapılandırmak zorunda olduğunuz iki durum vardır:
-
-- Zaten veri içeren bir ortamı yükseltirsiniz.
-- Tamamıyla yeni bir ortam ayarlarsınız.
-
-### <a name="upgrade-an-environment-where-warehouses-are-already-configured-for-cross-order-consolidation"></a>Ambarların zaten çapraz sipariş konsolidasyonu için yapılandırıldığı bir ortamı yükseltme
-
-Bu yordamı başlattığınızda, temel çapraz sipariş konsolidasyonu özelliğinin zaten kullanıldığı bir ortamın benzetimini yapmak için *Sevkiyat konsolidasyon ilkeleri* özelliğinin kapatılmış olması gerekir. Daha sonra, özelliği açmak için özellik yönetimini kullanacaksınız. Böylece yükseltme işleminden sonra sevkiyat konsolidasyonu ilkelerinin nasıl ayarlanacağını öğrenebilirsiniz.
-
-Ambarların zaten çapraz sipariş konsolidasyonu için yapılandırıldığı bir ortamda varsayılan sevkiyat konsolidasyon ilkelerini ayarlamak için bu adımları izleyin.
-
-1. **Ambar yönetimi \> Kurulum \> Ambar  \> Ambarlar**'a gidin.
-1. Listede, istediğiniz ambar kaydını bulun ve açın (örneğin, **USMF** tanıtım verilerindeki ambar *24*).
-1. Eylem Bölmesi'nde, **Düzenle**'yi seçin.
-1. **Ambar** hızlı sekmesinde, **Ambara serbest bırakmada sevkiyatı konsolide et** seçeneğini *Evet* olarak ayarlayın.
-1. Konsolidasyonun gerekli olduğu tüm diğer ambarlar için 2 ile 4 arasındaki adımları yineleyin.
-1. Sayfayı kapatın.
-1. **Ambar yönetimi \> Kurulum \> Ambara serbest bırakma \> Sevkiyat konsolidasyon ilkeleri** seçeneğine gidin. Özelliği açtıktan sonra, yeni **Sevkiyat konsolidasyonu ilkeleri** menü öğesini görmek için tarayıcınızı yenilemeniz gerekebilir.
-1. Eylem Bölmesi'nde, aşağıdaki ilkeleri oluşturmak için **Varsayılan kurulum oluştur**'u seçin:
-
-    - *Satış siparişleri* ilke türü için bir **CrossOrder** ilkesi (önceki konsolidasyon özelliğini kullanacak şekilde ayarlanmış en az bir ambarınız olması koşuluyla)
-    - *Satış siparişleri* ilke türü için bir **Varsayılan** ilke
-    - *Transfer çıkışı* ilke türü için bir **Varsayılan** ilke
-    - *Transfer çıkışı* ilke türü için bir **CrossOrder** ilkesi (önceki konsolidasyon özelliğini kullanacak şekilde ayarlanmış en az bir ambarınız olması koşuluyla)
-
-    > [!NOTE]
-    > - Her iki **CrossOrder** ilkesi, sipariş numarası alanı dışında, daha önceki mantıkla aynı alan kümesini dikkate alır. (Bu alan; ambar, taşıma teslimat şekli ve adres gibi faktörlere bağlı olarak, satırları sevkiyatlar halinde konsolide etmek için kullanılır.)
-    > - Her iki **Varsayılan** ilkesi, sipariş numarası alanı dahil, daha önceki mantıkla aynı alan kümesini dikkate alır. (Bu alan; sipariş numarası, ambar, taşıma teslimat şekli ve adres gibi faktörlere bağlı olarak, satırları sevkiyatlar halinde konsolide etmek için kullanılır.)
-
-1. *Satış siparişleri* ilke türü için **CrossOrder** ilkesini seçin ve sonra, Eylem Bölmesi'nde **Sorguyu düzenle**'yi seçin.
-1. Sorgu düzenleyici iletişim kutusunda, **Ambara serbest bırakmada sevkiyatı konsolide et** seçeneğinin *Evet* olarak ayarlandığı ambarların listelendiğine dikkat edin. Bu nedenle, bunlar sorguya dahil edilir.
-
-### <a name="create-default-policies-for-a-new-environment"></a>Yeni ortam için varsayılan ilkeler oluşturma
-
-Yepyeni bir ortamda varsayılan sevkiyat konsolidasyon ilkelerini ayarlamak için bu adımları izleyin.
+Yeni bir sistemle veya *Sevkiyat konsolidasyon ilkeleri* özelliğini ilk kez açtığınız bir sistemle çalışıyorsanız ilk sevkiyat konsolidasyon ilkelerinizi ayarlamak için aşağıdaki adımları izleyin.
 
 1. **Ambar yönetimi \> Kurulum \> Ambara serbest bırakma \> Sevkiyat konsolidasyon ilkeleri** seçeneğine gidin.
 1. Eylem Bölmesi'nde, aşağıdaki ilkeleri oluşturmak için **Varsayılan kurulum oluştur**'u seçin:
 
-    - *Satış siparişleri* ilke türü için bir **Varsayılan** ilke
-    - *Transfer çıkışı* ilke türü için bir **Varsayılan** ilke
+    - *Satış siparişleri* ilke türü için *Varsayılan* olarak adlandırılmış bir ilke.
+    - *Transfer çıkışı* ilke türü için *Varsayılan* olarak adlandırılmış bir ilke.
+    - *Transfer çıkışı* ilke türü için *CrossOrder* olarak adlandırılmış bir ilke. (Bu ilke yalnızca, eski **Ambara serbest bırakma sırasında sevkiyatı konsolide et** ayarının etkinleştirildiği en az bir ambarınız varsa oluşturulur.)
+    - *Satış siparişleri* ilke türü için *CrossOrder* adlı bir ilke. (Bu ilke yalnızca, eski **Ambara serbest bırakma sırasında sevkiyatı konsolide et** ayarının etkinleştirildiği en az bir ambarınız varsa oluşturulur.)
 
     > [!NOTE]
-    > Her iki **Varsayılan** ilkesi, sipariş numarası alanı dahil, daha önceki mantıkla aynı alan kümesini dikkate alır. (Bu alan; sipariş numarası, ambar, taşıma teslimat şekli ve adres gibi faktörlere bağlı olarak, satırları sevkiyatlar halinde konsolide etmek için kullanılır.)
+    > - Her iki *CrossOrder* ilkesi de önceki mantıkla aynı kümeleri dikkate alır. Ancak, sipariş numarası alanını da dikkate alırlar. (Bu alan; ambar, taşıma teslimat şekli ve adres gibi faktörlere bağlı olarak, satırları sevkiyatlar halinde konsolide etmek için kullanılır.)
+    > - Her iki *Varsayılan* ilke de önceki mantıkla aynı alan kümesini dikkate alır. Ancak, sipariş numarası alanını da dikkate alırlar. (Bu alan; sipariş numarası, ambar, taşıma teslimat şekli ve adres gibi faktörlere bağlı olarak, satırları sevkiyatlar halinde konsolide etmek için kullanılır.)
 
-## <a name="scenario-2-configure-custom-shipment-consolidation-policies"></a>Senaryo 2: Özel sevkiyat konsolidasyon ilkelerini yapılandırma
+1. Sistem, *Satış siparişleri* ilke türü için *CrossOrder* ilkesi oluşturursa bunu seçin ve sonra, Eylem Bölmesi'nde **Sorguyu düzenle**'yi seçin. Sorgu düzenleyicisinde, **Ambara serbest bırakma sırasında sevkiyatı konsolide et** ayarının daha önce hangi ambarlarınız için etkinleştirildiğini görebilirsiniz. Bu nedenle, bu ilke bu ambarlar için önceki ayarlarınızı yeniden oluşturur.
+1. Alanları ekleyerek veya kaldırarak ve/veya sorguları düzenleyerek yeni varsayılan ilkeleri gerektiği gibi özelleştirin. Ayrıca, ihtiyacınız olduğu kadar yeni politika da ekleyebilirsiniz. İlkelerinizi nasıl özelleştireceğinizi ve yapılandıracağınızı gösteren örnekler için bu makalenin ilerleyen kısımlarında yer alan senaryolara bakın.
 
-Bu senaryo, özel sevkiyat konsolidasyon ilkelerinin nasıl ayarlanacağını gösterir. Özel ilkeler, sevkiyat konsolidasyonunun çeşitli koşullara bağlı olduğu karmaşık iş gereksinimlerini destekleyebilir. Bu senaryoda daha sonra yer alan her örnek ilke için iş örneğinin kısa bir açıklaması dahil edilir. Bu örnek ilkeler sorgular için piramit benzeri bir değerlendirme sağlayan bir sırada ayarlanmalıdır. (Başka bir deyişle, en fazla koşula sahip ilkeler en yüksek önceliğe sahip olacak şekilde değerlendirilmelidir.)
+## <a name="scenario-configure-custom-shipment-consolidation-policies"></a>Senaryo: Özel sevkiyat konsolidasyon ilkelerini yapılandırma
 
-### <a name="turn-on-the-feature-and-prepare-master-data-for-this-scenario"></a>Özelliği açma ve bu senaryo için ana verileri hazırlama
+Bu senaryo, özel sevkiyat konsolidasyon ilkelerinin nasıl ayarlanacağını ve ardından demo verilerini kullanarak bunların nasıl test edileceğini gösteren bir örnek sağlar. Özel ilkeler, sevkiyat konsolidasyonunun çeşitli koşullara bağlı olduğu karmaşık iş gereksinimlerini destekleyebilir. Bu senaryoda daha sonra yer alan her örnek ilke için iş örneğinin kısa bir açıklaması dahil edilir. Bu örnek ilkeler sorgular için piramit benzeri bir değerlendirme sağlayan bir sırada ayarlanmalıdır. (Başka bir deyişle, en fazla koşula sahip ilkeler en yüksek önceliğe sahip olacak şekilde değerlendirilmelidir.)
 
-Bu senaryodaki alıştırmalara devam etmeden önce, aşağıdaki alt kısımlarda açıklandığı gibi, özelliği etkinleştirmeniz ve filtre uygulamak için gereken ana verileri hazırlamanız gerekir. (Bu önkoşullar, [Sevkiyat konsolidasyonu ilkelerinin nasıl kullanılacağına ilişkin örnek senaryolar](#example-scenarios) bölümünde listelenen senaryolar için de geçerlidir.)
+### <a name="make-demo-data-available"></a>Tanıtım verilerini kullanılabilir hale getirme
 
-#### <a name="turn-on-the-feature-and-create-the-default-policies"></a>Özelliği açma ve varsayılan ilkeleri oluşturma
+Bu senaryo, Supply Chain Management için sağlanan standart [tanıtım verilerinde](../../fin-ops-core/fin-ops/get-started/demo-data.md) bulunan değerler ve kayıtlarla ilgilidir. Alıştırmaları yaparken burada sağlanan değerleri kullanmak isterseniz tanıtım verisinin yüklü olduğu bir ortamda çalıştığınızdan ve başlamadan önce tüzel kişiliği *USMF* olarak ayarladığınızdan emin olun.
 
-Henüz açmadıysanız özelliği açmak ve [senaryo 1](#scenario-1)'de açıklanan varsayılan konsolidasyon ilkelerini oluşturmak için özellik yönetimini kullanın.
+### <a name="prepare-master-data-for-this-scenario"></a>Bu senaryo için ana verileri hazırlama
+
+Bu senaryodaki alıştırmalara devam etmeden önce, aşağıdaki alt kısımlarda açıklandığı gibi, filtre uygulamak için gereken ana verileri hazırlamanız gerekir. (Bu ön koşullar, [Sevkiyat konsolidasyonu ilkelerinin nasıl kullanılacağına ilişkin örnek senaryolar](#example-scenarios) bölümünde listelenen senaryolar için de geçerlidir.)
 
 #### <a name="create-two-new-product-filter-codes"></a>İki yeni ürün filtre kodu oluşturma
 
@@ -300,7 +274,7 @@ Bu örnekte, aşağıdaki iş örneği için kullanılabilecek bir *Konsolidasyo
 - Açık sevkiyatlarla konsolidasyon kapalıdır.
 - Konsolidasyon, varsayılan CrossOrder ilkesi (önceki **Ambara serbest bırakmada sevkiyatı konsolide et** onay kutusunu çoğaltmak için) tarafından seçilen alanları kullanan siparişler genelinde yapılır.
 
-Genellikle bu iş örneği, [senaryo 1](#scenario-1)'de oluşturduğunuz varsayılan ilkeler kullanılarak ele alınabilir. Ancak, bu adımları izleyerek benzer ilkeleri el ile de oluşturabilirsiniz.
+Genellikle bu iş örneği, [İlk konsolidasyon ilkelerinizi oluşturma](#initial-policies) bölümünde oluşturduğunuz varsayılan ilkeler kullanılarak ele alınabilir. Ancak, bu adımları izleyerek benzer ilkeleri el ile de oluşturabilirsiniz.
 
 1. **Ambar yönetimi \> Kurulum \> Ambara serbest bırakma \> Sevkiyat konsolidasyon ilkeleri** seçeneğine gidin.
 1. **İlke türü** alanını *Satış siparişleri* olarak ayarlayın.
@@ -345,7 +319,7 @@ Aşağıdaki senaryolar, bu makaleyi okurken oluşturduğunuz sevkiyat konsolida
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-- [Sevkiyat konsolidasyonu ilkeleri](about-shipment-consolidation-policies.md)
+- [Sevkiyat konsolidasyon ilkelerine genel bakış](about-shipment-consolidation-policies.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

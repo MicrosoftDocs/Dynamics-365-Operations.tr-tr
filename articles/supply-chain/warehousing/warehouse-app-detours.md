@@ -2,7 +2,7 @@
 title: Mobil cihaz menü öğelerindeki adımların deturlarını konfigüre etme
 description: Bu makalede, çalışanların geçerli görevi park edebilmesi, başka bir görev gerçekleştirmesi ve herhangi bir bilgiyi kaybetmeden özgün göreve geri dönebilmesi için menü öğelerinin deturlarını konfigüre etme yöntemi açıklanmıştır.
 author: Mirzaab
-ms.date: 08/09/2022
+ms.date: 09/01/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
-ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 50f899cd7f28a4b7fd23db5f049de02896e8d8e9
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.dyn365.ops.version: 10.0.30
+ms.openlocfilehash: d8d3d434077fdb145291e2298055f692b78db3d6
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336140"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428076"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Mobil cihaz menü öğelerindeki adımların deturlarını konfigüre etme
 
@@ -35,8 +35,11 @@ Mobil aygıt menü öğelerindeki adımların sapmalarını konfigüre etmeden �
 
 1. **Sistem yönetimi \> Çalışma alanları \> Özellik yönetimi**'ne gidin.
 1. Sistem için *Ambar uygulaması adım yönergeleri* özelliğinin açık olduğundan emin olun. Supply Chain Management sürüm 10.0.29 itibariyle, bu özellik varsayılan olarak açıktır. *Ambar uygulaması adım yönergeleri* özelliği hakkında daha fazla bilgi için , [Warehouse Management mobil uygulaması ile ilgili adım başlıklarını ve yönergeleri özelleştirme](mobile-app-titles-instructions.md) konusuna bakın. Bu özellik, *Warehouse Management uygulaması sapmaları* özelliği için bir önkoşuldur.
-1. *Warehouse Management uygulama sapmaları* özelliğini açın. Bu özellik, bu makalede açıklanan özelliktir. Supply Chain Management sürüm 10.0.29 itibariyle, varsayılan olarak açıktır.
-1. *Warehouse Management uygulama sapmaları* özelliği zaten açık değilse **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Ambar uygulaması alan adları**'na gidip **Varsayılan kurulum oluştur**'u seçerek Warehouse Management mobil uygulamasında alan adlarını güncelleştirin. Warehouse Management mobil uygulamasını kullandığınız her yasal varlık (şirket) için bu adımı yineleyin. - Daha fazla bilgi için bkz. [Ambar Yönetimi mobil uygulaması için alanları yapılandırma](configure-app-field-names-priorities-warehouse.md).
+1. Bu makalede açıklanan işlevselliği sağlayan aşağıdaki özellikleri açın:
+    - *Warehouse Management uygulaması sapmaları*<br>(Supply Chain Management sürüm 10.0.29 itibariyle, bu özellik varsayılan olarak açıktır.)
+    - *Warehouse Management mobil uygulaması için çok düzeyli sapmalar*
+1. *Warehouse Management uygulama sapmaları* ve/veya *Warehouse Management mobil uygulaması için çok düzeyli sapmalar* özelliği zaten açık değilse **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Ambar uygulaması alan adları**'na gidip **Varsayılan kurulum oluştur**'u seçerek Warehouse Management mobil uygulamasında alan adlarını güncelleştirin. - Daha fazla bilgi için bkz. [Ambar Yönetimi mobil uygulaması için alanları yapılandırma](configure-app-field-names-priorities-warehouse.md).
+1. Warehouse Management mobil uygulamasını kullandığınız her yasal varlık (şirket) için önceki adımı yineleyin.
 
 ## <a name="configure-a-detour-from-a-menu-specific-override"></a>Menüye özel bir geçersiz kılma için sapmayı konfigüre etme
 
@@ -147,3 +150,6 @@ Bu yordamda, Warehouse Management mobil uygulamasını kullanarak konum sorgusu 
 1. Lisans levhasının seçtiğiniz karttan kopyalanmış olduğuna dikkat edin. Değeri onaylayın.
 1. Hareketi tamamlamak için artık standart görev akışını izleyebilirsiniz. İş tamamlandıktan sonra, eylemler menüsünü açın ve **İptal**'i seçin.
 1. **Konum sorgulama** sayfasına geri dönersiniz. Değerlerin otomatik olarak güncelleştirilmediği unutmayın. Bu nedenle, hareket sapma çubuğundan değişiklikleri görmek için sayfayı el ile yenilemeniz gerekir.
+
+> [!NOTE]
+> *Warehouse Management mobil uygulaması için çok düzeyli sapmalar* özelliği, çalışanların mevcut bir sapmadan saniyede iki kez atlamasına ve ardından tekrar geri dönmesine olanak tanıyan çok düzeyli sapmalar (sapmalar içinde sapmalar) tanımlamanıza olanak tanır. Özellik, kullanıma hazır iki sapma düzeyini destekler ve gerekirse `WHSWorkUserSessionState` tablosunda kod uzantıları oluşturarak sisteminizi üç veya daha fazla sapma düzeyini destekleyecek şekilde özelleştirebilirsiniz.

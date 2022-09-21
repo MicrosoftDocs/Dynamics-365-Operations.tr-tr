@@ -1,5 +1,5 @@
 ---
-title: Sevkiyat konsolidasyonu ilkeleri
+title: Sevkiyat konsolidasyon ilkelerine genel bakış
 description: Bu makale, sevkiyat konsolidasyon ilkelerinin esnek yapılandırmasını sağlayan işlevlere genel bir bakış sağlar.
 author: Mirzaab
 ms.date: 05/12/2020
@@ -13,14 +13,14 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 27f5d52dac2e428655f1b16908ff796ed9d02e82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7113fc635a7c01e4b9cc44898daa3d2617058b6b
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903912"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427941"
 ---
-# <a name="shipment-consolidation-policies"></a>Sevkiyat konsolidasyonu ilkeleri
+# <a name="shipment-consolidation-policies-overview"></a>Sevkiyat konsolidasyon ilkelerine genel bakış
 
 [!include [banner](../includes/banner.md)]
 
@@ -38,7 +38,7 @@ Sevkiyat konsolidasyonu ilkelerinin kullanılmaya başlanmasından önce, konsol
 
 Sorgular, uygulanan sevkiyat konsolidasyonu ilkesini tanımlamak için kullanılır ve daha sonra bir düzenlenebilir alanlar kümesi yükleme satırlarının sevkiyat düzeyinde nasıl gruplandığını belirler. (Bu model, dalga şablonlarının izleyeceği modele benzer.) Ayrıca, her ilkeye **Mevcut sevkiyatlarla konsolide et** seçeneği eklenmiştir. Bu seçenek etkinleştirildiğinde, *Ambara serbest bırakma* prosedürü, aynı konsolidasyon ilkesine göre oluşturulan mevcut sevkiyatlar arasında arama yaparak konsolidasyon için sevkiyatları bulur. Bu durumda, sistem yeni bir sevkiyat oluşturmak yerine, var olan bir sevkiyatı seçer veya yükler. Ancak, sistem yalnızca *Açık* durumundaki mevcut sevkiyatlar ile konsolide edilir; *Serbest bırakıldı* veya daha yüksek durumda olan bir dalga serbest bırakmasına ait olan sevkiyatlar konsolidasyon hedefleri olarak kabul edilmez.
 
-Sevkiyat konsolidasyon ilkeleri kullanıma sunulduğunda, **Ambarlar** kurulum sayfasında daha önce var olan **Ambara serbest bırakmada sevkiyatı konsolide et** ayarı gizlenmiştir. Yeni sevkiyat konsolidasyonu özelliğine geçiş yapmanıza yardımcı olmak için **Sevkiyat konsolidasyon ilkeleri** sayfasındaki bir işlev, var olan ambarlara ait eski ayarı otomatik olarak içeren bir varsayılan ilke oluşturur. Bu varsayılan ilke oluşturulduktan sonra, **Ambarlar** kurulum sayfasındaki **Ambara serbest bırakmada sevkiyatı konsolide et** ayarı artık dikkate alınmaz.
+*Sevkiyat konsolidasyon ilkeleri* özelliği etkinleştirildiğinde, **Ambarlar** kurulum sayfasında daha önce sunulan **Ambara serbest bırakmada sevkiyatı konsolide et** ayarı gizlenmiştir. Yeni sevkiyat konsolidasyonu özelliğine geçiş yapmanıza yardımcı olmak için **Sevkiyat konsolidasyon ilkeleri** sayfasındaki bir işlev, var olan ambarlara ait eski ayarı otomatik olarak içeren bir varsayılan ilke oluşturmanızı sağlar. Bu varsayılan ilke oluşturulduktan sonra, **Ambarlar** kurulum sayfasındaki **Ambara serbest bırakmada sevkiyatı konsolide et** ayarı artık dikkate alınmaz. Daha fazla bilgi için bkz. [Sevkiyat konsolidasyonu ilkelerini yapılandırma](configure-shipment-consolidation-policies.md).
 
 İlgili konsolidasyon ilkesini, yerine getirme ilkelerini geçersiz kılabileceğiniz şekilde el ile geçersiz kılmak için **Ambara serbest bırak** sayfasını kullanabilirsiniz.
 

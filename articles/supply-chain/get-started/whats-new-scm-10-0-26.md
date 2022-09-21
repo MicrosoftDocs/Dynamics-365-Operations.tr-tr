@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: dd98b22a2dfcd8cad62bdef2d31ac2880b3422f8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: db8799aba8095c8144d878c96590e8d90276726b
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334730"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428236"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Dynamics 365 Supply Chain Management'daki yenilikler veya değişiklikler 10.0.26 (Mayıs 2022)
 
@@ -36,7 +36,7 @@ Aşağıdaki tabloda, bu sürüme dahil edilen özellikler listelenmektedir. Bu 
 | Stok ve lojistik | [Gelişmiş ambar yönetimi maddelerini desteklemek için Stok Görünürlüğü eldeki sorgu](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [WMS öğeleri için Stok Görünürlüğü desteği](../inventory/inventory-visibility-whs-support.md) | Özellik yönetimi:<br>*Stok Görünürlüğünde ambar maddelerini etkinleştir* |
 | Stok ve lojistik | [Stok Görünürlüğü Eklentisi için mevcut karşılanabilir](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Stok Görünürlüğü eldeki değişiklik zamanlamaları ve karşılanabilir miktarı](../inventory/inventory-visibility-available-to-promise.md) | Hizmet yapılandırması tarafından etkinleştirilir |
 | İmalat | [Üretim katı yürütme arabiriminde fiili ağırlık maddeleri](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?](../production-control/production-floor-execution-use.md) | Özellik yönetimi:<br>*Üretim katı yürütme arabiriminden elde edilen fiili ağırlık öğeleriyle ilgili rapor* |
-| İmalat | Üretim katı yürütme arabirimindeki işlerim sekmesi <!-- KFM: Add link to release plan when available --> | [Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?](../production-control/production-floor-execution-use.md) | Özellik yönetimi:<br>*Üretim katı yürütme arabirimindeki işlerim sekmesi* |
+| İmalat | Üretim katı yürütme arabirimindeki işlerim sekmesi | [Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?](../production-control/production-floor-execution-use.md) | Özellik yönetimi:<br>*Üretim katı yürütme arabirimindeki işlerim sekmesi* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Bu sürümdeki özellik iyileştirmeleri
 

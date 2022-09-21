@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: cc013e962b4da803764f16e451b1d433666e75c2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 39677ebfb9babeb7246ece4d27ab1813435ca12e
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336620"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427861"
 ---
 # <a name="query-data-using-warehouse-management-mobile-app-detours"></a>Warehouse Management mobil uygulaması sapmalarını kullanarak verileri sorgulama
 
@@ -268,6 +268,6 @@ Yeni mobil uygulama kurulumunu sınamak için aşağıdaki adımları izleyin.
     ![Satıcıya göre PO aramasını kullanarak satın alma teslim alma, örnek 2.](media/wma-purchase-receive-lookup-po-vendor-detours.png "Satıcıya göre PO aramasını kullanarak satın alma teslim alma, örnek 2")
 
 > [!TIP]
-> **Satın alma teslim alma** menü öğesinden bir arama yaparak teslim alma akışını çalıştırmak yerine, bir sorgu akışından (**Ana \> Sorgu \> Satıcıya göre PO ara)** başlayabilir ve listedeki kartlardan birini seçerek istenen akışı çalıştırmak için bir sapma çağırabilirsiniz. Bu yaklaşımı kullanmak için, **Adım Kimliği** değeri *GenericDataInquiryList* olan **Mobil cihaz adımları** sayfasında bir sapma tanımlayabilirsiniz. Bu akış bir sapma akışı olduğundan, daha fazla sapma çağıramazsınız. Bu nedenle, madde numarası giriş ekranına geldiğinizde örneğin, sistem yalnızca tek bir sapma düzeyini desteklediğinden burada arama kullanılamaz.
+> **Satın alma teslim alma** menü öğesinden bir arama yaparak teslim alma akışını çalıştırmak yerine, bir sorgu akışından (**Ana \> Sorgu \> Satıcıya göre PO ara)** başlayabilir ve listedeki kartlardan birini seçerek istenen akışı çalıştırmak için bir sapma çağırabilirsiniz. Bu yaklaşımı kullanmak için, **Adım Kimliği** değeri *GenericDataInquiryList* olan **Mobil cihaz adımları** sayfasında bir sapma tanımlayabilirsiniz. [*Warehouse Management mobil uygulaması için çok düzeyli sapmalar*](warehouse-app-detours.md) özelliğinin sisteminiz için açık olması koşuluyla, gerekirse ek bir sapma da ekleyebilirsiniz (bu özellik, en fazla iki sapma düzeyi için destek sunar ve ek düzeyleri destekleyecek şekilde özelleştirilebilir).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

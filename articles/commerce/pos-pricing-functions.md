@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: 2022-07-14
-ms.openlocfilehash: 92bbc3b81b889f106dc113528afbdc37d1106ff3
-ms.sourcegitcommit: 924dbcdc6b03f6a7ae3a07378ec405fd15c7e359
+ms.openlocfilehash: 210798ac192ee251594ec8ff9d23dab31ec2043e
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2022
-ms.locfileid: "9294136"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473743"
 ---
 # <a name="pricing-functions-in-pos"></a>POS'taki fiyatlandırma işlevleri
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Bu makalede, Microsoft Dynamics 365 Commerce satış noktası (POS) uygulamasındaki çeşitli fiyat ve iskonto işlevleri açıklanmaktadır.
 

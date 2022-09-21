@@ -2,19 +2,19 @@
 title: Dynamics 365 Commerce'taki etki alanları
 description: Bu makalede, etki alanlarının Microsoft Dynamics 365 Commerce uygulamasında nasıl yönetildiği açıklanmaktadır.
 author: BrianShook
-ms.date: 08/19/2022
+ms.date: 09/09/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: fd2fdc82fe62e56e18f54138e07b663a18802d66
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405509"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465206"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Dynamics 365 Commerce'taki etki alanları
 
@@ -144,9 +144,9 @@ Commerce tarafından sağlanan Azure Front Door örneği zirve etki alanlarını
 
 - **Seçenek 1:** Zirve etki alanını bir "www" etki alanına yönlendirmek için DNS sağlayıcınızı kullanın. Örneğin, `www.fabrikam.com` Commerce tarafından barındırılan Azure Front Door örneğine işaret eden CNAME kaydının olduğu `www.fabrikam.com` adresine yönlendirilir.
 
-- **Seçenek 2** - DNS sağlayıcınız DİĞER AD kayıtlarını destekliyorsa, Apex etki alanını Front Door uç noktasına yöneltebilirsiniz. Bu, front door uç noktası tarafından yapılan IP değişikliğinin yansıtılmasını sağlar.
+- **Seçenek 2**: DNS sağlayıcınız diğer ad kayıtlarını destekliyorsa Apex etki alanını Azure Front Door uç noktasına yönlendirerek uç nokta tarafından IP değişikliğinin yansıtılmasını sağlayabilirsiniz. Azure Front Door örneğini kendiniz barındırmanız gerekir.
   
-- **Seçenek 3** - DNS sağlayıcınız DİĞER AD kayıtlarını desteklemiyorsa, Apex etki alanını barındırmak için bir CDN veya front door örneği kurmanız gerekir.
+- **Seçenek 3**: DNS sağlayıcınız diğer ad kayıtlarını desteklemiyorsa DNS sağlayıcınızı Azure DNS olarak değiştirmeniz ve hem Azure DNS'yi hem de Azure Front Door örneğini kendiniz barındırmanız gerekir.
 
 > [!NOTE]
 > Azure Front Door kullanıyorsanız, aynı abonelikte bir Azure DNS'yi de ayarlamanız gerekir. Azure DNS'de barındırılan zirve etki alanı, bir diğer ad kaydı olarak Azure Front Door hizmetine işaret edebilir. Bu, zirve etki alanlarının her zaman bir IP adresine işaret etmesi gerektiğinden geçici bir çözümdür.

@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 16381,  ""intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.form: SystemParameters
-ms.openlocfilehash: f9095db85e38598ac03b4c77c3fa3be9f450ec02
-ms.sourcegitcommit: 78d41eeef0a8a8e94ed502bd89778414231a31ae
+ms.openlocfilehash: 19e1659a5fb91c7cb8916b1a8b6238038df29287
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9305246"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462370"
 ---
 # <a name="help-system"></a>Yardım sistemi
 
@@ -40,18 +40,18 @@ Tüm bu uygulamalarda, ürüne özel Yardım'a **Yardım** bölmesinden erişebi
 
 ![Yardım bölmesi.](./media/help-pane-ops-help.png)
 
-## <a name="help-on-docsmicrosoftcom"></a>docs.microsoft.com adresindeki yardım
+## <a name="help-on-microsoft-docs"></a>Microsoft Docs'ta Yardım
 
-docs.microsoft.com sitesi ([docs.microsoft.com/dynamics365/](/dynamics365/)) daha önce listelenen uygulamalar için varsayılan ürün belgelendirme kaynağıdır. Bu sitede aşağıdaki özellikler sunulmaktadır:
+Microsoft Docs'taki ([Microsoft Dynamics 365](/dynamics365/)belgeleri), daha önce listelenen uygulamaların ürün belgeleri için varsayılan kaynaktır. Bu sitede aşağıdaki özellikler sunulmaktadır:
 
 - **En güncel içeriğe erişim**: Site, ürün belgeleri oluşturmak, teslim etmek ve güncelleştirmek için Microsoft'a daha hızlı ve daha esnek bir yol sunar. Bu sayede, en son teknik bilgilere kolayca erişebilirsiniz.
 - **Uzmanlar tarafından yazılan içerik**: Sitedeki içerik, Microsoft içindeki ve dışındaki topluluk üyelerinin katkılarına açıktır.
 
-Herhangi bir arama motorunu kullanarak docs.microsoft.com adresinde içerik bulabilirsiniz. En iyi sonuçları almanız için **site:docs.microsoft.com dynamics 365 "arama terimi"** şeklinde bir site araması kullanmanızı öneririz.
+Herhangi bir arama motorunu kullanarak Microsoft Docs'ta içerik bulabilirsiniz. En iyi sonuçları almanız için **site:docs.microsoft.com dynamics 365 "arama terimi"** şeklinde bir site araması kullanmanızı öneririz.
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>RSS akışı aracılığıyla değişiklikler hakkında bildirim alma
 
-Finans ve operasyon uygulamaları genelinde docs.microsoft.com üzerindeki içeriklerde yapılan tüm güncelleştirmelerin RSS akışına abone olmak için aşağıdaki bağlantıyı kullanın:
+Finans ve operasyon uygulamaları genelinde Microsoft teknik belgeleri üzerindeki içeriklerde yapılan tüm güncelleştirmelerin RSS akışına abone olmak için aşağıdaki bağlantıyı kullanın:
 
 [RSS akışı](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -87,7 +87,7 @@ Belgelere katkıda bulunabilir ve düzenlemeler yapabilirsiniz. Başlamak için 
 
 [Microsoft Dynamics 365 belgelerine katkıda bulunma](https://youtu.be/m5djioozRbg) videosu (yukarıda gösterilen) YouTube'daki Microsoft Dynamics 365 kanalında bulunmaktadır.
 
-Daha fazla bilgi için, docs.microsoft.com sitesini oluşturan ekip tarafından yayınlanan [Belgeler, katılımcı kılavuzu](/contribute)'na bakın.
+Daha fazla bilgi için Microsoft Docs sitesini oluşturan ekip tarafından yayınlanan [Microsoft Docs katılımcı kılavuzu](/contribute)'na bakın.
 
 > [!NOTE]
 > Şu anda yalnızca İngilizce içerik katılımlarını kabul ediyoruz.
@@ -166,13 +166,13 @@ Sistem yöneticisi bu adımları tamamladıktan sonra **Yardım** bölmesini aç
 
 Aşağıdaki tablo web sitelerimizi listeler. Adının yanında bir yıldız işareti (\*) olan siteler hizmet planı ile ilişkili olan bir hesabı kullanarak oturum açmanızı gerektirir.
 
-| Tesis | Tanım |
+| Site | Açıklama |
 |------|-------------|
-| [Docs.microsoft.com adresindeki yardım](/dynamics365/) | Bu site, Dynamics 365 için tüm ürün belgelerini barındırır veya bu belgelere bağlantı kurar. |
+| [Microsoft Dynamics 365 belgeleri](/dynamics365/) | Bu site, Dynamics 365 için tüm ürün belgelerini barındırır veya bu belgelere bağlantı kurar. |
 | [Microsoft Learn](/learn/) | Bu site, ücretsiz Microsoft eLearning sitesidir. |
 | [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | Bu site, müşteriler ve ortakların satış öncesi uygulama ve işlemlerden projeleri yönetebilmesi için bulut tabanlı iş birliğine dayalı çalışma alanı sağlar. Uygulamanın tüm aşamalarında yararlıdır. |
 | [Destek blogu](https://aka.ms/AXSupportBlog) | Bu site, Destek ekibi tarafından yayınlanan ipuçları ve püf noktalar sağlar. |
-| [Docs.microsoft.com/previous sürümleri](/previous-versions/dynamics/) | Bu site, önceki sürümlerden içerik barındırır. |
+| [Önceki sürümler](/previous-versions/dynamics/) | Bu site, önceki sürümlerden içerik barındırır. |
 | [Dynamics Topluluğu](https://community.dynamics.com/) | Bu site; bloglar, forumlar ve videoları barındırır. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Bu site, değerlendirme ve satış bilgileri sağlar. |
 
@@ -180,4 +180,3 @@ Aşağıdaki tablo web sitelerimizi listeler. Adının yanında bir yıldız iş
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

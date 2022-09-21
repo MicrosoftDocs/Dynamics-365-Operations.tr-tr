@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
-ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
+ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410463"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462314"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'te kaldırılan veya kullanım dışı bırakılan özellikler
 
@@ -45,7 +45,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 | **Başka bir özellikle mi değiştirildi?**   | Evet |
 | **Etkilenen ürün alanları** | Uygulama |
 | **Dağıtım seçeneği** | Tümü |
-| **Çalıştırma Durumu** | Kullanım dışı: Nisan 2023 tarihinden sonra, Dynamics 365 Finance içindeki Gelir kabul işlevi artık hata onarımları desteği almayacaktır. Müşterilerin [Abonelik faturalaması](../../finance/accounts-receivable/subscription-billing-summary.md) iyileştirilmiş işlevini kullanmaları istenecektir. Ekim 2023'te, Gelir kabulü özelliği artık kullanılamaz. Müşterilerin Abonelik faturalaması iyileştirilmiş işlevine geçiş yapmaları istenecektir.|
+| **Çalıştırma Durumu** | Kullanım dışı: Nisan 2023 tarihinden sonra, Dynamics 365 Finance içindeki Gelir kabul işlevi artık hata onarımları desteği almayacaktır. Müşterilerin [Abonelik faturalaması](../../finance/accounts-receivable/subscription-billing-summary.md) iyileştirilmiş işlevini kullanmaları istenecektir. Ekim 2023'te, Gelir kabulü özelliği artık kullanılamaz. Müşterilerin Abonelik faturalaması iyileştirilmiş işlevine geçiş yapmaları istenecektir. Gelir kabulünün bir parçası olarak paket özelliği için şu anda planlanan bir değiştirme işlevi yoktur.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Finance 10.0.29 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 

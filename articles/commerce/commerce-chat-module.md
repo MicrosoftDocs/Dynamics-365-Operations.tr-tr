@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-07-20
-ms.openlocfilehash: e4a004b929138f0a04c19d6a94278cfad6e83303
-ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
+ms.openlocfilehash: b8eaed3eb015e96b1db6fa2297c341ea9d3ff8ad
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9346406"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473822"
 ---
 # <a name="commerce-chat-with-omnichannel-for-customer-service-module"></a>Customer Service için Çok Yönlü Kanal modülüyle Commerce Sohbeti
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Bu makalede, Microsoft Dynamics 365 Commerce'de *Customer Service için Çok Yönlü Kanalla Commerce Sohbeti modülü* açıklanmaktadır.
 

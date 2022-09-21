@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5147a837be91aab519c373e624acc036f9293641
+ms.sourcegitcommit: 555de844b8ba02fe095c28a2d447fc7c441ae549
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878917"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460561"
 ---
 # <a name="dual-use-goods"></a>Çift kullanımlı mallar
 
@@ -85,7 +85,14 @@ Bir ürünü çift kullanımlı mal olarak tanımlamak ve ona çift kullanım ka
 1. **Dış ticaret** hızlı sekmesinde, geçerli ürünü çift kullanımlı mal olarak tanımlamak için **Çift kullanımlı ürünler** seçeneğini **Evet** olarak ayarlayın.
 1. **Çift kullanım kodu** alanını geçerli ürüne uygulanan koda ayarlayın. (Bu kodu **Çift kullanım kategorileri** sayfasında tanımladınız.)
 
-Bir satış siparişi oluşturduğunuzda, bu kurulum işaretlenir.
+> [!NOTE]
+>
+> Sistem, bir satış onayı oluşturduğunda aşağıdaki çift kullanımlı kontrolleri yapar:
+>
+> 1. Sipariş, çift kullanımlı mal içeriyor mu?
+> 1. İçeriyorsa hedef ülke/bölge çift kullanımlı sertifikalar gerektiriyor mu?
+> 1. Gerektiriyorsa hedef ülke/bölge için her çift kullanımlı ürüne yönelik sertifikalar var mı ve bu sertifikalar onaylanmış gönderim tarihleri için geçerli mi?
+> 1. 1. ve 2. soruların yanıtları "Evet" ve 3. sorunun yanıtı "Hayır" ise sistem kullanıcıya satış siparişindeki bir veya daha fazla çift kullanımlı ürün için çift kullanımlı sertifikaların eksik olduğunu bildiren bir uyarı gösterir. Kullanıcı büyük olasılıkla gerekli sertifikaları almalı ve yeniden denemelidir ancak bunun yerine uyarıyı geçersiz kılabilir ve isterse satış onayına devam edebilir.
 
 ## <a name="set-up-dual-use-certificates"></a>Çift kullanım sertifikaları ayarlama
 

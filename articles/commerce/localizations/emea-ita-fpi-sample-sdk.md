@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 46d42a2c2a5f8f40fc8b9693f26a182c8f2e6352
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 275759ffec470c6188f734968f4b18b641a49212
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336752"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9474166"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>İtalya için mali yazıcı tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > Bu makaledeki yönergeleri yalnızca Microsoft Dynamics 365 Commerce 10.0.28 veya önceki bir sürümü kullanıyorsanız uygulamalısınız. Commerce 10.0.29 sürümü itibarıyla İtalya için mali yazıcı hizmeti tümleştirme örneği, Commerce yazılım geliştirme setinde (SDK) bulunur. Daha fazla bilgi için bkz. [Kanal bileşenlerini yapılandırma](./emea-ita-fpi-sample.md#configure-channel-components).

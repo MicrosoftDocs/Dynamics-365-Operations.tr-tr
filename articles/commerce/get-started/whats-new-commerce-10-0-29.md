@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Commerce 10.0.29 önizlemesi (Ekim 2022)
+title: Dynamics 365 Commerce 10.0.29 sürümündeki yenilikler ve değişiklikler (Ekim 2022)
 description: Bu makalede, Microsoft Dynamics 365 Commerce 10.0.29'taki yeni veya değişen özellikler açıklanmaktadır.
 author: josaw1
 ms.date: 08/17/2022
@@ -10,19 +10,19 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 1e05f53f9ecb0a1994828172f6999a0bd5c208bc
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: 6e457864f51159f46f45e9b8969863c9d34c5786
+ms.sourcegitcommit: 56677afde87a9176f879482a7af223e251801d5d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306245"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9475916"
 ---
-# <a name="preview-of-dynamics-365-commerce-10029-october-2022"></a>Dynamics 365 Commerce 10.0.29 önizlemesi (Ekim 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-commerce-10029-october-2022"></a>Dynamics 365 Commerce 10.0.29 sürümündeki yenilikler veya değişiklikler (Ekim 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Bu makalede, Microsoft Dynamics 365 Commerce önizleme sürümü 10.0.29'daki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.1326 derleme numarasına sahiptir ve aşağıdaki planlamaya göre kullanıma sunulmuştur:
+
+Bu makalede, Microsoft Dynamics 365 Commerce 10.0.29 sürümündeki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.1326 derleme numarasına sahiptir ve aşağıdaki planlamaya göre kullanıma sunulmuştur:
 
 - **Sürümün önizlemesi:** Ağustos 2022
 - **Sürüm genel kullanılabilirliği (kendi kendini güncelleştirme):** Eylül 2022

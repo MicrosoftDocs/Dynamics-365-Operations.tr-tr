@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 95c905cbcc3c057dbccf2b7d6e894b1e99ddfba5
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 68a1ba2bfe90aaf0462917c405d483fa12bf8126
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337156"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428240"
 ---
 # <a name="master-planning-for-products-with-limited-shelf-life"></a>Sınırlı raf ömrü olan ürünler için master planlama
 
@@ -298,8 +298,6 @@ Aşağıdaki çizim, bu örnekte zaman çizelgesinin nasıl göründüğünü g�
 ![Örnek 4: Basit FEFO, dönem, sağlama süresi miktara bağlıdır.](media/fefo-example-4.png "Örnek 4: Basit FEFO, dönem, sağlama süresi miktara bağlıdır")
 
 ## <a name="example-5-simple-fefo-requirement-10-negative-days"></a>Örnek 5: Basit FEFO, gereksinim, 10 negatif gün
-
-<!-- KFM: This is more of a negative days example than a shelf life example. We should point out more explicitly how shelf life affects this situation (or maybe otherwise remove this example). -->
 
 Bu örnek, bir madde için çok sayıda negatif gün eklendiğinde raf ömrünün nasıl çalışacağını gösterir. Negatif günler, negatif stoğu olan bir maddenin sipariş stok yenilemesinden önce beklemek isteyeceğiniz gün sayısıdır. Negatif gün sayısı aşılmadıkça sistem tedarik oluşturmaz.
 

@@ -11,17 +11,16 @@ ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-06-20
-ms.openlocfilehash: b56890b546c3cd74b75cf447e62495733ea8d288
-ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
+ms.openlocfilehash: bc0df6c4aac72907e8523069e3f1ae100780dc3c
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "9387077"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473944"
 ---
 # <a name="cross-company-data-sharing-for-gift-cards"></a>Hediye kartları için şirketler arası veri paylaşımı
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Bu makalede, Microsoft Dynamics 365 Commerce'ı hediye kartı verilerini eşitlemek için Dynamics 365 Finance veri paylaşım işlevini kullanmak üzere nasıl yapılandıracağınız açıklanmaktadır. Veri kaydı paylaşma işlevi, iki veri alanı arasında verileri şitkerler arasında paylaşmak için kullanılabilir. Bu şekilde, Commerce dahili hediye tablosu verileri iki şirket varlığı arasında paylaşabilir. Dynamics 365 Finance şirketler arası veri paylaşımı hakkında daha fazla bilgi için bkz. [Şirketler arası veri paylaşımı](/dynamics365/fin-ops-core/dev-itpro/sysadmin/cross-company-data-sharing).
 

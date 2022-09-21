@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: da4deb37b260ffa2a68e2a36aef01965cbf098b2
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: f3429df2732d7d1ed6d2f0783a600c2b994c022b
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313814"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473890"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>Avusturya için mali kayıt hizmeti tümleştirme örneği
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Bu makale, Microsoft Dynamics 365 Commerce'taki Avusturya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
 

@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
-ms.openlocfilehash: 3620fa886fd4b609a0f1f08b2338ab725065efe7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 283c882300ece460c18ffebe572238e7629f8dee
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287943"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476827"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektronik raporlamada (ER) formül tasarımcısı
 
@@ -137,7 +137,29 @@ Aşağıdaki çizim bu türde bir ifadeyi gösterir. (Microsoft tarafından sağ
 > 
 > Bu ayara dayalı olarak, her bir borçlu ödeme, **Ustrd** XML öğesi için oluşturulan ileti, her bir ödeme notu metnini içerecektir veya bu metin boş olduğunda, bu ödemeyi kapatmak için kullanılan virgüllü fatura numaralarıyla ayrılmış metin içerir.
 
-## <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Yapılandırılan formüllerin doğrulanması
+## <a name="assistance-in-formulas-writing"></a>Formül yazımında yardım
+
+### <a name="data-sources-navigator"></a>Veri kaynakları gezgini
+
+Yapılandırılmış veri kaynağının bir öğesini temsil eden bir formülü düzenleyebilirsiniz. ER parametrelerinizi, yapılandırılmış bir veri kaynağının bir öğesinin yolunu [göreli yol](relative-path-data-bindings-er-models-format.md) olarak sunacak şekilde yapılandırdığınızda, kullanılan hiyerarşik ağaç yapısının mutlak yolunun kalan kısmı yerine formülde "at" (@) işareti [gösterilir](er-formula-language.md#relative-path). Mutlak yolun bu kalan kısmı, düzenlenebilir olanın bir üst öğesine işaret eder. Finance **10.0.30 ve sonraki sürümlerde**, **Formül tasarımcısı** sayfasında, **Veri kaynakları** bölmesinde, veri kaynakları ağacının imlecini düzenlenebilir olanın üst öğesi olan bir öğeye konumlandırmak için **Şuraya git: @** seçeneğini belirleyebilirsiniz. Daraltılmış tüm artan öğelerin yapısı, gerektiğinde otomatik olarak ve özyinelemeli olarak genişletilir. Bu genişletme, düzenlenebilir öğenin temel öğesini hızlı bir şekilde görselleştirmenize, veri kaynakları ağacında düzenlenebilir öğenin alt öğelerini gözlemlemenize ve gerekirse her birini düzenlenebilir formülde kullanmanıza yardımcı olabilir.
+
+![Veri kaynakları ağacının imlecini Formül tasarımcısı sayfasında düzenlenebilir öğenin üst öğesi olan bir öğeye konumlandırmak için "Şuraya git: @" seçeneğini kullanın.](./media/er_formula-designer-data-sources-navigator.gif)
+
+### <a name="data-sources-picker"></a>Veri kaynakları seçicisi
+
+**Formül tasarımcısı** sayfasında, soldaki **Veri kaynakları** bölmesinde, düzenlenebilir formüle getirmek istediğiniz bir veri kaynağı öğesini seçin. **Veri kaynağı ekle**'yi seçin. Seçili öğenin düzenlenebilir formülün metnine eklendiğine dikkat edin.
+
+> [!TIP]
+> Varsayılan formül düzenleyicisinde **Veri kaynağı ekle** seçeneğini kullandığınızda, seçili öğe her zaman formül metninin sonuna eklenir. [Gelişmiş formül düzenleyicisinde](er-advanced-formula-editor.md) de aynısını yaptığınızda, seçili öğe geçerli imleç konumundaki formül metnine eklenir.
+
+### <a name="built-in-functions-picker"></a>Yerleşik işlev seçici
+
+**Formül tasarımcısı** sayfasında, sağdaki **İşlevler** bölmesinde, düzenlenebilir formüle getirmek istediğiniz bir ER yerleşik işlevi seçin. Ardından, **İşlev ekle**'yi seçin. Seçili işlevin düzenlenebilir formülün metnine eklendiğine dikkat edin.
+
+> [!TIP]
+> Varsayılan formül düzenleyicisinde **İşlev ekle** seçeneğini kullandığınızda, seçilen işlev her zaman formül metninin sonuna eklenir. [Gelişmiş formül düzenleyicisinde](er-advanced-formula-editor.md) de aynısını yaptığınızda, seçilen işlev geçerli imleç konumunda formül metnine eklenir.
+
+### <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Yapılandırılan formüllerin doğrulanması
 
 Konfigüre edilen formülün nasıl çalıştığını doğrulamak için **formül Tasarımcısı** sayfasında **test**'i seçin.
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: caa38c4ed1c7fb8cf1ead3ba6534f8405a5ff57f
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893192"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428049"
 ---
 # <a name="release-to-warehouse"></a>Ambara serbest bırakma
 
@@ -34,7 +34,7 @@ Ambara serbest bırakma, gönderme işlemleri için stoku hazır hale getirme i�
 
 Ambar *işi* bir ambar çalışanı tarafından gerçekleştirilen ambar operasyonlarıdır. Genellikle ambar işi operasyonları en az iki ardışık eylemden oluşur: Bir ambar çalışanı eldeki stoku bir konumdan çeker ve ardından bunu başka bir konuma koyar.
 
-Siparişler ambara serbest bırakıldığında sistem, *yük satırları* oluşturur ve bunları sevkiyatlarda gruplar. Sevkiyat konsolidasyonu işlemi, ambara serbest bırakma işlemi sırasında otomatik sevkiyat konsolidasyonuna olanak tanır. Daha fazla bilgi için bkz. [Sevkiyat konsolidasyonu ilkeleri](about-shipment-consolidation-policies.md).
+Siparişler ambara serbest bırakıldığında sistem, *yük satırları* oluşturur ve bunları sevkiyatlarda gruplar. Sevkiyat konsolidasyonu işlemi, ambara serbest bırakma işlemi sırasında otomatik sevkiyat konsolidasyonuna olanak tanır. Daha fazla bilgi için bkz. [Sevkiyat konsolidasyonu ilkelerine genel bakış](about-shipment-consolidation-policies.md).
 
 Sistem, sevkiyat için çekme işi ve yükler oluşturmak üzere *dalgaları* kullanır. *Dalga şablonu*, oluşturmak istediğiniz dalganın türü ve sipariş satırının ambarı için kullanılabilir olmalıdır. *Sevkiyat* türünün dalga şablonları, satış siparişleri ve transfer emirleri için maddeleri sevk etmek üzere kullanılır.
 
