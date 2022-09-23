@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (Ağustos)
                   href: get-started/whats-new-changed-10-0-28.md
-                - name: Finance 10.0.27 (Temmuz)
-                  href: get-started/whats-new-changed-10-0-27.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -1450,8 +1448,10 @@
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
             - name: Kanada Uyumlaştırılmış Satış Vergisi hesaplaması
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
-        - name: Globalleştirme
+        - name: Globalization Studio
           items:
+            - name: Globalization Studio'ya genel bakış
+              href: localizations/globalization-studio-overview.md?context=/dynamics365/context/finance
             - name: Globalleştirme kaynakları
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/finance
             - name: Globalleştirme hizmetleri
@@ -1734,6 +1734,8 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Satıcı faturasındaki satış vergisini hesaplama ve ayarlama
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: Satış vergisi farklılıklarını çözümleme
+                      href: general-ledger/resolve-sales-tax-differences-purchase-orders-invoices.md
                     - name: Yevmiye defterleri aracılığıyla satış vergisini ayarlama
                       href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: Günlükte ertelenen vergi hesaplamasını etkinleştirme
@@ -2514,9 +2516,11 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: Çevrimiçi faturalama sistemi
                   href: localizations/emea-hun-online-invoicing.md
+                - name: KDV beyannamesi (Macaristan)
+                  Href: localizations/emea-hun-vat-declaration-hungary.md
                 - name: Macaristan için satış vergisi raporları
                   href: localizations/emea-hun-sales-tax-reports.md
-                - name: Macaristan için Intrastat
+                - name: Macaristan için İntrastat
                   href: localizations/emea-hun-intrastat.md
                 - name: Ertelenen satış vergisi hesaplamaları
                   href: localizations/emea-hun-deferred-vat.md

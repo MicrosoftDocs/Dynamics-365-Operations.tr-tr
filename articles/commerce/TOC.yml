@@ -18,8 +18,6 @@
                   href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (Temmuz 2022)
                   href: get-started/whats-new-commerce-10-0-28.md
-                - name: Commerce 10.0.27 (Temmuz 2022)
-                  href: get-started/whats-new-commerce-10-0-27.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -1384,10 +1382,12 @@
               href: store-performance-information.md
             - name: 'Yenilik, Sıklık ve Parasal (RFM) analiz ayarlama'
               href: set-up-rfm-analysis.md
-            - name: Dynamics 36 Commerce'te Microsoft Clarity'yi ayarlama
+            - name: Dynamics 365 Commerce'te Microsoft Clarity'yi ayarlama
               href: set-up-clarity.md
-        - name: Globalleştirme
+        - name: Globalization Studio
           items:
+            - name: Globalization Studio'ya genel bakış
+              href: ../finance/localizations/globalization-studio-overview.md?context=/dynamics365/context/commerce
             - name: Commerce kanalı için mali tümleştirmeye genel bakış
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Commerce kanalı için mali tümleştirmeyi ayarlama

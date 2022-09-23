@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: 10.0.28 sürümü için platform güncelleştirmeleri (Ağustos 2022)
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: 10.0.27 sürümü için platform güncelleştirmeleri (Temmuz 2022)
-                  href: get-started/whats-new-platform-updates-10-0-27.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -510,6 +508,8 @@
                   href: dev-tools/access-instances.md
                 - name: Yerleşik geliştirme ortamlarını yapılandırma
                   href: dev-tools/configure-developer-vm.md
+                - name: Yerleşik geliştirme ortamlarının güvenliğini sağlama
+                  href: dev-tools/secure-developer-vm.md
                 - name: Yönetici erişimine izin verilmeyen VM'ler geliştirme ve oluşturma ile ilgili SSS
                   href: sysadmin/VMs-no-admin-access.md
                 - name: İlk kullanım için indirilebilir VHD'yi ayarlama

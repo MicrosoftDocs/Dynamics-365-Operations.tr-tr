@@ -206,8 +206,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?context=/dynamics365/context/supply-chain
         - name: Sorun giderme ve SSS
           href: supply-chain-management-troubleshooting.md
-        - name: Globalleştirme
+        - name: Globalization Studio
           items:
+            - name: Globalization Studio'ya genel bakış
+              href: ../finance/localizations/globalization-studio-overview.md?context=/dynamics365/context/supply-chai
             - name: Globalleştirme kaynakları
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/supply-chain
             - name: Globalleştirme hizmetleri
@@ -1631,12 +1633,14 @@
               items:
                 - name: Stok yevmiye defterleri
                   href: inventory/inventory-journals.md
-                - name: Stok günlüğü onay iş akışları
+                - name: Stok yevmiye defteri onay iş akışları
                   href: inventory/inventory-journal-workflow.md
                 - name: Stok konumları
                   href: inventory/inventory-locations.md
                 - name: Stok durumları
                   href: inventory/inventory-statuses.md
+                - name: Toplu işleri kullanılabilir veya kullanılamaz olarak işaretlemek için toplu iş değerlendirme kodlarını kullan
+                  href: inventory/batch-disposition-codes.md
                 - name: Yeni ambar düzeni oluşturma
                   href: inventory/tasks/create-new-warehouse-layout.md
                 - name: Barkod türlerini yönetme

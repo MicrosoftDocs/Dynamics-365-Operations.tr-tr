@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a51a601f6e283c5f6d7298b1cf342056707ebbb8
-ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
+ms.openlocfilehash: 49d36dc5818bdedfc764512e2f06c597c31e5b2a
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9475597"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9539249"
 ---
 # <a name="finance-home-page"></a>Finance giriş sayfası
 
@@ -80,6 +80,6 @@ Satın almaları, stoğu ve imalatı yönetmeye yönelik özellikler hakkında b
 
 ## <a name="elearning-courses"></a>e-Öğrenme kursları
 
-Çevrimiçi kurslar ve eğitim için [Dynamics 365 Finance öğrenme yolları](/learn/browse/?products=dynamics-finance&resource_type=learning+path) konusuna bakın.
+Çevrimiçi kurslar ve eğitim için [Dynamics 365 Finance öğrenme yolları](/training/browse/?products=dynamics-finance&resource_type=learning+path) konusuna bakın.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
