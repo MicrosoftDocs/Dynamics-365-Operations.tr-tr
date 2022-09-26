@@ -2,7 +2,7 @@
 title: Güncelleştirme işlemi
 description: Microsoft Dynamics 365 Human Resources uygulama ve platform değişiklikleri için sürekli, temassız servis güncelleştirmeleri sağlayan gerçek bir hizmet olarak yazılımdır (SaaS).
 author: twheeloc
-ms.date: 09/01/2020
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178459"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520823"
 ---
 # <a name="update-process"></a>Güncelleştirme işlemi
 
 _**Uygulandığı Öğe** tek başına çalışan altyapıda İnsan Kaynakları_ 
 
 > [!NOTE]
-> Temmuz 2022 tarihinden başlayarak tek başına İnsan Kaynakları altyapısında yeni İnsan Kaynakları ortamları sağlanamaz ve burada yeni Microsoft Dynamics Lifecycle Services (LCS) projeleri oluşturulamaz. Müşteriler, İnsan Kaynakları ortamları yalnızca finans ve operasyon altyapısı üzerinden dağıtılabilir. Daha fazla bilgi için bkz. [Finans ve operasyon altyapısında İnsan Kaynakları sağlama](/hr-admin-setup-provision-fo.md).
+> Temmuz 2022 tarihinden başlayarak tek başına İnsan Kaynakları altyapısında yeni İnsan Kaynakları ortamları sağlanamaz ve burada yeni Microsoft Dynamics Lifecycle Services (LCS) projeleri oluşturulamaz. Müşteriler, İnsan Kaynakları ortamları yalnızca finans ve operasyon altyapısı üzerinden dağıtılabilir. Daha fazla bilgi için bkz. [Finans ve operasyon altyapısında İnsan Kaynakları sağlama](hr-admin-setup-provision-fo.md).
 
 > [!IMPORTANT]
 > Finans ve operasyon uygulama altyapısındaki güncelleştirme ve düzeltme işlemi süreci İnsan Kaynakları bağımsız güncelleştirme ve düzeltme sürecinden farklıdır. Güncelleştirme süreci hakkında daha fazla bilgi için bkz. [Finans ve operasyonu en son güncelleştirmeye taşıma işlemi](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md). Düzeltmeler hakkında daha fazla bilgi için bkz. [Lifecycle Services'den (LCS) güncelleştirme indirme](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md). 

@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 7602234f875735537f0cabff135b0e0b650e5b96
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 9d73b2dd7bf83c169aa776b41f962cc6addf5f19
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269483"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524729"
 ---
 # <a name="electronic-invoicing-overview"></a>Elektronik faturalamaya genel bakış
 
@@ -50,7 +50,16 @@ Elektronik faturalama aşağıdaki Azure coğrafyalarında dağıtıldı:
 
 - Amerika Birleşik Devletleri
 - Avrupa
+- Birleşik Krallık
 - Asya
+- Japonya
+- İsviçre
+- Brezilya
+- Birleşik Arap Emirlikleri
+- Avustralya
+- Kanada
+- Fransa
+- Hindistan
 
 > [!NOTE]
 > Elektronik faturalama şirket içi dağıtımları desteklemiyor.

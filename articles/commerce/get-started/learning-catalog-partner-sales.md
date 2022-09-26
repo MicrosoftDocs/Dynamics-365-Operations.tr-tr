@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 56fe7fb4bb9d66f0ebb9be32be7569c31ca9ec11
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 77c51eee365eaf226e60514e7172ee927d6b6cdb
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423880"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538741"
 ---
 # <a name="learning-catalog-for-commerce-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-commerce"></a>Commerce Microsoft İş Ortağı Dynamics 365 Commerce satış ve pazarlama rolleri için öğrenme kataloğu
 
@@ -31,7 +31,7 @@ Diğer finans ve operasyon uygulamalarıyla paylaşılan özellikler hakkında e
 
 | İçerik | Açıklama | Biçim | Uzunluk |
 |---------|-------------|--------|--------|
-| [Dynamics 365 Commerce kullanmaya başlama](/learn/paths/get-started-dynamics-365-commerce/) | Dynamics 365 Commerce (kanıtlanmış Dynamics 365 Retail yetenekleri üzerine kurulu), arka ofis, mağaza, çağrı merkezi ve dijital deneyimlerini birleştiren kapsamlı bir çok yönlü kanal çözümü sunar. Dynamics 365 Commerce, kişiselleştirilmiş müşteri görevlendirmelerinde marka bağlılık programı oluşturmanıza olanak tanır, üretkenliği geliştirilmiş çalışanla gelirleri artırmanıza, maliyetleri azaltmak ve tedarik zinciri verimliliğini artırmak için operasyonları optimize etmenize ve böylece daha iyi iş sonuçları elde etmenize olanak sağlar. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 2 saat   |
-| [Dynamics 365 Fraud Protection kullanmaya başlama](/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection, sahtekarlık ve kötüye kullanımı azaltmak için araç ve özellikler sağlayarak, gelirlerinin ve saygınlığın korunmasına yardımcı olmak için e-ticaret, fiziksel mağazalar ve çok yönlü kanal tüccarları için tasarlanmış olan bulut tabanlı bir çözümdür, kullanıcı hesaplarını dolandırıcılıktan korumak için operasyon giderlerini azaltır ve kabul hızlarını artırır. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 35 dakika |
+| [Dynamics 365 Commerce kullanmaya başlama](/training/paths/get-started-dynamics-365-commerce/) | Dynamics 365 Commerce (kanıtlanmış Dynamics 365 Retail yetenekleri üzerine kurulu), arka ofis, mağaza, çağrı merkezi ve dijital deneyimlerini birleştiren kapsamlı bir çok yönlü kanal çözümü sunar. Dynamics 365 Commerce, kişiselleştirilmiş müşteri görevlendirmelerinde marka bağlılık programı oluşturmanıza olanak tanır, üretkenliği geliştirilmiş çalışanla gelirleri artırmanıza, maliyetleri azaltmak ve tedarik zinciri verimliliğini artırmak için operasyonları optimize etmenize ve böylece daha iyi iş sonuçları elde etmenize olanak sağlar. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 2 saat   |
+| [Dynamics 365 Fraud Protection kullanmaya başlama](/training/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection, sahtekarlık ve kötüye kullanımı azaltmak için araç ve özellikler sağlayarak, gelirlerinin ve saygınlığın korunmasına yardımcı olmak için e-ticaret, fiziksel mağazalar ve çok yönlü kanal tüccarları için tasarlanmış olan bulut tabanlı bir çözümdür, kullanıcı hesaplarını dolandırıcılıktan korumak için operasyon giderlerini azaltır ve kabul hızlarını artırır. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 35 dakika |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

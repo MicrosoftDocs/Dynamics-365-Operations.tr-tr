@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 316650de19d3275f2c60c79c10d6ac8a8c79e1aa
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 5a87fb4ac2d01ef3b188b63dfc98bcfac2daf033
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9427887"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520763"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Dynamics 365 Supply Chain Management 10.0.29 önizlemesi (Ekim 2022)
 
@@ -35,8 +35,8 @@ Aşağıdaki tabloda, bu sürüme dahil edilen özellikler listelenmektedir. Bu 
 | Özellik alanı | Özellik | Daha fazla bilgi | Etkinleştiren |
 |---|---|---|---|
 | Stok ve lojistik | [Stok Görünürlüğünde WMS maddelerini tahsis etme ve ayırma](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | Çok yakında | Varsayılan olarak etkin |
-| Stok ve lojistik | [Kolaylaştırılmış eldeki stok listelerini önceden yükleme](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | Çok yakında | Varsayılan olarak etkin |
-| Özel sipariş tedarik otomasyonu | [Özel sipariş tedarik otomasyonu](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [Özel sipariş tedarik otomasyonu](../master-planning/make-to-order-supply-automation.md) | Özellik yönetimi:<br>*Özel sipariş tedarik otomasyonu* |
+| Stok ve lojistik | [Kolaylaştırılmış eldeki stok listelerini önceden yükleme](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | [Inventory Visibility uygulamasını kullanma](../inventory/inventory-visibility-power-platform.md) | Hizmet yapılandırması tarafından etkinleştirilir |
+| Siparişe göre tedarik otomasyonu | [Özel sipariş tedarik otomasyonu](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [Özel sipariş tedarik otomasyonu](../master-planning/make-to-order-supply-automation.md) | Özellik yönetimi:<br>*Özel sipariş tedarik otomasyonu* |
 | Planlama | [DDMRP için ayrıntılı öngörüleri görüntüle ve uygulama](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [Talep Temelli Malzeme Gereksinimleri Planlamasına genel bakış](../master-planning/planning-optimization/ddmrp-overview.md) | Özellik yönetimi:<br>*(Önizleme) Planlama Optimizasyonu için DDMRP* |
 | Üretim denetimi | [Günlüklere nakletmeden önce tamamlanan malları fiziksel olarak kullanılabilir şeklinde işaretleme](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-finished-goods-physically-before-posting) | [Günlüklere nakletmeden önce tamamlanan malları fiziksel olarak kullanılabilir şeklinde işaretleme](../production-control/deferred-posting.md) | Özellik yönetimi:<br>*(Önizleme) Günlüklere nakletmeden önce tamamlanan malları fiziksel olarak kullanılabilir şeklinde işaretle* |
 | Ambar yönetimi | [Warehouse mobile app'te ilgili verileri arama](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/look-up-relevant-data-within-warehouse-mobile-app) | [Warehouse Management mobil uygulaması sapmalarını kullanarak verileri sorgulama](../warehousing/warehouse-app-data-inquiry.md) | Özellik yönetimi:<br>*Warehouse Management uygulaması veri sorgusu akışı* |

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 633daba553b1544c2caa788f4cec1da4c1da6960
-ms.sourcegitcommit: 7af116c60f3a94671a7a80c04097d70180754930
+ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9347302"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542365"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planlamayı En İyi Duruma Getirme uygunluk analizi
 
@@ -62,7 +62,7 @@ Aşağıdaki tabloda, bir uygunluk analizinin ardından gösterilebilecek çeşi
 | --- | --- | --- | --- |
 | Eylemler | Eylemler hesaplaması etkin olan karşılama grupları: *\#* | Bu özellik şimdi desteklenmektedir. | Destekleniyor |
 | Temel takvimler | Temel takvimi kullanan takvimler: *\#* | Bu özellik şimdi desteklenmektedir. | Destekleniyor | 
-| Toplu iş değerlendirme kodları | Netleştirilemeyen toplu iş değerlendirme ana verileri: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, toplu iş değerlendirme kodları yok sayılır. | 2022 sürüm 2 |
+| Toplu iş değerlendirme kodları | Netleştirilemeyen toplu iş değerlendirme ana verileri: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, toplu iş değerlendirme kodları yok sayılır. | 2022 sürüm 2 <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
 | Teslim edilebilir miktar (CTP) | Teslimat tarihi denetimi teslim edilebilir miktar olarak ayarlanmış varsayılan sipariş ayarları: *\#* | Supply Chain Management 10.0.28 ve daha yeni sürümlerde, *Planlama İyileştirmesi için CTP* olarak adlandırılan bir işlemle dinamik plan çalıştırıldıktan sonra onaylanmış sevkiyat ve giriş tarihleri kullanılabilir hale gelir. Supply Chain Management'ın eski sürümleri için, Planlama İyileştirmesi etkinleştirildiğinde eski CTP ayarı yok sayılır. | Destekleniyor |
 | Dinamik plana statik kopyalama | Dinamik plana statik kopyalama master planlama parametrelerinde etkinleştirildi. | Planlamayı En İyi Duruma Getirme statik planı bu ayardan bağımsız olarak dinamik plana kopyalamaz. Genel olarak, bu kavram, Planlamayı En İyi Duruma Getirme sağlayan hız ve tamamlama nedeniyle daha az ilgilidir. İki veya daha fazla plan kullanılıyorsa, master planlama her plan için tetiklenmelidir. | Yok |
 | Kesinleştirme | Otomatik kesinleştirme zaman dilimi ayarlanmış karşılama grupları: *\#* | Sürüm 10.0.7 ve sonrasında, kesinleştirme ( *Planlamayı En İyi Duruma Getirme için Otomatik kesinleştirme* özelliğinin [Özellik yönetiminde](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) etkinleştirilmiş olması koşuluyla) ayrı bir kesinleştirme toplu işi olarak desteklenir. Planlamayı En İyi Duruma Getirme için otomatik kesinleştirmenin gereksinim tarihini (bitiş tarihi) değil, sipariş tarihini temel aldığını unutmayın. Bu davranış, planlanan siparişlerin, sağlama süresini kesinleştirme zaman dilimine dahil etmek zorunda kalmadan, vade tarihinde kesinleştirilmesini sağlar. | Destekleniyor |

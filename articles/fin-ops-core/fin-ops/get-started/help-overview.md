@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 16381,  ""intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.form: SystemParameters
-ms.openlocfilehash: 19e1659a5fb91c7cb8916b1a8b6238038df29287
-ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
+ms.openlocfilehash: fa1a120fac66997658908a61469d45e96bcc4912
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9462370"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538850"
 ---
 # <a name="help-system"></a>Yardım sistemi
 
@@ -40,14 +40,14 @@ Tüm bu uygulamalarda, ürüne özel Yardım'a **Yardım** bölmesinden erişebi
 
 ![Yardım bölmesi.](./media/help-pane-ops-help.png)
 
-## <a name="help-on-microsoft-docs"></a>Microsoft Docs'ta Yardım
+## <a name="help-on-microsoft-learn"></a>Microsoft Learn'de yardım
 
-Microsoft Docs'taki ([Microsoft Dynamics 365](/dynamics365/)belgeleri), daha önce listelenen uygulamaların ürün belgeleri için varsayılan kaynaktır. Bu sitede aşağıdaki özellikler sunulmaktadır:
+Microsoft Learn'deki ([Microsoft Dynamics 365belgeleri](/dynamics365/)), daha önce listelenen uygulamaların ürün belgeleri için varsayılan kaynaktır. Bu sitede aşağıdaki özellikler sunulmaktadır:
 
 - **En güncel içeriğe erişim**: Site, ürün belgeleri oluşturmak, teslim etmek ve güncelleştirmek için Microsoft'a daha hızlı ve daha esnek bir yol sunar. Bu sayede, en son teknik bilgilere kolayca erişebilirsiniz.
 - **Uzmanlar tarafından yazılan içerik**: Sitedeki içerik, Microsoft içindeki ve dışındaki topluluk üyelerinin katkılarına açıktır.
 
-Herhangi bir arama motorunu kullanarak Microsoft Docs'ta içerik bulabilirsiniz. En iyi sonuçları almanız için **site:docs.microsoft.com dynamics 365 "arama terimi"** şeklinde bir site araması kullanmanızı öneririz.
+Herhangi bir arama motorunu kullanarak Microsoft Learn'de içerik bulabilirsiniz. En iyi sonuçları almanız için **site:learn.microsoft.com dynamics 365 "arama terimi"** şeklinde bir site araması kullanmanızı öneririz.
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>RSS akışı aracılığıyla değişiklikler hakkında bildirim alma
 
@@ -87,7 +87,7 @@ Belgelere katkıda bulunabilir ve düzenlemeler yapabilirsiniz. Başlamak için 
 
 [Microsoft Dynamics 365 belgelerine katkıda bulunma](https://youtu.be/m5djioozRbg) videosu (yukarıda gösterilen) YouTube'daki Microsoft Dynamics 365 kanalında bulunmaktadır.
 
-Daha fazla bilgi için Microsoft Docs sitesini oluşturan ekip tarafından yayınlanan [Microsoft Docs katılımcı kılavuzu](/contribute)'na bakın.
+Daha fazla bilgi için, Microsoft Learn sitesini oluşturan ekip tarafından yayınlanan [Microsoft Docs, katılımcı kılavuzuna](/contribute) bakın.
 
 > [!NOTE]
 > Şu anda yalnızca İngilizce içerik katılımlarını kabul ediyoruz.
@@ -169,14 +169,11 @@ Aşağıdaki tablo web sitelerimizi listeler. Adının yanında bir yıldız iş
 | Site | Açıklama |
 |------|-------------|
 | [Microsoft Dynamics 365 belgeleri](/dynamics365/) | Bu site, Dynamics 365 için tüm ürün belgelerini barındırır veya bu belgelere bağlantı kurar. |
-| [Microsoft Learn](/learn/) | Bu site, ücretsiz Microsoft eLearning sitesidir. |
+| [Microsoft Learn eğitimi](/training/) | Bu site, ücretsiz Microsoft eLearning sitesidir. |
 | [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | Bu site, müşteriler ve ortakların satış öncesi uygulama ve işlemlerden projeleri yönetebilmesi için bulut tabanlı iş birliğine dayalı çalışma alanı sağlar. Uygulamanın tüm aşamalarında yararlıdır. |
 | [Destek blogu](https://aka.ms/AXSupportBlog) | Bu site, Destek ekibi tarafından yayınlanan ipuçları ve püf noktalar sağlar. |
 | [Önceki sürümler](/previous-versions/dynamics/) | Bu site, önceki sürümlerden içerik barındırır. |
 | [Dynamics Topluluğu](https://community.dynamics.com/) | Bu site; bloglar, forumlar ve videoları barındırır. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Bu site, değerlendirme ve satış bilgileri sağlar. |
-
-
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: c98f33345b37a72c4099f01e37c82e27002ac687
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0195dc528f2fe6bf62efbf03f8706ea90f4a4fc4
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9283160"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524758"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Satıcı faturalarını içeri aktarmak için elektronik faturalama servisini kullanma
 
@@ -107,7 +107,8 @@ Farklı satıcı faturasını içeri aktarma türlerini ayarlamak için aşağı
 2. Türetilmiş bir yapılandırma oluşturmak için **Müşteri faturası bağlam modeli**'ni seçin ve ardından **Yapılandırma oluştur** > **İsimden Türet: Müşteri faturası bağlam modeli, Microsoft**'u seçin.
 3. **Taslak** sürümünde **Tasarımcı**'yı seçin ve **Veri modeli** ağacında, **Modeli veri kaynağına eşle**'yi seçin.
 4. **Tanımlar** ağacında, **DataChannel**'ı ve ardından **Tasarımcı**'yı seçin.
-5. **Veri kaynakları** ağacında, **$Context\_Channel** kapsayıcısını genişletin. **Değer** alanında, **Düzenle**'yi seçin ve veri kanalı adını girin. Bu, RCS'de Elektronik faturalama özelliği için veri kanalının yapılandırmasında verilen kanalın adıdır. 
+5. **Veri kaynakları** ağacında, **$Context\_Channel** kapsayıcısını genişletin. 
+6. **Değer** alanında, **Düzenle** > **Formülü düzenle**'yi seçin ve veri kanalı adını girin. Bu, RCS'de Elektronik faturalama özelliği için veri kanalının yapılandırmasında verilen kanalın adıdır. 
 7. **Kaydet**'i seçip sayfayı kapatın.
 8. Sayfayı kapatın.
 9. **Müşteri faturası bağlam modeli**'nden yeni oluşturduğunuz türetilen yapılandırmayı seçin ve **Sürümler** hızlı sekmesinde **Durumu Değiştir** > **Tamamlandı**'yı seçin.

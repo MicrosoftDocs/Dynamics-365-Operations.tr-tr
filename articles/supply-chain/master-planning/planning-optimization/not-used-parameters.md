@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3791ac804b78a20d0051881a83cb075e56ec8639
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c7469692aac24a5ae554973325a128c787363ba
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907362"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542306"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Planlamayı En İyi Duruma Getirme tarafından kullanılmayan parametreler
 
@@ -189,3 +189,5 @@ Planlamayı En İyi Duruma Getirme, **Toplu iş değerlendirme ana verileri** sa
 - **Kurulum** Hızlı sekmesi:
 
   - **Netleştirilebilir** *Toplu iş değerlendirme kodları* desteği bekleniyor.
+ 
+<!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 

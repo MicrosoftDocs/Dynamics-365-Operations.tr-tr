@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: f908caa902e4747d324480e3a5108b443d385ea7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: aa6c80914301cc0403974a6acc5e95ff61c9c1a7
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277346"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524702"
 ---
 # <a name="connected-applications"></a>Bağlı uygulamalar
 
@@ -35,7 +35,7 @@ RCS'de Finance veya Supply Chain Management parametrelerinin kullanılabilirliğ
 ## <a name="create-a-connected-application"></a>Bağlı bir uygulama oluşturma
 
 1. RCS hesabınızda oturum açın.
-2. **Genelleştirme özelliği** çalışma alanında, **Ortam** bölümünde, **Elektronik faturalama** kutucuğunu seçin.
+2. **Globalleştirme özelliği** çalışma alanında **İlgili bağlantılar** bölmesinde **Ortam kurulumu** kutucuğunu seçin.
 3. **Ortam kurulumu** sayfasındaki Eylem Bölmesi'nde **Bağlı uygulamalar**'ı seçin.
 4. Yeni bir bağlı uygulama oluşturmak için **Yeni**'yi seçin.
 5. **Ad** alanına bağlanacak uygulamanın adını girin.
