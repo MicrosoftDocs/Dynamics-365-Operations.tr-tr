@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 1ee354a1c3d9b45eb12eeb3a6a29f2a6d5e4c34c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 331c714663d212471b72f1558e6183452ef7f394
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846929"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573185"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Finance Insights kurulumu ile ilgili sorunları giderme
 
@@ -88,10 +88,14 @@ Aşağıdaki adımların tamamlanması gerekiyor.
 - Eklentiyi yükleyen kullanıcıya Dynamics 365 Finance veya eşdeğer bir lisans uygulandığını doğrulayın.
 - Aşağıdaki Azure AD uygulamasının, Azure AD'de kayıtlı olduğunu doğrulayın: 
 
-  | Uygulama                  | Uygulama kodu           |
-  | ---------------------------- | ---------------- |
-  | Microsoft Dynamics ERP Mikro Hizmetleri CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
+    | Uygulama                  | Uygulama kodu           |
+    | ---------------------------- | ---------------- |
+    | Microsoft Dynamics ERP Mikro Hizmetleri CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
   
+    Uygulamanın Azure AD'de kayıtlı olduğunu doğrulamak için **Tüm Uygulamalar** listesini kontrol edin. Daha fazla ayrıntı için bkz. [Kurumsal uygulamaları görüntüleme](/azure/active-directory/manage-apps/view-applications-portal).
+  
+    Uygulama Azure AD'de kayıtlı değilse desteğe başvurun.
+
 ## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>Belirti: Hata, "Seçili filtre aralığı için herhangi bir veri bulamadık. Lütfen farklı bir filtre aralığı seçin ve yeniden deneyin." 
 
 ### <a name="resolution"></a>Çözüm

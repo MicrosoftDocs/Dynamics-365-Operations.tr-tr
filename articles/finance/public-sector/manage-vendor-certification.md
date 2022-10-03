@@ -1,21 +1,21 @@
 ---
 title: Satıcı sertifikasını koruma
 description: Bu makalede, Satıcı işbirliği çalışma alanını kullanarak satıcıların sertifikalarını korumak için kullanabileceği adımlar açıklanmaktadır.
-author: v-kiarnd
+author: TaylorVH
 ms.date: 04/27/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: v-kiarnd
+ms.author: TaylorVH
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: e6742037d04cb21c153af3cd22d1dcb91e3d64e8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: c66952d19cddd9d4a9a102ba59e8d6d97b75ed4d
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9268517"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9583213"
 ---
 # <a name="maintain-vendor-certification"></a>Satıcı sertifikasını koruma
 

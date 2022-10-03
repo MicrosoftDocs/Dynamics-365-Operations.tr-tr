@@ -16,18 +16,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2022-00-02
 ms.dyn365.ops.version: AX 10.0.29
-ms.openlocfilehash: 365316b204b6d76fa6ee6b2402fefee50c8ff3ef
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 3ac4af8c131e35d9a499d0d558c7cce1d4872b37
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220673"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573291"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-france"></a>Fransa için Elektronik faturalama eklentisini kullanmaya başlama
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Bu makalede, Fransa için Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler yer almaktadır. Regulatory Configuration Service (RCS) için ülkeye bağlı olan yapılandırma adımlarında size kılavuzluk eder. Bu adımlar, [Elektronik faturalama eklentisini kullanmaya başlama](e-invoicing-get-started.md) konusunda açıklanan adımları tamamlar.
 

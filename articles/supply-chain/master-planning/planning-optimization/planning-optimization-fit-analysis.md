@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
+ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542365"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9591863"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planlamayı En İyi Duruma Getirme uygunluk analizi
 
@@ -94,7 +94,7 @@ Aşağıdaki tabloda, bir uygunluk analizinin ardından gösterilebilecek çeşi
 | Üretim | Verim içeren Formül sürümleri: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, formül sürümüyle ilişkilendirilmiş verim yok sayılır. | 2022 sürüm 2 |
 | Üretim | Sıralama içeren planlar: *\#* | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın, Planlamayı En İyi Duruma Getirme özelliği etkinleştirildiğinde, sıralama yok sayılır. | 2022 sürüm 2 |
 | Üretim | Planlanan başlangıcı bugünden önce olan başlatılmamış serbest bırakılan üretim emirleri: *\#* | Bu özellik beklemededir. Şu anda, bir üretim emri gecikirse, master planlama bunun bugün tamamlanacağını varsayar. Bu, teslimat tarihi geçmişte olan, ancak henüz tamamlanmamış olan yayımlanmış üretim emirleriyle ilgilidir. | Gelecekteki dalga |
-| Üretim | Sınırlı kapasiteyle planlanan kaynaklar: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde sınırlı kapasiteyle zamanlanan kaynaklar yok sayılır. Planlama, üründen alınan varsayılan sağlama süresine göre yapılır. | 2022 sürüm 2 |
+| Üretim | Sınırlı kapasiteyle planlanan kaynaklar: *\#* | Bu özellik şimdi desteklenmektedir.| Destekleniyor |
 | Üretim | Planlamada kullanılan rotalar: *\#* | Bu özellik desteklenmektedir. | Destekleniyor |
 | Üretim | Açılım kullanılarak satış satırı rezervasyonu: *\#* | Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, açılım kullanan satış satırı rezervasyonu desteklenmez. | Gelecekteki dalga |
 | Üretim | Üretim emirlerinin açılımı ile planlama: *\#* | Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, üretim emirlerinin açılımını kullanan planlama desteklenmez. Üretim emirleri ayrı olarak zamanlanabilir. | Gelecekteki dalga |

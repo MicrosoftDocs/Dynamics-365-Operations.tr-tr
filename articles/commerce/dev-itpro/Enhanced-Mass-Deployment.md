@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 66a711aff90221e594f4b2a0df3735eac93d0c9b
-ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
+ms.openlocfilehash: 426473c14cdf9e171810aafd97dbb1afd5988b2f
+ms.sourcegitcommit: 24673493d14f2045a08fe7240689bee34e099cb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "9387032"
+ms.lasthandoff: 09/24/2022
+ms.locfileid: "9589102"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Mühürlü Commerce self servis bileşenlerinin toplu dağıtımı
 
@@ -47,7 +47,7 @@ Aşağıdaki tablo, komut satırı yürütmesinde kullanılabilecek sınırlayı
 | -EnvironmentId | Ortam kimliği. |
 | -HardwareStationAppInsightsInstrumentationKey | Hardware Station AppInsights izleme anahtarı. |
 | Yükle | Bu yükleyicinin sağladığı bileşenin yüklenip yüklenmeyeceğini belirten bir parametre. Bu parametre, yükleme gerçekleştirmek için gereklidir ve başında tire karakteri yoktur. |
-| -InstallOffline | Modern POS için bu parametre, çevrimdışı veritabanının da yüklenip yapılandırılacağını belirtir. **-SQLServerName** parametresini de kullanın. Aksi durumda yükleyici, önkoşullara uyan varsayılan bir örneği bulmaya çalışır. |
+| -InstallOffline | Modern POS için bu parametre, çevrimdışı veritabanının da yüklenip yapılandırılacağını belirtir. **-SQLServerName** parametresini de kullanın. Aksi durumda yükleyici, önkoşullara uyan varsayılan bir örneği bulmaya çalışır. Azure Active Directory (Azure AD) kimlik doğrulaması kullanılırken, çevrimiçi bağlantı her zaman gerekli olduğundan, POS çevrimdışı çalışmaz. |
 | -Port | Retail Server sanal dizini ile ilişkilendirilmesi ve tarafından kullanılması gereken bağlantı noktası. Bağlantı noktası ayarlanmamışsa 443 numaralı varsayılan bağlantı noktası kullanılır. |
 | -Register | Headquarters'da **Kayıtlar** sayfasında gösterilen kayıt kimliği. |
 | -RetailServerAadClientId | Headquarters ile iletişim sırasında Retail Server'ın kullanması gereken Azure AD istemci kimliği. |

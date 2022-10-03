@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 91243
 ms.assetid: 515bc6e7-a85d-4995-95c6-6cab6c8aa0f9
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e69fddf1acd9a9388f62da63e0ca6a19c7a95f55
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 4cd59d5ea2ef8d280a927fd9e9fe3b9af7974d7c
+ms.sourcegitcommit: 0a5885dc792fc608ae59d0ef9b36fb61790b24de
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287095"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "9594000"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)
 
@@ -319,7 +319,7 @@ Bu özellik, üretilen maddeye atanan maliyetlendirme yöntemlerinden bağımsı
 <tr>
 <td><strong>Yardım</strong>'a tıklayarak destekli yordamsal Yardım (görev kılavuzları) ve kavramsal konulara erişin.</td>
 <td>AX 2012 Yardım sistemi, yerel web sunucusunda depolanmış olan HTML konulara yönlendirir. Müşteriler ve ortaklar kendi yardımlarını oluşturabilirler.</td>
-<td>Dynamics AX'in mevcut sürümündeki yardım sistemi, Microsoft Dynamics Lifecycle Services (LCS) BPM içinde depolanan görev kılavuzlarını görüntüler. Yardım sistemi aynı zamanda Microsoft belgeler sitesinde de konular görüntüler. Daha fazla bilgi için bkz. <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Yardım sistemi</a> ve <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Yeni görev kılavuzları (Şubat 2016)</a>.</td>
+<td>Dynamics AX'in mevcut sürümündeki yardım sistemi, Microsoft Dynamics Lifecycle Services (LCS) BPM içinde depolanan görev kılavuzlarını görüntüler. Yardım sistemi, Microsoft Learn'deki konuları da görüntüler. Daha fazla bilgi için bkz. <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Yardım sistemi</a> ve <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Yeni görev kılavuzları (Şubat 2016)</a>.</td>
 <td>Görev kılavuzları, size bir görevin veya iş işlemin adımları boyunca yol gösteren destekli, etkileşimli bir deneyim sağlar. Microsoft'un sağladığı görev kılavuzlarını indirebilir ve özelleştirebilirsiniz. Makalede, ürün belgelerini oluşturmak, teslim etmek ve güncelleştirmek için daha hızlı ve esnek bir yöntem sağlanmaktadır. Bu nedenle, en son teknik bilgilerin erişimine sahip olmanızı garanti etmeye yardımcı olur.</td>
 </tr>
 </tbody>

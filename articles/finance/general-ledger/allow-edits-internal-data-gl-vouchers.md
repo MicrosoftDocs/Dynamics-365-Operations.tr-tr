@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 26fc6518f0b4eae815e047db1dbaadd7c56a2e67
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 6e346c6ff881d3a33743196b45247493fd19ed1d
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220674"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573264"
 ---
 # <a name="allow-edits-to-internal-data-on-general-ledger-vouchers"></a>Genel muhasebe fişlerinde dahili verilere yapılan düzenlemelere izin ver
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 
 Muhasebe girişlerini genel muhasebeye naklettiğinizde **Açıklama** alanı, dahili notları veya belgeleri depolamak için sık kullanılır. Bilgiler yanlışsa, karışıklığa neden olabilir ve dönem sonu kapanışı daha zor olabilir. Bu özellik, genel muhasebedeki deftere nakledilen fişlerle ilgili **Açıklama** alanını düzenleyerek muhasebe yöneticisinin veya muhasebe gözetmeninin hataları gidermelerini sağlar.

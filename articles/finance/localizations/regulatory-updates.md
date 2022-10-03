@@ -2,7 +2,7 @@
 title: Mevzuat güncellemeleri
 description: Bu makalede, Microsoft Dynamics 365 Finance için planlanan ve yayımlanan mevzuat güncelleştirmelerinin listesi verilmektedir.
 author: VStamberg
-ms.date: 04/18/2022
+ms.date: 09/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 129e4e1d44018da206d0e797dcfd389c9e6adeba
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: fdfc10ea5bf330c3a739f8dfe86c56f16ca2c69e
+ms.sourcegitcommit: 2290799408b7567a97601bc4158f814d5bfd844c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206211"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "9596248"
 ---
 # <a name="regulatory-updates"></a>Mevzuat güncellemeleri
 
@@ -39,19 +39,14 @@ En güncel mevzuat güncelleştirme planları için aşağıdaki tabloya başvur
 
 |Ülke/Bölge|Nakledilebilecek tarih|Yayım sürümü|Düzenleme güncelleştirmesi|
 |--------------------|---------------|-------|-------| 
-|      Brezilya         |   Mart 2022    | 10.0.27        |    Vergi dışı mükelleflere yönelik işlemlerde ICMS-DIFAL tahsilatı (Tamamlayıcı Yasa No. 190/22)  |
-|      Brezilya         |   Mart 2022         | 10.0.27         |    NF-e NT2021.004  v1.00 - Düzen ve doğrulama kuralları güncelleştirmeleri  |
-|      Brezilya         |   Mart 2022         | 10.0.27         |    NF-e NT2021.004  v1.00 - Düzen ve doğrulama kuralları güncelleştirmeleri - Perakende  |
-|      Brezilya         |   Nisan 2022         | 10.0.27HF, 10.0.28         |    SPED ECF - DÜZEN 8  |
-|      Doğu Avrupa         |   Temmuz 2022         | 10.0.27HF, 10.0.28HF, 10.0.29         |    Ana hesaba göre genel muhasebe beyanı  |
-|      Litvanya|   Şubat 2022 | 10.0.27 | Dynamics 365 Finance'te 2022-01-01 için i.SAF değişiklikleri  |
-|      Meksika         |   Mart 2022      | 10.0.27      |   CFDI biçimleri sürüm 4.0 (faturalar ve ödemeler)  |
-|      Meksika         |   Şubat 2022      | 10.0.27      |   1 Ocak 2022 itibariyle, CFDI'nın 4.0 sürümü, 1 Ocak ile 30 Haziran 2022 arasında çalışan sürüm 3.3 ve sürüm 4.0 arasında bir arada bulunan bir süre ile birlikte çalışmaya gelir.  |
-|      Meksika         |   Mart 2022      | 10.0.27      |   CFDI biçimleri sürüm 4.0 (stopaj)  |
-|      Polonya          |   Nisan 2022     | 10.0.27HF, 10.0.28     |   1 Nisan'dan başlayarak JPK_FA sürüm 4, 2022JPK_V7M - 2022 Ocak'tan itibaren yeni şema sürümü |
-|      Rusya          |   2022 Haziran     | 10.0.27    |  İzlenebilir ürünlerle yapılan işlemler hakkında rapor (monitör, buzdolabı ve ofis mobilyaları gibi bireysel kullanım için satın alınan izlenebilir ürünlerin silinmesi kapsamında)|
-|      Singapur      |   Temmuz 2022| 10.0.27HF, 10.0.28HF, 10.0.29 | TXT biçiminde IRAS Denetim Dosyası (IAF)|
-|      İspanya      |   Mart 2022| 10.0.27 | KDV beyanname modeli 303, Dynamics 365 Finance'de 1 Ocak 2022 olarak değişir|
+|      Brezilya         |   Nisan 2022         | 10.0.28         |    SPED ECF - DÜZEN 8  |
+|      Brezilya         |   2022 Haziran         | 10.0.30HF         |    EFD ICMS IPI - sürüm 3.0.9  |
+|      Brezilya         |   Ağustos 2022         | 10.0.30         |    NF-e NT2021.004 v1.31 - Düzen ve doğrulama kuralları güncelleştirmeleri  |
+|      Doğu Avrupa         |   Temmuz 2022         | 10.0.28HF, 10.0.29         |    Ana hesaba göre genel muhasebe beyanı  |
+|      Macaristan         |   Temmuz 2022         | 10.0.30         |    XML'de (2065A) KDV beyannamesi ve Excel'de önizleme. XML'de satın alma faturaları eki (2065M)  |
+|      Polonya          |   Nisan 2022     | 10.0.28     |   JPK_FA sürüm 4, 1 Nisan 2022'den itibaren |
+|      Rusya          |   2022 Haziran     | 10.0.29    |  Resmi Adres Kayıt Makamı'ndan (GAR) adres verilerini içeri aktarma|
+|      Singapur      |   Temmuz 2022| 10.0.28HF, 10.0.29 | TXT biçiminde IRAS Denetim Dosyası (IAF)|
 
 
 ## <a name="additional-resources"></a>Ek kaynaklar

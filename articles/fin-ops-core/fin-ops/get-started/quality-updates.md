@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 985800aad3711a1b28613f0f82585b4d592cdf58
-ms.sourcegitcommit: de989037d83393bea013cd58c061159765305b4f
+ms.openlocfilehash: c2d26b7c5e110d05806c064e15a3ad2af34d0fbd
+ms.sourcegitcommit: fde2867524b6a851628185cbdeee60a6ad918d08
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473618"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9592059"
 ---
 # <a name="proactive-quality-updates"></a>Proaktif kalite güncelleştirmeleri
 
@@ -57,7 +57,7 @@ Proaktif kalite güncelleştirme dağıtımının etkinleştirilmesinin ötesind
 - **Şema**: Araç, kalite güncelleştirme derlemelerinin yalnızca hizmet çevrimiçi olduğunda uygulanabilen şema değişikliklerini içermesini sağlayacaktır. Bu yaklaşım, güncelleştirmeyi sıfır kesinti süresiyle uygulama yeteneğini korumanıza yardımcı olur.
 - **Artırılmış değişiklik incelemesi**: Şu anda zaten değişikliklerin kalite güncelleştirmesine eklenmesini onaylamaya yönelik ekstra bir süreç adımı bulunmaktadır. Ekstra adımdaki inceleme gerileme potansiyeli azaltmaya yardımcı olmak amacıyla artırılacaktır. Kalite güncelleştirmelerinde hataya neden olan değişikliklere izin verilmez ve artırılmış değişiklik incelemesi bu hedefe ulaşmaya yardımcı olacaktır.
 - **Görünürlük**: Gelecekteki proaktif kalite güncelleştirmeleri için bildirimleri e-posta ve Lifecycle Services (LCS) aracılığıyla göndereceğiz. Ek olarak, destek takımları ve olay liderleri, kalite güncelleştirmelerinin proaktif olarak dağıtıldığı yerler için görünebilirliğe sahip olacaktır.
-- **Sürüm geri dönüşü**: Proaktif kalite güncelleştirmesinde tüm değişiklikleri gruplandırmak için sınırlı dağıtım kullanılacaktır. Proaktif bir dağıtımdan sonra geri dönüş gerekiyorsa bu, sınırlı dağıtım sistemi üzerinden yapılabilir.
+- **Dağıtım yoluyla Fail Safe** – Dağıtım, bir kalite güncellemesi hata düzeltmesinde uygun olan yerlerde kod değişikliklerini korumak için kullanılır veya düzeltmeyle ilgili mevcut özellik uçuşunu kullanır. Proaktif bir dağıtımdan sonra bir geri dönüş veya değişikliğin kapatılması gerekiyorsa daha fazla başarısızlık oluşmaması için dağıtma sistemi üzerinden yapılabilir.
 - **Korumalı alan eşitleme tanımı**: Günümüzde müşterilerin yüzde 20'sinden azı birden fazla korumalı alana sahiptir ve sorun gidermeye yardımcı olmak için bir korumalı alanı sürümün eşleştiği üretimde dağıtılmış olarak korurlar. Bir müşteri, üretiminden daha yeni bir sürümü test etmek için korumalı alan kullanıyorsa bu korumalı alan yeni sürüme yönelik kalite güncelleştirmelerini alır.
 
 ## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Kalite güncelleştirmeleri için kullanıma sunma yol haritası nedir?
@@ -69,7 +69,7 @@ Sonraki altı aylık dönemde, tanımlanan tüm ortamlar eklenene kadar proaktif
 Müşteriler düzenli olarak daha küçük yükler alacağından, güncel kalma sürecinin daha kolay hale geleceğini bekliyoruz. Süreci kesintisiz yürütme yeteneğini gösterdiğimizde güncelleştirme dağıtımının sıklığını ayarlayacağız. Bu süreç Dataverse platformumuz ve uygulamalarımız için zaten etkili şekilde çalışıyor ve hizmet kalitesinde beklenen iyileştirmeleri sunuyor. Finans ve operasyon uygulamaları için de aynı adımı atmak istiyoruz.
 
 ## <a name="when-will-quality-updates-start-for-production-environments"></a>Üretim ortamları için kalite güncelleştirmeleri ne zaman başlayacak?
-Şu anda, kalite güncellemeleri yalnızca korumalı alanları hedeflemektedir. Üretim ortamlarındaki güncelleştirmeler Kasım 2022'den sonra başlayacaktır.
+Şu anda, kalite güncellemeleri yalnızca korumalı alanları hedeflemektedir. Üretim için hazır olma durumunu ölçmek amacıyla korumalı alanların proaktif güncelleştirmelerinden daha somut veriler ve ölçümler elde ettiğimizde, bu alanı üretim ortamları için bir başlangıç tarihi ile güncelleştireceğiz.
 
 ## <a name="what-is-the-schedule-for-sandbox-quality-updates"></a>Korumalı alan kalite güncelleştirmeleri için zamanlama nedir?
 Her bölgenin aktif olunmayan saatleri hakkında bilgi için bkz. [Proaktif kalite güncelleştirmeleri zamanlaması nedir?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-is-the-schedule-for-proactive-quality-updates).

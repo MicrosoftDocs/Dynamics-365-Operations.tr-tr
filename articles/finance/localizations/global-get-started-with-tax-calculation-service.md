@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.custom: intro-internal
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 0f005352970ec3dadb178dfafeaf4f7e36f8c18d
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 2b9af7a8bef9d479c4f2ec59ef533403a74251b1
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279825"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573318"
 ---
 # <a name="get-started-with-tax-calculation"></a>Vergi Hesaplamayı kullanmaya başlama
 
@@ -186,9 +186,9 @@ Bu bölümdeki adımlar belirli bir tüzel kişilikle ilişkili değildir. Bu yo
 
     | Vergi grubu    | Vergi kodları           |
     | ------------ | ------------------- |
-    | DEU_Domestic | DEU_VAT19; DEU_VAT7 |
+    | DEU_Dom | DEU_VAT19; DEU_VAT7 |
     | DEU_EU       | DEU_Exempt          |
-    | BEL_Domestic | BEL_VAT21; BEL_VAT6 |
+    | BEL_Dom | BEL_VAT21; BEL_VAT6 |
     | BEL_EU       | BEL_Exempt          |
 
 20. **Madde vergisi grubu** sekmesinde, **Madde vergisi grubu** sütununu seçin, bunu giriş koşulu olarak matrise ekleyin ve ardından madde vergisi grubu ana verilerini korumak için satırlar ekleyin.
@@ -206,9 +206,9 @@ Bu bölümdeki adımlar belirli bir tüzel kişilikle ilişkili değildir. Bu yo
 
     | İş süreci | Sevk çıkış yeri | Sevk varış yeri | Vergi grubu    |
     | ---------------- | --------- | ------- | ------------ |
-    | Satışlar            | DEU       | DEU     | DEU_Domestic |
-    | Satışlar            | DEU       | FRA     | DEU_EU       |
-    | Satış            | BEL       | BEL     | BEL_Domestic |
+    | Satış            | DEU       | DEU     | DEU_Dom |
+    | Satış            | DEU       | FRA     | DEU_EU       |
+    | Satış            | BEL       | BEL     | BEL_Dom |
     | Satış            | BEL       | FRA     | BEL_EU       |
     
     > [!NOTE]

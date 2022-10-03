@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6aa3dce4bfda7f3c9243387cd398f08e7b990b2f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d5930ca2ce2bb1ae534f7e2b434836c3a4adeba
+ms.sourcegitcommit: cf27cf277b37666c838043e0695d39d52be5dcdd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894214"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9588966"
 ---
 # <a name="accounting-distributions"></a>Muhasebe dağıtımları
 
@@ -51,7 +51,7 @@ Genel muhasebe dağılımı özellikleri, muhasebe dağılımlarının işlenmes
     -   Geçerli belge muhasebe durumunu **Referans** içerisinde görebilirsiniz. Durum tüm belge içindir ve belgenin işlemde mi yoksa tamamlanmış mı olduğunu belirtir.
 -   **Dağılımları göster**: Belgedeki tüm satırlar ve parasal tutarlar için muhasebe dağılımlarını görüntüleyin. Muhasebe dağılımlarını bu görünümden değiştiremezsiniz.
 
-Sürüm 10.0.13, yeni alanların doğru ayarlandığından emin olmak için hesap dağıtım tablosunu doğrulayan bir özellik eklenmiştir. Bu özellik, **Kaynak belge muhasebe çerçevesini kullanan belgeler için verilerin ek doğrulanmasını etkinleştir** olarak adlandırılır. Özelliği kullanmak için **Özellik yönetimi** çalışma alanını kullanarak etkinleştirmelisiniz. Özelliği etkinleştirmek için **Özellik yönetimi** sayfasındaki **Arama** alanında özelliğin adını arayın ve **Şimdi etkinleştir**'i seçin.
+Sürüm 10.0.13, yeni alanların doğru ayarlandığından emin olmak için hesap dağıtım tablosunu doğrulayan bir özellik eklenmiştir. Bu özellik, **Kaynak belge muhasebe çerçevesini kullanan belgeler için verilerin ek doğrulanmasını etkinleştir** olarak adlandırılır. Bu özellik 10.0.29 sürümünde varsayılan olarak etkinleştirilecek. 
 
 Daha fazla bilgi için bkz. [Satıcı faturaları için muhasebe dağılımları ve muavin defteri günlük girdileri](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
 

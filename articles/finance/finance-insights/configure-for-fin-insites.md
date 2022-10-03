@@ -2,7 +2,7 @@
 title: Finance Insights için Yapılandırma
 description: Bu makalede, sisteminizin Finance Insights'ta sunulan özellikleri kullanabilmesini sağlayacak yapılandırma adımları açıklanmaktadır.
 author: ShivamPandey-msft
-ms.date: 01/27/2022
+ms.date: 09/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ac0f0cb078b6e202540fadbff337a01379febc8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 05bf5fe5a5ff86bbf52ed58ee6b1e84c15bf2c1e
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861430"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573207"
 ---
 # <a name="configuration-for-finance-insights"></a>Finance Insights için Yapılandırma
 
@@ -39,7 +39,7 @@ Ortamları dağıtmak için aşağıdaki adımları uygulayın.
 1. LCS'de bir Dynamics 365 Finance ortamı oluşturun veya güncelleştirin. Ortam, sürüm 10.0.21 veya daha sonraki sürüm gerektirir.
 
     > [!NOTE]
-    > Ortam, yüksek kullanılabilirlik (HA) ortamı olmalıdır. (Bu ortam türü aynı zamanda Katman 2 ortamı olarak da bilinir.) Daha fazla bilgi için bkz. [Ortam planlama](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+    > Ortam, yüksek kullanılabilirlik (HA) ortamı olmalıdır. (Bu ortam türü aynı zamanda Katman 2 ortamı olarak da bilinir.) Daha fazla bilgi için bkz. [Ortam planlama](/fin-ops-core/fin-ops/imp-lifecycle/environment-planning).
 
 2. Finance Insights'ı bir korumalı alanda yapılandırıyorsanız tahminlerin çalışabilmesi için üretim verilerini ilgili ortama kopyalamanız gerekebilir. Tahmin modeli, tahminleri oluşturmak için birkaç senelik verileri kullanır. Contoso demo verileri, tahmin modelini yeterince geliştirmek için yeterli tarihsel veri içermez. 
 
@@ -51,13 +51,16 @@ Aşağıdaki kurulumun tamamlandığını doğrulayın:
 
 - Power Portal yönetim merkezinde **Sistem yöneticisi** ve **Sistem Özelleştirici** erişiminiz var.
 - Finance Insights eklentisini yükleyen kullanıcıya bir Dynamics 365 Finance veya eşdeğer bir lisans uygulanır.
+- Aşağıdaki Azure AD uygulamaları, Azure AD'de kayıtlıdır.
 
-Aşağıdaki Azure AD uygulamaları, Azure AD'de kayıtlıdır.
+    |  Uygulama                             | Uygulama kodu                               |
+    |------------------------------------------|--------------------------------------|
+    | Microsoft Dynamics ERP Mikro Hizmetleri CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
 
-|  Uygulama                             | Uygulama kodu                               |
-|------------------------------------------|--------------------------------------|
-| Microsoft Dynamics ERP Mikro Hizmetleri CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
-    
+    Uygulamanın Azure AD'de kayıtlı olduğunu doğrulamak için **Tüm Uygulamalar** listesini kontrol edin. Daha fazla ayrıntı için bkz. [Kurumsal uygulamaları görüntüleme](/azure/active-directory/manage-apps/view-applications-portal).
+  
+    Uygulama Azure AD'de kayıtlı değilse desteğe başvurun.
+  
 ## <a name="configure-dataverse"></a>Dataverse'ı yapılandırma
 
 Finance Insights için Dataverse'ü yapılandırmak için aşağıdaki adımları uygulayın.

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2f91c46367ee2f881476a496555f15454c9f6baa
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: da97490cb065365a0502aa82c63205d5c34da9eb
+ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542333"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9591890"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Planlama Optimizasyonu yayımlama işlemi ve sürüm geçmişi
 
@@ -35,6 +35,7 @@ Planlama Optimizasyonu, ortamınızda güncelleştirildiğinde herhangi bir bild
 
 | Değişiklikler | Özellik yönetimi ayrıntıları | Yayın tarihleri |
 |---|---|---|
+| <p> Sınırlı kapasiteyle kaynak planlama için destek. <p>Genel performans, kalite ve kararlılık iyileştirmeleri. | Özellik yönetimi gerekmez. | 19-23 Eylül 2022 |
 | <p>Genel performans, kalite ve kararlılık iyileştirmeleri. | Özellik yönetimi gerekmez. | 29 Ağustos - 3 Eylül 2022 |
 | <p>Genel performans, kalite ve kararlılık iyileştirmeleri.<p>[Planlama Optimizasyonu Merkezi takvim Bakımı](../supply-chain-calendars-master-planning.md)<p>[Mevcut arzı iyileştirmek için Planlama İyileştirmesi önerileri](../action-messages.md)<p>[Alt sözleşme için Planlama Optimizasyonu desteği](../../production-control/manage-subcontract-work-production.md) | Özellik yönetimi gerekmez. | 7-11 Mart 2022 |
 | <p>Üretim emirleri için planlama önceliği desteği eklendi. | Planlama İyileştirmesi için *Öncelik temelli MRP desteği* özelliği kapsamında 10.0.25 sürümünde kullanıma sunuldu. | 12-18 Kasım 2021 |
