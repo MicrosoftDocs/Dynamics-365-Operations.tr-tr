@@ -2,19 +2,19 @@
 title: Commerce kanalları için mali tümleştirmeye genel bakış
 description: Bu makale, Dynamics 365 Commerce içinde kullanılabilen mali tümleştirme yeterliliklerine genel bakış sağlar.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 0a56df2a463153c6c3986ce84907e25ea7d965b8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1812405db3c1e58eaf7cd1df3896f786e7bf026f
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286512"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631276"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Commerce kanalları için mali tümleştirmeye genel bakış
 
@@ -95,16 +95,20 @@ Bu yapılandırma, deponun yerel ağında bir fiziksel mali aygıt veya mali ser
 
 Mali tümleştirme çerçevesi, mali kayıt sırasındaki başarısızlıkları ele almak için aşağıdaki seçenekleri sunar:
 
-- **Yeniden deneme** – Operatörler, bu seçeneği başarısızlık hızlıca çözümlenebildiğinde kullanırlar ve mali kayıt yeniden yürütülebilir. Örneğin, bu seçenek mali cihaz bağlı olmadığında, mali yazıcının kağıdı bittiğinde veya mali yazıcıda bir kağıt sıkışması olduğunda kullanılabilir.
-- **İptal** – Bu seçenek, operatörlerin, geçerli mali hareket veya etkinlik başarısız olduğunda ertelemesine izin verir. Kayıt ertelendikten sonra, operatör POS üzerinde çalışmaya devam edebilir ve mali kaydın gerekli olmadığı herhangi bir operasyonu tamamlayabilir. Mali kayıt gerektiren herhangi bir etkinlik POS içinde gerçekleştiğinde (ör. yeni bir kayıt açıldığında), hata işleme iletişim kutusu operatörü önceki hareketin doğru biçimde kaydedilmediğini uyarmak ve hata işleme seçeneklerini sunmak için açılır.
-- **Atla** - Operatörler bu seçeneği mali kayıt belirli koşullarda atlanabileceği durumlarda ve operasyonların POS üzerinde devam edebileceği durumlarda kullanabilirler. Örneğin, bu seçenek mali kaydın başarısız olduğu bir satış işlemi için kullanılabilir ve özel bir kağıt günlükte kaydedilebilir.
-- **Kaydedildi olarak işaretle** - Operatörler bu seçeneği hareket gerçekten de mali cihazda kaydedilmişse (örneğin, bir mali giriş yazdırılmışsa), ancak mali yanıt kanal veritabanına kaydedildiğinde bir hata oluşmuşsa kullanabilirler.
-- **Ertele** – Operatörler, kayıt servisi kullanılamadığı için kayıtlı olmadığında bu seçeneği kullanabilir. 
+- **Yeniden dene**: Operatör, bu seçeneği başarısızlık hızlıca çözümlenebildiğinde kullanır ve mali kayıt yeniden yürütülebilir. Örneğin, bu seçenek mali cihaz bağlı olmadığında, mali yazıcının kağıdı bittiğinde veya mali yazıcıda bir kağıt sıkışması olduğunda kullanılabilir.
+- **İptal**: Bu seçenek, operatörün geçerli mali hareket veya etkinlik başarısız olduğunda ertelemesine izin verir. Kayıt ertelendikten sonra operatör POS üzerinde çalışmaya devam edebilir ve mali kaydın gerekli olmadığı herhangi bir operasyonu tamamlayabilir. Mali kayıt gerektiren herhangi bir etkinlik POS içinde gerçekleştiğinde (ör. yeni bir kayıt açıldığında), hata işleme iletişim kutusu operatörü önceki hareketin doğru biçimde kaydedilmediğini uyarmak ve hata işleme seçeneklerini sunmak için açılır.
+- **Atla**: Operatör, geçerli hareket veya etkinliğin mali kaydını tamamlamanın mümkün olmadığı durumlarda, örneğin mali yazıcının kullanım dışı olması durumunda **ve** mali kayıt belirli koşullar altında atlanabiliyorsa bu seçeneği kullanabilir. Örneğin, bu seçenek mali kaydın başarısız olduğu bir satış işlemi için kullanılabilir ve özel bir kağıt günlükte kaydedilebilir. Mali kayıt atladıktan sonra normal operasyonlar POS üzerinde devam edebilir. 
+- **Kaydedildi olarak işaretle**: Operatör bu seçeneği geçerli hareket veya etkinlik gerçekten mali cihazda kaydedildiğinde (örneğin, bir mali giriş yazdırıldığında) kullanabilir ancak mali yanıt kanal veritabanına kaydedildiğinde bir hata oluşur. Geçerli hareket veya etkinlik kayıtlı olarak işaretledikten sonra normal operasyonlar POS üzerinde devam edebilir.
+- **Ertele**: Operatör bu seçeneği kayıt cihazı veya hizmeti kullanılamadığından hareket kaydedilmediğinde **ve** aşağıdakilerden biri geçerli olduğunda kullanabilir:
+    - Yedek mali kayıt seçeneği vardır ve geçerli hareket için mali kayıt işlemine devam etmek mümkün değildir. Örneğin, yerel bir [mali cihaz](./latam-bra-cf-e-sat.md#scenario-4-make-a-cash-and-carry-sale-of-goods-by-using-sat-as-contingency-mode), hizmet kullanılamadığında çevrimiçi mali kayıt hizmeti için yedek seçenek olabilir.
+    - Mali kayıt, mali tümleştirme çerçevesi dışında bir yöntemle daha sonra tamamlanabilir. Örneğin, ertelenen hareketler daha sonra [ayrı işlev](./latam-bra-nfce.md#scenario-3-make-a-cash-and-carry-sale-of-goods-in-offline-contingency-mode) ile toplu şekilde mali olarak kaydedilebilir.
+    
+    Geçerli hareket veya etkinlik ertelendikten sonra normal operasyonlar POS üzerinde devam edebilir.
 
-> [!NOTE]
-> **Atla**, **Kaydedildi olarak işaretle** ve **Ertele** seçeneklerinin kullanılmadan önce mali kayıt işleminde etkinleştirilmeleri gerekir. Ek olarak, karşılık gelen izinlerin de operatörlere verilmesi gerekir.
+> [!WARNING]
+> **Atla**, **Kaydedildi olarak işaretle** ve **Ertele** seçenekleri acil durum seçenekleri olarak düşünülmeli ve yalnızca istisnai durumlarda kullanılmalıdır. Bu hata işleme seçeneklerini hukuk veya vergi danışmanınızla tartışın ve etkinleştirmeden önce en uygun kararı verin. Seçenekler kullanılmadan önce mali kayıt işleminde etkinleştirilmelidir. Operatörlerin bunları düzenli olarak kullanmadığından emin olmak için operatörlere ilgili izinlerin verilmesi gerekir.
 
-**Atla**, **Kaydedildi olarak işaretle** ve **Ertele** seçenekleri, bilgi kodlarının başarısızlık hakkında bazı belirli bilgileri yakalamasına olanak sağlar, başarısızlık hata sebebi ve mali kaydı atlama nedeni veya hareketin kaydedildi olarak işaretlenmesi gibi. Hata el alma parametreleri hakkında daha fazla bilgi için bkz. [Hata ele alma ayarları ayarlama](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+[Mali hareket](#storing-fiscal-response-in-fiscal-transaction); **Atla**, **Kaydedildi olarak işaretle** veya **Ertele** seçenekleri belirlendiğinde oluşturulur ancak mali yanıt içermez. Bu, mali kayıt hatası etkinliğini yakalamanıza olanak tanır. Bu seçenekler ayrıca bilgi kodlarının başarısızlık hakkında bazı belirli bilgileri yakalamasına da olanak tanır (başarısızlık nedeni veya mali kaydı atlama ya da hareketi kaydedildi olarak işaretleme gerekçesi gibi). Hata el alma parametreleri hakkında daha fazla bilgi için bkz. [Hata ele alma ayarları ayarlama](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
 ### <a name="optional-fiscal-registration"></a>İsteğe bağlı mali kayıt
 
@@ -112,11 +116,7 @@ Mali kayıt, bazı işlemler için isteğe bağlı ancak bazı diğerleri için 
 
 ### <a name="manually-rerun-fiscal-registration"></a>Mali kaydı el ile yeniden çalıştırma
 
-Bir hareket veya etkinliğin mali kaydı bir arızadan sonra ertelenirse (örneğin operatör hata işleme iletişim kutsunda **İptal** seçtiyse), mali kaydı karşılık gelen bir eylemi çağırarak el ile yeniden yürütebilirsiniz. Daha fazla bilgi için bkz. [Ertelenen mali kaydın el ile yürütülmesini etkinleştir](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
-
-### <a name="postpone-option"></a>Ertele seçeneği
-
-**Ertele** seçeneği, geçerli adım başarısız olduğunda mali kayıt işlemine devam etmenize olanak sağlar. Bir mali kayıt yedekleme seçeneği olduğunda kullanılabilir.
+Bir hareket veya etkinliğin mali kaydı bir arızadan sonra ertelenirse (örneğin operatör hata işleme iletişim kutusunda **İptal** seçtiyse), mali kaydı karşılık gelen bir eylemi çağırarak el ile yeniden yürütebilirsiniz. Daha fazla bilgi için bkz. [Ertelenen mali kaydın el ile yürütülmesini etkinleştir](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 
 ### <a name="fiscal-registration-health-check"></a>Mali kayıt sağlık denetimi
 
@@ -138,7 +138,7 @@ Sağlık denetimi başarısız olursa, POS, sağlık denetimi iletişim kutusunu
 
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Mali hareket içinde mali yanıtları depolamak
 
-Bir hareketin veya etkinliğin mali kaydı başarılı olursa, bir mali hareket kanal veritabanında oluşturulur ve orijinal hareket veya etkinliğe bağlanır. Benzer şekilde, **Atla** veya **Kaydedildi olarak işaretle** seçeneği başarısız bir mali kayıt için seçilirse, bu bilgi mali kayıt içinde depolanır. Bir mali kayıt, mali cihaz veya hizmetin mali yanıtını bulundurur. Mali kayıt işlemi çok sayıda adımdan oluşuyorsa, başarılı veya başarısız kayıt ile sonuçlanan mali kayıt işlemin her bir adımı için oluşturulur.
+Bir hareketin veya etkinliğin mali kaydı başarılı olursa, bir mali hareket kanal veritabanında oluşturulur ve orijinal hareket veya etkinliğe bağlanır. Benzer şekilde, **Atla**, **Kaydedildi olarak işaretle** veya **Ertele** seçeneği başarısız bir mali kayıt için seçilirse bu bilgi mali kayıt içinde depolanır. Bir mali kayıt, mali cihaz veya hizmetin mali yanıtını bulundurur. Mali kayıt işlemi çok sayıda adımdan oluşuyorsa, başarılı veya başarısız kayıt ile sonuçlanan mali kayıt işlemin her bir adımı için oluşturulur.
 
 Mali hareketler *P-job* tarafından, hareketlerle birlikte Human Resources'a aktarılır. **Mağaza hareketleri** sayfasındaki **Mali hareketler** hızlı sekmesinde, hareketlerle bağlantılı mali hareketleri görüntüleyebilirsiniz.
 

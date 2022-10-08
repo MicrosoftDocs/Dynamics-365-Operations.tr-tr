@@ -1749,23 +1749,13 @@
               href: sensor-data-intelligence/sdi-scenario-production-delays.md
         - name: IoT Zekası
           items:
-            - name: IoT Zekası giriş sayfası
+            - name: IoT Zekası yerine artık Sensor Data Intelligence kullanılmaktadır
               href: iot/iot-intelligence-home-page.md
-            - name: Azure kaynaklarını ayarlama
-              href: iot/iot-azure-setup.md
-            - name: IoT Hub'ı için ileti şeması biçimleri
-              href: iot/iot-schema-format.md
-            - name: Ölçümleri ayarlama
-              href: iot/iot-metrics-setup.md
-            - name: Senaryo kurulumu
-              href: iot/iot-scenario-setup.md
-            - name: İzleme ve yönetme
-              href: iot/iot-management.md
         - name: Master planlama
           items:
             - name: Master planlama giriş sayfası
               href: master-planning/master-planning-home-page.md
-            - name: Master planlama için Planlama Optimizasyonuna geçiş
+            - name: Master planlama için Planlama İyileştirmesine geçiş
               href: master-planning/new-master-planning-engine.md
             - name: Planlama Optimizasyonu
               items:
@@ -1801,9 +1791,11 @@
                   href: master-planning/planning-optimization/production-planning.md
                 - name: Sınırlı raf ömrüne sahip ürünler için master planlama
                   href: master-planning/planning-optimization/shelf-life.md
-                - name: Sonsuz kapasiteyle planlama
+                - name: Sonsuz kapasiteyle zamanlama
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
-                - name: Yeteneğe dayalı kaynak seçimiyle planlama
+                - name: Sınırlı kapasite planlama ve zamanlama
+                  href: master-planning/planning-optimization/finite-capacity.md
+                - name: Yeteneğe dayalı kaynak seçimiyle zamanlama
                   href: master-planning/planning-optimization/capability-based-scheduling.md
                 - name: Önceliğe dayalı planlama
                   href: master-planning/planning-optimization/priority-based-planning.md

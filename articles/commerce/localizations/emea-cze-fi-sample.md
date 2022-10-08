@@ -2,19 +2,19 @@
 title: Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği
 description: Bu makale, Microsoft Dynamics 365 Commerce'taki Çek Cumhuriyeti'ne yönelik mali tümleştirme örneğine genel bakış sağlar.
 author: EvgenyPopovMBS
-ms.date: 08/17/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-04-01
-ms.openlocfilehash: 3838792c0a420fb88ea9daab0a67c2e644c80681
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: de26b038009d8bf3518c67389c96aade19a0b65b
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313761"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631301"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği
 
@@ -48,7 +48,7 @@ Aşağıdaki senaryolar, Çek Cumhuriyeti için mali kayıt hizmeti tümleştirm
 - Aşağıdaki seçenekler gibi hata işleme özellikleri.
 
     - Yeniden deneme mümkünse mali kaydı yeniden deneme (örneğin, mali kayıt hizmeti kullanılamıyorsa, hazır değilse veya yanıt vermiyorsa).
-    - Mali kaydı erteleme.
+    - Mali kaydı erteleyin.
     - Mali kaydı atlama veya hareketi kayıtlı olarak işaretleme ve hatanın nedenini ve ek bilgileri kaydetmek için bilgi kodlarını dahil etme.
     - Yeni bir satış hareketi açılmadan veya bir satış hareketi sonlandırılmadan önce mali kayıt hizmetinin kullanılabilir durumda olup olmadığını denetleme.
 
@@ -188,7 +188,7 @@ Makbuz biçimleriyle nasıl çalışılacağı hakkında daha fazla bilgi için 
 
 1. [Bir mali kayıt işlemi ayarlayın](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Ayrıca, [bu mali kayıt hizmeti tümleştirme örneğine özgü](#set-up-the-registration-process) mali kayıt işlemi ayarlarını da not edin.
 1. [Hata işleme ayarlarını belirleyin](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
-1. [Ertelenen mali kaydın el ile yürütülmesini etkinleştirin](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Ertelenen mali kaydın el ile yürütülmesini etkinleştir](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Kanal bileşenlerini yapılandırın](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Mali kayıt işlemini ayarlama

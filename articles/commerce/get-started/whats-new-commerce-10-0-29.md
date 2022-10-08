@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce 10.0.29 sürümündeki yenilikler ve değişiklikler (Ekim 2022)
 description: Bu makalede, Microsoft Dynamics 365 Commerce 10.0.29'taki yeni veya değişen özellikler açıklanmaktadır.
 author: josaw1
-ms.date: 08/17/2022
+ms.date: 09/29/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: josaw
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 6e457864f51159f46f45e9b8969863c9d34c5786
-ms.sourcegitcommit: 56677afde87a9176f879482a7af223e251801d5d
+ms.openlocfilehash: 0629228516d688abf4dcd4280d1ad676f8f35331
+ms.sourcegitcommit: ce4e56d798281258479432ad821287a1cc8e26bf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "9475916"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9601584"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-commerce-10029-october-2022"></a>Dynamics 365 Commerce 10.0.29 sürümündeki yenilikler veya değişiklikler (Ekim 2022)
 
@@ -39,6 +39,7 @@ Aşağıdaki tabloda, bu sürüme dahil edilen özellikler listelenmektedir. Bu 
 | E-ticaret | E-ticarette ürün karşılaştırması desteği | Alışverişçilerin, kendi başlarına doğru satın alma kararı verecek şekilde geniş bir kategori yelpazesi üzerinde ürün karşılaştırmalarını sağlayın. Bu özellik, işletmeden tüketiciye (B2C) ve B2B siteleri için kullanılabilir. | Site oluşturucu | 
 | Hediye kartları | Şirketler arası veri paylaşımı için perakende hediye kartı tabloları desteği | Dynamics headquarters, Dynamics mimarisinde belirli tablolar için şirketler arası veri paylaşımını etkinleştirme yeteneğini destekler. Bu özellikte Dynamics 365 Commerce, perakende hediye kartı tabloları için şirketler arası veri paylaşımı desteği ekler. Bu nedenle, bir şirketteki hediye kartının verileri artık ortamdaki başka bir şirket tarafından çoğaltılabilecek. Kaynak şirket hediye kartı tablosunda yapılan değişiklikler mükerrer şirket hediye kartı tablosu ile paylaşılır. | Geliştiriciler |
 | Globalleştirme | [Yeni Commerce SDK için Commerce yerelleştirme özelliklerini etkinleştirme](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-commerce-localization-features-new-commerce-sdk) | Yeni özellik, Commerce Headquarters'dan Commerce yerelleştirme özelliklerini özellik yönetimi çerçevesi veya parametreleri kullanarak etkinleştirme olanağı sağlar. Mali tümleştirme örnekleri yeni Commerce SDK'ya dahil edilmiştir ve bağımsız paketi destekler. Bu özellik ayrıca, global Commerce müşterilerine Store Commerce uygulamasını benimseme olanağı da sağlar.<p><p>Bu sürümde [Avusturya](../localizations/emea-aut-fi-sample.md), [Çek Cumhuriyeti](../localizations/emea-cze-fi-sample.md), [Fransa](../localizations/emea-fra-cash-registers.md), [Almanya](../localizations/emea-deu-fi-sample.md), [İtalya](../localizations/emea-ita-fpi-sample.md), [Norveç](../localizations/emea-nor-cash-registers.md) ve [Polonya](../localizations/emea-pol-fpi-sample.md) için Commerce yerelleştirme özellikleri ve mali tümleştirme örnekleri yer almaktadır. | Yönetici/yetkililer tarafından etkinleştirildi |
+| Çevrimdışı | [POS çevrimdışı veri tabanını sıkıştırma](../dev-itpro/implementation-considerations-offline.md#important-offline-features) | Bu yeni özellik, [mağaza saatleri](../dev-itpro/store-hours.md) kanalı dışında otomatik dizin sıkıştırmayı etkinleştirerek çevrimdışı veritabanı boyutlarını azaltır. | Özellik yönetimi<p>*POS çevrimdışı veri tabanını sıkıştırma* |
 | Performans | "Müşteri düzenle" senaryoları için RTS bağımlılığını kaldırma | Yüksek kullanılabilirlik ve yüksek performans, satış noktası (POS) ve e-ticaret kanalları için varsayılan beklentilerdir. Bu beklentileri karşılamanıza yardımcı olmak için, Dynamics 365 Commerce kanallarının artık müşteri bilgileri düzenlendiğinde Commerce Headquarters ile gerçek zamanlı iletişime dayanması gerekmez. Zaman uyumsuz ve zaman uyumsuz olmayan müşteriler için müşteri bilgilerini zaman uyumsuz olarak düzenleme yeteneği, Commerce Headquarters'a yapılan gerçek zamanlı çağrıları azaltmaya yardımcı olabilir. | Yönetici/yetkililer tarafından etkinleştirildi |
 
 ## <a name="feature-state-changes-in-this-release"></a>Bu sürümdeki özellik durumu değişiklikleri

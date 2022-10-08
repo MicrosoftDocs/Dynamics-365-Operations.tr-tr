@@ -2,19 +2,19 @@
 title: Almanya için mali kayıt hizmeti tümleştirme örneği
 description: Bu makale, Microsoft Dynamics 365 Commerce'taki Almanya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
 author: EvgenyPopovMBS
-ms.date: 08/17/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-05-29
-ms.openlocfilehash: c3fdc0c378ad57300213357eccd50d817e06789a
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: a725badbce498e4e7b35aecb2500e273586c7b77
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313954"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631466"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Almanya için mali kayıt hizmeti tümleştirme örneği
 
@@ -265,7 +265,7 @@ Almanya için mali kayıt hizmeti tümleştirme örneği, [mali tümleştirme i�
     > - İlk mali kayıt denemesi başarısız olsa bile tüm hareketlerin doğru şekilde kaydedilmesi gerektiğinden, **Mali kayıt işlemi** sayfasındaki **Hatada devam et** seçeneğini kapalı tutmanızı öneririz.
     > - **Mali kayıt işlemi** sayfasındaki **Atla** veya **Kaydedildi olarak işaretle** seçeneğini etkinleştirmeden önce, mali kayıt işlemindeki bu değişiklikleri vergi danışmanınızla veya yerel vergi dairenizle görüşmeniz gerekir.
 
-1. [Ertelenen mali kaydın el ile yürütülmesini etkinleştirin](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Ertelenen mali kaydın el ile yürütülmesini etkinleştir](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Kanal bileşenlerini yapılandırın](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Mali kayıt işlemini ayarlama

@@ -2,19 +2,19 @@
 title: Commerce kanalları için mali tümleştirmeyi ayarlama
 description: Bu makale, mali tümleştirme işlevini Commerce kanalları için ayarlama hakkında yönergeler sağlar.
 author: EvgenyPopovMBS
-ms.date: 04/28/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 9fd801395f2ba04c703734a1de7998d6a53b6462
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 28097341c7b39660b834eb81786c3f56045e1496
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276145"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631436"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Commerce kanalları için mali tümleştirmeyi ayarlama
 
@@ -30,9 +30,10 @@ Commerce kanallarla ilgili mali tümleştirme işlevleriyle ilişkili özellikle
 1. Aşağıdaki özellikleri bulup etkinleştirin:
 
     - **POS kasalarının direkt mali tümleştirmesi** – Bu özellik, satış noktasında çalıştırılacak mali bağlayıcılar oluşturma yeteneğini ekleyerek mali tümleştirme çerçevesini uzatır (POS). Bu tür bağlayıcı, bir HTTP uygulama programlama arabirimi (API) sağlayan ve depoda adanmış bir fiziksel makine gerektirmeyen bir mali aygıt veya hizmetle iletişim kurar. Örneğin, bu işlev, paylaşılan donanım istasyonu gerekmeksizin mobil cihazlar için mali tümleştirmeyi etkinleştirir.
-    - **Mali tümleştirme teknik profili geçersiz kılmaları** – Bu özellik, mali tümleştirmenin konfigürasyonunun genişletilmesini sağlar ve bir POS kaydının ayarlar sayfasındaki bağlantı parametrelerine denetleme yeteneğini ekler. Bu özellik etkinleştirildiğinde, teknik profilin parametrelerini geçersiz kılabilirsiniz.
+    - **Mali tümleştirme teknik profil geçersiz kılma işlemleri**: Bu özellik, mali tümleştirmenin yapılandırmasının genişletilmesini sağlar ve teknik bir profilin parametrelerini geçersiz kılma yeteneğini ekler. Örneğin, tek POS kaydı düzeyinde mali cihaz bağlantı dizeleri belirtilebilir. Özellik ayrıca POS kaydının **Ayarlar** sayfasında bağlantı parametrelerini denetleme olasılığı da ekler. 
     - **POS kayıtlarının mali kayıt durumu** – Bu özellik etkinleştirildiğinde, belirli bir POS kayıtları için mali kayıt işlemini devre dışı bırakabilirsiniz. Bir POS kaydı için mali kayıt devre dışı bırakılmışsa, bu kasada satış hareketleri tamamlanamaz.
-    - **Mali tümleştirme yerel depolama ortamı yedekleme** – Bu özellik mali tümleştirme çerçevesinin hata işleme yeteneklerini uzatır. Ayrıca, bir aygıt etkinleştirilirken yerel depolama birimindeki verilerin geri yüklenmesi için, veri kaybı durumunda mali kayıt verilerinin otomatik yedeklemesini de sağlar.
+    - **Mali tümleştirme yerel depolama yedeklemesi**: Bu özellik, cihaz etkinleştirilirken yerel depolamadaki verilerin geri yüklenebilmesi için mali kayıt verilerinin otomatik yedeklemesini etkinleştirerek mali tümleştirme çerçevesinin hata işleme yeteneklerini genişletir.
+    - **Belgelerin ertelenen kaydı**: Bu özellik, mali kayıt hatası durumunda mali kaydı erteleme ve yedek mali kayıt seçeneği kullanma veya mali kaydı daha sonra mali tümleştirme çerçevesi dışında başka yollarla tamamlama seçeneğini etkinleştirerek mali tümleştirme çerçevesinin hata işleme yeteneklerini genişletir.
 
 ## <a name="set-up-commerce-parameters"></a>Commerce parametrelerini ayarlama
 
@@ -286,7 +287,7 @@ Mali X/Z raporlarının POS'tan çalıştırılmasını etkinleştirmek için bi
     1. Yeni bir düğme ekleyin ve **Mali Z yazdır** düğmesi özelliğini ayarlayın.
     1. **Dağıtım planlayıcısı** sayfasında **1090** işini çalıştırarak değişiklikleri kanal veritabanına aktarın.
 
-## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Ertelenen mali kaydın el ile yürütülmesini etkinleştir
+## <a name="enable-manual-execution-of-deferred-fiscal-registration"></a>Ertelenen mali kaydın el ile yürütülmesini etkinleştir
 
 Ertelenen mali kaydın el ile yürütülmesini etkinleştirmek için POS düzenine yeni bir düğme eklemelisiniz.
 
@@ -295,7 +296,6 @@ Ertelenen mali kaydın el ile yürütülmesini etkinleştirmek için POS düzeni
     1. Güncelleştirilecek düzeni seçin.
     1. Yeni bir düğme ekleyin ve **Mali kayıt işlemini tamamla** düğmesi özelliğini ayarlayın.
     1. **Dağıtım planlayıcısı** sayfasında **1090** işini çalıştırarak değişikliklerinizi kanal veritabanına aktarın.
-
 
 ## <a name="view-connection-parameters-and-other-information-in-pos"></a>POS'taki bağlantı parametrelerini ve diğer bilgileri görüntüle
 

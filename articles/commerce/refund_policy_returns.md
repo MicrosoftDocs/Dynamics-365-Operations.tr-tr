@@ -14,12 +14,12 @@ ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
 ms.custom: ''
 ms.search.industry: Retail
-ms.openlocfilehash: b93852bfb7c6f5a9f2f83f30a1f76da3f9559c7e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d01ad490301dd2f4103b8bd3f702db12b93a45a8
+ms.sourcegitcommit: bd7b1ffe90b25eb4c68d6aaebd063bf33e09d9cd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286850"
+ms.lasthandoff: 10/05/2022
+ms.locfileid: "9627509"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Kanal için iade ve para iadesi ilkesi oluşturma ve güncelleştirme
 
@@ -36,12 +36,8 @@ Bu makale, bir kanal için iade ve para iadesi ilkesinin nasıl ayarlanacağı a
 
 ## <a name="enable-return-policy"></a>İade İlkesini etkinleştir
 
-Commerce genel merkezinde kanal iade ilkesi işlevini etkinleştirmek için şu adımları izleyin.
+Bu özellik, varsayılan olarak açıktır. Bunu Özellik adları listesinde **Kanal iade ilkelerini etkinleştir** seçeneğini arayarak **Özellik Yönetimi** çalışma alanında bulabilirsiniz.
 
-1. Dynamics 365 Commerce'de **Özellik yönetimi** çalışma alanına gidin.
-1. **Kanal iade ilkelerini etkinleştirme** özelliğini, özellik adları listesinde arayın.
-1. **Şimdi etkinleştir**'i seçin.
-1. **Dağıtım planlaması** sayfasında, özellik değişikliğini dağıtmak için **1110** (Genel yapılandırma) işini çalıştırın.
 
 ## <a name="configure-return-policy"></a>İade İlkesi yapılandırma
 

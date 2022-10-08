@@ -2,19 +2,19 @@
 title: Ürün karşılaştırma modülleri
 description: Bu makalede, ürün karşılaştırma modülleri ve müşterilerin Microsoft Dynamics 365 Commerce e-ticaret web sitelerinde ürün karşılaştırmaları yapabilmesi için bunların nasıl uygulanacağı anlatılmaktadır.
 author: ashishmsft
-ms.date: 08/09/2022
+ms.date: 10/03/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 6fd851ce6b32d0772c3fe23c4d7bd4dae2616fdc
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 9ff45f3fbcc86b21f336d580582adef586417de4
+ms.sourcegitcommit: 66b954827826706ea2ba00c2afd5d694ad92148d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9474139"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9618398"
 ---
 # <a name="product-comparison-modules"></a>Ürün karşılaştırma modülleri
 
@@ -91,6 +91,19 @@ Arama ve kategori sonuçları sayfalarında ürün kutucuklarına bir ürün kar
 1. Sağdaki özellikler bölmesinde **Ürün karşılaştırma düğmesi** modülünün özelliklerini yapılandırın.
 1. **Kaydet**'i seçin ve ardından sayfayı önizlemek için **Önizleme**'yi seçin.
 1. Sayfayı iade etmek için **Düzenlemeyi bitir**'i seçin, ardından yayımlamak için **Yayımla**'yı seçin.
+
+## <a name="add-a-product-comparison-preview-panel-module-to-pages-on-your-website"></a>Web sitenizdeki sayfalara ürün karşılaştırma önizleme paneli modülü ekleyin
+
+Ürün karşılaştırma önizleme paneli modülü, müşterilerinize karşılaştırmaya ekledikleri veya karşılaştırmadan çıkardıkları ürünleri inceleme seçeneği sunar. Önizleme paneli ayrıca doğrudan karşılaştırma sayfasına gitme veya tüm ürün listesini temizleme seçeneklerini de sağlar. 
+
+**Ürün karşılaştırma düğmesi** etkin olan tüm sayfalarda önizleme panelini etkinleştirmenizi öneririz. Modül, **Ürün karşılaştırma düğmesi**'ne yuva olarak eklenebilir veya karşılaştırmak için ürün ekleme ya da çıkarma işlevi olmadığında bile sayfalarda yapılandırabileceğiniz bağımsız bir modül olarak kullanılabilir. 
+
+Ürün karşılaştırma önizleme paneli modülünü sayfaya el ile eklemeniz gerekir. Bir sayfaya yalnızca bir önizleme paneli modülü eklemelisiniz. Bir sayfaya modülün birden çok örneğini eklerseniz ilk modül işlenir ve geri kalanı yok sayılır.
+
+![Ürün karşılaştırma önizleme paneli](./media/product-comparison-preview-panel-2.png)
+
+Ürün karşılaştırma sınırı belirtirseniz önizleme panelinde karşılaştırmaya kaç tane daha ürün eklenebileceğini gösteren gri yer tutucuları etkinleştirebilirsiniz. Gri yer tutucular, ürünler karşılaştırmaya eklendikçe ürünlerle değiştirilir. Ürün karşılaştırma sınırı yapılandırmak ve gri yer tutucuları etkinleştirmek için site oluşturucuda **Site ayarları > Uzantılar**'a gidip **Ürün karşılaştırmaları** bölümünde değişikliklerinizi yapın. Yapılandırma tüm sayfalar için tüm önizleme panellerine uygulanır. 
+
 
 ## <a name="specify-the-maximum-number-of-products-to-show-in-the-comparison-tray"></a>Karşılaştırma tepsisinde gösterilecek maksimum ürün sayısını belirtme
 
