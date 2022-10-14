@@ -394,6 +394,8 @@
                   items:
                     - name: Store Commerce uygulaması
                       href: dev-itpro/store-commerce.md
+                    - name: Mobil platformlar için Store Commerce uygulaması
+                      href: dev-itpro/store-commerce-mobile.md
                     - name: Modern POS'u Store Commerce'e geçirme
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Cihaz yönetimi uygulama kılavuzu
