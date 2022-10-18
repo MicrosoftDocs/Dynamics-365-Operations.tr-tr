@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: dfd06c30ae09a175862810a0c85399358a65fdb0
+ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357617"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9671471"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Veri içe ve dışa aktarma işlerine genel bakış
 
@@ -65,6 +65,9 @@ Belirli varlıkları bir içe veya dışa aktarma işine ekleyin veya uygulanaca
 ### <a name="set-the-data-format-for-the-job"></a>İş için veri biçimlerini ayarlayın
 Bir varlık seçtiğinizde, içe veya dışa aktarılacak verinin biçimini seçmelisiniz. **Veri kaynakları kurulumu** kutucuğunu kullanarak biçimleri tanımlayabilirsiniz. Bir veri kaynağı biçimi **Tür**, **Dosya biçimi**, **Satır sınırlayıcı** ve **Sütun sınırlayıcı**'nin birleşimidir. Başka öznitelikler de vardır, ancak bunlar anlamanız gereken temel özniteliklerdir. Aşağıdaki tabloda geçerli bileşimler listelenmiştir.
 
+> [!NOTE]
+> Excel dosya biçimi, Hükümet Topluluk Bulutu (GCC) için Veri yönetimi çalışma alanında şu an için kullanılamamaktadır.
+
 | Dosya Biçimi            | Satır/Sütun sınırlayıcı                       | XML Stili                 |
 |------------------------|--------------------------------------------|---------------------------|
 | Excel                  | Excel                                      | \-Yok-                     |
@@ -75,7 +78,7 @@ Bir varlık seçtiğinizde, içe veya dışa aktarılacak verinin biçimini seç
 > **Satır sınırlayıcısı**, **Sütun sınırlayıcısı** ve **Metin niteleyicisi** için doğru değeri seçmek, **Dosya formatı** seçeneği **Sınırlandırılmış** olarak ayarlandıysa önemlidir. İçe aktarma ve dışa aktarma sırasında hatalara yol açacağından, verilerinizin sınırlayıcı veya niteleyici olarak kullanılan karakteri içermediğinden emin olun.
 
 > [!NOTE]
-> XML tabanlı dosya formatları için yalnızca geçerli karakterleri kullandığınızdan emin olun. Geçerli karakterler hakkında daha fazla ayrıntı için bkz. [XML 1.0'daki geçerli Karakterler](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0, sekmeler, satır başları ve satır beslemeleri dışında herhangi bir denetim karakterine izin vermez. Geçersiz karaktere örnek olarak köşeli parantezler, süslü ayraçlar ve ters eğik çizgi verilebilir. 
+> XML tabanlı dosya formatları için yalnızca geçerli karakterleri kullandığınızdan emin olun. Geçerli karakterler hakkında daha fazla ayrıntı için bkz. [XML 1.0'daki geçerli Karakterler](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0, sekmeler, satır başları ve satır beslemeleri dışında herhangi bir denetim karakterine izin vermez. Geçersiz karakterlere örnek olarak köşeli parantez, küme işareti ve ters eğik çizgi verilebilir. 
 
 Verileri içeri veya dışarı aktarmak için belirli bir kod sayfası yerine Unicode kullanın. Bu, en tutarlı sonuçları sağlamaya ve veri yönetimi işlerinin Unicode karakterleri içerdiği için başarısız olmasını önlemeye yardımcı olur. Unicode kullanan sistem tanımlı kaynak veri biçimlerinde kaynak adında **Unicode** bulunur. Unicode biçimi, **Bölgesel ayarlar** sekmesinde **Kod sayfası** olarak Unicode kodlama ANSI kod sayfası seçilerek uygulanır. Unicode için aşağıdaki kod sayfalarından birini seçin:
 
@@ -91,22 +94,22 @@ Verileri içeri veya dışarı aktarmak için belirli bir kod sayfası yerine Un
 Kod sayfaları hakkında daha fazla ayrıntı için bkz. [Kod Sayfası Tanımlayıcıları](/windows/win32/intl/code-page-identifiers/).
 
 ### <a name="sequence-the-entities"></a>Varlıkları sıralayın
-Varlıklar bir veri şablonunda veya içe veya dışa aktarma işlerinde sıralanabilir. Birden fazla veri varlığı içeren bir iş çalıştırdığınızda, veri varlıklarının doğru sıralandığından emin olmanız gerekir. Öncelikli olarka, varlıklar arasında işlevsel bağımlılıkları adreslendirebilmek için varlıkları sıralarsınız. Varlıklar işlevsel bağımlılıklara sahip değilse, paralel içe veya dışa aktarma için zamanlanabilirler. 
+Varlıklar bir veri şablonunda veya içe veya dışa aktarma işlerinde sıralanabilir. Birden fazla veri varlığı içeren bir iş çalıştırdığınızda, veri varlıklarının doğru sıralandığından emin olmanız gerekir. Öncelikli olarak, varlıklar arasında işlevsel bağımlılıkları adreslendirebilmek için varlıkları sıralarsınız. Varlıklar işlevsel bağımlılıklara sahip değilse paralel içe veya dışa aktarma için zamanlanabilir. 
 
 #### <a name="execution-units-levels-and-sequences"></a>Yürütme birimleri, seviyeler ve sıralamalar
 Yürütme birimi, yürütme birimi içindeki seviye ve bir varlığın sıralaması, verinin içe veya dışa aktarıldığı sırayı yönetmeye yardımcı olur.
 
 - Farklı bir yürütme birimindeki varlıklar paralel şekilde işlenir.
 - Her bir yürütme biriminde, aynı düzeye sahiplerse varlıklar paralel olarak işlenir.
-- Her bir düzeyde, varlıklar, düzeydeki sıralama numaralarına göre işlenir.
-- Bir düzey işlendikten sonra, bir sonraki düzey işlenir.
+- Varlıklar, her bir düzeyde düzeydeki sıralama numaralarına göre işlenir.
+- Bir düzey işlendikten sonra sonraki düzey işlenir.
 
 #### <a name="resequencing"></a>Yeniden sıralama
 Varlıklarınızı aşağıdaki durumlarda yeniden sıralamak isteyebilirsiniz:
 
-- Yalnızca bir veri işi tüm varlıklarınız için kullanılacaksa, yeniden sıralama seçeneklerini, tam işin yürütme süresini optimize etmek için kullanabilirsiniz. Bu gibi durumlarda, modül, modül ve dizinin varlığı temsil etmek için özellik alanını temsil eden düzeyi temsil etmek için yürütme birimi kullanabilirsiniz. Bu yöntemi kullanarak, paralel modülleri arasında çalışır, ancak modül içindeki sıra yine de çalışabilir. Paralel işlemlerin başarılı olmasına yardımcı olmak için tüm bağımlılıkları dikkate almanız gerekir.
+- Yalnızca bir veri işi tüm varlıklarınız için kullanılacaksa yeniden sıralama seçeneklerini, tam işin yürütme süresini optimize etmek için kullanabilirsiniz. Bu gibi durumlarda, modül, modül ve dizinin varlığı temsil etmek için özellik alanını temsil eden düzeyi temsil etmek için yürütme birimi kullanabilirsiniz. Bu yöntemi kullanarak paralel modülleri arasında çalışabilirken modül içinde sıraya göre de çalışabilirsiniz. Paralel işlemlerin başarılı olmasına yardımcı olmak için tüm bağımlılıkları dikkate almanız gerekir.
 - Birden fazla veri işi kullanılıyorsa (örneğin, her bir modül için bir iş), düzeyi ve varlıkların sırasını en iyi yürütme için sıralamayı kullanabilirsiniz.
-- Hiç bağımlılık yoksa, farklı yürütme birimlerinde maksimum optimizasyon için tüm varlıkları sıralayabilirsiniz.
+- Hiç bağımlılık yoksa farklı yürütme birimlerinde maksimum optimizasyon için tüm varlıkları sıralayabilirsiniz.
 
 **Yeniden sıralama**, birden fazla varlık seçildiğinde menü kullanılabilir. Yürütme birimi, düzeyi veya sıralama seçeneklerine dayanarak yeniden sıralayabilirsiniz. Seçilen varlıkları yeniden sıralamak için bir artış ayarlayabilirsiniz. Her bir varlık için seçilen birim, düzey ve/veya sıralama numarası, belirtilen artışla güncelleştirilir.
 
@@ -114,19 +117,19 @@ Varlıklarınızı aşağıdaki durumlarda yeniden sıralamak isteyebilirsiniz:
 **Şuna göre sırala** seçeneğini, varlık listesini sıralama sırasında görüntülemek için kullanabilirsiniz.
 
 ### <a name="truncating"></a>Kısaltma
-İçe aktarma projeleri için, içe aktarma işleminden önce varlıklardaki kayıtları kısaltmayı seçebilirsiniz. Bu, kayıtların net bir dizi tabloya aktarılması gerektiği zaman yararlı olur. Bu ayar varsayılan olarak kapalıdır.
+İçe aktarma projeleri için içe aktarma işleminden önce varlıklardaki kayıtları kısaltmayı seçebilirsiniz. Bu, kayıtların net bir dizi tabloya aktarılması gerektiği zaman yararlı olur. Bu ayar varsayılan olarak kapalıdır.
 
 ## <a name="validate-that-the-source-data-and-target-data-are-mapped-correctly"></a>Kaynak veri ve hedef verinin doğru eşleştirildiğini doğrulayın
 Eşleşme, hem içe hem dışa aktarma işlerine uygulanan bir fonksiyondur.
 
-- Bir içe aktarma işinin bağlamında, eşleşme kaynak dosyada hangi sütunların hazırlama tablosunda sütunlar haline geleceğini belirtir. Bu nedenle, sistem hazırlama tablosunun hangi sütuna veri kaynak dosyasındaki sütun kopyalayacağını belirtebilir.
-- Bir dışa aktarma işinin bağlamında, eşleşme hazırlama tablosunda (kaynakta) hangi sütunların hedef dosyasında sütunlar haline geleceğini belirtir.
+- Eşleşme, içe aktarma işi bağlamında eşleşme kaynak dosyada hangi sütunların hazırlama tablosunda sütunlar haline geleceğini belirtir. Bu nedenle, sistem hazırlama tablosunun hangi sütuna veri kaynak dosyasındaki sütun kopyalayacağını belirtebilir.
+- Eşleşme, dışa aktarma işi bağlamında hazırlama tablosunda (kaynakta) hangi sütunların hedef dosyasında sütunlar haline geleceğini belirtir.
 
-Sütun adları hazırlama tablosunda ve dosyada sütun adları eşleşiyorsa, adlara dayalı olarak sistem otomatik olarak eşleşmeyi başlatır. Ancak, adları farklıysa, sütunları otomatik olarak eşleştirilmez. Bazı durumlarda, veri işindeki **Eşleşmeyi görüntüle** seçeneğini seçerek eşleşmeyi tamamlamanız gerekir.
+Sütun adları hazırlama tablosunda ve dosyada sütun adları eşleşiyorsa sistem, adlara dayalı şekilde otomatik olarak eşleşmeyi başlatır. Ancak, adlar farklıysa sütunlar otomatik olarak eşleştirilmez. Bazı durumlarda veri işindeki **Eşleşmeyi görüntüle** seçeneğini seçerek eşleşmeyi tamamlamanız gerekir.
 
-İki eşleşme görünümü vardır: varsayılan görünüm olan **Eşleşme görselleştirmeleri** ve **Eşleştirme ayrıntıları**. Kırmızı bir yıldız (\*), varlıktaki gerekli alanları belirtir. Varlıkla çalışmadan önce bu alanların eşleşmesi gerekir. Diğer alanlar, varlık ile çalışmanız gerektiğinde eşleşmeyi iptal edebilirsiniz. Bir eşleşmeyi kaldırmak için **Varlık** sütunu veya **Kaynak** sütununda alanları seçin ve **Varlık seçimini** işaretleyin. Değişikliklerinizi kaydetmek için **Kaydet**'i seçin ve sonra projeye dönmek için sayfayı kapatın. İçe aktardıktan sonra kaynaktan hazırlamaya alan eşleştirmeyi düzenlemek için aynı işlemi kullanabilirsiniz.
+İki eşleşme görünümü vardır: varsayılan görünüm olan **Eşleşme görselleştirmeleri** ve **Eşleştirme ayrıntıları**. Kırmızı bir yıldız (\*), varlıktaki gerekli alanları belirtir. Varlıkla çalışmadan önce bu alanların eşleşmesi gerekir. Diğer alanlar, varlık ile çalışmanız gerektiğinde eşleşmeyi iptal edebilirsiniz. Eşleşmeyi kaldırmak için **Varlık** sütunu veya **Kaynak** sütununda alanları seçin ve **Varlık seçimini** işaretleyin. Değişikliklerinizi kaydetmek için **Kaydet**'i seçin ve sonra projeye dönmek için sayfayı kapatın. İçe aktardıktan sonra kaynaktan hazırlamaya alan eşleştirmeyi düzenlemek için aynı işlemi kullanabilirsiniz.
 
-**Kaynak eşleştirme oluştur**'u seçerek sayfada bir eşleştirme oluşturabilirsiniz. Oluşturulan bir eşleme bir otomatik eşleme gibi davranır. Bu nedenle, eşlenmemiş tüm alanlar el ile eşleşmelidir.
+**Kaynak eşleştirme oluştur**'u seçerek sayfada bir eşleştirme oluşturabilirsiniz. Oluşturulan eşleme, otomatik eşleme gibi davranır. Bu nedenle, eşlenmemiş tüm alanlar el ile eşleşmelidir.
 
 ![Veri eşleme.](./media/dixf-map.png)
 
@@ -136,9 +139,9 @@ Sütun adları hazırlama tablosunda ve dosyada sütun adları eşleşiyorsa, ad
 ### <a name="secure-a-job-by-roles-and-users"></a>Bir işi roller ve kullanıcılarla güvenli hale getirin
 **Uygulanabilir roller** menüsünü, işi birden fazla güvenlik rolüne kısıtlama için kullanın. Yalnızca bu rollerdeki kullanıcıların işe erişimi olacaktır.
 
-Bir işi belirli kullanıcılara da kısıtlayabilirsiniz. Bir işi roller yerine kullanıcılarla güvenli hale getirirseniz, birden fazla kullanıcı bir role atanmışsa daha fazla kontrol olur.
+Bir işi belirli kullanıcılara da kısıtlayabilirsiniz. Bir işi rol yerine kullanıcılara belirlediğinizde birden fazla kullanıcı bir role atanmışsa daha fazla denetim olur.
 
-### <a name="secure-a-job-by-legal-entity"></a>Tüzel kişiliğe göre bir işi güvenli hale getirin
+### <a name="secure-a-job-by-legal-entity"></a>İşi tüzel kişiliğe göre belirleyin
 Veri işleri doğaları gereği geneldir. Bu nedenle, bir veri işi oluşturulursa ve bir tüzel varlıkta kullanılırsa, iş sistemdeki diğer yasal varlıklarda görünür olur. Bu varsayılan davranış, bazı uygulama senaryolarında tercih edilebilir. Örneğin, veri varlıklarını kullanarak faturaları içe aktaran bir kuruluş, kuruluş içindeki tüm departmanlar için fatura hatalarını yönetmekten sorumlu merkezi bir fatura işleme ekibi oluşturabilir. Bu senaryoda, merkezi fatura işleme ekibinin tüm tüzel varlıklardaki tüm fatura içe aktarma işlerine erişiminin olması faydalıdır. Bu nedenle, varsayılan davranış açısından bir tüzel kişilik gereksinimini karşılar.
 
 Ancak, bir kuruluş tüzel varlık başına fatura işleme ekiplerine sahip olmak isteyebilir. Bu durumda, bir tüzel kişilikteki bir ekip, yalnızca kendi tüzel varlığındaki fatura içe aktarma işine erişime sahip olmalıdır. Bu gereksinimi karşılamak için veri işleri üzerindeki tüzel varlığa dayalı erişim denetimini, veri işi içindeki **Uygulanabilir tüzel varlıklar** menüsünü kullanarak yapılandırabilirsiniz. Yapılandırma sona erdikten sonra, kullanıcılar yalnızca mevcut olarak oturum açılmış oldukları tüzel varlıktaki işleri görebilirler. Diğer tüzel varlıklardaki işleri görmek için kullanıcıların söz konusu tüzel varlığa geçmeleri gerekir.
@@ -212,7 +215,7 @@ Temizleme işlemini zamanlarken, temizleme ölçütlerini tanımlamak için aşa
 
 -   **İş yürütmek için saat sayısı** – Temizlenecek geçmiş miktarına bağlı olarak, temizleme işi için toplam yürütme süresi birkaç dakikadan birkaç saate kadar değişebilir. Bu parametrenin, işin yürütüleceği saat sayısına ayarlanması gerekir. Belirtilen saat sayısı için temizleme işi gerçekleştirildikten sonra, iş kapanacak ve tekrarlanma planına göre çalıştırıldığında Temizleme işlemi sürdürülecek.
 
-    En fazla yürütme süresi, iş bu ayarı kullanılarak çalıştırmanız gereken saat sayısı maksimum sınırı ayarlayarak belirtilebilir. Temizleme mantığı, kronolojik olarak düzenlenmiş bir sıradaki bir iş yürütme kimliğinden tek seferde geçer, bunlardan en eskisi ilgili yürütme geçmişinin temizliği için ilk sırada yer alır. Kalan yürütme süresi belirtilen sürenin son %10'unun içinde olduğundan, temizleme için yeni yürütme kimliğini çekme durduracaktır. Bazı durumlarda, temizleme işinin belirtilen en fazla süre içinde devam etmesi beklenir. Bu büyük ölçüde %10 eşiğine ulaşılmadan önce başlatılan geçerli yürütme kimliği için silinecek kayıtların sayısına bağlıdır. Veri bütünlüğünü sağlamak için başlatılan temizlemenin tamamlanması gerekir, yani temizleme belirtilen sınırı aşmasına rağmen devam edecektir. Bu tamamlandığında, yeni yürütme kimliği çekilmez ve temizleme işi tamamlar. Yürütme süresinin yetersizliği nedeniyle temizlenemeyen geri kalan yürütme geçmişi, temizlik işinin bir sonraki programlanışında çekilecektir. Bu ayarın varsayılan ve en düşük değeri 2 saate ayarlanır.
+    En fazla yürütme süresi, iş bu ayarı kullanılarak çalıştırmanız gereken saat sayısı maksimum sınırı ayarlayarak belirtilebilir. Temizleme mantığı, kronolojik olarak düzenlenmiş bir sıradaki bir iş yürütme kimliğinden tek seferde geçer, bunlardan en eskisi ilgili yürütme geçmişinin temizliği için ilk sırada yer alır. Kalan yürütme süresi belirtilen sürenin son %10'unun içinde olduğundan, temizleme için yeni yürütme kimliğini çekme durduracaktır. Bazı durumlarda, temizleme işinin belirtilen en fazla süre içinde devam etmesi beklenir. Bu büyük ölçüde %10 eşiğine ulaşılmadan önce başlatılan geçerli yürütme kimliği için silinecek kayıtların sayısına bağlıdır. Veri bütünlüğünü sağlamak için başlatılan temizlemenin tamamlanması gerekir; yani temizleme belirtilen sınırı aşmasına rağmen devam edecektir. Bu tamamlandığında, yeni yürütme kimliği çekilmez ve temizleme işi tamamlar. Yürütme süresinin yetersizliği nedeniyle temizlenemeyen geri kalan yürütme geçmişi, temizlik işinin bir sonraki programlamasında çekilecektir. Bu ayarın varsayılan ve en düşük değeri 2 saate ayarlanır.
 
 -   **Yinelenen toplu iş** – Temizleme işi tek seferlik, el ile yürütme olarak çalıştırılabilir veya toplu olarak yinelenen yürütme için de zamanlanabilir. Toplu iş, standart toplu iş kümesi olan **Arka planda çalıştır** ayarları kullanılarak zamanlanabilir.
 

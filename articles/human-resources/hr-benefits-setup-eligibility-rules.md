@@ -2,7 +2,7 @@
 title: Uygunluk kurallarını ve seçeneklerini yapılandırma
 description: Bu makalede, Microsoft Dynamics 365 Human Resources'daki Kazanç yönetiminde uygunluk kurallarının ve seçeneklerinin nasıl ayarlanacağı açıklanmaktadır.
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 09/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5540a2c39b3f9f53600e5edd5c63c99cec1fb000
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 916a9955327aef67ac768d4505bdb343862058a1
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337099"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644097"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Uygunluk kurallarını ve seçeneklerini yapılandırma 
 
@@ -38,7 +38,7 @@ Uygunluk kuralları, hangi çalışanların her bir kazanç planına kaydolabile
 
 Açık kayıt sırasında çalışanlar kazanç planlarını seçebilir. Zaten kaydolduktan sonra uygunluk kurallarına dayalı bir kazanç planı için uygun değilse, bunlar otomatik olarak kaydedilmezler. Genellikle, plan uygunluğunu etkileyen bir ömür olayı gerçekleştiğinde, çalışan için uygun oldukları planları seçmek amacıyla bir kayıt dönemi başlatılır. 
 
-1. **Sosyal haklar** yönetimi çalışma alanında, **Kurulum** altında, **Uygunluk kuralları ve seçenekleri** seçin.
+1. **Yan haklar** yönetimi çalışma alanında, **Kurulum** altında, **Uygunluk kuralları ve seçenekleri** seçin.
 
 2. **Uygunluk kuralları** sekmesinde, uygunluk kuralı oluşturmak için **yeni**'yi seçin. Uygunluk kuralıyla ilişkili planları görmek için **ilişik planlar**'ı seçin.
 
@@ -74,7 +74,7 @@ Açık kayıt sırasında çalışanlar kazanç planlarını seçebilir. Zaten k
    | **Uygun ücret bölgesi** | Uygunluk kuralına uyan çalışan konumunu belirtir. Örneğin, merkez ABD |
    | **Uygun pozisyon** | Uygunluk kuralına uyan pozisyon veya pozisyonları belirtir. Örneğin, İK Yardımcısı veya İK müdürü. |
    | **Uygun pozisyon türü** | Uygunluk kuralına uyan pozisyon veya pozisyonları belirtir. Örneğin, tam zaman. |
-   | **Uygun durum** | Uygunluk kuralına uyan iller veya eyaletleri belirtir. Örneğin, Kuzey Dakota ABD veya İngiliz Columbia, Kanada. |
+   | **Uygun eyalet** | Uygunluk kuralına uyan iller veya eyaletleri belirtir. Örneğin, Kuzey Dakota ABD veya İngiliz Columbia, Kanada. |
    | **Uygun istihdam koşulları** | Uygunluk kuralına uyan istihdam şartları belirtir. Örneğin, grupta veya grup sözleşmeniz. |
    | **Uygun sendika** | Uygunluk kuralına uyan işçi sendikası üyelikleri belirtir. Örneğin, Amerika Forklift sürücüleri.</br></br>Sendika tabanlı uygunluk kuralı kullanırken, çalışanın sendika kaydı bitiş tarihine sahip olmalıdır. Boş bırakamazsınız. |
    | **Uygun Posta kodu** | Uygunluk kuralına uyan ZIP/posta kodu belirtir. Örneğin, 58104. |
@@ -175,6 +175,7 @@ Bir dizi ilgili kazanç planları kümesidir. Bir çalışanın, başka bir kaza
    | **Görev Demeti** | Ürün demeyinin benzersiz tanımlayıcısı |
    | **Açıklama** | Ürün demeti açıklaması. |
    | **Ana** | Paketteki planlardan birinin Master plan olarak işaretlenip işaretlenmemesi gerektiğini gösterir. Ana plan açık kayıt sırasında, yan haklar yöneticisi personelin yan haklarının koşullarını onaylayabilmesi için başlangıçta seçilen kümenin bir parçası olarak seçilmelidir. |
+   | **Gerekli**| Ürün demetindeki başka bir plan kullanıma almak için planın seçilmesi gerektiğini belirtir. Birden fazla plan, **Gerekli** olarak işaretlenebilir. Bu durumda, **Gerekli** olarak işaretlenen tüm planların ürün demetindeki herhangi bir planın kullanıma alınması için seçilmesi gerekir.|
    | **Geçerlilik başlangıç tarihi ve saati** | Ürün demetinin etkin olduğu tarih ve saat. |
    | **Geçerlilik bitişi** | Ürün demetinin bitiş tarihi. Varsayılan 12/31/2154'dir ve hiçbir zamanı belirtir. |
 

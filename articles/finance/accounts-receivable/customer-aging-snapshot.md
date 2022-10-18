@@ -1,8 +1,8 @@
 ---
 title: Müşteri yaşlandırma anlık görüntüleri
-description: Bu makalede, müşteri yaşlandırma anlık görüntüleriyle ilgili bilgiler sağlanmaktadır. Bir yaşlandırma anlık görüntüsü, bir müşteri grubunun bir zamandaki yaşlandırılmış bakiyesini hesaplar.
+description: Bu makalede, müşteri yaşlandırma anlık görüntüleriyle ilgili bilgiler sağlanmaktadır. Yaşlandırma anlık görüntüsü, bir müşteri grubunun belirli bir zamandaki yaşlandırılmış bakiyesini hesaplar.
 author: JodiChristiansen
-ms.date: 05/05/2021
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.author: mrolecki
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
 ms.search.form: ''
-ms.openlocfilehash: 248a71ff3c9f6c30448ff486f3ee42ac534b1825
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 88145cdccfe3f1d0d3de4e31dfa519b27df6550a
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269577"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643698"
 ---
 # <a name="customer-aging-snapshots"></a>Müşteri yaşlandırma anlık görüntüleri
 
@@ -31,15 +31,15 @@ Yaşlandırma anlık görüntüsü bilgileri,**Yaşlandırılmış bakiyeler** l
 **Müşteri alacak ve tahsilatları** çalışma alanında aynı zamanda müşteri yaşlandırması da görüntülenir. Daha fazla bilgi için bkz. [Power BI içerikleri alacak ve tahsilatlar yönetimi](credit-collections-power-bi.md).
 
 > [!NOTE]
-> Yaşlandırma anlık görüntüsü oluşturmak için gereken süreyi azaltmak için, **Özellik yönetimi** çalışma alanındaki **Müşteri yaşlandırma performansı geliştirmesi** özelliğini etkinleştirin. Ancak, bu özellik etkinleştirildiğinde müşteri havuzlarını kullanmayın. Bir müşteri havuzu seçiliyse özellik çalışmaz ancak yine de yaşlandırma anlık görüntüsü oluşturabilirsiniz.
+> Yaşlandırma anlık görüntüsü oluşturmak için gereken süreyi azaltmak için **Özellik yönetimi** çalışma alanındaki şu özellikleri etkinleştirin: **Müşteri yaşlandırma performansı geliştirmesi** 
+> **Müşteri havuzları ile müşteri yaşlandırma performansı geliştirmesi**  
+> Her iki özellik de etkin olduğu zaman **Müşteri havuzları**, yaşlandırma anlık görüntüsü oluştururken kullanılabilir. 
 
 Bir müşteri yaşlandırma anlık görüntüsü oluşturduğunuzda, bununla ilgili bilgileri girmek için aşağıdaki alanları kullanın:
 
 - **Yaşlandırma dönemi tanımı** – Yaşlandırma anlık görüntüsü için yaşlandırma dönemi tanımını seçin. Her yaşlandırma dönemi için bir yaşlandırma anlık görüntü alabilirsiniz. Yaşlandırma anlık görüntüsünün ve yaşlandırma dönemi tanımının ayrı olarak oluşturulması gerekir.
 - **Havuz Kimliği** – Bu alan isteğe bağlıdır. Yaşlandırma anlık görüntüsünde işlenmesi gereken müşteri kümesini tanımlamak için bir havuz kullanabilirsiniz. Bu alanda bir müşteri havuzu seçerseniz, yaşlandırma anlık görüntüsü yalnızca bu müşteri havuzunun bir parçası olan müşteri hesapları için oluşturulur. Seçili müşteri havuzu **Yaşlandırma anlık görüntüsü** türünde olmalıdır. Bu alanı boş bırakırsanız, tüm müşteri hesapları için bir yaşlandırma anlık görüntüsü oluşturulur.
 
-    > [!NOTE]
-    > **Müşteri yaşlandırma performansı geliştirmesi** özelliği açıksa, bir müşteri havuzu seçmeyin.
 
 - **Ölçüt** – Yaşlandırma anlık görüntüsü, seçtiğiniz tarihe göre yaşlandırır:
 
@@ -52,14 +52,15 @@ Bir müşteri yaşlandırma anlık görüntüsü oluşturduğunuzda, bununla ilg
     - **Bugünün tarihi** – Sistem tarihini kullanın. İşlem, tekrarlayan bir toplu işte çalıştırmak üzere ayarlanırsa bu seçeneği kullanın. Ardından, toplu iş her çalıştırıldığında, söz konusu çalıştırmanın sistem tarihi kullanılır.
     - **Seçili tarih** – Belirttiğiniz tarihi kullanın. Bu seçeneği belirlediğinizde, bir yaşlandırma tarihi de girmeniz gerekir.
 
-    Örneğin, geçerli yaşlandırma süresi 30 gündür. Bu alanda **Bugünün tarihi**'ni seçerseniz, geçerli yaşlandırma dönemi bugünün tarihinde başlar ve önceki 29 günü de içerir. Bu alanda **Seçili tarih**'i seçip bir tarih girerseniz, geçerli yaşlandırma dönemi belirtilen tarihte başlar ve önceki 29 günü de içerir.
+   Örneğin, geçerli yaşlandırma süresi 30 gündür. Bu alanda **Bugünün tarihi**'ni seçerseniz, geçerli yaşlandırma dönemi bugünün tarihinde başlar ve önceki 29 günü de içerir. Bu alanda **Seçili tarih**'i seçip bir tarih girerseniz, geçerli yaşlandırma dönemi belirtilen tarihte başlar ve önceki 29 günü de içerir.
 
 - **Tahsilat durumunu güncelleştir** – Yaşlandırma tarihi, **Ödeme taahhüdü tarihi** alanındaki tarihin ileri bir tarihindeyse **Tahsilatlar** sayfasındaki tahsilat durumunu **Ödeme taahhüdü**'nden **Ödeme taahhüdü yerine getirilmedi**'ye güncelleştirmek için bu seçeneği **Evet** olarak ayarlayın. **Tahsilatlar** sayfasında tahsilat durumunu değiştirmeden bırakmak için bu seçeneği **Hayır** olarak belirleyin.
-- **Bakiyesi sıfır olan müşterileri dahil et** – Bakiyesinden bağımsız olarak tüm müşterileri dahil etmek için bu seçeneği **Evet** olarak ayarlayın. Tüm müşterileri dahil ederseniz, **Müşteri yaşlandırma performansı geliştirme** özelliğini açmanızı ve müşteri havuzları kullanmamanızı öneririz. Yalnızca bakiyesi olan müşterileri dahil etmek için bu seçeneği **Hayır** olarak ayarlayın. Bakiyesi olmayan müşteriler atlandığından, bu ayar performansı hızlandırmaya yardımcı olur.
+- **Bakiyesi sıfır olan müşterileri dahil et** – Bakiyesinden bağımsız olarak tüm müşterileri dahil etmek için bu seçeneği **Evet** olarak ayarlayın. Tüm müşterileri dahil etmeniz halinde **Müşteri yaşlandırma performansı geliştirmesi** ve **Müşteri havuzları ile müşteri yaşlandırma performansı geliştirmesi** özelliklerini etkinleştirmenizi öneririz. Yalnızca bakiyesi olan müşterileri dahil etmek için bu seçeneği **Hayır** olarak ayarlayın. Bakiyesi olmayan müşteriler atlandığı için bu ayar, performansı hızlandırmaya yardımcı olur.
+- **Yaşlandırma sırasında kredi limiti hesaplamalarını atla** - Bu seçenek, **Evet** olarak ayarlandıysa yaşlandırma süreci, her bir müşteri için **Sevk irsaliyesi alt toplam** tutarını, **Açık sipariş alt toplam** tutarını ve **Kullanılabilir kredi** değerini yeniden hesaplamaz. Bu bakiyeler, **Kredi limiti** altındaki bilgi kutusunda **Yaşlandırılmış bakiyeler** sayfasında gösterilir. Yaşlandırma işlemi sırasında performansı hızlandırmak için bu seçeneği **Evet** olarak ayarlayın. Yaşlandırma işlemini çalıştırırken bakiyeleri yeniden hesaplamak için **Hayır** olarak ayarlayın. 
 - **Şirket aralığı** – **Şirket aralığı** sekmesinde, yaşlandırma anlık görüntüsüne dahil edilecek tüzel kişilikleri (şirketler) seçin. Yalnızca merkezi ödemeler için ayarlanmış tüzel kişilikler seçilebilir. Ardından, seçilen tüzel kişiliklerindeki hareketler, tüm bu tüzel kişiliklerde aynı taraf koduna sahip müşteriler için yaşlandırma dönemlerine dahil edilir. Para birimi miktarları, yaşlandırma anlık görüntüsünü oluşturduğunuzda oturum açtığınız tüzel kişiliğin para birimine dönüştürülür.
 
 Bu işlemi, toplu işte çalışacak şekilde zamanlamanızı öneririz.
 
 > [!NOTE]
-> Yaşlandırma anlık görüntüleri oluşturulurken toplu iş performansını geliştirmeye yardımcı olmak için, **Alacak hesapları parametreleri** sayfasının **Tahsilatlar** sekmesindeki **Tahsilat varsayılanları** hızlı sekmesinde bulunan **Maksimum toplu iş sayısı** alanına bir sayı girin. **Müşteri bakiyelerini yaşlandır** alanında, varsayılan değer olan **100** ile başlamanızı ve sonrasında durumunuza göre işlemi optimize etmek için bu değeri ayarlamanız önerilir.
+> Yaşlandırma anlık görüntüleri oluşturulurken toplu iş performansını geliştirmeye yardımcı olmak için, **Alacak hesapları parametreleri** sayfasının **Tahsilatlar** sekmesindeki **Tahsilat varsayılanları** hızlı sekmesinde bulunan **Maksimum toplu iş sayısı** alanına bir sayı girin. **Müşteri bakiyelerini yaşlandır** alanında **12** ile **20** arasında bir değer ile başlamanızı ve sonra durumunuza göre işlemi optimize etmek için bu değeri ayarlamanızı öneriyoruz. Performansı etkileyebileceği için bu değeri **30**'dan büyük bir değere ayarlamanız önerilmez. 
 

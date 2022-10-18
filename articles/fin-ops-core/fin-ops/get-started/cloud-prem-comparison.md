@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 5ef6a1574f55ad8a4222658887249db4a5490042
-ms.sourcegitcommit: 9cfccb5c260ce56a3457f9ea12e80f54ea55a3b4
+ms.openlocfilehash: e3b200186096a49f800d5b650ac81a45fe5e9e30
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183850"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644154"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Bulut ile şirket içi özellikleri karşılaştırma
 
@@ -104,7 +104,7 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 |                                      | ER: LCS ile tümleştirme                                                                  | Evet       | Hayır              |
 |                                      | ER: SharePoint ile tümleştirme                                                           | Evet       | Hayır              |
 |                                      | ER: Düzenleyici Yapılandırma Hizmeti (RCS) ile tümleştirme                              | Evet       | Hayır              |
-|                                      | ER: Yerel dosya sitemini ER yapılandırmalarının depolaması olarak ER havuzları aracılığıyla kullanır | Hayır        | Evet             |
+|                                      | ER: Yerel dosya sistemini ER yapılandırmalarının depolaması olarak ER havuzları aracılığıyla kullanır | Hayır        | Evet             |
 |                                      | PowerBI.com ile tümleştirme                                                              | Evet       | Hayır              |
 |                                      | PowerBI Desktop ile tümleştirme                                                          | Hayır        | Evet             |
 |                                      | Analiz çalışma alanları                                                                     | Evet       | Hayır              |
@@ -118,7 +118,8 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 | Yerelleştirmeler                        |                                                                                           | Evet       | Evet             |
 | İmalat                        |                                                                                           | Evet       | Evet             |
 | Master planlama ve tahmin      |                                                                                           | Evet       | Evet             |
-|                                      | Planlama optimizasyonu                                                                     | Evet       | Hayır              |
+|                                      | Planlama optimizasyonu                                                                     | Evet       | No.              |
+|                                      | Talep tahmini                                                                        | Evet       | No.              |
 | Mobil uygulama, çalışma alanı ve platform |                                                                                           | Evet       | Evet             |
 | Office tümleştirmesi                   |                                                                                           | Evet       | Evet             |
 | Kuruluş yönetimi          |                                                                                           | Evet       | Evet             |

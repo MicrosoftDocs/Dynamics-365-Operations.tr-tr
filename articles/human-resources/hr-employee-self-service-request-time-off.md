@@ -1,5 +1,5 @@
 ---
-title: İzin iste
+title: İzin isteme
 description: Dynamics 365 Human Resources'ta izin süresi isteyin.
 author: twheeloc
 ms.date: 11/03/2021
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d06c1d40416d2644499723317c0adfd805126b5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: eea8cdfc0cd2cfe8ca4cc94cefbf5772ab24d9a4
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882909"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643919"
 ---
-# <a name="request-time-off"></a>İzin iste
+# <a name="request-time-off"></a>İzin isteme
 
 >[!Important]
 >Bu makalede belirtilen işlevler şu anda tek başına Dynamics 365 Human Resources uygulamasını kullanan müşteriler için kullanıma sunulmaktadır. İşlevlerin bazıları veya tümü, Finance 10.0.26 sürümünden sonra Finance altyapısında ileride yayınlanacak bir sürümünün parçası olarak kullanılabilir.
@@ -63,6 +63,10 @@ Varolan bir zamanı isteği güncelleştirirken, bir ek ekleyebilirsiniz. Ayrıc
 2. Onaylanan saat isteğinizi görüntülemek için **onaylanan izin** seçeneğini belirleyin. Bekleyen saat isteğinizi görüntülemek için **İzin istekleri** seçeneğini belirleyin.
 
 ## <a name="cancel-time-off-requests"></a>İzin süresi isteklerini iptal etme
+
+>[!NOTE] 
+> **İzni iptal et** seçeneği, **İstek iş akışı deneyimi geliştirmelerini bırak** özelliği **Özellik yönetimi** çalışma alanında etkin olduğunda kullanılabilirdir.  
+
 
 1. **Çalışan Self servis** çalışma alanında, **İzin Bakiyesi** kutucuğunun dışında **İzini görüntüle**'yi seçin.
 

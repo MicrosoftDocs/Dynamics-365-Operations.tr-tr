@@ -2,7 +2,7 @@
 title: Faturalanmamış gelir
 description: Bu makalede, Abonelik faturalamasında madde ve hesapların faturalandırılmamış gelir özelliğini kullanmak üzere nasıl ayarlanacağı açıklanmaktadır.
 author: JodiChristiansen
-ms.date: 11/04/2021
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: b3fe58fc06df3f61433c8457b337ae895283e12b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: adf6f06ee454f368fa194315a87cfdec9e5e13da
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879696"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644181"
 ---
 # <a name="unbilled-revenue"></a>Faturalanmamış gelir
 
@@ -123,15 +123,15 @@ Dağıtımlar, seçilen tahsisat türüne göre yeniden hesaplanır (**Yüzde**,
 
 Üç yıl için bir faturalama planı girilir ve faturalar üç yıllık bir dönem içinde yıllık olarak faturalandırılır. Tüm sözleşme tutarı, yıllık faturaların oluşturulduğu faturalanmamış gelir hesabına kaydedilir. Mahsup hesap gelir veya ertelenen gelir hesabıdır.
 
-Genel muhasebede mutabakat sorunları oluşamadığından, en iyi faturalama ve faturalanmamış gelir birlikte çalışmaz. Örneğin, **Madde grubu kurulumu** sayfasında, madde grubu A, **Üst satır sayısı** alanı **2** olarak ayarlanmış şekilde ayarlanır. **Faturalama zamanlamaları** sayfasında, üç madde eklenir. Her üç madde de A madde grubuna aittir. İlk günlük girişi faturalanmamış gelir özelliği için oluşturulduğunda, tüm üç maddeyle ilgili tutar faturalanan hesaba geri işlenir. Faturalama çizelgesi için fatura oluşturulduğunda, yalnızca en üstteki iki maddenin tutarları dahil edilir. Bu nedenle, fatura tutarı faturalanmamış gelir hesabına işlenmiş olan tutarla eşleşmiyor ve mutabakat sorunları genel muhasebede ortaya çıkar.
+Genel muhasebede mutabakat sorunları oluşabildiğinden üst faturalama ve faturalanmamış gelir birlikte çalışmaz. Örneğin, **Madde grubu kurulumu** sayfasında, madde grubu A, **Üst satır sayısı** alanı **2** olarak ayarlanmış şekilde ayarlanır. **Faturalama zamanlamaları** sayfasında, üç madde eklenir. Her üç madde de A madde grubuna aittir. İlk günlük girişi faturalanmamış gelir özelliği için oluşturulduğunda, tüm üç maddeyle ilgili tutar faturalanan hesaba geri işlenir. Faturalama çizelgesi için fatura oluşturulduğunda, yalnızca en üstteki iki maddenin tutarları dahil edilir. Bu nedenle, fatura tutarı faturalanmamış gelir hesabına işlenmiş olan tutarla eşleşmiyor ve mutabakat sorunları genel muhasebede ortaya çıkar.
 
 Faturalanmış olmayan geliri kullanmak istiyorsanız, **Madde grubu kurulum** sayfasını boş bırakın veya tüm madde gruplarını, **Üst satır sayısı** alanı **0** (sıfır) ayarlamak için ayarlayın. En iyi faturalamayı kullanmak istiyorsanız, faturalanmayan gelir eylemleri yok demektir.
 
 ### <a name="examples"></a>Örnekler
 
-Sürüm 10.0.27 itibariyle, faturalanmış olmayan gelir kullanıldığında yeni bir hesap ortaya çıkar. İlk **Günlük oluşturma girişi** işlemi deftere nakledildiğinde, alacak yeni faturalanmamış gelir mahsup hesabıyla gerçekleştirilir. Ödeme planı faturalandığında aynı değerin ters çevrilmesi gerektiğinden, gelir hesabı yerine bu hesap kullanılır. Döviz kuru veya yuvarlama farkları oluşursa, **Fatura oluştur** işlemi sırasında hesaplanan tutarlar farklı olabilir. Bu davranış, hesapların net tutarının 0 (sıfır) olmasını sağlar.
+10.0.29 sürümü itibariyle Yinelenen sözleşme faturalama parametrelerine yeni bir parametre eklenmiştir. Evet olarak ayarlandığında **Faturalandırılmamış mahsup hesaplar** parametresi, **Faturalandırılmamış gelir kurulumu** içerisinde iki yeni hesaba izin verir. Faturalandırılmamış gelir mahsubu ve Faturalandırılmamış iskonto mahsubu hesapları kullanılabilir duruma gelir ve faturalama planları muhasebe para biriminden başka bir para birimi ile oluşturulduğu zaman en iyi şekilde kullanılır. Mahsup hesapların kullanılması, faturalandırılmamış gelir ve faturalandırılmamış iskonto hesaplarının ilk girişlerindeki döviz kurları kullanılarak tersine çevrilmesine olanak tanır. İlk **Yevmiye defteri girişi oluştur** işlemi, borçtan faturalandırılmamış gelire ve alacaktan gelire yapılan işlemle aynıdır. İskonto kullanıldığında ilk yevmiye defteri girişi, borçtan iskontoya ve alacaktan faturalandırılmamış iskontoya uygulanan işlemle aynıdır. 
 
-Bu örnek, bilançodaki bir sözleşmenin tüm tutarını faturalanmamış gelir olarak tanımak için faturalanmamış gelirin nasıl kullanılacağını gösterir. Girişin diğer tarafı faturalanmamış gelir farkıdır. Müşteriyi faturaladığınızda, faturalanmamış gelir ve faturalanmamış gelir farkı ters çevrilir. Gelir kabulü, faturalama sırasında veya ayarlanan erteleme kabulünün zamanlamasına göre gerçekleştirilir.
+Bu örnek, bilançodaki bir sözleşmenin tüm tutarını faturalanmamış gelir olarak tanımak için faturalanmamış gelirin nasıl kullanılacağını gösterir. Girişin diğer tarafı, gelir veya ertelenmiş gelirdir. Müşteriye fatura kestiğinizde faturalandırılmamış gelir tersine çevrilir. Gelir kabulü, faturalama sırasında veya ayarlanan erteleme kabulünün zamanlamasına göre gerçekleştirilir.
 
 #### <a name="assumptions"></a>Varsayımlar
 
@@ -151,47 +151,38 @@ Bu örnek, bilançodaki bir sözleşmenin tüm tutarını faturalanmamış gelir
 
     | Öğe | Başlangıç tarihi | Bitiş tarihi | Tutar | Faturalama sıklığı | Erteleme maddesi | Faturalanmamış gelir | Açıklama |
     |---|---|---|---|---|---|---|---|
-    | Lisans | 01 Ocak, CY | 31 Aralık CY + 2 | $100,00 | Yıllık | No. | Evet | Müşteri her yıl $100,00 faturalanacaktır. Toplam $300,00 bilançoya fatura bakiyesi olarak, kar ve zarar üzerinde gelir olarak önceden faturalandı olarak kaydedilir. Her fatura faturalanmayan tutarı azaltacaktır. |
-    | Bakım | 01 Ocak, CY | 31 Aralık CY + 2 | $30,00 | Yıllık | Evet | Evet | Müşteri her yıl $30,00 faturalanacaktır. Toplam $90,00, en baştan faturalanmamış gelir olarak kaydedilecektir ve bilançoda ertelenmiş gelir olacaktır. Her fatura faturalanmayan tutarı azaltacaktır. Ertelenen gelir 36 ay içinde aylık olarak tanınacak. |
+    | Lisans | 01 Ocak 2022 | 31 Aralık 2024 | $100,00 | Yıllık | No. | Evet | Müşteri her yıl $100,00 faturalanacaktır. Toplam $300,00 bilançoya fatura bakiyesi olarak, kar ve zarar üzerinde gelir olarak önceden faturalandı olarak kaydedilir. Her fatura faturalanmayan tutarı azaltacaktır. |
+    | Bakım | 01 Ocak 2022 | 31 Aralık 2024 | $30,00 | Yıllık | Evet | Evet | Müşteri her yıl $30,00 faturalanacaktır. Toplam $90,00, en baştan faturalanmamış gelir olarak kaydedilecektir ve bilançoda ertelenmiş gelir olacaktır. Her fatura faturalanmayan tutarı azaltacaktır. Ertelenen gelir 36 ay içinde aylık olarak tanınacak. |
 
 6. **Tüm faturalama zamanlamaları** sayfasında, sözleşme değerini bilançoya faturalanmış olmayan gelir olarak deftere nakletmek için **Günlük girişi oluştur** işlemini kullanın.
 
 Faturalama planında her bir satır için bir tane olmak üzere iki günlük girişi oluşturulur.
 
-| Faturalanmamış gelir hesabı | Faturalandırılmamış gelir mahsup hesabı | Borç tutarı | Alacak tutarı |
-|---|---|---|---|
-| Faturalanmamış gelir hesabı | | $300,00 | |
-| | Faturalandırılmamış gelir mahsup hesabı | | $300,00 |
+| Hesap | Borç tutarı | Alacak tutarı |
+|---|---|---|
+| Faturalanmamış gelir hesabı | $300,00 | |
+| Gelir hesabı | | $300,00 |
 
-| Faturalanmamış gelir hesabı | Ertelenmiş gelir | Borç tutarı | Alacak tutarı |
-|---|---|---|---|
-| Faturalanmamış gelir hesabı | | $90,00 | |
-| |Ertelenmiş bakım geliri | | $90,00 |
+| Hesap | Borç tutarı | Alacak tutarı |
+|---|---|---|
+| Faturalanmamış gelir hesabı | $90,00 | |
+| Ertelenmiş gelir | | $90,00 |
 
-İlk günlük girişi faturalanmayan bir gelir mahsup hesabına nakledilir ve ikincisi ertelenen gelir hesabına nakledilir. Faturalama satırında hem faturalanmamış gelir hem de ertelenen gelir varsa, faturalanmamış gelir farkı değil, ertelenen gelir hesabı kullanılır. Sözleşme, müşterinin faturasının her yılın başlangıcında oluşturulmasını gerektirir. Faturayı oluşturmak için **Fatura oluştur** işlemini kullanın. Fatura oluşturulduğunda, aşağıdaki günlük girişleri oluşturulur.
+Sözleşme, müşterinin faturasının her yılın başlangıcında oluşturulmasını gerektirir. Faturayı oluşturmak için **Fatura oluştur** işlemini kullanın. Fatura oluşturulduğunda aşağıdaki fatura fişi deftere nakledilir.
 
-| Ana hesap | Faturalanmamış gelir hesabı | Borç tutarı | Alacak tutarı |
-|---|---|---|---|
-| Faturalandırılmamış gelir mahsubu | | $100,00 | |
-| | Faturalanmamış gelir hesabı | | $100,00 |
-| Alacak hesapları | | $100,00 | |
-| | Gelir hesabı | | $100,00 |
+| Hesap| Borç tutarı | Alacak tutarı |
+|---|---|---|
+| Faturalanmamış gelir hesabı | | USD 130,00 |
+| Alacak hesapları | USD 130,00 | |
 
-| Ana hesap | Faturalanmamış gelir hesabı | Borç tutarı | Alacak tutarı |
-|---|---|---|---|
-| Ertelenen bakım geliri hesabı | | $30,00 | |
-| | Faturalanmamış gelir hesabı | | $30,00 |
-| Alacak hesapları | | $30,00 | |
-| | Ertelenen bakım geliri hesabı | | $30,00 |
+Bu günlük girişi, sonraki iki yılın başlangıcında deftere nakledilen faturalar tarafından oluşturulacak. Faturalandırılmamış gelir hesabı, her yıl **Fatura oluştur** işlemi sırasında azaltılır. Faturalandırılmamış gelir mahsup hesabı, farklı döviz kurları kullanıldığında faturalandırılmamış gelir hesabını dengelemek için kullanılır. 
 
-Bu günlük girişi, sonraki iki yılın başlangıcında deftere nakledilen faturalar tarafından oluşturulacak. Yuvarlama veya döviz kuru farkı olmadığından, ertelenen gelir hesabının net tutarı 0 (sıfır) olacaktır. Ertelenen gelir tam olarak, **Günlük girişi oluşturma** sırasında alacaklandırıldığı için ters çevrilmelidir. Gelir ertelenmeye devam edildiğinden ve daha sonra tanınabilmeleri için, ertelenen gelir hesabına yapılan alacak yeniden gerçekleşir.
+Son adımda, ertelenen geliri bakım ücretinden ayırmak için her ay kabul yevmiye defteri girişi oluşturulur. Günlük girişi, **Tanıma işleme** sayfası kullanılarak oluşturulabilir. Alternatif olarak, **Erteleme zamanlama** sayfalarındaki satırların **Tanınması** seçilerek de oluşturulabilir.
 
-Son adımda, ertelenmiş bakım ücreti gelirini tanımak için her ay tanıma günlüğü girişi oluşturulur. Günlük girişi, **Tanıma işleme** sayfası kullanılarak oluşturulabilir. Alternatif olarak, **Erteleme zamanlama** sayfalarındaki satırların **Tanınması** seçilerek de oluşturulabilir.
-
-| Ertelenen gelir hesabı | Gelir hesabı | Borç tutarı | Alacak tutarı |
-|---|---|---|---|
-| Ertelenmiş Bakım Geliri | | $2,50 | |
-| | Bakım Geliri | | $2,50 |
+| Ana hesap | Borç tutarı | Alacak tutarı |
+|---|---|---|
+| Ertelenmiş gelir | $2,50 | |
+| Gelir | | $2,50 |
 
 Bu ertelenmiş madde (Toplam 36 defa) için tanınma süreci her çalıştırıldığında bu günlük girdisi oluşturulur.
 
@@ -269,18 +260,18 @@ Her iki madde de faturalanmamış gelir ve gelir tahsisatı kullandığından, y
 
 Aşağıdaki tabloda, maddeler ve faturayla ilgili ilk günlük girişi gösterilmektedir.
 
-| Faturalanmamış gelir hesabı | Ertelenen gelir hesabı | Borç tutarı | Alacak tutarı |
-|---|---|---|---|
-| **Madde 1000 günlük girişi** | | | |
-| Borç faturalanmamış gelir hesabı ayarları (401250) | | $1.465,26 | |
-| | Alacak ertelenen gelir hesabı (250600) | | $1.465,26 |
-| **Madde 0021 Günlük girişi** | | | |
-| Borç faturalanmamış gelir hesabı ayarları (401250) | | $274,74 | |
-| | Alacak ertelenen gelir hesabı (250600) | | $274,74 |
-| **Fatura** | | | |
-| | Alacak faturalanmamış gelir hesabı | | $1.465,26 |
-| | Alacak faturalanmamış gelir hesabı | | $274,74 |
-| Borç AR hesabı (130100) | | $1.488,16 | |
+| Ana hesap | Borç tutarı | Alacak tutarı |
+|---|---|---|
+| **Madde 1000 günlük girişi** | | | 
+| Faturalandırılmamış gelir hesabı (401250) | $1.465,26 | |
+| Ertelenmiş gelir hesabı (250600) | | $1.465,26 |
+| **Madde 0021 Günlük girişi** | | | 
+| Faturalandırılmamış gelir hesabı (401250) | $274,74 | |
+| Ertelenmiş gelir hesabı (250600) | | $274,74 |
+| **Fatura** | | |
+| Faturalanmamış gelir hesabı | | $1.465,26 |
+| Faturalanmamış gelir hesabı | | $274,74 |
+| AR hesabı (130100) | $1.488,16 | |
 
 #### <a name="changes-to-the-billing-schedule-line-billing-detail-line-or-revenue-allocation"></a>Ödeme çizelgesi satırında, fatura ayrıntısı satırında veya gelir tahsisatına ilişkin değişiklikler
 

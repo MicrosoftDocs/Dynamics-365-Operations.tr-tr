@@ -1,8 +1,8 @@
 ---
-title: Bir kazanç planı oluştur
+title: Kazanç planı oluşturma
 description: Bu makalede, Dynamics 365 Human Resources'da kazanç planlarının nasıl ayarlanacağı gösterilmektedir.
 author: twheeloc
-ms.date: 08/23/2021
+ms.date: 09/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5c8d4488f1782d80484a8b91f4ae7303fea0e464
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 001318be00efcda1e7ee07513e240059d3c5e135
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337106"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643950"
 ---
 # <a name="create-a-benefit-plan"></a>Kazanç planı oluşturma
 
@@ -42,24 +42,25 @@ Bu makalede, Dynamics 365 Human Resources'da kazanç planlarının nasıl ayarla
    | **Program** | Plana isteğe bağlı olarak atanacak bir program belirtir. |
    | **Ürün demeti** | Plana isteğe bağlı olarak atanacak bir ürün demeti belirtir. |
    | **Ana** | Planın atandığı ürün demetinde master plan olup olmadığını belirtir. |
+   | **Gerekli** | Ürün demetindeki başka bir plan kullanıma almak için planın seçilmesi gerektiğini belirtir. Birden fazla plan, **Gerekli** olarak işaretlenebilir. Bu durumda, **Gerekli** olarak işaretlenen tüm planların ürün demetindeki herhangi bir planın kullanıma alınması için seçilmesi gerekir.|
    | **Geçerlilik başlangıç tarihi ve saati** | Planın başladığı tarih ve saati Geçerli değer varsayılan sistem tarihidir. |
-   | **Geçerlilik bitiş tarihi ve saati** | Planın bittiği tarih ve saat. Varsayılan değer 12/31/2154'dir ve hiçbir zaman bunu belirtir. |
+   | **Geçerlilik bitiş tarihi ve saati** | Planın bittiği tarih ve saat. Varsayılan değer 12/31/2154'dir ve hiçbir zaman bunu belirtir.  |
 
 4. **Konfigürasyon** sekmesinde, oluşturmakta olduğunuz planın türüne bağlı olarak aşağıdaki alanlar için değer belirtin:
 
    | Plan türü | Alan | Tanım |
    | --- | --- | --- |
-   | Tıp (tıp, dental, vizyon, HMO) | COBRA | Planın COBRA (Konsolide Çok maddeli bütçe mutabakat Yasası) uygun olup olmayacağını belirtir. |
-   | Tıp (tıp, dental, vizyon, HMO) | HIPAA | Planın HIPAA (sağlık sigortası taşınabilirlik ve Sorumluluk Yasası) uygun olup olmayacağını belirtir. |
-   | Tıp (tıp, dental, vizyon, HMO)<br><br>Diğer (PTE, Fitness)<br><br>Diğer<br><br>Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü)<br><br>Tasarruf (örneğin, 401(k))<br><br>FSA | Vergi öncesinde uygun | Vergiler uygulanmadan önce plana katkıların yapılıp yapılmayacağını belirtir. |
-   | Tıp (tıp, dental, vizyon, HMO)<br><br>Diğer (PTE, Fitness)<br><br>Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü)<br><br>Tasarruf (örneğin, 401(k))<br><br>FSA | Uygun vergiyi deftere naklet | Vergiler uygulandıktan sonra plana katkıların yapılıp yapılmayacağını belirtir. |
-   | Tıp (tıp, dental, vizyon, HMO)<br><br>Diğer (PTE, Fitness)<br><br>Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü)<br><br>Tasarruf (örneğin, 401(k))<br><br>FSA | Katkıda bulunan | Plana kimlerin katkıda bulunduğunu, çalışanı, işvereni veya her ikisini belirtir. |
+   | Sağlık (Sağlık, Diş, Görüş, HMO) | COBRA | Planın COBRA (Konsolide Çok maddeli bütçe mutabakat Yasası) uygun olup olmayacağını belirtir. |
+   | Sağlık (Sağlık, Diş, Görüş, HMO) | HIPAA | Planın HIPAA (sağlık sigortası taşınabilirlik ve Sorumluluk Yasası) uygun olup olmayacağını belirtir. |
+   | Sağlık (Sağlık, Diş, Görüş, HMO)<br><br>Diğer (PTE, Fitness)<br><br>Diğer<br><br>Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü)<br><br>Tasarruf (örneğin, 401(k))<br><br>FSA | Vergi öncesinde uygun | Vergiler uygulanmadan önce plana katkı yapılıp yapılmayacağını belirtir. |
+   | Sağlık (Sağlık, Diş, Görüş, HMO)<br><br>Diğer (PTE, Fitness)<br><br>Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü)<br><br>Tasarruf (örneğin, 401(k))<br><br>FSA | Uygun vergiyi deftere naklet | Vergiler uygulandıktan sonra plana katkıların yapılıp yapılmayacağını belirtir. |
+   | Sağlık (Sağlık, Diş, Görüş, HMO)<br><br>Diğer (PTE, Fitness)<br><br>Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü)<br><br>Tasarruf (örneğin, 401(k))<br><br>FSA | Katkıda bulunan | Plana kimlerin katkıda bulunduğunu, çalışanı, işvereni veya her ikisini belirtir. |
    | Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü) | Minimum karşılama | Plan için gerekli olan minimum sigorta kapsamı tutarı. |
    | Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü) | Maksimum karşılama | Plan için gerekli olan maksimum sigorta kapsamı tutarı. |
    | Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü) | Kapsam artışlarını kullan | Kapsam tutarının geçerli bir artan tutarla eşleşmediğini doğrulamak için doğrulama yapılıp yapılmayacağını belirtir. |
-   | Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü) | Artışlı tutar | Plan için artımlı sigorta kapsamı tutarı. Örneğin, artan tutar 1.000 ise, bir çalışanın sigorta $200.500 olamaz, $201.000 veya $200.000'e yuvarlama yapmaları gerekir. |
+   | Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü) | Artışlı tutar | Plan için artımlı sigorta kapsamı tutarı. Örneğin, artan tutar 1.000 ise çalışanın sigortası USD 200.500 olamaz; USD 201.000 veya USD 200.000'e yuvarlama yapılması gerekir. |
    | Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü) | Artışlı yön | Karşılama tutarı artışlı tutar değerini karşılamıyorken yukarı veya aşağı yuvarlama yönünü belirtir. |
-   | ADD (temel ömür, gönüllü kullanım ömrü) | Sigorta kanıtı | Bir çalışanın aşırı sayıda kanıt sağlayıp sağlamaması gerektiğini belirtir. |
+   | ADD (temel ömür, gönüllü kullanım ömrü) | Sigorta kanıtı | Çalışanın sigorta kanıtı sunması gerekip gerekmediğini belirtir. |
    | ADD (temel ömür, gönüllü kullanım ömrü) | Tutar | Muhasebe para birimi cinsinden tutar. Bu alan yalnızca Sigortalanabilirlik kanıtı onay kutusunun etkin olması durumunda kullanılabilir. |
    | Tasarruf (örneğin, 401(k))<br><br>FSA | Minimum yıllık katkı | Plan için gerekli olan minimum katkı tutarı. |
    | Tasarruf (örneğin, 401(k))<br><br>FSA | Maksimum yıllık katkı | Plan için gerekli olan maksimum katkı tutarı. |

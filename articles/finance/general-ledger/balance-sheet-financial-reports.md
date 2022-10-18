@@ -1,8 +1,8 @@
 ---
 title: Bilanço mali raporları
 description: Bu makale, bilançolar için varsayılan raporları açıklar. Ayrıca, bu raporlarla ilişkili olan yapı taşlarını açıklar.
-author: jcart1106
-ms.date: 06/20/2017
+author: jinniew
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: twheeloc
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
 ms.search.region: Global
-ms.author: jcart
+ms.author: jiwo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64e23574f470efe1cb737236ff0b0ef37dae5064
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4aad297f401143388d682da175a6b14727a8f2f0
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880744"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643836"
 ---
 # <a name="balance-sheet-financial-reports"></a>Bilanço mali raporları
 
@@ -33,9 +33,9 @@ Bu makale, bilançolar için varsayılan raporları açıklar. Ayrıca, bu rapor
 İki farklı varsayılan bilanço raporu vardır. Bir raporda bölümler üst üste yerleştirilir. Diğer raporda ise bölümler yan yanadır.
 
 | Varsayılan rapor                       | Ne yapar                                                                                                                           |
-|--------------------------------------|----------------------------------------------------------------------------------------------|
-| Bakiye – Varsayılan              | İlgili yıl için organizasyonun mali pozisyonunun görünümünü sağlar.                                                                 |
-| Yan Yana Bilanço – Varsayılan | İlgili yıl için organizasyonun mali pozisyonunun görünümünü sağlar. Kıymetler ve borç ve hissedarın öz varlığı yan yanadır. |
+|--------------------------------------|--------------------------------------------------------------------------------------|
+| Bilanço – Varsayılan              | İlgili yıl için organizasyonun mali pozisyonunun görünümünü sağlar.                    |
+| Bilanço ve Gelir Beyanı Yan Yana - Varsayılan | İlgili yıl için kuruluşun mali durumunun yan yana görünümünü sağlar. |
 
 ## <a name="building-blocks"></a>Yapı taşları
 Bilanço mali raporları aşağıdaki yapı taşlarını kullanır.
@@ -43,11 +43,11 @@ Bilanço mali raporları aşağıdaki yapı taşlarını kullanır.
 | Varsayılan rapor                       | Satır tanımı                       | Sütun tanımı             |
 |--------------------------------------|--------------------------------------|-------------------------------|
 | Bilanço - Varsayılan              | Bilanço - Varsayılan              | YTD ve Fark - Varsayılan    |
-| Yan Yana Bilanço – Varsayılan | Yan Yana Bilanço – Varsayılan | Yılbaşından Bugüne Sütunu - Varsayılan |
+| Bilanço ve Gelir Beyanı Yan Yana - Varsayılan | Bilanço ve Gelir Beyanı Yan Yana - Varsayılan | Yılbaşından Bugüne Sütunu - Varsayılan |
 
 ### <a name="row-definition"></a>Satır tanımı
 
-Her iki bilanço raporu için satır tanımları klasik bir bilançonun her bir parçası için bölümler içerir. Yan yana rapor bir sütun boşluğu içerir, böylece borç ve şirket sahibinin öz varlığı, kıymetlerin yanında görüntülenir. Ana Hesap Kategorisi boyutu her iki satır tanımının oluşturulması için kullanılır. Bu nedenle, herhangi biri hiçbir değişiklik yapmasına gerek kalmadan raporlar oluşturabilir.
+Her iki bilanço raporu için satır tanımları klasik bir bilançonun her bir parçası için bölümler içerir. Yan yana rapor bir sütun boşluğu içerir, böylece borç ve şirket sahibinin öz varlığı, kıymetlerin yanında görüntülenir. Ana Hesap Kategorisi boyutu her iki satır tanımının oluşturulması için kullanılır. Bu nedenle, hiçbir değişiklik yapmadan herkes rapor oluşturabilir.
 
 ### <a name="column-definition"></a>Sütun tanımı
 

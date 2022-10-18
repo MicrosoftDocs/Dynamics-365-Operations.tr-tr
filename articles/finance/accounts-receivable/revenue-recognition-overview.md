@@ -1,6 +1,6 @@
 ---
 title: Gelir kabulüne genel bakış (video içerir)
-description: Bu makalede, Gelir kabulü özelliğiyle ilgili bilgiler verilir. Bu özellik, birden fazla öğe içeren siparişler için hem gelir fiyatını hem de gelir planını kabul etmeye yönelik şirkete özgü kurallar tanımlamanıza olanak tanıtan esnek bir çerçeve sağlar.
+description: Bu makalede Gelir kabulü özelliğiyle ilgili bilgi verilir. Bu özellik, birden fazla öğe içeren siparişler için hem gelir fiyatını hem de gelir planını kabul etmeye yönelik şirkete özgü kurallar tanımlamanıza olanak tanıtan esnek bir çerçeve sağlar.
 author: bking
 ms.date: 03/15/2022
 ms.topic: overview
@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: bking
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: be3e6438e86911d9703a5ac7413515389308b340
-ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
+ms.openlocfilehash: 5bf07356b5613f438034f8dabac7db197e69a6c8
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348367"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644043"
 ---
 # <a name="revenue-recognition-overview"></a>Gelir kabulüne genel bakış
 
 [!include [banner](../includes/banner.md)]
+
+>[!NOTE]
+>Bu işlev Ekim 2023'te kullanımdan kaldırılacağı için yeni kullanıcılar abonelik faturalaması kullanmalıdır.
 
 Ürünler, hizmetler, abonelikler gibi birden fazla öğe satan sektör şirketlerin çok öğeli siparişleri ayırabilmesi gerekir. Böylece, gelir şirkete özel ve sektöre özel kurallar kümesi temel alınarak kabul edilebilir.
 

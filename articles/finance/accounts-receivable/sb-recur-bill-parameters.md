@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: cb60253f3cbb8c991ef2e106abdb1c685bf22171
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 64d6e21c2d8c588a64f0f4cf8b7a0bafc853bcab
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903348"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644016"
 ---
 # <a name="recurring-contract-billing-parameters"></a>Yinelenen sözleşme faturalama parametreleri
 
@@ -27,7 +27,7 @@ Yinelenen sözleşme faturalaması için oluşturulan faturalama zamanlamaların
 
 ## <a name="general-tab"></a>Genel sekmesi
 
-1. **Yinelenen sözleşme faturalama parametreleri** sayfasında, **Genel** sekmesinde, **Faturalama zamanlama grubu** alanında bir ödeme çizelgesi grubu seçin. Faturalama zamanlama gruplarını ayarlamak hakkında daha fazla bilgi için bu makalenin sonraki bölümündeki [Fatura zamanlaması grupları](#set-up-billing-schedule-groups) bölümüne bakın.
+1. **Yinelenen sözleşme faturalama parametreleri** sayfasında **Genel** sekmesinde **Faturalama zamanlama grubu** alanında bir ödeme çizelgesi grubu seçin. Faturalama zamanlama gruplarını ayarlamak hakkında daha fazla bilgi için bu makalenin sonraki bölümündeki [Fatura zamanlaması grupları](#set-up-billing-schedule-groups) bölümüne bakın.
 2. **Sonlandırma türü** alanında, ödeme planı sona erdirilmiş durumda son faturanın nasıl hesaplanacağını seçin:
 
     - **Zamanlamayı ayarla** – Sonlandırma tarihinde faturalama zamanlamasıyla kesin, zamanlamanın durumunu **Son faturalama** olarak değiştirin ve artık tanınmaması gereken tutarı ters çevirerek ilişkili erteleme zamanlamasını ayarlayın. Faturalama başlangıç tarihi bitiş tarihinden sonraysa kalan faturalama dönemleri kaldırılır.
@@ -46,7 +46,8 @@ Yinelenen sözleşme faturalaması için oluşturulan faturalama zamanlamaların
 8. **Fatura hareket türü** alanında, yeni ödeme zamanlamaları için varsayılan fatura hareket tipini seçin.
 9. İlgili erteleme zamanlamasını ödeme zamanlamasıyla aynı tarihleri kullanacak şekilde hizalamak için, **Ertelemeyi faturalama ile hizala** seçeneğini **Evet** olarak ayarlayın. Farklı tarihler kullanmak için **Hayır** olarak ayarlayın.
 10. Gelir ayırma özelliğini kullanıyorsanız, bir ödeme planına maddeler eklendiğinde **Gelir ayrımını otomatik olarak oluştur** seçeneğini **Evet** olarak ayarlayın. Madde gelir tablosu olarak ayarlanmışsa, ödeme planlama satırında **Gelir bölünmesi** onay kutusu otomatik olarak seçilir. **Gelir bölünmesi** onay kutusunu el ile seçmek istiyorsanız, bu seçeneği **Hayır** olarak ayarlayın.
-11. Satış siparişi oluşturma alanlarını ayarlayın:
+11. Faturalama planının farklı müşterilere faturalandırılabilmesi için **Müşteri bölme** seçeneğini **Evet** olarak ayarlayın. **Evet** olarak ayarlandığında **Müşteri bölme** seçeneği, faturalama planı üst bilgisi ve faturalama planı satırında görünecektir. 
+12. Satış siparişi oluşturma alanlarını ayarlayın:
 
     - Faturalar döneme, müşteriye veya maddeye göre birleştirilebilir. Herhangi bir **Evet** ve **Hayır** değeri ayarlanabilir. Faturalar aynı zamanda madde grubuna göre bölünebilir.
     - Faturalar için aşağıdaki deftere nakil seçenekleri kullanılabilir:
@@ -92,6 +93,9 @@ Yinelenen sözleşme faturalaması için oluşturulan faturalama zamanlamaların
     - **Alacak faturası düzenle**: Faturalama zamanlaması veya faturalama zamanlama satırı sonlandırıldığında bir alacak dekontu oluşturun.
     - **Kredi düzeltmesi**: Bir satır sonlandırıldığında faturalama zamanlaması için bir kredi düzeltmesi oluşturun. Kredi düzeltmesi, faturalama zamanlaması için gelecekteki bir faturalama döneminde görüntülenir. Alacak düzeltmesi ayrıca, kredinin faturalama zamanlamasına uygulanması bitene kadar bir sonraki faturalama dönemi için fatura tutarını güncelleştirir.
     - **Kredi yok**: Faturalama zamanlaması veya faturalama zamanlama satırı sonlandırıldığında kredi düzeltmesi veya alacak dekontu oluşturmayın. Bu seçenek yalnızca bir faturalama zamanlamasını sonlandırmak için **Düzeltme yok** seçeneği kullanıldığında değerlendirilebilir.
+18. **Tek seferlik işlem geri ödemeyle sonlanabilir** seçeneği **Hayır** olarak ve faturalama planının faturalama sıklığı da **Tek seferlik** olarak ayarlanırsa faturalama planı faturalandığında faturalama planı satırının durumu **Sonlandırıldı** olarak değişir. Bu faturalama planı sonlandırılamaz ve kredi verilemez. **Tek seferlik işlem geri ödemeyle sonlanabilir** seçeneği **Evet** olarak ayarlandığında faturalama planı faturalandığında faturalama sıklığı **Tek seferlik** olarak ayarlanmış faturalama planı satırının durumu **Aktif** olarak değişir. Faturalama planı satırı sonlandırılabilir ve geri ödeme işleme alınır. 
+19. Parametrelerde ayarlanan **Günlük olarak eşit dağıt** seçeneği, varsayılan olarak toplu sonlandırma sayfası ve faturalama planı üst bilgisi ve satırı Sonlandır iletişim kutularına ayarlıdır. Sonlandırma işlemi sırasında değiştirilebilir. **Evet** olarak ayarlandığında iade tutarı günlük bir oran kullanılarak hesaplanacaktır. **Hayır** olarak ayarlandığında sonlandırma tarihi ve faturalama sıklığına göre hesaplanacaktır. Örneğin, sıklık olarak Aylık kullanılıyorsa ve fatura tutarı ayda USD 100 ise kredi tutarı, USD 100 katları olacaktır. Faturalama sıklığı tek seferlik ise kredi tutarı USD 0.00 olur. Tek seferlik faturalama sıklığı için geri ödeme alabilmek için Günlük olarak eşit dağıt seçeneği Evet olarak ayarlanmalıdır. 
+20. Varolan bir erteleme planını alacaklandırırken yeni bir erteleme planı oluşturmak için **Kredi için erteleme oluştur** seçeneğini **Evet** olarak ayarlayın. Krediyi varolan erteleme planına göre oluşturmak için seçeneği **Hayır** olarak bırakın.
 
 ## <a name="sequence-number-tab"></a>Sıra numarası sekmesi
 

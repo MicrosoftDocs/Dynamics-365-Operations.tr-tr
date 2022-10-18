@@ -2,7 +2,7 @@
 title: Dynamics 365 Finance'te kaldırılan veya kullanım dışı bırakılan özellikler
 description: Bu makale, Dynamics 365 Finance'ten kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: kfend
-ms.date: 06/29/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
-ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
+ms.openlocfilehash: 516b2b6091fa620b21eebba25f56ff55aa282ffc
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9462314"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643807"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'te kaldırılan veya kullanım dışı bırakılan özellikler
 
@@ -32,6 +32,18 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 > [!NOTE]
 > Finans ve operasyon uygulamalarındaki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](/dynamics/s-e/global/axtechrefrep_61) altından ulaşabilirsiniz. Finans ve operasyon uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10031-release"></a>Finance 10.0.31 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
+
+### <a name="edifact-paymul-at-configuration-under-payment-model"></a>Ödeme modeli altındaki EDIFACT PAYMUL (AT) yapılandırması
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Kullanımı sonlandırma/kaldırma nedeni** | ISO 20022 pain.001.001.09'u temel alan yeni bir biçimle değiştirilir. | 
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Kullanım dışı: Avusturya'daki bankalar, 2022 yılının Kasım ayına kadar sınır ötesi ödemeler için EDICFACT-PAYMUL'u kullanım dışı bırakacak ve pain.001.001.09N XML sürümü ile değiştirecektir. Genel yapılandırma havuzuna kullanıcıların sınır ötesi ödeme isteklerini tamamlamasına olanak sağlayan yeni bir yapılandırma eklenmiştir. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>Finance 10.0.30 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 
