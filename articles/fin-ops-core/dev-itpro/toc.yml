@@ -14,6 +14,8 @@
               items:
                 - name: Platform güncellemeleri giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
+                - name: 10.0.31 sürümü için platform güncelleştirmeleri (Şubat 2023)
+                  href: get-started/whats-new-platform-updates-10-0-31.md
                 - name: 10.0.30 sürümü için platform güncelleştirmeleri (Kasım 2022)
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: 10.0.29 sürümü için platform güncelleştirmeleri (Ekim 2022)
@@ -182,6 +184,8 @@
                   href: data-entities/configuration-data-templates.md
                 - name: Varlık üzerindeki değişiklikleri izleme
                   href: data-entities/entity-change-track.md
+                - name: Varlık için satır sürümü değişikliği izlemeye izin verme
+                  href: data-entities/rowversion-change-track.md
                 - name: Standart veri varlıklarıyla ilgili bilgileri bulma
                   href: data-entities/data-entities-report.md
                 - name: Birden çok çalışma sayfasına sahip veri şablonları
@@ -1228,6 +1232,8 @@
                   href: power-platform/admin-reference.md
                 - name: Dataverse sanal varlıklarını etkinleştirme
                   href: power-platform/enable-virtual-entities.md
+                - name: Dataverse'te sanal tablolar için değişiklikleri izleme
+                  href: power-platform/track-changes-fin-ops-virtual-table.md
                 - name: Finans ve operasyon ile Power Apps portalları
                   href: power-platform/power-portal-reference.md
                 - name: Finans ve operasyon sanal varlıkları ile ilgili SSS
@@ -1624,9 +1630,7 @@
                   href: sysadmin/security-reports.md
                 - name: Yeni kullanıcılar oluşturma
                   href: sysadmin/tasks/create-new-users.md
-                - name: Kullanıcı oturumu yönetimi
-                  href: sysadmin/user-session-management.md
-                - name: Azure AD Koşullu Erişimle konum bazında erişimi engelleme
+                - name: Azure AD Koşullu Erişim ile konuma göre erişimi engelleme
                   href: /power-platform/admin/restrict-access-online-trusted-ip-rules?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
                 - name: Kullanıcıları toplu olarak içeri aktarma
                   href: sysadmin/tasks/import-bulk-users.md

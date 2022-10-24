@@ -888,6 +888,8 @@
               href: async-customer-mode.md
             - name: Zaman uyumsuz müşterileri zaman uyumlu müşterilere dönüştürme
               href: convert-async-to-sync.md
+            - name: Müşteri operasyonlarının eşitlemesini denetleme
+              href: audit-async-customer-operations.md
             - name: Zaman uyumsuz müşteri oluşturma modu hakkında SSS
               href: async-customer-mode-faq.md
             - name: Müşteri rehberliği
@@ -1296,8 +1298,14 @@
                       href: cookie-consent-module.md
                 - name: Sohbet modülleri
                   items:
-                    - name: Commerce sohbet modülü
+                    - name: Commerce sohbet özelliklerine genel bakış
+                      href: commerce-chat-overview.md
+                    - name: Customer Service için Çok Yönlü Kanal ile Commerce Sohbet modülü
                       href: commerce-chat-module.md
+                    - name: Power Virtual Agents ile Commerce Sohbet modülü
+                      href: chat-module-pva.md
+                    - name: Commerce sohbet modülü proaktif sohbet parametreleri
+                      href: chat-proactive-chat-parameters.md
             - name: Arama
               items:
                 - name: Varsayılan kategori açılış sayfası ve arama sonuçları sayfasına genel bakış

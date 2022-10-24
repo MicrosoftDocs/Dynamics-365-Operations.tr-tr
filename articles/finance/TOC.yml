@@ -10,8 +10,10 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?context=/dynamics365/context/finance
             - name: Finance uygulamasındaki yenilikler veya değişiklikler
               items:
-                - name: Finance uygulamasındaki yenilikler veya değişiklikler giriş sayfası
+                - name: Finance giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.31 (Ocak)
+                  href: get-started/whats-new-changed-10-0-31.md
                 - name: Finance 10.0.30 (Kasım)
                   href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29 (Ekim)
@@ -232,6 +234,26 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: Borç hesapları için fatura eşleştirme doğrulaması ayarlama
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: Invoice Capture çözümü
+              items:
+                - name: Invoice Capture'a genel bakış
+                  href: accounts-payable/invoice-capture-overview.md
+                - name: Invoice Capture'ı yükleme
+                  href: accounts-payable/install-invoice-capture.md
+                - name: Invoice Capture'ı yapılandırma
+                  href: accounts-payable/config-invoice-capture.md
+                - name: Invoice Capture yapılandırma grupları
+                  href: accounts-payable/invoice-capture-config-group.md
+                - name: Invoice Capture eşleştirme kuralları
+                  href: accounts-payable/invoice-capture-mapping-rules.md
+                - name: Invoice Capture çalışma alanı
+                  href: accounts-payable/invoice-capture-workspace.md
+                - name: Invoice Capture gelişmiş ayarları
+                  href: accounts-payable/invoice-capture-advanced-settings.md
+                - name: Invoice Capture panosu
+                  href: accounts-payable/invoice-capture-dashboard.md
+                - name: Invoice Capture alınan dosyaları
+                  href: accounts-payable/invoice-capture-rec-files.md
             - name: Satıcı faturası otomasyonu
               items:
                 - name: Otomatik satıcı faturalama işlemlerine genel bakış
