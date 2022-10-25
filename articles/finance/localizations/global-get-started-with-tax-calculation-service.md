@@ -2,7 +2,7 @@
 title: Vergi Hesaplamayı kullanmaya başlama
 description: Bu makalede, Vergi Hesaplamasının nasıl ayarlanacağı açıklanmaktadır.
 author: EricWangChen
-ms.date: 03/25/2022
+ms.date: 10/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.custom: intro-internal
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 2b9af7a8bef9d479c4f2ec59ef533403a74251b1
-ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
+ms.openlocfilehash: 42898823ffc366351c6f58f1fe9b924678ab4b49
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573318"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690396"
 ---
 # <a name="get-started-with-tax-calculation"></a>Vergi Hesaplamayı kullanmaya başlama
 
@@ -124,6 +124,10 @@ Bu bölümdeki adımlar belirli bir tüzel kişilikle ilişkili değildir. Bu yo
 7. **Vergi Veri Modeli**'ne gidin, dosya ağacını genişletin ve ardından **Vergi Yapılandırması**'nı seçin.
 8. Finance sürümünüze bağlı olarak, doğru [vergi yapılandırması sürümünü](global-tax-calcuation-service-overview.md#versions) seçin ve ardından **İçeri Aktar** seçeneğini belirleyin.
 9. **Genelleştirme özellikleri** çalışma alanında, **Özellikler**'i seçin, **Vergi Hesaplaması** kutucuğunu ve ardından **Ekle** seçeneğini belirleyin.
+
+    > [!NOTE]
+    > Sürüm 10.0.26 ve üstünde **DEMF** tanıtım tüzel kişiliği için tanıtım özelliği içe aktarabilirsiniz. Daha fazla bilgi için bkz. [Özellik tanıtım verilerini içe aktarma](tax-calculation-import-export-feature.md).
+
 10. Aşağıdaki özellik türlerinden birini seçin:
 
     - **Yeni özellik** – Boş içeriğe sahip bir özellik ayarı oluşturun.
@@ -154,8 +158,8 @@ Bu bölümdeki adımlar belirli bir tüzel kişilikle ilişkili değildir. Bu yo
     - **Satıcı vergi kayıt numarası uygulanabilirliği**: Bir satıcı için birden fazla vergi kayıt numaranız varsa Vergi Hesaplama, doğru vergi kayıt numarasını otomatik olarak belirleyebilir. Bu sekmedeki matriste, belirleme işlemi için kullanılması gereken kuralları tanımlayın. Aksi takdirde, Finance ve Supply Chain Management satın alma işlemleri için vergiye tabi belgelerde varsayılan vergi kayıt numarasını kullanmaya devam eder.
     - **Liste kodu uygulanabilirliği**: Daha esnek ve yapılandırılabilir kurallarla **Liste kodu** alanının değerini otomatik olarak belirleyin. Bu sekmedeki matriste, belirleme işlemi için kullanılması gereken kuralları tanımlayın. Aksi takdirde, Finance ve Supply Chain Management vergiye tabi belgelerde varsayılan kodu kullanmaya devam eder.
 
-14. **Vergi kodları** sekmesinde, **Ekle**'yi seçin ve vergi kodunu ve bir açıklama girin.
-15. **Vergi bileşenini** seçin. Vergi bileşeni, seçili vergi yapılandırmasının önceki sürümünde tanımlanmış bir yöntemler grubudur. Aşağıdaki vergi bileşenleri kullanılabilir:
+15. **Vergi kodları** sekmesinde, **Ekle**'yi seçin ve vergi kodunu ve bir açıklama girin.
+16. **Vergi bileşenini** seçin. Vergi bileşeni, seçili vergi yapılandırmasının önceki sürümünde tanımlanmış bir yöntemler grubudur. Aşağıdaki vergi bileşenleri kullanılabilir:
 
     - Net tutara göre
     - Brüt tutara göre
@@ -163,8 +167,8 @@ Bu bölümdeki adımlar belirli bir tüzel kişilikle ilişkili değildir. Bu yo
     - Marja göre
     - Vergi üzerinden vergi
 
-16. **Kaydet**'i seçin. Seçtiğiniz vergi bileşeni esas alınarak daha fazla alan kullanılabilir hale gelir.
-17. Vergi kodunun niteliğini tanımlamak için aşağıdaki seçenekleri kullanın:
+17. **Kaydet**'i seçin. Seçtiğiniz vergi bileşeni esas alınarak daha fazla alan kullanılabilir hale gelir.
+18. Vergi kodunun niteliğini tanımlamak için aşağıdaki seçenekleri kullanın:
 
     - Muaf
     - Kullanım vergisi
@@ -179,8 +183,8 @@ Bu bölümdeki adımlar belirli bir tüzel kişilikle ilişkili değildir. Bu yo
 
     Bu vergi kodu için vergi oranlarını ve vergi tutarı sınırlarını koruyun.
 
-18. Gerekli tüm diğer vergi kodlarını eklemek için 14 ile 17 arasındaki adımları yineleyin.
-19. **Vergi grubu** sekmesinde, **Vergi grubu** sütununu seçin, bunu giriş koşulu olarak matrise ekleyin ve ardından vergi grubu ana verilerini korumak için satırlar ekleyin.
+19. Gerekli tüm diğer vergi kodlarını eklemek için 15 ile 18 arasındaki adımları yineleyin.
+20. **Vergi grubu** sekmesinde, **Vergi grubu** sütununu seçin, bunu giriş koşulu olarak matrise ekleyin ve ardından vergi grubu ana verilerini korumak için satırlar ekleyin.
 
     Aşağıda bir örnek verilmiştir.
 
@@ -191,7 +195,7 @@ Bu bölümdeki adımlar belirli bir tüzel kişilikle ilişkili değildir. Bu yo
     | BEL_Dom | BEL_VAT21; BEL_VAT6 |
     | BEL_EU       | BEL_Exempt          |
 
-20. **Madde vergisi grubu** sekmesinde, **Madde vergisi grubu** sütununu seçin, bunu giriş koşulu olarak matrise ekleyin ve ardından madde vergisi grubu ana verilerini korumak için satırlar ekleyin.
+21. **Madde vergisi grubu** sekmesinde, **Madde vergisi grubu** sütununu seçin, bunu giriş koşulu olarak matrise ekleyin ve ardından madde vergisi grubu ana verilerini korumak için satırlar ekleyin.
 
     Aşağıda bir örnek verilmiştir.
 
@@ -200,7 +204,7 @@ Bu bölümdeki adımlar belirli bir tüzel kişilikle ilişkili değildir. Bu yo
     | Dolu           | DEU_VAT19; BEL_VAT21; DEU_Exempt; BEL_Exempt |
     | Düşürüldü        | DEU_VAT7; BEL_VAT6; DEU_Exempt; BEL_Exempt   |
 
-21. **Vergi grubu uygulanabilirliği** sekmesinde, doğru vergi grubunu belirlemek için gereken sütunları seçin ve ardından **Ekle** seçeneğini belirleyin. Her bir sütun için değerleri girin veya seçin. **Vergi grubu** alanı, bu matrisin çıkışı olacaktır. Bu sekme yapılandırılmadıysa hareket satırındaki satış vergisi grubu kullanılır.
+22. **Vergi grubu uygulanabilirliği** sekmesinde, doğru vergi grubunu belirlemek için gereken sütunları seçin ve ardından **Ekle** seçeneğini belirleyin. Her bir sütun için değerleri girin veya seçin. **Vergi grubu** alanı, bu matrisin çıkışı olacaktır. Bu sekme yapılandırılmadıysa hareket satırındaki satış vergisi grubu kullanılır.
 
     Aşağıda bir örnek verilmiştir.
 
@@ -214,7 +218,7 @@ Bu bölümdeki adımlar belirli bir tüzel kişilikle ilişkili değildir. Bu yo
     > [!NOTE]
     > Vergilendirilebilir belge satırlarınızın varsayılan satış vergisi grubu doğruysa, bu matrisi boş bırakın. Daha fazla bilgi için bu makalenin [Çalışma zamanı tasarımı](#runtime) bölümüne bakın.
 
-22. **Madde vergisi grubu uygulanabilirliği** sekmesinde, doğru vergi kodunu belirlemek için gereken sütunları seçin ve ardından **Ekle** seçeneğini belirleyin. Her bir sütun için değerleri girin veya seçin. **Madde vergisi grubu** alanı, bu matrisin çıkışı olacaktır. Bu sekme yapılandırılmadıysa hareket satırındaki madde satış vergisi grubu kullanılır.
+23. **Madde vergisi grubu uygulanabilirliği** sekmesinde, doğru vergi kodunu belirlemek için gereken sütunları seçin ve ardından **Ekle** seçeneğini belirleyin. Her bir sütun için değerleri girin veya seçin. **Madde vergisi grubu** alanı, bu matrisin çıkışı olacaktır. Bu sekme yapılandırılmadıysa hareket satırındaki madde satış vergisi grubu kullanılır.
 
     Aşağıda bir örnek verilmiştir.
 
@@ -228,10 +232,10 @@ Bu bölümdeki adımlar belirli bir tüzel kişilikle ilişkili değildir. Bu yo
 
     Vergi kodlarının Vergi Hesaplama'da nasıl belirlendiği hakkında daha fazla bilgi için bkz. [Satış vergisi grubu ve madde satış vergisi grubu belirleme mantığı](global-sales-tax-group-determination.md).
 
-23. İş gereksinimlerine bağlı olarak, müşteri vergi kayıt numaralarının, satıcı vergi kayıt numaralarının ve liste kodlarının uygulanabilirliğini ayarlayın.
-24. **Kaydet**'i seçip sayfayı kapatın.
-25. **Durumu değiştir** \> **Tamamla**'yı seçin. Durum **tamamlandı** olarak değiştirildikten sonra sürüm artık düzenlenemez.
-26. **Durumu değiştir** \> **Yayınla**'yı seçin. Vergi özelliği ayarının bu sürümü genel depoya gönderilir ve Finance'te her yasal varlık için görünür olacaktır.
+24. İş gereksinimlerine bağlı olarak, müşteri vergi kayıt numaralarının, satıcı vergi kayıt numaralarının ve liste kodlarının uygulanabilirliğini ayarlayın.
+25. **Kaydet**'i seçip sayfayı kapatın.
+26. **Durumu değiştir** \> **Tamamla**'yı seçin. Durum **tamamlandı** olarak değiştirildikten sonra sürüm artık düzenlenemez.
+27. **Durumu değiştir** \> **Yayınla**'yı seçin. Vergi özelliği ayarının bu sürümü genel depoya gönderilir ve Finance'te her yasal varlık için görünür olacaktır.
 
 ## <a name="set-up-tax-calculation-in-dynamics-365"></a>Dynamics 365'te Vergi Hesaplama'yı ayarlama
 

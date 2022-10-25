@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 073762581d84646ba12b570e57327b7cab8efd3b
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 25ccbda1628544f14dc32d9bea3f2162ad47d79e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428417"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690034"
 ---
 # <a name="the-production-delays-scenario"></a>Üretim gecikmeleri senaryosu
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Üretim iş çıkarma yeteneği belirli bir eşik değerinin altına düşerse *üretim gecikmeleri* senaryosu bir bildirim oluşturur. Bu senaryoda, üretilen her madde için Microsoft Azure IoT Hub'a bir *part-out* sinyali gönderilir. Dynamics 365 Supply Chain Management içinde, sipariş gecikmesi üretim emrinin çalışmak üzere zamanlandığı zaman miktarına, üretilmesi gereken maddelerin sayısına, işin çalıştığı sürenin miktarına ve teslim alınan *part-out* sinyallerin sayısına bağlı olarak hesaplanır. İş için *part-out* sinyallerinin sayısı beklenen eşik değerinin altına düşerse bir gecikme bildirimi oluşturulur.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d6131d205e650c0de88b85434629ed9537c2a0b1
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 4ee87eee382263897d97512f6b01c786734a8f27
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335660"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682547"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasını yükleme ve bağlama
 
@@ -272,6 +272,7 @@ Dosyanız veya QR kodunuz yoksa, Azure AD uygulaması aracılığıyla Supply Ch
 
         > [!IMPORTANT]
         > Bu değeri eğik çizgi (/) ile bitirmeyin.
+        > HTTPS (SSL) sertifikasının geçerli olduğundan emin olun.
 
     - **Active Directory kiracısı**: Supply Chain Management sunucusuyla kullandığınız Azure AD etki alanı adını girin. Bu değer `https://login.windows.net/<your-Azure-AD-domain-name>` formuna sahiptir. İşte bir örnek: `https://login.windows.net/contosooperations.onmicrosoft.com`. Azure AD etki alanı adınızı bulma hakkında daha fazla bilgi için bkz. [Kullanıcının önemli kimliklerini bulma](/partner-center/find-ids-and-domain-names).
 

@@ -2,7 +2,7 @@
 title: Konum yönergeleriyle çalışma
 description: Bu makale, konum yönergeleriyle nasıl çalışılacağını açıklamaktadır. Yerleşim yönergeleri stok hareketi için çekme ve yerine koyma yerleşimlerini belirlemeye yardımcı olan kullanıcı tanımlı kurallardır.
 author: Mirzaab
-ms.date: 11/13/2020
+ms.date: 09/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ef8ec0732cd3bd50bca8d334c43d0354e9e3316
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903709"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689679"
 ---
 # <a name="work-with-location-directives"></a>Konum yönergeleriyle çalışma
 
@@ -47,6 +47,20 @@ Bir yerleşim yönergesi oluşturmadan önce, önkoşulların karşılandığın
 1. Yerleşimler, yerleşim türleri, yerleşim profilleri ve yerleşim biçimleri oluşturun. Daha fazla bilgi için bkz. [WMS özellikli ambarda yerleşimler yapılandırma](./tasks/configure-locations-wms-enabled-warehouse.md).
 1. Tesisler, bölgeler ve bölge grupları oluşturun. Daha fazla bilgi için bkz. [Ambar kurulumu](../../commerce/channels-setup-warehouse.md) ve [WMS özellikli ambarda yerleşimler yapılandırma](./tasks/configure-locations-wms-enabled-warehouse.md).
 
+## <a name="turn-the-location-directive-scopes-feature-on-or-off"></a><a name="scopes-feature"></a>Konum yönergesi kapsamları özelliğini açma veya kapatma
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until 10.0.31 GA -->
+
+*Konum yönergesi kapsamları* özelliği, konum yönergelerini tasarlarken size daha fazla özgürlük sağlar ve gereksiz yapılandırmaları azaltmaya yardımcı olur. Önceki **Çoklu SKU** seçeneğinin yerini alan bir **Kapsamlar** seçeneği ekler. **Çoklu SKU** seçeneği *Evet* veya *Hayır* olarak ayarlanabilirken, **Kapsamlar** seçeneği yalnızca bu iki ayarı (*Tek öğe* ve *Birden fazla öğe* değerleri aracılığıyla) değil, aynı zamanda iki ayar daha (*Tek öğe veya sipariş* ve *Tümü* değerleri yoluyla) sağlar. Bu ayarlar hakkında daha fazla bilgi için bkz. [Konum yönergeleri FastTab](#location-directives-tab).
+
+Etkinleştirildiğinde, **Kapsam** seçeneği **Çoklu SKU** seçeneğinin yerini alır ve mevcut yapılandırmalarla %100 uyumludur.
+
+Bu özelliği kullanmanız için sisteminizde açmanız gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek veya devre dışı bırakmak için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanında bu özellik aşağıdaki şekilde listelenir:
+
+- **Modül:** *Ambar yönetimi*
+- **Özellik adı:** *Yerleşim yönergesi kapsamları*
+
 ## <a name="work-order-types-for-location-directives"></a>Konum yönergeleri için iş emri türleri
 
 Konum yönergeleri için ayarlanabilecek alanların çoğu tüm çalışma emri türleri için ortaktır. Ancak, diğer alanlar belirli iş emri türlerine özgüdür.
@@ -68,10 +82,10 @@ Aşağıdaki tabloda, tüm iş emri türleri için ortak olan alanlar listelenmi
 | Konum yönergeleri | Tesis |
 | Konum yönergeleri | Ambar |
 | Konum yönergeleri | Yönerge kodu |
-| Konum yönergeleri | Birden çok SKU |
-| Hatlar | Numara serisi |
-| Hatlar | Başlangıç miktarı |
-| Hatlar | Son miktar |
+| Konum yönergeleri | Kapsam *veya* Çoklu SKU |
+| Satırlar | Numara serisi |
+| Satırlar | Başlangıç miktarı |
+| Satırlar | Son miktar |
 | Hatlar | Birim |
 | Hatlar | Miktarı bul |
 | Hatlar | Birime göre kısıtla |
@@ -117,7 +131,9 @@ Buradan, Eylem bölmesindeki komutları kullanarak konum yönergelerinizi görü
 
 - **Yukarı taşı**: Seçili konum yönergesini sırada yukarı taşıyın. Örneğin, bunu 4 numaralı sıradan 3 numaralı sıraya taşıyabilirsiniz.
 - **Aşağı taşı**: Seçili konum yönergesini sırada aşağı taşıyın. Örneğin, bunu 4 numaralı sıradan 5 numaralı sıraya taşıyabilirsiniz.
+- **Kopyala** – Geçerli konum yönergesinin tam kopyasını oluşturabileceğiniz bir iletişim kutusu açar.
 - **Sorguyu düzenle**: Seçili konum yönergesinin altında işlenmesi gereken koşulları tanımlayabileceğiniz bir iletişim kutusu açar. Örneğin, bunun yalnızca belirli bir ambara uygulanmasını isteyebilirsiniz.
+- **Kabul testleri** – Konum yönergelerinizin farklı başlangıç koşulları altında nasıl davranacağını belirlemek için otomatik testler ayarlayabileceğiniz bir sayfa açar. Bu şekilde, yönergelerinizi oluştururken ve sürdürürken hızlı bir şekilde kolayca doğrulayabilirsiniz. Daha fazla bilgi için bkz. [Kabul testleri ile konum yönergelerini test etme](location-directive-acceptance-tests.md).
 
 ## <a name="location-directives-header"></a>Konum yönergeleri başlığı
 
@@ -126,7 +142,7 @@ Konum yönergesi başlığı, sıra numarası ve konum yönergesinin tanımlayı
 - **Sıra numarası**: Bu alan, sistemin seçili iş emri türü için her bir konum yönergesini uygulamaya çalıştığı sırayı gösterir. Önce düşük sayılar uygulanır. Sırayı, Eylem bölmesindeki **Yukarı Taşı** ve **Aşağı Taşı** düğmelerini kullanarak değiştirebilirsiniz.
 - **Ad**: Konum yönergesi için açıklayıcı bir ad girin. Bu ad, yönergenin genel amacını tanımlamaya yardımcı olmalıdır. Örneğin, *Ambar 24'teki satış siparişi malzeme çekme* girin.
 
-## <a name="location-directives-fasttab"></a>Konum yönergeleri hızlı sekmesi
+## <a name="location-directives-fasttab"></a><a name="location-directives-tab"></a>Konum yönergeleri hızlı sekmesi
 
 **Konum yönergeleri** hızlı sekmesindeki alanlar, liste bölmesindeki **İş emri türü** alanında seçilen iş emri türüne özgüdür.
 
@@ -145,7 +161,29 @@ Konum yönergesi başlığı, sıra numarası ve konum yönergesinin tanımlayı
     > [!TIP]
     > Yönerge kodu ayarlanırsa, iş oluşturulması gerektiğinde sistem, arama yönergelerini sıra numarasına göre aramaz. Bunun yerine, yönerge koduna göre arama yapılır. Bu şekilde, iş şablonundaki (örneğin malzemelerin hazırlanması gibi) belirli bir adım için hangi konum yönergesinin kullanılabileceği konusunda daha spesifik olabilirsiniz.
 
-- **Birden çok SKU**: Bir konumda birden fazla stok tutma birimini (SKU) etkinleştirmek için bu seçeneği *Evet* olarak ayarlayın. Örneğin, bölme kapısı konumu için birden çok SKU etkinleştirilmiş olmalıdır. Birden çok SKU'yu etkinleştirirseniz yerine koyma konumunuz beklendiği gibi çalışma sırasında belirtilir. Ancak, yerine koyma konumu yalnızca çoklu madde yerine koymayı işleyebilir (iş, çekilmesi ve yerine koyulması gereken farklı SKU'lar içeriyorsa). Tek bir SKU yerine koymayı işleyemez. Bu seçeneği *Hayır* olarak ayarlarsanız, yerine koyma konumunuz, yerine koyma işleminde yalnızca bir çeşit SKU varsa belirtilir.
+- **Kapsam** – Konum yönergesinin uygulanacağı senaryoları belirlemek için bu seçeneği kullanın. Bu seçenek **Çoklu SKU** seçeneğinin yerini alır ve yalnızca sisteminizde *Konum yönergesi kapsamları* özelliğini açar. (Daha fazla bilgi için bkz. [Konum yönergesi kapsamları özelliğini açma veya kapatma](#scopes-feature).)
+
+    | Kapsam ayarı | Bir öğeli tek bir sipariş | Aynı öğeyle birden fazla sipariş | Birden fazla öğeyle tek bir sipariş | Birden fazla öğeyle birden fazla sipariş |
+    |---|---|---|---|---|
+    | Tek madde | Evet | Evet | No. | No. |
+    | Birden çok madde | No. | No. | Evet | Evet |
+    | Tek madde veya sipariş | Evet | Evet | Evet | No. |
+    | Tümü | Evet | Evet | Evet | Evet |
+
+    Aşağıdaki tabloda kapsamların ne zaman kullanılabilir olduğu ve **Sorgu düzenle** işlevine izin verip vermedikleri açıklanır.
+
+    | Kapsam | Destekli iş türü | Destekli iş emri türleri | Sorgu düzenlemeye izin ver |
+    |---|---|---|---|
+    | Tek madde | Tümü | Tümü | Evet |
+    | Birden çok madde | Tümü | Tümü | No. |
+    | Tek madde veya sipariş | Yerleştirmeler | Ortak ürün ve yan ürün yerine koyma, mamul mallar yerine koyma, kanban yerine koyma, satın alma siparişleri, kalite emirleri, stok yenileme, iade siparişleri, satış siparişleri, transfer sorunu ve transfer alış irsaliyesi | Evet |
+    | Tümü | Yerleştirmeler | Tümü | No. |
+
+    > [!NOTE]
+    > - Hem birden fazla öğeyi hem de tek bir öğeyi yerine koyarken, her iki senaryoyu kapsayan konum yönergelerinin mevcut olduğundan emin olmalısınız. Hassas ayarlama gerektiren senaryoları kapsamak için bir veya daha fazla *Tek öğe veya sipariş* konum yönergesi ve ardından kalan senaryoları kapsamak için bir veya daha fazla *Tümü* konum yönergesi ayarlayabilirsiniz.
+    > - *Tek öğe* ve *Birden fazla öğe* kapsamları yerleştirmeler için kullanılabilse de bu yaklaşım genellikle gereksiz yapılandırmalara yol açar. Bunun yerine *Tek öğe veya sipariş* ve *Tümü* kapsamlarını kullanmayı düşünün, çünkü bu yaklaşım daha temiz bir kurulum üretir.
+
+- **Birden fazla SKU** – Konum yönergesinin uygulanacağı senaryoyu belirlemek için bu seçeneği kullanın. Sisteminizde *Konum yönergesi kapsamları* özelliği etkinse bu ayar **Kapsam** ayarı ile değiştirilir. (Daha fazla bilgi için bkz. [Konum yönergesi kapsamları özelliğini açma veya kapatma](#scopes-feature).) Bir konumda birden fazla stok tutma biriminin (SKU'lar) kullanılmasını sağlamak için bu seçeneği *Evet* olarak ayarlayın. Örneğin, bölme kapısı konumu için birden çok SKU etkinleştirilmiş olmalıdır. Birden çok SKU'yu etkinleştirirseniz yerine koyma konumunuz beklendiği gibi çalışma sırasında belirtilir. Ancak, yerine koyma konumu yalnızca çoklu madde yerine koymayı işleyebilir (iş, çekilmesi ve yerine koyulması gereken farklı SKU'lar içeriyorsa). Tek bir SKU yerine koymayı işleyemez. Bu seçeneği *Hayır* olarak ayarlarsanız, yerine koyma konumunuz, yerine koyma işleminde yalnızca bir çeşit SKU varsa belirtilir.
 
     > [!IMPORTANT]
     > Hem çoklu madde, hem de tekli SKU yerine koyma yapabilmek için aynı yapıya ve kuruluma sahip iki satır belirtmeniz gerekir ancak **Birden fazla SKU** seçeneğini bir satır için *Evet* ve diğeri için *Hayır* olarak ayarlamalısınız. Bu nedenle, yerine koyma işlemleri için iki eş konum yönergesine ihtiyacınız vardır, iş kimliğinde tekli SKU veya çoklu SKU arasında ayrım yapmıyorsanız bile. Genellikle, bu konum yönergelerinin her ikisini birden ayarlamadıysanız, uygulanan Konum yönergesinden beklenmeyen iş süreci konumları gelecektir. Çoklu SKU'ları içeren siparişleri işleyebilmeniz gerekiyorsa *malzeme çekme* **İş türü** olan konum yönergeleri için benzer bir kurulum kullanmalısınız.
@@ -255,6 +293,5 @@ Yerleşim yönergeleri oluşturduktan sonra, her yönerge kodunu iş oluşturma 
 
 - Video: [Ambar yönetimi yapılandırmasının ayrıntıları](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Yardım makalesi: [İş şablonları ve konum yönergeleri ile ambar işini denetleme](control-warehouse-location-directives.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

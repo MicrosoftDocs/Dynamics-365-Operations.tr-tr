@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 25306a8ccebb5cd01debc90cf497d4a942840ef4
-ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
+ms.openlocfilehash: 60f9d84b240016671ff726fc3cca2e02cfd811ca
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9671438"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689240"
 ---
 # <a name="proactive-quality-updates"></a>Proaktif kalite güncelleştirmeleri
 
@@ -56,7 +56,9 @@ Proaktif kalite güncelleştirme dağıtımının etkinleştirilmesinin ötesind
 
 - **Şema**: Araç, kalite güncelleştirme derlemelerinin yalnızca hizmet çevrimiçi olduğunda uygulanabilen şema değişikliklerini içermesini sağlayacaktır. Bu yaklaşım, güncelleştirmeyi sıfır kesinti süresiyle uygulama yeteneğini korumanıza yardımcı olur.
 - **Artırılmış değişiklik incelemesi**: Şu anda zaten değişikliklerin kalite güncelleştirmesine eklenmesini onaylamaya yönelik ekstra bir süreç adımı bulunmaktadır. Ekstra adımdaki inceleme gerileme potansiyeli azaltmaya yardımcı olmak amacıyla artırılacaktır. Kalite güncelleştirmelerinde hataya neden olan değişikliklere izin verilmez ve artırılmış değişiklik incelemesi bu hedefe ulaşmaya yardımcı olacaktır.
-- **Görünürlük**: Gelecekteki proaktif kalite güncelleştirmeleri için bildirimleri e-posta ve Lifecycle Services (LCS) aracılığıyla göndereceğiz. Ek olarak, destek takımları ve olay liderleri, kalite güncelleştirmelerinin proaktif olarak dağıtıldığı yerler için görünebilirliğe sahip olacaktır.
+- **Görünürlük**: Gelecekteki proaktif kalite güncelleştirmeleri için bildirimleri yönetim merkezi, Lifecycle Services (LCS) ve diğer mevcut kanallar üzerinden göndereceğiz. Ek olarak, destek takımları ve olay liderleri, kalite güncelleştirmelerinin proaktif olarak dağıtıldığı yerler için görünebilirliğe sahip olacaktır.
+ > [!NOTE]
+ > Microsoft İletişimleri ekibi, e-posta bildirimlerinin teslim edilmesini engelleyen e-posta araçlarının sürekli performans düşüşünü araştırmaktadır. İşe alma ve bildirimle ilgili iletiler için lütfen Microsoft 365 İleti Merkezi'ni izlemeye devam edin.
 - **Dağıtım yoluyla Fail Safe** – Dağıtım, bir kalite güncellemesi hata düzeltmesinde uygun olan yerlerde kod değişikliklerini korumak için kullanılır veya düzeltmeyle ilgili mevcut özellik uçuşunu kullanır. Proaktif bir dağıtımdan sonra bir geri dönüş veya değişikliğin kapatılması gerekiyorsa daha fazla başarısızlık oluşmaması için dağıtma sistemi üzerinden yapılabilir.
 - **Korumalı alan eşitleme tanımı**: Günümüzde müşterilerin yüzde 20'sinden azı birden fazla korumalı alana sahiptir ve sorun gidermeye yardımcı olmak için bir korumalı alanı sürümün eşleştiği üretimde dağıtılmış olarak korurlar. Bir müşteri, üretiminden daha yeni bir sürümü test etmek için korumalı alan kullanıyorsa bu korumalı alan yeni sürüme yönelik kalite güncelleştirmelerini alır.
 
@@ -80,10 +82,10 @@ Her bölgenin aktif olunmayan saatleri hakkında bilgi için bkz. [Bölgeye gör
 
 | İstasyon | Bölgeler | Tamamlanmış Zamanlama| Yaklaşan Korumalı Alan Zamanlaması
 |---|---|---|---|
-| 1. İstasyon | Merkez Kanada, Doğu Kanada, Merkez Fransa, Merkez Hindistan, Doğu Norveç, Batı İsviçre | 15 Eylül ve 18 Eylül 2022 ile 19 Eylül ve 22 Eylül 2022 tarihleri arasında | 7 Ekim ile 10 Ekim 2022 tarihleri arasında |
-| 2. İstasyon | Güney Fransa, Güney Hindistan, Batı Norveç, Kuzey İsviçre, Kuzey Güney Afrika, Doğu Avustralya, Güney Birleşik Krallık, Kuzey BAE, Doğu Japonya, Güneydoğu Avustralya, Güney Doğu Asya | 25 Eylül ile 28 Eylül 2022 tarihleri arasında | 7 Ekim ile 10 Ekim 2022 tarihleri arasında |
-| 3. İstasyon | Doğu Asya, Batı Birleşik Krallık, Batı Japonya, Güney Brezilya, Batı Avrupa, Doğu ABD, Merkez BAE | 26 Eylül ile 29 Eylül 2022 tarihleri arasında | 7 Ekim ile 10 Ekim 2022 tarihleri arasında |
-| 4. İstasyon | Kuzey Avrupa, Orta ABD, Batı ABD | 28 Eylül ile 1 Ekim 2022 tarihleri arasında | 7 Ekim ile 10 Ekim 2022 tarihleri arasında |
+| 1. İstasyon | Merkez Kanada, Doğu Kanada, Merkez Fransa, Merkez Hindistan, Doğu Norveç, Batı İsviçre | 15 Eylül ile 18 Eylül 2022, 19 Eylül ile 22 Eylül 2022 ve 7 Ekim ile 10 Ekim 2022 tarihleri arasında | 25 Ekim ile 28 Ekim 2022 tarihleri arasında |
+| 2. İstasyon | Güney Fransa, Güney Hindistan, Batı Norveç, Kuzey İsviçre, Kuzey Güney Afrika, Doğu Avustralya, Güney Birleşik Krallık, Kuzey BAE, Doğu Japonya, Güneydoğu Avustralya, Güney Doğu Asya | 25 Eylül ile 28 Eylül 2022 ve 7 Eylül ile 10 Eylül 2022 tarihleri arasında | 25 Ekim ile 28 Ekim 2022 tarihleri arasında |
+| 3. İstasyon | Doğu Asya, Batı Birleşik Krallık, Batı Japonya, Güney Brezilya, Batı Avrupa, Doğu ABD, Merkez BAE | 26 Eylül ile 29 Eylül 2022 ve 7 Eylül ile 10 Eylül 2022 tarihleri arasında | 25 Ekim ile 28 Ekim 2022 tarihleri arasında |
+| 4. İstasyon | Kuzey Avrupa, Orta ABD, Batı ABD | 28 Eylül ile 1 Ekim 2022 ve 7 Eylül ile 10 Eylül 2022 tarihleri arasında | 25 Ekim ile 28 Ekim 2022 tarihleri arasında |
 | 5. İstasyon | DoD, Hükümet Topluluk Bulutu, Çin | Planlanmadı | Planlanmadı |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a>Proaktif kalite güncelleştirmesi sürümü: 10.0.29

@@ -2,19 +2,19 @@
 title: Zaman uyumsuz müşteri oluşturma modu hakkında SSS
 description: Bu makalede, Microsoft Dynamics 365 Commerce'te zaman uyumsuz müşteri oluşturma modu hakkında sık sorulan soruların yanıtları verilmektedir.
 author: gvrmohanreddy
-ms.date: 08/04/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: bd5741aeb3278f1d40d63bb02ca57571a907dc21
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 64c895fb9f3e55f7680759fa72626be6660aa67c
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9474082"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690215"
 ---
 # <a name="asynchronous-customer-creation-mode-faq"></a>Zaman uyumsuz müşteri oluşturma modu hakkında SSS
 
@@ -44,5 +44,10 @@ Commerce Scale Unit (CSU) içinde önbelleğe alınan veriler, CDX işleri çal�
 
 Aşağıdaki eylemlerin burada listelendikleri sırayla yapıldığından emin olun.
 
-1. **RETAILASYNCCUSTOMERV2**, **RETAILASYNCADDRESSV2**, **RETAILASYNCCUSTOMERCONTACT**, **RETAILASYNCCUSTOMERAFFILIATION** ve **RETAILASYNCCUSTOMERATTRIBUTEV2** tablolarında depolanan zaman uyumsuz müşteri verilerinin Commerce headquarters'da bulunduğundan emin olmak için Commerce headquarters'da CDX P-job öğesini çalıştırın.
+1. Zaman uyumsuz müşteri verilerinin **RETAILASYNCCUSTOMERV2**, **RETAILASYNCADDRESSV2**, **RETAILASYNCCUSTOMERCONTACT**, **RETAILASYNCCUSTOMERAFFILIATION** ve **RETAILASYNCCUSTOMERATTRIBUTEV2** tablolarında depolandığından emin olmak için Commerce Headquarters'da CDX P-job öğesini çalıştırın.
 1. Commerce Headquarters'da **Müşterileri ve kanal isteklerini eşitle** toplu işini çalıştırın. Toplu işin başarılı bir şekilde yürütülmesi tamamlandıktan sonra, önceden sözü edilen tablolardan başarıyla işlenmiş olan tüm kayıtlarda **OnlineOperationCompleted** alanı **1** olarak ayarlanır.
+
+### <a name="how-do-i-know-which-customer-management-in-asynchronous-mode-operation-has-failed-and-how-do-i-make-changes-if-they-are-required"></a>Zaman uyumsuz mod işleminde hangi müşteri yönetimi yönetiminin başarısız olduğunu nasıl anlarım ve gerekirse nasıl değişiklik yapabilirim?
+
+Tüm zaman uyumsuz mod işlemlerini ve eşitlenme durumlarını görüntülemek için Commerce Headquarters'da **Ticaret ve Satış \> Müşteriler \> Müşteri eşitleme durumu** bölümüne gidin. Değişiklik yapmak için belirli bir işlemi düzenleyin, alanları güncelleştirin, **Kaydet**'i seçin ve ardından değişiklikleri eşitlemek için **Eşitle** seçeneğini belirleyin.
+

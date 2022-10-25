@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643753"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690007"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planlamayı En İyi Duruma Getirme uygunluk analizi
 
@@ -62,7 +62,7 @@ Aşağıdaki tabloda, bir uygunluk analizinin ardından gösterilebilecek çeşi
 | --- | --- | --- | --- |
 | Eylemler | Eylemler hesaplaması etkin olan karşılama grupları: *\#* | Bu özellik şimdi desteklenmektedir. | Destekleniyor |
 | Temel takvimler | Temel takvimi kullanan takvimler: *\#* | Bu özellik şimdi desteklenmektedir. | Destekleniyor | 
-| Toplu iş değerlendirme kodları | Netleştirilemeyen toplu iş değerlendirme ana verileri: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, toplu iş değerlendirme kodları yok sayılır. | 2022 sürüm 2 <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
+| Toplu iş değerlendirme kodları | Netleştirilemeyen toplu iş değerlendirme ana verileri: *\#* | Bu özellik şimdi desteklenmektedir. Ek bilgi için bkz. [Kullanılabilir veya kullanılamayan olarak toplu işleri işaretlemek için toplu iş değerlendirme kodlarını kullanma](../../inventory/batch-disposition-codes.md) | Destekleniyor |
 | Teslim edilebilir miktar (CTP) | Teslimat tarihi denetimi teslim edilebilir miktar olarak ayarlanmış varsayılan sipariş ayarları: *\#* | Supply Chain Management 10.0.28 ve daha yeni sürümlerde, *Planlama İyileştirmesi için CTP* olarak adlandırılan bir işlemle dinamik plan çalıştırıldıktan sonra onaylanmış sevkiyat ve giriş tarihleri kullanılabilir hale gelir. Supply Chain Management'ın eski sürümleri için, Planlama İyileştirmesi etkinleştirildiğinde eski CTP ayarı yok sayılır. | Destekleniyor |
 | Dinamik plana statik kopyalama | Dinamik plana statik kopyalama master planlama parametrelerinde etkinleştirildi. | Planlamayı En İyi Duruma Getirme statik planı bu ayardan bağımsız olarak dinamik plana kopyalamaz. Genel olarak, bu kavram, Planlamayı En İyi Duruma Getirme sağlayan hız ve tamamlama nedeniyle daha az ilgilidir. İki veya daha fazla plan kullanılıyorsa, master planlama her plan için tetiklenmelidir. | Yok |
 | Kesinleştirme | Otomatik kesinleştirme zaman dilimi ayarlanmış karşılama grupları: *\#* | Sürüm 10.0.7 ve sonrasında, kesinleştirme ( *Planlamayı En İyi Duruma Getirme için Otomatik kesinleştirme* özelliğinin [Özellik yönetiminde](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) etkinleştirilmiş olması koşuluyla) ayrı bir kesinleştirme toplu işi olarak desteklenir. Planlamayı En İyi Duruma Getirme için otomatik kesinleştirmenin gereksinim tarihini (bitiş tarihi) değil, sipariş tarihini temel aldığını unutmayın. Bu davranış, planlanan siparişlerin, sağlama süresini kesinleştirme zaman dilimine dahil etmek zorunda kalmadan, vade tarihinde kesinleştirilmesini sağlar. | Destekleniyor |
@@ -104,7 +104,7 @@ Aşağıdaki tabloda, bir uygunluk analizinin ardından gösterilebilecek çeşi
 | Emniyet marjları | Güvenlik marjına sahip master planlar: *\#* | Bu özellik şimdi desteklenmektedir. Ek bilgi için bkz. [Güvenlik marjları](safety-margins.md) |  Destekleniyor |
 | Emniyet stoğu karşılama | "Minimum karşılama" değeri "Bugünün tarihi + tedarik süresi"den farklı olan madde karşılama kayıtları: *\#* | Planlamayı En İyi Duruma Getirme daima *Bugünün tarihi + tedarik süresi*'ni kullanır. Bu değişiklik, ileride basitleştirilmiş bir planlama kurulumuna hazırlanmak ve eyleme geçirilebilir bir sonuç sağlamak için yapılmıştır. Emniyet stoğu için tedarik zamanı dahil edilmezse, geçerli düşük eldeki stok için oluşturulan planlı siparişler, sağlama süresi nedeniyle her zaman gecikecektir. Bu davranış belirgin gürültüye ve istenmeyen planlı siparişlere neden olabilir. En iyi yöntem, *Bugünün tarihi + tedarik süresi* kullanılacak şekilde ayarı değiştirmektir. Uyarılardan kaçınmak için ana verileri güncelleştirin. | - |
 | Satış teklifleri | Satış teklifleri etkin olan master planlar: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, teklifler dikkate alınmaz. Bu ayar ne olursa olsun yok sayılır. | 2022 sürüm 2 veya sonrası |
-| Raf ömrü | Raf ömrünün etkin olduğu master planlar: *\#* | Bu özellik şimdi desteklenmektedir. | Destekleniyor |
+| Raf ömrü | Raf ömrünün etkin olduğu master planlar: *\#* | Bu özellik beklemededir. | 2022 sürüm 2 |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

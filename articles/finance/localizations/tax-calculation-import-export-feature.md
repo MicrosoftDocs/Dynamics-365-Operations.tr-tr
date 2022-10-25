@@ -2,7 +2,7 @@
 title: Vergi hesaplamalarını içeri ve dışarı aktarma
 description: Bu makale, vergi hesaplama hizmetinin içeri aktarma ve dışarı aktarma işlevi hakkında bilgi sağlar.
 author: Kai-Cloud
-ms.date: 11/22/2021
+ms.date: 10/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-11-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 9daee683763d7cb0eb9573497eb4e20cba9b1863
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8666d4971e36279ebd2b1396de7cab37680980e6
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855187"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690246"
 ---
 # <a name="import-and-export-tax-calculations"></a>Vergi hesaplamalarını içeri ve dışarı aktarma
 
@@ -98,3 +98,21 @@ Ayrıca, üç CSV dosyasını da içeren zip dosyasını doğrudan içeri aktara
 2. RCS'de, **Vergi hesaplama** özelliği sayfasında, **Vergi grubu uygulanabilirliği** sekmesinde, **Vergi grubu uygulanabilirliğini ayarla** kılavuzunun altına boş bir kayıt eklemek için **Ekle**'yi seçin.
 3. Kopyalanan satırları kılavuza yapıştırmak için **Ctrl+V** tuşlarını seçin.
 4. **Kaydet**'i seçin.
+
+## <a name="import-feature-demo-data"></a>Özellik tanıtım verilerini içe aktarma
+
+Özellik tanıtım verilerini içe aktarmak için aşağıdaki adımları izleyin.
+
+1. [RCS](https://marketing.configure.global.dynamics.com/)'de oturum açın
+2. **Globalleştirme özellikleri** çalışma alanında **Özellikler**'i seçin ve sonra **Vergi hesaplama** kutucuğunu seçin.
+3. **İçe aktar**'ı seçin ve ardından **Özelliği Genel depodan içe aktar** sayfasında **Eşitle** seçeneğini belirleyin. 
+4. Tabloda **tax-calculation-feature-demo-data** özelliğini seçin ve ardından **İçe aktar** seçeneğini belirleyin.
+5. İçe aktarılan özellikte tanımlanan vergi kodlarını, gruplarını ve uygulanabilirlik kurallarını gözden geçirmek için **Görüntüle**'yi seçin.
+6. Finance'te **DEMF** tüzel kişiliğine geçin ve ardından **Vergi** \> **Kurulum** \> **Vergi konfigürasyonu** \> **Vergi hesaplama parametreleri** bölümüne gidin.
+7. **Genel** sekmesinde **Vergi Hesaplama Hizmetini Etkinleştir**'i seçin.
+8. **Özellik kurulumu adı** alanında **tax-calculation-feature-demo-data** seçeneğini belirleyin.
+9. Yeni tanıtım vergi kodları için **Kapatma dönemi** ve **Genel muhasebe deftere nakil grubu** seçin ve ardından **Onayla** seçeneğini belirleyin.
+10. **Kaydet**'i seçin.
+
+> [!NOTE]
+> **tax-calculation-feature-demo-data** tanıtım özelliği, özellik sürümü **40.54.234**'ü temel alır ve **DEMF** tanıtım tüzel kişiliği için tasarlanmıştır. Finance ve RCS'nin sürüm 10.0.26 veya üstüne yükseltildiğinden emin olun.

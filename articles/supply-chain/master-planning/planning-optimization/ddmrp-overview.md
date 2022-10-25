@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: d894b83afe822e013c0c4375e5cfe5e7e8ac8d1d
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186761"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689501"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Talep Temelli Malzeme Gereksinimleri Planlaması (DDMRP) genel bakışı
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Şirketler yıllardır bir ürünü üretmek üzere gerekli malzemeleri ve bileşenleri hesaplamak için bir sistem olarak Malzeme Gereksinimleri Planlaması (MRP) kullanmışlardır. Ancak artık tedarik zincirleri değişti. Parçalar, giderek daha fazla yurt dışından tedarik edildiğinden daha uzun sağlama süreleri vardır. Bu nedenle, birçok şirket ne kadar envanter stoklayacaklarını bilmediklerinden stok eksiği veya stok fazlası yaşadığını bildirmiştir. Ayrıca daha fazla piyasa dalgalanması (bazen yanlış tahminler) vardır ve müşteriler kısa sağlama süresinde ürünler talep etmektedir. Bu nedenle, tüm dünyada tedarik zinciri eksiklikleri yaşanmaktadır. Ayrıca, MRP araçları planlamacılara sıklıkla yapacakları binlerce eylem sunar. Bu nedenle, neye odaklanılacağını bilmek zor. Genellikle, bu sorunların çoğuna yönelik çözüm, Talep Temelli Malzeme Gereksinimleri Planlamasına (DDMRP) geçmektir.
 

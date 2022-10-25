@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: fcd16d09b4293046c457b602857ef8950e8259c6
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 2d103406118be4385177b678de424df12af69c2e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9644070"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689413"
 ---
 # <a name="the-asset-maintenance-scenario"></a>Varlık bakım senaryosu
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 *Varlık bakım* senaryosu, sayaç kayıtları oluşturmak için sensör verilerini kullanmanıza olanak tanır. Sayaç kayıtları bir makine varlığının kullanımını izler ve makine varlıklarının bakım zamanlamasını oluşturmak için girdi olarak kullanılır.
 
@@ -115,6 +116,9 @@ Veriler hazırlandıktan ve *varlık bakım* senaryosu yapılandırılıp etkinl
 1. **Varlık yönetimi \> Varlıklar \> Etkin varlıklar**'a gidin.
 1. İncelemek istediğiniz varlığı bulup seçin. (Bu makalenin önceki bölümlerinde oluşturduğunuz demo verilerini kullanıyorsanız *AK-101*'i seçin.)
 1. Eylem Bölmesinde, **Varlık** sekmesinde, **Önleyici** grubunda, *AK-101* varlığının sayaç kayıtları sayfasını açmak için **Sayaçlar**'ı seçin.
+
+> [!NOTE]
+> Sayaç kayıtları varsayılan olarak her üç saatte bir eklenecek şekilde yapılandırılır ve bu, sensör verilerinin bu aralıkta toplanacağı anlamına gelir. Azure Stream Analytics bileşenindeki sorguyu düzenleyerek aralığı değiştirebilirsiniz.
 
 ### <a name="generate-maintenance-work-orders"></a>Bakım iş emirleri oluşturma
 

@@ -2,19 +2,19 @@
 title: Customer Service için Çok Yönlü Kanal modülüyle Commerce Sohbeti
 description: Bu makalede, Microsoft Dynamics 365 Commerce'de Customer Service için Çok Yönlü Kanalla Commerce Sohbeti modülü açıklanmaktadır.
 author: gvrmohanreddy
-ms.date: 08/23/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-07-20
-ms.openlocfilehash: b8eaed3eb015e96b1db6fa2297c341ea9d3ff8ad
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 99e8b9d66a04390ab70fd1deff9f95fe28bdfae3
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473822"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690329"
 ---
 # <a name="commerce-chat-with-omnichannel-for-customer-service-module"></a>Customer Service için Çok Yönlü Kanal modülüyle Commerce Sohbeti
 
@@ -82,6 +82,9 @@ Sohbet modülünü Commerce site oluşturucuda sitenizin başlık parçasına ek
 1. **Modülleri seç** iletişim kutusunda daha önce oluşturduğunuz sohbet parçasını ve sonra **Tamam**'ı seçin.
 1. **Kaydet**'i seçin, parçayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 
+> [!NOTE]
+> Yapılandırma parametrelerinin tam listesi için bkz. [Commerce sohbet modülü proaktif sohbet parametreleri](chat-proactive-chat-parameters.md).
+
 ## <a name="add-commerce-headquarters-as-an-application-tab-for-omnichannel-for-customer-service"></a>Customer Service için Çok Yönlü Kanal için Commerce headquarters'ı uygulama sekmesi olarak ekleme
 
 Customer Service için Çok Yönlü Kanal'da Commerce headquarters için bir uygulama sekmesi ekleyebilirsiniz. Canlı temsilciler, müşteri ve satış siparişi bilgilerine ilişkin bağlamsam bilgiler içeren Dynamics 365 Commerce Customer Service modülüne kolayca erişmek amacıyla Customer Service için Çok Yönlü Kanal temsilci deneyimi kullanıcı arabirimini kullanabilirler. Ayrıca, müşteri hizmetleri temsilcileri yeni siparişler oluşturabilir, iade başlatabilir ve sipariş durumu bilgilerini doğrulayabilir.
@@ -115,6 +118,9 @@ Dynamics 365 Customer Service için Çok Yönlü Kanal'da müşteri temsilcileri
 1. Temsilcileriniz için oluşturduğunuz iş akışını açın ve sonra **Gelişmiş ayarlar** altında **Oturumlar varsayılanı**'nı seçin.
 1. **Uygulama Sekmeleri** altında **Mevcut Uygulama Sekmesi Ekle**'yi seçin ve daha önce oluşturduğunuz yeni uygulama sekmesini ekleyin. Bu adım, iFrame modülüne Commerce headquarters yükleyen bir uygulama sekmesinin bir temsilci e-ticaret web sitenizden gelen arama aldığında görüntülenmesini sağlar.
 
+> [!NOTE]
+> İş akışındaki varsayılan sohbet oturumu şablonunu değiştiremezsiniz. Bu nedenle güncelleştirmek için yeni bir şablon oluşturmak veya mevcut şablonu çoğaltmak isteyebilirsiniz. Daha fazla bilgi için bkz. [Şablonları iş akışıyla ilişkilendirme](/dynamics365/app-profile-manager/associate-templates).
+
 ## <a name="add-context-variables-in-dynamics-365-omnichannel-for-customer-service"></a>Dynamics 365 Customer Service için Çok Yönlü Kanal'da bağlam değişkenleri ekleme
 
 Dynamics 365 Customer Service için Çok Yönlü Kanal'da bağlam değişkenleri eklemek için şu adımları izleyin.
@@ -128,3 +134,11 @@ Dynamics 365 Customer Service için Çok Yönlü Kanal'da bağlam değişkenleri
 
 > [!NOTE]
 > E-ticaret kanalından oturum açmış kullanıcıların e-posta adreslerini ve adlarını okumak isterseniz, **AccountNumber** bağlam değişkenine ek olarak **metin** türünün bağlan değişkenleri olarak **E-posta** ve **Ad** ekleyebilirsiniz.
+
+## <a name="additional-resources"></a>Ek kaynaklar
+
+[Commerce sohbeti özelliklerine genel bakış](commerce-chat-overview.md)
+
+[Power Virtual Agents modülü ile Commerce Sohbeti](chat-module-pva.md)
+
+[Commerce sohbet modülü proaktif sohbet parametreleri](chat-proactive-chat-parameters.md)

@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 477b27bf77d2a3ef91a5c2d39f2dfb06d8ad4e59
-ms.sourcegitcommit: 562ea02e1f7409f18ee1cc4750a838bff4381e91
+ms.openlocfilehash: 18fec49f2388159cae0809c63685102a04e90c57
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429136"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689205"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10030-november-2022"></a>Dynamics 365 Supply Chain Management 10.0.30 önizlemesi (Kasım 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Dynamics 365 Supply Chain Management 10.0.30'taki yenilikler veya değişiklikler (Kasım 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Bu makalede, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10.0.30'daki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.1362 derleme numarasına sahiptir ve aşağıdaki planlamaya göre kullanıma sunulmuştur:
+Bu makalede, Microsoft Dynamics 365 Supply Chain Management sürümü 10.0.30'teki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.1362 derleme numarasına sahiptir ve aşağıdaki planlamaya göre kullanıma sunulmuştur:
 
 - **Sürümün önizlemesi:** Eylül 2022
 - **Sürüm genel kullanılabilirliği (kendi kendini güncelleştirme):** Ekim 2022
@@ -35,7 +34,7 @@ Aşağıdaki tabloda, bu sürüme dahil edilen özellikler listelenmektedir. Bu 
 | Özellik alanı | Özellik | Daha fazla bilgi | Etkinleştiren |
 |---|---|---|---|
 | İmalat | [Sensör Veri Yönetim Bilgileri ile ekipmanları izleme](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [Sensör Veri Yönetim Bilgileri giriş sayfası](../sensor-data-intelligence/sdi-home-page.md) | Özellik yönetimi:<br>*(Önizleme) Algılayıcı Veri Zekası* |
-| Ambar yönetimi | Warehouse Management mobil uygulaması için çok düzeyli sapmalar <!-- KFM: Add link when RP updates --> | [Mobil cihaz menü öğelerindeki adımlar için sapmaları yapılandırma](../warehousing/warehouse-app-detours.md) | Özellik yönetimi:<br>*Warehouse Management mobil uygulaması için çok düzeyli sapmalar* |
+| Ambar yönetimi | [Warehouse Management mobil uygulaması için çok düzeyli sapmalar](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [Mobil cihaz menü öğelerindeki adımlar için sapmaları yapılandırma](../warehousing/warehouse-app-detours.md) | Özellik yönetimi:<br>*Warehouse Management mobil uygulaması için çok düzeyli sapmalar* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Bu sürümdeki özellik iyileştirmeleri
 
@@ -52,7 +51,7 @@ Bu özelliklerden herhangi birini açmak veya kapatmak istiyorsanız bunu [özel
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finans ve Operasyon uygulamaları için Platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.30 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance ve Operations uygulamalarının 10.0.30 sürümü için platform güncelleştirmeleri (Kasım 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md). <!--KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.30 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance ve Operations uygulamalarının 10.0.30 sürümü için platform güncelleştirmeleri (Kasım 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 

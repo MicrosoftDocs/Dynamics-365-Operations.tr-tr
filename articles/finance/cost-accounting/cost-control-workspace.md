@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f53d5d4daea076cc63308a83292f8f8c1ee1d022
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d5ded4b08d562fff9ec5fd9a3de591f944e3ee0
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853510"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682911"
 ---
 # <a name="cost-control-workspace"></a>Maliyet kontrolü çalışma alanı 
 
@@ -53,7 +53,7 @@ Bir maliyet denetimi çalışma alanı yapılandırmak için **Maliyet muhasebes
 |-------------------------------------------------------------------|-------------|
 | Maliyet muhasebesi defteri                                            | Raporun üzerine dayandığı **Maliyet muhasebesi genel muhasebesi**. Değer **Maliyet kontrol birimi** alanında türetilmiştir. |
 | Maliyet kontrolü birimi                                                 | Seçtiğiniz değer, bu raporun üzerine dayanacağı maliyet muhasebesi genel muhasebesini ve maliyet nesnelerini belirler. |
-| İstatistiksel boyut hiyerarşisi, Maliyet nesnesi boyut hiyerarşisi | Bir **Maliyet denetimi** çalışma alanı yapılandırması kaydı, bir parasal olmayan veya parasal olan değerleri raporlayabilir ancak aynı biçimde değil. **Maliyet öğesi boyut hiyerarşisi** alanı içinde parasal değerleri raporlamak için bir değer seçin. **İstatistiksel boyut hiyerarşisi** alanı içinde parasal olmayan değerleri raporlamak için bir değer seçin. Seçtiğiniz boyut hiyerarşisi kaydı, raporlama ve toplama düzeylerinin yapısını belirler.<blockquote>[!NOTE]<br>Parasal olmayan ve parasal değerleri yan yana görmek için, veriyi Microsoft Power BI içerik paketi için Microsoft Excel'e aktarabilirsiniz.</blockquote> |
+| İstatistiksel boyut hiyerarşisi, Maliyet nesnesi boyut hiyerarşisi | Bir **Maliyet denetimi** çalışma alanı yapılandırması kaydı, bir parasal olmayan veya parasal olan değerleri raporlayabilir ancak aynı biçimde değil. **Maliyet öğesi boyut hiyerarşisi** alanı içinde parasal değerleri raporlamak için bir değer seçin. **İstatistiksel boyut hiyerarşisi** alanı içinde parasal olmayan değerleri raporlamak için bir değer seçin. Seçtiğiniz boyut hiyerarşisi kaydı, raporlama ve toplama düzeylerinin yapısını belirler.<blockquote>**NOT:**<br>Parasal olmayan ve parasal değerleri yan yana görmek için, veriyi Microsoft Power BI içerik paketi için Microsoft Excel'e aktarabilirsiniz.</blockquote> |
 | Maliyet nesnesi boyut hiyerarşisi      | Tanımladığınız raporlama amacına uygun maliyet nesnesi boyutunun boyut hiyerarşisini seçin. |
 | Orijinal bütçe sürümü                                           | Bu raporun bağlamında orijinal bütçe olarak beliren bütçe sürüm kimliğini seçin. |
 | Düzeltilmiş bütçe sürümü                                            | Bu raporun bağlamında revize edilen bütçe olarak beliren bütçe sürüm kimliğini seçin. |
@@ -64,7 +64,7 @@ Genel gider hesaplama, kaynak veri üzerinde çeşitli hesaplama adımlarını g
 
 | Alan                  | Açıklama |
 |------------------------|-------------|
-| Mali takvim dönemi | Bir genel gider hesaplama kimliğinin atanacağı mali takvim dönemini seçin.<blockquote>[!NOTE]<br>Alanda listelenen mali dönemler, maliyet muhasebesi genel muhasebesi ile ilişkilendirilmiş olan mali takvimden gelir.</blockquote> |
+| Mali takvim dönemi | Bir genel gider hesaplama kimliğinin atanacağı mali takvim dönemini seçin.<blockquote>**NOT:**<br>Alanda listelenen mali dönemler, maliyet muhasebesi genel muhasebesi ile ilişkilendirilmiş olan mali takvimden gelir.</blockquote> |
 | Gerçek sürüm         | Uygun genel gider hesaplama kimliğini seçin. |
 | Bütçe sürümü         | Uygun genel gider hesaplama kimliğini seçin. |
 | Düzeltilmiş bütçe sürümü | Uygun genel gider hesaplama kimliğini seçin. |
@@ -77,10 +77,10 @@ Sütunlarda seçilen değerler **Mali dönem başına sütun** hızlı sekmesi �
 
 | Alan                | Açıklama |
 |----------------------|-------------|
-| Geçerli dönem       | Geçerli mali dönemin bakiyesi gösterilir.<blockquote>[!NOTE]<br>Varsayılan olarak geçerli dönem, dönem tarihi tarafından belirlenir. **Maliyet denetimi** çalışma alanında, belirli bir mali dönem seçilebilir. Seçilen değer daha sonra geçerli dönemi temsil eder.</blockquote> |
-| Önceki dönem      | Önceki mali dönemin bakiyesi gösterilir. Aşağıdaki formül kullanılır:<br>Geçerli mali dönem – 1<blockquote>[!NOTE]<br>Varsayılan olarak önceki dönem, oturum tarihinden türetilir. **Maliyet denetimi** çalışma alanında, belirli bir mali dönem geçerli dönem olarak seçilebilir. **Önceki dönem** daha sonra uygun şekilde yeniden hesaplanır.</blockquote> |
-| Bir yıllık         | Yılbaşından bugüne tarihi gösterilir. Aşağıdaki formül kullanılır:<br>YearToDate (Geçerli mali dönem)<blockquote>[!NOTE]<br>Varsayılan olarak geçerli dönem, dönem tarihi tarafından belirlenir. **Maliyet denetimi** çalışma alanında, belirli bir mali dönem seçilebilir. Seçilen değer geçerli dönemi temsil eder ve **Yılbaşından bugüne** değeri uygun şekilde güncelleştirilir.</blockquote> |
-| Sene başından bugüne ortalaması | Ortalama yılbaşından bugüne tarihi gösterilir. Aşağıdaki formül kullanılır:<br>(YearToDate [Geçerli mali dönem]) ÷ (Sayı [Geçerli mali dönem]);<p><strong>Örnek</strong></p><ul><li>**İstatistiksel boyut üyesi:** Tam zamanlı çalışanlar</li><li>**Geçerli tarih** 21-03-2017</li><li>**Dönem:** Mali dönem 1, Mali dönem 2, Mali dönem 3</li><li>**Büyüklük** 10, 10, 12</li></ul>Bu durumda **Yılbaşından bugüne ortalama** = (10 + 10 + 12) ÷ 3 = 10,67<p>**Ortalama yılbaşından bu güne** değeri maliyet nesneleri boyut üyeleri ve istatistiksel boyut üyeleri için hesaplanabilir.</p><blockquote>[!NOTE]<br>Varsayılan olarak geçerli dönem, dönem tarihi tarafından belirlenir. **Maliyet denetimi** çalışma alanında, belirli bir mali dönem seçilebilir. Seçilen değre daha sonra geçerli dönemi temsil eder ve **Yılbaşından bugüne** ve **Yılbaşından bugüne ortalama** değerleri buna uygun olarak güncelleştirilir.</blockquote> |
+| Geçerli dönem       | Geçerli mali dönemin bakiyesi gösterilir.<blockquote>**NOT:**<br>Varsayılan olarak geçerli dönem, dönem tarihi tarafından belirlenir. **Maliyet denetimi** çalışma alanında, belirli bir mali dönem seçilebilir. Seçilen değer daha sonra geçerli dönemi temsil eder.</blockquote> |
+| Önceki dönem      | Önceki mali dönemin bakiyesi gösterilir. Aşağıdaki formül kullanılır:<br>Geçerli mali dönem – 1<blockquote>**NOT:**<br>Varsayılan olarak önceki dönem, oturum tarihinden türetilir. **Maliyet denetimi** çalışma alanında, belirli bir mali dönem geçerli dönem olarak seçilebilir. **Önceki dönem** daha sonra uygun şekilde yeniden hesaplanır.</blockquote> |
+| Bir yıllık         | Yılbaşından bugüne tarihi gösterilir. Aşağıdaki formül kullanılır:<br>YearToDate (Geçerli mali dönem)<blockquote>**NOT:**<br>Varsayılan olarak geçerli dönem, dönem tarihi tarafından belirlenir. **Maliyet denetimi** çalışma alanında, belirli bir mali dönem seçilebilir. Seçilen değer geçerli dönemi temsil eder ve **Yılbaşından bugüne** değeri uygun şekilde güncelleştirilir.</blockquote> |
+| Sene başından bugüne ortalaması | Ortalama yılbaşından bugüne tarihi gösterilir. Aşağıdaki formül kullanılır:<br>(YearToDate [Geçerli mali dönem]) ÷ (Sayı [Geçerli mali dönem]);<p><strong>Örnek</strong></p><ul><li>**İstatistiksel boyut üyesi:** Tam zamanlı çalışanlar</li><li>**Geçerli tarih** 21-03-2017</li><li>**Dönem:** Mali dönem 1, Mali dönem 2, Mali dönem 3</li><li>**Büyüklük** 10, 10, 12</li></ul>Bu durumda **Yılbaşından bugüne ortalama** = (10 + 10 + 12) ÷ 3 = 10,67<p>**Ortalama yılbaşından bu güne** değeri maliyet nesneleri boyut üyeleri ve istatistiksel boyut üyeleri için hesaplanabilir.</p><blockquote>**NOT:**<br>Varsayılan olarak geçerli dönem, dönem tarihi tarafından belirlenir. **Maliyet denetimi** çalışma alanında, belirli bir mali dönem seçilebilir. Seçilen değre daha sonra geçerli dönemi temsil eder ve **Yılbaşından bugüne** ve **Yılbaşından bugüne ortalama** değerleri buna uygun olarak güncelleştirilir.</blockquote> |
 
 ### <a name="columns-to-display-for-costs"></a>Maliyetler için görüntülenecek sütunlar
 
@@ -88,11 +88,11 @@ Sütunlarda seçilen değerler **Mali dönem başına sütun** hızlı sekmesi �
 
 | Alan                 | Açıklama |
 |-----------------------|-------------|
-| Sabit maliyet            | Bu sütun türü, sabit maliyeti seçilen genel gider hesaplama kimliğine dayalı olarak gösterir.<blockquote>[!NOTE]<br>Bu sütun türü, yalnızca bir genel gider hesaplama kimliği mali dönem için seçilirse bakiyeyi gösterir.</blockquote> |
-| Değişken maliyet         | Bu sütun türü, değişken maliyeti seçilen genel gider hesaplama kimliğine dayalı olarak gösterir.<blockquote>[!NOTE]<br>Bu sütun türü, yalnızca bir genel gider hesaplama kimliği mali dönem için seçilirse bakiyeyi gösterir.</blockquote> |
-| Sabit + değişken maliyet | Bu sütun türü, değişken ve sabit maliyeti seçilen genel gider hesaplama kimliğine dayalı olarak gösterir.<blockquote>[!NOTE]<br>Bu sütun türü, yalnızca bir genel gider hesaplama kimliği mali dönem için seçilirse bakiyeyi gösterir.</blockquote> |
-| Toplam maliyet            | Bu sütun türü, toplam maliyeti gösterir (sınıflandırılmamış maliyet, sabit maliyet ve değişken maliyet).<blockquote>[!NOTE]<br>Sütun türü bakiyeyi her zaman gösterir.</blockquote> |
-| Sınıflandırılmamış maliyet     | Bu sütun türü, sınıflandırılmamış maliyeti gösterir.<blockquote>[!NOTE]<br>Bu sütun, tüm maliyetlerin genel gider hesaplaması tarafından doğru şekilde sınıflandırıldığını doğrulamak için kullanılabilir veya aksi takdirde maliyet davranış kurallarının yeniden ayarlanması gerekir.</blockquote> |
+| Sabit maliyet            | Bu sütun türü, sabit maliyeti seçilen genel gider hesaplama kimliğine dayalı olarak gösterir.<blockquote>**NOT:**<br>Bu sütun türü, yalnızca bir genel gider hesaplama kimliği mali dönem için seçilirse bakiyeyi gösterir.</blockquote> |
+| Değişken maliyet         | Bu sütun türü, değişken maliyeti seçilen genel gider hesaplama kimliğine dayalı olarak gösterir.<blockquote>**NOT:**<br>Bu sütun türü, yalnızca bir genel gider hesaplama kimliği mali dönem için seçilirse bakiyeyi gösterir.</blockquote> |
+| Sabit + değişken maliyet | Bu sütun türü, değişken ve sabit maliyeti seçilen genel gider hesaplama kimliğine dayalı olarak gösterir.<blockquote>**NOT:**<br>Bu sütun türü, yalnızca bir genel gider hesaplama kimliği mali dönem için seçilirse bakiyeyi gösterir.</blockquote> |
+| Toplam maliyet            | Bu sütun türü, toplam maliyeti gösterir (sınıflandırılmamış maliyet, sabit maliyet ve değişken maliyet).<blockquote>**NOT:**<br>Sütun türü bakiyeyi her zaman gösterir.</blockquote> |
+| Sınıflandırılmamış maliyet     | Bu sütun türü, sınıflandırılmamış maliyeti gösterir.<blockquote>**NOT:**<br>Bu sütun, tüm maliyetlerin genel gider hesaplaması tarafından doğru şekilde sınıflandırıldığını doğrulamak için kullanılabilir veya aksi takdirde maliyet davranış kurallarının yeniden ayarlanması gerekir.</blockquote> |
 
 ### <a name="columns-to-display-for-budgeted-costs"></a>Bütçelenen maliyetler için görüntülenecek sütunlar
 
@@ -103,12 +103,12 @@ Sütunlarda seçilen değerler **Mali dönem başına sütun** hızlı sekmesi �
 
 | Alan                     | Açıklama |
 |---------------------------|-------------|
-| Bütçe                    | Bütçe bakiyeleri seçilen sütun başına gösterilir.<blockquote>[!NOTE]<br>Bakiyeler, **Veri filtreleme** hızlı sekmesi üzerinde seçilmiş olan bütçe sürümlerine dayalı olarak gösterilir.</blockquote> |
+| Bütçe                    | Bütçe bakiyeleri seçilen sütun başına gösterilir.<blockquote>**NOT:**<br>Bakiyeler, **Veri filtreleme** hızlı sekmesi üzerinde seçilmiş olan bütçe sürümlerine dayalı olarak gösterilir.</blockquote> |
 | Bütçe farkı           | Bütçe ve fiili arasındaki farkı hesapla ve göster. Aşağıdaki formül kullanılır:<br>Bütçe bakiyesi – Gerçek bakiye |
 | % cinsinden bütçe farkı      | Bütçe ve fiili arasındaki farkı yüzde olarak hesapla ve göster. Aşağıdaki formül kullanılır:<br>(Bütçe bakiyesi – Gerçek bakiye) ÷ Bütçe bakiyesi |
-| Fark dönemi eşiği | Geçerli dönem için parasal tutardaki fark için bir eşik ayarlayın. Eşik aşılırsa, satır **Maliyet denetimi** çalışma alanında kırmızıyla vurgulanır.<blockquote>[!NOTE]<br>Bu alan yalnızca harcamaları temsil eden maliyet öğelerinde geçerlidir.</blockquote> |
+| Fark dönemi eşiği | Geçerli dönem için parasal tutardaki fark için bir eşik ayarlayın. Eşik aşılırsa, satır **Maliyet denetimi** çalışma alanında kırmızıyla vurgulanır.<blockquote>**NOT:**<br>Bu alan yalnızca harcamaları temsil eden maliyet öğelerinde geçerlidir.</blockquote> |
 | Fark yılı eşiği   | Yıl için parasal tutardaki fark için bir eşik ayarlayın. Eşik aşılırsa, satır **Maliyet denetimi** çalışma alanında kırmızıyla vurgulanır. |
-| Fark eşiği %      | Fark için yüzce olarak bir eşik ayarlayın. Eşik aşılırsa, satır **Maliyet denetimi** çalışma alanında kırmızıyla vurgulanır.<blockquote>[!NOTE]<br>Aynı yüzde eşiği geçerli dönem ve yıla uygulanır.</blockquote> |
+| Fark eşiği %      | Fark için yüzce olarak bir eşik ayarlayın. Eşik aşılırsa, satır **Maliyet denetimi** çalışma alanında kırmızıyla vurgulanır.<blockquote>**NOT:**<br>Aynı yüzde eşiği geçerli dönem ve yıla uygulanır.</blockquote> |
 
 ## <a name="cost-control-workspace"></a>Maliyet kontrolü çalışma alanı
 

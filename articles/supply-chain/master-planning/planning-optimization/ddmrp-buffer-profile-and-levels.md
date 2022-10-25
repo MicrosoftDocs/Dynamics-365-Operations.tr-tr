@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 57ee6206da926d0dbf62f562197538bfcdd41148
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: d254b949d31d0b15141646503c64760062b77fc7
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428157"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689172"
 ---
 # <a name="buffer-profile-and-levels"></a>Tampon profili ve düzeyleri
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Ayırma noktalarınızı belirledikten sonra (stratejik olarak stokta tuttuğunuz anahtar öğeler) her bir nokta için ne kadar stok (tampon) tutacağınıza karar vermeniz gerekir. Bu görev, Talep Temelli Materyal Kaynak Planlaması'nın (DDMRP) ikinci adımıdır.
 

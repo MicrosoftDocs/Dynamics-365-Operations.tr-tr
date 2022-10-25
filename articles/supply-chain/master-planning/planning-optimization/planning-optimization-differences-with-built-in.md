@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: dd9493e85a90c00b2dd50abb6530661c0fbb77dc
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: a23256f3e092b32e1f1d09b708a8d0ca5f403785
+ms.sourcegitcommit: 5d33a3398e7e1d3494bfc3cad342fffa7cfa5b76
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520856"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680021"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Yerleşik master planlama ile Planlama Optimizasyonu arasındaki farklar
 
@@ -34,11 +34,12 @@ Planlama Optimizasyonu sonuçları, yerleşik master planlama motorundan alınan
 | Sipariş iadeleri | İade emirleri dikkate alınmaz. |
 | Zamanlama ile ilgili özellikler | Ayrıntılı bilgi için bkz. [Sonsuz kapasiteyle zamanlama](infinite-capacity-planning.md#limitations). |
 | Emniyet stoğu karşılama | Planlama Optimizasyonu'nda, **Madde karşılama** sayfasındaki **Minimum karşılama** alanı için her zaman *Bugünün tarihi + tedarik süresi* seçeneği kullanılır. Bu, emniyet stoku için tedarik süresi dahil edilmezse düşük eldeki stok için oluşturulan planlı siparişler sağlama süresi nedeniyle her zaman gecikeceğinden istenmeyen planlı siparişleri ve diğer sorunları önlemeye yardımcı olur. |
-| Emniyet stoku ilişkilendirme ve net gereksinimler | *Emniyet stoku* gereksinim türü dahil edilmez ve **Net gereksinimler** sayfasında görüntülenmez. Emniyet stoku, talebi temsil etmez ve kendisiyle ilişkilendirilmiş gereksinim tarihi yoktur. Bunun yerine, her zaman stokta bulunması gereken miktar ile ilgili kısıtlama ayarlar. Ancak master planlama sırasında planlı siparişleri hesaplarken **Minimum** alan değeri yine de dikkate alınır. Bu değerin dikkate alındığını görmek için **Net gereksinimler** sayfasında **Kümülatif miktar** sütununu incelemenizi öneririz. |
+| Emniyet stoku ilişkilendirme ve net gereksinimler | *Emniyet stoku* gereksinim türü dahil edilmez ve **Net gereksinimler** sayfasında görüntülenmez. Emniyet stoku, talebi temsil etmez ve kendisiyle ilişkilendirilmiş gereksinim tarihi yoktur. Bunun yerine, her zaman stokta bulunması gereken miktar ile ilgili kısıtlama ayarlar. Ancak master planlama sırasında planlı siparişleri hesaplarken **Minimum** alan değeri yine de dikkate alınır. Bu değerin dikkate alındığını görmek için **Net gereksinimler** sayfasında **Kümülatif miktar** sütununu incelemenizi öneririz. İlişkilendirme farklı olduğundan farklı eylemler önerilebilir. |
 | Taşıma takvimleri | **Teslimat şekilleri** sayfasındaki **Taşıma takvimi** sütunundaki değer yok sayılır. |
 | Değeri olmayan minimum/maksimum karşılama kodu| Yerleşik planlama altyapısıyla, minimum veya maksimum değerlerin ayarlandığı bir minimum/maksimum karşılama kodu kullandığınızda, planlama altyapısı karşılama kodunu gereksinim olarak işler ve her gereksinim için bir sipariş oluşturur. Planlama Optimizasyonu ile sistem, o güne ait tam tutarın kapsayacağı bir günde bir sipariş oluşturacaktır.  |
 | Net gereksinimler ve el ile oluşturulan planlı siparişler | Yerleşik planlama altyapısıyla, bir madde için el ile oluşturulmuş tedarik emirleri bu maddeyle ilgili net gereksinimler arasında otomatik olarak görüntülenir. Örneğin, bir satış siparişinden bir satınalma siparişi oluştururken, satınalma siparişi, **Net gereksinimler** sayfasında, önceki bir eylemi gerektirmeden görünür. Bunun nedeni, yerleşik planlama motorunun `inventLogTTS` tablosunda stok hareketlerini günlüklerine kaydettiği ve dinamik planlar için **Net gereksinimler** sayfasındaki değişiklikleri gösterdiği bir yer değildir. Ancak, Planlama Optimizasyonu sayesinde manuel oluşturulan siparişler, Planlama Optimizasyonu çalıştırılana kadar (maddeyi içeren bir plan ile) veya maddeyle ilgili master planlamayı çalıştıracak olan **Net gereksinimler** sayfasının eylem bölmesinde **Güncelleştir \> Master planlama**'yı seçene kadar maddenin net gereksinimleri içinde görüntülenmez. **Net gereksinimler** sayfası ile nasıl çalışılacağı hakkında daha fazla bilgi için bkz. [Planlama Optimizasyonu ile ilgili net gereksinimler ve ilişkilendirme bilgileri](net-requirements.md). |
 | Kaynak ataması | Sonsuz kapasiteyle çalışırken, yerleşik ana planlama altyapısı tüm planlanan siparişleri belirli bir kaynak grubuna aynı kaynağa atar. Planlama İyileştirmesi bunu, kaynakları rasgele seçerek artırmak için farklı üretim emirlerinin farklı kaynaklar kullanmasına olanak sağlar. Tüm planlı siparişler için aynı kaynağı kullanmak istiyorsanız, bu kaynağı rotada belirtmeniz gerekir. |
+| Genişletilmiş veri türleri (EDT'ler) | Planlama İyileştirmesi, EDT'lerin duyarlığına ilişkin değişiklikleri desteklemez. Örneğin, ürün miktarı kesinliğini iki ondalık basamaktan (varsayılan) dört ondalık basamağa çıkarırsanız Planlama İyileştirmesi'nde yine de yalnızca iki ondalık basamak kullanılır. |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

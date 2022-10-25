@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a0fa081b0110682af1fcda50b0c912dc5d03fa73
-ms.sourcegitcommit: 29af4c9d9968bbfa4c19fee9de34fed309f6d38b
+ms.openlocfilehash: 645590bbf00f49bb0f3511e7fa02c8f6add661fc
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/01/2022
-ms.locfileid: "9388461"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682627"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasındaki yenilikler veya değişiklikler
 
 [!include [banner](../includes/banner.md)]
 
 Bu makale, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni özellikleri, iyileştirmeleri ve bilinen sorunları listeler.
+
+## <a name="version-20340"></a>Sürüm 2.0.34.0
+
+Bu sürüm aşağıdaki yeni özellikleri, düzeltmeleri ve iyileştirmeleri içerir.
+- İyileştirilmiş kararlılık.
+- Artan performans.
+- Ayrıntılar kartında daha fazla alana izin vermek için ekran düzeni iyileştirildi.
+- **İş Listesi** sayfasına arama işlevi eklendi. Çalışanlar artık sayfadaki tüm alanlar ve başlıklarda arama yapmak için tarama yapabilir veya yazı yazabilir.
+- Mevcut bağlantılar listesi artık alfabetik olarak sıralanmaktadır.
+- Aynı konumda birden fazla stok durumu olan maddeler için yinelenen kartların gösterildiği bir sorun düzeltildi.
+- **Büyük Seçim Listesi** sayfasının önceden seçilen maddeyi göstermek için kaydırılmadığı bir sorun düzeltildi.
+- **Büyük Seçim Listesi** sayfasında arama çubuğu renkleri düzeltildi.
+- XML'de tanımlanan varsayılan düğmenin gönder düğmesi olarak kullanılmadığı bir sorun düzeltildi.
+- Yeni kimlikler tarandığında çoklu tarama ve hızlı doğrulama akışlarındaki düğmelerin güncelleştirilmediği bir sorun düzeltildi.
+- Daha fazla dil desteği eklendi.
 
 ## <a name="version-20320"></a>Sürüm 2.0.32.0
 

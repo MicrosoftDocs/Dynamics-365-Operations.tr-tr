@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: 8ee288a1ec7ae950bdff9da7d373e29daef74d3c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 04c625b554d96f8ed28ceffef9647fe9cbf7fe2f
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269419"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689473"
 ---
 # <a name="vat-declaration-germany"></a>KDV Beyannamesi (Almanya)
 
@@ -198,7 +198,8 @@ KDV beyannamesindeki kutuları hangi satış vergisi kodlarının oluşturacağ�
 
    Bu biçim, **Kapatma dönemi raporu için satış vergisini bildir** raporunu çalıştırdığınızda yazdırılır. Ayrıca, **Satış vergisi ödemeleri** sayfasında **Yazdır**'ı seçtiğinizde de yazdırılır.
 
-4. **Vergi daireleri** sayfasında vergi dairesini seçin ve sonra **Rapor düzeni** alanında, **Varsayılan**'ı seçin.
+4. Düzeltmeleri raporlamanız gerekirse **Özel rapor** bölümünde **Düzeltmeleri dahil et** seçeneğini **Evet** olarak ayarlayın.
+5. **Vergi daireleri** sayfasında vergi dairesini seçin ve **Rapor düzeni** alanında **Varsayılan** seçeneğini belirleyin.
 
 KDV beyanını, [birden çok KDV kaydına](emea-reporting-for-multiple-vat-registrations.md) sahip olan bir tüzel kişilikte konfigüre ediyorsanız, aşağıdaki adımları izleyin:
 

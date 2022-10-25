@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6c7469692aac24a5ae554973325a128c787363ba
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: db8a8e929bf75c4d1dac0c1b0a7cbc848ff291a9
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542306"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682681"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Planlamayı En İyi Duruma Getirme tarafından kullanılmayan parametreler
 
@@ -111,10 +111,8 @@ Planlamayı En İyi Duruma Getirme, **Master planlar** sayfasında bulunan aşa�
 
 - **Genel** FastTab'i:
 
-  - **Eldeki stoğu dahil et** – *Eldeki stok tüketimi* desteği bekleniyor.
   - **Eldeki stoğu geçersiz kıl** – *Eldeki stok tüketimi* desteği bekleniyor.
   - **Eldeki stoğu kullan** – *Eldeki stok tüketimi* desteği bekleniyor.
-  - **Stok hareketlerini dahil et** – *Eldeki stok tüketimi* desteği bekleniyor.
   - **Satış tekliflerini dahil et** *Satış teklifi* desteği bekleniyor.
   - **Teklif taleplerini dahil et** - *Teklif talebi* desteği bekleniyor.
   - **Raf ömrü tarihlerini kullan** – *Raf ömrü* desteği bekleniyor.
@@ -190,4 +188,3 @@ Planlamayı En İyi Duruma Getirme, **Toplu iş değerlendirme ana verileri** sa
 
   - **Netleştirilebilir** *Toplu iş değerlendirme kodları* desteği bekleniyor.
  
-<!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 

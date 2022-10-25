@@ -4,23 +4,25 @@ description: Bu makalede, çalışanların geçerli görevi park edebilmesi, ba�
 author: Mirzaab
 ms.date: 09/01/2022
 ms.topic: article
-ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
+ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour, WHSMobileAppFlowStepDetourSelectFields, WHSMobileAppFlowStepSelectPromotedFields
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: d8d3d434077fdb145291e2298055f692b78db3d6
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 2e387dd4e6499912f2d53dddc17ccc053f1ca699
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428076"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689323"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Mobil cihaz menü öğelerindeki adımların deturlarını konfigüre etme
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 10.0.31 GA -->
 
 > [!IMPORTANT]
 > Bu makalede açıklanan özellikler yalnızca yeni Warehouse Management mobil uygulaması için geçerlidir. Artık kullanımdan kaldırılan eski ambar uygulamasını etkilemezler.
@@ -38,6 +40,7 @@ Mobil aygıt menü öğelerindeki adımların sapmalarını konfigüre etmeden �
 1. Bu makalede açıklanan işlevselliği sağlayan aşağıdaki özellikleri açın:
     - *Warehouse Management uygulaması sapmaları*<br>(Supply Chain Management sürüm 10.0.29 itibariyle, bu özellik varsayılan olarak açıktır.)
     - *Warehouse Management mobil uygulaması için çok düzeyli sapmalar*
+    - *Warehouse Management mobil uygulaması için sapma adımlarını otomatik olarak gönder*
 1. *Warehouse Management uygulama sapmaları* ve/veya *Warehouse Management mobil uygulaması için çok düzeyli sapmalar* özelliği zaten açık değilse **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Ambar uygulaması alan adları**'na gidip **Varsayılan kurulum oluştur**'u seçerek Warehouse Management mobil uygulamasında alan adlarını güncelleştirin. - Daha fazla bilgi için bkz. [Ambar Yönetimi mobil uygulaması için alanları yapılandırma](configure-app-field-names-priorities-warehouse.md).
 1. Warehouse Management mobil uygulamasını kullandığınız her yasal varlık (şirket) için önceki adımı yineleyin.
 
@@ -49,7 +52,7 @@ Menüye özel bir geçersiz kılmada bir sapma ayarlamak için aşağıdaki yord
 1. Düzenlemek istediğiniz **Adım Kimliği** ve **Menü öğesi adı** değerlerinin birleşimini bulun ve **Adım Kimliği** sütunundaki değeri seçin.
 1. Görüntülenen sayfada, **Mevcut sapmalar (menü öğeleri)** hızlı sekmesinde, bir gezinti görevi görecek menü öğesini belirtebilirsiniz. Ayrıca ana görevdeki hangi alan değerlerinin sapmaya ve sapmadan otomatik olarak iletildiğini belirleyebilrisiniz. Bu ayarların nasıl kullanılacağını gösteren örnekler için, bu makalenin ilerleyen kısımlarında yer alan senaryolara bakın.
 
-## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>Örnek Senaryo 1: Bir yerleşim sorgulaması sırasında yapılacak bir sapma olarak hareket eden satış çekme
+## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a><a name="scenario-1"></a>Örnek Senaryo 1: Bir yerleşim sorgulaması sırasında yapılacak bir sapma olarak hareket eden satış çekme
 
 Bu senaryo, çalışanların yönlendirilmiş satış malzeme çekme görev akışındaki bir yerleşim sorgulaması ile sapma olarak konfigüre etme şeklini gösterir. Bu sapma, çalışanların çekmeye çalıştıkları konumdaki tüm lisans levhalarını arayıp çekmeyi tamamlamak için kullanmak istedikleri lisans levhasını çeker. Bu tür bir sapma, barkod hasar görmüşse ve bu nedenle tarayıcı aygıtı tarafından okunamıyorsa yararlı olabilir. Alternatif olarak, bir çalışanın sistemde neler olduğunu öğrenmesine yardımcı olması gerektiğinde yararlı olabilir. Bu senaryonun yalnızca lisans levhası denetimli konumlardan çekme yapıyorsanız çalıştığına dikkat edin.
 
@@ -59,7 +62,7 @@ Belirtilen örnek kayıtlarını ve değerlerini kullanarak bu senaryoda çalı�
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-1"></a>Menüye özel geçersiz kılma oluşturma ve senaryo 1 için sapmayı konfigüre etme
 
-Bu yordamda, lisans levhası adımında **Satış malzeme çekme** menü öğesi için bir sapma yapılandıracaktır.
+Bu yordamda, plaka adımında **Satış seçme** menü öğesi için bir sapma yapılandıracaksınız.
 
 1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz adımları**'na gidin.
 1. *LicensePlateId* adlı adım kodunu bulun ve seçin.
@@ -74,11 +77,13 @@ Bu yordamda, lisans levhası adımında **Satış malzeme çekme** menü öğesi
 
     - **Satış Çekmeden kopyalama:** *Konum*
     - **Konum Sorgusuna yapıştır:** *Konum*
+    - **Otomatik gönder:** *Seçildi* (sayfa, yapıştırılan *Konum* değeriyle yenilenir)
 
 1. Bu senaryodaki sapma, lisans levhası adımında yapılandırıldığı için, çalışanlar lisans levhasını sorgudan ana akışa geri gönderme yaparken yararlı olacaktır. Bu nedenle, **Konum sorgusundan geri getir** bölümünde, kılavuza satır eklemek için araç çubuğundan **Ekle**'yi seçin. Ardından yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Konum Sorgusundan kopyala:** *Lisans levhası*
     - **Satış Çekmeye yapıştır:** *Lisans levhası*
+    - **Otomatik gönder:** *Temizlendi* (*Plaka* değeri olan sapmadan döndürülürken otomatik güncelleştirme gerçekleşmez)
 
 1. **Tamam**'ı seçin.
 
@@ -112,7 +117,7 @@ Belirtilen örnek kayıtlarını ve değerlerini kullanarak bu senaryoda çalı�
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-2"></a>Menüye özel geçersiz kılma oluşturma ve senaryo 2 için sapmayı konfigüre etme
 
-Bu yordamda, lisans levhası adımında **Satış malzeme çekme** menü öğesi için bir sapma yapılandıracaktır.
+Bu yordamda, plaka adımında **Satış seçme** menü öğesi için bir sapma yapılandıracaksınız.
 
 1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz adımları**'na gidin.
 1. *LocationInquiryList* adlı adım kodunu bulun ve seçin.
@@ -131,6 +136,7 @@ Bu yordamda, lisans levhası adımında **Satış malzeme çekme** menü öğesi
 
     - **Konum Sorgusundan kopyala:** *Konum*
     - **Harekete yapıştır:** *Loc / LP*
+    - **Otomatik gönder:** *Temizlendi* (otomatik güncelleştirme gerçekleşmez)
 
     Ana akış ek adımların gerekli olmadığı bir sorgu olduğundan, bu sapma sırasında herhangi bir bilginin geri kopyalanmasını bekleyemezsiniz.
 
@@ -153,3 +159,5 @@ Bu yordamda, Warehouse Management mobil uygulamasını kullanarak konum sorgusu 
 
 > [!NOTE]
 > *Warehouse Management mobil uygulaması için çok düzeyli sapmalar* özelliği, çalışanların mevcut bir sapmadan saniyede iki kez atlamasına ve ardından tekrar geri dönmesine olanak tanıyan çok düzeyli sapmalar (sapmalar içinde sapmalar) tanımlamanıza olanak tanır. Özellik, kullanıma hazır iki sapma düzeyini destekler ve gerekirse `WHSWorkUserSessionState` tablosunda kod uzantıları oluşturarak sisteminizi üç veya daha fazla sapma düzeyini destekleyecek şekilde özelleştirebilirsiniz.
+>
+> *Warehouse Management mobil uygulaması için sapma adımlarını otomatik olarak gönder* özelliği, çalışanların Warehouse Management mobil uygulamasında sapma akışlarını tamamlamasını hızlandırıp kolaylaştırabilir. Bu, [*Örnek Senaryo 1: Bir yerleşim sorgulaması sırasında yapılacak bir sapma olarak hareket eden satış çekme*](#scenario-1) bölümünde gösterildiği üzere uygulamanın arka uçta sapma verilerini doldurmasına ve ardından sayfayı otomatik göndererek otomatik olarak sonraki adıma geçmesine olanak tanıyarak bazı akış adımlarının atlanmasını sağlar.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64290ebd47295bea5bc4bf843f7a9d9528375ce7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b868db915385a8433845e810cf169f1bf1686e3d
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845388"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682891"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Ödeme teklifi kullanarak satıcı ödemeleri oluşturma
 
@@ -111,7 +111,7 @@ Boyut kontrolü, oluşturulan satırları ödeme tekliflerine göre gruplamayı 
 -   **Boyut kontrolü** alanı boyutlar daha ayrıntılı tanımlanmadan etkinleştirilir. Ödeme teklifi, boyutlar dikkate alınmadan oluşturulur. Oluşturulan işlem uygulanan girişten hiçbir boyutu devralmaz.
 -   **Boyut denetimi** alanı ve ayrıntılı boyutlar etkinleştirilir. Şimdi boyutların günlüğe nasıl kopyalanacağını tanımlarsınız. Örneğin: • **BusinessUnit** onay kutusunu, ödeme yöntemi için bir ödeme teklifi oluşturmak üzere seçin. • **CostCenter** onay kutusunu, ödeme yöntemi için bir ödeme teklifine göre maliyet merkezi oluşturmak için seçin
 
-> [[!NOTE]
+>[!NOTE]
 > Üçünü seçenekte birden çok boyut seçerseniz boyut birleşimi için bir ödeme teklifi oluşturulur.
 
 #### <a name="bank-account-selection"></a>Banka hesabı seçimi

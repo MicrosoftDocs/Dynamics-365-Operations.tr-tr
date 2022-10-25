@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.form: LedgerTransVoucher, LedgerJournalTable
-ms.openlocfilehash: 7e3a22f43bcc312fe60b77db2fc3bc94d15950c5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 8912409ec0d2016ea4af12843319febda98663c5
+ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284866"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680397"
 ---
 # <a name="reverse-journal-posting"></a>Günlük deftere naklini tersine çevirme
 
@@ -37,7 +37,7 @@ Bu makalede açıklanan özelliklerden birini kullanabilmeniz için bu özelliğ
 Günlük satırlarını tek tek ters kaydedebilirsiniz. Ters günlük nakli ile tüm mali günlüğü de tersine çevirebilirsiniz. Bir günlüğü ters kaydetmek için: 
 
 - Deftere nakledilmiş günlüklerde filtre uygulayın ve günlükte **Satırlar** görünümünü açın.
-- Sayfanın üst tarafındaki **Ters kaydet** menüsüne tıklayın.
+- Sayfanın üst tarafındaki **Tüm günlüğü tersine çevir** menüsünü seçin.
 - Toplam fiş ve fiş satırı sayısının yanı sıra, ters kaydedilmekte olan satırların toplam tutarını görürsünüz.
 - Varolan hareket tarihlerini kullanmak için **Evet**'i, yeni bir hareket girmek için **Hayır**'ı seçin. Bazı durumlarda, orijinal hareketin dönemi kapalı olabilir ve ters kayıt için yeni bir hareket tarihi girmeniz gerekebilir.
 - **Hayır**'ı seçtiyseniz, ters kayıt için bir hareket tarihi girin. 

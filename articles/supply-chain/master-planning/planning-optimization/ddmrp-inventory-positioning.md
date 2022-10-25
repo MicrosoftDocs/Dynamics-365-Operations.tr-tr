@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: bec36b5b51b937782afdb78d7009a58dcd0942f0
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 847108575cbf7207282db00d731363c8cfad883a
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186760"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689551"
 ---
 # <a name="inventory-positioning"></a>Stok konumlandırma
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Stratejik stok konumlandırma, elinizde stok oluşturabileceğiniz tedarik zincirinizdeki ayırma noktalarını belirlemeyi içerir. Bu yaklaşım esas olarak sağlama sürelerini kısaltmaya ve tedarik zincirinizdeki şokları emmeye yardımcı olmak için kullanılır. Talep değişkenliği tedarik zincirinin sonuna kadar iletilmediği için "kamçı etkisini" azaltmanıza olanak tanır. *kırbaç etkisi* perakende seviyesindeki talepteki küçük dalgalanmaların toptan satış, dağıtıcı, üretici ve hammadde tedarikçisi seviyelerinde giderek daha büyük dalgalanmalara neden olabileceğini ifade eder.
 

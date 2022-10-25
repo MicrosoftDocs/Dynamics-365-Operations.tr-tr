@@ -2,20 +2,20 @@
 title: Planlama Optimizasyonu yayımlama işlemi ve sürüm geçmişi
 description: Bu makalede, Planlama Optimizasyonu için yayımlama işlemi ve sürüm geçmişi hakkında bilgi verilmektedir.
 author: t-benebo
-ms.date: 09/21/2021
+ms.date: 10/14/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: da97490cb065365a0502aa82c63205d5c34da9eb
-ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
+ms.dyn365.ops.version: 10.0.31
+ms.openlocfilehash: e2437214b4a2a850f121bb86272bf7dc3d313507
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "9591890"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682573"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Planlama Optimizasyonu yayımlama işlemi ve sürüm geçmişi
 
@@ -31,22 +31,21 @@ Planlama Optimizasyonu'nu kullanan ortamlar en son sürümü otomatik olarak al�
 
 Planlama Optimizasyonu, ortamınızda güncelleştirildiğinde herhangi bir bildirim gösterilmediğinden değişikliklerin ne zaman yayımlandığını ve hangi işlevleri getirdiğini belirlemek üzere aşağıdaki tablodaki sürüm notlarını inceleyebilirsiniz. Bu tablo, Planlama Optimizasyonu için yayımlanan değişiklikleri, bu değişikliklerin özellik yönetiminden bir özellikle ilişkili olup olmadığını ve sürüm tarihini gösterir.
 
-<!-- KFM: Add this? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 
-
 | Değişiklikler | Özellik yönetimi ayrıntıları | Yayın tarihleri |
 |---|---|---|
-| <p> Sınırlı kapasiteyle kaynak planlama için destek. <p>Genel performans, kalite ve kararlılık iyileştirmeleri. | Özellik yönetimi gerekmez. | 19-23 Eylül 2022 |
-| <p>Genel performans, kalite ve kararlılık iyileştirmeleri. | Özellik yönetimi gerekmez. | 29 Ağustos - 3 Eylül 2022 |
-| <p>Genel performans, kalite ve kararlılık iyileştirmeleri.<p>[Planlama Optimizasyonu Merkezi takvim Bakımı](../supply-chain-calendars-master-planning.md)<p>[Mevcut arzı iyileştirmek için Planlama İyileştirmesi önerileri](../action-messages.md)<p>[Alt sözleşme için Planlama Optimizasyonu desteği](../../production-control/manage-subcontract-work-production.md) | Özellik yönetimi gerekmez. | 7-11 Mart 2022 |
-| <p>Üretim emirleri için planlama önceliği desteği eklendi. | Planlama İyileştirmesi için *Öncelik temelli MRP desteği* özelliği kapsamında 10.0.25 sürümünde kullanıma sunuldu. | 12-18 Kasım 2021 |
-| <p>Genel performans, kalite ve kararlılık iyileştirmeleri. | Özellik yönetimi gerekmez. | 12-18 Kasım 2021 |
-| <p>İşlem süresi hesaplaması formülleri, çakışmayla üretim rotası ve gereksinim hareketlerinde üretim operasyon numarası için destek eklendi.</p><p>Zaman aşımı ile ilgili üretim planlama çizelgeleme için geliştirilmiş hata iletileri, kapasite bulunamadı ve döngüsel rota.</p><p>Planlı siparişlerde ve kesinleştirilmiş siparişlerde giriş tarihleri ve çıkış tarihleri hesaplanırken iyileştirilmiş tutarlılık.</p><p>Genel performans, kalite ve kararlılık iyileştirmeleri. | Özellik adı: *Planlama Optimizasyonu için sonsuz kapasite zamanlaması* | 22-27 Ekim, 2021 |
-| <p>İşlem süresi hesaplamasında ıskarta yüzdesini dikkate alarak destek eklendi.</p><p>Planlama sırasında operasyon numarası ve malzeme kullanımı desteği eklendi. | Özellik adı: *Planlama Optimizasyonu için sonsuz kapasite zamanlaması* | 5-7 Ekim, 2021 |
-| <p>Üretim rotası iş tipleri için destek eklendi: **Önceden kuyruğa al**, **Sonradan kuyruğa al** ve **Taşıma süresi**.</p><p>Genel performans, kalite ve kararlılık iyileştirmeleri. | Özellik adı: *Planlama Optimizasyonu için sonsuz kapasite zamanlaması* | 25-30 Eylül 2021 |
-| <p>**Planlama yöntemi** *İşlemleri planlama* olarak ayarlanan master planlar için destek eklendi.</p><p>**Rota grupları** sayfasında, *Kurulum* veya *İşlem* için **Rota/iş türü** bulunan satırlarda **Etkinleştirme**, **Çalışma zamanı** ve **Kapasite** onay kutularının ayarlarını dikkate alın. </p><p>Genel performans, kalite ve kararlılık iyileştirmeleri. | <p>İşlemleri planlama, 10.0.20 sürümünden itibaren özellik yönetiminde kullanılabilir.</p><p>Özellik adı: *Planlama Optimizasyonu için sonsuz kapasite zamanlaması*</p>  | 9 - 17 Eylül 2021 |
-| Genel performans, kalite ve kararlılık iyileştirmeleri. | Özellik yönetimi gerekmez. | 25 - 30 Ağustos 2021 |
-| <p>**Sağlama süresi** alanı planlı siparişlere eklendi.</p><p>Genel performans, kalite ve kararlılık iyileştirmeleri.</p> | Özellik yönetimi gerekmez. | 12 - 17 Ağustos 2021 |
-| <p>Sonsuz kapasite planlaması için kaynak türü gereksinimleri eklendi.</p><p>Sonsuz kapasite planlaması için kaynak verimliliği ve takvim verimliliği iyileştirildi.</p><p>Daha fazla bilgi için bkz. [Sonsuz kapasiteyle zamanlama](infinite-capacity-planning.md). | <p>10.0.20 sürümünden itibaren özellik yönetiminde kullanılabilir.</p><p>Özellik adı: *Planlama Optimizasyonu için sonsuz kapasite zamanlaması*</p> | 6 - 12 Temmuz 2021 |
-| Genel kalite iyileştirmeleri. | Özellik yönetimi gerekmez. | 6 - 12 Temmuz 2021 |
+| <p>[Toplu iş değerlendirme kodları](../../inventory/batch-disposition-codes.md)</p><p>Master planlarda eldeki stok ve stok hareketi parametrelerini dahil etme</p><p>Genel performans, kalite ve kararlılık iyileştirmeleri</p> | Özellik yönetimi gerekmez | 10-14 Ekim, 2022 |
+| <p>[Sınırlı kapasiteyle kaynak planlama](finite-capacity.md)</p><p>Genel performans, kalite ve kararlılık iyileştirmeleri</p> | Özellik yönetimi gerekmez | 19-23 Eylül 2022 |
+| Genel performans, kalite ve kararlılık iyileştirmeleri | Özellik yönetimi gerekmez | 29 Ağustos - 3 Eylül 2022 |
+| <p>[Merkezi takvim bakımı](../supply-chain-calendars-master-planning.md)</p><p>[Mevcut arzı iyileştirmek için öneriler](../action-messages.md)</p><p>[Alt sözleşme desteği](../../production-control/manage-subcontract-work-production.md)</p><p>Genel performans, kalite ve kararlılık iyileştirmeleri</p> | Özellik yönetimi gerekmez | 7-11 Mart 2022 |
+| Üretim emirleri için planlama önceliği desteği | Planlama İyileştirmesi için *Öncelik temelli MRP desteği* özelliği kapsamında 10.0.25 sürümünde kullanıma sunuldu. | 12-18 Kasım 2021 |
+| Genel performans, kalite ve kararlılık iyileştirmeleri | Özellik yönetimi gerekmez | 12-18 Kasım 2021 |
+| <p>İşlem süresi hesaplaması formülleri, çakışmayla üretim rotası ve gereksinim hareketlerinde üretim operasyon numarası için destek</p><p>Zaman aşımı ile ilgili üretim planlama çizelgeleme için geliştirilmiş hata iletileri, kapasite bulunamadı ve döngüsel rota</p><p>Planlı siparişlerde ve kesinleştirilmiş siparişlerde giriş tarihleri ve çıkış tarihleri hesaplanırken iyileştirilmiş tutarlılık</p><p>Genel performans, kalite ve kararlılık iyileştirmeleri</p> | Özellik adı: *Planlama Optimizasyonu için sonsuz kapasite zamanlaması* | 22-27 Ekim, 2021 |
+| <p>İşlem süresi hesaplamasında ıskarta yüzdesini dikkate alarak verilen destek</p><p>Planlama sırasında operasyon numarası ve malzeme kullanımı desteği</p> | Özellik adı: *Planlama Optimizasyonu için sonsuz kapasite zamanlaması* | 5-7 Ekim, 2021 |
+| <p>Üretim rotası iş tipleri için destek: **Önceden kuyruğa al**, **Sonradan kuyruğa al** ve **Taşıma süresi**</p><p>Genel performans, kalite ve kararlılık iyileştirmeleri</p> | Özellik adı: *Planlama Optimizasyonu için sonsuz kapasite zamanlaması* | 25-30 Eylül 2021 |
+| <p>**Planlama yöntemi** *İşlemleri planlama* olarak ayarlanan master planlar için destek</p><p>**Rota grupları** sayfasında, *Kurulum* veya *İşlem* için **Rota/iş türü** bulunan satırlarda **Etkinleştirme**, **Çalışma zamanı** ve **Kapasite** onay kutularının ayarlarını dikkate alın </p><p>Genel performans, kalite ve kararlılık iyileştirmeleri</p> | <p>İşlemleri planlama, 10.0.20 sürümünden itibaren özellik yönetiminde kullanılabilir</p><p>Özellik adı: *Planlama Optimizasyonu için sonsuz kapasite zamanlaması*</p> | 9 - 17 Eylül 2021 |
+| Genel performans, kalite ve kararlılık iyileştirmeleri | Özellik yönetimi gerekmez | 25 - 30 Ağustos 2021 |
+| <p>**Sağlama süresi** alanı planlı siparişlere eklendi.</p><p>Genel performans, kalite ve kararlılık iyileştirmeleri.</p> | Özellik yönetimi gerekmez | 12 - 17 Ağustos 2021 |
+| <p>Sonsuz kapasite planlaması için kaynak türü gereksinimleri eklendi</p><p>Sonsuz kapasite planlaması için kaynak verimliliği ve takvim verimliliği iyileştirildi</p><p>Daha fazla bilgi için bkz. [Sonsuz kapasiteyle zamanlama](infinite-capacity-planning.md)</p> | <p>10.0.20 sürümünden itibaren özellik yönetiminde kullanılabilir</p><p>Özellik adı: *Planlama Optimizasyonu için sonsuz kapasite zamanlaması*</p> | 6 - 12 Temmuz 2021 |
+| Genel kalite iyileştirmeleri | Özellik yönetimi gerekmez | 6 - 12 Temmuz 2021 |
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

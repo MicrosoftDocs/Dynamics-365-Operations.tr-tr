@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 8c4808ea3a0389c2a8699f0e11ea154705a6916d
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: c0f1c57251234921779f67faf61d47cdde119e64
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428430"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690061"
 ---
 # <a name="the-product-quality-scenario"></a>Ürün kalitesi senaryosu
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 *Ürün kalitesi* senaryosunda, üretim bölümündeki bir ürün partisinin kalitesini ölçmek için bir sensör ayarlanır. Bir ölçüm ürün için tanımlanmış bir eşiğin dışına düşerse süpervizörün kontrol panelinde bir bildirim gösterilir. Örneğin, bir sensör üretim hattından çıkan bir gıda ürününün nemini ölçüyor. Ölçüm, ürün için izin verilen minimum veya maksimum nem değerinin dışındaysa bir bildirim oluşturulur.
 
