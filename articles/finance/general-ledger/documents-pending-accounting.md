@@ -13,18 +13,16 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: e915c248abd1c842f8f01490a49db9b824644a29
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: f37d46659b2fc5bf9933719811a7b90cc4e80f52
+ms.sourcegitcommit: 6bd8822f7aa781d596b70956bead834117cf302c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9424381"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709264"
 ---
 # <a name="documents-pending-accounting"></a>Muhasebe bekleyen belgeler
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Bu makalede, **Muhasebe bekleyen belgeler** sayfasındaki işlevler açıklanmaktadır.
 

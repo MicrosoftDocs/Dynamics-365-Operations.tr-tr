@@ -10,9 +10,9 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?context=/dynamics365/context/supply-chain
             - name: Supply Chain Management'taki yenilikler veya değişiklikler
               items:
-                - name: Supply Chain Management giriş sayfasındaki yenilikler veya değişiklikler
+                - name: Supply Chain Management'taki yenilikler veya değişiklikler giriş sayfası
                   href: get-started/whats-new-home-page.md
-                - name: Supply Chain Management 10.0.31 (Şubat 2022)
+                - name: Supply Chain Management 10.0.31 (Şubat 2023)
                   href: get-started/whats-new-scm-10-0-31.md
                 - name: Supply Chain Management 10.0.30 (Kasım 2022)
                   href: get-started/whats-new-scm-10-0-30.md
@@ -368,7 +368,7 @@
                       href: ../finance/localizations/emea-multiple-vat-registration-numbers.md?context=/dynamics365/context/supply-chain
                     - name: Ana veri arama için ortam ayarlama
                       href: ../finance/localizations/tax-service-set-up-environment-master-data-lookup.md?context=/dynamics365/context/supply-chain
-            - name: Mevzuat güncellemeleri
+            - name: Mevzuat güncelleştirmeleri
               href: ../finance/localizations/regulatory-updates.md?context=/dynamics365/context/supply-chain
             - name: Hindistan
               items:
@@ -3243,6 +3243,8 @@
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
             - name: Kaynağın USMCA belgesi
               href: transportation/usmca-certification-of-origin.md
+            - name: Ticari faturalar
+              href: transportation/commercial-invoice.md
             - name: Konşimento oluşturma
               href: transportation/create-bill-of-lading.md
             - name: Navlun taşıma rotalarını planlama
@@ -3433,8 +3435,14 @@
                       href: warehousing/pack-materials-packing-material-fees.md
                     - name: Sevkiyat için konteynerleri paketleme
                       href: warehousing/packing-containers.md
+                    - name: Konteyner etiketlerini yazdırma
+                      href: warehousing/print-container-labels.md
                     - name: Giden konteynerleri paketlemeye ve sevkiyatları işlemeye yönelik paketleme işi
                       href: warehousing/packing-work.md
+                    - name: Konteynerleri Warehouse Management mobil uygulaması ile paketleme
+                      href: warehousing/warehouse-app-packing-containers.md
+                    - name: 'Örnek senaryo: Konteynerleri Warehouse Management mobil uygulaması ile paketleme'
+                      href: warehousing/warehouse-app-pack-containers-scenario.md
                     - name: Eksik çekilen madde yeniden tahsisini ayarlama
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: Sistem tarafından yönlendirilen iş sıralaması
@@ -3691,7 +3699,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                     - name: Açık bir iş listesinde sistem gruplama
                       href: warehousing/system-group-on-open-work-list.md
-                    - name: Plaka etiketleri için belge rotası düzeni
+                    - name: Belge rotası etiket düzenleri
                       href: warehousing/document-routing-layout-for-license-plates.md
                     - name: GS1 barkodları ve QR kodları
                       href: warehousing/gs1-barcodes.md
@@ -3701,6 +3709,12 @@
                   items:
                     - name: Ambar yönetimi işlemlerini Microsoft Dynamics AX 2012'den finans ve operasyon uygulamalarına yükseltme
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+            - name: Ambarlama telemetrisi
+              items:
+                - name: Application Insights ile ambarlama telemetrisini etkinleştirme
+                  href: warehousing/application-insights-warehousing.md
+                - name: Mobil cihaz kullanımı ve performansını izleme
+                  href: warehousing/application-insights-wma.md
         - name: Supply Chain Management geliştirme
           items:
             - name: Gantt denetimi geliştirme kılavuzu

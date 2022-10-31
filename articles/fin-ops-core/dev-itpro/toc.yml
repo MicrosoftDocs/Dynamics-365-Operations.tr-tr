@@ -10,18 +10,16 @@
           items:
             - name: Finans ve operasyon uygulamalarındaki yenilikler veya değişiklikler
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Platform güncelleştirmelerinde yenilikler veya değişiklikler
+            - name: Platform güncellemelerinde yenilikler veya değişiklikler
               items:
                 - name: Platform güncellemeleri giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
-                - name: 10.0.31 sürümü için platform güncelleştirmeleri (Şubat 2023)
+                - name: 10.0.31 sürümü için platform güncellemeleri (Şubat 2023)
                   href: get-started/whats-new-platform-updates-10-0-31.md
-                - name: 10.0.30 sürümü için platform güncelleştirmeleri (Kasım 2022)
+                - name: 10.0.30 sürümü için platform güncellemeleri (Kasım 2022)
                   href: get-started/whats-new-platform-updates-10-0-30.md
-                - name: 10.0.29 sürümü için platform güncelleştirmeleri (Ekim 2022)
+                - name: 10.0.29 sürümü için platform güncellemeleri (Ekim 2022)
                   href: get-started/whats-new-platform-updates-10-0-29.md
-                - name: 10.0.28 sürümü için platform güncelleştirmeleri (Ağustos 2022)
-                  href: get-started/whats-new-platform-updates-10-0-28.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -1576,7 +1574,7 @@
                   href: lcs-solutions/apply-country-context.md
                 - name: Özellik başlıklarındaki düzenleyici sertifika bilgileri
                   href: lcs-solutions/regulatory-certifications.md
-                - name: Mevzuat güncellemeleri
+                - name: Mevzuat güncelleştirmeleri
                   href: lcs-solutions/regulatory-watch-communication.md
                 - name: Yerelleştirme modellerinin ayrılması
                   href: lcs-solutions/separate-localization-models.md
@@ -1605,7 +1603,11 @@
             - name: Lisans kodları ve yapılandırma anahtarları raporu
               href: sysadmin/license-codes-configuration-keys-report.md
             - name: Şirketler arası veri paylaşımı
-              href: sysadmin/cross-company-data-sharing.md
+              href: sysadmin/srs-overview.md
+            - name: Veri paylaşımı için desteklenen tablolar
+              href: sysadmin/drs-srs-tables.md
+            - name: Geliştiriciler için veri paylaşımı
+              href: sysadmin/drs-srs-dev.md
             - name: Bakım modu
               href: sysadmin/maintenance-mode.md
             - name: Önceden yapılandırılmış sistem hesapları

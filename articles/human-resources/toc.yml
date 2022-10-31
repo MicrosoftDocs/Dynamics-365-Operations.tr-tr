@@ -8,23 +8,19 @@
           items:
             - name: Finans ve operasyon uygulamalarındaki yenilikler veya değişiklikler
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-            - name: Human Resources'daki yenilikler veya değişiklikler
+            - name: Human Resources'taki yenilikler veya değişiklikler
               items:
+                - name: Human Resources 10.0.31 (birleştirilmiş altyapı)
+                  href: ./get-started/whats-new-changed-10-0-31.md
                 - name: Human Resources 10.0.30 (birleştirilmiş altyapı)
                   href: ./get-started/whats-new-changed-10-0-30.md
                 - name: Human Resources 10.0.29 (birleştirilmiş altyapı)
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (birleştirilmiş altyapı)
                   href: ./get-started/whats-new-changed-10.0.28.md
-                - name: Human Resources 10.0.27 (birleştirilmiş altyapı)
-                  href: ./get-started/hr-whats-new-changed-10-0-27.md
-                - name: Human Resources 10.0.26 (birleştirilmiş altyapı)
-                  href: ./get-started/hr-whats-new-changed-10-0-26.md
-                - name: Human Resources 10.0.25 (birleştirilmiş altyapı)
-                  href: ./get-started/hr-whats-new-changed-10-0-25.md
                 - name: Dynamics 365 Human Resources'taki (tek başına) yenilikler
                   items:
-                    - name: Dynamics 365 Human Resources (tek başına) arşivleri 2021'deki yenilikler
+                    - name: Dynamics 365 Human Resources (tek başına) 2021 arşivlerindeki yenilikler
                       href: hr-admin-whats-new.md
                     - name: 29 Kasım 2021
                       href: hr-whats-new-2021-11-29.md
@@ -718,6 +714,8 @@
               href: hr-develop-create-performance-review.md
         - name: Öğrenme
           items:
+            - name: Kursa genel bakış
+              href: hr-course-overview.md
             - name: Eğitim kursları ayarlama
               href: hr-learning-courses.md
             - name: Soru formlarına genel bakış

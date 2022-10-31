@@ -2,7 +2,7 @@
 title: Çevrimiçi siparişi ve zaman uyumsuz müşteri siparişi hareketlerini düzenleme ve denetleme
 description: Bu makalede, Microsoft Dynamics 365 Commerce'te çevrimiçi siparişin ve zaman uyumsuz müşteri siparişi hareketlerinin nasıl düzenleneceği ve denetleneceği açıklanmaktadır.
 author: josaw1
-ms.date: 11/04/2020
+ms.date: 10/21/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.industry: Retail
-ms.openlocfilehash: dac7ffe6d62aaea11f2f5af0476db446b091938b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: dbeeff47446c1617da44f34ae56f333717f577a1
+ms.sourcegitcommit: 18b7a02c497709e8d9c7b943d82f1fcc3dafa4cd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287692"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9712123"
 ---
 # <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>Çevrimiçi siparişi ve zaman uyumsuz müşteri siparişi hareketlerini düzenleme ve denetleme
 
@@ -34,12 +34,13 @@ Commerce 10.0.5 sürümünden 10.0.6 sürümüne geçiş sırasında peşin hare
 
 ## <a name="edit-and-audit-order-transactions"></a>Sipariş hareketlerini düzenleme ve denetleme
 
-Commerce genel merkezinde sipariş hareketlerini düzenlemek ve denetlemek için aşağıdaki adımları izleyin.
+Commerce headquarters'ta sipariş hareketlerini düzenlemek ve denetlemek için aşağıdaki adımları izleyin.
 
-1. [Microsoft Dynamics Office Add-in](https://appsource.microsoft.com/product/office/WA104379629?tab=Overview)'ni yükleyin.
-1. **Perakende parametreleri** sayfasında, **Müşteri siparişleri** sekmesindeki **Sipariş** hızlı sekmesinde, **Sipariş eşitleme hataları için tutma kodu** için bir tutma kodu belirtin.
-1. **Mağaza mali öğeleri** çalışma alanını açın. **Çevrimiçi sipariş eşitleme hataları** ve **Müşteri siparişi eşitleme hataları** kutucukları, perakende hareketi sayfasının önceden filtrelenmiş bir görünümünü sağlar. Her biri, karşılık gelen sipariş türü için eşitlemenin başarısız olduğu hareket kayıtlarını gösterir.
-1. **Çevrimiçi sipariş eşitleme hataları** sayfasını veya **Müşteri siparişi eşitleme hataları** sayfasını açın. Eşitleme hatasının ayrıntılarını görüntülemek için bir kayıt seçin. **Eşitleme durumu** hızlı sekmesinde aşağıdaki hata ayrıntıları sağlanır:
+1. [Microsoft Dynamics Office Add-in](https://appsource.microsoft.com/product/office/WA104379629?tab=Overview)'i yükleyin.
+1. **Commerce parametreleri** sayfasında, **Müşteri siparişleri** sekmesindeki **Sipariş** hızlı sekmesinde, **Sipariş eşitleme hataları kodunu tut** için bir tutma kodu belirtin.
+2. Düzenleme ve denetleme zamanlamanızla çakışacak diğer sipariş eşitleme işlerini duraklatın.
+3. **Mağaza mali öğeleri** çalışma alanını açın. **Çevrimiçi sipariş eşitleme hataları** ve **Müşteri siparişi eşitleme hataları** kutucukları, perakende hareketi sayfasının önceden filtrelenmiş bir görünümünü sağlar. Her biri, karşılık gelen sipariş türü için eşitlemenin başarısız olduğu hareket kayıtlarını gösterir.
+4. **Çevrimiçi sipariş eşitleme hataları** sayfasını veya **Müşteri siparişi eşitleme hataları** sayfasını açın. Eşitleme hatasının ayrıntılarını görüntülemek için bir kayıt seçin. **Eşitleme durumu** hızlı sekmesinde aşağıdaki hata ayrıntıları sağlanır:
 
     - Beklemedeki sipariş durumu
     - Sipariş hatası ayrıntıları
@@ -66,8 +67,16 @@ Commerce genel merkezinde sipariş hareketlerini düzenlemek ve denetlemek için
         - **Masraflar**: Bu çalışma sayfasında harekete ilişkin masraflarla ilgili veriler yer alır.
 
 1. Excel dosyasında, **Beklemedeki sipariş durumu** alanına **Düzenleme** yazın ve ardından değişikliği yayımlayın. Bu şekilde, toplu iş modunda çalışan **Siparişi eşitle** işinin işlem sırasında bu kaydı atlamasını engellersiniz.
-1. Excel dosyasında, uygun alanları değiştirin ve ardından Dynamics Excel Eklentisi'nin yayımlama işlevini kullanarak verileri Commerce genel merkezine geri yükleyin. Veriler yayımlandıktan sonra değişiklikler sisteme yansıtılır. Yayımlama sırasında, kullanıcıların yaptığı değişiklikler için doğrulama yapılmaz.
-1. Başlık düzeyindeki değişiklikler için **Perakende hareketi** başlığındaki **Denetim kaydını görüntüle**'yi seçip uygun hareket sayfasındaki ilgili bölümü veya kaydı seçerek değişikliklerle ilgili eksiksiz bir denetim kaydı görüntüleyebilirsiniz. Örneğin, satış satırlarıyla ilgili tüm değişiklikler **Satış hareketleri** sayfasında ve ödemelerle ilgili tüm değişiklikler de **Ödeme hareketleri** sayfasında gösterilir. Değişiklikler için aşağıdaki denetim ayrıntıları korunur:
+1. Excel dosyasında, uygun alanları değiştirin ve ardından Dynamics Excel Eklentisi'nin yayımlama işlevini kullanarak verileri Commerce headquarters'a geri yükleyin. Veriler yayımlandıktan sonra değişiklikler sisteme yansıtılır. Yayımlama sırasında, kullanıcıların yaptığı değişiklikler için doğrulama yapılmaz.
+    > [!NOTE]
+    > Düzenlemeniz gereken alanı bulamıyorsanız eksik alanı çalışma sayfasına eklemek için aşağıdaki adımları izleyin.
+    >   1. Veri Bağlayıcı'da **Tasarla**'yı seçin.
+    >   1. Alan eklemek istediğiniz tablonun yanındaki kalem simgesini seçin.
+    >   1. **Mevcut alanlar** bölümünde alanı seçin ve ardından **Ekle** seçeneğini belirleyin.
+    >   1. İhtiyacınız kadar alan ekleyin ve ardından **Güncelleştir**'i seçin.
+    >   1. Güncelleştirme tamamlandığında değerleri güncelleştirmek için **Yenile**'yi seçmeniz gerekebilir.
+
+3. Başlık düzeyindeki değişiklikler için **Perakende hareketi** başlığındaki **Denetim kaydını görüntüle**'yi seçip uygun hareket sayfasındaki ilgili bölümü veya kaydı seçerek değişikliklerle ilgili eksiksiz bir denetim kaydı görüntüleyebilirsiniz. Örneğin, satış satırlarıyla ilgili tüm değişiklikler **Satış hareketleri** sayfasında ve ödemelerle ilgili tüm değişiklikler de **Ödeme hareketleri** sayfasında gösterilir. Değişiklikler için aşağıdaki denetim ayrıntıları korunur:
 
     - Değiştirilme tarihi ve saati
     - Alan

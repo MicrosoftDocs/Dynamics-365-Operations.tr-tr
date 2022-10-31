@@ -10,8 +10,10 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?context=/dynamics365/context/commerce
             - name: Commerce'teki yenilikler veya değişiklikler
               items:
-                - name: Commerce'teki yenilikler ve değişiklikler giriş sayfası
+                - name: Commerce'teki yenilikler veya değişiklikler giriş sayfası
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.31 (Şubat 2023)
+                  href: get-started/whats-new-commerce-10-0-31.md
                 - name: Commerce 10.0.30 (Kasım 2022)
                   href: get-started/whats-new-commerce-10-0-30.md
                 - name: Commerce 10.0.29 (Ekim 2022)
@@ -568,6 +570,8 @@
                       href: call-center-refund-payments.md
                     - name: 'Kredi kartı ayarı, onayı ve çekimi'
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?context=/dynamics365/context/commerce
+                    - name: Ödeme belirteci kullanımını sınırlama
+                      href: dev-itpro/limit-token-usage.md
                     - name: POS için nakit kupürlerini yapılandırma
                       href: cash-denominations.md
                     - name: Kredi kartı işlemlerini yapılandırma
@@ -1230,12 +1234,14 @@
                       href: social-share-module.md
                 - name: Satın alma modülleri
                   items:
-                    - name: Alışveriş sepeti modülü
+                    - name: Sepet modülü
                       href: add-cart-module.md
                     - name: Sepet simgesi modülü
                       href: cart-icon-module.md
-                    - name: Ödeme modülü
+                    - name: Ödeme yapma modülü
                       href: add-checkout-module.md
+                    - name: Ödeme yapma modülü hata referans kodları
+                      href: checkout-module-error-codes.md
                     - name: Ödeme modülü
                       href: payment-module.md
                     - name: Sevkiyat adresi modülü
@@ -1456,7 +1462,7 @@
                   href: localizations/latam-bra-nfce-cancel-return.md
                 - name: Çevrimdışı yedek modunda düzenlenen NFC-e belgelerinin ertelenen kaydı
                   href: localizations/latam-bra-nfce-contingency-mode.md
-                - name: Brezilya mali belgelerini Commerce genel merkezinde perakende ekstreleri aracılığıyla deftere nakletme
+                - name: Brezilya mali belgelerini Commerce headquarters'ta perakende ekstreleri aracılığıyla deftere nakletme
                   href: localizations/latam-bra-retail-statements.md
                 - name: Brezilya için Commerce POS'ta SAT bulunan CF-e mali belgesi ve tümleştirmesi
                   href: localizations/latam-bra-cf-e-sat.md
@@ -2910,7 +2916,7 @@
                       items:
                         - name: Telemetri kaydedici
                           href: e-commerce-extensibility/telemetry-logger.md
-            - name: Commerce Headquarters
+            - name: Commerce headquarters
               items:
                 - name: CDX paketi uzantısı
                   items:
@@ -3006,7 +3012,7 @@
                   href: troubleshoot/restrict-access-storefront.md
                 - name: Oturum açma bağlantısı yeniden e-ticaret sitesine yönlendiriyor
                   href: troubleshoot/sign-in-redirects-back.md
-                - name: Müşteri kayıtları Commerce genel merkezinde görünmüyor
+                - name: Commerce headquarters'ta müşteri kayıtları görünmüyor
                   href: troubleshoot/customer-record-not-appearing.md
                 - name: Teslim al seçeneği görünmüyor
                   href: troubleshoot/pickup-store-link-missing.md
