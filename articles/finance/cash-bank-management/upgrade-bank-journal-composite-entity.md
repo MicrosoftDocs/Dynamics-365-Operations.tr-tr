@@ -2,7 +2,7 @@
 title: Banka günlüğü bileşik varlığını güncelleme
 description: Bu makalede, ek BankTransactionType alanını birleşik BankJournalEntity öğesine eklemek için gereken adımlar listelenmektedir.
 author: angelad116
-ms.date: 06/20/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f8bf3bbcbd8036015757799a2e58b23fd9bd2b38
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 1855f9680ba6bcf8eb46608882a128b4a21f0dac
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151625"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715303"
 ---
 # <a name="update-the-bank-journal-composite-entity"></a>Banka günlüğü bileşik varlığını güncelleme
 

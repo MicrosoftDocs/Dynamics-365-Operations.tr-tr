@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4ee87eee382263897d97512f6b01c786734a8f27
-ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
+ms.openlocfilehash: 940a3c1d60347c365575f29b853b83a028acad53
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "9682547"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714775"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasını yükleme ve bağlama
 
@@ -63,6 +63,8 @@ Bir uygulama mağazasından yüklemeye alternatif olarak uygulamayı Microsoft A
 
 - **Android:** [Ambar Yönetimi (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
     Önizleme sürümünü indirirseniz yüklemek için birkaç ek adım gerekir. Ayrıntılar için bkz. [Android Uygulamalarını Test Etme](/appcenter/distribution/testers/testing-android).
+
+App Center'dan indirilen bir derlemeyi yükleme hakkında bilgi için bkz. [Derleme yükleme](/appcenter/distribution/installation).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Azure Active Directory içinde bir web hizmeti uygulaması oluşturma
 

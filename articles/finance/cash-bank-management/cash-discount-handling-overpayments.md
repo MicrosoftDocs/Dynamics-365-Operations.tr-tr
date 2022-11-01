@@ -2,7 +2,7 @@
 title: Fazla ödemeler için nakit iskontoları
 description: Bu makale, bir müşteri nakit iskontosu alıp aynı zamanda fazla ödeme yaparsa, bunun nasıl işlendiğini gösteren senaryoyu sağlar.
 author: angelad116
-ms.date: 06/20/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08f7384016d02dce6aeff4e1bddb8a45336653e7
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 1afc8aec18c61b1ce488472adf540e47540eaa17
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151485"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715537"
 ---
 # <a name="cash-discounts-for-overpayments"></a>Fazla ödemeler için nakit iskontoları
 

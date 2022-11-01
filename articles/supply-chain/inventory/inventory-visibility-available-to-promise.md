@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f831c5d5719bbbd72c7cff37b8b35826f48ce6e4
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856207"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719321"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Stok Görünürlüğü eldeki değişiklik zamanlamaları ve karşılanabilir miktarı
 
@@ -205,6 +205,7 @@ Eldeki değişiklik zamanlamaları, değişiklik olayları ve sorgular gönderme
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | Birden fazla değişiklik olayı oluşturun. |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | `POST` yöntemini kullanarak sorgulayın. |
 | `/api/environment/{environmentId}/onhand` | `GET` | `GET` yöntemini kullanarak sorgulayın. |
+| `/api/environment/{environmentId}/onhand/exactquery` | `POST` | `POST` yöntemini kullanarak tam sorgulama yapın. |
 
 Daha fazla bilgi için bkz. [Stok Görünürlüğü genel API'leri](inventory-visibility-api.md).
 
@@ -394,6 +395,8 @@ Zamanlanan eldeki değişiklikleri ve KM sonuçlarını sorgulamak isterseniz is
 > [!NOTE]
 > İstek gövdesinde `returnNegative` parametresinin *true* veya *false* olarak ayarlanmasına bakılmaksızın, zamanlanan eldeki değerler ve KM sonuçları için sorgulama yaptığınızda sonuç negatif değerler içerir. Yalnızca talep siparişleri zamanlanırsa veya arz miktarları talep miktarlarından azsa zamanlanan eldeki değişiklik miktarları negatif olacağından bu negatif değerler dahil edilir. Negatif değerler dahil edilmediyse sonuçlar kafa karıştırıcı olur. Bu seçenek ve diğer sorgu türlerinin nasıl çalıştığı hakkında daha fazla bilgi için bkz. [Stok Görünürlüğü genel API'leri](inventory-visibility-api.md#query-with-post-method).
 
+### <a name="query-by-using-the-post-method"></a>POST yöntemini kullanarak sorgulama
+
 ```txt
 Path:
     /api/environment/{environmentId}/onhand/indexquery
@@ -419,14 +422,14 @@ Body:
     }
 ```
 
-Aşağıdaki örnekte, `POST` yöntemini kullanarak Stok Görünürlüğü'ne gönderilebilen istek gövdesinin nasıl oluşturulacağı gösterilmektedir.
+Aşağıdaki örnekte, `POST` yöntemini kullanarak Stok Görünürlüğü'ne gönderilebilen dizin sorgusu istek gövdesinin nasıl oluşturulacağı gösterilmektedir.
 
 ```json
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
-        "siteId": ["1"],
+        "SiteId": ["1"],
         "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
@@ -435,7 +438,7 @@ Aşağıdaki örnekte, `POST` yöntemini kullanarak Stok Görünürlüğü'ne g�
 }
 ```
 
-### <a name="get-method-example"></a>GET yöntemi örneği
+### <a name="query-by-using-the-get-method"></a>GET yöntemini kullanarak sorgulama
 
 ```txt
 Path:
@@ -453,7 +456,7 @@ Query(Url Parameters):
     [Filters]
 ```
 
-Aşağıdaki örnekte, `GET` isteği olarak istek URL'sinin nasıl oluşturulacağı gösterilmektedir.
+Aşağıdaki örnekte, `GET` isteği olarak dizin sorgusu istek URL'sinin nasıl oluşturulacağı gösterilmektedir.
 
 ```txt
 https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
@@ -461,9 +464,53 @@ https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.c
 
 Bu `GET` isteğinin sonucu, önceki örnekteki `POST` isteğinin sonucuyla tam olarak aynıdır.
 
+### <a name="exact-query-by-using-the-post-method"></a>POST yöntemini kullanarak tam sorgulama
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+Aşağıdaki örnekte, `POST` yöntemini kullanarak Stok Görünürlüğü'ne gönderilebilen tam sorgu istek gövdesinin nasıl oluşturulacağı gösterilmektedir.
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": ["Bike"],
+        "dimensions": ["SiteId", "LocationId"],
+        "values": [
+            ["1", "11"]
+        ]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true,
+    "QueryATP":true
+}
+```
+
 ### <a name="query-result-example"></a>Sorgu sonucu örneği
 
-Önceki sorgu örneklerinin ikisinde de aşağıdaki yanıt oluşabilir. Bu örnekte, sistem aşağıdaki ayarlarla yapılandırılır:
+Önceki sorgu örneklerinin tümü aşağıdaki yanıtı oluşturabilir. Bu örnekte, sistem aşağıdaki ayarlarla yapılandırılır:
 
 - **KM hesaplanan ölçüsü:** *iv.onhand = pos.inbound – pos.outbound*
 - **Zamanlama dönemi:** *7*

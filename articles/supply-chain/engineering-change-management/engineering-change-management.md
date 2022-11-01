@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 71b5ec792013ae80be643b9581e388c291d608dd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c578609a64c21a33f10b64a1d77f006b45bac41
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849604"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714756"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Mühendislik ürünlerindeki değişiklikleri yönetme
 
@@ -141,6 +141,8 @@ Aldığınız değişiklik bildirimlerini aşağıdaki şekillerde okuyabilir ve
 ### <a name="create-a-change-order-from-a-change-request"></a>Değişiklik isteğinden değişiklik emri oluşturma
 
 Mühendislik değişikliği isteğini gözden geçiren bir mühendis, doğrudan **Mühendislik değişikliği istekleri** sayfasından bir mühendislik değişikliği emri oluşturabilir. Eylem Bölmesi'nde, **Değişiklik isteği** sekmesinde, **Mühendislik değişikliği emri** grubunda, **Bağlantıyı ve ürünleri kopyala**'yı seçin.
+
+Yeni mühendislik değişiklik emri için doğru şirketi seçtiğinizden emin olun. Değişiklik emri mühendislik ürününün kendisinin değişmesine neden oluyorsa (yeni sürüm, yeni ürün veya yeni varyant) değişiklik emri mühendislik şirketine atanmalıdır. Yalnızca yerel bir değişiklik gerekiyorsa (**Etki** *Yok* olarak ayarlanır) değişiklik emri yerel bir şirkete atanabilir ve değişiklikler geçerli ürüne uygulanır.
 
 ## <a name="engineering-change-orders"></a>Mühendislik değişiklik emirleri
 

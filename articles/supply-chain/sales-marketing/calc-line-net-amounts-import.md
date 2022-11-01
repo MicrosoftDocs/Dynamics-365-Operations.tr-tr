@@ -1,6 +1,6 @@
 ---
-title: Satış siparişlerini, teklifleri ve iadeleri içe aktarırken satır net tutarlarını yeniden hesaplama
-description: Bu makalede, satış siparişleri, teklifler ve iadeler içe aktarıldığında sistemin satır net tutarlarını yeniden hesaplayıp hesaplamayacağı ve bunu nasıl yapacağı açıklanır. Ayrıca, Microsoft Dynamics 365 Supply Chain Management'ın farklı sürümlerindeki davranışı nasıl denetleyebileceğinizi de açıklar.
+title: Satış siparişlerini ve teklifleri içe aktarırken satır net tutarlarını yeniden hesaplama
+description: Bu makalede, satış siparişleri ve teklifler içe aktarıldığında sistemin satır net tutarlarını yeniden hesaplayıp hesaplamayacağı ve bunu nasıl yapacağı açıklanır. Ayrıca, Microsoft Dynamics 365 Supply Chain Management'ın farklı sürümlerindeki davranışı nasıl denetleyebileceğinizi de açıklar.
 author: Henrikan
 ms.date: 08/05/2022
 ms.topic: article
@@ -11,25 +11,25 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2022-06-08
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 08b30044a93e46c9c83848b60d69c595bc774570
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: edda0c016130e2a273adf8f3d3e00e2d3ae9d5c6
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335570"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719347"
 ---
-# <a name="recalculate-line-net-amounts-when-importing-sales-orders-quotations-and-returns"></a>Satış siparişlerini, teklifleri ve iadeleri içe aktarırken satır net tutarlarını yeniden hesaplama
+# <a name="recalculate-line-net-amounts-when-importing-sales-orders-and-quotations"></a>Satış siparişlerini ve teklifleri içe aktarırken satır net tutarlarını yeniden hesaplama
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede, satış siparişleri, teklifler ve iadeler içe aktarıldığında sistemin satır net tutarlarını yeniden hesaplayıp hesaplamayacağı ve bunu nasıl yapacağı açıklanır. Ayrıca, Microsoft Dynamics 365 Supply Chain Management'ın farklı sürümlerindeki davranışı nasıl denetleyebileceğinizi de açıklar.
+Bu makalede, satış siparişleri ve teklifler içe aktarıldığında sistemin satır net tutarlarını yeniden hesaplayıp hesaplamayacağı ve bunu nasıl yapacağı açıklanır. Ayrıca, Microsoft Dynamics 365 Supply Chain Management'ın farklı sürümlerindeki davranışı nasıl denetleyebileceğinizi de açıklar.
 
 ## <a name="how-updates-to-net-line-amounts-are-calculated-on-import"></a>Net satır tutarları için yapılan güncelleştirmeler içe aktarma sırasında nasıl hesaplanır?
 
-Supply Chain Management sürüm 10.0.23, [604418 numaralı hata düzeltmesini](https://fix.lcs.dynamics.com/issue/results/?q=604418) kullanıma sundu. Bu hata düzeltmesi, varolan satış siparişlerine, iadelere ve tekliflere yapılan güncelleştirmeler içe aktarılırken satırdaki **Net tutar** alanının güncelleştirilebileceği veya yeniden hesaplanabileceği koşulları değiştirdi. Sürüm 10.0.29'da *İçeri aktarma sırasında satır net tutarını hesapla* özelliğini etkinleştirerek bu hata düzeltmesini değiştirebilirsiniz. Bu özellik benzer bir etkiye sahiptir, ancak gerektiğinde eski davranışa dönmenize olanak tanıyan genel bir ayar sağlar. Yeni davranış, sistem çalışmasını daha sezgisel hale getirse de aşağıdaki koşulların tümünün karşılandığı belirli senaryolarda beklenmedik sonuçlara neden olabilir:
+Supply Chain Management sürüm 10.0.23, [604418 numaralı hata düzeltmesini](https://fix.lcs.dynamics.com/issue/results/?q=604418) kullanıma sundu. Bu hata düzeltmesi, mevcut satış siparişlerine ve tekliflere yapılan güncelleştirmeler içe aktarılırken satırdaki **Net tutar** alanının güncelleştirilebileceği veya yeniden hesaplanabileceği koşulları değiştirdi. Sürüm 10.0.29'da *İçeri aktarma sırasında satır net tutarını hesapla* özelliğini etkinleştirerek bu hata düzeltmesini değiştirebilirsiniz. Bu özellik benzer bir etkiye sahiptir, ancak gerektiğinde eski davranışa dönmenize olanak tanıyan genel bir ayar sağlar. Yeni davranış, sistem çalışmasını daha sezgisel hale getirse de aşağıdaki koşulların tümünün karşılandığı belirli senaryolarda beklenmedik sonuçlara neden olabilir:
 
 - Varolan kayıtları güncelleştiren veriler, Excel aracılığıyla ikili yazma, içe aktarma/dışa aktarma ve bazı üçüncü taraf tümleştirmeleri kullandığınız durumlar da dahil olmak üzere, Açık Veri Protokolü (OData) kullanılarak *Satış siparişi satırları V2*, *Satış teklifi satırları V2* veya *İade siparişi satırları* varlığı aracılığıyla içe aktarılır.
-- Yürürlükteki [ticari sözleşme değerlendirme ilkeleri](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper), satış siparişi satırları, satış teklifi satırları ve/veya iade siparişi satırlarındaki **Net tutar** alanında yapılan güncelleştirmeleri kısıtlayan bir değişiklik ilkesi oluşturur.
+- Yürürlükteki [ticari sözleşme değerlendirme ilkeleri](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper), satış siparişi satırları, satış teklifi satırları ve/veya iade siparişi satırlarındaki **Net tutar** alanında yapılan güncelleştirmeleri kısıtlayan bir değişiklik ilkesi oluşturur. İade siparişi satırları için **Net tutar** alanının her zaman hesaplandığını ve el ile ayarlanamayacağını unutmayın.
 - İçe aktarılan veriler, satırlardaki **Net tutar** alanındaki değişiklikleri veya satırlardaki **Net tutar** alanındaki değerin bir veya daha fazla mevcut satır kaydı için yeniden hesaplanmasını sağlayan değişiklikleri (birim fiyat, miktar veya iskonto gibi) içerir.
 
 Bu belirli senaryolarda ticari sözleşme değerlendirme ilkesinin etkisi, satırdaki **Net tutar** alanına yapılan güncelleştirmeler için bir sınırlama koymaktır. Bu sınırlama, *değiştirme ilkesi* olarak bilinir. Bu ilke nedeniyle, alanı düzenlemek veya yeniden hesaplamak için kullanıcı arabirimini kullandığınızda sistem, değişikliği yapmak isteyip istemediğinizi sorar. Ancak, bir kaydı içe aktardığınızda, sistemin bu seçimi sizin için yapması gerekir. 10.0.23 sürümünden önce sistem, gelen satır net tutarı 0 (sıfır) olmadıkça satır net tutarını her zaman değişmeden bırakmaktaydı. Ancak daha yeni sürümlerde, bunu yapmaması açıkça belirtilmedikçe sistem, net tutarı her zaman gereken şekilde güncelleştirir veya yeniden hesaplar. Yeni davranış daha mantıklı olsa da, eski davranışın geçerli olduğunu varsayan süreçler veya tümleştirmeler çalıştırıyorsanız, bu durum sizin için sorunlara neden olabilir. Bu makalede, gerekiyorsa eski davranışa nasıl dönebileceğiniz anlatılmaktadır.

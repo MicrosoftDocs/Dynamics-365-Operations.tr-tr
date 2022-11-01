@@ -1,26 +1,26 @@
 ---
 title: Kısmi ve son ödemeleri iskonto tarihinden önce tamamen kapatma
 description: Bu makalede, bir müşteri için nasıl kısmi ödeme kaydı yapılacağına ve nakit indirimi periyodu içinde nakit indirimler alınacağına yönelik senaryolar verilmektedir.
-author: abruer
-ms.date: 06/20/2017
+author: angelad116
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: shpandey
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 14491
 ms.assetid: 0f07d3ce-a439-43ed-a22e-957ccd36a37b
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
-ms.openlocfilehash: 7acc4655be35eff73dc5f2cad1fd0f511a0a7fc3
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: ee11647f6f700042e11133181de919e13f16c018
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281340"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715977"
 ---
 # <a name="settle-partial-and-final-payments-in-full-before-the-discount-date"></a>Kısmi ve son ödemeleri iskonto tarihinden önce tamamen kapatma
 

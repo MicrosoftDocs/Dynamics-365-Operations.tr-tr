@@ -1,5 +1,5 @@
 ---
-title: Plaka etiketleri için belge rotası düzeni
+title: Belge rotası etiket düzenleri
 description: Bu makale, etiketlere değer yazdırmak için biçimlendirme yöntemlerinin nasıl kullanılacağını açıklar.
 author: perlynne
 ms.date: 04/01/2020
@@ -13,23 +13,24 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4e0c16b71c257cae832870ca58679884047ea16
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847889"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708658"
 ---
-# <a name="document-routing-layout-for-license-plate-labels"></a>Plaka etiketleri için belge yönlendirme düzeni
+# <a name="document-routing-label-layout"></a>Belge rotası etiket düzeni
 
 [!include [banner](../includes/banner.md)]
 
+Bu makalede, plaka, konteyner ve dalga etiketleri için düzenlerin nasıl oluşturulacağı açıklanmaktadır. Ayrıca düzenleri oluşturmak için kullanılan Zebra Programlama Dili'ni (ZPL) kullanma ile ilgili yönergeler de sağlanmaktadır.
 
-Belge yönlendirme düzeni, plaka etiketlerinin düzenini ve bunlar üzerine yazdırılan verileri tanımlar. Mobil cihaz menü öğelerini ve iş şablonlarını ayarlarken, yazdırma tetikleme noktalarını yapılandırırsınız.
+Belge rotası etiket düzenleri, etiketlerin düzenlenme biçimini ve üzerlerine yazdırılan verileri tanımlar. Mobil cihaz menü öğelerini ve iş şablonlarını ayarlarken, yazdırma tetikleme noktalarını yapılandırırsınız.
 
-Tipik bir senaryoda, ambar teslim alma görevlileri, teslim alma alanına gelen paletlerin içeriklerini kaydettikten hemen sonra plaka etiketlerini yazdırır. Fiziksel etiketler paletlere uygulanır. Bunlar daha sonra, sonraki yerine koyma işlemi ve gelecekteki giden malzeme çekme işlemlerinin bir parçası olarak doğrulama için kullanılabilir.
+Bu makaledeki bilgiler; [plaka etiketleri](tasks/license-plate-label-printing.md), [konteyner etiketleri](print-container-labels.md) ve [dalga etiketleri](configure-wave-label-printing.md) düzenleri dahil olmak üzere tüm belge rotası etiket düzenleri için geçerlidir.
 
-Yazdırma cihazının gönderilen metni yorumlayabilmesi koşuluyla, çok karmaşık Etiketler yazdırabilirsiniz. Örneğin, barkod içeren bir Zebra Programlama Dili (ZPL) düzeni aşağıdaki örneğe benzeyebilir.
+Yazdırma cihazının gönderilen metni yorumlayabilmesi koşuluyla, çok karmaşık Etiketler yazdırabilirsiniz. Örneğin, barkod içeren bir ZPL düzeni aşağıdaki örneğe benzeyebilir.
 
 ```dos
 ^XA~TA000~JSN^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR2,2~SD15^JUS^LRN^CI0^XZ
@@ -45,11 +46,9 @@ Yazdırma cihazının gönderilen metni yorumlayabilmesi koşuluyla, çok karma�
 ^PQ1,,,Y^XZ
 ```
 
-Etiket yazdırma işleminin bir parçası olarak bu örnekteki `$LicensePlateId$` metni bir veri değeriyle değiştirilecektir.
+Etiket yazdırma işleminin bir parçası olarak bu örnekteki `$LicensePlateId$` metni bir veri değeriyle değiştirilecektir. Birçok yaygın kullanılan etiket oluşturma aracı, etiket düzenine ilişkin metni biçimlendirmenize yardımcı olabilir. Bu araçların çoğu `$FieldName$` biçimini destekler. Ek olarak, Microsoft Dynamics 365 Supply Chain Management, belge yönlendirme düzenine için alan eşlemesinin bir parçası olarak özel biçimlendirme mantığı kullanır.
 
 Yazdırılacak değerleri görmek için **Ambar yönetimi \> Sorgular ve raporlar \>Plaka etiketleri**'ne gidin.
-
-Birçok yaygın kullanılan etiket oluşturma aracı, etiket düzenine ilişkin metni biçimlendirmenize yardımcı olabilir. Bu araçların çoğu `$FieldName$` biçimini destekler. Ek olarak, Microsoft Dynamics 365 Supply Chain Management, belge yönlendirme düzenine için alan eşlemesinin bir parçası olarak özel biçimlendirme mantığı kullanır.
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Sisteminiz için bu özelliği etkinleştirme
 
@@ -137,7 +136,10 @@ $DisplayListOfItemsNumbers()[1]$
 
 ## <a name="more-information-about-how-to-print-labels"></a>Etiketlerin nasıl yazdırılacağı hakkında daha fazla bilgi
 
-Etiketlerin nasıl ayarlanacağı ve yazdırılacağı hakkında daha fazla bilgi için bkz. [Plaka etiketi yazdırmayı etkinleştirme](tasks/license-plate-label-printing.md).
+Etiketlerin nasıl ayarlanacağı ve yazdırılacağı hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
 
+- [Plaka etiketi yazdırma](tasks/license-plate-label-printing.md)
+- [Konteyner etiketleri yazdırma](print-container-labels.md)
+- [Dalga etiketi yazdırma](configure-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

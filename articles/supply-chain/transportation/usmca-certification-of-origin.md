@@ -6,18 +6,19 @@ ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
+ms.search.form: WHSShipPlanningListPage, WHSShipmentDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: edf235351fc7cbffc6bf80c7e05c53159c1e8a7f
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: c67fd12c31b475b323bc4c7feee4cc5267da7793
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336560"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714712"
 ---
 # <a name="usmca-certification-of-origin"></a>USMCA kaynak sertifikası
 
@@ -57,7 +58,7 @@ Bu öğelerin her biri ve değerlerinin nasıl bulunduğu hakkında daha fazla b
 Bir sevkiyatın USMCA kaynak belgesi sertifikasını yazdırmak için aşağıdakileri yapın:
 
 1. Aşağıdakilerden birini yapın:
-    - **Taşıma yönetimi > Sevkiyatlar > Tüm sevkiyatlar**'a gidin ve belgesini yazdırmak istediğiniz sevkiyatı seçin.
+    - **Taşıma yönetimi \> Planlama \> Sevkiyatlar \> Tüm sevkiyatlar**'a gidin ve belgesini yazdırmak istediğiniz sevkiyatı seçin.
     - Belgesini yazdırmak istediğiniz sevkiyat için **Sevkiyat ayrıntıları** sayfasını açın (**Tüm sevkiyatlar** sayfasından dahil olmak üzere buraya gelmenin çeşitli yolları vardır).
 1. Eylem Bölmesinde, **Sevkiyatlar** sekmesini açın ve **Yazdır** grubundan **USMCA kaynak sertifikası**'nı seçin.
 1. **Kaynak sertifikası** iletişim kutusu açılır. Aşağıdaki alt bölümlerde açıklanan ayarları yapın ve belgeyi oluşturmak için **Tamam**'ı seçin.

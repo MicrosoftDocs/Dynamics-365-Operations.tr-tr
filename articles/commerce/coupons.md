@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-30
-ms.openlocfilehash: 2594848948b141015adfaa4ec27e2c2b4cc4dcd2
-ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
+ms.openlocfilehash: 20427a04a552ddec013daa6576ec64ab7046e95f
+ms.sourcegitcommit: 87e75aa6af2c3280316d7d73eafa14a52353a5e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410782"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9709772"
 ---
 # <a name="coupons"></a>Kuponlar
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Bu makale, Microsoft Dynamics 365 Commerce'teki kuponla ilişkili özelliklere genel bakış sağlar.
 

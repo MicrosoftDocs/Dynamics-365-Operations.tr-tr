@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 11378991a24e1a5f5e213d64f0f414db2e5c2573
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 9d4a408f2169b220fefd9ab7e9f3b37217fb3cfe
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279915"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710848"
 ---
 # <a name="complete-publish-and-deploy-a-globalization-feature"></a>Genelleştirme özelliğini tamamlama, yayımlama ve dağıtma
 
@@ -59,8 +59,8 @@ RCS'de, bir elektronik faturalama özellik sürümünü hedef servis ortamı vey
 2. Sayfanın sağ tarafındaki **Sürümler** sekmesinde, servis ortamına veya bağlı uygulamaya dağıtmak istediğiniz elektronik faturalama özellik sürümünü seçin. Seçilen sürümün durumu **Tamamlandı** veya **Yayımlanmış** olmalıdır.
 3. **Dağıt**'ı seçin ve sonra dağıtımın hedefini tanımlamak için aşağıdaki seçeneklerden birini veya ikisini belirleyin:
 
-    - **Bağlantılı uygulama** – Uygulama kurulumu tarafından sağlanan yapılandırma, daha önce kendisiyle ilişkili olan Microsoft Dynamics 365 Finance veya Dynamics 365 Supply Chain Management örneğinde yazılır.
-    - **Servis ortamı** – Elektronik faturalama özellik sürümü servis ortamına dağıtılır. Elektronik faturalama daha sonra Finance veya Supply Chain Management'ın gönderdiği elektronik belgeleri almaya ve işlemeye hazır hale gelir.
+    - **Bağlantılı uygulama**: Bu isteğe bağlıdır ancak Uygulama kurulumu tarafından sağlanan yapılandırmanın, daha önce kendisiyle ilişkili olan Microsoft Dynamics 365 Finance veya Dynamics 365 Supply Chain Management kurulumunda yazılı olmasını istiyorsanız kullanılmalıdır. Bu tür bir dağıtımın atlanması için Finance veya Supply Chain Management'ın uygulama kurulumunda tanımlanan parametrelerin el ile yapılandırılması gerekir.
+    - **Servis ortamı**: Bu elektronik faturalama özellik sürümünü servis ortamına dağıtır. Elektronik faturalama daha sonra Finance veya Supply Chain Management'ın gönderdiği elektronik belgeleri almaya ve işlemeye hazır hale gelir.
 
 > [!NOTE]
 > Genellikle, servis ortamına dağıtılması gereken Elektronik raporlama (ER) özelliğinin parametrelerini değiştirirsiniz. Bağlı uygulamada yapılan değişiklikler nadiren yapılır. Yeni sürümleri, yalnızca uygulamanızın karşılık gelen parametrelerini değiştirdiğinizde bağlı olan uygulamaya dağıtmanız gerekir.

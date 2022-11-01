@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 62f771f6eda949f13536e700ef13a118881886ef
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: c377a910cca8bbf1fd640b6c9a99810be1a8d40f
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9123545"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708707"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Dynamics 365 Supply Chain Management'daki yenilikler veya değişiklikler 10.0.10 (Mayıs 2020)
 
@@ -39,7 +39,7 @@ Bu sürümde aşağıdaki özellikler bulunmaktadır. Özellik başlıkları, [S
 
 - [Ambar yönetimi için gelen yük yönetimi geliştirmeleri](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Daha fazla bilgi için bkz. [Satın alma siparişleri için gelen yüklerin ambarda işlenmesi](../warehousing/inbound-load-handling.md).
 
-- [Ambar yönetimi için etiket yazdırma geliştirmeleri](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Daha fazla bilgi için bkz. [Plaka etiketleri için belge yönlendirme düzeni](../warehousing/document-routing-layout-for-license-plates.md).
+- [Ambar yönetimi için etiket yazdırma geliştirmeleri](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Daha fazla bilgi için bkz. [Belge rotası etiket düzenleri](../warehousing/document-routing-layout-for-license-plates.md).
 
 - [Ön işleme filtreleri etkinleştirildiğinde, Master planlama, eldeki stoku olan maddeleri içerir](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 

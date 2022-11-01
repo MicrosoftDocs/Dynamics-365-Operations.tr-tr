@@ -2,7 +2,7 @@
 title: Regulatory Configuration Service (RCS) kurulumu
 description: Bu makalede, Regulatory Configuration Service'ın (RCS) nasıl ayarlanacağı açıklanmaktadır.
 author: gionoder
-ms.date: 02/09/2022
+ms.date: 10/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 63a4f77d6e80133947dff678cef3885167ec55be
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 32ced98925ee66e02f0b073b4acbd586666ac20c
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9285802"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710794"
 ---
 # <a name="set-up-regulatory-configuration-service-rcs"></a>Regulatory Configuration Service (RCS) kurulumu
 
@@ -39,7 +39,16 @@ Bu makalede, Regulatory Configuration Service'ın (RCS) nasıl ayarlanacağı a�
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Elektronik faturalamayla RCS entegrasyonu için parametreleri ayarlama
 
 1. **Genelleştirme özellikleri** çalışma alanındaki **İlgili ayarlar** bölümünde, **Elektronik raporlama parametreleri**'ni seçin.
-2. **Elektronik Faturalama** sekmesinde, **Hizmet uç noktası URI**'sı alanına aşağıdaki tabloda gösterildiği gibi Microsoft Azure coğrafyanız için uygun hizmet uç noktasını girin.
+2. Parametreleri ilk defa ayarladığınızda Life Cycle Services'a (LCS) bağlanmanız istenir. **Lifecycle Services'a bağlanmak için buraya tıklayın**'ı seçin ve bağlantı kurulduğunda **Tamam** seçeneğini belirleyin.
+
+    > [!IMPORTANT]
+    > Veri ikametinin uygulandığı ülke veya bölgelerde ve RCS'niz LCS'nin sağlandığı farklı bir bölgede sağlandıysa RCS'de şu bağlantı hatası iletisini alabilirsiniz: "İstek URI'si ile eşleşen HTTP kaynağı bulunamadı". **Tamam**'ı seçin. RCS'de başka bir hata iletisi alabilirsiniz. "Dynamics Lifecycle Services için () kullanıcısı adına kullanıcı belirteci oluşturulamadı. Lütfen sistem yöneticinize başvurun."
+    >  
+    > Bunun nedeni, LCS'nin global bir hizmet olması ve bir ABD bölgesinde sağlanmasıdır. Veri ikamet politikası nedeniyle geçerli bölgenizdeki RCS, LCS'ye bağlanamıyor. Bu koşullar altında 2 olası çözüm vardır:
+    > - RCS'yi geçerli bölgenizden silin ve ABD bölgesinde yeniden oluşturun.
+    > - Hataları yoksayıp Elektronik faturalama kurulumu ile devam edin. Bu hataların Elektronik faturalama işlevi üzerinde etkisi yoktur.
+
+3. **Elektronik Faturalama** sekmesinde, **Hizmet uç noktası URI**'sı alanına aşağıdaki tabloda gösterildiği gibi Microsoft Azure coğrafyanız için uygun hizmet uç noktasını girin.
 
     | Veri merkezi Azure coğrafyası | Hizmet uç noktası URI'si |
     |----------------------------|----------------------|
@@ -55,8 +64,10 @@ Bu makalede, Regulatory Configuration Service'ın (RCS) nasıl ayarlanacağı a�
     | Kanada                     | <p>`https://gw.ca-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.ca-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Fransa                     | <p>`https://gw.fr-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Hindistan                      | <p>`https://gw.in-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Norveç                     | <p>`https://gw.no-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Güney Afrika               | <p>`https://gw.za-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
-3. **Uygulama Kimliği** alanının **0cdb527f-a8d1-4bf8-9436-b352c68682b2** olarak ayarlandığını doğrulayın. Bu değer sabit bir değerdir. Yalnızca genel benzersiz bir tanımlayıcının (GUID) girildiğinden ve değerin boşluk, virgül, nokta veya tırnak işareti gibi herhangi bir simge içermediğinden emin olun.
+3. **0cdb527f-a8d1-4bf8-9436-b352c68682b2** sabit değerini inceleyin ve **Başvuru kodu** alanına girin. Yalnızca genel benzersiz bir tanımlayıcının (GUID) girildiğinden ve değerin boşluk, virgül, nokta veya tırnak işareti gibi herhangi bir simge içermediğinden emin olun.
 4. **LCS Ortam Kimliği** alanına Microsoft Dynamics Lifecycle Services (LCS) ortamınızın kimliğini girin. Bu değer, Elektronik Faturalama servisi ile kullanacağınız Finance veya Supply Chain Management ortamına başvurudur. Kimliğinizi almak için [LCS](https://lcs.dynamics.com/)'de oturum açın ve sonra **Ortam yönetimi** sekmesindeki **Ortam ayrıntıları** bölümünde **Ortam kimliği** alanına bakın.
 
     > [!IMPORTANT]

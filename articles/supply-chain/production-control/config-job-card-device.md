@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c3024ca2e3b7eb24ac9a171def4a72cde7493a7a
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860739"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708630"
 ---
 # <a name="configure-job-card-for-devices"></a>Cihazlar için iş kartını konfigüre et
 
@@ -73,7 +73,7 @@ Cihaz yapılandırmalarınızı yapmak için **Üretim denetimi > Ayarlar > Üre
 - **Kaynak grubu** - Her bir çalışana gösterilen iş listesi için varsayılan filtre ölçütü olarak uygulanacak bir kaynak grubu seçin. Yalnızca seçili kaynak grubu altında gruplandırılan kaynaklara zamanlanan işler başlangıçta görüntülenir. **Çalışanların kişisel filtreleri düzenlemesine izin ver** etkinse, çalışanlar bu değeri düzenleyebilir, aksi durumda bu cihaz konfigürasyonu etkin olduğunda bu filtre her zaman uygulanır.
 - **Kaynak** - Her bir çalışana gösterilen iş listesi için varsayılan filtre ölçütü olarak uygulanacak bir kaynak seçin. Yalnızca seçili kaynakta zamanlanan işler başlangıçta görüntülenir. **Çalışanların kişisel filtreleri düzenlemesine izin ver** etkinse, çalışanlar bu değeri düzenleyebilir, aksi durumda bu cihaz konfigürasyonu etkin olduğunda bu filtre her zaman uygulanır.
 - **Lisans levhasını oluştur** - bir çalışanın bir iş kartı aygıtını her kullandığında tamamlandı bildirimi oluşturmak için bu seçeneği **Evet** olarak ayarlayın. Lisans levhası numarası, **Ambar yönetimi parametreleri** sayfasında ayarlanmış bir numara serisinden oluşturulur. **Hayır** olarak ayarlandığında , çalışanlar tamamlandı bildirimine göre, varolan bir lisans levhası belirtmelidir.
-- **Etiket Yazdır** - bir çalışan bir çalışma tamamlandı bildirimi yapmak için iş kartı aygıtını kullandığında, bu seçeneği **Evet** olarak ayarlayın. Etiketin konfigürasyonu belge yönlendirmesinde, [Lisans plak etiketlerinin belge yönlendirme](../warehousing/document-routing-layout-for-license-plates.md) düzeninde açıklandığı gibi ayarlanır.
+- **Etiket Yazdır** - bir çalışan bir çalışma tamamlandı bildirimi yapmak için iş kartı aygıtını kullandığında, bu seçeneği **Evet** olarak ayarlayın. Etiketin konfigürasyonu belge yönlendirmesinde, [Belge rotası etiket düzenleri](../warehousing/document-routing-layout-for-license-plates.md) bölümünde açıklandığı gibi ayarlanır.
 
 <a name="assigned-users"></a>
 

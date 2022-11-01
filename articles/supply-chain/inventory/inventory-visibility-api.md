@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 14812fc201ba1038a78ea3317686dbe189ffa687
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 82a43954db8b10554c449f3e8d32ba7e5d7c7f27
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423609"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719366"
 ---
 # <a name="inventory-visibility-public-apis"></a>Inventory Visibility genel API'leri
 
@@ -47,6 +47,7 @@ Aşağıdaki tabloda, şu anda kullanılabilen API'ler listelenmektedir:
 | /api/environment/{environmentId}/onhand/changeschedule/bulk | Deftere naklet | [Birden fazla zamanlanan eldeki değişiklik oluşturma](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Deftere naklet | [Post yöntemini kullanarak sorgulama](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | Al | [Get yöntemini kullanarak sorgulama](#query-with-get-method) |
+| /api/environment/{environmentId}/onhand/exactquery | Deftere naklet | [Post yöntemini kullanarak tam sorgulama](#exact-query-with-post-method) |
 | /api/environment/{environmentId}/allocation/allocate | Deftere naklet | [Bir tahsisat olayı oluşturma](inventory-visibility-allocation.md#using-allocation-api) |
 | /api/environment/{environmentId}/allocation/unallocate | Deftere naklet | [Bir tahsisattan kaldırma olayı oluşturma](inventory-visibility-allocation.md#using-allocation-api) |
 | /api/environment/{environmentId}/allocation/reallocate | Deftere naklet | [Bir yeniden tahsis etme olayı oluşturma](inventory-visibility-allocation.md#using-allocation-api) |
@@ -690,6 +691,80 @@ Aşağıda, örnek bir alma URL'si bulunmaktadır. Bu alma isteği, daha önce s
 
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
+```
+
+### <a name="exact-query-by-using-the-post-method"></a><a name="exact-query-with-post-method"></a>Post yöntemini kullanarak tam sorgulama
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+Bu isteğin gövde kısmında, `dimensionDataSource` isteğe bağlı bir parametredir. Ayarlanmamışsa `filters` içindeki `dimensions` *temel boyutlar* olarak kabul edilir. `filters` için `organizationId`, `productId`, `dimensions` ve `values` olmak üzere dört gerekli alan vardır.
+
+- `organizationId` yalnızca bir değer içermelidir ancak yine de bir dizidir.
+- `productId` bir veya daha fazla değer içerebilir. Bu boş bir diziyse tüm ürünler döndürülür.
+- `dimensions` dizisi, `siteId` ve `locationId` gereklidir ancak herhangi bir sırada diğer öğelerle birlikte görüntülenebilir.
+- `values`, `dimensions` öğesine karşılık gelen bir veya daha fazla farklı değer grubu içerebilir.
+
+`filters` içindeki `dimensions` otomatik olarak `groupByValues` öğesine eklenir.
+
+`returnNegative` parametresi, sonuçların negatif girişler içerip içermediğini denetler.
+
+Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir.
+
+```json
+{
+    "dimensionDataSource": "pos",
+    "filters": {
+        "organizationId": ["SCM_IV"],
+        "productId": ["iv_postman_product"],
+        "dimensions": ["siteId", "locationId", "colorId"],
+        "values" : [
+            ["iv_postman_site", "iv_postman_location", "red"],
+            ["iv_postman_site", "iv_postman_location", "blue"],
+        ]
+    },
+    "groupByValues": ["colorId", "sizeId"],
+    "returnNegative": true
+}
+```
+
+Aşağıdaki örnekte, birden çok tesis ve konumdaki tüm ürünlerin nasıl sorgulanacağı gösterilmektedir.
+
+```json
+{
+    "filters": {
+        "organizationId": ["SCM_IV"],
+        "productId": [],
+        "dimensions": ["siteId", "locationId"],
+        "values" : [
+            ["iv_postman_site_1", "iv_postman_location_1"],
+            ["iv_postman_site_2", "iv_postman_location_2"],
+        ]
+    },
+    "groupByValues": ["colorId", "sizeId"],
+    "returnNegative": true
+}
 ```
 
 ## <a name="available-to-promise"></a>Karşılanabilir miktar

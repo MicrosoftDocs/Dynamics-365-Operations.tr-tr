@@ -1,7 +1,7 @@
 ---
 title: SEPA kredi transferine genel bakış
 description: Bu makale, Tek Euro Ödeme Bölgesi (SEPA) kredi transferleri ve satıcılar için diğer elektronik ödemeleri içeren ISO 20022 kredi transferleri hakkında genel bilgi sağlar.
-author: sunfzam
+author: mrolecki
 ms.date: 06/20/2017
 ms.topic: overview
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3f0c428d9167e9f1a7fb17a292d474448b2d4df
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 671594b1ac6f10fae7c95ed9210e16f168e8dea1
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871463"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716087"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredi transferine genel bakış
 

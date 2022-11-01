@@ -2,7 +2,7 @@
 title: Günlük girişlerini veya hareketlerini görüntüleme
 description: Bu makalede, günlük girişlerini ve hareketleri görüntüleyebileceğiniz çeşitli yollar açıklanmaktadır.
 author: aprilolson
-ms.date: 08/01/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8549df3fcf65769768e3f7dd41c4d7275a1911b5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 71491e3fbe09314ec41652fa41c2e037520ee332
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907877"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715260"
 ---
 # <a name="view-journal-entries-and-transactions"></a>Günlük girişlerini veya hareketlerini görüntüleme
 

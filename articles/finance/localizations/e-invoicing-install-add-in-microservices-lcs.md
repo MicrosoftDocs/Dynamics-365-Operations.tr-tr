@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: a837b85d4893f2915b5fbb5ffaae8eb95f19bc0e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 938b00192acc0ff5534239f2f280792471181fad
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272287"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710821"
 ---
 # <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Lifecycle Services'de mikro hizmetler için eklentiyi yükleme
 
@@ -35,7 +35,7 @@ Ortamı kaydetmek için şu adımları izleyin.
 2. Projedeki **Ortamlar** panosunda dağıtılan ortamınızı seçin. Seçtiğiniz ortamın çalışıyor olması gerekir.
 3. **Power Platform Tümleştirme** sekmesinde, **Ortam eklentileri** bölümünde, **Yeni eklenti yükle**'yi seçin.
 4. **Elektronik Faturalama**'yı seçin.
-5. **AAD uygulama kodu** alanına şunu girin: **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Bu değer sabit bir değerdir. Yalnızca bir genel benzersiz tanımlayıcı (GUID) girdiğinizden emin olun. Boşluk, virgül, nokta veya tırnak işareti gibi başka semboller eklemeyin.
+5. **AAD uygulaması kodu** alanına **091c98b0-a1c9-4b02-b62c-7753395ccabe** sabit değerini girin. Bu değer her zaman sabittir. Yalnızca bir genel benzersiz tanımlayıcı (GUID) girdiğinizden emin olun. Boşluk, virgül, nokta veya tırnak işareti gibi başka semboller eklemeyin.
 6. **AAD kiracı kimliği** alanında, Azure abonelik hesabınızın kiracı kimliğini girin. Belirttiğiniz Azure Active Directory (Azure AD) kiracısı, Regulatory Configuration Service (RCS) için kullanılan kiracıyla aynı olmalıdır.
 7. Hüküm ve koşulları inceleyin ve ardından onay kutusunu seçin.
 8. **Yükle**'yi seçin. Birkaç dakika sonra, durum **Yükleniyor** yerine **Yüklü** olarak değişmelidir. Bu değişikliği görmek için sayfayı yenilemeniz gerekebilir.

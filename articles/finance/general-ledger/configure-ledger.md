@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d15980b05cfac68f2e2441c86b4506c13b38b4d5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14d6ba013a93756f86e959756dd3073851881095
+ms.sourcegitcommit: c6c2486be2359bd30106f7f52bda788239147d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864353"
+ms.lasthandoff: 10/22/2022
+ms.locfileid: "9713902"
 ---
 # <a name="configure-ledgers"></a>Genel muhasebe defterlerini yapılandırma
 
@@ -42,7 +42,7 @@ Dynamics 365 Finance'te her tüzel kişilik bir veya daha fazla hesap yapısın�
 
 Birden fazla hesap yapınız varsa yalnızca ana firmaların ve mali boyutların örtüşen birleşimlerine sahip olmayan hesap yapılarını seçebilirsiniz. Örneğin, hesap yapılarınızdan birinin 1000 ile 1999 arasındaki ana hesaplar için iş birimi ekleyecek şekilde yapılandırıldığını düşünelim. Başka bir hesap yapısında, 1 ile başlayan ana hesaplar için bir Departman mali boyutu eklediniz. Bu durumda, hesap yapılarından yalnızca biri aynı tüzel kişiliğe eklenebilir.
 
-Genel muhasebe defterinizin hesap yapılarını yapılandırmak için **Genel muhasebe** sayfasındaki **Hesap yapıları** hızlı sekmesinde **Ekle**'yi seçin, listeden bir hesap yapısı seçin ve ardından **Seç**'i belirleyin. Hesap yapılarının eklenmesi ve kaydedilmesi birkaç dakika sürebilir. Seçtiğiniz hesap yapılarının etkin olması gerektiğini unutmayın. Aksi takdirde, hesap yapılarının ayrıntıları bağlı oldukları tüzel kişiliklerde etkili olmayacaktır.
+Genel muhasebe defterinizin hesap yapılarını yapılandırmak için **Genel muhasebe** sayfasındaki **Hesap yapıları** hızlı sekmesinde **Ekle**'yi seçin, listeden bir hesap yapısı seçin ve ardından **Seç**'i belirleyin. Hesap yapılarının eklenmesi ve kaydedilmesi birkaç dakika sürer. Değiştirilen hesap yapısı genel muhasebeye kaydedildiğinde deftere nakledilmeyen tüm hareketleri eşitleme işlemi başlar. Başka bir tüzel kişilikteki genel muhasebe için hesap yapısı değişikliği yapmadan önce değişikliğin yapıldığı tüzel kişilikteki mevcut genel muhasebe için değişikliğin tamamlanmasını beklemeniz gerekir. Seçtiğiniz hesap yapılarının etkin olması gerektiğini unutmayın. Aksi takdirde, hesap yapılarının ayrıntıları bağlı oldukları tüzel kişiliklerde etkili olmayacaktır.
 
 Hesap yapısını kaldırmak için **Genel muhasebe** sayfasındaki **Hesap yapıları** hızlı sekmesinde **Kaldır**'ı seçin. Genel muhasebenizden bir hesap yapısını kaldırırsanız bu hesap yapısının yapılandırması kullanılarak deftere nakledilen hareketleri kaldırmazsınız.
 
@@ -70,7 +70,7 @@ Dengeleme girişleri hakkında daha fazla bilgi için bkz. [Birimlerarası muhas
 
 **Genel muhasebe** sayfası, hareketler genel muhasebe defterine nakledilirken kullanılacak para birimlerini kontrol etmek ve tanımlamak için de kullanılır. Tüm fişlerdeki genel muhasebede **Muhasebe para birimi** sütununda kullanılan para birimi olan muhasebe para birimini belirtmeniz gerekir. Ayrıca, **Raporlama para birimi** sütununda isteğe bağlı olarak ikinci bir para birimi seçebilirsiniz. Bir raporlama para birimi seçerseniz, hareketler tüm fişlerde genel muhasebede yer alan **Raporlama birimi** sütununda bu para birimiyle kaydedilir.
 
-Hareketler farklı bir para birimiyle deftere nakledilmişse sistem, otomatik olarak fişte hareket tutarını hareket para biriminden muhasebe para birimine ve raporlama para birimine çevirir. **Genel muhasebe** sayfasındaki **Muhasebe para birimi döviz kuru türü** alanında, fişte değerleri hareket para biriminden muhasebe para birimine dönüştürmek için kullanılması gereken döviz kurları için yapılandırılan döviz kuru türünü seçin. Bir raporlama para birimi seçtiyseniz, fişte değerleri hareket para biriminden raporlama para birimine dönüştürmek için kullanılması gereken döviz kurunu belirtmek üzere **Raporlama para birimi döviz kuru türü** alanını da ayarlamanız gerekir.
+Hareketler farklı bir para birimiyle deftere nakledilirse sistem, otomatik olarak fişte hareket tutarını hareket para biriminden muhasebe para birimine ve raporlama para birimine çevirir. **Genel muhasebe** sayfasındaki **Muhasebe para birimi döviz kuru türü** alanında, fişte değerleri hareket para biriminden muhasebe para birimine dönüştürmek için kullanılması gereken döviz kurları için yapılandırılan döviz kuru türünü seçin. Bir raporlama para birimi seçtiyseniz, fişte değerleri hareket para biriminden raporlama para birimine dönüştürmek için kullanılması gereken döviz kurunu belirtmek üzere **Raporlama para birimi döviz kuru türü** alanını da ayarlamanız gerekir.
 
 Bütçeleme işlevi kullanıyorsanız bütçe hareketlerini bir para biriminden diğerine dönüştürmek için kullanılacak döviz kurunu belirtmek için **Bütçe döviz kuru türü** alanını da ayarlayabilirsiniz.
 

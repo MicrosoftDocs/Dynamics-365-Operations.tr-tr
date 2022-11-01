@@ -1,7 +1,7 @@
 ---
 title: Satınalma girişlerinde proje maliyeti tahakkuku
 description: Bu makalede, satın alma girişlerinden tahakkuk eden proje maliyetlerinin Microsoft Dynamics 365 Finance'te nasıl izlenebileceği açıklanmaktadır.
-author: sunfzam
+author: mukumarm
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: twheeloc
 ms.custom: 266984
 ms.assetid: 61e7d2a3-5aab-4113-bccc-213f932885d2
 ms.search.region: Global
-ms.author: sigitac
+ms.author: mukumarm
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a138fd41269fad2e9ac489664ca81c3ee12f830d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 56b8b5a6f91c6a18b53739b1e9369bda64131a06
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856871"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715869"
 ---
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Satınalma girişlerinde proje maliyeti tahakkuku
 
