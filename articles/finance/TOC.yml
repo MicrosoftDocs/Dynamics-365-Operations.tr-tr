@@ -692,21 +692,15 @@
               items:
                 - name: Gelişmiş banka mutabakatı kurulum süreci
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
-                - name: Gelişmiş banka mutabakatı içeri aktarma sürecini ayarlama
-                  href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
                 - name: Elektronik raporlamayı kullanarak gelişmiş banka mutabakatı içeri aktarma sürecini ayarlama
                   href: accounts-payable/import-bai2-er.md
                 - name: Banka mutabakatı eşleştirme kurallarını ayarlama
                   href: cash-bank-management/set-up-bank-reconciliation-matching-rules.md
                 - name: Gelişmiş banka mutabakatı kullanarak banka ekstreleri arasında mutabakat sağlama
                   href: cash-bank-management/reconcile-bank-statements-advanced-bank-reconciliation.md
-                - name: Gelişmiş banka mutabakatı MT940 İçeri Aktarma – Birleşik veri varlığı yükseltme
-                  href: cash-bank-management/advanced-bank-reconciliation-mt940-data-entity-upgrade-steps.md
                 - name: Gelişmiş banka mutabakatına genel bakış
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
-                - name: Banka ekstresi dosyasını içeri aktarma sorunlarını giderme
-                  href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
-                - name: Banka günlüğü bileşik varlığını güncelleme
+                - name: Banka günlüğü bileşik varlığını güncelleştirme
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: Maliyet muhasebesi
           items:

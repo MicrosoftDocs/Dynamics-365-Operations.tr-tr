@@ -2239,9 +2239,19 @@
                   href: procurement/tasks/create-purchasing-policies.md
                 - name: Tedarik kategorisi hiyerarşileri için ilkeler ayarlama
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
+            - name: Tedarik riski değerlendirmesi
+              items:
+                - name: Tedarik riski değerlendirmesine genel bakış
+                  href: procurement/supply-risk-assessment-overview.md
+                - name: Tedarik riski değerlendirmesi yapılandırma
+                  href: procurement/supply-risk-assessment-configuration.md
+                - name: Tedarikçi risklerini keşfetmek ve işlemek için işlem yapılabilir çalışma alanı
+                  href: procurement/supply-risk-assessment-workspace.md
+                - name: Risk analizi ve performans derecelendirmesi için Power BI raporları
+                  href: procurement/supply-risk-assessment-reports.md
             - name: Ürün girişleri ve faturalama
               items:
-                - name: Ürün girişi ve satınalma siparişleri karşılaştırması
+                - name: Ürün girişi ve satın alma siparişleri karşılaştırması
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: Satıcı faturalarına genel bakış
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?context=/dynamics365/context/supply-chain

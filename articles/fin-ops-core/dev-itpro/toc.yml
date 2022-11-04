@@ -332,14 +332,18 @@
                       href: deployment/infrastructure-stack.md
                     - name: Yeni bir ortam dağıtma
                       href: deployment/deployenvironment-newinfrastructure.md
-                    - name: Dağıtma ile ilgili SSS
+                    - name: Dağıtım ile ilgili SSS
                       href: deployment/deploymentFAQ.md
+                    - name: Ortam geçirme
+                      href: deployment/geo-to-geo-migrations.md
                     - name: Self servis dağıtımla ilgili bilinen sorunlar
                       href: deployment/known-issues-new-deployment-experience.md
                     - name: Dağıtımlar için bakım işlemleri
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
-                    - name: Ortam güncelleme
+                    - name: Ortam güncelleştirme
                       href: deployment/updateenvironment-newinfrastructure.md
+                    - name: Ortam geçirme
+                      href: deployment/geo-to-geo-migrations.md
                     - name: Self servis dağıtımla dağıtılan ortamlarda sorun giderme
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: Self servis ortamlarda planlı bakım ile ilgili SSS
@@ -972,6 +976,8 @@
               href: lifecycle-services/lcs-user-guide.md
             - name: Proje ekleme
               href: lifecycle-services/project-onboarding.md
+            - name: Proje geçişi yöneticisi
+              href: lifecycle-services/project-migration-manager.md
             - name: Abonelik tahmin aracı
               href: lifecycle-services/subscription-estimator.md
             - name: Güvenliği yapılandırma

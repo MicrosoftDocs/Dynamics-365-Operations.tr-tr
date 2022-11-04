@@ -4,6 +4,18 @@
       items:
         - name: Dynamics 365 Human Resources giriş sayfası
           href: index.md
+        - name: Human Resources altyapısını birleştirme
+          items:
+            - name: Human Resources altyapısını birleştirmeye genel bakış
+              href: hr-infrastructure-merge.md
+            - name: Human Resources altyapısı müşteri geçişi
+              href: hr-cust-migration.md
+            - name: Human Resources altyapısını birleştirme ile ilgili SSS
+              href: hr-infrastructure-merge-faq.md
+            - name: Human Resources müşteri geçişi ile ilgili SSS
+              href: customer-migration.md
+            - name: Human Resources altyapısını birleştirmeyle ilgili bilinen sorunlar
+              href: hr-migration-issues.md
         - name: Yenilikler veya değişiklikler
           items:
             - name: Finans ve operasyon uygulamalarındaki yenilikler veya değişiklikler
@@ -242,10 +254,6 @@
                   href: hr-admin-go-live-prepare.md
                 - name: Servise alma ile ilgili SSS
                   href: hr-admin-go-live-faq.md
-                - name: Human Resources altyapısını birleştirme ile ilgili SSS
-                  href: hr-infrastructure-merge-faq.md
-                - name: Human Resources müşteri geçişi ile ilgili SSS
-                  href: customer-migration.md
                 - name: Belge kaynakları
                   items:
                     - name: Yardım sistemi

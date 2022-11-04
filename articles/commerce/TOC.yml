@@ -256,8 +256,6 @@
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Commerce mağaza içi teknoloji yığınını modernleştirme (teknik inceleme)
                   href: 'https://www.microsoft.com/download/details.aspx?id=103896'
-                - name: Commerce için çevrimdışı uygulama ve sorun giderme
-                  href: dev-itpro/implementation-considerations-offline.md
                 - name: Çevrimiçi mağaza kataloğu yayımlama
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Retail Channel Performance Power BI içeriği
@@ -396,12 +394,16 @@
                   items:
                     - name: Store Commerce uygulaması
                       href: dev-itpro/store-commerce.md
+                    - name: Store Commerce uygulaması özellikleri
+                      href: store-commerce-capabilities.md
                     - name: Mobil platformlar için Store Commerce uygulaması
                       href: dev-itpro/store-commerce-mobile.md
                     - name: Modern POS'u Store Commerce'e geçirme
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Cihaz yönetimi uygulama kılavuzu
                       href: implementation-considerations-devices.md
+                    - name: Commerce için çevrimdışı uygulama ve sorun giderme
+                      href: dev-itpro/implementation-considerations-offline.md
                     - name: Store Commerce ve Cloud POS arasında seçim yapma
                       href: MPOS-or-CPOS.md
                     - name: Çevrimiçi ve çevrimdışı POS işlemleri
