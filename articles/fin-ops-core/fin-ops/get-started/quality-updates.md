@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 60f9d84b240016671ff726fc3cca2e02cfd811ca
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: da5881a901d3ba4d01e6d4510a53ca079efd7e75
+ms.sourcegitcommit: c8b97eea28f07b6b179825f3b134c8c8704ff8fc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689240"
+ms.lasthandoff: 10/29/2022
+ms.locfileid: "9731623"
 ---
 # <a name="proactive-quality-updates"></a>Proaktif kalite güncelleştirmeleri
 
@@ -40,13 +40,13 @@ Kalite güncelleştirmelerinin proaktif şekilde teslim edilmesini sağlayan bir
 
 - **Sıfıra yakın kesinti güncelleştirmesi**: Daha sık kullanılan ortamlara gönderim yapmak için, Dynamics 365 Hizmet Düzeyi Sözleşmlerini (SLA'ları) korumak açısından ortam kullanılabilirliği üzerindeki etkinin azaltılması temeldir. Sıfıra yakın kesinti güncelleştirmesi, başlangıçta güncelleştirilen görüntüyü minimum kesintiyle etkinleştirmek için yük devretme kümesi kullanarak aylık işletim sistemi düzeltme eki uygulamasını geliştirmek amacıyla sunulmuştur. Güncelleştirmeleri uygulama mekanizması daha az kesintiye uğramasını sağlayacak şekilde geliştirilmiştir ve hem işletim sistemi düzeltme eki uygulamasını hem de kalite güncelleştirmesi dağıtımını kapsar.
 
-    Etkileşimli kullanıcılar için, etkin bir oturum yarıda kesilebilir ve yeniden deneme şimdi güncelleştirilmiş ortama gider. Şu anda kullanmayı tercih etme esasıyla sunulan [Öncelik temelli toplu iş planlamanın](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md) kullanıma sunulmasıyla toplu iş planlama ve işleme kurtarır ve güncelleştirmeden hemen sonra sürdürülür. Öncelik temelli toplu iş planlama, müşterilere üretim ortamları için proaktif kalite güncelleştirmeleri dağıtımına katılmaya başlamadan önce gerçekleştirilecektir.
+Etkileşimli kullanıcılar için, etkin bir oturum yarıda kesilebilir ve yeniden deneme şimdi güncelleştirilmiş ortama gider. [Öncelik temelli toplu iş planlamanın](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md) kullanıma sunulmasıyla toplu iş planlama ve işleme kurtarır ve güncelleştirmeden hemen sonra sürdürülür. Öncelik temelli toplu iş planlama, müşterilere üretim ortamları için proaktif kalite güncelleştirmeleri dağıtımına katılmaya başlamadan önce gerçekleştirilecektir.
 
 - **Karanlık saatler**: Karanlık saatler her Azure bölgesi için tanımlanmıştır ve neredeyse sıfır kesinti süresi güncelleştirmeleri karanlık saat döneminde gerçekleştirilecektir.
 
 ## <a name="the-proactive-update-process"></a>Proaktif güncelleştirme işlemi
 
-Proaktif kalite güncelleştirmeleri dağıtımı, güvenli bir dağıtım işlemini (SDP) izleyecektir. SDP özellikleri geliştirilecektir ancak kalite güncelleştirmeleri öncelikle korumalı alan ortamlarına dağıtılacaktır. Süreç, erken dağıtım için kabul edilen ortamlarla başlayacaktır. Başarıyla dağıtım yapılan korumalı alanların yüzdesi arttıkça, üretim ortamlarına dağıtım süreci başlayacaktır. Tekrar belirtirmek isteriz ki süreç erken dağıtım için kabul edilen ortamlarla başlayacaktır. Dinleme sistemleri, sistem telemetrisini ve canlı site olaylarını izleyecek ve herhangi bir gerileme algılanırsa belirli bir sürümün dağıtımızını durduracaktır. Müşteriler yine de istemeleri durumunda kalite güncelleştirmelerini proaktif dağıtımdan önce çekebilecektir.
+Proaktif kalite güncelleştirmeleri dağıtımı, güvenli bir dağıtım işlemini (SDP) izleyecektir. SDP özellikleri geliştirilecektir ancak kalite güncelleştirmeleri öncelikle korumalı alan ortamlarına dağıtılacaktır. Başarıyla dağıtım yapılan korumalı alanların yüzdesi arttıkça, üretim ortamlarına dağıtım süreci başlayacaktır. Dinleme sistemleri, sistem telemetrisini ve canlı site olaylarını izleyecek ve herhangi bir gerileme algılanırsa belirli bir sürümün dağıtımızını durduracaktır. Müşteriler yine de istemeleri durumunda kalite güncelleştirmelerini proaktif dağıtımdan önce çekebilecektir.
 
 Geçerli sürüm yönetimi verileri, kalite güncelleştirmelerinde gerilemelerin yüzde 3'ten azının sunulduğunu göstermektedir. Gerilemeyi ortadan ve geliştirilmiş bir SDP'ye odaklanmanın artırılamasıyla gerilemelerin olası etkisi, müşterilere genel olarak dağıtılmış düzeltmelerle elde edilen kalite kazançlarına göre önemli ölçüde daha düşük olacaktır.
 
@@ -92,13 +92,13 @@ Her bölgenin aktif olunmayan saatleri hakkında bilgi için bkz. [Bölgeye gör
 **Uygulama sürümü: 10.0.1326.70**
 **İlgili son BB makalesini: 748926**
 
-| İstasyon | Bölgeler | Yaklaşan Korumalı Alan Zamanlaması
-|---|---|---|
-| 1. İstasyon | Merkez Kanada, Doğu Kanada, Merkez Fransa, Merkez Hindistan, Doğu Norveç, Batı İsviçre | 14 Ekim ile 17 Ekim 2022 tarihleri arasında |
-| 2. İstasyon | Güney Fransa, Güney Hindistan, Batı Norveç, Kuzey İsviçre, Kuzey Güney Afrika, Doğu Avustralya, Güney Birleşik Krallık, Kuzey BAE, Doğu Japonya, Güneydoğu Avustralya, Güney Doğu Asya | 15 Ekim ile 18 Ekim 2022 tarihleri arasında |
-| 3. İstasyon | Doğu Asya, Batı Birleşik Krallık, Batı Japonya, Güney Brezilya, Batı Avrupa, Doğu ABD, Merkez BAE | 16 Ekim ile 19 Ekim 2022 tarihleri arasında |
-| 4. İstasyon | Kuzey Avrupa, Orta ABD, Batı ABD | 17 Ekim ile 20 Ekim 2022 tarihleri arasında |
-| 5. İstasyon | DoD, Hükümet Topluluk Bulutu, Çin | Planlanmadı |
+| İstasyon | Bölgeler | Tamamlanmış Zamanlama | Yaklaşan Korumalı Alan Zamanlaması|
+|---|---|---|---|
+| 1. İstasyon | Merkez Kanada, Doğu Kanada, Merkez Fransa, Merkez Hindistan, Doğu Norveç, Batı İsviçre | 14 Ekim ile 17 Ekim 2022 tarihleri arasında | 2 Kasım-5 Kasım 2022 |
+| 2. İstasyon | Güney Fransa, Güney Hindistan, Batı Norveç, Kuzey İsviçre, Kuzey Güney Afrika, Doğu Avustralya, Güney Birleşik Krallık, Kuzey BAE, Doğu Japonya, Güneydoğu Avustralya, Güney Doğu Asya | 15 Ekim ile 18 Ekim 2022 tarihleri arasında | 2 Kasım-5 Kasım 2022 |
+| 3. İstasyon | Doğu Asya, Batı Birleşik Krallık, Batı Japonya, Güney Brezilya, Batı Avrupa, Doğu ABD, Merkez BAE | 16 Ekim ile 19 Ekim 2022 tarihleri arasında | 2 Kasım-5 Kasım 2022 |
+| 4. İstasyon | Kuzey Avrupa, Orta ABD, Batı ABD | 17 Ekim ile 20 Ekim 2022 tarihleri arasında | 2 Kasım-5 Kasım 2022 |
+| 5. İstasyon | DoD, Hükümet Topluluk Bulutu, Çin | Planlanmadı | Planlanmadı |
 
 > [!IMPORTANT] 
 > Microsoft, beş gün öncesinde önceki zamanlamayı güncelleştirecek ve kalite güncelleştirmelerini almak üzere zamanlanan ortamlara e-posta bildirimi gönderecektir. Önceki zamanlama, yalnızca yaklaşan güncelleştirmeyle ilgili bildirim almış ortamlar için geçerlidir. Her bölgenin aktif olunmayan saatleri hakkında bilgi için bkz. [Bölgeye göre planlanmış bakım süreleri nelerdir?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8a6f883da07bd1d3a6b0379f1582dc8556e166ff
-ms.sourcegitcommit: 9310c943ac76896663e5604209034da9f8d6139c
+ms.openlocfilehash: 0e11d26ebe084762a8616c8aa0aa041a87306473
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151093"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734371"
 ---
 # <a name="human-resources-customer-migration"></a>Human Resources müşteri geçişi
 
@@ -40,7 +40,7 @@ Finans ve operasyon altyapısında başka uygulamalar kullanan müşteriler, İn
 Her şirket için geçiş, şirketin geçerli yapılandırmasına ve finans ve operasyon altyapısına geçişe hazır olup olmadığına bağlıdır. Müşterilerin ileriye dönük en iyi yolu belirlemek için Microsoft iş ortaklarıyla birlikte çalışmalarını öneririz.
 
 - Dynamics 365 Finance içindeki **İnsan Kaynakları** modülünü kullanan kuruluşlar, düzenli Tek Sürüm güncelleştirme işleminin parçası olarak Dynamics 365 Human Resources'tan yeni yetenekleri etkinleştirebilecek. Yeni özelliklerin Ocak 2022'den başlayarak genel kullanıma sunulması planlanmaktadır.
-- Dynamics 365 Human Resources kullanan kuruluşların, altyapı birleştirmeyi tamamlamak için kullanabileceği araç erişimleri olacak. Microsoft, hizmette herhangi bir kesinti oluşmasını engellemeye yardımcı olmak için geçiş sırasında müşterilerle birlikte çalışacak. Geçiş aracının kullanılabilir olduğu zamandan başlayarak, müşterilerin geçişi yapması için 12 ile 18 ay arasında bir süre verilecek.
+- Dynamics 365 Human Resources kullanan kuruluşların, altyapı birleştirmeyi tamamlamak için kullanabileceği araç erişimleri olacak. Microsoft, hizmette herhangi bir kesinti oluşmasını engellemeye yardımcı olmak için geçiş sırasında müşterilerle birlikte çalışacak. Geçiş aracının kullanılabilir olduğu zamandan başlayarak, müşterilerin geçişi yapması için 12 ay arasında bir süre verilecek.
 - Hem Dynamics 365 Human Resources hem de **İnsan Kaynakları** modülünü kullanan kuruluşlar, tek başına İnsan Kaynakları altyapısını finans ve operasyon altyapısına taşıyabilir. Başka bir seçenek de, ortamları tek bir ortama getirmek için birleştirme aracını kullanmaktır. İki ortamı birleştirmek için bir gereksinim veya zaman çerçevesi yok.
 
 Güncel bilgiler için, [Yayın planlarını](/dynamics365/release-plans/) düzenli olarak denetleyin.
@@ -166,4 +166,4 @@ Microsoft, birleştirme işlemine yardımcı olmak üzere, FastTrack aracılığ
 
 ## <a name="licensing-impact"></a>Lisanslama etkisi
 
-Lisanslamanın nasıl etkilendiği hakkında daha fazla bilgi için bkz. [Dynamics 365 Human Resources altyapı birleştirmesi SSS](hr-infrastructure-merge-faq.md#licensing-impact).
+Lisanslamanın nasıl etkilendiği hakkında daha fazla bilgi için bkz. [Dynamics 365 Human Resources altyapı birleştirmesi](hr-infrastructure-merge.md#licensing).

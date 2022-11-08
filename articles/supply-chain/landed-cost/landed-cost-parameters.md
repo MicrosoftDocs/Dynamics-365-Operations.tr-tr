@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 99dbe17d4e83c2c75d52ca3fd22a1772d8045355
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 609403b251338b7e792f3ab624fb37a1833c919b
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871992"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725534"
 ---
 # <a name="landed-cost-parameters-setup"></a>Varış yeri maliyeti parametreleri kurulumu
 
@@ -125,14 +125,11 @@ Bu sekmedeki ayarlar, tüzel kişilikler arasında belirlenen her sayfa için va
 
 **Varış yeri maliyeti parametreleri** sayfasının **Numara serileri** sekmesi, Varış yeri maliyetinin gerektirdiği ancak tüzel kişilikler arasında paylaşılmayan her referans numara serisinin türünü listeler. Listedeki her referans için bir numara serisi kodu seçin.
 
-> [!NOTE]
-> Çok şirketli bir yapılandırmada, her şirket (tüzel kişilik) için farklı numara serileri oluşturulmalıdır.
 
 ## <a name="shared-number-sequences-tab"></a>Paylaşılan numara serileri sekmesi
 
 **Varış yeri maliyeti parametreleri** sayfasının **Paylaşılan numara serileri** sekmesi, Varış yeri maliyeti için tüzel kişilikler arasında paylaşılan her referans numara serisi türünü listeler. Şu anda, listede yalnızca bir numara serisi vardır. Bu numara serisi seyahat kimliği için kullanılır.
 
-**Tüm seyahatler** sayfasında, kullanıcılar tüm tüzel kişiliklerdeki tüm seyahatleri görüntüleyebilir. Ancak, bir seyahati düzenlemek ve işlemek için kullanıcıların seçilen kaydın tüzel kişiliğinde olması gerekir.
 
 ## <a name="feature-visibility-tab"></a>Özellik görünürlüğü sekmesi
 

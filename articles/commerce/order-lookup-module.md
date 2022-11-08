@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: 8c60ed0c334bf09916dd633302c6d813ea6f16b6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: a891de4a1da6641a02b8316d16ac2e9a8180fac1
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281467"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734264"
 ---
 # <a name="order-lookup-module"></a>Sipariş arama modülü
 
@@ -44,6 +44,12 @@ Aşağıdaki şekilde, sipariş arama modülü tarafından oluşturulan formun b
 ## <a name="add-an-order-lookup-module-to-a-page"></a>Sayfaya sipariş arama modülü ekleme
 
 Sipariş arama modülü e-ticaret sitenizin herhangi bir sayfasının gövdesine eklenebilir. Konuk ödemeleri için sipariş aramayı etkinleştirmek için sipariş arama modülünü kullanmak istiyorsanız bunu kullanıcının oturum açmasını gerektirmeyen bir sayfaya eklediğinizden emin olun. Commerce site oluşturucu ağaç görünümünde bir sayfanın **Oturum açılması gerekiyor mu?** ayarını bulmak için **Varsayılan sayfa (Gerekli)** yuvasını seçin ve sağ bölmenin altına bakın.
+
+
+> [!NOTE]
+> Sipariş arama özelliğini etkinleştirmek için, **Lisans yapılandırması** > **Yapılandırma anahtarları** altında **Teklifler** anahtarının etkinleştirildiğinden emin olun.
+>
+> ![Teklif lisans anahtarı konfigürasyonu etkinleştirilmelidir](./media/Quotations_License_Key_Configuration.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

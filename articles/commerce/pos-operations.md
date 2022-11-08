@@ -2,7 +2,7 @@
 title: Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri
 description: Bu makale, Dynamics 365 Commerce içinde satış noktası (POS operasyonları hakkında bilgi verir). Uygulamada işlemlerin nereden çağrılabileceğini ve çevrimdışı modda kullanılabilir olup olmadığını belirtir.
 author: josaw1
-ms.date: 05/27/2022
+ms.date: 10/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 39f827d759f37daf056ff2df6284dda3db113c7f
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 42010bbc0cfb9714fc2be360c817bad07e184eb3
+ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272862"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728289"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri
 
@@ -101,7 +101,7 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 | 212  | Filo kartı bilgileri                                   | Bu işlem desteklenmez.                                                                                                                                                                                | Uygulanamaz | Uygulanamaz     | Uygulanamaz | Uygulanamaz    | Uygulanamaz  |
 | 213  | Alacak Faturasıyla Ödeme                                   | Mağaza tarafından verilen alacak faturasını (fiş) kabul edin.                                                                                                                                                          | Evet            | Evet                | No.             | No.                | No.              |
 | 214  | Hediye kartıyla ödeme                                     | Mağazanın verdiği hediye kartını kabul edin.                                                                                                                                                                      | Evet            | Evet                | No.             | No.                | No.              |
-| 215  | Hediye kartını nakde çevir                                | Bu işlem desteklenmez.                                                                                                                                                                                | Evet            | Evet                | No.             | No.                | No.              |
+| 215  | Hediye kartını nakde çevir                                | Tüm hediye kartı kalan bakiyesi ile ilgili olarak, konfigüre edilen nakit sınırı dahilinde alacak hareketi.                                                                                                                                                                              | Evet            | Evet                | No.             | No.                | No.              |
 | 216  | Kartla tam ödeme                                    | Bu işlem desteklenmez.                                                                                                                                                                                | Uygulanamaz | Uygulanamaz     | Uygulanamaz | Uygulanamaz    | Uygulanamaz  |
 | 217  | Çekle tam ödeme                                   | Bu işlem desteklenmez.                                                                                                                                                                                | Uygulanamaz | Uygulanamaz     | Uygulanamaz | Uygulanamaz    | Uygulanamaz  |
 | 218  | Müşteri hesabıyla tam ödeme                        | Bu işlem desteklenmez.                                                                                                                                                                                | Uygulanamaz | Uygulanamaz     | Uygulanamaz | Uygulanamaz    | Uygulanamaz  |

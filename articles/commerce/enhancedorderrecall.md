@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3723b40209ee1f8fb0ef77cb1ad52d123ff2a02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0624c251646110644a8a72658a6dd6f8d319c57f
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869474"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734307"
 ---
 # <a name="recall-order-operation-in-pos"></a>Satış noktasında sipariş işlemini geri çekme
 
@@ -65,5 +65,11 @@ Uygulama çubuğunda, kullanıcı bir operasyon seçebilir. Siparişin durumuna 
 ## <a name="add-notifications-to-the-recall-order-operation"></a>Sipariş geri çekme işlemine bildirim ekleme
 
 İsterseniz, 10.0.18 ve sonrasında **sipariş geri çağırma** işlemi için POS bildirimleri canlı kutucuk uyarıları yapılandırabilirsiniz. Daha fazla bilgi için, bkz. [Satış noktasında (POS) sipariş bildirimlerini gösterme](notifications-pos.md).  
+
+> [!NOTE]
+> Sipariş arama özelliğini etkinleştirmek için, **Lisans yapılandırması** > **Yapılandırma anahtarları** altında **Teklifler** anahtarının etkinleştirildiğinden emin olun.
+>
+> ![Teklif lisans anahtarı konfigürasyonu etkinleştirilmelidir](./media/Quotations_License_Key_Configuration.png)
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

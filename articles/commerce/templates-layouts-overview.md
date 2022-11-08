@@ -2,7 +2,7 @@
 title: Şablonlar ve düzenlere genel bakış
 description: Bu makale Microsoft Dynamics 365 Commerce'te şablonlarını ve düzenlerini kapsamaktadır.
 author: phinneyridge
-ms.date: 12/12/2019
+ms.date: 10/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: e0bf7e942339775b2e9ee15060d555be07c1cdc5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0664dd1ae06d09557cf8b8ec58baf6d27c1198bd
+ms.sourcegitcommit: 023ae5557e1351a8329a59a41a551e8901db99a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277946"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9733397"
 ---
 # <a name="templates-and-layouts-overview"></a>Şablonlar ve düzenlere genel bakış
 
@@ -66,7 +66,13 @@ Bu örnekteki şablon, aşağı akış içerik yazarları için basit bir yapıy
 
 Site ve marka yöneticileri için önemli bir başlangıç adımı, alt düzen ve sayfa yazarları için sınırlama ve esneklik arasındaki doğru dengeyi belirlemektir. Şablonlar kullanıldığında, bu bakiye tamamen konfigüre edilebilir. Sayfa öğelerinin merkezi olarak (şablonda kilitli) veya sayfa hiyerarşisinde alt düzeylerin soluna güncelleştirilip güncelleştirilmediğini etkiler.
 
-Şablonları kullanmaya başlamak için [şablonlarla çalışın](work-with-templates.md).
+### <a name="relationship-between-template-defaults-and-page-content"></a>Şablon varsayılanları ve sayfa içeriği arasındaki ilişki
+
+Bir şablonun birincil işlevi, bir sayfa oluşturulduğunda modül yazma deneyimini yerine getirmek içindir. Bir şablonda modül varsayılanları ayarlandığında veya hatta kilitlense bile, sayfanın hangi sırada düzenlenmediği dışında, bir sayfanın modül konfigürasyonlarının şablon varsayılanlarına daha fazla veri bağlantısı yoktur. Şablonları sayfa yapısı için yazma deneyimini denetler ve bir sayfa oluşturulduktan sonra, şablon varsayılan değerleri artık o sayfadaki yerelleştirilebilir içeriğe bağlı olmaz. Başka bir deyişle, bir şablonda ayarlanan modül varsayılanları, alt sayfalar için yazma deneyimini denetler. Sayfalar oluşturulduktan ve düzenlendikten sonra bu sayfalardaki içeriği denetlemezler.
+
+Önceden açıklanan davranışa yönelik tek özel durum, bir şablona bir [parça](work-with-fragments.md) eklendiğinde oluşur. Parçalar, belirli bir şablondan bir kaç sayfa oluşturulduktan sonra bile, bir şablonun tüm alt sayfalarına veya mizanpajına, yerelleştirilebilir içeriği dinamik olarak eklemek veya düzenlemek için kullanılabilir. Yerelleştirilebilir içeriğin tüm alt sayfalarda dinamik olarak eklenmesi, kaldırılması veya düzenlenmesi gerektiğinde, şablonların ve düzenlerdeki parçaları kullanmak en iyi yöntemdir. Örneğin, üstbilgiler, altbilgiler, ortak meta veriler/komut dosyaları veya merkezi olarak düzenlenebilecek ve tüm alt sayfalarda aynı olması gereken diğer içerikler için parçalar kullanılmalıdır. Parçalar tüm alt sayfalardaki içeriği denetlemek için şablonların ve mizanpajların kullanılmasını sağlar.
+
+Şablonları kullanmaya başlamak için bkz. [Şablonlarla çalışın](work-with-templates.md).
 
 ## <a name="layouts"></a>Düzenler
 
@@ -96,7 +102,7 @@ Sitenizdeki düzenler *önceden ayarlanmış* veya *özel* olabilir:
 
 Hazır ayar düzeni ve özel mizanpajlar, yazma araç takımının farklı bölümlerinde düzenlenir. Özel mizanpajlar diğer sayfalarda hiçbir bağımlılığa sahip olmadığı için, bunlar doğrudan sayfa Düzenleyicisi 'nde düzenlenirler. Bu durumda, bir düzenin varlığı genellikle kullanıcıya saydamdır ve yalnızca sayfa düzeyi Özellikler içinde ve Mizanpaj seçenekleri için Eylemler aracılığıyla sunulur. Ancak, önceden ayarlanmış düzenlerdeki değişiklikler birçok alt sayfayı etkilediğinden, bunlar, yayımlama eylemlerinin alt sayfalardaki tüm aşağı akış etkisini düşünmediği için, düzen düzenleyicisinde düzenlenmelidir.
 
-Aşağıdaki çizimler, hazır ayar ve özel düzen senaryolarını gösterir.
+Aşağıdaki çizim, hazır ayar ve özel düzen senaryolarını gösterir.
 
 ![Hazır ayar ve özel düzen senaryoları.](../commerce/media/template-figure1.png)
 

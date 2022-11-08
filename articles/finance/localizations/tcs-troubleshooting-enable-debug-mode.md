@@ -13,11 +13,11 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 38ef8c51d52de6b8f748330d0697e860d75233bf
-ms.sourcegitcommit: 43cf54d057eccd07a71bb48e2fcf858d043a9669
+ms.openlocfilehash: 2bb381939ebe32cb51caf730cdd441557d83a4c0
+ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2022
+ms.lasthandoff: 11/01/2022
 ms.locfileid: "9620911"
 ---
 # <a name="enable-debug-mode-in-the-tax-calculation-service"></a>Vergi hesaplama servisinde hata ayıklama modunu etkinleştirme
@@ -27,7 +27,7 @@ ms.locfileid: "9620911"
 Bu makale, Vergi Hesaplama hizmetindeki hata ayıklama modunun sorunları araştırmak amacıyla nasıl etkinleştirileceğini açıklar.
 
 1. Uygulama Nesne Sunucusunun (AOS) URL'sine **&debug=vs%2CconfirmExit&** ekleyin ve sayfayı yenileyin.
-2. Satış vergisini hesaplamak için **Satış vergisi**'ni seçtiğinizde **C:\AXWeb_SMBShare\temporary-file\\{%session%}\\** altındaki sunucuda **TaxServiceTroubleshootingLog.txt** olarak adlandırılan bir metin dosyası yakalanır. **TaxServiceTroubleshootingLog.txt** dosyası, **TaxableDocument** ve hesaplama parametresini içerir. Bu sonuçlar, arıza çözüm için vergi servisi ve özel durum bilgileri tarafından döndürülür.
+2. Satış vergisini hesaplarken, **Satış vergisini** seçtiğinizde **TaxServiceTroubleshootingLog.txt** adlı bir metin dosyası açılır. **TaxServiceTroubleshootingLog.txt** dosyası, **TaxableDocument** ve hesaplama parametresini içerir. Bu sonuçlar, arıza çözüm için vergi servisi ve özel durum bilgileri tarafından döndürülür.
 
 ## <a name="sample"></a>Örnek
 

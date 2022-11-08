@@ -2,19 +2,19 @@
 title: Ödeme modülü hata referans kodları
 description: Bu makalede, Microsoft Dynamics 365 Commerce'te kullanıcının karşılaştığı hata iletilerinde gösterilen ödeme modülü hata referans kodları açıklanmaktadır.
 author: BrianShook
-ms.date: 10/20/2022
+ms.date: 10/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-09-20
-ms.openlocfilehash: cd8269a71e56f23dbe3782ec3ffc69ec3ea6b151
-ms.sourcegitcommit: 6bd8822f7aa781d596b70956bead834117cf302c
+ms.openlocfilehash: 952cb932522b4e0bb91be985e4f8974cb6cd8bc0
+ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709674"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728258"
 ---
 # <a name="checkout-module-error-reference-codes"></a>Ödeme modülü hata referans kodları
 
@@ -31,9 +31,13 @@ Karşılaşılan hataya bağlı olarak, bu makaledeki tabloda aşağıdaki ayrı
 - Ortam veya ödeme bağlayıcısı yapılandırmalarında dikkat edilmesi gereken bilgiler
 - Ek yardım gerekirse destek olayında başvurulabilecek bilgiler
 
+## <a name="prerequisites"></a>Ön Koşullar
+
+Aşağıda listelenen ödeme modülü hata referans kodlarını etkinleştirmek için sitenizin site oluşturucusunda **Site ayarları \> Uzantılar**'a gidin ve **Kart ve ödeme** bölümünde **Gelişmiş Çevrimiçi Kanal Hatası Ekran Mesajlaşmasını Etkinleştir**'i seçin. 
+
 ## <a name="checkout-module-error-reference-codes"></a>Ödeme modülü hata referans kodları
 
-Müşteriler tarafından sağlanan veya çevrimiçi mağazada deneyimlenen hata kodu referansları hakkında daha ayrıntılı bilgi edinmek için aşağıdaki tabloyu kullanın.
+Müşteriler tarafından sağlanan veya çevrimiçi mağazada deneyimlenen hata kodu referansları hakkında daha ayrıntılı bilgi edinmek için aşağıdaki tabloyu kullanın. **Hata açıklaması** sütununu görüntülemek için sağa kaydırın.
 
 | Hata kodu | Dynamics ile ilişkili hata kodu | Hata açıklaması |
 | ---------- | ------------------------------ | ----------------- |

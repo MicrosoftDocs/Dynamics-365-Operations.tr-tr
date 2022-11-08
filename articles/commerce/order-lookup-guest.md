@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: 4f381f1ec0ea08f18db3cac474e8990906364504
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 757e83887e318dd6aa54106fb78305f1d94e0f90
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286904"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734280"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Konuk ödemeleri için sipariş aramayı etkinleştirme
 
@@ -73,6 +73,11 @@ Konuk kullanıcıların sipariş ayrıntılarını görüntüleyebilmeleri için
 Siparişle ilgili e-postalarda, müşterileri sipariş bilgileri sayfasına götüren bir bağlantı veya düğme sağlayabilirsiniz. Bu bağlantıyı veya düğmeyi eklemek için e-ticaret sitenizdeki sipariş ayrıntıları sayfasına işaret eden bir HTML köprüsü oluşturun ve aşağıdaki örnekte gösterildiği gibi sipariş onay kimliği ve müşterinin e-posta adresini URL parametreleri olarak geçirin.
 
 `<a href="https://[domain]/[orderdetailspage]?confirmationId=%orderconfirmationid%&propertyName=email&propertyValue=%customeremailaddress%" target="_blank">View my order status</a>`
+
+> [!NOTE]
+> Sipariş arama özelliğini etkinleştirmek için, **Lisans yapılandırması** > **Yapılandırma anahtarları** altında **Teklifler** anahtarının etkinleştirildiğinden emin olun.
+>
+>![Teklif lisans anahtarı konfigürasyonu etkinleştirilmelidir](./media/Quotations_License_Key_Configuration.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

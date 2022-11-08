@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4cc556c47f7027f2f5d5b24c235b11ced63b3e4e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab5729cd441246a6c04ac060d5a69f949bfe47c5
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905906"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725507"
 ---
 # <a name="manage-folios"></a>Folyoları yönetme
 
@@ -48,9 +48,9 @@ Aşağıdaki tabloda, doğrudan Eylem Bölmesinde bulunan **Yönet** sekmesindek
 
 | Düğme | Tanım |
 |---|---|
-| Girişler listesini deftere naklet | Folyodaki tüm satın alma siparişi satırları için bir giriş listesini deftere nakledin. Çok şirketli sevkiyatlar kullanılırsa her şirket için yeni bir giriş listesi deftere nakil iletişim kutusu açılır. |
-| Ürün girişini deftere naklet | Folyodaki tüm satın alma siparişi satırları için bir ürün girişini deftere nakledin. Çok şirketli seyahatler kullanılırsa her şirket için yeni bir ürün girişi deftere nakil iletişim kutusu açılır. |
-| Faturayı deftere naklet | Folyodaki tüm satın alma siparişi satırları için bir faturayı deftere nakledin. Çok şirketli seyahatler kullanılırsa her şirket için yeni bir fatura deftere nakil iletişim kutusu açılır. |
+| Girişler listesini deftere naklet | Folyodaki tüm satın alma siparişi satırları için bir giriş listesini deftere nakledin.  |
+| Ürün girişini deftere naklet | Folyodaki tüm satın alma siparişi satırları için bir ürün girişini deftere nakledin. |
+| Faturayı deftere naklet | Folyodaki tüm satın alma siparişi satırları için bir faturayı deftere nakledin.  |
 | Sevk transfer emri | İlgili sevkiyattaki geçerli folyoyla ilişkili tüm transfer emri satırları için bir transfer emrini deftere nakledin. |
 | Transfer emrini al | İlgili sevkiyattaki geçerli folyoyla ilişkili tüm transfer emri satırları için transfer emri girişini deftere nakledin. |
 | Transitteki malları al | Folyodaki transitteki tüm sipariş satırlarını alın. |
@@ -65,7 +65,7 @@ Aşağıdaki tabloda, doğrudan Eylem Bölmesinde bulunan **Genel** sekmesinde a
 
 | Düğme | Tanım |
 |---|---|
-| Giriş listesi | Folyodaki tüm satın alma siparişi satırları için bir giriş listesini deftere nakledin. Çok şirketli seyahatler kullanılırsa her şirket için yeni bir giriş listesi deftere nakil iletişim kutusu açılır. |
+| Giriş listesi | Folyodaki tüm satın alma siparişi satırları için bir giriş listesini deftere nakledin.  |
 | Ürün girişi | Kullanılıyorsa ürün girişi kaydını görüntüleyin. |
 | Madde varışı | Kullanılıyorsa madde varış günlüğünü görüntüleyin. |
 | Maliyetlerin sorgusu | Sevkiyat konteyneri, folyo ve satın alma siparişi de dahil olmak üzere bir yolculuğun tüm maliyetlerini görüntülemek için maliyet sorgulama sayfasını açın. Görünüm eylemini kullanarak sayfanın tam görünümünü ayarlayabilirsiniz. Maliyet sorgulama sayfasında, alanlardan herhangi birini, madde ve maliyet türü kodunu görüntüleyebilirsiniz. Bu öğeleri kaldırarak maliyetleri gruplandırarak sayfayı ayarlayabilirsiniz. Boyut ve renk kullanıyorsanız bu özellik yararlı olabilir. Sayfada gösterilen boyutları değiştirebilirsiniz. **Maliyetler** sayfasında yalnızca **Deftere Nakil** sekmesindeki **Dr** girişinin *Madde* olarak ayarlandığı maliyet türü kodları gösterilir. |

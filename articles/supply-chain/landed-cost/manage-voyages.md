@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4499eeb9cdd4efd9c4b630106c6e052378191f2a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905877"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725494"
 ---
 # <a name="manage-voyages"></a>Seyahatleri yönetme
 
@@ -29,7 +29,8 @@ Bir seyahat genellikle bir gemiyi temsil eder. Ancak uygulamalarınıza ve prose
 **Tüm seyahatler** sayfası seyahat ayrıntıları, teslimat ve maliyet bilgileri ile maddeler, satın alma siparişleri ve transfer emirleri hakkında bilgi sağlar. **Tüm seyahatler** sayfasını açmak için **Varış yeri maliyeti \> Seyahatler \> Tüm seyahatler**'e gidin. Bu sayfa tüm güncel seyahatlerin listesini göstermektedir. Seyahatler oluşturmak, silmek ve seyahatlerle çalışmak için Eylem Bölmesindeki düğmeleri kullanabilirsiniz. Ayrıntılarını görüntülemek için listeden herhangi bir seyahat seçin.
 
 > [!NOTE]
-> Sevkiyat konteynerleri ve folyolar bir seyahate bağlıdır. Satın alma satırları bir sevkiyat konteynerine bağlıdır. Sevkiyat konteynerleri ve folyolar kapalıysa doğrudan bir seyahate de bağlanabilirler. Ayrıca, buraya girilen maliyetler tüm eklenmiş satın alma satırlarına tahsis edilir.
+> Sevkiyat konteynerleri ve folyolar bir seyahate bağlıdır. Satın alma satırları bir sevkiyat konteynerine bağlıdır. Ayrıca, buraya girilen maliyetler tüm eklenmiş satın alma satırlarına tahsis edilir.
+> Proje satınalma siparişi, varış maliyetinde desteklenmez.
 
 ## <a name="action-pane"></a>Eylem Bölmesi
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 22f2512125679f160cb658923893d5f5aa739a2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b409017407ce1c027184bdc2292197840c61e04a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906167"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725456"
 ---
 # <a name="manage-shipping-containers"></a>Seyahat konteynerlerini yönetme
 
@@ -40,9 +40,9 @@ Aşağıdaki tabloda, doğrudan Eylem Bölmesinde bulunan **Yönet** sekmesindek
 
 | Düğme | Açıklamalar |
 |---|---|
-| Girişler listesini deftere naklet | Giriş listesini deftere nakledin veya sevkiyat konteynerindeki tüm satın alma siparişi satırları için ürün girişi listelerini görüntüleyin. Çok şirketli sevkiyatlar kullanılırsa her şirket için yeni bir giriş listesi deftere nakil iletişim kutusu açılır. |
+| Girişler listesini deftere naklet | Giriş listesini deftere nakledin veya sevkiyat konteynerindeki tüm satın alma siparişi satırları için ürün girişi listelerini görüntüleyin.  |
 | Ürün girişini deftere naklet | Sevkiyat konteynerindeki tüm satın alma siparişi satırları için bir ürün girişini deftere nakledin. |
-| Faturayı deftere naklet | Sevkiyat konteynerindeki tüm satın alma siparişi satırları için bir faturayı deftere nakledin. Çok şirketli sevkiyatlar kullanılırsa her şirket için yeni bir fatura deftere nakil iletişim kutusu açılır. |
+| Faturayı deftere naklet | Sevkiyat konteynerindeki tüm satın alma siparişi satırları için bir faturayı deftere nakledin.  |
 | Sevk transfer emri | Sevkiyat konteynerindeki tüm transfer emri satırları için bir transfer emri sevkiyatını deftere nakledin. İletişim kutusunda yalnızca sevkiyat konteynerinde transfer emri türü olan satırlar görünür. |
 | Transfer emrini al | Sevkiyat konteynerindeki tüm transfer emri satırları için transfer emri sevkiyatını deftere nakledin. Teslim alma iletişim kutusu, bir sevkiyat konteynerinde veya seyahatteki malları almanın en basit yoludur ve mevcut üç seçeneklerden biridir. Varış günlükleri veya mobil cihaz işlemesi yoluyla da alabilirsiniz. |
 | Varış günlüğü oluştur | Gelişmiş ambar özelliklerini kullanarak kuruluşlar için bir varış günlüğü oluşturabilirsiniz. Seçenekler _Miktarı başlat_ (önerilir) ve _Transitteki mallar_ veya _Satın alma siparişlerinden oluştur_'dur. Son iki seçenek, transitteki malların işlemesinin kullanılıp kullanılmadığına bağlıdır. |
@@ -56,7 +56,7 @@ Aşağıdaki tabloda, doğrudan Eylem Bölmesinde bulunan **Genel** sekmesinde a
 
 | Düğme | Açıklamalar |
 |---|---|
-| Giriş listesi | Sevkiyat konteynerindeki tüm satın alma siparişi satırları için bir giriş listesini deftere nakledin. Çok şirketli seyahatler kullanılırsa her şirket için yeni bir giriş listesi deftere nakil iletişim kutusu açılır. |
+| Giriş listesi | Sevkiyat konteynerindeki tüm satın alma siparişi satırları için bir giriş listesini deftere nakledin.  |
 | Ürün Girişi | Kullanılıyorsa ürün girişi kaydını görüntüleyin. Ürün giriş işlemi yalnızca mallar transitteki mallar işlevini kullanmazsa kullanılır. |
 | Madde varışı | Bu günlük kullanılıyorsa sevkiyat konteyneri için madde varış günlüğünü görüntüleyin. |
 | Duraklar | Duraklar bir yolculuğun ayrı kısımlarını tanımlamak için kullanılır. Sevkiyat izlemeye yardımcı olmak için sağlama süreleri her durakla ilişkilendirilebilir. Daha fazla bilgi için bkz. [Çok duraklı yolculuk kurulumu](multi-leg-journey-setup.md). |
