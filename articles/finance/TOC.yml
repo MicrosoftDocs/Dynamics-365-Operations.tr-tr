@@ -444,13 +444,15 @@
                   href: accounts-receivable/subscription-billing-summary.md
                 - name: Yinelenen sözleşme faturalaması
                   items:
-                    - name: Yinelenen sözleşme faturalaması kurulumu
+                    - name: Yinelenen sözleşme faturası ayarları
                       href: accounts-receivable/sb-recur-bill-parameters.md
-                    - name: Faturalama planları oluşturma
+                    - name: Fatura planları oluşturma
                       href: accounts-receivable/sb-billing-schedules.md
-                    - name: Faturalama planını kopyalama
+                    - name: Fatura planını kopyalama
                       href: accounts-receivable/sb-copy-schedules-items.md
-                    - name: Faturalama planı özellikleri
+                    - name: Fatura planı ile müşteri bölme
+                      href: accounts-receivable/sb-customer-split.md
+                    - name: Fatura planı özellikleri
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Aşama bazında faturalama
                       href: accounts-receivable/sb-milestonebilling.md
@@ -1172,6 +1174,8 @@
                   href: general-ledger/close-general-ledger-at-period-end.md
                 - name: Mali dönem kapatma çalışma alanı
                   href: general-ledger/financial-period-close-workspace.md
+                - name: Yıl sonu kapanışını optimize etme
+                  href: general-ledger/optimize-year-end-close.md
                 - name: Yıl sonu kapanışı
                   href: general-ledger/year-end-close.md
                 - name: Mali yılı kapatma
@@ -4661,7 +4665,7 @@
               items:
                 - name: Kullanılabilir mobil çalışma alanları
                   href: ../fin-ops-core/dev-itpro/mobile-apps/mobile-workspaces-released.md?context=/dynamics365/context/finance
-                - name: Varlık yönetimi
+                - name: Kıymet yönetimi
                   href: ../supply-chain/asset-management/asset-management-mobile-workspace.md
                 - name: Şirket dizini
                   href: ../fin-ops-core/dev-itpro/mobile-apps/company-directory-mobile-workspace.md?context=/dynamics365/context/finance

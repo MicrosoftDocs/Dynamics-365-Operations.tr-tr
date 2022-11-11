@@ -488,7 +488,7 @@
                       href: help/migrate-dynamicsax2012.md
                 - name: Ürün ve yardımdaki dil ve yerel ayar tanımlayıcıları
                   href: help/language-locale.md
-                - name: 'Yardımı genişletme, özelleştirme ve yardım için iş birliği yapma'
+                - name: Yardımı genişletme ve yardım için iş birliği yapma
                   href: help/contributor-guide.md
             - name: Finans ve operasyon uygulamaları bölgesel hizmetleri
               items:
@@ -1624,6 +1624,10 @@
               href: sysadmin/DataMaintenancePortal.md
             - name: Tüzel kişilikler genelinde ağ yazıcılarına erişimi yönetme
               href: sysadmin/sys-admin-tools-network-printer.md
+            - name: Application Insights'ı kullanarak izleme ve telemetri
+              items:
+                - name: Genel bakış
+                  href: sysadmin/monitoring-and-telemetry-appinsights.md
             - name: Güvenlik
               items:
                 - name: Rol tabanlı güvenlik

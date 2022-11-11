@@ -541,7 +541,11 @@
                     - name: İş adaylarını işe alma
                       href: hr-personnel-recruit.md
         - name: Görev yönetimi
-          href: hr-task-mgmt.md
+          items:
+            - name: Genel bakış
+              href: hr-task-mgmt.md
+            - name: Görev yönetimi yükseltmesi
+              href: hr-task-update.md
         - name: İzin ve devamsızlık
           items:
             - name: Genel bakış
@@ -822,7 +826,7 @@
               href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
             - name: Çalışan konaklamalarını yönetme
               href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
-    - name: İnsan kaynaklarını geliştirme
+    - name: Human Resources geliştirme
       items:
         - name: Genel bakış
           href: hr-developer-overview.md
@@ -832,6 +836,10 @@
           href: hr-developer-entities.md
         - name: Özel alanlar
           href: hr-developer-custom-fields.md
+        - name: Geliştirme ve özelleştirme
+          items:
+            - name: Cinsiyet temel sabit listesi
+              href: enum-exten.md
         - name: Veri tümleştirmesini ayarlama
           items:
             - name: Veri tümleştirme teknolojisi seçme

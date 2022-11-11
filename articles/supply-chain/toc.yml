@@ -384,14 +384,14 @@
                       href: ../finance/localizations/rus-goods-transit-vendor.md?context=/dynamics365/context/supply-chain
         - name: Dağıtılmış karma topoloji
           items:
-            - name: Ölçek birimi özelliği şu anda yeni müşteriler için duraklatıldı
+            - name: Supply Chain Management için ölçek birimi özelliği duraklatıldı
               href: cloud-edge/cloud-edge-landing-page.md
-        - name: Varlık yönetimi
+        - name: Kıymet yönetimi
           items:
-            - name: Varlık yönetimine genel bakış
+            - name: Kıymet yönetimine genel bakış
               href: asset-management/index.md
               items:
-                - name: İşlem yapılacak yerleşimler ve varlıklar
+                - name: İşlem yapılacak yerleşimler ve kıymetler
                   href: asset-management/overview/functional-locations-and-objects.md
                 - name: Varlıklar ve iş emirleri
                   href: asset-management/overview/objects-and-work-orders.md
@@ -421,7 +421,7 @@
                   href: asset-management/setup-for-objects/product-and-model.md
                 - name: Sayaçlar
                   href: asset-management/setup-for-objects/counters.md
-                - name: Varlık yönetimi parametreleri
+                - name: Kıymet yönetimi parametreleri
                   href: asset-management/setup-for-objects/enterprise-asset-management-parameters.md
                 - name: Varlık yaşam döngüsü durumları
                   href: asset-management/setup-for-objects/object-stages.md
@@ -1753,36 +1753,54 @@
           items:
             - name: Master planlama giriş sayfası
               href: master-planning/master-planning-home-page.md
-            - name: Master planlama için Planlama İyileştirmesine geçiş
-              href: master-planning/new-master-planning-engine.md
-            - name: Planlama Optimizasyonu
+            - name: Master planlamayı kullanmaya başlama
+              href: master-planning/planning-optimization/get-started.md
+            - name: Master planlama sistem mimarisi
+              href: master-planning/master-planning-architecture.md
+            - name: Master planlama yönetimi
               items:
-                - name: Planlama Optimizasyonuna genel bakış
-                  href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Planlama Optimizasyonunu kullanmaya başlama
-                  href: master-planning/planning-optimization/get-started.md
-                - name: Planlama Optimizasyonu sürüm işlemi ve sürüm geçmişi
+                - name: Planlama İyileştirmesi sürüm işlemi ve sürüm geçmişi
                   href: master-planning/planning-optimization/release-process.md
-                - name: Planlama Optimizasyonu uygunluk analizi
-                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: Yerleşik master planlama ile Planlama Optimizasyonu arasındaki farklar
-                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
-                - name: Planlama Optimizasyonu tarafından kullanılmayan parametreler
-                  href: master-planning/planning-optimization/not-used-parameters.md
-                - name: Tedarik planı
-                  href: master-planning/supply-schedule.md
-                - name: Plana filtre uygulama
-                  href: master-planning/planning-optimization/plan-filters.md
+                - name: Planlama İyileştirmesi sorunlarını giderme
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
+                - name: '"Yeterli kapasite bulunamadı" şeklindeki zamanlama altyapısı hatasını giderme'
+                  href: master-planning/not-enough-capacity-error-resolution.md
+                - name: Planlama işini iptal etme
+                  href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Planlama İyileştirmesi genişletilebilirliği
+                  href: master-planning/planning-optimization/extensibility.md
+                - name: Plan geçmişini ve planlama günlüklerini görüntüleme
+                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: Planlama İyileştirmesi tarafından kullanılan tarih ve saat parametreleri
+                  href: master-planning/planning-optimization/date-time-used.md
+            - name: Master planlamayı yapılandırma
+              items:
+                - name: Gecikmeler
+                  href: master-planning/delays.md
+                - name: Açılım için izlemeyi kullanma
+                  href: master-planning/trace-explosion.md
+                - name: Siparişe göre üretim tedarik otomasyonu
+                  href: master-planning/make-to-order-supply-automation.md
+                - name: Negatif günler ve dinamik negatif günler
+                  href: master-planning/more-about-dynamic-negative-days.md
+                - name: Takvimler ve master planlama
+                  href: master-planning/supply-chain-calendars-master-planning.md
+                - name: Tesis için zamanlama oluşturma
+                  href: master-planning/tasks/create-schedule-site.md
+                - name: Tesis için plan oluşturma
+                  href: master-planning/tasks/create-plan-site.md
                 - name: Talep tahminleri ile master planlama
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Tedarik tahminleri ile master planlama
                   href: master-planning/planning-optimization/supply-forecast.md
+                - name: Tedarik planı
+                  href: master-planning/supply-schedule.md
+                - name: Maddelerin alt kümesi için planlama çalıştırma
+                  href: master-planning/planning-optimization/plan-filters.md
                 - name: Satın alma ticari sözleşmeleri ile master planlama
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Tekliflere ve RFQ'lere dayalı plan
                   href: master-planning/planning-optimization/quotation-planning.md
-                - name: Planlama Optimizasyonu tarafından kullanılan tarih ve saat parametreleri
-                  href: master-planning/planning-optimization/date-time-used.md
                 - name: Emniyet marjları
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Gecikme toleransı (negatif günler)
@@ -1795,59 +1813,25 @@
                   href: master-planning/planning-optimization/shelf-life.md
                 - name: Sonsuz kapasiteyle zamanlama
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
-                - name: Sınırlı kapasite planlama ve zamanlama
+                - name: Sınırlı kapasite planlaması ve zamanlama
                   href: master-planning/planning-optimization/finite-capacity.md
                 - name: Yeteneğe dayalı kaynak seçimiyle zamanlama
                   href: master-planning/planning-optimization/capability-based-scheduling.md
-                - name: Önceliğe dayalı planlama
-                  href: master-planning/planning-optimization/priority-based-planning.md
-                - name: Talebe Dayalı Malzeme İhtiyaç Planlaması (DDMRP)
-                  items:
-                    - name: DDMRP'ye genel bakış
-                      href: master-planning/planning-optimization/ddmrp-overview.md
-                    - name: Sisteminiz için DDMRP özelliğini açma
-                      href: master-planning/planning-optimization/ddmrp-enable.md
-                    - name: Stok konumlandırma
-                      href: master-planning/planning-optimization/ddmrp-inventory-positioning.md
-                    - name: Arabellek profili ve düzeyleri
-                      href: master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md
-                    - name: Talebe dayalı planlama
-                      href: master-planning/planning-optimization/ddmrp-planning.md
-                    - name: Görsel ve iş birliğine dayalı yürütme
-                      href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
-                - name: Planlama İyileştirmesi ile stok işaretleme
+                - name: Stok işaretleme
                   href: master-planning/planning-optimization/marking.md
                 - name: Şirketlerarası planlama
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Belirli ürün yaşam döngüsü durumları olan ürünleri hariç tutma
                   href: master-planning/planning-optimization/product-lifecycle-state.md
-                - name: Stok yenileme yöntemleri ve miktar değişikliği
-                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Kapsam zaman dilimleri
                   href: master-planning/planning-optimization/coverage-time-fence.md
-                - name: Planlama Optimizasyonu ile net gereksinimler ve ilişkilendirme bilgileri
+                - name: Net gereksinimler ve ilişkilendirme bilgileri
                   href: master-planning/planning-optimization/net-requirements.md
-                - name: Planlı siparişleri onaylama
-                  href: master-planning/planning-optimization/approved-planned-order.md
-                - name: Kesinleşmiş planlı siparişler
-                  href: master-planning/planning-optimization/planned-order-firming.md
-                - name: Basitleştirilmiş planlı siparişler
-                  href: master-planning/planning-optimization/planned-orders-simplified.md
-                - name: Eldeki eksi stok miktarlarıyla planlama
+                - name: Negatif eldeki stok miktarlarıyla planlama
                   href: master-planning/planning-optimization/negative-on-hand.md
-                - name: Plan geçmişini ve planlama günlüklerini görüntüleme
-                  href: master-planning/planning-optimization/plan-history-logs.md
-                - name: Planlama işini iptal etme
-                  href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Eylem iletileri
-                  href: master-planning/action-messages.md
-                - name: CTP (Teslim edilebilir miktar) işlevini kullanarak satış siparişi teslimat tarihlerini hesaplama
+                - name: Teslim edilebilir miktar (CTP) işlevini kullanarak satış siparişi teslimat tarihlerini hesaplama
                   href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
-                - name: Planlama Optimizasyonu sorunlarını giderme
-                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
-                - name: Planlama Optimizasyonu genişletilebilirliği
-                  href: master-planning/planning-optimization/extensibility.md
-            - name: Master planlar
+            - name: Master planları ayarlama
               items:
                 - name: Master planlara genel bakış
                   href: master-planning/master-plans.md
@@ -1855,74 +1839,60 @@
                   href: master-planning/master-planning-setup.md
                 - name: Master planlama kurulum sihirbazı
                   href: master-planning/master-planning-setup-wizard.md
+                - name: Kısıtlanmış plan oluşturma
+                  href: master-planning/tasks/constrained-plan.md
+            - name: Stok yenileme stratejileri ayarlama
+              items:
                 - name: Kapsama ayarları
                   href: master-planning/coverage-settings.md
                 - name: Maddeler için kapsama kurallarını tanımlama
                   href: master-planning/tasks/define-coverage-rules-items.md
-                - name: Kısıtlanmış plan oluşturma
-                  href: master-planning/tasks/constrained-plan.md
-                - name: Ortak ürünler için malzeme planı oluşturma
-                  href: master-planning/tasks/create-material-plan-co-products.md
-                - name: Planlı siparişleri koruma
-                  href: master-planning/maintain-planned-orders.md
+                - name: Birden fazla satıcıdan ürün ve malzeme kaynağı oluşturma
+                  href: master-planning/source-from-multiple-vendors.md
+                - name: Önceliğe dayalı planlama
+                  href: master-planning/planning-optimization/priority-based-planning.md
+                - name: Stok yenileme yöntemleri ve miktar değişikliği
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
+            - name: Master planlar ve birden çok tesis işlevi
+              items:
+                - name: Master planlama ve birden çok tesis işlevine genel bakış
+                  href: master-planning/master-plan-multisite-functionality.md
+                - name: 'Tesis kapsamı için master planlama, ambar zorunlu'
+                  href: master-planning/master-plan-site-coverage-warehouse-mandatory.md
+                - name: 'Tesis kapsamı için master planlama, ambar zorunlu değil'
+                  href: master-planning/master-plan-site-coverage-warehouse-not-mandatory.md
+                - name: 'Tesis ve ambar kapsamı için master planlama, ambar zorunlu'
+                  href: master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md
+                - name: 'Tesis ve ambar kapsamı için master planlama, ambar zorunlu değil'
+                  href: master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
+                - name: Ürün reçetesi sürümünü belirleme
+                  href: master-planning/master-plan-bom-version-determined.md
+                - name: Ürün reçetesi sürümünün açılımı
+                  href: master-planning/master-plan-explosion-bom-version.md
+            - name: Emniyet stoğu
+              items:
                 - name: Maddeler için emniyet stoğu karşılama
                   href: master-planning/safety-stock-replenishment.md
                 - name: Maddelerin minimum kapsamını güncellemek için emniyet stoğu günlüğünü kullanma
                   href: master-planning/safety-stock-journal.md
-                - name: Gecikmeler
-                  href: master-planning/delays.md
-                - name: Master planlama işini iptal etme
-                  href: master-planning/cancel-master-planning-job.md
-                - name: Açılım için izlemeyi kullanma
-                  href: master-planning/trace-explosion.md
-                - name: Master planlama çalışmasını izleme
-                  href: master-planning/tasks/monitor-master-planning-run.md
-                - name: Tesis için zamanlama oluşturma
-                  href: master-planning/tasks/create-schedule-site.md
-                - name: Tesis için plan oluşturma
-                  href: master-planning/tasks/create-plan-site.md
-                - name: Takvimler ve master planlama
-                  href: master-planning/supply-chain-calendars-master-planning.md
-                - name: '"Yeterli kapasite bulunamadı" şeklindeki zamanlama altyapısı hatasını giderme'
-                  href: master-planning/not-enough-capacity-error-resolution.md
-                - name: Master planlama performansını iyileştirme
-                  href: master-planning/master-planning-performance.md
-                - name: Zamanlama altyapısı performansını iyileştirme
-                  href: master-planning/scheduling-engine-performance.md
-                - name: Master planlar ve çoklu tesis işlevi
-                  items:
-                    - name: Master planlama ve birden çok tesis işlevine genel bakış
-                      href: master-planning/master-plan-multisite-functionality.md
-                    - name: 'Tesis kapsamı için master planlama, ambar zorunlu'
-                      href: master-planning/master-plan-site-coverage-warehouse-mandatory.md
-                    - name: 'Tesis kapsamı için master planlama, ambar zorunlu değil'
-                      href: master-planning/master-plan-site-coverage-warehouse-not-mandatory.md
-                    - name: 'Tesis ve ambar kapsamı için master planlama, ambar zorunlu'
-                      href: master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md
-                    - name: 'Tesis ve ambar kapsamı için master planlama, ambar zorunlu değil'
-                      href: master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
-                    - name: Ürün reçetesi sürümünü belirleme
-                      href: master-planning/master-plan-bom-version-determined.md
-                    - name: Ürün reçetesi sürümünün açılımı
-                      href: master-planning/master-plan-explosion-bom-version.md
-                - name: Negatif günler ve dinamik negatif günler
-                  href: master-planning/more-about-dynamic-negative-days.md
-                - name: Şirketlerarası plan oluşturma
-                  href: master-planning/tasks/create-intercompany-plan.md
-                - name: Giden planlanmış şirketlerarası talebi görüntüleme
-                  href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Yerleşik master planlama ile net gereksinimler ve ilişkilendirme bilgileri
-                  href: master-planning/net-requirements-built-in-master-planning.md
-                - name: Siparişe göre tedarik otomasyonu
-                  href: master-planning/make-to-order-supply-automation.md
-            - name: Tahmin
+            - name: Planlı siparişleri yönetme
               items:
-                - name: Talep ve tedarik tahmini
-                  items:
-                    - name: Stok tahminleri
-                      href: master-planning/inventory-forecast.md
-                    - name: 'Kılavuz: Talep tahminini el ile değiştirme'
-                      href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: Planlı siparişleri koruma
+                  href: master-planning/maintain-planned-orders.md
+                - name: 'Planlı siparişleri görüntüleme, yönetme ve onaylama'
+                  href: master-planning/planning-optimization/approved-planned-order.md
+                - name: Kesinleşmiş planlı siparişler
+                  href: master-planning/planning-optimization/planned-order-firming.md
+                - name: Basitleştirilmiş planlı siparişler
+                  href: master-planning/planning-optimization/planned-orders-simplified.md
+                - name: Eylem iletileri
+                  href: master-planning/action-messages.md
+            - name: Tahmin etme
+              items:
+                - name: Stok tahminleri
+                  href: master-planning/inventory-forecast.md
+                - name: 'Kılavuz: Talep tahminini el ile değiştirme'
+                  href: master-planning/tasks/modify-demand-forecast-manually.md
                 - name: Talep tahmini
                   items:
                     - name: Talep tahminine genel bakış
@@ -1943,10 +1913,50 @@
                       href: master-planning/monitor-forecast-accuracy.md
                     - name: 'Kılavuz: Temel tahmin oluşturma'
                       href: master-planning/tasks/create-baseline-forecast.md
-                - name: Tahmin ile master planlama
-                  items:
-                    - name: Tahmin azaltma anahtarları
-                      href: master-planning/reduction-keys.md
+                - name: Tahmin azaltma anahtarları
+                  href: master-planning/reduction-keys.md
+            - name: Talebe Dayalı Malzeme İhtiyaç Planlaması (DDMRP)
+              items:
+                - name: DDMRP'ye genel bakış
+                  href: master-planning/planning-optimization/ddmrp-overview.md
+                - name: Sisteminiz için DDMRP özelliğini açma
+                  href: master-planning/planning-optimization/ddmrp-enable.md
+                - name: Stok konumlandırma
+                  href: master-planning/planning-optimization/ddmrp-inventory-positioning.md
+                - name: Arabellek profili ve düzeyleri
+                  href: master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md
+                - name: Talebe dayalı planlama
+                  href: master-planning/planning-optimization/ddmrp-planning.md
+                - name: Görsel ve iş birliğine dayalı yürütme
+                  href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
+            - name: Kullanımdan kaldırılan planlama altyapısı
+              items:
+                - name: Kullanımdan kaldırılan planlama altyapısına genel bakış
+                  href: master-planning/deprecated-master-planning-overview.md
+                - name: Master planlama için Planlama İyileştirmesine geçiş
+                  href: master-planning/new-master-planning-engine.md
+                - name: Planlama İyileştirmesi tarafından kullanılmayan parametreler
+                  href: master-planning/planning-optimization/not-used-parameters.md
+                - name: Planlama İyileştirmesi ile kullanımdan kaldırılan master planlama altyapısı arasındaki farklar
+                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
+                - name: Planlama İyileştirmesi uygunluk analizi
+                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Master planlama performansını iyileştirme
+                  href: master-planning/master-planning-performance.md
+                - name: Zamanlama altyapısı performansını iyileştirme
+                  href: master-planning/scheduling-engine-performance.md
+                - name: Şirketlerarası plan oluşturma
+                  href: master-planning/tasks/create-intercompany-plan.md
+                - name: Giden planlanan şirketlerarası talebi görüntüleme
+                  href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
+                - name: Master planlama çalışmasını izleme
+                  href: master-planning/tasks/monitor-master-planning-run.md
+                - name: Kullanımdan kaldırılan planlama altyapısı ile net gereksinimler ve ilişkilendirme bilgileri
+                  href: master-planning/net-requirements-built-in-master-planning.md
+                - name: Ortak ürünler için malzeme planı oluşturma
+                  href: master-planning/tasks/create-material-plan-co-products.md
+                - name: Kullanımdan kaldırılan master planlama altyapısı kullanılarak oluşturulan bir işi iptal etme
+                  href: master-planning/cancel-master-planning-job.md
         - name: Mobil uygulama
           items:
             - name: Mobil uygulama giriş sayfası
@@ -1955,7 +1965,7 @@
               items:
                 - name: Kullanılabilir mobil çalışma alanları
                   href: ../fin-ops-core/dev-itpro/mobile-apps/mobile-workspaces-released.md?context=/dynamics365/context/supply-chain
-                - name: Varlık yönetimi
+                - name: Kıymet yönetimi
                   href: asset-management/asset-management-mobile-workspace.md
                 - name: Şirket dizini
                   href: ../fin-ops-core/dev-itpro/mobile-apps/company-directory-mobile-workspace.md?context=/dynamics365/context/supply-chain
@@ -2859,7 +2869,7 @@
               items:
                 - name: Sipariş taahhüdü
                   href: sales-marketing/delivery-dates-available-promise-calculations.md
-                - name: CTP (Teslim edilebilir miktar) işlevini kullanarak satış siparişi teslimat tarihlerini hesaplama
+                - name: Teslim edilebilir miktar (CTP) işlevini kullanarak satış siparişi teslimat tarihlerini hesaplama
                   href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
                 - name: Sipariş girişi son tarihleri
                   href: sales-marketing/order-entry-deadlines.md
