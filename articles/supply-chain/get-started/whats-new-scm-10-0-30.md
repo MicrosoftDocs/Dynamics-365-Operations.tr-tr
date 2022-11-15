@@ -2,7 +2,7 @@
 title: Dynamics 365 Supply Chain Management 10.0.30'daki yenilikler veya değişiklikler (Kasım 2022)
 description: Bu makalede, Microsoft Dynamics 365 Supply Chain Management 10.0.30'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
-ms.date: 09/08/2022
+ms.date: 11/07/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 2983c113487934fd0751efcef9129e1f28d8dce8
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 20674ebd9d49b077371998f53d2b22c74f888fc6
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714811"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748477"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Dynamics 365 Supply Chain Management 10.0.30'taki yenilikler veya değişiklikler (Kasım 2022)
 
@@ -33,6 +33,7 @@ Aşağıdaki tabloda, bu sürüme dahil edilen özellikler listelenmektedir. Bu 
 
 | Özellik alanı | Özellik | Daha fazla bilgi | Etkinleştiren |
 |---|---|---|---|
+| Stok ve lojistik | [Tahsisatlarda geçici olarak ayrılmış miktarları izleme](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/track-soft-reserved-quantities-within-allocations) | [Stok Görünürlüğü stok tahsisatı](../inventory/inventory-visibility-allocation.md) |  [Hizmet yapılandırması](../inventory/inventory-visibility-configuration.md) tarafından etkinleştirilir |
 | İmalat | [Sensör Veri Yönetim Bilgileri ile ekipmanları izleme](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [Sensör Veri Yönetim Bilgileri giriş sayfası](../sensor-data-intelligence/sdi-home-page.md) | Özellik yönetimi:<br>*(Önizleme) Algılayıcı Veri Zekası* |
 | Ambar yönetimi | [Warehouse Management mobil uygulaması için çok düzeyli sapmalar](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [Mobil cihaz menü öğelerindeki adımlar için sapmaları yapılandırma](../warehousing/warehouse-app-detours.md) | Özellik yönetimi:<br>*Warehouse Management mobil uygulaması için çok düzeyli sapmalar* |
 

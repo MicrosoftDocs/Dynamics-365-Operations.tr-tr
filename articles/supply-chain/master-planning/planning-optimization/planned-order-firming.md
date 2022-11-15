@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: c2e4294cb54e9ba41467f505e361d5ee45f1f27d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335360"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740535"
 ---
 # <a name="firm-planned-orders"></a>Kesinleşmiş planlı siparişler
 
@@ -33,7 +33,7 @@ Bu makalede her yöntem ayrıntılı olarak açıklanmaktadır.
 
 ## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a>Bu makalede açıklanan özellikleri etkinleştirin
 
-Çoğu planlı sipariş özelliği Microsoft Dynamics 365 Supply Chain Management'ın Planlama Optimizasyonunu kullanan tüm standart yüklemelerinde kullanılabilir. Ancak, bu makalede açıklanan özelliklerden bazılarını kullanabilmeniz için önce bunların Özellik yönetiminde etkinleştirilmesi gerekir.
+Çoğu planlı sipariş özelliği Microsoft Dynamics 365 Supply Chain Management'ın tüm standart yüklemelerinde kullanılabilir. Ancak, bu makalede açıklanan özelliklerden bazılarını kullanabilmeniz için önce bunların Özellik yönetiminde etkinleştirilmesi gerekir.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Planlı siparişler için paralel kesinleştirmeyi açma veya kapatma
 
@@ -91,7 +91,7 @@ Planlı siparişleri el ile kesinleştirmek için, kesinleştirmek istediğiniz 
 
 ## <a name="auto-firm-planned-orders"></a>Planlı siparişleri otomatik kesinleştirme
 
-Otomatik kesinleştirme, planlı siparişleri master planlama işleminin parçası olarak kesinleştirmenize olanak tanır. Kapsama grupları, bağımsız maddeler ve madde birleşimleri ile master plan birleşimleri için varsayılan kesinleştirme zaman dilimini tanımlayabilirsiniz. Daha sonra, master planlama çalışırken sipariş tarihi kesinleştirme için belirtilen zaman dilimi dahilinde olduğunda planlı siparişler otomatik olarak kesinleştirilecektir. Planlama Optimizasyonu ile oluşturulan planlı siparişler ve yerleşik master planlama işlemi, sipariş tarihini (başlangıç tarihi) farklı bir şekilde işler.
+Otomatik kesinleştirme, planlı siparişleri master planlama işleminin parçası olarak kesinleştirmenize olanak tanır. Kapsama grupları, bağımsız maddeler ve madde birleşimleri ile master plan birleşimleri için varsayılan kesinleştirme zaman dilimini tanımlayabilirsiniz. Daha sonra, master planlama çalışırken sipariş tarihi kesinleştirme için belirtilen zaman dilimi dahilinde olduğunda planlı siparişler otomatik olarak kesinleştirilecektir. Planlama Optimizasyonu ile oluşturulan planlı siparişler ve kullanımdan kaldırılan master planlama altyapısı, sipariş tarihini (başlangıç tarihi) farklı bir şekilde işler.
 
 > [!NOTE]
 > Planlanan satınalma siparişlerinin otomatik kesinleştirilmesi yalnızca bir satıcı ile ilişkilendirilmiş maddeler için gerçekleşir.
@@ -99,13 +99,13 @@ Otomatik kesinleştirme, planlı siparişleri master planlama işleminin parças
 > Kesinleştirilmiş türetilmiş siparişler (yani taşeron satınalma siparişleri), servis talebi değişiklik izleme etkin olduğunda *İncelemede* durumuna sahip olur.
 
 > [!IMPORTANT]
-> Bu bölümde açıklanan özelliğin Planlama Optimizasyonunda kullanılabilmesi için öncelikle, bu makalenin başlangıcında açıklandığı gibi [*Planlama Optimizasyonu için otomatik kesinleştirme* özelliğinin](#enable-features) sisteminizde etkinleştirilmiş olması gerekir. Otomatik kesinleştirme, yerleşik master planlama altyapısıyla her zaman kullanılabilir.
+> Bu bölümde açıklanan özelliğin Planlama Optimizasyonunda kullanılabilmesi için öncelikle, bu makalenin başlangıcında açıklandığı gibi [*Planlama Optimizasyonu için otomatik kesinleştirme* özelliğinin](#enable-features) sisteminizde etkinleştirilmiş olması gerekir. Otomatik kesinleştirme, kullanımdan kaldırılan master planlama altyapısıyla her zaman kullanılabilir.
 
-### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Planlama Optimizasyonu ile otomatik kesinleştirme ile yerleşik planlama altyapısı kıyaslaması
+### <a name="auto-firming-with-planning-optimization-vs-the-deprecated-master-planning-engine"></a>Planlama Optimizasyonu ile otomatik kesinleştirme ve kullanımdan kaldırılan master planlama altyapısı karşılaştırması
 
-Planlama Optimizasyonu ve yerleşik planlama altyapısı işlevlerinin ikisi de planlı siparişleri kesinleştirmek için kullanılabilir. Ancak, bazı önemli farklar vardır. Örneğin, Planlama Optimizasyonu işlevi hangi planlı siparişlerin kesinleştirileceğini belirlemek için sipariş tarihini (başka bir deyişle, başlangıç tarihi) kullanırken yerleşik planlama altyapısı gereksinim tarihini (başka bir deyişle, bitiş tarihi) kullanır. Aşağıdaki tablo, farkları özetlemektedir.
+Planlama Optimizasyonu ve kullanımdan kaldırılan master planlama altyapısı işlevlerinin ikisi de planlı siparişleri kesinleştirmek için kullanılabilir. Ancak, bazı önemli farklar vardır. Örneğin, Planlama Optimizasyonu işlevi hangi planlı siparişlerin kesinleştirileceğini belirlemek için sipariş tarihini (başka bir deyişle, başlangıç tarihi) kullanırken kullanımdan kaldırılan master planlama altyapısı gereksinim tarihini (başka bir deyişle, bitiş tarihi) kullanır. Aşağıdaki tablo, farkları özetlemektedir.
 
-| Özellik | Planlama Optimizasyonu | Yerleşik planlama altyapısı |
+| Özellik | Planlama İyileştirmesi | Kullanımdan kaldırılan master planlama altyapısı |
 |---|---|---|
 | **Tarih esası** | Otomatik kesinleştirme, sipariş tarihini (başlangıç tarihi) temel alır. | Otomatik kesinleştirme, gereksinim tarihini (bitiş tarihi) temel alır. |
 | **Sağlama süresi** | Sipariş tarihi (başlangıç tarihi) kesinleştirmeyi tetiklediğinden sağlama süresini kesinleştirme zaman diliminin bir parçası olarak düşünmeniz gerekmez. | Siparişlerin zamanında kesinleştirilmesini garanti etmeye yardımcı olması için kesinleştirme zaman dilimi, sağlama süresinden daha uzun olmalıdır. |

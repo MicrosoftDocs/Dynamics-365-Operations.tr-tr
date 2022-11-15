@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-19
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 3d116b5f7f456630415378e6cc069907e339068b
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 5f02ec58c88cfd0d663a97de4e3e4dff1cdd5e90
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689706"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740099"
 ---
 # <a name="finite-capacity-planning-and-scheduling"></a>Sınırlı kapasite planlaması ve zamanlama
 
@@ -28,9 +28,8 @@ Sınırlı kapasite, farklı kaynaklarla ilgili sınırlamalar dikkate alınarak
 
 Sınırlı kapasite planlaması ve zamanlama, sınırsız yükleme yaklaşımının oluşturduğu üretim süreçleri için daha gerçekçi bir zaman çizelgesi oluşturur. Kaynaklarda yeterli kapasite yoksa teslim tarihi gönderilir ve iş, yeterli kapasite olduğunda çizelgelenir.
 
-## <a name="planning-optimization-support-for-finite-capacity-planning"></a>Sınırsız kapasite planlaması için Planlama Optimizasyonu desteği
-
-Sınırlı kapasite planlaması ve programlama, Planlama Optimizasyonu'nu veya yerleşik planlama altyapısını kullanmanızdan bağımsız olarak neredeyse aynı şekilde çalışır. Ancak Planlama Optimizasyonu **Darboğaz özellikli zaman** dilimi parametresini kullanmaz. Planlama Optimizasyonu kullandığınızda, darboğaz özellikli kaynaklar her zaman darboğaz özellikli olmayan kaynaklarla aynı zaman dilimi kullanılarak planlanır (sınırlı kapasite zaman dilimi ile belirtildiği gibi).
+> [!NOTE]
+> Sınırlı kapasite planlaması ve programlama, Planlama Optimizasyonu'nu veya kullanımdan kaldırılan master planlama altyapısını kullanmanızdan bağımsız olarak neredeyse aynı şekilde çalışır. Ancak Planlama Optimizasyonu **Darboğaz özellikli zaman** dilimi parametresini kullanmaz. Planlama Optimizasyonu kullandığınızda, darboğaz özellikli kaynaklar her zaman darboğaz özellikli olmayan kaynaklarla aynı zaman dilimi kullanılarak planlanır (sınırlı kapasite zaman dilimi ile belirtildiği gibi).
 
 ## <a name="set-up-finite-capacity-functionality"></a>Sonlu kapasite işlevselliği ayarlama
 

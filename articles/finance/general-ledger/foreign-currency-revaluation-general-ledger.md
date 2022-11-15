@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3e0f4184237537464998b2bc1a6ab02561d9d291
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904542"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752816"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Genel muhasebe için yabancı para birimi yeniden değerleme
 
@@ -64,7 +64,9 @@ Yeniden değerleme işlemi bir veya daha fazla tüzel varlık için çalıştır
 
 Yeniden değerleme işlemi bir veya daha fazla yabancı para birimi için çalıştırılabilir. Arama, yeniden değerlenecek tüzel varlıklar için ana hesap türü (Bilanço veya Kar ve Zarar) ile ilgili zaman aralığında deftere nakledilen tüm para birimlerini içerecektir. Muhasebe para birimi listeye dahil edilir, ancak muhasebe para birimi seçilirse hiçbir şey yeniden değerlenmez. 
 
-Genel muhasebe değerlemesinin sonucunu önizlemek istiyorsanız, **Deftere nakletmeden önce önizle**'yi **Evet** olarak ayarlayın. Genel muhasebedeki önizleme, AR ve AP yabancı para birimi yeniden değerleme işlemindeki benzetimden farklıdır. AR ve AP içindeki benzetim bir rapordur, ancak genel muhasebedekinin, deftere nakletmeden önce yeniden değerleme yapmayı gerektirmeyen bir önizlemesi vardır. Tutarların nasıl hesaplandığına dair geçmişi tutmak için önizleme sonuçları Microsoft Excel'e aktarılabilir. Yeniden değerleme işleminin sonuçlarının önizlemesini görüntülemek istiyorsanız toplu işi kullanamazsınız. Kullanıcı, önizlemeden **Deftere naklet** düğmesini kullanarak tüm tüzel kişiliklerin sonuçlarını deftere nakletme seçeneğine sahiptir. Tüzel kişilik için sonuçlarla ilgili bir sorun varsa kullanıcı ayrıca **Deftere nakledilecek tüzel kişilikleri seç** düğmesini kullanarak tüzel kişiliklerin alt kümesini deftere nakletme seçeneğine de sahiptir. 
+Genel muhasebe değerlemesinin sonucunu önizlemek istiyorsanız, **Deftere nakletmeden önce önizle**'yi **Evet** olarak ayarlayın. Genel muhasebedeki önizleme, AR ve AP yabancı para birimi yeniden değerleme işlemindeki benzetimden farklıdır. AR ve AP içindeki benzetim bir rapordur, ancak genel muhasebedekinin, deftere nakletmeden önce yeniden değerleme yapmayı gerektirmeyen bir önizlemesi vardır. Tutarların nasıl hesaplandığına dair geçmişi tutmak için önizleme sonuçları Microsoft Excel'e aktarılabilir. Yeniden değerleme işleminin sonuçlarının önizlemesini görüntülemek istiyorsanız toplu işi kullanamazsınız. Kullanıcı, önizlemeden **Deftere naklet** düğmesini kullanarak tüm tüzel kişiliklerin sonuçlarını deftere nakletme seçeneğine sahiptir. Tüzel kişilik için sonuçlarla ilgili bir sorun varsa kullanıcı ayrıca **Deftere nakledilecek tüzel kişilikleri seç** düğmesini kullanarak tüzel kişiliklerin alt kümesini deftere nakletme seçeneğine de sahiptir.
+
+Yeniden değerleme sürecinden gelen **Raporlama para birimi ayarlamaları günlüğü** kullanılarak deftere nakledilen ayarlamaları dışarıda bırakmak isterseniz, **Raporlama para birimi ayarlamalarını hariç tut** alanını **Evet** olarak ayarlayın. Varsayılan olarak, raporlama para birimi ayarlamaları yeniden değerlemeye dahil edilir. 
 
 Yabancı para birimi yeniden değerleme işlemi tamamlandıktan sonra, her çalıştırmanın kaydını tutmak için bir kayıt oluşturulur.  Her bir tüzel varlık ve deftere nakil katmanı için ayrı bir kayıt oluşturulur.
 

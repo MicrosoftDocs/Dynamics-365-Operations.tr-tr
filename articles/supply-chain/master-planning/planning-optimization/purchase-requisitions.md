@@ -1,6 +1,6 @@
 ---
 title: Satın alma talepleri
-description: Bu makalede, satın alma taleplerinin Planlamayı En İyi Duruma Getirme işlevinde nasıl desteklendiği açıklanmaktadır.
+description: Bu makalede satınalma talepleri açıklanmaktadır.
 author: t-benebo
 ms.date: 01/04/2021
 ms.topic: article
@@ -16,14 +16,14 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b4dcae11e83748da3ec0368e1ddf47fedf5de23c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d9d55186307b18f4c3be78ae0828b08d3c987aad
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867912"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740697"
 ---
-# <a name="purchase-requisitions"></a>Satınalma talepleri
+# <a name="purchase-requisitions"></a>Satın alma talepleri
 
 [!include [banner](../../includes/banner.md)]
 
@@ -59,7 +59,7 @@ Ayrı master planlar için onaylanmış taleplerin zaman dilimi ayarladığını
 1. Onaylanmış talepler zaman dilimini ayarlamak istediğiniz her ek master plan için 2. ve 3. adımları tekrarlayın.
 
 > [!IMPORTANT]
-> **Çok yakında:** Onaylı taleplerin zaman dilimleri, henüz Planlamayı En İyi Duruma Getirme için desteklenmemektedir. Desteklenene kadar **Onaylanmış talepler zaman dilimi (gün)** alanına gireceğiniz tüm değerler yoksayılır.
+> Onaylı taleplerin zaman dilimleri, Planlama Optimizasyonu için desteklenmemektedir. Desteklenene kadar **Onaylanmış talepler zaman dilimi (gün)** alanına gireceğiniz tüm değerler yoksayılır.
 
 ## <a name="independent-supply-regardless-of-coverage-code"></a>Kapsam koduna bakılmaksızın bağımsız tedarik
 

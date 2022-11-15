@@ -2,7 +2,7 @@
 title: Proaktif kalite güncelleştirmeleri
 description: Bu makale, kalite güncelleştirmelerinin proaktif olarak sunulmasına ilişkin bilgi sağlar.
 author: rashmansur
-ms.date: 09/12/2022
+ms.date: 11/07/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: da5881a901d3ba4d01e6d4510a53ca079efd7e75
-ms.sourcegitcommit: c8b97eea28f07b6b179825f3b134c8c8704ff8fc
+ms.openlocfilehash: ff2232c9e1010ad1e2524df0c7ed4d771b489ed1
+ms.sourcegitcommit: 05069f7e5eb7a9335c0a62031d7663f88e4821df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2022
-ms.locfileid: "9731623"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "9752311"
 ---
 # <a name="proactive-quality-updates"></a>Proaktif kalite güncelleştirmeleri
 
@@ -25,6 +25,19 @@ ms.locfileid: "9731623"
 Son yedi yıl boyunca Microsoft [Bir Sürüm ](../../dev-itpro/lifecycle-services/oneversion-overview.md) olarak adlandırdığımız şey üzerinde sürekli olarak ilerleme gerçekleştirdi. Bir Sürüm önermesi basittir: tüm müşterileri aynı yazılım sürümünde olmasını sağlamaya ne kadar yakın olursak o kadar yüksek kalite sunabiliriz. Sorunları bir kerede bulup çözer ve çözümleri müşterilerimize çok daha hızlı sunarız.
 
 Bu önerme şu sonuçlarla onaylanmıştır: ürünlerimizde daha düşük olay sayısı. Müşteriler aynı sürümde olmadığında, sürekli olarak zaten bir çözümü bulunan sorunlardan etkilendiklerini görüyoruz. Dynamics 365 Finance, Dynamics 365 Supply Chain, Dynamics 365 Project Operations ve Dynamics 365 Commerce için büyük bir ilerleme kaydettik ve son teknik gelişmeler sayesinde artık sonraki adıma geçebiliriz. Aşağıdaki bilgiler neler yapacağımızı, aşamayı ayarlamak için neler yapmış olduğumuzu ve yeni özellikleri kesinti olmadan ne zaman sunacağımızı açıklamaktadır.
+
+## <a name="what-you-need-to-know"></a>Bilmeniz gerekenler
+
+- Proaktif kalite güncelleştirmeleri aylık olarak uygulanır.
+- Proaktif kalite güncelleştirmeleri oluşturulduğunda Microsoft, [hizmette](./public-preview-releases.md#targeted-release-schedule-dates-subject-to-change) olan bir hizmet güncelleştirmesini çalıştıran tüm sanal alan ortamlarına proaktif kalite güncelleştirmeleri uygular.
+- ABD Gıda ve İlaç Dairesi (FDA) düzenlemelerine tabi olan müşteriler için proaktif kalite güncelleştirmeleriyle ilgili özel durumlara izin verilir.
+- Düzenlemeye tabi ortamlar ve bağımsız ve kamu bulut müşterileri için proaktif kalite güncelleştirmelerinin nasıl yönetileceğini Microsoft belirler.
+- Proaktif kalite güncelleştirmeleriyle ilgili bildirimler [Microsoft 365 İleti Merkezi](https://admin.microsoft.com/AdminPortal/) ve müşterinin Microsoft Dynamics Lifecycle Services projesindeki bir başlığa nakledilir.
+- Bir ortama proaktif kalite güncelleştirmesi uygulanmadan beş gün önce, müşterilere güncelleştirmenin yapılacağı bildirilir.
+- Müşteriler proaktif kalite güncelleştirmelerini iptal edemez veya erteleyemezler.
+- Proaktif kalite güncelleştirmeleri bölgeye özel [planlı bakım aralığı](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows) sırasında yüklenir.
+- Kalite güncelleştirmeleri, sorun veya gerileme riski düşük olacak şekilde tasarlanmıştır ve Microsoft verileriyle desteklenir.
+- Microsoft, proaktif kalite güncelleştirmesiyle ilgili belirli sorunlar veya belirli düzeltmeler için hedeflenmiş testler önerir.
 
 ## <a name="focus-on-quality-updates"></a>Kalite güncelleştirmelerine odaklanma
 
@@ -40,7 +53,7 @@ Kalite güncelleştirmelerinin proaktif şekilde teslim edilmesini sağlayan bir
 
 - **Sıfıra yakın kesinti güncelleştirmesi**: Daha sık kullanılan ortamlara gönderim yapmak için, Dynamics 365 Hizmet Düzeyi Sözleşmlerini (SLA'ları) korumak açısından ortam kullanılabilirliği üzerindeki etkinin azaltılması temeldir. Sıfıra yakın kesinti güncelleştirmesi, başlangıçta güncelleştirilen görüntüyü minimum kesintiyle etkinleştirmek için yük devretme kümesi kullanarak aylık işletim sistemi düzeltme eki uygulamasını geliştirmek amacıyla sunulmuştur. Güncelleştirmeleri uygulama mekanizması daha az kesintiye uğramasını sağlayacak şekilde geliştirilmiştir ve hem işletim sistemi düzeltme eki uygulamasını hem de kalite güncelleştirmesi dağıtımını kapsar.
 
-Etkileşimli kullanıcılar için, etkin bir oturum yarıda kesilebilir ve yeniden deneme şimdi güncelleştirilmiş ortama gider. [Öncelik temelli toplu iş planlamanın](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md) kullanıma sunulmasıyla toplu iş planlama ve işleme kurtarır ve güncelleştirmeden hemen sonra sürdürülür. Öncelik temelli toplu iş planlama, müşterilere üretim ortamları için proaktif kalite güncelleştirmeleri dağıtımına katılmaya başlamadan önce gerçekleştirilecektir.
+    Etkileşimli kullanıcılar için, etkin bir oturum yarıda kesilebilir ve yeniden deneme şimdi güncelleştirilmiş ortama gider. [Öncelik temelli toplu iş planlamanın](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md) kullanıma sunulmasıyla toplu iş planlama ve işleme kurtarır ve güncelleştirmeden hemen sonra sürdürülür. Öncelik temelli toplu iş planlama, müşterilere üretim ortamları için proaktif kalite güncelleştirmeleri dağıtımına katılmaya başlamadan önce gerçekleştirilecektir.
 
 - **Karanlık saatler**: Karanlık saatler her Azure bölgesi için tanımlanmıştır ve neredeyse sıfır kesinti süresi güncelleştirmeleri karanlık saat döneminde gerçekleştirilecektir.
 
@@ -56,9 +69,11 @@ Proaktif kalite güncelleştirme dağıtımının etkinleştirilmesinin ötesind
 
 - **Şema**: Araç, kalite güncelleştirme derlemelerinin yalnızca hizmet çevrimiçi olduğunda uygulanabilen şema değişikliklerini içermesini sağlayacaktır. Bu yaklaşım, güncelleştirmeyi sıfır kesinti süresiyle uygulama yeteneğini korumanıza yardımcı olur.
 - **Artırılmış değişiklik incelemesi**: Şu anda zaten değişikliklerin kalite güncelleştirmesine eklenmesini onaylamaya yönelik ekstra bir süreç adımı bulunmaktadır. Ekstra adımdaki inceleme gerileme potansiyeli azaltmaya yardımcı olmak amacıyla artırılacaktır. Kalite güncelleştirmelerinde hataya neden olan değişikliklere izin verilmez ve artırılmış değişiklik incelemesi bu hedefe ulaşmaya yardımcı olacaktır.
-- **Görünürlük**: Gelecekteki proaktif kalite güncelleştirmeleri için bildirimleri yönetim merkezi, Lifecycle Services (LCS) ve diğer mevcut kanallar üzerinden göndereceğiz. Ek olarak, destek takımları ve olay liderleri, kalite güncelleştirmelerinin proaktif olarak dağıtıldığı yerler için görünebilirliğe sahip olacaktır.
- > [!NOTE]
- > Microsoft İletişimleri ekibi, e-posta bildirimlerinin teslim edilmesini engelleyen e-posta araçlarının sürekli performans düşüşünü araştırmaktadır. İşe alma ve bildirimle ilgili iletiler için lütfen Microsoft 365 İleti Merkezi'ni izlemeye devam edin.
+- **Görünürlük**: Gelecekteki proaktif kalite güncelleştirmeleri için bildirimler, yönetim merkezi, Lifecycle Services ve diğer mevcut kanallar üzerinden gönderilir. Ek olarak, destek takımları ve olay liderleri, kalite güncelleştirmelerinin proaktif olarak dağıtıldığı yerler için görünebilirliğe sahip olacaktır.
+
+    > [!NOTE]
+    > Microsoft İletişimleri ekibi, e-posta bildirimlerinin teslim edilmesini engelleyen e-posta araçlarının sürekli performans düşüşünü araştırmaktadır. İşe alma ve bildirimle ilgili iletiler için lütfen Microsoft 365 İleti Merkezi'ni izlemeye devam edin.
+
 - **Dağıtım yoluyla Fail Safe** – Dağıtım, bir kalite güncellemesi hata düzeltmesinde uygun olan yerlerde kod değişikliklerini korumak için kullanılır veya düzeltmeyle ilgili mevcut özellik uçuşunu kullanır. Proaktif bir dağıtımdan sonra bir geri dönüş veya değişikliğin kapatılması gerekiyorsa daha fazla başarısızlık oluşmaması için dağıtma sistemi üzerinden yapılabilir.
 - **Korumalı alan eşitleme tanımı**: Günümüzde müşterilerin yüzde 20'sinden azı birden fazla korumalı alana sahiptir ve sorun gidermeye yardımcı olmak için bir korumalı alanı sürümün eşleştiği üretimde dağıtılmış olarak korurlar. Bir müşteri, üretiminden daha yeni bir sürümü test etmek için korumalı alan kullanıyorsa bu korumalı alan yeni sürüme yönelik kalite güncelleştirmelerini alır.
 
@@ -77,8 +92,8 @@ Müşteriler düzenli olarak daha küçük yükler alacağından, güncel kalma 
 Her bölgenin aktif olunmayan saatleri hakkında bilgi için bkz. [Bölgeye göre planlanmış bakım süreleri nelerdir?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
 
 ### <a name="proactive-quality-update-release-10028"></a>Proaktif kalite güncelleştirmesi sürümü: 10.0.28
-**Uygulama sürümü: 10.0.1265.89**
-**İlgili son BB makalesini: 745340**
+**Uygulama sürümü: 10.0.1265.89**  
+**İlgili son BB makalesi: 745340**
 
 | İstasyon | Bölgeler | Tamamlanmış Zamanlama| Yaklaşan Korumalı Alan Zamanlaması
 |---|---|---|---|
@@ -89,19 +104,31 @@ Her bölgenin aktif olunmayan saatleri hakkında bilgi için bkz. [Bölgeye gör
 | 5. İstasyon | DoD, Hükümet Topluluk Bulutu, Çin | Planlanmadı | Planlanmadı |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a>Proaktif kalite güncelleştirmesi sürümü: 10.0.29
-**Uygulama sürümü: 10.0.1326.70**
-**İlgili son BB makalesini: 748926**
+**Uygulama sürümü: 10.0.1326.70**  
+**İlgili son BB makalesi: 748926**
 
 | İstasyon | Bölgeler | Tamamlanmış Zamanlama | Yaklaşan Korumalı Alan Zamanlaması|
 |---|---|---|---|
-| 1. İstasyon | Merkez Kanada, Doğu Kanada, Merkez Fransa, Merkez Hindistan, Doğu Norveç, Batı İsviçre | 14 Ekim ile 17 Ekim 2022 tarihleri arasında | 2 Kasım-5 Kasım 2022 |
-| 2. İstasyon | Güney Fransa, Güney Hindistan, Batı Norveç, Kuzey İsviçre, Kuzey Güney Afrika, Doğu Avustralya, Güney Birleşik Krallık, Kuzey BAE, Doğu Japonya, Güneydoğu Avustralya, Güney Doğu Asya | 15 Ekim ile 18 Ekim 2022 tarihleri arasında | 2 Kasım-5 Kasım 2022 |
-| 3. İstasyon | Doğu Asya, Batı Birleşik Krallık, Batı Japonya, Güney Brezilya, Batı Avrupa, Doğu ABD, Merkez BAE | 16 Ekim ile 19 Ekim 2022 tarihleri arasında | 2 Kasım-5 Kasım 2022 |
-| 4. İstasyon | Kuzey Avrupa, Orta ABD, Batı ABD | 17 Ekim ile 20 Ekim 2022 tarihleri arasında | 2 Kasım-5 Kasım 2022 |
+| 1. İstasyon | Merkez Kanada, Doğu Kanada, Merkez Fransa, Merkez Hindistan, Doğu Norveç, Batı İsviçre | 14 Ekim ile 17 Ekim 2022 ve 2 Kasım ile 5 Kasım 2022 tarihleri arasında | 13 Kasım-16 Kasım 2022 |
+| 2. İstasyon | Güney Fransa, Güney Hindistan, Batı Norveç, Kuzey İsviçre, Kuzey Güney Afrika, Doğu Avustralya, Güney Birleşik Krallık, Kuzey BAE, Doğu Japonya, Güneydoğu Avustralya, Güney Doğu Asya | 15 Ekim ile 18 Ekim 2022 ve 2 Kasım ile 5 Kasım 2022 tarihleri arasında | 13 Kasım-16 Kasım 2022 |
+| 3. İstasyon | Doğu Asya, Batı Birleşik Krallık, Batı Japonya, Güney Brezilya, Batı Avrupa, Doğu ABD, Merkez BAE | 16 Ekim ile 19 Ekim 2022 ve 2 Kasım ile 5 Kasım 2022 tarihleri arasında | 13 Kasım-16 Kasım 2022 |
+| 4. İstasyon | Kuzey Avrupa, Orta ABD, Batı ABD | 17 Ekim ile 20 Ekim 2022 ve 2 Kasım ile 5 Kasım 2022 tarihleri arasında | 13 Kasım-16 Kasım 2022 |
 | 5. İstasyon | DoD, Hükümet Topluluk Bulutu, Çin | Planlanmadı | Planlanmadı |
 
+### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a>Proaktif kalite güncelleştirmesi sürümü: 10.0.30
+**Uygulama sürümü: TBD**
+**İlgili son BB makalesi: TBD**
+
+| İstasyon | Bölgeler | Yaklaşan Korumalı Alan Zamanlaması |
+|---|---|---|
+| 1. İstasyon | Merkez Kanada, Doğu Kanada, Merkez Fransa, Merkez Hindistan, Doğu Norveç, Batı İsviçre | 1 Aralık ile 4 Aralık 2022 tarihleri arasında |
+| 2. İstasyon | Güney Fransa, Güney Hindistan, Batı Norveç, Kuzey İsviçre, Kuzey Güney Afrika, Doğu Avustralya, Güney Birleşik Krallık, Kuzey BAE, Doğu Japonya, Güneydoğu Avustralya, Güney Doğu Asya | 2 Aralık ile 5 Aralık 2022 tarihleri arasında |
+| 3. İstasyon | Doğu Asya, Batı Birleşik Krallık, Batı Japonya, Güney Brezilya, Kuzey Avrupa, Doğu ABD, Merkez BAE | 3 Aralık ile 6 Aralık 2022 tarihleri arasında |
+| 4. İstasyon | Batı Avrupa, Orta ABD, Batı ABD | 4 Aralık ile 7 Aralık 2022 tarihleri arasında |
+| 5. İstasyon | DoD, Hükümet Topluluk Bulutu, Çin | Planlanmadı |
+
 > [!IMPORTANT] 
-> Microsoft, beş gün öncesinde önceki zamanlamayı güncelleştirecek ve kalite güncelleştirmelerini almak üzere zamanlanan ortamlara e-posta bildirimi gönderecektir. Önceki zamanlama, yalnızca yaklaşan güncelleştirmeyle ilgili bildirim almış ortamlar için geçerlidir. Her bölgenin aktif olunmayan saatleri hakkında bilgi için bkz. [Bölgeye göre planlanmış bakım süreleri nelerdir?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
+> Microsoft, beş gün öncesinde önceki zamanlamayı güncelleştirecek ve kalite güncelleştirmelerini almak üzere zamanlanan ortamlara bir bildirim gönderecektir. Önceki zamanlama, yalnızca yaklaşan güncelleştirmeyle ilgili bildirim almış ortamlar için geçerlidir. Her bölgenin aktif olunmayan saatleri hakkında bilgi için bkz. [Bölgeye göre planlanmış bakım süreleri nelerdir?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
 >
 > Kalite güncelleştirmesinin kullanıma sunulmak üzere zamanlandığı bölge grubu veya *istasyon* için zamanlama dört günlük bir aralığı gösterir. Kalite güncelleştirmeleri, yalnızca korumalı alan ortamlarıyla başlayacaktır. Sonrasında başarıyla dağıtım yapılan korumalı alan yüzdesi arttıkça müşterilere önceden bildirim ile üretim ortamlarına dağıtım başlayacaktır.
 > 
@@ -124,13 +151,13 @@ Kalite güncelleştirme yükünde bulunan değişikliklerin listesini belirlemek
 
 10.0.28 kalite güncelleştirmesi dizisi ve ilgili uygulama sürümü 10.0.1265.89 için BB# 745340 kullanın.
 
-1. LCS'de korumalı alanınızın **Ortam ayrıntıları** sayfasını açın. 
+1. Lifecycle Services'te korumalı alanınızın **Ortam ayrıntıları** sayfasını açın. 
 2. **Kullanılabilir Güncelleştirmeler** bölümünde en son kalite güncelleştirme derlemesi için **Görünümü Güncelleştir** seçeneğini belirleyin. 
 3. Derlemeyi CSV veya Microsoft Excel dosyasına dışarı aktarın.
 4. Dışa aktarılan dosyada bilgileri zamana göre sıralayın (önce en eski) ve sonra **Kimliği güncelleştir** sütununda BB 745340 numarasını arayın. BB delta listesini görebiliyor olmanız gerekir.
  
- > [!NOTE]
- > CSV veya Excel dosyasına dışarı aktarma işlemi, ortam güncelleştirilmeden önce yapılmalıdır. Aksi durumda, güncelleştirme yüklü olmayan ve benzer yapılandırmaya sahip bir ortam kullanabilir ve yukarıdaki adımları izleyebilirsiniz.
+> [!NOTE]
+> CSV veya Excel dosyasına dışarı aktarma işlemi, ortam güncelleştirilmeden önce yapılmalıdır. Aksi durumda, güncelleştirme yüklü olmayan ve benzer yapılandırmaya sahip bir ortam kullanabilir ve yukarıdaki adımları izleyebilirsiniz.
 
 [![Kalite güncelleştirmesi olan ortam örneği.](./media/how-to-get-kb-list-pqu.png)](./media/how-to-get-kb-list-pqu.png)
 
@@ -139,8 +166,8 @@ Kritik bir sorun veya gerileme, genellikle birden fazla müşterinin hizmetlerim
 
 Tek bir müşteri ortamı etkilenirse destek talebi açmak için Microsoft desteğine başvurun. Gerekçeye bağlı olarak, sorun giderilene kadar kalite güncelleştirmesinin söz konusu projedeki diğer tüm ortamlara sunulmasını durduracağız.
 
-## <a name="can-customers-still-manually-apply-hotfix-updates-from-lcs"></a>Müşteriler LCS'den düzeltme güncelleştirmelerini el ile uygulamaya devam edebilir mi?
-Evet. Düzeltmelerin çalışma şekliyle sürekli eşliğini sağlamak için düzeltme güncelleştirmeleri LCS'deki müşteri ortamlarına uygulanmaya devam edebilir. Ancak, kalite güncelleştirmesinin bir parçası olarak dağıtılan düzeltmelerin, güncelleştirme dağıtılmadan önce standart SDP'den geçtiğini unutmayın. Bu durum, daha yüksek kalite nedeniyle gerileme riskini azaltır. Daha fazla güvenilirlik için düzeltmeleri el ile uygulamak yerine bir kalite güncelleştirmesi seçmenizi öneririz.
+## <a name="can-customers-still-manually-apply-hotfix-updates-from-lifecycle-services"></a>Müşteriler Lifecycle Services'ten düzeltme güncelleştirmelerini el ile uygulamaya devam edebilir mi?
+Evet. Düzeltmelerin çalışma şekliyle sürekli eşliğini sağlamak için düzeltme güncelleştirmeleri Lifecycle Services'teki müşteri ortamlarına uygulanmaya devam edebilir. Ancak, kalite güncelleştirmesinin bir parçası olarak dağıtılan düzeltmelerin, güncelleştirme dağıtılmadan önce standart SDP'den geçtiğini unutmayın. Bu durum, daha yüksek kalite nedeniyle gerileme riskini azaltır. Daha fazla güvenilirlik için düzeltmeleri el ile uygulamak yerine bir kalite güncelleştirmesi seçmenizi öneririz.
 
 ## <a name="can-customers-proactively-install-a-quality-update-build-ahead-of-the-schedule"></a>Müşteriler, kalite güncelleştirmesi derlemesini proaktif olarak zamanlamadan önce yükleyebilir mi?
 Evet. Bir kalite güncellemesini proaktif olarak yükleyebilirsiniz. Microsoft, ortamın geçerli derleme sürümü söz konusu kalite güncelleştirmesine eşit veya daha yüksekse güncelleştirmeyi atlar.
@@ -149,7 +176,7 @@ Evet. Bir kalite güncellemesini proaktif olarak yükleyebilirsiniz. Microsoft, 
 - Kalite güncelleştirmesinin gerçekleşmesinin planlandığı tarihten itibaren bir hafta içinde zamanlanmış yaklaşan bir hizmet güncelleştirmesi varsa kalite güncelleştirmeleri üretim ortamlarına uygulanmaz.
 - Bir korumalı alan ortamı, yaklaşmakta olan kalite güncelleştirmesiyle aynı veya daha yüksek derleme sürümüne sahipse bu sürüm atlanır.
 - Bir üretim ortamı, yaklaşmakta olan kalite güncelleştirmesiyle aynı veya daha yüksek derleme sürümüne sahipse bu sürüm atlanır.
-- Bir korumalı alan, kalite güncelleştirmesi veya üretim ortamına el ile güncelleştirme nedeniyle aynı veya daha yüksek derleme sürümüne sahipse üretim aylık hizmet güncelleştirmesinin zamanlanmış sürümünü almaya devam eder. Zamanlanan üretim ortamının hizmet güncelleştirme sürümüne güncelleştirilmesini istemiyorsanız LCS'den hizmet güncelleştirmesini duraklatabilirsiniz. 
+- Bir korumalı alan, kalite güncelleştirmesi veya üretim ortamına el ile güncelleştirme nedeniyle aynı veya daha yüksek derleme sürümüne sahipse üretim aylık hizmet güncelleştirmesinin zamanlanmış sürümünü almaya devam eder. Zamanlanan üretim ortamının hizmet güncelleştirme sürümüne güncelleştirilmesini istemiyorsanız Lifecycle Services'ten hizmet güncelleştirmesini duraklatabilirsiniz. 
 - Daha iyi kararlılık ve sonuçlar için yaklaşan bir hizmet güncelleştirmesi için değişikliklerinizi test etmek üzere en son kalite güncelleştirme derlemesini kullanmanızı öneririz.
 
 ## <a name="if-an-environment-has-an-upcoming-scheduled-action-and-a-scheduled-quality-update-in-the-same-maintenance-window-will-it-still-receive-the-quality-update"></a>Bir ortamda yaklaşan planlanan bir eylem ve aynı bakım aralığında zamanlanmış bir kalite güncelleştirmesi varsa yine de kalite güncelleştirmesi alınacak mı?
@@ -164,11 +191,11 @@ FDA doğrulaması ve düzenlemesine tabi müşteriler için plan değişikliği 
 ## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>Bu kalite güncelleştirmeleri için hizmet güncelleştirmelerinin hangi sürümleri desteklenir?
 Hizmet güncelleştirmelerinin desteklenen sürümlerini kullanan müşteriler, kalite güncelleştirmelerini alabilir. 
 
-## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retailsdk"></a>Perakende bileşenlere sahip finans ve operasyon uygulamaları dağıtımları genellikle MPOS'u yeniden dağıtmak zorunda kalmanın yanı sıra ek çalışma gerektirir. Bu kalite güncelleştirmeleri RetailSDK'yı nasıl etkileyecek? 
+## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retail-sdk"></a>Perakende bileşenlere sahip finans ve operasyon uygulamaları dağıtımları genellikle MPOS'u yeniden dağıtmak zorunda kalmanın yanı sıra ek çalışma gerektirir. Bu kalite güncelleştirmeleri Retail SDK'yı nasıl etkileyecek? 
 Kalite güncelleştirmeleri yükünde düzeltmenin yapısı değişmediğinden, şu anda özellikle perakende bileşenleriyle ilgili herhangi bir ek etki beklemiyoruz.
 
 ## <a name="is-there-any-impact-to-cloud-hosted-environments-che"></a>Bulutta Barındırılan Ortamlar (CHE) üzerinde herhangi bir etkisi var mı? 
-Microsoft'un alanı dışında kalması nedeniyle CHE ortamları bazı kalite güncelleştirmelerinin kapsamı dışındadır
+Microsoft'un alanı dışında kalması nedeniyle CHE ortamları bazı kalite güncelleştirmelerinin kapsamı dışındadır.
 
 ## <a name="are-there-any-integration-issues-with-microsoft-dataverse"></a>Microsoft Dataverse ile herhangi bir tümleştirme sorunu var mı? 
 Kalite güncelleştirmeleri ile ilgili olarak Dataverse ile bilinen bir tümleştirme sorunu bulunmamaktadır.

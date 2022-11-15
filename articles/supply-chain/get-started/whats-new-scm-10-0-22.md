@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 310809799a81c6709041764f7038de2a70b7f203
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: b95f131a45c11748cfd4c66c47e5a51c765ed486
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124805"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740423"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Dynamics 365 Supply Chain Management 10.0.22'daki yenilikler veya değişiklikler (Kasım 2021)
 
@@ -53,7 +53,7 @@ Aşağıdaki yardım makalelerini yakın bir zamanda ekledik veya önemli ölç�
 |---|---|
 | Mühendislik değişikliği yönetimi | [Mühendislik değişim yönetimine genel bakış](../engineering-change-management/product-engineering-overview.md) bölümünde artık özellik yönetiminde kullanılabilen tüm ilgili ve isteğe bağlı özellikler listelenmektedir |
 | Master planlama | [Talep tahmini kurulumu](../master-planning/demand-forecasting-setup.md) |
-| Master planlama | [Planlama Optimizasyonu ile net gereksinimler ve ilişkilendirme bilgileri](../master-planning/planning-optimization/net-requirements.md) |
+| Master planlama | [Net gereksinimler ve ilişkilendirme bilgileri](../master-planning/planning-optimization/net-requirements.md) |
 | Ambar yönetimi | [Ambara serbest bırakma](../warehousing/release-to-warehouse-process.md) bölümünde, tüm ambara serbest bırakma işlemine dair ayrıntılı bir genel bakış sağlanmaktadır |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
