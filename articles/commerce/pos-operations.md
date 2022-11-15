@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 42010bbc0cfb9714fc2be360c817bad07e184eb3
-ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
+ms.openlocfilehash: eb21dc5ca474a87fcabe2dda2a06dda7aa42ebc2
+ms.sourcegitcommit: 719600437fc0895efac374f954a895e4c951da6e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728289"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9736894"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri
 
@@ -42,8 +42,9 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 
 > [!NOTE]
 > Aşağıda listelenen işlemler, Commerce'ın en son sürümü için geçerlidir. Bazı işlemler değişmiş veya önceki sürümlerde bulunmuyor olabilir.
+> Çevrimdışı özellikler ve yapılandırma hakkında daha fazla ayrıntı için, [Commerce için çevrimdışı uygulama ve sorun giderme](dev-itpro/implementation-considerations-offline.md) başlıklı makaleye başvurun.
 
-| Kimlik   | Operasyon                                         | Açıklama                                                                                                                                                                                                    | Kullanıcı işlemleri    | Hareket ekranı | Hoş geldiniz ekranı | Çevrimdışı kullanılabilir? | Konuma özgü |
+| Kod   | Operasyon                                         | Açıklama                                                                                                                                                                                                    | Kullanıcı işlemleri    | Hareket ekranı | Hoş geldiniz ekranı | Çevrimdışı kullanılabilir? | Konuma özgü |
 | ---- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------ | -------------- | ----------------- | --------------- |
 | 100  | Ürün satışı                                      | Harekete belirli bir ürün ekleyin.                                                                                                                                                                    | Evet            | Evet                | Evet            | Evet               | No.              |
 | 101  | Fiyat denetimi                                       | Belirtilen bir ürünün fiyatını arayın.                                                                                                                                        | Evet            | Evet                | Evet            | Evet               | No.              |
