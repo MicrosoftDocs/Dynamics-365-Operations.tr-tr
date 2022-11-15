@@ -1,6 +1,6 @@
 ---
 title: CTP kullanarak satış siparişi teslimat tarihlerini hesaplama
-description: Teslim edilebilir miktar (CTP) işlevi müşterilere belirli malları taahhüt edebileceğiniz gerçekçi tarihler vermenizi sağlar. Bu makalede, her planlama altyapısı (Planlama Optimizasyonu ve yerleşik altyapı) için CTP'nin nasıl ayarlanacağı ve kullanılacağı açıklanır.
+description: Teslim edilebilir miktar (CTP) işlevi müşterilere belirli malları taahhüt edebileceğiniz gerçekçi tarihler vermenizi sağlar. Bu makalede, her planlama altyapısı (Planlama Optimizasyonu ve kullanımdan kaldırılan master planlama altyapısı) için CTP'nin nasıl ayarlanacağı ve kullanılacağı açıklanır.
 author: t-benebo
 ms.date: 07/20/2022
 ms.topic: article
@@ -11,28 +11,29 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-20
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 3b8e3dc9f0e7aaf019aa4d7284458206e7daadb2
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 4a3b8ba89d9fb224026cf32cad89d7f28321ee79
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714873"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741216"
 ---
-# <a name="calculate-sales-order-delivery-dates-using-ctp"></a>CTP kullanarak satış siparişi teslimat tarihlerini hesaplama
+# <a name="calculate-sales-order-delivery-dates-using-ctp"></a>CTP (Teslim edilebilir miktar) işlevini kullanarak satış siparişi teslimat tarihlerini hesaplama
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 <!-- KFM: Preview until further notice -->
+<!-- KFN: Split into two topics, one for PO and one for classic. -->
 
 Teslim edilebilir miktar (CTP) işlevi müşterilere belirli malları taahhüt edebileceğiniz gerçekçi tarihler vermenizi sağlar. Her satış satırı için, mevcut eldeki stok, üretim kapasitesi ve taşıma sürelerini hesaba katan bir tarih sağlayabilirsiniz.
 
 CTP, kapasite bilgilerini dikkate alarak, [karşılanabilir miktar](../../sales-marketing/delivery-dates-available-promise-calculations.md) (KM) işlevini uzatır. KM yalnızca malzeme kullanılabilirliğini dikkate alır ve sonsuz kapasite kaynakları olduğunu varsayarken, CTP hem malzeme hem de kapasitenin kullanılabilirliğini dikkate alır. Bu nedenle, talebin belirli bir zaman dilimi içinde karşılanıp karşılanmayacağına ilişkin daha gerçekçi bir tablo sağlar.
 
-CTP, kullandığınız master planlama altyapısına (Planlama Optimizasyonu veya yerleşik altyapı) bağlı olarak az miktarda farklı davranır. Bu makalede, her altyapı bunun nasıl ayarlanacağı açıklanmaktadır. Planlama Optimizasyonu için CTP şu anda yerleşik altyapı tarafından desteklenen CTP senaryolarının yalnızca bir alt kümesini desteklemektedir.
+CTP, kullandığınız master planlama altyapısına (Planlama Optimizasyonu veya kullanımdan kaldırılan master planlama altyapısı) bağlı olarak az miktarda farklı davranır. Bu makalede, her altyapı bunun nasıl ayarlanacağı açıklanmaktadır. Planlama Optimizasyonu için CTP şu anda kullanımdan kaldırılan master planlama altyapısı tarafından desteklenen CTP senaryolarının yalnızca bir alt kümesini desteklemektedir.
 
 ## <a name="turn-on-ctp-for-planning-optimization"></a>Planlama Optimizasyonu için CTP'yi etkinleştirme
 
-Yerleşik master planlama altyapısı için CTP her zaman kullanılabilir. Ancak, Planlama Optimizasyonu için CTP'yi kullanmak istiyorsanız, bu özellik sisteminizde açık olmalıdır. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanında bu özellik aşağıdaki şekilde listelenir:
+Kullanımdan kaldırılan master planlama altyapısı için CTP her zaman kullanılabilir. Ancak, Planlama Optimizasyonu için CTP'yi kullanmak istiyorsanız, bu özellik sisteminizde açık olmalıdır. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanında bu özellik aşağıdaki şekilde listelenir:
 
 - **Modül:** *Master planlama*
 - **Özellik adı:** *(Önizleme) Planlama Optimizasyonu için CTP*
@@ -47,9 +48,9 @@ Malzeme ve kaynakları dikkate alan bir CTP hesaplaması, özellikle de denetlen
 
 ## <a name="how-ctp-differs-depending-on-the-master-planning-engine-that-you-use"></a>Kullandığınız master planlama altyapısına göre CTP nasıl farklılık gösterir?
 
-Aşağıdaki tablo, Planlama Optimizasyonu için CTP ile yerleşik master planlama altyapısı için CTP arasındaki farkları özetler.
+Aşağıdaki tablo, Planlama Optimizasyonu için CTP ile kullanımdan kaldırılan master planlama altyapısı için CTP arasındaki farkları özetler.
 
-| Öğe | Planlama İyileştirmesi | Yerleşik master planlama altyapısı |
+| Öğe | Planlama İyileştirmesi | Kullanımdan kaldırılan master planlama altyapısı |
 |---|---|---|
 | Siparişler, sipariş satırları ve ürünler için **Teslimat tarihi kontrolü** ayarı | *Planlama İyileştirmesi için CTP* | *CTP* |
 | Hesaplama zamanı | Hesaplama işlemi, dinamik bir planı zamanlanmış bir görev olarak çalıştırılarak tetiklenir. | Bir satış siparişi satırını her girdiğinizde veya güncelleştirdiğinizde hesaplama hemen tetiklenir. |
@@ -70,8 +71,8 @@ Varsayılan teslimat tarihi kontrol yöntemi, bir geçersiz kılmanın geçerli 
     - *Satış sağlama süresi* – Satış sağlama süresi, satış siparişinin oluşturulmasından maddelerin sevk edilmesi arasındaki zaman anlamına gelir. Teslim tarihi hesaplaması, bir varsayılan gün sayısına dayanır ve stok kullanılabilirliğini, bilinen talebi veya planlanan tedariki dikkate almaz.
     - *KM* – KM, mevcut bulunan ve müşteriye belirli bir tarihte taahhüt edilebilecek bir madde miktarıdır. KM hesaplaması kaydedilmemiş stok, sağlama süreleri, planlanan girişler ve sorunları içerir.
     - *KM + Çıkış marjı* – Sevkiyat tarihi, KM tarihi ile maddenin çıkış marjının toplamına eşittir. Çıkış marjı, maddelerin sevkiyata hazırlanması için gereken süredir.
-    - *CTP* – Yerleşik master planlama altyapısı tarafından sağlanan CTP hesaplamasını kullanır. Planlama Optimizasyonunu kullanıyorsanız, *CTP* teslim tarihi kontrol yöntemine izin verilmez ve bu yöntem seçilirse, hesaplama çalıştırıldığında hataya neden olur.
-    - *Planlama Optimizasyonu için CTP* – Planlama Optimizasyonu tarafından sağlanan CTP hesaplamasını kullanır. Yerleşik master planlama altyapısını kullanıyorsanız, bu seçeneğin hiçbir etkisi olmaz.
+    - *CTP* – Kullanımdan kaldırılan master planlama altyapısı tarafından sağlanan CTP hesaplamasını kullanır. Planlama Optimizasyonunu kullanıyorsanız, *CTP* teslim tarihi kontrol yöntemine izin verilmez ve bu yöntem seçilirse, hesaplama çalıştırıldığında hataya neden olur.
+    - *Planlama Optimizasyonu için CTP* – Planlama Optimizasyonu tarafından sağlanan CTP hesaplamasını kullanır. Kullanımdan kaldırılan master planlama altyapısını kullanıyorsanız, bu seçeneğin hiçbir etkisi olmaz.
 
 ### <a name="set-delivery-date-control-overrides-for-individual-products"></a>Belirli ürünler için teslim tarihi denetimi geçersiz kılmalarını ayarlama
 
@@ -85,7 +86,7 @@ Genel varsayılan yönteminiz olarak ayarlanmış olandan farklı bir teslimat t
 
 ## <a name="schedule-ctp-for-planning-optimization-calculations"></a><a name="batch-job"></a>Planlama Optimizasyonu hesaplamaları için CTP'yi zamanlama
 
-Planlama Optimizasyonu için CTPyi kullandığınızda, sistemi CTP hesaplamaları yapacak şekilde tetiklemek için dinamik bir plan çalıştırmanız ve ilgili tüm siparişler için teyit edilen sevk ve giriş tarihlerini ayarlamanız gerekir. Plan, onaylanan sevk ve giriş tarihlerinin gerekli olduğu tüm maddeleri içermelidir. (Yerleşik planlama altyapısı için CTP kullandığınızda, CTP hesaplamaları hemen yerel olarak yapılır. Bu nedenle, CTP sonuçlarını görmek için dinamik bir plan çalıştırmanız gerekmez.)
+Planlama Optimizasyonu için CTPyi kullandığınızda, sistemi CTP hesaplamaları yapacak şekilde tetiklemek için dinamik bir plan çalıştırmanız ve ilgili tüm siparişler için teyit edilen sevk ve giriş tarihlerini ayarlamanız gerekir. Plan, onaylanan sevk ve giriş tarihlerinin gerekli olduğu tüm maddeleri içermelidir. (Kullanımdan kaldırılan master planlama altyapısı için CTP kullandığınızda, CTP hesaplamaları hemen yerel olarak yapılır. Bu nedenle, CTP sonuçlarını görmek için dinamik bir plan çalıştırmanız gerekmez.)
 
 Tarihlerin tüm kullanıcılar için uygun zamanda kullanılabilir olmasını sağlamak için toplu işleri, ilgili planları yinelenen bir temelde çalışacak şekilde ayarlamanız önerilir. Örneğin, dinamik plan çalıştırmak üzere ayarlanmış bir toplu iş, her 30 dakikada bir teyit edilen sevk ve giriş tarihlerini ayarlar. Bu nedenle, siparişleri giren ve içe aktaran kullanıcılar teyit edilen sevk ve giriş tarihlerini almak için maksimum 30 dakika beklemek zorunda kalacak.
 
@@ -98,17 +99,17 @@ Belirli bir zamanlamada dinamik bir plan çalıştırmak üzere toplu iş ayarla
 1. Zamanlamayı kaydetmek için **Tamam**'ı seçin.
 1. Toplu iş oluşturmak ve iletişim kutusunu kapatmak için **Tamam**'ı seçin.
 
-## <a name="use-ctp-for-built-in-master-planning"></a>Yerleşik master planlama için CTP'yi kullanma
+## <a name="use-ctp-for-the-deprecated-master-planning-engine"></a>Kullanımdan kaldırılan master planlama altyapısı için CTP'yi kullanma
 
-### <a name="create-a-new-order-by-using-ctp-for-built-in-master-planning"></a>Yerleşik master planlama için CTP'yi kullanarak yeni bir sipariş oluşturma
+### <a name="create-a-new-order-by-using-ctp-for-the-deprecated-master-planning-engine"></a>Kullanımdan kaldırılan master planlama altyapısı için CTP'yi kullanarak yeni sipariş oluşturma
 
 Her yeni satış siparişi veya sipariş satırı eklediğinizde, sistem buna varsayılan bir teslim tarihi kontrol yöntemi atar. Sipariş başlığı her zaman genel varsayılan yöntemle başlar. Sipariş edilen bir maddeye geçersiz kılma atanmışsa, yeni sipariş satırı bu geçersiz kılma işlemini kullanır. Aksi takdirde, yeni sipariş satırı genel varsayılan yöntemi de kullanır. Dolayısıyla, varsayılan yöntemlerinizi en sık kullandığınız teslimat tarihi kontrol yöntemiyle eşleşecek şekilde ayarlamalısınız. Sipariş oluşturduktan sonra, varsayılan yöntemi sipariş başlığı ve/veya sipariş satırı düzeyinde gereksinim duyduğunuz şekilde geçersiz kılabilirsiniz. Daha fazla bilgi için bkz. [Varsayılan teslimat tarihi kontrol yöntemlerini ayarlama](#default-methods) ve [Varolan satış siparişlerini CTP'yi kullanacak şekilde değiştirme](#change-orders).
 
-### <a name="view-confirmed-delivery-dates-when-you-use-ctp-for-built-in-master-planning"></a>Yerleşik master planlama için CTP kullandığınızda onaylanan teslimat tarihlerini görüntüleme
+### <a name="view-confirmed-delivery-dates-when-you-use-ctp-for-the-deprecated-master-planning-engine"></a>Kullanımdan kaldırılan master planlama altyapısı için CTP kullandığınızda onaylanan teslimat tarihlerini görüntüleme
 
-Yerleşik master planlama altyapısını kullanıyorsanız, CTP hesaplamaları, **Teslimat tarihi denetimi** alanının *CTP* olarak ayarlandığı siparişlere ve/veya sipariş satırlarına uygulanır.
+Kullanımdan kaldırılan master planlama altyapısını kullanıyorsanız, CTP hesaplamaları, **Teslimat tarihi denetimi** alanının *CTP* olarak ayarlandığı siparişlere ve/veya sipariş satırlarına uygulanır.
 
-Yerleşik master planlama için CTP kullanan satış satırları için sistem, bir satış satırını her kaydettiğinizde **Onaylanan sevk tarihi** ve **Teyit edilen giriş tarihi** alanlarını otomatik olarak ayarlar. Daha sonra bir satış satırında ilgili bir değişiklik yaparsanız (örneğin, miktarı veya tesisi değiştirerek), tarihler hemen yeniden hesaplanır.
+Kullanımdan kaldırılan master planlama altyapısı için CTP kullanan satış satırları için sistem, bir satış satırını her kaydettiğinizde **Onaylanan sevk tarihi** ve **Teyit edilen giriş tarihi** alanlarını otomatik olarak ayarlar. Daha sonra bir satış satırında ilgili bir değişiklik yaparsanız (örneğin, miktarı veya tesisi değiştirerek), tarihler hemen yeniden hesaplanır.
 
 - Bir satış siparişi satırı için onaylanan teslim tarihlerini görüntülemek için satış siparişini açın ve satış satırını seçin. Ardından, **Satır ayrıntıları** hızlı sekmesinin **Teslimat** sekmesinde **Onaylanan sevkiyat tarihi** ve **Teyit edilen giriş tarihi** değerlerini inceleyin.
 - Bir siparişin tamamı için onaylanan teslim tarihlerini görüntülemek için satış siparişini açın ve **Başlık** görünümünü seçin. Ardından, **Teslimat** hızlı sekmesinde **Onaylanan sevkiyat tarihi** ve **Teyit edilen giriş tarihi** değerlerini inceleyin.
@@ -155,8 +156,8 @@ Bir siparişi, sipariş başlığı düzeyinde CTP kullanacak şekilde değişti
 1. **Satış siparişi ayrıntıları** sayfasında, başlık bilgilerini açmak için **Başlık**'ı seçin.
 1. **Teslimat** hızlı sekmesinde, kullanmakta olduğunuz planlama altyapısına bağlı olarak **Teslimat tarihi kontrolü** alanını aşağıdaki değerlerden birine ayarlayın:
 
-    - *CTP* – Yerleşik master planlama altyapısı tarafından sağlanan CTP hesaplamasını kullanır. Planlama Optimizasyonu kullanıyorsanız, *CTP* teslim tarihi kontrol yöntemine izin verilmez. Bu nedenle, bu değeri seçerseniz, hesaplama çalıştığı zaman bir hata oluşacaktır.
-    - *Planlama Optimizasyonu için CTP* – Planlama Optimizasyonu tarafından sağlanan CTP hesaplamasını kullanır. Yerleşik master planlama altyapısını kullanıyorsanız, bu ayarın hiçbir etkisi olmaz.
+    - *CTP* – Kullanımdan kaldırılan master planlama altyapısı tarafından sağlanan CTP hesaplamasını kullanır. Planlama Optimizasyonu kullanıyorsanız, *CTP* teslim tarihi kontrol yöntemine izin verilmez. Bu nedenle, bu değeri seçerseniz, hesaplama çalıştığı zaman bir hata oluşacaktır.
+    - *Planlama Optimizasyonu için CTP* – Planlama Optimizasyonu tarafından sağlanan CTP hesaplamasını kullanır. Kullanımdan kaldırılan master planlama altyapısını kullanıyorsanız, bu ayarın hiçbir etkisi olmaz.
 
 <!-- KFM: Additional dialogs are shown here. Review these with the PM and expand this procedure at next revision. -->
 1. Değişiklerinizi uygulamak için **Tamam**'ı seçin.
@@ -165,15 +166,15 @@ Bir siparişi, sipariş başlığı düzeyinde CTP kullanacak şekilde değişti
 
 Farklı bir teslimat tarihi kontrol yöntemi kullanarak sipariş satırı oluşturduysanız, istediğiniz zaman CTP'yi kullanabilirsiniz. Satır düzeyinde yaptığınız değişiklikler başka satırları etkilemez. Ancak bu değişiklikler, güncelleştirilmiş her satır hesaplamasının nasıl değiştiğine bağlı olarak, genel sipariş teslimat tarihlerinin ileri veya geri hareket etmelerine neden olabilirler. <!-- KFM: Confirm this intro at next revision -->
 
-Bir siparişi, yerleşik master planlama için satır düzeyinde CTP kullanacak şekilde değiştirmek için aşağıdaki adımları izleyin.
+Bir siparişi, kullanımdan kaldırılan master planlama altyapısı için satır düzeyinde CTP kullanacak şekilde değiştirmek için aşağıdaki adımları izleyin.
 
 1. **Alacak hesapları \> Siparişler \> Tüm satış siparişleri**'ne gidin.
 1. Ayarlamak istediğiniz satış siparişini açın veya yeni bir sipariş oluşturun.
 1. **Satış siparişi ayrıntıları** sayfasındaki **Satış siparişi satırı** hızlı sekmesinde, ayarlamak istediğiniz satış siparişi satırını seçin.
 1. **Satır ayrıntıları** hızlı sekmesinin **Teslimat** sekmesinde, kullanmakta olduğunuz planlama altyapısına bağlı olarak **Teslimat tarihi kontrolü** alanını aşağıdaki değerlerden birine ayarlayın:
 
-    - *CTP* – Yerleşik master planlama altyapısı tarafından sağlanan CTP hesaplamasını kullanır. Planlama Optimizasyonu kullanıyorsanız, *CTP* teslim tarihi kontrol yöntemine izin verilmez. Bu nedenle, bu değeri seçerseniz, hesaplama çalıştığı zaman bir hata oluşacaktır.
-    - *Planlama Optimizasyonu için CTP* – Planlama Optimizasyonu tarafından sağlanan CTP hesaplamasını kullanır. Yerleşik master planlama altyapısını kullanıyorsanız, bu ayarın hiçbir etkisi olmaz.
+    - *CTP* – Kullanımdan kaldırılan master planlama altyapısı tarafından sağlanan CTP hesaplamasını kullanır. Planlama Optimizasyonu kullanıyorsanız, *CTP* teslim tarihi kontrol yöntemine izin verilmez. Bu nedenle, bu değeri seçerseniz, hesaplama çalıştığı zaman bir hata oluşacaktır.
+    - *Planlama Optimizasyonu için CTP* – Planlama Optimizasyonu tarafından sağlanan CTP hesaplamasını kullanır. Kullanımdan kaldırılan master planlama altyapısını kullanıyorsanız, bu ayarın hiçbir etkisi olmaz.
 
     **Mevcut sevk ve giriş tarihleri** iletişim kutusu görüntülenir ve kullanılabilir sevk ve giriş tarihlerini gösterir. Bu iletişim kutusu, önceki bölümde açıklandığı gibi, sipariş başlığı için çalıştığı şekilde sipariş satırları için de aynı şekilde çalışır.
 

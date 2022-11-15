@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a94b424ad1a454feecede8a7b037171b2984504f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dbbc58f0dcd833f63e84a73ac68ada60bd0c291d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846113"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739964"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Master planlama için Planlama İyileştirmesi'ne geçiş
 
@@ -31,35 +31,35 @@ Yerleşik master planlama altyapısının devre dışı (devre dışı) bırakı
 
 Planlama İyileştirmesi, master planlama hesaplamalarının Supply Chain Management ve Azure SQL veritabanı dışında gerçekleşmesini sağlar. Planlama İyileştirmesi ile ilişkili avantajlar arasında master planlama çalışmaları sırasında artan performans ve SQL veritabanı üzerinde en az etki vardır. Hızlı planlama çalıştırmaları, ofis saatlerinde de yapılabildiği için planlayıcılar, talep ve parametre değişikliklerine hemen tepki verebilir.
 
-Planlama İyileştirmesi hakkında daha fazla bilgi için bkz. [Planlama İyileştirmesi'ne genel bakış](planning-optimization/planning-optimization-overview.md).
+Planlama İyileştirmesi hakkında daha fazla bilgi için bkz. [Master planlama sistem mimarisi](master-planning-architecture.md).
 
 ## <a name="obsolescence-of-the-existing-master-planning-engine"></a>Var olan master planlama altyapısının kullanım dışı bırakılması
 
-Microsoft, yerleşik planlama altyapısını yerini Planlama İyileştirmesi alacak şekilde kullanım dışı bırakma sürecindedir. Bu değişiklik tüm bulut ortamlarını etkiler. Şirket içi kurulumlar etkilenmez. 10.0.16 ve sonraki sürümlerde, yerleşik master planlamayı planlı üretim emirleri oluşturmadan çalıştırıyorsanız bir hata iletisi alırsınız. Ancak, master planlama çalıştırması hata iletisine rağmen başarıyla tamamlanır.
+Microsoft, kullanımdan kaldırılan master planlama altyapısını yerini Planlama İyileştirmesi alacak şekilde kullanım dışı bırakma sürecindedir. Bu değişiklik tüm bulut ortamlarını etkiler. Şirket içi kurulumlar etkilenmez. 10.0.16 ve sonraki sürümlerde, kullanımdan kaldırılan master planlama altyapısını planlı üretim emirleri oluşturmadan çalıştırıyorsanız bir hata iletisi alırsınız. Ancak, master planlama çalıştırması hata iletisine rağmen başarıyla tamamlanır.
 
-Yerleşik planlama altyapısının kullanım dışı bırakılması hakkında daha fazla bilgi için [Dynamics 365 Supply Chain Management'ta kaldırılan ve kullanım dışı bırakılan özellikler](../get-started/removed-deprecated-features-scm-updates.md) bölümündeki duyurulara bakın.
+Kullanımdan kaldırılan master planlama altyapısı hakkında daha fazla bilgi için [Dynamics 365 Supply Chain Management'ta kaldırılan ve kullanım dışı bırakılan özellikler](../get-started/removed-deprecated-features-scm-updates.md) bölümündeki duyurulara bakın.
 
 ## <a name="migration-messages-and-exceptions"></a>Geçiş, iletiler ve özel durumlar
 
-Planlı üretim emirleri olmadan yerleşik master planlama altyapısını çalıştıran mevcut ortamların sahipleri, özel durum işlemiyle ilgili ayrıntıların bulunduğu bir posta alacaktır. Planlamayı En İyi Duruma Getirme için geçişi değerlendirmek ve planlamak üzere bir iş ortağı ile çalışmanız önerilir.
+Planlı üretim emirleri olmadan kullanımdan kaldırılan master planlama altyapısını çalıştıran mevcut ortamların sahipleri, özel durum işlemiyle ilgili ayrıntıların bulunduğu bir posta alacaktır. Planlamayı En İyi Duruma Getirme için geçişi değerlendirmek ve planlamak üzere bir iş ortağı ile çalışmanız önerilir.
 
-Belirtildiği gibi 10.0.16 ve sonraki sürümlerde, yerleşik master planlamayı planlı üretim emirleri oluşturmadan çalıştırıyorsanız bir hata iletisi alırsınız. Bu hata iletisi, geçişle ilgili yönergeler ve özel bir özel durum istemek için yönergeler içerir.
+Belirtildiği gibi 10.0.16 ve sonraki sürümlerde, kullanımdan kaldırılan master planlama altyapısını planlı üretim emirleri oluşturmadan çalıştırıyorsanız bir hata iletisi alırsınız. Bu hata iletisi, geçişle ilgili yönergeler ve özel bir özel durum istemek için yönergeler içerir.
 
 ### <a name="new-deployments"></a>Yeni dağıtımlar
 
-Planlama İyileştirmesi, buluttaki tüm yeni dağıtımlar için varsayılan master planlama altyapısı olarak kabul edilmelidir. Genel olarak, master planlama sırasında planlı üretim emirleri oluşturmayan tüm yeni dağıtımlar için Planlamayı En İyi Duruma Getirme işlevi kullanılmalıdır. Yeni bir dağıtım, Planlama İyileştirmesi'nin şu anda desteklemediği işlevselliğe bağlıysa, yerleşik master planlama altyapısını kullanmaya devam etmek için bir özel durum isteyebilirsiniz.
+Planlama İyileştirmesi, buluttaki tüm yeni dağıtımlar için varsayılan master planlama altyapısı olarak kabul edilmelidir. Genel olarak, master planlama sırasında planlı üretim emirleri oluşturmayan tüm yeni dağıtımlar için Planlamayı En İyi Duruma Getirme işlevi kullanılmalıdır. Yeni bir dağıtım, Planlama İyileştirmesi'nin şu anda desteklemediği işlevselliğe bağlıysa, kullanımdan kaldırılan master planlama altyapısını kullanmaya devam etmek için bir özel durum isteyebilirsiniz.
 
 ### <a name="existing-deployments"></a>Var olan dağıtımlar
 
-Master planlamaya bağlı olan bulut tabanlı dağıtımların sahipleri, Planlama İyileştirmesi'ne geçiş yapmayı planlamalıdır. Uygulamanız, Planlama İyileştirmesi'nin şu anda desteklemediği işlevselliğe bağlıysa, yerleşik master planlama altyapısını kullanmaya devam etmek için bir özel durum isteyebilirsiniz.
+Master planlamaya bağlı olan bulut tabanlı dağıtımların sahipleri, Planlama İyileştirmesi'ne geçiş yapmayı planlamalıdır. Uygulamanız, Planlama İyileştirmesi'nin şu anda desteklemediği işlevselliğe bağlıysa, kullanımdan kaldırılan master planlama altyapısını kullanmaya devam etmek için bir özel durum isteyebilirsiniz.
 
 Şu anda kullanım dışı bırakılacak master planlama işlemlerini kullanan ortamlar için Microsoft, ortam yöneticisine bir e-posta gönderir. Bu e-posta, geçiş yapmak veya bir özel durum istemek için gereken eylemler hakkında bilgi sağlar.
 
 ## <a name="the-exception-process"></a>Özel durum süreci
 
-İş süreçleriniz büyük ölçüde Planlama İyileştirmesi'nde şu anda uygulanmayan en az bir özelliğe bağlı olduğundan yerleşik master planlama altyapısını kullanmaya devam etmek zorundaysanız bir özel durum isteyebilirsiniz. Kullanılabilir özelliklerin listesi için [Planlama İyileştirmesi uyum analizi](planning-optimization/planning-optimization-fit-analysis.md)bölümüne bakın.
+İş süreçleriniz büyük ölçüde Planlama İyileştirmesi'nde şu anda uygulanmayan en az bir özelliğe bağlı olduğundan kullanımdan kaldırılan master planlama altyapısını kullanmaya devam etmek zorundaysanız bir özel durum isteyebilirsiniz. Kullanılabilir özelliklerin listesi için [Planlama İyileştirmesi uyum analizi](planning-optimization/planning-optimization-fit-analysis.md)bölümüne bakın.
 
-Şu anda, Planlama İyileştirmesi geçişi için özel durumlar yalnızca master planlama işleminiz üretim içermiyorsa (diğer bir deyişle, master planlama tarafından oluşturulan planlı üretim emirleri) ve 10.0.15 sürümü sonrasında yerleşik master planlama altyapısına ihtiyaç duyuyorsanız yapılmalıdır.
+Şu anda, Planlama İyileştirmesi geçişi için özel durumlar yalnızca master planlama işleminiz üretim içermiyorsa (diğer bir deyişle, master planlama tarafından oluşturulan planlı üretim emirleri) ve 10.0.15 sürümü sonrasında kullanımdan kaldırılan master planlama altyapısına ihtiyaç duyuyorsanız yapılmalıdır.
 
 Gerekli özellikler kullanıma sunulduktan sonra, Microsoft özel durum süresi dolana kadar bir yetkisiz kullanım süresi sağlar. Gerekli özellikler kullanılabilir hale geldiğinde ve yetkisiz kullanım süresi başladığında ortam yöneticisi bilgilendirilecektir.
 
@@ -74,9 +74,9 @@ Aşağıdaki akış çizelgesi, bu makalede sağlanan bilgileri özetler ve böy
 
 ### <a name="sandbox-environments"></a><a name="faq-sandbox"></a>Korumalı alan ortamları
 
-Korumalı alan ortamımda yerleşik master planlamayı kullanabilir miyim? Özel duruma ihtiyacım var mı?
+Korumalı alan ortamımda kullanımdan kaldırılan master planlama altyapısını kullanabilir miyim? Özel duruma ihtiyacım var mı?
 
-**Yanıt:** Planlama İyileştirmesi özel durum hatası yerleşik master planlama altyapısının başarılı çalışmasını engellemediği için özel durumlar normalde korumalı alan ortamları için geçerli değildir. Ancak, hata iletisi sizi rahatsız ederse veritabanınızda aşağıdaki sorguyu çalıştırarak bir IaaS (Service Fabric değil) korumalı alan ortamında, iletiyi devre dışı kullanabilirsiniz:
+**Yanıt:** Planlama İyileştirmesi özel durum hatası kullanımdan kaldırılan master planlama altyapısının başarılı çalışmasını engellemediği için özel durumlar normalde korumalı alan ortamları için geçerli değildir. Ancak, hata iletisi sizi rahatsız ederse veritabanınızda aşağıdaki sorguyu çalıştırarak bir IaaS (Service Fabric değil) korumalı alan ortamında, iletiyi devre dışı kullanabilirsiniz:
 
 ```sql
 -- Insert or update an enabled flight:
@@ -92,13 +92,13 @@ ELSE
 
 Ortamım şirket içinde. Özel duruma ihtiyacım var mı?
 
-**Yanıt:** Hayır. Şirket içi ortamlar için bir özel durum gerekmez. Yerleşik master planlamayı kullanmaya devam edebilirsiniz. Herhangi bir işlem gerekirse ortam yöneticiniz bilgilendirilecektir.
+**Yanıt:** Hayır. Şirket içi ortamlar için bir özel durum gerekmez. Kullanımdan kaldırılan master planlama altyapısını kullanmaya devam edebilirsiniz. Herhangi bir işlem gerekirse ortam yöneticiniz bilgilendirilecektir.
 
 ### <a name="production-scenarios"></a>Üretim senaryoları
 
 Planlı üretim emirleri kullanıyoruz ancak 10.0.16 sürümüne yükselttiğimizde ne olacağı konusunda endişeliyim. Harekete geçmeli miyim?
 
-**Yanıt:** Endişelenmeyin. 10.0.16 sürümünde yerleşik master planlamayı kullanmaya devam edebilirsiniz. Ancak Planlama İyileştirmesi'ne geçişin geçerli işlevsellikle başlayıp başlamayacağı konusunu değerlendirmenizi öneririz. Ayrıca, yeni işlevler hakkında bilgi edinmenizi öneririz.
+**Yanıt:** Endişelenmeyin. 10.0.16 sürümünde kullanımdan kaldırılan master planlama altyapısını kullanmaya devam edebilirsiniz. Ancak Planlama İyileştirmesi'ne geçişin geçerli işlevsellikle başlayıp başlamayacağı konusunu değerlendirmenizi öneririz. Ayrıca, yeni işlevler hakkında bilgi edinmenizi öneririz.
 
 ### <a name="email-from-microsoft"></a>Microsoft'tan e-posta
 
@@ -110,9 +110,9 @@ Ortam yöneticimiz Microsoft'tan bir e-posta aldı. Bu e-posta, Planlama İyile�
 
 10.0.16 veya sonraki bir sürüm kullanıyorum ve master planlamayı çalıştırdığımda aşağıdaki hata iletisini alıyorum. Master planlama engellendi mi?
 
-> Bu hata iletisini, yerleşik master planlama altyapısı Planlama İyileştirmesi tarafından desteklenen senaryolar için kullanıldığı için alırsınız. Geçerli yerleşik master planlama kullanım dışı bırakılacağından şimdi Planlama İyileştirmesi'ne geçiş yapmalısınız. Bu master planlama çalıştırmasının başarıyla tamamladığını unutmayın.
+> Bu hata iletisini, kullanımdan kaldırılan master planlama altyapısı Planlama İyileştirmesi tarafından desteklenen senaryolar için kullanıldığı için alırsınız. Yerleşik master planlama altyapısı kullanım dışı bırakıldığından şimdi Planlama İyileştirmesi'ne geçiş yapmalısınız. Bu master planlama çalıştırmasının başarıyla tamamladığını unutmayın.
 >
-> Geçişinizin beklemedeki özelliklere güçlü bağımlılıkları olması durumunda, yerleşik master planlama altyapısının sürekli kullanımı için bir özel durum isteyebilirsiniz.
+> Geçişinizin beklemedeki özelliklere güçlü bağımlılıkları olması durumunda, kullanımdan kaldırılan master planlama altyapısının sürekli kullanımı için bir özel durum isteyebilirsiniz.
 >
 > Başlamak için lütfen aşağıdaki anketi doldurun ve ilgili istek durumunda Planlama İyileştirmesi'ne geçişle ilgili özel bir durum isteyin.
 

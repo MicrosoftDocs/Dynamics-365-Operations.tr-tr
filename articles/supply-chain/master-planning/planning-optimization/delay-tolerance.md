@@ -10,14 +10,15 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fa4d2d1506546cacf5f9a7ec936f17601c5727d2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 78ba4236705f1a200d9fe796eb80d0241b0fa537
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335390"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740481"
 ---
 # <a name="delay-tolerance-negative-days"></a>Gecikme toleransı (negatif günler)
+<!-- KFM: Split topic into PO and classic -->
 
 [!include [banner](../../includes/banner.md)]
 
@@ -47,7 +48,7 @@ Sistem gecikme toleransı hesaplamasını *en erken stok yenileme tarihine* bağ
 Bu formül, ürün sağlama süresi boyunca yeterli tedarik olduğunda master planlamanın yeni tedarik emirleri oluşturmamasını sağlar.
 
 > [!NOTE]
-> Planlamayı En İyi Duruma Getirme'de gecikme toleransı hesaplaması her zaman yerleşik master planlamadan alınan dinamik negatif gün hesaplamasını kullanır. **Master planlama parametreleri** sayfasindaki **Dinamik negatif günleri kullan** ayarının bu davranış üzerinde hiçbir etkisi yoktur.
+> Planlama Optimizasyonu'nda gecikme toleransı hesaplaması her zaman kullanımdan kaldırılan master planlama altyapısından alınan dinamik negatif gün hesaplamasını kullanır. **Master planlama parametreleri** sayfasindaki **Dinamik negatif günleri kullan** ayarının bu davranış üzerinde hiçbir etkisi yoktur.
 
 Mevcut tedarik, hesaplanan gecikme toleransından daha az veya buna eşit bir talep gecikmesi anlamına gelirse Planlamayı En İyi Duruma Getirme, mevcut tedariki taleple birlikte sabitler. Bazı durumlarda, aşırı tedarikle sonuçlanmaktansa talebi geciktirmek daha iyidir.
 

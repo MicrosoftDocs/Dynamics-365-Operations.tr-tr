@@ -1,6 +1,6 @@
 ---
 title: Planlı siparişleri görüntüleme, yönetme ve onaylama
-description: Bu makale, planlama optimizasyonunda planlı siparişlerin nasıl görüntüleneceği, yönetileceği ve onaylanacağı hakkında bilgi sağlar.
+description: Bu makale, planlı siparişlerin nasıl görüntüleneceği, yönetileceği ve onaylanacağı hakkında bilgi sağlar.
 author: t-benebo
 ms.date: 04/07/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 22c690222cdb72e2113ea137a05da21f315e5a33
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4c3b6c2dd149d3fedf1dc3dc418541961ad1a73
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887442"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740971"
 ---
 # <a name="view-manage-and-approve-planned-orders"></a>Planlı siparişleri görüntüleme, yönetme ve onaylama
 
 [!include [banner](../../includes/banner.md)]
 
-Bu makale, planlama optimizasyonunda planlı siparişlerin nasıl görüntüleneceği, yönetileceği ve onaylanacağı hakkında bilgi sağlar.
+Bu makale, planlı siparişlerin nasıl görüntüleneceği, yönetileceği ve onaylanacağı hakkında bilgi sağlar.
 
 ## <a name="view-and-manage-planned-orders"></a><a name="view-planned-orders"></a>Planlı siparişleri görüntüleme ve yönetme
 

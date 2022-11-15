@@ -16,12 +16,12 @@ ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.industry: Retail
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
-ms.openlocfilehash: f282c163ef5a74283231492e499201c6d4619115
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d334701b2865a4f19365a2773641e324326b02e3
+ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287524"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "9751954"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>Modern POS (MPOS) için resimleri ayarlama ve yönetme
 
@@ -160,7 +160,7 @@ Sadece üzerine yazılan resim URL'si kayıtları silinebilir. Resim silindikten
     [![Katalog görüntü galerisi sayfası.](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
-> Galeri şablon görüntü URL Görüntü Önizlemeleri ortam şu anda göstermiyor. Kullanıcının açıkça bir URL üzerinden bu sayfaya sağlıyorsa, katalog, çalışan, müşteri ve kategori varlıklar için hangi resmin varsayılan olduğunu belirtmenizi öneririz, çünkü Commerce Scale Unit istemcileri Katalog, müşteri, çalışan ve kategori başına yalnızca bir resim gösterir. Kullanıcı varsayılan görüntü belirtmiyorsa, sistem varsayılan resmi belirler ve Commerce hizmet arayıcısına (MPOS veya ticaret) gönderir.
+> Yalnızca herkes tarafından ve anonim olarak erişilebilen görüntüler POS'ta işlenir. POS harici olarak barındırılan görüntülerin işlenmesini, görüntülerin başlığı olmayan istekleri ALMAK için satır içi oktet akış olarak döndürülmesi koşuluyla destekler. Özellikle istek başlıklarının ana bilgisayar ve kullanıcı-aracı başlıklarını içermesini gerektiren SharePoint üzerinde barındırılan görüntüler için anonim erişim ilkesi "Yasak" yanıtı döndürülür. Bu nedenle, ana bilgisayar olarak SharePoint kullanarak görüntü yönetimi hazır olarak gelen düzenekte desteklenmez. **Katalog görüntüler** galeri sayfası ortam şablonu görüntü URL'leri için görüntü önizlemelerini göstermez. Commerce Scale Unit (CSU) istemcileri Katalog, Müşteri, Çalışan ve Kategori varlığı için yalnızca bir görüntü gösterdiğinden, Katalog, Çalışan, Müşteri ve Kategori varlıkları için bu sayfa üzerinden açıkça bir URL sağlarsanız, hangi görüntünün varsayılan görüntü olacağını belirtmeniz önerilir. Varsayılan görüntü belirtmediğinizde, sistem varsayılan görüntüyü belirler ve Commerce hizmet arayıcısına (MPOS veya e-ticaret) gönderir.
 
 ### <a name="overwrite-the-image-url-for-catalog-product-images-from-the-preview-page"></a>Önizleme sayfasında katalog ürün resimleri için resim URL'si üzerine yazma
 

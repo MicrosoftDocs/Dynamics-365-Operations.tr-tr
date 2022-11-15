@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-27
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 9044acb472548a797ed387b08ca6892459785793
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d376c2f4d8514a4e6122e2e94455d57a39d2babf
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220634"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740207"
 ---
 # <a name="make-to-order-supply-automation"></a>Özel sipariş tedarik otomasyonu
 
@@ -32,12 +32,6 @@ ms.locfileid: "9220634"
 - Şirketlerarası bilgi akışını geliştirin. Satınalma siparişleri; teslimat şekli, teslimat koşulları ve harici madde numarası ile ilgili alanları içerecek şekilde güncelleştirilir. Bu değişiklik ayrıntılı talep bilgilerinin tedarik şirketine akmasını sağlar.
 
 Bu makalede, her geliştirmenin nasıl ayarlanacağı ve kullanılacağı açıklanmaktadır.
-
-> [!NOTE]
-> Bu makalede açıklanan tüm geliştirmeler, yerleşik master plan kullanan sistemlere uygulanır. Aşağıdaki iki geliştirme, Microsoft Dynamics 365 Supply Chain Management için Planlama Optimizasyonu eklentisi tarafından da desteklenir:
->
-> - Master planlardaki gecikme toleransı
-> - Master planlama sırasında kullanılan ilişkilendirme sırası üzerinde kontrol
 
 ## <a name="turn-on-the-make-to-order-supply-automation-feature"></a>Siparişe göre tedarik otomasyonu özelliğini açma
 
@@ -73,7 +67,7 @@ Bir kaynak grubunun kullanılabilir kapasitesini gözden geçirebilmek amacıyla
 
 Bu seçeneklere, **Kesinleştirme** iletişim kutusu için varsayılan seçimi tanımladığınız **Master planlama parametreleri** sayfasının **Standart güncelleştirme** sekmesindeki **İşaretlemeyi güncelleştir** alanından da ulaşılabilir.
 
-Daha fazla bilgi için bkz. [Planlamayı En İyi Duruma Getirme ile envanter işaretleme](planning-optimization/marking.md).
+Daha fazla bilgi için [Stok işaretleme](planning-optimization/marking.md) bölümüne bakın.
 
 ## <a name="set-delay-tolerance-negative-days-at-the-master-plan-level"></a>Master plan düzeyinde gecikme toleransı (negatif günler) ayarlama
 

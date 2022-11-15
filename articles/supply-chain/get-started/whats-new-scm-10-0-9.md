@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 421f17402a2f3b37a9ccce9d747e2c0ec865ee39
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5d7035a7034d084a9bec453557694ce7f29ad347
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854485"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740384"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Dynamics 365 Supply Chain Management 10.0.9'daki yenilikler veya değişiklikler (Nisan 2020)
 
@@ -73,7 +73,7 @@ Bu sürümde aşağıdaki özellikler bulunmaktadır. Özellik başlıkları, [S
 
 - [Planlı siparişlerin paralel kesinleştirilmesi](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - Daha fazla bilgi için bkz. [Planlı siparişleri kesinleştirme](../master-planning/planning-optimization/planned-order-firming.md) ve [MRP performans ve kullanılabilirlik geliştirmeleri](https://www.microsoft.com/videoplayer/embed/RE4myrJ) videosu.
 
-- [Dağıtım için optimizasyonu planlama](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - Daha fazla bilgi için bkz. [Planlama Optimizasyonuna genel bakış](../master-planning/planning-optimization/planning-optimization-overview.md).
+- [Dağıtım için optimizasyonu planlama](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - Daha fazla bilgi için [Master planlama giriş sayfası](../master-planning/master-planning-home-page.md) bölümüne bakın.
 
 - [Satın alma anlaşması geliştirmeleri](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/purchase-agreement-enhancements)<br> - Daha fazla bilgi için bkz. [Satın alma anlaşmaları](../procurement/purchase-agreements.md).
 

@@ -2,7 +2,7 @@
 title: Ödeme yapma modülü
 description: Bu makalede, bir yeni sayfaya ödeme modülü eklemek ve gerekli özellikleri ayarlamak açıklanır.
 author: anupamar-ms
-ms.date: 05/18/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: b6f3aef08f723eff8b172db2ca5c355121e93bdc
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 295b99c7012e35a40af34d454ff7082d4100c74a
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280487"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746238"
 ---
 # <a name="checkout-module"></a>Ödeme yapma modülü
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Bu makalede, bir yeni sayfaya ödeme modülü eklemek ve gerekli özellikleri ayarlamak açıklanır.
 
@@ -105,9 +106,11 @@ Bir yeni sayfaya ödeme modülü eklemek ve gerekli özellikleri ayarlamak için
 1. Yeni ödeme parçasını kullanan bir şablon oluşturun.
 1. Yeni şablon kullanan bir ödeme sayfası oluşturun.
 
+> [NOT] [Mağazada ödeme için geliştirilmiş ödemeler](./dev-itpro/enhanced-sca.md) bölümünde açıklanan tek ödeme yetkilendirmesi kullanırken, ödeme sayfasının **Ödeme bilgileri** bölümünde, ödeme bölümü kapsayıcısının en sonda yer aldığını doğrulayın. Bu, tüm gerekli bilgilerin son ödeme adımından ve sipariş tamamlama eylemlerinden önce ödeme sayfası tarafından toplanmasını sağlar. 
+
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Sepet modülü](add-cart-module.md)
+[Alışveriş sepeti modülü](add-cart-module.md)
 
 [Sepet simgesi modülü](cart-icon-module.md)
 

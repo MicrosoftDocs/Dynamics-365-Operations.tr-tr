@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 46a50f4b00125656fc185ad569b94eeef00dc3c3
-ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
+ms.openlocfilehash: d24e117b21e291dba1e41d9fa15187b84ff795cf
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337582"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752733"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Elektronik raporlamayı kullanarak gelişmiş banka mutabakatı içe aktarmayı ayarlama
 
@@ -34,7 +34,7 @@ Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe akta
 2. **Microsoft** yapılandırma sağlayıcısı kutucuğunda **Depolar**'ı seçin.
 3. **Genel**'i seçin ve **Aç**'ı seçin.
 4. Depoya bir bağlantı kurulması gerekiyorsa, iletişim kutusundaki mavi bağlantıyı seçin.
-5. Yapılandırma listesinde, **Banka ekstresi modeli \> BAI2'nin banka ekstresi modeli**'ni bulun.
+5. Yapılandırma listesinde, **Gelişmiş banka mutabakatı ekstresi modeli \> ABR BAI2 biçimi**'ni bulun.
 6. **BAI2** biçimini seçin.
 7. **Sürümler** hızlı sekmesinde, en son sürümü ve sonra **İçe aktar**'ı seçin.
 

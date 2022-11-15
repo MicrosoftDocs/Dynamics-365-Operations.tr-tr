@@ -2,7 +2,7 @@
 title: Müşteri ödeme koşulları oluşturma
 description: Bu prosedürde bir nakit iskontosu ve vade tarihi kurulumu tanımlanmaktadır.
 author: aprilolson
-ms.date: 08/29/2018
+ms.date: 08/29/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6069d28d84ab1705fd62a33cea7e0b923f0e0705
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 9b2ae5e63a2efb4bc913efa4d88c65a70133a2d9
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065723"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752789"
 ---
 # <a name="establish-customer-payment-terms"></a>Müşteri ödeme koşulları oluşturma
 
@@ -34,8 +34,12 @@ Bu prosedürde bir nakit iskontosu ve vade tarihi kurulumu tanımlanmaktadır. B
 6. **Ayın günü** alanına tarih girin. Tarih bir sayı olarak girilmelidir (örneğin "10"; yani "10'u" değil). 
 7. **Kaydet**'e tıklayın.
 8. Sayfayı kapatın.
-9. **Gezinti bölmesi > Modüller > Alacak hesapları > Ödemeler kurulumu > Ödeme koşulları**'na gidin.
-10. **Yeni**'ye tıklayın. **Ödeme şartları**, vade tarihlerinin nasıl hesaplanacağını tanımlamak için kullanılır. Nakit iskontosu tarihi kurulumu ayrı bir sayfada tanımlanır. 
+9. **Gezinti bölmesi > Modüller > Alacak hesapları > Ödemeler kurulumu > Ödeme koşulları**'na gidin. 
+
+>[!NOTE] 
+>**Ödeme koşulları** **Nakit** olarak belirlenmişse, **Ödeme koşulları** sayfasındaki **Nakit ödeme** alanı **Hayır** olmalıdır.
+
+10. **Yeni**'yi tıklatın. **Ödeme şartları**, vade tarihlerinin nasıl hesaplanacağını tanımlamak için kullanılır. Nakit iskontosu tarihi kurulumu ayrı bir sayfada tanımlanır. 
 11. **Ödeme koşulları** alanına bir kod girin.
 12. **Açıklama** alanına bir açıklama girin.
 13. **TÖ**, **Net**, **Geçerli ay** gibi bir **Ödeme yöntemi** seçin. **Ödeme yöntemi**, vade tarihinin nasıl hesaplanacağını tanımlamak için kullanılır. Örneğin, vade tarihi, fatura tarihinden sonra mutlaka bir dizi ay veya gün sayısıysa **Net** kullanılır. Fatura üzerine ödeme gerekiyorsa **TÖ** kullanılabilir ve böylece vade tarihi hesaplanmaz. Bu görev kılavuzu için **Geçerli ay**'ı seçin.  

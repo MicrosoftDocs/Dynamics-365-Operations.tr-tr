@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 807834bf5cd062ed24e5e3f3512d8389717a2d39
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ef78c73a1c7033735f9586229ff7ba21daaa5ef
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885913"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740917"
 ---
 # <a name="date-and-time-parameters-used-by-planning-optimization"></a>Planlama Optimizasyonu tarafından kullanılan tarih ve saat parametreleri
 
@@ -23,7 +23,7 @@ ms.locfileid: "8885913"
 
 Bu makale, Planlama Optimizasyonu tarafından çalışma sırasında kullanılan tarih ve saat parametreleri hakkında bilgi sağlar.
 
-Yerleşik ana planlama altyapısında hareket tarihleri tüm hesaplamalarda kullanılırken, Planlama Optimizasyonu, tarihlere dönüştürülen tarih ve zaman değerleriyle çalışır. Bu davranış farkı, örneğin Planlama Optimizasyonu işlemi geçerli tarihten önce oluşturulduğunu düşündüğü için, ana planlama çalıştırmasının çalıştırıldığı gün için gece yarısı oluşturulan tahmin hareketlerinin dahil edilmediği durumlara yol açabilir.
+Kullanımdan kaldırılan master planlama altyapısında hareket tarihleri tüm hesaplamalarda kullanılırken, Planlama Optimizasyonu tarih ve tarihlere dönüştürülen zaman değerleriyle çalışır. Bu davranış farkı, örneğin Planlama Optimizasyonu işlemi geçerli tarihten önce oluşturulduğunu düşündüğü için, ana planlama çalıştırmasının çalıştırıldığı gün için gece yarısı oluşturulan tahmin hareketlerinin dahil edilmediği durumlara yol açabilir.
 
 ## <a name="parameters-for-issue-and-demand-transactions"></a>Çıkış ve talep hareketleri için parametreler
 

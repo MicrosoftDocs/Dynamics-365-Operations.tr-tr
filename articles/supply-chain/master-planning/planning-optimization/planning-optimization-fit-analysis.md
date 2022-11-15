@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 4459a5d72fafe2596b7fc0cedf060b8f23bb43d2
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9690007"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750720"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planlamayı En İyi Duruma Getirme uygunluk analizi
 
 [!include [banner](../../includes/banner.md)]
 
-Geçiş sürecinin bir parçası olarak Planlamayı En İyi Duruma Getirme için uygunluk analizinin sonucunu incelemeniz gerekir. Planlamayı En İyi Duruma Getirme kapsamının geçerli yerleşik master planlama işlevine eşit olmadığını unutmayın. İş ortağınızla birlikte çalışmanızı ve geçişe hazırlanmak için belgeleri okumanızı öneririz. 
+Geçiş sürecinin bir parçası olarak Planlamayı En İyi Duruma Getirme için uygunluk analizinin sonucunu incelemeniz gerekir. Planlama Optimizasyonu kapsamının kullanımdan kaldırılan master planlama altyapısı işleviyle aynı olmadığını unutmayın. İş ortağınızla birlikte çalışmanızı ve geçişe hazırlanmak için belgeleri okumanızı öneririz.
 
-Planlamayı En İyi Duruma Getirme uygunluk analizi, yerleşik master planlama altyapısı ve Planlamayı En İyi Duruma Getirme arasındaki sonuç farklılıklarını belirlemenize yardımcı olur. Bu analiz, geçerli kurulumunuza ve verilerinize göre yapılır. 
+Planlama Optimizasyonu uygunluk analizi, kullanımdan kaldırılan master planlama altyapısı ve Planlama Optimizasyonu sonuçlarının farklı olabileceği durumları belirlemenize yardımcı olur. Bu analiz, geçerli kurulumunuza ve verilerinize göre yapılır. 
 
 Planlamayı En İyi Duruma Getirme uygunluk analizi sonucu görmek için **Master planlama** \> **Kurulum** \> **Planlamayı En İyi Duruma Getirme uygunluk analizi**'ne gidin ve **Analiz çalıştır**'ı seçin. Analizde bulunan tutarsızlıklar sayfada listelenir. (Analizin çalıştırılması birkaç dakika sürebilir.)
 
@@ -64,7 +64,6 @@ Aşağıdaki tabloda, bir uygunluk analizinin ardından gösterilebilecek çeşi
 | Temel takvimler | Temel takvimi kullanan takvimler: *\#* | Bu özellik şimdi desteklenmektedir. | Destekleniyor | 
 | Toplu iş değerlendirme kodları | Netleştirilemeyen toplu iş değerlendirme ana verileri: *\#* | Bu özellik şimdi desteklenmektedir. Ek bilgi için bkz. [Kullanılabilir veya kullanılamayan olarak toplu işleri işaretlemek için toplu iş değerlendirme kodlarını kullanma](../../inventory/batch-disposition-codes.md) | Destekleniyor |
 | Teslim edilebilir miktar (CTP) | Teslimat tarihi denetimi teslim edilebilir miktar olarak ayarlanmış varsayılan sipariş ayarları: *\#* | Supply Chain Management 10.0.28 ve daha yeni sürümlerde, *Planlama İyileştirmesi için CTP* olarak adlandırılan bir işlemle dinamik plan çalıştırıldıktan sonra onaylanmış sevkiyat ve giriş tarihleri kullanılabilir hale gelir. Supply Chain Management'ın eski sürümleri için, Planlama İyileştirmesi etkinleştirildiğinde eski CTP ayarı yok sayılır. | Destekleniyor |
-| Dinamik plana statik kopyalama | Dinamik plana statik kopyalama master planlama parametrelerinde etkinleştirildi. | Planlamayı En İyi Duruma Getirme statik planı bu ayardan bağımsız olarak dinamik plana kopyalamaz. Genel olarak, bu kavram, Planlamayı En İyi Duruma Getirme sağlayan hız ve tamamlama nedeniyle daha az ilgilidir. İki veya daha fazla plan kullanılıyorsa, master planlama her plan için tetiklenmelidir. | Yok |
 | Kesinleştirme | Otomatik kesinleştirme zaman dilimi ayarlanmış karşılama grupları: *\#* | Sürüm 10.0.7 ve sonrasında, kesinleştirme ( *Planlamayı En İyi Duruma Getirme için Otomatik kesinleştirme* özelliğinin [Özellik yönetiminde](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) etkinleştirilmiş olması koşuluyla) ayrı bir kesinleştirme toplu işi olarak desteklenir. Planlamayı En İyi Duruma Getirme için otomatik kesinleştirmenin gereksinim tarihini (bitiş tarihi) değil, sipariş tarihini temel aldığını unutmayın. Bu davranış, planlanan siparişlerin, sağlama süresini kesinleştirme zaman dilimine dahil etmek zorunda kalmadan, vade tarihinde kesinleştirilmesini sağlar. | Destekleniyor |
 | Kesinleştirme | Otomatik kesinleştirme ayarlanmış madde karşılama kayıtları: *\#* | Sürüm 10.0.7 ve sonrasında, otomatik kesinleştirme ( *Planlamayı En İyi Duruma Getirme için Otomatik kesinleştirme* özelliğinin [Özellik yönetiminde](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) etkinleştirilmiş olması koşuluyla) ayrı bir kesinleştirme toplu işi olarak desteklenir. Planlamayı En İyi Duruma Getirme için otomatik kesinleştirmenin gereksinim tarihini (bitiş tarihi) değil, sipariş tarihini temel aldığını unutmayın. Bu davranış, planlanan siparişlerin, sağlama süresini kesinleştirme zaman dilimine dahil etmek zorunda kalmadan, vade tarihinde kesinleştirilmesini sağlar. | Destekleniyor |
 | Kesinleştirme | Otomatik kesinleştirme ayarlanmış master planlar: *\#* | Sürüm 10.0.7 ve sonrasında, otomatik kesinleştirme ( *Planlamayı En İyi Duruma Getirme için Otomatik kesinleştirme* özelliğinin [Özellik yönetiminde](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) etkinleştirilmiş olması koşuluyla) ayrı bir kesinleştirme toplu işi olarak desteklenir. Planlamayı En İyi Duruma Getirme için otomatik kesinleştirmenin gereksinim tarihini (bitiş tarihi) değil, sipariş tarihini temel aldığını unutmayın. Bu davranış, planlanan siparişlerin, sağlama süresini kesinleştirme zaman dilimine dahil etmek zorunda kalmadan, vade tarihinde kesinleştirilmesini sağlar. | Destekleniyor |
@@ -93,34 +92,27 @@ Aşağıdaki tabloda, bir uygunluk analizinin ardından gösterilebilecek çeşi
 | Üretim | Ortak/Yan ürünlere içeren formül sürümleri: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, formül sürümüyle ilişkilendirilmiş ortak ürünler ve yan ürünler yok sayılır. | 2022 sürüm 2 |
 | Üretim | Verim içeren Formül sürümleri: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, formül sürümüyle ilişkilendirilmiş verim yok sayılır. | 2022 sürüm 2 |
 | Üretim | Sıralama içeren planlar: *\#* | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın, Planlamayı En İyi Duruma Getirme özelliği etkinleştirildiğinde, sıralama yok sayılır. | 2022 sürüm 2 |
-| Üretim | Planlanan başlangıcı bugünden önce olan başlatılmamış serbest bırakılan üretim emirleri: *\#* | Bu özellik beklemededir. Şu anda, bir üretim emri gecikirse, master planlama bunun bugün tamamlanacağını varsayar. Bu, teslimat tarihi geçmişte olan, ancak henüz tamamlanmamış olan yayımlanmış üretim emirleriyle ilgilidir. | Gelecekteki dalga |
+| Üretim | Planlanan başlangıcı bugünden önce olan başlatılmamış serbest bırakılan üretim emirleri: *\#* | Bu özellik beklemededir. Şu anda, bir üretim emri gecikirse, master planlama bunun bugün tamamlanacağını varsayar. Bu, teslimat tarihi geçmişte olan, ancak henüz tamamlanmamış olan yayımlanmış üretim emirleriyle ilgilidir. | 2022 sürüm 2 |
 | Üretim | Sınırlı kapasiteyle planlanan kaynaklar: *\#* | Bu özellik şimdi desteklenmektedir.| Destekleniyor |
 | Üretim | Planlamada kullanılan rotalar: *\#* | Bu özellik desteklenmektedir. | Destekleniyor |
-| Üretim | Açılım kullanılarak satış satırı rezervasyonu: *\#* | Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, açılım kullanan satış satırı rezervasyonu desteklenmez. | Gelecekteki dalga |
-| Üretim | Üretim emirlerinin açılımı ile planlama: *\#* | Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, üretim emirlerinin açılımını kullanan planlama desteklenmez. Üretim emirleri ayrı olarak zamanlanabilir. | Gelecekteki dalga |
+| Üretim | Açılım kullanılarak satış satırı rezervasyonu: *\#* | Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, açılım kullanan satış satırı rezervasyonu desteklenmez. | 2022 sürüm 2 |
+| Üretim | Üretim emirlerinin açılımı ile planlama: *\#* | Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, üretim emirlerinin açılımını kullanan planlama desteklenmez. Üretim emirleri ayrı olarak zamanlanabilir. | 2022 sürüm 2 |
 | Teklif talepleri | Teklif talepleri etkin olan master planlar: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde teklif talepleri (RFQs) talep olarak değerlendirilmez. Bu ayar ne olursa olsun yok sayılır. | 2022 sürüm 2 |
 | Talepler | Taleplerin etkin olduğu master planlar: *\#* | Bu özellik şimdi desteklenmektedir. Ek bilgi için bkz. [Satın alma talepleri](purchase-requisitions.md) | Destekleniyor |
 | Emniyet marjları | Güvenlik marjına sahip karşılama grupları: *\#* | Bu özellik şimdi desteklenmektedir. Ek bilgi için bkz. [Güvenlik marjları](safety-margins.md) | Destekleniyor |
 | Emniyet marjları | Güvenlik marjına sahip master planlar: *\#* | Bu özellik şimdi desteklenmektedir. Ek bilgi için bkz. [Güvenlik marjları](safety-margins.md) |  Destekleniyor |
-| Emniyet stoğu karşılama | "Minimum karşılama" değeri "Bugünün tarihi + tedarik süresi"den farklı olan madde karşılama kayıtları: *\#* | Planlamayı En İyi Duruma Getirme daima *Bugünün tarihi + tedarik süresi*'ni kullanır. Bu değişiklik, ileride basitleştirilmiş bir planlama kurulumuna hazırlanmak ve eyleme geçirilebilir bir sonuç sağlamak için yapılmıştır. Emniyet stoğu için tedarik zamanı dahil edilmezse, geçerli düşük eldeki stok için oluşturulan planlı siparişler, sağlama süresi nedeniyle her zaman gecikecektir. Bu davranış belirgin gürültüye ve istenmeyen planlı siparişlere neden olabilir. En iyi yöntem, *Bugünün tarihi + tedarik süresi* kullanılacak şekilde ayarı değiştirmektir. Uyarılardan kaçınmak için ana verileri güncelleştirin. | - |
-| Satış teklifleri | Satış teklifleri etkin olan master planlar: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, teklifler dikkate alınmaz. Bu ayar ne olursa olsun yok sayılır. | 2022 sürüm 2 veya sonrası |
-| Raf ömrü | Raf ömrünün etkin olduğu master planlar: *\#* | Bu özellik beklemededir. | 2022 sürüm 2 |
+| Satış teklifleri | Satış teklifleri etkin olan master planlar: *\#* | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, teklifler dikkate alınmaz. Bu ayar ne olursa olsun yok sayılır. | 2022 sürüm 2 |
+| Raf ömrü | Raf ömrünün etkin olduğu master planlar: *\#* | Bu özellik şimdi desteklenmektedir. | Destekleniyor |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Planlama Optimizasyonuna genel bakış](planning-optimization-overview.md)
-
-[Planlama Optimizasyonunu kullanmaya başlama](get-started.md)
-
-[Klasik master planlama ile Planlama Optimizasyonu arasındaki farklar](planning-optimization-differences-with-built-in.md)
-
-[Planlama Optimizasyonu tarafından kullanılmayan parametreler](not-used-parameters.md)
-
-[Plan geçmişini ve planlama günlüklerini görüntüleme](plan-history-logs.md)
-
-[Plana filtre uygulama](plan-filters.md)
-
-[Planlama işini iptal etme](cancel-planning-job.md)
+- [Master planlama sistem mimarisi](../master-planning-architecture.md)
+- [Master planlamayı kullanmaya başlama](get-started.md)
+- [Klasik master planlama ile Planlama Optimizasyonu arasındaki farklar](planning-optimization-differences-with-built-in.md)
+- [Planlama Optimizasyonu tarafından kullanılmayan parametreler](not-used-parameters.md)
+- [Plan geçmişini ve planlama günlüklerini görüntüleme](plan-history-logs.md)
+- [Maddelerin alt kümesi için planlama çalıştırma](plan-filters.md)
+- [Planlama işini iptal etme](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

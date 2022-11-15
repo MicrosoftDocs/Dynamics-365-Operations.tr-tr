@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 5c8169a8d2c3e45304142fb6b4d504e620c545a4
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 43da249637c44b3f56e8b5e210a0e44d9ac6cb9d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335270"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740562"
 ---
 # <a name="production-planning"></a>Üretim planlama
 
 [!include [banner](../../includes/banner.md)]
-
-Planlamayı En İyi Duruma Getirme, birçok üretim senaryosunu destekler. Mevcut, yerleşik master planlama altyapısından geçiş yapıyorsanız değiştirilen bazı davranışları öğrenmeniz gerekir.
 
 Aşağıdaki video, bu makalede ele alınan bazı kavramlara kısa bir giriş sağlar: [Dynamics 365 Supply Chain Management: Planlamayı İyileştirme'deki geliştirmeler](https://youtu.be/u1pcmZuZBTw).
 
@@ -46,10 +44,6 @@ Planlı üretim emirleri, üretim planlaması için gerekli rota kodunu içerir.
 
 - **Planlı üretim emri**: Sağlama süresi, serbest bırakılan ürünün statik sağlama süresini temel alan bir görevdir.
 - **Kesinleştirilmiş üretim emri**: Sağlama süresi rota bilgilerini ve ilgili kaynak kısıtlamalarını kullanan zamanlamaya dayanır.
-
-Beklenen özellik kullanılabilirliği hakkında daha fazla bilgi için bkz. [Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md).
-
-Henüz Planlamayı En İyi Duruma Getirme için sunulmayan üretim işlevini kullanıyorsanız yerleşik master planlama altyapısını kullanmaya devam edebilirsiniz. Özel durum gerekli değildir.
 
 ## <a name="delays"></a>Gecikmeler
 
@@ -76,15 +70,15 @@ Belirli bir üretim emri veya planlı üretim emri için gerekli talebi, ilgili 
 
 ## <a name="filters"></a><a name="filters"></a>Filtreler
 
-Planlamayı En İyi Duruma Getirme işlevinin doğru sonucu hesaplamak için gerekli bilgilere sahip olmasını sağlamak için planlı siparişin tüm ürün reçetesi yapısındaki ürünlerle ilişkisi olan tüm ürünleri dahil etmelisiniz. Üretim içeren planlama senaryoları için bu yüzden filtre uygulanmış master planlama çalıştırmaların kullanmamanızı öneririz.
+Master planlama işlevinin doğru sonucu hesaplamak için gerekli bilgilere sahip olmasını sağlamak için planlı siparişin tüm ürün reçetesi yapısındaki ürünlerle ilişkisi olan tüm ürünleri dahil etmelisiniz. Üretim içeren planlama senaryoları için bu yüzden filtre uygulanmış master planlama çalıştırmaların kullanmamanızı öneririz.
 
-Yerleşik master planlama altyapısı kullanıldığında bağımlı alt öğeler otomatik olarak tespit edilip master planlama çalışmalarına dahil edilse de Planlamayı En İyi Duruma Getirme şu anda bu eylemi gerçekleştirmez.
+Kullanımdan kaldırılan master planlama altyapısı kullanıldığında bağımlı alt öğeler otomatik olarak tespit edilip master planlama çalışmalarına dahil edilse de Planlama Optimizasyonu şu anda bu eylemi gerçekleştirmez.
 
 Örneğin, A ürününün ürün reçetesi yapısından yapılan tek bir cıvata, B ürününü üretmek için de kullanılırsa A ve B ürünlerinin ürün reçetesi yapısındaki tüm ürünler filtreye dahil edilmelidir. Tüm ürünlerin filtrenin parçası olduğundan emin olmak karmaşık olabileceğinden, üretim emirleri söz konusu olduğunda filtre uygulanmış master planlama çalıştırmalarını kullanmamanızı öneririz. Aksi durumda, master planlama istenmeyen sonuçlar sağlar.
 
 ### <a name="reasons-to-avoid-filtered-master-planning-runs"></a>Filtre uygulanmış master planlama çalıştırmalarını gerçekleştirmemek için nedenler
 
-Bir ürün için filtrelenmiş master planlama çalıştırdığınızda, Planlamayı En İyi Duruma Getirme (yerleşik master planlama alt yapısının aksine), söz konusu ürünün ürün reçetesi yapısındaki tüm alt ürünleri ve hammaddeleri algılamaz ve bu nedenle bunları master planlama çalıştırmasına bunları dahil etmez. Planlamayı En İyi Duruma Getirme, ürünün ürün reçetesi yapısındaki ilk düzeyi tanımladığı halde, veritabanındaki herhangi bir ürün ayarını (varsayılan sipariş türü veya madde kapsamı gibi) yüklemez.
+Bir ürün için filtrelenmiş master planlama çalıştırdığınızda, Planlama Optimizasyonu (kullanımdan kaldırılan master planlama altyapısının aksine), söz konusu ürünün ürün reçetesi yapısındaki tüm alt ürünleri ve hammaddeleri algılamaz ve bu nedenle bunları master planlama çalıştırmasına bunları dahil etmez. Planlamayı En İyi Duruma Getirme, ürünün ürün reçetesi yapısındaki ilk düzeyi tanımladığı halde, veritabanındaki herhangi bir ürün ayarını (varsayılan sipariş türü veya madde kapsamı gibi) yüklemez.
 
 Planlamayı En İyi Duruma Getirme sırasında, çalıştırmaya ilişkin veriler önceden yüklenir ve filtreler uygular. Bu, belirli bir ürüne dahil edilen bir alt ürün veya ham malzeme filtrenin parçası değilse, çalıştırma için bu ilgili bilgilerin yakalanmayacağı anlamına gelir. Ek olarak, alt ürün veya hammadde başka bir ürüne dahil edildiğinde, yalnızca orijinal ürün ve bileşenleri içeren filtre uygulanmış bir çalıştırma, o diğer ürün için oluşturulmuş varolan planlı talebi kaldırır.
 

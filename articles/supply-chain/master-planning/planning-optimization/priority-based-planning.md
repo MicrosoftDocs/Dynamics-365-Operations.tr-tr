@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e17e45f1d4e9f7c62317eac6f3ea1be84017b562
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 1a952fe5734f01325842a8a130b9322eadc67951
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335300"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740605"
 ---
 # <a name="priority-based-planning"></a>Öncelik tabanlı planlama
 
 [!include [banner](../../includes/banner.md)]
 
-Bu makalede, Microsoft Dynamics 365 Supply Chain Management'ın öncelik tabanlı planlama özelliği açıklanmaktadır. Özellik, [Talep Temelli Malzeme Gereksinimleri Planlaması (DDMRP)](ddmrp-overview.md) adımı olan talep temelli planlamaya destek ekler. Önceliğe dayalı planlama, Planlama Optimizasyonu için, gereksinim tarihleri yerine öncelikler planlama ile çalışan planlı siparişler oluşturma olanağı sağlar.
+Bu makalede, Microsoft Dynamics 365 Supply Chain Management'ın öncelik tabanlı planlama özelliği açıklanmaktadır. Özellik, [Talep Temelli Malzeme Gereksinimleri Planlaması (DDMRP)](ddmrp-overview.md) adımı olan talep temelli planlamaya destek ekler. Önceliğe dayalı planlama, sistem için, gereksinim tarihleri yerine öncelikler planlama ile çalışan planlı siparişler oluşturma olanağı sağlar.
 
 Önceliğe dayalı planlama, acil talebin, daha az önemli talebe göre öncelik uygulandığından emin olmak için stok yenileme emirlerinin önceliğini belirlemenizi sağlar. Örneğin, bir stok bitimi yenileme siparişinin standart bir dolum stok yenileme siparişi üzerinden öncelikli olması gerekir. Sistem, daha büyük siparişleri otomatik olarak sipariş satırlarının önceliğine göre gruplandırıldığında farklı küçük siparişlere bölebilir. Daha sonra, tüm yüksek öncelikli siparişleri önce işleyebilir.
 
@@ -37,11 +37,11 @@ Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yön
 
 ## <a name="where-and-how-planning-priorities-are-assigned"></a>Planlama önceliklerinin nerede ve nasıl atandığı
 
-Tedarik ve talebe ilişkin *planlama öncelik* bilgileri, öncelik tabanlı planlamanın omurgasıdır. Planlama önceliği, bir talep veya tedarik satırının önemini tanımlar. Planlama Optimizasyonu, **Karşılama kodu** alanı *Öncelik* olarak ayarlandığında bunu kullanır.
+Tedarik ve talebe ilişkin *planlama öncelik* bilgileri, öncelik tabanlı planlamanın omurgasıdır. Planlama önceliği, bir talep veya tedarik satırının önemini tanımlar. Master planlama, **Karşılama kodu** alanı *Öncelik* olarak ayarlandığında bunu kullanır.
 
 Planlama önceliği genellikle 0 (sıfır) ile 100 arasında bir sayıdır (burada 0, en yüksek önemi temsil eder). Bu, **Planlama önceliği** alanında görüntülenir ve ayarlanır. Bu alanı, aşağıdaki sayfalarda bulabilirsiniz: **Talep tahmin satırları**, **Satış siparişi ayrıntıları**, **Satınalma siparişi detayları**, **Transfer emri detayları** ve **Planlı sipariş ayrıntıları**.
 
-İlgili madde veya karşılama grubunun **Karşılama kodu** alanı *Öncelik* olarak ayarlandığında, Planlama Optimizasyonu planlama önceliğini hesaplarken talebe göre tedariki desteklemek için talep temelli bir yaklaşım kullanır ve her serbest bırakılan ürün için **Madde karşılama** sayfasındaki **Minimum**, **Yeniden sipariş noktası** ve **Maksimum** alanları için belirlenen değerleri göz önünde bulundurur.
+İlgili madde veya karşılama grubunun **Karşılama kodu** alanı *Öncelik* olarak ayarlandığında master planlama, planlama önceliğini hesaplarken talebe göre tedariki desteklemek için talep temelli bir yaklaşım kullanır ve her serbest bırakılan ürün için **Madde karşılama** sayfasındaki **Minimum**, **Yeniden sipariş noktası** ve **Maksimum** alanları için belirlenen değerleri göz önünde bulundurur.
 
 > [!NOTE]
 > *Öncelik* değeri yalnızca, Planlama Optimizasyonu etkinleştirildiğinde **Karşılama kodu** alanı için kullanılabilir.

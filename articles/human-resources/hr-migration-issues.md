@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28c2c10a9293d00e26dfcc80ab08b89a122a6135
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 5f5981801317ad9647f57a0f68f9b67b592256ab
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9733484"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752703"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-known-issues"></a>Dynamics 365 Human Resources altyapı birleştirme bilinen sorunlar
 
@@ -44,10 +44,3 @@ Geçiş yapabilmeniz için önce aşağıdaki ortam tipleri gereklidir:
 
 Teams'teki mevcut Human Resources uygulaması şu anda Microsoft Power Platform çözümüne taşınıyor. Daha fazla bilgi için bkz: [Teams'te insan kaynakları uygulama](hr-admin-teams-leave-app.md).
 
-## <a name="licensing"></a>Lisans
-
-Dynamics 365 Human Resources için aşağıdaki alanlarda lisansla ilgili herhangi bir değişiklik yoktur: 
-
-- **Minimum lisans satın alma gereksinimi sayısı**
-- **Üretim ortamı ve korumalı alan ortamı lisansları** – Mevcut bir bağımsız Human Resources kaynağınız bir adet üretim ortamı ve bir adet korumalı alan ortamı sağlıyorsa finans ve operasyonlar altyapısında da aynı sayıda lisansa sahip olursunuz.
-- **Ek korumalı alan lisansları** – Bağımsız Human Resources uygulaması için ek korumalı alan lisansları satın aldıysanız korumalı alan ortamları için finans ve operasyonlar altyapısında aynı sayıda lisansları kullanılabilir. 

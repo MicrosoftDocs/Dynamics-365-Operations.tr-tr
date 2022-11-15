@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 92e38c6ea19b60ae0a61e55f240ff52698e06933
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: ce32a4449da8e85f958f212f2c2dfd2841ca6887
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689789"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740836"
 ---
 # <a name="visual-and-collaborative-execution"></a>Görsel ve işbirliğine dayalı yürütme
 
@@ -34,7 +34,7 @@ Microsoft Dynamics 365 Supply Chain Management'ta, seçilen herhangi bir serbest
 1. Ayırma noktası olarak ayarlanan serbest bırakılmış bir öğeyi seçin. (Daha fazla bilgi için bkz. [Stok konumlandırma](ddmrp-inventory-positioning.md).)
 1. Eylem Bölmesi'nin **Plan** sekmesinde **Öğe kapsamı**'nı seçin.
 1. **Öğe kapsamı** sayfasında ayırma noktası oluşturan bir öğe kapsam kaydı seçin. (Bu kayıt, ayırma noktaları oluşturmak üzere ayarlanmış bir kapsam grubunun adını gösterir.)
-1. **Eldeki** sekmesini seçin. Bu sekme, planlama optimizasyonu her çalıştırıldığında belirli bir süre için kaydedilen eldeki düzeyin değeriyle birlikte eldeki miktarların zaman içinde nasıl değiştiğini gösteren grafik içerir. Sekme ayrıca, kaydedilen her eldeki düzeyin aşağıdaki kategorilerden hangisine girdiğini gösteren bir tablo içerir:
+1. **Eldeki** sekmesini seçin. Bu sekme, master planlama her çalıştırıldığında belirli bir süre için kaydedilen eldeki düzeyin değeriyle birlikte eldeki miktarların zaman içinde nasıl değiştiğini gösteren bir grafik içerir. Sekme ayrıca, kaydedilen her eldeki düzeyin aşağıdaki kategorilerden hangisine girdiğini gösteren bir tablo içerir:
 
     - **Kritik oranda düşük** – Dönem için minimumun yarısından daha az.
     - **Düşük** – Minimumun yarısı ile minimumun yarısı arasında.

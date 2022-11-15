@@ -1,6 +1,6 @@
 ---
 title: Kapsam zaman dilimleri
-description: Bu makalede, Planlamayı En İyi Duruma Getirme'yi kullanırken kapsam zaman dilimlerinin nasıl ayarlanacağı açıklanmaktadır. Kapsam zaman dilimi, planlama ufkunuzu ve sınırınızı belirtir.
+description: Bu makalede, karşılama zaman dilimlerinin nasıl ayarlanacağı açıklanmaktadır. Kapsam zaman dilimi, planlama ufkunuzu ve sınırınızı belirtir.
 author: t-benebo
 ms.date: 01/18/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ebd59e05d2ae227f24e7dae6fae3634aab026c5a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 987dea4c1b693fc1bb687f97d51288d5e51e7d4c
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847947"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740126"
 ---
 # <a name="coverage-time-fences"></a>Kapsam zaman dilimleri
 
 [!include [banner](../../includes/banner.md)]
 
-Bu makalede, Planlamayı En İyi Duruma Getirme'yi kullanırken *kapsam zaman dilimlerinin* nasıl ayarlanacağı açıklanmaktadır. Planlayıcılar, planlama ufkunu (gün olarak karşılama zaman dilimi) tanımlayabilir ve bu dönemin dışında kalan tedariki ve talebi hariç tutabilir. Bu sayede, kapsam zaman dilimleri, aylarca tepki vermenizi gerektirmeyen tedarik önerilerinin neden olduğu "gürültü"nün önlenmesine yardımcı olur. Örnekler arasında, gelecek yılın tahmini ve normal sağlama süresinin dışında verilen müşteri siparişleri yer alır.
+Bu makalede, *karşılama zaman dilimlerinin* nasıl ayarlanacağı açıklanmaktadır. Planlayıcılar, planlama ufkunu (gün olarak karşılama zaman dilimi) tanımlayabilir ve bu dönemin dışında kalan tedariki ve talebi hariç tutabilir. Bu sayede, kapsam zaman dilimleri, aylarca tepki vermenizi gerektirmeyen tedarik önerilerinin neden olduğu "gürültü"nün önlenmesine yardımcı olur. Örnekler arasında, gelecek yılın tahmini ve normal sağlama süresinin dışında verilen müşteri siparişleri yer alır.
 
 Kapsam zaman dilimi, bugünün tarihinden (veya planlama çalıştırmasını yaptığınız tarihten) sonra tedarik ve talebin hariç tutulduğu gün sayısıdır. Gecikmeleri önlemek için kapsam zaman diliminin, toplam sağlama süresinden uzun olduğundan emin olmalısınız. Varsayılan sistem değeri 100 gündür.
 
@@ -82,9 +82,9 @@ Kapsam zaman dilimleri ayarlanırken, aşağıdaki noktaları göz önünde bulu
 - Kapsam zaman diliminin dışında kalan tedarik ve talepler için gereksinim hareketleri oluşturulmaz.
 - Herhangi bir onaylı tedarik ve talep kapsam zaman diliminin dışında kalırsa altyapıya yüklenmez. Bu nedenle, stok yenileme tetiklenmez ve gecikmeler hesaplanmaz. Bununla birlikte, bu tedarik ve talep sistemden temizlenmemelidir.
 - Güvenlik stoku miktarlarındaki (minimum anahtarlardan) değişimler, kapsam zaman diliminin dışında kalmaları durumunda yoksayılır.
-- Hesaplanan talep edilen sevk tarihi kapsam zaman diliminin içinde değilse, şirketlerarası talep yok sayılır. Yerleşik master planlama için şirketlerarası talebin kapsam zaman dilimi ile sınırlı olmadığını unutmayın.
-- Bütçe tarihi kapsam zaman diliminin içinde değilse talep tahminleri yoksayılır. Yerleşik talep tahminleri için şirketlerarası talebin kapsam zaman dilimi ile sınırlı olmadığını unutmayın.
-- Planlamayı En İyi Duruma Getirme saat dilimine duyarlıdır. Tedarik ve talep sahalarındaki saat dilimini ve planlamanın çalıştırıldığı saati dikkate alır. Örneğin, master planlamanın Danimarka'daki bir sahadan 15 Ekim 11:00'da (GMT+1 saat dilimi) tetiklendiğini ve on günlük kapsam zaman diliminin kullanıldığını varsayalım. Bu durumda, Seattle'daki (GMT-8 zaman dilimi)bir sahadan tetiklenen tedarik ve talep, 25 Ekim 02:00'a kadar dahil edilir (= ana planlamanın tetiklenmesinin ardından on 24 saatlik gün sonra eksi dokuz saatlik zaman dilimi farkı). Yerleşik master planlama altyapısının yalnızca zaman diliminin tarihini dikkate aldığını unutmayın. Bu nedenle sonuç farklı olabilir.
+- Hesaplanan talep edilen sevk tarihi kapsam zaman diliminin içinde değilse, şirketlerarası talep yok sayılır. Kullanımdan kaldırılan master planlama altyapısı için şirketlerarası talebin kapsam zaman dilimi ile sınırlı olmadığını unutmayın.
+- Bütçe tarihi kapsam zaman diliminin içinde değilse talep tahminleri yoksayılır. Kullanımdan kaldırılan master planlama altyapısı için talep tahminlerinin kapsam zaman dilimi ile sınırlı olmadığını unutmayın.
+- Planlamayı En İyi Duruma Getirme saat dilimine duyarlıdır. Tedarik ve talep sahalarındaki saat dilimini ve planlamanın çalıştırıldığı saati dikkate alır. Örneğin, master planlamanın Danimarka'daki bir sahadan 15 Ekim 11:00'da (GMT+1 saat dilimi) tetiklendiğini ve on günlük kapsam zaman diliminin kullanıldığını varsayalım. Bu durumda, Seattle'daki (GMT-8 zaman dilimi)bir sahadan tetiklenen tedarik ve talep, 25 Ekim 02:00'a kadar dahil edilir (= ana planlamanın tetiklenmesinin ardından on 24 saatlik gün sonra eksi dokuz saatlik zaman dilimi farkı). Kullanımdan kaldırılan master planlama altyapısının yalnızca zaman diliminin tarihini dikkate aldığını unutmayın. Bu nedenle sonuç farklı olabilir.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

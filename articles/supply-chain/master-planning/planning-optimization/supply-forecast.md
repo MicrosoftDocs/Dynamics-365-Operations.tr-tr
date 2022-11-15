@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-21
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: dc83d10851958ec67166cb7e40cfd84dceae6651
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 2bac9355bb1ac00f697ec459f494a64553e0eacc
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9690101"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740154"
 ---
 # <a name="master-planning-with-supply-forecasts"></a>Tedarik tahminleri ile master planlama
 
@@ -168,13 +168,13 @@ Azaltma yöntemi olarak *Hiçbiri* kullanmaya ayarlanmış bir master plan çal�
 
 Son planlama çalıştırmasından sonra oluşturulan planlı satınalma siparişini bu aşamada düzenleyip miktarı *15 ea* olarak değiştirin. Ardından siparişi onaylayın. Master planı bir sonraki çalıştırmanızda, *US-101* satıcısı, *1* tesisi, *11* ambarı için *10 ea* adetlik, *10/10/22* tarihli bir planlı satınalma siparişi oluşturur. Bu kez, miktar, önceki planlama çalıştırmasından gelen onaylanmış mevcut siparişin miktarını yansıtacak şekilde azaltılır.
 
-## <a name="differences-between-planning-optimization-and-the-built-in-planning-engine"></a>Planlama Optimizasyonu ve yerleşik planlama altyapısı arasındaki farklar
+## <a name="differences-between-planning-optimization-and-the-deprecated-master-planning-engine"></a>Planlama Optimizasyonu ile kullanımdan kaldırılan master planlama altyapısı arasındaki farklar
 
-Tedarik tahminleri kullandığınız planlama altyapısına (yerleşik master planlama veya Planlama Optimizasyonu) bağlı olarak farklı şekillerde çalışır. Bu bölümde bu farklar açıklanmaktadır.
+Tedarik tahminleri, kullandığınız planlama altyapısına (Planlama Optimizasyonu veya kullanımdan kaldırılan master planlama altyapısı) bağlı olarak farklı şekillerde çalışır. Bu bölümde bu farklar açıklanmaktadır.
 
 ### <a name="vendor-groups"></a>Satıcı grupları
 
-Bir tahmin satırı eklediğinizde, bir satıcı ve satıcı grubu belirtebilirsiniz. Yerleşik planlama altyapısında, oluşturulan planlı siparişler satıcı ve satıcı grubu değerlerinin birleşimine göre gruplanır. Planlama Optimizasyonu'nda, planlı siparişler satıcıya göre gruplanır.
+Bir tahmin satırı eklediğinizde, bir satıcı ve satıcı grubu belirtebilirsiniz. Kullanımdan kaldırılan master planlama altyapısında, oluşturulan planlı siparişler satıcı ve satıcı grubu değerlerinin birleşimine göre gruplanır. Planlama Optimizasyonu'nda, planlı siparişler satıcıya göre gruplanır.
 
 Aşağıdaki tabloda bir madde için tedarik tahmini satırı örnekleri verilmiştir.
 
@@ -186,7 +186,7 @@ Aşağıdaki tabloda bir madde için tedarik tahmini satırı örnekleri verilmi
 
 *VendorA* satıcısı *VendorGroupA* satıcı grubu için varsayılan satıcıdır. Ayrıca madde için de varsayılan satıcıdır.
 
-Yerleşik planlama altyapısı aşağıdaki siparişleri oluşturur:
+Kullanımdan kaldırılan master planlama altyapısı aşağıdaki siparişleri oluşturur:
 
 - *VendorA* satıcısı, *VendorGroupA* satıcı grubu için *11* adetlik bir planlı satınalma siparişi
 - *VendorA* satıcısı için *7* adetlik bir planlı satınalma siparişi
@@ -197,7 +197,7 @@ Planlama Optimizasyonu yalnızca bir sipariş oluşturur:
 
 ### <a name="reduction-of-general-forecasts-by-more-specific-forecasts"></a>Genel tahminleri daha belirgin tahminlere göre azaltma
 
-Yerleşik planlama altyapısında, bazı tahminlerin satıcısı belirtilip bazılarının belirtilmediğinde sonuç öngörülemez.
+Kullanımdan kaldırılan master planlama altyapısında, bazı tahminlerin satıcısı belirtilip bazılarının belirtilmediğinde sonuç öngörülemez.
 
 Planlama Optimizasyonu'nda, genel tahminler her zaman daha belirgin tahminler kadar azaltılır. Aşağıda bir örnek verilmiştir.
 
@@ -218,15 +218,15 @@ Genel tahmin (15,00 adet için) daha belirgin tahminler (5,00 + 6,00 = 11,00 ade
 
 ### <a name="respect-for-default-order-settings-when-planned-orders-are-generated"></a>Planlı siparişler oluşturulurken varsayılan sipariş ayarlarına uyum
 
-Her maddenin minimum satınalma siparişi miktarı gibi varsayılan sipariş ayarları olabilir. Yerleşik planlama altyapısı bu ayarları yoksayar ve tahminleri aynı miktara sahip planlı siparişlere çevirir. Planlama Optimizasyonu planlı siparişler tedarik tahminlerine göre oluşturulduğunda bu ayarları geçerli sayar. 
+Her maddenin minimum satınalma siparişi miktarı gibi varsayılan sipariş ayarları olabilir. Kullanımdan kaldırılan master planlama altyapısı bu ayarları yoksayar ve tahminleri aynı miktara sahip planlı siparişlere çevirir. Planlama Optimizasyonu planlı siparişler tedarik tahminlerine göre oluşturulduğunda bu ayarları geçerli sayar. 
 
 ### <a name="aggregation-of-planned-orders-as-a-result-of-reduction-by-approved-orders"></a>Onaylanmış siparişlere göre yapılan azaltma sonucunda planlı siparişlerin toplamı
 
-Yerleşik master planlama altyapısı yalnıza bir siparişin mevcut tedarik tahminini azaltacağını varsayar. Bu nedenle, bir tedarik tahmini satırıyla eşleşen birden fazla sipariş olduğunda yalnızca ilk sipariş tahminden düşülür. Planlama Optimizasyonu'nda, tedarik tahminiyle eşleşen tüm siparişler tahminden düşülür.
+Kullanımdan kaldırılan master planlama altyapısı yalnızca bir siparişin mevcut tedarik tahminini azaltacağını varsayar. Bu nedenle, bir tedarik tahmini satırıyla eşleşen birden fazla sipariş olduğunda yalnızca ilk sipariş tahminden düşülür. Planlama Optimizasyonu'nda, tedarik tahminiyle eşleşen tüm siparişler tahminden düşülür.
 
 ### <a name="reduction-of-forecasts-by-matching-vendors-only"></a>Tahminleri yalnızca eşleşen satıcılara göre azaltma
 
-Yerleşik master planlama altyapısı bir tahmini mevcut serbest bırakılmış satınalma siparişlerine göre azaltırken, satınalma siparişindeki satıcının tahmindeki satıcıyla eşleşip eşlemediğini denetlemez. Planlama Optimizasyonu tahminleri yalnızca satıcı alanındaki değerleri eşleşen satınalma siparişlerine göre azaltır.
+Kullanımdan kaldırılan master planlama altyapısı bir tahmini mevcut serbest bırakılmış satınalma siparişlerine göre azaltırken, satınalma siparişindeki satıcının tahmindeki satıcıyla eşleşip eşlemediğini denetlemez. Planlama Optimizasyonu tahminleri yalnızca satıcı alanındaki değerleri eşleşen satınalma siparişlerine göre azaltır.
 
 Transfer ve üretim emirlerinde, satıcı bilgisi bu sipariş türleriyle ilgili olmadığından satıcı alanı her zaman yoksayılır.
 
@@ -234,4 +234,4 @@ Transfer ve üretim emirlerinde, satıcı bilgisi bu sipariş türleriyle ilgili
 
 Bir maddenin varsayılan sipariş türü *Transfer* olarak ayarlanmışsa, tahminler yalnızca mevcut planlı transfer emirlerine göre azaltılabilir. Ancak üretim emirleri ve satınalma siparişlerinde, yalnızca serbest bırakılan siparişler tedarik tahminini azaltır.
 
-Yerleşik planlama altyapısı tüm transfer emri durumlarında miktarı azaltırken Planlama Optimizasyonu yalnızca *Serbest Bırakıldı* durumundaki transfer emirlerinin miktarını azaltır.
+Kullanımdan kaldırılan master planlama altyapısı tüm transfer emri durumlarında miktarı azaltırken Planlama Optimizasyonu yalnızca *Serbest Bırakıldı* durumundaki transfer emirlerinin miktarını azaltır.

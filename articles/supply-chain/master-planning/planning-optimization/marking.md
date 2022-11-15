@@ -1,6 +1,6 @@
 ---
-title: Planlama İyileştirmesi ile stok işaretleme
-description: Bu makalede, Planlama İyileştirmesi'ni kullandığınızda, kesinleştirilmiş siparişlerde stok işaretleme için kullanılabilir seçenekler hakkında bilgi sağlanmaktadır.
+title: Stok işaretleme
+description: Bu makalede, kesinleştirilmiş siparişlerde stok işaretleme için kullanılabilecek seçenekler hakkında bilgi sağlanmaktadır.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 55c83cdbc144f194fe80e8281a35ec7ff43d551e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: c86db6a670d7d0f7bfe74b7466b9bce766e4a08d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219952"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740616"
 ---
-# <a name="inventory-marking-with-planning-optimization"></a>Planlama İyileştirmesi ile stok işaretleme
+# <a name="inventory-marking"></a>Stok işaretleme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu makalede, Planlama İyileştirmesi'ni kullandığınızda, kesinleştirilmiş siparişlerde stok işaretleme için kullanılabilir seçenekler hakkında bilgi sağlanmaktadır.
+Bu makalede, kesinleştirilmiş siparişlerde stok işaretleme için kullanılabilecek seçenekler hakkında bilgi sağlanmaktadır.
 
 *İşaretleme*, arz ve talebi bağlamak için kullanılır. Master planlamanın talebin nasıl olmasını beklediğini gösteren bir *ilişkilendirmeye* benzerdir. Planlama açısından temel fark işaretlemenin ilişkilendirmeden daha kalıcı olmasıdır.
 

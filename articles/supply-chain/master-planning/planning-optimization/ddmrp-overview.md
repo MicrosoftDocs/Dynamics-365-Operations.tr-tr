@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: cf5ca3996a882111b840e3acb5e2a4f3f26ec4b7
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689501"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740863"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Talep Temelli Malzeme Gereksinimleri Planlaması (DDMRP) genel bakışı
 
@@ -44,6 +44,6 @@ DDMRP genellikle çok seviyeli malzeme listesine (BOM) sahip üreticiler tarafı
 
 ## <a name="ddmrp-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management'ta DDMRP
 
-DDMRP, Microsoft Dynamics 365 Supply Chain Management dahildir ve ek lisans ücreti gerektirmez. Supply Chain Management'ta, mevcut **Master planlama** modülüne DDMRP işlevi eklenmiştir. Ancak, Planlamayı En İyi Duruma Getirme Eklentisini kullanmanızı gerektirir. 
+DDMRP, Microsoft Dynamics 365 Supply Chain Management dahildir ve ek lisans ücreti gerektirmez. Supply Chain Management'ta, mevcut **Master planlama** modülüne DDMRP işlevi eklenmiştir. Ancak, Planlamayı En İyi Duruma Getirme Eklentisini kullanmanızı gerektirir.
 
 DDMRP, Supply Chain Management'taki mevcut planlama kurulumlarıyla tümleşiktir ve işletmeniz için doğru planlama yapılandırmasına ulaşmak için bu kurulumlarla birlikte kullanılır. Dönemden tamamen farklı yeni bir karşılama kodu tarafından kontrol edilir, min/maks, gereksinim v.s. Bu yeni bir modül değil ve mevcut planlama işlevini değiştirmez. Ancak, size kullanmak için daha fazla işlevsellik sağlar.

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 722b34e89a54715db39259549c11a78d69d2b4d3
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218821"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739883"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management'tan kaldırılan veya kullanım dışı bırakılan özellikler
 
@@ -89,7 +89,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 | **Başka bir özellikle mi değiştirildi?**   | Evet, Planlamayı En İyi Duruma Getirme hizmeti mevcut yerleşik Supply Chain Management master planlama altyapısının yerini alacaktır. |
 | **Etkilenen ürün alanları**         | Supply Chain Management - Master planlama |
 | **Dağıtım seçeneği**              | Yalnızca bulut. Planlamayı En İyi Duruma Getirme şirket içi dağıtımlarda desteklenmez. |
-| **Durum**                         | Kaldırıldı. 1 Nisan 2022 itibarıyla, üretim senaryoları artık yerleşik Supply Chain Management master planlama altyapısıyla desteklenmeyecektir. Bu tarihten itibaren, Microsoft yerleşik planlama altyapısı için tüm üretim geliştirme senaryolarını durdurur, yeni özellikleri serbest bırakmayacak ve yalnızca kritik hata düzeltmelerini yayımlayacaktır. Bu tarihten sonra, üretim senaryoları için destek gerektiren tüm şirketler master planlama hesaplamalarında Planlama Optimizasyonu kullanmalıdır. Planlama Optimizasyonu, 2022 Ekim tarihinde üretim senaryolarını tam olarak destekleyecek şekilde beklenmektedir. Daha fazla bilgi için bkz. [Planlamayı En İyi Duruma Getirme belgeleri](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Supply Chain Management'ın şirket içi dağıtımlarına sahip olan şirketler, Nisan 2022 sonrasında üretim senaryoları için yerleşik master planlama altyapısını kullanmaya devam edebilir. Ancak, daha fazla özellik geliştirmesi sağlanmayacaktır. |
+| **Durum**                         | Kaldırıldı. 1 Nisan 2022 itibarıyla, üretim senaryoları artık yerleşik Supply Chain Management master planlama altyapısıyla desteklenmeyecektir. Bu tarihten itibaren, Microsoft yerleşik planlama altyapısı için tüm üretim geliştirme senaryolarını durdurur, yeni özellikleri serbest bırakmayacak ve yalnızca kritik hata düzeltmelerini yayımlayacaktır. Bu tarihten sonra, üretim senaryoları için destek gerektiren tüm şirketler master planlama hesaplamalarında Planlama Optimizasyonu kullanmalıdır. Planlama Optimizasyonu, 2022 Ekim tarihinde üretim senaryolarını tam olarak destekleyecek şekilde beklenmektedir. Daha fazla bilgi için [Kullanımdan kaldırılan master planlamaya genel bakış](../master-planning/deprecated-master-planning-overview.md) bölümüne bakın.<br><br>Supply Chain Management'ın şirket içi dağıtımlarına sahip olan şirketler, Nisan 2022 sonrasında üretim senaryoları için yerleşik master planlama altyapısını kullanmaya devam edebilir. Ancak, daha fazla özellik geliştirmesi sağlanmayacaktır. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Supply Chain Management 10.0.11 sürümünden kaldırılan veya kullanım dışı bırakılan özellikler
 
@@ -101,7 +101,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 | **Başka bir özellikle mi değiştirildi?**   | Evet, Planlamayı En İyi Duruma Getirme hizmeti mevcut yerleşik Supply Chain Management master planlama altyapısının yerini alacaktır. |
 | **Etkilenen ürün alanları**         | Supply Chain Management - Master planlama |
 | **Dağıtım seçeneği**              | Yalnızca bulut. Planlamayı En İyi Duruma Getirme şirket içi dağıtımlarda desteklenmez. |
-| **Durum**                         | Kaldırıldı. 1 Nisan 2021 itibarıyla, dağıtım senaryoları artık yerleşik Dynamics 365 Supply Chain Management master planlama altyapısıyla desteklenmeyecektir. Dağıtım senaryoları için, müşterilerin master planlama hesaplamaları için Planlamayı En İyi Duruma Getirme kullanmaları gerekir. Daha fazla bilgi için bkz. [Planlamayı En İyi Duruma Getirme belgeleri](../master-planning/planning-optimization/planning-optimization-overview.md). Dynamics 365 Supply Chain Management'ın şirket içi dağıtımlarına sahip olan müşteriler, 2021 Nisan sonrasında dağıtım senaryoları için Supply Chain Management master planlama altyapısını kullanmaya devam edebilir. Ancak, daha fazla özellik geliştirmesi sağlanmayacaktır. |
+| **Durum**                         | Kaldırıldı. 1 Nisan 2021 itibarıyla, dağıtım senaryoları artık yerleşik Dynamics 365 Supply Chain Management master planlama altyapısıyla desteklenmeyecektir. Dağıtım senaryoları için, müşterilerin master planlama hesaplamaları için Planlamayı En İyi Duruma Getirme kullanmaları gerekir. Daha fazla bilgi için [Kullanımdan kaldırılan master planlamaya genel bakış](../master-planning/deprecated-master-planning-overview.md) bölümüne bakın. Dynamics 365 Supply Chain Management'ın şirket içi dağıtımlarına sahip olan müşteriler, 2021 Nisan sonrasında dağıtım senaryoları için Supply Chain Management master planlama altyapısını kullanmaya devam edebilir. Ancak, daha fazla özellik geliştirmesi sağlanmayacaktır. |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Kaldırılmış veya kullanım dışı bırakılmış özellikler hakkındaki önceki duyurular
 

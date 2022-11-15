@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f36459e21d96325151aa7fe90f3824b07c2536c
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 6f7289e7ecee49353ca8ee4554914a08074401df
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469995"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740509"
 ---
 # <a name="master-planning-home-page"></a>Master planlama ana sayfası
 
@@ -83,7 +83,6 @@ Ek Yardım görev kılavuzları olarak mevcuttur. Görev kılavuzlarına erişme
 ### <a name="tech-conference-recordings"></a>Teknik konferans kayıtları
 
 - [Talep tahmini işlevini genişletme](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-- [Master planlama: Performans sorunlarını gidermek için ipuçları ve püf noktaları](https://youtu.be/7v8BPmEs9Dg)
 - [MRP performansını ayarlama](https://youtu.be/RLXybx20B5o)
 
 

@@ -1,6 +1,6 @@
 ---
 title: Emniyet marjları
-description: Bu makalede, Microsoft Dynamics 365 Supply Chain Management güvenlik boşluklarının uygulamasında Planlamayı En İyi Duruma Getirme Eklentisi ile nasıl kullanılabileceği açıklanmaktadır.
+description: Bu makalede, master planlama sırasında emniyet marjlarının nasıl çalıştığı açıklanmaktadır.
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 87b38276a2723374969a67c5413dde15537d04ec
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335210"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740454"
 ---
 # <a name="safety-margins"></a>Emniyet marjları
 
 [!include [banner](../../includes/banner.md)]
 
-Bu makalede, Microsoft Dynamics 365 Supply Chain Management güvenlik boşluklarının uygulamasında Planlamayı En İyi Duruma Getirme Eklentisi ile nasıl kullanılabileceği açıklanmaktadır.
+Bu makalede, master planlama sırasında emniyet marjlarının nasıl çalıştığı açıklanmaktadır.
 
 ## <a name="safety-margins-overview"></a>Emniyet marjlarına genel bakış
 
@@ -165,12 +165,5 @@ Sistem bir siparişin geciktirilip gecikmediğini belirlediğinde, üç güvenli
 Örneğin, bir maddenin bir günlük sağlama süresi ve üç günlük giriş marjı vardır. Bu madde için bir satış siparişi bugün gerekli olarak ayarlandı. Bu durumda, gecikme, *sağlama süresi* + *girişi marjı* = dört gün olarak hesaplanır. Bu nedenle, bugün 14 Ağustos ise, dört günlük gecikme 18 Ağustos'ta bir teslimat oluşturur. Aşağıdaki şekilde bu örnek gösterilmiştir.
 
 ![Gecikme hesaplama örneği.](media/safety-margins-delays.png)
-
-## <a name="additional-resources"></a>Ek kaynaklar
-
-[Planlama Optimizasyonunu kullanmaya başlama](get-started.md)
-
-[Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

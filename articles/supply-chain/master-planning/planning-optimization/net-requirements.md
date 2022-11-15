@@ -1,6 +1,6 @@
 ---
-title: Planlama Optimizasyonu ile ilgili net gereksinimler ve ilişkilendirme bilgileri
-description: Bu makalede, Planlama Optimizasyonu'nda hesaplanan net gereksinimler ve ilişkilendirme bilgileri hakkında bilgi sağlanmaktadır.
+title: Net gereksinimler ve ilişkilendirme bilgileri
+description: Bu makalede, hesaplanan net gereksinimler ve ilişkilendirme bilgileri hakkında bilgi sağlanmaktadır.
 author: t-benebo
 ms.date: 7/28/2021
 ms.topic: article
@@ -11,20 +11,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 259e5793a8dfac67793034d98ccb627fe1947bab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a31ff5490b08d92f0d966388b65de02bca25b050
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888542"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748451"
 ---
-# <a name="net-requirements-and-pegging-information-with-planning-optimization"></a>Planlama Optimizasyonu ile ilgili net gereksinimler ve ilişkilendirme bilgileri
+# <a name="net-requirements-and-pegging-information"></a>Net gereksinimler ve ilişkilendirme bilgileri
 
 [!include [banner](../../includes/banner.md)]
 
-Planlama Optimizasyonu'nda master planlama çalıştırdığınızda bunun çıktısını, mevcut tedarikin talebi nasıl kapsadığını ve özel tedarik oluşturulma nedenini anlamanız önemlidir. Master planlamanın ürettiği hesaplanmış gereksinimleri daha iyi anlamak için **Net gereksinimler** sayfasını kullanabilirsiniz.
+Master planlamayı çalıştırdığınızda bunun çıktısını, mevcut tedarikin talebi nasıl kapsadığını ve özel tedarik oluşturulma nedenini anlamanız önemlidir. Master planlamanın ürettiği hesaplanmış gereksinimleri daha iyi anlamak için **Net gereksinimler** sayfasını kullanabilirsiniz.
 
-**Net gereksinimler** sayfasında, Planlama Optimizasyonu'nun ürün için hesapladığı net gereksinimler gösterilmektedir. Ayrıca master planlama çalıştırması sırasında uygulanan kapsam ayarları, hareket türüne göre gereksinim toplamları dökümü ve ilişkilendirme bilgileri de gösterilmektedir.
+**Net gereksinimler** sayfasında, master planlamanın ürün için hesapladığı net gereksinimler gösterilmektedir. Ayrıca master planlama çalıştırması sırasında uygulanan kapsam ayarları, hareket türüne göre gereksinim toplamları dökümü ve ilişkilendirme bilgileri de gösterilmektedir.
 
 ## <a name="open-the-net-requirements-page"></a>Net gereksinimler sayfasını açma
 
@@ -133,8 +133,6 @@ Ardından, hesaplanan gereksinimlerin birbirlerine nasıl karşılık geldiğini
     ![Satış siparişi için ilişkilendirme bilgileri](media/pegging-planned-purchase-order.png "Satış siparişi için ilişkilendirme bilgileri")
 
 > [!NOTE]
-> Planlama Optimizasyonu henüz bazı özellikleri desteklemediğinden *Emniyet stoku* ve *Süresi dolan toplu iş* gereksinim türleri, **Net gereksinimler** sayfasına dahil değildir. Daha fazla bilgi için bkz. [Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md).
->
-> Yerleşik Master planlama altyapısını kullanıyorsanız toplu iş denetimli ürünler desteklenir. Toplu iş denetimli ürünler için süresi dolan eldeki stok, **Net gereksinimler** sayfasında gösterilir ancak talep gereksinimleriyle ilişkilendirilmez. Bu tür için süresi dolan eldeki satırlar, **Net gereksinimler** sayfasında *Süresi dolan toplu iş* gereksinim satırları olarak gösterilir.
+> *Emniyet stoku* gereksinimi **Net gereksinimler** sayfasına eklenmez.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

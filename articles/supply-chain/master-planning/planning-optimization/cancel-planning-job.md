@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 0474c50157295d9ecd2341b700c07f4fbf1ed51f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f5f1f2c8e3e43e36d837ebf989422b0dca7819d6
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900955"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741189"
 ---
 # <a name="cancel-a-planning-job"></a>Planlama işini iptal etme
 
@@ -29,8 +29,7 @@ ms.locfileid: "8900955"
 
 Microsoft Dynamics 365 Supply Chain Management'ta, Planlamayı en iyi duruma getirme işlevini kullanan etkin bir planlama işini iptal edebilirsiniz. Bir Planlama en iyi duruma getirme işi doğrudan kullanıcı arabiriminden tetiklendiğinde (arka planda değil), iletişim kutusunda **İptal**'i seçerseniz bu işlem Planlama en iyi duruma getirme işini iptal etmez. "İşlem iptal edildi" gibi bir uyarı alsanız bile Planlama en iyi duruma getirme işlemi ile planlama işini iptal etmek için yine de aşağıdaki adımları kullanmanız gerekir.
 
-
-Etkin bir planlama işini iptal etmek için aşağıdaki adımları izleyin. 
+Etkin bir planlama işini iptal etmek için aşağıdaki adımları izleyin.
 
 > [!NOTE]
 > Yalnızca etkin işler iptal edilebilir.
@@ -45,18 +44,6 @@ Planlamayı En İyi Duruma Getirme hizmeti işin iptal edilmesini onaylayana kad
 
 > [!NOTE]
 > Durum değişikliklerini görmek için **Yenile** düğmesini seçerek sayfayı yenilemeniz gerekir.
-
-## <a name="additional-resources"></a>Ek kaynaklar
-
-[Planlamayı En İyi Duruma Getirmeye genel bakış](planning-optimization-overview.md)
-
-[Planlamayı En İyi Duruma Getirmeyi kullanmaya başlama](get-started.md)
-
-[Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md)
-
-[Plan geçmişini ve planlama günlüklerini görüntüleme](plan-history-logs.md)
-
-[Plana filtre uygulama](plan-filters.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Stok yenileme yöntemleri ve miktar değişikliği
-description: Bu makale, Planlamayı En İyi Duruma Getirme'deki stok yenileme yöntemleri hakkında bilgi sağlar. Ayrıca, bir ürün için birden çok sipariş miktarının sonucu nasıl etkilediğini açıklar.
+description: Bu makale, stok yenileme yöntemleri hakkında bilgi sağlar. Ayrıca, bir ürün için birden çok sipariş miktarının sonucu nasıl etkilediğini açıklar.
 author: t-benebo
 ms.date: 6/1/2021
 ms.topic: article
@@ -11,26 +11,26 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3e8ef3d38f1b9bacd89304aaf3f0350050232bd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d1e0fe6c1f49bc0f6887f1b29118c1fee7a6222f
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873709"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739770"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Stok yenileme yöntemleri ve miktar değişikliği
 
 [!include [banner](../../includes/banner.md)]
 
-Bu makale, Planlamayı En İyi Duruma Getirme'deki stok yenileme yöntemleri hakkında bilgi sağlar. Ayrıca, bir ürün için birden çok sipariş miktarının sonucu nasıl etkilediğini açıklar.
+Bu makale, stok yenileme yöntemleri hakkında bilgi sağlar. Ayrıca, bir ürün için birden çok sipariş miktarının sonucu nasıl etkilediğini açıklar.
 
 Stok yenileme yöntemleri, karşılama yöntemleri ve lot boyutlandırma yöntemleri olarak da bilinir.
 
 ## <a name="coverage-codes"></a>Karşılama kodları
 
-Planlamayı En İyi Duruma Getirme farklı stok yenileme yöntemleri kullanacak şekilde yapılandırılabilir. Stok yenileme yöntemleri, sistemin bir ürünün gereksinimlerini hesaplamak için kullandığı tekniklerdir. Stok yenileme yöntemleri, karşılama grubunda veya üründe ayarlayabileceğiniz karşılama kodları tarafından tanımlanır.
+Master planlama farklı stok yenileme yöntemleri kullanacak şekilde yapılandırılabilir. Stok yenileme yöntemleri, sistemin bir ürünün gereksinimlerini hesaplamak için kullandığı tekniklerdir. Stok yenileme yöntemleri, karşılama grubunda veya üründe ayarlayabileceğiniz karşılama kodları tarafından tanımlanır.
 
-Planlamayı En İyi Duruma Getirme'de aşağıdaki karşılama kodları kullanılabilir:
+Aşağıdaki karşılama kodları kullanılabilir:
 
 - **Dönem**: Ürün için bir döneme ait tüm talepleri tek bir siparişte olacak şekilde birleştiren stok karşılama yöntemi. Sipariş dönemin ilk günü için planlanacaktır ve miktarı ayarlanan dönem içindeki net gereksinimleri karşılayacaktır. Dönem, ürüne yapılan ilk taleple başlar ve tanımlanan süreyi olduğu gibi kapsar. Sonraki dönem, ürünün sonraki gereksinimleri itibarıyla başlar. *Dönem* karşılama kodu genellikle tahmin edilemeyen stok çekme, sezondan etkilenen ürünler veya yüksek maliyetli ürünler için kullanılır. Aşağıdaki şekilde bir örneği gösterilmiştir.
 
@@ -64,13 +64,13 @@ Serbest bırakılmış bir ürünün **Varsayılan sipariş ayarı** sayfasında
 
 ## <a name="examples-of-replenishment-that-use-the-minmax-coverage-code"></a>Min/Maks kullanan stok yenileme örnekleri karşılama kodu
 
-**Varsayılan sipariş ayarı** sayfasındaki bir ürün için **Çarpan** alanında bir değer belirtmezseniz ve *Min/Maks* stok yenileme yöntemi kullanıyorsanız Planlamayı En İyi Duruma Getirme, tahmin edilen eldeki stok düzeyi belirli bir eşiğin altında olduğunda, stoğun belirli bir düzeye kadar yeniler.
+**Varsayılan sipariş ayarı** sayfasındaki bir ürün için **Çarpan** alanında bir değer belirtmezseniz ve *Min/Maks* stok yenileme yöntemi kullanıyorsanız master planlama tahmin edilen eldeki stok düzeyi belirli bir eşiğin altında olduğunda stoğu belirli bir düzeye kadar yeniler.
 
 Bir ürün için çarpan miktarı tanımlarsanız, *Min./Maks.* yenileme yöntemi davranışını değiştirir ve **Çarpan** değerini dikkate alır.
 
-Başka bir deyişle, Planlamayı En İyi Duruma Getirme, tahmin edilen eldeki stok düzeyi tanımlanan minimum düzeyden daha az olduğunda stoğu tanımlanan maksimum düzeye kadar yenilemeye devam eder. Ancak, stok yenileme miktarı **Çarpan** değerinin katı olmalıdır.
+Başka bir deyişle, master planlama, tahmin edilen eldeki stok düzeyi tanımlanan minimum düzeyden daha az olduğunda stoğu tanımlanan maksimum düzeye kadar yenilemeye devam eder. Ancak, stok yenileme miktarı **Çarpan** değerinin katı olmalıdır.
 
-Stok yenileme miktarı (maksimum düzey ile tahmin edilen eldeki stok düzeyi arasındaki fark) tanımlanan çarpan miktarının katı değilse, Planlamayı En İyi Duruma Getirme, tahmin edilen eldeki stok düzeyiyle birlikte en yüksek düzeyin altında olacak ilk olası değeri kullanır. Toplam minimum düzeyden küçükse, Planlamayı En İyi Duruma Getirme, tahmin edilen eldeki stokla birlikte maksimum düzeyin üzerinde olacak ilk değeri kullanır.
+Stok yenileme miktarı (maksimum düzey ile tahmin edilen eldeki stok düzeyi arasındaki fark) tanımlanan çarpan miktarının katı değilse, master planlama tahmin edilen eldeki stok düzeyiyle birlikte en yüksek düzeyin altında olacak ilk olası değeri kullanır. Toplam minimum düzeyden küçükse, master planlama tahmin edilen eldeki stokla birlikte maksimum düzeyin üzerinde olacak ilk değeri kullanır.
 
 Aşağıdaki alt bölümler, bir ürün için çarpan miktarının *Min./Maks* stok yenileme yönteminin sonucunu nasıl etkilediğini gösteren bazı örnekler sağlar.
 
