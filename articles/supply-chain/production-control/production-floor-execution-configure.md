@@ -2,7 +2,7 @@
 title: Üretim katı yürütme arabirimini yapılandırma
 description: Bu makale, üretim katı yürütme arabirimi için bir veya daha fazla konfigürasyon oluşturmayı açıklamaktadır. Üretim katı yürütme arabirimini açtığınızda, seçilen bir konfigürasyon ve tarayıcıya ve cihaza özel iş filtresini otomatik olarak yükler. Konfigürasyonda, belirli bir kullanım için geçerli olması gereken ilkeleri ayarlayabilirsiniz.
 author: johanhoffmann
-ms.date: 08/05/2022
+ms.date: 11/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7196306b34a72e4c53113dd644f666346f170ed7
-ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
+ms.openlocfilehash: 641b293617df608bc07b97c077dbcd05664f8e2a
+ms.sourcegitcommit: 4abf9b375fed6885ea11a425c524958fea29c3b9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9708738"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748699"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimini yapılandırma
 
@@ -85,17 +85,19 @@ Bu özellik, üretim katı yürütme arabiriminde seri numara, toplu iş ve plak
 
 Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.25 itibarıyla özellik varsayılan olarak açıktır. Supply Chain Management sürüm 10.0.29 itibarıyla, özellik zorunludur ve kapatılamaz. 10.0.29'dan eski bir sürüm kullanıyorsanız yöneticiler, [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Üretim katı yürütme arabiriminde tam seri, toplu iş ve plaka numarası gösterilmesini etkinleştir* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
-
 Supply Chain Management sürüm 10.0.25 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler, [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Üretim katı yürütme arabiriminde tam seri, toplu iş ve plaka numarası gösterilmesini etkinleştir* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ### <a name="register-material-consumption"></a>Malzeme tüketimini kaydet
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until further notice -->
 
 Bu özellik, çalışanların malzeme tüketimini, toplu iş numaralarını ve seri numaralarını kaydetmek için üretim katı yürütme arabirimini kullanmalarını sağlar. Özellikle proses endüstrilerindekiler olmak üzere bazı üreticilerin, her bir toplu iş veya üretim emri için tüketilen malzeme miktarını açıkça kaydetmesi gerekir. Örneğin, çalışanlar çalışırken tüketilen malzeme miktarını tartmak için bir ölçek kullanabilir. Tam malzeme izlenebilirliğini sağlamak için bu kuruluşların her ürünü üretirken hangi parti numaralarının tüketildiğini de kaydetmeleri gerekir.
 
 Bu özelliğin iki versiyonu vardır. Yalnızca ambar yönetimi işlemlerini (WMS) kullanmak üzere *etkinleştirilmemiş* maddeleri destekler. Diğeri, WMS'yi kullanacak şekilde *etkinleştirilen* öğeleri destekler. Bu işlevi kullanmak için, WMS'de etkinleştirilen öğelere sahip olup olmadığınıza bağlı olarak, [Özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özelliklerden birini veya her ikisini etkinleştirin (bu sırada):
 
 - *Üretim katı yürütme arabiriminde malzeme tüketimini kaydetme (WMS dışı)*
-- *Üretim katı yürütme arabiriminde (WMS özellikli) malzeme tüketimini kaydet*
+- *(Önizleme) Üretim katı yürütme arabiriminde (WMS özellikli) malzeme tüketimini kaydet*
 
 > [!IMPORTANT]
 > WMS olmayan özelliğini tek başına kullanabilirsiniz. Ancak, WMS kullanırsanız, her iki özelliği de etkinleştirmeniz gerekir.
@@ -138,6 +140,25 @@ Bu işlevi kullanmak getirmek için, [Özellik yönetiminde](../../fin-ops-core/
 
 - *Üretim katı yürütme arabirimindeki ek yapılandırma*
 
+### <a name="enable-the-my-jobs-tab"></a>İşlerim sekmesini etkinleştirme
+
+**İşlerim** sekmesi, çalışanları özel olarak kendilerine atanan tüm başlamamış ve bitmemiş işleri kolaylıkla görüntülemenizi sağlar. Bunlar, işlerin bazen başka türden kaynaklar (örneğin makineler) yerine belirli çalışanlara (insan kaynakları) atanan ya da her zaman çalışan şirketlerde yararlıdır.
+
+Bu işlevi kullanmak getirmek için, [Özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin:
+
+- *Üretim katı yürütme arabirimindeki işlerim sekmesi*
+
+### <a name="enable-use-of-a-numpad-on-the-sign-in-page"></a>Oturum açma sayfasında sayısal tuş takımı kullanmayı etkinleştirme
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until 10.0.31 GA -->
+
+Bu özellik yöneticilerin üretim katı yürütme arabirimi için oturum açma sayfasına bir sayısal tuş takımı eklemesine olanak tanır. Çalışanlar sayısal tuş takımından rozet kodlarını veya personel numaralarını girerek oturum açabilirler.
+
+Bu işlevi kullanmak getirmek için, [Özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin:
+
+- *Oturum açma sayfasında sayısal tuş takımı kullanmayı etkinleştir*
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Üretim katı yürütme arabirimi yapılandırmalarıyla çalışma
 
 Üretim katı yürütme yapılandırmaları oluşturmak ve sürdürmek için, **Üretim denetimi \> Kurulum \>Üretim yürütme \> Üretim katı yürütmesini yapılandır**'a gidin. **Üretim katı yürütmesini konfigüre et** sayfası mevcut konfigürasyonların bir listesini gösterir. Bu sayfada aşağıdaki eylemleri gerçekleştirebilirsiniz:
@@ -161,6 +182,7 @@ Aşağıdaki ayarlar, **Genel** hızlı sekmesinde bulunur:
 - **Çalışanı kilitle**: Bu seçenek *Hayır* olarak ayarlandığında , çalışanlar kayıt yapıldıktan hemen sonra (yeni bir iş gibi) oturumları kapatılır. Arabirim daha sonra oturum açma sayfasına geri dönecektir. Bu seçenek *Evet* olarak ayarlandığında, çalışanlar üretim katı yürütme arabiriminde oturum açmış durumda kalır. Ancak, bir çalışan, üretim katı yürütme arabirimi aynı sistem kullanıcı hesabı altında çalışmaya devam ederken başka bir çalışanın oturum açmasını sağlayacak şekilde el ile oturumunu kapatabilir. Bu hesap türleri hakkında daha fazla bilgi için, [atanan kullanıcılar](config-job-card-device.md#assigned-users)'a bakın.
 - **Kaydın gerçek zamanını kullan**: Her yeni kaydın bir çalışan tarafından gönderildiği tam zamana eşit olması için bu seçeneği *Evet* olarak ayarlayın. Bu seçenek *Hayır* olarak ayarlandığında, bunun yerine oturum açma zamanı kullanılır. Genellikle, **çalışanı kilitle** ve/veya **Tek çalışan** seçeneklerini çalışanların daha uzun süreler boyunca oturum açmış durumda kaldığı durumlarda *Evet* olarak işaretlediyseniz bu seçeneği *Evet* olarak ayarlamak isteyeceksiniz.
 - **Tek çalışan**: Bu yapılandırmanın etkin olduğu her üretim katı yürütme arabirimini yalnızca bir çalışan kullanıyorsa, bu seçeneği *Evet* olarak ayarlayın. Bu seçenek *Evet* olarak ayarlandığında **çalışanı kilitle** seçeneği otomatik olarak *Evet*'e ayarlanır. Ek olarak, bu ayar işçi için bir rozet kimliği (veya benzer kimlik) kullanarak oturum açabilme gereksinimi (ve yeteneğini) kaldırır. Bunun yerine çalışan  Microsoft Dynamics 365 Supply Chain Management'ta *zaman kayıtlı çalışana* (*çalışanlar* tablosundan) bağlı bir sistem kullanıcısı hesabı kullanarak oturum açar ve üretim katı yürütme arabiriminde aynı anda o çalışan olarak oturum açmış olur.
+- **Sayısal tuş takımını etkinleştir** – Oturum açma ekranına çalışanların dokunmatik bir sayısal tuş takımıyla rozet kodlarını veya personel numaralarını girebilecekleri bir tuş takımı eklemek için bu seçeneği *Evet* olarak ayarlayın. Sayısal tuş takımını gizlemek için bu seçeneği *Hayır* olarak ayarlayın.
 - **Dokunmatik ekranı kilitlemeye izin ver**: Çalışanların üretim katı yürütme arabirimi dokunmatik ekran seçeneklerini kilitlemesine izin vererek ekranı temizlemelerini sağlamak için bu seçeneği *Evet* olarak ayarlayın. Bu seçenek *Evet* olarak ayarlandığında, oturum açma sayfasına **Temizlemek için ekranı kilitle** düğmesi eklenir. Bir çalışan bu düğmeyi seçtiğinde, dokunmatik ekran, istenmeyen giriş yapılmasını önlemek için geçici olarak kilitlenir. Ayrıca, geri sayım süreölçeri de görüntülenir. Çalışan daha sonra cihazı ve ekranı güvenle temizleyebilir. Geri sayım tamamlandığında, dokunmatik ekran otomatik olarak yeniden kilidi açar.
 - **Ekran kilitleme süresi**: **Dokunmatik ekranı kilitlemeye izin ver** seçeneği *Evet* olarak ayarlandığında, bu seçeneği kullanın ve dokunmatik ekranın temizleme amacıyla kilitlenmesi gereken saniye sayısını belirtin. Süre 5 ile 120 saniye arasında olmalıdır.
 - **Lisans plakası oluştur**: Bir çalışanın bir üretm katı yürütme arabirimini her kullandığında tamamlandı bildirimi oluşturmak için bu seçeneği *Evet* olarak ayarlayın. Lisans levhası numarası, **Ambar yönetimi parametreleri** sayfasında ayarlanmış bir numara serisinden oluşturulur. Bu seçenek *Hayır* olarak ayarlandığında , çalışanlar tamamlandı bildirimine göre, varolan bir lisans levhası belirtmelidir.

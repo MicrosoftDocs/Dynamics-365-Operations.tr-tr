@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 0d857ef31e0fed2a0d7550197209fac9251d8812
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 876ee36c75a31ca89a9351d0ee1484e66076b6aa
+ms.sourcegitcommit: 4abf9b375fed6885ea11a425c524958fea29c3b9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069801"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748726"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
 
@@ -146,9 +146,6 @@ Bir çalışan bir planlama maddesi için toplu iş emrindeki bir işi tamamlad�
 Bu durumda, çalışan, rapor ilerlemesi iletişim kutusunda **Ortak ürünler çeşitlerini** seçerek ortak ürün ve rapor edilecek miktarı belirtebilir. Çalışan, ortak ürün olarak tanımlanan tüm serbest bırakılan ürünler arasından seçim yapabilir.
 
 ### <a name="reporting-catch-weight-items"></a>Fiili ağırlık maddeleri raporlama
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
 
 Çalışanlar, fiili ağırlık maddeleri için oluşturulan toplu iş emirleriyle ilgili ilerlemeyi bildirmek için bu üretim tabanı yürütme arabirimini kullanabilir. Toplu iş emirleri formüllerden oluşturulur ve bu formüller, formül maddeleri, ortak ürünler ve ürünler olarak fiili ağırlığa sahip olacak şekilde tanımlanabilir. Bir formül, fiili ağırlık olarak tanımlanan malzemeler için formül satırlarına sahip olacak şekilde de tanımlanabilir. Fiili ağırlık maddeleri stoğu izlemek için iki ölçü birimi kullanır: fiili ağırlık miktarı ve stok miktarı. Örneğin, yiyecek endüstrisinde kutulanmış et, fiili ağırlık miktarının kutu sayısını izlemek için kullanıldığı ve kutuların ağırlığını izlemek için stok miktarının kullanıldığı bir fiili ağırlık maddesi olarak tanımlanabilir.
 

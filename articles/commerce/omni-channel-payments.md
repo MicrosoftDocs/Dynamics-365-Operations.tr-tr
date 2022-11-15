@@ -1,8 +1,8 @@
 ---
-title: Çoklu kanal ödemeleri genel bakışı
+title: Çok yönlü kanal ödemelerine genel bakış
 description: Bu makale, Dynamics 365 Commerce Omni-Channel ödemelerinin genel görünümünü sağlar.
 author: BrianShook
-ms.date: 09/17/2020
+ms.date: 11/04/2020
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: d850e532a764d22bc926f5649f4ad2907b49d1a0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a5cc0725b383ca6657bd19b9dd25b0c60b364467
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881721"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746145"
 ---
-# <a name="omni-channel-payments-overview"></a>Çoklu kanal ödemeleri genel bakışı
+# <a name="omni-channel-payments-overview"></a>Çok yönlü kanal ödemelerine genel bakış
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Bu makale, Dynamics 365 Commerce Omni-Channel ödemelerinin genel görünümünü sağlar. Desteklenen senaryoların kapsamlı bir listesini, işlevleri, kurulumu ve sorun giderme bilgilerini ve bazı tipik sorunların açıklamalarını içerir.
 
@@ -104,7 +105,7 @@ Aşağıdaki bölümler, her senaryoya ilişkin adımları açıklar ve demo ver
 Başlamadan önce, aşağıdaki önkoşulların karşılandığından emin olmanız gerekir:
 
 - Adyen bağlayıcının konfigüre edildiği bir mağaza referansınız var.
-- **Commerce paylaşılan parametreleri** üzerindeki **Omni-channel ödemeleri** seçeneği **Doğru** olarak ayarlanmıştır. Sonraki sürümlerde, bu ayar **Çoklu kanal ödemeleri** özelliğini seçebileceğiniz ve **Şimdi etkinleştir**'e tıklayabileceğiniz **Özellik Yönetimi** çalışma alanına taşınmıştır. 
+- **Commerce paylaşılan parametreleri** üzerindeki **Omni-channel ödemeleri** seçeneği **Doğru** olarak ayarlanmıştır. Sonraki sürümlerde, bu ayar **Çok yönlü kanal ödemeleri** özelliğini seçebileceğiniz ve **Şimdi etkinleştir**'e tıklayabileceğiniz **Özellik Yönetimi** çalışma alanına taşınmıştır. 
 - Adyen ödeme konektörü Houston POS kaydı için konfigüre edilir.
 - Windows veya Android için yerleşik donanım istasyonlu Retail Modern POS -veya-
 - iOS veya Cloud POS için bağlı paylaşılan donanım istasyonlu Modern POS. 
@@ -169,9 +170,9 @@ Senaryoyu çalıştırmak için şu adımları izleyin.
 6. Aramaya **Seattle** girin ve malzeme çekme için **Seattle** deposunu seçin. 
 7. Malzeme çekme tarihi olarak geçerli tarihi kabul etmek için **Tamam**'ı seçin.
 9. Ödemeyi başlatmak için **Ödeme kartı**'nı seçin.
-10. Kart ödemesini, ödem için gerekli olan tutar için yapın. 
+10. Kart ödemesini, ödem için gerekli olan tutar için yapın.
 11. Ödeme terminalinde havale ödemesini tamamlayın. 
-12. Depozito ödendikten sonra, karşılama için aynı kartı kullanma seçeneğini belirleyin ve siparişin tamamlanmasını bekleyin. 
+12. Depozito ödendikten sonra, karşılama için aynı kartı kullanma seçeneğini belirleyin ve siparişin tamamlanmasını bekleyin. Depozitonun tamamı ödendiyse (yukarıdaki adım 10'dan), karttan ilgili fonlar anında yakalanır ve fonlar yakalanıp ödendi olarak izlendiğinden, faturalama aşamasında bir yetkilendirme belirteci olmaz.
 13. POS'un Seattle deposunu başlatın.
 14. POS'ta, mağaza için malzeme çekme ile ilgili siparişleri görmek **Teslim alınacak siparişler** sayfasında, malzeme çekme işlemi yapılacak siparişleri seçin. 
 15. Referans mağazasında oluşturulan siparişten bir veya daha fazla satırı seçin ve sonra **Teslim al**'ı seçin.
@@ -198,13 +199,13 @@ Senaryoyu çalıştırmak için şu adımları izleyin.
 8. Ödemeyi başlatmak için **Ödeme kartı**'nı seçin.
 9. Kart ödemesini, ödem için gerekli olan tutar için yapın. 
 10. Ödeme terminalinde havale ödemesini tamamlayın. 
-11. Depozito ödendikten sonra, karşılama için aynı kartı kullanma seçeneğini belirleyin ve siparişin tamamlanmasını bekleyin.
+11. Depozito ödendikten sonra, karşılama için aynı kartı kullanma seçeneğini belirleyin ve siparişin tamamlanmasını bekleyin. Depozitonun tamamı ödendiyse (yukarıdaki adım 9'dan), karttan ilgili fonlar anında yakalanır ve fonlar yakalanıp ödendi olarak izlendiğinden, faturalama aşamasında bir yetkilendirme belirteci olmaz.
 
 Sipariş arka ofis içinde çekildiğinde, paketlenebiliyorsa ve faturalandığı zaman, POS 'ta sağlanan ödeme detayları müşteriye sevk edilen malların fonlarının yakalanması için kullanılacaktır. 
 
 ## <a name="scenario-details"></a>Senaryo ayrıntıları
 
-Yalnızca açıklanan temel senaryolara ek olarak, çoklu kanal ödemelerini destekleyen ödemeler SDK'sında çeşitli geliştirmeler yapılmıştır. 
+Yalnızca açıklanan temel senaryolara ek olarak, çok yönlü kanal ödemelerini destekleyen ödemeler SDK'sında çeşitli geliştirmeler yapılmıştır. 
 
 ### <a name="pos"></a>POS
 
@@ -225,7 +226,7 @@ Sipariş malzeme çekme için mağazaya gelen bir müşteri farklı bir kart kul
 
 ### <a name="invalid-authorizations"></a>Geçersiz yetkilendirmeler
 
-Sipariş oluşturmak için kullanılan kart artık geçerli değilse, malzeme çekme için seçildiğinde ödeme yakalama talebi başarısız olur. POS ödeme bağlayıcısı, aynı kart ayrıntılarını kullanarak yeni bir yetkilendirme oluşturmaya ve yakalamayı deneyecek. Yeni yetkilendirme veya yakalama başarısız olursa, kasiyer ödemenin işlenmediği konusunda bilgilendirilirler. Kasiyerin bundan sonra müşteriden yeni bir ödeme alması gerekir. 
+Sipariş oluşturmak için kullanılan kart artık geçerli değilse, malzeme çekme için seçildiğinde ödeme yakalama talebi başarısız olur. POS ödeme bağlayıcısı, aynı kart ayrıntılarını kullanarak yeni bir yetkilendirme oluşturmaya ve yakalamayı deneyecek. Yeni yetkilendirme veya yakalama başarısız olursa, kasiyer ödemenin işlenmediği konusunda bilgilendirilir. Kasiyerin bundan sonra müşteriden yeni bir ödeme alması gerekir. 
 
 ### <a name="multiple-available-payments"></a>Çoklu kullanılabilir ödeme
 

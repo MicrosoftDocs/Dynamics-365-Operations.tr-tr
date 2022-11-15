@@ -1,6 +1,6 @@
 ---
-title: Planlama Optimizasyonunu kullanmaya başlama
-description: Bu makalede, Planlamayı En İyi Duruma Getirme işlevini kullanmaya nasıl başlanacağı açıklanmaktadır.
+title: Master planlamayı kullanmaya başlama
+description: Bu makalede, Dynamics 365 Supply Chain Management uygulamasında master planlama işlevini kullanmaya nasıl başlanacağı açıklanmaktadır.
 author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
@@ -16,27 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 629a84135434ad79f8397649ee9a4a62e49751d9
-ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
+ms.openlocfilehash: 958de3f9ae6ead6cb6914bd3b7a4560e768013ab
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295944"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740342"
 ---
-# <a name="get-started-with-planning-optimization"></a>Planlamayı En İyi Duruma Getirmeyi kullanmaya başlama
+# <a name="get-started-with-master-planning"></a>Master planlamayı kullanmaya başlama
 
 [!include [banner](../../includes/banner.md)]
 
-[Daha önce duyurulduğu](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios) gibi, Planlamayı En İyi Duruma Getirme varolan yerleşik master planlama altyapısının yerini almak üzere planlanmıştır.
-
-Yerleşik Master planlama altyapısını kullanıyorsanız, şimdi Planlamayı En İyi Duruma Getirme için geçişinizi planlamaya başlamanız gerekir. Kullanımdan kaldırma zorunlu kılındığında işlemleriniz etkileneceğinden hemen şimdi başlamanız önemlidir (zorunlu kılma şu an için planlanmamıştır). Geçiş işlemini Planlamayı En İyi Duruma Getirme ihtiyaç duyduğunuz özellikleri desteklemeye başladığı anda tamamlamanızı öneririz. Böylece, birçok performans iyileştirmedinden ve yeni hizmetle sağlanan yeni özelliklerden yararlanmaya başlayabilirsiniz.
-
-Planlamayı En İyi Duruma Getirme işlevi şu anda Microsoft Supply Chain Management'ta yerleşik olan planlama altyapısında kullanılabilen tüm özellikleri desteklememektedir. Bu nedenle, Planlamayı En İyi Duruma Getirme hizmetinde şu anda mevcut olan özellik kümesinin gereksinimlerinizi karşılayıp karşılamadığını değerlendirmeniz önemlidir. Planlamayı En İyi Duruma Getirme işlevi şu anda Dynamics Lifecycle Services (LCS)'de varsayılan olarak etkin değil; bu nedenle özellik açılmadan önce değerlendirme yapma fırsatına sahipsiniz.
-
-> [!NOTE]
-> Master planlama işleminiz üretim (Master planlamayla oluşturulmuş planlanmış üretim emirleri) içermiyorsa ve yerleşik Master planlama altyapısının 10.0.15 üstü sürümü olmasını istiyorsanız, Planlamayı En İyi Duruma Getirme işlevine geçiş için bir özel durum istemeniz gerekir. Sürüm 10.0.16 itibarıyla, planlı üretim emirleri olmadan yerleşik master planlama çalıştırıldığında ortamlarda bir hata gösterilecektir. Master planlama sırasında planlı üretim emirleri oluşturmayan tüm yeni dağıtımlar için Planlamayı En İyi Duruma Getirme işlevi kullanılmalıdır. Planlı üretim emirleri olmadan Yerleşik Master planlama altyapısını çalıştıran mevcut ortamların sahipleri, özel durum işlemiyle ilgili ayrıntıların bulunduğu bir posta alacaktır. Planlamayı En İyi Duruma Getirme için geçişi değerlendirmek ve planlamak üzere bir iş ortağı ile çalışmanız önerilir.
-
-Planlamayı En İyi Duruma Getirme hizmetini açmadan önce Planlamayı En İyi Duruma Getirme uygunluk analizinin sonuçlarını değerlendirmenizi öneririz. Daha fazla bilgi için bkz. [Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md).
+Supply Chain Management'ta master planlama işlevi Dynamics 365 Supply Chain Management için Planlama Optimizasyonu Eklentisi adlı harici bir hizmet tarafından sağlanır. Bu konuda, bu hizmetin nasıl edinilip ayarlanacağı açıklanmaktadır.
 
 ## <a name="availability"></a>Kullanılabilirlik
 
@@ -108,31 +99,15 @@ Bağlantı durumu, Supply Chain Management ile Planlamayı En İyi Duruma Getirm
 **Planlamayı En İyi Duruma Getirmeyi Kullan** seçeneği, master planlama için hangi planlama altyapısının kullanılacağını belirler:
 
 - **Evet**: Master planlama için Planlamayı En İyi Duruma Getirme hizmeti kullanılır.
-- **Hayır**: Master planlama için yerleşik Supply Chain Management planlama altyapısı kullanılır.
+- **Hayır** – Master planlama için kullanımdan kaldırılan master planlama altyapısı kullanılır.
 
-Bu ayar tüm tüzel kişilikler (şirketler) için geçerlidir. Planlamayı En İyi Duruma Getirme bazı tüzel kişiliklerde mümkün değildir. Bazı tüzel kişiliklerde ise master planlama kullanılamaz.
+Bu ayar tüm tüzel kişilikler (şirketler) için geçerlidir. Planlama Optimizasyonu bazı tüzel kişiliklerde kullanılamaz. Bazı tüzel kişiliklerde ise kullanımdan kaldırılan master planlama altyapısı kullanılamaz.
 
 > [!NOTE]
-> Yerleşik Supply Chain Management planlama altyapısı için oluşturulan mevcut planlama toplu işleri, **Planlamayı En İyi Duruma Getirmeyi Kullan** seçeneği **Evet** olarak ayarlanırken tetiklenirse bu işler başarısız olur.
+> Kullanımdan kaldırılan master planlama altyapısı için oluşturulan mevcut planlama toplu işleri, **Planlama Optimizasyonunu Kullan** seçeneği **Evet** olarak ayarlanırken tetiklenirse bu işler başarısız olur.
 
 ### <a name="integration-with-the-setup"></a>Ayarla tümleştirme
 
 Planlama İyileştirmesi açıksa master planlama, Planlama İyileştirmesi Eklentisi'ni kullanarak yapılır. Bu durumda, master planlama sonuçları ve özellikleri etkilenir.
 
-## <a name="additional-resources"></a>Ek kaynaklar
-
-[Önizleme için hüküm ve koşullar](https://go.microsoft.com/fwlink/?linkid=2015274)
-
-[Planlamayı En İyi Duruma Getirmeye genel bakış](planning-optimization-overview.md)
-
-[Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md)
-
-[Plan geçmişini ve planlama günlüklerini görüntüleme](plan-history-logs.md)
-
-[Plana filtre uygulama](plan-filters.md)
-
-[Planlama işini iptal etme](cancel-planning-job.md)
-
-
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

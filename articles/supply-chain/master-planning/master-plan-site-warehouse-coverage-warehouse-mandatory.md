@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9a823d32ca24278154032a1cba3edea847d692e4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: adcb2d41ff70714b6bc9c28f3e23ce95f5292f2e
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844881"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740072"
 ---
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-mandatory"></a>Tesis ve ambar kapsamı için master planlama, ambar zorunlu
 
@@ -47,15 +47,11 @@ Aşağıdaki grafikte, master plan planlamasının ne şekilde ilerlediği göst
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Master planlama ve birden çok tesis işlevine genel bakış](master-plan-multisite-functionality.md)
-
-[Tesis kapsamı için master planlama, ambar zorunlu](master-plan-site-coverage-warehouse-mandatory.md)
-
-[Tesis kapsamı için master planlama, ambar zorunlu değil](master-plan-site-coverage-warehouse-not-mandatory.md)
-
-[Tesis ve ambar kapsamı için master planlama, ambar zorunlu değil](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
-
-[Ürün reçetesi sürümünü belirleme](master-plan-bom-version-determined.md)
+- [Master planlama ve birden çok tesis işlevine genel bakış](master-plan-multisite-functionality.md)
+- [Tesis kapsamı için master planlama, ambar zorunlu](master-plan-site-coverage-warehouse-mandatory.md)
+- [Tesis kapsamı için master planlama, ambar zorunlu değil](master-plan-site-coverage-warehouse-not-mandatory.md)
+- [Tesis ve ambar kapsamı için master planlama, ambar zorunlu değil](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+- [Ürün reçetesi sürümünü belirleme](master-plan-bom-version-determined.md)
 
 
 

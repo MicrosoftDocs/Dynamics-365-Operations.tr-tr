@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 10e3b6ad079dbcbc3cce429a4d9d838e584b9c54
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 16e806de9014e76404ee2807ec9132ae836e300f
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844539"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739991"
 ---
 # <a name="inventory-forecasts"></a>Stok tahminleri
 
@@ -395,7 +395,7 @@ Master planınızı bir stok tahmini içerecek şekilde yapılandırmak için bu
     - **Tahmin zaman dönemi**: **Tahmin planı** seçeneğini *Evet* olarak ayarlarsanız, talep tahmininin uygulanması gereken gün sayısını (bugünün tarihinden itibaren) belirtin.
 
     > [!IMPORTANT]
-    > **Tahmin planı** seçeneği Planlamayı En İyi Duruma Getirme'de henüz desteklenmemektedir.
+    > **Tahmin planı** seçeneği Planlama Optimizasyonu'nda desteklenmemektedir.
 
 ### <a name="run-a-master-plan-that-includes-an-inventory-forecast"></a>Bir stok tahmini içeren bir master plan çalıştırma
 
