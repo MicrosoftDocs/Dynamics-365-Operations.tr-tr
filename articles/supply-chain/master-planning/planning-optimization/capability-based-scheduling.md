@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4a3c8236183b81ad015b43d7dbf869c177eafd44
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 176f40ad8cd1aa1831bbe50c0ebd91ec0cc3bc89
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335420"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739911"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Yeteneğe dayalı kaynak seçimi ile zamanlama
 
@@ -43,7 +43,7 @@ Yetenekleri kaynak gereksinimleri olarak belirlediğinizde siparişler zamanlana
 - **Yürürlük Tarihi**: Kaynak veya yetenek atamasının geçerli olduğu ilk tarihi belirtin. Zamanlama sırasında sistem, süresi dolmuş bir yetenek atamasına sahip bir kaynağı veya yeteneği, bu kaynak gereksinimleri karşılasa bile kullanmaz.
 - **Bitiş Tarihi**: Kaynak veya yetenek atamasının geçerli olduğu son tarihi belirtin. Zamanlama sırasında sistem, süresi dolmuş bir yetenek atamasına sahip bir kaynağı veya yeteneği, bu kaynak gereksinimleri karşılasa bile kullanmaz.
 - **Düzey**: Kaynağın yetenek için sahip olması gereken yeterlilik düzeyini belirtin. Ardından, kaynak veya yetenek gereksinimi için bir **İhtiyaç duyulan minimum düzey** değerini belirtirseniz zamanlama altyapısı kaynak seçimi sırasında yeterlilik düzeyini dikkate alır. Sistem, yalnızca kaynak gereksiniminde belirtilen en düşük düzeye eşit veya bu düzeyi aşan bir düzeyde gerekli yeteneğe sahip kaynakları seçer.
-- **Öncelik**: Bu alan henüz Planlama Optimizasyonu tarafından desteklenmemektedir. Ancak yerleşik planlama altyapısını kullanıyorsanız kaynak önceliğini tanımlamak için kaynak veya yetenek atamasındaki **Öncelik** alanını kullanabilirsiniz. **Zamanlama parametreleri** sayfasındaki **Birincil kaynak seçimi** alanında *Öncelik* seçilirse zamanlama sırasında sistem, önce en yüksek önceliğe (**Öncelik** alanındaki en düşük sayısal değer) sahip olan kaynağı seçer.
+- **Öncelik**: Bu alan henüz Planlama Optimizasyonu tarafından desteklenmemektedir. Ancak kullanımdan kaldırılan master planlama altyapısını kullanıyorsanız kaynak önceliğini tanımlamak için kaynak veya yetenek atamasındaki **Öncelik** alanını kullanabilirsiniz. **Zamanlama parametreleri** sayfasındaki **Birincil kaynak seçimi** alanında *Öncelik* seçilirse zamanlama sırasında sistem, önce en yüksek önceliğe (**Öncelik** alanındaki en düşük sayısal değer) sahip olan kaynağı seçer.
 
 ## <a name="example"></a>Örnek
 
