@@ -2,22 +2,19 @@
 title: CPOS'u özel Azure AD uygulaması kullanacak şekilde yapılandırma
 description: Bu makalede, Cloud POS'un (CPOS) özel bir Azure Active Directory (Azure AD) uygulaması kullanacak şekilde nasıl yapılandırılacağı açıklanmaktadır.
 author: boycez
-ms.date: 08/02/2022
+ms.date: 11/04/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: global
 ms.author: boycez
-ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: baa0c3da25308345037b5dd1b4c5907d6213e7f7
-ms.sourcegitcommit: bd3b55e1af28e592c97b540de1e87cd8ba9c35a8
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 5e4ff797410e1e94869cc37684e7622ec0d97842
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2022
-ms.locfileid: "9222978"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746273"
 ---
 # <a name="configure-cpos-to-use-a-custom-azure-ad-app"></a>CPOS'u özel Azure AD uygulaması kullanacak şekilde yapılandırma
 
@@ -52,6 +49,9 @@ Azure AD'de özel bir Retail Server uygulaması oluşturmak ve yapılandırmak i
 
 ## <a name="set-up-a-custom-cpos-app-in-azure-ad"></a>Azure AD'de özel bir CPOS uygulaması ayarlama
 
+> [!IMPORTANT]
+> Commerce sürüm 10.0.21 öncesinde oluşturulmuş, varolan bir özel CPOS Azure AD uygulamasını yükseltiyorsanız, [Commerce sürüm 10.0.21 öncesinde oluşturulmuş varolan bir özel CPOS Azure AD uygulamasını yükseltme](#upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021) bölümünde verilen adımları izleyin.
+
 Azure AD'de özel bir CPOS uygulaması oluşturmak ve yapılandırmak için aşağıdaki adımları izleyin.
 
 1. Herhangi bir Azure AD kullanıcı hesabını kullanarak [Azure Active Directory yönetim merkezinde](https://aad.portal.azure.com) oturum açın. Kullanıcı hesabının yönetici izinleri olması gerekmez.
@@ -68,12 +68,25 @@ Azure AD'de özel bir CPOS uygulaması oluşturmak ve yapılandırmak için aşa
 1. **Bildirim** bölümünde, **oauth2AllowIdTokenImplicitFlow** ve **oauth2AllowImplicitFlow** parametrelerini **true** olarak ayarlayıp **Kaydet**'i seçin.
 1. **Belirteç yapılandırması** bölümünde, iki talep eklemek için aşağıdaki adımları izleyin:
 
-    - **İsteğe bağlı talep ekle** öğesini seçin. **Belirteç türü** alanını **Kimlik** olarak ayarlayın ve sonra da **sid** talebini seçin. **Ekle**'yi seçin.
-    - **İsteğe bağlı talep ekle** öğesini seçin. **Belirteç türü** alanını **Erişim** olarak ayarlayın ve sonra da **sid** talebini seçin. **Ekle**'yi seçin.
+    1. **İsteğe bağlı talep ekle** öğesini seçin. **Belirteç türü** alanını **Kimlik** olarak ayarlayın ve sonra da **sid** talebini seçin. **Ekle**'yi seçin.
+    1. **İsteğe bağlı talep ekle** öğesini seçin. **Belirteç türü** alanını **Erişim** olarak ayarlayın ve sonra da **sid** talebini seçin. **Ekle**'yi seçin.
 
 1. **API izinleri** bölümünde **İzin ekle**'yi seçin.
 1. **Kuruluşumun kullandığı API'ler** sekmesinde, [Azure AD'de özel bir Retail Server uygulaması oluşturma](#set-up-a-custom-retail-server-app-in-azure-ad) bölümünde oluşturduğunuz Retail Server uygulamasını arayın. Ardından **İzin ekle**'yi seçin.
 1. **Genel Bakış** bölümünde, **Uygulama (istemci) kimliği** alanındaki değeri not edin.
+
+### <a name="upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021"></a>Commerce sürüm 10.0.21 öncesinde oluşturulmuş, varolan bir özel CPOS Azure AD uygulamasını yükseltme
+
+Commerce sürüm 10.0.21 öncesinde oluşturulmuş, varolan bir özel CPOS Azure AD uygulamasını yükseltmek için aşağıdaki adımları izleyin. 
+
+1. Özel CPOS Azure AD uygulamanızı Azure portalda açın.
+1. **Kimlik Doğrulaması** sekmesini seçin.
+1. Daha sonra kullanmak üzere, **Web** türündeki özgün yeniden yönlendirme URl'sini kopyalayıp kaydedin ve ardından silin.
+1. **Platform ekle**, ardından **Tek sayfalı uygulama (SPA)** seçeneklerini belirleyin.
+1. Yukarıda kopyaladığınız özgün web yeniden yönlendirme URl'sini SPA platformuna ekleyin.
+1. **Belirteç yapılandırması** bölümünde, iki talep eklemek için aşağıdaki adımları izleyin:
+    1. **İsteğe bağlı talep ekle** öğesini seçin. **Belirteç türü** alanını **Kimlik** olarak ayarlayın ve sonra da **sid** talebini seçin. **Ekle**'yi seçin.
+    1. **İsteğe bağlı talep ekle** öğesini seçin. **Belirteç türü** alanını **Erişim** olarak ayarlayın ve sonra da **sid** talebini seçin. **Ekle**'yi seçin.
 
 ## <a name="update-the-cpos-configuration-file"></a>CPOS yapılandırma dosyasını güncelleştirme
 

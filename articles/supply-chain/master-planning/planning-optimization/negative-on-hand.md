@@ -1,6 +1,6 @@
 ---
 title: Eldeki eksi stok miktarlarıyla planlama
-description: Bu makale, planlama en iyileştirmesi kullanılırken eldeki eksi stokun nasıl işlendiğini açıklar.
+description: Bu makalede, eldeki negatif stoğun nasıl işlendiği açıklanmaktadır.
 author: t-benebo
 ms.date: 07/22/2021
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 04006bb12142be69c84bc8085dd82fc99280e90b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4fc8b37fd800e3b4652513f150f9806bf1d5d67
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856149"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741135"
 ---
-# <a name="planning-with-negative-on-hand-quantities"></a>Eldeki eksi miktarları planlama
+# <a name="planning-with-negative-on-hand-quantities"></a>Eldeki eksi stok miktarlarıyla planlama
 
 [!include [banner](../../includes/banner.md)]
 
 Sistem negatif toplu eldeki miktarı gösteriyorsa, planlama altyapısı miktardan fazla tedarik oluşmasını önlemeye yardımcı olmak için miktarı 0 (sıfır) olarak değerlendirir. Bu işlevsellik şu şekilde çalışır:
 
-1. Planlama en iyileştirme özelliği, eldeki miktarları en düşük kapsam boyutları düzeyinde toplar. (Örneğin, *yerleşim* bir karşılama boyutu değilse, planlama en iyileştirme *ambar* düzeyinde eldeki miktarları toplar.)
+1. Master planlama, eldeki miktarları en düşük kapsam boyutları düzeyinde toplar. (Örneğin, *yerleşim* bir karşılama boyutu değilse, master planlama eldeki miktarları *ambar* düzeyinde toplar.)
 1. En düşük karşılama boyutlarının eldeki toplam miktarı negatifse, sistem eldeki miktarın gerçekten 0 (sıfır) olduğunu varsayar.
 
 > [!IMPORTANT]
@@ -88,14 +88,6 @@ Sistem aşağıdaki şekilde yapılandırılmıştır:
 - *10* adet *FG* ürünü için bir satış siparişi var.
 - Satış siparişi miktarı, mevcut eldeki stoğa karşı fiziksel olarak ayrılmıştır.
 
-Ardından, eldeki envanter 5 olacak şekilde *FG* ürününün miktarını ayarlarsınız. Eldeki ürün stoğu 5 olduğundan, satış siparişi miktarı artık eldeki mevcut olmayan miktara karşı ayrılmıştır (eldeki 0 olsaydı benzer olurdu, bu durumda satış siparişi negatif stoka karşı ayrılırdı). Master planlamayı şimdi çalıştırırsanız, *FG* için 5 miktarında bir planlı sipariş oluşturularak satış siparişi tedariki sağlanır çünkü Planlama Optimizasyonu her zaman fiziksel rezervasyon tedariki için mevcut kaynakları kullanır veya yeni bir planlı sipariş oluşturur.
-
-## <a name="related-resources"></a>İlgili kaynaklar
-
-- [Planlama Optimizasyonuna genel bakış](planning-optimization-overview.md)
-- [Planlama Optimizasyonunu kullanmaya başlama](get-started.md)
-- [Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md)
-- [Plan geçmişini ve planlama günlüklerini görüntüleme](plan-history-logs.md)
-- [Planlama işini iptal etme](cancel-planning-job.md)
+Ardından, eldeki envanter 5 olacak şekilde *FG* ürününün miktarını ayarlarsınız. Eldeki ürün stoğu 5 olduğundan, satış siparişi miktarı artık eldeki mevcut olmayan miktara karşı ayrılmıştır (eldeki 0 olsaydı benzer olurdu, bu durumda satış siparişi negatif stoka karşı ayrılırdı). Master planlamayı şimdi çalıştırırsanız, *FG* için 5 miktarında bir planlı sipariş oluşturularak satış siparişi tedariki sağlanır çünkü master planlama her zaman fiziksel rezervasyon tedariki için mevcut kaynakları kullanır veya yeni bir planlı sipariş oluşturur.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
