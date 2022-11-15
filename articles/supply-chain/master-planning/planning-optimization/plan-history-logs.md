@@ -1,6 +1,6 @@
 ---
 title: Plan geçmişini ve planlama günlüklerini görüntüleme
-description: Bu makale, Planlamayı En İyi Duruma Getirme işlevi tarafından tetiklenen planlama işlerinin geçmişini nasıl görüntüleyeceğinizi açıklar.
+description: Bu makalede planlama işleri geçmişinin nasıl görüntüleneceği açıklanmaktadır.
 author: t-benebo
 ms.date: 06/01/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b2c9257fc67a06b57418b2f5b035b2b540131405
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab469686a009364bf53cb963506fd2107075a283
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863954"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740944"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Plan geçmişini ve planlama günlüklerini görüntüleme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu makale, Microsoft Dynamics 365 Supply Chain Management'ta Planlamayı En İyi Duruma Getirme işlevi tarafından tetiklenen planlama işlerinin geçmişini nasıl görüntüleyeceğinizi açıklar.
+Bu makalede Microsoft Dynamics 365 Supply Chain Management uygulamasında, planlama işleri geçmişinin nasıl görüntüleneceği açıklanmaktadır.
 
 Planın geçmişini görüntülemek için **Master planlama** \> **Ayar** \> **Planlar** \> **Master planlar**'a gidip **Geçmiş**'i seçerek planı açın. Geçmiş, seçilen plan için tüm işleri listeler. Liste, tamamlanmış ve etkin işleri içerir.
 
@@ -47,14 +47,6 @@ Master planlama çalıştırması sırasında oluşan otomatik kesinleştirme ha
     - Eski formu kullanıyorsanız: Eylem Bölmesi'nde, **Toplu işlem** sekmesinde **Günlük**'ü seçin.
 
 1. İşlem sırasında yakalanan tüm uyarıları ve hataları görüntüleyebileceğiniz **İleti ayrıntıları** bölmesini açmak için **İleti ayrıntıları**'nı seçin.
-
-## <a name="related-resources"></a>İlgili kaynaklar
-
-- [Planlama Optimizasyonuna genel bakış](planning-optimization-overview.md)
-- [Planlama Optimizasyonunu kullanmaya başlama](get-started.md)
-- [Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md)
-- [Plana filtre uygulama](plan-filters.md)
-- [Planlama işini iptal etme](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
