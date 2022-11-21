@@ -1652,7 +1652,9 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Kullanıcıları güvenlik rollerine atama
                   href: sysadmin/tasks/assign-users-security-roles.md
-                - name: Veri yönetimi kullanarak özelleştirilmiş güvenlik yapılandırmasını içe veya dışarı aktarma
+                - name: Active Directory güvenlik grupları
+                  href: sysadmin/active-directory-security-group.md
+                - name: Veri yönetimi kullanarak özelleştirilmiş güvenlik yapılandırmasını içeri veya dışarı aktarma
                   href: sysadmin/import-export-customized-security.md
                 - name: Görev kayıtları için güvenlik tanılaması
                   href: sysadmin/tasks/security-diagstics-task-recordings.md

@@ -3395,6 +3395,8 @@
           items:
             - name: Ambar yönetimine genel bakış
               href: warehousing/warehouse-management-overview.md
+            - name: Ambar yönetimi modülünü ayarlamaya başlayın
+              href: warehousing/get-started-with-setting-up-module.md
             - name: Gelen ambar işlemleri
               items:
                 - name: Satınalma siparişleri için gelen yüklerin ambarda işlenmesi

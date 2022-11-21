@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2a75d1e3e68837a437b2369ba369b0063e015b12
-ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
+ms.openlocfilehash: a25f20c320b905a2cdd3091e76e3c5e73f1a845a
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "9751972"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752763"
 ---
 # <a name="year-end-activities-faq"></a>Yıl sonu faaliyetleriyle ilgili SSS 
 
@@ -94,6 +94,23 @@ Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yön
  
 - Modül: Genel muhasebe
 - Özellik adı: Mali boyut kümelerinin yeniden oluşturulması için performans iyileştirmeleri
+
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2022"></a>Borç hesapları: 2022 yılı için 1099 yıl sonu raporlamasını desteklemek üzere ne gibi değişiklikler yapıldı?
+
+#### <a name="update-to-all-1099-forms"></a>Tüm 1099 formlarına yönelik güncelleştirme
+2022 vergi yılı için tüm 1099 formlarında aşağıdaki değişiklikler yapılmıştır:
+
+  - 2021'de yıl, 1099 formlarında sabitti. 2022'den itibaren yıl, rapor tarafından doldurulmaktadır. 
+
+#### <a name="1099-misc"></a>1099-ÇEŞİTLİ
+2022 vergi yılı için Form 1099-ÇEŞİTLİ kapsamında aşağıdaki güncelleştirmeler yapılmıştır:
+
+ - Kutu 13: Yabancı Hesaplar Vergi Uyum Yasası (FATCA) dosyalama gereksinimini gösterir. 
+ - Kutu 14: Artık aşırı yüklü tazminat ödemelerini raporlamak için kullanılır. 
+ - Kutu 15: Artık niteliksiz ertelenmiş tazminat (NQDC) planları kapsamındaki ödemeyi raporlamak için kullanılır. 
+ - Kutu 16: Artık devlette tutulan vergileri raporlamak için kullanılır.
+ - Kutu 17: Artık mükellefin eyalet numarasını raporlamak için kullanılır.
+ - Kutu 18: Artık eyalet gelirini raporlamak için kullanılır. 
 
 ## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Borç hesapları: 2021 yılı için 1099 yıl sonu raporlamasını desteklemek üzere ne gibi değişiklikler yapıldı?
 

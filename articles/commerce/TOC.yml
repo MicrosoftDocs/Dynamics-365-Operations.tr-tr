@@ -590,6 +590,8 @@
                           href: dev-itpro/adyen-connector-faq.md
                         - name: Google Pay'i Adyen ile yapılandırma
                           href: dev-itpro/google-pay-adyen.md
+                        - name: Adyen ile Apple Pay'i ayarlama
+                          href: dev-itpro/apple-pay-adyen.md
                         - name: Adyen için Dynamics 365 Payment Connector sorunlarını giderme
                           href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: Adyen bağlayıcısı ile çevrimiçi ödeme araçlarını kaydetme
@@ -602,6 +604,8 @@
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Fatura ödeme senaryolarını ayarlama
                       href: payinvoice.md
+                    - name: Dynamics 365 Commerce'te ön ödemeler
+                      href: dev-itpro/prepayments-commerce.md
                     - name: Yinelenen ödemeleri engelleme
                       href: duplicate-payment-protection.md
                     - name: Çok yönlü kanal ödemelerine genel bakış
@@ -2332,7 +2336,7 @@
               items:
                 - name: Kullanılabilir mobil çalışma alanları
                   href: ../fin-ops-core/dev-itpro/mobile-apps/mobile-workspaces-released.md?context=/dynamics365/context/commerce
-                - name: Varlık yönetimi
+                - name: Kıymet yönetimi
                   href: ../supply-chain/asset-management/asset-management-mobile-workspace.md?context=/dynamics365/context/commerce
                 - name: Şirket dizini
                   href: ../fin-ops-core/dev-itpro/mobile-apps/company-directory-mobile-workspace.md?context=/dynamics365/context/commerce

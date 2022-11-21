@@ -1184,10 +1184,12 @@
                   href: general-ledger/tasks/mass-financial-period-close.md
                 - name: Yıl sonu faaliyetleriyle ilgili SSS
                   href: general-ledger/faq-year-end-activities.md
-                - name: Genel muhasebe hesabı kapatmaları
+                - name: Genel muhasebe kapatmaları
                   href: general-ledger/ledger-settlements.md
                 - name: Genel muhasebe kapatma ile yıl sonu kapanışı arasındaki farka duyarlılık
                   href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                - name: Genel muhasebe kapatmalarını otomatikleştirme
+                  href: general-ledger/auto-settle.md
                 - name: Genel muhasebe için yabancı para birimi yeniden değerleme işlemi
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: Genel muhasebe hesap bakiyeleri
