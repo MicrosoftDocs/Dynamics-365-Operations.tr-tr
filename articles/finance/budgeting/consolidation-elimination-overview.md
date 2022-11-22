@@ -2,13 +2,13 @@
 title: Birleştirme ve elemeye genel bakış
 description: Bu makale konsolidasyon ve eleme işlemleri hakkında genel bilgi sağlar. Sık sorulan bazı soruların yanıtlarını içerir.
 author: panolte
-ms.date: 01/11/2018
+ms.date: 11/11/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom:
 - "13151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd7647df49883f0e3b6cbb2d21b19ca2acb2f065
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 757c7634fc929ead018d1ddcca4cc223c1a95638
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871405"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779920"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Birleştirme ve elemeye genel bakış
 
@@ -46,49 +46,38 @@ Elemeler birden fazla yolla raporlanabilir:
 Çok sayıda konsolidasyon senaryosu bulunmaktadır ve her bir yöntem senaryoları farklı şekilde ele alabilir.
 
 ## <a name="frequently-asked-questions"></a>Sıkça sorulan sorular
-1. Elemeleri bir veritabanına nakletmeyi tercih ediyorum. Seçeneklerim nelerdir?
+Elemeleri bir veritabanına nakletmeyi tercih ediyorum. Seçeneklerim nelerdir?
+ - Çok sayıda seçeneğiniz bulunuyor. **Çevrimiçi birleştir** seçeneğini kullanabilir ve süreç sırasında veya bir teklif olarak elemeleri dahil edebilirsiniz. Hareketler daha sonra konsolide şirkete nakledilir. Alternatif olarak, el ile elemeler oluşturduğunuz, ayrı bir şirketiniz olabilir ve ardından bu şirketi Mali raporlamada veya birleştirme sürecinde kullanabilirsiniz.
 
-Çok sayıda seçeneğiniz bulunuyor. **Çevrimiçi birleştir** seçeneğini kullanabilir ve süreç sırasında veya bir teklif olarak elemeleri dahil edebilirsiniz. Hareketler daha sonra konsolide şirkete nakledilir. Alternatif olarak, el ile elemeler oluşturduğunuz, ayrı bir şirketiniz olabilir ve ardından bu şirketi Mali raporlamada veya birleştirme sürecinde kullanabilirsiniz.
+Konsolide sonuçlara birden fazla raporlama para biriminde ihtiyacımız var.
+ - **Mali raporlama** seçeneği, sınırsız raporlama para birimlerine sahiptir. Veriler, ana hesapta ayarlanan döviz kuru türüne ve para birimi hareket yöntemine dayalı olarak, rapor oluşturma sırasında çevrilir. Ancak, **Çevrimiçi birleştir** seçeneği sadece tek bir raporlama para birimine sahip olduğundan, bu seçeneği kullanıyorsanız her bir raporlama para birimi için bir konsolide şirket gereklidir. **Mali raporlama** seçeneği önerilen yöntemdir.
 
-2.  Konsolide sonuçlara birden fazla raporlama para biriminde ihtiyacımız var.
+Her bir şirket için hareket düzeyinde ayrıntılar görmek istiyorum.
+ - Hareket düzeyindeki ayrıntılar, raporlama ağaç tanımına dahil edilen sayıda şirket için görüntülenebileceğinden çözüm, **Mali raporlama** seçeneğidir.
 
-**Mali raporlama** seçeneği, sınırsız raporlama para birimlerine sahiptir. Veriler, ana hesapta ayarlanan döviz kuru türüne ve para birimi hareket yöntemine dayalı olarak, rapor oluşturma sırasında çevrilir. Ancak, **Çevrimiçi birleştir** seçeneği sadece tek bir raporlama para birimine sahip olduğundan, bu seçeneği kullanıyorsanız her bir raporlama para birimi için bir konsolide şirket gereklidir. **Mali raporlama** seçeneği önerilen yöntemdir.
+Bütçe planlama veya bütçe kontrolü kullanıyoruz ve bunların birleştirilmesi gerekiyor.
+ - Bütçe planlama veya bütçe kontrol verilerinin birleştirilmesi için çözüm, **Mali raporlama** seçeneğidir.
 
-3. Her bir şirket için hareket düzeyinde ayrıntılar görmek istiyorum.
+Bağlı kuruluşlarımız dünyanın dört bir tarafında bulunuyor ve birden fazla hesap planına sahibiz. Verilerimizi birleştirmek için önerilen en iyi yöntem hangisidir?
+- Birden fazla hesap planınız varsa birden fazla seçeneği kullanabilirsiniz. **Çevrimiçi birleştir** seçeneğini kullanabilir ve ardından ana hesapta veya bir konsolide hesap grubunda tanımlanan konsolidasyon hesabını kullanmayı seçebilirsiniz. Ayrıca, **Mali raporlama** seçeneğini kullanabilir, sıra tanımında mali boyutlara birden fazla bağlantı ekleyebilir ve hesapları eşleyebilirsiniz.
 
-Hareket düzeyindeki ayrıntılar, raporlama ağaç tanımına dahil edilen sayıda şirket için görüntülenebileceğinden çözüm, **Mali raporlama** seçeneğidir.
+Birden fazla konsolidasyon düzeyine ihtiyacımız var. Diğer bir deyişle, öncelikle Avrupa'daki tüm bağlı kuruluşlarımızı İngiliz Sterlini (GBP) için birleştirmemiz gerekiyor. Ardından, bu verileri alacak ve konsolide tutarı Amerikan Dolarına çevireceğiz. Bunu nasıl yapabiliriz?
+- Birden fazla konsolidasyon düzeyi gerekiyorsa ve her düzeyde farklı para birimleri kullanılıyorsa **Çevrimiçi birleştir** seçeneğini kullanmanız gerekir. Muhasebeleri ve raporlama para birimleri farklı olan, birden fazla konsolide şirket oluşturulmalıdır. Konsolidasyon işlemi birden fazla yürütülmelidir. **Mali raporlama** seçeneği her zaman her bir kaynak şirketin muhasebe para birimini seçilen para birimine çevirir.
 
-4. Bütçe planlama veya bütçe kontrolü kullanıyoruz ve bunların birleştirilmesi gerekiyor.
+Farklı bir sistemde bağlı şirketlerimiz var. Bunları nasıl birleştirebilirsiniz?
+- Bakiyeleri bir konsolide şirkette birleştirmek için **İçe aktararak birleştir** seçeneğini kullanın.
 
-Bütçe planlama veya bütçe kontrol verilerinin birleştirilmesi için çözüm, **Mali raporlama** seçeneğidir.
+Bağlı kuruluşlarımızdan bazılarına sadece ortağız. Bunları birleştirmenin en iyi yöntemi nedir?
+- Kısmen sahip olduğunuz bağlı kuruluşlar için birden fazla seçeneğiniz bulunuyor. **Mali raporlama** seçeneğini kullanarak, bir raporlama ağaç tanımı oluşturabilir ve sahipliği tanımlayabilirsiniz. Ayrıca, kısmen sahibi olduğunuz tutarı temsil etmesi için bir hesaplanmış satır veya sütun da kullanabilirsiniz. Hatta, azınlık hissenizi bir raporda tek başına bir satır olarak da gösterebilirsiniz. Ayrıca, **Çevrimiçi birleştir** seçeneğini de kullanabilirsiniz. **Tüzel kişilikler** sekmesinde bir **Sahiplik** sütunu bulunur ve buradan ana şirketin sahip olduğu yüzdeyi tanımlayabilirsiniz.
 
-5. Bağlı kuruluşlarımız dünyanın dört bir tarafında bulunuyor ve birden fazla hesap planına sahibiz. Verilerimizi birleştirmek için önerilen en iyi yöntem hangisidir?
+Organizasyonumuzun, ticari birime göre konsolidasyonu göstermesi gerekiyor veya organizasyonumuz organizasyon hiyerarşilerini kullanmak istiyor.
+- Çözüm, **Mali raporlama** seçeneğidir. Tüzel kişiliklere veya mali boyutlara sahip organizasyon hiyerarşileri, Mali raporlama üzerinden rapor edilebilir. Tüzel kişilikler ile boyut değerlerinin bir birleşimini sahip olan bir raporlama ağaç tanımı kullanarak da kendi çok düzeyli hiyerarşilerinizi oluşturabilirsiniz.
 
-Birden fazla hesap planınız varsa birden fazla seçeneği kullanabilirsiniz. **Çevrimiçi birleştir** seçeneğini kullanabilir ve ardından ana hesapta veya bir konsolide hesap grubunda tanımlanan konsolidasyon hesabını kullanmayı seçebilirsiniz. Ayrıca, **Mali raporlama** seçeneğini kullanabilir, sıra tanımında mali boyutlara birden fazla bağlantı ekleyebilir ve hesapları eşleyebilirsiniz.
+Sistemin birden fazla sürümüne sahipsiniz.
+- Bir sürümden dışa aktarma yapmak için **Şirket bakiyelerini dışa aktar** seçeneğini kullanabilir ve ardından diğer sürümde **İçe aktararak birleştir** seçeneğini kullanarak verileri birleştirebilirsiniz.
 
-6. Birden fazla konsolidasyon düzeyine ihtiyacımız var. Diğer bir deyişle, öncelikle Avrupa'daki tüm bağlı kuruluşlarımızı İngiliz Sterlini (GBP) için birleştirmemiz gerekiyor. Ardından, bu verileri alacak ve konsolide tutarı Amerikan Dolarına çevireceğiz. Bunu nasıl yapabiliriz?
-
-Birden fazla konsolidasyon düzeyi gerekiyorsa ve her düzeyde farklı para birimleri kullanılıyorsa **Çevrimiçi birleştir** seçeneğini kullanmanız gerekir. Muhasebeleri ve raporlama para birimleri farklı olan, birden fazla konsolide şirket oluşturulmalıdır. Konsolidasyon işlemi birden fazla yürütülmelidir. **Mali raporlama** seçeneği her zaman her bir kaynak şirketin muhasebe para birimini seçilen para birimine çevirir.
-
-7. Farklı bir sistemde bağlı şirketlerimiz var. Bunları nasıl birleştirebilirsiniz?
-
-Bakiyeleri bir konsolide şirkette birleştirmek için **İçe aktararak birleştir** seçeneğini kullanın.
-
-8. Bağlı kuruluşlarımızdan bazılarına sadece ortağız. Bunları birleştirmenin en iyi yöntemi nedir?
-
-Kısmen sahip olduğunuz bağlı kuruluşlar için birden fazla seçeneğiniz bulunuyor. **Mali raporlama** seçeneğini kullanarak, bir raporlama ağaç tanımı oluşturabilir ve sahipliği tanımlayabilirsiniz. Ayrıca, kısmen sahibi olduğunuz tutarı temsil etmesi için bir hesaplanmış satır veya sütun da kullanabilirsiniz. Hatta, azınlık hissenizi bir raporda tek başına bir satır olarak da gösterebilirsiniz. Ayrıca, **Çevrimiçi birleştir** seçeneğini de kullanabilirsiniz. **Tüzel kişilikler** sekmesinde bir **Sahiplik** sütunu bulunur ve buradan ana şirketin sahip olduğu yüzdeyi tanımlayabilirsiniz.
-
-9. Organizasyonumuzun, ticari birime göre konsolidasyonu göstermesi gerekiyor veya organizasyonumuz organizasyon hiyerarşilerini kullanmak istiyor.
-
-Çözüm, **Mali raporlama** seçeneğidir. Tüzel kişiliklere veya mali boyutlara sahip organizasyon hiyerarşileri, Mali raporlama üzerinden rapor edilebilir. Tüzel kişilikler ile boyut değerlerinin bir birleşimini sahip olan bir raporlama ağaç tanımı kullanarak da kendi çok düzeyli hiyerarşilerinizi oluşturabilirsiniz.
-
-10. Sistemin birden fazla sürümüne sahipsiniz.
-
-Bir sürümden dışa aktarma yapmak için **Şirket bakiyelerini dışa aktar** seçeneğini kullanabilir ve ardından diğer sürümde **İçe aktararak birleştir** seçeneğini kullanarak verileri birleştirebilirsiniz.
-
-11. **TASLAK** durumunda bütçeyle bir konsolidasyon yapabilir miyim? 
-            
-Konsolidasyon şirketinde bütçeleri işleyemez veya tamamlayamazsınız. Taslak bütçeleri konsolide etmek için Financial Reporting'i kullanmanızı öneririz.
+**TASLAK** durumunda bütçeyle bir konsolidasyon yapabilir miyim? 
+- Konsolidasyon şirketinde bütçeleri işleyemez veya tamamlayamazsınız. Taslak bütçeleri konsolide etmek için Financial Reporting'i kullanmanızı öneririz.
 
 Daha fazla bilgi için bkz. [Konsolidasyon şirketinde para birimi yeniden değerleme](../general-ledger/currency-revaluation-consolidation-company.md).
 

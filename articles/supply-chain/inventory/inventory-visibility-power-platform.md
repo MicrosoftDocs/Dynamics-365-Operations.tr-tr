@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 674adb70cc4372a8c5ca8c75ed3ef840d8ec7b79
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: 9886ddbf0b072283cffd73d4bfdc20835ccb3b7c
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520877"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762725"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Inventory Visibility uygulamasını kullanma
 
@@ -30,44 +30,73 @@ Stok görünürlüğü, görselleştirme için bir model temelli uygulama sağla
 - Çeşitli boyut birleşimlerinde gerçek zamanlı eldeki stok sorgularını destekler.
 - Rezervasyon taleplerini deftere nakletmek için bir kullanıcı arabirimi sağlar.
 - Tüm boyutlarla birlikte ürünler için eldeki stokların görünümünü sağlar.
-- Önceden tanımlı boyutlarla birlikte ürünler için eldeki stok listesinin görünümünü sağlar.
-
+- Önceden tanımlı boyutlarla birlikte ürünler için eldeki stok listesinin görünümünü sağlar. Eldeki stok liste görünümü tam özet veya bir eldeki stok sorgusundan önceden yüklenmiş bir sonuç olabilir.
 
 ## <a name="prerequisites"></a>Ön Koşullar
 
 Başlamadan önce, Stok Görünürlüğü Eklentisini [Stok Görünürlüğü'nü yükleme ve ayarlama](inventory-visibility-setup.md) bölümünde açıklandığı gibi yükleyin ve ayarlayın.
 
-## <a name="open-the-inventory-visibility-app"></a>Stok Görünürlüğü uygulamasını açma
+## <a name="open-and-authenticate-the-inventory-visibility-app"></a><a name="open-authenticate"></a>Stok Görünürlüğü uygulamasını açma ve kimlik doğrulaması yapma
 
-Stok Görünürlüğü uygulamasını açmak için Power Apps ortamınızda oturum açıp **Stok Görünürlüğü**'nü açın.
+Stok Görünürlüğü uygulamasını açmak ve kimlik doğrulaması yapmak için şu adımları uygulayın.
 
-## <a name="configuration"></a><a name="configuration"></a>Konfigürasyon
+1. Power Apps ortamınızda oturum açın.
+1. **Stok Görünürlüğü** uygulamasını açın.
+1. Sol bölmeden **Operasyonel Görünürlük** sayfasını açın.
+1. Sayfanınüstündeki **Ayarlar** düğmesini (dişli simgesi) seçin.
+1. **Ayarlar** iletişim kutusunda, [Stok görünürlüğünü yükleyip ayarlarken](inventory-visibility-setup.md) not ettiğiniz **İstemci kimliği** , **Kiracı kimliği** ve **İstemci gizli anahtarı** değerlerini girin. 
+1. **Taşıyıcı belirteç** alanının yanındaki **Yenile** düğmesini seçin. Sistem, girdiğiniz bilgilere göre yeni bir taşıyıcı belirteç oluşturur.
 
-Stok Görünürlüğü uygulamasının **Yapılandırma** sayfası eldeki yapılandırmasını ve geçici rezervasyon yapılandırmasını ayarlamanıza yardımcı olur. Eklenti yüklendikten sonra varsayılan yapılandırma, Microsoft Dynamics 365 Supply Chain Management (`fno` veri kaynağı) için varsayılan kurulumu içerir. Varsayılan ayarı inceleyebilirsiniz. Bundan sonra, iş gereksinimlerinize ve harici sisteminizin stok deftere nakil gereksinimlerine göre yapılandırmayı, stok değişikliklerinin birden çok sistem arasında deftere nakledilme, düzenlenme ve sorgulanma şeklini standartlaştırmak için değiştirebilirsiniz.
+    ![Eldeki stok sorgu ayarları.](media/inventory-visibility-query-settings.png "Eldeki sorgu ayarları")
+
+1. Geçerli bir taşıyıcı belirteç aldığınızda iletişim kutusunu kapatın. Taşıyıcı belirtecin süresi bir süre sonra sona erer. Bu nedenle, yapılandırmayı güncelleştirmeniz, veri göndermeniz veya verileri sorgulamanız gerektinde zaman zaman yenilemeniz gerekir.
+
+## <a name="configure-the-inventory-visibility-app"></a><a name="configuration"></a>Stok Görünürlüğü uygulamasını yapılandırma
+
+Stok Görünürlüğü uygulamasının **Yapılandırma** sayfası genel veri yönetimi yapılandırmasını ve özellik yapılandırmasını ayarlamanıza yardımcı olur. Eklenti yüklendikten sonra varsayılan yapılandırma, Microsoft Dynamics 365 Supply Chain Management (`fno` veri kaynağı) için varsayılan kurulumu içerir. Varsayılan ayarı inceleyebilirsiniz. Bundan sonra, iş gereksinimlerinize ve harici sisteminizin stok deftere nakil gereksinimlerine göre yapılandırmayı, stok değişikliklerinin birden çok sistem arasında deftere nakledilme, düzenlenme ve sorgulanma şeklini standartlaştırmak için değiştirebilirsiniz.
 
 Çözümün nasıl yapılandırılacağıyla ilgili tüm ayrıntılar için bkz. [Stok Görünürlüğünü Yapılandırma](inventory-visibility-configuration.md).
 
 ## <a name="operational-visibility"></a>Operasyonel görünürlük
 
-**Operasyonel Görünürlük** sayfası, çeşitli boyut birleşimlerine göre gerçek zamanlı eldeki stok sorgusunun sonuçlarını sağlar. *OnHandReservation* özelliği açıldığında, **Operasyonel Görünürlük** sayfasından da rezervasyon isteklerini deftere nakledebilirsiniz.
+**Operasyonel Görünürlük** sayfası, çeşitli boyut birleşimlerine göre gerçek zamanlı eldeki stok sorgusu, rezervasyon deftere nakli ve tahsisat sonuçlarını sağlar. *OnHandReservation* özelliği [açıldığında](inventory-visibility-configuration.md), **Operasyonel Görünürlük** sayfasından da rezervasyon isteklerini deftere nakledebilirsiniz.
 
 ### <a name="on-hand-query"></a>Eldeki sorgu
 
-**Eldeki Sorgu** sekmesi, gerçek zamanlı eldeki stok sorgusunun sonuçlarını gösterir.
+**Operasyonel Görünürlük** sayfasının **Eldeki Stok Sorgusu** sekmesi, gerçek zamanlı eldeki stoğu sorgulamanızı sağlar. Sorgu ayarlamak ve çalıştırmak için bu adımları izleyin.
 
-**Operasyonel Görünürlük** sayfasının **Eldeki Sorgu** sekmesini açtığınızda sistem, Stok Görünürlüğü hizmetini sorgulamak için gereken taşıyıcı belirteci alabilmesi için kimlik bilgilerinizi ister. Taşıyıcı belirtecini, **BearerToken** alanına yapıştırabilir ve iletişim kutusunu kapatabilirsiniz. Ardından, eldeki sorgu isteğini deftere nakledebilirsiniz.
+1. **Stok Görünürlüğü** uygulamasını açın.
+1. Sol bölmeden **Operasyonel Görünürlük** sayfasını açın.
+1. **Eldeki stok sorgusu** sekmesinde sorgulamak istediğiniz **Kuruluş Kimliği**, **Tesis Kimliği** ve **Yerleşim Kimliği** değerlerini girin.
+1. **Ürün kimliği** alanında, sorgunuzla tam eşleme elde etmek için bir veya daha fazla ürün kimliği girin. **Ürün kimliği** alanını boş bırakırsanız sonuçlar belirtilen tesis ve yerleşimdeki tüm ürünleri içerir.
+1. Daha ayrıntılı sonuç elde etmek için (örneğin renk ve boyut gibi boyut değerlerine göre bir görünüm) **Sonuç Gruplama Ölçütü** alanında gruplama ölçütü boyutlarını seçin.
+1. Belirli bir boyut değerine (örneğin, renk = kırmızı) sahip maddeleri bulmak için **Filtre Boyutları** alanında boyutu seçin ve bir boyut değeri girin.
+1. **Sorgu**'yu seçin. Bir başarı (yeşil) iletisi veya başarısız (kırmızı) bir ileti alırsınız. Sorgu başarısız olursa, sorgu ölçütlerinizi kontrol edin ve [taşıyıcı belirtecinizin](#open-authenticate) süresinin dolmadığından emin olun.
 
-Taşıyıcı belirteci geçerli değilse veya süresi dolmuşsa **BearerToken** alanına yeni bir tane yapıştırmanız gerekir. **İstemci Kimliği**, **Kiracı Kimliği**, **İstemci Gizli Anahtarı**'nın doğru değerlerini girin ve ardından **Yenile**'yi seçin. Sistem otomatik olarak yeni ve geçerli bir taşıyıcı belirteci alır.
-
-Eldeki sorgusunu deftere nakletmek için sorguyu istek gövdesine girin. [Nakletme yöntemini kullanarak sorgulama](inventory-visibility-api.md#query-with-post-method) içinde açıklanan modeli kullanın.
-
-![Eldeki sorgu ayarları](media/inventory-visibility-query-settings.png "Eldeki sorgu ayarları")
+Eldeki stok sorgusu yapmanın başka bir yolu da doğrudan API istekleri kullanmaktır. `/api/environment/{environmentId}/onhand/indexquery` veya `/api/environment/{environmentId}/onhand` kullanabilirsiniz. Daha fazla bilgi için bkz. [Stok Görünürlüğü genel API'leri](inventory-visibility-api.md).
 
 ### <a name="reservation-posting"></a>Rezervasyonun deftere nakli
 
 Rezervasyon isteğini deftere nakletmek için **Operasyonel Görünürlük** sayfasının **Rezervasyonun Deftere Nakli** sekmesini kullanın. Rezervasyon isteğini deftere nakletmeden önce *OnHandReservation* özelliğini açmalısınız. Bu özellik ve etkinleştirme hakkında daha fazla bilgi için bkz. [Stok Görünürlüğü rezervasyonları](inventory-visibility-reservations.md).
 
-Rezervasyon isteğini deftere nakletmek için talep gövdesine bir değer girmelisiniz. [Rezervasyon olayı oluşturma](inventory-visibility-api.md#create-one-reservation-event) bölümünde açıklanan modeli kullanın. Ardından **Deftere Naklet**'i seçin. İstek yanıtı ayrıntılarını görüntülemek için **Ayrıntıları göster**'i seçin. Ayrıca yanıt ayrıntılarından `reservationId` değerini de alabilirsiniz.
+> [!NOTE]
+> Kullanıcı arabirimi üzerinden geçici rezervasyon yapma özelliği test etmenizi sağlamak amacıyla hazırlanmıştır. Her geçici rezervasyon isteğinin bir hareket emri satırı değişikliğiyle (oluşturma, değiştirme, silme, vb.) ilişkilendirilmesi gerekir. Bu nedenle, yalnızca bir arka uç siparişle bağlantılı olan geçici rezervasyonlar yapmanızı öneririz. Daha fazla bilgi için bkz. [Stok Görünürlüğü rezervasyonları](inventory-visibility-reservations.md).
+
+Kullanıcı arabirimini kullanarak geçici rezervasyon isteği göndermek için bu adımları izleyin.
+
+1. **Stok Görünürlüğü** uygulamasını açın.
+1. Sol bölmeden **Operasyonel Görünürlük** sayfasını açın.
+1. **Rezervasyon Deftere Nakli** sekmesinde, **Miktar** alanında, geçici rezerve etmek istediğiniz miktarı belirtin.
+1. Stoğun aşırı satılmasını veya aşırı rezerve edilmesini önlemek için **Fazladan satışı desteklemek için negatif stoğu etkinleştir** onay kutusunun işaretini kaldırın.
+1. **Operatör** alanında, geçici rezerve edilen miktar için geçerli olan veri kaynağını ve fiziksel ölçüyü seçin.
+1. Sorgulamak istediğiniz **Kuruluş Kimliği**, **Tesis Kimliği**, **Yerleşim Kimliği** ve **Ürün Kimliği** değerlerini girin.
+1. Daha ayrıntılı sonuç elde etmek için bir veri kaynağı, boyutlar ve boyut değerleri seçin.
+
+Geçici rezervasyonu deftere nakletmenin bir başka bir yolu da doğrudan API istekleri yapmaktır. [Rezervasyon olayı oluşturma](inventory-visibility-api.md#create-one-reservation-event) bölümünde açıklanan modeli kullanın. Ardından **Deftere Naklet**'i seçin. İstek yanıtı ayrıntılarını görüntülemek için **Ayrıntıları göster**'i seçin. Ayrıca yanıt ayrıntılarından `reservationId` değerini de alabilirsiniz.
+
+### <a name="allocation"></a>Tahsisat
+
+Kullanıcı arabiriminden ve API'lerden tahsisatları nasıl yöneteceğinizi öğrenmek için bkz. [Stok Görünürlüğü stok tahsisatı](inventory-visibility-allocation.md).
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Stok özeti
 
@@ -84,19 +113,15 @@ Rezervasyon isteğini deftere nakletmek için talep gövdesine bir değer girmel
 
 1. Tüm değişiklikleri kaydetmek için **Yapılandırmayı güncelleştir**'i seçin.
 
-
 > [!NOTE]
 > *OnHandMostSpecificBackgroundService* özelliği yalnızca özelliği açtıktan sonra oluşan eldeki stok değişikliklerini izler. Özelliği açtığınızdan bu yana değiştirilemeyen ürünlere ait veriler, stok hizmeti önbelleğinden Dataverse ortamına eşitlenmez. **Stok özeti** sayfanız beklediğiniz eldeki ürün bilgilerinin tümünü göstermiyorsa Supply Chain Management'ı açın, **Stok Yönetimi > Periyodik görevler > Stok görünürlüğü tümleştirmesi**'ne gidin, toplu işi devre dışı bırakın ve yeniden etkinleştirin. Bu işlemi, ilk gönderimi yapacak ve tüm veriler sonraki 15 dakika içinde *Stok Eldeki Toplam* varlığıyla eşitlenecektir. *OnHandMostSpecificBackgroundService* özelliğini kullanmak istiyorsanız herhangi bir eldeki miktar değişikliği oluşturmadan ve **Stok Görünürlüğü tümleştirmesi** toplu işlemini etkinleştirmeden önce bunu etkinleştirmenizi öneririz.
 
-## <a name="preload-a-streamlined-on-hand-query"></a><a name="preload-the-inventory-visibility-onhand-query"></a>Kolaylaştırılmış eldeki sorguyu önceden yükleme
+## <a name="preload-a-streamlined-on-hand-query"></a><a name="preload-streamlined-onhand-query"></a>Kolaylaştırılmış eldeki sorguyu önceden yükleme
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 <!-- KFM: Preview until further notice -->
 
 Supply Chain Management, geçerli eldeki stoklarınız hakkında büyük bilgileri depolar ve bunu çok çeşitli amaçlarla kullanabilir hale getirir. Ancak, birçok günlük işlem ve üçüncü taraf tümleştirme bu ayrıntıların yalnızca küçük bir alt kümesini gerektirir ve sistemin tümü için sorgulanmaları, birleştirme ve aktarma zamanı alan büyük veri kümelerine neden olabilir. Bu nedenle, stok görünürlüğü, en iyi duruma getirilmiş bilgileri sürekli kullanılabilir hale getirmek için düzenli olarak eldeki stok verilerinin rahat bir kümesini alıp depolayabilir. Depolanan eldeki stok ayrıntıları, yalnızca en ilgili bilgilerin dahil edilmesini sağlamak amacıyla konfigüre edilebilir iş ölçütlerine göre filtrelenir. Filtre uygulanan eldeki stok listeleri stok görünürlüğü hizmetinde yerel olarak depolandığından ve düzenli olarak güncelleştirildiklerinden, Hızlı erişimi, isteğe bağlı veri aktarma ve harici sistemlerle kolay tümleşiklik desteği vardır.
-
-> [!NOTE]
-> Bu özelliğin geçerli önizleme sürümü yalnızca, site ve konum içeren önceden yüklenmiş sonuçlar sağlayabilir. Özelliğin son sürümünün, sonuçlarla önceden yüklemek üzere başka boyutları seçmenizi sağlamak beklenir.
 
 **Stok Görünürlüğü Özetini Önceden Yükle** sayfası, *Eldeki Dizin Sorgu Önyükleme Sonuçları* varlığı için bir görünüm sağlar. *Stok özet* varlığından farklı olarak, *Eldeki Dizin Sorgu Önyükleme Sonuçları* varlığı, ürünler için seçili boyutlarla birlikte bir eldeki stok listesi sağlar. Stok Görünürlüğü, önceden yüklenmiş özet verileri her 15 dakikada bir eşitler.
 

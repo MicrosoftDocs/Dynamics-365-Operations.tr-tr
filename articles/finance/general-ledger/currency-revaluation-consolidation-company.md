@@ -2,7 +2,7 @@
 title: Konsolidasyon şirketinde para birimi yeniden değerleme
 description: Bu makalede, bir konsolidasyon şirketinde para biriminin nasıl yeniden değerleneceği açıklanmaktadır.
 author: aprilolson
-ms.date: 10/02/2018
+ms.date: 10/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fbbc1d0a7ae5b7e288710c99a6af362b3db3d36
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c05ef0d4d05d5113d3b858dafe49ee9c1c7211d9
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889018"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779675"
 ---
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Konsolidasyon şirketinde para birimi yeniden değerleme
 
@@ -39,31 +39,31 @@ Verileri bir hesap para biriminden öbürüne birleştirdiğinizde, para birimin
 ## <a name="original-transactions"></a>Özgün hareketler
 ### <a name="cash-receipt-transactions-in-usmf"></a>USMF'de Nakit Tahsilat hareketleri
 
-| Tarih       | Genel muhasebe hesabı               | Para Birimi | Tutar |
+| Tarih       | Genel muhasebe hesabı               | Para birimi | Tutar |
 |------------|------------------------------|----------|--------|
-| 10/11/2015 | 110110 – Nakit                | ABD Doları      | 500    |
-| 10/11/2015 | 130100 – Alacak Hesapları | ABD Doları      | -500   |
+| 11.10.2020 | 110110 – Nakit                | ABD Doları      | 500    |
+| 11.10.2020 | 130100 – Alacak Hesapları | ABD Doları      | -500   |
 
 ## <a name="exchange-rates"></a>Döviz kurları
 
 | Kaynak para birimi | Hedef para birimi | Başlangıç tarihi | Döviz kuru |
 |---------------|-------------|------------|---------------|
-| Euro           | ABD Doları         | 10/1/2015  | 200           |
-| Euro           | ABD Doları         | 11/1/2015  | 150           |
-| Euro           | ABD Doları         | 12/1/2012  | 100           |
+| EUR           | ABD Doları         | 01.10.2020  | 200           |
+| EUR           | ABD Doları         | 01.11.2020  | 150           |
+| EUR           | ABD Doları         | 01.12.2017  | 100           |
 
-## <a name="perform-the-consolidation-for-october-2015"></a>Ekim 2015 için konsolidasyon gerçekleştirme
+## <a name="perform-the-consolidation-for-october-2020"></a>Ekim 2020 için konsolidasyon gerçekleştirme
 ### <a name="balances-in-the-consolidation-company"></a>Konsolidasyon şirketinde bakiyeler
 
-| Genel muhasebe hesabı | Para Birimi | Tutar | Hesaplama    |
+| Genel muhasebe hesabı | Para birimi | Tutar | Hesaplama    |
 |----------------|----------|--------|----------------|
 | 110110         | Euro      | 250    | 500 USD × %50  |
 | 130100         | Euro      | -250   | -500 USD × %50 |
 
-## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-november-30-2015"></a>1 Ekim 2015 ile 30 Kasım 2015 hesaplarından para birimi yeniden değerleme gerçekleştirme
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2020-through-november-30-2020"></a>1 Ekim 2020 ile 30 Kasım 2020 hesaplarından para birimi yeniden değerleme gerçekleştirme
 ### <a name="balances-in-the-consolidation-company"></a>Konsolidasyon şirketinde bakiyeler
 
-| Genel muhasebe hesabı | Para Birimi | Tutar  | Hesaplama                        |
+| Genel muhasebe hesabı | Para birimi | Tutar  | Hesaplama                        |
 |----------------|----------|---------|------------------------------------|
 | 110110         | Euro      | 333.33  | Orijinal tutar 500 × %66,6667  |
 | 130100         | Euro      | -333.33 | Orijinal tutar -500 × %66,6667 |
@@ -72,10 +72,10 @@ Verileri bir hesap para biriminden öbürüne birleştirdiğinizde, para birimin
 
 Raporlama para birimi tutarları için Diğer hareketleri görürsünüz.
 
-## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-december-31-2015"></a>1 Ekim 2015 ile 31 Aralık 2015 hesaplarından para birimi yeniden değerleme gerçekleştirme
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2020-through-december-31-2020"></a>1 Ekim 2020 ile 31 Aralık 2020 hesaplarından para birimi yeniden değerleme gerçekleştirme
 ### <a name="balances-in-the-consolidation-company"></a>Konsolidasyon şirketinde bakiyeler
 
-| Genel muhasebe hesabı | Para Birimi | Tutar  | Hesaplama                                          |
+| Genel muhasebe hesabı | Para birimi | Tutar  | Hesaplama                                          |
 |----------------|----------|---------|------------------------------------------------------|
 | 110110         | Euro      | 500.00  | Orijinal tutar of 500 × 1                           |
 | 130100         | Euro      | -500.00 | Orijinal tutar -500 × 1                          |

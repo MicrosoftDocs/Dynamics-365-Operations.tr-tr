@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1abf6722348b57594509e90ca0defc07783a112b
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 26b1eb5e542acf7496d1a0cf7196716a5de75e4e
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715896"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780591"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Nakit iskonto döneminin dışında bir nakit iskontosu almak
 
@@ -35,15 +35,15 @@ April, iskonto tarihinden sonraya denk gelen 1 Temmuz tarihinde bir ödeme yapı
 
 April, ödeme için faturayı işaretliyor. Ödeme, iskonto tarihinden sonra yapıldığı için nakit iskontosu alınmıyor. Ancak, satıcı her durumda April'e nakit iskontosu alma onayı veriyor. Bu yüzden, April **Nakit iskontosu kullan** alanındaki değeri **Her zaman** olarak değiştiriyor.
 
-| İşaret     | Nakit iskontosu kullan | Fiş   | Hesap | Nakit iskontosu tarihi | Vade tarihi  | Fatura | Hareket para birimi cinsinden tutar | Para Birimi | Kapatılacak tutar |
+| İşaret     | Nakit iskontosu kullan | Fiş   | Hesap | Nakit iskontosu tarihi | Vade tarihi  | Fatura | Hareket para birimi cinsinden tutar | Para birimi | Kapatılacak tutar |
 |----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
-| Seçildi | Her zaman            | Inv-10030 | 3052    | 28/6/2015          | 12/7/2015 | 10030   | -2.000,00                      | ABD Doları      | -1.980,00        |
+| Seçildi | Her zaman            | Inv-10030 | 3052    | 28.06.2020          | 12.07.2020 | 10030   | -2.000,00                      | ABD Doları      | -1.980,00        |
 
 İskonto bilgileri **Hareketleri kapat** sayfasının altında görüntülenir.
 
 | Alan                        | Değer     |
 |------------------------------|-----------|
-| Nakit iskonto tarihi           | 12/7/2015 |
+| Nakit iskonto tarihi           | 12.07.2020 |
 | Nakit iskontosu tutarı         | -20,00    |
 | Nakit iskontosu kullan            | Her zaman    |
 | Alınan nakit iskontosu          | 0,00      |
@@ -52,16 +52,16 @@ April, ödeme için faturayı işaretliyor. Ödeme, iskonto tarihinden sonra yap
 ## <a name="date-to-use-for-calculating-discounts--selected-date"></a>İskontoların hesaplanması için kullanılacak tarih = Seçilen tarih
 Hem fatura hem ödeme nakledilirse, **Hareketleri kapat** sayfasında hareketler kapatıldığında nakit iskontosu alınabilir. April, **İskontoların hesaplanması için kullanılacak tarih** alanındaki değeri **Seçilen tarih** olarak değiştiriyor. Ardından, fatura için nakit iskontosu dönemi içinde kalan 28 Haziran tarihini giriyor. Bu tarih, hareket için bir nakit iskontosunun hesaplanması için kullanılır. **Açık hareketleri kapat** sayfasında April, varsayılan olarak, 20.00 tutarında tam iskontonun görüntülendiğini görüyor. Fatura satırı, kapatılacak tutarın 1,980.00 olduğunu gösteriyor.
 
-| İşaret                     | Nakit iskontosu kullan | Fiş   | Hesap | Nakit iskontosu tarihi | Vade tarihi  | Fatura | Hareket para birimi cinsinden tutar | Para Birimi | Kapatılacak tutar |
-|--------------------------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
-| Seçildi ve vurgulandı | Normal            | Inv-10030 | 3052    | 28/6/2015          | 12/7/2015 | 10030   | -2.000,00                      | ABD Doları      | -1.980,00        |
-| Seçildi                 | Normal            | APP-10030 | 3052    | 15/7/2015          | 15/7/2015 |         | 500,00                         | ABD Doları      | 500,00           |
+| İşaret          | Nakit iskontosu kullan | Fiş   | Hesap | Nakit iskontosu tarihi | Vade tarihi  | Fatura | Hareket para birimi cinsinden tutar | Para Birimi | Kapatılacak tutar |
+|--------------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
+| Seçildi ve vurgulandı | Normal    | Inv-10030 | 3052    | 28.06.2020         | 12.07.2020 | 10030   | -2.000,00                      | ABD Doları      | -1.980,00        |
+| Seçildi                 | Normal    | APP-10030 | 3052    | 15.07.2020          | 15.07.2020 |         | 500.00                         | ABD Doları      | 500.00           |
 
 İskonto bilgileri **Açık işlemleri düzelt** sayfasının altında görüntülenir. Alınan iskonto tutarı 20,00'dir, çünkü fatura için kapatılacak tutar, varsayılan tutar olan 1.980,00'dır.
 
 | Alan                        | Değer     |
 |------------------------------|-----------|
-| Nakit iskonto tarihi           | 12/7/2015 |
+| Nakit iskonto tarihi           | 12.07.2020 |
 | Nakit iskontosu tutarı         | -20,00    |
 | Nakit iskontosu kullan            | Normal    |
 | Alınan nakit iskontosu          | 0,00      |
@@ -71,14 +71,14 @@ April, **Kapatılacak tutar** alanındaki değeri **500,00** olarak güncelliyor
 
 | İşaret                     | Nakit iskontosu kullan | Fiş   | Hesap | Tarih      | Vade tarihi  | Fatura | Hareket para birimi cinsinden tutar | Para Birimi | Kapatılacak tutar |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Seçildi ve vurgulandı | Normal            | Inv-10030 | 3052    | 28/6/2015 | 12/7/2015 | 10030   | 2.000,00                       | ABD Doları      | -500,00          |
-| Seçildi                 | Normal            | APP-10030 | 3052    | 15/7/2015 | 15/7/2015 |         | 500,00                         | ABD Doları      | 500,00           |
+| Seçildi ve vurgulandı | Normal            | Inv-10030 | 3052    | 28.06.2020 | 12.07.2020 | 10030   | 2,000.00                       | ABD Doları      | -500.00          |
+| Seçildi                 | Normal            | APP-10030 | 3052    | 15.07.2020 | 15.07.2020 |         | 500.00                         | ABD Doları      | 500.00           |
 
 İskonto bilgileri **Açık işlemleri düzelt** sayfasının altında görüntülenir. **Alınacak nakit iskontosu tutarı** alanındaki değer **5,05**'dir çünkü fatura için kapatılacak tutar, ödeme tutarı olan 500,00 olarak değiştirilmiştir.
 
 | Alan                        | Değer     |
 |------------------------------|-----------|
-| Nakit iskonto tarihi           | 12/7/2015 |
+| Nakit iskonto tarihi           | 12.07.2020 |
 | Nakit iskontosu tutarı         | -20,00    |
 | Nakit iskontosu kullan            | Normal    |
 | Alınan nakit iskontosu          | 0,00      |

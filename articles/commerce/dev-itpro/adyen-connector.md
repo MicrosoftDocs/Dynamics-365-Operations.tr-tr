@@ -2,7 +2,7 @@
 title: Adyen için Dynamics 365 Payment Connector'a genel bakış
 description: Bu makale, Adyen için Microsoft Dynamics 365 Payment Connector'a genel bir bakış sağlar.
 author: rassadi
-ms.date: 10/27/2022
+ms.date: 11/16/2022
 ms.topic: overview
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
@@ -12,13 +12,12 @@ ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2019-01-01
-ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 931fc69cda8daa2e06b6f1155fbf0369fd2bca55
-ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
+ms.openlocfilehash: 6c819e8cf9f5dcb7895ac2633decf0a925c08f2d
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728315"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785005"
 ---
 # <a name="dynamics-365-payment-connector-for-adyen-overview"></a>Adyen için Dynamics 365 Payment Connector'a genel bakış
 
@@ -96,6 +95,11 @@ Aşağıdaki liste, Microsoft Dynamics 365 Retail POS'un her sürümü için des
 
 ### <a name="supported-payment-terminals"></a>Desteklenen ödeme terminalleri
 Adyen için Dynamics 365 Payment Connector, aygıt agnostik [Adyen ödeme terminal API](https://www.adyen.com/blog/introducing-the-terminal-api) avantajlarından yararlanır. Bu uygulama programlama arabiriminin (API) desteklediği tüm ödeme terminallerini destekler. Desteklenen ödeme terminallerinin tam listesi için, bkz. [Adyen POS terminalleri](https://www.adyen.com/pos-payments/terminals) sayfası.
+
+Aşağıdaki videoda, Adyen Castles SE1 Android ödeme terminalinin özellikleri açıklanmıştır.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bKeM]
 
 ### <a name="supported-payment-instruments"></a>Desteklenen ödeme araçları
 

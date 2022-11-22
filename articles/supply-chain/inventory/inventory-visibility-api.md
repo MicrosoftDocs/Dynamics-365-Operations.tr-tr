@@ -2,7 +2,7 @@
 title: Inventory Visibility genel API'leri
 description: Bu makalede, Stok Görünürlüğü tarafından sağlanan genel API'ler açıklanmaktadır.
 author: yufeihuang
-ms.date: 12/09/2021
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 82a43954db8b10554c449f3e8d32ba7e5d7c7f27
-ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
+ms.openlocfilehash: 8b0b8ca261237fbb2190f2a94cc11b816ae05af5
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9719366"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762847"
 ---
 # <a name="inventory-visibility-public-apis"></a>Inventory Visibility genel API'leri
 
 [!include [banner](../includes/banner.md)]
-
 
 Bu makalede, Stok Görünürlüğü tarafından sağlanan genel API'ler açıklanmaktadır.
 
@@ -36,38 +35,38 @@ Aşağıdaki tabloda, şu anda kullanılabilen API'ler listelenmektedir:
 
 | Yol | Yöntem | Tanım |
 |---|---|---|
-| /api/environment/{environmentId}/onhand | Naklet | [Eldeki değişiklik olayı oluşturma](#create-one-onhand-change-event) |
+| /api/environment/{environmentId}/onhand | Naklet | [Eldeki değişiklik olayı oluşturma](#create-one-onhand-change-event)|
 | /api/environment/{environmentId}/onhand/bulk | Naklet | [Birden fazla değişiklik olayı oluşturma](#create-multiple-onhand-change-events) |
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Naklet | [Eldeki miktarları ayarlama/geçersiz kılma](#set-onhand-quantities) |
-| /api/environment/{environmentId}/onhand/reserve | Naklet | [Bir rezervasyon olayı oluşturma](#create-one-reservation-event) |
-| /api/environment/{environmentId}/onhand/reserve/bulk | Naklet | [Birden fazla rezervasyon olayı oluşturma](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/onhand/unreserve | Deftere naklet | [Bir rezervasyon olayını tersine çevirme](#reverse-one-reservation-event) |
-| /api/environment/{environmentId}/onhand/unreserve/bulk | Deftere naklet | [Birden fazla rezervasyon olayını tersine çevirme](#reverse-multiple-reservation-events) |
+| /api/environment/{environmentId}/onhand/reserve | Deftere naklet | [Bir geçici rezervasyon olayı oluşturma](#create-one-reservation-event) |
+| /api/environment/{environmentId}/onhand/reserve/bulk | Deftere naklet | [Birden çok geçici rezervasyon olayı oluşturma](#create-multiple-reservation-events) |
+| /api/environment/{environmentId}/onhand/unreserve | Deftere naklet | [Bir geçici rezervasyon olayını tersine çevirme](#reverse-one-reservation-event) |
+| /api/environment/{environmentId}/onhand/unreserve/bulk | Deftere naklet | [Birden çok geçici rezervasyon olayını tersine çevirme](#reverse-multiple-reservation-events) |
 | /api/environment/{environmentId}/onhand/changeschedule | Deftere naklet | [Bir zamanlanan eldeki değişiklik oluşturma](inventory-visibility-available-to-promise.md) |
-| /api/environment/{environmentId}/onhand/changeschedule/bulk | Deftere naklet | [Birden fazla zamanlanan eldeki değişiklik oluşturma](inventory-visibility-available-to-promise.md) |
-| /api/environment/{environmentId}/onhand/indexquery | Deftere naklet | [Post yöntemini kullanarak sorgulama](#query-with-post-method) |
+| /api/environment/{environmentId}/onhand/changeschedule/bulk | Deftere naklet | [Tarihlerle birden çok eldeki stok değişikliği oluşturma](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/indexquery | Deftere naklet | [Post yöntemini kullanarak sorgulama](#query-with-post-method) (önerilir) |
 | /api/environment/{environmentId}/onhand | Al | [Get yöntemini kullanarak sorgulama](#query-with-get-method) |
 | /api/environment/{environmentId}/onhand/exactquery | Deftere naklet | [Post yöntemini kullanarak tam sorgulama](#exact-query-with-post-method) |
-| /api/environment/{environmentId}/allocation/allocate | Deftere naklet | [Bir tahsisat olayı oluşturma](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/environment/{environmentId}/allocation/unallocate | Deftere naklet | [Bir tahsisattan kaldırma olayı oluşturma](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/environment/{environmentId}/allocation/reallocate | Deftere naklet | [Bir yeniden tahsis etme olayı oluşturma](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/environment/{environmentId}/allocation/consume | Deftere naklet | [Bir tüketme olayı oluşturma](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/environment/{environmentId}/allocation/query | Deftere naklet | [Tahsisat sorgusu sonucu](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/allocate | Deftere naklet | [Bir tahsisat olayı oluşturma](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/unallocate | Deftere naklet | [Bir tahsisattan kaldırma olayı oluşturma](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/reallocate | Deftere naklet | [Bir yeniden tahsis etme olayı oluşturma](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/consume | Deftere naklet | [Bir tüketme olayı oluşturma](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/query | Deftere naklet | [Tahsisat sorgusu sonucu](inventory-visibility-allocation.md#using-allocation-api) |
 
 > [!NOTE]
-> Yolun {environmentId} bölümü, Microsoft Dynamics Lifecycle Services'teki (LCS) ortam kimliğidir.
+> Yolun {environmentId} bölümü, Microsoft Dynamics Lifecycle Services'teki ortam kimliğidir.
 > 
 > Toplu API, her istek için en fazla 512 kayıt döndürebilir.
 
 Microsoft, hazır bir *Postman* istek koleksiyonu sağlamıştır. Şu paylaşılan bağlantıyı kullanarak bu koleksiyonu *Postman* yazılımınıza içeri aktarabilirsiniz: <https://www.getpostman.com/collections/95a57891aff1c5f2a7c2>.
 
-## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Lifecycle Services ortamınıza göre uç noktayı bulma
+## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a><a name = "endpoint-lcs"></a>Lifecycle Services ortamınıza göre uç noktayı bulma
 
 Stok Görünürlüğü mikro hizmeti, birden çok coğrafya ve bölgede Microsoft Azure Service Fabric'te dağıtılır. Şu anda isteğinizi ilgili coğrafya ve bölgeye otomatik olarak yönlendirebilecek merkezi bir uç nokta bulunmamaktadır. Bu nedenle, aşağıdaki modeli kullanarak bilgi parçalarını bir URL'de oluşturmanız gerekir:
 
 `https://inventoryservice.<RegionShortName>-il<IsLandNumber>.gateway.prod.island.powerapps.com`
 
-Bölge kısa adı, Microsoft Dynamics Lifecycle Services (LCS) ortamında bulunabilir. Aşağıdaki tabloda, şu anda kullanılabilen bölgeler listelenmektedir.
+Bölge kısa adı, Lifecycle Services ortamında bulunabilir. Aşağıdaki tabloda, şu anda kullanılabilen bölgeler listelenmektedir.
 
 | Azure bölgesi        | Bölge kısa adı |
 | ------------------- | ----------------- |
@@ -83,16 +82,26 @@ Bölge kısa adı, Microsoft Dynamics Lifecycle Services (LCS) ortamında buluna
 | Batı BK             | wuk               |
 | Doğu Japonya          | ejp               |
 | Batı Japonya          | wjp               |
-| Güney Brezilya        | sbr               |
-| Güney Orta ABD    | scus              |
+| Orta Hindistan       | cin               |
+| Güney Hindistan         | sin               |
+| Kuzey İsviçre   | nch               |
+| Batı İsviçre    | wch               |
+| Güney Fransa        | sfr               |
+| Doğu Asya           | eas               |
+| Güneydoğu Asya     | seas              |
+| Kuzey BAE           | nae               |
+| Doğu Norveç         | eno               |
+| Batı Norveç         | wno               |
+| Güney Afrika - Batı   | wza               |
+| Güney Afrika - Kuzey  | nza               |
 
-Ada numarası, LCS ortamınızın Service Fabric'te dağıtıldığı yerdir. Şu anda bu bilgileri kullanıcı tarafından almanın yolu yoktur.
+Ada numarası, Lifecycle Services ortamınızın Service Fabric'te dağıtıldığı yerdir. Şu anda bu bilgileri kullanıcı tarafından almanın yolu yoktur.
 
 Microsoft, Power Apps'te bir kullanıcı arabirimi (UI) oluşturmuştur, böylece mikro hizmetin tam uç noktasını alabilirsiniz. Daha fazla bilgi için bkz. [Hizmet uç noktasını bulma](inventory-visibility-configuration.md#get-service-endpoint).
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Kimlik Doğrulama
 
-Platform güvenlik belirteci, Stok Görünürlüğü genel API'sini çağırmak için kullanılır. Bu nedenle, Azure AD uygulamanızı kullanarak bir _Azure Active Directory (Azure AD) belirteci_ oluşturmanız gerekir. Daha sonra güvenlik hizmetinden _erişim belirtecini_ almak için Azure AD belirteci kullanmanız gerekir.
+Platform güvenlik belirteci, Stok Görünürlüğü genel API'sini çağırmak için kullanılır. Bu nedenle, Azure AD uygulamanızı kullanarak bir *Azure Active Directory (Azure AD) belirteci* oluşturmanız gerekir. Daha sonra güvenlik hizmetinden *erişim belirtecini* almak için Azure AD belirteci kullanmanız gerekir.
 
 Microsoft, kullanıma hazır bir *Postman* belirteç koleksiyonu sağlar. Şu paylaşılan bağlantıyı kullanarak bu koleksiyonu *Postman* yazılımınıza içeri aktarabilirsiniz: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
 
@@ -101,63 +110,63 @@ Güvenlik hizmeti belirteci almak için aşağıdaki adımları izleyin.
 1. Azure portalda oturum açın ve bu portalı kullanarak Dynamics 365 Supply Chain Management uygulamanız için `clientId` ve `clientSecret` değerlerini bulun.
 1. Aşağıdaki özelliklere sahip bir HTTP isteği göndererek Azure AD belirteci (`aadToken`) getirin:
 
-   - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/v2.0/token`
-   - **Yöntem:** `GET`
-   - **Gövde içeriği (form verileri):**
+    - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/v2.0/token`
+    - **Yöntem:** `GET`
+    - **Gövde içeriği (form verileri):**
 
-     | Anahtar           | Değer                                            |
-     | ------------- | -------------------------------------------------|
-     | client_id     | ${aadAppId}                                      |
-     | client_secret | ${aadAppSecret}                                  |
-     | grant_type    | client_credentials                               |
-     | kapsam         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.default    |
+        | Anahtar           | Değer                                            |
+        | ------------- | -------------------------------------------------|
+        | client_id     | ${aadAppId}                                      |
+        | client_secret | ${aadAppSecret}                                  |
+        | grant_type    | client_credentials                               |
+        | kapsam         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.default    |
 
-   Yanıtta bir Azure AD belirteci (`aadToken`) almanız gerekir. Bu etiket, aşağıdaki örneğe benzeyecektir.
+    Yanıtta bir Azure AD belirteci (`aadToken`) almanız gerekir. Bu etiket, aşağıdaki örneğe benzeyecektir.
 
-   ```json
-   {
-       "token_type": "Bearer",
-       "expires_in": "3599",
-       "ext_expires_in": "3599",
-       "access_token": "eyJ0eX...8WQ"
-   }
-   ```
+    ```json
+    {
+        "token_type": "Bearer",
+        "expires_in": "3599",
+        "ext_expires_in": "3599",
+        "access_token": "eyJ0eX...8WQ"
+    }
+    ```
 
 1. Aşağıdaki örneğe benzer bir JavaScript Nesne Gösterimi (JSON) isteği düzenleyin.
 
-   ```json
-   {
-       "grant_type": "client_credentials",
-       "client_assertion_type": "aad_app",
-       "client_assertion": "{Your_AADToken}",
-       "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-       "context": "{$LCS_environment_id}",
-       "context_type": "finops-env"
-   }
-   ```
+    ```json
+    {
+        "grant_type": "client_credentials",
+        "client_assertion_type": "aad_app",
+        "client_assertion": "{Your_AADToken}",
+        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "{$LCS_environment_id}",
+        "context_type": "finops-env"
+    }
+    ```
 
-   Aaşağıdaki noktaları unutmayın:
+    Aaşağıdaki noktaları unutmayın:
 
-   - `client_assertion` değeri, önceki adımda aldığınız Azure AD belirteci (`aadToken`) olmalıdır.
-   - `context`değeri, eklentiyi dağıtmak istediğiniz LCS ortamı kimliği olmalıdır.
-   - Diğer tüm değerleri örnekte gösterildiği gibi ayarlayın.
+    - `client_assertion` değeri, önceki adımda aldığınız Azure AD belirteci (`aadToken`) olmalıdır.
+    - `context` değeri, eklentiyi dağıtmak istediğiniz Lifecycle Services ortam kimliği olmalıdır.
+    - Diğer tüm değerleri örnekte gösterildiği gibi ayarlayın.
 
 1. Aşağıdaki özelliklere sahip bir HTTP isteği göndererek erişim belirteci (`access_token`) getirin:
 
-   - **URL:** `https://securityservice.operations365.dynamics.com/token`
-   - **Yöntem:** `POST`
-   - **HTTP üst bilgisi:** API sürümünü ekleyin. (Anahtar `Api-Version` ve değer `1.0`.)
-   - **Gövde içeriği:** Önceki adımda oluşturduğunuz JSON isteğini ekleyin.
+    - **URL:** `https://securityservice.operations365.dynamics.com/token`
+    - **Yöntem:** `POST`
+    - **HTTP üst bilgisi:** API sürümünü ekleyin. (Anahtar `Api-Version` ve değer `1.0`.)
+    - **Gövde içeriği:** Önceki adımda oluşturduğunuz JSON isteğini ekleyin.
 
-   Yanıtta bir erişim belirteci (`access_token`) almanız gerekir. Stok Görünürlüğü API'sini çağırmak için taşıyıcı belirteç olarak bu belirteci kullanmanız gerekir. Aşağıda bir örnek verilmiştir.
+    Yanıtta bir erişim belirteci (`access_token`) almanız gerekir. Stok Görünürlüğü API'sini çağırmak için taşıyıcı belirteç olarak bu belirteci kullanmanız gerekir. Aşağıda bir örnek verilmiştir.
 
-   ```json
-   {
-       "access_token": "{Returned_Token}",
-       "token_type": "bearer",
-       "expires_in": 3600
-   }
-   ```
+    ```json
+    {
+        "access_token": "{Returned_Token}",
+        "token_type": "bearer",
+        "expires_in": 3600
+    }
+    ```
 
 > [!IMPORTANT]
 > Stok Görünürlüğü genel API'lerini çağırmak için *Postman* istek koleksiyonunu kullandığınızda her istek için bir taşıyıcı belirteci eklemelisiniz. Taşıyıcı belirtecinizi bulmak için istek URL'sinin altındaki **Yetkilendirme** sekmesini seçin, **Taşıyıcı Belirteci** türünü seçin ve son adımda getirilen erişim belirtecini kopyalayın. Bu makalenin sonraki bölümlerinde son adımda getirilen belirteci temsil etmek için `$access_token` kullanılacaktır.
@@ -178,10 +187,12 @@ Aşağıdaki tabloda, JSON gövdesindeki her bir alanın anlamı özetlenmektedi
 | `productId` | Ürünün tanımlayıcısı. |
 | `quantities` | Eldeki miktarın değiştirilmesi gereken miktar. Örneğin, bir rafa 10 yeni kitap eklenirse bu değer `quantities:{ shelf:{ received: 10 }}` olur. Üç kitap raftan kaldırılırsa veya satılırsa bu değer `quantities:{ shelf:{ sold: 3 }}` olur. |
 | `dimensionDataSource` | Deftere nakil değişikliği olayı ve sorgusunda kullanılan boyutların veri kaynağı. Veri kaynağını belirtirseniz belirtilen veri kaynağındaki özel boyutları kullanabilirsiniz. Stok Görünürlüğü, özel boyutları genel varsayılan boyutlarla eşleştirmek için boyut yapılandırmasını kullanır. `dimensionDataSource` değeri belirtilmezse sorgularınızda yalnızca [temel boyutları](inventory-visibility-configuration.md#data-source-configuration-dimension) kullanabilirsiniz. |
-| `dimensions` | Dinamik bir anahtar-değer çifti. Değerler, Supply Chain Management'ta bazı boyutlarla eşleştirilir. Ancak olayın Supply Chain Management'tan veya harici bir sistemden geldiğini belirtmek için özel boyutlar da (örneğin, _Kaynak_) ekleyebilirsiniz. |
+| `dimensions` | Dinamik bir anahtar-değer çifti. Değerler, Supply Chain Management'ta bazı boyutlarla eşleştirilir. Ancak olayın Supply Chain Management'tan veya harici bir sistemden geldiğini belirtmek için özel boyutlar da (örneğin, *Kaynak*) ekleyebilirsiniz. |
 
 > [!NOTE]
 > `siteId` ve `locationId` parametreleri [bölüm yapılandırmasını](inventory-visibility-configuration.md#partition-configuration) oluşturur. Bu nedenle, eldeki değişiklik olayları oluşturduğunuzda, eldeki miktarları ayarladığınızda veya geçersiz kıldığınızda ya da rezervasyon olayları oluşturduğunuzda bunları boyutlarda belirtmeniz gerekir.
+
+Aşağıdaki alt bölümlerde bu API'lerin nasıl kullanıldığını gösteren örnekler verilmektedir.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Eldeki değişiklik olayı oluşturma
 
@@ -214,17 +225,17 @@ Body:
     }
 ```
 
-Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir. Bu örnekte, *Tişört* ürünü için bir değişiklik olayı deftere nakledersiniz. Bu olay, satış noktası (POS) sisteminden alınır ve müşteri, mağazaya kırmızı bir Tişört döndürmüştür. Bu olay, *Tişört* ürünü miktarını 1 artırır.
+Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir. Bu örnekte, şirket mağaza içi hareketleri ve stok değişikliklerini işleyen bir satış noktası (POS) sistemine sahiptir. Müşteri, kırmızı bir tişörtü mağazanıza iade etti. Değişikliği yansıtmak için *Tişört* ürünü için tek bir değişiklik olayını deftere nakledersiniz. Bu olay, *Tişört* ürünü miktarını 1 artırır.
 
 ```json
 {
-    "id": "123456",
-    "organizationId": "SCM_IV",
+    "id": "Test201",
+    "organizationId": "usmf",
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
-        "siteId": "iv_postman_site",
-        "locationId": "iv_postman_location",
+        "siteId": "1",
+        "locationId": "11",
         "posMachineId": "0001",
         "colorId": "red"
     },
@@ -240,12 +251,12 @@ Aşağıdaki örnekte, `dimensionDataSource` olmadan örnek gövde içeriği gö
 
 ```json
 {
-    "id": "123456",
-    "organizationId": "SCM_IV",
-    "productId": "iv_postman_product",
+    "id": "Test202",
+    "organizationId": "usmf",
+    "productId": "T-shirt",
     "dimensions": {
-        "siteId": "iv_postman_site",
-        "locationId": "iv_postman_location",
+        "siteId": "1",
+        "locationId": "11",
         "colorId": "red"
     },
     "quantities": {
@@ -258,7 +269,14 @@ Aşağıdaki örnekte, `dimensionDataSource` olmadan örnek gövde içeriği gö
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Birden fazla değişiklik olayı oluşturma
 
-Bu API aynı anda birden çok kayıt oluşturabilir. Bu API ile [tek olay API'si](#create-one-onhand-change-event) arasındaki tek fark, `Path` ve `Body` değerleridir. Bu API için `Body` bir dizi kayıt sağlar. En fazla kayıt sayısı 512'dir. Yani, eldeki toplu API değişimi, bir seferde 512 değişiklik olayına kadar destek alabilir.
+Bu API, [tek olay API](#create-one-onhand-change-event)'sinin yaptığı gibi değiştirme olayları oluşturabilir. Tek fark, bu API'nin aynı anda birden çok kayıt oluşturabilmesidir. Bu nedenle `Path` ve `Body` değerleri farklıdır. Bu API için `Body` bir dizi kayıt sağlar. Maksimum kayıt sayısı 512'dir. Bu nedenle, eldeki stok değişikliği toplu API'si tek seferde 512 adede kadar değişiklik olayını destekleyebilir. 
+
+Örneğin, bir perakende mağazası POS makinesi aşağıdaki iki hareketi işlemiştir:
+
+- Bir kırmızı tişört için bir iade siparişi
+- Üç siyah tişört için bir satış hareketi
+
+Bu durumda, her iki stok güncelleştirmesini tek bir API çağrısına dahil edebilirsiniz.
 
 ```txt
 Path:
@@ -295,26 +313,27 @@ Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir.
 ```json
 [
     {
-        "id": "123456",
-        "organizationId": "SCM_IV",
-        "productId": "iv_postman_product_1",
+        "id": "Test203",
+        "organizationId": "usmf",
+        "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "posSiteId": "posSite1",
-            "posLocationId": "posLocation1",
+            "SiteId": "Site1",
+            "LocationId": "11",
             "posMachineId&quot;: &quot;0001"
+            "colorId&quot;: &quot;red"
         },
         "quantities": {
             "pos": { "inbound": 1 }
         }
     },
     {
-        "id": "654321",
-        "organizationId": "SCM_IV",
-        "productId": "iv_postman_product_2",
+        "id": "Test204",
+        "organizationId": "usmf",
+        "productId": "T-shirt",
         "dimensions": {
-            "siteId": "iv_postman_site",
-            "locationId": "iv_postman_location",
+            "siteId": "1",
+            "locationId": "11",
             "colorId&quot;: &quot;black"
         },
         "quantities": {
@@ -326,7 +345,7 @@ Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir.
 
 ## <a name="setoverride-on-hand-quantities"></a><a name="set-onhand-quantities"></a>Eldeki miktarları ayarlama/geçersiz kılma
 
-_Eldekini ayarlama_ API'si, belirtilen ürün için geçerli verileri geçersiz kılar.
+*Eldekini ayarlama* API'si, belirtilen ürün için geçerli verileri geçersiz kılar. Bu işlev genellikle stok sayımı güncelleştirmeleri yapmak için kullanılır. Örneğin, günlük stok sayımı sırasında bir mağaza kırmızı tişört için eldeki geçerli stoğun 100 adet olduğunu görebilir. Bu nedenle POS gelen miktarı önceki miktarın ne olduğundan bağımsız olarak 100'e güncelleştirilmelidir. Bu API'yi mevcut değeri geçersiz kılmak için kullanabilirsiniz.
 
 ```txt
 Path:
@@ -364,18 +383,19 @@ Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir. Bu API'nin dav
 ```json
 [
     {
-        "id": "123456",
-        "organizationId": "SCM_IV",
+        "id": "Test204",
+        "organizationId": "usmf",
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "posSiteId": "iv_postman_site",
-            "posLocationId": "iv_postman_location",
+            "SiteId": "1",
+            "LocationId": "11",
             "posMachineId": "0001"
+            "colorId": "red"
         },
         "quantities": {
             "pos": {
-                "inbound": 1
+                "inbound": 100
             }
         }
     }
@@ -384,7 +404,7 @@ Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir. Bu API'nin dav
 
 ## <a name="create-reservation-events"></a>Rezervasyon olayları oluşturma
 
-*Rezerve Etme* API'sini kullanmak için rezervasyon özelliğini açmanız ve rezervasyon yapılandırmasını tamamlamanız gerekir. Daha fazla bilgi için bkz. [Rezervasyon yapılandırması (isteğe bağlı)](inventory-visibility-configuration.md#reservation-configuration).
+*Rezerve Etme* API'sini kullanmak için rezervasyon özelliğini açmanız ve rezervasyon yapılandırmasını tamamlamanız gerekir. Daha fazla bilgi için (veri akışı ve örnek senaryo dahil) bkz. [Rezervasyon yapılandırması (isteğe bağlı)](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Rezervasyon olayı oluşturma
 
@@ -392,7 +412,7 @@ Rezervasyon, farklı veri kaynağı ayarları için yapılabilir. Bu tür bir re
 
 Rezervasyon API'sini çağırdığınızda istek gövdesinde Boolean `ifCheckAvailForReserv` parametresini belirterek rezervasyon doğrulamasını denetleyebilirsiniz. `True` değeri, doğrulamanın gerekli olduğu anlamına ve `False` değeri, doğrulamanın gerekli olmadığı anlamına gelir. Varsayılan değer `True` değeridir.
 
-Rezervasyonu tersine çevirmek veya belirtilen stok miktarlarının rezervasyonunu kaldırmak istiyorsanız miktarı negatif bir değere ayarlayın ve doğrulamayı atlamak için `ifCheckAvailForReserv` parametresini `False` olarak ayarlayın. Ayrıca, aynı işlemi gerçekleştirmek için adanmış bir rezervasyonu kaldırma API'si de vardır. Fark yalnızca iki API'nin çağrılma biçimindedir. *Rezervasyonu kaldırma* API'si ile `reservationId` öğesini kullanarak belirli bir rezervasyon olayını tersine çevirmek daha kolaydır. Daha fazla bilgi için, [_Bir rezervasyon olayının rezervasyonunu kaldırma_](#reverse-reservation-events) bölümüne bakın.
+Rezervasyonu tersine çevirmek veya belirtilen stok miktarlarının rezervasyonunu kaldırmak istiyorsanız miktarı negatif bir değere ayarlayın ve doğrulamayı atlamak için `ifCheckAvailForReserv` parametresini `False` olarak ayarlayın. Ayrıca, aynı işlemi gerçekleştirmek için adanmış bir rezervasyonu kaldırma API'si de vardır. Fark yalnızca iki API'nin çağrılma biçimindedir. *Rezervasyonu kaldırma* API'si ile `reservationId` öğesini kullanarak belirli bir rezervasyon olayını tersine çevirmek daha kolaydır. Daha fazla bilgi için [Bir rezervasyon olayının rezervasyonunu kaldırma](#reverse-reservation-events) bölümüne bakın.
 
 ```txt
 Path:
@@ -593,7 +613,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Eldekini sorgulama
 
-Ürünlerinize ait mevcut eldeki stok verilerini getirmek için *Eldekini sorgulama* API'sını kullanın. API şu anda `productID` değerine göre en çok 5000 ayrı öğeye kadar sorgulamayı desteklemektedir. Her sorguda birden çok `siteID` ve `locationID` değeri de belirtilebilir. Maksimum sınır aşağıdaki denklemle tanımlanır:
+Ürünlerinize ait mevcut eldeki stok verilerini getirmek için *Eldekini sorgulama* API'sını kullanın. Bu API'yi, e-ticaret web sitenizde ürün stok düzeylerini gözden geçirmek istediğinizde veya bölgeler arasında ya da yakındaki mağazalarda ve ambarlarda ürün kullanılabilirliğini denetlemek istediğinizde, stoğu bilmeniz gerektiğinde kullanabilirsiniz. API şu anda `productID` değerine göre en çok 5000 ayrı öğeye kadar sorgulamayı desteklemektedir. Her sorguda birden çok `siteID` ve `locationID` değeri de belirtilebilir. Maksimum sınır aşağıdaki denklemle tanımlanır:
 
 *NumOf(SiteID) \* NumOf(LocationID) <= 100*.
 
@@ -637,16 +657,16 @@ Dizin oluşturma yapılandırmanızı takip etmek için `groupByValues` parametr
 > [!NOTE]
 > Eldeki değişiklik zamanlamasını ve karşılanabilir (KM) miktar özelliklerini etkinleştirdiyseniz sorgunuz, sorgu sonuçlarının KM bilgilerini içerip içermediğini denetleyen `QueryATP` Boole parametresini de içerebilir. Daha fazla bilgi ve örnekler için bkz. [Stok Görünürlüğü eldeki değişiklik zamanlamaları ve karşılanabilir miktarı](inventory-visibility-available-to-promise.md).
 
-Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir.
+Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir. Eldeki stoğu birden fazla yerleşimden (ambar) sorgulayabileceğinizi gösterilir.
 
 ```json
 {
     "dimensionDataSource": "pos",
     "filters": {
-        "organizationId": ["SCM_IV"],
-        "productId": ["iv_postman_product"],
-        "siteId": ["iv_postman_site"],
-        "locationId": ["iv_postman_location"],
+        "organizationId": ["usmf"],
+        "productId": ["T-shirt"],
+        "siteId": ["1"],
+        "locationId": ["11","12","13"],
         "colorId": ["red"]
     },
     "groupByValues": ["colorId", "sizeId"],
@@ -659,10 +679,10 @@ Aşağıdaki örnekte, belirli bir tesis ve yerleşimdeki tüm ürünlerin nası
 ```json
 {
     "filters": {
-        "organizationId": ["SCM_IV"],
+        "organizationId": ["usmf"],
         "productId": [],
-        "siteId": ["iv_postman_site"],
-        "locationId": ["iv_postman_location"],
+        "siteId": ["1"],
+        "locationId": ["11"],
     },
     "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
@@ -692,6 +712,22 @@ Aşağıda, örnek bir alma URL'si bulunmaktadır. Bu alma isteği, daha önce s
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
 ```
+
+## <a name="on-hand-exact-query"></a><a name="exact-query-with-post-method"></a>Eldeki stok tam sorgusu
+
+Eldeki stok tam sorguları normal eldeki stok sorgularına benzer ancak tesis ve yerleşim arasında bir eşleme hiyerarşisi belirtmenize olanak tanır. Örneğin, aşağıdaki iki tesise sahipsiniz:
+
+- Tesis 1, A yerleşimi ile eşlenen
+- Tesis 2, B yerleşimi ile eşlenen
+
+Normal eldeki stok sorgusu için `"siteId": ["1","2"]` ve `"locationId": ["A","B"]` belirtirseniz, Stok Görünürlüğü aşağıdaki tesisler ve yerleşimler için sonucu otomatik olarak sorgular.
+
+- Tesis 1, A yerleşimi
+- Tesis 1, B yerleşimi
+- Tesis 2, A yerleşimi
+- Tesis 2, B yerleşimi
+
+Gördüğünüz gibi, normal eldeki stok sorgusu A yerleşiminin yalnızca tesis 1'de var olduğunu ve B yerleşiminin yalnızca tesis 2'de var olduğunu tanımaz. Bu nedenle, gereksiz sorgular yapar. Bu hiyerarşik eşlemeye uyum sağlamak için, eldeki stok tam sorgusu kullanabilir ve sorgu gövdesinde yerleşim eşlemelerini belirtebilirsiniz. Bu durumda, yalnızca tesis 1, A yerleşimi ve tesis 2 B yerleşimi ile ilgili sonuçları sorgular ve sonuç alırsınız.
 
 ### <a name="exact-query-by-using-the-post-method"></a><a name="exact-query-with-post-method"></a>Post yöntemini kullanarak tam sorgulama
 

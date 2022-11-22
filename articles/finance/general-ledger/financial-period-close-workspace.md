@@ -2,25 +2,25 @@
 title: Mali dönem kapatma çalışma alanı
 description: Bu makale, Mali dönem kapanış çalışma alanı ve bununla ilişkili yapılandırma hakkında genel bir bakış sağlar.
 author: kweekley
-ms.date: 11/29/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 531909bb8de892b012ffff347e58f23f997705ef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 657bdd04c8b6dd36341e0bf771a978f68f13362d
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865726"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780055"
 ---
 # <a name="financial-period-close-workspace"></a>Mali dönem kapatma çalışma alanı
 
@@ -28,7 +28,7 @@ ms.locfileid: "8865726"
 
 Bu makalede, **Mali dönem kapanışı** çalışma alanı ve bununla ilişkili yapılandırma hakkında genel bir bakış sağlamaktadır.
 
-Mali dönem kapatma çalışma alanı
+## <a name="financial-period-close-workspace"></a>Mali dönem kapatma çalışma alanı
 
 **Mali dönem kapaması** çalışma alanı, şirketler, bölgeler ve kişiler arasında finansal kapama işlemlerinizi takip etmenizi sağlar. **Mali dönem kapaması** çalışma alanınızın görünümüne bağlı olarak, bir kapama zamanlaması için tüm görevleri ve durumlar ya da sadece size atanmış olan görevleri görürsünüz. 
 
@@ -101,7 +101,7 @@ Görev zamanlamasında kullanılan çalışma günlerini göstermek için kapan�
 
 Kapanış zamanlaması ile ilişkilendirilecek şirketleri de tanımlamanız gerekir. Şablon görevleri birden fazla şirkete atanırsa, her ayrı görev, kapanış zamanlamasında bulunan ve şablon görevine atanmış her şirket için oluşturulur. 
 
-Kapanış zamanlaması tamamlandıktan sonra, onun için **Kapalı** seçeneğini işaretleyin. Göre geçmişi hala **Tüm mali dönem kapanış görevleri** liste sayfasında kullanılabilir olacaktır, ancak kapanış zamanlaması, çalışma alanından kaldırılacaktır. Bir kapanış zamanlaması **Kapalı** olarak işaretlendikten sonra, buna görevler ekleyemez, görevleri düzenleyemez veya görevleri kaldıramazsınız.
+Kapanış zamanlaması tamamlandıktan sonra **Kapalı** seçeneğini işaretleyin. Göre geçmişi hala **Tüm mali dönem kapanış görevleri** liste sayfasında kullanılabilir olacaktır, ancak kapanış zamanlaması, çalışma alanından kaldırılacaktır. Bir kapanış zamanlaması **Kapalı** olarak işaretlendikten sonra, buna görevler ekleyemez, görevleri düzenleyemez veya görevleri kaldıramazsınız.
 
 
 

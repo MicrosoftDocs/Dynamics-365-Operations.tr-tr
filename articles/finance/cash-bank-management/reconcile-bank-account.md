@@ -2,24 +2,24 @@
 title: Banka hesabı için mutabakat sağlama
 description: Bu makalede, bir banka hesabı mutabakatının nasıl yapılacağı açıklanmaktadır.
 author: angelad116
-ms.date: 07/01/2019
+ms.date: 11/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d36ff753d368bbbe6944aa5ae5010541ee92156d
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 576dcd320600f4741a43bfeee53198637bffce15
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151266"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779540"
 ---
 # <a name="reconcile-a-bank-account"></a>Banka hesabı için mutabakat sağlama
 
@@ -29,27 +29,27 @@ Bir banka ekstresi aldığınızda, yasal varlık banka hareketlerinin banka eks
 
 Ekstrede listelenen herhangi bir çek veya havale makbuzu ödemesi **Bekleyen iptal** durumundaysa, banka hesabı ekstresi mutabakatını yapamazsınız. Gözden geçiren bir kişi çekin ters işlemini veya havale makbuzu ödemesi iptalini deftere nakleder veya reddederse, durum artık **Bekleyen iptal** olmaz ve banka hesabı mutabakatını sağlayabilirsiniz.
 
-1.  **Nakit ve banka yönetimi** \> **Banka hesapları** \> **Banka hesapları** öğesine gidin. Banka ekstresi ile mutabakat için banka hesabını ve **Mutbakat** > **Hesap mutabakatı** seçin.
+1. **Nakit ve banka yönetimi** \> **Banka hesapları** \> **Banka hesapları** öğesine gidin. Banka ekstresi ile mutabakat için banka hesabını ve **Mutbakat** > **Hesap mutabakatı** seçin.
 
-2.  **Banka ekstresi tarihi** ve **Banka ekstresi** alanlarına bilgi girin. **Kapanış bakiyesi** alanında, banka hesabının bakiyesini banka hesap ekstresinde görüntülendiği şekilde girin.
+2. **Banka ekstresi tarihi** ve **Banka ekstresi** alanlarına bilgi girin. **Kapanış bakiyesi** alanında, banka hesabının bakiyesini banka hesap ekstresinde görüntülendiği şekilde girin.
 
-3.  **Hesap mutabakat** sayfasını açmak için **Hareketleri** seçin.
+3. **Hesap mutabakat** sayfasını açmak için **Hareketleri** seçin.
 
-4.  Banka ekstresindeki her hareket için Dynamics 365 Finance'teki tutar banka ekstresindeki tutara karşılık geliyorsa **Temizlenmiş** onay kutusunu seçin. Ayrıca, **Banka hareket türü** alanına değeri girebilir veya değiştirebilirsiniz. Bu alan değeri, banka hesabı istatistikleri ve bazı raporlar için önemlidir.
+4. Banka ekstresindeki her hareket için Dynamics 365 Finance'teki tutar banka ekstresindeki tutara karşılık geliyorsa **Temizlenmiş** onay kutusunu seçin. Ayrıca, **Banka hareket türü** alanına değeri girebilir veya değiştirebilirsiniz. Bu alan değeri, banka hesabı istatistikleri ve bazı raporlar için önemlidir.
     
 
-    > [!NOTE]
-    > <P>Banka ekstresinde olmayan hareketlerde <STRONG>Temizlenmiş</STRONG> onay kutusunu seçmeyin. Bu hareketler, sonraki bir banka hesabı ekstresiyle mutabakatları sağlanıncaya kadar bu sayfada görünmeye devam eder.</P>
-    > <P>Hareket <STRONG>Bekleyen iptal</STRONG> durumundaysa, <STRONG>Temizlenmiş</STRONG> onay kutusu kullanılamaz. Finance ters işlemlerin ve iptal işlemlerinin deftere nakledilmeden önce gözden geçirilmesini gerektirecek şekilde ayarlanırsa, hareketler bu durumda olabilir. Gözden geçiren bir kişi çekin ters işlemini veya iptalini deftere nakleder veya reddederse, durum artık <STRONG>Bekleyen iptal</STRONG> olmaz ve banka ekstresi ile banka hesabı mutabakatını sağlayabilirsiniz.</P>
+>[!NOTE]
+>Banka ekstresinde olmayan hareketlerde **Temizlenmiş** onay kutusunu seçmeyin. Bu hareketler, sonraki bir banka hesabı ekstresiyle mutabakatları sağlanıncaya kadar bu sayfada görünmeye devam eder.
+>Hareket **Bekleyen iptal** durumundaysa, **Temizlenmiş** onay kutusu kullanılamaz. Finance ters işlemlerin ve iptal işlemlerinin deftere nakledilmeden önce gözden geçirilmesini gerektirecek şekilde ayarlanırsa, hareketler bu durumda olabilir. Gözden geçiren bir kişi çekin ters işlemini veya iptalini deftere nakleder veya reddederse, durum artık **Bekleyen iptal** olmaz ve banka ekstresi ile banka hesabı mutabakatını sağlayabilirsiniz.
 
-    
-    Hepsi banka ekstresi üzerinde görüntülenen denetim aralığı için **Temizlenmiş** onay kutusunu seçmek için onay aralığı **Çek aralığını işaretle**'yi seçin ve sonra aralığı belirtin.
+
+Hepsi banka ekstresi üzerinde görüntülenen denetim aralığı için **Temizlenmiş** onay kutusunu seçmek için onay aralığı **Çek aralığını işaretle**'yi seçin ve sonra aralığı belirtin.
 
 5.  Banka hesabı hareketinin tutarı banka ekstresi üzerindeki hareketin tutarına karşılık gelmiyorsa, düzeltme tutarını **Düzeltme tutarı** alanına girin.
     
 
-    > [!NOTE]
-    > <P>Düzeltilecek hareketin mali dönemi kapatıldıysa, <STRONG>Düzeltme tutarı</STRONG> alanı kullanılamaz. Bunun yerine, düzeltme için açık mali dönemde bulunan bir hareket tarihiyle bir satır oluşturun. Bu durumda, özgün işlemde kullanılan mali boyutları ve ayrıca mahsup ana hesabı eklemeniz gerekir.</P>
+> [!NOTE]
+> Düzeltilecek hareketin mali dönemi kapatıldıysa, **Düzeltme tutarı** alanı kullanılamaz. Bunun yerine, düzeltme için açık mali dönemde bulunan bir hareket tarihiyle bir satır oluşturun. Bu durumda, özgün işlemde kullanılan mali boyutları ve ayrıca mahsup ana hesabı eklemeniz gerekir.
 
 
 

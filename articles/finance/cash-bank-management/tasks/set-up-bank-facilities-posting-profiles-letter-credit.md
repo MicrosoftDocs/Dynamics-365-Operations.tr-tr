@@ -2,23 +2,23 @@
 title: Kredi mektubu için banka hizmetlerini ve banka deftere nakil profillerini ayarlama
 description: Bu yordam, akreditif mektubunu işlemek için gerekli olan banka tesisi ve nakletme profilini oluşturmayı gösterir.
 author: kweekley
-ms.date: 08/29/2018
+ms.date: 11/15/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankParameters, DefaultDashboard, BankDocumentSetup, BankDocumentPosting
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 15a7a4798c4c743c9171fd2258a5573f456c92e5
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7fe5b2ba43c4fcb4855c742bdb6f8209ebd92d68
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726364"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779475"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letter-of-credit"></a>Kredi mektubu için banka hizmetlerini ve banka deftere nakil profillerini ayarlama
 
@@ -29,47 +29,43 @@ Bu yordam, akreditif mektubunu işlemek için gerekli olan banka tesisi ve nakle
 Bu görevler, USMF demo şirketini kullanır.
 
 
-
-
-
-
 ## <a name="general-ledger-parameter"></a>Genel muhasebe defteri parametresi
-1. Nakit ve Banka yönetimi > Kurulum > Nakit ve Banka yönetim parametreleri.
-2. Banka belgesi bölümünü genişletin.
-3. Akreditif mektubunu içeri alma seçeneğini etkinleştir'i seçin.
-4. Akreditif mektubunu dışarıya verme seçeneğini etkinleştir'i seçin.
-5. Kaydet'e tıklayın.
+1. **Nakit ve Banka yönetimi > Kurulum > Nakit ve Banka yönetim parametreleri**'ne gidin.
+2. **Banka belgesi** bölümünü genişletin.
+3. **Kredi mektubunu içe aktarmayı etkinleştir**'i seçin.
+4. **Kredi mektubunu dışarı aktarı etkinleştir**'i seçin.
+5. **Kaydet**'e tıklayın.
 6. Sayfayı kapatın.
 
 ## <a name="create-bank-facility"></a>Banka hizmeti yarat
-1. Nakit ve Banka yönetimi > Kurulum > Banka tesisleri seçeneğine gidin.
-2. Yeni'ye tıklayın.
-3. Tesis grubu alanında, banka tesisi grup adını girin.
-4. Tanım alanında, banka tesisi grup tanımını girin.
-5. Kaydet'e tıklayın.
-6. Tesis türleri sekmesini tıklatın.
-7. Yeni'ye tıklayın.
-8. Tesis türü alanına benzersiz bir kod yazın.
-9. Açıklama alanına bir değer girin.
-10. Tesis grubu alanında, aramayı açmak için açılır menü düğmesine tıklayın.
+1. **Nakit ve Banka yönetimi > Kurulum > Banka tesisleri** seçeneğine gidin.
+2. **Yeni**'yi tıklatın.
+3. **Tesis grubu** alanında, banka tesisi grup adını girin.
+4. **Açıklama** alanında, banka tesisi grup tanımını girin.
+5. **Kaydet**'e tıklayın.
+6. **Tesis türleri** sekmesine tıklayın.
+7. **Yeni**'yi tıklatın.
+8. **Tesis türü** alanına benzersiz bir kod yazın.
+9. **Tanım** alanına bir değer girin.
+10. **Tesis grubu** alanında, aramayı açmak için açılır menü düğmesine tıklayın.
 11. Listede, istenen kaydı bulun ve seçin.
 12. Listede, seçili satırdaki bağlantıya tıklayın.
-13. Tesis niteliği alanında banka tesisinin niteliğini seçin.
-14. Kaydet'e tıklayın.
+13. **Tesis niteliği** alanında banka tesisinin niteliğini seçin.
+14. **Kaydet**'e tıklayın.
 15. Sayfayı kapatın.
 
 ## <a name="bank-posting-profile"></a>Banka nakil profili
-1. Nakit ve Banka yönetimi > Kurulum > Banka belgesi nakletme profili seçeneğine gidin.
-2. Yeni'ye tıklayın.
-3. Hesap/Grup numarası alanında, aramayı açmak için açılır menü düğmesini tıklatın.
+1. **Nakit ve Banka yönetimi > Kurulum > Banka belgesi deftere nakil profili** seçeneğine gidin.
+2. **Yeni**'yi tıklatın.
+3. **Hesap/Grup numarası** alanında, aramayı açmak için açılır menü düğmesine tıklayın.
 4. Listede, istenen kaydı bulun ve seçin.
 5. Listede, seçili satırdaki bağlantıya tıklayın.
 6. Hesap kesme için ana hesabı seçin.
     * Nakit akışı tahminini hesaplarken bu hesap kullanılır.  
-7. Gider hesabı alanında masraf hareketleri hesabını seçin.
-8. Marj hesabı alanında marj hareketleri hesabını seçin.
+7. **Gider hesabı** alanında masraf hareketleri hesabını seçin.
+8. **Marj hesabı** alanında marj hareketleri hesabını seçin.
     * Bu hesaba açılış marjı nakledilirken alacak, ödeme nakledilirken ise borç kaydedilir.  
-9. Kaydet'e tıklayın.
+9. **Kaydet**'e tıklayın.
 
 
 

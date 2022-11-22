@@ -2,23 +2,23 @@
 title: Bağlı şirket verilerini dosyalara dışarı aktarma
 description: Bu makalede, Microsoft Dynamics 365 Finance'teki verileri dışarı aktarmak ve daha sonra konsolide edilmiş bir tüzel kişiliğe içeri aktarmak için nasıl hazırlık yapılacağı açıklanmaktadır.
 author: jinniew
-ms.date: 10/09/2020
+ms.date: 11/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7c5334e206d28a5ae1c8097db5356cd1057b7180
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 30d69f9a2813621df410a29568644f264392fb49
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876167"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779974"
 ---
 # <a name="export-subsidiary-data-to-files"></a>Bağlı şirket verilerini dosyalara dışarı aktarma
 
@@ -32,14 +32,14 @@ Bağlı verileri, daha sonra konsolide edilmiş bir tüzel kişiliğe içeri akt
 
     | Alan                             | Tanım |
     |-----------------------------------|-------|
-    | Ana hesap                      | Konsolide edilecek hesapları belirtin. Tüm hesapları dahil etmek için bu alanı boş bırakın. |
-    | Konsolidasyon hesabı kullanma         | Konsolidasyon hesaplarını belirlediyseniz bu seçeneği **Evet** olarak ayarlayın. |
-    | Şuradan konsolidasyon hesabı seç: | **Ana hesap** veya **Konsolidasyon hesabı grubu**'nu seçin. |
-    | Konsolidasyon hesap grubu       | Seçtiğiniz konsolidasyon hesabı için bir konsolidasyon hesabı grubu seçin. |
-    | Konsolidasyon dönemi              | Konsolidasyon için "Başlangıç" ve "Bitiş" tarihi belirtin. |
-    | Gerçek tutarları dahil et            | Fiili tutarları dahil etmek için bu seçeneği **Evet** olarak ayarlayın. |
-    | Bütçe tutarlarını dahil et            | Bütçe tutarlarını konsolidasyona dahil etmek için bu seçeneği **Evet** olarak ayarlayın. |
-    | Bütçe modelleri                     | Dahil edilecek bütçe modelini belirtin. |
+    | **Ana hesap**                      | Konsolide edilecek hesapları belirtin. Tüm hesapları dahil etmek için bu alanı boş bırakın. |
+    | **Konsolidasyon hesabı kullanma**         | Konsolidasyon hesaplarını belirlediyseniz bu seçeneği **Evet** olarak ayarlayın. |
+    | **Şuradan konsolidasyon hesabı seç:** | **Ana hesap** veya **Konsolidasyon hesabı grubu**'nu seçin. |
+    | **Konsolidasyon hesap grubu**       | Seçtiğiniz konsolidasyon hesabı için bir konsolidasyon hesabı grubu seçin. |
+    | **Konsolidasyon dönemi**              | Konsolidasyon için "Başlangıç" ve "Bitiş" tarihi belirtin. |
+    | **Gerçek tutarları dahil et**            | Fiili tutarları dahil etmek için bu seçeneği **Evet** olarak ayarlayın. |
+    | **Bütçe tutarlarını dahil et**            | Bütçe tutarlarını konsolidasyona dahil etmek için bu seçeneği **Evet** olarak ayarlayın. |
+    | **Bütçe modelleri**                     | Dahil edilecek bütçe modelini belirtin. |
 
 3. **Mali boyutlar** sekmesinde konsolidasyon ayrıntılarını belirtin:
 

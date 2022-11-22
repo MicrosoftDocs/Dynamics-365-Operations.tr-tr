@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: da7e8a47496092a00ecc05c17933cc0e0cdb0fd0
-ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
+ms.openlocfilehash: 21abbffe6b16217a0d2e20f662faa080420da12e
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9702208"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764252"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasındaki yenilikler veya değişiklikler
 
 [!include [banner](../includes/banner.md)]
 
 Bu makale, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni özellikleri, iyileştirmeleri ve bilinen sorunları listeler.
+
+## <a name="version-20370"></a>Sürüm 2.0.37.0
+
+Bu sürüm aşağıdaki yeni özellikleri, düzeltmeleri ve iyileştirmeleri içerir.
+- Çalışanların uygulamanın ürün fotoğraflarını görüntülediği yeri seçmesine olanak veren bir Kullanıcı ayarı eklendi (kart ve adım başlıklarında, yalnızca adım başlıklarında veya hiç birinde). 
+- Diğer içerikler için daha fazla yer bırakmak için adım başlık ve miktar girişi değiştiricisi boyutunu azaltılarak ayrıntılar kartı ekran düzeni geliştirildi. 
+- Bir Honeywell Thor cihazında çalışırken kullanıcı arabirimi geliştirildi. 
+- Tam ekran modu geliştirildi (yalnızca donanım klavyesi olan cihazlar için geçerlidir). 
+- Ayrıntı kartlarını ve özel sayfaları öncelik veya alt önceliğe göre sıralarken sonuçlar geliştirildi (DataPriority veya DisplaySubPriority). 
+- Daha fazla dil desteği eklendi. 
+- İyileştirilmiş kararlılık. 
+- Birçok görüntü ve simge geliştirildi. 
 
 ## <a name="version-20350"></a>Sürüm 2.0.35.0
 

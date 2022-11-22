@@ -2,24 +2,19 @@
 title: Derecelendirmelere ve incelemelere genel bakış
 description: Bu makale, Microsoft Dynamics 365 Commerce'ta bulunan derecelendirmeleri ve incelemelerini kapsamaktadır.
 author: gvrmohanreddy
-ms.date: 10/01/2019
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: gmohanv
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
-ms.dyn365.ops.version: Release 10.0.5
-ms.assetid: ''
-ms.search.industry: ''
-ms.openlocfilehash: 612a3ca480049febac352ed9215ec9de83bbecf6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1f0d3ed5d95ad49cb09cf1f89d0f4c8c07620b92
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269013"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785162"
 ---
 # <a name="ratings-and-reviews-overview"></a>Derecelendirmelere ve incelemelere genel bakış
 
@@ -42,6 +37,11 @@ Dynamics 365 Commerce'teki derecelendirmeler ve İncelemeler çözümü, 40 dild
 Derecelendirmeler ve İncelemeler çözümü, ürün listelerindeki, arama sonuçlarında, ürün ayrıntıları sayfasındaki ve diğer yerlerde değerlendirme özetlerini gösteren pencere öğeleri sağlar. Pencere öğeleri tam gözden geçirme listelerini gösterir ve ayrıca sıralama ve süzme seçenekleri sağlar.
 
 Derecelendirmeler ve İncelemeler çözümü Ayrıca derecelendirmelere ve incelemelere Öngörüler sağlamak üzere bir dizi ölçüm içeren bir iş zekası (BI) şablonu sağlar. Derecelendirme ve gözden geçirme verileri, daha fazla analiz için dışa aktarılabilir.
+
+Aşağıdaki videoda, Dynamics 365 Commerce'teki derecelendirmeler ve incelelemer özelliklerine genel bakış ve demo sağlanmaktadır.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5c2wS]
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

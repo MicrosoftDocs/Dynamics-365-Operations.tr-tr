@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 384ce8611a7dbf6adf7b8ae6ad9569e2a41c22d1
+ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405451"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9757180"
 ---
 # <a name="keyboard-shortcuts"></a>Klavye kısayolları
 
@@ -50,7 +50,7 @@ Kullanıcılar kullanılabilir kısayolları doğrudan kullanıcı arabiriminden
 | Eylem Bölmesinde veya bir menü içinde bir sekmeyi kapatma        | Esc                              |
 | Sağ tıklatma benzetimi                          | Shift+F10                        |
 | Bağlam menüsünü aç    | Ctrl+F10                         |
-| Form/iletişim kutusu üzerinde varsayılan düğmeyi yürütme | Alt+Enter                        |
+| Sayfa/iletişim kutusu üzerinde varsayılan düğmeyi yürütme | Alt+Enter                        |
 | Bir düğmeyi veya döşemeyi tıklama                          | Enter veya Boşluk                   |
 | Bir sayım döşemesi için yenileme bilgilerini görüntüleme       | Alt+Yukarı ok                     |
 | Mevcut kullanılabilir kısayolları görüntüleme              | Alt+Shift+K                      |
@@ -85,36 +85,36 @@ Kullanıcılar kullanılabilir kısayolları doğrudan kullanıcı arabiriminden
 |---------------------------------------------------------------------------------------------------------------------|--------------------------|
 | Geçerli sütun için kılavuz filtresini açma                                                                          | Ctrl+G                   |
 | Geçerli sütun için kılavuz filtresini kapatma                                                                         | Esc                      |
-| Filtre bölmesini açma (veya Filtre bölmesi zaten açıksa odağı Filtre bölmesi ile ana form arasında değiştirme) | Alt+M,F veya Ctrl+F3       |
+| Filtre bölmesini açma (veya Filtre bölmesi zaten açıksa odağı Filtre bölmesi ile ana sayfa arasında değiştirme) | Alt+M,F veya Ctrl+F3       |
 | Filtre bölmesini kapatma (odak Filtre bölmesindeyken)                                                               | Esc                      |
 | Gelişmiş filtrelemeyi/sıralamayı açma                                                                                        | Ctrl+Shift+F3            |
 | Hızlı Filtre uygulama (odak Hızlı Filtrede olduğunda)                                                              | Enter                    |
 | Kılavuz filtresini uygulama (odak sütun başlığının filtre alanında olduğunda)                                             | Enter                    |
 
-## <a name="form-shortcuts"></a>Form kısayolları
+## <a name="page-shortcuts"></a>Sayfa kısayolları
 
-| Bunun için                                    | Bas             |
+| Bunu yapmak için                                    | Şuna basın:             |
 |-----------------------------------------------|-------------------|
 | Yeni bir kayıt oluştur                           | Alt+N             |
 | Kayıt silme                               | Alt+Del veya Alt+F9 |
 | Kaydı kaydetme                                   | Alt+S veya Ctrl+S   |
 | Geri al (geri yükle)                              | Ctrl+Shift+F5     |
 | Verileri yenileme                                  | Shift+F5          |
-| Form üzerinde görünen ilk alana gitme   | Alt+Shift+F       |
+| Sayfa üzerinde görünen ilk alana gitme   | Alt+Shift+F       |
 | Düzenleme moduna geçme                              | F2                |
-| Belge iliştirme                             | Ctrl+Shift+A      |
+| Belge iliştir                             | Ctrl+Shift+A      |
 | Excel'e aktar                               | Ctrl+Shift+E      |
 | Önceki kayda gitme (kılavuz dışında)  | Ctrl+Yukarı ok     |
 | Sonraki kayda gitme (kılavuz dışında)      | Ctrl+Aşağı ok   |
 | İlk kayda gitme (kılavuz dışında)     | Ctrl+Home         |
 | Son kayda gitme (kılavuz dışında)      | Ctrl+End          |
-| Formu kapatma (Geri'ye tıklama)                   | Esc               |
-| Formu açık kaydetme ile kapatma             | Shift+Esc         |
-| Formu kaydedilmemiş değişiklikleri iptal ederek kapatma | Alt+Shift+Q       |
+| Sayfayı kapat (Geri düğmesini seçin)<br><br>**Not:** Açık bir açılan pencere varsa (araç ipucu, tarih seçici, açılan kutu, vb.) ESC ilk kullanıldığında açılır pencereyi kapatır.       | Esc               |
+| Sayfayı açık kaydetme ile kapatma             | Shift+Esc         |
+| Sayfayı kaydedilmemiş değişiklikleri atarak kapatma | Alt+Shift+Q       |
 
-## <a name="form-navigation-shortcuts"></a>Formda gezinme kısayolları
+## <a name="page-navigation-shortcuts"></a>Sayfada gezinme kısayolları
 
-| Bunu yapmak için                                          | Basın                                        |
+| Bunu yapmak için                                          | Şuna basın:                                        |
 |-----------------------------------------------------|----------------------------------------------|
 | Sonraki/önceki alana gitme                     | Tab / Shift+Tab                              |
 | Sonraki/önceki sekmesine gitme                       | Alt+Shift+Sağ ok / Alt+Shift+Sol ok |
@@ -192,13 +192,13 @@ Kullanıcılar kullanılabilir kısayolları doğrudan kullanıcı arabiriminden
 | Yardım bölmesini açma                                                            | Ctrl+?                     |
 | İzleme ayrıştırıcıyı aç                                                         | Alt+Shift+T                |
 | Gezinti bölmesine taşı                                                   | Alt+F1                     |
-| Formu bir favori olarak ekle/çıkart (odak gezinti bölmesindeki bir formdadır)   | Shift+F                    |
+| Sayfayı bir favori olarak ekle/çıkart (odak gezinti bölmesindeki bir sayfadadır)   | Shift+F                    |
 | Standart Eylem Bölmesine taşıma                                              | Alt+M,A veya Ctrl+F6         |
 | Filtre bölmesi taşı (açmayı içerebilir)                        | Alt+M,F veya Ctrl+F3         |
 | Odağı sayfa içeriğine taşı (odak Filtre bölmesindeyken)                | Alt+M,M veya Ctrl+F3         |
-| Ayrıntılar formunda gezinti listesine taşı (açmayı içerebilir)    | Alt+M,S veya Ctrl+F8         |
+| Gezinme listesine taşıma (açmayı içerebilir)    | Alt+M,S veya Ctrl+F8         |
 | Odağı sayfa içeriğine taşı (odak gezinme listesindeyken)            | Alt+M,M veya Ctrl+F8         |
-| Ayrıntılar formunda gezinme listesini kapatma (odak gezinme listesindeyken) | Esc                        |
+| Gezinme listesini kapatma (odak gezinme listesindeyken) | Esc                        |
 | Ana sayfa içeriğine taşı (başka bir panoda odak ile)                    | Alt+M,M                    |
 | FactBox bölmesine taşı (açmayı içerebilir)                       | Alt+M,B veya Ctrl+F2         |
 | Sonraki özellik açıklamasına git                                              | Alt+M,C                    |

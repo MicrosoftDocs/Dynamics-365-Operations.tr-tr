@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 502a026f2070e92a017733ce2c37bf357eaa10ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9022051ce1c99da7ff62e30583a20656c77d89f9
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908168"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778693"
 ---
 # <a name="process-collection-letters-example"></a>Tahsilat mektuplarını işleme örneği
 
@@ -32,11 +32,11 @@ Bitirdiğinizde aşağıdaki adımları izleyin.
 
 1. **Alacak ve tahsilatlar \> tahsilat mektubu \> Tahsilat mektubu sırasına ayarla**'ya gidin  ve tahsilat mektubu sırasını, müşteri deftere nakil profiline atanan aşağıdaki tabloda gösterildiği şekilde ayarlayın.
 
-|     Tahsilat mektubu kodu      |     Tanım                           |     Para Birimi      |     Ana hesap        |     Para birimi cinsinden ücret     |     En az        |     Bloklanan gün sayısı      |
-|---------------------------------  |---------------------------------------    |-----------------  |-----------------------    |-------------------------- |-----------------------    |---------------------  |
-|     Tahsilat mektubu 1         |     Ücretli ikinci bildirim        |     ABD Doları           |                           |     0,00                  |     0,00                  |     2                 |
-|     Tahsilat mektubu 2         |     Ücretli ikinci bildirim        |     USC           |     403150                |     20.00                 |     10,00                 |     3                 |
-|     Tahsilat                    |     Ücretli son bildirim         |     ABD Doları           |     403150                |     50.00                 |     100.00                |     15                |
+|   Tahsilat mektubu kodu      |     Tanım       |     Para Birimi      |     Ana hesap        |     Para birimi cinsinden ücret       |   En az  |   Bloklanan gün sayısı        |
+|-----------------------------  |--------------------   |-----------------  |-----------------------    |--------------------   |-----------------------    |------------------ |
+|  Tahsilat mektubu 1          |     İlk bildirim |     ABD Doları          |                   |     0,00              |     0,00                  |     2                 |
+|  Tahsilat mektubu 2          |     Ücretli ikinci bildirim      |     ABD Doları      |     403150         |     20.00         |     10,00     |     3                 |
+|  Koleksiyon                   |     Ücretli son bildirim       |     ABD Doları           |     403150    |     50.00         |     100.00                |     15            |
 
 Aşağıdaki resimde tabloda gösterilen bilgiler, **tahsilat mektupları** sayfasında görüneceği şekilde gösterilmektedir. 
 

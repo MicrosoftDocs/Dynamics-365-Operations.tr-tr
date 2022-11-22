@@ -1,35 +1,37 @@
 ---
 title: Mağaza sipariş karşılama
-description: Bu makale, Mağaza sipariş karşılama konusuna genel bir bakış sağlar.
+description: Bu makale, Microsoft Dynamics 365 Commerce'te mağaza sipariş karşılama konusuna genel bir bakış sağlar.
 author: BrianShook
-ms.date: 10/30/2017
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailStoreTable, RetailTillLayout
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f0b6ff8ec105da04b4b2416d8f6864c70c92fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bf338c6d0b6a237cad2974d36c23238029fe9b38
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854990"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785085"
 ---
 # <a name="store-order-fulfillment"></a>Mağaza sipariş karşılama
 
 [!include [banner](includes/banner.md)]
+
+Bu makale, Microsoft Dynamics 365 Commerce'te mağaza sipariş karşılama konusuna genel bir bakış sağlar.
 
 Birçok satıcı, mağazaların siparişleri karşılamasını sağlayarak sipariş karşılama yeteneğini en iyi duruma getirmek istemektedir. Mağaza seviyesinde sipariş karşılama belirli bir mağazayla ilgili aşırı stok senaryolarını kolay hale getirmeye yardımcı olabilir ve bir mağazanın ekstra kapasitesi olması veya müşteriye daha yakın bir sevkiyat mesafesinde yer alması durumunda lojistik açıdan gerekli olabilir. Bu ihtiyacı karşılamak için, satış noktasında birleştirilmiş sipariş karşılama işlemi bulunmaktadır.
 
 Belirli bir mağaza tarafından karşılanması gereken siparişlerde siparişin başlığında veya satırlarında atanan mağazanın deposu yer alır.
 
 Satış noktasındaki sipariş karşılama işlemi, satış noktasında siparişleri işlemek için kullanılabilecek tek bir çalışma alanı sağlar. Bu siparişin kabul edilmesinden sevk edildi olarak işaretlenmesine veya mağazadan çekme işleminin başlatılmasına kadar tüm aşamaları içerir.
+
+Aşağıdaki videoda, Dynamics 365 Commerce'teki mağaza sipariş karşılama özelliklerine genel bakış ve demo sağlanmaktadır.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bRXE]
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Satış noktasındaki birleştirilmiş sipariş karşılamaya erişme
 

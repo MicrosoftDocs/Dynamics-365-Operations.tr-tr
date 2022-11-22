@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14564
 ms.assetid: d9984cef-ddcf-46bd-816d-c01b8cc5cf48
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a5ecf69c83805834c01c03d0af9b7b8c5310920
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 44f64b9b9cd4fa65d17ba30fb87a688411becd5a
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725107"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780553"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Alacak dekontlarında iskontolar içeren bir kısmi müşteri ödemesini kapatma
 
@@ -33,22 +33,22 @@ Fabrikam, kısmi ödemelerde ve de alacak dekontlarında (alacak makbuzları) m�
 ## <a name="invoice-and-credit-note"></a>Fatura ve alacak dekontu
 Müşteri 4035'in tutarı 1.000,00 olan bir faturası ve 100,00 tutarında bir alacak dekontu vardır. 14 günde ödeniyorsa, her belgede yüzde 1'lik bir indirim olur. Tamer, bu bilgileri **Müşteri hareketleri** sayfasında görüntüleyebilir.
 
-| Fiş    | Hareket türü | Tarih      | Fatura  | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Kalan  | Para Birimi |
+| Fiş    | Hareket türü | Tarih      | Fatura  | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Bakiye  | Para birimi |
 |------------|------------------|-----------|----------|--------------------------------------|---------------------------------------|----------|----------|
-| FTI-10050  | Fatura          | 28/6/2015 | 10050    | 1.000,00                             |                                       | 1.000,00 | ABD Doları      |
-| CCRN-10050 | Alacak dekontu      | 28/6/2015 | CR-10050 |                                      | 100,00                                | -100,00  | ABD Doları      |
+| FTI-10050  | Fatura          | 28.06.2020 | 10050    | 1,000.00                             |                                       | 1,000.00 | ABD Doları      |
+| CCRN-10050 | Alacak dekontu      | 28.06.2020 | CR-10050 |                                      | 100.00                                | -100,00  | ABD Doları      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>Bir alacak dekontunu fatura ile kapatma
 Tamer, **Müşteri hareketleri** sayfasında **Hareketleri kapat** sayfasın açar. Arnie, faturayı ve alacak dekontunu kapatman için **Hareketleri kapat** sayfasını kullanabilir. Arnie kapatma işleminin bir parçası olarak, nakit iskontosu tarihlerini ve tutarlarını görüntüler. Arnie, iki belgeyi işaretler ve sonra hareketleri kapatmak için **Deftere naklet**'i tıklatır. Fabrikam, iskontoları alacak dekontlarında sağladığından alacak notunda -1.00 iskonto vardır.
 
-| İşaret     | Nakit iskontosu kullan | Fiş    | Hesap | Tarih      | Vade tarihi  | Fatura  | Hareket para birimi cinsinden tutar | Para Birimi | Kapatılacak tutar |
+| İşaret     | Nakit iskontosu kullan | Fiş    | Hesap | Tarih      | Vade tarihi  | Fatura  | Hareket para birimi cinsinden tutar | Para birimi | Kapatılacak tutar |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|
-| Seçildi | Normal            | FTI-10050  | 4035    | 28/6/2015 | 28/7/2015 | 10050    | 1.000,00                       | ABD Doları      | 990,00           |
-| Seçildi | Normal            | CCRN-10050 | 4035    | 28/6/2015 | 28/7/2015 | CR-10050 | -100,00                        | ABD Doları      | -99,00           |
+| Seçildi | Normal            | FTI-10050  | 4035    | 28.06.2020 | 28.07.2020 | 10050    | 1,000.00                       | ABD Doları      | 990.00           |
+| Seçildi | Normal            | CCRN-10050 | 4035    | 28.06.2020 | 28.07.2020 | CR-10050 | -100,00                        | ABD Doları      | -99,00           |
 
 İskonto bilgileri **Hareketleri kapat** sayfasının altında görüntülenir.
 
-- **Nakit iskonto tarihi**: 12/7/2015 
+- **Nakit iskonto tarihi**: 12/7/2020 
 - **Nakit iskontosu tutarı**: -1,00     
 - **Nakit iskontosu kullan**: Normal    
 - **Alınan nakit iskontosu**: 0,00      

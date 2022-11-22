@@ -2,25 +2,25 @@
 title: Birden fazla iskonto dönemine yayılan faturaları kapatmak için bir ödeme kullanma
 description: Bu makalede, her bir fatura nakit iskontosuna uygunsa birden fazla faturanın nasıl ödeneceği gösterilmektedir. Bu makaledeki senaryolar, alınan nakit iskontolarının ödemenin ne zaman yapıldığına bağlı olarak nasıl değiştiğini açıklamaktadır.
 author: ShivamPandey-msft
-ms.date: 10/26/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14511
 ms.assetid: 3e42ccb5-b9d7-4a70-8db9-4206d10fd433
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6035973abea9dacd4b6d4d8bf2fd3c7d6b10fb0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6bf321a5b0511295f2500f10cdffa9ff6f043bff
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872658"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780605"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Birden fazla iskonto dönemine yayılan faturaları kapatmak için bir ödeme kullanma
 
@@ -44,11 +44,11 @@ Arnie, bu faturaların tamamını 29 Haziran'da kapatmak üzere bir ödeme günl
 -   Fatura FTI-10041 için ödeme 990,00'dır. Yüzde 1 veya 10,00 tutarında nakit iskontosu alınır.
 -   Fatura FTI-10042 için ödeme 980,00'dir. Yüzde 2 veya 20,00 tutarında nakit iskontosu alınır.
 
-| İşaret                     | Nakit iskontosu kullan | Fiş   | Hesap | Tarih      | Vade tarihi  | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Para Birimi | Kapatılacak tutar |
-|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Seçildi                 | Normal            | FTI-10040 | 4032    | 15/5/2015 | 15/6/2015 | 10040   | 1.000,00                             |                                       | ABD Doları      | 1.000,00         |
-| Seçildi                 | Normal            | FTI-10041 | 4032    | 25/6/2015 | 25/7/2015 | 10041   | 1.000,00                             |                                       | ABD Doları      | 990,00           |
-| Seçildi ve vurgulandı | Normal            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | ABD Doları      | 980,00           |
+| İşaret | Nakit iskontosu kullan | Fiş   | Hesap | Tarih   | Vade tarihi  | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Para birimi | Kapatılacak tutar |
+|------|----------|-----------|---------|-----------|-----------|---------|---------------------|---------------------|----------|------------------|
+| Seçildi     | Normal      | FTI-10040 | 4032    | 15.05.2020 | 15.06.2020 | 10040   | 1,000.00  |                    | ABD Doları      | 1,000.00         |
+| Seçildi     | Normal      | FTI-10041 | 4032    | 25.06.2020 | 25.07.2020 | 10041   | 1,000.00  |                    | ABD Doları      | 990.00           |
+| Seçildi ve vurgulandı | Normal      | FTI-10042 | 4032    | 25.06.2020 | 25.07.2020 | 10042   | 1,000.00    |              | ABD Doları      | 980.00           |
 
 Ödeme deftere nakledildikten sonra müşteri bakiyesi 0,00 olur.
 
@@ -59,20 +59,20 @@ Arnie, bu faturaların tamamını 1 Temmuz'da kapatmak üzere bir ödeme günlü
 -   Fatura FTI-10041 için ödeme 990,00'dır. Yüzde 1 veya 10,00 tutarında nakit iskontosu alınır.
 -   Fatura FTI-10042 için ödeme 990,00'dır. Yüzde 1 veya 10,00 tutarında nakit iskontosu alınır. 1 Temmuz, yüzde 2 oranında indirim uygulanan dönemden sonra olsa da, hala yüzde 1 iskonto uygulanan dönem aralığındadır.
 
-| İşaret                     | Nakit iskontosu kullan | Fiş   | Hesap | Tarih      | Vade tarihi  | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Para Birimi | Kapatılacak tutar |
-|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Seçildi                 | Normal            | FTI-10040 | 4032    | 15/5/2015 | 15/6/2015 | 10040   | 1.000,00                             |                                       | ABD Doları      | 1.000,00         |
-| Seçildi                 | Normal            | FTI-10041 | 4032    | 25/6/2015 | 25/7/2015 | 10041   | 1.000,00                             |                                       | ABD Doları      | 990,00           |
-| Seçildi ve vurgulandı | Normal            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | ABD Doları      | 990,00           |
+| İşaret                     | Nakit iskontosu kullan | Fiş   | Hesap | Tarih      | Vade tarihi  | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Para birimi | Kapatılacak tutar |
+|----------|---------|-----------|---------|-----------|-----------|---------|--------------------|------------------|----------|------------------|
+| Seçildi         | Normal            | FTI-10040 | 4032    | 15.05.2020 | 15.06.2020 | 10040   | 1,000.00         |                | ABD Doları      | 1,000.00         |
+| Seçildi                 | Normal            | FTI-10041 | 4032    | 25.06.2020 | 25.07.2020 | 10041   | 1,000.00  |               | ABD Doları      | 990.00           |
+| Seçildi ve vurgulandı | Normal            | FTI-10042 | 4032    | 25.06.2020 | 25.07.2020 | 10042   | 1,000.00  |             | ABD Doları      | 990.00           |
 
 ## <a name="partial-settlement-on-june-29"></a>29 Haziran'da kısmi kapatma
 Müşteri 4032 her fatura yarısı gibi kısmi bir tutarı ödeyebilir. Arnie müşteri 4032 için bir ödeme oluşturur ve **Kapatma hareketleri** sayfasını açar. **Kapatma hareketleri** sayfasında, Arnie üç fatura satırını da kapatmak üzere işaretler. Her satırda Arnie, o müşteriye sağlanan yönergelere dayalı olarak kapatılacak tutarı girer. Arnie bir satırı seçtiğinde, Arnie bu satır için geçerli iskonto tutarını ve alınan nakit iskontosu tutarını görür. Müşteri faturanın yarısını ödediğinden Arnie FTI-10042 için **Nakit iskontosu tutarı** alanındaki değerin **20,00** olduğunu ancak **Alınan nakit iskontosu** alanındaki tutarın **10,00** olduğunu görür. Ödeme tutarı 1.485,00'tir.
 
-| İşaret                     | Nakit iskontosu kullan | Fiş   | Hesap | Tarih      | Vade tarihi  | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Para Birimi | Kapatılacak tutar |
-|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Seçildi                 | Normal            | FTI-10040 | 4032    | 15/5/2015 | 15/6/2015 | 10040   | 1.000,00                             |                                       | ABD Doları      | 500,00           |
-| Seçildi                 | Normal            | FTI-10041 | 4032    | 25/6/2015 | 25/7/2015 | 10041   | 1.000,00                             |                                       | ABD Doları      | 495,00           |
-| Seçildi ve vurgulandı | Normal            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | ABD Doları      | 490,00           |
+| İşaret   | Nakit iskontosu kullan | Fiş   | Hesap | Tarih      | Vade tarihi  | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Para birimi | Kapatılacak tutar |
+|-------------|-------------------|-----------|---------|-----------|-----------|---------|-----------|------------------|----------|------------------|
+| Seçildi   | Normal       | FTI-10040 | 4032    | 15.05.2020 | 15.06.2020 | 10040   | 1,000.00        |               | ABD Doları      | 500.00           |
+| Seçildi                 | Normal            | FTI-10041 | 4032    | 25.06.2020 | 25.07.2020 | 10041   | 1,000.00     |     | ABD Doları      | 495,00           |
+| Seçildi ve vurgulandı | Normal            | FTI-10042 | 4032    | 25.06.2020 | 25.07.2020 | 10042   | 1,000.00     |         | ABD Doları      | 490,00           |
 
 Arnie, 1.485,00'lik ödeme tutarını, **Hareketleri kapatma** sayfasını açmadan önce el ile de girebilir. Arnie ödeme tutarını el ile girerse ve daha sonra her üç hareketi de seçerse ancak **Kapatılacak tutar** alanının değerini her bir hareket için ayarlamazsa, sayfayı kapattığında aşağıdaki iletiyi alır:
 
@@ -86,13 +86,13 @@ Arnie ödemenin sadece 1.485,00 olmasını istiyorsa **Hayır** seçeneğine tı
 
 Arnie, bilgileri **Müşteri hareketleri** sayfasında görür.
 
-| Fiş    | Hareket türü | Tarih      | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Kalan  | Para Birimi |
+| Fiş    | Hareket türü | Tarih      | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Bakiye  | Para birimi |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
-| FTI-10040  | Fatura          | 15/5/2015 | 10040   | 1.000,00                             |                                       | 0,00     | ABD Doları      |
-| FTI-10041  | Fatura          | 25/6/2015 | 10041   | 1.000,00                             |                                       | 1.000,00 | ABD Doları      |
-| FTI-10042  | Fatura          | 25/6/2015 | 10042   | 1.000,00                             |                                       | 505,10   | ABD Doları      |
-| ARP-10040  | Ödeme          | 29/6/2015 |         |                                      | 1.485,00                              | 0,00     | ABD Doları      |
-| DISC-10040 | Nakit iskontosu    | 29/6/2015 |         |                                      | 9,90                                  | 0,00     | ABD Doları      |
+| FTI-10040  | Fatura          | 15.05.2020 | 10040   | 1,000.00                             |                                       | 0,00     | ABD Doları      |
+| FTI-10041  | Fatura          | 25.06.2020 | 10041   | 1,000.00                             |                                       | 1,000.00 | ABD Doları      |
+| FTI-10042  | Fatura          | 25.06.2020 | 10042   | 1,000.00                             |                                       | 505,10   | ABD Doları      |
+| ARP-10040  | Ödeme          | 29.06.2020 |         |                                      | 1.485,00                              | 0,00     | ABD Doları      |
+| DISC-10040 | Nakit iskontosu    | 29.06.2020 |         |                                      | 9,90                                  | 0,00     | ABD Doları      |
 
 
 

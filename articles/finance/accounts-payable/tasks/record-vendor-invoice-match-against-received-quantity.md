@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8a3f1463821a43af0d8d5f15225944b080414e4c
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: debf8ca47666252633e67e2592acd5a4e4122403
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109930"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778694"
 ---
 # <a name="record-vendor-invoice-and-match-against-received-quantity"></a>Satıcı faturasını kaydetme ve teslim alınan miktarla eşleştirme
 
@@ -32,7 +32,7 @@ Bu yordam, USMF demo şirketini kullanır. Bu adımları borç hesapları yönet
 
 
 ## <a name="create-a-purchase-order"></a>Satınalma siparişi oluşturma
-1. Tüm satınalma siparişleri'ne gidin.
+1. **Tüm satınalma siparişleri**'ne gidin.
 2. **Yeni**'yi tıklatın.
 3. **Satıcı hesabı** alanında, açılır menü düğmesine tıklayarak aramayı açın.
 4. **Satıcı hesabı** alanına bir değer girin.

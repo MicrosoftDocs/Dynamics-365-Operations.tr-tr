@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: ff2232c9e1010ad1e2524df0c7ed4d771b489ed1
-ms.sourcegitcommit: 05069f7e5eb7a9335c0a62031d7663f88e4821df
+ms.openlocfilehash: d417b16706ac4389e40e25ffbbddde5ebac92db3
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "9752311"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775414"
 ---
 # <a name="proactive-quality-updates"></a>Proaktif kalite güncelleştirmeleri
 
@@ -112,7 +112,7 @@ Her bölgenin aktif olunmayan saatleri hakkında bilgi için bkz. [Bölgeye gör
 | 1. İstasyon | Merkez Kanada, Doğu Kanada, Merkez Fransa, Merkez Hindistan, Doğu Norveç, Batı İsviçre | 14 Ekim ile 17 Ekim 2022 ve 2 Kasım ile 5 Kasım 2022 tarihleri arasında | 13 Kasım-16 Kasım 2022 |
 | 2. İstasyon | Güney Fransa, Güney Hindistan, Batı Norveç, Kuzey İsviçre, Kuzey Güney Afrika, Doğu Avustralya, Güney Birleşik Krallık, Kuzey BAE, Doğu Japonya, Güneydoğu Avustralya, Güney Doğu Asya | 15 Ekim ile 18 Ekim 2022 ve 2 Kasım ile 5 Kasım 2022 tarihleri arasında | 13 Kasım-16 Kasım 2022 |
 | 3. İstasyon | Doğu Asya, Batı Birleşik Krallık, Batı Japonya, Güney Brezilya, Batı Avrupa, Doğu ABD, Merkez BAE | 16 Ekim ile 19 Ekim 2022 ve 2 Kasım ile 5 Kasım 2022 tarihleri arasında | 13 Kasım-16 Kasım 2022 |
-| 4. İstasyon | Kuzey Avrupa, Orta ABD, Batı ABD | 17 Ekim ile 20 Ekim 2022 ve 2 Kasım ile 5 Kasım 2022 tarihleri arasında | 13 Kasım-16 Kasım 2022 |
+| 4. İstasyon | Kuzey Avrupa, Orta ABD, Batı ABD | 17 Ekim ile 20 Ekim 2022 ve 2 Kasım ile 5 Kasım 2022 tarihleri arasında | 15 Kasım-18 Kasım 2022 |
 | 5. İstasyon | DoD, Hükümet Topluluk Bulutu, Çin | Planlanmadı | Planlanmadı |
 
 ### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a>Proaktif kalite güncelleştirmesi sürümü: 10.0.30

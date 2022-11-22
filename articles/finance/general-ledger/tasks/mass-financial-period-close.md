@@ -2,7 +2,7 @@
 title: Toplu mali dönem kapatma
 description: Bu makalede, bir dönemin nasıl beklemeye alındığı veya tek seferde bir dönemin ya da birden fazla tüzel kişiliğin nasıl kalıcı olarak kapatıldığı gösterilir.
 author: aprilolson
-ms.date: 08/16/2019
+ms.date: 11/16/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 18e2418777e4f8a5f10b946d7cdc217e5e264318
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8a85d512842b27f2d74507be16a8f2819f483e0d
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872455"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779839"
 ---
 # <a name="mass-financial-period-close"></a>Toplu mali dönem kapatma
 
@@ -26,7 +26,11 @@ ms.locfileid: "8872455"
 
 Bu makalede, bir dönemin nasıl beklemeye alındığı veya tek seferde bir dönemin ya da birden fazla tüzel kişiliğin nasıl kalıcı olarak kapatıldığı gösterilir. Ayrıca görev, kullanıcı grubunun belirli modüllere naklinin nasıl sınırlandırılacağını gösterir.
 
-1. Gezinti bölmesinde **Genel muhasebe > Dönem kapanışı > Genel muhasebe takvimleri**'ne gidin. Görüntülenen tüzel kişilikler listesinin sayfada seçilen mali takvime bağlı olduğunu unutmayın. Yalnızca seçilen mali takvimi kullanan tüzel kişilikler görüntülenecektir.
+1. Gezinti bölmesinde **Genel muhasebe > Dönem kapanışı > Genel muhasebe takvimleri**'ne gidin. 
+
+>[!NOTE]
+> Görüntülenen tüzel kişilikler listesi sayfada seçilen mali takvime bağlıdır. Yalnızca seçilen mali takvimi kullanan tüzel kişilikler görüntülenecektir.
+
 2. **Düzenle** öğesini seçin.
 3. Durumu değiştirmek istediğiniz dönemi seçin.
 4. Durumu güncelleştirmek istediğiniz tüzel kişilikleri seçin. Kılavuzun sol üst kısmındaki onay işaretini seçerek tüm tüzel kişilikleri hızlı bir şekilde seçebilirsiniz.  
@@ -34,7 +38,7 @@ Bu makalede, bir dönemin nasıl beklemeye alındığı veya tek seferde bir dö
 6. **Uygulama** modülünde, durumunu güncelleştirmek istediğiniz modülü seçin. **Seç**'e tıklayın.
 7. **Erişim** düzeyinde **Tümü**, **Hiçbiri** veya belirli bir kullanıcı grubunu seçin. **Seç**'e tıklayın.  
 - **Tümü** - Dönem açıksa, modülü düzenleme erişimi olan tüm kullanıcılar deftere nakil yapabilir. 
-- **Hiçbiri** - Dönem açıksa, kullanıcılar modüle nakil yapamaz. Belirli bir kullanıcı grubu, dönem açıksa, yalnızca gruptaki modülde deftere nakil yapabilecek kullanıcıları gösterir.  
+- **Hiçbiri** - Dönem açıksa, kullanıcılar modüle nakledilemez. Belirli bir kullanıcı grubu, dönem açıksa, yalnızca gruptaki modülde deftere nakil yapabilecek kullanıcıları gösterir.  
 8. **Güncelleştir**'i seçin. 
 9. Durumu güncelleştirmek için başka bir dönem seçin.
 10. Durumunu güncelleştirmek istediğiniz tüzel kişilikleri seçin.

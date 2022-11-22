@@ -2,7 +2,7 @@
 title: 'Maliyet öğeleri oluşturma  '
 description: Maliyet muhasebesinde maliyet öğeleri oluşturmanın birkaç yolu vardır.
 author: kfend
-ms.date: 08/29/2018
+ms.date: 08/29/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: CAMDimension, CAMAXMainAccountDimensionMemberProviderConfiguration, CAMDimensionMember
-ms.openlocfilehash: 9ca826e54171a3dc3582dc5ceb716ac009d45674
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0254f486816e852bcda52f90fe4da65c413c7032
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280735"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779702"
 ---
 # <a name="create-cost-elements"></a>Maliyet öğeleri oluşturma   
 
@@ -28,31 +28,31 @@ Maliyet muhasebesinde maliyet öğeleri oluşturmanın birkaç yolu vardır. Bu 
 
 
 ## <a name="create-new-cost-elements"></a>Yeni maliyet öğeleri oluşturma
-1. Maliyet muhasebesi > Boyutlar > Maliyet öğesi boyutları öğesine gidin.
-2. Yeni'ye tıklayın.
-3. İsim alanına bir değer yazın.
-4. Boyut üyeleri için veri bağlayıcı alanına bir değer girin veya bir değer seçin.
-5. Açıklama alanına bir değer girin.
-6. Kaydet'e tıklayın.
+1. **Maliyet muhasebesi > Boyutlar > Maliyet öğesi boyutları**'na gidin.
+2. **Yeni**'yi tıklatın.
+3. **Ad** alanına bir değer yazın.
+4. **Boyut üyeleri için veri bağlayıcı** alanına bir değer girin veya bir değer seçin.
+5. **Tanım** alanına bir değer girin.
+6. **Kaydet**'e tıklayın.
 
 ## <a name="configure-the-data-connector"></a>Veri bağlayıcıyı yapılandırma
-1. Boyut üyesi sağlayıcısını yapılandır öğesine tıklayın.
-2. Hesap planı alanına bir değer girin veya bir değer seçin.
-    * Paylaşılan hesap planını kullanmak için Paylaştırılmış öğesini seçin.  
-3. Yeni'ye tıklayın.
+1. **Boyut üyesi sağlayıcısını yapılandır** öğesine tıklayın.
+2. **Hesap planı** alanına bir değer girin veya bir değer seçin.
+    * Paylaşılan hesap planını kullanmak için **Paylaşılan** öğesini seçin.  
+3. **Yeni**'yi tıklatın.
 4. Listede, seçili satırı işaretleyin.
     * Hesaplara ölçütlerinizi karşılayacak filtreler uygulayabilirsiniz.  
-5. Aba hesaptan alanına bir değer girin veya bir değer seçin.
-6. Ana hesaba alanına bir değer girin veya bir değer seçin.
-7. Tamam'a tıklayın.
+5. **Ana hesaptan** alanına bir değer girin veya bir değer seçin.
+6. **Ana hesaba** alanına bir değer girin veya bir değer seçin.
+7. **Tamam**'a tıklayın.
 
 ## <a name="import-main-accounts"></a>Ana hesapları içe aktar
-1. Boyut üyelerini içe aktar öğesine tıklayın.
+1. **Boyut üyelerini içe aktar** öğesine tıklayın.
     * Ana hesapları Maliyet muhasebesine aktarılır ve maliyet öğesi olarak kullanılır.  
-2. Tamam'a tıklayın.
+2. **Tamam**'a tıklayın.
 
 ## <a name="view-the-imported-accounts-as-cost-elements"></a>İçe aktarılan hesapları maliyet öğesi olarak görüntüleme
-1. Boyut üyelerini görüntüle öğesine tıklayın.
+1. **Boyut üyelerini görüntüle** öğesine tıklayın.
     * Genel muhasebe hesaplarını işinizde maliyetlerin akış gerçekleştirebileceği maliyet öğeleri olarak görüntüleyin.  
 
 

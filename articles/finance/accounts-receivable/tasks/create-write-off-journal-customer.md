@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7da01759fe4aaa7beb1719ede51ac0abfc3b404c
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 21aaeda413e767fed1815423b0262127c6692bb6
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713685"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775312"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>Müşteri için silme günlüğü oluşturma
 
@@ -48,9 +48,9 @@ Bu görev kılavuzunda, silme işlemleri parametrelerinin ve ardından silme har
 7. **Gezinti bölmesi > Modüller > Genel muhasebe > Günlük girişleri > Genel günlükler**'e gidin.
 8. Silme işleminizi içeren günlüğün günlük toplu iş numarasını seçin. Müşteri bakiyesini ters kaydetmek için bir satır oluşturulur. Silme işlemini silme hesabına nakletmek için bir veya birden fazla satır oluşturulur.  
 9. Sayfayı kapatın.
-10. Sayfayı kapatın.
 
-## <a name="write-off-transactions-from-the-collections-form"></a>Hareketleri tahsilatlar formunda silin.
+
+## <a name="write-off-transactions-from-the-collections-page"></a>Hareketleri tahsilatlar sayfasından silme
 1. **Alacak ve tahsilatlar > Tahsilatlar > Yaşlandırılmış bakiyeler**'e gidin.
 2. Silmek istediğiniz hareketlerin sahibi olan müşterinin adını seçin. Örneğin Cave Wholesales (US-004) adını seçin.
 3. İlk hareketin satırını işaretleyin.
@@ -63,7 +63,7 @@ Bu görev kılavuzunda, silme işlemleri parametrelerinin ve ardından silme har
 10. **Genel muhasebe > Günlük girişleri > Genel günlükler**'e gidin.
 11. Silme işleminizi içeren günlüğün günlük toplu iş numarasını seçin. Müşteri bakiyesini ters kaydetmek için bir satır oluşturulur. Silme işlemini silme hesabına nakletmek için bir veya birden fazla satır oluşturulur.  
 12. Sayfayı kapatın.
-13. Sayfayı kapatın.
+
 
 ## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a>Bir faturayı Açık müşteri faturaları sayfasında silin
 1. **Gezinti bölmesi > Modüller > Alacak hesapları > Faturalar > Açık müşteri faturaları**'na gidin.

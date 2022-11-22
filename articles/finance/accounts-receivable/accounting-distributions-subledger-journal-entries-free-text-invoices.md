@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e2b6d75034c06704cad4cbc800ce3311ef5330e
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: f5120c4e75e821776201d5add2d498feb94d0297
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712300"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778424"
 ---
 # <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>Serbest metin faturaları için muhasebe dağılımları ve yardımcı defter girişleri
 
@@ -28,11 +28,11 @@ ms.locfileid: "8712300"
 
 Muhasebe dağılımları, bir tutarın, örneğin gelirin, verginin veya masrafların bir serbest metin faturasında nasıl hesaba katılacağını tanımlamak için kullanılır. Serbest metin faturası günlüğe kaydedildiğinde hesaba katılması gereken tüm tutarlar, bir veya daha fazla muhasebe dağıtımına sahip olacaktır.
 
-## <a name="accounting-distributions"></a>Muhasebe dağılımları
+## <a name="accounting-distributions"></a>Muhasebe dağıtımları
 
-Serbest metin faturası sayfasında aşağıdaki düğmeleri kullanarak serbest metin faturası üzerindeki her bir satır için muhasebe dağılımlarını görüntüleyebilir ve değiştirebilirsiniz
+**Serbest metin faturası** sayfasında aşağıdaki düğmeleri kullanarak serbest metin faturası üzerindeki her bir satır için muhasebe dağılımlarını görüntüleyebilir ve değiştirebilirsiniz
 
--   **Tutarları dağıtmak**—Vergiler ve masraflar gibi tek bir satır ve tüm alt satırların muhasebe dağılımlarını görüntüleyip, değiştirin. Alt satır için muhasebe dağılımlarını da doğrudan satış vergisi hareketleri sayfasından veya Gider hareketlerini görüntüleyebilir ve değiştirebilirsiniz.
+-   **Tutarları dağıtmak**—Vergiler ve masraflar gibi tek bir satır ve tüm alt satırların muhasebe dağılımlarını görüntüleyip, değiştirin. Alt satır için muhasebe dağılımlarını da doğrudan **Satış vergisi hareketleri** sayfasından veya **Gider hareketleri** sayfasından görüntüleyebilir ve değiştirebilirsiniz.
     -   Serbest metin faturası başlığındaki tutarlar, örneğin gider veya para birimi yuvarlama tutarlarını, değiştirin.
     -   Serbest metin faturası satır tutarlarını değiştirme
 -   **Dağılımları görüntülemek**— Belge üzerindeki tüm satırların muhasebe dağılımlarını görüntüleyin. Muhasebe dağılımlarını bu görünümden değiştiremezsiniz.
@@ -89,7 +89,7 @@ Serbest metin faturası girdiğinizde, her tutar aşağıdaki şekilde dağılı
 </tr>
 <tr class="odd">
 <td>Serbest metinli fatura iskonto tutarı</td>
-<td>Ana hesap müşteri nakit iskontolarının sayfa alanında iskontoları.</td>
+<td>Nakit iskontoları sayfasındaki Müşteri iskontoları alanı için ana hesap.</td>
 <td><ol>
 <li>Ana hesap bir tahsisat hesabıysa, tahsisat hesap tanımından varsayılan değeri kullanın.</li>
 <li>Ana hesap tahsisat hesabı değilse, serbest metin faturası satırındaki mali boyut varsayılan şablonunu kullanın.</li>
@@ -120,7 +120,7 @@ Serbest metin faturası girdiğinizde, her tutar aşağıdaki şekilde dağılı
 </table>
 
 ## <a name="distributing-taxes"></a>Vergileri dağıtma
-Vergiler için muhasebe dağılımları, vergiler hesaplanana dek oluşturulamaz. Satış vergilerini hesaplamak için serbest metin faturası formunda aşağıdaki görevleri tamamlamanız gerekir:
+Vergiler için muhasebe dağılımları, vergiler hesaplanana dek oluşturulamaz. Satış vergilerini hesaplamak için **serbest metin faturası** sayfasında aşağıdaki görevleri tamamlamanız gerekir:
 -   Satış vergisini görüntüleyin.
 -   Fatura toplamını görüntüleyin.
 -   Nakit akışı tahminini görüntüleyin.

@@ -2,28 +2,23 @@
 title: Müşteri rehberliğine genel bakış
 description: Bu makale, mağaza uygulamasında kullanılabilen yeni müşteri rehberliği yeteneklerine genel bir bakış sağlar.
 author: bebeale
-ms.date: 02/01/2021
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.custom:
 - "260624"
 - intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
-ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 3d60004367840208f239d69220b3c181109f83d8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc7daeb27c25efa21fd34b0456af8892074056d5
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885623"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785058"
 ---
 # <a name="clienteling-overview"></a>Müşteri rehberliğine genel bakış
 
@@ -31,6 +26,11 @@ ms.locfileid: "8885623"
 
 
 Çoğu perakendeci, özellikle birinci sınıf uzman perakendeciler önemli müşterileriyle uzun vadeli ilişkiler kurabilecek satış yetkilileri ister. Yetkililerden, bu müşterilerin tercih ettiklerini ve etmediklerini, satın alma geçmişlerini, ürün tercihlerini ve yıldönümleriyle doğum günleri gibi önemli tarihlerini bilmeleri beklenir. Yetkililer bu bilgileri yakalayabilecekleri ve gerektiğinde kolayca bulabilecekleri bir yere ihtiyaç duyarlar. Bu bilgiler tek bir görünümde kullanılabilirse yetkililer, belirli ölçütleri karşılayan müşterileri kolayca hedefleyebilir. Örneğin, çanta alışverişi yapmayı tercih eden tüm müşterileri veya doğum günü ya da yıldönümü gibi yaklaşan önemli bir olayı olan müşterileri bulabilirler.
+
+Aşağıdaki videoda Dynamics 365 Commerce'ta örnek bir müşteri rehberliği senaryosu açıklanmaktadır.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bMSP]
 
 ## <a name="client-book"></a>Müşteri defteri
 

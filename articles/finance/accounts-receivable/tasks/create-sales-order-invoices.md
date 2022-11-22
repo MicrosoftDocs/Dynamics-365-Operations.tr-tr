@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesEditLines,  SysQueryForm, SysRecurrence
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ceda837cae563dab68969cb9f05de113079d4495
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3ff76eac54da6621d999d9b629fac920ba8de294
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910272"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778397"
 ---
 # <a name="create-sales-order-invoices"></a>Satış siparişi faturaları oluşturma
 
@@ -32,12 +32,12 @@ Bu makalede, fatura birleştirme ve toplu işleme dahil bir satış siparişinin
 2. Listeden bir satış siparişi seçin. 
 3. **Eylem Bölmesinde**, **Fatura > Oluştur > Fatura** öğesine tıklayın. Bu satış siparişiyle ilişkilendirilmiş birden fazla sevk irsaliyesi bulunmaktadır. Sevk irsaliyesi numarası yerine *birden fazla* sözcüğü görüntülenir.  
 4. **Parametreler** bölümünü genişletin.
-    - Faturanın deftere nakledilebilmesi için Nakil öğesinin Evet olarak ayarlanması gerekir. Deftere nakli devre dışı bırakıp yalnızca faturayı yazdırmayı da seçebilirsiniz. Ancak, fatura yerine bir proforma fatura hazırlayarak da aynı sonucu elde edebilirsiniz.  
+    - Faturanın deftere nakledilebilmesi için Nakil öğesinin **Evet** olarak ayarlanması gerekir. Deftere nakli devre dışı bırakıp yalnızca faturayı yazdırmayı da seçebilirsiniz. Ancak, fatura yerine bir proforma fatura hazırlayarak da aynı sonucu elde edebilirsiniz.  
     - Bu seçenek, toplu işler için kullanılır. Toplu iş çalıştırıldığında, sorgu çalıştırılır.
-5. **Yazdırma** alanında 'Sonra'yı seçin.
+5. **Yazdırma** alanında **Sonra**'yı seçin.
 6. **Fatura yazdır** için **Evet**'i seçin. Yazdırma yönetimi, faturanın birden çok kopyasını yazdırabilir ve aynı zamanda faturayı bir PDF dosyası olarak e-posta yoluyla gönderebilir.  
-7. **Masrafları yazdır** alanında 'Özetle'yi seçin.
-8. **Kredi limitini denetle** alanında 'Bakiye'yi seçin.
+7. **Masrafları yazdır** alanında **Özetle**'yi seçin.
+8. **Kredi limitini denetle** alanında **Bakiye**'yi seçin.
 9. **İptal**'e tıklayın
 
 ## <a name="combine-orders-into-a-single-invoice"></a>Siparişleri tek bir faturada birleştirme
@@ -46,8 +46,8 @@ Bu makalede, fatura birleştirme ve toplu işleme dahil bir satış siparişinin
 3. Aynı müşterideki birden çok açık satış siparişini seçin.
 4. **Eylem Bölmesinde**, **Fatura > Oluştur > Fatura** öğesine tıklayın.
 5. **Parametreler** bölümünü genişletin.
-6. **Miktar** alanında "Tümü"nü seçin. Genel bakış sekmesinde iki fatura bulunmaktadır. Şimdi bunları tek bir faturada birleştirin.  
-7. **Özet güncelleştirme kapsamı** alanında 'Fatura hesabı'nı seçin.
+6. **Miktar** alanında **Tümü** seçeneğini seçin. Genel bakış sekmesinde iki fatura bulunmaktadır. Şimdi bunları tek bir faturada birleştirin.  
+7. **Özet güncelleştirme kapsamı** alanında **Fatura hesabı**'nı seçin.
 8. Satış siparişlerini tek bir faturada birleştirmek için **Düzenle**'ye tıklayın. İki satış siparişi artık tek bir fatura birleştirilmiştir.   
 9. **İptal**'e tıklayın
 10. **Evet** seçeneğini tıklatın.

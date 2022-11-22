@@ -13,12 +13,12 @@ ms.author: mrolecki
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
 ms.search.form: ''
-ms.openlocfilehash: 88145cdccfe3f1d0d3de4e31dfa519b27df6550a
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: e4ccc8ac9b5374ca0713167a17b8704727c687fd
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643698"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775254"
 ---
 # <a name="customer-aging-snapshots"></a>Müşteri yaşlandırma anlık görüntüleri
 
@@ -31,9 +31,10 @@ Yaşlandırma anlık görüntüsü bilgileri,**Yaşlandırılmış bakiyeler** l
 **Müşteri alacak ve tahsilatları** çalışma alanında aynı zamanda müşteri yaşlandırması da görüntülenir. Daha fazla bilgi için bkz. [Power BI içerikleri alacak ve tahsilatlar yönetimi](credit-collections-power-bi.md).
 
 > [!NOTE]
-> Yaşlandırma anlık görüntüsü oluşturmak için gereken süreyi azaltmak için **Özellik yönetimi** çalışma alanındaki şu özellikleri etkinleştirin: **Müşteri yaşlandırma performansı geliştirmesi** 
-> **Müşteri havuzları ile müşteri yaşlandırma performansı geliştirmesi**  
-> Her iki özellik de etkin olduğu zaman **Müşteri havuzları**, yaşlandırma anlık görüntüsü oluştururken kullanılabilir. 
+> Yaşlandırma anlık görüntüsü oluşturmak için gereken süreyi azaltmak üzere **Özellik yönetimi** çalışma alanında aşağıdaki özellikleri etkinleştirin: 
+> - **Müşteri yaşlandırma performans geliştirmesi** 
+> - **Müşteri havuzu ile müşteri yaşlandırma performansı iyileştirmesi**  
+>Her iki özellik de etkin olduğu zaman **Müşteri havuzları**, yaşlandırma anlık görüntüsü oluştururken kullanılabilir. 
 
 Bir müşteri yaşlandırma anlık görüntüsü oluşturduğunuzda, bununla ilgili bilgileri girmek için aşağıdaki alanları kullanın:
 

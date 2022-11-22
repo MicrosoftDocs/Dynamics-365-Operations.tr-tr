@@ -2,25 +2,25 @@
 title: Yıl sonu kapanışı
 description: Bu makalede, genel muhasebe yıl sonu kapatma işlemini çalıştırmak için gerekli ayarlar ve adımlar açıklanmaktadır.
 author: kweekley
-ms.date: 12/06/2021
+ms.date: 11/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 032c572ec7b29bb6b2823ddde0c4fa76e5f8fcf1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e1c7722b560246fb597f0b7f91a70afecf69e22
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883227"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779756"
 ---
 # <a name="year-end-close"></a>Yıl sonu kapanışı
 
@@ -62,7 +62,7 @@ Yıl sonu kapanış işlemini çalıştırmadan önce, aşağıdakiler için aya
 
 ## <a name="define-year-end-close-templates"></a>Yıl sonu kapanış şablonlarını tanımlama
 
-Sistem yapılandırıldıktan sonra, yıl sonu kapanış işlemi çalıştırılabilir. **Yıl sonu kapanış şablonu kurulumu** sayfası üzerinde, yıl sonu kapanışının çalıştırılacağı tüzel kişilikler grubu için bir şablon tanımlanabilir. Bu şablon, her yıl sonu kapanışında yeniden kullanılır ancak kuruluşunuz değişim gösterirse değiştirilebilir.
+Yapılandırma tamamlandıktan sonra yıl sonu kapanış işlemi çalıştırılabilir. **Yıl sonu kapanış şablonu kurulumu** sayfası üzerinde, yıl sonu kapanışının çalıştırılacağı tüzel kişilikler grubu için bir şablon tanımlanabilir. Bu şablon, her yıl sonu kapanışında yeniden kullanılır ancak kuruluşunuz değişim gösterirse değiştirilebilir.
 
 Öncelikle, şablon için **Grup adı** ayarlayın ve mali takvimi seçin. Grup adı, tüzel varlıkların dahil olduğu grubu tanımlamalıdır. Tüzel kişilik gruplarını belirlerken, tüzel kişiliklerin yalnızca aynı mali takvim seçilirse aynı gruba dahil edilebileceğini unutmayın. Örneğin, şablonlar coğrafyaya göre ayarlanabilir ve Kuzey Amerika tüzel kişilikleri, Avrupa, Orta Doğu ve Afrika (EMEA) tüzel kişilikleri ile Asya-Pasifik (APAC) tüzel kişilikleri için ayrı gruplar oluşturulabilir.
 

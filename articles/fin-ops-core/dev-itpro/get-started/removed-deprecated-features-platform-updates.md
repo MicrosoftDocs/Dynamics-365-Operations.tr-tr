@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b2eec4dd71baef54877b4139a331288bf37f4960
-ms.sourcegitcommit: e4b6521337dfff3515f70086b0125d4c23308c71
+ms.openlocfilehash: 7d74efe7aa4f3a30c116253d647b9d7bec3b508d
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262313"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785112"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Kaldırılan veya kullanım dışı bırakılan platform özellikleri
 
@@ -51,7 +51,7 @@ Finans ve operasyon uygulamalarındaki nesneler hakkında ayrıntılı bilgiye [
 | Servis talepleri | No. | Evet | Evet: [Self servis dağıtımlar](../deployment/infrastructure-stack.md) |
 | SharePoint tümleştirmesi | Evet | Evet | No. |
 | Yapılandırma ve veri yöneticisi | No. | Evet | No. |
-| İşlem verileri paketleri | No. | Evet | Evet: Veri İçe/Dışa Aktarma Çerçevesi (DIXF) |
+| İşlem verileri paketleri | No. | Evet | Evet: [Veri İçe/Dışa Aktarma Çerçevesi (DIXF)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job) |
 | Ortamı yükseltme | No. | Evet | Evet: [One Version](../lifecycle-services/oneversion-overview.md) hizmet güncelleştirmeleri mevcuttur. |
 | Altyapı tahmin aracı | Evet | No. | No. |
 | Lisans boyutlandırma | Evet | No. | No. |
@@ -71,10 +71,10 @@ Finans ve operasyon uygulamalarındaki nesneler hakkında ayrıntılı bilgiye [
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Geçerli güvenlik protokollerimize uymak için aşağıdaki şifre paketleri listesini kaldırıyoruz.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
-| **Başka bir özellikle mi değiştirildi?**   | 30 Kasım 2022 tarihinden başlayarak, müşteriler yalnızca [standart şifre paketlerimizi](/power-platform/admin/server-cipher-tls-requirements) kullanabilecektir. Bu değişiklik, sunucularımızla iletişim kuran istemcilerinizi ve sunucularınızı etkiler. Örneğin, standart şifre paketlerimize uymayan üçüncü taraf tümleştirmelerinizi etkileyebilir. |
+| **Başka bir özellikle mi değiştirildi?**   | 31 Ocak 2023 tarihinden başlayarak, müşteriler yalnızca [standart şifre paketlerimizi](/power-platform/admin/server-cipher-tls-requirements) kullanabilecektir. Bu değişiklik, sunucularımızla iletişim kuran istemcilerinizi ve sunucularınızı etkiler. Örneğin, standart şifre paketlerimize uymayan üçüncü taraf tümleştirmelerinizi etkileyebilir. |
 | **Etkilenen ürün alanları**         | Finans ve Operasyon uygulamaları |
 | **Dağıtım seçeneği**              | Bulut dağıtımları |
-| **Çalıştırma Durumu**                         | Kaldırıldı. Müşteriler 30 Kasım 2022 tarihinden önce sunucularını yükseltmelidir. TLS Şifre Paketi sırasını yapılandırma hakkında daha fazla bilgi için bkz. [Aktarım Katmanı Güvenliğini (TLS) yönetme](/windows-server/security/tls/manage-tls).  |
+| **Çalıştırma Durumu**                         | Kaldırıldı. Müşteriler 31 Ocak 2023 tarihinden önce sunucularını yükseltmelidir. TLS Şifre Paketi sırasını yapılandırma hakkında daha fazla bilgi için bkz. [Aktarım Katmanı Güvenliğini (TLS) yönetme](/windows-server/security/tls/manage-tls).  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Haziran 2022'den itibaren geçerli olmak üzere özellik kullanımdan kaldırma bildirimi

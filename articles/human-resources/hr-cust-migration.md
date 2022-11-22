@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63b08a8493702cf319aa078ef6aa787e2094be87
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
+ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9733466"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9760375"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>Dynamics 365 Human Resources müşteri geçişi
 
@@ -38,13 +38,12 @@ Müşteri geçişi, müşteri veritabanının finans ve operasyonlar alt yapıs�
 
 ### <a name="dataverse-environment-backup-sandbox"></a>Dataverse ortam yedeği (Korumalı alan)
 
-1. İsteğe bağlı ancak önerilen: Human Resources üretim ortamının bir kopyasını kullanarak varolan Human Resources korumalı alan ortamını yenileme.
-2. Power Platform yönetici merkezini kullanarak [yeni bir Dataverse ortamı oluşturma](/power-platform/admin/create-environment#create-an-environment-with-a-database).
+ - İsteğe bağlı ancak önerilen: Human Resources üretim ortamının bir kopyasını kullanarak varolan Human Resources korumalı alan ortamını yenileme.
+ - Power Platform yönetici merkezini kullanarak yeni bir Dataverse ortamı oluşturma.
+ - Bağımsız Human Resources uygulaması ile bağlantılı varolan Dataverse ortamını, önceki adımda oluşturduğunuz ortama kopyalayın.
 
-    > [!NOTE]
-    > Veritabanı eklediğinizde, **Dynamics 365 uygulamalarını etkinleştir** seçeneğinin **Evet** olarak ayarlandığından emin olun.
-
-3. Bağımsız Human Resources uygulaması ile bağlantılı [varolan Dataverse ortamını](/power-platform/admin/copy-environment), önceki adımda oluşturduğunuz ortama kopyalayın.
+> [!NOTE]
+> Veritabanı eklediğinizde, **Dynamics 365 uygulamalarını etkinleştir** seçeneğinin **Evet** olarak ayarlandığından emin olun. Ayrıntılı bilgi için bkz. [Power Platform ortamı hazırlama](hr-cust-migration.md#prepare-a-power-platform-environment)
 
 ### <a name="dataverse-capacity"></a>Dataverse kapasitesi
 
@@ -89,9 +88,9 @@ Yeni bir Lifecycle Services projesi oluşturulduktan ve proje ekleme işlemi tam
 #### <a name="prepare-a-power-platform-environment"></a>Power Platform ortamını hazırlama
 
 > [!NOTE]
-> Bu adım yalnızca korumalı alan ortam geçişi için geçerlidir. Üretim ortamını geçirirken, üretim ortamına iliştirilmiş varolan Power Platform yönetim merkezi ortamı ileri taşınır.
+> Bu adım yalnızca korumalı alan ortam geçişi için geçerlidir. Üretim ortamını geçirirken, üretim ortamına iliştirilmiş varolan Power Platform yönetim merkezi ortamı ileri taşınır. Veritabanı eklediğinizde, **Dynamics 365 uygulamalarını etkinleştir** düğmesinin **Evet** olarak ayarlandığından emin olun. 
 
-- Power Platform Yönetim Merkezinde, [korumalı alan geçişi için kullanılacak bir Power Platform ortamı oluşturun](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center) veya varolan bir ortam seçin.
+- Power Platform Yönetim Merkezinde, korumalı alan geçişi için kullanmak için [veritabanı ile bir ortam oluşturun](/power-platform/admin/create-environment#create-an-environment-with-a-database) veya varolan bir ortamı seçin.
 - Eşleme için kullanılacak Power Platform ortamını yenilemek için [ortam kopyalayın](/power-platform/admin/copy-environment).
 
 #### <a name="migrate-the-sandbox-environment"></a>Korumalı alan ortamını geçirme
