@@ -1606,7 +1606,9 @@
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
                         - name: Polonya için Elektronik Faturalamayı kullanmaya başlama
                           href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
-                        - name: Suudi Arabistan için Elektronik faturalamayı kullanmaya başlama
+                        - name: Suudi Arabistan için Elektronik faturalamayı kullanmaya başlama - Birinci aşama
+                          href: localizations/e-invoicing-sa-get-started-phase-one.md
+                        - name: Suudi Arabistan için Elektronik faturalamayı kullanmaya başlama - İkinci aşama
                           href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
                         - name: Suudi Arabistan'da Elektronik Faturalamayı ekleme
                           href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance

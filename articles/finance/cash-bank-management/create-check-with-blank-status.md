@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 151991b399a30087c484262706e414e4e294bf7f
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 86020d9088d8135c83716128a77090608536a78f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715440"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804033"
 ---
 # <a name="create-checks-that-have-blank-status"></a>Boş durumunda olan çek oluşturma
 
@@ -35,7 +35,7 @@ Bu makalede, boş çeklerin nasıl oluşturulacağı açıklanmaktadır. Örneğ
 
 **Çekler** sayfasını açmak için **Nakit ve banka yönetimi \> Banka hesapları \> Banka hesapları**'na gidin ve ardından Eylem Bölmesi'ndeki **Ödemeleri yönetme** sekmesinin **İlgili bilgiler** grubunda **Çekler**'i seçin. Alternatif olarak, **Nakit ve banka yönetimi \> Sorgular ve raporlar \> Çekler**'e gidin.
 
-Ardından **Boş** durumunda olan çek oluşturmak için Eylem Bölmesi'nde **Boş çek oluştur**'u seçin. Sistem boş çek oluştururken ilişkili banka hesabı geçici olarak devre dışı bırakılır. Bu davranış, boş çekler oluşturulurken aynı anda ödemelerin de oluşturulması riskini azaltır. İşlem tamamlandığında ilişkili banka hesabı yeniden etkinleştirilir.
+Ardından **Boş** durumunda olan çek oluşturmak için Eylem bölmesinde **Boş çek oluştur**'u seçin. Boş çekler oluşturulurken ilişkili banka hesabı geçici olarak devre dışı bırakılır. Bu davranış, boş çekler oluşturulurken aynı anda ödemelerin de oluşturulması riskini azaltır. İşlem tamamlandığında ilişkili banka hesabı yeniden etkinleştirilir.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

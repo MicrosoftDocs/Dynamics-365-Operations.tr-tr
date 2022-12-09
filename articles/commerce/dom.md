@@ -1,26 +1,21 @@
 ---
 title: Dağıtılmış sipariş yönetimi (DOM)
-description: Bu makalede, Dynamics 365 Commerce uygulamasında dağıtılmış sipariş yönetimi (DOM) işlevleri açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce uygulamasında dağıtılmış sipariş yönetimi (DOM) işlevleri açıklanmaktadır.
 author: josaw1
-ms.date: 02/08/2022
+ms.date: 11/16/2022
 ms.topic: index-page
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
-ms.dyn365.ops.version: ''
-ms.openlocfilehash: a18441c44869e0e95cf79e35045dd7eacca7e43d
-ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.openlocfilehash: cfb89544580141ed397d27886f51fd0f1ac138d2
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9764194"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785195"
 ---
 # <a name="distributed-order-management-dom"></a>Dağıtılmış sipariş yönetimi (DOM)
 
@@ -32,11 +27,16 @@ DOM, bir tedarik zinciri ağında sipariş karşılamanın en üst düzeye çık
 
 DOM, hem toplu iş düzeyinde hem de tek tek siparişler düzeyinde optimizasyonlar gerçekleştirmek için karma tamsayılı programlama (MIP) ve tahmine dayalı analiz modellerini kullanır. Bu özellik, perakendecilerin birbiriyle çelişen birçok sipariş karşılama ihtiyacını dengelemek için tanımlanmış kuralları kullanmasına olanak tanır. Ürün siparişi karşılamanın birden fazla kanaldan gelebildiği modern bir tedarik ağında, kuruluşların sipariş değişikliklerine, tedarikçi bulunabilirliği sorunlarına ve talepteki ani artışlara hızla uyum sağlaması gerekir. DOM, işletme kısıtlamalarına ve siparişleri en yakın kaynaklardan karşılayarak maliyetleri en aza indirme gibi hedeflere dayalı olarak, sipariş karşılamayı en üst düzeye çıkarmanıza ve ürün teslimatı için doğru kaynakları bulmanıza yardımcı olur. DOM, sipariş karşılamayı optimize etmek için ürün siparişi karşılama kaynakları ile sevkiyat hedefleri arasındaki mesafeyi, optimizasyon hedefleri olarak tanımlanan maliyet faktörlerini ve sipariş karşılama düğümlerindeki stok gibi kısıtlamalar olarak tanımlanan kuralları kullanır. DOM, işletmelerin işletme türüne veya tüketici segmentine bağlı olarak farklı optimizasyon stratejileri yürütmesini sağlayan birden çok profilin tanımlanmasına olanak tanır. 
 
-Aşağıdaki şekilde, DOM sistemindeki bir satış siparişinin yaşam döngüsü gösterilmektedir.
+Aşağıdaki şekilde, dağıtılmış sipariş yönetimi sistemindeki bir satış siparişinin yaşam döngüsü gösterilmektedir.
 
-![DOM bağlamında satış siparişi yaşam döngüsü.](./media/flow.png "DOM bağlamında satış siparişi yaşam döngüsü")
+![Dağıtılmış sipariş yönetimi bağlamında satış siparişi yaşam döngüsü.](./media/flow.png "DOM bağlamında satış siparişi yaşam döngüsü")
 
-## <a name="set-up-dom"></a>DOM'u ayarlama
+Aşağıdaki video, Dynamics 365 Commerce'taki dağıtılmış sipariş yönetimi özelliklerine genel bakış sağlar.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bRYl]
+
+## <a name="set-up-dom"></a>Dağıtılmış sipariş yönetimi ayarlama
 
 1. **Sistem yönetimi \> Kurulum \> Lisans yapılandırma** seçeneğine gidin.
 2. **Yapılandırma anahtarları** sekmesinde **Commerce** düğümünü genişletin ve ardından **Dağıtılmış Sipariş Yönetimi** onay kutusunu seçin.

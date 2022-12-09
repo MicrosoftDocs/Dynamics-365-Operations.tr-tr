@@ -570,6 +570,8 @@
               href: hr-leave-and-absence-suspend-leave.md
             - name: Devamsızlık izni isteği
               href: hr-employee-self-service-request-leave-of-absence.md
+            - name: Açık uçlu devamsızlık izni oluşturma
+              href: hr-create-open-leave-absence.md
             - name: Personel iznini yönetme
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: İzin ve devamsızlık analizini görüntüleme

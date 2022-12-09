@@ -1010,8 +1010,24 @@
                   href: manage-robots-txt-files.md
                 - name: URL yeniden yönlendirmelerini toplu olarak yükleme
                   href: upload-bulk-redirects.md
-                - name: Commerce'te B2C kiracısı ayarlama
-                  href: set-up-B2C-tenant.md
+                - name: Commerce'ta B2C kiracısı ayarlama
+                  items:
+                    - name: B2C kiracısı ayarlama
+                      href: set-up-B2C-tenant.md
+                    - name: Azure AD B2C kiracısı oluşturma veya mevcut bir kiracıya bağlama
+                      href: create-link-aad-b2c-tenant.md
+                    - name: B2C uygulaması oluşturma
+                      href: create-b2c-app.md
+                    - name: Kullanıcı akış ilkeleri oluşturma
+                      href: create-user-flow-policies.md
+                    - name: Sosyal kimlik sağlayıcıları ekleme
+                      href: add-social-identity-providers.md
+                    - name: Commerce headquarters'ı Azure AD B2C bilgileriyle güncelleştirme
+                      href: update-hq-aad-b2c-info.md
+                    - name: Site oluşturucuda B2C kiracınızı yapılandırma
+                      href: config-b2c-tenant-site-builder.md
+                    - name: Ek B2C bilgileri
+                      href: additional-b2c-info.md
                 - name: Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama
                   href: custom-pages-user-logins.md
                 - name: Kimlik kayıtlarını müşteri hesaplarına otomatik olarak bağlamayı etkinleştirme
@@ -1570,6 +1586,8 @@
               items:
                 - name: Suudi Arabistan için QR kodları oluşturma ve bunları makbuzlara yazdırma
                   href: localizations/emea-sau-qr-code.md
+                - name: Suudi Arabistan için basitleştirilmiş elektronik faturalar oluşturma ve gönderme
+                  href: localizations/emea-sau-simplified-e-invoices.md
             - name: İsveç
               items:
                 - name: Yazar kasa işlevi
@@ -2988,13 +3006,13 @@
                   href: troubleshoot/payment-type-credit-card-error.md
                 - name: Çevrimiçi siparişlerdeki vergiler yanlış hesaplandı
                   href: troubleshoot/tax-miscalculated-online-order.md
-                - name: Varsayılan ödeme hizmetiyle ilgili sipariş eşitleme hatası
+                - name: Zaman uyumsuz sipariş eşitleme sorunları
                   href: troubleshoot/synchronization-error.md
             - name: Ödemeleri işleme
               items:
                 - name: İade siparişinde geri ödeme reddedildi
                   href: troubleshoot/refund-declined.md
-                - name: Geri ödenebilir ücretler iade edilen miktara göre yanlış hesaplanıyor
+                - name: Geri ödenebilir ücretler iade edilen miktara göre yanlış hesaplandı
                   href: troubleshoot/refund-miscalculated-partial-return.md
                 - name: Adyen için Dynamics 365 Payment Connector
                   items:

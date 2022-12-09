@@ -1927,11 +1927,13 @@
                   href: master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md
                 - name: Talebe dayalı planlama
                   href: master-planning/planning-optimization/ddmrp-planning.md
-                - name: Görsel ve iş birliğine dayalı yürütme
+                - name: Görsel ve işbirliğine dayalı yürütme
                   href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
-            - name: Kullanımdan kaldırılan planlama altyapısı
+                - name: DDMRP ile ilgili SSS
+                  href: master-planning/planning-optimization/ddmrp-faqs.md
+            - name: Kullanım dışı bırakılan planlama altyapısı
               items:
-                - name: Kullanımdan kaldırılan planlama altyapısına genel bakış
+                - name: Kullanım dışı bırakılan planlama altyapısına genel bakış
                   href: master-planning/deprecated-master-planning-overview.md
                 - name: Master planlama için Planlama İyileştirmesine geçiş
                   href: master-planning/new-master-planning-engine.md
