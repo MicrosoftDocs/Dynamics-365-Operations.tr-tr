@@ -2,21 +2,21 @@
 title: Stok değeri raporları
 description: Bu makale stok değer rporlarıın nasıl kurulacağı, oluşturulacağı ve kullanılacağını açıklar. Bu raporlar, stoğunuzun fiziksel ve mali miktarları ve tutarlarınız hakkında ayrıntılar sağlar.
 author: JennySong-SH
-ms.date: 08/05/2022
+ms.date: 11/28/2022
 ms.topic: article
-ms.search.form: InventValueProcess, InventValueReportSetup
+ms.search.form: InventValueProcess, InventValueReportSetup, InventValueExecutionHistory, DataManagementWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f97b5bd228c6f769438d50bb27950b8d8fbda3e8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 6b21f6a7856526863914aac73d50e5c3a70605e8
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334940"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806419"
 ---
 # <a name="inventory-value-reports"></a>Stok değeri raporları
 
@@ -129,7 +129,7 @@ Farklı tipte stok değeri raporuna dahil edilen içeriği ayarlamak için **Sto
     - **Doğrudan dış kaynak** – Süren işin doğrudan dış kaynak maliyetini göstermek için bu seçeneği *Evet* olarak ayarlayın. Bu bilgiler alt sözleşme için kullanışlıdır.
     - **Ayrıntı Düzeyi** – Rapor için bir görünüm seçeneği belirleyin:
 
-        - *Hareketler* - Rapordaki tüm ilgili hareketleri görüntüleyin. Büyük miktarda hareket içeren raporları görüntülerken performans sorunlarıyla karşılaşabileceğini unutmayın. Bu nedenle, bu görünüm seçeneğini kullanmak istiyorsanız, **Stok değeri raporu depolama** raporunu kullanmanızı öneririz.
+        - *Hareketler* - Rapordaki tüm ilgili hareketleri görüntüleyin. Büyük miktarda hareket içeren raporları görüntülerken performans sorunlarıyla karşılaşabilirsiniz. Bu nedenle, bu görünüm seçeneğini kullanmak istiyorsanız, **Stok değeri raporu depolama** raporunu kullanmanızı öneririz.
         - *Toplamlar* – Toplam sonucu görüntüleyin.
 
     - **Başlangıç bakiyesini dahil et** – Başlangıç bakiyesini göstermek için bu seçeneği *Evet* olarak ayarlayın. Bu seçenek, yalnızca **Ayrıntı düzeyi** alanı *Hareketler* olarak ayarlandığında kullanılabilir.
@@ -172,7 +172,7 @@ Raporu oluşturduktan sonra, istediğiniz zaman aşağıdaki adımları izleyere
     - Raporu kullanılabilir sütunlardan herhangi birinde herhangi bir değere göre filtrelemek için **Filtre** alanını kullanın.
     - Sıralama ve filtreleme seçeneklerinin sık kullanılan birleşimlerini kaydetmek ve yüklemek için görünüm menüsünü (**Filtre** alanının üzerinde) kullanın.
 
-## <a name="export-an-inventory-value-report-storage-report"></a>Stok değeri rapor depolama raporunu dışa aktarma
+## <a name="export-an-inventory-value-report-storage-report"></a><a name="export-stored-report"></a>Stok değeri rapor depolama raporunu dışa aktarma
 
 Oluşturduğunuz her rapor **Stok değeri** veri varlığında depolanır. Bu varlıktaki verileri CSV veya Excel gibi desteklenen herhangi bir veri biçiminde dışa aktarmak için Supply Chain Management'ın standart veri yönetimi özelliklerini kullanabilirsiniz.
 
@@ -180,7 +180,7 @@ Aşağıdaki örnekte **Stok değeri raporu depolama** raporunun nasıl dışa a
 
 1. **Sistem Yönetimi \> Çalışma alanları \> Veri yönetimi** seçeneğine gidin.
 1. **İçe/dışa aktar** bölümünde **Dışa aktar** kutucuğunu seçin.
-1. Görüntülenen **Dışa aktar** sayfasında dışa aktarma işini ayarlarsınız. Öncelikle iş için bir grup adı girin.
+1. Görüntülenen **Dışa aktar** sayfasında dışa aktarma işini ayarlayın. Öncelikle iş için bir grup adı girin.
 1. **Seçili varlıklar** bölümünde, **Varlık ekle**'yi seçin.
 1. Görüntülenen iletişim kutusunda aşağıdaki alanları ayarlayın:
 
@@ -203,6 +203,34 @@ Aşağıdaki örnekte **Stok değeri raporu depolama** raporunun nasıl dışa a
 1. Görüntülenen **Yürütme özeti** sayfasında dışa aktarma işinizin durumunu ve dışa aktarılan varlıkların listesini görebilirsiniz. **Varlık işleme durumu** bölümünde, listeden **Stok değeri** varlığını seçin ve ardından söz konusu varlıktan dışa aktarılan verileri indirmek için **Dosyayı indir**'i seçin.
 
 Veri yönetimini kullanarak verileri dışa aktarma hakkında daha fazla bilgi için bkz. [Veri içe ve dışa aktarma işlerine genel bakış](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+## <a name="delete-stored-inventory-value-reports"></a>Depolanmış stok değeri raporlarını silme
+
+Depolanan stok değeri raporlarının sayısı arttıkça, veritabanınızda çok fazla yer kaplamaya başlayabilirler. Bu durum sistem performansını etkileyebilir ve veri depolama maliyetlerinin daha yüksek olmasına neden olabilir. Bu nedenle, eski raporları silerek raporları zaman zaman temizlemeniz gerekecektir.
+
+> [!IMPORTANT]
+> Önceden oluşturulmuş stok değeri raporlarını silmeden önce, öncelikle  [raporları dışarı aktarmanızı](#export-stored-report) ve bunları harici olarak depolamanızı öneririz, çünkü bunları daha sonra tekrar yeniden oluşturamayabilirsiniz. Bu sınırlama, bir stok değeri raporu oluşturduğunuzda, sistem bugünden geriye doğru çalıştığı ve her stok hareketi kaydını olduğu gibi ters sırada işlediği için vardır. Bir rapor oluşturduğunuzda çok fazla geriye bakmayı denemeniz durumunda, işlenecek hareketlerin hacmi çok büyük hale gelebilir ve sistem raporu oluşturmayı tamamlayamadan zaman aşımına uğrayabilir. Rapor oluşturabileceğiniz geçmişe yönelik zaman dilimi, ilgili zaman dilimi için sisteminizde bulunan stok hareketleri sayısına bağlıdır.
+
+### <a name="delete-one-report-at-a-time"></a>Bir seferde bir rapor silme
+
+Bir kerede depolanan bir raporu silmek için bu adımları izleyin.
+
+1. Silmeyi planladığınız [raporu dışarı aktarın](#export-stored-report) ve daha sonra başvurmak üzere bir harici konumda saklayın.
+1. **Maliyet yönetimi \> Sorgular ve raporlar \> Stok değeri raporu depolama**'ya gidin.
+1. Liste bölmesinde, silinecek raporu seçin.
+1. Eylem Bölmesi'nde **Sil**'i seçin.
+1. Uyarı iletisi, oluşturulan raporları yedeklemenizi hatırlatır. Silme işlemine devam etmek için hazır olduğunuzda **Evet**'i seçin.
+
+### <a name="delete-several-reports-at-the-same-time"></a>Aynı anda birkaç raporu silme
+
+Depolanan birkaç raporu bir kerede silmek için bu adımları izleyin.
+
+1. Silmeyi planladığınız [tüm raporları dışarı aktarın](#export-stored-report) ve daha sonra başvurmak üzere bir harici konumda saklayın.
+1. **Maliyet Yönetimi \> Stok muhasebesi \> Temizleme \> Stok değeri rapor verilerini temizleme**'ye gidin.
+1. **Stok değeri rapor verilerini temizleme**  iletişim kutusunda,  **Daha önce yürütülen stok değeri raporunu sil** hangi tarihten önceki tüm stok değeri raporlarının silinmesi gerektiğini belirtin.
+1. **Dahil edilecek kayıtlar** Hızlı sekmesi'nde, silinecek rapor kümesini sınırlamak için ek filtre koşulları ayarlayabilirsiniz. Silinecek raporların özelliklerini tanımlayabileceğiniz standart bir sorgu düzenleyicisini açmak için **Filtre**'yi seçin.
+1. **Arka planda çalıştır** hızlı sekmesinde raporların nasıl, ne zaman ve ne sıklıkta silinmesi gerektiğini belirtin. Alanlar, Supply Chain Management'ta bulunan diğer [arka plan işleri](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) için çalıştıkları gibi çalışır. Ancak, her gerektiğinde bu işi genellikle el ile çalıştırırsınız.
+1. Belirtilen raporları silmek için **Tamam**'ı seçin.
 
 ## <a name="generate-a-standard-inventory-value-report"></a>Standart Stok değeri raporu oluşturma
 
@@ -245,6 +273,6 @@ Genellikle stok değerini ve miktarını görüntülemek için bir stok değeri 
 - Madde depolama ve izleme gruplarını inceleyin. Yalnızca **Mali stok** seçeneğinin etkinleştirildiği boyutlar rapordaki değerleri gösterebilir.
 - **Maliyet yönetimi \> Stok muhasebesi ilkeleri kurulumu \> Stok değer raporları**'na gidin, raporu oluşturmak için kullandığınız rapor konfigürasyonunu seçin ve **Görüntüle** sütununda gerekli stok boyutlarının seçildiğinden emin olun.
 
-Örneğin, madde numarası *A0001* olan bir madde vardır. Depolama boyutları grubunda, yalnızca tesis mali stok için etkindir. Tesis ve ambarın her ikisi de fiziksel stok için etkinleştirilir. İzleme boyutu grubunda, toplu iş numarası fiziksel stok için etkinleştirilir, ancak mali stok için etkinleştirilmedi. Böylece, tesis, ambar ve toplu iş numarasının tümünün seçildiği bir rapor konfigürasyonu kullanılır. Raporu görüntülediğinizde, yalnızca tesis için bir değer görürsünüz. Ambar ve toplu iş numarasına ait sütunlar boş. Bu örnekte görüldüğü gibi, stok değeri raporları yalnızca mali stok için etkinleştirilen stok boyutunu gösterebilir.
+Örneğin, madde numarası *A0001* olan bir madde vardır. Depolama boyutları grubunda, yalnızca tesis mali stok için etkindir. Tesis ve ambarın her ikisi de fiziksel stok için etkinleştirilir. İzleme boyutu grubunda, toplu iş numarası fiziksel stok için etkinleştirilir, ancak mali stok için etkinleştirilmedi. Böylece, tesis, ambar ve toplu iş numarasının tümünün seçildiği bir rapor konfigürasyonu kullanılır. Raporu görüntülediğinizde, yalnızca tesis için bir değer görürsünüz. Ambar ve toplu iş numarasına ait sütunlar boş. Bu örnekte görüldüğü gibi, stok değeri raporları yalnızca mali stok için etkinleştirilen stok boyutlarını gösterebilir.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

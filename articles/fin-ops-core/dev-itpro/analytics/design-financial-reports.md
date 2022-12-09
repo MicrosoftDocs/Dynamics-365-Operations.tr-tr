@@ -2,7 +2,7 @@
 title: Mali raporları görüntüleme ve tasarlama
 description: Bu makale, Microsoft Dynamics 365 Finance için mali raporları görüntüleme ve oluşturma konusunda size yol gösteren alıştırmalar sağlar.
 author: jcart1106
-ms.date: 10/02/2019
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.form: FinancialReportingSetup
-ms.openlocfilehash: b6709f90065c91c55a489f101da430db33355a75
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 92474e7b99af7d83b2089b6652558630c60824c1
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9273440"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799531"
 ---
 # <a name="view-and-design-financial-reports"></a>Mali raporları görüntüleme ve tasarlama
 
@@ -51,30 +51,30 @@ Bu alıştırma için mevcut bir varsayılan raporu oluşturacak ve keşfedeceks
     > [!NOTE]
     > Tek tıklamayla rapor tasarımcısını indirmeniz ve oturum açmanız istenecektir. Oturum açmak için bilgilerinizi girin.
 
-7. Taban yılı 2012 olarak değiştirin ve **Oluştur** öğesini seçin. Bir rapor, rapor tasarımcısından oluşturulduktan sonra, yeni bir tarayıcı sekmesinde açılacaktır. Raporu yeni bir tarayıcıs sekmesine keşfedebilir veya ilk tarayıcı sekmenize gidebilir ve rapor buradan, **Mali raporlar** listesini seçerek açabilirsiniz.
+7. Taban yılı 2021 olarak değiştirin ve **Oluştur** öğesini seçin. Bir rapor, rapor tasarımcısından oluşturulduktan sonra, yeni bir tarayıcı sekmesinde açılacaktır. Raporu yeni bir tarayıcıs sekmesine keşfedebilir veya ilk tarayıcı sekmenize gidebilir ve rapor buradan, **Mali raporlar** listesini seçerek açabilirsiniz.
 8. Açılan raporda, raporun hesap bilgilerini ayrıntılı şekilde incelemek için tutarlardan birini seçin.
 9. Hesap bilgilerine geldikten sonra verileri içeren bir hesap seçin **rapor hareket düzeyini** ayrıntılı şekilde inceleyin. Rapor hareket düzeyinde bu raporun tasarımına dahil edilen özellikleri (öznitelikleri) görebilirsiniz. Harekete ve hesaba bağlı olarak, özniteliklerden bazıları veya tümü görüntülenebilir.
 10. Rapor hareket düzeyini kapatın.
-11. Aynı veya farklı bir hesap seçin ve **fiş hareketlerini açın**. Fiş hareketleri seçilen hesabın dönemine, yılına ve hesap + boyut kombinasyonuna göre filtrelenir. Fiş hareketlerinden, hareket hakkındaki diğer bilgileri de keşfetmeyi seçebilirsiniz.
-12. Fiş hareketlerini kapatın. Bir finansal rapor içinde, farklı bir dönem veya yıl için veya farklı öznitelikler ve boyutlar uygulayarak verileri görüntülemeyi seçebilirsiniz. Bu işlem **Rapor Seçenekleri** kullanılarak gerçekleştirilir.
+11. Aynı veya farklı bir hesap seçin ve **fiş hareketlerini açın**. Fiş hareketleri seçilen hesabın dönemine, yılına ve hesap + boyut kombinasyonuna göre filtrelenir. **Fiş hareketlerinden**, hareket hakkındaki diğer bilgileri de keşfetmeyi seçebilirsiniz.
+12. **Fiş hareketleri**'ni kapatın. Bir finansal rapor içinde, farklı bir dönem veya yıl için veya farklı öznitelikler ve boyutlar uygulayarak verileri görüntülemeyi seçebilirsiniz. Bu işlem **Rapor Seçenekleri** kullanılarak gerçekleştirilir.
 13. **Rapor Seçenekleri** öğesini seçin.
 14. **Bir boyut filtresi ekle** öğesini ve **İş Birimi** öğesini seçin.
-15. Alana 001 yazın ve **Tamam** öğesini seçin. Raporda sadece 001 İş Birimi ile ilgili verileri görüntüler. Bu, raporun kişiselleştirilmiş bir görünümüdür ve başkalarının görüntülemesi için kullanılamaz.
+15. Alana **001** yazın ve **Tamam** seçimini yapın. Raporda sadece 001 İş Birimi ile ilgili verileri görüntüler. Bu, raporun kişiselleştirilmiş bir görünümüdür ve başkalarının görüntülemesi için kullanılamaz.
 16. Filtrelenen raporu kapatın. Mali raporlar, uygulamaya eklenmiş olan herhangi bir para biriminde görüntülenebilir.
 17. **Para birimini** öğesini seçin ve ardından **EUR** seçimini yapın. Rapor şimdi Euro cinsinde görüntüler. Bu rapor tasarıma dahil edilen tüm para birimi kodları veya para birimi simgeleri artık uygulanan para biriminde görüntülenmeye başlar. Bir para birimi için para birimi simgesi tanımlanmamışsa para birimi simgesi görüntülenmez.
 18. **GL Ayrıntıları** raporunu kapatın.
 19. **Rapor Tasarımcısını** kapatın.
 
 ## <a name="exercise-2-add-additional-account-properties-to-a-report-design"></a>Alıştırma 2: Bir rapor tasarımına ek hesap özellikleri ekleyin.
-Bu alıştırmada mevcut bir varsayılan raporu değiştireceksiniz. Hem satır tanımını tüm hesapları içine alacak şekilde güncelleştirecek hem de sütun tanımını hesap özniteliklerini içine alacak şekilde güncelleştireceksiniz. Güncelleştirmeler tamamlandıktan sonra yeni oluşturulan raporu üretecek ve raporu keşfedeceksiniz. Mali raporlar listesinden başlayacağız.
+Bu alıştırmada mevcut bir varsayılan raporu değiştireceksiniz. Hem satır tanımını tüm hesapları içine alacak şekilde güncelleştirecek hem de sütun tanımını hesap özniteliklerini içine alacak şekilde güncelleştireceksiniz. Güncelleştirmeler tamamlandıktan sonra yeni oluşturulan raporu üretecek ve raporu keşfedeceksiniz. **Mali raporlar** listesinden başlayacağız.
 
-1. Genel muhasebede Sorgular ve raporlar altındaki **Mali raporlar** öğesine gelin.
+1. Genel muhasebede **Sorgular ve raporlar** altındaki **Mali raporlar** öğesine gelin.
 2. **Özet Mizan – Varsayılan** adlı rapor satırını seçin.
 3. **Düzenle** öğesini seçin. **Özet Mizan – Varsayılan**, rapor tasarımcısında açılacaktır.
-4. **Dosya** ve ardından **Farklı Kaydet** seçimlerini yapın ve Rapor Öznitelikler İçeren Ayrıntılı Mizan adın verin.
+4. **Dosya** ve ardından **Farklı Kaydet** seçimlerini yapın ve rapora **Öznitelikler İçeren Ayrıntılı Mizan** adını verin.
 
     > [!NOTE]
-    > Rapor tasarımcısında ne zaman yeni bir rapor oluşturulsa mali raporlar listesi güncelleştirir.
+    > Report Designer'da ne zaman yeni bir rapor oluşturulsa **Mali raporlar** listesi güncelleştirir.
 
 5. Rapor tanımından, **Mizan – Varsayılan satır tanımı** seçeneğini açmak için satır tanım simgesini seçin.
 6. Satır tanımını **Özniteliklere Sahip Ayrıntılı Mizan** olarak farklı kaydedin.
@@ -107,7 +107,7 @@ Bu alıştırmada mevcut bir varsayılan raporu değiştireceksiniz. Hem satır 
 26. **Rapor Tasarımcısını** kapatın.
 
 ## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Alıştırma 3: Bir raporlama ağacı kullanarak bir çok boyutlu rapor oluşturma
-Bu alıştırma için mevcut bir varsayılan raporu değiştireceksiniz. Bir raporlama ağacı oluşturacak ve bir Maliyet Merkezi/Bölgesel Gelir Beyanı oluşturmak üzere bunu bir rapor tanımına ekleyeceksiniz. Güncelleştirmeler tamamlandıktan sonra Maliyet Merkezini/Bölgesel Gelir Beyanını oluşturacak ve raporlama ağacını kullanarak raporu inceleyeceksiniz. Mali raporlar listesinden başlayacağız.
+Bu alıştırma için mevcut bir varsayılan raporu değiştireceksiniz. Bir raporlama ağacı oluşturacak ve bir **Maliyet Merkezi/Bölgesel Gelir Beyanı** oluşturmak üzere bunu bir rapor tanımına ekleyeceksiniz. Güncelleştirmeler tamamlandıktan sonra **Maliyet Merkezini/Bölgesel Gelir Beyanını** oluşturacak ve raporlama ağacını kullanarak raporu inceleyeceksiniz. **Mali raporlar** listesinden başlayacağız.
 
 1. Genel muhasebede Sorgular ve raporlar altındaki **Mali raporlar** öğesine gelin.
 2. **Gelir Beyanı – Varsayılan** adlı rapor satırını seçin.
@@ -116,8 +116,8 @@ Bu alıştırma için mevcut bir varsayılan raporu değiştireceksiniz. Bir rap
 5. **Düzenle** menüsünde **Boyutlardan Raporlama Birimleri Ekle** öğesine tıklayın.
 6. **Maliyet Merkezi** dışındaki tüm boyutların onay kutularını temizleyin.
 7. Maliyet Merkezi boyutu için **Boyuttan** alanını tıklayın, **007** girin ve ardından Sekme tuşuna basın. **Boyuta** alanına **018** girin.
-8. Ortaya çıkan ağacı **Bölüme Göre Maliyet Merkezi** adıyla **Kaydedin.** Şimdi raporlama ağacı oluşturuldu, bundan sonra raporlama ağacını Pazarlama, Operasyonlar ve Perakende olmak üzere üç yeni birleşik birimi içine alacak şekilde değiştireceğiz.
-9. **Pencere** menüsünde **Bölüme Göre Maliyet Merkezleri** öğesini tıklayın. (Raporlama ağacı kapatılmışsa gezinti panosunda Raporlama Ağacı Tanımlarından seçin.)
+8. Ortaya çıkan ağacı **Bölüme Göre Maliyet Merkezi** adıyla **Kaydedin**. Şimdi raporlama ağacı oluşturuldu, bundan sonra raporlama ağacını Pazarlama, Operasyonlar ve Perakende olmak üzere üç yeni birleşik birimi içine alacak şekilde değiştireceğiz.
+9. **Pencere** menüsünde **Bölüme Göre Maliyet Merkezleri** öğesini tıklayın. (Raporlama ağacı kapatılmışsa gezinti panosunda **Raporlama Ağacı Tanımlarından** seçin.)
 10. İki numaralı birim **Ticaret Fuarları** öğesini ve ardından **Raporlama Birimi Ekle** simgesini tıklayın.
 11. Boş satırdaki varlık sütununu çift tıklatın ve **USMF** öğesini seçin.
 12. B ve C sütunlarına **Pazarlama** yazın.
@@ -131,13 +131,13 @@ Bu alıştırma için mevcut bir varsayılan raporu değiştireceksiniz. Bir rap
 20. **Raporlama Birimini İndir** öğesini seçin. Birimin şimdi **Pazarlama** biriminin alt birimi olarak görüntülendiğine dikkat edin.
 21. Dört numaralı birim **Pazarlama Kampanyası** öğesine tıklayın ve sağ tıklayın.
 22. **Raporlama Birimini İndir** öğesini seçin.
-23. Grafik ekranından **Hizmet Operasyonları** düğmesini tıklayın. Farenin sol düğmesini basılı tutarak birimi sürükleyerek **Operasyonlar** üzerine bırakın. Bu birimi Operasyonlar grubuna bırakmak için sol fare düğmesini bırakın. **Üretim, Kalite Kontrol, Lojistik, Satın Alma ve Yönetim** için aynı adımları tekrarlayın.
+23. Grafik ekranından **Hizmet Operasyonları** düğmesini tıklayın. Farenin sol düğmesini basılı tutarak birimi sürükleyerek **Operasyonlar** üzerine bırakın. Bu birimi Operasyonlar grubuna bırakmak için sol fare düğmesini bırakın. **Üretim**, **Kalite Kontrol**, **Lojistik**, **Satın Alma** ve **Yönetim** için aynı adımları tekrarlayın.
 24. İndirerek veya sürükleyip bırakarak **Satış Yeri**, **Süpermarket**, **Alışveriş Merkezi** ve **Çevrimiçi** alt birimlerini **Perakende** altında oluşturun.
 25. Ortaya çıkan yeniden organizasyonu kaydedin. Şimdi raporlama ağacını oluşturduk ve düzenledik; artık rapor tanımına eklenebilir.
 26. **Pencere** menüsünde rapor tanımını açmak için **Gelir Beyanı – Varsayılan** öğesini seçin.
 27. **Ağaç türü** açılır okunu tıklayın ve **Raporlama ağacı** seçimini yapın.
 28. Ağaç açılır okunu tıklayın ve **Bölüme Göre Maliyet Merkezleri** seçimini yapın.
-29. Taban yılını **2012** olarak değiştirin, değişiklikleri **kaydedin** ve rapor **oluşturun**. Raporun oluşturulması tamamlandığında ve rapor açıldığında raporu inceleyebilirsiniz.
+29. Taban yılını **2021** olarak değiştirin, değişiklikleri **kaydedin** ve rapor **oluşturun**. Raporun oluşturulması tamamlandığında ve rapor açıldığında raporu inceleyebilirsiniz.
 30. **Raporlama Ağacı** açılır menüsünü seçerek raporlama birimlerini görüntüleyin. Alternatif olarak, raporlama ağacının tüm birimlerin tüm bakiyelerini görmek için raporun bir satırını ayrıntılı şekilde inceleyebilirsiniz.
 31. **Gelir Beyanı – Varsayılan** öğesini kapatın.
 32. **Rapor Tasarımcısını** kapatın.
@@ -145,11 +145,11 @@ Bu alıştırma için mevcut bir varsayılan raporu değiştireceksiniz. Bir rap
 ## <a name="exercise-4-create-a-consolidated-report-using-an-organization-hierarchy"></a>Alıştırma 4: Bir organizasyon hiyerarşisi kullanarak konsolide rapor oluşturma
 Bu alıştırma için mevcut bir varsayılan raporu değiştireceksiniz. Bir Konsolide Gelir Beyanı ve Bilanço üretmek için rapor tanımına bir organizasyon hiyerarşisi ekleyeceğiz. Güncelleştirmeler tamamlandıktan sonra konsolide rapor oluşturacak ve raporlama ağacını kullanarak raporu inceleyeceksiniz. Mali raporlar listesinden başlayacağız.
 
-1. Genel muhasebede Sorgular ve raporlar altındaki **Mali raporlar** öğesine gelin.
+1. Genel muhasebede **Sorgular ve raporlar** altındaki **Mali raporlar** öğesine gelin.
 2. **Bilanço ve Gelir Beyanı Yan Yana – Varsayılan** adlı rapor satırını seçin.
 3. **Düzenle** öğesini seçin. **Bilanço ve Gelir Beyanı Yan Yana – Varsayılan**, rapor tasarlayıcıda açılacaktır.
 4. **Dosya** &gt; **Farklı Kaydet** seçimlerini yapın ve rapora **Konsolide Bilanço ve Gelir Beyannamesi Yan Yana** adını verin.
-5. Taban yılını 2012 olarak değiştirin.
+5. Taban yılını 2021 olarak değiştirin.
 6. Ağaç türü açılır okunu tıklayın ve **Organizasyon Hiyerarşileri** seçimini yapın.
 7. Ağaç açılır okuna tıklayın ve **Contoso Holdings** seçimini yapın.
 8. Değişiklikleri kaydedin ve raporu oluşturun. İstenirse, tüm raporlama birimlerini seçin. Raporun oluşturulması tamamlandığında ve rapor açıldığında raporu inceleyebilirsiniz.
@@ -162,16 +162,16 @@ Bu alıştırma için mevcut bir varsayılan raporu değiştireceksiniz. Bir Kon
 15. **Rapor Tasarımcısını** kapatın.
 
 ## <a name="exercise-5-create-a-side-by-side-departmental-report"></a>Alıştırma 5: Yan yana bir departman raporu oluşturma
-Bu alıştırmada yeni bir rapor oluşturacaksınız. Bu rapor, yan yana bir departman gelir beyanıdır. Mevcut bir sıra tanımını kullanın, ancak farklı olarak, boyut filtrelerini kullanan yeni bir rapor tanımı ve yeni bir sütun tanımı oluşturun. Mali raporlar listesinden başlayacağız.
+Bu alıştırmada yeni bir rapor oluşturacaksınız. Bu rapor, yan yana bir departman gelir beyanıdır. Mevcut bir sıra tanımını kullanın, ancak farklı olarak, boyut filtrelerini kullanan yeni bir rapor tanımı ve yeni bir sütun tanımı oluşturun. **Mali raporlar** listesinden başlayacağız.
 
-1. Genel muhasebede Sorgular ve raporlar altındaki **Mali raporlar** öğesine gelin.
+1. Genel muhasebede **Sorgular ve raporlar** altındaki **Mali raporlar** öğesine gelin.
 2. **Yeni** öğesini seçin. Rapor tasarımcısı bir boş rapor tanımını açar. İlk göreviniz sütun tanımı oluşturmaktır.
 3. Sırasıyla **Dosya**, **Yeni** ve **Sütun Tanımı** düğmelerini tıklayarak yeni bir sütun tanımı oluşturun.
 4. **Sütun A**'da sütun türünü **DESC** olarak seçin.
 5. **Sütun B**'de sütun türünü **FD** olarak seçin.
 6. **Boyut Filtresi** alanına çift tıklayın.
 7. **Boyut** penceresinde, **Departman** sütununa çift tıklayın.
-8. İletişim penceresinin Bireysel veya aralık bölümünde, departmanların bir listesini görüntülemek için **Başlangıç** alanından **elips** öğesini tıklayın.
+8. İletişim penceresinin **Bireysel veya aralık** bölümünde, departmanların bir listesini görüntülemek için **Başlangıç** alanından **üç nokta** öğesine tıklayın.
 9. Departman **022**, **Satış ve Pazarlama** seçimini yapın ve ardından **Tamam** öğesini tıklayın.
 10. Departman 23-25 için 5 ile 8. adımlar arasındaki işlemleri tekrarlayın.
 11. Her bir FD sütununun **Başlık 2** satırında, şu departman tanımlarını yazın:
@@ -185,7 +185,7 @@ Bu alıştırmada yeni bir rapor oluşturacaksınız. Bu rapor, yan yana bir dep
 13. **Pencere** menüsünde rapor tanımını açmak için **Yeni Rapor Tanımı** öğesini seçin.
 14. Satır tanımını **Gelir Beyanı – Varsayılan** olarak ve sütun tanımını **Yan Yana Departmanlar** olarak seçin.
 15. Rapor tanımını **Yan Yana Departman Gelir Beyanı** olarak kaydedin.
-16. Taban yılını **2012** olarak değiştirin.
+16. Taban yılını **2021** olarak değiştirin.
 17. Ayrıntı düzeyini **Finans, Hesap ve Hareket** olarak değiştirin.
 18. Değişikliklerinizi **Kaydedin** ve **Oluştur** öğesini seçin. Raporun oluşturulması tamamlandıktan ve rapor açıldıktan sonra raporu inceleyebilirsiniz.
 

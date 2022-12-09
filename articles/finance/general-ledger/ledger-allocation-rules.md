@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5fbcee713625c597080d1d63ba0ffc70f088799
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0691c65e6a499f713952070811cefaa7a213af7b
+ms.sourcegitcommit: c364f50ea0ad50bac5c30724b6ce301d9574b653
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901298"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9787566"
 ---
 # <a name="ledger-allocation-rules"></a>Genel muhasebe tahsisat kuralları
 
@@ -28,7 +28,7 @@ ms.locfileid: "8901298"
 
 Bu makalede genel muhasebe atama kuralları hakkında bilgiler sağlanmıştır. Bu atama kurallarının çeşitli bileşenleri ve bunlar için kullanılabilecek atama yöntemleri açıklanmıştır.
 
-Genel muhasebe tahsisat kuralları, otomatik olarak hesaplama yapmak ve sabit tutarların veya genel muhasebe bakiyelerinin tahsisatı için tahsisat günlükleri ve hesap girişleri oluşturmak için kullanılır. Tahsisat yöntemleri, değişken veya sabit olabilir. Aşağıdaki tahsisat yöntemleri genel muhasebe tahsisat kuralları için kullanılabilir:
+Genel muhasebe tahsisat kuralları, otomatik olarak hesaplama yapmak ve sabit tutarların veya genel muhasebe bakiyelerinin tahsisatı için tahsisat günlükleri ve hesap girişleri oluşturmak için kullanılır. Tahsisat yöntemleri, değişken veya sabit olabilir. Tahsisat, hareket para birimi değerine dayalı olarak yapılır. Örneğin, muhasebe ve raporlama para birimi tutarlarını ayarlamak için yabancı para birimi kazanç/zarar hesabı girişleri deftere nakledilir. Bu girişler, hareket para birimi değeri 0,00 olduğundan tahsisat kurallarına tabi değildir. Aşağıdaki tahsisat yöntemleri genel muhasebe tahsisat kuralları için kullanılabilir:
 
 -   **Temel** – Bu değişken yöntemi, tahsisat, filtre ölçütü temel alınarak fiili genel muhasebe bakiyesine bağlı olduğunda kullanılır. Örneğin, reklamcılık giderleri tüm departman satışlarının toplam departman satışlarına oranına dayalı olarak tahsis edilebilir.
 -   **Sabit yüzde** ve **Sabit ağırlık** – Bu yöntemler için, tahsisat yüzdesi veya ağırlığı doğrudan kural için tanımlanır. Örneğin, reklam giderleri reklam giderlerinin yüzde 70'ini Departman A ve yüzde 30'unu Departman B alacak şekilde tahsis edilebilir.

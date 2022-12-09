@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f07748c2dc41f6411add1d54589652baa7fc3fbb
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 95a79b3c391c15099aee0a8d34419e1cf48fafbc
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779451"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804004"
 ---
 # <a name="import-letter-of-credit"></a>İthalat kredi mektubu
 
@@ -42,7 +42,10 @@ Bu yordam, USMF demo şirketini kullanır.
 10. Listede, seçili satırdaki bağlantıya tıklayın.
 11. **Muhasebe tarihi** alanına bir tarih girin.
 12. **Teslimat tarihi** alanına bir tarih girin.
-    * Not: **Banka belge türü** alanında **Kredi Mektubu** seçilmelidir.  
+
+>[!Note] 
+>**Banka belge türü** alanında **Kredi mektubu** seçilmelidir.  
+
 13. **Tamam**'a tıklayın.
 14. **Madde numarası** alanına bir değer girin veya bu alanda bir değer seçin.
 15. Listede, istenen kaydı bulun ve seçin.
@@ -79,7 +82,7 @@ Bu yordam, USMF demo şirketini kullanır.
 43. **Kaydet**'e tıklayın.
 44. Eylem Bölmesinde, **Satınalma** öğesine tıklayın.
 45. **Onayla**'yı tıklatın.
-    * Akreditif Mektubunu, birim fiyat değişikliği nedeniyle düzeltmek.  
+    * Birim fiyat değişikliği nedeniyle kredi mektubunu düzeltin.  
 46. Eylem Bölmesi'nde **Yönet**'e tıklayın.
 47. **Kredi mektubu/ithalat tahsilatı**'na tıklayın.
     * Akreditif Mektubunu, Satınalma birim fiyatı değişikliği nedeniyle düzeltmek.  
@@ -97,7 +100,7 @@ Bu yordam, USMF demo şirketini kullanır.
 1. Eylem Bölmesinde, **Teslim al** öğesine tıklayın.
 2. **Ürün girişi** öğesine tıklayın.
 3. **PurchParmTable_Num** alanına bir değer yazın.
-    * Akreditif Mektubuna ilişkin oluşturulan sevk irsaliyesi numarasını seçin.  
+    * Kredi mektubuna ilişkin oluşturulan **Sevkiyat numarasını** seçin.  
 4. Listede, seçili satırdaki bağlantıya tıklayın.
 5. **Ürün giriş tarihi** alanına bir tarih girin.
 6. **Tamam**'a tıklayın.
@@ -108,7 +111,7 @@ Bu yordam, USMF demo şirketini kullanır.
 1. **Nakit ve Banka yönetimi > Kredi mektupları > İthalat Kredi Mektubu ve İthalat Tahsilatı**'na tıklayın.
 2. Listede, istenen kaydı bulun ve seçin.
 3. Listede, seçili satırdaki bağlantıya tıklayın.
-    * İthalat kredi mektubunun durumunu onaylayın.     
+    * **İthalat kredi mektubu durumunu** onaylayın.     
 4. Sayfayı kapatın.
 5. Sayfayı kapatın.
 
@@ -152,7 +155,7 @@ Bu yordam, USMF demo şirketini kullanır.
 6. **Tarih** alanına bir tarih girin.
 7. **Hesap** alanında istediğiniz değerleri belirtin.
 8. **Hareketleri kapat**'a tıklayın.
-9. Toplamlar bölümünü genişletin.
+9. **Toplamlar** bölümünü genişletin.
 10. **Göster** alanında, bir seçenek seçin.
     * **Banka belge numarası** ve **Sevkiyat numarası** alanlarının güncelleştirildiğini doğrulayın.  
 11. **İşaretle** onay kutusunu seçin.
@@ -167,12 +170,12 @@ Bu yordam, USMF demo şirketini kullanır.
 1. **Nakit ve Banka yönetimi > Kredi mektupları > İthalat Kredi Mektubu ve İthalat Tahsilatı**'na tıklayın.
 2. Listede, istenen kaydı bulun ve seçin.
 3. Listede, seçili satırdaki bağlantıya tıklayın.
-    * İthalat kredi mektubunun durumunu onaylayın.   
+    * **İthalat kredi mektubu durumunu** onaylayın.   
 4. Sayfayı kapatın.
 
 ## <a name="verify-the-bank-facility-limit-and-utilization-report"></a>Banka hizmet limiti ve kullanım raporu doğrula
 1. **Nakit ve Banka yönetimi > Sorgular ve raporlar > Kredi veya teminat mektupları > Banka tesisleri ve kullanım raporu**'na gidin.
-2. Eklenecek kayıtlar bölümünü genişletin.
+2. **Eklenecek kayıtlar** bölümünü genişletin.
 3. **Filtrele** öğesine tıklayın.
     * Gerekli banka hesabıyla ilgili **Ölçüt** alanını tanımlayın.  
 4. **Ölçütler** alanında bir değer girin veya seçin.

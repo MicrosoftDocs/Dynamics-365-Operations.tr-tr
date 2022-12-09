@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2022-09-30
-ms.openlocfilehash: d713cc0e9537ae20ffddee6e77779a16e74bd779
-ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
+ms.openlocfilehash: 58f2ab1f913d3629de7971c8eeb2d1821161e44f
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "9725646"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788526"
 ---
 # <a name="store-commerce-app-capabilities"></a>Store Commerce uygulaması özellikleri
 
@@ -41,7 +41,7 @@ Bu makale, Store Commerce uygulama özelliklerinin genel bakışını sunar.
 
 | Yetenek | Açıklama | Belgeler | Ek içerik |
 |---|---|---|---|
-| Birden çok form faktörü | Store Commerce uygulaması, bilgisayarlar, tabletler ve mobil aygıtlar gibi çoklu aygıt formu faktörlerinde desteklenir. Hızlı kullanıcı arabirimi (UI) düzenin otomatik olarak yeniden boyutlandırılıp ekran boyutuna ayarlamasına olanak tanır. | [Görsel konfigürasyonlar](pos-screen-layouts.md) | |
+| Birden çok form faktörü | Store Commerce uygulaması, bilgisayarlar, tabletler ve mobil aygıtlar gibi çoklu aygıt formu faktörlerinde desteklenir. Hızlı kullanıcı arabirimi (UI) düzenin otomatik olarak yeniden boyutlandırılıp ekran boyutuna ayarlamasına olanak tanır. | [Görsel konfigürasyonlar](pos-screen-layouts.md) |  |
 | Platformlar arası | Store Commerce uygulaması Web, Windows, iOS ve Android platformlarında desteklenir. | [Platformlar](dev-itpro/hybridapp.md) | |
 | Markalama | Ekran tasarımcısı, iş gereksinimlerinizi karşılayacak şekilde ekran düzenlerini özelleştirmenizi sağlar. Ek olarak, temalar, düzenler, renkler ve görüntüler çalışan rollerine göre oluşturulabilir ve böylece, marka tutarlılığı ve kullanım kolaylığı için kullanıcılar arasında paylaşılabilir. | [Görsel konfigürasyonlar](pos-screen-layouts.md) | [Görüntü](https://www.youtube.com/watch?v=ldqCw2wf5fY) |
 | Topoloji | Farklı yerleşik topolojiler, ağ kullanılabilirliğine göre desteklenir. | <p>[Topoloji](dev-itpro/retail-modern-pos-architecture.md)</p><p>[Bilgi grafikleri](dev-itpro/retail-in-store-topology.md)</p> | |
@@ -77,7 +77,7 @@ Bu makale, Store Commerce uygulama özelliklerinin genel bakışını sunar.
 | Ürün arama | Marka, fiyat ve malzeme gibi ürün niteliklerini kullanarak ürünleri ada göre arayın ve aramaları daraltın. Bu yetenek Azure Bilişsel Arama tarafından desteklenir. | [Bulut destekli arama](cloud-powered-search-overview.md) | |
 | Ürün ayrıntıları sayfası | Zengin ürün ayrıntıları sayfaları arasında resimler, bir açıklama, ürün özellikleri ve önerilen ürünler bulunabilir. Öneriler, Öneriler Servisi tarafından desteklenir. | | |
 | Ürün karşılaştırma | Birden fazla ürünü karşılaştırın ve müşterilerin bir hareketi bir harekete eklemesini sağlamak için çoklu ürün karşılaştırması yapın. | | |
-| Sonsuz koridor | Diğer mağazalarda kolayca stok arayabilir ve sipariş oluşturabilirsiniz. | [Stok arama](pos-inventory-lookup-operation.md) | [Teknik sohbet](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
+| Sonsuz koridor | Diğer mağazalarda kolayca stok arayabilir ve sipariş oluşturabilirsiniz. | [Stok arama](pos-inventory-lookup-operation.md) | <p>[Teknik sohbet](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Görüntü](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
 | Öneriler | Öneriler servisini kullanarak, ürünlerde üst satış ve çapraz satış gerçekleştirin. Bu hizmet, öneriler, satınalma eğilimleri ve yeni ulaşan, benzer görünme ve en iyi satış gibi özelliklere dayalı olarak öneri önermek için patentli teknolojiyi kullanır. Bu öneriler ürün ayrıntıları sayfalarında, **Müşteri ayrıntıları** sayfasında ve **Hareketler** sayfasında bulunur. | [Öneriler](product-recommendations.md) | [Teknik sohbet](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-recommendations-march-2-2021) |
 
 ## <a name="customer-relationship"></a>Müşteri ilişkisi
@@ -88,8 +88,8 @@ Bu makale, Store Commerce uygulama özelliklerinin genel bakışını sunar.
 | Müşteri öznitelikleri | Müşteri öznitelikleri çerçevesi, müşteri ile ilgili ek verilerin iş gereksinimlerine göre yakalanmasına olanak tanır. | [Öznitelikler](dev-itpro/customer-attributes.md) | |
 | Müşteri ayrıntıları sayfası | Zengin müşteri ayrıntıları sayfası, müşterinin tüm kanallardaki etkileşimleri için bir çok kanallı görünümünü sağlar. Bu etkileşimler satınalmalar, istek listeleri ve bağlılık programı puanları içerir. | | |
 | Bulut destekli müşteri arama | Müşterileri ada, telefon numarasına, e-posta adresine, bağlılık programı kartına, adrese vb. arayın. | [Bulut destekli arama](pos-search-improvements.md#customer-search) | |
-| Bağlılık programı ve ödüller | Müşteriler bağlılık programlarına katılabilir ve kanallarda bağlılık programı puanları kazanılabilir ve kullanmaya çalışabilir. | [Bağlılık](set-up-customer-loyalty-program.md) | |
-| Müşteri rehberliği | Bir istemci defteri kullanarak önemli müşterileri yönetin ve müşteri profilindeki etkinlikleri ve notları izleyin. Dynamics 365 Customer Insights tümleştirmesi, çalışanların her müşteri için bir sonraki en iyi eylem hakkında ipucu alması için ipuçlarını depolamasına izin verir. | [Müşteri rehberliği](clienteling-overview.md#activities-and-notes) | |
+| Bağlılık programı ve ödüller | Müşteriler bağlılık programlarına katılabilir ve kanallarda bağlılık programı puanları kazanılabilir ve kullanmaya çalışabilir. | [Bağlılık](set-up-customer-loyalty-program.md) | [Görüntü](https://www.microsoft.com/en-us/videoplayer/embed/RE5c2wW) |
+| Müşteri rehberliği | Bir istemci defteri kullanarak önemli müşterileri yönetin ve müşteri profilindeki etkinlikleri ve notları izleyin. Dynamics 365 Customer Insights tümleştirmesi, çalışanların her müşteri için bir sonraki en iyi eylem hakkında ipucu alması için ipuçlarını depolamasına izin verir. | [Müşteri rehberliği](clienteling-overview.md#activities-and-notes) | [Görüntü](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSP) |
 
 ## <a name="pricing-and-discounts"></a>Fiyatlandırma ve iskontolar
 
@@ -132,8 +132,8 @@ Bu makale, Store Commerce uygulama özelliklerinin genel bakışını sunar.
 | Sipariş öznitelikleri | Sipariş özniteliği çerçevesi, sipariş ile ilgili ek bilgilerin iş gereksinimlerine göre yakalanmasına olanak tanır. | [Öznitelikler](dev-itpro/order-attributes.md) | |
 | Doğrudan teslim | Maddeler bir satıcı tarafından müşteri adresine doğrudan teslim edilmek üzere işaretlenebilir. Doğrudan teslime aracısız sevkiyat da denir. | [Doğrudan teslim](/dynamics365/supply-chain/sales-marketing/tasks/ship-orders-direct-deliveries) | |
 | Teklif | Mağaza çalışanları müşteriler için teklifler oluşturabilir ve özel bir fiyat, el ile iskonto ve teklif geçerlilik tarihi belirleyebilir. | [Teklif](/dynamics365/supply-chain/sales-marketing/tasks/create-edit-sales-quotations) | |
-| Sipariş karşılama | Mağazalar sipariş çekebilir, paketleyebilir ve sevk edebilir. Sevk irsaliyesi, sevkiyat için hazır paketlere eklenebilir. | [Sipariş karşılama](order-fulfillment-overview.md) | [Teknik sohbet](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021) |
-| Dağıtılmış sipariş yönetimi | Store Commerce uygulaması, iş stratejilerinin işletme niteliği, müşteri türü, sipariş kaynağı ve bir siparişin teslimat yöntemi temel alınarak yapılandırılabileceği akıllı sipariş karşılama optimizasyonunu destekler. | [DOM](dom.md) | |
+| Sipariş karşılama | Mağazalar sipariş çekebilir, paketleyebilir ve sevk edebilir. Sevk irsaliyesi, sevkiyat için hazır paketlere eklenebilir. | [Sipariş karşılama](order-fulfillment-overview.md) | <p>[Teknik sohbet](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021)</p> <p>[Görüntü](https://www.microsoft.com/videoplayer/embed/RE5bRXE)</p>|
+| Dağıtılmış sipariş yönetimi | Store Commerce uygulaması, iş stratejilerinin işletme niteliği, müşteri türü, sipariş kaynağı ve bir siparişin teslimat yöntemi temel alınarak yapılandırılabileceği akıllı sipariş karşılama optimizasyonunu destekler. | [DOM](dom.md) | [Görüntü](https://www.microsoft.com/en-us/videoplayer/embed/RE5bRYl)|
 
 ## <a name="inventory-management"></a>Stok Yönetimi
 
@@ -141,12 +141,12 @@ Bu makale, Store Commerce uygulama özelliklerinin genel bakışını sunar.
 |---|---|---|---|
 | Merkezi alım | Kullanılabilir stoğun dağıtım merkezinden birden fazla mağazaya veya ambara dağılımını kolaylaştırın. | [Merkezi alım](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [Teknik sohbet](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
 | Çapraz sevk | Gelen satınalma siparişlerindeki stok dağılımını birden fazla mağazaya veya ambara dağıtma. | [Çapraz sevk](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [Teknik sohbet](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Gelen stok | Bir satıcıdan satınalma siparişi aracılığıyla veya başka bir ambardan transfer emri aracılığıyla stok alın. Bir gelen satınalma siparişi veya transfer emri talebi oluşturun. | [Gelen](pos-inbound-inventory-operation.md) | [Teknik sohbet](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Giden stok | Stoku transfer emri aracılığıyla başka bir ambara sevk edin ve giden transfer emri talebi oluşturun. | [Giden](pos-outbound-inventory-operation.md) | [Teknik sohbet](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Stok arama | Mağazaların ve ambarlardaki ürünlerin eldeki stoklarını denetleyin ve gelecekteki tarihlerde bulunan taahhüde (ATP) stoğu denetleyin. | [Stok arama](pos-inventory-lookup-operation.md) | [Teknik sohbet](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Stok düzeltmesi | Satış, giriş veya yeniden sayım kullanmadan belirli iş gereksinimlerini karşılamak için stoku bir mağaza ambarına veya dışına ayarlayın. | [Stok düzeltmesi](work-with-store-inventory.md) | [Teknik sohbet](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Stok sayımları | Fiziksel envanteri sayma ve sistem defter saklama stokunu bununla eşleşecek şekilde ayarlama. | [Sayım](work-with-store-inventory.md) | [Teknik sohbet](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Stok hareketi | Stoku mağaza yerleşimleri arasında taşıma. | [Hareket](work-with-store-inventory.md) | [Teknik sohbet](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
+| Gelen stok | Bir satıcıdan satınalma siparişi aracılığıyla veya başka bir ambardan transfer emri aracılığıyla stok alın. Bir gelen satınalma siparişi veya transfer emri talebi oluşturun. | [Gelen](pos-inbound-inventory-operation.md) | <p>[Teknik sohbet](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[Görüntü](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| Giden stok | Stoku transfer emri aracılığıyla başka bir ambara sevk edin ve giden transfer emri talebi oluşturun. | [Giden](pos-outbound-inventory-operation.md) | <p>[Teknik sohbet](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[Görüntü](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| Stok arama | Mağazaların ve ambarlardaki ürünlerin eldeki stoklarını denetleyin ve gelecekteki tarihlerde bulunan taahhüde (ATP) stoğu denetleyin. | [Stok arama](pos-inventory-lookup-operation.md) | <p>[Teknik sohbet](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Görüntü](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| Stok düzeltmesi | Satış, giriş veya yeniden sayım kullanmadan belirli iş gereksinimlerini karşılamak için stoku bir mağaza ambarına veya dışına ayarlayın. | [Stok düzeltmesi](work-with-store-inventory.md) | <p>[Teknik sohbet](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Görüntü](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| Stok sayımları | Fiziksel envanteri sayma ve sistem defter saklama stokunu bununla eşleşecek şekilde ayarlama. | [Sayım](work-with-store-inventory.md) | <p>[Teknik sohbet](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Görüntü](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)<p> |
+| Stok hareketi | Stoku mağaza yerleşimleri arasında taşıma. | [Hareket](work-with-store-inventory.md) | <p>[Teknik sohbet](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Görüntü](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
 
 ## <a name="financials"></a>Finansal değerler
 

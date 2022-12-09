@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58e509a819e5cda650fddab8dd0c4d55d5148db1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d89d3e77d096f5908207ac53f4e9022f686ac5f3
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872282"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806388"
 ---
 # <a name="recruiting-request"></a>İşe alma isteği
 
@@ -68,7 +68,7 @@ Bir iş için işe alma isteğini açıklar.
     "_mshr_fk_jobtype_id_value": "Guid",
     "_mshr_fk_compensationlevel_id_value": "Guid",
     "mshr_hcmrecruitingrequestentityid": "Guid",
-    "_mshr_fk_recruitingrequestlocation_id_value": “Guid”
+    "_mshr_fk_recruitingrequestlocation_id_value": "Guid"
 }
 ```
 
@@ -87,7 +87,7 @@ Bir iş için işe alma isteğini açıklar.
 | **Durum**<br>mshr_status<br>*RecruitingRequestStatus* seçenek kümesi | Okuma/yazma<br>Gerekli<br> | İşe alma isteğinin durumunu belirtir. |
 | **Açıklama**<br>mshr_description<br>*Dize* | Okuma/yazma<br>Gerekli | İsteği açıklar. |
 | **İşe Alma İsteği Konum Kimliği**<br>mshr_recruitingrequestlocationid<br>*Dize* | Okuma/yazma<br>İsteğe bağlı | Bu istekle ilişkilendirilmiş iş konumunun kullanıcı tarafından okunabilir benzersiz tanımlayıcısı. |
-| **İşe Alım Konum Kimliği Değeri**<br>_mshr_fk_recruitinglocation_id_value<br>*GUID* | Salt okunur<br>İsteğe bağlı<br>Yabancı anahtar: mshr_hcmrecruitingrequestlocationentity varlığına ait mshr_hcmrecruitingrequestlocationentityid | İstek için seçilen işe alma isteği konumunu tanımlamak için sistem tarafından oluşturulan GUID değeri. |
+| **İşe Alım Konum Kimliği Değeri**<br>_mshr_fk_recruitingrequestlocation_id_value<br>*GUID* | Salt okunur<br>İsteğe bağlı<br>Yabancı anahtar: mshr_hcmrecruitingrequestlocationentity varlığına ait mshr_hcmrecruitingrequestlocationentityid | İstek için seçilen işe alma isteği konumunu tanımlamak için sistem tarafından oluşturulan GUID değeri. |
 | **Yorumlar**<br>mshr_comments<br>*Dize* | Okuma/yazma<br>İsteğe bağlı | İşe alım yöneticileri ve işe alan kişiler tarafından kullanılacak istek yorumları. |
 | **İş Kodu**<br>mshr_jobid<br>*Dize* | Bir kez yaz<br>Gerekli |   Bu istekle ilişkilendirilmiş tüm Pozisyonlar tarafından paylaşılan kullanıcı tarafından okunabilir benzersiz tanımlayıcısı. |
 | **İş Kimlik Değeri**<br>_mshr_fk_job_id_value<br>*GUID* | Salt okunur<br>Gerekli<br>Yabancı anahtar: mshr_hcmjobentity varlığına ait mshr_hcmjobentityid | İşe alma isteğiyle ilişkili tüm Pozisyonlar tarafından paylaşılan işin sistem tarafından oluşturulan benzersiz tanımlayıcısı. |

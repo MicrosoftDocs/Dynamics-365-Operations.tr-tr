@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62f828b93075c134778da280243c0875edf99300
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 1d123a341a471dd37fcc33e0025ce5e98235a27f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715842"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804276"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Peşinat faturaları ve ön ödemeler karşılaştırması
 
@@ -65,12 +65,13 @@ Birçok ülke/bölgedeki muhasebe uygulamaları, bir müşteriden veya satıcıd
 
 Mahsup Özet borç hesapları hesabı **satıcı deftere nakil** profilinde tanımlanmıştır. Varsayılan deftere nakil profilini tanımlamak için **Borç hesapları \>Ayarlama \> Borç hesapları parametreleri \>Kayıt defteri ve satış vergisi sekmesi \> Ön ödeme satıcı faturası ile deftere nakil profili**'ne tıklayın.
 
-**Ön ödeme uygulama ilkesi** sistemin kapatılan ön ödeme faturalarının el ile oluşturulan son faturaya otomatik olarak uygulanıp uygulanmayacağını belirtir. Bir veri varlığı kullanılarak oluşturulan faturalar **ön ödeme uygulama ilkesine** başvurmayacaktır. Kapatılan ön ödeme faturalarını bir veri varlığı kullanılarak oluşturulmuş faturalara el ile uygulamanız gerekir. İlkeyi tanımlamak için, **Borç hesapları \>Ayarlama \> Borç hesapları parametreleri \> Kayıt defteri ve satış vergisi sekmesi \> Ön ödeme uygulama ilkesi**'ne gidin. **Ön ödeme uygulama ilkesi** alanı **otomatik** olarak ayarlanmışsa ön ödeme faturası son faturayla kapatılmak üzere otomatik olarak işaretlenir. Alan **bildirim** olarak ayarlandıysa, son fatura oluşturulduğunda, uygulama için ön ödeme faturasının kullanılabilir olduğu belirten görsel bir gösterge görüntülenir.
+**Ön ödeme uygulama ilkesi** kapatılan ön ödeme faturalarının el ile oluşturulan son faturaya otomatik olarak uygulanıp uygulanmayacağını belirtir. Bir veri varlığı kullanılarak oluşturulan faturalar **ön ödeme uygulama ilkesine** başvurmayacaktır. Kapatılan ön ödeme faturalarını bir veri varlığı kullanılarak oluşturulmuş faturalara el ile uygulamanız gerekir. İlkeyi tanımlamak için, **Borç hesapları \>Ayarlama \> Borç hesapları parametreleri \> Kayıt defteri ve satış vergisi sekmesi \> Ön ödeme uygulama ilkesi**'ne gidin. **Ön ödeme uygulama ilkesi** alanı **otomatik** olarak ayarlanmışsa ön ödeme faturası son faturayla kapatılmak üzere otomatik olarak işaretlenir. Alan **bildirim** olarak ayarlandıysa, son fatura oluşturulduğunda, uygulama için ön ödeme faturasının kullanılabilir olduğu belirten görsel bir gösterge görüntülenir.
 
 ## <a name="create-a-purchase-order-that-contains-prepayment-invoice-information"></a>Ön ödeme fatura bilgilerini içeren bir satın alma siparişi oluşturma
 Bir satıcı, bir satın alma siparişinde bulunan mal ve servisler için ön ödeme gerektirdiğini söylerse, ilgili satın alma siparişi için ön ödeme değerini tanımlamanız gerekir. **Borç hesapları \> Genel \> Satın alma siparişleri \> tüm satın alma siparişleri**'ne gidin ve satıcının satın alma siparişini bulun. Eylem bölmesinde, **Satın al** sekmesini ve ardından **Ön ödeme**'yi seçin. Ön ödeme için bir açıklama, ön ödeme değeri, ön ödemenin sabit bir tutar veya yüzde olduğu ve bir ön ödeme kategori kodu da dahil olmak üzere, ön ödeme bilgilerini girin. 
 
-Bir satın alma siparişinde birden fazla ön ödeme tanımına izin verilmediğini unutmayın. Bir satın alma siparişinde birden fazla ön ödeme yapılmasına izin vermeniz gerekiyorsa, ödemeleri ön ödeme faturası yerine ödeme günlüğünü kullanarak deftere nakledin.
+> [!Note] 
+> Bir satın alma siparişinde birden fazla ön ödeme tanımına izin verilmez. Bir satın alma siparişinde birden fazla ön ödeme yapılmasına izin vermeniz gerekiyorsa, ödemeleri ön ödeme faturası yerine ödeme günlüğünü kullanarak deftere nakledin.
 
 Ön ödeme, deftere nakledilen ön ödeme faturasına göre önceden kapatmadığınız veya standart faturayı deftere nakletmediğiniz sürece satın alma siparişinden çıkarılabilir. Satın alma siparişinden ön ödeme bilgilerini kaldırmak için, **Borç hesapları \> Genel \> Satın alma siparişleri \> Tüm satın alma siparişleri**'ni seçin ve satıcının satın alma siparişini bulun. Eylem bölmesinde, **Satın al** sekmesini ve ardından **Ön ödemeyi kaldır**'ı seçin.
 

@@ -2,7 +2,7 @@
 title: Mali raporları görüntüle
 description: Bu makalede, Microsoft Dynamics 365 Finance'te mali raporların nasıl görüntüleneceği ve keşfedileceği açıklanmaktadır. Görünümlerini ve içerdikleri veriyi değiştirmek için finansal raporlara uygulayabileceğiniz çeşitli seçenekler hakkında bilgiler içerir.
 author: kweekley
-ms.date: 03/25/2019
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d4b28add4406b2248a2ce842072e577ecd760cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0f932bbef2543e4894c65b9a04c1ef66f1b3ab8e
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907906"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802404"
 ---
 # <a name="view-financial-reports"></a>Mali raporları görüntüle
 
@@ -31,7 +31,7 @@ Bu makalede, mali raporların nasıl görüntüleneceği ve keşfedileceği aç�
 ## <a name="financial-reporting-overview"></a>Mali raporlamaya genel bakış
 
 ## <a name="open-a-financial-report"></a>Bir mali rapor açma
-Bir rapor açmak için raporun adını seçin. Bir rapor ilk defa açıldığında otomatik olarak önceki ay için oluşturulur. Örneğin, bir raporu ilk kez Ağustos 2015'te açarsanız rapor 31 Temmuz 2015 tarihi için oluşturulur. Rapor açıldıktan sonra, belirli veri parçalarında ayrıntıya inerek ve rapor seçeneklerini değiştirerek keşfetmeye başlayabilirsiniz.
+Bir rapor açmak için raporun adını seçin. Bir rapor ilk defa açıldığında otomatik olarak önceki ay için oluşturulur. Örneğin, bir raporu ilk kez Ağustos 2020'te açarsanız rapor 31 Temmuz 2020 tarihi için oluşturulur. Rapor açıldıktan sonra, belirli veri parçalarında ayrıntıya inerek ve rapor seçeneklerini değiştirerek keşfetmeye başlayabilirsiniz.
 
 ## <a name="drill-down-on-a-financial-report"></a>Bir mali raporu ayrıntılı inceleme
 Mali raporlar birden çok ayrıntı düzeyi içerebilir. Mali düzey bir mali raporu ilk defa açtığınızda gördüğünüz düzeydir. Muhasebe düzeyine gitmek için ayrıntılı şekilde gözden geçirilecek verileri seçin. Örneğin, satışlar için hesap ayrıntılarını görmek için derinlemesine incelemek istediğiniz satış verilerini seçin. Hesap düzeyinden, hesap bakiyesini oluşturan hareketleri görüntüleyebilirsiniz. Hareketlerin görüntülenmesi için rapor hareketleri ve fiş hareketleri olmak üzere iki yöntem mevcuttur.
@@ -46,12 +46,12 @@ Bir **Fiili - bütçe**, öznitelik ve boyut filtreleri uygulayabilir veya büt�
 
 -   Bir rapora özellik filtreleri uygulamak için **Bir öznitelik filtresi ekle** öğesini seçin. Özniteliği seçin, öznitelik değerini girin ve ardından **Tamam** düğmesini tıklayın. Örneğin, **Hesap Kategorisi** özniteliğini seçerseniz, öznitelik değeri olarak **SATIŞ** girin. Bir öznitelik filtresini kaldırmak için **Temizle** düğmesini tıklayın.
 -   Bir rapora boyut filtreleri uygulamak için **Boyut filtresi ekle** öğesini seçin. Boyutu seçin ve boyut kodunu yazın veya listeden boyutu seçin. Bir boyut filtresini kaldırmak için **Temizle** düğmesini tıklayın.
--   Bir **Fiili - bütçe** raporundaki senaryoyu değiştirmek için yeni bir senaryo seçin ve ardından **Tamam** düğmesini tıklayın. Seçilen senaryo farklı bir mali yıldaysa, herhangi bir sonuç döndürülmez. Örneğin, bir rapor FY2015 için oluşturulursa ve geçerli senaryo FY2015 içinse ve yeni senaryo FY2016 için seçilirse, hiçbir sonuç döndürülmez. Farklı bir mali yıl için yeni bir senaryo gerekliyse, senaryoyla ilişkili mali yıl için raporun yeni bir sürümünü oluşturun.
+-   Bir **Fiili - bütçe** raporundaki senaryoyu değiştirmek için yeni bir senaryo seçin ve ardından **Tamam** düğmesini tıklayın. Seçilen senaryo farklı bir mali yıldaysa, herhangi bir sonuç döndürülmez. Örneğin, bir rapor FY2015 için oluşturulursa ve geçerli senaryo FY2020 içinse ve yeni senaryo FY2016 için seçilirse, hiçbir sonuç döndürülmez. Farklı bir mali yıl için yeni bir senaryo gerekliyse, senaryoyla ilişkili mali yıl için raporun yeni bir sürümünü oluşturun.
 
 **Tamam** düğmesini tıkladığınızda, seçtiğiniz tüm seçenekler rapora uygulanır. Seçilen seçenekleri uygulamak istemediğinize karar verirseniz **İptal** düğmesini tıklayın.
 
 ## <a name="update-a-financial-report"></a>Bir mali raporu güncelleştirme
-Bir mali raporu, raporun oluşturulduğu dönem ve yıl için en son verileri gösterecek şekilde yenileyebilir (güncelleştirebilirsiniz). Örneğin, Ekim 2015 için oluşturulan bir mali raporu güncelleştirdiğinizde rapor, Ekim 2015'ten sonra nakledilen tüm yeni hareketleri de gösterecektir. Bir mali raporu güncelleştirmek için Eylem Panosundan **Yenile** düğmesini tıklayın. Güncelleştirilen rapor sadece raporu güncelleştiren kişiye açık olacaktır. Başka insanların da aynı verileri görebilmesi için rapor mutlaka yayınlanmalıdır.
+Bir mali raporu, raporun oluşturulduğu dönem ve yıl için en son verileri gösterecek şekilde yenileyebilir (güncelleştirebilirsiniz). Örneğin, Ekim 2020 için oluşturulan bir mali raporu güncelleştirdiğinizde rapor, Ekim 2020'ten sonra nakledilen tüm yeni hareketleri de gösterecektir. Bir mali raporu güncelleştirmek için Eylem Panosundan **Yenile** düğmesini tıklayın. Güncelleştirilen rapor sadece raporu güncelleştiren kişiye açık olacaktır. Başka insanların da aynı verileri görebilmesi için rapor mutlaka yayınlanmalıdır.
 
 ## <a name="publish-a-financial-report"></a>Bir mali rapor yayınlama
 Bir mali rapor güncelleştirdikten sonra yayımlayabilirsiniz. Bu durumda organizasyonunuzdaki diğer kişiler de raporu görebilir. Bir raporu yayınlamak için Eylem Panosundan **Yayınla** düğmesini tıklayın.

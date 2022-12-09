@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-10-01
 ms.dyn365.ops.version: 10.0.31
-ms.openlocfilehash: 05ccd9794ffeba6a09d6fec0a57ffad2b59707ad
-ms.sourcegitcommit: 87e75aa6af2c3280316d7d73eafa14a52353a5e4
+ms.openlocfilehash: ed4325095163415d05a56128cb1f0334440fe0e5
+ms.sourcegitcommit: c364f50ea0ad50bac5c30724b6ce301d9574b653
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/21/2022
-ms.locfileid: "9709868"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9787539"
 ---
 # <a name="preview-of-dynamics-365-commerce-10031-february-2023"></a>Dynamics 365 Commerce 10.0.31 önizlemesi (Şubat 2023)
 
@@ -38,6 +38,7 @@ Aşağıdaki tabloda, bu sürüme dahil edilen özellikler listelenmektedir. Bu 
 | Ödemeler | [Adyen için Dynamics 365 Payment Connector ile Apple Pay'i Etkileştirme](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-apple-pay-dynamics-365-payment-connector-adyen)  | E-ticaret müşterileri, desteklenen cihazları veya tarayıcıları kullanarak alışveriş sepeti ve ödeme sayfalarında Apple Pay'i kullanabilirler. | Geliştirici kabulü |
 | Ödemeler  |  Commerce'de kullanıcıların Commerce headquarters kullanıcı arabirimi boyunca yinelenen ödeme belirteçleriyle nasıl etkileşim kurduklarını sınırlama özelliği eklenmiştir. **Çağrı Merkezi Satış Siparişleri** sayfası gibi ödeme formlarında artık müşterinin yeni bir harekette kullanmak üzere daha önce yararlandığı yinelenen ödeme belirteci görüntülenmez. Yeni bir hareket için ödeme işlenirken çağrı merkezi veya Commerce headquarters kullanıcılarına Commerce **Müşteri Ödemeleri** ekranında yalnızca belirli bir "kayıtlı kart" girişi veya satış siparişi yoluyla ödeme yaparken bir müşteriyle yapılan anlaşma sunulur. | [Ödeme belirteci kullanımını sınırlama](../dev-itpro/limit-token-usage.md)  |  Özellik yönetimi<p>*Ödeme Belirteci kullanımını Sipariş bağlamıyla sınırla*  |
 | POS | [POS'tan satın alma siparişleri oluşturma](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/create-purchase-orders-pos)  |  Satış noktası (POS) uygulamasında gelen stok işlemi kullanıcıların satın alma siparişi isteklerini oluşturmasına, düzenlemesine ve onaylamasına olanak tanımak için iyileştirilmiştir. |  Özellik yönetimi<p>*POS'ta satınalma siparişi talebi oluşturma yeteneği*   |
+| Kullanılabilir ek diller | Dört ek dil bulunur | Tercih edilen dil listesinde kullanıcının seçebileceği dört yeni dil vardır: Korece, Portekizce (Portekiz), Vietnamca ve Çince (Geleneksel). Bu seçeneği belirlemek için **Kullanıcı seçenekleri \> Tercihler \> Dil ve ülke/bölge tercihi**'ne gidin. | Yerelleştirilmiş tercihler |  
 
 
 

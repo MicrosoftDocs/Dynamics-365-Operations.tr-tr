@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4843d9555b86c4ebe1edfe2da763f305357a7423
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 16548572cd70129efcc7dacf0236f3eb4b252d88
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715653"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804060"
 ---
 # <a name="set-up-centralized-payments"></a>Merkezi ödemeleri ayarlama
 
@@ -34,7 +34,10 @@ ms.locfileid: "9715653"
 -   Şirketler arası muhasebeyi oluşturun.
 
 ## <a name="set-up-an-organizational-hierarchy-for-centralized-payments"></a>Merkezi ödemeler için bir organizasyon hiyerarşisi oluşturun.
-Merkezi ödemeler için mutlaka bir organizasyon hiyerarşisi oluşturmanız gerekir. Aynı organizasyon hiyerarşisi, merkezi satıcı ödemelerinin ve merkezi müşteri ödemelerinin işlenmesi için kullanılır. **Not:** Merkezi ödemeler için hiyerarşi yapısı fark etmez. Hiyerarşideki herhangi bir tüzel kişilik, hiyerarşideki başka bir tüzel kişilik adına ödemeleri işleyebilir. **Organizasyon hiyerarşileri** sayfasından yeni bir organizasyon hiyerarşisi oluşturabilirsiniz. **Amaç** alanında, **Merkez ödemeler** seçeneğini işaretlemelisiniz. 
+Merkezi ödemeler için mutlaka bir organizasyon hiyerarşisi oluşturmanız gerekir. Aynı organizasyon hiyerarşisi, merkezi satıcı ödemelerinin ve merkezi müşteri ödemelerinin işlenmesi için kullanılır. 
+
+>[!Note] 
+>Merkezi ödemeler için hiyerarşi yapısı önemli değildir. Hiyerarşideki herhangi bir tüzel kişilik, hiyerarşideki başka bir tüzel kişilik adına ödemeleri işleyebilir. **Organizasyon hiyerarşileri** sayfasından yeni bir organizasyon hiyerarşisi oluşturabilirsiniz. **Amaç** alanında, **Merkez ödemeler** seçeneğini işaretlemelisiniz. 
 
 ## <a name="set-up-an-intercompany-account-for-centralized-payments"></a>Merkezi ödemeler için bir şirketler arası hesap oluşturma
 Mevcut tüzel kişilikteki ödeme hareketleri diğer tüzel kişiliklerdeki faturalara karşı oluşturulursa, her bir tüzel kişilik için uygun vade sonu ve vade başlangıcı hareketleri oluşturulur. İlgili bir nakit iskontosunun ve gerçekleşmiş kar veya zarar tutarlarının nakledileceği tüzel kişiliği belirtmeniz gerekir. Başlamadan önce satıcı ve müşteri ödemelerini hangi tüzel kişiliğin işleyeceğine karar verin. Bir tüzel kişilik satıcı ödemelerini işliyor, ancak başka bir tüzel kişilik müşteri ödemelerini işliyorsa her bir tüzel kişiliğe çevirmeniz gerekir. **Şirketlerarası muhasebe** sayfasında ödemeleri adına işleyeceğiniz tüzel kişilik için bir şirketlerarası ilişki kaydı seçebilirsiniz. 

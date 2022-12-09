@@ -2,7 +2,7 @@
 title: İzin ve devamsızlık türlerini yapılandırma
 description: Dynamics 365 Human Resources'ta çalışanların götürebileceği izin tiplerini ayarlayın.
 author: twheeloc
-ms.date: 09/09/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,14 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 982e5afe6442e038774d59419a7edc0a9ec5444c
-ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
+ms.openlocfilehash: e35c5fed886ebf9a453c22b3e04ca9ffe50b6d70
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9323973"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805217"
 ---
 # <a name="configure-leave-and-absence-types"></a>İzin ve devamsızlık türlerini yapılandırma
+
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,19 +43,25 @@ Dynamics 365 Human Resources'ta izin türleri, bir personelin bildirebileceği �
 1. **İzin ve devamsızlık** çalışma alanında **Bağlantılar** sekmesini seçin.
 2. **Kurulum** altında, **izin ve devamsızlık tipleri**'ni seçin.
 3. **Yeni**'yi seçin.
-4. **Tür** altındaki izin türü için ad girin, **iş akışı kimliğinden** bir iş akışı seçin ve **açıklama** altında bir açıklama girin.
+4. **Tür** altındaki izin türü için ad girin, **Açıklama** altında bir açıklama girin ve **İş akışı kimliğinden** bir iş akışı seçin. İzin türüne bağlı olarak, **İstek türü** alanında bir istek türü seçin. Örneğin, **İzin** veya **Devamsızlık** öğesini seçin.
 5. **Genel** olarak, **kategori** açılan menüsünde **yok**, **zamanlanmış** veya **zamanlanmamış** seçeneğini belirleyin.
 6. **Kazanç kodu** açılan menüsünden bir kazanç kodu seçin.
 7. **Neden kodu gerekli** olduğunda, neden kodu olmasını istiyorsanız bunu seçin. Neden kodları olmasını istiyorsanız, bunları eklemeniz gerekebilir. **Neden kodları** altında, **Ekle**'yi seçin, bir neden kodu seçin ve sonra da yanındaki **etkin** onay kutusunu seçin.
-8. **Seçili rollere erişimi kısıtlamak** altında, erişimi kısıtlamak istediğinizi seçin. Sonra, **bu izin türü için güvenlik rolleri** altında güvenlik rollerini seçin. Güvenlik rolleri, bu yordamda daha önce **iş akışı kodu** altında seçtiğiniz iş akışında tanımlanmıştır.
-9. **Takvim rengi** altında, izin ve devamsızlık takvimlerinde bu izin türü için görüntülenecek rengi seçin. 
-10. **Askıya alma ilişkileri** altında , bu tür iznin başka bir izin türünü askıya al veya başka bir izin türü tarafından askıya alınması seçeneklerinden birini belirleyin. Askıya alma türü için devamsızlık yetkisi isteği gönderildiğinde, askıya alma türü için bir yeniden gönderme askıya alma işlemi otomatik olarak oluşturulur. 
-11. **Kaydet**'i seçin.
+8. İstek türü **Devamsızlık izni** ise, aşağıdaki adımları izleyin:
+
+      1. **Açık uçlu** altında, kullanıcıların açık uçlu izinler oluşturup oluşturmayacağını seçin.
+      2. **Açık uçlu** etkinleştirilmişse, çalışanların devamsızlıktan döndüklerinde bir işe dönüş bildirimi göndermeleri gerekip gerekmediğini seçebilirsiniz.
+      3. Çalışanların bir işe dönüş bildirimi göndermeleri gerekiyorsa **İşe dönüş bildirimini etkinleştir**'i etkinleştirebilirsiniz. **İşe dönüş bildirimini etkinleştir** etkinleştirilmişse, **Ek gerekli**  otomatik olarak etkinleştirilir ve devre dışı bırakılamaz.
+
+9. Kullanıcıların, izin istekleri oluştururken veya güncelleştirdiklerinde karşıya belge yükleymeleri gerekiyorsa **Ek gerekli** seçeneğini etkinleştirebilirsiniz.
+10. **Seçili rollere erişimi kısıtlamak** altında, erişimi kısıtlamak istediğinizi seçin. Sonra, **Bu izin türü için güvenlik rolleri** altında güvenlik rollerini seçin. Güvenlik rolleri, bu yordamda daha önce **iş akışı kodu** altında seçtiğiniz iş akışında tanımlanmıştır.
+11. **Takvim rengi** altında, izin ve devamsızlık takvimlerinde bu izin türü için görüntülenecek rengi seçin.
+11. **Askıya alma ilişkileri** altında , bu izin türünün başka bir izin türünü askıya alması veya başka bir izin türü tarafından askıya alınması gerekip gerekmediğini seçin. Askıya alma türü için devamsızlık yetkisi isteği gönderildiğinde, askıya alma türü için bir yeniden gönderme askıya alma işlemi otomatik olarak oluşturulur.
+12. **Kaydet**'i seçin.
 
 ## <a name="configure-leave-type-rules"></a>İzin türü kurallarını yapılandırma
 
 1. **İzin ve devamsızlık** türü için yuvarlama seçeneklerini ayarlayın. **Yok**, **yukarı**, **aşağı** ve **en yakın** seçenekleri vardır. Ayrıca, izin tipiyle ilgili Yuvarlama Duyarlığı da ayarlayabilirsiniz.
-
 2. İzin türü için **tatil düzeltmesi** ayarlayın. Bu seçeneği belirlediğinizde izin türü için sürenin nasıl tahakkuk ettirildiğini belirlemek üzere bir iş gününe denk düşen tatil sayısı kullanılır. Örneğin, Noel günü Pazartesi gününe denk gelirse İnsan Kaynakları tahakkukları işlerken izin türünden bir günü çıkarır.
 
    Tatilleri çlışma zmaanı takviminde ayarlayabilirsiniz. Daha fazla bilgi için bkz. [Çalışma zamanı takvimi oluşturma](hr-leave-and-absence-working-time-calendar.md).
@@ -69,7 +77,7 @@ Dynamics 365 Human Resources'ta izin türleri, bir personelin bildirebileceği �
 
 1. **İzin ve devamsızlık** sayfasında, **Bağlantılar** sekmesinde, **Kurulum** altında **İzin ve devamsızlık türleri**'ni seçin.
 
-2. Listeden bir izin ve devamsızlık türü seçin. Ardından, **Genel** bölümünde, bir çalışan seçili izin türü için yeni bir izin isteği gönderdiğinde ekin yüklenmesi gerekip gerekmediğini belirtmek için **Ek gerekli** alanını kullanın. 
+2. Listeden bir **İzin ve devamsızlık türü** seçin. **Genel** bölümünde, bir çalışan seçili izin türü için yeni bir izin isteği gönderdiğinde ekin yüklenmesi gerekip gerekmediğini belirtmek için **Ek gerekli** alanını kullanın. 
 
 Çalışanların, **Ek gerekli** alanının etkinleştirildiği bir izin türüne sahip yeni bir izin isteği gönderdiklerinde bir ek yüklemeleri gerekecektir. İzin isteği kapsamında yüklenen eki görüntülemek için izin isteğini onaylayanlar kendilerine atanan iş öğeleri için **Ekler** seçeneğini kullanabilir. Microsoft Teams'deki Human Resources uygulaması kullanılarak bir izin isteğine erişilirse izin isteği için **Ayrıntıları görüntüle** seçeneği, ayrıntılarını ve eklerini görüntülemek için kullanılabilir.
 

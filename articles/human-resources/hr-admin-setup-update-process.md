@@ -2,7 +2,7 @@
 title: Güncelleştirme işlemi
 description: Microsoft Dynamics 365 Human Resources uygulama ve platform değişiklikleri için sürekli, temassız servis güncelleştirmeleri sağlayan gerçek bir hizmet olarak yazılımdır (SaaS).
 author: twheeloc
-ms.date: 09/01/2022
+ms.date: 12/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: 197b3c5717494ab3c80a57cda337a9021293bf73
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520823"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819309"
 ---
 # <a name="update-process"></a>Güncelleştirme işlemi
 
@@ -41,7 +41,7 @@ Güncelleştirmeler düzenli aralıklarla yayımlanır ve tüm ortamlar için ya
 
 İnsan Kaynakları güncelleştirmeler otomatik olarak tüm ortamlara uygulanır. İnsan Kaynakları iki tür sürüm sağlar:
 
-- **Hizmet güncelleştirmeleri**: Güncellemeler, hata düzeltmeleri ve yeni özellikler içererek iki haftada bir yapılır. Hizmet güncelleştirmeleri, yayınlandıklarında uygun platform güncelleştirmelerini de içerir. Platform güncelleştirmeleri hakkında daha fazla bilgi için bkz. [Platform güncelleştirmelerindeki yenilikler veya değişiklikler](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Güncelleştirmeler, bölgeler arasında aşamalı genel bir piyasaya sahiptir. Güncelleştirmeler hakkında daha fazla bilgi için bkz. [Dynamics 365 Human Resources'ta yenilikler veya değişiklikler](hr-admin-whats-new.md).
+- **Hizmet güncelleştirmeleri**: Hizmet güncelleştirmeleri, yayınlandıklarında uygun platform güncelleştirmelerini de içerir. Özel durum tabanlı güncelleştirmelere ek olarak, Dynamics 365 Finance platformu güncelleştirmelerinin Genel Kullanıma (GA) sunulması ardından düzenli servis güncelleştirmeleri gerçekleştirilir. Platform güncelleştirmeleri hakkında daha fazla bilgi için bkz. [Platform güncelleştirmelerindeki yenilikler veya değişiklikler](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Güncelleştirmeler, bölgeler arasında aşamalı genel bir piyasaya sahiptir. Güncelleştirmeler hakkında daha fazla bilgi için bkz. [Dynamics 365 Human Resources'ta yenilikler veya değişiklikler](hr-admin-whats-new.md).
 
 - **Dataverse çözüm güncelleştirmeleri**: Bu güncelleştirmeler gerektiğinde yaklaşık altı haftada bir gerçekleşir. Bunlar yeni varlıkları ve Dataverse'deki varolan varlıklara yapılan değişiklikleri içerir. Bu güncelleştirmeler iki haftalık güncelleştirmelerle aynı bölgelerde yayınlanır ve tüm veri merkezlerinde çoğaltılmaları altı hafta sürer. Çözüm güncelleştirmeleri iki haftalık hizmet güncelleştirmelerine göre hizalanmayabilir veya bunları hizalamayabilir.
 
@@ -55,15 +55,6 @@ Gerektiğinde, İnsan Kaynakları aşağıdaki düzeltme türlerini sağlar:
 - **Acil durum düzeltmesi**: tek başına yapıdaki proaktif ve reaktif düzeltmeler, canlı site sorunlarını gidermek için yalnızca konfigürasyon veya kod değişikliklerini içerebilir ve iki haftalık bir Servis Güncelleştirmesi sürümünden ayrı olarak oluşabilir
 
 Sürümler bir iç ortam üzerinde gözden geçirilip test edildiğini ve doğrulanmaktadır. Yapılar imzalandıktan sonra üretime dağıtılır.
-
-## <a name="release-cadence-exceptions-in-2021"></a>2021 içinde sürüm temposu özel durumları
-
-Tatilleri hesaba eklemek için, Kasım ve Aralık 2021 için sürüm planı aşağıdaki gibidir:
-
-- Kasım sürümü: 1 Kasım - 14 Kasım
-- Aralık sürümü: 29 Kasım - 12 Aralık
- 
-İki haftalık sürüm temposu 10 Ocak 2022'de her zamanki gibi devam ettirilecektir.
 
 ## <a name="communications"></a>İletişim
 

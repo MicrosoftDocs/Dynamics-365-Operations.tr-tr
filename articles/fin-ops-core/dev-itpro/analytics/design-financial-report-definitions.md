@@ -2,7 +2,7 @@
 title: Finansal rapor tasarımcısında rapor tanımları
 description: Bu makalede rapor tanımları hakkında bilgi verilmektedir.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 59131
 ms.assetid: 966a3f1d-c59c-4a84-acd4-5bb7e65144c8
 ms.search.form: FinancialReports
-ms.openlocfilehash: e1095502e6dafbe217f51658ac65292c422a0002
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 2ffef335c694af56486ccd7738818c4edda49b9e
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291813"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802565"
 ---
 # <a name="report-definitions-in-financial-report-designer"></a>Finansal rapor tasarımcısında rapor tanımları
 
@@ -37,8 +37,8 @@ Bir rapor tanımı bir rapor oluşturmak üzere bir satır tanımı, bir sütun 
 Ancak, verilerin Microsoft Dynamics ERP sisteminde nasıl saklandığına bağlı olarak, hareket ayrıntıları raporlarda kullanılamayabilir.
 
 ## <a name="create-a-report-definition"></a>Rapor tanımı oluşturma
-1. Rapor Tasarımcısı'ndaki **Dosya** menüsünde, **Yeni**'ye tıklayın ve ardından **Rapor Tanımı**'nı seçin.
-2. **Rapor**, **Çıkış ve Dağıtım**, **Üst Bilgiler ve Alt Bilgiler** ve **Ayarlar** sekmelerinde ilgili bilgileri belirtin.
+1. Report Designer'da **Dosya** menüsünde, **Yeni**'ye tıklayın ve ardından **Rapor tanımı**'nı seçin.
+2. **Rapor**, **Çıktı ve dağıtım**, **Üst bilgiler ve alt bilgiler** ve **Ayarlar** sekmelerinde ilgili bilgileri belirtin.
 
 ## <a name="contents-of-a-report-definition"></a>Bir rapor tanımının içerikleri
 Aşağıdaki tabloda bir rapor tanımındaki sekmeler ve bilgilerin nasıl kullanıldığı açıklanmaktadır.
@@ -56,11 +56,11 @@ Aşağıdaki tabloda bir rapor tanımındaki sekmeler ve bilgilerin nasıl kulla
 <td>Rapor oluşturun, rapor yapılandırın veya var olan bir raporu değiştirin.</td>
 </tr>
 <tr>
-<td>Çıkış ve Dağıtım</td>
+<td>Çıktı ve dağıtım</td>
 <td>Raporun çıkış türünü ve hedefini değiştirin.</td>
 </tr>
 <tr>
-<td>Üst Bilgiler ve Alt Bilgiler</td>
+<td>Üst bilgiler ve alt bilgiler</td>
 <td>Raporun üst bilgilerini ve alt bilgilerini tanımlayıp biçimlendirin. Örneğin, üstbilgiye veya altbilgiye metin veya resim ekleyebilirsiniz. Mali raporlama görüntülerde .bmp, .jpg ve .png dosyalarını destekler. Şirket adı, rapor adı veya sayfa numarası gibi diğer bilgileri eklemek için otomatik metin kodlarını da ekleyebilirsiniz.</td>
 </tr>
 <tr>

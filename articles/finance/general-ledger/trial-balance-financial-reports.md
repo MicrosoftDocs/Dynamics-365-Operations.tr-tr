@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a202dac3880717e9498212ca34570101188f48ce
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: b26d2ec261720499fc309a5fb850de2cb796bd8b
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725219"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802620"
 ---
 # <a name="trial-balance-financial-reports"></a>Mizan mali raporları
 
@@ -32,8 +32,8 @@ Bu makalede, mizanlar için varsayılan raporlar açıklanmaktadır. Ayrıca, bu
 
 Mali raporlama için üç mizan raporu kullanılabilir.
 
-| Varsayılan rapor                                 | Ne yapar                                                                                                                                                                                        |
-|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Varsayılan rapor                                 | Ne yapar                                                                            |
+|------------------------------------------------|--------------------------------------------------------------------------------------|
 | Ayrıntılı Mizan - Varsayılan               | Borç ve alacak bakiyeleri olan tüm hesaplar için bakiye bilgilerini ve hareket tarihi, fiş ve günlük açıklamasıyla birlikte bunların net değerini gösterir.                  |
 | Özet Mizan – Varsayılan                | Açılış ve kapanış bakiyeleri olan tüm hesaplar için bakiye bilgilerini ve net farklarıyla birlikte borç ve alacak bakiyelerini gösterir.                                        |
 | Özet Mizan Yıl Yıl – Varsayılan | Açılış ve kapanış bakiyeleri olan tüm hesaplar için bakiye bilgilerini ve bu yıl ve geçen yıl için net farklarıyla birlikte borç ve alacak bakiyelerini gösterir. |
@@ -54,8 +54,8 @@ Mizan mali raporları aşağıdaki yapı taşlarını kullanır.
 
 Satır tanımı, Mizan – Varsayılan, tüm ana hesaplardan veri çeken tek bir satır içerir. Bu nedenle, herhangi biri hiçbir değişiklik yapmasına gerek kalmadan rapor oluşturabilir. Raporu görüntülediğinizde, her bir hesap hakkında ayrıntılı bilgileri görmek için tek bir satıra bakarsınız. Satır tanımını daha fazla ayrıntı içerecek şekilde değiştirebilirsiniz. Mizan – Varsayılan satır tanımını tüm hesaplar için satırları içerecek şekilde değiştirmek için, bu adımları takip edin.
 
-1.  **Düzenle** öğesini ve ardından **Boyutlardan Satır Ekle** öğesini tıklayın. **Boyutlardan Satır Ekle** komutu, satır tanımınızda olmasını istediğiniz boyutları seçmenize izin verir. Bu satır tanımı için **Ana Hesap** kullanılacaktır.
-2.  **Ana Hesabın** tüm işaretleri içerdiğinden emin olun ve ardından **Tamam** öğesini tıklayın.
+1.  **Düzenle**'ye ve ardından **Boyutlardan satır ekle**'ye tıklayın. **Boyutlardan satır ekle** komutu, satır tanımınızda olmasını istediğiniz boyutları seçmenize izin verir. Bu satır tanımı için **Ana hesap** kullanılacaktır.
+2.  **Ana hesabın** tüm & işaretlerini içerdiğinden emin olun ve ardından **Tamam**'a tıklayın.
 
 Satır tanımı şimdi varsayılan tüzel kişiliğiniz için tüm ana hesapları içermektedir.
 

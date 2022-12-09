@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51c6cb7c5706bb4bd7080c7f7d679e49771443d1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e6c98246e94670dd5f882fcbbd1f269e57f66faf
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869850"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805300"
 ---
 # <a name="request-a-leave-of-absence"></a>Devamsızlık izni isteği
 
@@ -51,6 +51,22 @@ Bir devamsızlık durumu için istek gönderebilir ve Dynamics 365 Human Resourc
 1. **Çalışan Self servis** çalışma alanında, **izin bakiye** döşemesinin dışında **Diğer (...)** seçin.
 
 2. Devamsızlık talebi bırak görüntülemek için **Devamsızlığı görüntüle** seçeneğini belirleyin .
+
+## <a name="update-a-leave-of-absence-request"></a>Devamsızlık izni isteğini güncelleştirme
+
+1. **Çalışan Self servis** çalışma alanında, **Devamsızlık isteği** kutucuğunda **Diğer (...)** öğesini seçin.
+2. Güncelleştirilecek devamsızlık isteğini seçin ve **Devamsızlık iznini güncelleştir**'i seçin.
+3. **Bitiş tarihi** alanında, devamsızlık iznini uzatmak veya kısaltmak için değeri uygun şekilde güncelleştirin.
+4. Bitiş tarihi onaylandığında, **Bitiş tarihini onayla** seçeneğini **Evet** olarak ayarlayın.
+5. **Bitiş tarihini onayla** seçeneği **Evet** olarak ayarlandığında, bir işe dönüş bildirimi yükleyebilirsiniz. Ardından, bir işe dönüş bildiriminin yüklnediğini onaylamak için onay kutusunu seçin.
+6. Devamsızlık izni isteğini güncelleştirmek için **Gönder**'i seçin.
+
+## <a name="cancel-a-leave-of-absence-request"></a>Devamsızlık izni isteğini iptal etme
+
+1. **Çalışan Self servis** çalışma alanında, **Devamsızlık isteği** kutucuğunda **Diğer (...)** öğesini seçin.
+2. İptal edilecek devamsızlık isteğini seçin ve **Devamsızlık iznini güncelleştir**'i seçin.
+3. **İzni iptal et** seçeneğini **Evet** olarak ayarlayın.
+4. Devamsızlık izni isteğini iptal etmek için **Gönder**'i seçin.
 
 ## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>Diğer sistemlerdeki veya eski sistemlerdeki izin taleplerini içeri aktarma
 

@@ -2,7 +2,7 @@
 title: Kredi yönetimi parametreleri kurulumu
 description: Bu makalede, Kredi yönetimini işletmenizin gereksinimlerini karşılayacak şekilde yapılandırmak için kullanabileceğiniz seçenekler açıklanmaktadır.
 author: JodiChristiansen
-ms.date: 12/10/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ac5e0ba8c9279fc5f04a80d4444b11850e72d3c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8955518e7b5c0200d3827c1c22b7d150a09be244
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876368"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799558"
 ---
 # <a name="credit-management-parameters-setup"></a>Kredi yönetimi parametreleri kurulumu
 
@@ -46,7 +46,7 @@ Kredi yönetimini denetleyen parametreleri değiştirebileceğiniz **Kredi** bö
 
 Satış siparişlerinde kredi sorunlarını denetlemek için kullanılacak zamanlamayı ayarlayabilirsiniz. **Kredi yönetimi denetim noktası** hızlı sekmesi, kredi yönetimi kurallarının işlenmesini içeren belge deftere nakil işlemlerini tanımlar. Ayrıca, proforma deftere nakil işlemi veya satış siparişinin tam bir deftere nakli sırasında da kredi kurallarını denetleyebilirsiniz. Kredi yönetimi durdurma kuralları işlendikten sonra bir sorun bulunduğunda bir siparişi beklemeye alması gereken deftere nakil işlemlerini tanımlamak için onay kutularını seçin.
 
-Ayrıca, kredi kuralları yeniden denetlenmeden önceki mehil gün sayısını da tanımlayabilirsiniz. Deftere nakil sırasında kredi yönetimi kurallarının denetlenmesini belirtebilseniz de, belirtilen mehil gün sayısı için kurallar denetlenmez. Örneğin, 1. gün bir satış siparişini onaylıyor ve onay adımı için mehil süresi olarak iki gün belirtiyorsunuz. Bu durumda, sonraki deftere nakil adımında (örneğin, siparişin sevk irsaliyesini oluşturma veya faturalama) 4. güne kadar kredi kuralları denetlenmez. 4. gün veya sonrasında, deftere nakil gerçekleştiği zaman kurallar denetlenir ve mehil gün sayısı, sonraki deftere nakil denetim noktası için belirtilen değere değişir.
+Ayrıca, kredi kuralları yeniden denetlenmeden önceki mehil gün sayısını da tanımlayabilirsiniz. Deftere nakil sırasında kredi yönetimi kurallarının denetlenmesini belirtebilseniz de, belirtilen mehil gün sayısı için kurallar denetlenmez. Örneğin, birinci gün bir satış siparişini onaylıyor ve onay adımı için mehil süresi olarak iki gün belirtiyorsunuz. Bu durumda, sonraki deftere nakil adımında (örneğin, siparişin sevk irsaliyesini oluşturma veya faturalama) dördüncü güne kadar kredi kuralları denetlenmez. Dördüncü gün veya sonrasında, deftere nakil gerçekleştiği zaman kurallar denetlenir ve mehil gün sayısı, sonraki deftere nakil denetim noktası için belirtilen değere değişir.
 
 Mehil gün sayısını belirlemezseniz, kredi yönetimi kurallarını çalıştırmak üzere ayarlanmış her deftere nakil adımında kredi kuralları denetlenir. Satış siparişini deftere nakletmeden serbest bırakırsanız ve aynı sipariş işleme adımını yeniden çalıştırırsanız, kredi kuralları yine denetlenir. Örneğin bir sipariş bir onaydan sonra beklemeye alınıyor ve bu siparişi deftere naklederek ya da nakletmeden serbest bırakıyorsunuz. Bu durumda, siparişi yeniden onaylarsanız sipariş yine beklemeye alınır. Siparişin bir sonraki işleme adımına yeniden bekletilmeksizin devam ettirilmesi gerekiyorsa mehil gün sayısını kullanın.
 
@@ -73,7 +73,7 @@ Mehil gün sayısını belirlemezseniz, kredi yönetimi kurallarını çalışt�
 
 - Kredi yönetiminde, müşteri kredi limiti müşterinin para birimiyle gösterilir. Müşterinin para biriminde kredi limiti için döviz kuru türünü tanımlamanız gerekir. **Kredi limiti döviz kuru türü** alanında, birincil kredi limitini müşterinin kredi limitine dönüştürmek için kullanılması gereken döviz kuru türünü seçin.
 - Kullanıcıların kredi limitlerini **Müşteri** sayfasında düzenlemelerini engellemek için **Kredi limitlerinin el ile düzenlenmesine izin ver** seçeneğini **Hayır** yapın. Bu seçenek **Hayır** olarak ayarlanırsa, müşterinin kredi limitindeki değişiklikler yalnızca kredi limiti düzeltme hareketleriyle yapılabilir.
-- Kredi yönetimi engelleme kuralları işaretlendiğinde stok rezervasyonlarını göz ardı etmek için **Stok rezervasyonlarını atla** seçeneğini **Evet** olarak ayarlayın. Bu durumda sistem, stok rezervasyon miktarından bağımsız olarak satır miktarlarının tamamını denetler ve denetim noktası mehil sürelerini etkinleştirir.
+- Kredi yönetimi engelleme kuralları işaretlendiğinde stok rezervasyonlarını göz ardı etmek için **Stok rezervasyonlarını atla** seçeneğini **Evet** olarak ayarlayın. Bu durumda, stok rezervasyon miktarından bağımsız olarak miktarlar denetlenir ve denetim noktası mehil sürelerini etkinleştirilir.
 - Kredi yönetimi etkinleştirildiğinde, **Kredi limiti aşıldığında ileti** alanının ayarı yalnızca serbest metin faturalarını işlemek için kullanılır. Müşteriler kredi limitini aştığında iletiler yine de satış siparişlerine eklense de bu iletilerin varlığı, malzeme çekme listeleri ile sevk irsaliyelerinin onaylanıp yazdırılmasını veya faturaların deftere nakledilmesini engellemez.
 
     Kredi yönetimi varsayılan olarak etkindir, ancak bunu devre dışı bırakabilirsiniz. Etkinleştirildiğinde, müşterilerin kredi limitini ne zaman aştığını belirlemek için kredi yönetimi engelleme kurallarını ve denetim noktalarını kullanırsınız. Devre dışı bırakılmışsa, **Kredi limiti aşıldığında ileti** alanının ayarına bağlı olarak satış siparişlerine eklenen iletiler, müşterilerin kredi limitini ne zaman aştığını belirlemenize yardımcı olabilir.

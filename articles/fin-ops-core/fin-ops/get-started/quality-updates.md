@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: d417b16706ac4389e40e25ffbbddde5ebac92db3
-ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
+ms.openlocfilehash: ecfeb3e6c5760b526ade609ee38f83da083b34d2
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "9775414"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805327"
 ---
 # <a name="proactive-quality-updates"></a>Proaktif kalite güncelleştirmeleri
 
@@ -105,19 +105,19 @@ Her bölgenin aktif olunmayan saatleri hakkında bilgi için bkz. [Bölgeye gör
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a>Proaktif kalite güncelleştirmesi sürümü: 10.0.29
 **Uygulama sürümü: 10.0.1326.70**  
-**İlgili son BB makalesi: 748926**
+**İlgili son BB makalesi: 750332**
 
 | İstasyon | Bölgeler | Tamamlanmış Zamanlama | Yaklaşan Korumalı Alan Zamanlaması|
 |---|---|---|---|
-| 1. İstasyon | Merkez Kanada, Doğu Kanada, Merkez Fransa, Merkez Hindistan, Doğu Norveç, Batı İsviçre | 14 Ekim ile 17 Ekim 2022 ve 2 Kasım ile 5 Kasım 2022 tarihleri arasında | 13 Kasım-16 Kasım 2022 |
-| 2. İstasyon | Güney Fransa, Güney Hindistan, Batı Norveç, Kuzey İsviçre, Kuzey Güney Afrika, Doğu Avustralya, Güney Birleşik Krallık, Kuzey BAE, Doğu Japonya, Güneydoğu Avustralya, Güney Doğu Asya | 15 Ekim ile 18 Ekim 2022 ve 2 Kasım ile 5 Kasım 2022 tarihleri arasında | 13 Kasım-16 Kasım 2022 |
-| 3. İstasyon | Doğu Asya, Batı Birleşik Krallık, Batı Japonya, Güney Brezilya, Batı Avrupa, Doğu ABD, Merkez BAE | 16 Ekim ile 19 Ekim 2022 ve 2 Kasım ile 5 Kasım 2022 tarihleri arasında | 13 Kasım-16 Kasım 2022 |
-| 4. İstasyon | Kuzey Avrupa, Orta ABD, Batı ABD | 17 Ekim ile 20 Ekim 2022 ve 2 Kasım ile 5 Kasım 2022 tarihleri arasında | 15 Kasım-18 Kasım 2022 |
+| 1. İstasyon | Merkez Kanada, Doğu Kanada, Merkez Fransa, Merkez Hindistan, Doğu Norveç, Batı İsviçre | 14 Ekim - 17 Ekim 2022, 2 Kasım - 5 Kasım 2022, 13 Kasım - 16 Kasım 2022 | 5 Aralık ile 8 Aralık arasında|
+| 2. İstasyon | Güney Fransa, Güney Hindistan, Batı Norveç, Kuzey İsviçre, Kuzey Güney Afrika, Doğu Avustralya, Güney Birleşik Krallık, Kuzey BAE, Doğu Japonya, Güneydoğu Avustralya, Güney Doğu Asya | 15 Ekim - 18 Ekim 2022, 2 Kasım - 5 Kasım 2022, 13 Kasım - 16 Kasım 2022 | 5 Aralık ile 8 Aralık arasında|
+| 3. İstasyon | Doğu Asya, Batı Birleşik Krallık, Batı Japonya, Güney Brezilya, Batı Avrupa, Doğu ABD, Merkez BAE | 16 Ekim - 19 Ekim 2022, 2 Kasım - 5 Kasım 2022, 13 Kasım - 16 Kasım 2022 | 5 Aralık ile 8 Aralık arasında|
+| 4. İstasyon | Kuzey Avrupa, Orta ABD, Batı ABD | 17 Ekim - 20 Ekim 2022, 2 Kasım - 5 Kasım 2022, 15 Kasım - 18 Kasım 2022 | 5 Aralık ile 8 Aralık arasında|
 | 5. İstasyon | DoD, Hükümet Topluluk Bulutu, Çin | Planlanmadı | Planlanmadı |
 
 ### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a>Proaktif kalite güncelleştirmesi sürümü: 10.0.30
-**Uygulama sürümü: TBD**
-**İlgili son BB makalesi: TBD**
+**Uygulama sürümü: 10.0.1362.77**
+**İlgili son BB makalesini: 767597**
 
 | İstasyon | Bölgeler | Yaklaşan Korumalı Alan Zamanlaması |
 |---|---|---|
@@ -147,14 +147,14 @@ Microsoft, doğrulama maliyetini düşük tutmak için yayın işlem hattını k
 Hayır. Kalite güncellemelerinin temel amacı, müşterilerimiz için güvenlik, gizlilik, güvenilirlik, kullanılabilirlik ve performans gibi temel ilkelerin sürekli olarak geliştirilmesini sağlamaktır. Bir güncelleştirmenin geciktirilmesi veya duraklatılması durumunda güvenlik, kullanılabilirlik ve güvenilirlik risk altında olur.
 
 ## <a name="how-do-i-know-what-set-of-changes-went-into-a-quality-update-payload"></a>Kalite güncelleştirme yüküne giren değişiklikler kümesini nasıl belirlerim?
-Kalite güncelleştirme yükünde bulunan değişikliklerin listesini belirlemek amacıyla daha iyi bir çözüm sunmak için çalışmaya devam ediyoruz. Bu süreçte, aşağıdaki adımlar geçici çözüm niteliğindedir. 
+Kalite güncelleştirme yükünde bulunan değişikliklerin listesini belirlemek için aşağıdaki adımları izleyin. 
 
-10.0.28 kalite güncelleştirmesi dizisi ve ilgili uygulama sürümü 10.0.1265.89 için BB# 745340 kullanın.
+10.0.28 Kalite Güncelleştirmesi eğitimi ve ilgili Uygulama sürümü 10.0.1265.89'u kullanın.
 
 1. Lifecycle Services'te korumalı alanınızın **Ortam ayrıntıları** sayfasını açın. 
 2. **Kullanılabilir Güncelleştirmeler** bölümünde en son kalite güncelleştirme derlemesi için **Görünümü Güncelleştir** seçeneğini belirleyin. 
 3. Derlemeyi CSV veya Microsoft Excel dosyasına dışarı aktarın.
-4. Dışa aktarılan dosyada bilgileri zamana göre sıralayın (önce en eski) ve sonra **Kimliği güncelleştir** sütununda BB 745340 numarasını arayın. BB delta listesini görebiliyor olmanız gerekir.
+4. Dışa aktarılan dosyada, 10.0.1265.89 derleme numarasından küçük veya ona eşit olan **Derleme sürümünü** seçin. Delta yükünü görebiliyor olmanız gerekir.
  
 > [!NOTE]
 > CSV veya Excel dosyasına dışarı aktarma işlemi, ortam güncelleştirilmeden önce yapılmalıdır. Aksi durumda, güncelleştirme yüklü olmayan ve benzer yapılandırmaya sahip bir ortam kullanabilir ve yukarıdaki adımları izleyebilirsiniz.
@@ -185,8 +185,8 @@ Evet. Bir kalite güncellemesini proaktif olarak yükleyebilirsiniz. Microsoft, 
 ## <a name="can-an-environment-be-brought-back-to-its-previous-state-if-there-are-issues-after-a-quality-update-is-applied"></a>Kalite güncelleştirmesi uygulandıktan sonra sorunlar yaşanırsa ortam önceki durumuna geri getirilebilir mi?
 Kalite güncelleştirmesi uygulandıktan sonra, hiçbir koşulda geri alma işlemi yapılmaz. Sorunları azaltmak için yalnızca düzeltme eki iletme seçenekleri vardır.
 
-## <a name="what-about-fda-regulation-and-gpx"></a>FDA yönetmeliği ve GPX ile ilgili durum nedir?
-FDA doğrulaması ve düzenlemesine tabi müşteriler için plan değişikliği yapılmaya devam etmektedir. Yakında bu alanda daha fazla güncelleştirme bekliyoruz. Şimdilik, bu tür tüm müşteriler kalite güncelleştirmelerinden muaftır. Müşterinin FDA düzenlemelerine tabi olduğundan emin olmak için lütfen [Microsoft Azure GPX Teklifi](/azure/compliance/offerings/offering-gxp)'ni ziyaret edin.
+## <a name="what-about-fda-regulation-and-gxp"></a>FDA yönetmeliği ve GxP ile ilgili durum nedir?
+FDA doğrulaması ve düzenlemesine tabi müşteriler için plan değişikliği yapılmaya devam etmektedir. Yakında bu alanda daha fazla güncelleştirme bekliyoruz. Şimdilik, bu tür tüm müşteriler kalite güncelleştirmelerinden muaftır. Müşterinin FDA düzenlemelerine tabi olduğundan emin olmak için lütfen [Microsoft Azure GxP Teklifi](/azure/compliance/offerings/offering-gxp)'ni ziyaret edin.
 
 ## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>Bu kalite güncelleştirmeleri için hizmet güncelleştirmelerinin hangi sürümleri desteklenir?
 Hizmet güncelleştirmelerinin desteklenen sürümlerini kullanan müşteriler, kalite güncelleştirmelerini alabilir. 

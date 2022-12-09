@@ -2,7 +2,7 @@
 title: Merkezi ödemeler için kapatmaya genel bakış
 description: Bu makale, Microsoft Dynamics 365 Finance için merkezi ödeme kapatmalarını açıklar.
 author: angelad116
-ms.date: 08/02/2018
+ms.date: 11/22/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef71520df5cdae192355e512238d03c1f21b901f
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 42c359edbe49af151ac76c9873c0d429bbe1ca12
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151193"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804239"
 ---
 # <a name="settlement-overview-for-centralized-payments"></a>Merkezi ödemeler için kapatmaya genel bakış
 
@@ -84,11 +84,11 @@ Döviz kuru kazancı veya kaybı oluşursa, kazanç ya da kayıp ödemenin tüze
 
 Fazla ödeme, eksik ödeme ve kuruş farkı toleransları, fazla ödemeler için ödemenin tüzel kişiliğine, eksik ödemeler için faturanın tüzel kişiliğine göre belirlenir. Kullanılan deftere nakil hesabı, müşterinin **Alacak hesapları parametreleri** sayfasındaki **Nakit iskontosu yönetimi** alanında ve satıcının **Borç hesapları parametreleri** sayfasındaki **Nakit iskontosu yönetimi** alanındaki ayara göre belirlenir.
 
--   Nakit iskontosu yönetimi ayarı Belirli ise veya ayar Belirsiz ise ve uygun nakit iskontosu fazla ödemeden farklı bir tüzel kişiliğe nakledildiyse, Müşteri nakit iskontosu, Satıcı nakit iskontosu veya Muhasebe para birimi cinsinden kuruş farkı için otomatik hesap kullanılır. Bu hesapları **Otomatik hareketler için hesaplar** sayfasından belirleyebilirsiniz.
--   Nakit iskontosu yönetimi ayarı Belirsiz ise ve fazla ödemeye ilişkin tüzel kişilikle aynı şirkete nakledilirse, (ödemenin tüzel kişiliği ile faturanın tüzel kişiliği aynıdır), nakit iskontosu hesabı düzeltilir. Örneğin, kullanılabilen 3,00 tutarında nakit iskontosu olan 100,00 tutarında bir fatura 98,00 tutarında bir ödemeyle kapatılırsa, nakit iskontosu hesabı 1,00 tutarı için düzeltilir. Net iskonto tutarı 2,.00'dır.
--   Nakit iskontosu yönetimi ayarı Belirsiz ise, nakit iskontosu fazla ödemeye ilişkin tüzel kişilikle aynı tüzel kişiliğe nakledilir ve fazla ödeme veya eksik ödeme nakit iskontosu olan birden çok faturayla kapatılır, nakit iskontosu hesabı son fatura için düzeltilir.
+-   Nakit iskontosu yönetimi ayarı **Belirli** ise veya ayar **Belirsiz** ise ve uygun nakit iskontosu fazla ödemeden farklı bir tüzel kişiliğe nakledildiyse, Müşteri nakit iskontosu, Satıcı nakit iskontosu veya Muhasebe para birimi cinsinden kuruş farkı için otomatik hesap kullanılır. Bu hesapları **Otomatik hareketler için hesaplar** sayfasından belirleyebilirsiniz.
+-   Nakit iskontosu yönetimi ayarı **Belirsiz** ise ve fazla ödemeye ilişkin tüzel kişilikle aynı şirkete nakledilirse, (ödemenin tüzel kişiliği ile faturanın tüzel kişiliği aynıdır), nakit iskontosu hesabı düzeltilir. Örneğin, kullanılabilen 3,00 tutarında nakit iskontosu olan 100,00 tutarında bir fatura 98,00 tutarında bir ödemeyle kapatılırsa, nakit iskontosu hesabı 1,00 tutarı için düzeltilir. Net iskonto tutarı 2,.00'dır.
+-   Nakit iskontosu yönetimi ayarı **Belirsiz** ise, nakit iskontosu fazla ödemeye ilişkin tüzel kişilikle aynı tüzel kişiliğe nakledilir ve fazla ödeme veya eksik ödeme nakit iskontosu olan birden çok faturayla kapatılır, nakit iskontosu hesabı son fatura için düzeltilir.
 
-Nakit iskontosu yönetimi seçimi Belirsiz ise, belirli olmayan ödeme kapatma kuralları yalnızca aşağıdaki durumlarda uygulanır:
+Nakit iskontosu yönetimi seçimi **Belirsiz** ise, belirli olmayan ödeme kapatma kuralları yalnızca aşağıdaki durumlarda uygulanır:
 -   Fazla ödeme varsa.
 -   Fazla ödeme, nakit iskontosu olan bir veya daha fazla faturayla kapatılırsa.
 -   Nakit iskontosu fazla ödemeye ilişkin tüzel kişilikle aynı tüzel kişiliğe nakledilirse.

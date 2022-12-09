@@ -2,7 +2,7 @@
 title: Satıcı deftere nakil profilleri
 description: Satıcı deftere nakil profilleri, satıcı hareketlerinin genel muhasebeye naklini kontrol eder.
 author: abruer
-ms.date: 06/12/2019
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 24691
 ms.assetid: 18def866-7655-4f0b-b299-eec83098d23a
 ms.search.form: VendPosting
-ms.openlocfilehash: 922612e536164c7985f0be107f67ad8bbaef7898
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 09f27ef510f38c10fc265b682a492ba5872b6d3e
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272993"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799612"
 ---
 # <a name="vendor-posting-profiles"></a>Satıcı deftere nakil profilleri
 
@@ -94,7 +94,7 @@ Tüm satıcı hareketlerinin aynı deftere nakil profili içermesini istiyorsan�
 </tr>
 <tr class="even">
 <td><strong>Varış</strong></td>
-<td>Onaylanmayan satıcı faturaları hakkındaki bilgilerin nakledildiği genel muhasebe hesabını seçin. Bilgiler Fatura kayıt günlüğüne girilir. Örneğin, bir kullanıcı, fatura kaydına girdiklerinde satıcı faturaları hakkındaki temel bilgileri girer. Fatura kaydı nakledildiğinde, hareketler buraya ve <strong>Mahsup hesap</strong> alanına girilen hesaba nakledilir. Faturalar onaylandığında, borç varış hesabından satıcı özet hesabına nakledilir.</td>
+<td>Onaylanmayan satıcı faturaları hakkındaki bilgilerin nakledildiği genel muhasebe hesabını seçin. Bilgiler <strong>Fatura kayıt günlüğüne</strong> girilir. Örneğin, bir kullanıcı, fatura kaydına girdiklerinde satıcı faturaları hakkındaki temel bilgileri girer. Fatura kaydı nakledildiğinde, hareketler buraya ve <strong>Mahsup hesap</strong> alanına girilen hesaba nakledilir. Faturalar onaylandığında, borç varış hesabından satıcı özet hesabına nakledilir.</td>
 </tr>
 <tr class="odd">
 <td><strong>Mahsup hesabı</strong></td>
@@ -110,10 +110,10 @@ Seçili nakil profilini içeren hareketler için hareketlerin otomatik olarak ka
 
 Deftere nakil profilinizi ayarlamak için aşağıdaki değerleri belirtin
 
-| Alan          | Tanım                                                                                                                                                                                                    |
-|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Alan          | Tanım             |
+|----------------|--------------------------------------------------------------------------|
 | **Kapatma** | Bu nakil profilini içeren hareketlerin otomatik kapatılmasını etkinleştirmek için bu seçeneği seçin. Bu seçenek temizlenirse, hareketleri, **Açık hareketleri kapat** sayfasını kullanarak elden kapatmanız gerekir. |
-| **İptal**     | Bu nakil profilini içeren hareketlerin iptal edilmesi seçeneğine sahip olmak istiyorsanız bu seçeneği seçin.                                                                                                               |
+| **İptal**     | Bu nakil profilini içeren hareketlerin iptal edilmesi seçeneğine sahip olmak istiyorsanız bu seçeneği seçin.                              |
 | **Kapat**      | Bu nakil profilini içeren hareketler kapatılırken değiştirmek istediğiniz nakil profilini seçin. Bir hareket tamamen kapatıldığında kapanmış kabul edilir.                                       |
 
 

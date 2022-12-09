@@ -2,32 +2,33 @@
 title: Mobil platformlar için Store Commerce uygulaması
 description: Bu makalede Android ve iOS için Microsoft Dynamics 365 Commerce Store Commerce uygulamasının nasıl kullanılacağı anlatılmaktadır.
 author: stuharg
-ms.date: 10/07/2022
+ms.date: 11/30/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2018-10-29
-ms.openlocfilehash: 1f07a130629863ebd9d036378436cf360e90ac26
-ms.sourcegitcommit: 98231ff810f41f9fcdc6b536d87e453028aa6db8
+ms.openlocfilehash: dc952698a2a3301aff312e8310c58cbbb9cfe290
+ms.sourcegitcommit: 2804b05214c87f76457608b5db072582ff339852
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "9642349"
+ms.lasthandoff: 12/01/2022
+ms.locfileid: "9815796"
 ---
 # <a name="store-commerce-app-for-mobile-platforms"></a>Mobil platformlar için Store Commerce uygulaması
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Bu makalede Android ve iOS için Microsoft Dynamics 365 Commerce Store Commerce uygulamalarının nasıl kullanılacağı anlatılmaktadır.
 
-Android için iOS Dynamics 365 Commerce mobil uygulamaları, tam özellikli mobil satış noktası (POS) cihazlarını perakende ortamınız için daha kolay ve basit bir şekilde dağıtmanızı sağlar. Store Commerce mobil uygulamaları, [Windows için Store Commerce](store-commerce.md)'in tüm yetenek ve avantajlarını telefon ve tablet form faktörlerinde sunar. Store Commerce mobil uygulamaları, Apple ve Google Play uygulama mağazalarından doğrudan indirilebilir; geliştiricilerin dağıtım veya güncelleştirme için yeni bir uygulama paketi oluşturması gerekmez. 
+Android için iOS Dynamics 365 Commerce mobil uygulamaları, tam özellikli mobil satış noktası (POS) cihazlarını perakende ortamınız için daha kolay ve basit bir şekilde dağıtmanızı sağlar. Store Commerce mobil uygulamaları neredeyse [Windows için Store Commerce](store-commerce.md)'in tüm yetenek ve avantajlarını sunar ve çok çeşitli iOS ve Android telefon ve tablette düzgün çalışır. Store Commerce mobil uygulamaları, Apple ve Google Play uygulama mağazalarından doğrudan indirilebilir; geliştiricilerin dağıtım veya güncelleştirme için yeni bir uygulama paketi oluşturması gerekmez. 
 
 Store Commerce mobil uygulamaları, geçerli Retail karma uygulamalarıyla işlevsel olarak tamamıyla eşittir. Ek olarak, iOS için Store Commerce uygulamasında donanım istasyonu desteği bulunur. Böylece iOS cihazları, paylaşımlı donanım istasyonu dağıtımına ihtiyaç duymaksızın ağa bağlı ödeme terminalleri, makbuz yazıcıları ve kasa çekmeceleri ile iletişim kurabilir. 
 
 > [!IMPORTANT]
-> Windows, Android ve iOS için Store Commerce uygulamaları, Dynamics 365 Commerce için yeni nesil POS uygulamalarıdır. Geçerli Modern POS (MPOS) uygulaması ile mobil için [Retail karma uygulamaları](hybridapp.md), Ekim 2023'te kullanım dışı bırakılacaktır. Microsoft, tüm yeni POS dağıtımları için Store Commerce veya Cloud POS (CPOS) kullanmanızı önerir. Varolan müşteriler, Retail karma uygulamasından Store Commerce'e geçme planı yapmalıdır. MPOS ve Retail karma uygulamaları için kullanım dışı bırakma planları ile ilgili daha fazla bilgi için bkz. [Dynamics 365 Commerce mağaza içi teknoloji yığınını modernleştirme](https://www.microsoft.com/download/details.aspx?id=103896). 
+> Windows, Android ve iOS için Store Commerce uygulamaları, Dynamics 365 Commerce için yeni nesil POS uygulamalarıdır. Store Commerce uygulamaları, öncellerine göre çok sayıda geliştirme sunmasının yanı sıra tüm işlevlere ve özellik eşliğine sahiptir. Microsoft, 2023 yılının ilerleyen bölümünde MPOS ile Android ve iOS Retail POS karma uygulamalarını kullanım dışı bırakacaktır ve tüm yeni POS dağıtımlarınız için Store Commerce veya Cloud POS (CPOS) kullanmanızı önerir. Varolan müşteriler, Retail karma uygulamalarından Store Commerce'e geçme planı yapmalıdır. Daha fazla bilgi için bkz. [Modern POS'u Store Commerce'a geçirme](pos-extension/migrate-mpos-store-commerce.md). 
 
 ## <a name="app-architecture"></a>Uygulama mimarisi
 
@@ -51,7 +52,7 @@ Store Commerce mobil uygulamaları için başta Commerce headquarters ve CSU bil
 Store Commerce mobil uygulamalarını doğrudan Google Play mağazasından veya Apple App Store'dan yükleyebilirsiniz. 
 
 - [Android için Store Commerce uygulaması](https://aka.ms/storecommerceandroid)
-- iOS için Store Commerce uygulaması (yakında kullanılabilir)
+- [iOS için Store Commerce uygulaması](https://aka.ms/storecommerceios)
 
 Android uygulama (.apk) veya Apple uygulama (.ipa) paketleri, Microsoft Dynamics Lifecycle Services'te bulunan Paylaşılan varlık kitaplığından da indirilebilir. 
 

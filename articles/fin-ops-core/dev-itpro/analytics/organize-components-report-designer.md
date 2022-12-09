@@ -2,7 +2,7 @@
 title: Report Designer'da rapor bileşenlerini düzenleme
 description: Bu makalede varolan raporların, yapı taşlarının ve nesnelerin rapor tasarımcısında nasıl düzenleneceği açıklanmaktadır.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a6abad01232d05e94321d0d568d2e801d92875ae
-ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
+ms.openlocfilehash: a94a88114072792243026e441e6c5a62ee80fc56
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "9135894"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802701"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Rapor tasarımcısında rapor bileşenlerini düzenlemek
 
@@ -28,16 +28,16 @@ ms.locfileid: "9135894"
 
 Yapı taşları tasarlayıp rapor oluşturduktan sonra bu nesneleri düzenlemeniz kullanıcıların bunları bulmasını kolaylaştırmaya yardımcı olur. Bu makalede varolan raporların, yapı taşlarının ve nesnelerin rapor tasarımcısında nasıl düzenleneceği açıklanmaktadır.
 
-Klasörleri, raporları, yapı taşlarını ve diğer nesneleri rapor tasarımcısında dosyalarınızı düzenlemenize yardımcı olması için yeniden adlandırabilirsiniz. Yeniden adlandırdığınız nesne türüne bağlı olarak, o nesneyle ilişkileri güncelleştirmek gerekebilir.
+Klasörleri, raporları, yapı taşlarını ve diğer nesneleri Report Designer'da dosyalarınızı düzenlemenize yardımcı olması için yeniden adlandırabilirsiniz. Yeniden adlandırdığınız nesne türüne bağlı olarak, o nesneyle ilişkileri güncelleştirmek gerekebilir.
 
-## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Rapor Tasarımcısı'nda bir klasörü veya yapı taşını yeniden adlandırma
-Rapor Tasarımcısı'nda, klasörler, rapor tanımları, satır tanımları, sütun tanımları ve raporlama ağacı tanımlarını yeniden adlandırabilirsiniz.
+## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Report Designer'da bir klasörü veya yapı taşını yeniden adlandırma
+Report Designer'da klasörler, rapor tanımları, satır tanımları, sütun tanımları ve raporlama ağacı tanımlarını yeniden adlandırabilirsiniz.
 
-### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Rapor Tasarımcısı'nda bir klasörü veya yapı taşını yeniden adlandırma
+### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Report Designer'da bir klasörü veya yapı taşını yeniden adlandırma
 
-1. Rapor Tasarımcısı'nda, yeniden adlandırılacak klasörü veya nesneyi bulmak için gezinti bölmesini kullanın.
+1. Report Designer'da, yeniden adlandırılacak klasörü veya nesneyi bulmak için gezinti bölmesini kullanın.
 2. Klasöre veya nesneye sağ tıklayın ve ardından **Yeniden Adlandır**'a tıklayın. Gezinti bölmesindeki **Ad** alanı kullanılabilir hale gelir.
-3. Yeni bir ad yazın ve ardından Enter'a basın.
+3. Yeni bir ad yazın ve ardından **Enter**'a basın.
 4. Yapı taşı satır tanımı, sütun tanımı veya raporlama ağacı tanımıysa yapı taşıyla ilişkili diğer yapı taşlarını güncelleştirmeniz gerekir. 3. adımda yeniden adlandırdığınız yapı taşına sağ tıklayın, **İlişkiler**'i seçin ve ardından güncelleştirmek için listeden bir madde seçin.
 5. Tüm ilişkili maddeler güncelleştirilene kadar 4. adımı tekrarlayın.
 
@@ -46,41 +46,41 @@ Aynı anda birden fazla rapor oluşturmak için rapor tanımlarını gruplandır
 
 ### <a name="create-a-report-group"></a>Rapor grubu oluşturma
 
-1. Rapor Tasarımcısı'nda gezinme bölmesinde **Rapor Grupları** seçeneğine tıklayın.
-2. **Dosya** menüsünde, **Yeni** &gt; **Rapor Grubu Tanımı**'na tıklayarak görüntüleyici penceresinde yeni bir rapor grubu açın. Alternatif olarak, araç çubuğundaki **Rapor Grubu** düğmesine ![Rapor Grubu.](media/report-group.gif "Rapor Grubu") düğmesine tıklayın.
-3. **Rapor Grubu** sekmesine tıklayın. Bu raporun oluşturulması için tek rapor tanımlarındaki bilgileri geçersiz kılmak üzere, **Tek rapor tanımlarındaki şirket, ayrıntı ve tarih ayarlarını geçersiz kıl** onay kutusunu işaretleyin. Şirket adı, ayrıntı düzeyi, geçici ayar ve tarih bilgileri otomatik olarak girilir, ancak güncelleştirmeler yapabilirsiniz.
+1. Report Designer'da gezinme bölmesinde **Rapor grupları** seçeneğine tıklayın.
+2. **Dosya** menüsünde, **Yeni** &gt; **Rapor grubu tanımı**'na tıklayarak görüntüleyici penceresinde yeni bir rapor grubu açın. Alternatif olarak, araç çubuğundaki **Rapor grubu** düğmesine ![Rapor grubu.](media/report-group.gif "Rapor grubu") düğmesine tıklayın.
+3. **Rapor grubu** sekmesine tıklayın. Bu raporun oluşturulması için tek rapor tanımlarındaki bilgileri geçersiz kılmak üzere, **Tek rapor tanımlarındaki şirket, ayrıntı ve tarih ayarlarını geçersiz kıl** onay kutusunu işaretleyin. Şirket adı, ayrıntı düzeyi, geçici ayar ve tarih bilgileri otomatik olarak girilir, ancak güncelleştirmeler yapabilirsiniz.
 4. Raporlama para birimlerini gösteren birden fazla rapor oluşturmak için **Tüm raporlama para birimlerini ekle** onay kutusunu seçin. Böylece raporu görüntülediğinizde, Web Görüntüleyici'deki **Para Birimi** düğmesine tıklayarak birden fazla görünüme erişebilirsiniz.
 5. Rapor grubuna eklemek üzere raporları seçmek için **Gruptaki raporlar** alanında **Ekle**'ye tıklayın. **Ekle** iletişim kutusunda birden fazla rapor seçmek için, raporları seçerken Ctrl tuşunu basılı tutun. Rapor seçme işlemini tamamladığınızda **Tamam** öğesine tıklayın.
 6. Yeni rapor grubu kaydetmek için **Dosya** &gt; **Kaydet**'e tıklayın.
 
 ### <a name="modify-a-report-group"></a>Bir rapor grubu değiştirin
 
-1. Rapor Tasarımcısı'nda gezinme bölmesinde **Rapor Grupları** seçeneğine tıklayın.
+1. Report Designer'da gezinme bölmesinde **Rapor grupları** seçeneğine tıklayın.
 2. Değiştirilecek rapor grubuna çift tıklayın.
-3. **Rapor Grubu** sekmesinde, istediğiniz değişiklikleri yapın.
-4. Değiştirilen rapor grubunu kaydetmek için **Dosya** menüsünde **Kaydet**'e tıklayın. Bunun yerine, araç çubuğunda **Kaydet** düğmesine de ![Kaydet.](media/save.gif "Kaydet") tıklayabilirsiniz.
+3. **Rapor grubu** sekmesinde, istediğiniz değişiklikleri yapın.
+4. Değiştirilen rapor grubunu kaydetmek için **Dosya** menüsünde **Kaydet**'e tıklayın. Bunun yerine, araç çubuğunda **Kaydet** düğmesine de ![Kaydet.](media/save.gif "Kaydet") düğmesine tıklayın.
 
-> [NOT] Ayarlanan aralıklarda oluşturulmaları için planlanan raporlarınız varsa bu ayarları geçersiz kılarak hemen bir rapor oluşturabilirsiniz.
+> [NOTE] Ayarlanan aralıklarda oluşturulmaları için planlanan raporlarınız varsa bu ayarları geçersiz kılarak hemen bir rapor oluşturabilirsiniz.
 
 ### <a name="generate-a-report-group-report"></a>Rapor grubu raporu oluşturma
 
-1. Rapor Tasarımcısı'ndaki gezinti bölmesinde **Rapor Grupları**'na tıklayın.
+1. Report Designer'da gezinme bölmesinde **Rapor grupları** seçeneğine tıklayın.
 2. Oluşturmak için rapor grubunu açın.
-3. Rapor oluşturmak için **Rapor Oluştur** düğmesine ![Rapor Oluştur.](media/generate-report.gif "Rapor Oluştur") tıklayın.
+3. Rapor oluşturmak için **Rapor oluştur** düğmesine ![Rapor oluştur.](media/generate-report.gif "Rapor oluştur") tıklayın.
 
 ### <a name="delete-a-report-group"></a>Bir rapor grubunu silme
 
-1. Rapor Tasarımcısı'nda gezinme bölmesinde **Rapor Grupları** seçeneğine tıklayın.
+1. Report Designer'da gezinme bölmesinde **Rapor grupları** seçeneğine tıklayın.
 2. Silinecek rapor grubuna sağ tıklayın ve ardından **Sil**'i seçin.
 3. Bir onay mesajı göründüğünde, **Evet**'e tıklayın.
 
-## <a name="report-group-tab-controls"></a>Rapor Grubu sekmesi kontrolleri
-Aşağıdaki tabloda **Rapor Grubu** sekmesindeki kontroller açıklanmaktadır.
+## <a name="report-group-tab-controls"></a>Rapor grubu sekmesi kontrolleri
+Aşağıdaki tabloda **Rapor grubu** sekmesindeki kontroller açıklanmaktadır.
 
 <table>
 <thead>
 <tr>
-<th>Kontrol</th>
+<th>Denetim</th>
 <th>Açıklama</th>
 </tr>
 </thead>
@@ -113,7 +113,7 @@ Aşağıdaki tabloda **Rapor Grubu** sekmesindeki kontroller açıklanmaktadır.
 </tr>
 <tr>
 <td>Tüm raporlama para birimlerini ekle</td>
-<td>Microsoft Dynamics ERP sisteminizde yapılandırılan tüm ek raporlama para birimleri burada belirtilir. Belirtilen para birimlerinde ek raporlar oluşturmak için bu onay kutusunu seçin. Bu raporları Web Görüntüleyici'de görüntülemek için <strong>Para Birimi</strong> düğmesine tıklayın ve ardından bir para birimi seçin.</td>
+<td>Microsoft Dynamics 365 Finance sisteminizde yapılandırılan tüm ek raporlama para birimleri burada belirtilir. Belirtilen para birimlerinde ek raporlar oluşturmak için bu onay kutusunu seçin. Bu raporları Web Görüntüleyici'de görüntülemek için <strong>Para Birimi</strong> düğmesine tıklayın ve ardından bir para birimi seçin.</td>
 </tr>
 <tr>
 <td>Tarih bilgileri rapor tanımına kaydedilmedi</td>

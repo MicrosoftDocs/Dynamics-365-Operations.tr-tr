@@ -14,12 +14,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 576dcd320600f4741a43bfeee53198637bffce15
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 12de50f26127c54c2f82ace43487de10e7125aea
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779540"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804249"
 ---
 # <a name="reconcile-a-bank-account"></a>Banka hesabı için mutabakat sağlama
 
@@ -63,7 +63,7 @@ Hepsi banka ekstresi üzerinde görüntülenen denetim aralığı için **Temizl
 
 ## <a name="cancel-bank-statement-reconciliation"></a>Banka ekstresi mutabakatını iptal et 
 
-Banka ekstresi mutabakat işlevselliğini iptal etmek, banka ekstresi mutabakatını iptal etmenizi sağlar. Bu özelliği kullanmak için,**Özellik Yönetimi** çalışma alanında **Banka ekstresi mutabakatı iptali** özelliğini etkinleştirin. Ayrıca **Banka ekstresi düzenlemeye izin ver** parametresini etkinleştirmeniz gerekir. Bunu yapmak için **Nakit ve Banka yönetimi > Kurulum > Nakit ve Banka yönetim parametreleri > Banka mutabakatı**'na gidin.
+**Banka ekstresi mutabakatını iptal et** işlevi, banka ekstresi mutabakatını iptal etmenizi sağlar. Bu özelliği kullanmak için,**Özellik Yönetimi** çalışma alanında **Banka ekstresi mutabakatı iptali** özelliğini etkinleştirin. Ayrıca **Banka ekstresi düzenlemeye izin ver** parametresini etkinleştirmeniz gerekir. Bunu yapmak için **Nakit ve Banka yönetimi > Kurulum > Nakit ve Banka yönetim parametreleri > Banka mutabakatı**'na gidin.
  
 Banka ekstresi mutabakatları yalnızca girildikleri kronolojik sırada iptal edilebilir. Bir banka ekstresi mutabakatı iptal edildiğinde, yeni hareketler ve düzeltmeler tersine çevrilir ve diğer tüm işlemler mutabakat sağlanacak şekilde işaretlenir.
  

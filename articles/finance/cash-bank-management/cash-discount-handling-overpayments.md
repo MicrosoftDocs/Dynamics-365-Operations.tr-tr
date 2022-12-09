@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1afc8aec18c61b1ce488472adf540e47540eaa17
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: d7c4e98481bc3607d3dce68a6b6cb0478524442f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715537"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804168"
 ---
 # <a name="cash-discounts-for-overpayments"></a>Fazla ödemeler için nakit iskontoları
 
@@ -53,7 +53,9 @@ Müşteri, nakit iskontosu dönemi içinde 95,00 tutarında bir ödeme gönderir
 | Ödeme       | -95,00 | 0,00    |
 | Nakit iskontosu | -10,50 | 0,00    |
 
-Ödeme ve kapatma için aşağıdaki hesap girdileri oluşturulur. **Ödeme**
+Ödeme ve kapatma için aşağıdaki hesap girdileri oluşturulur.
+
+**Ödeme**
 
 | Hesap             | Borç tutarı | Alacak tutarı |
 |---------------------|--------------|---------------|
@@ -85,7 +87,9 @@ Müşteri, nakit iskontosu dönemi içinde 95,00 tutarında bir ödeme gönderir
 | Ödeme       | -95,00 | -0,50   |
 | Nakit iskontosu | -10,50 | 0,00    |
 
-0,50 tutarındaki fazla ödeme, ödemede bir açık bakiye olarak kalacak ve başka bir faturayla kapatılacaktır. Ödeme ve kapatma için aşağıdaki hesap girdileri oluşturulur. **Ödeme**
+0,50 tutarındaki fazla ödeme, ödemede bir açık bakiye olarak kalacak ve başka bir faturayla kapatılacaktır. Ödeme ve kapatma için aşağıdaki hesap girdileri oluşturulur. 
+
+**Ödeme**
 
 | Hesap             | Borç tutarı | Alacak tutarı |
 |---------------------|--------------|---------------|
@@ -118,7 +122,9 @@ Müşteri, nakit iskontosu geçerlilik tarihi dolmadan 95,00 tutarında bir öde
 | Ödeme       | -95,00 | -0,00   |
 | Nakit iskontosu | -10,00 | 0,00    |
 
-Nakit iskontosu tutarı 10,50'den 10,00'a düşürülür. Ödeme ve faturanın kapatıldığı kabul edilir. **Ödeme**
+Nakit iskontosu tutarı 10,50'den 10,00'a düşürülür. Ödeme ve faturanın kapatıldığı kabul edilir. 
+
+**Ödeme**
 
 | Hesap             | Borç tutarı | Alacak tutarı |
 |---------------------|--------------|---------------|

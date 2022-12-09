@@ -12,18 +12,22 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f89adfc3055da346cfe9b6951076094b133c842
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 06846141aff993dbcc9654d81a3e267343e925c0
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779729"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803869"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Müşteri için ileri tarih atılmış çeki kaydetme ve deftere nakletme
 
 [!include [banner](../../includes/banner.md)]
 
-Bir müşteriden alınan bir vadeli çekin ayrıntılarını kaydedebilirsiniz. Veya vadeli çeki nakledip finansal işlem oluşturabilirsiniz. Bir müşteriden alınan vadeli çeki kayıt ve nakletmeden önce aşağıdaki görevleri tamamlayın: * Nakit ve banka yönetimi sayfası'nda vadeli çekleri ayarlayın * vadeli çeklerin ödenmesi için bir ödeme yöntemi ayarlayın Bu yordamın rolü Haznedar'dır. Bu yordam, USMF demo şirketini kullanır.
+Bir müşteriden alınan bir vadeli çekin ayrıntılarını kaydedebilirsiniz. Veya vadeli çeki nakledip finansal işlem oluşturabilirsiniz. Bir müşteriden alınan ileri tarihe atılmış bir çeki kaydetmeden ve deftere nakletmeden önce aşağıdaki görevleri tamamlayın:  
+ - İleri tarihe atılmış çekleri **Nakit ve banka yönetimi** sayfasında ayarlayın 
+ - İleri tarih atılmış çekler için ödeme yöntemi ayarlama   
+  
+ Bu yordam için rol Mali İşler Sorumlusudur. Bu yordam, USMF demo şirketini kullanır.
 
 1. **Alacak hesapları > Ödemeler > Ödeme günlüğü**'ne gidin.
 2. **Yeni**'yi tıklatın.

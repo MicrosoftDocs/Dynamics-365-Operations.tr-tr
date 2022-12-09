@@ -2,7 +2,7 @@
 title: Finansal rapor tasarımcısında satır tanımları
 description: Satır tanımını finansal rapordaki her satırın içeriğini belirten bir rapor bileşeni veya yapı taşıdır.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.form: FinancialReports
-ms.openlocfilehash: 1481d95bc7a02294b499e07308df2d26a3ab0e3a
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 3325f76f991ea6d2a1b6131f299460e529d63d38
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274708"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802458"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Finansal rapor tasarımcısında satır tanımları
 
@@ -30,18 +30,18 @@ Satır tanımını finansal rapordaki her satırın içeriğini belirten bir rap
 
 ## <a name="create-a-row-definition"></a>Satır tanımı oluşturma
 
-1. Rapor Tasarımcısı'ndaki gezinti bölmesinde **Satır Tanımları**'na tıklayın.
-2. **Dosya** menüsünde, **Yeni**'ye ve ardından **Satır Tanımı**'na tıklayın. Her hücrenin içeriği hakkında daha fazla bilgi için bkz. [Satır tanımı hücrelerini değiştirme](modify-row-definition-cells-financial-reporting.md).
+1. Report Designer'da gezinti bölmesinde **Satır tanımları**'na tıklayın.
+2. **Dosya** menüsünde, **Yeni**'ye ve ardından **Satır tanımı**'na tıklayın. Her hücrenin içeriği hakkında daha fazla bilgi için bkz. [Satır tanımı hücrelerini değiştirme](modify-row-definition-cells-financial-reporting.md).
 
 ## <a name="open-a-row-definition"></a>Bir satır tanımını açma
-1. Rapor Tasarımcısı'ndaki gezinti bölmesinde **Satır Tanımları**'na tıklayın.
+1. Report Designer'da gezinti bölmesinde **Satır tanımları**'na tıklayın.
 2. Açmak için satır tanımının adına çift tıklayın.
 3. Satır tanımıyla ilişkili tüm yapı taşlarını görüntülemek için, satır tanımına sağ tıklayın ve ardından **İlişkiler**'i seçin.
 
 ## <a name="contents-of-a-row-definition"></a>Bir satır tanımının içerikleri
 Bir satır tanımı en fazla 20.000 mali boyut içerebilir ve içinde aşağıdaki bilgiler bulunabilir:
 
-- **Nakit** veya **Toplam Gelir** gibi bölüm başlıkları, satırlar ve alanlar oluşturarak rapora anlam ekleyen açıklayıcı metin
+- **Nakit** veya **Toplam gelir** gibi bölüm başlıkları, satırlar ve alanlar oluşturarak rapora anlam ekleyen açıklayıcı metin
 - Microsoft Dynamics 365 Finance'de boyut değerleri içerebilen finansal veri bağlantıları
 
     > [!NOTE]
@@ -71,10 +71,10 @@ Bir boyut, veri ve değerlerin bir kesişimidir. Rapor tasarımcısında veriler
 
 Bir satır tanımına boyut eklemek için bu adımları izleyin.
 
-1. Rapor Tasarımcısı'nda, **Satır Tanımları**'na tıklayın ve ardından değiştirilecek satır tanımını açın.
-2. **Düzenle** menüsünde, **Boyutlardan Satır Ekle**'ye tıklayın.
-3. **Boyutlardan Satır Ekle** iletişim kutusundaki **Boyutlar** satırında, satır tanımına aktarılacak boyuta ait hücreyi seçin ve ardından **Tüm &&&** seçeneğine tıklayın.
-4. Satır tanımını belirli bir boyut değerleri aralığıyla sınırlandırmak için, **Boyut Aralığı Başlangıcı** hücresine başlangıç boyut değerini ve ardından **Boyut Aralığı Sonu** hücresindeki son boyut değerini girin. Seçilen boyuta ait tüm değerleri eklemek için bu hücreleri boş bırakın.
+1. Report Designer'da **Satır tanımları** öğesine tıklayın ve ardından değiştirmek için satır tanımını açın.
+2. **Düzenle** menüsünde, **Boyutlardan satır ekle**'ye tıklayın.
+3. **Boyutlardan satır ekle** iletişim kutusundaki **Boyutlar** satırında, satır tanımına aktarılacak boyuta ait hücreyi seçin ve ardından **Tüm &&&** seçeneğine tıklayın.
+4. Satır tanımını belirli bir boyut değerleri aralığıyla sınırlandırmak için, **Boyut aralığı başlangıcı** hücresine başlangıç boyut değerini ve ardından **Boyut aralığı sonu** hücresindeki son boyut değerini girin. Seçilen boyuta ait tüm değerleri eklemek için bu hücreleri boş bırakın.
 
     > [!NOTE]
     > Boyut aralıklarındaki joker karakterler (\* veya ?) ERP veritabanının verileri nasıl harmanladığına bağlı olarak istediğiniz tüm sonuçları vermeyebilir.
@@ -94,9 +94,9 @@ Tutarların yuvarlandığı bir bilançonuz varsa toplamlar eşitlenmeyebilir. B
 
 Bir bilançodaki yuvarlamayı ayarlamak için bu adımları izleyin.
 
-1. Rapor Tasarımcısı'nda, **Satır Tanımları**'na tıklayın ve ardından değiştirilecek satır tanımını açın.
-2. **Düzenle** menüsünde, **Yuvarlama Ayarlaması**'na tıklayın.
-3. **Yuvarlama Ayarlamaları** iletişim kutusunda, şu değerleri girin:
+1. Report Designer'da **Satır tanımları** öğesine tıklayın ve ardından değiştirmek için satır tanımını açın.
+2. **Düzenle** menüsünde, **Yuvarlama ayarlaması**'na tıklayın.
+3. **Yuvarlama ayarlamaları** iletişim kutusunda, şu değerleri girin:
 
     - **Yuvarlama ayarlaması satırı**: Bilançoyu eşitlemek için ayarlanması gereken satıra ait satır kodu.
     - **Toplam kıymetler satırı**: Bilançoda toplam kıymetleri içeren satıra ait satır kodu.
@@ -124,8 +124,8 @@ Raporunuz için yazı tipi stilleri oluşturup bunları değiştirebilirsiniz. A
 <td><strong>Yazı tipi stili oluşturma</strong></td>
 <td>
 <ol>
-<li>Rapor Tasarımcısı'nda, <strong>Biçim</strong> menüsünde, <strong>Stiller ve Biçimlendirme</strong>'ye tıklayın.</li>
-<li><strong>Stiller ve Biçimlendirme</strong> iletişim kutusunda, <strong>Yeni</strong>'ye tıklayın ve ardından yeni stil için benzersiz bir ad girin.</li>
+<li>Report Designer'da, <strong>Biçim</strong> menüsünde, <strong>Stiller ve biçimlendirme</strong>'ye tıklayın.</li>
+<li><strong>Stiller ve biçimlendirme</strong> iletişim kutusunda, <strong>Yeni</strong>'ye tıklayın ve ardından yeni stil için benzersiz bir ad girin.</li>
 <li>Yazı tipi seçimlerinizi yapın ve <strong>Tamam</strong>'a tıklayın.</li>
 </ol>
 </td>
@@ -134,8 +134,8 @@ Raporunuz için yazı tipi stilleri oluşturup bunları değiştirebilirsiniz. A
 <td><strong>Bir yazı tipi stilini değiştirme</strong></td>
 <td>
 <ol>
-<li>Rapor Tasarımcısı'nda, <strong>Biçim</strong> menüsünde, <strong>Stiller ve Biçimlendirme</strong>'ye tıklayın.</li>
-<li><strong>Stiller ve Biçimlendirme</strong> iletişim kutusunda, değiştirmek için bir stil seçin ve ardından <strong>Değiştir</strong>'e tıklayın.</li>
+<li>Report Designer'da, <strong>Biçim</strong> menüsünde, <strong>Stiller ve biçimlendirme</strong>'ye tıklayın.</li>
+<li><strong>Stiller ve biçimlendirme</strong> iletişim kutusunda, değiştirmek için bir stil seçin ve ardından <strong>Değiştir</strong>'e tıklayın.</li>
 <li>Yazı tipi seçimlerinizi yapın ve <strong>Tamam</strong>'a tıklayın.</li>
 </ol>
 </td>
@@ -144,7 +144,7 @@ Raporunuz için yazı tipi stilleri oluşturup bunları değiştirebilirsiniz. A
 <td><strong>Bir yazı tipi stilini uygulama</strong></td>
 <td>
 <ol>
-<li>Rapor Tasarımcısı'ndaki bir tanımda veya sütun tanımında ya da üst bilgilerde ve alt bilgilerde bir veya daha fazla hücreyi seçin.</li>
+<li>Report Designer'daki bir tanımda veya sütun tanımında ya da üst bilgilerde ve alt bilgilerde bir veya daha fazla hücreyi seçin.</li>
 <li>Araç çubuğundaki <strong>Stil</strong> listesinden bir yazı tipi stili seçin.</li>
 </ol>
 </td>
@@ -156,9 +156,9 @@ Raporunuz için yazı tipi stilleri oluşturup bunları değiştirebilirsiniz. A
 
 Satır tanımında belirtilen biçimlendirme sütun tanımında ve rapor tanımında belirtilen her türlü biçimlendirmeyi geçersiz kılar. Metin biçimini biçimlendirme araç çubuğundaki kontrolleri kullanarak değiştirebilirsiniz. Bu kontroller standart Microsoft Windows kontrolleridir.
 
-1. Rapor Tasarımcısı'nda, değiştirilecek satır tanımını açın.
+1. Report Designer'da, değiştirilecek satır tanımını açın.
 2. Biçimlendirilecek satırları seçin. Birden fazla hücre seçmek için, hücreyi seçerken Ctrl tuşunu basılı tutun.
-3. Uygulanacak biçimin araç çubuğu düğmesine tıklayın. Örneğin, bir satıra girinti vermek için satırı seçin ve ardından araç çubuğundaki **Girintiyi Artır** ![Girintiyi Artır.](media/indent.gif "Girintiyi Artır") düğmesine tıklayın.
+3. Uygulanacak biçimin araç çubuğu düğmesine tıklayın. Örneğin, bir satıra girinti vermek için satırı seçin ve ardından araç çubuğundaki **Girintiyi artır** ![Girintiyi artır.](media/indent.gif "Girintiyi Artır") düğmesine tıklayın.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Rapor tasarlarken sütunları ayarlama
 
@@ -166,19 +166,19 @@ Satır tanımında üzerinde çalıştığınız sütunları görüntülemeyi ko
 
 ### <a name="change-the-width-of-a-column-in-the-view-pane"></a>Görünüm bölmesinde bir sütunun genişliğini değiştirme
 
-1. Rapor Tasarımcısı'nda, değiştirilecek satır tanımını açın.
-2. **Biçim** menüsünde, **Sütun Genişliği**'ni seçin.
-3. **Sütun Genişliği** iletişim kutusunda, bir değer girin ve ardından **Tamam**'a tıklayın. Alternatif olarak, sütunun genişliğini değiştirmek için bir sütun başlığı hücresinin sağ sınırını sürükleyebilirsiniz.
+1. Report Designer'da, değiştirilecek satır tanımını açın.
+2. **Biçim** menüsünde, **Sütun genişliği**'ni seçin.
+3. **Sütun genişliği** iletişim kutusunda, bir değer girin ve ardından **Tamam**'a tıklayın. Alternatif olarak, sütunun genişliğini değiştirmek için bir sütun başlığı hücresinin sağ sınırını sürükleyebilirsiniz.
 
 ### <a name="hide-columns-in-the-view-pane"></a>Görünüm bölmesindeki sütunları gizleme
 
-1. Rapor Tasarımcısı'nda, değiştirilecek satır tanımını açın.
+1. Report Designer'da, değiştirilecek satır tanımını açın.
 2. Küçültülecek sütunu veya sütunları seçin.
 3. Sağ tıklayın ve ardından **Gizle**'ye tıklayın.
 
 ### <a name="show-all-hidden-columns-in-the-view-pane"></a>Görünüm bölmesindeki tüm gizli sütunları gösterme
 
-1. Rapor Tasarımcısı'nda, değiştirilecek satır tanımını açın.
+1. Report Designer'da, değiştirilecek satır tanımını açın.
 2. Görüntülemek için küçültülen sütuna sağ tıklayın ve ardından **Göster**'e tıklayın.
 
 

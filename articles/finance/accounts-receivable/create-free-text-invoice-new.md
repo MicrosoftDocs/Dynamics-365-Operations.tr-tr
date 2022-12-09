@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 4298d7114e0237072c242e83e51951a922e34e5a
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: e8f80aa4cc0a7248506e0725881b8f575a0c7ff4
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9780576"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788553"
 ---
 # <a name="create-a-free-text-invoice"></a>Serbest metin faturası oluşturma
 
@@ -69,6 +69,8 @@ Bu makalede, serbest metin faturalarının nasıl oluşturulacağı açıklanmak
     * Fatura yazdırmanın zamanlamasını değiştirebilirsiniz. Her faturayı güncelleştirildiğinde yazdırmak için **Geçerli**'yi seçin. Tüm faturalar güncelleştirildikten sonra yazdırmak için **Sonra**'yı seçin.
     * Fatura deftere nakledilmeden önce müşterinin kredi limitinin doğrulama yöntemini değiştirmek için **Kredi limiti türü** alanındaki değeri değiştirin.
     * **Alacak hesapları parametreleri** sayfasındaki **Güncelleştirmeler** sekmesinde hata oluştuğunda (**Alacak hesapları > Kurulum > Alacak hesapları parametreleri**), serbest metin faturası deftere naklini durdurmak için bunu seçebilirsiniz. Bir hata oluştuğunda serbest metin faturalarının deftere naklini durdurmak için **İlk hatada serbest metin faturalarının deftere naklini durdur** parametresi için **Evet**'i seçin. Bir toplu işte deftere nakil işlemi söz konusu ise, bir hata deftere nakil işlemini durdurur ve toplu iş durumu **Hata** olarak ayarlanır. Bu seçenek belirlenmezse, deftere nakil işlemi deftere nakil hatası bulunan bir faturayı atlar ve başka Faturalar deftere nakletmeye devam eder. Bir toplu işte deftere nakil işlemi söz konusu ise, deftere nakil hatası diğer faturaların deftere nakledilmesini engellemez. Toplu iş durumu **Sonlandırıldı** olur. Toplu iş geçmişinde gözden geçirilmek üzere ayrıntılı bir deftere nakil işlemi raporu kullanılabilir olacak.
+    * Microsoft Dynamics 365 Finance 10.0.30'da, **Toplamları hesaplama için serbest metin faturası deftere naklini iyileştirme** özelliği daha verimli şekilde çalışmasına olanak tanıyarak deftere nakil performansını geliştirir. Bu özellik etkinleştirildiğinde deftere nakil işlemi, deftere nakil işlemi sırasında toplamları birkaç kez yeniden hesaplamak yerine, hesaplanan toplamları kaydeder. 
+    * Microsoft Dynamics 365 Finance 10.0.31'de, **Serbest metin faturası toplu işi deftere nakil işlemini iyileştirme** özelliği daha verimli şekilde çalışmasına olanak tanıyarak deftere nakil performansını geliştirir. Bu özellik etkinleştirildiğinde deftere nakil işlemi, sınırsız sayıda iş parçacığı boyunca sabit sayıda belge atamak yerine, sabit sayıda iş parçacığında toplu iş deftere nakil iş yükünü kendi başına yöneten bir model kullanır.
     * Faturayı yazdırmak için seçeneği **Evet** olarak ayarlayın.
     * Faturayı deftere nakletmek için seçeneği **Evet** olarak ayarlayın. Faturayı nakletmeden yazdırabilirsiniz.
 

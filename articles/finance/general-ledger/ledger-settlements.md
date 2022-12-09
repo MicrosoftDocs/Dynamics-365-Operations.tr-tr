@@ -2,7 +2,7 @@
 title: Genel muhasebe hesabı kapatmaları
 description: Bu makalede, Genel muhasebe kapatmaları sayfasının genel muhasebe hareketlerini kapatmak ve kapatmaları geri almak için nasıl kullanılacağı açıklanmaktadır.
 author: kweekley
-ms.date: 01/31/2022
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 39fd6c6677565a4b1e9a9bf6f43a4c630cb5e07b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6357629f83873437eb62a4839fafd8efd98fffc1
+ms.sourcegitcommit: 9041fa6e00ecbdf1a1880659d9bdfff4d888f20e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902501"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9800654"
 ---
 # <a name="ledger-settlements"></a>Genel muhasebe hesabı kapatmaları
 
@@ -90,7 +90,12 @@ Yanlışlıkla yapılan bir kapatmayı tersine çevirin.
     > [!IMPORTANT]
     > Aynı kapatma kimliğine sahip tüm hareketler işaretli olmasalar bile tersine çevrilir. Örneğin, dört satır işaretliydi ve kapatıldı. Dört satırın da kapatma kimliği aynıdır. Bu dört satırdan birini işaretler ve **işaretli hareketleri ters çevir**'i seçerseniz dört satır da ters çevrilir.
 
+## <a name="unmark-for-selected-users"></a>Seçili kullanıcılar için işareti kaldır
+Kullanıcı kimliğine göre tüm tüzel kişilikler için genel muhasebe kapatılan hareketlerinin işaretini kaldırmak üzere **Seçili kullanıcılar için işareti kaldır**'ı seçin. Örneğin, bu bir muhasebe yöneticisinin kapatmayı tamamlamadan önce tatile çıkan veya kuruluştan ayrılan bir kullanıcı için hareketin işaretini kaldırmasına olanak tanır. Eylem, bu hareketlerin başka bir kullanıcı tarafından kapatılmak üzere işaretlenmesine olanak tanır.
 
+
+## <a name="unmark-all-transactions"></a>Tüm hareketlerinin işaretini kaldır
+Tüm kullanıcılar veya tüm tüzel kişilikler için tüm genel muhasebe kapatılan hareketlerinin işaretini kaldırmak üzere **Tüm hareketlerin işaretini kaldır**'ı seçin. Bu eylem, Yönetici rolü tarafından kullanılabilir.
 
 
 

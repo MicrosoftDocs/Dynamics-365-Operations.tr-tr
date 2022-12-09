@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30e21c11b067f6def127f3eab026d7255ab1ca29
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 786aecf69bae3d07ac80a55b4dc835dd8129bd59
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779947"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803977"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Teminat mektubu hareketi
 
@@ -43,7 +43,7 @@ Bu yordam, USMF demo şirketini kullanır.
 1. **Alacak hesapları > Siparişler > Tüm satış siparişleri**'ne gidin.
 2. **Yeni**'yi tıklatın.
 3. **Müşteri hesabı** alanında bir değer girin veya seçin.
-4. Genel bölümünü genişletin.
+4. **Genel** bölümünü genişletin.
 5. **Tesis** alanına bir değer girin veya buradan bir değer seçin.
 6. Listede, seçili satırdaki bağlantıya tıklayın.
 7. **Ambar** alanında bir değer girin veya bir değer seçin.
@@ -52,9 +52,12 @@ Bu yordam, USMF demo şirketini kullanır.
 10. **Tamam**'a tıklayın.
 11. **Madde numarası** alanına bir değer girin veya bu alanda bir değer seçin.
 12. **Birim fiyatı** alanına bir sayı girin.
-13. Satır ayrıntıları bölümünü genişletin.
-14. Teslimat sekmesine tıklayın.
-    * Not: Teslimat tarihi kontrolünü seçin = Yok  
+13. **Satır ayrıntıları** bölümünü genişletin.
+14. **Teslimat** sekmesine tıklayın.
+
+>[!Note] 
+>**Teslimat tarihi kontrolü** = **Yok** olarak seçin  
+
 15. **Talep edilen sevk tarihi** alanına bir tarih girin.
 16. **Onaylanan sevk tarihi** alanına bir tarih girin.
 
@@ -83,7 +86,7 @@ Bu yordam, USMF demo şirketini kullanır.
 2. **Banka numarası** alanına alanına bir değer girin.
     * Hesaplanan **Marj** ve **Gider** alanlarını doğrulayın.  
 3. **Tamam**'a tıklayın.
-4. Eylemler bölümünü genişletin.
+4. **Eylemler** bölümünü genişletin.
     * 'Bankadan alma' kaydını doğrulayın.  
 5. **Günlük toplu iş numarası** alanındaki bağlantıyı izlemek için tıklayın.
 6. **Satırlar**'a tıklayın.
@@ -102,7 +105,7 @@ Bu yordam, USMF demo şirketini kullanır.
 9. Listede, istenen kaydı bulun ve seçin.
 10. **Lehtara gönder** iletişim kutusunu açmak için tıklayın.
 11. **Tamam**'a tıklayın.
-12. Eylemler bölümünü genişletin.
+12. **Eylemler** bölümünü genişletin.
     * 'Lehtara ver' kaydını doğrulayın.  
 
 ## <a name="process-letter-of-guarantee_increase-value"></a>Teminat mektubunun değerini artırmayı işleyin
@@ -118,7 +121,7 @@ Bu yordam, USMF demo şirketini kullanır.
 10. Listede, istenen kaydı bulun ve seçin.
 11. **Değeri artır** iletişim kutusunu açmak için tıklayın.
 12. **Tamam**'a tıklayın.
-13. Eylemler bölümünü genişletin.
+13. **Eylemler** bölümünü genişletin.
     * 'Değer artır' kaydını doğrulayın.  
 14. Listede, istenen kaydı bulun ve seçin.
 15. **Günlük toplu iş numarası** alanındaki bağlantıyı izlemek için tıklayın.
@@ -137,7 +140,7 @@ Bu yordam, USMF demo şirketini kullanır.
 9. Listede, istenen kaydı bulun ve seçin.
 10. **Nakte çevir** iletişim kutusunu açmak için tıklayın.
 11. **Tamam**'a tıklayın.
-12. Eylemler bölümünü genişletin.
+12. **Eylemler** bölümünü genişletin.
     * 'Nakte çevirme' kaydını doğrulayın.  
 13. Listede, istenen kaydı bulun ve seçin.
 14. **Günlük toplu iş numarası** alanındaki bağlantıyı izlemek için tıklayın.

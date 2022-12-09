@@ -2,7 +2,7 @@
 title: Müşteri deftere nakil profilleri
 description: Bu makalede, müşteri hareketlerinin genel muhasebe defterine nakledilmesini denetleyen müşteri deftere nakil profilleri açıklanmaktadır.
 author: JodiChristiansen
-ms.date: 12/22/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0563040590eefab57706b183281c47a82e46076
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 04cf5b8656bccde974fb1adfdf830080e2f52436
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891709"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799585"
 ---
 # <a name="customer-posting-profiles"></a>Müşteri deftere nakil profilleri
 
@@ -58,15 +58,15 @@ Tüm müşteri hareketlerinin aynı deftere nakil profili içermesini istiyorsan
 </thead>
 <tbody>
 <tr>
-<td>Deftere nakil profili</td>
+<td><strong>Deftere nakil profili</strong></td>
 <td>Nakil profili için bir kod girin. Örneğin ulusal para birimini içeren müşteri bakiyeleri için bir hesap elde etmek üzere iki nakil profili, yabancı para birimini içeren müşteri bakiyeleri için başka bir nakil profili oluşturabilirsiniz. Birini Ulusal, diğerini Yabancı olarak adlandırabilirsiniz.</td>
 </tr>
 <tr>
-<td>Açıklama</td>
+<td><strong>Açıklama</strong></td>
 <td>Nakil profilinin açıklamasını girin. Bu yalnızca bu sayfada görüntülediğinizde, deftere nakil profilini daha iyi tanımlamak için kullanılır.</td>
 </tr>
 <tr>
-<td>Hesap kodu</td>
+<td><strong>Hesap kodu</strong></td>
 <td>Nakil profilinin tek bir müşteri, bir müşteri grubu veya tüm müşteriler için mi geçerli olduğunu belirtin:
 <ul>
 <li><b>Tablo</b> – Nakil profili bir müşteri için geçerlidir. <b>Hesap/Grup numarası</b> alanında müşteri hesabını seçin.</li>
@@ -76,33 +76,33 @@ Tüm müşteri hareketlerinin aynı deftere nakil profili içermesini istiyorsan
 </td>
 </tr>
 <tr>
-<td>Hesap/Grup numarası</td>
+<td><strong>Hesap/Grup numarası</strong></td>
 <td><b>Hesap kodu</b> alanında <b>Tablo</b> seçiliyse, nakil profiliyle ilişkilendirilmiş müşterinin hesap numarasını seçin. Eğer <b>Grup</b> seçiliyse, müşteri grubunu seçin. <b>Tümü</b> seçiliyse bu alanı boş bırakın.</td>
 </tr>
 <tr>
-<td>Özet hesap</td>
+<td><strong>Özet hesap</strong></td>
 <td>Nakil profiliyle ilişkilendirilmiş müşteriler için Alacak hesapları ticari hesabı olarak kullanılacak temel hesabı seçin. Bu hesap, <b>Müşteri bakiyesi</b> deftere nakil türüne ait hesaptır.</td>
 </tr>
 <tr>
-<td>Ödemeler için likidite hesabı</td>
-<td>Nakit akışı tahminleri için kullanılacak likidite genel muhasebe hesabını seçin. Bu alan yalnızca nakit akışı tahminleri etkinleştirilmişse görünür.</td>
+<td><strong>Ödemeler için likidite hesabı</strong></td>
+<td>Nakit akışı tahminleri için kullanılacak <strong>Likidite genel muhasebe hesabını</strong> seçin. Bu alan yalnızca nakit akışı tahminleri etkinleştirilmişse görünür.</td>
 </tr>
 <tr>
-<td>Satış vergisi ön ödemeleri</td>
+<td><strong>Satış vergisi ön ödemeleri</strong></td>
 <td><p>Avans olarak alınmış ödemeler için satış vergisinin hesabını seçin.</p>
 <p><strong>Not:</strong> Bir ödeme bir ön ödeme olarak işaretlendiğinde kullanılacak nakil profilini belirtmek için <b>Alacak hesapları parametreleri</b> sayfasını kullanın.</p>
 </td>
 </tr>
 <tr>
-<td>İskonto hesabı borçları</td>
+<td><strong>İskonto hesabı borçları</strong></td>
 <td>İskonto borçları genel muhasebe hesabını seçin.</td>
 </tr>
 <tr>
-<td>Tahsilat mektubu sırası</td>
+<td><strong>Tahsilat mektubu sırası</strong></td>
 <td>Tahsilat mektubu sırasının, nakil profilinin atandığı müşteriler için kullanılacak tanımlayıcısını seçin.</td>
 </tr>
 <tr>
-<td>Vade farkı kodu</td>
+<td><strong>Vade farkı kodu</strong></td>
 <td>Nakil profilinin atandığı müşteriler için faizin hesaplanmasında kullanılacak faiz kodunu seçin.</td>
 </tr>
 </tbody>

@@ -9,18 +9,18 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.author: gmohanv
+ms.author: stuharg
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 5936d16039927812dabf99bd770afcc0e827f1ca
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: c899bd020ec9536a906a98635a6c70fac1355789
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276729"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819282"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>Çevrimiçi siparişler için satış vergisini yapılandırma
 
@@ -33,6 +33,8 @@ E-ticaret kanalınızın, çevrimiçi siparişler için teslimat ve malzeme çek
 ## <a name="destination-based-taxes-for-online-orders"></a>Çevrimiçi siparişler için hedef tabanlı vergiler
 
 Genel olarak, Müşteri adresine sevkiyat amacıyla gönderilen çevrimiçi siparişler için vergiler hedef tarafından tanımlanır. Her satış vergisi grubunun, işletmenizin ülke veya bölge, eyalet, ilçe ve şehir gibi hedef ayrıntılarını hiyerarşik bir formda tanımlayabileceği, perakende hedefi tabanlı bir vergi konfigürasyonu vardır.
+
+**Perakende varış yeri esaslı vergi** **Vergi modülü > Dolaylı vergiler > Satış vergisi > Satış Vergisi Grupları** bölümünde bulunabilir.
 
 ### <a name="orders-delivered-to-customer-address"></a>Müşteri adresine teslim edilen siparişler
 

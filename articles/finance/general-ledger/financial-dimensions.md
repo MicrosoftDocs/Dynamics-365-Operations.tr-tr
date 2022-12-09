@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9b07831ab789b570963ff5f425f149ba5a564a38
-ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
+ms.openlocfilehash: adfa2c1164550e32b07da25de0d96aa82430b980
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "9680371"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799639"
 ---
 # <a name="financial-dimensions"></a>Mali boyutlar
 
@@ -137,7 +137,13 @@ Varlıklar kullanarak türetilen boyut segmentlerini ve değerlerini ayarlayabil
 
 Veri içe aktarmak için bir varlık kullanıyorsanız, bu varlık boyutları içe aktarıyorsa, türetilen boyut kuralları içe aktarma sürecinde, varlık özellikle bu boyutları geçersiz kılmıyorsa uygulanır.
 
-Daha fazla bilgi için aşağıdaki konulara bakın:
+## <a name="financial-dimension-service"></a>Mali boyut hizmeti
+
+Mali boyut hizmeti eklentisi, Microsoft Dynamics Lifecycle Services ortamınızda kullanılabilir. Çok sayıda satırı olan bir günlüğü içe aktarmak için Veri yönetimi çerçevesi kullandığınızda performansın artırılmasını sağlar. Hizmeti kullanmak için, **Mali boyut hizmeti parametreleri** sayfasında etkinleştirmeniz gerekir. Şu anda hizmet yalnızca 500 satırı veya daha fazlasını içeren içe aktarılan günlüklerde çalışır. Ek olarak, şu anda sadece **Genel muhasebe** hesabı türünün günlük satırlarında ayarlandığı genel günlükleri işleyebilir. Günlük satırlarındaki **Müşteri**, **Satıcı** ve **Banka** gibi diğer hesap türleri şu anda desteklenmemektedir. Bu hizmet, türetilmiş boyutlar sistemde ayarlandığında çağrılamaz.
+
+Günlükler, veri içe aktarma işlemiyle paralel olarak çalışan yeni bir hizmet kullanılarak içe aktarıldığında, Mali boyut hizmeti gelişmiş performans sağlar. Yalnızca günlükteki ana hesapta ve finansal boyut verilerinde çalışır ve günlük satırlarındaki genel muhasebe hesap dizesi alanında belirtilen boyut birleşimlerini oluşturur. İşlem bu dizeyi, Mali boyut çerçevesinin doğrulama, özet raporlama ve sorgulamalar için ürünün geri kalanı boyunca kullandığı yapısal veri deposuna dönüştürür. Mali boyut verilerinin özet raporu hakkında dah afazla bilgi için bkz. [Mali boyut kümeleri](financial-dimension-sets.md).
+
+Daha fazla bilgi edinmek için aşağıdaki konulara bakın:
 
 - [Mali boyutları tanımlama](tasks/define-financial-dimensions.md)
 - [Mali boyut varsayılan şablonlarını koruma](tasks/maintain-financial-dimension-default-templates.md)

@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e1d7fc58ad71365275d5e82a277554bee99c43a
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 8e613bc97a41b62e81ebfbcb8c08e33a60603648
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151376"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803923"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Gelişmiş banka mutabakatı kullanarak banka ekstreleri arasında mutabakat sağlayın
 
@@ -37,7 +37,10 @@ Tek bir hesap veya birden fazla hesapla ilgili bilgileri içeren bir banka ekstr
 -   Tek bir banka hesabına ait tek bir banka ekstresi dosyasını içe aktarmak için **Tüm tüzel kişiliklerde birden fazla banka hesabına ait ekstreyi içe aktar** seçeneğini **Hayır** olarak ayarlayın ve ekstreyle ilişkili banka hesabını seçin. İlişkili banka ekstresi dosyasını seçmek için **Gözat**'a tıklayın ve sonra **Yükle**'ye tıklayın.
 -   Birden fazla hesaba ait tek bir banka ekstresi dosyasını içe aktarmak için **Tüm tüzel kişiliklerde birden fazla banka hesabına ait ekstreyi içe aktar** seçeneğini **Evet** olarak ayarlayın. İlişkili banka ekstresi dosyasını seçmek için **Gözat**'a tıklayın ve sonra **Yükle**'ye tıklayın.
 
-Elektronik dosyadaki ekstreler tanımlayıcı alanlar kullanılarak bir banka hesabı ile ilişkilendirilemiyorsa veya birden fazla banka hesabıyla ilişkiliyse bunlar içe aktarılmaz. Ancak dosyadaki diğer ekstreler içe aktarılabilir. Daha sonra kullanıcı banka ekstrelerini içe aktarma işleminin belirli banka hesapları için başarısız olduğunu bildiren bir ileti alır. Banka ekstresi dosyasını içe aktaran kullanıcının tüzel kişiliğin banka hesaplarına ait ekstreleri içe aktarma erişiminin olması gerektiğini unutmayın. 
+Elektronik dosyadaki ekstreler tanımlayıcı alanlar kullanılarak bir banka hesabı ile ilişkilendirilemiyorsa veya birden fazla banka hesabıyla ilişkiliyse bunlar içe aktarılmaz. Ancak dosyadaki diğer ekstreler içe aktarılabilir. Daha sonra kullanıcı banka ekstrelerini içe aktarma işleminin belirli banka hesapları için başarısız olduğunu bildiren bir ileti alır. 
+
+>[!Note] 
+>Banka ekstresi dosyasını içe aktaran kullanıcının tüzel kişiliğin banka hesaplarına ait ekstreleri içe aktarma erişiminin olması gerekir. 
 
 Birden fazla ekstre dosyasını Finance uygulamasına tek bir işlemde yüklemek için bir zip dosyası kullanabilirsiniz. Birden fazla hesaba ait birden fazla banka ekstresi dosyasını içe aktarmak için tüm banka ekstresi dosyalarını bir zip dosyasında birleştirin. **Banka ekstrelerini içeri aktar** iletişim kutusundaki **Tüm tüzel kişiliklerde birden fazla banka hesabına ait ekstreyi içe aktar** seçeneğini **Evet** olarak ayarlayın. Banka ekstresi dosyalarını içeren zip dosyasını seçmek için **Gözat**'a tıklayın ve sonra **Yükle**'ye tıklayın. İçe aktarma işlemi zip dosyasını tanır ve banka hesabının tüzel kişiliğinden bağımsız olarak, içindeki her ekstreyi karşıya yükler.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e7172dd56113de23d841fe59ed9785471e90ed1f
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: a5ef9aa6b67eb630713dd1f15b2ae49c358edae9
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779622"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804195"
 ---
 # <a name="set-up-postdated-checks"></a>İleri tarih atılmış çekleri ayarlama
 
