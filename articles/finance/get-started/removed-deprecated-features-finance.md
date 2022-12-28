@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 516b2b6091fa620b21eebba25f56ff55aa282ffc
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 25d13aa26565e5753b87c843b43cf46f8276b642
+ms.sourcegitcommit: 6c05bcd27e6ee72f01cb66e2cfd1e929e0365830
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643807"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "9854092"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'te kaldırılan veya kullanım dışı bırakılan özellikler
 
@@ -124,11 +124,10 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 | **Dağıtım seçeneği**              | Tümü |
 | **Çalıştırma Durumu**                         | Kullanım dışı: 1 Aralık 2022 tarihine kadar, **KDV beyannamesi modeli** altındaki **KDV beyannamesi (AT)** Elektronik raporlama (ER) biçimini artık desteklememeyi planlıyoruz. **Vergi beyannamesi** modeli kapsamında, yeni **KDV beyannamesi XML (AT)** ve **KDV beyannamesi Excel (AT)** biçimleri tanıtıldı. |
 
-### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>Almanya için ELSTER beyannamesi (raporlama kodlarına dayalı tasarım)
+### <a name="elster-declaration-for-germany-design-based-on-reporting-codes-electronic-tax-declaration-log-menu-item-and-page-electronic-tax-declaration-setup-menu-item-and-page-german-report-layout-taxreport_de-ssrs-format"></a>Almanya için ELSTER beyannamesi (raporlama kodlarına dayanan tasarım), \"Elektronik vergi beyan günlüğü\" menü öğesi ve sayfası, \"Elektronik vergi beyan kurulumu\" menü öğesi ve sayfası, Alman rapor düzeni (TaxReport_DE) SSRS biçimi
 
 [KDV beyanı](../localizations/emea-de-vat-declaration.md)</br>
 [Almanya için elektronik vergi beyannamesini ayarlama](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
-[KDV beyannamesinin elektronik iletimi (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -136,9 +135,9 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 | **Başka bir özellikle mi değiştirildi?**   | Evet |
 | **Etkilenen ürün alanları**         | Uygulama |
 | **Dağıtım seçeneği**              | Tümü |
-| **Çalıştırma Durumu**                         | Kullanım dışı: 1 Aralık 2022 tarihine kadar **Elster (DE)** ve **Elster modeli** elektronik raporlama (ER) biçimleri için desteği kaldırmayı planlıyoruz. **Vergi beyannamesi** modeli kapsamında, yeni **KDV beyannamesi XML (DE)** ve **KDV beyannamesi Excel (DE)** biçimleri tanıtıldı. |
+| **Çalıştırma Durumu**                         | Kullanım dışı: 1 Aralık 2022 tarihine kadar **Elster (DE)** elektronik raporlama (ER) biçimi ve **Elster modeli** için desteği kaldıracağız. **Vergi beyannamesi** modeli kapsamında, yeni **KDV beyannamesi XML (DE)** ve **KDV beyannamesi Excel (DE)** ER biçimleri tanıtıldı. Ayrıca artık **Vergi** \> **Beyannameler** \> **Satış vergisi** \> **Elektronik vergi beyan günlüğü** menü öğesi ve sayfası **Vergi** \> **Kurulum** \> **Satış vergisi** \> **Elektronik vergi beyanname kurulumu** menü öğesi ve sayfası **Vergi** \> **Kurulum** \> **Satış vergisi** \> **Elektronik vergi sertifikaları** menü öğesi ve sayfası ve Alman rapor düzeni (TaxReport\_DE) SQL Server Raporlama Hizmetleri (SSRS) biçimini desteklemeyeceğiz. Almanya'da KDV Raporlama işlemi [Elektronik ileti](../general-ledger/electronic-messaging.md) işlevleri tarafından desteklenir. Daha fazla bilgi için bkz [Almanya için KDV beyanı](../localizations/emea-deu-vat-declaration-germany.md). |
 
-### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>Hollanda için OB beyannamesi (raporlama kodlarına dayalı tasarım)
+### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes-electronic-ob-declaration-menu-item-and-page-dutch-report-layout-taxreport_nl-ssrs-format"></a>Hollanda için OB beyannamesi (Raporlama kodlarına dayalı tasarım), \"Elektronik OB beyanname\" menü öğesi ve sayfası, Hollanda rapor düzeni (TaxReport_NL) SSRS biçimi
 
 [OB beyannamesi](../localizations/emea-nl-vat-declaration.md)
 
@@ -148,7 +147,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 | **Başka bir özellikle mi değiştirildi?**   | Evet |
 | **Etkilenen ürün alanları**         | Uygulama |
 | **Dağıtım seçeneği**              | Tümü |
-| **Çalıştırma Durumu**                         | Kullanım dışı: 1 Aralık 2022 tarihine kadar **OB beyanı (NL)** ve **OB beyan modeli** elektronik raporlama (ER) biçimleri için desteği kaldırmayı planlıyoruz. **Vergi beyannamesi** modeli kapsamında, yeni **KDV beyannamesi XML (NL)** ve **KDV beyannamesi Excel (NL)** biçimleri tanıtıldı. |
+| **Çalıştırma Durumu**                         | Kullanım dışı: 1 Aralık 2022 tarihine kadar **OB beyanı (NL)** elektronik raporlama (ER) biçimi ve **OB beyan modeli** için desteği kaldıracağız. **Vergi beyannamesi** modeli kapsamında, yeni **KDV beyannamesi XML (NL)** ve **KDV beyannamesi Excel (NL)** ER biçimleri tanıtıldı. Artık **Vergi** \> **Beyannameler** \> **Satış vergisi** \> **Elektronik OB beyanı** menü öğesi ve sayfası, Hollanda rapor düzeni (TaxReport_NL) SSRS biçimini desteklemeyeceğiz. Hollanda'da KDV Raporlama işlemi [Elektronik ileti](../general-ledger/electronic-messaging.md) işlevleri tarafından desteklenir. Daha fazla bilgi için bkz [Hollanda için KDV beyanı](../localizations/emea-nl-vat-declaration-netherlands.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Finance 10.0.20 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 

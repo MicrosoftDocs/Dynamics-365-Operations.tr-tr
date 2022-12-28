@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 940a3c1d60347c365575f29b853b83a028acad53
-ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
+ms.openlocfilehash: 1333881f80c735794784831d4042bfe7d070b796
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714775"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838485"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasını yükleme ve bağlama
 
@@ -58,10 +58,10 @@ Uygulamayı tek bir cihaza yüklemenin en kolay yolu, her zaman en son genel sü
 
 Bir uygulama mağazasından yüklemeye alternatif olarak uygulamayı Microsoft App Center'dan da indirebilirsiniz. App Center, dışarıdan yükleyebileceğiniz yüklenebilir paketler sağlar. Geçerli sürüme ek olarak, App Center önceki sürümleri indirmenize de olanak tanır ve deneyebileceğiniz yaklaşan özelliklerle önizleme sürümleri sağlayabilir. Ambar Yönetimi mobil uygulamasının geçerli, önceki veya önizleme sürümlerini Microsoft App Center'dan indirmek için aşağıdaki bağlantılardan birini kullanın:
 
-- **Windows (UWP):** [Ambar Yönetimi (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+- **Windows (UWP):** [Ambar Yönetimi (Windows)](https://aka.ms/wma-windows-official-release)  
     İndirilen paketi bir Windows cihaza yükleme ve ardından gerekli sertifikaları ayarlama hakkında yönergeler için bkz. [App Center'dan Bir Derleme İndirme](/appcenter/distribution/installation).
 
-- **Android:** [Ambar Yönetimi (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+- **Android:** [Ambar Yönetimi (Android)](https://aka.ms/wma-android-official-release)  
     Önizleme sürümünü indirirseniz yüklemek için birkaç ek adım gerekir. Ayrıntılar için bkz. [Android Uygulamalarını Test Etme](/appcenter/distribution/testers/testing-android).
 
 App Center'dan indirilen bir derlemeyi yükleme hakkında bilgi için bkz. [Derleme yükleme](/appcenter/distribution/installation).

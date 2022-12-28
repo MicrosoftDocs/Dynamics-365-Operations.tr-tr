@@ -2,7 +2,7 @@
 title: Yıl sonu kapanışını optimize etme
 description: Bu makalede, genel muhasebe yıl sonu kapanış işlemi için kullanılan Yıl sonu kapanışını optimize etme hizmet eklentisi açıklanmaktadır.
 author: moaamer
-ms.date: 11/02/2022
+ms.date: 12/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2022-11-28
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 41d0c2975341cf3d612cc36be348326e24e94f1b
-ms.sourcegitcommit: 707957bb7bcd98faf2600eff1c98067901a0fb73
+ms.openlocfilehash: bc6ab7e36f37707442f8d5d5b6e0d5f5d42e2171
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/08/2022
-ms.locfileid: "9750019"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831542"
 ---
-# <a name="optimize-year-end-close"></a>Yıl sonu kapanışını optimize etme
+# <a name="optimize-year-end-close"></a>Yıl sonu kapanışını optimize etme 
 
 Microsoft Dynamics 365 Finance için Yıl sonu kapanışını optimize etme hizmet eklentisi, Dynamics 365 Finance kaynakları için Uygulama Nesne Sunucusu (AOS) kurulumunun dışında çalıştırılacak yıl sonu kapanışı işlemini etkinleştirir. Mikro hizmet teknolojisini kullanır. Yıl sonu kapanışını optimize etme işleviyle ilişkili kazançlar arasında yıl sonu kapanışı işlemi sırasında artan performans ve SQL veritabanı üzerinde en az etki vardır.
+
+>[!NOTE]
+> Microsoft Dynamics 365 Finance sürüm 10.0.31 içindeki optimize yıl sonu kapanışı kullanılabilir. Bu özellik 10.0.30 ve 10.0.29 Dynamics Finance sürümlerine geri çevrildi ve en son kalite güncelleştirmesini gerçekleştirmeniz gerekir.   
 
 Yıl sonu kapanışını optimize etme işlevini kullanmak için aşağıdaki görevleri tamamlamanız gerekir:
 
@@ -32,7 +35,7 @@ Yıl sonu kapanışını optimize etme işlevini kullanmak için aşağıdaki g�
 2. Özellik yönetiminde **Yıl sonu kapanışını optimize etme** özelliğini etkinleştirin.
 
 > [!NOTE]
-> Özellik yönetiminde **Yıl sonu kapanışını optimize etme** özelliğini devre dışı bırakarak Finans kaynakları için geçerli yıl sonu kapanışı işlevini kullanmaya devam edebilirsiniz.
+> Özellik yönetiminde **Yıl sonu kapanışını optimize etme** özelliğini devre dışı bırakarak Finans için geçerli yıl sonu kapanışı işlevini kullanmaya devam edebilirsiniz.
 
 ## <a name="improved-performance"></a>Artan performans
 
@@ -54,24 +57,26 @@ Yıl sonu kapanışını optimize etme işlevini kullanmak için aşağıdaki g�
 
 Aşağıdaki şekilde **Yıl sonu kapanışı** sayfasındaki **Sonuçlar** ve **Durum** sütunlarının bir örneği gösterilmektedir. Yıl sonu kapanışının sonuçlarını açmak için **Sonuçlar** sütunundaki **Sonuçları görüntüle** bağlantısını seçebilirsiniz. **Durum** sütunu, yıl sonu kapanışı işleminin geçerli durumunu gösterir. Bu nedenle, yeni sütunlar yıl sonu kapanışı işleminin ilerlemesiyle ilgili görünürlük sağlar.
 
-[![Yıl sonu kapanışı sayfasındaki Sonuçlar ve Durum sütunları.](./media/Yearendclose.jpg)](./media/Yearendclose.jpg)
+[![Yıl sonu kapanışı sayfasındaki Sonuçlar ve Durum sütunları.](./media/Optimize-year-end-close-Image3.png)](./media/Optimize-year-end-close-Image3.png)
 
 Ayrıca **Yıl sonu kapanışını optimize etme** özelliği etkinleştirildiğinde **Yıl sonu kapanışı şablonu** sayfasında **Bilanço mali boyutları** hızlı sekmesi kullanılabilir hale gelir. Bir yılı kapatırken bilanço mali boyutlarını ayrıntılı olarak belirtmek için bu hızlı sekmeyi kullanabilirsiniz. Bu özellik, kar ve zarar hesapları için şu anda sunulan özelliği paraleldir.
 
+[![Bilanço mali boyutları Hızlı Sekmesi.](./media/Optimize-year-end-close-Image4.png)](./media/Optimize-year-end-close-Image4.png)
+
 ## <a name="architecture-and-data-flow"></a>Mimari ve veri akışı
 
-Bir mikro hizmette **Yıl sonu kapanışını optimize etme** özelliğini kullanmak ve yıl sonu kapanışını çalıştırmak için Lifecycle Services'ten Yıl sonu kapanışını optimize etme hizmet eklentisini yüklemeniz ve ardından Özellik yönetiminde **Yıl sonu kapanışını optimize etme** özelliğini etkinleştirmeniz gerekir.
+Bir mikro hizmette **Yıl sonu kapanışını optimize etme** özelliğini kullanmak ve yıl sonu kapanışını çalıştırmak için Lifecycle Services'ten **Yıl sonu kapanışını optimize etme hizmet eklentisini** yüklemeniz ve ardından Özellik yönetiminde **Yıl sonu kapanışını optimize etme** özelliğini etkinleştirmeniz gerekir.
 
 Aşağıdaki şekilde gösterildiği gibi yıl sonu kapanışı işlemi, eklentinin yüklendiğini ve özelliğin etkinleştirildiğini doğrular. Her iki ön koşul da karşılanırsa yıl sonu kapanışı mikro hizmette çalışır.
 
-[![Veri akışı diyagramı.](./media/Lifecycle-services.jpg)](./media/Lifecycle-services.jpg)
+[![Veri akışı diyagramı.](./media/Optimize-year-end-close-Image5.png)](./media/Optimize-year-end-close-Image5.png)
 
 ## <a name="high-level-flow-for-year-end-close-processing"></a>Yıl sonu kapanışı işlemi için üst düzey akış
 
 1. Yıl sonu kapanışı işlemi Finance'de **Genel muhasebe \> Dönem kapanışı \> Yıl sonu kapanışı** bölümünde başlatılır. İşlem, kapatılan tüzel kişilikler için kapanış toplu işleri ve görevleri oluşturur.
 2. Yıl sonu kapanışı, yıl sonu kapanışının mikro hizmette mi yoksa geçerli kapanış mantığında mı çalıştırılacağını belirler.
 
-    - Lifecycle Services'te Yıl sonu kapanışını optimize etme hizmeti eklentisi yüklüyse ve Özellik yönetiminde **Yıl sonu kapanışını optimize etme** özelliği etkinleştirilirse yıl sonu kapanışı mikro hizmette çalışır.
+    - Lifecycle Services'te **Yıl sonu kapanışını optimize etme** hizmeti eklentisi yüklüyse ve Özellik yönetiminde **Yıl sonu kapanışını optimize etme** özelliği etkinleştirilirse yıl sonu kapanışı mikro hizmette çalışır.
 
         1. Yıl sonu kapanışını optimize etme işlevi, kapatılan her tüzel kişilik için bir yıl sonu kapanış hizmeti işi oluşturur ve ardından yıl sonu kapanışı mantığını çalıştırır. Mikro hizmet yıl sonu kapanışını gerçekleştirir.
         2. Finance, mikro hizmetin ne zaman tamamlandığını belirlemek için mikro hizmette yıl sonu kapanışını dinler. Ardından yıl sonu kapanışı sonuçları Finance'de **Yıl sonu kapanışı** sayfasında güncelleştirilir.

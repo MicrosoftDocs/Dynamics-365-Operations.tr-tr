@@ -2,7 +2,7 @@
 title: Müşteri sipairşleri için Çoklu malzeme çekme teslimat şekillerini etkinleştirme
 description: Bu makale, Microsoft Dynamics 365 Commerce'ta bir mağazada malzeme çekme amacıyla müşteri siparişleri oluşturmanıza olanak sağlayan işlevleri açıklamaktadır.
 author: hhainesms
-ms.date: 06/07/2021
+ms.date: 12/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,29 +12,29 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 555ae3900bd7f9c66366f19a6eb2f12503898c93
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e4d8883b3dc1c4a0e12bcb00b6441f76d73da92e
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858920"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831597"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Müşteri sipairşleri için Çoklu malzeme çekme teslimat şekillerini etkinleştirme
 
 [!include [banner](includes/banner.md)]
 
 
-Microsoft Dynamics 365 Commerce sürüm 10.0.16 ve sonraki sürümlerde kuruluşlar, alışverişçiler veya satış kişilerin bir mağazada çekilecek bir sipariş oluştururken aralarından seçim yapabildikleri çoklu teslimat modlarını tanımlayabilir. Böylece kuruluşlar alışverişçilere çoklu malzeme çekme seçeneği sağlayabilir. Örneğin, birçok perakende satış şimdi, siparişleri için mağaza içi malzeme çekme veya perde çekme seçimini alışverişçileri sunmaktadır. Commerce, bu farklı malzeme çekme teslim modlarının konfigürasyonunun yapılandırmasını destekler. Kullanıcılar daha sonra desteklenen herhangi bir ticaret kanalında (e-ticaret, çağrı merkezi veya mağaza) müşteri siparişleri oluştururken faydalanabilir.
+Microsoft Dynamics 365 Commerce içinde kuruluşlar, alışverişçiler veya satış kişilerin bir mağazada çekilecek bir sipariş oluştururken aralarından seçim yapabildikleri çoklu teslimat modlarını tanımlayabilir. Böylece kuruluşlar alışverişçilere çoklu malzeme çekme seçeneği sağlayabilir. Örneğin, birçok perakende satış şimdi, siparişleri için mağaza içi malzeme çekme veya perde çekme seçimini alışverişçileri sunmaktadır. Commerce, bu farklı malzeme çekme teslim modlarının konfigürasyonunun yapılandırmasını destekler. Kullanıcılar daha sonra desteklenen herhangi bir ticaret kanalında (e-ticaret, çağrı merkezi veya mağaza) müşteri siparişleri oluştururken faydalanabilir.
 
 ## <a name="enable-and-configure-pickup-delivery-modes"></a>Malzeme çekme teslimat şekillerini etkinleştirme ve yapılandırma
 
-Bu işlevi kullanmak için Commerce Headquarter 'da **özellik yönetimi** çalışma alanında **çoklu malzeme çekme teslim modları desteğini** açın . Özellik etkinleştirildikten sonra ek konfigürasyon gereklidir.
+Commerce Headquarters'ta **Özellik yönetimi** çalışma alanında **Çoklu malzeme çekme teslim modları desteği** özelliği zorunlu olmuştur ve ortamda etkinleştirilmelidir.
 
-Commerce 10.0.15 ve önceki sürümlerde kuruluşlar, belirlenen malzeme çekme teslimat modu olarak yalnızca bir teslimat modu tanımlayabilir. Bu tanım **Commerce parametreler** sayfasında gerçekleştirilir. Sürüm 10.0.16 ve sonrasında, **Çoklu malzeme teslim modları desteğini** etkinleştirdiğinizde daha önce **ticaret parametreleri** sayfasında malzeme çekme teslim modu olarak tanımlanan teslimat modu, Malzeme çekme teslim modları için yeni konfigürasyona otomatik olarak kopyalanır.
+Daha önceden **Commerce parametreleri** sayfasında bir malzeme çekme teslimat modu tanımladıysanız, bu mod malzeme çekme teslimat modları için geçerli konfigürasyonda görüntülenir.
 
 ![Ticaret parametreleri sayfasındaki malzeme çekme teslimat şekilleri.](media/multiplepickupparameter.png)
 
-**Çoklu malzeme çekme teslim modları desteğini** açtıktan sonra, **ticaret parametreleri** sayfasının **müşteri siparişleri** sekmesindeki **teslimat modları** hızlı sekmesinde teslimat kılavuzunun **malzeme çekme modunda** Çoklu malzeme çekme teslimat modları tanımlayabilirsiniz.
+**Commerce parametreleri** > **Müşteri siparişleri** sekmesi > **Teslimat modu** hızlı sekmesindeki **Teslimat alma modu** üzerinde birden fazla teslimat alma modu belirleyebilirsiniz.  
 
 **Teslimat modu**, **teslim alanlarının elektronik modu** ve **Sevk emirleri için yalnızca taşıyıcı modu seçeneklerini göster** seçeneği bu hızlı sekmeye yeniden konumlandırıldı.
 
@@ -47,8 +47,6 @@ Ek malzeme çekme teslimat modlarını tanımladıktan sonra, bunları **Commerc
 > [!NOTE]
 > **Çoklu malzeme çekme teslim modları desteğini** açtığınızda, teslimat kılavuzunun **malzeme çekme moduna** kopyalanan varolan malzeme çekme teslimat modundan ayrı olarak, oluşturduğunuz her ek malzeme çekme teslim modu konfigürasyonu için yeni teslimat modları konfigüre etmelisiniz. Teslimat kılavuzunun **Pickup (teslimat) şekillerini** eklediğinizde , Commerce etkin açık satış satırlarının bunları kullanıp kullanmadığını doğrular. Herhangi bir açık satış satırı bulunursa, bir hata iletisi alırsınız. Bunları kullanan tüm açık satış satırları kapatılıncaya kadar teslimat modları malzeme çekme teslim modları olarak kabul edilmez (Faturalandı veya iptal edildi).
 
-> [!IMPORTANT]
-> **Commerce parametreleri** sayfasında birden fazla malzeme çekme teslimat modu tanımladıktan sonra, **Çoklu malzeme çekme teslim modları için destek** özelliği zorunlu hale gelir ve artık kapatılamaz. Bu özelliği kapatmanız gerekiyorsa, Teslimat kılavuzunun **malzeme çekme modundan** biri dışında tüm malzeme çekme teslimat modunu kaldırın . Yalnızca tek bir malzeme çekme teslimat modu tanımlandığında, özellik zorunlu olarak kabul edilir ve kapatılabilir.
 
 ### <a name="e-commerce-site-configurations"></a>E-ticaret sitesi yapılandırmaları
 

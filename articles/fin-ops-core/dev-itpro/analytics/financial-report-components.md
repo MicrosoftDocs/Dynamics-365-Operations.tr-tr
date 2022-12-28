@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.form: FinancialReports
-ms.openlocfilehash: 66430f81bd3d1efe126dfb29fa9c6a093716f90e
-ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
+ms.openlocfilehash: 180b3c64b9eb506f162071a67b1fa9b728a569ce
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "9802728"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831623"
 ---
 # <a name="financial-report-components"></a>Mali rapor bileşenleri
 
@@ -65,7 +65,7 @@ Kilitli bir yapı taşının kilidini açmak için, yapı taşını açın ve ar
 
 ## <a name="building-block-groups"></a>Yapı taşı grupları
 
-Yapı taşları bir rapor için oluşturduğunuz satır tanımları, sütun tanımları, raporlama ağacı tanımları ve rapor tanımlarıdır. Yapı taşı grupları tanımlardan ve boyut kümelerinden oluşan koleksiyonlardır.
+Yapı taşları bir rapor için oluşturduğunuz satır tanımları, sütun tanımları, raporlama ağacı tanımları ve rapor tanımlarıdır. Yapı taşı grupları tanımlardan ve boyut değeri kümelerinden oluşan koleksiyonlardır.
 
 ### <a name="view-a-building-block-group"></a>Bir yapı taşı grubunu görüntüleme
 
@@ -78,17 +78,17 @@ Bir yapı taşı grubuna atanan tüm yapı taşlarını görüntüleyebilirsiniz
 
 ### <a name="export-a-building-block-group"></a>Bir yapı taşı grubunu dışa aktarma
 
-Bir yapı taşı grubunu veya bir yapı taşı grubundaki belirli rapor yapı taşlarını dışa aktarabilirsiniz. Dışa aktarılan yapı taşı grubunu yedek olarak kullanabilirsiniz. Dışa aktarılan veriyi kurulumlar arasında kopyalayabilirsiniz. Rapor tasarımcısı, yapı taşı grubuyla birlikte başvurulan yazı tipi stillerini ve boyut kümelerini içerir.
+Bir yapı taşı grubunu veya bir yapı taşı grubundaki belirli rapor yapı taşlarını dışa aktarabilirsiniz. Dışa aktarılan yapı taşı grubunu yedek olarak kullanabilirsiniz. Dışa aktarılan veriyi kurulumlar arasında kopyalayabilirsiniz. Report Designer, yapı taşı grubuyla birlikte başvurulan yazı tipi stillerini ve boyut değeri kümelerini içerir.
 
 1. Report Designer'da, **Şirket** menüsünde, **Yapı taşı grupları**'na tıklayın.
 2. **Yapı taşı grupları** iletişim kutusunda, dışa aktarılacak yapı taşı grubunu seçin ve ardından **Dışa Aktar**'a tıklayın.
 3. **Dışa Aktar** iletişim kutusunda, dışa aktarılacak rapor tanımlarını seçin:
 
     - Tüm rapor tanımlarınızı ve ilişkili yapı taşlarını dışa aktarmak için **Tümünü seç**'e tıklayın.
-    - Belirli raporları, satırları, sütunları, ağaçları veya boyut kümelerini dışa aktarmak için, ilgili sekmeye tıklayın ve ardından dışa aktarılacak maddeleri seçin. Bir sekmedeki birden fazla maddeyi seçmek için Ctrl tuşunu basılı tutun.
+    - Belirli raporları, satırları, sütunları, ağaçları veya boyut değeri kümelerini dışa aktarmak için, ilgili sekmeye tıklayın ve ardından dışa aktarılacak maddeleri seçin. Bir sekmedeki birden fazla maddeyi seçmek için Ctrl tuşunu basılı tutun.
 
     > [!NOTE]
-    > Dışa aktarılacak raporları seçtiğinizde ilişkili satırlar, sütunlar, ağaçlar ve boyut kümeleri seçilir.
+    > Dışa aktarılacak raporları seçtiğinizde ilişkili satırlar, sütunlar, ağaçlar ve boyut değeri kümeleri seçilir.
 
 4. Dışa aktarılacak maddeleri seçmeyi tamamladığınızda, **Dışa Aktar**'a tıklayın.
 5. **Farklı Kaydet** iletişim kutusunda, yapı taşının dışa aktarılacağı konumu seçin.
@@ -97,7 +97,7 @@ Bir yapı taşı grubunu veya bir yapı taşı grubundaki belirli rapor yapı ta
 
 ### <a name="import-a-building-block-group"></a>Bir yapı taşı grubunu içe aktarma
 
-Bir yapı taşı grubunu mevcut bir yapı taşı grubuna aktarabilirsiniz. İçe aktarılan tüm yapı taşı grupları kendi orijinal yazı tipi stillerini ve şirket referanslarını korur ve ilgili boyut kümelerini içerir.
+Bir yapı taşı grubunu mevcut bir yapı taşı grubuna aktarabilirsiniz. İçe aktarılan tüm yapı taşı grupları kendi orijinal yazı tipi stillerini ve şirket referanslarını korur ve ilgili boyut değeri kümelerini içerir.
 
 1. Report Designer'da, **Şirket** menüsünde, **Yapı taşı grupları**'na tıklayın.
 2. **Yapı taşı grupları** iletişim kutusunda, bir yapı taşı grubuna aktarılacak yapı taşını seçin ve ardından **İçe Aktar**'a tıklayın.
@@ -105,7 +105,7 @@ Bir yapı taşı grubunu mevcut bir yapı taşı grubuna aktarabilirsiniz. İçe
 4. **İçe Aktar** iletişim kutusunda, içe aktarılacak rapor tanımlarını seçin:
 
     - Tüm rapor tanımlarını ve destekleyici yapı taşlarını içe aktarmak için **Tümünü seç**'e tıklayın.
-    - Belirli raporları, satırları, sütunları, ağaçları veya boyut kümelerini içe aktarmak için, içe aktarılacak raporları, satırları, sütunları, ağaçları veya boyut kümelerini seçin.
+    - Belirli raporları, satırları, sütunları, ağaçları veya boyut değeri kümelerini içe aktarmak için, içe aktarılacak raporları, satırları, sütunları, ağaçları veya boyut değeri kümelerini seçin.
 
 5. İçe aktarılacak maddeleri seçmeyi tamamladığınızda, **İçe Aktar**'a tıklayın.
 

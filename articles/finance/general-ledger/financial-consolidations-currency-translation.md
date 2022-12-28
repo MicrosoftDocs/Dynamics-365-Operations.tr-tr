@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 56e445dcf471fd20695824d5e47cd15f39c022ce
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1b2f5f56e757e89339c12fd41c59848b4c987a2f
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846871"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831846"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Mali konsolidasyonlar ve para birimi dönüştürmeye genel bakış
 
@@ -64,7 +64,7 @@ Kullanıcılar; Çevrimiçi Olarak Konsolide Et, Mali raporlama veya ikisini bir
 - Birden fazla raporlama para birimi içeren konsolidasyonlar
 
 ## <a name="legal-entity-setup"></a>Tüzel kişilik kurulumu
-Bir konsolidasyonu işlemeden önce tüzel kişiliği ayarlamanız gerekir. Konsolidasyonu ihtiyacınız olduğu sayıda çalıştırabilirsiniz ve tüm veriler kaynak şirketin muhasebe para biriminden konsolidasyon şirketi için tanımlı para birimine dönüştürülür. Bu nedenle aşağıdaki organizasyon yapısı için, tüm Kuzey Amerika şirketlerini önce ABD dolarına (USD) ve sonra ana şirketin para birimi olan avroya (EUR) dönüştürmek zorundaysanız en az iki konsolidasyon şirketiniz olmalıdır.
+Bir konsolidasyonu işlemeden önce tüzel kişiliği ayarlamanız gerekir. Konsolidasyonu ihtiyacınız olduğu sayıda çalıştırabilirsiniz ve tüm veriler kaynak şirketin muhasebe para biriminden veya raporlama para biriminden konsolidasyon şirketi için tanımlı para birimine dönüştürülür. Bu nedenle aşağıdaki organizasyon yapısı için, tüm Kuzey Amerika şirketlerini önce ABD dolarına (USD) ve sonra ana şirketin para birimi olan avroya (EUR) dönüştürmek zorundaysanız en az iki konsolidasyon şirketiniz olmalıdır.
 
 ![Kuruluş yapısı.](./media/organizational-structure.png "Kuruluş yapısı")
 

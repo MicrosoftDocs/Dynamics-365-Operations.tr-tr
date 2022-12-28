@@ -2,7 +2,7 @@
 title: Finans ve operasyon altyapısına Dynamics 365 Human Resources müşteri geçişi
 description: Bu makalede, finans ve operasyon altyapısına Microsoft Dynamics 365 Human Resources müşteri geçişi yapma açıklanmaktadır.
 author: twheeloc
-ms.date: 10/25/2022
+ms.date: 12/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
-ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
+ms.openlocfilehash: ab9680c2d1caa08c15aed325f4153aac6eae63c3
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2022
-ms.locfileid: "9760375"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831733"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>Dynamics 365 Human Resources müşteri geçişi
 
@@ -43,7 +43,7 @@ Müşteri geçişi, müşteri veritabanının finans ve operasyonlar alt yapıs�
  - Bağımsız Human Resources uygulaması ile bağlantılı varolan Dataverse ortamını, önceki adımda oluşturduğunuz ortama kopyalayın.
 
 > [!NOTE]
-> Veritabanı eklediğinizde, **Dynamics 365 uygulamalarını etkinleştir** seçeneğinin **Evet** olarak ayarlandığından emin olun. Ayrıntılı bilgi için bkz. [Power Platform ortamı hazırlama](hr-cust-migration.md#prepare-a-power-platform-environment)
+> Veritabanı eklediğinizde, **Dynamics 365 uygulamalarını etkinleştir** seçeneğinin **Evet** olarak ayarlandığından emin olun. Ayrıntılı bilgi için bkz. [Power Platform ortamı hazırlama](hr-cust-migration.md#prepare-a-power-platform-environment).
 
 ### <a name="dataverse-capacity"></a>Dataverse kapasitesi
 
@@ -54,7 +54,7 @@ Müşteri geçişi, müşteri veritabanının finans ve operasyonlar alt yapıs�
 
 ### <a name="create-a-lifecycle-services-project-for-human-resources-migration"></a>Human Resources geçişi için bir Lifecycle Services projesi oluşturun
 
-İlk adım, Lifecycle Services'te yeni bir finans ve operasyon uygulama projesi oluşturmaktır. Müşterinin varolan Human Resources Lifecycle Services projesi olacaktır. Mevcut Human Resources ortamları, yeni finans ve operasyonlar Uygulama projesine geçirilir.
+İlk adım, Lifecycle Services'te yeni bir finans ve operasyon uygulama projesi oluşturmaktır. Müşterinin varolan Human Resources Lifecycle Services projesi olacaktır. Mevcut Human Resources ortamları, yeni finans ve operasyonlar uygulama projesine geçirilir.
 
 Bir yeni proje oluşturmak için şu adımları izleyin.
 
@@ -67,7 +67,7 @@ Bir yeni proje oluşturmak için şu adımları izleyin.
 7. Hüküm ve koşulları kabul etmek için onay kutusunu seçin.
 8. **Oluştur**'u seçin.
 
-Yeni bir Lifecycle Services projesi oluşturduktan sonra, yapılandırmak için aşağıdaki adımları izleyin.
+Yeni bir Lifecycle Services projesi oluşturduktan sonra, projeyi yapılandırmak için aşağıdaki adımları izleyin.
 
 1. Proje ekleme işlemini tamamlamak için **proje eklemeyi** seçin. Daha fazla bilgi için bkz. [Proje ekleme](../fin-ops-core/dev-itpro/lifecycle-services/project-onboarding.md).
 
@@ -158,6 +158,7 @@ Bir korumalı alan ortamını taşımayı ve doğrulamayı bitirdikten sonra, ü
 
 - Abonelik tahmin aracının tamamlanmış olması gerekir.
 - Kullanıma sunma [hazırlık değerlendirmesi](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md) tamamlanmalıdır.
+- Lifecycle Services'te üretim geçişini başlatan kullanıcının, Power Platform üzerinde bir sistem yöneticisi rolü olmalıdır. 
 
 #### <a name="migrate-the-production-environment"></a>Üretim ortamını geçirme
 

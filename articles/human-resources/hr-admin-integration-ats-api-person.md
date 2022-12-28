@@ -2,7 +2,7 @@
 title: Kişi
 description: Bu makalede, Dynamics 365 Human Resources için Kişi varlığı açıklanmaktadır.
 author: jaredha
-ms.date: 02/05/2021
+ms.date: 12/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 49d9b5e1a1297c9528bfa82d0e8307bad3b2d1cc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c8adb2f06d1fcdfef8a42a04c5ebddd246ffc2ae
+ms.sourcegitcommit: 69d7dd6a2d0dc7f2661c7d1f61e8874c7bde1448
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864126"
+ms.lasthandoff: 12/19/2022
+ms.locfileid: "9887357"
 ---
 # <a name="person"></a>Kişi
 
@@ -70,8 +70,8 @@ Bu varlık, aday olan kişi için kişisel bilgileri sağlar.
     "mshr_addresscounty": "String",
     "mshr_addressdistrictname": "String",
     "mshr_addresslatitude": Decimal,
-    "mshr_addresslocationid": "000003212",
-    "mshr_addresslocationroles": "Home",
+    "mshr_addresslocationid": "String",
+    "mshr_addresslocationroles": "String",
     "mshr_addresslongitude": Decimal,
     "mshr_addressstate": "String",
     "mshr_addressstreet": "String",

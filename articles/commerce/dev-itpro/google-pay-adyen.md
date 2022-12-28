@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c3f049946c66fcd8560f7c08a4cb2beab0dcd5b2
-ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
+ms.openlocfilehash: cdf950fc7b3720543d93e108d4e3c3c2ab254e09
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9115039"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838404"
 ---
 # <a name="configure-google-pay-with-adyen"></a>Google Pay'i Adyen ile yapılandırma
 
@@ -90,11 +90,6 @@ Google Pay kullanmak üzere bir Commerce çevrimiçi mağazası yapılandırmak 
 
 1. Bağlayıcı özelliklerini ayarlamayı bitirdikten sonra, **1070 (Kanal yapılandırma**) dağıtım zamanlaması işini çalıştırın.
 
-## <a name="configure-commerce-pos-for-google-pay"></a>Google Pay için Commerce POS yapılandırma
-
-POS yapılandırması Adyen için Dynamics 365 Ödeme Bağlayıcısı'na donanım profilinin **EFT hizmeti** alanındaki ayarı kullanır. Commerce headquarters'ta Adyen için Dynamics 365 Ödeme Bağlayıcısı'na elektronik fon transferi (EFT) hizmetini yapılandırma hakkında bilgi için [Dynamics 365 POS donanım profili bölümü ayarlama](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile) bölümüne bakın.
-
-Adyen bağlayıcısı için işlemci eşlemesi Google Pay'in POS terminalinde kullandığı cüzdan kartı türlerini yakalar.
 
 ### <a name="use-the-payment-express-module-with-google-pay"></a>Google Pay ile hızlı ödeme modülünü kullanma
 
@@ -223,6 +218,12 @@ Teslimat yöntemlerinin hızlı ödeme modülünde görüntülenme sırası Comm
 Ödeme sırasında teslimat şekilleri işlendiğinde ödeme modülü de teslimat seçenekleri modülünü kullanır. Daha fazla bilgi için bkz. [Teslimat seçenekleri modülü](../delivery-options-module.md).
 
 Teslimat şekilleri çevrimiçi mağazadaki **Teslimat şekilleri** listesine eklendiklerinde görüntülenir.
+
+## <a name="configure-commerce-pos-for-google-pay"></a>Google Pay için Commerce POS yapılandırma
+
+POS yapılandırması Adyen için Dynamics 365 Ödeme Bağlayıcısı'na donanım profilinin **EFT hizmeti** alanındaki ayarı kullanır. Commerce headquarters'ta Adyen için Dynamics 365 Ödeme Bağlayıcısı'na elektronik fon transferi (EFT) hizmetini yapılandırma hakkında bilgi için [Dynamics 365 POS donanım profili ayarlama](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile) bölümüne bakın.
+
+Adyen bağlayıcısı için işlemci eşlemesi Google Pay'in POS terminalinde kullandığı cüzdan kartı türlerini yakalar.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

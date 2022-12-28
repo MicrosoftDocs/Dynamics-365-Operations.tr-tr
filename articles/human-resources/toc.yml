@@ -32,6 +32,8 @@
                   href: ./get-started/whats-new-changed-10.0.28.md
                 - name: Dynamics 365 Human Resources'taki (tek başına) yenilikler
                   items:
+                    - name: Dynamics 365 Human Resources'taki (tek başına) Aralık 2022 tarihli yenilikler
+                      href: hr-whats-new-2022-12-12.md
                     - name: Dynamics 365 Human Resources (tek başına) 2021 arşivlerindeki yenilikler
                       href: hr-admin-whats-new.md
                     - name: 29 Kasım 2021
@@ -110,6 +112,8 @@
                   href: hr-admin-integration-common-data-service-virtual-entities.md
                 - name: Human Resources sanal tablolarıyla ilgili SSS
                   href: hr-admin-virtual-entity-faq.md
+                - name: Dataverse ile tümleştirmeyi yapılandırma
+                  href: hr-dataverse-integration.md
                 - name: Finance ile tümleştirmeyi yapılandırma
                   href: hr-admin-integration-finance.md
                 - name: Dayforce ile tümleştirmeyi yapılandırma

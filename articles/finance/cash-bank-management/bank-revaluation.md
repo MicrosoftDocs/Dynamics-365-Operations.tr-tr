@@ -2,23 +2,23 @@
 title: Banka yabancı para birimi yeniden değerleme işlemi
 description: Bu makalede, banka yabancı para birimi yeniden değerleme işlemine dair genel bir bakış sunulmaktadır. Kurulum, işlemi yürütme, işlem için hesaplama ve değerleme hareketlerinin tersine çevrilmesi hakkında bilgi içerir.
 author: angelad116
-ms.date: 05/16/2019
+ms.date: 12/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankCurrencyRevalHistory
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 8efec304e745332c332030b33363403869870532
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 2d5e8a36d3b4d44c9ad0454db94164adebf80997
+ms.sourcegitcommit: 69d7dd6a2d0dc7f2661c7d1f61e8874c7bde1448
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151446"
+ms.lasthandoff: 12/19/2022
+ms.locfileid: "9887273"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Banka yabancı para birimi yeniden değerleme işlemi
 
@@ -39,17 +39,8 @@ Yeniden değerleme işlemini çalıştırmadan önce aşağıdaki kurulum gerekl
 - **Genel muhasebe** sayfasından döviz kuru türünü belirleyin. Döviz kuru türü ana hesapta tanımlanmamışsa bu döviz kuru türü, yabancı para birimi yeniden değerleme işlemi sırasında kullanılır.
 - **Genel muhasebe** sayfasında, para birimi yeniden değerleme işlemi için gerçekleşmiş kazanç, gerçekleşmiş kayıp, gerçekleşmemiş kazanç ve gerçekleşmemiş kayıp hesaplarını belirtin. Gerçekleşmiş kazanç ve gerçekleşmiş zarar hesapları, Alacak hesapları ve Borç hesapları hareketleri kapatıldığında kullanılır. Gerçekleşmemiş kazanç ve gerçekleşmemiş zarar hesapları, açık hesapları ve genel muhasebe ana hesaplarını yeniden değerlemekte kullanılır.
 - **Para birimi yeniden değerleme hesapları** sayfasında, her bir para birimi ve şirket için farklı para birimi yeniden değerleme hesapları seçebilirsiniz. Hiçbir hesap tanımlanmazsa **Genel muhasebe** sayfasındaki hesaplar kullanılır.
+- **Nakit ve banka yönetimi parametreleri** sayfasında, **Numara serileri** sekmesinde yabancı para birimi yeniden değerleme işlemi için bir numara serisi ekleyin.
 
-## <a name="enable-foreign-currency-revaluation"></a>Yabancı para birimi yeniden değerleme işlemi etkinleştirme
-
-Banka yabancı para birimi yeniden değerleme işlemi özelliğini, yabancı para birimi yeniden değerleme işlemlerini işlemeden önce açmanız gerekir.
-
-1. **Nakit ve Banka yönetimi \> Kurulum \> Nakit ve Banka yönetim parametreleri**'ne gidin.
-2. **Genel** sekmesinde, **yabancı para birimi yeniden değerleme işlemi** altında, **Banka yeniden değerlemesini etkinleştir** seçeneğini **Evet** olarak ayarlayarak geçerli tüzel varlık için özelliği açın. 
-3. **Numara serileri** sekmesinde, yabancı para birimi yeniden değerleme işlemi için bir numara serisi ekleyin.
-4. **Yabancı para birimi yeniden değerleme işlemi**'ni alan sayfasının **Periyodik görevler** sekmesinde görmek için tarayıcıyı yenileyin.
-
-Yabancı para birimi yeniden değerleme işlemini kullanacak her tüzel kişilik için özelliği açmanız gerekir. Sistem Yöneticisi rolüne veya Özellik Yöneticisi rolüne atanırsanız **Özellik Yönetimi** çalışma alanındaki **Bir parametre olmadan banka yeniden değerlemeyi etkinleştir** adlı özelliği etkinleştirerek bu adımı giderebilirsiniz.
 
 > [!NOTE]
 > Tüzel varlığınız Rus, Polonya veya Macar ülke/bölge kodu kullanıyorsa, banka yabancı para birimi yeniden değerleme işlemini zaten yapabilirsiniz. Diğer ülkeler veya bölgelerde kullanılan yabancı para birimi yeniden değerlemeyi kullanamazsınız.

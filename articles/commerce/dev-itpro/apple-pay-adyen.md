@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-06-20
-ms.openlocfilehash: 0949b9d7a4b181605d43956932b4fc095940bd64
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 896847cee696e221b2114f7f28a0b56e73fc911b
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9780379"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838242"
 ---
 # <a name="set-up-apple-pay-with-adyen-in-dynamics-365-commerce"></a>Dynamics 365 Commerce'te Adyen ile Apple Pay'i ayarlama
 
@@ -102,13 +102,6 @@ Apple Pay için Commerce çevrimiçi mağazası yapılandırmak üzere aşağıd
 
 1. Satıcı bilgileri girildikten sonra, **1070** kanal yapılandırması dağıtım zamanlaması işini çalıştırın.
 
-## <a name="configure-commerce-pos-for-apple-pay"></a>Apple Pay için Commerce POS yapılandırma
-
-POS yapılandırması Adyen için Dynamics 365 Ödeme Bağlayıcısı'na donanım profilinin **EFT hizmeti** alanındaki yapılandırmayı kullanır. Commerce headquarters'ta Adyen için Dynamics 365 Ödeme Bağlayıcısı EFT hizmetini [Dynamics 365 POS donanım profili bölümü ayarlama](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile) bölümünde açıklandığı şekilde yapılandırın.
-
-**Desteklenen ödeme tüleri** alanındaki ödeme türleri listesine **ApplePay** eklediğinizden emin olun. Listedeki ödeme türlerini ayırmak için noktalı virgül (;) kullanın.
-
-Adyen bağlayıcısı için işlemci eşlemesi Apple Pay'in POS terminalinde kullandığı cüzdan kartı türlerini yakalar.
 
 ### <a name="configure-content-security-policies-in-site-builder"></a>Site oluşturucuda içerik güvenlik ilkelerini yapılandırma
 
@@ -138,6 +131,14 @@ Apple Pay'i sitenizin (hızlı olmayan) ödeme sayfasında bir ödeme seçeneği
 **Apple Pay** ödeme düğmesi, yalnızca desteklenen Apple Pay cihazlarında (iPhones, iPads ve Apple Pay'i destekleyen Safari tarayıcılarda) desteklenir. Kullanıcı bu cihazlardan birini kullanmıyorsa **Apple Pay** ödeme düğmesi görünümden gizlenir.
 
 Kullanıcı **Apple Pay** ödeme düğmesini seçtiğinde **Apple Pay** iletişim kutusu görüntülenir. Kullanıcı bu iletişim kutusunda Apple Pay cihazı veya tarayıcısı ile kimlik doğrulaması yapabilir. **Apple Pay** iletişim kutusunda sipairş tutarı ve kullanıcının Apple Wallet için yapılandırdığı ödeme yöntemi gösterilir. Kullanıcı bu ayrıntıları inceleyip ödemeye devam etmek için **Öde**'yi seçebilir. Ödeme tamamlandıktan sonra, kullanıcı tamamlanan işleme ilişkin ayrıntılı sipariş özetini gösteren **Sipariş Tamamlandı** sayfasına yönlendirilir.
+
+## <a name="configure-commerce-pos-for-apple-pay"></a>Apple Pay için Commerce POS yapılandırma
+
+POS yapılandırması Adyen için Dynamics 365 Ödeme Bağlayıcısı'na donanım profilinin **EFT hizmeti** alanındaki yapılandırmayı kullanır. Commerce headquarters'ta Adyen için Dynamics 365 Ödeme Bağlayıcısı EFT hizmetini [Dynamics 365 POS donanım profili ayarlama](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile) bölümünde açıklandığı şekilde yapılandırın.
+
+**Desteklenen ödeme tüleri** alanındaki ödeme türleri listesine **ApplePay** eklediğinizden emin olun. Listedeki ödeme türlerini ayırmak için noktalı virgül (;) kullanın.
+
+Adyen bağlayıcısı için işlemci eşlemesi Apple Pay'in POS terminalinde kullandığı cüzdan kartı türlerini yakalar.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

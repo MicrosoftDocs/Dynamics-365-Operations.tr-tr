@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Release 10.0.11
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ERSolutionTable, EROperationDesigner
-ms.openlocfilehash: 7509092d353d75cefbbd97393d45c078530a21bd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 61bc5e3f36bd2ae6e38ed0f511d70a7ae62e045c
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291369"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9832044"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Veri akışı ve dönüşümünü analiz etmek için yürütülen bir ER biçiminin veri kaynaklarında hata ayıklama
 
@@ -28,7 +28,7 @@ ms.locfileid: "9291369"
 
 [!include[banner](../includes/preview-banner.md)]
 
-Giden belgeler oluşturmak için bir Elektronik raporlama (ER) çözümü [yapılandırdığınızda](tasks/er-format-configuration-2016-11.md) uygulamadan veri almak ve oluşturulan çıktıya bu verileri girmek için kullanılan yöntemleri belirlersiniz. ER çözümünün yaşam döngüsü desteğini daha etkili hale getirmek için, bir ER veri modeli ve onun eşlemesini ve ayrıca bir ER biçimi ve onun eşleme bileşenlerini oluşturmanız gerekir; böylece model eşleme uygulamaya özel olacak ve diğer bileşenler uygulama belirsiz olarak kalacaktır. Bu nedenle, birkaç ER bileşeni oluşturulan çıktıya veri girme işlemini etkileyebilir.
+Giden belgeler oluşturmak için bir Elektronik raporlama (ER) çözümü [yapılandırdığınızda](tasks/er-format-configuration-2016-11.md) uygulamadan veri almak ve oluşturulan çıktıya bu verileri girmek için kullanılan yöntemleri belirlersiniz. ER çözümünün yaşam döngüsü desteğini daha etkili hale getirmek için, bir ER veri modeli ve onun eşlemesini ve ayrıca bir ER biçimi  ve onun eşleme bileşenlerini oluşturmanız gerekir; böylece model eşleme uygulamaya özel olacak ve diğer bileşenler uygulama belirsiz olarak kalacaktır. Bu nedenle, birkaç ER bileşeni oluşturulan çıktıya veri girme işlemini etkileyebilir.
 
 Bazı durumlarda, oluşturulan çıktının verileri uygulama veritabanındaki aynı verilerden farklı görünür. Bu durumlarda, veri dönüştürme için hangi ER bileşeninin sorumlu olduğunu belirlemek istersiniz. ER veri kaynağı hata ayıklama özelliği, bu araştırmaya harcanan zamanı ve maliyeti önemli ölçüde azaltır. Bir ER biçimi yürütmesini kesebilir ve veri kaynağı hata ayıklama arabirimini açabilirsiniz. Arabirimde, kullanılabilir veri kaynaklarına göz atabilir ve yürütme için tek bir veri kaynağı seçebilirsiniz. Bu el ile yürütme, bir ER biçiminin gerçek çalışması sırasındaki veri kaynağı yürütmesinin benzetimi yapar. Sonuç, alınan verileri analiz edebileceğiniz bir sayfada gösterilir.
 

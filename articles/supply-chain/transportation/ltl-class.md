@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 9ab05e1bc5d0ae2c8b5d98dda32660d2436676e9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9c1c7233b637b84ec901d7f83ae00f8a04895edb
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857213"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838431"
 ---
 # <a name="less-than-truckload-ltl-classes"></a>Kamyon yükünden az (LTL) sınıfları
 
@@ -54,7 +54,7 @@ LTL sınıfı oluşturmak için aşağıdaki adımları izleyin.
 
 Aşağıdaki örnekte, farklı ürün türleriyle kullanabileceğiniz iki farklı LTL sınıfının nasıl ayarlanacağı gösterilmektedir.
 
-1. **Ambar yönetimi \> Kurulum \> Stok \> LTL sınıfları** seçeneğine gidin.
+1. **Warehouse Management \> Kurulum \> Stok \> LTL sınıfları** veya **Nakliye yönetimi \> Kurulum \> Nakliye standartları \> LTL sınıflarına** gidin.
 1. Eylem Bölmesinde, **Yeni**'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 

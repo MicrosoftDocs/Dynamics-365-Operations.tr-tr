@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9886ddbf0b072283cffd73d4bfdc20835ccb3b7c
-ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
+ms.openlocfilehash: 0a4e436cc1af6b71049f75fb66bdfb89ca38df9f
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9762725"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831788"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Inventory Visibility uygulamasını kullanma
 
@@ -106,7 +106,7 @@ Kullanıcı arabiriminden ve API'lerden tahsisatları nasıl yöneteceğinizi ö
 
 1. **Yapılandırma** sayfasını açın.
 1. **Özellik Yönetimi ve Ayarlar** sekmesini açın.
-1. **OnHandMostSpecificBackgroundService** özelliğinin düğmesini *Evet* olarak ayarlayın.
+1. *OnHandMostSpecificBackgroundService* özelliğinin düğmesini *Evet* olarak ayarlayın.
 1. Özellik etkinleştirildiğinde **Hizmet Yapılandırması** bölümü kullanılabilir hale gelir ve **OnHandMostSpecificBackgroundService** özelliğini yapılandırma için bir satır içerir. Bu ayar, stok özeti verilerinin eşitlendiği sıklığı seçmenize olanak tanır. Eşitlemeler arasındaki zamanı değiştirmek için (en az 5 dakika olabilir) **Değer** sütunundaki **Yukarı** ve **Aşağı** düğmelerini kullanın. Sonra **Kaydet**'i seçin.
 
     ![OnHandMostSpecificBackgroundService Ayarı](media/inventory-visibility-ohms-freq.png "OnHandMostSpecificBackgroundService Ayarı")
@@ -125,10 +125,10 @@ Supply Chain Management, geçerli eldeki stoklarınız hakkında büyük bilgile
 
 **Stok Görünürlüğü Özetini Önceden Yükle** sayfası, *Eldeki Dizin Sorgu Önyükleme Sonuçları* varlığı için bir görünüm sağlar. *Stok özet* varlığından farklı olarak, *Eldeki Dizin Sorgu Önyükleme Sonuçları* varlığı, ürünler için seçili boyutlarla birlikte bir eldeki stok listesi sağlar. Stok Görünürlüğü, önceden yüklenmiş özet verileri her 15 dakikada bir eşitler.
 
-**Stok Görünürlük Özetini Önceden Yükleme** sekmesindeki verileri görüntülemek için **Yapılandırma** sayfasının **Özellik Yönetimi** sekmesindeki *OnHandIndexQueryPreloadBackgroundService* özelliğini etkinleştirmeniz ve ardından **Yapılandırmayı güncelleştir**'i seçmeniz gerekir (ayrıca bkz. [Stok Görünürlüğünü Yapılandırma](inventory-visibility-configuration.md)).
+**Stok Görünürlüğü Özetini Ön Yükle** sekmesinde verileri görüntülemek için *OnHandIndexQueryPreloadBackgroundService* özelliğini etkinleştirip yapılandırmanız gerekir. Talimatlar için bkz. [Önceden yüklenmiş eldeki sorguları açma ve yapılandırma (isteğe bağlı)](inventory-visibility-configuration.md#query-preload-configuration).
 
 > [!NOTE]
-> *OnhandMostSpecificBackgroudService* özelliğinde olduğu üzere *OnHandIndexQueryPreloadBackgroundService* özelliği de yalnızca özelliği etkinleştirdikten sonra gerçekleşen eldeki stok değişikliklerini izler. Özelliği açtığınızdan bu yana değiştirilemeyen ürünlere ait veriler, stok hizmeti önbelleğinden Dataverse ortamına eşitlenmez. **Stok özeti** sayfanız beklediğiniz eldeki ürün bilgilerinin tümünü göstermiyorsa **Stok Yönetimi > Periyodik görevler > Stok görünürlüğü tümleştirmesi**'ne gidin, toplu işi devre dışı bırakın ve yeniden etkinleştirin. Bu işlemi, ilk gönderimi yapacak ve tüm veriler sonraki 15 dakika içinde *Eldeki Dizin Sorgusu Önceden Yükleme Sorguları* varlığıyla eşitlenecektir. Bu özelliği kullanmak istiyorsanız herhangi bir eldeki miktar değişikliği oluşturmadan ve **Stok Görünürlüğü tümleştirmesi** toplu işlemini etkinleştirmeden önce bunu etkinleştirmenizi öneririz.
+> *OnHandMostSpecificBackgroundService* özelliğinde olduğu üzere *OnHandIndexQueryPreloadBackgroundService* özelliği de yalnızca özelliği etkinleştirdikten sonra gerçekleşen eldeki stok değişikliklerini izler. Özelliği açtığınızdan bu yana değiştirilemeyen ürünlere ait veriler, stok hizmeti önbelleğinden Dataverse ortamına eşitlenmez. **Stok özeti** sayfanız beklediğiniz eldeki ürün bilgilerinin tümünü göstermiyorsa **Stok Yönetimi > Periyodik görevler > Stok görünürlüğü tümleştirmesi**'ne gidin, toplu işi devre dışı bırakın ve yeniden etkinleştirin. Bu işlemi, ilk gönderimi yapacak ve tüm veriler sonraki 15 dakika içinde *Eldeki Dizin Sorgusu Önceden Yükleme Sorguları* varlığıyla eşitlenecektir. Bu özelliği kullanmak istiyorsanız herhangi bir eldeki miktar değişikliği oluşturmadan ve **Stok Görünürlüğü tümleştirmesi** toplu işlemini etkinleştirmeden önce bunu etkinleştirmenizi öneririz.
 
 ## <a name="filter-and-browse-the-inventory-summaries"></a><a name="additional-tip-for-viewing-data"></a>Stok özetlerini filtreleyin ve göz atın
 

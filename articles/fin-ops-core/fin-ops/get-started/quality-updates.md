@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: ecfeb3e6c5760b526ade609ee38f83da083b34d2
-ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
+ms.openlocfilehash: 7d8de017c54a13a9935d74d33a57813922c9f823
+ms.sourcegitcommit: 8aee31d6dffabe13969dd5b9de4e0bf95f53e67e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/29/2022
-ms.locfileid: "9805327"
+ms.lasthandoff: 12/19/2022
+ms.locfileid: "9887143"
 ---
 # <a name="proactive-quality-updates"></a>Proaktif kalite güncelleştirmeleri
 
@@ -28,16 +28,24 @@ Bu önerme şu sonuçlarla onaylanmıştır: ürünlerimizde daha düşük olay 
 
 ## <a name="what-you-need-to-know"></a>Bilmeniz gerekenler
 
-- Proaktif kalite güncelleştirmeleri aylık olarak uygulanır.
-- Proaktif kalite güncelleştirmeleri oluşturulduğunda Microsoft, [hizmette](./public-preview-releases.md#targeted-release-schedule-dates-subject-to-change) olan bir hizmet güncelleştirmesini çalıştıran tüm sanal alan ortamlarına proaktif kalite güncelleştirmeleri uygular.
-- ABD Gıda ve İlaç Dairesi (FDA) düzenlemelerine tabi olan müşteriler için proaktif kalite güncelleştirmeleriyle ilgili özel durumlara izin verilir.
+- Proaktif kalite güncelleştirmeleri (PQU) aylık olarak uygulanır.
+- Yalnızca ABD Gıda ve İlaç Dairesi (FDA) düzenlemelerine tabi olan müşteriler için proaktif kalite güncelleştirmeleriyle ilgili özel durumlara izin verilir.
+- Önleyici kalite güncelleştirmeleri hiçbir zaman ortamın indirgemeye veya bir hizmet güncelleştirme sürümünden diğerine otomatik olarak yükseltilmeyecek. 
 - Düzenlemeye tabi ortamlar ve bağımsız ve kamu bulut müşterileri için proaktif kalite güncelleştirmelerinin nasıl yönetileceğini Microsoft belirler.
-- Proaktif kalite güncelleştirmeleriyle ilgili bildirimler [Microsoft 365 İleti Merkezi](https://admin.microsoft.com/AdminPortal/) ve müşterinin Microsoft Dynamics Lifecycle Services projesindeki bir başlığa nakledilir.
+- Önleyici kalite güncelleştirmeleriyle ilgili olan bildirimler ileti merkezi [Microsoft 365 İleti Merkezinde](https://admin.microsoft.com/AdminPortal/) paylaşılır.
 - Bir ortama proaktif kalite güncelleştirmesi uygulanmadan beş gün önce, müşterilere güncelleştirmenin yapılacağı bildirilir.
 - Müşteriler proaktif kalite güncelleştirmelerini iptal edemez veya erteleyemezler.
 - Proaktif kalite güncelleştirmeleri bölgeye özel [planlı bakım aralığı](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows) sırasında yüklenir.
 - Kalite güncelleştirmeleri, sorun veya gerileme riski düşük olacak şekilde tasarlanmıştır ve Microsoft verileriyle desteklenir.
 - Microsoft, proaktif kalite güncelleştirmesiyle ilgili belirli sorunlar veya belirli düzeltmeler için hedeflenmiş testler önerir.
+- Yasal nedenlerle zaman sınırlı özel duruma sahip olanlar dışında tüm sanal alanlar ekleme 7 Ocak 2023 tarihine kadar olacaktır.
+- Önleyici kalite güncelleştirmeleri için üretim ekleme 21 Ocak 2023'ten başlar. 
+- Üretim ekleme, yalnızca korumalı alan eklenmiş ve düzenli aralıklarla proaktif kalite güncelleştirmelerini tüm desteklenen hizmet güncelleştirme sürümleri alan Lifecycle Services projeleri için başlayacaktır. Bu yalnızca, yasal veya yasal nedenlerle özel durum sağlanmayan müşteri ortamları için geçerlidir.
+- 2023 emri üzerinden korumalı alan ve üretim ortamları için önleyici kaliteli güncelleştirmelerin tam zamanlaması için aşağıya bakın.
+- Her hizmet güncelleştirmesinde, başlamak üzere sürekli veya dengeli en az bir PQU yayın eğitimi vardır. Çevreleriniz PQU işlemine eklendikten sonra, daha yeni bir sürüm hizmeti güncelleştirmesine geçtiğinizde, tümü için önceden zamanlanmış, önleyici bir kalite güncelleştirmesi alabilirsiniz. Daha yeni bir sürüm hizmeti güncelleştirmesine yükseltmeyi planlıyorsanız, hizmet güncelleştirmesi için bir PQU denetiminin zamanlanacağını belirlemek için zamanlamayı denetleyin. 
+
+> [!Note]
+> Standart performans testi (katman4), Premium performans test (katman5) sanal alanlar ve üretim ortamları hafta sonları üzerinde PQU alır. 
 
 ## <a name="focus-on-quality-updates"></a>Kalite güncelleştirmelerine odaklanma
 
@@ -75,33 +83,22 @@ Proaktif kalite güncelleştirme dağıtımının etkinleştirilmesinin ötesind
     > Microsoft İletişimleri ekibi, e-posta bildirimlerinin teslim edilmesini engelleyen e-posta araçlarının sürekli performans düşüşünü araştırmaktadır. İşe alma ve bildirimle ilgili iletiler için lütfen Microsoft 365 İleti Merkezi'ni izlemeye devam edin.
 
 - **Dağıtım yoluyla Fail Safe** – Dağıtım, bir kalite güncellemesi hata düzeltmesinde uygun olan yerlerde kod değişikliklerini korumak için kullanılır veya düzeltmeyle ilgili mevcut özellik uçuşunu kullanır. Proaktif bir dağıtımdan sonra bir geri dönüş veya değişikliğin kapatılması gerekiyorsa daha fazla başarısızlık oluşmaması için dağıtma sistemi üzerinden yapılabilir.
-- **Korumalı alan eşitleme tanımı**: Günümüzde müşterilerin yüzde 20'sinden azı birden fazla korumalı alana sahiptir ve sorun gidermeye yardımcı olmak için bir korumalı alanı sürümün eşleştiği üretimde dağıtılmış olarak korurlar. Bir müşteri, üretiminden daha yeni bir sürümü test etmek için korumalı alan kullanıyorsa bu korumalı alan yeni sürüme yönelik kalite güncelleştirmelerini alır.
+- **Korumalı alan eşitleme ataması** – Üretimle birlikte seçme için ayrılmış bir sanal alana aşamalı güncelleştirme şu anda desteklenmiyor. Tüm katman 2 ve katman 3 sanal alanlardaki etkin olmayan güncelleştirmeleri, bir Lifecycle Services projesindeki üretim ortamından önce en az 7 gün önce alacaktır. Yine de bu yalnızca, yasal veya yasal nedenlerle özel durum sağlanmayan müşteri ortamları için geçerlidir.
 
 ## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Kalite güncelleştirmeleri için kullanıma sunma yol haritası nedir?
 
-Korumalı alan ortamları için proaktif kalite güncelleştirmeleri dağıtımının Azure genel bulut müşterileri için en geç Eylül veya Ekim 2022'de başlaması beklenmektedir. Deneme ortamları da proaktif güncelleştirme dağıtımını o tarihlerde almaya başlayacaktır. Eylül ayında her müşteriye ortamları için beklenen planlamayı bildirmek üzere bir bildirim gönderilecektir. Proaktif olarak güncelleştirilen dağıtım işlemiyle ilgili özel durumlara yalnızca FDA düzenlemesine tabi müşteriler için izin verilecektir. Düzenlenmiş ortamlar ile bağımsız ve kamu bulut müşterilerinin nasıl yönetileceği üzerinde çalışmaya devam ediyoruz.
+Korumalı alan ortamları için proaktif kalite güncelleştirmeleri dağıtımının Azure genel bulut müşterileri için en geç Eylül 2022'de başlamıştır. 1 Ocak 2023 tarihinde, etkin sanal alanın %99'ı öngörülü kalite güncelleştirmelerine ekleme işlemi tamamlanıyoruz.
 
-Sonraki altı aylık dönemde, tanımlanan tüm ortamlar eklenene kadar proaktif güncelleştirmeler alan korumalı alan ortamı yüzdesini kademeli olarak artıracağız ve üretim ortamlarını güncelleştirmeye geçeceğiz. Dönem boyunca, dağıtım işleminin sorunsuz olmasını sağlamak ve kesintiye neden olmayan yükler hedefimizi yakalamak için izlemede olacağız.
+Proaktif olarak güncelleştirilen dağıtım işlemiyle ilgili özel durumlara yalnızca FDA düzenlemesine tabi müşteriler için izin verilir. Düzenlenmiş ortamlar ile bağımsız ve kamu bulut müşterilerinin nasıl yönetileceği üzerinde çalışmaya devam ediyoruz. 
 
-Müşteriler düzenli olarak daha küçük yükler alacağından, güncel kalma sürecinin daha kolay hale geleceğini bekliyoruz. Süreci kesintisiz yürütme yeteneğini gösterdiğimizde güncelleştirme dağıtımının sıklığını ayarlayacağız. Bu süreç Dataverse platformumuz ve uygulamalarımız için zaten etkili şekilde çalışıyor ve hizmet kalitesinde beklenen iyileştirmeleri sunuyor. Finans ve operasyon uygulamaları için de aynı adımı atmak istiyoruz.
+Müşteriler düzenli olarak daha küçük yükler alacağından, güncel kalma sürecinin daha kolay hale geleceğini bekliyoruz. Süreci kesintisiz yürütme yeteneğini gösterdiğimizde güncelleştirme dağıtımının sıklığını ayarlayacağız. Bu süreç Dataverse platformumuz ve uygulamalarımız için zaten etkili şekilde çalışıyor ve hizmet kalitesinde beklenen iyileştirmeleri sunuyor. Finans ve operasyon uygulamaları için de aynı adımı atıyoruz.
+
 
 ## <a name="when-will-quality-updates-start-for-production-environments"></a>Üretim ortamları için kalite güncelleştirmeleri ne zaman başlayacak?
-Şu anda, kalite güncellemeleri yalnızca korumalı alanları hedeflemektedir. Üretim için hazır olma durumunu ölçmek amacıyla korumalı alanların proaktif güncelleştirmelerinden daha somut veriler ve ölçümler elde ettiğimizde, bu alanı üretim ortamları için bir başlangıç tarihi ile güncelleştireceğiz.
+2023'ün ilk birkaç ayında 15 Ocak'tan başlayarak üretim ortamlarını önleyici güncelleştirmelere ekleme işlemini başlatacak ve önleyici güncelleştirmeleri alan üretim ortamlarının yüzdesini yavaş şekilde artıracağız. Lifecycle Services içinde yalnızca, proaktif olmayan güncelleştirmeleri almak için zaten eklenmiş korumalı alan ortamları olan bir üretim ortamını hedefliyoruz. Bir güncelleştirmeden önce, üretim ortamlarının eklenen müşterilere Message Center veya LifeCycle Services başlığı kullanılarak bildirim gönderilir. 2023 emri üzerinden korumalı alan ve üretim ortamları için önleyici kaliteli güncelleştirmelerin tam zamanlaması için aşağıya bakın.
 
 ## <a name="what-is-the-schedule-for-sandbox-proactive-quality-updates"></a>Korumalı alan proaktif kalite güncelleştirmeleri için zamanlama nedir?
 Her bölgenin aktif olunmayan saatleri hakkında bilgi için bkz. [Bölgeye göre planlanmış bakım süreleri nelerdir?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
-
-### <a name="proactive-quality-update-release-10028"></a>Proaktif kalite güncelleştirmesi sürümü: 10.0.28
-**Uygulama sürümü: 10.0.1265.89**  
-**İlgili son BB makalesi: 745340**
-
-| İstasyon | Bölgeler | Tamamlanmış Zamanlama| Yaklaşan Korumalı Alan Zamanlaması
-|---|---|---|---|
-| 1. İstasyon | Merkez Kanada, Doğu Kanada, Merkez Fransa, Merkez Hindistan, Doğu Norveç, Batı İsviçre | 15 Eylül ile 18 Eylül 2022, 19 Eylül ile 22 Eylül 2022 ve 7 Ekim ile 10 Ekim 2022 tarihleri arasında | 25 Ekim ile 28 Ekim 2022 tarihleri arasında |
-| 2. İstasyon | Güney Fransa, Güney Hindistan, Batı Norveç, Kuzey İsviçre, Kuzey Güney Afrika, Doğu Avustralya, Güney Birleşik Krallık, Kuzey BAE, Doğu Japonya, Güneydoğu Avustralya, Güney Doğu Asya | 25 Eylül ile 28 Eylül 2022 ve 7 Eylül ile 10 Eylül 2022 tarihleri arasında | 25 Ekim ile 28 Ekim 2022 tarihleri arasında |
-| 3. İstasyon | Doğu Asya, Batı Birleşik Krallık, Batı Japonya, Güney Brezilya, Batı Avrupa, Doğu ABD, Merkez BAE | 26 Eylül ile 29 Eylül 2022 ve 7 Eylül ile 10 Eylül 2022 tarihleri arasında | 25 Ekim ile 28 Ekim 2022 tarihleri arasında |
-| 4. İstasyon | Kuzey Avrupa, Orta ABD, Batı ABD | 28 Eylül ile 1 Ekim 2022 ve 7 Eylül ile 10 Eylül 2022 tarihleri arasında | 25 Ekim ile 28 Ekim 2022 tarihleri arasında |
-| 5. İstasyon | DoD, Hükümet Topluluk Bulutu, Çin | Planlanmadı | Planlanmadı |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a>Proaktif kalite güncelleştirmesi sürümü: 10.0.29
 **Uygulama sürümü: 10.0.1326.70**  
@@ -109,23 +106,83 @@ Her bölgenin aktif olunmayan saatleri hakkında bilgi için bkz. [Bölgeye gör
 
 | İstasyon | Bölgeler | Tamamlanmış Zamanlama | Yaklaşan Korumalı Alan Zamanlaması|
 |---|---|---|---|
-| 1. İstasyon | Merkez Kanada, Doğu Kanada, Merkez Fransa, Merkez Hindistan, Doğu Norveç, Batı İsviçre | 14 Ekim - 17 Ekim 2022, 2 Kasım - 5 Kasım 2022, 13 Kasım - 16 Kasım 2022 | 5 Aralık ile 8 Aralık arasında|
-| 2. İstasyon | Güney Fransa, Güney Hindistan, Batı Norveç, Kuzey İsviçre, Kuzey Güney Afrika, Doğu Avustralya, Güney Birleşik Krallık, Kuzey BAE, Doğu Japonya, Güneydoğu Avustralya, Güney Doğu Asya | 15 Ekim - 18 Ekim 2022, 2 Kasım - 5 Kasım 2022, 13 Kasım - 16 Kasım 2022 | 5 Aralık ile 8 Aralık arasında|
-| 3. İstasyon | Doğu Asya, Batı Birleşik Krallık, Batı Japonya, Güney Brezilya, Batı Avrupa, Doğu ABD, Merkez BAE | 16 Ekim - 19 Ekim 2022, 2 Kasım - 5 Kasım 2022, 13 Kasım - 16 Kasım 2022 | 5 Aralık ile 8 Aralık arasında|
-| 4. İstasyon | Kuzey Avrupa, Orta ABD, Batı ABD | 17 Ekim - 20 Ekim 2022, 2 Kasım - 5 Kasım 2022, 15 Kasım - 18 Kasım 2022 | 5 Aralık ile 8 Aralık arasında|
+| 1. İstasyon | Merkez Kanada, Doğu Kanada, Merkez Fransa, Merkez Hindistan, Doğu Norveç, Batı İsviçre | Ekim 14'ten Ekim 17 2022'ye, Kasım 2'den Kasım 5 2022'ye, Kasım 13'ten Kasım 16 2022'ye, Aralık 5'ten Aralık 8 2022'ye | 2 Ocak'tan 5 Ocak 2023'e |
+| 2. İstasyon | Güney Fransa, Güney Hindistan, Batı Norveç, Kuzey İsviçre, Kuzey Güney Afrika, Doğu Avustralya, Güney Birleşik Krallık, Kuzey BAE, Doğu Japonya, Güneydoğu Avustralya, Güney Doğu Asya | Ekim 15'ten Ekim 18 2022'ye, Kasım 2'den Kasım 5 2022'ye, Kasım 13'ten Kasım 16 2022'ye, Aralık 5'ten Aralık 8 2022'ye | 2 Ocak'tan 5 Ocak 2023'e |
+| 3. İstasyon | Doğu Asya, Batı Birleşik Krallık, Batı Japonya, Güney Brezilya, Batı Avrupa, Doğu ABD, Merkez BAE | Ekim 16'ten Ekim 19 2022'ye, Kasım 2'den Kasım 5 2022'ye, Kasım 13'ten Kasım 16 2022'ye, Aralık 5'ten Aralık 8 2022'ye | 2 Ocak'tan 5 Ocak 2023'e |
+| 4. İstasyon | Kuzey Avrupa, Orta ABD, Batı ABD | Ekim 17'ten Ekim 20 2022'ye, Kasım 2'den Kasım 5 2022'ye, Kasım 15'ten Kasım 18 2022'ye, Aralık 5'ten Aralık 8 2022'ye | 2 Ocak'tan 5 Ocak 2023'e |
 | 5. İstasyon | DoD, Hükümet Topluluk Bulutu, Çin | Planlanmadı | Planlanmadı |
 
 ### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a>Proaktif kalite güncelleştirmesi sürümü: 10.0.30
 **Uygulama sürümü: 10.0.1362.77**
 **İlgili son BB makalesini: 767597**
 
-| İstasyon | Bölgeler | Yaklaşan Korumalı Alan Zamanlaması |
+| İstasyon | Bölgeler | Tamamlanmış Zamanlama | Yaklaşan Korumalı Alan Zamanlaması |
+|---|---|---|---|
+| 1. İstasyon | Merkez Kanada, Doğu Kanada, Merkez Fransa, Merkez Hindistan, Doğu Norveç, Batı İsviçre | 1 Aralık ile 4 Aralık 2022 tarihleri arasında |  13 Aralık ile 16 Aralık 2022 tarihleri arasında | 
+| 2. İstasyon | Güney Fransa, Güney Hindistan, Batı Norveç, Kuzey İsviçre, Kuzey Güney Afrika, Doğu Avustralya, Güney Birleşik Krallık, Kuzey BAE, Doğu Japonya, Güneydoğu Avustralya, Güney Doğu Asya | 2 Aralık ile 5 Aralık 2022 tarihleri arasında |  13 Aralık ile 16 Aralık 2022 tarihleri arasında | 
+| 3. İstasyon | Doğu Asya, Batı Birleşik Krallık, Batı Japonya, Güney Brezilya, Kuzey Avrupa, Doğu ABD, Merkez BAE | 3 Aralık ile 6 Aralık 2022 tarihleri arasında |  13 Aralık ile 16 Aralık 2022 tarihleri arasında | 
+| 4. İstasyon | Batı Avrupa, Orta ABD, Batı ABD | 4 Aralık ile 7 Aralık 2022 tarihleri arasında |  13 Aralık ile 16 Aralık 2022 tarihleri arasında | 
+| 5. İstasyon | DoD, Hükümet Topluluk Bulutu, Çin | Planlanmadı | Planlanmadı |
+
+### <a name="proactive-quality-update-calendar-year-2023-schedule"></a><a name="schedule"></a> Önleyici kalite güncelleştirme takvimi yılı 2023 zamanlama
+
+#### <a name="stations-to-region-mapping"></a><a name="Stations-Regions"></a> Bölge eşleme istasyonları
+
+| İstasyonlar | Bölgeler |
+|---|---|
+| 1. İstasyon | Hesaplanacak |
+| 2. İstasyon | Merkez Kanada, Doğu Kanada, Merkez Fransa, Merkez Hindistan, Doğu Norveç, Batı İsviçre |
+| 3. İstasyon | Güney Fransa, Güney Hindistan, Batı Norveç, Kuzey İsviçre, Kuzey Güney Afrika, Doğu Avustralya, Güney Birleşik Krallık, Kuzey BAE, Doğu Japonya, Güneydoğu Avustralya, Güney Doğu Asya |
+| 4. İstasyon | Doğu Asya, Batı Birleşik Krallık, Batı Japonya, Güney Brezilya, Kuzey Avrupa, Doğu ABD, Merkez BAE |
+| 5. İstasyon | Batı Avrupa, Orta ABD, Batı ABD |
+| 6. İstasyon | DoD, Hükümet Topluluk Bulutu, Çin |
+
+
+> [!IMPORTANT]
+> Bu, 2023 yılı için yüksek düzey bir zamanlama. Daha somut bir zamanlama için, Ocak 10.0.30 Sürüm 2 için aşağıdaki örneğe bakın. Tam Çizelge ve uygulama sürümü, kalite güncelleştirmesi eğitimi başlangıcından önce 7 gün önce güncelleştirilecektir.
+
+> [!Note]
+> Yalnızca eklenen üretim ortamları 10.0.30 Sürüm 2 eğitimi için güncelleştirmeyi alacaktır, eklenen ortamlar açık iletişim alır.
+
+| Kalite Güncelleştirmesi treni | Yayımlama kesimi | Tren süresi |
 |---|---|---|
-| 1. İstasyon | Merkez Kanada, Doğu Kanada, Merkez Fransa, Merkez Hindistan, Doğu Norveç, Batı İsviçre | 1 Aralık ile 4 Aralık 2022 tarihleri arasında |
-| 2. İstasyon | Güney Fransa, Güney Hindistan, Batı Norveç, Kuzey İsviçre, Kuzey Güney Afrika, Doğu Avustralya, Güney Birleşik Krallık, Kuzey BAE, Doğu Japonya, Güneydoğu Avustralya, Güney Doğu Asya | 2 Aralık ile 5 Aralık 2022 tarihleri arasında |
-| 3. İstasyon | Doğu Asya, Batı Birleşik Krallık, Batı Japonya, Güney Brezilya, Kuzey Avrupa, Doğu ABD, Merkez BAE | 3 Aralık ile 6 Aralık 2022 tarihleri arasında |
-| 4. İstasyon | Batı Avrupa, Orta ABD, Batı ABD | 4 Aralık ile 7 Aralık 2022 tarihleri arasında |
-| 5. İstasyon | DoD, Hükümet Topluluk Bulutu, Çin | Planlanmadı |
+| 10.0.30 Sürüm 2 | 16 Aralık 2022 | 2 Ocak'tan 29 Ocak 2023'e |
+| 10.0.30 Sürüm 3 | 13 Ocak 2023 | 30 Ocak'tan 25 Ocak 2023'e |
+| 10.0.30 Sürüm 4 | 24 Şubat 2023 | 6 Mart'tan 8 Nisan 2023'e |
+| 10.0.31 Sürüm 1 | 3 Şubat 2023 | 13 Şubat 2023'ten 18 Mart 2023'e|
+| 10.0.31 Sürüm 2 | 3 Mart 2023 | 13 Mart 2023'ten 15 Nisan 2023'e|
+| 10.0.31 Sürüm 3 | 14 Nisan 2023 | 24 Nisan 2023'ten 27 Mayıs 2023'e|
+| 10.0.32 Sürüm 1 | 31 Mart 2023 | 10 Nisan 2023'ten 13 Mayıs 2023'e|
+| 10.0.32 Sürüm 2 | 28 Nisan 2023 | 8 Mayıs 2023'ten 10 Haziran 2023'e|
+| 10.0.32 Sürüm 3 | 26 Mayıs 2023 | 5 Haziran 2023'ten 8 Temmuz 2023'e|
+| 10.0.33 Sürüm 1 | 28 Nisan 2023 | 8 Mayıs 2023'ten 10 Haziran 2023'e|
+| 10.0.33 Sürüm 2 | 26 Mayıs 2023 | 5 Haziran 2023'ten 8 Temmuz 2023'e|
+| 10.0.33 Sürüm 3 | 14 Temmuz 2023 | 24 Temmuz 2023'ten 26 Ağustos 2023'e|
+| 10.0.34 Sürüm 1 | 23 Haziran 2023 | 3 Temmuz 2023'ten 5 Ağustos 2023'e|
+| 10.0.34 Sürüm 2 | 21 Temmuz 2023 | 31 Temmuz 2023'ten 2 Eylül 2023'e|
+| 10.0.34 Sürüm 3 | 1 Eylül 2023 | 11 Eylül 2023'ten 14 Ekim 2023'e|
+| 10.0.35 Sürüm 1 | 28 Temmuz 2023 | 7 Ağustos 2023'ten 9 Eylül 2023'e|
+| 10.0.35 Sürüm 2 | 25 Ağustos 2023 | 4 Eylül 2023'ten 7 Ekim 2023'e|
+| 10.0.35 Sürüm 3 | 20 Ekim 2023 | 30 Ekim 2023'ten 16 Aralık 2023'e|
+| 10.0.36 Sürüm 1 | 29 Eylül 2023 | 9 Ekim 2023'ten 11 Kasım 2023'e|
+| 10.0.36 Sürüm 2 | 27 Ekim 2023 | 6 Kasım 2023'ten 16 Aralık 2023'e|
+| 10.0.36 Sürüm 3 | 12 Ocak 2024 | 22 Ocak 2023'ten 24 Şubat 2024'e|
+| 10.0.37 Sürüm 1 | 3 Kasım 2023 | 13 Kasım 2023'ten 6 Ocak 2024'e|
+| 10.0.37 Sürüm 2 | 30 Aralık 2023 | 8 Ocak 2024'ten 10 Şubat 2024'e|
+| 10.0.37 Sürüm 3 | 27 Ocak 2024 | 5 Şubat 2024'ten 9 Mart 2024'e|
+| 10.0.37 Sürüm 4 | 23 Şubat 2024 | 4 Mart 2024'ten 6 Nisan 2024'e|
+
+### <a name="proactive-quality-update-upcoming-10030-release-2-train-schedule"></a><a name="schedule"></a> Yaklaşan kalite güncelleştirmesi 10.0.30 Sürüm 2 tren zamanlaması
+**Uygulama sürümü: 10.0.1362.99**
+
+| İstasyonlar | Yaklaşan Korumalı Alan Zamanlaması | Gelen üretim zamanlaması |
+|---|---|---|
+| 1. İstasyon | NA | NA |
+| 2. İstasyon | 2 Ocak'tan 5 Ocak 2023'e | 21 Ocak'tan 22 Ocak 2023'e |
+| 3. İstasyon | 3 Ocak'tan 6 Ocak 2023'e | 28 Ocak'tan 29 Ocak 2023'e |
+| 4. İstasyon | 9 Ocak'tan 12 Ocak 2023'e | NA |
+| 5. İstasyon | 16 Ocak'tan 19 Ocak 2023'e | NA |
+| 6. İstasyon | NA | NA |
 
 > [!IMPORTANT] 
 > Microsoft, beş gün öncesinde önceki zamanlamayı güncelleştirecek ve kalite güncelleştirmelerini almak üzere zamanlanan ortamlara bir bildirim gönderecektir. Önceki zamanlama, yalnızca yaklaşan güncelleştirmeyle ilgili bildirim almış ortamlar için geçerlidir. Her bölgenin aktif olunmayan saatleri hakkında bilgi için bkz. [Bölgeye göre planlanmış bakım süreleri nelerdir?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).

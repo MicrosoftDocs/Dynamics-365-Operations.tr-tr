@@ -2,7 +2,7 @@
 title: Dataverse tabloları
 description: Microsoft Dynamics 365 Human Resources, Dataverse genişletilebilirlik ve tümleştirme senaryolarını etkinleştirmek için kullanılır.
 author: twheeloc
-ms.date: 01/25/2021
+ms.date: 12/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 702a4063e45dfc64f1edb4351f9bf80491338502
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 51be30f10c8e5f5e962f54f720f66c712a785835
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692268"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838595"
 ---
 # <a name="dataverse-tables"></a>Dataverse tabloları
 
@@ -35,105 +35,110 @@ Microsoft Dynamics 365 Human Resources, Dataverse genişletilebilirlik ve tümle
 
 Aşağıdaki Dataverse tabloları Human Resources varlıklarına göre kullanılabilir.
 
+Bilinen sorunlar hakkında daha fazla bilgi için bkz. [Lifecycle Services (LCS) içinde konu arama](/dev-itpro/lifecycle-services/issue-search-lcs).
+
 ## <a name="benefit-tables"></a>Fayda tabloları
 
-| Kuruluş adı | Tablo |
-| --- | --- |
-| Kazanç Hesaplama Sıklığı | cdm_benefitcalculationfrequency |
-| Kazanç Hesaplama sıklığı ödeme dönemi | cdm_benefitcalculationfrequencypayperiod |
-| Kazanç hesaplama oranı | cdm_benefitcalculationrate |
-| Kazanç hesaplama oranı ayrıntısı | cdm_benefitcalculationratedetail |
-| Kazanç seçeneği | cdm_benefitoption |
-| Kazanç planı | cdm_benefitplan (özel alan desteği için etkinleştirilmedi) |
-| Kazanç Türü | cdm_benefittype |
+| Adı | Tablo | Bilinen sorunlar  | Çalıştırma Durumu |
+| --- | --- |    --------|----------  |
+| Kazanç Hesaplama Sıklığı | cdm_benefitcalculationfrequency |     |     |
+| Kazanç Hesaplama sıklığı ödeme dönemi | cdm_benefitcalculationfrequencypayperiod |     |     |
+| Kazanç hesaplama oranı | cdm_benefitcalculationrate |    |     |
+| Kazanç hesaplama oranı ayrıntısı | cdm_benefitcalculationratedetail |753225 | Çözümlendi  |
+| Kazanç seçeneği | cdm_benefitoption |    |     |
+| Kazanç planı | cdm_benefitplan (özel alan desteği için etkinleştirilmedi) |    |     |
+| Kazanç Türü | cdm_benefittype |    |     |
 
 ## <a name="business-process-tasks-tables"></a>İş süreci görevleri tabloları
 
-| Kuruluş adı | Tablo |
-| --- | --- |
-| İş Süreci Takvimi | cdm_businessprocesscalendar |
-| İş Süreci Grup Ataması | cdm_businessprocessgroupassignment |
-| İş Süreci Kitaplığı Görev Grubu | cdm_businessprocesslibrarytaskgroup |
-| İş Süreci Aşaması | cdm_businessprocessstage |
-| Denetim Listesi Şablonu Başlığı | cdm_businessprocesstemplateheader |
-| Denetim Listesi Şablonu Görevi | cdm_businessprocesstemplatetask |
+| Adı | Tablo |Bilinen sorunlar  | Çalıştırma Durumu |
+| --- | --- |   --------|----------   |
+| İş Süreci Takvimi | cdm_businessprocesscalendar | 751867 | Çözümlendi |
+| İş Süreci Grup Ataması | cdm_businessprocessgroupassignment | 751869  751863 | Active|
+| İş Süreci Kitaplığı Görev Grubu | cdm_businessprocesslibrarytaskgroup |751866 | Kapatıldı |
+| İş Süreci Aşaması | cdm_businessprocessstage |      |     |
+| Denetim Listesi Şablonu Başlığı | cdm_businessprocesstemplateheader |     |     |
+| Denetim Listesi Şablonu Görevi | cdm_businessprocesstemplatetask |      |     |
 
 ## <a name="compensation-tables"></a>Ücret tabloları
 
-| Kuruluş adı | Tablo |
-| --- | --- |
-| Ücret Sabit Planı | cdm_compensationfixedplan |
-| Ücret Izgarası | cdm_compensationgrid |
-| Ücret Düzeyi | cdm_compensationlevel |
-| Maaş ödeme sıklığı | cdm_compensationpayfrequency |
-| Ücret referans noktası ayarı | cdm_compensationreferencepointsetup |
-| Ücret referans noktalarını ayar çizgisi | cdm_compensationreferencepointsetupline |
-| Ücret Bölgesi | cdm_compensationregion |
-| Maaş yapısı | cdm_compensationstructure |
-| Değişken Ücret Planı | cdm_compensationvariableplan |
-| Değişken Ücret Planı Düzeyi | cdm_compensationvariableplanlevel |
-| Değişken Ücret Planı Türü | cdm_compensationvariableplantype |
-| Sabit Ücret Etkinliği | cdm_fixedcompensationevent |
-| Hakediş Ödeme Kuralı | cdm_vestingrule |
-| Çalışan Sabit Ücreti | cdm_workerfixedcompensation |
+| Adı | Tablo |Bilinen sorunlar  | Çalıştırma Durumu |
+| --- | --- | ----------      | -------    |
+| Ücret Sabit Planı | cdm_compensationfixedplan |754453 | Kapatıldı |
+| Ücret Izgarası | cdm_compensationgrid |             |     |
+| Ücret Düzeyi | cdm_compensationlevel |           |     |
+| Maaş ödeme sıklığı | cdm_compensationpayfrequency |                  |     |
+| Ücret referans noktası ayarı | cdm_compensationreferencepointsetup |               |     |
+| Ücret referans noktalarını ayar çizgisi | cdm_compensationreferencepointsetupline |             |     |
+| Ücret Bölgesi | cdm_compensationregion |                   |     |
+| Maaş yapısı | cdm_compensationstructure |    754456        | Kapatıldı    |
+| Değişken Ücret Planı | cdm_compensationvariableplan |               |     |
+| Değişken Ücret Planı Düzeyi | cdm_compensationvariableplanlevel |                |     |
+| Değişken Ücret Planı Türü | cdm_compensationvariableplantype |               |     |
+| Sabit Ücret Etkinliği | cdm_fixedcompensationevent |               |     |
+| Hakediş Ödeme Kuralı | cdm_vestingrule |              |     |
+| Çalışan Sabit Ücreti | cdm_workerfixedcompensation |              |     |
 
 ## <a name="organization-tables"></a>Kuruluş tabloları
 
-| Kuruluş adı | Tablo |
-| --- | --- |
-| Departman | cdm_department |
-| İstihdam | cdm_employment |
-| Şirket | cdm_company |
-| Görev | cdm_job |
-| İş İşlevi | cdm_jobfunction |
-| İş Pozisyonu | cdm_jobposition |
-| Pozisyon türü | cdm_positiontype |
-| Pozisyon Çalışan Ataması | cdm_positionworkerassignmentmap |
-| İş Pozisyonu Boyutu | cdm_jobpositiondimension|
-| İş Türü | cdm_jobtype |
-| Dil | cdm_language |
-| Ünvan | cdm_title |
+| Adı | Tablo |Bilinen sorunlar  | Çalıştırma Durumu |
+| --- | --- | ----------      | -------    |
+| Departman | cdm_department |  752194    | Kapatıldı    |
+| İstihdam | cdm_employment | 762414  |  Kapatıldı  |
+| Şirket | cdm_company |  |     |
+| Görev | cdm_job |  |     |
+| İş İşlevi | cdm_jobfunction |        |     |
+| İş Pozisyonu | cdm_jobposition | 752214      | Kapatıldı    |
+| Pozisyon türü | cdm_positiontype |            |     |
+| Pozisyon Çalışan Ataması | cdm_positionworkerassignmentmap | 752224    |  Kapatıldı   |
+| İş Pozisyonu Boyutu | cdm_jobpositiondimension|       |     |
+| İş Türü | cdm_jobtype |      |     |
+| Dil | cdm_language |        |     |
+| Ünvan | cdm_title |       |     |
 
 > [!NOTE]
 > **Pozisyon türü**, **çalışan ataması pozisyon** ve **istihdam** için mali boyutlar Dataverse'e tek-yön tümleştirmesi sağlar. Mali boyut güncelleştirmeleri şu an için Dataverse'tan Human Resources ile eşitlenmez. 
 
 ## <a name="leave-and-absence-tables"></a>İzin ve devamsızlık tabloları
 
-| Kuruluş adı | Tablo |
-| --- | --- |
-| İzin Bankası Hareketi | cdm_leavebanktransaction |
-| İzin Kaydı | cdm_leaveenrollment |
-| İzin Planı | cdm_leaveplan |
-| İzin İsteği | cdm_leaverequest |
-| Ayrılma talebi ayrıntıları | cdm_leaverequestdetail |
-| İzin Türü | cdm_leavetype |
-| İzin Türü Neden Kodu | cdm_leavetypereasoncode |
+| Adı | Tablo | Bilinen sorunlar  | Çalıştırma Durumu |
+| --- | --- |   ----------      | -------    |
+| İzin Bankası Hareketi | cdm_leavebanktransaction |  752252    |    Çözümlendi |
+| İzin Kaydı | cdm_leaveenrollment |  752934    |Kapatıldı     |
+| İzin Planı | cdm_leaveplan |   752232   |   Kapatıldı  |
+| İzin İsteği | cdm_leaverequest | 753207     | Kapatıldı    |
+| Ayrılma talebi ayrıntıları | cdm_leaverequestdetail | 753207     |   Kapatıldı  |
+| İzin Türü | cdm_leavetype |      |     |
+| İzin Türü Neden Kodu | cdm_leavetypereasoncode |         |     |
+
+>[!NOTE]
+>İzin ve yokluk için Dataverse tabloları kullanarak çift yazma entegrasyonu yalnızca Microsoft Dynamics 365 Finance içinde **Özellik yönetimi** kullanılarak **Tek bir izin planı için birden fazla izin türü planla** özelliği etkinleştirildiğinde kullanılabilir. 
 
 ## <a name="payroll-tables"></a>Bordro tabloları
 
-| Kuruluş adı | Tablo |
-| --- | --- |
-| Ödeme Döngüsü | cdm_paycycle |
-| Ödeme Dönemi | cdm_payperiod |
-| Bordro Kazanç Kodu | cdm_payrollearningcode |
-| Banka hesabı ödemeleri | cdm_bankaccountdisbursement |
-| Vergi Bölgesi | cdm_taxregion |
+| Adı | Tablo |Bilinen sorunlar  | Çalıştırma Durumu |
+| --- | --- |  ----------      | -------    |
+| Ödeme Döngüsü | cdm_paycycle |    |     |
+| Ödeme Dönemi | cdm_payperiod |          |     |
+| Bordro Kazanç Kodu | cdm_payrollearningcode |   754458        |   Kapatıldı  |
+| Banka hesabı ödemeleri | cdm_bankaccountdisbursement |    751904     |   Kapatıldı  |
+| Vergi Bölgesi | cdm_taxregion |          |     |
 
 ## <a name="worker-tables"></a>Çalışan tabloları
 
-| Kuruluş adı | Tablo |
-| --- | --- |
-| Çalışan | cdm_worker |
-| Çalışan Adresi | cdm_workeraddress |
-| Çalışan Kişisel Bilgisi | cdm_workerpersonaldetail |
-| Çalışan Kişi Tanımlama Numarası | cdm_workerpersonidentificationnumber |
-| Çalışan Kişi Tanımlama Türü | cdm_workerpersonidentificationtype |
-| İş Takvimi | cdm_workcalendar |
-| İş Takvimi Gün | cdm_workcalendarday |
-| İş Takvimi Tatili |cdm_workcalendarholiday |
-| Çalışma takvimi tatil satırı | cdm_workcalendarholidayline |
-| Çalışma Takvimi Zaman Aralığı | cdm_workcalendartimeinterval (özel alan desteği için etkinleştirilmedi) |
-| Çalışan Banka Hesabı | cdm_workerbankaccount |
+| Adı | Tablo |Bilinen sorunlar  | Çalıştırma Durumu |
+| --- | --- |----------      | -------    |
+| Çalışan | cdm_worker |    751906    |    Kapatıldı |
+| Çalışan Adresi | cdm_workeraddress |   754465     |Kapatıldı     |
+| Çalışan Kişisel Bilgisi | cdm_workerpersonaldetail |   751906     |   Kapatıldı  |
+| Çalışan Kişi Tanımlama Numarası | cdm_workerpersonidentificationnumber |  766704      |   Kapatıldı  |
+| Çalışan Kişi Tanımlama Türü | cdm_workerpersonidentificationtype |        |     |
+| İş Takvimi | cdm_workcalendar |        |     |
+| İş Takvimi Gün | cdm_workcalendarday |        |     |
+| İş Takvimi Tatili |cdm_workcalendarholiday |        |     |
+| Çalışma takvimi tatil satırı | cdm_workcalendarholidayline |        |     |
+| Çalışma Takvimi Zaman Aralığı | cdm_workcalendartimeinterval (özel alan desteği için etkinleştirilmedi) |        |     |
+| Çalışan Banka Hesabı | cdm_workerbankaccount |        |     |
 
 ## <a name="worker-setup-tables"></a>Çalışan kurulum tabloları
 

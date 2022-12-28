@@ -2,7 +2,7 @@
 title: Kişi filtreleme
 description: Bu makalede, Dynamics 365 Human Resources için Kişi filtreleme varlığı açıklanmaktadır.
 author: jaredha
-ms.date: 02/05/2021
+ms.date: 12/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e9b2bbda8f8191f592462f4fbd1902e7274cf7f8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3c316e0381f4d407ed7c4c39b5949717b71477bd
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907654"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831904"
 ---
 # <a name="person-screening"></a>Kişi filtreleme
 
@@ -44,6 +44,7 @@ Bu varlık, bir adayın geçtiği veya işe alım için geçmesi gereken filtrel
     "mshr_status": Int,
     "mshr_partynumber": "String",
     "mshr_screeningtypeid": "String",
+    "_mshr_fk_screeningtype_id_value": "Guid",
     "mshr_primaryfield": "String",
     "_mshr_fk_person_id_value": "Guid",
     "mshr_hcmpersonscreeningentityid": "Guid",
@@ -53,17 +54,19 @@ Bu varlık, bir adayın geçtiği veya işe alım için geçmesi gereken filtrel
 
 ## <a name="properties"></a>Özellikler
 
-| Özellik<br>**Fiziksel ad**<br>**_Türü_** | Kullan | Tanım |
+| Özellik<br>**Fiziksel ad**<br>**_Tür_** | Kullan | Açıklama |
 | --- | --- | --- |
-| **Kişi Filtreleme Varlığı Kimliği**<br>mshr_hcmpersonscreeningentityid<br>*GUID* | Salt okunur<br>Gerekli<br>Sistem tarafından oluşturulan | Kişi filtreleme kaydı için benzersiz birincil tanımlayıcı. |
+| **Notlar**<br>mshr_note<br>*Dize* | Okuma/yazma<br>İsteğe bağlı | Yöneticileri ve işe alanları işe alımda kullanılacak notlar. |
+| **Gerekli**<br>mshr_requiredby<br>*Tarih saat* | Okuma/yazma<br>İsteğe bağlı | Filtrelemenin tamamlanması gereken tarih. |
+| **Durum**<br>mshr_status<br>*mshr_hcmcompletionstatus seçenek kümesi*|Okuma/yazma<br>Gerekli | Filtreleme için adayın durumunu sağlar. |
 | **Taraf Numarası**<br>mshr_partynumber<br>*Dize* | Okuma/yazma<br>Gerekli | Adayla ilişkili taraf (kişi) numarası. |
-| **Kişi Kimliği Değeri**<br>_mshr_fk_person_id_value<br>*GUID* | Salt okunur<br>Gerekli<br>Yabancı anahtar: mshr_dirpersonentity içindeki mshr_dirpersonentityid | Taraf (kişi) varlık kaydının sistem tarafından oluşturulan tanımlayıcısı. |
 | **Filtreleme Türü Kimliği**<br>mshr_screeningtypeid<br>*Dize* | Okuma/yazma<br>Gerekli<br>Yabancı anahtar: Filtreleme Türü | Human Resources'da tanımlanan filtreleme türünün tanımlayıcısı. |
 | **Filtreleme Türü Kimlik Değeri**<br>_mshr_fk_screeningtype_id_value<br>*GUID* | Salt okunur<br>Gerekli<br>Yabancı anahtar: mshr_hcmscreeningtypeentity içindeki mshr_hcmscreeningtypeentityid | İlişkili varlıktaki filtreleme türü kaydı için sistem tarafından oluşturulan tanımlayıcı. |
-| **Gerekli**<br>mshr_requiredby<br>*Tarih saat* | Okuma/yazma<br>İsteğe bağlı | Filtrelemenin tamamlanması gereken tarih. |
-| **Durum**<br>mshr_status<br>*mshr_hcmcompletionstatus seçenek kümesi*<br>Okuma/yazma<br>Gerekli | Filtreleme için adayın durumunu sağlar. |
+| **Birincil Alan**<br>mshr_primaryfield<br>*Dize* |  Salt Okunur<br>Gerekli | Varlık kaydının tanımlayıcısı olarak kullanılacak alan. |
+| **Kişi Kimliği Değeri**<br>_mshr_fk_person_id_value<br>*GUID* | Salt Okunur<br>Gerekli<br>Yabancı anahtar: mshr_dirpersonentity içindeki mshr_dirpersonentityid | Taraf (kişi) varlık kaydının sistem tarafından oluşturulan tanımlayıcısı. |
+| **Kişi Filtreleme Varlığı Kimliği**<br>mshr_hcmpersonscreeningentityid<br>*GUID* | Salt okunur<br>Gerekli<br>Sistem tarafından oluşturulan| Kişi filtreleme kaydı için benzersiz birincil tanımlayıcı. |
 | **Tamamlanma Tarihi**<br>mshr_completeddate<br>*Tarih saat* | Okuma/yazma<br>İsteğe bağlı | Filtrelemenin tamamlandığı tarih. |
-| **Notlar**<br>mshr_note<br>*Dize* | Okuma/yazma<br>İsteğe bağlı | Yöneticileri ve işe alanları işe alımda kullanılacak notlar. |
+
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

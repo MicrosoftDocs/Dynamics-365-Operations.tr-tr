@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 21abbffe6b16217a0d2e20f662faa080420da12e
-ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.openlocfilehash: 61d3ebc85d3c3d20bb17acd7364adc04cd2f3f94
+ms.sourcegitcommit: e9000d0716f7fa45175b03477c533a9df2bfe96d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9764252"
+ms.lasthandoff: 12/13/2022
+ms.locfileid: "9843693"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasındaki yenilikler veya değişiklikler
 
 [!include [banner](../includes/banner.md)]
 
 Bu makale, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni özellikleri, iyileştirmeleri ve bilinen sorunları listeler.
+
+## <a name="version-20390"></a>Sürüm 2.0.39.0
+
+Bu sürüm aşağıdaki yeni özellikleri, düzeltmeleri ve iyileştirmeleri içerir.
+- Kararlılık iyileştirildi. 
+- **Özel** sayfanın alanları Öncelik ve alt öncelik ayarlarına göre artık otomatik olarak sıralanmıyor.  
+- Uygulama şimdi, her bir alana ilişkin öncelik ve alt öncelik ayarlarını kullanarak bir sayfanın birincil alanını tanımlar. Birincil alan adım başlığında gösterilir. 
+- Android'de yazılım klavyesinin gizlenmediği bir sorun düzeltildi.
+- *Taşıma* akışında açılış sırasında yanlış bir doğru değer gösterildiği için miktar değiştiricisinin hatalı olduğu bir sorun düzeltildi. 
+- Salt okunur miktar değer değiştirici değerinin doğru ortalanmadığı bir sorun düzeltildi. 
+- **Hakkında** sayfasının, web sayfalarından açılmadığı bir sorun düzeltildi. 
+- *Otomatik* renk teması, şimdi, mobil cihazın işletim sistemindeki Global Tema kümesine göre varsayılan görünümünü (açık veya koyu) alır.
 
 ## <a name="version-20370"></a>Sürüm 2.0.37.0
 

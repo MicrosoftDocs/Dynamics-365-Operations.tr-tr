@@ -2,19 +2,19 @@
 title: Commerce kanalları için mali tümleştirmeye genel bakış
 description: Bu makale, Dynamics 365 Commerce içinde kullanılabilen mali tümleştirme yeterliliklerine genel bakış sağlar.
 author: EvgenyPopovMBS
-ms.date: 10/04/2022
+ms.date: 12/06/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1812405db3c1e58eaf7cd1df3896f786e7bf026f
-ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
+ms.openlocfilehash: 3f1b555a016a56cc41ab397e3708f20482f25f09
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "9631276"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831872"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Commerce kanalları için mali tümleştirmeye genel bakış
 
@@ -172,19 +172,17 @@ Aşağıdaki mali tümleştirme örnekleri Commerce SDK'si içerisinde şu anda 
 - [İsveç için kontrol birimi tümleştirmesi örneği](./emea-swe-fi-sample.md)
 - [Almanya için mali kayıt hizmeti tümleştirme örneği](./emea-deu-fi-sample.md)
 - [Rusya için yazar kasa tümleştirme örneği](./rus-fpi-sample.md)
+- [Norveç için dijital imza örneği](./emea-nor-cash-registers.md)
 
 Aşağıdaki mali tümleştirme işlevi, mali tümleştirme çerçevesi kullanılarak da uygulanır ancak kullanıma hazır olarak sunulur ve Commerce SDK'sine dahil değildir:
 
 - [Brezilya için mali kayıt](./latam-bra-commerce-localization.md#fiscal-registration-for-brazil)
 - [Fransa için dijital imza](./emea-fra-cash-registers.md)
 
-Aşağıdaki mali tümleştirme işlevi de ayrıca Commerce SDK'si içinde kullanılabilir ancak mali tümleştirme çerçevesinin avantajlarından faydalanmaz. Bu işlevin mali tümleştirme çerçevesine geçirilmesi daha sonraki güncelleştirmeler için planlanmıştır.
-
-- [Norveç için dijital imza](./emea-nor-cash-registers.md)
-
 Commerce SDK'sinde kullanılabilen aşağıdaki eski mali tümleştirme işlevi mali tümleştirme çerçevesini kullanmaz ve sonraki güncelleştirmelerde kullanım dışı bırakılacaktır:
 
 - [İsveç için kontrol birimi tümleştirmesi örneği (eski)](./retail-sdk-control-unit-sample.md)
 - [Fransa için dijital imza (eski)](./emea-fra-deployment.md)
+- [Norveç için dijital imza (eski)](./emea-nor-loc-deployment-guidelines.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

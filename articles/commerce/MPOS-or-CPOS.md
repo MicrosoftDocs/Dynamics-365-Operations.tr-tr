@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: bbb5f3d4c61907243bed404f3ab7bea05c78b1c0
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0e1092c0c5c49c6a99dd441c75f545fc831c0b03
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276467"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831570"
 ---
 # <a name="choose-between-store-commerce-and-cloud-pos"></a>Store Commerce ve Cloud POS arasında seçim yapma
 
@@ -71,7 +71,7 @@ Platform ve form faktörünün yanı sıra, perakendecilerin mağazada bir dağ�
 |----------------------------|---------------------|-------------------|-------------------|
 | Windows için Store Commerce | Bulut veya RSSU       | Evet               | Evet               |
 | Android için Store Commerce | Bulut veya RSSU       | No.                | Evet               |
-| iOS için Store Commerce     | Bulut veya RSSU       | No.                | No.                |
+| iOS için Store Commerce     | Bulut veya RSSU       | No.                | Evet               |
 | Cloud POS                  | Bulut veya RSSU       | No.                | No.                |
 
 #### <a name="commerce-scale-unit"></a>Commerce Scale Unit
@@ -90,7 +90,7 @@ Perakendecilerin POS'un yazıcılar, kasa çekmeceleri ve ödeme terminalleri gi
 |----------------------------|----------------|---------------------|--------------------|
 | Windows için Store Commerce | Evet            | Evet                 | Evet                |
 | Android için Store Commerce | No.             | Evet                 | Evet                |
-| iOS için Store Commerce     | No.             | No.                  | Evet                |
+| iOS için Store Commerce     | No.             | Evet                 | Evet                |
 | Cloud POS                  | No.             | No.                  | Evet                |
 
 Donanım istasyonları hakkında daha fazla bilgi için bkz. [Retail donanım istasyonu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md).

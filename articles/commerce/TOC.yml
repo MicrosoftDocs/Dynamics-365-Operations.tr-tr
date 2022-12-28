@@ -1418,10 +1418,12 @@
               href: assess-customer-product-profitability.md
             - name: Mağaza performansını analiz etme
               href: store-performance-information.md
-            - name: 'Yenilik, Sıklık ve Parasal (RFM) analiz ayarlama'
+            - name: 'Yenilik, Sıklık ve Parasal (RFM) analizini ayarlama'
               href: set-up-rfm-analysis.md
             - name: Dynamics 365 Commerce'te Microsoft Clarity'yi ayarlama
               href: set-up-clarity.md
+            - name: Operasyonel İçgörüler'i ayarlama
+              href: dev-itpro/operational-insights.md
         - name: Globalization Studio
           items:
             - name: Globalization Studio'ya genel bakış
@@ -3056,6 +3058,12 @@
               items:
                 - name: Katman 1 Retail Server VM'de hata ayıklama için e-ticaret geliştirme ortamı ayarlama
                   href: troubleshoot/set-up-dev-environment-debugging.md
+            - name: Mağaza mali öğeleri
+              items:
+                - name: Z raporunun veri mutabakatıyla ilgili sorunlar
+                  href: troubleshoot/z-report-issues.md
+                - name: Kullanılabilir stok olmaması veya güncelleştirme çakışmaları nedeniyle ekstre deftere nakil hataları
+                  href: troubleshoot/inventory-errors-posting.md
     - name: Finans ve operasyon uygulamalarını geliştirme ve yönetme
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance

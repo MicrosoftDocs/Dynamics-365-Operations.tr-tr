@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 915382c14cc9ba89b9d543cfd668a94cecbc0a55
-ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.openlocfilehash: 2a368535c9644e174d1a2460ac0891c9dc1b1b3f
+ms.sourcegitcommit: 44f0b4ef8d74c86b5c5040be37981e32eb43e1a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9765718"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "9850036"
 ---
 # <a name="configure-inventory-visibility"></a>Inventory Visibility'yi yapılandırma
 
@@ -32,9 +32,10 @@ Stok Görünürlüğü ile çalışmaya başlamadan önce, bu makalede açıklan
 - [Bölüm yapılandırma](#partition-configuration)
 - [Ürün dizini hiyerarşisi yapılandırma](#index-configuration)
 - [Rezervasyon yapılandırma (isteğe bağlı)](#reservation-configuration)
+- [Sorgu ön yükleme yapılandırması (isteğe bağlı)](#query-preload-configuration)
 - [Varsayılan yapılandırma örneği](#default-configuration-sample)
 
-## <a name="prerequisites"></a>Önkoşullar
+## <a name="prerequisites"></a>Ön Koşullar
 
 Başlamadan önce, Stok Görünürlüğü Eklentisini [Stok Görünürlüğü'nü yükleme ve ayarlama](inventory-visibility-setup.md) bölümünde açıklandığı gibi yükleyin ve ayarlayın.
 
@@ -52,10 +53,13 @@ Stok Görünürlüğü Eklentisi, Power Apps kurulumunuza birkaç yeni özellik 
 |---|---|
 | *OnHandReservation* | Bu özellik, Stok Görünürlüğü'nü kullanarak rezervasyon oluşturmanızı, rezervasyonları tüketmenizi ve/veya belirtilen stok miktarlarının rezervasyonunu kaldırmanızı sağlar. Daha fazla bilgi için bkz. [Stok Görünürlüğü rezervasyonları](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Bu özellik, tüm boyutlarla birlikte ürünler için bir stok özeti sağlar. Stok özeti verileri, Stok Görünürlüğü'nden periyodik olarak eşitlenir. Varsayılan eşitleme sıklığı 15 dakikada birdir ve en çok 5 dakikada bir olarak ayarlanabilir. Daha fazla bilgi için bkz. [Stok özeti](inventory-visibility-power-platform.md#inventory-summary). |
-| *onHandIndexQueryPreloadBackgroundService* | Bu özellik, önceden seçilen boyutlarla eldeki listeleri birleştirmek için Stok Görünürlüğü eldeki sorgulara önceden yüklemeye olanak sağlar. Varsayılan eşitleme sıklığı her 15 dakikada bir yapılır. Daha fazla bilgi için bkz. [Kolaylaştırılmış eldeki stok sorgusunu önceden yükleme](inventory-visibility-power-platform.md#preload-streamlined-onhand-query). |
+| *OnHandIndexQueryPreloadBackgroundService* | Bu özellik periyodik olarak önceden yapılandırılmış boyutlarınıza dayalı bir dizi eldeki stok özet verileri getirir ve depolar. Yalnızca, günlük işinize uygun olan ve ambar yönetimi işlemleri (WMS) için etkinleştirilen maddelerle uyumlu olan boyutları içeren bir stok özeti sağlar. Daha fazla bilgi için bkz. [Ön yüklemeli eldeki sorguları açma ve yapılandırma](#query-preload-configuration) ve [Kolaylaştırılmış eldeki sorguyu önden yükleme](inventory-visibility-power-platform.md#preload-streamlined-onhand-query). |
 | *OnhandChangeSchedule* | Bu isteğe bağlı özellik, eldeki değişiklik zamanlamasını etkinleştirir ve karşılanabilir miktar (KM) özelliklerini sunar. Daha fazla bilgi için bkz. [Stok Görünürlüğü eldeki değişiklik zamanlaması ve karşılanabilir miktarı](inventory-visibility-available-to-promise.md). |
 | *Tahsisat* | Bu isteğe bağlı özellik Stok Görünürlüğünün stok koruması (sınırlama) ve fazla satış yapma denetimi yeteneğine sahip olmasını sağlar. Daha fazla bilgi için bkz. [Stok Görünürlüğü stok tahsisatı](inventory-visibility-allocation.md). |
 | *Stok Görünürlüğünde ambar maddelerini etkinleştir* | Bu isteğe bağlı özellik, Stok Görünürlüğü'nün ambar yönetim süreçleri (WMS) için etkinleştirilen öğeleri desteklemesini sağlar. Daha fazla bilgi için bkz. [WMS öğeleri için Stok Görünürlüğü desteği](inventory-visibility-whs-support.md). |
+
+> [!IMPORTANT]
+> *OnHandIndexQueryPreloadBackgroundService* özelliğini veya *OnHandMostSpecificBackgroundService* özelliğini kullanın, her ikisini değil. Her iki özelliğin de etkinleştirilmesi performansı etkiler.
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Hizmet uç noktasını bulma
 
@@ -178,6 +182,15 @@ Veri kaynağınız, Supply Chain Management ise varsayılan fiziksel ölçüleri
 1. Power Apps ortamınızda oturum açın ve **Stok Görünürlüğü**'nü açın.
 1. **Yapılandırma** sayfasını açın.
 1. **Veri kaynağı** sekmesinde, fiziksel ölçüleri eklemek için veri kaynağını seçin (örneğin, `ecommerce` veri kaynağı). Sonra, **Fiziksel Ölçüler** bölümünde **Ekle**'yi seçin ve ölçü adını belirtin (örneğin, bu veri kaynağında iade edilen miktarları Stok Görünürlüğü'ne kaydetmek istiyorsanız `Returned`). Değişikliklerinizi kaydedin.
+
+### <a name="extended-dimensions"></a>Genişletilen boyutlar
+
+Veri kaynağına harici veri kaynakları eklemek isteyen müşteriler, `InventOnHandChangeEventDimensionSet` ve `InventInventoryDataServiceBatchJobTask` sınıfları için [Sınıf UZantıları](../../fin-ops-core/dev-itpro/extensibility/class-extensions.md) oluşturarak Dynamics 365'in sunduğu genişletilebilirlikten faydalanabilirler.
+
+`InventSum` tablosuna özel alanların eklenebilmesi için, uzantıları oluşturduktan sonra veritabanı ile eşitlemeyi unutmayın. Özel boyutlarınızı `BaseDimensions` içinde stokta bulunan sekiz genişletilmiş boyuttan herhangi biriyle eşleştirmek için, bu makalenin boyutlar bölümüne başvurabilirsiniz.
+
+> [!NOTE] 
+> Uzantı oluşturmayla ilgili ek bilgi için bkz [Uzantı oluşturma ana sayfa](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md).
 
 ### <a name="calculated-measures"></a>Hesaplanan ölçüler
 
@@ -496,6 +509,30 @@ Geçerli bir boyut serisi, boyuta göre boyut rezervasyon hiyerarşisini kesinli
 ## <a name="available-to-promise-configuration-optional"></a>Karşılanabilir miktar yapılandırması (isteğe bağlı)
 
 Gelecekteki eldeki değişiklikleri zamanlamanıza ve karşılanabilir (KM) miktarları hesaplamanıza olanak tanıyan Stok Görünürlüğü'nü ayarlayabilirsiniz. KM, mevcut bulunan ve sonraki dönemde müşteriye vaat edilebilecek bir maddenin miktarıdır. Bu hesaplamanın kullanımı, sipariş karşılama yeteneğinizi büyük ölçüde artırabilir. Bu özelliği kullanmak için **Özellik Yönetimi** sekmesinde etkinleştirmeniz ve ardından **KM Ayarı** sekmesinde ayarlamanız gerekir. Daha fazla bilgi için bkz. [Stok Görünürlüğü eldeki değişiklik zamanlamaları ve karşılanabilir miktarı](inventory-visibility-available-to-promise.md).
+
+## <a name="turn-on-and-configure-preloaded-on-hand-queries-optional"></a><a name="query-preload-configuration"></a>Önceden yüklenmiş eldeki sorguları açma ve yapılandırma (isteğe bağlı)
+
+Stok Görünürlüğü, periyodik olarak önceden yapılandırılmış boyutlarınıza dayalı bir dizi eldeki stok özet verileri getirir ve depolar. Bu, aşağıdaki yararları sağlar:
+
+- Yalnızca günlük işinize uygun olan boyutları içeren bir stok özetini depolayan temizleyici görünüm.
+- Ambar yönetimi işlemleri (WMS) için etkinleştirilen maddelerle uyumlu bir stok özeti.
+
+Kurduktan sonra bu özellik ile çalışma hakkında daha fazla bilgi için bkz. [Kolaylaştırılmış eldeki sorguyu ön yükleme](inventory-visibility-power-platform.md#preload-streamlined-onhand-query).
+
+> [!IMPORTANT]
+> *OnHandIndexQueryPreloadBackgroundService* özelliğini veya *OnHandMostSpecificBackgroundService* özelliğini kullanın, her ikisini değil. Her iki özelliğin de etkinleştirilmesi performansı etkiler.
+
+Özelliği ayarlamak için aşağıdaki adımları izleyin:
+
+1. Stok Görünürlüğü Power App içinde oturum açın.
+1. **Yapılandırma \> Özellik Yönetimi ve Ayarlar** bölümüne gidin.
+1. *OnHandIndexQueryPreloadBackgroundService* özelliği zaten etkinse, temizleme işleminin tamamlanması uzun sürebileceğinden, bunu şimdilik kapatmanız önerilir. Bunu yordamda daha sonra açmanız gerekir.
+1. **Önyük ayarı** sekmesini açın.
+1. **Adım 1: Ön Yük Depolamayı Temizleme** bölümünde, veri tabanını temizlemek ve yeni gruplama ayarlarını kabul etmeye hazır hale getirmek için **Temizle**'yi seçin.
+1. **2. Adım: Gruplama Ölçütü Değerleri** ayarlama bölümünde, **Grup Sonucu Ölçütü** alanına, sorgu sonuçlarını gruplamak istediğinize göre alan adlarının virgülle ayrılmış bir listesini girin. Önyükleme depolama veritabanında veri olduğunda, önceki adımda anlatıldığı gibi, veritabanını temizleyekadar bu ayarı değiştiremezsiniz.
+1. **Yapılandırma \> Özellik Yönetimi ve Ayarlar** bölümüne gidin.
+1. *OnHandIndexQueryPreloadBackgroundService* özelliğini etkinleştirin.
+1. Değişiklikleri kaydetmek için **Yapılandırma** sayfasının sağ üst köşesinde **Yapılandırmayı Güncelleştirme**'yi seçin.
 
 ## <a name="complete-and-update-the-configuration"></a>Yapılandırmayı tamamlama ve güncelleştirme
 

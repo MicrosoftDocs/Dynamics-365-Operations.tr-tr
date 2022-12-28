@@ -1164,10 +1164,12 @@
                   href: general-ledger/view-journal-entries-transactions.md
                 - name: İşlem ayrıntısı raporlu mizan
                   href: public-sector/general-ledger-public-sector-trial-balance.md
-                - name: Ana hesaba göre genel muhasebe beyanı
+                - name: Ana hesaba göre genel muhasebe kapatma
                   href: general-ledger/general-ledger-statement-by-main-account.md
                 - name: Vergi için Standart Denetim Dosyası (SAF-T) elektronik raporu
                   href: general-ledger/standard-audit-file.md
+                - name: Genel muhasebe kapatma sorgusu
+                  href: general-ledger/ledger-settlement-inquiry.md
             - name: Dönem sonu kapanışı
               items:
                 - name: Genel muhasebeyi dönem sonunda kapatma
@@ -1186,8 +1188,20 @@
                   href: general-ledger/faq-year-end-activities.md
                 - name: Genel muhasebe kapatmaları
                   href: general-ledger/ledger-settlements.md
-                - name: Genel muhasebe kapatma ile yıl sonu kapanışı arasındaki farka duyarlılık
-                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                - name: Genel muhasebe kapatma ile yıl sonu kapanışı arasındaki duyarlılık
+                  items:
+                    - name: Genel muhasebe kapatma ile yıl sonu kapanışı arasındaki duyarlılık
+                      href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                    - name: Yıl sonu kapanışından önce Genel muhasebe kapatma arasındaki duyarlılığa hazırlama
+                      href: general-ledger/ledger-settle-yec.md
+                    - name: Yıl sonu kapanışından sonra Genel muhasebe kapatma arasındaki duyarlılığa hazırlama
+                      href: general-ledger/ledger-settle-yec-after.md
+                    - name: Genel muhasebe kapatma özelliği ve raporlama para birimi arasındaki duyarlılık bakiye dışı
+                      href: general-ledger/reporting-currency-yec.md
+                    - name: Sorgu penceresi kullanılarak yıl sonu kapanışından önce Genel muhasebe kapatma arasındaki duyarlılık
+                      href: general-ledger/ledger-settlement-yec-inquiry-before.md
+                    - name: Sorgu penceresi kullanılarak yıl sonu kapanışından sonra Genel muhasebe kapatma arasındaki duyarlılık
+                      href: general-ledger/ledger-settlement-yec-inquiry-after.md
                 - name: Genel muhasebe kapatmalarını otomatikleştirme
                   href: general-ledger/auto-settle.md
                 - name: Genel muhasebe için yabancı para birimi yeniden değerleme işlemi
